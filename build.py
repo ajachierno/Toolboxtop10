@@ -51,9 +51,12 @@ def rank_products(cat):
     cap = cat.get("budget_cap", 60)
     # Badges go to ready-to-use kits (battery included), never a tool-only unit.
     kits = [p for p in ranked if p["features"].get("kit")]
-    overall = max(kits, key=lambda p: p["score"]) if kits else ranked[0]
+    # Editorial overrides (data flags) take precedence over the computed pick.
+    forced_overall = next((p for p in ranked if p.get("force_overall")), None)
+    forced_budget = next((p for p in ranked if p.get("force_budget")), None)
+    overall = forced_overall or (max(kits, key=lambda p: p["score"]) if kits else ranked[0])
     budget_pool = [p for p in kits if p["price"] <= cap] or [p for p in ranked if p["price"] <= cap]
-    budget = max(budget_pool, key=lambda p: p["score"]) if budget_pool else None
+    budget = forced_budget or (max(budget_pool, key=lambda p: p["score"]) if budget_pool else None)
     # Editorial "money no object" pick — the best regardless of price (data flag).
     premium = next((p for p in ranked if p.get("premium")), None)
     for p in ranked:
@@ -85,22 +88,32 @@ def stars(rating):
             f'aria-label="{rating} out of 5 stars"></span>')
 
 
-def spec_rows(specs):
-    labels = {
-        "voltage": "Voltage", "chuck": "Chuck", "max_rpm": "Max speed",
-        "speeds": "Transmission", "torque": "Torque", "clutch": "Clutch",
-        "battery": "Battery", "weight": "Weight",
-    }
+# Fallback schema (cordless drills / impact drivers). Categories may override via
+# "spec_fields" (card grid) and "table_columns" (comparison table) in their JSON.
+DEFAULT_SPEC_FIELDS = [
+    {"key": "voltage", "label": "Voltage"}, {"key": "chuck", "label": "Chuck"},
+    {"key": "max_rpm", "label": "Max speed"}, {"key": "speeds", "label": "Transmission"},
+    {"key": "torque", "label": "Torque"}, {"key": "clutch", "label": "Clutch"},
+    {"key": "battery", "label": "Battery"}, {"key": "weight", "label": "Weight"},
+]
+DEFAULT_TABLE_COLUMNS = [
+    {"key": "voltage", "label": "Voltage"}, {"key": "max_rpm", "label": "Max speed"},
+    {"key": "chuck", "label": "Chuck"}, {"key": "brushless", "label": "Brushless", "type": "bool"},
+]
+
+
+def spec_rows(specs, fields):
     out = []
-    for k, label in labels.items():
-        v = specs.get(k)
+    for f in fields:
+        key, label = f["key"], f["label"]
+        v = specs.get(key)
         if v is None or v == "":
             v = "&mdash;"
-        elif k == "max_rpm":
+        elif key == "max_rpm" and isinstance(v, (int, float)):
             v = f"{v:,} rpm"
         else:
             v = esc(v)
-        out.append(f'<div class="spec"><dt>{label}</dt><dd>{v}</dd></div>')
+        out.append(f'<div class="spec"><dt>{esc(label)}</dt><dd>{v}</dd></div>')
     return "\n".join(out)
 
 
@@ -123,7 +136,7 @@ def render_hero_card(p, site, cat):
     </a>"""
 
 
-def render_card(p, site):
+def render_card(p, site, spec_fields):
     url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
     badge = (f'<span class="badge {esc(p["badge_kind"])}">{esc(p["badge"])}</span>'
              if p["badge"] else "")
@@ -150,7 +163,7 @@ def render_card(p, site):
         </div>
       </div>
       <p class="verdict">{esc(p['verdict'])}</p>
-      <dl class="specs">{spec_rows(p['specs'])}</dl>
+      <dl class="specs">{spec_rows(p['specs'], spec_fields)}</dl>
       <div class="pc">
         <div class="pros"><h4>Pros</h4><ul>{pros}</ul></div>
         <div class="cons"><h4>Cons</h4><ul>{cons}</ul></div>
@@ -158,23 +171,34 @@ def render_card(p, site):
     </article>"""
 
 
-def render_table(ranked, avoid, site):
-    head = ("<tr><th>#</th><th>Tool</th><th>Price</th><th>Rating</th>"
-            "<th>Reviews</th><th>Voltage</th><th>Max speed</th><th>Chuck</th>"
-            "<th>Brushless</th><th>Score</th></tr>")
+def _table_cell(p, col):
+    key = col["key"]
+    if col.get("type") == "bool":
+        return "Yes" if p["features"].get(key) else "No"
+    v = p["specs"].get(key)
+    if v is None or v == "":
+        return "&mdash;"
+    if key == "max_rpm" and isinstance(v, (int, float)):
+        return f"{v:,}"
+    return esc(v)
+
+
+def render_table(ranked, avoid, site, columns):
+    heads = "".join(f"<th>{esc(c['label'])}</th>" for c in columns)
+    head = (f"<tr><th>#</th><th>Tool</th><th>Price</th><th>Rating</th>"
+            f"<th>Reviews</th>{heads}<th>Score</th></tr>")
     rows = []
     for p in ranked:
-        rpm = f'{p["specs"]["max_rpm"]:,}' if p["specs"].get("max_rpm") else "&mdash;"
+        cells = "".join(
+            f'<td class="{"c" if c.get("type") == "bool" else ""}">{_table_cell(p, c)}</td>'
+            for c in columns)
         rows.append(
             f'<tr><td class="c">{p["rank"]}</td>'
             f'<td><a href="#{p["asin"]}">{esc(p["brand"])} {esc(p["model"])}</a></td>'
             f'<td>{money(p["price"])}</td>'
             f'<td class="c">{p["rating"]}</td>'
             f'<td class="c">{p["reviews_count"]:,}</td>'
-            f'<td>{esc(p["specs"].get("voltage") or "&mdash;")}</td>'
-            f'<td>{rpm}</td>'
-            f'<td>{esc(p["specs"].get("chuck") or "&mdash;")}</td>'
-            f'<td class="c">{"Yes" if p["features"]["brushless"] else "No"}</td>'
+            f'{cells}'
             f'<td class="c"><b>{p["score"]}</b></td></tr>')
     for a in avoid:
         rows.append(
@@ -183,7 +207,7 @@ def render_table(ranked, avoid, site):
             f'<td>{money(a["price"])}</td>'
             f'<td class="c">{a["rating"]}</td>'
             f'<td class="c">{a["reviews_count"]:,}</td>'
-            f'<td class="c" colspan="4">{esc(a.get("flag", "Avoid"))}</td>'
+            f'<td class="c" colspan="{len(columns)}">{esc(a.get("flag", "Avoid"))}</td>'
             f'<td class="c"><b>AVOID</b></td></tr>')
     return f'<div class="tablewrap"><table>{head}{"".join(rows)}</table></div>'
 
@@ -267,8 +291,10 @@ def build_category(site, filename):
     cat = load(filename)
     ranked, overall, budget, premium = rank_products(cat)
     avoid = cat.get("avoid", [])
+    spec_fields = cat.get("spec_fields") or DEFAULT_SPEC_FIELDS
+    columns = cat.get("table_columns") or DEFAULT_TABLE_COLUMNS
     heroes = "".join(render_hero_card(p, site, cat) for p in (overall, budget, premium) if p)
-    cards = "".join(render_card(p, site) for p in ranked)
+    cards = "".join(render_card(p, site, spec_fields) for p in ranked)
     body = f"""
   <section class="lead">
     <h1>{esc(cat['title'])}</h1>
@@ -278,7 +304,7 @@ def build_category(site, filename):
   <section class="heroes">{heroes}</section>
   <section class="compare">
     <h2>Side-by-side comparison</h2>
-    {render_table(ranked, avoid, site)}
+    {render_table(ranked, avoid, site, columns)}
   </section>
   <section class="ranked">
     <h2>The full ranking</h2>
@@ -286,12 +312,13 @@ def build_category(site, filename):
   </section>
   <section class="howwerank">
     <h2>How we rank</h2>
-    <p>Every drill gets one score from 0 to 100, weighted
+    <p>Every tool gets one score from 0 to 100, weighted
     {int(cat['weights']['rating']*100)}% on its star rating,
     {int(cat['weights']['reviews']*100)}% on how many people have reviewed it (more reviews = more
-    confidence the rating is real), and {int(cat['weights']['features']*100)}% on features like a
-    brushless motor, two-speed gearbox, LED light, and a second battery. <b>Best Overall</b> is the
-    highest score. <b>Best Budget</b> is the highest score at or under ${cat['budget_cap']}.</p>
+    confidence the rating is real), and {int(cat['weights']['features']*100)}% on the features that
+    matter for the job. The list is ordered by that score. <b>Best Overall</b> is our pick for the
+    best all-around, ready-to-use tool; <b>Best Budget</b> the best value at or under
+    ${cat['budget_cap']}; and <b>Money No Object</b> the one to buy if price is no object.</p>
   </section>
   <section class="guide">
     <h2>Buyer's guide</h2>
@@ -342,6 +369,19 @@ def main():
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     cats = [build_category(site, f"{c['slug']}.json") for c in site["categories"]]
     build_home(site, cats)
+    # sitemap.xml + robots.txt (SEO / Search Console)
+    if site.get("custom_domain"):
+        base = f"https://{site['custom_domain']}"
+        urls = [f"{base}/"] + [f"{base}/{c['slug']}.html" for c in site["categories"]]
+        lastmod = site["updated"]
+        entries = "\n".join(
+            f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod></url>" for u in urls)
+        (OUT / "sitemap.xml").write_text(
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+            f"{entries}\n</urlset>\n", encoding="utf-8")
+        (OUT / "robots.txt").write_text(
+            f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
     print(f"Built {len(cats)} category page(s) + home into {OUT}")
     for cat, overall, budget in cats:
         print(f"  {cat['slug']}: Best Overall = {overall['brand']} {overall['model']} "
