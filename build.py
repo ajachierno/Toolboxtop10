@@ -54,12 +54,20 @@ def rank_products(cat):
     overall = max(kits, key=lambda p: p["score"]) if kits else ranked[0]
     budget_pool = [p for p in kits if p["price"] <= cap] or [p for p in ranked if p["price"] <= cap]
     budget = max(budget_pool, key=lambda p: p["score"]) if budget_pool else None
+    # Editorial "money no object" pick — the best regardless of price (data flag).
+    premium = next((p for p in ranked if p.get("premium")), None)
     for p in ranked:
         p["badge"] = None
+        p["badge_kind"] = None
     overall["badge"] = "Best Overall"
+    overall["badge_kind"] = "overall"
     if budget and budget is not overall:
         budget["badge"] = "Best Budget"
-    return ranked, overall, budget
+        budget["badge_kind"] = "budget"
+    if premium and premium is not overall and premium is not budget:
+        premium["badge"] = "Money No Object"
+        premium["badge_kind"] = "premium"
+    return ranked, overall, budget, premium
 
 
 # --------------------------------------------------------------------------- helpers
@@ -100,7 +108,7 @@ def spec_rows(specs):
 def render_hero_card(p, site, cat):
     url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
     return f"""
-    <a class="hero-card {'overall' if p['badge']=='Best Overall' else 'budget'}"
+    <a class="hero-card {esc(p['badge_kind'])}"
        href="{url}" target="_blank" rel="sponsored nofollow noopener">
       <span class="hero-tag">{esc(p['badge'])}</span>
       <img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy">
@@ -117,7 +125,8 @@ def render_hero_card(p, site, cat):
 
 def render_card(p, site):
     url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
-    badge = f'<span class="badge">{esc(p["badge"])}</span>' if p["badge"] else ""
+    badge = (f'<span class="badge {esc(p["badge_kind"])}">{esc(p["badge"])}</span>'
+             if p["badge"] else "")
     pros = "\n".join(f"<li>{esc(x)}</li>" for x in p["pros"])
     cons = "\n".join(f"<li>{esc(x)}</li>" for x in p["cons"])
     return f"""
@@ -256,9 +265,9 @@ def page(site, title, body, is_home=False):
 
 def build_category(site, filename):
     cat = load(filename)
-    ranked, overall, budget = rank_products(cat)
+    ranked, overall, budget, premium = rank_products(cat)
     avoid = cat.get("avoid", [])
-    heroes = "".join(render_hero_card(p, site, cat) for p in (overall, budget) if p)
+    heroes = "".join(render_hero_card(p, site, cat) for p in (overall, budget, premium) if p)
     cards = "".join(render_card(p, site) for p in ranked)
     body = f"""
   <section class="lead">
@@ -343,13 +352,13 @@ def main():
 CSS = r"""
 :root{
   --bg:#f6f7f9; --card:#fff; --ink:#14181f; --muted:#697386; --line:#e4e7ec;
-  --brand:#f4820b; --brand-ink:#b45c00; --overall:#1a7f4b; --budget:#2563c9;
+  --brand:#f4820b; --brand-ink:#b45c00; --overall:#1a7f4b; --budget:#2563c9; --premium:#7c3aed;
   --star:#f5a623; --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px rgba(16,24,40,.06);
   --radius:14px; --max:1060px;
 }
 @media (prefers-color-scheme:dark){
   :root{--bg:#0f1319;--card:#171c24;--ink:#e9edf3;--muted:#94a0b3;--line:#252c37;
-    --brand:#ff9526;--brand-ink:#ffb35a;--overall:#37c07d;--budget:#5b9bff;--shadow:0 8px 24px rgba(0,0,0,.35);}
+    --brand:#ff9526;--brand-ink:#ffb35a;--overall:#37c07d;--budget:#5b9bff;--premium:#a78bfa;--shadow:0 8px 24px rgba(0,0,0,.35);}
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);
@@ -376,15 +385,17 @@ header.site{max-width:var(--max);margin:0 auto;padding:20px;display:flex;align-i
   -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17.6' height='16' viewBox='0 0 20 20'%3E%3Cpath d='M10 1l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9 4.8 17.6l1-5.8L1.5 7.7l5.9-.9z'/%3E%3C/svg%3E");
   mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='17.6' height='16' viewBox='0 0 20 20'%3E%3Cpath d='M10 1l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9 4.8 17.6l1-5.8L1.5 7.7l5.9-.9z'/%3E%3C/svg%3E")}
 /* hero cards */
-.heroes{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:14px}
-.hero-card{display:flex;gap:16px;background:var(--card);border-radius:var(--radius);
+.heroes{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:14px}
+.hero-card{display:flex;gap:14px;background:var(--card);border-radius:var(--radius);
   box-shadow:var(--shadow);padding:18px;border-top:4px solid var(--overall);position:relative;transition:transform .1s}
 .hero-card.budget{border-top-color:var(--budget)}
+.hero-card.premium{border-top-color:var(--premium)}
 .hero-card:hover{transform:translateY(-2px)}
-.hero-card img{width:120px;height:120px;object-fit:contain;flex:none;background:#fff;border-radius:10px}
+.hero-card img{width:104px;height:104px;object-fit:contain;flex:none;background:#fff;border-radius:10px}
 .hero-tag{position:absolute;top:-11px;left:16px;background:var(--overall);color:#fff;
   font-size:.72rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:3px 10px;border-radius:20px}
 .hero-card.budget .hero-tag{background:var(--budget)}
+.hero-card.premium .hero-tag{background:var(--premium)}
 .hero-brand{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
 .hero-name{font-weight:700;margin:2px 0 6px}
 .hero-meta b{margin-left:4px}
@@ -412,7 +423,10 @@ table a{color:var(--budget);font-weight:600}
 .rate b{margin:0 4px 0 6px}
 .badge{display:inline-block;background:var(--overall);color:#fff;font-size:.7rem;font-weight:700;
   text-transform:uppercase;letter-spacing:.03em;padding:2px 9px;border-radius:20px}
+.badge.budget{background:var(--budget)} .badge.premium{background:var(--premium)}
 .card:has(.badge) .rank{background:var(--overall)}
+.card:has(.badge.budget) .rank{background:var(--budget)}
+.card:has(.badge.premium) .rank{background:var(--premium)}
 .scorebar{position:relative;height:8px;background:var(--line);border-radius:6px;margin:12px 0 0;max-width:280px}
 .scorebar span{position:absolute;left:0;top:0;bottom:0;background:var(--brand);border-radius:6px}
 .scorebar em{position:absolute;right:-2px;top:12px;font-size:.75rem;color:var(--muted);font-style:normal}

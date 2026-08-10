@@ -27,6 +27,7 @@
     },
     {
       "asin": "B0BQCWH5KF",
+      "premium": true,
       "name": "DEWALT DCF845B 20V MAX XR 3-Speed Impact Driver (tool only)",
       "brand": "DEWALT",
       "model": "DCF845B",
@@ -168,6 +169,26 @@
       "verdict": "The budget floor with a real battery. Lowest price here, and it still ships with a 2.0Ah pack and 1,593 in-lbs — enough for furniture, decks, and light framing.",
       "pros": ["Cheapest impact driver on the list", "Ships with a 2.0Ah battery and charger", "1,593 in-lbs, LED, 3,000 IPM"],
       "cons": ["Brushed motor", "Generic brand with a short track record", "Single speed, single battery"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DQCRJ1DT",
+      "name": "GEVEELIFE 450 N·m 1/2\" Impact Wrench",
+      "brand": "GEVEELIFE",
+      "model": "450N",
+      "image": "https://m.media-amazon.com/images/I/81HgLDkByUL._AC_SX425_.jpg",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviews_count": 284,
+      "flag": "An impact wrench, not an impact driver",
+      "verdict": "This isn't an impact driver at all — it's a 1/2-inch impact wrench for lug nuts and bolts, with \"impact driver\" jammed into the title to catch your search. Wrong tool for driving screws.",
+      "reasons": [
+        "It's an impact wrench, not an impact driver. The business end is a 1/2-inch square drive for sockets (lug nuts, bolts) — not the 1/4-inch hex that holds screwdriver and drill bits. Your impact-driver bits won't fit it.",
+        "450 N·m (332 ft-lbs) is automotive torque, built for lug nuts and heavy bolts. Point that at a wood screw and you'll snap the screw or strip the head instantly.",
+        "The listing calls itself an \"impact driver,\" an \"impact wrench,\" and an \"impact gun\" on the same page to show up in every search. When a product can't decide what it is, it's fishing for the wrong buyer.",
+        "If you genuinely need to pull lug nuts or big bolts, an impact wrench is the right tool — but that's a different job from everything else on this list, which drives screws and fasteners."
+      ]
     }
   ],
   "buyers_guide": [

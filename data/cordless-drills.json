@@ -2,7 +2,7 @@
   "slug": "cordless-drills",
   "title": "The 10 Best Cordless Drills",
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
-  "intro": "We pulled the best-selling cordless drills on Amazon, then scored each one on a single 100-point scale built from its star rating, how many people have reviewed it, its value for the price, and its feature set. Two batteries or one, brushless or brushed, heavy-duty or grab-and-go — here is where each lands, plus the one to buy if you want the safest pick and the one to buy if you want to spend the least.",
+  "intro": "We pulled the best-selling cordless drills on Amazon, then scored each one on a single 100-point scale built from its star rating, how many people have reviewed it, its value for the price, and its feature set. Two batteries or one, brushless or brushed, heavy-duty or grab-and-go — here is where each lands, plus the one to buy for the safest all-round pick, the one to buy to spend the least, and the one to buy if price is no object.",
   "data_captured": "2026-08-09",
   "budget_cap": 60,
   "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.20 },
@@ -27,6 +27,7 @@
     },
     {
       "asin": "B0C3TGRLLM",
+      "premium": true,
       "name": "DEWALT DCD777D1 20V MAX Brushless Drill/Driver",
       "brand": "DEWALT",
       "model": "DCD777D1",
