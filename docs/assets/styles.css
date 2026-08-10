@@ -1,6 +1,6 @@
 
 :root{
-  --bg:#08090c; --card:#14181f; --card-2:#1b2029; --ink:#eaeef4; --muted:#9aa6b7; --line:#282f3a;
+  --bg:#000000; --card:#14181f; --card-2:#1b2029; --ink:#eaeef4; --muted:#9aa6b7; --line:#282f3a;
   --brand:#ff9526; --brand-ink:#ffb35a; --overall:#37c07d; --budget:#5b9bff; --premium:#a78bfa;
   --star:#f5a623; --shadow:0 1px 2px rgba(0,0,0,.5),0 12px 34px rgba(0,0,0,.55);
   --radius:14px; --max:1060px;
@@ -14,8 +14,9 @@ h1{font-size:2.1rem;line-height:1.15;margin:.2em 0}
 h2{font-size:1.5rem;margin:2.2rem 0 1rem}
 .muted{color:var(--muted)} .tiny{font-size:.8rem} .c{text-align:center}
 /* header */
-header.site{max-width:var(--max);margin:0 auto;padding:20px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
-.logo{font-weight:800;font-size:1.35rem;color:var(--brand)}
+header.site{max-width:var(--max);margin:0 auto;padding:16px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.logo{display:inline-flex;align-items:center;line-height:0}
+.logo img{height:56px;width:auto;max-width:72vw;display:block}
 .slogan{color:var(--muted);font-size:.95rem}
 .notice{max-width:var(--max);margin:0 auto 8px;padding:8px 20px;color:var(--brand-ink);font-size:.85rem}
 /* lead */
