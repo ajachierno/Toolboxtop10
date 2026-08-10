@@ -1,0 +1,166 @@
+{
+  "slug": "cordless-oscillating-tools",
+  "title": "The 10 Best Cordless Oscillating Tools",
+  "subtitle": "Battery-powered multi-tools ranked from live Amazon data — flush cuts, plunge cuts, sanding, scraping.",
+  "intro": "An oscillating multi-tool vibrates a blade side to side thousands of times a minute, which makes it the one tool that can flush-cut a door jamb, plunge-cut a drywall patch, scrape old caulk, or sand into a corner. Cordless models let you do all that anywhere. Most of the best sell as a bare tool (no battery), so check whether a pick is a bare tool or a ready-to-use kit, and which battery platform it rides. One tip: buy a tool that takes standard/universal blades so you're not locked into one brand's accessories.",
+  "data_captured": "2026-08-10",
+  "budget_cap": 70,
+  "weights": { "rating": 0.50, "reviews": 0.35, "features": 0.15 },
+  "feature_weights": { "kit": 0.30, "brushless": 0.25, "variable_speed": 0.20, "tool_free": 0.15, "accessories": 0.10 },
+  "reviews_ceiling": 60000,
+  "spec_fields": [
+    { "key": "type", "label": "Type" }, { "key": "power", "label": "Battery" },
+    { "key": "oscillation", "label": "Oscillation" }, { "key": "opm", "label": "Speed" },
+    { "key": "accessories", "label": "Accessories" }
+  ],
+  "table_columns": [
+    { "key": "power", "label": "Battery" }, { "key": "opm", "label": "Speed" },
+    { "key": "accessories", "label": "Accessories" }, { "key": "kit", "label": "Kit", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07VBB55X5", "force_overall": true,
+      "name": "DEWALT DCS356B 20V MAX XR Brushless Oscillating Tool (tool only)",
+      "brand": "DEWALT", "model": "DCS356B",
+      "image": "https://m.media-amazon.com/images/I/61DExRdcCRL._AC_SX425_.jpg",
+      "price": 99.99, "rating": 4.8, "reviews_count": 14300, "bought": "3K+/mo",
+      "specs": { "type": "Cordless", "power": "20V MAX", "oscillation": null, "opm": "0-20,000 OPM", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "variable_speed": true, "tool_free": true, "accessories": false },
+      "verdict": "The best cordless multi-tool, and it's not close — 14,000+ reviews at 4.8 stars. A brushless, 3-speed DEWALT that takes standard blades and rides the huge 20V MAX platform. Bare tool, so add a battery.",
+      "pros": ["14,300 reviews at 4.8 stars", "Brushless, 3-speed, tool-free blade change", "Runs on the massive DEWALT 20V MAX lineup"],
+      "cons": ["Tool only — no battery or charger", "Pricey once you add a battery if you're new to DEWALT"]
+    },
+    {
+      "asin": "B0CZP39W53", "force_budget": true,
+      "name": "AVID POWER 20V Cordless Oscillating Tool Kit",
+      "brand": "AVID POWER", "model": "20V Kit",
+      "image": "https://m.media-amazon.com/images/I/719FX+c2PaL._AC_SX425_.jpg",
+      "price": 61.98, "rating": 4.5, "reviews_count": 3900, "bought": "1K+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "oscillation": null, "opm": null, "accessories": "Included" },
+      "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": true },
+      "verdict": "The value pick — a complete cordless kit with a battery, charger, and blades for around $60, backed by nearly 4,000 reviews. Ready to cut out of the box, no platform required.",
+      "pros": ["Battery, charger, and accessories included", "3,900 reviews at 4.5 stars", "Variable speed, tool-free blade change"],
+      "cons": ["Off-brand battery with no wider ecosystem", "Not brushless"]
+    },
+    {
+      "asin": "B085B253MD", "premium": true,
+      "name": "DEWALT DCS356 20V MAX XR Oscillating Tool 3-Speed Kit",
+      "brand": "DEWALT", "model": "DCS356 Kit",
+      "image": "https://m.media-amazon.com/images/I/81Q8G3zu0yL._AC_SX425_.jpg",
+      "price": 139.00, "rating": 4.8, "reviews_count": 12500, "bought": "2K+/mo",
+      "specs": { "type": "Cordless", "power": "20V MAX", "oscillation": null, "opm": "0-20,000 OPM", "accessories": "Battery, charger, blades" },
+      "features": { "kit": true, "brushless": true, "variable_speed": true, "tool_free": true, "accessories": true },
+      "verdict": "The same class-leading DEWALT, fully loaded: brushless 3-speed tool with a battery, charger, and a set of blades in the box. If money's no object, this is the one to own outright.",
+      "pros": ["Everything included — battery, charger, blades", "Brushless, 3-speed, 12,500 reviews at 4.8 stars", "No platform to buy into first"],
+      "cons": ["Most expensive here", "Overkill if you already own DEWALT batteries (get the bare tool)"]
+    },
+    {
+      "asin": "B092RM6HJF",
+      "name": "CRAFTSMAN V20 Cordless Oscillating Tool Kit",
+      "brand": "CRAFTSMAN", "model": "V20 Kit",
+      "image": "https://m.media-amazon.com/images/I/7100vVh4fEL._AC_SX425_.jpg",
+      "price": 114.00, "rating": 4.7, "reviews_count": 899, "bought": "300+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "oscillation": null, "opm": null, "accessories": "Battery, charger, blades" },
+      "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": true },
+      "verdict": "A complete name-brand kit on the CRAFTSMAN V20 platform. Battery, charger, and blades included, with a tool-free blade change and solid 4.7-star reviews.",
+      "pros": ["Ready-to-use V20 kit with blades", "Tool-free blade change, 4.7 stars", "Shares batteries with CRAFTSMAN V20 tools"],
+      "cons": ["Not brushless", "Pricier than the AVID kit"]
+    },
+    {
+      "asin": "B08FDBQHPH",
+      "name": "WORX 20V Sonicrafter Cordless Oscillating Tool (2 batteries)",
+      "brand": "WORX", "model": "WX696L",
+      "image": "https://m.media-amazon.com/images/I/51MuYFmJsnL._AC_SX425_.jpg",
+      "price": 67.40, "rating": 4.7, "reviews_count": 512, "bought": "200+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "oscillation": null, "opm": null, "accessories": "2 batteries + blades" },
+      "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": true },
+      "verdict": "The Sonicrafter ships with two batteries, so you're never waiting on a charge. A capable, well-rated multi-tool on the WORX Power Share platform for under $70.",
+      "pros": ["Two batteries in the box", "4.7 stars, tool-free blade change", "WORX Power Share 20V platform"],
+      "cons": ["Smaller review base", "Not brushless"]
+    },
+    {
+      "asin": "B08JWL1PBV",
+      "name": "Milwaukee M12 FUEL Brushless Oscillating Tool (tool only)",
+      "brand": "Milwaukee", "model": "2526-20",
+      "image": "https://m.media-amazon.com/images/I/41wGnZoUQeL._AC_SX425_.jpg",
+      "price": 129.39, "rating": 4.6, "reviews_count": 365, "bought": "200+/mo",
+      "specs": { "type": "Cordless", "power": "12V M12", "oscillation": null, "opm": null, "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "variable_speed": true, "tool_free": true, "accessories": false },
+      "verdict": "The compact pro pick. M12 FUEL is a brushless, surprisingly powerful 12V tool that fits into tight spots — ideal if you're already on Milwaukee M12. Bare tool.",
+      "pros": ["Brushless power in a compact 12V body", "Great in tight spaces, 4.6 stars", "Milwaukee M12 platform"],
+      "cons": ["Tool only — no battery or charger", "12V has less runtime than 18/20V"]
+    },
+    {
+      "asin": "B0B11CJ52Y",
+      "name": "RYOBI ONE+ 18V Cordless Oscillating Multi-Tool (tool only)",
+      "brand": "RYOBI", "model": "PCL430B",
+      "image": "https://m.media-amazon.com/images/I/51w007uMfeL._AC_SX425_.jpg",
+      "price": 54.00, "rating": 4.4, "reviews_count": 1700, "bought": "500+/mo",
+      "specs": { "type": "Cordless", "power": "18V ONE+", "oscillation": null, "opm": null, "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": false },
+      "verdict": "The pick if you're on RYOBI ONE+. A simple, well-priced multi-tool with tool-free blade change and 1,700 reviews — just add a ONE+ battery.",
+      "pros": ["Cheap entry on the huge RYOBI ONE+ platform", "Tool-free blade change, 4.4 stars", "1,700 reviews"],
+      "cons": ["Tool only — no battery or charger", "Not brushless"]
+    },
+    {
+      "asin": "B088GWJYV9",
+      "name": "KIMO 20V Cordless Oscillating Tool Kit (26 accessories)",
+      "brand": "KIMO", "model": "20V Kit",
+      "image": "https://m.media-amazon.com/images/I/71Yo9M-Qb2L._AC_SX425_.jpg",
+      "price": 69.99, "rating": 4.3, "reviews_count": 2200, "bought": "300+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "oscillation": null, "opm": "Max 21,000 OPM", "accessories": "26 pieces + battery" },
+      "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": true },
+      "verdict": "A loaded budget kit — battery, charger, and 26 accessories for around $70, with 2,200 reviews behind it. A lot of tool and blades for a first multi-tool.",
+      "pros": ["Battery plus 26 accessories included", "2,200 reviews, 6 variable speeds", "Ready to use out of the box"],
+      "cons": ["Off-brand battery, no ecosystem", "Not brushless"]
+    },
+    {
+      "asin": "B07KKH88YK",
+      "name": "CRAFTSMAN V20 CMCE500B Oscillating Tool (tool only)",
+      "brand": "CRAFTSMAN", "model": "CMCE500B",
+      "image": "https://m.media-amazon.com/images/I/71djj9y2+EL._AC_SX425_.jpg",
+      "price": 68.78, "rating": 4.6, "reviews_count": 584, "bought": "200+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "oscillation": null, "opm": null, "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": false },
+      "verdict": "The bare-tool version of the CRAFTSMAN V20 multi-tool — grab it if you already own V20 batteries. Tool-free blade change and a universal accessory fit.",
+      "pros": ["Cheaper bare-tool option on V20", "Universal tool-free blade change, 4.6 stars", "Shares V20 batteries"],
+      "cons": ["Tool only — no battery or charger", "Not brushless"]
+    },
+    {
+      "asin": "B0C4HVZRMJ",
+      "name": "DIYtoolifz Oscillating Tool for DEWALT 20V Battery (tool only)",
+      "brand": "DIYtoolifz", "model": "For DEWALT 20V",
+      "image": "https://m.media-amazon.com/images/I/61pQZdqbjvL._AC_SX425_.jpg",
+      "price": 39.99, "rating": 4.3, "reviews_count": 745, "bought": "300+/mo",
+      "specs": { "type": "Cordless", "power": "DEWALT 20V", "oscillation": null, "opm": null, "accessories": "Blades incl." },
+      "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": true },
+      "verdict": "The cheapest way to add a multi-tool if you already own DEWALT 20V batteries — it clamps onto your DEWALT packs. A third-party tool, not a DEWALT, but well-reviewed for the price.",
+      "pros": ["Runs on DEWALT 20V batteries you may already own", "Comes with blades, 745 reviews", "Under $40"],
+      "cons": ["Third-party tool — no DEWALT warranty or support", "Not brushless"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0G7XHB48V",
+      "name": "No-name \"Brushless\" 20V Oscillating Tool for DEWALT Battery",
+      "brand": "Generic", "model": "20V",
+      "image": "https://m.media-amazon.com/images/I/71-RyVlTqmL._AC_SX425_.jpg",
+      "price": 52.99, "rating": 3.5, "reviews_count": 8,
+      "flag": "Lowest-rated no-name that only borrows DEWALT's battery",
+      "verdict": "A no-name tool that clamps onto DEWALT batteries to look legit, priced like a real one, and carrying the lowest rating in the category at 3.5 stars. Skip it for a named brand.",
+      "reasons": [
+        "It's a generic tool with no brand behind it — no warranty, no support, and listings like this vanish and reappear under new names. The DEWALT battery mount is borrowed, not an endorsement.",
+        "At 3.5 stars it's the lowest-rated oscillating tool here — buyers report weak power and rough blade clamps.",
+        "For about the same money the AVID kit or the CRAFTSMAN V20 bare tool give you a real brand and a proven track record.",
+        "If you own DEWALT batteries and want the cheapest add-on, the DIYtoolifz above is the better-reviewed pick."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "What is an oscillating tool for?", "a": "It vibrates a blade side to side very fast, which lets it flush-cut trim and door jambs, plunge-cut drywall and flooring, scrape caulk and adhesive, and sand into corners. It's the do-a-bit-of-everything tool, especially for remodeling and repairs." },
+    { "q": "Bare tool or kit?", "a": "A bare tool ships with no battery or charger — great if you already own the brand's packs, useless out of the box if you don't. A kit includes a battery, charger, and usually blades. Each pick above says which." },
+    { "q": "Do the blades fit any brand?", "a": "Look for a 'universal' or tool-free interface that accepts standard OIS/universal blades. Most modern tools (DEWALT, CRAFTSMAN, RYOBI) do. Avoid tools that only take proprietary blades — you'll pay more for accessories forever." },
+    { "q": "Brushless or brushed?", "a": "Brushless motors run cooler, last longer, and hold speed under load — worth it if you'll use the tool often. For occasional trim and repair work, a brushed tool like the AVID kit is fine." },
+    { "q": "Which battery platform?", "a": "Buy on the same platform as tools you already own (DEWALT 20V MAX, CRAFTSMAN V20, RYOBI ONE+, Milwaukee M12) so one battery lineup covers everything. If you own nothing yet, a self-contained kit like the AVID or KIMO avoids the platform lock-in." }
+  ]
+}
