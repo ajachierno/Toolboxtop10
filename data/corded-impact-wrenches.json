@@ -1,0 +1,166 @@
+{
+  "slug": "corded-impact-wrenches",
+  "title": "The 10 Best Corded Impact Wrenches",
+  "subtitle": "Wired impact wrenches ranked from live Amazon data — the corded impact tool for lug nuts and bolts.",
+  "intro": "Quick note on names: there is no such thing as a corded impact driver — the impact-driver format (1/4-inch hex, for screws) is inherently cordless. The corded impact tool that actually exists is the impact wrench: a 1/2-inch square drive that spins sockets to break loose and tighten lug nuts, suspension bolts, and rusted hardware. This list covers electric corded impact wrenches — the ones that plug into a wall outlet (120V) or a car's 12V socket. If you want to drive screws, you want an impact driver from the cordless list; if you want to wrench on a car without an air compressor, you're in the right place.",
+  "data_captured": "2026-08-10",
+  "budget_cap": 55,
+  "weights": { "rating": 0.50, "reviews": 0.35, "features": 0.15 },
+  "feature_weights": { "kit": 0.40, "heavy_duty": 0.35, "forward_reverse": 0.25 },
+  "reviews_ceiling": 60000,
+  "spec_fields": [
+    { "key": "type", "label": "Type" }, { "key": "power", "label": "Power" },
+    { "key": "drive", "label": "Drive" }, { "key": "torque", "label": "Max torque" },
+    { "key": "max_rpm", "label": "Speed" }
+  ],
+  "table_columns": [
+    { "key": "type", "label": "Type" }, { "key": "power", "label": "Power" },
+    { "key": "drive", "label": "Drive" }, { "key": "torque", "label": "Max torque" }
+  ],
+  "products": [
+    {
+      "asin": "B07255QCN4", "force_overall": true,
+      "name": "PORTER-CABLE PCE211 1/2\" Corded Impact Wrench (450 ft-lbs)",
+      "brand": "PORTER-CABLE", "model": "PCE211",
+      "image": "https://m.media-amazon.com/images/I/71IqXBAcNwL._AC_SX425_.jpg",
+      "price": 105.99, "rating": 4.6, "reviews_count": 5800, "bought": "500+/mo",
+      "specs": { "type": "Corded (AC)", "power": "7.5 amp", "drive": "1/2 in", "torque": "450 ft-lbs", "max_rpm": "0-2,200 rpm" },
+      "features": { "kit": true, "heavy_duty": true, "forward_reverse": true },
+      "verdict": "The best corded impact wrench, and it's not close — 5,800 reviews at 4.6 stars. 450 ft-lbs from a wall outlet, a hog-ring anvil for fast socket changes, and PORTER-CABLE build. No compressor, no batteries, just plug in and break bolts loose.",
+      "pros": ["5,800 reviews at 4.6 stars — the proven pick", "450 ft-lbs of torque from a wall outlet", "Hog-ring anvil for quick socket swaps"],
+      "cons": ["Corded — you need an outlet nearby", "Heavier than a cordless impact wrench"]
+    },
+    {
+      "asin": "B08K9MRX8Q", "force_budget": true,
+      "name": "Eastvolt 800W 7.5-Amp Corded Impact Wrench",
+      "brand": "Eastvolt", "model": "800W",
+      "image": "https://m.media-amazon.com/images/I/71KrWYdDWoL._AC_SX425_.jpg",
+      "price": 49.99, "rating": 4.2, "reviews_count": 1100, "bought": "300+/mo",
+      "specs": { "type": "Corded (AC)", "power": "7.5 amp / 800W", "drive": "1/2 in", "torque": null, "max_rpm": "0-2,100 rpm" },
+      "features": { "kit": true, "heavy_duty": true, "forward_reverse": true },
+      "verdict": "The value pick — a genuine 7.5-amp corded impact wrench for around $50, with 1,100 reviews. Not as refined as the PORTER-CABLE, but it plugs into the wall and breaks loose lug nuts for half the price.",
+      "pros": ["Full 7.5-amp / 800W motor for about $50", "1,100 reviews", "Forward and reverse for on and off"],
+      "cons": ["4.2 stars — a step below the PORTER-CABLE", "Off-brand support"]
+    },
+    {
+      "asin": "B07QH3MBQ2", "premium": true,
+      "name": "CRAFTSMAN CMEF901 7.5-Amp 1/2\" Corded Impact Wrench",
+      "brand": "CRAFTSMAN", "model": "CMEF901",
+      "image": "https://m.media-amazon.com/images/I/61qQQXonwDL._AC_SX425_.jpg",
+      "price": 166.75, "rating": 4.5, "reviews_count": 713, "bought": "100+/mo",
+      "specs": { "type": "Corded (AC)", "power": "7.5 amp", "drive": "1/2 in", "torque": null, "max_rpm": "0-2,100 rpm" },
+      "features": { "kit": true, "heavy_duty": true, "forward_reverse": true },
+      "verdict": "The name-brand splurge. A 7.5-amp CRAFTSMAN with a refined feel, a hog-ring anvil, and the brand's reputation behind it. Priciest here, but the one to buy if money is no object and you want a CRAFTSMAN.",
+      "pros": ["CRAFTSMAN build and warranty, 4.5 stars", "7.5-amp corded motor", "Hog-ring anvil, forward/reverse"],
+      "cons": ["Most expensive on the list", "Similar power to cheaper corded wrenches"]
+    },
+    {
+      "asin": "B0038KNJQ6",
+      "name": "Wagan EL2257 12V DC 1/2\" Impact Wrench (automotive)",
+      "brand": "Wagan", "model": "EL2257",
+      "image": "https://m.media-amazon.com/images/I/71OhnSLntuL._AC_SX425_.jpg",
+      "price": 84.95, "rating": 4.1, "reviews_count": 1300, "bought": "200+/mo",
+      "specs": { "type": "Corded (12V DC)", "power": "12V DC", "drive": "1/2 in", "torque": null, "max_rpm": null },
+      "features": { "kit": true, "heavy_duty": false, "forward_reverse": true },
+      "verdict": "A roadside impact wrench that runs off your car's 12V socket — perfect for the trunk when you get a flat far from an outlet. Not shop-grade power, but 1,300 reviews say it does the tire-change job.",
+      "pros": ["Runs off a 12V car socket — works roadside", "1,300 reviews, made for tire changes", "No outlet or compressor needed"],
+      "cons": ["12V has far less power than an AC or air wrench", "Won't budge badly rusted or overtightened nuts"]
+    },
+    {
+      "asin": "B07KYR8FTN",
+      "name": "12-Volt Portable Car Impact Wrench, 1/2\"",
+      "brand": "Generic", "model": "12V Car",
+      "image": "https://m.media-amazon.com/images/I/61EUykSuAxL._AC_SX425_.jpg",
+      "price": 46.99, "rating": 4.2, "reviews_count": 820, "bought": "200+/mo",
+      "specs": { "type": "Corded (12V DC)", "power": "12V DC", "drive": "1/2 in", "torque": null, "max_rpm": null },
+      "features": { "kit": true, "heavy_duty": false, "forward_reverse": true },
+      "verdict": "A cheap 12V trunk tool for roadside tire changes — plugs into the cigarette lighter. Keep expectations to spare-tire duty and it's a handy thing to have in the car for under $50.",
+      "pros": ["Cheap roadside tire-change tool", "Runs off the car's 12V socket", "820 reviews"],
+      "cons": ["Light-duty; slow and weak vs an AC wrench", "Only for lug nuts within its torque limit"]
+    },
+    {
+      "asin": "B07PPCJW45",
+      "name": "BAUER 64120 1/2\" Heavy Duty Corded Impact Wrench",
+      "brand": "BAUER", "model": "64120",
+      "image": "https://m.media-amazon.com/images/I/61cjcAaaveL._AC_SX425_.jpg",
+      "price": 79.99, "rating": 4.5, "reviews_count": 112, "bought": "100+/mo",
+      "specs": { "type": "Corded (AC)", "power": "8.5 amp", "drive": "1/2 in", "torque": "Extreme torque", "max_rpm": null },
+      "features": { "kit": true, "heavy_duty": true, "forward_reverse": true },
+      "verdict": "Harbor Freight's BAUER corded impact wrench — a lot of AC torque for the money, well-liked at 4.5 stars. A strong mid-price pick if there's a Harbor Freight near you.",
+      "pros": ["Heavy AC torque at a fair price", "4.5 stars, forward/reverse", "Solid BAUER value"],
+      "cons": ["Smaller review base", "Mostly sold through Harbor Freight"]
+    },
+    {
+      "asin": "B07PGDNP9J",
+      "name": "12-Volt 1/2\" Car Impact Wrench (400 N·m claimed)",
+      "brand": "Generic", "model": "12V 400Nm",
+      "image": "https://m.media-amazon.com/images/I/61BFmZCTfRL._AC_SX425_.jpg",
+      "price": 46.99, "rating": 4.0, "reviews_count": 585, "bought": "100+/mo",
+      "specs": { "type": "Corded (12V DC)", "power": "12V DC", "drive": "1/2 in", "torque": "400 N·m claimed", "max_rpm": null },
+      "features": { "kit": true, "heavy_duty": false, "forward_reverse": true },
+      "verdict": "Another 12V roadside wrench, with a bold 400 N·m / 300 ft-lb claim. Treat that number with skepticism — a 12V socket can't feed that in the real world — but as a spare-tire tool it's fine.",
+      "pros": ["Cheap 12V trunk tool", "Includes sockets for lug nuts", "585 reviews"],
+      "cons": ["Torque claim is optimistic for 12V", "Light-duty only"]
+    },
+    {
+      "asin": "B0CLFJG2ZH",
+      "name": "WEN 7.5-Amp Two-Direction Corded Impact Wrench",
+      "brand": "WEN", "model": "49439",
+      "image": "https://m.media-amazon.com/images/I/71dBDuwUTmL._AC_SX425_.jpg",
+      "price": 50.16, "rating": 4.2, "reviews_count": 52, "bought": "50+/mo",
+      "specs": { "type": "Corded (AC)", "power": "7.5 amp", "drive": "1/2 in", "torque": null, "max_rpm": null },
+      "features": { "kit": true, "heavy_duty": true, "forward_reverse": true },
+      "verdict": "WEN's value formula applied to an AC impact wrench — a real 7.5-amp motor with a hog-ring anvil for around $50. A sensible budget alternative to the Eastvolt from a known value brand.",
+      "pros": ["7.5-amp AC motor near $50", "Hog-ring anvil, forward/reverse", "Known value brand"],
+      "cons": ["Small review base so far", "Basic build"]
+    },
+    {
+      "asin": "B07CZR2YH8",
+      "name": "K Tool 81380A 1/2\" Electric Impact Wrench",
+      "brand": "K Tool International", "model": "81380A",
+      "image": "https://m.media-amazon.com/images/I/41a-+8HpxOL._AC_SX425_.jpg",
+      "price": 44.85, "rating": 5.0, "reviews_count": 3, "bought": "50+/mo",
+      "specs": { "type": "Corded (AC)", "power": "7.5 amp", "drive": "1/2 in", "torque": null, "max_rpm": null },
+      "features": { "kit": true, "heavy_duty": true, "forward_reverse": true },
+      "verdict": "From K Tool International, a real automotive tool brand. A straightforward corded 1/2-inch impact wrench at the low end of the price range — newer to Amazon, but a legitimate name in the trade.",
+      "pros": ["Established automotive-tool brand", "Low price for an AC impact wrench", "1/2-inch drive, forward/reverse"],
+      "cons": ["Very few reviews on Amazon yet", "Basic feature set"]
+    },
+    {
+      "asin": "B0H1QMXBBS",
+      "name": "DEKOPRO 4-Amp Corded Impact Wrench (3,600 rpm)",
+      "brand": "DEKOPRO", "model": "4A",
+      "image": "https://m.media-amazon.com/images/I/614kRWqJJJL._AC_SX425_.jpg",
+      "price": 49.99, "rating": 4.5, "reviews_count": 3, "bought": "50+/mo",
+      "specs": { "type": "Corded (AC)", "power": "4 amp", "drive": "1/2 in", "torque": null, "max_rpm": "3,600 rpm" },
+      "features": { "kit": true, "heavy_duty": false, "forward_reverse": true },
+      "verdict": "A compact, lighter-duty corded impact wrench from budget brand DEKOPRO. The 4-amp motor is modest, but for light automotive and household bolts at a low price it fills a gap.",
+      "pros": ["Compact and light for a corded wrench", "Low price, forward/reverse", "3,600 rpm free speed"],
+      "cons": ["4 amps is light-duty for stuck bolts", "Very few reviews yet"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0002SRM3I",
+      "name": "Ingersoll Rand 231C 1/2\" Air Impact Wrench",
+      "brand": "Ingersoll Rand", "model": "231C",
+      "image": "https://m.media-amazon.com/images/I/51kVVWnNLxL._AC_SX425_.jpg",
+      "price": 134.99, "rating": 4.7, "reviews_count": 3300,
+      "flag": "Excellent tool — but it's pneumatic and needs an air compressor",
+      "verdict": "To be clear, this is a superb impact wrench — the shop standard. The catch: it's pneumatic. It doesn't plug into a wall outlet; it needs a good-sized air compressor to run. Buy it only if you already have one.",
+      "reasons": [
+        "It runs on compressed air, not electricity. There's no plug — you need an air compressor (realistically a $200+ pancake or larger) and a hose to use it at all.",
+        "A small hobby compressor can't keep up with it; it wants real CFM, so the true cost is the wrench plus a capable compressor.",
+        "If you want to plug into a wall outlet and go, buy the PORTER-CABLE or Eastvolt above instead — corded-electric, no air needed.",
+        "It's on this 'avoid' list only because it's the wrong category for someone shopping electric impact wrenches — in a shop with air, it's a great buy."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Impact driver or impact wrench?", "a": "An impact driver has a 1/4-inch hex chuck for driving screws and small fasteners — and it's a cordless-only format. An impact wrench has a 1/2-inch (or 3/8\") square drive that spins sockets to loosen and tighten bolts and lug nuts. If you want to drive screws, see the cordless impact drivers." },
+    { "q": "Corded (AC), 12V car, or air?", "a": "AC corded wrenches plug into a wall outlet for shop-grade power. 12V wrenches run off a car socket for roadside tire changes — handy but light-duty. Air (pneumatic) wrenches are powerful but need an air compressor. This list focuses on the electric ones you can plug in." },
+    { "q": "Why corded over cordless?", "a": "A corded electric impact wrench gives sustained power for less money than a comparable cordless model, and never runs out of charge — good for a home garage with an outlet. Cordless wins only if you need to work far from power." },
+    { "q": "How much torque do I need?", "a": "For car lug nuts (usually 80-100 ft-lbs to spec, more when rusted or over-torqued), aim for a wrench rated around 300-450 ft-lbs of breakaway so it actually cracks them loose. The 12V roadside tools sit well below that — fine for a spare, not for stuck bolts." },
+    { "q": "What's a hog-ring anvil?", "a": "It's a socket retainer that lets you push sockets on and pull them off by hand — fast and convenient. A detent-pin anvil holds sockets more securely but is slower to change. For general use, a hog ring is the friendlier choice." }
+  ]
+}
