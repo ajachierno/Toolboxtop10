@@ -48,9 +48,11 @@ def rank_products(cat):
     ranked = sorted(cat["products"], key=lambda p: (-p["score"], -p["reviews_count"]))
     for i, p in enumerate(ranked, 1):
         p["rank"] = i
-    overall = ranked[0]
     cap = cat.get("budget_cap", 60)
-    budget_pool = [p for p in ranked if p["price"] <= cap]
+    # Badges go to ready-to-use kits (battery included), never a tool-only unit.
+    kits = [p for p in ranked if p["features"].get("kit")]
+    overall = max(kits, key=lambda p: p["score"]) if kits else ranked[0]
+    budget_pool = [p for p in kits if p["price"] <= cap] or [p for p in ranked if p["price"] <= cap]
     budget = max(budget_pool, key=lambda p: p["score"]) if budget_pool else None
     for p in ranked:
         p["badge"] = None
@@ -148,7 +150,7 @@ def render_card(p, site):
 
 
 def render_table(ranked, avoid, site):
-    head = ("<tr><th>#</th><th>Drill</th><th>Price</th><th>Rating</th>"
+    head = ("<tr><th>#</th><th>Tool</th><th>Price</th><th>Rating</th>"
             "<th>Reviews</th><th>Voltage</th><th>Max speed</th><th>Chuck</th>"
             "<th>Brushless</th><th>Score</th></tr>")
     rows = []
@@ -246,7 +248,7 @@ def page(site, title, body, is_home=False):
   When you buy through links on this site we may earn an Amazon Associates commission, at no
   extra cost to you. Prices and ratings are pulled from Amazon and change over time; the figures
   here were captured on the date shown and are not guaranteed to be current.</p>
-  <p class="muted">{home_link} &nbsp; Data captured {esc(site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
+  <p class="muted">{home_link} &nbsp; Last updated on {esc(site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
 </body>
 </html>"""
