@@ -1,0 +1,166 @@
+{
+  "slug": "corded-circular-saws",
+  "title": "The 10 Best Corded Circular Saws",
+  "subtitle": "Wired saws ranked from live Amazon data — full power for the least money, no batteries.",
+  "intro": "A corded circular saw plugs in and gives you full, unlimited power for as long as you're cutting — no battery to charge or run flat, and the lowest price for the most muscle. It's the right choice for a fixed shop, long rip cuts, and anyone who'd rather not buy into a battery platform. SKIL and DEWALT own this category; a couple of names here, the SKIL 5280 and the SKILSAW worm drive, are near-legendary. If you want to cut anywhere without a cord, see the cordless list instead.",
+  "data_captured": "2026-08-10",
+  "budget_cap": 60,
+  "weights": { "rating": 0.50, "reviews": 0.35, "features": 0.15 },
+  "feature_weights": { "kit": 0.35, "brake": 0.25, "laser": 0.20, "high_bevel": 0.20 },
+  "reviews_ceiling": 60000,
+  "spec_fields": [
+    { "key": "type", "label": "Type" }, { "key": "power", "label": "Power" },
+    { "key": "blade", "label": "Blade" }, { "key": "max_rpm", "label": "Speed" },
+    { "key": "bevel", "label": "Bevel" }, { "key": "weight", "label": "Weight" }
+  ],
+  "table_columns": [
+    { "key": "power", "label": "Power" }, { "key": "blade", "label": "Blade" },
+    { "key": "bevel", "label": "Bevel" }, { "key": "max_rpm", "label": "Speed" }
+  ],
+  "products": [
+    {
+      "asin": "B007QUZ16A", "force_overall": true,
+      "name": "DEWALT DWE575SB 7-1/4\" Circular Saw (electric brake)",
+      "brand": "DEWALT", "model": "DWE575SB",
+      "image": "https://m.media-amazon.com/images/I/61UTSfyXCqL._AC_SX425_.jpg",
+      "price": 149.00, "rating": 4.8, "reviews_count": 5187, "bought": "600+/mo",
+      "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-57°", "weight": "8.8 lb" },
+      "features": { "kit": true, "brake": true, "laser": false, "high_bevel": true },
+      "verdict": "The best all-around corded saw. Highest rated here at 4.8 stars, with an electric brake that stops the blade fast, a 57° bevel, and a light 8.8 lb body. The SKIL below is cheaper, but this is the better tool.",
+      "pros": ["4.8 stars over 5,000+ reviews", "Electric brake stops the blade on trigger release", "Light 8.8 lb body, 57° bevel"],
+      "cons": ["Twice the price of the budget SKIL", "No laser guide"]
+    },
+    {
+      "asin": "B01BD81BLO",
+      "name": "SKIL 5280-01 15 Amp 7-1/4\" Circular Saw",
+      "brand": "SKIL", "model": "5280-01",
+      "image": "https://m.media-amazon.com/images/I/616jB6IRDPS._AC_SX425_.jpg",
+      "price": 69.00, "rating": 4.7, "reviews_count": 14140, "bought": "1K+/mo",
+      "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-51°", "weight": "8.7 lb" },
+      "features": { "kit": true, "brake": false, "laser": true, "high_bevel": true },
+      "verdict": "The value legend, and the highest-scoring corded saw on this list. 14,000 reviews at 4.7 stars, full 15-amp power, and a laser guide for around $70. The most saw per dollar you can buy.",
+      "pros": ["Most-reviewed saw here — 14,140 ratings at 4.7 stars", "Full 15-amp power under $70", "Single-beam laser guide"],
+      "cons": ["No electric brake", "Basic build vs the DEWALT and SKILSAW"]
+    },
+    {
+      "asin": "B00B7EUS46", "premium": true,
+      "name": "SKILSAW SPT77WML-01 15 Amp 7-1/4\" Worm Drive Saw",
+      "brand": "SKILSAW", "model": "SPT77WML-01",
+      "image": "https://m.media-amazon.com/images/I/61fhPDP5iUL._AC_SX425_.jpg",
+      "price": 187.99, "rating": 4.8, "reviews_count": 2515, "bought": "500+/mo",
+      "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-53°", "weight": "11.5 lb" },
+      "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
+      "verdict": "The pro's saw. A worm-drive gearbox puts more torque to the blade for wet lumber and long rips, and the magnesium body keeps it to a light-for-a-worm-drive 11.5 lb. Overkill for a bookshelf; perfect if you frame houses.",
+      "pros": ["Worm-drive torque powers through wet, thick stock", "Light magnesium build with a Diablo blade included", "4.8 stars"],
+      "cons": ["Most expensive saw here", "Heavier and longer than a sidewinder"]
+    },
+    {
+      "asin": "B004YIALZI",
+      "name": "Makita 5007F 7-1/4\" Circular Saw",
+      "brand": "Makita", "model": "5007F",
+      "image": "https://m.media-amazon.com/images/I/71-zmp7kV5L._AC_SX425_.jpg",
+      "price": 141.39, "rating": 4.6, "reviews_count": 1519, "bought": "200+/mo",
+      "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": 5800, "bevel": "0-45°", "weight": null },
+      "features": { "kit": true, "brake": false, "laser": true, "high_bevel": false },
+      "verdict": "A pro-grade corded classic — smooth, fast (5,800 rpm), and built to last, with twin LED lights on the cut line. A favorite of tradespeople who don't want a worm drive.",
+      "pros": ["Smooth, fast 5,800 rpm motor", "Built-in LED lights on the blade line", "Long-running Makita reliability"],
+      "cons": ["Pricier than the SKIL for similar cuts", "No electric brake"]
+    },
+    {
+      "asin": "B00OKGAURI",
+      "name": "SKILSAW SPT67WL-01 15 Amp 7-1/4\" Sidewinder Saw",
+      "brand": "SKILSAW", "model": "SPT67WL-01",
+      "image": "https://m.media-amazon.com/images/I/61rc5JBQA7L._AC_SX425_.jpg",
+      "price": 109.00, "rating": 4.8, "reviews_count": 512, "bought": "50+/mo",
+      "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-56°", "weight": null },
+      "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
+      "verdict": "Worm-drive power in a lighter sidewinder body. The Dual-Field motor runs cooler under load and the 56° bevel is generous — a great middle ground between the budget SKIL and the full worm drive.",
+      "pros": ["Dual-Field motor stays cool on long cuts", "Big 56° bevel", "4.8 stars, lighter than a worm drive"],
+      "cons": ["Fewer reviews than the big sellers", "No brake or laser"]
+    },
+    {
+      "asin": "B01KJJQ1MC",
+      "name": "Skil 5080-01 13 Amp 7-1/4\" Circular Saw",
+      "brand": "SKIL", "model": "5080-01",
+      "image": "https://m.media-amazon.com/images/I/61SSjOXHuKL._AC_SX425_.jpg",
+      "price": 44.00, "rating": 4.6, "reviews_count": 5346, "bought": "1K+/mo",
+      "specs": { "type": "Corded", "power": "13 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-51°", "weight": null },
+      "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
+      "verdict": "The rock-bottom price for a real 7-1/4\" saw. A 13-amp motor is a touch less muscle than the 15-amp models, but for occasional cuts around the house it's hard to argue with $44 and 5,000+ reviews.",
+      "pros": ["Cheapest full-size saw here", "13-amp power, 5,346 reviews at 4.6 stars", "Just plug in and cut"],
+      "cons": ["13 amps vs 15 on the better saws", "No brake, laser, or frills"]
+    },
+    {
+      "asin": "B007QUZ106",
+      "name": "DEWALT DWE575 7-1/4\" Lightweight Circular Saw",
+      "brand": "DEWALT", "model": "DWE575",
+      "image": "https://m.media-amazon.com/images/I/61xTjzwbRmL._AC_SX425_.jpg",
+      "price": 129.00, "rating": 4.7, "reviews_count": 2100, "bought": "300+/mo",
+      "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-57°", "weight": "8.8 lb" },
+      "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
+      "verdict": "The DWE575SB without the electric brake, for a bit less. Same light 8.8 lb chassis, 15-amp motor, and 57° bevel — a great DEWALT corded saw if you don't need the brake.",
+      "pros": ["Light 8.8 lb DEWALT build", "Full 15-amp power, 57° bevel", "4.7 stars"],
+      "cons": ["No electric brake (that's the SB model)", "No laser guide"]
+    },
+    {
+      "asin": "B01BD81C36",
+      "name": "SKIL 5180-01 14 Amp 7-1/4\" Circular Saw",
+      "brand": "SKIL", "model": "5180-01",
+      "image": "https://m.media-amazon.com/images/I/61gr-FlgxLL._AC_SX425_.jpg",
+      "price": 59.98, "rating": 4.6, "reviews_count": 854, "bought": "100+/mo",
+      "specs": { "type": "Corded", "power": "14 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-51°", "weight": null },
+      "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
+      "verdict": "SKIL's mid-tier corded saw — a 14-amp motor that splits the difference between the budget 5080 and the 15-amp 5280. A solid, no-drama pick under $60.",
+      "pros": ["14-amp motor, 7-1/4\" blade", "Trusted SKIL build under $60", "4.6 stars"],
+      "cons": ["Fewer reviews than the 5280/5080", "No brake or laser"]
+    },
+    {
+      "asin": "B0C3H6V6DY",
+      "name": "DOVAMAN 5.8A 4-1/2\" Compact Corded Circular Saw",
+      "brand": "DOVAMAN", "model": "Mini 4-1/2",
+      "image": "https://m.media-amazon.com/images/I/71drWxgpBeL._AC_SX425_.jpg",
+      "price": 69.97, "rating": 4.4, "reviews_count": 2300, "bought": "600+/mo",
+      "specs": { "type": "Corded", "power": "5.8 amp", "blade": "4-1/2 in", "max_rpm": 4000, "bevel": "0-45°", "weight": null },
+      "features": { "kit": true, "brake": false, "laser": true, "high_bevel": false },
+      "verdict": "A one-handed compact corded saw for plywood, paneling, and flooring. Light and easy in tight spaces, with a laser guide — just know a 4-1/2\" blade won't cut through a 2x4 in one pass.",
+      "pros": ["Light one-handed body, 2,300 reviews", "Laser guide and auxiliary handle", "Corded — no battery to manage"],
+      "cons": ["4-1/2\" blade limits cut depth", "Small 5.8-amp motor, not for framing"]
+    },
+    {
+      "asin": "B0CW2XVXSB",
+      "name": "GALAX PRO 11A 7-1/4\" Corded Circular Saw",
+      "brand": "GALAX PRO", "model": "11A",
+      "image": "https://m.media-amazon.com/images/I/71gr4EogKaL._AC_SX425_.jpg",
+      "price": 39.99, "rating": 4.5, "reviews_count": 253, "bought": "100+/mo",
+      "specs": { "type": "Corded", "power": "11 amp", "blade": "7-1/4 in", "max_rpm": 4500, "bevel": "0-45°", "weight": null },
+      "features": { "kit": true, "brake": false, "laser": false, "high_bevel": false },
+      "verdict": "The budget floor for a full-size corded saw. An 11-amp motor is modest, but you get a real 7-1/4\" blade, bevel adjustment, and dust collection for around $40.",
+      "pros": ["Full-size 7-1/4\" saw for about $40", "Bevel adjust plus a dust port", "4.5 stars"],
+      "cons": ["11-amp motor is weaker than name-brand saws", "Generic brand and support"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GFMMXRQ9",
+      "name": "Bigheimer 4\" \"Mini Circular Saw\" / Cut-Off Tool",
+      "brand": "Bigheimer", "model": "4\" 2-in-1",
+      "image": "https://m.media-amazon.com/images/I/71GOtH8AViL._AC_SX425_.jpg",
+      "price": 49.79, "rating": 3.5, "reviews_count": 12,
+      "flag": "A 4\" angle grinder with a saw guard — cuts 5/8\" deep",
+      "verdict": "This isn't a circular saw — it's a 4-inch angle grinder with a saw guard bolted on. It cuts 5/8 of an inch deep and spins at grinder speed. Wrong, and genuinely unsafe, for the work a circular saw does.",
+      "reasons": [
+        "It cuts only 5/8 inch (16 mm) deep. A real circular saw cuts about 2-1/2 inches — enough to crosscut a 2x4 in one pass. At 5/8\", it can't cut through standard lumber at all.",
+        "It's a 4-inch angle grinder with a saw guard, spinning at 12,000 RPM. Real circular saws run around 5,000-5,800 RPM; a wood blade at grinder speed is a kickback and injury risk.",
+        "No-name \"Bigheimer\" brand, and it carries the lowest star rating in the category at 3.5.",
+        "If you want to cut metal or tile, buy a grinder. To cut wood, buy a real circular saw."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Why corded over cordless?", "a": "A corded saw gives you full, sustained power for the lowest price and never needs a battery — ideal for a fixed shop, long rip cuts, or if you don't want to buy into a battery platform. The trade is the cord: you need an outlet and you're managing a cable." },
+    { "q": "How many amps do I need?", "a": "15 amps is full power and what the best saws use. 13-14 amps is a small step down that's fine for occasional home use. Under about 11 amps you're into budget or compact territory that struggles with thick or wet lumber." },
+    { "q": "What blade size?", "a": "7-1/4 inch is the full-size standard and cuts through 2x lumber in a single pass. 4-1/2 inch compact saws are for plywood, trim, and flooring — handy and light, but they can't crosscut framing lumber." },
+    { "q": "Sidewinder vs worm drive?", "a": "A sidewinder (in-line) saw is lighter and cheaper — what most people should buy. A worm-drive saw gears the motor for more torque and a front-heavy balance pros like for rip cuts and wet lumber; heavier and pricier." },
+    { "q": "Does an electric brake matter?", "a": "An electric brake stops the spinning blade in a second or two when you release the trigger. It's a real safety feature — one reason the DEWALT DWE575SB is our top corded pick." }
+  ]
+}

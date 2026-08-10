@@ -1,0 +1,166 @@
+{
+  "slug": "cordless-circular-saws",
+  "title": "The 10 Best Cordless Circular Saws",
+  "subtitle": "Battery-powered saws ranked from live Amazon data — cut anywhere, no cord.",
+  "intro": "A cordless circular saw trades a little sustained power for the freedom to cut anywhere — up a ladder, out in the yard, on a job site with no outlet. The catch is the battery: most of the best cordless saws sell as a bare tool (no battery or charger), which is a bargain if you already own that brand's packs and a trap if you don't. Each pick below says whether it's a bare tool or a ready-to-use kit, and which battery platform it rides. Want the most power for the least money? See the corded list.",
+  "data_captured": "2026-08-10",
+  "budget_cap": 90,
+  "weights": { "rating": 0.50, "reviews": 0.35, "features": 0.15 },
+  "feature_weights": { "kit": 0.35, "brake": 0.25, "laser": 0.20, "high_bevel": 0.20 },
+  "reviews_ceiling": 60000,
+  "spec_fields": [
+    { "key": "type", "label": "Type" }, { "key": "power", "label": "Battery" },
+    { "key": "blade", "label": "Blade" }, { "key": "max_rpm", "label": "Speed" },
+    { "key": "bevel", "label": "Bevel" }, { "key": "weight", "label": "Weight" }
+  ],
+  "table_columns": [
+    { "key": "power", "label": "Battery" }, { "key": "blade", "label": "Blade" },
+    { "key": "bevel", "label": "Bevel" }, { "key": "max_rpm", "label": "Speed" }
+  ],
+  "products": [
+    {
+      "asin": "B007NVSTO8", "force_overall": true,
+      "name": "DEWALT DCS391B 20V MAX 6-1/2\" Circular Saw (tool only)",
+      "brand": "DEWALT", "model": "DCS391B",
+      "image": "https://m.media-amazon.com/images/I/81OS506kRZL._AC_SX425_.jpg",
+      "price": 113.00, "rating": 4.6, "reviews_count": 11141, "bought": "2K+/mo",
+      "specs": { "type": "Cordless", "power": "20V MAX", "blade": "6-1/2 in", "max_rpm": 5150, "bevel": "0-50°", "weight": null },
+      "features": { "kit": false, "brake": false, "laser": false, "high_bevel": true },
+      "verdict": "The best-selling cordless saw here by a mile — 11,000+ reviews at 4.6 stars. Fast, well-balanced, and it rides the huge DEWALT 20V MAX platform. It's a bare tool, so you'll need a battery.",
+      "pros": ["11,141 reviews at 4.6 stars — the proven pick", "5,150 rpm, 0-50° bevel", "Runs on the massive DEWALT 20V MAX lineup"],
+      "cons": ["Tool only — no battery or charger", "6-1/2\" blade cuts shallower than a 7-1/4\""]
+    },
+    {
+      "asin": "B01GUM6YQU", "force_budget": true,
+      "name": "RYOBI ONE+ P505 18V 5-1/2\" Circular Saw (tool only)",
+      "brand": "RYOBI", "model": "P505",
+      "image": "https://m.media-amazon.com/images/I/71l5vKhgksL._AC_SX425_.jpg",
+      "price": 41.00, "rating": 4.6, "reviews_count": 3532, "bought": "1K+/mo",
+      "specs": { "type": "Cordless", "power": "18V ONE+", "blade": "5-1/2 in", "max_rpm": 4700, "bevel": "0-50°", "weight": null },
+      "features": { "kit": false, "brake": false, "laser": false, "high_bevel": true },
+      "verdict": "The cheapest way into a cordless saw — if you're on RYOBI ONE+. The 5-1/2\" blade is light and handy for plywood, trim, and breaking down sheet goods. A bare tool, so grab a ONE+ battery.",
+      "pros": ["Cheapest name-brand cordless saw here", "Light and easy at 5-1/2\", 4.6 stars", "Huge RYOBI ONE+ 18V ecosystem"],
+      "cons": ["Tool only — no battery or charger", "5-1/2\" blade limits cut depth"]
+    },
+    {
+      "asin": "B0DDDW9GWK", "premium": true,
+      "name": "DEWALT DCS570B 20V MAX XR Brushless 7-1/4\" Saw (tool only)",
+      "brand": "DEWALT", "model": "DCS570B",
+      "image": "https://m.media-amazon.com/images/I/71ybsgYAstL._AC_SX425_.jpg",
+      "price": 183.99, "rating": 4.5, "reviews_count": 373, "bought": "1K+/mo",
+      "specs": { "type": "Cordless", "power": "20V MAX", "blade": "7-1/4 in", "max_rpm": 5500, "bevel": "0-57°", "weight": null },
+      "features": { "kit": false, "brake": true, "laser": false, "high_bevel": true },
+      "verdict": "The best cordless saw money can buy short of a FLEXVOLT. A brushless motor spins a full 7-1/4\" blade at 5,500 rpm with an electric brake and a 57° bevel — near-corded performance with no cord.",
+      "pros": ["Full 7-1/4\" blade and 5,500 rpm from a battery", "Brushless motor plus an electric brake", "57° bevel, corded-like power"],
+      "cons": ["Priciest here, and it's a bare tool", "Chews through batteries faster than a 6-1/2\""]
+    },
+    {
+      "asin": "B00FRMSMRE",
+      "name": "BLACK+DECKER 20V MAX 5-1/2\" Circular Saw (tool only)",
+      "brand": "BLACK+DECKER", "model": "BDCCS20B",
+      "image": "https://m.media-amazon.com/images/I/71+ol+eXzRL._AC_SX425_.jpg",
+      "price": 74.99, "rating": 4.4, "reviews_count": 4200, "bought": "500+/mo",
+      "specs": { "type": "Cordless", "power": "20V MAX", "blade": "5-1/2 in", "max_rpm": null, "bevel": null, "weight": null },
+      "features": { "kit": false, "brake": false, "laser": false, "high_bevel": false },
+      "verdict": "A light, simple cordless saw on the popular BLACK+DECKER 20V platform. Great for plywood and DIY cuts around the house, with 4,000+ reviews behind it — just add a battery.",
+      "pros": ["4,200 reviews on a common home battery platform", "Light 5-1/2\" body for easy handling", "Inexpensive as a bare tool"],
+      "cons": ["Tool only — no battery or charger", "5-1/2\" blade, light-duty only"]
+    },
+    {
+      "asin": "B0B9HPSB27",
+      "name": "CRAFTSMAN V20 RP 7-1/4\" Brushless Circular Saw (tool only)",
+      "brand": "CRAFTSMAN", "model": "CMCS551B",
+      "image": "https://m.media-amazon.com/images/I/71dNlDO9RSL._AC_SX425_.jpg",
+      "price": 99.00, "rating": 4.6, "reviews_count": 392, "bought": "200+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-50°", "weight": null },
+      "features": { "kit": false, "brake": false, "laser": false, "high_bevel": true },
+      "verdict": "A full 7-1/4\" brushless cordless saw for under $100 as a bare tool. On the CRAFTSMAN V20 platform, it's a lot of blade for the money if you've got the batteries.",
+      "pros": ["Full 7-1/4\" blade, brushless motor", "0-50° bevel, 4.6 stars", "CRAFTSMAN V20 battery platform"],
+      "cons": ["Tool only — no battery or charger", "Smaller review base than the DEWALT"]
+    },
+    {
+      "asin": "B005UQNS3U",
+      "name": "Milwaukee M18 2630-20 6-1/2\" Circular Saw (tool only)",
+      "brand": "Milwaukee", "model": "2630-20",
+      "image": "https://m.media-amazon.com/images/I/41yTrgqX+UL._AC_SX425_.jpg",
+      "price": 115.00, "rating": 4.6, "reviews_count": 1695, "bought": "500+/mo",
+      "specs": { "type": "Cordless", "power": "18V M18", "blade": "6-1/2 in", "max_rpm": 3500, "bevel": "0-50°", "weight": null },
+      "features": { "kit": false, "brake": false, "laser": false, "high_bevel": true },
+      "verdict": "The pick for anyone already on Milwaukee M18. Solid and well-balanced for a bare tool; not the fastest, but it taps into one of the best battery platforms out there.",
+      "pros": ["Runs on the excellent Milwaukee M18 system", "0-50° bevel, 4.6 stars", "Well-balanced for control"],
+      "cons": ["Tool only — no battery or charger", "3,500 rpm is on the slower side"]
+    },
+    {
+      "asin": "B0DLB75JLR",
+      "name": "WORX 20V 6-1/2\" Cordless Circular Saw (WX526L)",
+      "brand": "WORX", "model": "WX526L",
+      "image": "https://m.media-amazon.com/images/I/61MXPC3gzBL._AC_SX425_.jpg",
+      "price": 89.99, "rating": 4.5, "reviews_count": 94, "bought": "100+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "blade": "6-1/2 in", "max_rpm": 4700, "bevel": null, "weight": null },
+      "features": { "kit": false, "brake": false, "laser": false, "high_bevel": false },
+      "verdict": "A capable 6-1/2\" cordless saw on the WORX Power Share 20V platform, spinning up to 4,700 rpm. A newer listing, but a full-size blade at a fair bare-tool price.",
+      "pros": ["Full 6-1/2\" blade, up to 4,700 rpm", "WORX Power Share 20V platform", "4.5 stars"],
+      "cons": ["Tool only — no battery or charger", "Small review base so far"]
+    },
+    {
+      "asin": "B0DLG2C7SG",
+      "name": "DEKOPRO 20V 6-1/2\" Cordless Circular Saw Kit",
+      "brand": "DEKOPRO", "model": "20V",
+      "image": "https://m.media-amazon.com/images/I/71f8Xh-dadL._AC_SX425_.jpg",
+      "price": 89.99, "rating": 4.5, "reviews_count": 281, "bought": "200+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "blade": "6-1/2 in", "max_rpm": 4500, "bevel": null, "weight": null },
+      "features": { "kit": true, "brake": false, "laser": false, "high_bevel": false },
+      "verdict": "The cheapest full-size cordless saw that actually comes with a battery. A 6-1/2\" blade, charger, and pack in the box for around $90 — genuinely ready to cut out of the box, no platform required.",
+      "pros": ["Battery and charger included — no platform needed", "Full 6-1/2\" blade, 4,500 rpm", "4.5 stars"],
+      "cons": ["Off-brand batteries with no wider ecosystem", "Generic support"]
+    },
+    {
+      "asin": "B0C27CF6JC",
+      "name": "WORKPRO 20V 4-1/2\" Cordless Mini Circular Saw Kit",
+      "brand": "WORKPRO", "model": "Mini 20V",
+      "image": "https://m.media-amazon.com/images/I/81LzjTDsnlL._AC_SX425_.jpg",
+      "price": 105.99, "rating": 4.5, "reviews_count": 613, "bought": "100+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "blade": "4-1/2 in", "max_rpm": 4500, "bevel": null, "weight": null },
+      "features": { "kit": true, "brake": false, "laser": true, "high_bevel": false },
+      "verdict": "A one-handed mini saw that ships with a big 4.0Ah battery. Great for plywood, laminate, and paneling in tight spots — just not deep enough for framing lumber.",
+      "pros": ["Includes a large 4.0Ah battery and charger", "Light one-handed body with a laser guide", "4.5 stars over 600+ reviews"],
+      "cons": ["4-1/2\" blade can't cut a 2x4 in one pass", "Not a full-size saw replacement"]
+    },
+    {
+      "asin": "B07V2919RV",
+      "name": "GALAX PRO 20V 4-1/2\" Cordless Mini Circular Saw Kit",
+      "brand": "GALAX PRO", "model": "Mini 20V",
+      "image": "https://m.media-amazon.com/images/I/41I9YgK3CyS._AC_SX425_.jpg",
+      "price": 61.99, "rating": 4.2, "reviews_count": 2500, "bought": "100+/mo",
+      "specs": { "type": "Cordless", "power": "20V", "blade": "4-1/2 in", "max_rpm": 3400, "bevel": "0-45°", "weight": null },
+      "features": { "kit": true, "brake": false, "laser": true, "high_bevel": false },
+      "verdict": "A cheap mini saw that comes with a battery and two blades. Handy one-handed for plywood, PVC, and flooring — know the limit: a 4-1/2\" blade won't cut through a 2x4 in one pass.",
+      "pros": ["Battery, charger, and two blades included", "Light one-handed body with a laser guide", "2,500 reviews"],
+      "cons": ["4-1/2\" blade, light-duty only", "Lowest rating here at 4.2 stars"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GFMMXRQ9",
+      "name": "Bigheimer 4\" \"Mini Circular Saw\" / Cut-Off Tool",
+      "brand": "Bigheimer", "model": "4\" 2-in-1",
+      "image": "https://m.media-amazon.com/images/I/71GOtH8AViL._AC_SX425_.jpg",
+      "price": 49.79, "rating": 3.5, "reviews_count": 12,
+      "flag": "A 4\" angle grinder with a saw guard — cuts 5/8\" deep",
+      "verdict": "This isn't a circular saw — it's a 4-inch angle grinder with a saw guard bolted on. It cuts 5/8 of an inch deep and spins at grinder speed. Wrong, and genuinely unsafe, for the work a circular saw does.",
+      "reasons": [
+        "It cuts only 5/8 inch (16 mm) deep. A real circular saw cuts about 2-1/2 inches — enough to crosscut a 2x4 in one pass. At 5/8\", it can't cut through standard lumber at all.",
+        "It's a 4-inch angle grinder with a saw guard, spinning at 12,000 RPM. Real circular saws run around 5,000-5,800 RPM; a wood blade at grinder speed is a kickback and injury risk.",
+        "No-name \"Bigheimer\" brand, sold tool-only (needs a DEWALT battery), and the lowest star rating in the category at 3.5.",
+        "If you want to cut metal or tile, buy a grinder. To cut wood, buy a real circular saw."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Bare tool or kit?", "a": "This is the biggest trap in cordless saw listings. A 'bare tool' or 'tool only' saw ships with no battery or charger — a bargain if you already own that brand's packs, useless out of the box if you don't. A 'kit' includes a battery and charger. Every pick above says which it is." },
+    { "q": "Which battery platform?", "a": "A cordless saw is only as good as its batteries. Buying one on the same platform as a drill or driver you already own (DEWALT 20V MAX, Milwaukee M18, RYOBI ONE+, CRAFTSMAN V20) means one battery lineup for everything — a real reason to stay in one brand." },
+    { "q": "Will cordless keep up with corded?", "a": "For most cuts, yes — especially brushless 7-1/4\" saws like the DEWALT DCS570. But a corded 15-amp saw still gives more sustained power for the money on long rips and thick stock. If you don't need portability, corded is cheaper and stronger." },
+    { "q": "What blade size?", "a": "6-1/2 inch is the common cordless size — light, with enough depth for 2x lumber in one pass. 7-1/4 inch cordless saws match corded cut depth but drain batteries faster. 4-1/2 inch minis are for plywood, trim, and flooring, not framing." },
+    { "q": "Watch out for mini saws", "a": "Plenty of cheap 'mini' cordless saws in the search results have 4-1/2\" or smaller blades and can't cut through a 2x4. They're fine for sheet goods and flooring, but don't buy one expecting a full-size saw — and steer clear of grinders dressed up as saws." }
+  ]
+}

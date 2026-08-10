@@ -331,11 +331,12 @@ def build_category(site, filename):
 
 
 def build_home(site, cats):
-    cards = []
-    for cat, overall, budget in cats:
-        c = next(c for c in site["categories"] if c["slug"] == cat["slug"])
-        cards.append(f"""
-      <a class="cat-card" href="{esc(cat['slug'])}.html">
+    by_slug = {cat["slug"]: (cat, overall, budget) for cat, overall, budget in cats}
+
+    def card(c):
+        cat, overall, budget = by_slug[c["slug"]]
+        return f"""
+      <a class="cat-card" href="{esc(c['slug'])}.html">
         <h3>{esc(c['title'])}</h3>
         <p>{esc(c['blurb'])}</p>
         <div class="cat-picks">
@@ -343,16 +344,28 @@ def build_home(site, cats):
           <span><b>Best Budget:</b> {esc(budget['brand'])} {esc(budget['model'])}</span>
         </div>
         <span class="btn ghost">See the top {c['count']} &rarr;</span>
-      </a>""")
+      </a>"""
+
+    groups = [
+        ("Wireless tools", "Battery powered &mdash; cut, drive, and drill anywhere, no cord.", "wireless"),
+        ("Wired tools", "Corded &mdash; full unlimited power for the least money, never a dead battery.", "wired"),
+    ]
+    sections = []
+    for label, sub, key in groups:
+        members = [c for c in site["categories"] if c.get("power") == key and c["slug"] in by_slug]
+        if not members:
+            continue
+        cards = "".join(card(c) for c in members)
+        sections.append(
+            f'\n  <section class="cats">\n    <h2>{esc(label)}</h2>'
+            f'\n    <p class="group-sub">{sub}</p>'
+            f'\n    <div class="cat-grid">{cards}</div>\n  </section>')
     body = f"""
   <section class="lead home">
     <h1>{esc(site['brand'])}</h1>
     <p class="sub">{esc(site['description'])}</p>
   </section>
-  <section class="cats">
-    <h2>Categories</h2>
-    <div class="cat-grid">{''.join(cards)}</div>
-  </section>"""
+  {''.join(sections)}"""
     (OUT / "index.html").write_text(
         page(site, f"{site['brand']} — {site['tagline']}", body, is_home=True),
         encoding="utf-8")
@@ -482,6 +495,7 @@ table a{color:var(--budget);font-weight:600}
 details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:8px 0}
 summary{font-weight:700;cursor:pointer}
 details p{margin:.6em 0 0;color:var(--muted)}
+.group-sub{color:var(--muted);margin:-6px 0 16px}
 .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
 .cat-card{display:block;background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px;transition:transform .1s}
 .cat-card:hover{transform:translateY(-2px)}

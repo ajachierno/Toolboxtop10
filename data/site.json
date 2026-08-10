@@ -11,19 +11,29 @@
       "slug": "cordless-drills",
       "title": "Cordless Drills",
       "blurb": "10 best-selling cordless drills, scored on rating, review volume, value, and features.",
-      "count": 10
+      "count": 10,
+      "power": "wireless"
     },
     {
-      "slug": "impact-drivers",
-      "title": "Impact Drivers",
-      "blurb": "10 best-selling cordless impact drivers, from bare-tool pro picks to ready-to-use budget kits.",
-      "count": 10
+      "slug": "cordless-impact-drivers",
+      "title": "Cordless Impact Drivers",
+      "blurb": "10 best cordless impact drivers, from bare-tool pro picks to ready-to-use budget kits.",
+      "count": 10,
+      "power": "wireless"
     },
     {
-      "slug": "circular-saws",
-      "title": "Circular Saws",
-      "blurb": "10 best circular saws, corded and cordless — budget legends, pro worm drives, and what to skip.",
-      "count": 10
+      "slug": "cordless-circular-saws",
+      "title": "Cordless Circular Saws",
+      "blurb": "10 best battery-powered circular saws — cut anywhere, bare tools and ready-to-use kits.",
+      "count": 10,
+      "power": "wireless"
+    },
+    {
+      "slug": "corded-circular-saws",
+      "title": "Corded Circular Saws",
+      "blurb": "10 best wired circular saws — full power for the least money, budget legends to pro worm drives.",
+      "count": 10,
+      "power": "wired"
     }
   ]
 }
