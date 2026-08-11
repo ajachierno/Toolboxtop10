@@ -265,6 +265,7 @@ def page(site, title, body, is_home=False):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(site['description'])}">
+{site.get('head_extra', '')}
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
