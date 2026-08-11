@@ -1,0 +1,167 @@
+{
+  "slug": "corded-reciprocating-saws",
+  "title": "The 10 Best Corded Reciprocating Saws",
+  "subtitle": "Wired demo saws ranked from live Amazon data — endless power for cutting, pruning, and tear-out.",
+  "intro": "A reciprocating saw (a.k.a. Sawzall) rips a long blade back and forth through wood, metal, PVC, nail-embedded lumber, and tree branches — the go-to for demolition and rough cuts. Corded models give you full, sustained power for the least money and never run flat, which matters when you're tearing out a wall or bucking a pile of branches. Amps are the number to watch: 7-8 amps handles most jobs, and 10-13 amps is heavy demolition. Want to cut anywhere with no cord? See the cordless list.",
+  "data_captured": "2026-08-10",
+  "budget_cap": 60,
+  "weights": { "rating": 0.50, "reviews": 0.35, "features": 0.15 },
+  "feature_weights": { "kit": 0.30, "variable_speed": 0.30, "tool_free": 0.20, "orbital": 0.20 },
+  "reviews_ceiling": 60000,
+  "spec_fields": [
+    { "key": "type", "label": "Type" }, { "key": "power", "label": "Power" },
+    { "key": "max_rpm", "label": "Speed" }, { "key": "stroke", "label": "Stroke" },
+    { "key": "blade_change", "label": "Blade change" }
+  ],
+  "table_columns": [
+    { "key": "power", "label": "Power" }, { "key": "max_rpm", "label": "Speed" },
+    { "key": "variable_speed", "label": "Var. speed", "type": "bool" },
+    { "key": "tool_free", "label": "Tool-free", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07MBS7MTT", "force_overall": true,
+      "name": "CRAFTSMAN CMES300 7.5-Amp Corded Reciprocating Saw",
+      "brand": "CRAFTSMAN", "model": "CMES300",
+      "image": "https://m.media-amazon.com/images/I/61bbCO1SsHL._AC_SX425_.jpg",
+      "price": 99.99, "rating": 4.7, "reviews_count": 616, "bought": "200+/mo",
+      "specs": { "type": "Corded", "power": "7.5 amp", "max_rpm": "0-3,200 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "The best all-around corded recip for most people. A balanced 7.5-amp CRAFTSMAN with a full 1-1/8\" stroke, tool-free blade change, and 4.7 stars — enough power for pruning and remodeling without the weight of a demolition saw.",
+      "pros": ["7.5-amp motor, 3,200 SPM, 1-1/8\" stroke", "Tool-free blade change, 4.7 stars", "CRAFTSMAN build, plug-and-go"],
+      "cons": ["Less amps than heavy-demo saws", "Mid-range price"]
+    },
+    {
+      "asin": "B008J1GNEO", "force_budget": true,
+      "name": "SKIL 9206-02 7.5-Amp Variable Speed Reciprocating Saw",
+      "brand": "SKIL", "model": "9206-02",
+      "image": "https://m.media-amazon.com/images/I/51UkYSn1bUL._AC_SX425_.jpg",
+      "price": 54.99, "rating": 4.6, "reviews_count": 1900, "bought": "300+/mo",
+      "specs": { "type": "Corded", "power": "7.5 amp", "max_rpm": "0-2,700 SPM", "stroke": null, "blade_change": "Tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "The value pick — a genuine 7.5-amp corded recip with variable speed and a tool-free blade change for around $55, backed by 1,900 reviews. Everything a homeowner needs to demo and prune, nothing they don't.",
+      "pros": ["7.5-amp motor for about $55", "1,900 reviews at 4.6 stars", "Tool-free blade change, variable speed"],
+      "cons": ["Basic build vs the DEWALT", "No orbital action"]
+    },
+    {
+      "asin": "B00N5FLVM8", "premium": true,
+      "name": "DEWALT DWE305 12-Amp Corded Reciprocating Saw",
+      "brand": "DEWALT", "model": "DWE305",
+      "image": "https://m.media-amazon.com/images/I/41fMDYjGEHL._AC_SX425_.jpg",
+      "price": 129.00, "rating": 4.8, "reviews_count": 3900, "bought": "500+/mo",
+      "specs": { "type": "Corded", "power": "12 amp", "max_rpm": "0-2,900 SPM", "stroke": "1-1/8 in", "blade_change": "4-position, tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "The most powerful, best-reviewed corded recip here — a 12-amp DEWALT with a 4-position blade clamp (cut flush or at angles) and 3,900 reviews at 4.8 stars. If price is no object and you want a demolition workhorse, this is it.",
+      "pros": ["Big 12-amp motor, 4.8 stars over 3,900 reviews", "4-position blade clamp for flush and angled cuts", "1-1/8\" stroke, tool-free"],
+      "cons": ["Priciest of the mainstream picks", "Heavier than a 7.5-amp saw"]
+    },
+    {
+      "asin": "B075LPPW87",
+      "name": "SKIL 13-Amp Reciprocating Saw with Buzzkill Anti-Vibration",
+      "brand": "SKIL", "model": "RAS900",
+      "image": "https://m.media-amazon.com/images/I/51aTMZ6QKkL._AC_SX425_.jpg",
+      "price": 121.80, "rating": 4.7, "reviews_count": 967, "bought": "100+/mo",
+      "specs": { "type": "Corded", "power": "13 amp", "max_rpm": "0-2,800 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "The most amps here (13) plus Buzzkill anti-vibration tech that noticeably reduces hand fatigue on long cuts. A smooth, powerful pick if you'll run it for hours.",
+      "pros": ["Strongest 13-amp motor on the list", "Buzzkill anti-vibration for less fatigue", "4.7 stars, tool-free blade change"],
+      "cons": ["Heavier and pricier", "Overkill for occasional cuts"]
+    },
+    {
+      "asin": "B004W5ZAFO",
+      "name": "SKIL 9216-01 9-Amp Reciprocating Saw",
+      "brand": "SKIL", "model": "9216-01",
+      "image": "https://m.media-amazon.com/images/I/51Zp8HpP22L._AC_SX425_.jpg",
+      "price": 74.12, "rating": 4.6, "reviews_count": 635, "bought": "100+/mo",
+      "specs": { "type": "Corded", "power": "9 amp", "max_rpm": "0-2,700 SPM", "stroke": null, "blade_change": "Tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "More motor than the budget saws for a small step up in price — a 9-amp SKIL with variable speed and a tool-free blade change. A smart middle ground under $75.",
+      "pros": ["9-amp motor, more power for the price", "Tool-free blade change, 4.6 stars", "Trusted SKIL build"],
+      "cons": ["Fewer reviews than the 9206", "No orbital action"]
+    },
+    {
+      "asin": "B072FR2BXM",
+      "name": "WEN 3630 10-Amp 8-Position Reciprocating Saw",
+      "brand": "WEN", "model": "3630",
+      "image": "https://m.media-amazon.com/images/I/71Z6DsQewlL._AC_SX425_.jpg",
+      "price": 52.99, "rating": 4.5, "reviews_count": 408, "bought": "100+/mo",
+      "specs": { "type": "Corded", "power": "10 amp", "max_rpm": "0-2,800 SPM", "stroke": null, "blade_change": "Tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "WEN's value formula — a real 10-amp motor and an 8-position rotating handle for cutting at awkward angles, all for around $53. A lot of power per dollar from a known value brand.",
+      "pros": ["10-amp motor for about $53", "8-position handle for angled cuts", "Tool-free blade change"],
+      "cons": ["4.5 stars, smaller review base", "Basic build"]
+    },
+    {
+      "asin": "B08T6C614X",
+      "name": "BLACK+DECKER 7-Amp Corded Reciprocating Saw",
+      "brand": "BLACK+DECKER", "model": "BES301",
+      "image": "https://m.media-amazon.com/images/I/41IP3shM+rL._AC_SX425_.jpg",
+      "price": 66.99, "rating": 4.4, "reviews_count": 231, "bought": "100+/mo",
+      "specs": { "type": "Corded", "power": "7 amp", "max_rpm": "0-2,800 SPM", "stroke": null, "blade_change": "Removable, tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "A simple, light 7-amp corded recip from a trusted home brand, with a removable tool-free blade clamp. Fine for pruning, PVC, and light demolition around the house.",
+      "pros": ["Light and easy for a corded saw", "Tool-free removable blade clamp", "Trusted BLACK+DECKER name"],
+      "cons": ["7 amps is light for heavy demo", "4.4 stars, fewer reviews"]
+    },
+    {
+      "asin": "B0FT64PHJ6",
+      "name": "BOSCH GSA12-30 12-Amp Corded Reciprocating Saw",
+      "brand": "BOSCH", "model": "GSA12-30",
+      "image": "https://m.media-amazon.com/images/I/419NyIOFG4L._AC_SX425_.jpg",
+      "price": 119.00, "rating": 5.0, "reviews_count": 5, "bought": "50+/mo",
+      "specs": { "type": "Corded", "power": "12 amp", "max_rpm": "0-2,700 SPM", "stroke": "1-3/16 in", "blade_change": "Tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "Bosch pro build in a 12-amp corded package, with a long 1-3/16\" stroke for aggressive cutting. Newer to Amazon, but Bosch's reputation and stroke length make it a serious demo saw.",
+      "pros": ["12-amp motor, long 1-3/16\" stroke", "Bosch pro-grade build", "Tool-free blade change"],
+      "cons": ["Few reviews on Amazon yet", "Priced with the pro saws"]
+    },
+    {
+      "asin": "B096RLR26J",
+      "name": "Makita JR3051T 12-Amp Corded Reciprocating Saw",
+      "brand": "Makita", "model": "JR3051T",
+      "image": "https://m.media-amazon.com/images/I/51E2UDO3V9S._AC_SX425_.jpg",
+      "price": 118.99, "rating": 4.5, "reviews_count": 30, "bought": "50+/mo",
+      "specs": { "type": "Corded", "power": "12 amp", "max_rpm": "0-2,800 SPM", "stroke": "1-1/4 in", "blade_change": "Tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "A pro-grade Makita with a big 1-1/4\" stroke and a tool-less blade clamp — a longtime favorite of tradespeople for tearing through framing and metal. Sold here in a renewed listing.",
+      "pros": ["12-amp motor, aggressive 1-1/4\" stroke", "Pro Makita durability", "Tool-free blade change"],
+      "cons": ["Renewed listing, few reviews", "Priced with the pro saws"]
+    },
+    {
+      "asin": "B0G6ZRYJYM",
+      "name": "7-Amp Corded Reciprocating Saw (with blades)",
+      "brand": "Generic", "model": "7A",
+      "image": "https://m.media-amazon.com/images/I/81BMNAkP2CL._AC_SX425_.jpg",
+      "price": 47.69, "rating": 4.3, "reviews_count": 55, "bought": "100+/mo",
+      "specs": { "type": "Corded", "power": "7 amp", "max_rpm": "0-2,800 SPM", "stroke": null, "blade_change": "Tool-free" },
+      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "The budget floor for a full-size corded recip — a 7-amp saw that ships with blades for under $50. No brand pedigree, but for occasional wood, PVC, and tree pruning it does the job.",
+      "pros": ["Full-size corded saw under $50", "Comes with blades, tool-free change", "Variable speed"],
+      "cons": ["Generic brand and support", "7 amps, light-duty only"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B005MVB506",
+      "name": "Ingersoll Rand 529 3/8\" Reciprocating Air Saw",
+      "brand": "Ingersoll Rand", "model": "529",
+      "image": "https://m.media-amazon.com/images/I/61aeQ0SiDTL._AC_SX425_.jpg",
+      "price": 246.99, "rating": 4.5, "reviews_count": 235,
+      "flag": "It's a pneumatic AIR saw — needs a compressor, no wall plug",
+      "verdict": "A quality pro saw — but it's pneumatic. It doesn't plug into a wall outlet; it runs on compressed air and needs a good-sized shop compressor. Buy it only if you already have one.",
+      "reasons": [
+        "It runs on compressed air, not electricity. There's no cord to plug in — you need an air compressor and hose to use it at all.",
+        "It wants real CFM, so a small hobby compressor won't run it; the true cost is the saw plus a capable compressor.",
+        "If you want to plug into a wall outlet and start cutting, buy the DEWALT DWE305 or the SKIL 9206 above instead.",
+        "It's on this 'avoid' list only because it's the wrong category for someone shopping electric reciprocating saws — in a shop with air, it's fine."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "What's a reciprocating saw for?", "a": "It pushes a blade back and forth for fast, rough cuts through wood, metal, PVC, drywall, and nail-embedded lumber, plus pruning branches. It's the demolition and remodeling saw — not for fine straight cuts (that's a circular saw)." },
+    { "q": "Why corded over cordless?", "a": "A corded saw gives full, sustained power for the least money and never runs out of charge — best for tear-outs, long cutting sessions, and a keep-forever demo saw. The trade is the cord and needing an outlet." },
+    { "q": "How many amps?", "a": "7-8 amps handles most home demolition and pruning. 10-13 amps is heavy-duty for tearing through framing, thick metal, and long jobs. More amps means more power and usually more weight." },
+    { "q": "Does stroke length matter?", "a": "Yes. A longer stroke (1-1/8 to 1-1/4 inch) uses more of the blade and cuts faster and more aggressively — better for demolition. Shorter strokes are smoother and easier one-handed." },
+    { "q": "Tool-free blade change and orbital action?", "a": "Tool-free blade change lets you swap blades without a wrench — get it; every pick here has it. Orbital action adds an oval blade motion for even faster wood cutting; it's a nice extra on higher-end saws but not essential." }
+  ]
+}
