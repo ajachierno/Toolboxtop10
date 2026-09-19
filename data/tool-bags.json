@@ -1,0 +1,472 @@
+{
+  "slug": "tool-bags",
+  "title": "The 10 Best Tool Bags",
+  "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
+  "intro": "We pulled the best-selling tool bags on Amazon — open-top totes, zippered technician bags, and rugged jobsite haulers — then scored each one on a single 100-point scale built from its star rating, review volume, value, and the features that matter when tools ride on your shoulder. Here is where each lands.",
+  "data_captured": "2026-09-19",
+  "budget_cap": 40,
+  "weights": {
+    "rating": 0.5,
+    "reviews": 0.35,
+    "features": 0.15
+  },
+  "feature_weights": {
+    "hard_base": 0.25,
+    "shoulder_strap": 0.2,
+    "zippered": 0.2,
+    "water_resistant": 0.2,
+    "lighted": 0.15
+  },
+  "reviews_ceiling": 10000,
+  "spec_fields": [
+    {
+      "key": "pockets",
+      "label": "Pockets"
+    },
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "material",
+      "label": "Material"
+    },
+    {
+      "key": "base",
+      "label": "Base"
+    },
+    {
+      "key": "closure",
+      "label": "Closure"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pockets",
+      "label": "Pockets"
+    },
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "hard_base",
+      "label": "Hard base",
+      "type": "bool"
+    },
+    {
+      "key": "shoulder_strap",
+      "label": "Strap",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B000EDTSZG",
+      "name": "CLC Custom Leathercraft 1539 Multi-Compartment 50-Pocket Tool Bag",
+      "brand": "CLC",
+      "model": "1539",
+      "image": "https://m.media-amazon.com/images/I/81Pc6ppucDL._AC_SX522_.jpg",
+      "price": 80.0,
+      "rating": 4.7,
+      "reviews_count": 2682,
+      "bought": "2K+/mo",
+      "specs": {
+        "pockets": "50",
+        "size": "18 x 7 x 14 in",
+        "material": "Poly fabric",
+        "base": "Padded",
+        "closure": "Zippered center",
+        "weight": "4.1 lb"
+      },
+      "features": {
+        "hard_base": false,
+        "shoulder_strap": true,
+        "zippered": true,
+        "water_resistant": false,
+        "lighted": false
+      },
+      "verdict": "The tradesperson's default. Fifty pockets around a big zippered center that swallows power tools — the bag most pros reach for first.",
+      "pros": [
+        "50 pockets sort everything from drivers to a cordless drill",
+        "Zippered side panels keep tools from spilling in transit",
+        "Big center bay fits a full drill kit",
+        "Padded shoulder strap and reinforced handles"
+      ],
+      "cons": [
+        "No molded hard base — set it down gently on wet ground",
+        "Fabric, not weatherproof",
+        "Full of steel it gets heavy fast"
+      ]
+    },
+    {
+      "asin": "B00QNTVV6Y",
+      "name": "DEWALT DGL573 Lighted Technician's Tool Bag, 41 Pocket",
+      "brand": "DEWALT",
+      "model": "DGL573",
+      "image": "https://m.media-amazon.com/images/I/6180DKBaPeL._AC_SX522_.jpg",
+      "price": 48.98,
+      "rating": 4.7,
+      "reviews_count": 2912,
+      "bought": "1K+/mo",
+      "specs": {
+        "pockets": "41",
+        "size": "15 x 8 x 15 in",
+        "material": "1680D ballistic",
+        "base": "Molded rubber",
+        "closure": "Zippered top",
+        "weight": "4.8 lb"
+      },
+      "features": {
+        "hard_base": true,
+        "shoulder_strap": true,
+        "zippered": true,
+        "water_resistant": true,
+        "lighted": true
+      },
+      "verdict": "The one with a light. A built-in LED finds tools in a dark crawlspace or panel — 41 pockets, a hard molded base, and a full zip top.",
+      "pros": [
+        "Built-in LED lights the interior in low light",
+        "Molded base stands up to wet, rough ground",
+        "Narrow profile fits tight mechanical rooms",
+        "1680D ballistic fabric resists abrasion"
+      ],
+      "cons": [
+        "LED runs on batteries you'll eventually replace",
+        "Narrow bay limits bulky tools",
+        "Pricier than a plain zip bag"
+      ]
+    },
+    {
+      "asin": "B00MS16CU6",
+      "premium": true,
+      "name": "Klein Tools 5541610-14 Tradesman Pro Tool Bag, 40 Pocket",
+      "brand": "Klein Tools",
+      "model": "5541610-14",
+      "image": "https://m.media-amazon.com/images/I/616-V0tIK1L._AC_SX522_.jpg",
+      "price": 108.73,
+      "rating": 4.8,
+      "reviews_count": 2004,
+      "bought": "800+/mo",
+      "specs": {
+        "pockets": "40",
+        "size": "16.5 x 8 x 12.5 in",
+        "material": "1680D ballistic weave",
+        "base": "Molded",
+        "closure": "Open top",
+        "weight": "4.5 lb"
+      },
+      "features": {
+        "hard_base": true,
+        "shoulder_strap": true,
+        "zippered": false,
+        "water_resistant": true,
+        "lighted": false
+      },
+      "verdict": "The electrician's bag. Forty pockets, an orange interior so tools stand out, and Klein's build quality — an open-top design for fast grab-and-go access.",
+      "pros": [
+        "Bright orange interior makes tools easy to spot",
+        "Molded bottom resists moisture",
+        "1680D weave and a padded shoulder strap",
+        "Klein's trade reputation for durability"
+      ],
+      "cons": [
+        "Open top offers no rain protection",
+        "Premium price",
+        "No zip means loose tools can tip out"
+      ]
+    },
+    {
+      "asin": "B001P30BO6",
+      "name": "DEWALT DG5543 16 in. 33-Pocket Tool Bag",
+      "brand": "DEWALT",
+      "model": "DG5543",
+      "image": "https://m.media-amazon.com/images/I/715EKLSDJcL._AC_SX522_.jpg",
+      "price": 82.96,
+      "rating": 4.8,
+      "reviews_count": 8320,
+      "bought": "2K+/mo",
+      "specs": {
+        "pockets": "33",
+        "size": "16 x 9 x 12 in",
+        "material": "Poly fabric",
+        "base": "Rubber feet",
+        "closure": "Zippered top",
+        "weight": "3.4 lb"
+      },
+      "features": {
+        "hard_base": false,
+        "shoulder_strap": true,
+        "zippered": true,
+        "water_resistant": false,
+        "lighted": false
+      },
+      "verdict": "The all-rounder. A 33-pocket zip-top bag from a name brand — a well-reviewed, do-everything carrier for a mixed tool set.",
+      "pros": [
+        "33 pockets organize a full mixed tool set",
+        "Zippered top keeps tools in during a carry",
+        "Rubber feet lift it off wet floors",
+        "A long-standing value best-seller"
+      ],
+      "cons": [
+        "Rubber feet, not a full molded base",
+        "Poly fabric isn't waterproof",
+        "Shoulder strap padding is thin"
+      ]
+    },
+    {
+      "asin": "B09P4Y2VK5",
+      "name": "WORKPRO 18 in. Open-Top Tool Bag with Waterproof Molded Base",
+      "brand": "WORKPRO",
+      "model": "18 in Open Top",
+      "image": "https://m.media-amazon.com/images/I/81pPMWgBkIL._AC_SX522_.jpg",
+      "price": 25.99,
+      "rating": 4.8,
+      "reviews_count": 601,
+      "bought": "1K+/mo",
+      "specs": {
+        "pockets": "20",
+        "size": "18 in",
+        "material": "840D / 600D oxford",
+        "base": "Waterproof molded",
+        "closure": "Open top",
+        "weight": "2.6 lb"
+      },
+      "features": {
+        "hard_base": true,
+        "shoulder_strap": true,
+        "zippered": false,
+        "water_resistant": true,
+        "lighted": false
+      },
+      "verdict": "The budget hard-base tote. A wide-mouth 18 in bag with a waterproof molded bottom and 20 pockets — the cheapest way to a bag that stands up and shrugs off a wet floor.",
+      "pros": [
+        "Waterproof molded base stands and stays open",
+        "20 pockets for the money",
+        "840D outer shell with an adjustable shoulder strap",
+        "One of the best value bags on the list"
+      ],
+      "cons": [
+        "Open top offers no rain cover",
+        "Off-brand warranty and support",
+        "Lighter-duty fabric than a pro bag"
+      ]
+    },
+    {
+      "asin": "B00ES8KUAA",
+      "name": "Carhartt Legacy Tool Bag, 14 in.",
+      "brand": "Carhartt",
+      "model": "Legacy 14 in",
+      "image": "https://m.media-amazon.com/images/I/61mpqOL4EVL._AC_SX522_.jpg",
+      "price": 74.99,
+      "rating": 4.4,
+      "reviews_count": 26,
+      "bought": "600+/mo",
+      "specs": {
+        "pockets": "17 ext / 10 int",
+        "size": "14 x 8 x 9 in",
+        "material": "1200D poly, Rain Defender",
+        "base": "Molded",
+        "closure": "Zippered top",
+        "weight": "3.6 lb"
+      },
+      "features": {
+        "hard_base": true,
+        "shoulder_strap": true,
+        "zippered": true,
+        "water_resistant": true,
+        "lighted": false
+      },
+      "verdict": "The rugged compact. Carhartt's Rain Defender coating and a molded base in a 14 in size that's easy to carry one-handed all day.",
+      "pros": [
+        "Rain Defender water-repellent finish",
+        "Molded base keeps the bottom dry",
+        "Compact and light for a full day's carry",
+        "Heavy stitching and a padded strap"
+      ],
+      "cons": [
+        "14 in size limits a big kit",
+        "Fewer reviews than the DEWALT bags",
+        "Priced above basic 14 in bags"
+      ]
+    },
+    {
+      "asin": "B000Q5PHIY",
+      "name": "Stanley 518160M FatMax 18 in. Open-Mouth Tool Tote",
+      "brand": "Stanley",
+      "model": "518160M",
+      "image": "https://m.media-amazon.com/images/I/81OBmM-MI3L._AC_SX522_.jpg",
+      "price": 32.99,
+      "rating": 4.3,
+      "reviews_count": 26,
+      "bought": "1K+/mo",
+      "specs": {
+        "pockets": "12",
+        "size": "18 in",
+        "material": "600D poly",
+        "base": "Hard plastic",
+        "closure": "Open top",
+        "weight": "2.9 lb"
+      },
+      "features": {
+        "hard_base": true,
+        "shoulder_strap": true,
+        "zippered": false,
+        "water_resistant": false,
+        "lighted": false
+      },
+      "verdict": "The value tote. A hard-bottom open tote with a wide mouth for grab-and-go work — the cheapest way to a bag that stands up on its own.",
+      "pros": [
+        "Rigid plastic base stands and stays open",
+        "Wide mouth for fast tool access",
+        "Inexpensive and long-trusted",
+        "Light at under 3 lb"
+      ],
+      "cons": [
+        "Open top — no rain cover",
+        "Only 12 pockets",
+        "Thinner 600D fabric"
+      ]
+    },
+    {
+      "asin": "B07NNXZ14X",
+      "name": "Milwaukee PACKOUT 20 in. Tool Bag",
+      "brand": "Milwaukee",
+      "model": "48-22-8321",
+      "image": "https://m.media-amazon.com/images/I/71T1mJFiz-L._AC_SX522_.jpg",
+      "price": 34.95,
+      "rating": 4.7,
+      "reviews_count": 29,
+      "bought": "500+/mo",
+      "specs": {
+        "pockets": "19",
+        "size": "20 in",
+        "material": "1680D ballistic",
+        "base": "Molded, PACKOUT-compatible",
+        "closure": "Zippered top",
+        "weight": "5.6 lb"
+      },
+      "features": {
+        "hard_base": true,
+        "shoulder_strap": true,
+        "zippered": true,
+        "water_resistant": true,
+        "lighted": false
+      },
+      "verdict": "The flagship jobsite bag. A big 20 in PACKOUT-compatible bag with a molded, weather-resistant base — the money-no-object hauler if you're on the system.",
+      "pros": [
+        "Large 20 in bay with 19 pockets",
+        "Molded base clicks into the PACKOUT platform",
+        "Water-resistant 1680D and metal hardware",
+        "Reinforced handles and shoulder strap"
+      ],
+      "cons": [
+        "Most expensive bag here",
+        "Heaviest empty weight",
+        "Value depends on owning PACKOUT boxes"
+      ]
+    },
+    {
+      "asin": "B00MK9UY0A",
+      "name": "Klein Tools 55421BP-14 Tradesman Pro Tool Backpack, 39 Pocket",
+      "brand": "Klein Tools",
+      "model": "55421BP-14",
+      "image": "https://m.media-amazon.com/images/I/61LmP-mOWqL._AC_SX522_.jpg",
+      "price": 99.97,
+      "rating": 4.7,
+      "reviews_count": 5287,
+      "bought": "2K+/mo",
+      "specs": {
+        "pockets": "39",
+        "size": "14 x 8 x 20 in",
+        "material": "1680D ballistic weave",
+        "base": "Molded",
+        "closure": "Zippered",
+        "weight": "3.4 lb"
+      },
+      "features": {
+        "hard_base": true,
+        "shoulder_strap": true,
+        "zippered": true,
+        "water_resistant": true,
+        "lighted": false
+      },
+      "verdict": "The hands-free hauler. A 39-pocket backpack with a molded base and Klein build quality — carry a full kit up a ladder with both hands free.",
+      "pros": [
+        "39 pockets plus a hard molded front pocket for glasses",
+        "Backpack straps free both hands on ladders",
+        "Molded water-resistant base",
+        "One of the most trusted electrician's backpacks"
+      ],
+      "cons": [
+        "Backpack access is slower than an open tote",
+        "Heavier on the shoulders when loaded",
+        "Premium price"
+      ]
+    },
+    {
+      "asin": "B001P30BNW",
+      "name": "DEWALT DG5542 12 in. Tradesman's Tool Bag",
+      "brand": "DEWALT",
+      "model": "DG5542",
+      "image": "https://m.media-amazon.com/images/I/719vGMqBmnL._AC_SX522_.jpg",
+      "price": 48.98,
+      "rating": 4.8,
+      "reviews_count": 551,
+      "bought": "800+/mo",
+      "specs": {
+        "pockets": "29",
+        "size": "12 in",
+        "material": "Ballistic poly",
+        "base": "Rubber feet",
+        "closure": "Zippered main",
+        "weight": "2.6 lb"
+      },
+      "features": {
+        "hard_base": false,
+        "shoulder_strap": true,
+        "zippered": true,
+        "water_resistant": false,
+        "lighted": false
+      },
+      "verdict": "The compact carrier. A 12 in open-access bag with 29 pockets around a zippered center — a tidy grab bag for a focused tool set.",
+      "pros": [
+        "29 pockets in a small, easy-carry footprint",
+        "Zippered main compartment secures the core tools",
+        "Rubber feet keep it off wet floors",
+        "Highly rated for the price"
+      ],
+      "cons": [
+        "Small — not for a full jobsite kit",
+        "Poly fabric isn't waterproof",
+        "No molded base"
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Open tote or zippered bag?",
+      "a": "An open-top tote (like the Stanley) is fastest for grab-and-go work and standing tools upright, but offers no protection if it tips or rains. A zippered bag keeps everything in during a carry and shields tools from dust and light weather. Pick open for speed, zip for transport and protection."
+    },
+    {
+      "q": "Why does a hard molded base matter?",
+      "a": "Fabric-bottom bags soak up water from a wet floor and sag under heavy tools. A molded rubber or plastic base keeps the bottom dry, helps the bag stand on its own, and takes the abrasion of being dragged across concrete. It's worth paying for if the bag lives on job sites."
+    },
+    {
+      "q": "How many pockets do I actually need?",
+      "a": "More pockets isn't always better — a 50-pocket bag is great for an electrician with many small tools but wasteful for someone carrying a drill and a few wrenches. Match pocket count to your tool set; a big open bay matters more than pocket count if you carry power tools."
+    },
+    {
+      "q": "Should I buy into a bag system?",
+      "a": "Milwaukee PACKOUT and similar bags have molded bases that lock onto rolling boxes and stack in a tower. That's genuinely useful if you already own the system — otherwise you're paying the system premium for a plain bag. Buy the standalone bag on its own merits unless you're committed to the platform."
+    },
+    {
+      "q": "What fabric denier should I look for?",
+      "a": "Denier (D) measures fabric thickness. 600D is fine for a light-duty tote; 1200D–1680D ballistic fabric resists tears and abrasion for daily jobsite use. Higher denier costs more and adds a little weight, but it's the difference between a bag that lasts one season and one that lasts years."
+    }
+  ]
+}

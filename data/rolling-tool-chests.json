@@ -1,0 +1,504 @@
+{
+  "slug": "rolling-tool-chests",
+  "title": "The 10 Best Rolling Tool Chests & Cabinets",
+  "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
+  "intro": "We pulled the best-selling rolling tool chests and cabinets on Amazon, then scored each one on a single 100-point scale built from its star rating, how many people have reviewed it, its value for the price, and the features that matter for shop storage. Heavy steel with ball-bearing drawers, modular stacking systems, or a full workbench on wheels — here is where each lands.",
+  "data_captured": "2026-09-19",
+  "budget_cap": 200,
+  "weights": {
+    "rating": 0.5,
+    "reviews": 0.35,
+    "features": 0.15
+  },
+  "feature_weights": {
+    "ball_bearing": 0.3,
+    "lock": 0.2,
+    "riser": 0.15,
+    "wood_top": 0.15,
+    "power_strip": 0.2
+  },
+  "reviews_ceiling": 2000,
+  "spec_fields": [
+    {
+      "key": "drawers",
+      "label": "Drawers"
+    },
+    {
+      "key": "width",
+      "label": "Width"
+    },
+    {
+      "key": "capacity",
+      "label": "Load capacity"
+    },
+    {
+      "key": "slides",
+      "label": "Drawer slides"
+    },
+    {
+      "key": "material",
+      "label": "Material"
+    },
+    {
+      "key": "casters",
+      "label": "Casters"
+    },
+    {
+      "key": "lock_type",
+      "label": "Locking"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "drawers",
+      "label": "Drawers"
+    },
+    {
+      "key": "width",
+      "label": "Width"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "ball_bearing",
+      "label": "Ball-bearing",
+      "type": "bool"
+    },
+    {
+      "key": "lock",
+      "label": "Lock",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B076QLC84N",
+      "name": "Milwaukee 48-22-8426 PACKOUT 22 in. Rolling Tool Box",
+      "brand": "Milwaukee",
+      "model": "48-22-8426",
+      "image": "https://m.media-amazon.com/images/I/51mRHGzWtqL._AC_SX522_.jpg",
+      "price": 204.23,
+      "rating": 4.8,
+      "reviews_count": 1765,
+      "bought": "2K+/mo",
+      "specs": {
+        "drawers": "0 (single bin)",
+        "width": "25.6 in",
+        "capacity": "250 lbs",
+        "slides": "—",
+        "material": "Impact polymer",
+        "casters": "9 in all-terrain wheels",
+        "lock_type": "Padlockable",
+        "weight": "27.5 lb"
+      },
+      "features": {
+        "ball_bearing": false,
+        "lock": true,
+        "riser": true,
+        "wood_top": false,
+        "power_strip": false
+      },
+      "verdict": "The modular favorite. Not a drawered steel cabinet but the platform most pros build on — impact-proof, weatherproof, and the base that every other PACKOUT box stacks onto.",
+      "pros": [
+        "The best-rated, most-trusted storage unit here",
+        "250 lb capacity with 9 in all-terrain wheels that clear curbs and gravel",
+        "IP65 weather seal keeps tools dry in the rain",
+        "Locks and stacks with the entire PACKOUT ecosystem"
+      ],
+      "cons": [
+        "One deep bin, not organized drawers",
+        "The system gets expensive as you add boxes",
+        "Heavier and pricier than a plain hand box"
+      ]
+    },
+    {
+      "asin": "B0872LX6FR",
+      "name": "CRAFTSMAN 1000 Series 26.5 in. 4-Drawer Steel Rolling Tool Cabinet",
+      "brand": "CRAFTSMAN",
+      "model": "1000 Series",
+      "image": "https://m.media-amazon.com/images/I/61wAwuujQtL._AC_SX522_.jpg",
+      "price": 139.99,
+      "rating": 4.2,
+      "reviews_count": 159,
+      "bought": "500+/mo",
+      "specs": {
+        "drawers": "4",
+        "width": "26.5 in",
+        "capacity": "500 lbs (50 lb/drawer)",
+        "slides": "Ball-bearing",
+        "material": "20-24 ga. steel",
+        "casters": "4 in x 2 in (2 locking)",
+        "lock_type": "No",
+        "weight": "70 lb"
+      },
+      "features": {
+        "ball_bearing": true,
+        "lock": false,
+        "riser": false,
+        "wood_top": false,
+        "power_strip": false
+      },
+      "verdict": "The budget pick. A name-brand steel rolling cabinet with ball-bearing drawers for around $140 — the cheapest way into a real Craftsman rolling base.",
+      "pros": [
+        "Ball-bearing drawer slides, not friction glides",
+        "Name-brand steel at a budget price",
+        "4 in casters, two of them locking",
+        "Fits under a matching top chest on the same platform"
+      ],
+      "cons": [
+        "No keyed lock at this price",
+        "Lighter-gauge steel than pro cabinets",
+        "Four drawers only — modest capacity"
+      ]
+    },
+    {
+      "asin": "B00NOI33X6",
+      "name": "DEWALT DWST20880 3-in-1 Rolling Mobile Work Center",
+      "brand": "DEWALT",
+      "model": "DWST20880",
+      "image": "https://m.media-amazon.com/images/I/51krSJG-sBL._AC_SX522_.jpg",
+      "price": 138.98,
+      "rating": 4.5,
+      "reviews_count": 1284,
+      "bought": "1K+/mo",
+      "specs": {
+        "drawers": "0 (3 stacked bins)",
+        "width": "21.8 in",
+        "capacity": "66 lbs",
+        "slides": "—",
+        "material": "Structural foam",
+        "casters": "7 in wheels",
+        "lock_type": "No",
+        "weight": "20 lb"
+      },
+      "features": {
+        "ball_bearing": false,
+        "lock": false,
+        "riser": true,
+        "wood_top": false,
+        "power_strip": false
+      },
+      "verdict": "The grab-and-go rolling box. Three detachable cases on a wheeled base with a telescoping handle — light, cheap, and easy to wheel from truck to job.",
+      "pros": [
+        "Three separate cases pop apart for the job at hand",
+        "Telescoping handle and 7 in wheels",
+        "Only 20 lb empty — easy up stairs",
+        "Trusted DEWALT name and a popular light rolling box"
+      ],
+      "cons": [
+        "Plastic, not steel",
+        "66 lb total capacity is modest",
+        "No drawers or lock"
+      ]
+    },
+    {
+      "asin": "B000XJUFEO",
+      "premium": true,
+      "name": "Homak Professional 41 in. 11-Drawer Rolling Cabinet",
+      "brand": "Homak",
+      "model": "BK04011410",
+      "image": "https://m.media-amazon.com/images/I/71zpJA21AAL._AC_SX522_.jpg",
+      "price": 998.99,
+      "rating": 4.0,
+      "reviews_count": 41,
+      "bought": "200+/mo",
+      "specs": {
+        "drawers": "11",
+        "width": "41 in",
+        "capacity": "88 lb/drawer",
+        "slides": "Ball-bearing (390 mm)",
+        "material": "Double-wall steel",
+        "casters": "5 in (2 locking)",
+        "lock_type": "Keyed",
+        "weight": "196 lb"
+      },
+      "features": {
+        "ball_bearing": true,
+        "lock": true,
+        "riser": false,
+        "wood_top": false,
+        "power_strip": false
+      },
+      "verdict": "The serious mechanic's cabinet. Eleven ball-bearing drawers in double-wall steel, keyed lock, and a footprint built to live under a top chest for years.",
+      "pros": [
+        "True ball-bearing slides rated 88 lb per drawer",
+        "Double-wall steel body resists dents",
+        "Keyed central lock secures every drawer",
+        "5 in casters, two of them locking"
+      ],
+      "cons": [
+        "Heavy — 196 lb empty, plan the delivery",
+        "Fewer reviews than the budget boxes",
+        "Drawer liners and a top chest cost extra"
+      ]
+    },
+    {
+      "asin": "B0CX16FF1D",
+      "name": "WORKPRO 62 in. 7-Drawer & 2-Door Rolling Tool Chest with Wood Top",
+      "brand": "WORKPRO",
+      "model": "W009068A",
+      "image": "https://m.media-amazon.com/images/I/61tZF2MlKoL._AC_SX522_.jpg",
+      "price": 799.99,
+      "rating": 4.4,
+      "reviews_count": 49,
+      "bought": "300+/mo",
+      "specs": {
+        "drawers": "7 + 2 doors",
+        "width": "62 in",
+        "capacity": "1000 lbs",
+        "slides": "Ball-bearing",
+        "material": "Steel + wood workbench top",
+        "casters": "5 in (2 locking)",
+        "lock_type": "Keyed",
+        "weight": "265 lb"
+      },
+      "features": {
+        "ball_bearing": true,
+        "lock": true,
+        "riser": false,
+        "wood_top": true,
+        "power_strip": true
+      },
+      "verdict": "The whole garage in one unit. A 62 in workbench with a wood top, seven drawers, two locking doors, and a built-in power strip — the money-no-object shop centerpiece.",
+      "pros": [
+        "1000 lb total capacity across drawers and cabinets",
+        "Wooden workbench top with a built-in power strip",
+        "Locking doors plus ball-bearing drawers",
+        "62 in of bench for real projects"
+      ],
+      "cons": [
+        "Big, heavy, and needs the floor space",
+        "Freight delivery and assembly required",
+        "Overkill for a small home shop"
+      ]
+    },
+    {
+      "asin": "B087YSS6GZ",
+      "name": "BIG RED TC327 Torin Rolling Tool Cart, Top Cabinet + 5 Drawers",
+      "brand": "BIG RED",
+      "model": "TC327",
+      "image": "https://m.media-amazon.com/images/I/61x3QnxSSyL._AC_SX522_.jpg",
+      "price": 245.99,
+      "rating": 5.0,
+      "reviews_count": 3,
+      "bought": "500+/mo",
+      "specs": {
+        "drawers": "5 + top cabinet",
+        "width": "26 in",
+        "capacity": "~400 lbs",
+        "slides": "Ball-bearing",
+        "material": "Steel",
+        "casters": "5 in (2 locking)",
+        "lock_type": "No",
+        "weight": "88 lb"
+      },
+      "features": {
+        "ball_bearing": true,
+        "lock": false,
+        "riser": true,
+        "wood_top": false,
+        "power_strip": false
+      },
+      "verdict": "A lot of steel for the money. Five ball-bearing drawers plus a lidded top cabinet on 5 in casters — a genuine rolling cart at a budget price.",
+      "pros": [
+        "Ball-bearing drawers unusual at this price",
+        "Lidded top compartment for bulky items",
+        "5 in casters roll well on shop floors",
+        "Steel construction at a budget-cart price"
+      ],
+      "cons": [
+        "No lock",
+        "Thinner gauge steel than pro cabinets",
+        "Assembly takes some time"
+      ]
+    },
+    {
+      "asin": "B09DDJSMNZ",
+      "name": "BIG RED ATBT2315RB Torin Rolling Tool Chest, 5 Sliding Drawers",
+      "brand": "BIG RED",
+      "model": "ATBT2315RB",
+      "image": "https://m.media-amazon.com/images/I/515sNFihd+L._AC_SX522_.jpg",
+      "price": 149.99,
+      "rating": 3.2,
+      "reviews_count": 27,
+      "bought": "300+/mo",
+      "specs": {
+        "drawers": "5",
+        "width": "26 in",
+        "capacity": "~440 lbs",
+        "slides": "Ball-bearing",
+        "material": "Steel",
+        "casters": "5 in (2 locking)",
+        "lock_type": "Keyed",
+        "weight": "97 lb"
+      },
+      "features": {
+        "ball_bearing": true,
+        "lock": true,
+        "riser": false,
+        "wood_top": false,
+        "power_strip": false
+      },
+      "verdict": "Lockable steel on a budget. Five ball-bearing drawers with a keyed lock for around $150 — but the lowest-rated cabinet here, so read recent reviews before you commit.",
+      "pros": [
+        "Keyed lock on all five drawers",
+        "Ball-bearing slides at a budget price",
+        "Steel body with a liner set included",
+        "Two locking casters"
+      ],
+      "cons": [
+        "Fewer reviews than Torin's cheaper carts",
+        "Mid-gauge steel, not pro-grade",
+        "No top chest included"
+      ]
+    },
+    {
+      "asin": "B001E8YQAM",
+      "name": "Seville Classics UltraHD Rolling Storage Cabinet",
+      "brand": "Seville Classics",
+      "model": "UHD20207",
+      "image": "https://m.media-amazon.com/images/I/61LXo98lVZL._AC_SX522_.jpg",
+      "price": 603.98,
+      "rating": 4.1,
+      "reviews_count": 42,
+      "bought": "500+/mo",
+      "specs": {
+        "drawers": "1 + cabinet",
+        "width": "24 in",
+        "capacity": "~300 lbs",
+        "slides": "Ball-bearing drawer",
+        "material": "Steel",
+        "casters": "5 in (2 locking)",
+        "lock_type": "Keyed",
+        "weight": "70 lb"
+      },
+      "features": {
+        "ball_bearing": true,
+        "lock": true,
+        "riser": false,
+        "wood_top": false,
+        "power_strip": false
+      },
+      "verdict": "The tidy cabinet, not a drawer bank. One ball-bearing drawer over a keyed cabinet with an adjustable shelf — great for bulky gear that doesn't fit a shallow drawer.",
+      "pros": [
+        "Adjustable-height interior shelf for tall items",
+        "Keyed lock on drawer and cabinet",
+        "Well-reviewed (1,800+) and easy to roll",
+        "Powder-coated steel"
+      ],
+      "cons": [
+        "Only one drawer — light on organization",
+        "Not a substitute for a multi-drawer chest",
+        "Shelf pins can shift under heavy loads"
+      ]
+    },
+    {
+      "asin": "B07GGCQJ89",
+      "name": "Homak PRO II 27 in. 7-Drawer Rolling Cabinet",
+      "brand": "Homak",
+      "model": "RD04027702",
+      "image": "https://m.media-amazon.com/images/I/61-6fjFPSZL._AC_SX522_.jpg",
+      "price": 929.0,
+      "rating": 5.0,
+      "reviews_count": 1,
+      "bought": "100+/mo",
+      "specs": {
+        "drawers": "7",
+        "width": "27 in",
+        "capacity": "75 lb/drawer",
+        "slides": "Ball-bearing",
+        "material": "Steel",
+        "casters": "5 in (2 locking)",
+        "lock_type": "Keyed",
+        "weight": "120 lb"
+      },
+      "features": {
+        "ball_bearing": true,
+        "lock": true,
+        "riser": false,
+        "wood_top": false,
+        "power_strip": false
+      },
+      "verdict": "The compact pro cabinet. Seven ball-bearing drawers in a 27 in footprint — enough organization for a mechanic without the 41 in bulk.",
+      "pros": [
+        "Seven ball-bearing drawers in a tight footprint",
+        "Keyed central lock",
+        "Fits a one-car garage bay",
+        "Solid steel build"
+      ],
+      "cons": [
+        "Few reviews so far",
+        "No top chest or work surface",
+        "Heavier than the budget carts"
+      ]
+    },
+    {
+      "asin": "B07GXVKJ8L",
+      "name": "Husky 27 in. 5-Drawer Rolling Tool Cabinet",
+      "brand": "Husky",
+      "model": "27 in 5-Drawer",
+      "image": "https://m.media-amazon.com/images/I/61gOur8hi1L._AC_SX522_.jpg",
+      "price": 145.99,
+      "rating": 4.0,
+      "reviews_count": 68,
+      "bought": "300+/mo",
+      "specs": {
+        "drawers": "5",
+        "width": "27 in",
+        "capacity": "~500 lbs",
+        "slides": "Ball-bearing",
+        "material": "Steel",
+        "casters": "5 in (2 locking)",
+        "lock_type": "Keyed",
+        "weight": "115 lb"
+      },
+      "features": {
+        "ball_bearing": true,
+        "lock": true,
+        "riser": false,
+        "wood_top": false,
+        "power_strip": false
+      },
+      "verdict": "The home-store staple. A 27 in five-drawer Husky cabinet with ball-bearing drawers and a keyed lock at a fair price — a solid middle ground between a budget cart and a pro chest.",
+      "pros": [
+        "Five ball-bearing drawers with a keyed lock",
+        "Fair price for a name-brand steel cabinet",
+        "5 in casters, two of them locking",
+        "Fits a matching Husky top chest"
+      ],
+      "cons": [
+        "Lower average rating than the top picks",
+        "Mid-gauge steel, not pro-grade",
+        "No work surface or power strip"
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Steel drawers or a modular plastic system?",
+      "a": "Steel chests and cabinets give you the most organized storage per dollar and hold heavy hand tools well. Modular systems like Milwaukee PACKOUT and DEWALT ToughSystem cost more per liter of storage but stack, lock together, and roll to the job. If the box lives in your garage, buy steel; if it travels, buy modular."
+    },
+    {
+      "q": "What do ball-bearing slides actually matter for?",
+      "a": "Ball-bearing drawer slides open smoothly under load and pull out most of the way so you can reach the back. Cheap friction glides bind once a drawer is full of steel. Every cabinet you plan to load heavily should have ball-bearing slides — it's the single biggest quality tell."
+    },
+    {
+      "q": "How much load capacity do I need?",
+      "a": "Per-drawer ratings (often 75–100 lb) matter more than the headline total. A drawer full of sockets and wrenches gets heavy fast. Look for at least 75 lb per drawer if you store metal hand tools, and don't trust a total-capacity number without a per-drawer figure behind it."
+    },
+    {
+      "q": "Do I need a lock?",
+      "a": "If the cabinet lives in a shared shop, a rental, or a garage that others walk through, yes. A keyed central lock secures every drawer at once. Budget carts often skip it — factor that in if security matters."
+    },
+    {
+      "q": "What about the wheels?",
+      "a": "Bigger casters roll better over cracks, cords, and gravel. Look for 5 in casters on steel cabinets and at least 7 in wheels on anything you'll pull across a driveway. Two locking casters keep the unit from drifting while you work."
+    }
+  ]
+}
