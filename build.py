@@ -350,6 +350,7 @@ def build_home(site, cats):
     groups = [
         ("Wireless tools", "Battery powered &mdash; cut, drive, and drill anywhere, no cord.", "wireless"),
         ("Wired tools", "Corded &mdash; full unlimited power for the least money, never a dead battery.", "wired"),
+        ("Tool storage", "Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.", "storage"),
     ]
     sections = []
     for label, sub, key in groups:
