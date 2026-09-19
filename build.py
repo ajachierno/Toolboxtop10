@@ -55,7 +55,8 @@ def rank_products(cat):
     forced_overall = next((p for p in ranked if p.get("force_overall")), None)
     forced_budget = next((p for p in ranked if p.get("force_budget")), None)
     overall = forced_overall or (max(kits, key=lambda p: p["score"]) if kits else ranked[0])
-    budget_pool = [p for p in kits if p["price"] <= cap] or [p for p in ranked if p["price"] <= cap]
+    budget_pool = ([p for p in kits if p["price"] <= cap and p is not overall]
+                   or [p for p in ranked if p["price"] <= cap and p is not overall])
     budget = forced_budget or (max(budget_pool, key=lambda p: p["score"]) if budget_pool else None)
     # Editorial "money no object" pick — the best regardless of price (data flag).
     premium = next((p for p in ranked if p.get("premium")), None)

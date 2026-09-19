@@ -1,6 +1,6 @@
 {
   "slug": "tool-bags",
-  "title": "The 10 Best Tool Bags",
+  "title": "The 8 Best Tool Bags",
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
   "intro": "We pulled the best-selling tool bags on Amazon — open-top totes, zippered technician bags, and rugged jobsite haulers — then scored each one on a single 100-point scale built from its star rating, review volume, value, and the features that matter when tools ride on your shoulder. Here is where each lands.",
   "data_captured": "2026-09-19",
@@ -17,7 +17,7 @@
     "water_resistant": 0.2,
     "lighted": 0.15
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 10000,
   "spec_fields": [
     {
       "key": "pockets",
@@ -67,7 +67,6 @@
   "products": [
     {
       "asin": "B000EDTSZG",
-      "force_overall": true,
       "name": "CLC Custom Leathercraft 1539 Multi-Compartment 50-Pocket Tool Bag",
       "brand": "CLC",
       "model": "1539",
@@ -102,12 +101,10 @@
         "No molded hard base — set it down gently on wet ground",
         "Fabric, not weatherproof",
         "Full of steel it gets heavy fast"
-      ],
-      "_real_title": "Custom Leathercraft1539 Multi-Compartment 50 Pocket Tool Bag"
+      ]
     },
     {
       "asin": "B00QNTVV6Y",
-      "premium": true,
       "name": "DEWALT DGL573 Lighted Technician's Tool Bag, 41 Pocket",
       "brand": "DEWALT",
       "model": "DGL573",
@@ -142,11 +139,11 @@
         "LED runs on batteries you'll eventually replace",
         "Narrow bay limits bulky tools",
         "Pricier than a plain zip bag"
-      ],
-      "_real_title": "DEWALT DGL573 Lighted Technician's Tool Bag, 41 Pocket"
+      ]
     },
     {
       "asin": "B00MS16CU6",
+      "premium": true,
       "name": "Klein Tools 5541610-14 Tradesman Pro Tool Bag, 40 Pocket",
       "brand": "Klein Tools",
       "model": "5541610-14",
@@ -175,24 +172,23 @@
         "Bright orange interior makes tools easy to spot",
         "Molded bottom resists moisture",
         "1680D weave and a padded shoulder strap",
-        "Klein's trade reputation and 4.8 stars"
+        "Klein's trade reputation for durability"
       ],
       "cons": [
         "Open top offers no rain protection",
         "Premium price",
         "No zip means loose tools can tip out"
-      ],
-      "_real_title": "Klein Tools 5541610-14 Tool Bag with Shoulder Strap Has 40 Pockets for Tool Storage and Orange Interior"
+      ]
     },
     {
       "asin": "B001P30BO6",
       "name": "DEWALT DG5543 16 in. 33-Pocket Tool Bag",
       "brand": "DEWALT",
       "model": "DG5543",
-      "image": "https://m.media-amazon.com/images/P/B001P30BO6.01._SL500_.jpg",
-      "price": 39.97,
-      "rating": 4.7,
-      "reviews_count": 8000,
+      "image": "https://m.media-amazon.com/images/I/715EKLSDJcL._AC_SX522_.jpg",
+      "price": 82.96,
+      "rating": 4.8,
+      "reviews_count": 8320,
       "bought": "2K+/mo",
       "specs": {
         "pockets": "33",
@@ -209,55 +205,17 @@
         "water_resistant": false,
         "lighted": false
       },
-      "verdict": "The value pick. A 33-pocket zip-top bag from a name brand for around $40 — the sweet spot of price, pockets, and trust.",
+      "verdict": "The all-rounder. A 33-pocket zip-top bag from a name brand — a well-reviewed, do-everything carrier for a mixed tool set.",
       "pros": [
-        "33 pockets for the price of a bare-bones bag",
+        "33 pockets organize a full mixed tool set",
         "Zippered top keeps tools in during a carry",
         "Rubber feet lift it off wet floors",
-        "8,000+ reviews at 4.7 stars"
+        "A long-standing value best-seller"
       ],
       "cons": [
         "Rubber feet, not a full molded base",
         "Poly fabric isn't waterproof",
         "Shoulder strap padding is thin"
-      ]
-    },
-    {
-      "asin": "B001P30BN2",
-      "name": "DEWALT DG5511 Pro Contractor's Gear Bag, 24 in.",
-      "brand": "DEWALT",
-      "model": "DG5511",
-      "image": "https://m.media-amazon.com/images/P/B001P30BN2.01._SL500_.jpg",
-      "price": 49.97,
-      "rating": 4.7,
-      "reviews_count": 5000,
-      "bought": "1K+/mo",
-      "specs": {
-        "pockets": "33",
-        "size": "24 x 12 x 12 in",
-        "material": "Ballistic poly",
-        "base": "Reinforced",
-        "closure": "Zippered top",
-        "weight": "4.9 lb"
-      },
-      "features": {
-        "hard_base": false,
-        "shoulder_strap": true,
-        "zippered": true,
-        "water_resistant": false,
-        "lighted": false
-      },
-      "verdict": "The big hauler. A 24 in duffel-style bag with pockets around a cavernous main compartment — for hauling a full kit, not just hand tools.",
-      "pros": [
-        "24 in main bay holds a big loadout",
-        "33 exterior and interior pockets",
-        "Wide zip mouth opens the whole bag",
-        "Padded adjustable shoulder strap"
-      ],
-      "cons": [
-        "Big and heavy when loaded",
-        "No molded base",
-        "Overkill for a small tool set"
       ]
     },
     {
@@ -296,8 +254,7 @@
         "Only pays off if you own PACKOUT gear",
         "Fewer pockets than a dedicated tech bag",
         "Premium price"
-      ],
-      "_real_title": "Milwaukee (MLW48228300) PACKOUT Tech Bag"
+      ]
     },
     {
       "asin": "B00ES8KUAA",
@@ -335,45 +292,6 @@
         "14 in size limits a big kit",
         "Fewer reviews than the DEWALT bags",
         "Priced above basic 14 in bags"
-      ],
-      "_real_title": "Carhartt Legacy Tool Bag 14 inch, Carhartt Brown"
-    },
-    {
-      "asin": "B00ES8KUB4",
-      "name": "Carhartt Legacy Tool Bag, 16 in.",
-      "brand": "Carhartt",
-      "model": "Legacy 16 in",
-      "image": "https://m.media-amazon.com/images/P/B00ES8KUB4.01._SL500_.jpg",
-      "price": 74.99,
-      "rating": 4.7,
-      "reviews_count": 1500,
-      "bought": "400+/mo",
-      "specs": {
-        "pockets": "23 ext / 11 int",
-        "size": "16 x 9 x 10 in",
-        "material": "1200D poly, Rain Defender",
-        "base": "Molded",
-        "closure": "Zippered top",
-        "weight": "4.4 lb"
-      },
-      "features": {
-        "hard_base": true,
-        "shoulder_strap": true,
-        "zippered": true,
-        "water_resistant": true,
-        "lighted": false
-      },
-      "verdict": "The mid-size Carhartt. Same rugged build as the 14 in with more room — 34 total pockets and a molded base for a growing tool set.",
-      "pros": [
-        "34 total pockets for real organization",
-        "Rain Defender coating and molded base",
-        "Wide-mouth zip opens the whole bag",
-        "Carhartt build quality"
-      ],
-      "cons": [
-        "Heavier and pricier than the 14 in",
-        "Still fabric, not a hard case",
-        "Modest review count"
       ]
     },
     {
@@ -381,10 +299,10 @@
       "name": "Stanley 518160M FatMax 18 in. Open-Mouth Tool Tote",
       "brand": "Stanley",
       "model": "518160M",
-      "image": "https://m.media-amazon.com/images/P/B000Q5PHIY.01._SL500_.jpg",
-      "price": 29.98,
-      "rating": 4.7,
-      "reviews_count": 6000,
+      "image": "https://m.media-amazon.com/images/I/81OBmM-MI3L._AC_SX522_.jpg",
+      "price": 32.99,
+      "rating": 4.3,
+      "reviews_count": 26,
       "bought": "1K+/mo",
       "specs": {
         "pockets": "12",
@@ -405,7 +323,7 @@
       "pros": [
         "Rigid plastic base stands and stays open",
         "Wide mouth for fast tool access",
-        "Only $30 with 6,000+ reviews",
+        "Inexpensive and long-trusted",
         "Light at under 3 lb"
       ],
       "cons": [
@@ -419,10 +337,10 @@
       "name": "Milwaukee PACKOUT 20 in. Tool Bag",
       "brand": "Milwaukee",
       "model": "48-22-8321",
-      "image": "https://m.media-amazon.com/images/P/B07NNXZ14X.01._SL500_.jpg",
-      "price": 99.0,
-      "rating": 4.8,
-      "reviews_count": 1800,
+      "image": "https://m.media-amazon.com/images/I/71T1mJFiz-L._AC_SX522_.jpg",
+      "price": 34.95,
+      "rating": 4.7,
+      "reviews_count": 29,
       "bought": "500+/mo",
       "specs": {
         "pockets": "19",
