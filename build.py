@@ -578,10 +578,13 @@ def build_home(site, cats):
     if len(major) < 4:  # fallback for a small site: most-common brands overall
         major = sorted(order, key=lambda b: (-counts[b], order.index(b)))
     major = major[:10]
-    # Collapsed groups open on hover as well as the native click/tap toggle.
+    # Collapsed groups open while hovered (and via the native click/tap toggle),
+    # then collapse again when the pointer leaves.
     hover_js = ("(function(){document.querySelectorAll('details.cats')"
-                ".forEach(function(d){d.addEventListener('mouseenter',"
-                "function(){d.open=true;});});})();")
+                ".forEach(function(d){"
+                "d.addEventListener('mouseenter',function(){d.open=true;});"
+                "d.addEventListener('mouseleave',function(){d.open=false;});"
+                "});})();")
     body = f"""
   <section class="lead home">
     <h1>{esc(site['brand'])}</h1>
