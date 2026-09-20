@@ -254,19 +254,60 @@ def render_guide(items):
     return "\n".join(out)
 
 
-def page(site, title, body, is_home=False):
+def meta_desc(text, limit=157):
+    """Trim to a clean, search-friendly meta description length at a word boundary."""
+    text = " ".join(str(text).split())
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].rstrip(",.;:—- ")
+    return cut + "…"
+
+
+def jsonld(*objs):
+    """Render one or more schema.org objects as a JSON-LD script block."""
+    items = [o for o in objs if o]
+    if not items:
+        return ""
+    payload = items[0] if len(items) == 1 else items
+    return ('<script type="application/ld+json">'
+            + json.dumps(payload, ensure_ascii=False) + '</script>')
+
+
+def page(site, title, body, is_home=False, description=None, canonical=None,
+         image=None, structured_data=""):
     tag_state = ("" if site["affiliate_tag"] else
                  '<div class="notice">Preview build &mdash; affiliate links are '
                  'untagged until the Amazon Associates account is approved.</div>')
     home_link = "" if is_home else '<a href="index.html">&larr; All categories</a>'
+    desc = meta_desc(description or site["description"])
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    canonical_url = canonical if canonical else (f"{base}/" if base else "")
+    og_image = image or (f"{base}/assets/logo.png" if base else "assets/logo.png")
+    canonical_tag = f'\n<link rel="canonical" href="{esc(canonical_url)}">' if canonical_url else ""
+    og_url = f'\n<meta property="og:url" content="{esc(canonical_url)}">' if canonical_url else ""
+    social = (
+        f'\n<meta property="og:type" content="{"website" if is_home else "article"}">'
+        f'\n<meta property="og:site_name" content="{esc(site["brand"])}">'
+        f'\n<meta property="og:title" content="{esc(title)}">'
+        f'\n<meta property="og:description" content="{esc(desc)}">'
+        f'{og_url}'
+        f'\n<meta property="og:image" content="{esc(og_image)}">'
+        f'\n<meta name="twitter:card" content="summary_large_image">'
+        f'\n<meta name="twitter:title" content="{esc(title)}">'
+        f'\n<meta name="twitter:description" content="{esc(desc)}">'
+        f'\n<meta name="twitter:image" content="{esc(og_image)}">')
     return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
-<meta name="description" content="{esc(site['description'])}">
+<meta name="description" content="{esc(desc)}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">{canonical_tag}
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="assets/logo.png">{social}
 {site.get('head_extra', '')}
+{structured_data}
 <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -327,8 +368,29 @@ def build_category(site, filename):
     {render_guide(cat['buyers_guide'])}
   </section>
   {render_avoid(avoid, site)}"""
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    canonical = f"{base}/{cat['slug']}.html" if base else ""
+    year = str(site.get("updated", ""))[:4]
+    title = f"{cat['title']}{f' ({year})' if year else ''} — {site['brand']}"
+    description = (f"{cat['title']} ranked from real Amazon ratings, review counts and prices. "
+                  f"Best Overall: {overall['brand']} {overall['model']}; Best Budget: "
+                  f"{budget['brand']} {budget['model']}. Specs, pros, cons, and a pick to avoid.")
+    # Structured data: breadcrumb trail, the ranked list, and the buyer's-guide FAQ.
+    breadcrumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": site["brand"], "item": f"{base}/"},
+        {"@type": "ListItem", "position": 2, "name": cat["title"], "item": canonical}]} if base else None
+    itemlist = {"@context": "https://schema.org", "@type": "ItemList", "name": cat["title"],
+                "numberOfItems": len(ranked), "itemListOrder": "https://schema.org/ItemListOrderDescending",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": p["rank"], "name": f"{p['brand']} {p['model']}",
+                     "url": f"{canonical}#{p['asin']}" if canonical else None} for p in ranked]}
+    faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q["q"],
+         "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in cat.get("buyers_guide", [])]}
+    sd = jsonld(breadcrumb, itemlist) + jsonld(faq)
     (OUT / f"{cat['slug']}.html").write_text(
-        page(site, f"{cat['title']} — {site['brand']}", body), encoding="utf-8")
+        page(site, title, body, description=description, canonical=canonical,
+             structured_data=sd), encoding="utf-8")
     return cat, overall, budget
 
 
@@ -369,8 +431,14 @@ def build_home(site, cats):
     <p class="sub">{esc(site['description'])}</p>
   </section>
   {''.join(sections)}"""
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    org = {"@context": "https://schema.org", "@type": "Organization", "name": site["brand"],
+           "url": f"{base}/" if base else "", "logo": f"{base}/assets/logo.png" if base else ""}
+    website = {"@context": "https://schema.org", "@type": "WebSite", "name": site["brand"],
+               "url": f"{base}/" if base else "", "description": site["description"]}
     (OUT / "index.html").write_text(
-        page(site, f"{site['brand']} — {site['tagline']}", body, is_home=True),
+        page(site, f"{site['brand']} — {site['tagline']}", body, is_home=True,
+             canonical=f"{base}/" if base else "", structured_data=jsonld(org, website)),
         encoding="utf-8")
 
 
@@ -388,10 +456,11 @@ def main():
     # sitemap.xml + robots.txt (SEO / Search Console)
     if site.get("custom_domain"):
         base = f"https://{site['custom_domain']}"
-        urls = [f"{base}/"] + [f"{base}/{c['slug']}.html" for c in site["categories"]]
         lastmod = site["updated"]
+        urls = [(f"{base}/", "1.0")] + [(f"{base}/{c['slug']}.html", "0.8") for c in site["categories"]]
         entries = "\n".join(
-            f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod></url>" for u in urls)
+            f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod>"
+            f"<changefreq>weekly</changefreq><priority>{pr}</priority></url>" for u, pr in urls)
         (OUT / "sitemap.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
