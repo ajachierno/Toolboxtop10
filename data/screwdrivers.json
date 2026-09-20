@@ -1,0 +1,429 @@
+{
+  "slug": "screwdrivers",
+  "title": "The 10 Best Screwdriver Sets",
+  "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
+  "intro": "We pulled the best-selling manual screwdriver sets on Amazon — fixed-handle sets, multi-bit and ratcheting drivers, magnetic-tip budget kits, and a precision set for electronics — then scored each on a single 100-point scale built from its star rating, review volume, value, and the features that matter: magnetic tips, a ratcheting mechanism, a nut driver, and a storage case. Cordless power screwdrivers are a separate tool and aren't on this list.",
+  "data_captured": "2026-09-19",
+  "budget_cap": 10,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "magnetic": 0.3,
+    "ratcheting": 0.25,
+    "nut_driver": 0.25,
+    "case": 0.2
+  },
+  "reviews_ceiling": 20000,
+  "spec_fields": [
+    { "key": "pieces", "label": "Pieces" },
+    { "key": "types", "label": "Tip types" },
+    { "key": "handle", "label": "Handle" },
+    { "key": "style", "label": "Style" }
+  ],
+  "table_columns": [
+    { "key": "pieces", "label": "Pieces" },
+    { "key": "magnetic", "label": "Magnetic", "type": "bool" },
+    { "key": "ratcheting", "label": "Ratcheting", "type": "bool" },
+    { "key": "nut_driver", "label": "Nut driver", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B0015SBILG",
+      "force_overall": true,
+      "name": "Klein Tools 32500 11-in-1 Screwdriver / Nut Driver Set",
+      "brand": "Klein Tools",
+      "model": "32500",
+      "image": "https://m.media-amazon.com/images/I/615zirukHuL._AC_SX522_.jpg",
+      "price": 15.97,
+      "rating": 4.8,
+      "reviews_count": 28400,
+      "bought": "5K+/mo",
+      "specs": {
+        "pieces": "11-in-1",
+        "types": "Phillips, Slotted, Torx, Square + 3 nut drivers",
+        "handle": "Cushion grip",
+        "style": "Multi-bit + nut driver"
+      },
+      "features": {
+        "magnetic": false,
+        "ratcheting": false,
+        "nut_driver": true,
+        "case": false
+      },
+      "verdict": "The one screwdriver to keep in your pocket. Eight bits and three nut driver sizes live in one cushion-grip handle, so it replaces a whole drawer of drivers. With 28,000-plus ratings it's the most-trusted driver on the list — and it's sixteen dollars.",
+      "pros": [
+        "8 bits plus 3 nut driver sizes in one tool",
+        "Bits store in the shaft — nothing to lose",
+        "Klein's cushion-grip handle and trade reputation",
+        "Enormous review base at a low price"
+      ],
+      "cons": [
+        "Swapping bits is slower than grabbing a dedicated driver",
+        "Not magnetic",
+        "One handle size may feel big for fine work"
+      ]
+    },
+    {
+      "asin": "B08KFMHQCP",
+      "name": "Klein Tools 32305 15-in-1 Ratcheting Multi-Bit Screwdriver",
+      "brand": "Klein Tools",
+      "model": "32305",
+      "image": "https://m.media-amazon.com/images/I/51yPaWMYdZL._AC_SX522_.jpg",
+      "price": 19.98,
+      "rating": 4.7,
+      "reviews_count": 8800,
+      "bought": "5K+/mo",
+      "specs": {
+        "pieces": "15-in-1",
+        "types": "Phillips, Slotted, Square, Torx + 1/4 in nut driver",
+        "handle": "Cushion grip",
+        "style": "Ratcheting multi-bit"
+      },
+      "features": {
+        "magnetic": false,
+        "ratcheting": true,
+        "nut_driver": true,
+        "case": false
+      },
+      "verdict": "The ratcheting upgrade to the 11-in-1. A three-position ratchet drives screws far faster than a fixed driver without lifting the bit, and it still packs a stack of bits plus a nut driver into one handle. The pick if you drive a lot of fasteners.",
+      "pros": [
+        "Ratchet drives screws quickly without re-gripping",
+        "14 bit tips plus a 1/4-inch nut driver",
+        "Bits store in the handle",
+        "Klein build quality and a big review base"
+      ],
+      "cons": [
+        "Ratchet adds a little length and bulk",
+        "Not magnetic",
+        "Costs more than a plain multi-bit driver"
+      ]
+    },
+    {
+      "asin": "B0007ZA29C",
+      "premium": true,
+      "name": "Klein Tools 85076 Screwdriver Set, Made in USA, 7-Piece",
+      "brand": "Klein Tools",
+      "model": "85076",
+      "image": "https://m.media-amazon.com/images/I/511Qj5iPOPL._AC_SX522_.jpg",
+      "price": 49.97,
+      "rating": 4.8,
+      "reviews_count": 1400,
+      "bought": "600+/mo",
+      "specs": {
+        "pieces": "7",
+        "types": "Slotted, Phillips (Tip-Ident)",
+        "handle": "Cushion grip",
+        "style": "Fixed, individual drivers"
+      },
+      "features": {
+        "magnetic": false,
+        "ratcheting": false,
+        "nut_driver": false,
+        "case": false
+      },
+      "verdict": "The buy-it-for-life set. Seven individual American-made drivers with Klein's Tip-Ident handles so you can spot the size at a glance. Dedicated drivers beat a multi-bit for grip and torque, and these are built to outlast the job.",
+      "pros": [
+        "Made in the USA with a lifetime reputation",
+        "Individual drivers give more torque and control than a multi-bit",
+        "Tip-Ident handles show the size at a glance",
+        "Precision-machined tips resist cam-out"
+      ],
+      "cons": [
+        "Priciest set here",
+        "Only 7 drivers — no Torx or square",
+        "Takes up more room than one multi-bit tool"
+      ]
+    },
+    {
+      "asin": "B07QK2PFKY",
+      "name": "CRAFTSMAN Screwdriver Set, Assorted, 12-Piece (CMHT65044)",
+      "brand": "CRAFTSMAN",
+      "model": "CMHT65044",
+      "image": "https://m.media-amazon.com/images/I/71JFGmr5DjS._AC_SX522_.jpg",
+      "price": 24.98,
+      "rating": 4.8,
+      "reviews_count": 7400,
+      "bought": "600+/mo",
+      "specs": {
+        "pieces": "12",
+        "types": "Phillips, Slotted",
+        "handle": "Bi-material",
+        "style": "Fixed, individual drivers"
+      },
+      "features": {
+        "magnetic": false,
+        "ratcheting": false,
+        "nut_driver": false,
+        "case": false
+      },
+      "verdict": "The trusted-name fixed set. Twelve individual Phillips and slotted drivers with Craftsman's bi-material handles — a full range of sizes for everyday household and shop work from a brand most people already own.",
+      "pros": [
+        "12 sizes cover most household screws",
+        "Bi-material handles for a comfortable, non-slip grip",
+        "Individual drivers give better torque than a multi-bit",
+        "Craftsman name and warranty"
+      ],
+      "cons": [
+        "Phillips and slotted only — no Torx or square",
+        "Not magnetic",
+        "Takes more space than a multi-bit driver"
+      ]
+    },
+    {
+      "asin": "B07SGVXKZ9",
+      "name": "CRAFTSMAN Ratcheting Screwdriver, Multibit Set, 26-Piece (CMHT68001)",
+      "brand": "CRAFTSMAN",
+      "model": "CMHT68001",
+      "image": "https://m.media-amazon.com/images/I/71jMXYb+p1L._AC_SX522_.jpg",
+      "price": 15.99,
+      "rating": 4.6,
+      "reviews_count": 7700,
+      "bought": "2K+/mo",
+      "specs": {
+        "pieces": "26",
+        "types": "Phillips, Slotted, Torx, Square + bits",
+        "handle": "Bi-material",
+        "style": "Ratcheting multi-bit"
+      },
+      "features": {
+        "magnetic": false,
+        "ratcheting": true,
+        "nut_driver": false,
+        "case": false
+      },
+      "verdict": "The value ratcheting driver. A ratcheting handle with 25 stored bits covering Phillips, slotted, Torx, and square — a lot of driving versatility for sixteen dollars from a name-brand tool.",
+      "pros": [
+        "Ratchet speeds up repetitive driving",
+        "25 bits cover four fastener types",
+        "Bits store in the handle",
+        "Strong value from a trusted brand"
+      ],
+      "cons": [
+        "Small stored bits can be fiddly to swap",
+        "Not magnetic",
+        "One handle size for all bits"
+      ]
+    },
+    {
+      "asin": "B07RFD9JWZ",
+      "force_budget": true,
+      "name": "Amartisan 10-Piece Magnetic Screwdriver Set",
+      "brand": "Amartisan",
+      "model": "10-Piece Magnetic",
+      "image": "https://m.media-amazon.com/images/I/81dk0oW4hvL._AC_SX522_.jpg",
+      "price": 9.99,
+      "rating": 4.6,
+      "reviews_count": 12900,
+      "bought": "6K+/mo",
+      "specs": {
+        "pieces": "10",
+        "types": "Phillips, Slotted",
+        "handle": "Anti-slip",
+        "style": "Fixed, magnetic"
+      },
+      "features": {
+        "magnetic": true,
+        "ratcheting": false,
+        "nut_driver": false,
+        "case": false
+      },
+      "verdict": "The best cheap set. Ten magnetic-tip Phillips and slotted drivers in a range of sizes for ten dollars, with nearly 13,000 ratings. Magnetic tips hold the screw so you're not fishing it into place. Perfect starter or drawer set.",
+      "pros": [
+        "Magnetic tips hold screws in place",
+        "10 sizes for around ten dollars",
+        "Anti-slip handles",
+        "Huge review base for a budget set"
+      ],
+      "cons": [
+        "Phillips and slotted only",
+        "Off-brand steel won't match Klein for durability",
+        "No case or nut driver"
+      ]
+    },
+    {
+      "asin": "B08XY5C41N",
+      "name": "ROTATION 6-Piece Magnetic Tip Screwdriver Set (3 Phillips, 3 Flat)",
+      "brand": "ROTATION",
+      "model": "6-Piece Magnetic",
+      "image": "https://m.media-amazon.com/images/I/61tap4eproL._AC_SX522_.jpg",
+      "price": 9.99,
+      "rating": 4.6,
+      "reviews_count": 6600,
+      "bought": "6K+/mo",
+      "specs": {
+        "pieces": "6",
+        "types": "3 Phillips, 3 Slotted",
+        "handle": "Ergonomic",
+        "style": "Fixed, magnetic"
+      },
+      "features": {
+        "magnetic": true,
+        "ratcheting": false,
+        "nut_driver": false,
+        "case": false
+      },
+      "verdict": "The simplest cheap set. Three Phillips and three flat-head drivers with magnetic tips and comfortable handles — the essentials, nothing more, for ten dollars. Good for a car, a kitchen drawer, or a first tool kit.",
+      "pros": [
+        "Covers the six most-used driver sizes",
+        "Magnetic tips grab screws",
+        "Comfortable ergonomic handles",
+        "Cheap and highly rated"
+      ],
+      "cons": [
+        "Only six drivers — no Torx or square",
+        "No case",
+        "Off-brand build"
+      ]
+    },
+    {
+      "asin": "B07RGBWH6H",
+      "name": "Amartisan 43-Piece Magnetic Screwdriver Set with Case",
+      "brand": "Amartisan",
+      "model": "43-Piece",
+      "image": "https://m.media-amazon.com/images/I/81aQY6iSGKL._AC_SX522_.jpg",
+      "price": 17.86,
+      "rating": 4.7,
+      "reviews_count": 5000,
+      "bought": "1K+/mo",
+      "specs": {
+        "pieces": "43",
+        "types": "Slotted, Phillips, Hex, Pozidriv, Torx + precision",
+        "handle": "Anti-slip",
+        "style": "Fixed + precision, with case"
+      },
+      "features": {
+        "magnetic": true,
+        "ratcheting": false,
+        "nut_driver": false,
+        "case": true
+      },
+      "verdict": "The do-it-all kit. Full-size drivers plus a precision set covering slotted, Phillips, hex, Pozidriv, and Torx, with a magnetizer/demagnetizer tool and a storage case. One box that handles both household jobs and electronics.",
+      "pros": [
+        "Covers five tip types plus precision sizes",
+        "Includes a magnetizer/demagnetizer tool",
+        "Comes with an organized storage case",
+        "Strong value for a 43-piece kit"
+      ],
+      "cons": [
+        "Individual drivers are lighter-duty than a pro set",
+        "Case takes up more space",
+        "Off-brand for hard daily use"
+      ]
+    },
+    {
+      "asin": "B09FFCGLHK",
+      "name": "JOREST Precision Screwdriver Set for Electronics",
+      "brand": "JOREST",
+      "model": "Precision Set",
+      "image": "https://m.media-amazon.com/images/I/81YdkcvdCLL._AC_SX522_.jpg",
+      "price": 9.99,
+      "rating": 4.7,
+      "reviews_count": 26700,
+      "bought": "10K+/mo",
+      "specs": {
+        "pieces": "Precision kit",
+        "types": "Torx, Tri-wing, Phillips, Slotted + more",
+        "handle": "Precision spin-cap",
+        "style": "Precision (electronics)"
+      },
+      "features": {
+        "magnetic": true,
+        "ratcheting": false,
+        "nut_driver": false,
+        "case": true
+      },
+      "verdict": "The electronics pick. A magnetic precision driver with the odd bits — Torx, tri-wing, pentalobe — that open phones, laptops, game consoles, and glasses. Nearly 27,000 ratings and ten dollars for the kit that a full-size set can't replace.",
+      "pros": [
+        "Tiny specialty bits for phones, laptops, and consoles",
+        "Magnetic driver holds micro screws",
+        "Comes in an organized case",
+        "One of the best-selling repair kits on Amazon"
+      ],
+      "cons": [
+        "Precision only — useless for household screws",
+        "Small bits are easy to misplace",
+        "Not built for high torque"
+      ]
+    },
+    {
+      "asin": "B07QRCNT6L",
+      "name": "CRAFTSMAN Screwdriver Set, Assorted, 25-Piece (CMHT65046)",
+      "brand": "CRAFTSMAN",
+      "model": "CMHT65046",
+      "image": "https://m.media-amazon.com/images/I/71OQUkgcBEL._AC_SX522_.jpg",
+      "price": 48.98,
+      "rating": 4.8,
+      "reviews_count": 3700,
+      "bought": "100+/mo",
+      "specs": {
+        "pieces": "25",
+        "types": "Phillips, Slotted, Torx",
+        "handle": "Bi-material",
+        "style": "Fixed, individual drivers"
+      },
+      "features": {
+        "magnetic": false,
+        "ratcheting": false,
+        "nut_driver": false,
+        "case": false
+      },
+      "verdict": "The big fixed set. Twenty-five individual drivers spanning Phillips, slotted, and Torx in a wide size range — the pick if you'd rather grab a dedicated, full-torque driver than swap bits, and you want one set to cover almost everything.",
+      "pros": [
+        "25 dedicated drivers across three tip types",
+        "Includes Torx sizes many sets skip",
+        "Bi-material handles and Craftsman warranty",
+        "Full torque of individual drivers"
+      ],
+      "cons": [
+        "Most expensive of the Craftsman sets",
+        "Not magnetic",
+        "Takes real drawer space"
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Individual drivers or a multi-bit set?",
+      "a": "Individual drivers give the best grip and the most torque, and there's no bit to slip out under load — the choice if you drive screws hard or often. A multi-bit driver (like the Klein 11-in-1) replaces a whole set with one tool that fits in a pocket, at the cost of swapping bits. Most people are well served by a good multi-bit for everyday jobs and a small fixed set for heavy work."
+    },
+    {
+      "q": "Is a ratcheting screwdriver worth it?",
+      "a": "For repetitive driving, yes. A ratchet lets you keep the bit seated and just rock the handle back and forth instead of re-gripping every turn, which is much faster on a run of screws. The trade-off is a little extra length and a mechanism that can wear over years. If you assemble furniture or drive a lot of fasteners by hand, it's a real upgrade."
+    },
+    {
+      "q": "Do magnetic tips matter?",
+      "a": "They help a lot. A magnetic tip holds the screw on the driver so you can start it one-handed and in awkward spots without dropping it. It's especially useful overhead or in tight cavities. Most cheap sets are magnetic; some premium fixed drivers aren't, though you can magnetize any tip with a magnetizer tool."
+    },
+    {
+      "q": "What tip types do I actually need?",
+      "a": "Phillips and slotted (flat) cover the majority of household screws. Add Torx (star-shaped) for electronics, appliances, and a lot of modern furniture, and square (Robertson) if you work with decking or cabinetry. A set that includes all four, or a multi-bit that does, future-proofs you against the odd fastener."
+    },
+    {
+      "q": "Do I need a precision set too?",
+      "a": "If you ever open a phone, laptop, game console, glasses, or a watch, yes — those use tiny Torx, tri-wing, and pentalobe screws that a normal driver can't touch. A precision kit is cheap and does what a full-size set can't. It won't replace a regular set for household screws, so most people end up owning both."
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0HDZ12Z9R",
+      "name": "415-Piece Home Tool Kit with Rolling Tool Box",
+      "brand": "No-name",
+      "model": "415-Piece Kit",
+      "image": "https://m.media-amazon.com/images/I/71sDVTs96TL._AC_SX522_.jpg",
+      "price": 92.99,
+      "rating": 5.0,
+      "reviews_count": 1,
+      "flag": "Piece-count padding, wrong product",
+      "verdict": "The one to skip if you actually want good screwdrivers. A 415-piece 'home tool kit' isn't a screwdriver set — the headline count is padded with sockets, zip ties, and hardware, and the drivers inside are an afterthought.",
+      "reasons": [
+        "The '415 pieces' is marketing math — it's mostly sockets, tape, cable ties, and assorted hardware. The actual screwdrivers are a small, generic subset, so you're paying $93 for a box, not for good drivers.",
+        "Buying a huge mixed kit to get screwdrivers means every tool in it is built to a budget. A dedicated $16 Klein driver will outlast and out-grip anything bundled into a mega-kit.",
+        "No established brand or warranty stands behind it, and mystery-steel tips cam out and round off — the fastest way to strip a screw.",
+        "If you want a general household kit that's fine, but for the job this page is about — driving screws well — a real screwdriver set from this list is the smarter buy."
+      ]
+    }
+  ]
+}

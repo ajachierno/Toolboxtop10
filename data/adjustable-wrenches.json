@@ -1,0 +1,429 @@
+{
+  "slug": "adjustable-wrenches",
+  "title": "The 10 Best Adjustable (Crescent) Wrenches",
+  "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
+  "intro": "We pulled the best-selling adjustable wrenches on Amazon — the tool everyone calls a crescent wrench — from single 8- and 10-inchers to multi-size sets, then scored each on a single 100-point scale built from its star rating, review volume, value, and the features that matter: a wide jaw that grips bigger nuts, laser SAE and metric scales on the jaw, a comfortable grip, and whether it comes as a set. Impact wrenches and cordless ratchets are different tools and aren't ranked here.",
+  "data_captured": "2026-09-19",
+  "budget_cap": 13,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "wide_jaw": 0.3,
+    "dual_scale": 0.25,
+    "set": 0.25,
+    "soft_grip": 0.2
+  },
+  "reviews_ceiling": 5000,
+  "spec_fields": [
+    { "key": "size", "label": "Size" },
+    { "key": "jaw", "label": "Jaw" },
+    { "key": "scales", "label": "Scales" },
+    { "key": "material", "label": "Material" }
+  ],
+  "table_columns": [
+    { "key": "size", "label": "Size" },
+    { "key": "wide_jaw", "label": "Wide jaw", "type": "bool" },
+    { "key": "dual_scale", "label": "SAE+Metric", "type": "bool" },
+    { "key": "set", "label": "Set", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07QQ8P5K6",
+      "force_overall": true,
+      "name": "CRAFTSMAN Adjustable Wrench Set, 3-Piece All Steel, SAE & Metric (CMMT12001)",
+      "brand": "CRAFTSMAN",
+      "model": "CMMT12001",
+      "image": "https://m.media-amazon.com/images/I/7190LUkgldL._AC_SX522_.jpg",
+      "price": 33.99,
+      "rating": 4.7,
+      "reviews_count": 3900,
+      "bought": "1K+/mo",
+      "specs": {
+        "size": "6, 8, 10 in",
+        "jaw": "Wide",
+        "scales": "SAE & Metric",
+        "material": "Chrome-finish steel"
+      },
+      "features": {
+        "wide_jaw": true,
+        "dual_scale": true,
+        "set": true,
+        "soft_grip": false
+      },
+      "verdict": "The set to own. Three sizes — 6, 8, and 10 inch — cover almost every nut and bolt you'll meet, with wide-opening jaws, large SAE and metric markings, and a full-polish chrome finish. All-steel Craftsman build, meets ASME specs, and a brand most people already trust.",
+      "pros": [
+        "Three sizes cover small to large fasteners",
+        "Wide-opening jaws grip bigger nuts",
+        "SAE and metric scales on the jaw",
+        "All-steel build and Craftsman warranty"
+      ],
+      "cons": [
+        "Bare steel handles, no cushioned grip",
+        "Costs more than a single wrench",
+        "No extra-capacity jaw like the Klein sets"
+      ]
+    },
+    {
+      "asin": "B0CYHLQ7FW",
+      "premium": true,
+      "name": "KLEIN TOOLS D5073 3-Piece Extra-Capacity Adjustable Wrench Set (6, 8, 10 in)",
+      "brand": "Klein Tools",
+      "model": "D5073",
+      "image": "https://m.media-amazon.com/images/I/51PGMisOI-L._AC_SX522_.jpg",
+      "price": 32.98,
+      "rating": 4.6,
+      "reviews_count": 698,
+      "bought": "1K+/mo",
+      "specs": {
+        "size": "6, 8, 10 in",
+        "jaw": "Extra capacity",
+        "scales": "SAE & Metric (laser)",
+        "material": "Forged alloy steel"
+      },
+      "features": {
+        "wide_jaw": true,
+        "dual_scale": true,
+        "set": true,
+        "soft_grip": true
+      },
+      "verdict": "The pro set. Klein's extra-capacity jaws open wider than a normal wrench of the same length, so a compact 8-inch grips a nut you'd otherwise need a 10 for — a real advantage in tight spaces. Dipped handles, laser SAE/metric marks, forged alloy steel.",
+      "pros": [
+        "Extra-capacity jaws grip larger nuts for the length",
+        "Dipped handles for grip and comfort",
+        "Laser SAE and metric markings on both sides",
+        "Forged alloy steel, trade-grade"
+      ],
+      "cons": [
+        "Premium price",
+        "Fewer reviews than the value sellers",
+        "Three-piece set is more than casual users need"
+      ]
+    },
+    {
+      "asin": "B0CVMFY8PM",
+      "name": "KLEIN TOOLS D5072 2-Piece Extra-Capacity Adjustable Wrench Set (6, 10 in)",
+      "brand": "Klein Tools",
+      "model": "D5072",
+      "image": "https://m.media-amazon.com/images/I/510TVPURdRL._AC_SX522_.jpg",
+      "price": 29.98,
+      "rating": 4.8,
+      "reviews_count": 196,
+      "bought": "200+/mo",
+      "specs": {
+        "size": "6, 10 in",
+        "jaw": "Extra capacity",
+        "scales": "SAE & Metric (laser)",
+        "material": "Forged alloy steel"
+      },
+      "features": {
+        "wide_jaw": true,
+        "dual_scale": true,
+        "set": true,
+        "soft_grip": true
+      },
+      "verdict": "The two-wrench pro pick. The 6 and 10-inch pairing covers most jobs, with the same extra-capacity jaws, smooth adjusting knurl, and dipped handles as the 3-piece — the highest-rated set on the list. Buy this if you don't need the 8-inch.",
+      "pros": [
+        "Extra-capacity jaws for the wrench length",
+        "Smooth knurl for one-handed adjustment",
+        "Dipped handles and laser markings",
+        "Top rating on the list"
+      ],
+      "cons": [
+        "Only two sizes",
+        "Newer listing with fewer reviews",
+        "Premium price for two wrenches"
+      ]
+    },
+    {
+      "asin": "B08RJ55NPF",
+      "name": "WORKPRO 2-Piece Adjustable Wrench Set, 6 & 10 in Wide Jaw",
+      "brand": "WORKPRO",
+      "model": "2-Piece 6+10",
+      "image": "https://m.media-amazon.com/images/I/71sP4V5wj4L._AC_SX522_.jpg",
+      "price": 17.99,
+      "rating": 4.5,
+      "reviews_count": 4700,
+      "bought": "3K+/mo",
+      "specs": {
+        "size": "6, 10 in",
+        "jaw": "Wide",
+        "scales": "SAE & Metric",
+        "material": "Carbon steel"
+      },
+      "features": {
+        "wide_jaw": true,
+        "dual_scale": true,
+        "set": true,
+        "soft_grip": false
+      },
+      "verdict": "The value two-pack. A 6-inch for tight spots and a 10-inch for bigger nuts, both with wide jaws and SAE/metric scales, for eighteen dollars. The two sizes most people reach for, at a price that undercuts the pro sets — and a top monthly seller.",
+      "pros": [
+        "The two most-useful sizes in one pack",
+        "Wide jaws with SAE and metric scales",
+        "Strong value at under twenty dollars",
+        "One of the best-selling picks here"
+      ],
+      "cons": [
+        "Carbon steel, value-grade build",
+        "No cushioned grip",
+        "No 8-inch size"
+      ]
+    },
+    {
+      "asin": "B08L6V3VCW",
+      "name": "Amazon Basics 4-Piece Wide-Jaw Adjustable Wrench Set with Soft Grip (6, 8, 10, 12 in)",
+      "brand": "Amazon Basics",
+      "model": "4-Piece",
+      "image": "https://m.media-amazon.com/images/I/710FGCTYlbL._AC_SX522_.jpg",
+      "price": 33.99,
+      "rating": 4.5,
+      "reviews_count": 4900,
+      "bought": "500+/mo",
+      "specs": {
+        "size": "6, 8, 10, 12 in",
+        "jaw": "Wide",
+        "scales": "SAE & Metric",
+        "material": "Steel"
+      },
+      "features": {
+        "wide_jaw": true,
+        "dual_scale": true,
+        "set": true,
+        "soft_grip": true
+      },
+      "verdict": "The full-range set. Four wrenches from 6 all the way to a big 12-inch, each with a wide jaw, soft grip, and SAE/metric scales. If you want one purchase that covers everything from small fittings to large plumbing nuts, this is it.",
+      "pros": [
+        "Four sizes including a large 12-inch",
+        "Wide jaws and soft-grip handles",
+        "SAE and metric scales",
+        "Big review base"
+      ],
+      "cons": [
+        "The 12-inch is more than most home users need",
+        "House-brand steel",
+        "Same price as the Craftsman 3-piece"
+      ]
+    },
+    {
+      "asin": "B08L6WJ5SM",
+      "name": "Amazon Basics 6-Inch Drop-Forged Adjustable Wrench with Soft Grip",
+      "brand": "Amazon Basics",
+      "model": "6-Inch",
+      "image": "https://m.media-amazon.com/images/I/61JIny75DnL._AC_SX522_.jpg",
+      "price": 10.39,
+      "rating": 4.5,
+      "reviews_count": 4900,
+      "bought": "400+/mo",
+      "specs": {
+        "size": "6 in",
+        "jaw": "Wide",
+        "scales": "SAE & Metric",
+        "material": "Drop-forged steel"
+      },
+      "features": {
+        "wide_jaw": true,
+        "dual_scale": true,
+        "set": false,
+        "soft_grip": true
+      },
+      "verdict": "The cheap single done right. A drop-forged 6-inch with a wide jaw, soft grip, and SAE/metric scales for ten dollars — more features than most budget singles, in the compact size that lives in a kitchen drawer or glovebox.",
+      "pros": [
+        "Wide jaw and dual scales at a budget price",
+        "Drop-forged, rust-resistant steel",
+        "Soft grip handle",
+        "Compact everyday size"
+      ],
+      "cons": [
+        "6-inch is small for large nuts",
+        "Single wrench, one size",
+        "House-brand build"
+      ]
+    },
+    {
+      "asin": "B0CXWV2KGW",
+      "name": "WORKPRO 8-Inch Adjustable Wrench, Black Oxide, Cr-V Steel",
+      "brand": "WORKPRO",
+      "model": "8-Inch",
+      "image": "https://m.media-amazon.com/images/I/619YoYe6gLL._AC_SX522_.jpg",
+      "price": 12.99,
+      "rating": 4.5,
+      "reviews_count": 5300,
+      "bought": "600+/mo",
+      "specs": {
+        "size": "8 in",
+        "jaw": "Standard",
+        "scales": null,
+        "material": "Cr-V steel (black oxide)"
+      },
+      "features": {
+        "wide_jaw": false,
+        "dual_scale": false,
+        "set": false,
+        "soft_grip": false
+      },
+      "verdict": "The everyday 8-incher. The single most useful adjustable-wrench size, in chrome-vanadium steel with a black-oxide finish, for thirteen dollars. If you only buy one adjustable wrench, an 8-inch like this is the one — and it's a top seller for that reason.",
+      "pros": [
+        "8-inch is the do-everything size",
+        "Chrome-vanadium steel, black-oxide finish",
+        "Well-priced single",
+        "Large review base"
+      ],
+      "cons": [
+        "Standard (not wide) jaw",
+        "No cushioned grip",
+        "One size only"
+      ]
+    },
+    {
+      "asin": "B000AYHF4A",
+      "force_budget": true,
+      "name": "Olympia Tools 10-Inch Adjustable Wrench, Heavy-Duty Drop-Forged",
+      "brand": "Olympia Tools",
+      "model": "10-Inch",
+      "image": "https://m.media-amazon.com/images/I/71TkjdxGN2L._AC_SX522_.jpg",
+      "price": 10.99,
+      "rating": 4.6,
+      "reviews_count": 2700,
+      "bought": "400+/mo",
+      "specs": {
+        "size": "10 in",
+        "jaw": "Standard",
+        "scales": null,
+        "material": "Drop-forged steel"
+      },
+      "features": {
+        "wide_jaw": false,
+        "dual_scale": false,
+        "set": false,
+        "soft_grip": false
+      },
+      "verdict": "The best cheap full-size wrench. A heavy-duty drop-forged, chrome-plated 10-inch with precision-machined jaws, for eleven dollars. It skips the scales and soft grip, but for pure grip-and-turn on a bigger nut, it's hard to beat the value.",
+      "pros": [
+        "Full 10-inch size for larger nuts and bolts",
+        "Heavy-duty drop-forged, chrome-plated steel",
+        "Precision-machined jaws",
+        "Excellent value"
+      ],
+      "cons": [
+        "No SAE/metric scales",
+        "Standard jaw, bare handle",
+        "Single size"
+      ]
+    },
+    {
+      "asin": "B0091A5G22",
+      "name": "Crescent 4-Inch Adjustable Wrench, Black Oxide (AT24VS)",
+      "brand": "Crescent",
+      "model": "AT24VS",
+      "image": "https://m.media-amazon.com/images/I/41Xrxf28l8L._AC_SX522_.jpg",
+      "price": 9.99,
+      "rating": 4.6,
+      "reviews_count": 4700,
+      "bought": "1K+/mo",
+      "specs": {
+        "size": "4 in",
+        "jaw": "Standard",
+        "scales": "None",
+        "material": "Alloy steel (black oxide)"
+      },
+      "features": {
+        "wide_jaw": false,
+        "dual_scale": false,
+        "set": false,
+        "soft_grip": false
+      },
+      "verdict": "The original, in pocket size. Crescent is the brand that gave the tool its nickname, and this 4-inch black-oxide wrench is the one for small fittings, electronics, and tight spots where a full-size wrench won't fit. Not for big nuts — for those, size up.",
+      "pros": [
+        "The genuine Crescent brand",
+        "Pocketable 4-inch for tight, small work",
+        "Black-oxide alloy steel",
+        "Cheap and highly rated"
+      ],
+      "cons": [
+        "4-inch is too small for most bolts",
+        "No scales or grip",
+        "Little leverage on a tight fastener"
+      ]
+    },
+    {
+      "asin": "B08L6V5WV8",
+      "name": "Amazon Basics 10-Inch Locking Adjustable Wrench",
+      "brand": "Amazon Basics",
+      "model": "10-Inch Locking",
+      "image": "https://m.media-amazon.com/images/I/71iDGrwkARS._AC_SX522_.jpg",
+      "price": 15.74,
+      "rating": 4.4,
+      "reviews_count": 2700,
+      "bought": "1K+/mo",
+      "specs": {
+        "size": "10 in",
+        "jaw": "Locking",
+        "scales": null,
+        "material": "Precision-machined steel"
+      },
+      "features": {
+        "wide_jaw": false,
+        "dual_scale": false,
+        "set": false,
+        "soft_grip": false
+      },
+      "verdict": "The one that locks. A 10-inch adjustable with a locking jaw that clamps to your set width so it won't creep loose and round off the nut mid-turn — the most common complaint about ordinary adjustable wrenches. A useful twist on the standard tool.",
+      "pros": [
+        "Locking jaw holds its setting and won't slip",
+        "Full 10-inch size",
+        "Precision-machined, rust-resistant",
+        "Solves the classic 'jaw creep' problem"
+      ],
+      "cons": [
+        "Lowest rating on the list",
+        "No SAE/metric scales",
+        "Locking mechanism adds a step to each use"
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What size adjustable wrench should I buy?",
+      "a": "An 8-inch is the single most useful size — big enough for most household and automotive nuts, small enough to control. A 10-inch adds reach and grips larger plumbing fittings. A 6-inch is handy for tight spots and small fasteners, and a 4-inch is really just for tiny work. If you buy one, get an 8-inch; if you buy a set, 6/8/10 covers nearly everything."
+    },
+    {
+      "q": "Is 'crescent wrench' a brand?",
+      "a": "Yes and no. Crescent is an actual tool brand that made adjustable wrenches so popular that the name became the generic term, the way people say 'Kleenex' for tissue. So a 'crescent wrench' just means an adjustable wrench — you don't have to buy the Crescent brand to get one, though they still make good ones."
+    },
+    {
+      "q": "What's a wide jaw or extra-capacity jaw?",
+      "a": "A standard adjustable wrench of a given length only opens so far. Wide-jaw or extra-capacity models open wider for the same handle length, so a compact 8-inch can grip a nut that would normally need a 10-inch. That's a real advantage in tight spaces where a longer handle won't swing. It's worth looking for if you work on plumbing or larger fasteners."
+    },
+    {
+      "q": "Why do adjustable wrenches round off nuts?",
+      "a": "Two reasons: jaw 'creep,' where the movable jaw loosens as you turn and lets the wrench slip, and putting force on the fixed jaw instead of the movable one. Snug the jaw tight before you pull, position the wrench so the pull is toward the movable jaw, and it grips far better. Locking-jaw models eliminate creep entirely. For rounded-off nuts a proper socket or box wrench is always safer."
+    },
+    {
+      "q": "Do I need the SAE and metric scales on the jaw?",
+      "a": "They're a nice convenience, not essential. Laser-etched scales let you dial the wrench to a known bolt size without a separate gauge, which speeds up repetitive work. For occasional use you'll just open the jaw to fit. If you frequently need a specific size, the scales save time; otherwise don't pay much extra for them."
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GPVVLXDY",
+      "name": "WORKPRO 4-Inch Adjustable Wrench, 9-in-1 Mini Wrench Multitool",
+      "brand": "WORKPRO",
+      "model": "9-in-1 Mini",
+      "image": "https://m.media-amazon.com/images/I/71GzsMeLH6L._AC_SX522_.jpg",
+      "price": 17.99,
+      "rating": 4.6,
+      "reviews_count": 26,
+      "flag": "Gimmick 9-in-1, tiny and low-leverage",
+      "verdict": "The one to skip if you want a real wrench. Cramming nine functions into a 4-inch body makes a novelty, not a tool that turns a stuck nut — and it costs more than a proper full-size wrench.",
+      "reasons": [
+        "A 4-inch handle gives almost no leverage. The whole point of an adjustable wrench is to break a nut loose, and there's simply not enough handle here to do it on anything tight.",
+        "Nine-in-one multitools do each of their jobs poorly. A dedicated 8- or 10-inch wrench grips and turns far better than a gadget trying to also be a bottle opener and a bit driver.",
+        "At $17.99 it costs more than a real drop-forged 10-inch wrench from this list — you're paying a premium for novelty, not capability.",
+        "Buy this as a keychain curiosity if you like, but not as the adjustable wrench you actually reach for when something's stuck."
+      ]
+    }
+  ]
+}
