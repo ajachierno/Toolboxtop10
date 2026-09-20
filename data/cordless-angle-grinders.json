@@ -1,0 +1,167 @@
+{
+  "slug": "cordless-angle-grinders",
+  "title": "The 10 Best Cordless Angle Grinders",
+  "subtitle": "Battery-powered angle grinders ranked from live Amazon data — cutting, grinding, and polishing power without a cord.",
+  "intro": "An angle grinder is the tool that cuts, grinds, deburrs, and polishes metal, tile, and masonry, and a cordless one lets you use it anywhere a cord can't reach. Most of the best-sellers here ship as a bare tool with no battery, so check whether a pick is tool-only or a ready-to-use kit, and which battery platform it rides. A grinder spins a 4-1/2\" to 5\" wheel fast enough to throw sparks and kick back hard if it binds, so weigh safety features like a kickback brake or electronic clutch alongside price and power.",
+  "data_captured": "2026-09-19",
+  "budget_cap": 80,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.20 },
+  "feature_weights": { "kit": 0.25, "brushless": 0.20, "kickback_brake": 0.20, "variable_speed": 0.20, "paddle_switch": 0.15 },
+  "reviews_ceiling": 12000,
+  "spec_fields": [
+    { "key": "power", "label": "Battery" }, { "key": "wheel_size", "label": "Wheel Size" },
+    { "key": "max_rpm", "label": "Max Speed" }, { "key": "brake", "label": "Safety Brake" },
+    { "key": "accessories", "label": "Accessories" }
+  ],
+  "table_columns": [
+    { "key": "power", "label": "Battery" }, { "key": "max_rpm", "label": "Max Speed" },
+    { "key": "kickback_brake", "label": "Kickback Brake", "type": "bool" }, { "key": "kit", "label": "Kit", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07457BXJW", "force_overall": true,
+      "name": "DEWALT 20V MAX Angle Grinder Tool Cordless Brushless, 4-1/2 Inch, Paddle Switch and Kickback Brake, Tool Only (DCG413B)",
+      "brand": "DEWALT", "model": "DCG413B",
+      "image": "https://m.media-amazon.com/images/I/714jxrOoXKL._AC_SX425_.jpg",
+      "price": 150.43, "rating": 4.8, "reviews_count": 9576, "bought": "2K+/mo",
+      "specs": { "power": "20V MAX", "wheel_size": "4-1/2\"", "max_rpm": null, "brake": "Kickback Brake", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "kickback_brake": true, "variable_speed": false, "paddle_switch": true },
+      "verdict": "The best cordless angle grinder here by a wide margin — 9,500+ reviews at 4.8 stars and 2,000+ bought last month. A brushless DEWALT with a paddle switch and a Kickback Brake that engages with maximum force when it senses a bind-up. Bare tool, so you'll need a 20V MAX battery.",
+      "pros": ["9,576 reviews at 4.8 stars, the most-reviewed grinder in the category", "Kickback Brake stops the wheel in 2 seconds or less on average", "Runs on the huge DEWALT 20V MAX battery lineup"],
+      "cons": ["Tool only — no battery or charger included", "Reviewers note the battery runs down quickly under heavy cutting"]
+    },
+    {
+      "asin": "B0D256FJXF", "force_budget": true,
+      "name": "AOBEN Cordless Angle Grinder 4-1/2 Inch, 21V Battery Grinder Kit, Brushless Motor, 2x4.0Ah Battery & Charger",
+      "brand": "AOBEN", "model": "AT-102D",
+      "image": "https://m.media-amazon.com/images/I/81SjITesPoL._AC_SX425_.jpg",
+      "price": 58.48, "rating": 4.3, "reviews_count": 929, "bought": "700+/mo",
+      "specs": { "power": "21V", "wheel_size": "4-1/2\"", "max_rpm": "9,500 RPM (3-speed)", "brake": null, "accessories": "2 batteries, charger, wheels, case" },
+      "features": { "kit": true, "brushless": true, "kickback_brake": false, "variable_speed": true, "paddle_switch": false },
+      "verdict": "The value pick — a complete cordless kit with two 4.0Ah batteries, a charger, and a case full of wheels for under $60, backed by more reviews than any other kit here. Ready to cut out of the box, no platform required.",
+      "pros": ["Two batteries, charger, and 6 wheels included", "929 reviews at 4.3 stars, most-reviewed kit in the category", "Brushless motor with 3 adjustable speeds up to 9,500 RPM"],
+      "cons": ["Off-brand 21V battery with no wider tool ecosystem", "No kickback brake or electronic clutch"]
+    },
+    {
+      "asin": "B08J8GNNTW", "premium": true,
+      "name": "DEWALT FLEXVOLT ADVANTAGE 20V MAX Angle Grinder, Paddle Switch, 4-1/2-Inch to 5-Inch, Tool Only (DCG416B)",
+      "brand": "DEWALT", "model": "DCG416B",
+      "image": "https://m.media-amazon.com/images/I/51JMwxvDU7L._AC_SX425_.jpg",
+      "price": 154.90, "rating": 4.7, "reviews_count": 3039, "bought": "200+/mo",
+      "specs": { "power": "20V MAX / FlexVolt", "wheel_size": "4-1/2\" to 5\"", "max_rpm": "9,000 RPM", "brake": "Kickback Brake + E-Clutch", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "kickback_brake": true, "variable_speed": false, "paddle_switch": true },
+      "verdict": "The most capable grinder here — up to 54% more power when paired with a FLEXVOLT battery, plus a Kickback Brake and an E-CLUTCH that shuts the motor down in under a tenth of a second on a pinch or stall. If money's no object, this is the one to own.",
+      "pros": ["Up to 1,550 max watts out and 9,000 RPM with a FLEXVOLT battery", "Kickback Brake and E-CLUTCH stall protection", "3,039 reviews at 4.7 stars"],
+      "cons": ["Most expensive grinder in the category", "Bare tool — a FLEXVOLT battery costs extra on top"]
+    },
+    {
+      "asin": "B09RX4R3TR",
+      "name": "Milwaukee 2880-20 M18 FUEL Brushless Lithium-Ion 4-1/2 in. / 5 in. Cordless Small Angle Grinder with No-Lock Paddle Switch (Tool Only)",
+      "brand": "Milwaukee", "model": "2880-20",
+      "image": "https://m.media-amazon.com/images/I/51VbFwi7iOL._AC_SX425_.jpg",
+      "price": 141.83, "rating": 4.8, "reviews_count": 2495, "bought": "2K+/mo",
+      "specs": { "power": "M18", "wheel_size": "4-1/2\" to 5\"", "max_rpm": null, "brake": "Electronic Clutch (kickback protection)", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "kickback_brake": true, "variable_speed": false, "paddle_switch": true },
+      "verdict": "The M18 FUEL pick — a brushless grinder with an Electronic Clutch for kickback protection and a no-lock paddle switch, backed by 2,495 reviews at 4.8 stars. The pick if you're already on Milwaukee M18 batteries.",
+      "pros": ["2,495 reviews at 4.8 stars, 2,000+ bought last month", "Brushless motor with Electronic Clutch kickback protection", "Runs on the wide Milwaukee M18 battery platform"],
+      "cons": ["Tool only — no battery or charger included", "Reviewers say the paddle switch placement takes getting used to"]
+    },
+    {
+      "asin": "B071KD1CHB",
+      "name": "Makita XAG04Z 18V LXT Lithium-Ion Brushless Cordless 4-1/2\" / 5\" Cut-Off/Angle Grinder, Tool Only",
+      "brand": "Makita", "model": "XAG04Z",
+      "image": "https://m.media-amazon.com/images/I/61d7RPJNVgL._AC_SX425_.jpg",
+      "price": 127.00, "rating": 4.8, "reviews_count": 3122, "bought": "600+/mo",
+      "specs": { "power": "18V LXT", "wheel_size": "4-1/2\" to 5\"", "max_rpm": null, "brake": "Active Feedback-sensing Technology (AFT)", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "kickback_brake": true, "variable_speed": true, "paddle_switch": false },
+      "verdict": "The Makita pick — a BL brushless motor with Automatic Speed Change that adjusts speed and torque on the fly, plus Active Feedback-sensing Technology that cuts power if the wheel suddenly binds. 3,122 reviews at 4.8 stars.",
+      "pros": ["3,122 reviews at 4.8 stars", "Automatic Speed Change adjusts torque during operation", "AFT shuts the motor off if the wheel is suddenly forced to stop"],
+      "cons": ["Tool only — battery and charger sold separately", "Reviewers report mixed durability, with some units failing before the first wheel change"]
+    },
+    {
+      "asin": "B07MFD6N3L",
+      "name": "CRAFTSMAN V20 Angle Grinder, Small, 4-1/2-Inch, Tool Only (CMCG400B)",
+      "brand": "CRAFTSMAN", "model": "CMCG400B",
+      "image": "https://m.media-amazon.com/images/I/61bGJ+DvnyL._AC_SX425_.jpg",
+      "price": 65.69, "rating": 4.7, "reviews_count": 2988, "bought": "400+/mo",
+      "specs": { "power": "V20", "wheel_size": "4-1/2\"", "max_rpm": "8,500 RPM", "brake": null, "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": false, "kickback_brake": false, "variable_speed": false, "paddle_switch": false },
+      "verdict": "A straightforward, well-reviewed bare tool on the CRAFTSMAN V20 platform — 8,500 RPM, a tool-free guard, and a cast metal gear housing to dissipate heat, backed by nearly 3,000 reviews at 4.7 stars.",
+      "pros": ["2,988 reviews at 4.7 stars", "Tool-free guard adjustment and cast metal gear housing", "Shares batteries with CRAFTSMAN V20 tools"],
+      "cons": ["Brushed motor, not brushless", "No kickback brake or electronic clutch"]
+    },
+    {
+      "asin": "B0DQYLSHKF",
+      "name": "DEWALT 20V MAX Cordless 4-1/2 Inch Paddle-Switch Grinder, Bare Tool Only (DCG408B)",
+      "brand": "DEWALT", "model": "DCG408B",
+      "image": "https://m.media-amazon.com/images/I/616ydJM28IL._AC_SX425_.jpg",
+      "price": 138.00, "rating": 4.7, "reviews_count": 285, "bought": "1K+/mo",
+      "specs": { "power": "20V MAX", "wheel_size": "4\" to 5\"", "max_rpm": "9,000 RPM (no load)", "brake": "Kickback Brake + E-Clutch", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "kickback_brake": true, "variable_speed": false, "paddle_switch": true },
+      "verdict": "A newer DEWALT paddle-switch grinder that maintains constant speed under load, with up to 850 MWO and 9,000 RPM no-load. Anti-rotation Kickback Brake and E-Clutch, and 1,000+ bought last month despite a smaller review base so far.",
+      "pros": ["Up to 9,000 RPM (no load) and 850 MWO from the brushless motor", "Kickback Brake and E-Clutch anti-rotation protection", "1,000+ bought in the past month"],
+      "cons": ["Fewer reviews than the other DEWALT picks here (newer listing)", "Bare tool — no battery, charger, or wrench included"]
+    },
+    {
+      "asin": "B0DQVRYQMJ",
+      "name": "RYOBI PCL445B 18V ONE+ Cordless 4-1/2 in. Angle Grinder, Tool Only",
+      "brand": "RYOBI", "model": "PCL445B",
+      "image": "https://m.media-amazon.com/images/I/61jIrqI3srL._AC_SX425_.jpg",
+      "price": 59.97, "rating": 4.5, "reviews_count": 315, "bought": "500+/mo",
+      "specs": { "power": "ONE+ 18V", "wheel_size": "4-1/2\"", "max_rpm": "9,000 RPM", "brake": null, "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": false, "kickback_brake": false, "variable_speed": false, "paddle_switch": false },
+      "verdict": "The pick if you're on RYOBI ONE+. A 9,000 RPM motor, spindle lock for fast wheel changes, and a die-cast metal gear case, all for under $60 — just add a ONE+ battery.",
+      "pros": ["Cheap entry point on the huge RYOBI ONE+ platform", "9,000 RPM motor with spindle lock for quick wheel changes", "Die-cast metal gear case for durability"],
+      "cons": ["Tool only — no battery or charger", "Not brushless, and no kickback brake"]
+    },
+    {
+      "asin": "B0DQ8T1JPN",
+      "name": "SEESII Cordless Angle Grinder 4-1/2 Inch, 10000RPM Brushless Motor, 21V Battery Grinder Tool with 2x 4.0Ah Batteries, 3-Speed",
+      "brand": "SEESII", "model": "AG0200S",
+      "image": "https://m.media-amazon.com/images/I/81+ZueHHFCL._AC_SX425_.jpg",
+      "price": 75.99, "rating": 4.4, "reviews_count": 577, "bought": "300+/mo",
+      "specs": { "power": "21V", "wheel_size": "4-1/2\"", "max_rpm": "10,000 RPM (3-speed)", "brake": null, "accessories": "2 batteries, charger, wheels, bag" },
+      "features": { "kit": true, "brushless": true, "kickback_brake": false, "variable_speed": true, "paddle_switch": false },
+      "verdict": "A second complete kit option — two 4.0Ah batteries, a charger, cutting and flap wheels, and a carrying bag, with three speeds up to 10,000 RPM. Priced above the AOBEN kit but with a stronger top speed.",
+      "pros": ["Two 4.0Ah batteries, charger, and carrying bag included", "3-speed brushless motor up to 10,000 RPM", "577 reviews at 4.4 stars"],
+      "cons": ["Pricier than the AOBEN kit with a smaller review base", "Off-brand battery with no wider ecosystem"]
+    },
+    {
+      "asin": "B0CDQQMY6Q",
+      "name": "Milwaukee 2888-20 18V Cordless 4.5\"/5\" Grinder w/ Variable Speed, Tool Only",
+      "brand": "Milwaukee", "model": "2888-20",
+      "image": "https://m.media-amazon.com/images/I/714VLO-eYdL._AC_SY450_.jpg",
+      "price": 147.00, "rating": 4.8, "reviews_count": 261, "bought": "600+/mo",
+      "specs": { "power": "M18", "wheel_size": "4-1/2\" to 5\"", "max_rpm": "3,500-8,500 RPM (5-speed)", "brake": "Electronic brake (under 2 sec.)", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": false, "kickback_brake": true, "variable_speed": true, "paddle_switch": true },
+      "verdict": "The one to reach for when the job needs a dialed-in speed — five settings from 3,500 to 8,500 RPM, a paddle switch, and a brake that stops the wheel in under 2 seconds. 4.8 stars across 261 reviews.",
+      "pros": ["5 speed settings from 3,500 to 8,500 RPM", "Electronic brake stops the wheel in under 2 seconds", "4.8 stars, highest rating alongside the DEWALT and Makita bare tools"],
+      "cons": ["Not brushless, unlike the similarly priced Milwaukee 2880-20", "Smaller review base than the other premium picks"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0G37FDY2Z",
+      "name": "GEARWAVE Cordless Angle Grinder 4-1/2\" to 5\", Battery Angle Grinder, 2x 5.0Ah 21V Battery Kit",
+      "brand": "GEARWAVE", "model": "21V Kit",
+      "image": "https://m.media-amazon.com/images/I/81zW6Or-6fL._AC_SX425_.jpg",
+      "price": 39.99, "rating": 3.2, "reviews_count": 56,
+      "flag": "Bimodal ratings (37% one-star) on a templated reseller listing",
+      "verdict": "A cut-rate kit whose rating tells the real story: 3.2 stars with more than a third of buyers leaving one star. Skip it for either of the better-reviewed kits above.",
+      "reasons": [
+        "37% of its 56 ratings are 1-star against 49% 5-star — a bimodal split that points to inconsistent units or incentivized reviews, not a track record you can trust.",
+        "Its bullet copy is lifted almost word-for-word from other unbranded listings (the identical 'smart chip... overload and overheating protection' phrasing turns up on unrelated brands), a sign of a reseller shell repackaging generic OEM hardware rather than a real brand standing behind the tool.",
+        "No kickback brake or electronic clutch is claimed anywhere in the listing — exactly the safety feature a cheap, unbranded grinder needs most.",
+        "For about the same money, the AOBEN kit above has 16 times the review base, a real brand storefront, and the same claimed spec sheet."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Bare tool or kit?", "a": "A bare tool ships with no battery or charger — worth it if you already own the brand's batteries, useless out of the box if you don't. A kit includes batteries, a charger, and usually a set of wheels. Each pick above says which." },
+    { "q": "4-1/2\" or 5\" wheel?", "a": "4-1/2\" is the standard size for most cutting, grinding, and polishing around the house and shop. A grinder rated for 4-1/2\" to 5\" gives you the option to size up for masonry or heavier metal work later without buying a second tool." },
+    { "q": "Brushless or brushed?", "a": "Brushless motors run cooler, last longer, and hold speed better under load — worth it if you'll use the grinder often or push it hard. For occasional cutting and grinding, a brushed tool like the CRAFTSMAN or RYOBI bare tools is fine." },
+    { "q": "What does a kickback brake or E-Clutch actually do?", "a": "A grinder wheel that binds in a cut can kick the tool back at you hard. A kickback brake or electronic clutch senses that bind and cuts power or stops the wheel in a fraction of a second. It's a real safety feature, not a marketing bullet — worth prioritizing if you'll be cutting metal regularly." },
+    { "q": "Which battery platform should I buy into?", "a": "Buy on the same platform as tools you already own (DEWALT 20V MAX, Milwaukee M18, Makita 18V LXT, CRAFTSMAN V20, RYOBI ONE+) so one battery lineup covers everything. If you own nothing yet, a self-contained kit like the AOBEN or SEESII avoids the platform lock-in." },
+    { "q": "How many RPM do I need?", "a": "Most cordless angle grinders run 8,500-10,000 RPM, which is plenty for cutting, grinding, and polishing metal, tile, and masonry. A variable-speed tool like the Milwaukee 2888-20 lets you slow down for delicate work like paint removal or polishing, where full speed can gouge the surface." }
+  ]
+}
