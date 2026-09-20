@@ -240,7 +240,7 @@ def render_avoid(avoid, site):
     return f"""
   <section class="avoid">
     <h2>Tools to avoid</h2>
-    <p class="avoid-lead">Not everything in the cordless-drill search results deserves your money.
+    <p class="avoid-lead">Not everything in the search results deserves your money.
     This one would rank dead last on our scale — here's the listing to walk past, and exactly why.</p>
     {''.join(cards)}
   </section>"""
