@@ -121,6 +121,19 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .deals h2{margin:0 0 .4rem;font-size:1.15rem}
 .deals p{margin:0;color:var(--muted);max-width:80ch}
 .deals b{color:var(--ink)}
+/* collapsible home groups (heading only until hover/click) */
+details.cats{margin:1.6rem 0 0;border-top:1px solid var(--line);padding-top:1.1rem}
+details.cats>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:12px}
+details.cats>summary::-webkit-details-marker{display:none}
+details.cats>summary h2{margin:0}
+details.cats>summary::after{content:"";margin-left:auto;flex:none;width:9px;height:9px;
+  border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);
+  transform:rotate(45deg);transition:transform .15s}
+details.cats[open]>summary::after{transform:rotate(-135deg)}
+details.cats>summary:hover h2{color:var(--brand-ink)}
+details.cats>summary:hover::after{border-color:var(--brand-ink)}
+details.cats>summary:focus-visible{outline:2px solid var(--brand);outline-offset:3px;border-radius:6px}
+details.cats .group-sub{margin-top:14px}
 @media (max-width:720px){
   .quicknav-controls{flex-direction:column;align-items:stretch}
   .quicknav select,.quicknav .btn,.back-home{width:100%;text-align:center;justify-content:center}

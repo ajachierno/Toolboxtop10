@@ -77,8 +77,8 @@
     </script>
   </section>
   
-  <section class="cats">
-    <h2>Wireless tools</h2>
+  <details class="cats">
+    <summary><h2>Wireless tools</h2></summary>
     <p class="group-sub">Battery powered &mdash; cut, drive, and drill anywhere, no cord.</p>
     <div class="cat-grid">
       <a class="cat-card" href="cordless-drills.html">
@@ -126,9 +126,9 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a></div>
-  </section>
-  <section class="cats">
-    <h2>Wired tools</h2>
+  </details>
+  <details class="cats">
+    <summary><h2>Wired tools</h2></summary>
     <p class="group-sub">Corded &mdash; full unlimited power for the least money, never a dead battery.</p>
     <div class="cat-grid">
       <a class="cat-card" href="corded-drills.html">
@@ -176,9 +176,9 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a></div>
-  </section>
-  <section class="cats">
-    <h2>Tool storage</h2>
+  </details>
+  <details class="cats">
+    <summary><h2>Tool storage</h2></summary>
     <p class="group-sub">Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.</p>
     <div class="cat-grid">
       <a class="cat-card" href="rolling-tool-chests.html">
@@ -208,7 +208,7 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a></div>
-  </section>
+  </details>
   
   <section class="deals">
     <h2>Deals on the major brands</h2>
@@ -219,6 +219,7 @@
     live Amazon listing &mdash; click through to see what a tool actually costs today
     before you buy.</p>
   </section>
+  <script>(function(){document.querySelectorAll('details.cats').forEach(function(d){d.addEventListener('mouseenter',function(){d.open=true;});});})();</script>
 </main>
 <footer>
   <p class="disclosure"><b>Affiliate disclosure.</b> ToolboxTop10 is reader-supported.

@@ -557,9 +557,10 @@ def build_home(site, cats):
             continue
         cards = "".join(card(c) for c in members)
         sections.append(
-            f'\n  <section class="cats">\n    <h2>{esc(label)}</h2>'
+            f'\n  <details class="cats">'
+            f'\n    <summary><h2>{esc(label)}</h2></summary>'
             f'\n    <p class="group-sub">{sub}</p>'
-            f'\n    <div class="cat-grid">{cards}</div>\n  </section>')
+            f'\n    <div class="cat-grid">{cards}</div>\n  </details>')
         nav_groups.append((label, key, members))
     # "Major" brands = those appearing across more than one category, most-common first.
     counts, order = {}, []
@@ -577,6 +578,10 @@ def build_home(site, cats):
     if len(major) < 4:  # fallback for a small site: most-common brands overall
         major = sorted(order, key=lambda b: (-counts[b], order.index(b)))
     major = major[:10]
+    # Collapsed groups open on hover as well as the native click/tap toggle.
+    hover_js = ("(function(){document.querySelectorAll('details.cats')"
+                ".forEach(function(d){d.addEventListener('mouseenter',"
+                "function(){d.open=true;});});})();")
     body = f"""
   <section class="lead home">
     <h1>{esc(site['brand'])}</h1>
@@ -584,7 +589,8 @@ def build_home(site, cats):
   </section>
   {render_quicknav(nav_groups)}
   {''.join(sections)}
-  {render_home_deals(major, site)}"""
+  {render_home_deals(major, site)}
+  <script>{hover_js}</script>"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     org = {"@context": "https://schema.org", "@type": "Organization", "name": site["brand"],
            "url": f"{base}/" if base else "", "logo": f"{base}/assets/logo.png" if base else ""}
@@ -751,6 +757,19 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .deals h2{margin:0 0 .4rem;font-size:1.15rem}
 .deals p{margin:0;color:var(--muted);max-width:80ch}
 .deals b{color:var(--ink)}
+/* collapsible home groups (heading only until hover/click) */
+details.cats{margin:1.6rem 0 0;border-top:1px solid var(--line);padding-top:1.1rem}
+details.cats>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:12px}
+details.cats>summary::-webkit-details-marker{display:none}
+details.cats>summary h2{margin:0}
+details.cats>summary::after{content:"";margin-left:auto;flex:none;width:9px;height:9px;
+  border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);
+  transform:rotate(45deg);transition:transform .15s}
+details.cats[open]>summary::after{transform:rotate(-135deg)}
+details.cats>summary:hover h2{color:var(--brand-ink)}
+details.cats>summary:hover::after{border-color:var(--brand-ink)}
+details.cats>summary:focus-visible{outline:2px solid var(--brand);outline-offset:3px;border-radius:6px}
+details.cats .group-sub{margin-top:14px}
 @media (max-width:720px){
   .quicknav-controls{flex-direction:column;align-items:stretch}
   .quicknav select,.quicknav .btn,.back-home{width:100%;text-align:center;justify-content:center}
