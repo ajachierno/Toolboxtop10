@@ -115,6 +115,12 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .back-home:focus-visible{outline:2px solid var(--brand);outline-offset:1px}
 /* compact top-of-page toolbar (category pages) */
 .quicknav-bar{margin:6px 0 4px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+/* deals note */
+.deals{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);
+  border-radius:var(--radius);padding:16px 20px;margin:22px 0}
+.deals h2{margin:0 0 .4rem;font-size:1.15rem}
+.deals p{margin:0;color:var(--muted);max-width:80ch}
+.deals b{color:var(--ink)}
 @media (max-width:720px){
   .quicknav-controls{flex-direction:column;align-items:stretch}
   .quicknav select,.quicknav .btn,.back-home{width:100%;text-align:center;justify-content:center}

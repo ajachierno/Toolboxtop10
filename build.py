@@ -330,6 +330,53 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
 </html>"""
 
 
+def oxford(items):
+    """Join names with commas and a final 'and' — DEWALT, Milwaukee, and RYOBI."""
+    items = [esc(i) for i in items]
+    if not items:
+        return ""
+    if len(items) == 1:
+        return items[0]
+    if len(items) == 2:
+        return f"{items[0]} and {items[1]}"
+    return ", ".join(items[:-1]) + f", and {items[-1]}"
+
+
+def render_deals(brands, site):
+    """Short deals note for a category page, naming the brands on that page."""
+    if not brands:
+        return ""
+    names = oxford(brands)
+    top = oxford(brands[:2]) if len(brands) >= 2 else names
+    return f"""
+  <section class="deals">
+    <h2>Where the deals are</h2>
+    <p>The tools ranked here come from {names}. Prices on these brands move week to
+    week on Amazon, and the deepest cuts usually land around Prime Day and Black Friday.
+    Every price button on this page opens the live listing, so you always see today's
+    number, not the one we captured on {esc(site['updated'])}. If your pick is over budget
+    right now, check back in a few days &mdash; {top} rotate through sales and bundle
+    deals often.</p>
+  </section>"""
+
+
+def render_home_deals(major_brands, site):
+    """Short deals note for the home page, naming the brands seen across the site."""
+    if not major_brands:
+        return ""
+    names = oxford(major_brands)
+    return f"""
+  <section class="deals">
+    <h2>Deals on the major brands</h2>
+    <p>The same names turn up across these lists: {names}. Those brands run their
+    steepest Amazon markdowns around Prime Day and Black Friday, and cordless kits get
+    bundled and discounted all year. The prices we show were captured on
+    {esc(site['updated'])} and drift over time, so every price button goes straight to the
+    live Amazon listing &mdash; click through to see what a tool actually costs today
+    before you buy.</p>
+  </section>"""
+
+
 def build_category(site, filename):
     cat = load(filename)
     ranked, overall, budget, premium = rank_products(cat)
@@ -338,6 +385,8 @@ def build_category(site, filename):
     columns = cat.get("table_columns") or DEFAULT_TABLE_COLUMNS
     heroes = "".join(render_hero_card(p, site, cat) for p in (overall, budget, premium) if p)
     cards = "".join(render_card(p, site, spec_fields) for p in ranked)
+    brands = list(dict.fromkeys(p["brand"] for p in ranked))
+    cat["_brands"] = brands  # picked up by build_home for the site-wide deals note
     quicknav = render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)
     body = f"""
   {quicknav}
@@ -347,6 +396,7 @@ def build_category(site, filename):
     <p class="intro">{esc(cat['intro'])}</p>
   </section>
   <section class="heroes">{heroes}</section>
+  {render_deals(brands, site)}
   <section class="compare">
     <h2>Side-by-side comparison</h2>
     {render_table(ranked, avoid, site, columns)}
@@ -511,13 +561,30 @@ def build_home(site, cats):
             f'\n    <p class="group-sub">{sub}</p>'
             f'\n    <div class="cat-grid">{cards}</div>\n  </section>')
         nav_groups.append((label, key, members))
+    # "Major" brands = those appearing across more than one category, most-common first.
+    counts, order = {}, []
+    for c in site["categories"]:
+        entry = by_slug.get(c["slug"])
+        if not entry:
+            continue
+        for b in entry[0].get("_brands", []):
+            if b not in counts:
+                counts[b] = 0
+                order.append(b)
+            counts[b] += 1
+    major = [b for b in order if counts[b] >= 2]
+    major.sort(key=lambda b: (-counts[b], order.index(b)))
+    if len(major) < 4:  # fallback for a small site: most-common brands overall
+        major = sorted(order, key=lambda b: (-counts[b], order.index(b)))
+    major = major[:10]
     body = f"""
   <section class="lead home">
     <h1>{esc(site['brand'])}</h1>
     <p class="sub">{esc(site['description'])}</p>
   </section>
   {render_quicknav(nav_groups)}
-  {''.join(sections)}"""
+  {''.join(sections)}
+  {render_home_deals(major, site)}"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     org = {"@context": "https://schema.org", "@type": "Organization", "name": site["brand"],
            "url": f"{base}/" if base else "", "logo": f"{base}/assets/logo.png" if base else ""}
@@ -678,6 +745,12 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .back-home:focus-visible{outline:2px solid var(--brand);outline-offset:1px}
 /* compact top-of-page toolbar (category pages) */
 .quicknav-bar{margin:6px 0 4px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+/* deals note */
+.deals{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);
+  border-radius:var(--radius);padding:16px 20px;margin:22px 0}
+.deals h2{margin:0 0 .4rem;font-size:1.15rem}
+.deals p{margin:0;color:var(--muted);max-width:80ch}
+.deals b{color:var(--ink)}
 @media (max-width:720px){
   .quicknav-controls{flex-direction:column;align-items:stretch}
   .quicknav select,.quicknav .btn,.back-home{width:100%;text-align:center;justify-content:center}
