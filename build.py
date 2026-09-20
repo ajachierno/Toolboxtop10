@@ -452,6 +452,7 @@ HOME_GROUPS = [
     ("Tool storage", "Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.", "storage"),
     ("Wireless tools", "Battery powered &mdash; cut, drive, and drill anywhere, no cord.", "wireless"),
     ("Wired tools", "Corded &mdash; full unlimited power for the least money, never a dead battery.", "wired"),
+    ("Hand tools", "No batteries, no cords &mdash; the essentials every toolbox needs.", "hand"),
 ]
 
 
