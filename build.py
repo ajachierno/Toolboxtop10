@@ -449,9 +449,9 @@ def build_category(site, filename):
 # Home-page groups (label, blurb, power-key). Shared by the home sections and the
 # quick-navigation dropdown so both stay in sync.
 HOME_GROUPS = [
+    ("Tool storage", "Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.", "storage"),
     ("Wireless tools", "Battery powered &mdash; cut, drive, and drill anywhere, no cord.", "wireless"),
     ("Wired tools", "Corded &mdash; full unlimited power for the least money, never a dead battery.", "wired"),
-    ("Tool storage", "Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.", "storage"),
 ]
 
 

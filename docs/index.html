@@ -42,7 +42,7 @@
     <div class="quicknav-controls">
       <select id="qn-category" aria-label="Category">
         <option value="">Category&hellip;</option>
-        <option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="storage">Tool storage</option>
+        <option value="storage">Tool storage</option><option value="wireless">Wireless tools</option><option value="wired">Wired tools</option>
       </select>
       <select id="qn-subcategory" aria-label="Sub-category" disabled>
         <option value="">Sub-category&hellip;</option>
@@ -51,7 +51,7 @@
     </div>
     <script>
     (function(){
-      var cats = {"wireless": [{"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}], "storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}]};
+      var cats = {"storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}], "wireless": [{"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}]};
       var catSel = document.getElementById('qn-category');
       var subSel = document.getElementById('qn-subcategory');
       var go = document.getElementById('qn-go');
@@ -77,6 +77,38 @@
     </script>
   </section>
   
+  <details class="cats">
+    <summary><h2>Tool storage</h2></summary>
+    <p class="group-sub">Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.</p>
+    <div class="cat-grid">
+      <a class="cat-card" href="rolling-tool-chests.html">
+        <h3>Rolling Tool Chests &amp; Cabinets</h3>
+        <p>10 best rolling tool chests and cabinets — steel drawers, modular stacks, and a workbench on wheels.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Milwaukee 48-22-8426</span>
+          <span><b>Best Budget:</b> DEWALT DWST20880</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="portable-tool-boxes.html">
+        <h3>Portable Tool Boxes</h3>
+        <p>10 best hand-carry tool boxes — cantilever trays, stackable cases, and portable drawer boxes.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> DEWALT DWST17806</span>
+          <span><b>Best Budget:</b> DEWALT DWST17807</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="tool-bags.html">
+        <h3>Tool Bags</h3>
+        <p>10 best tool bags — open totes, zippered technician bags, backpacks, and rugged jobsite haulers.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Klein Tools 55421BP-14</span>
+          <span><b>Best Budget:</b> WORKPRO 18 in Open Top</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a></div>
+  </details>
   <details class="cats">
     <summary><h2>Wireless tools</h2></summary>
     <p class="group-sub">Battery powered &mdash; cut, drive, and drill anywhere, no cord.</p>
@@ -182,38 +214,6 @@
         <div class="cat-picks">
           <span><b>Best Overall:</b> CRAFTSMAN CMES300</span>
           <span><b>Best Budget:</b> SKIL 9206-02</span>
-        </div>
-        <span class="btn ghost">See the top 10 &rarr;</span>
-      </a></div>
-  </details>
-  <details class="cats">
-    <summary><h2>Tool storage</h2></summary>
-    <p class="group-sub">Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.</p>
-    <div class="cat-grid">
-      <a class="cat-card" href="rolling-tool-chests.html">
-        <h3>Rolling Tool Chests &amp; Cabinets</h3>
-        <p>10 best rolling tool chests and cabinets — steel drawers, modular stacks, and a workbench on wheels.</p>
-        <div class="cat-picks">
-          <span><b>Best Overall:</b> Milwaukee 48-22-8426</span>
-          <span><b>Best Budget:</b> DEWALT DWST20880</span>
-        </div>
-        <span class="btn ghost">See the top 10 &rarr;</span>
-      </a>
-      <a class="cat-card" href="portable-tool-boxes.html">
-        <h3>Portable Tool Boxes</h3>
-        <p>10 best hand-carry tool boxes — cantilever trays, stackable cases, and portable drawer boxes.</p>
-        <div class="cat-picks">
-          <span><b>Best Overall:</b> DEWALT DWST17806</span>
-          <span><b>Best Budget:</b> DEWALT DWST17807</span>
-        </div>
-        <span class="btn ghost">See the top 10 &rarr;</span>
-      </a>
-      <a class="cat-card" href="tool-bags.html">
-        <h3>Tool Bags</h3>
-        <p>10 best tool bags — open totes, zippered technician bags, backpacks, and rugged jobsite haulers.</p>
-        <div class="cat-picks">
-          <span><b>Best Overall:</b> Klein Tools 55421BP-14</span>
-          <span><b>Best Budget:</b> WORKPRO 18 in Open Top</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a></div>
