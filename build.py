@@ -394,6 +394,62 @@ def build_category(site, filename):
     return cat, overall, budget
 
 
+def render_quicknav(nav_groups):
+    """Two linked dropdowns (category -> sub-category) + Go button.
+
+    nav_groups: list of (label, key, members) as built in build_home.
+    """
+    if not nav_groups:
+        return ""
+    cat_opts = "".join(
+        f'<option value="{esc(key)}">{esc(label)}</option>'
+        for label, key, _ in nav_groups)
+    data = {key: [{"slug": c["slug"], "title": c["title"]} for c in members]
+            for label, key, members in nav_groups}
+    js = """
+    (function(){
+      var cats = __DATA__;
+      var catSel = document.getElementById('qn-category');
+      var subSel = document.getElementById('qn-subcategory');
+      var go = document.getElementById('qn-go');
+      if(!catSel || !subSel || !go){ return; }
+      function fillSubs(){
+        var list = cats[catSel.value] || [];
+        subSel.innerHTML = '<option value="">Sub-category\\u2026</option>';
+        list.forEach(function(c){
+          var o = document.createElement('option');
+          o.value = c.slug; o.textContent = c.title;
+          subSel.appendChild(o);
+        });
+        subSel.disabled = list.length === 0;
+        updateGo();
+      }
+      function updateGo(){ go.disabled = !subSel.value; }
+      function navigate(){ if(subSel.value){ window.location.href = subSel.value + '.html'; } }
+      catSel.addEventListener('change', fillSubs);
+      subSel.addEventListener('change', updateGo);
+      go.addEventListener('click', navigate);
+      subSel.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ navigate(); } });
+    })();
+    """.replace("__DATA__", json.dumps(data))
+    return f"""
+  <section class="quicknav" aria-labelledby="qn-h">
+    <h2 id="qn-h">Quick navigation</h2>
+    <p class="group-sub">Pick a category, choose a tool, and jump straight to its top&#8209;10 list.</p>
+    <div class="quicknav-controls">
+      <select id="qn-category" aria-label="Category">
+        <option value="">Category&hellip;</option>
+        {cat_opts}
+      </select>
+      <select id="qn-subcategory" aria-label="Sub-category" disabled>
+        <option value="">Sub-category&hellip;</option>
+      </select>
+      <button type="button" id="qn-go" class="btn" disabled>Go</button>
+    </div>
+    <script>{js}</script>
+  </section>"""
+
+
 def build_home(site, cats):
     by_slug = {cat["slug"]: (cat, overall, budget) for cat, overall, budget in cats}
 
@@ -416,6 +472,7 @@ def build_home(site, cats):
         ("Tool storage", "Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.", "storage"),
     ]
     sections = []
+    nav_groups = []
     for label, sub, key in groups:
         members = [c for c in site["categories"] if c.get("power") == key and c["slug"] in by_slug]
         if not members:
@@ -425,11 +482,13 @@ def build_home(site, cats):
             f'\n  <section class="cats">\n    <h2>{esc(label)}</h2>'
             f'\n    <p class="group-sub">{sub}</p>'
             f'\n    <div class="cat-grid">{cards}</div>\n  </section>')
+        nav_groups.append((label, key, members))
     body = f"""
   <section class="lead home">
     <h1>{esc(site['brand'])}</h1>
     <p class="sub">{esc(site['description'])}</p>
   </section>
+  {render_quicknav(nav_groups)}
   {''.join(sections)}"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     org = {"@context": "https://schema.org", "@type": "Organization", "name": site["brand"],
@@ -573,6 +632,22 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .cat-card:hover{transform:translateY(-2px)}
 .cat-card h3{margin:.2em 0}
 .cat-picks{display:flex;flex-direction:column;gap:4px;margin:12px 0;font-size:.9rem;color:var(--muted)}
+/* quick navigation */
+.quicknav{margin-top:8px}
+.quicknav-controls{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.quicknav select{appearance:none;-webkit-appearance:none;background-color:var(--card-2);color:var(--ink);
+  border:1px solid var(--line);border-radius:9px;padding:10px 40px 10px 14px;font-family:inherit;font-size:.95rem;
+  min-width:220px;cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%239aa6b7' stroke-width='1.6' d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 14px center}
+.quicknav select:disabled{opacity:.5;cursor:not-allowed}
+.quicknav select:focus-visible{outline:2px solid var(--brand);outline-offset:1px}
+.quicknav .btn{border:0;cursor:pointer;font-family:inherit;font-size:.95rem}
+.quicknav .btn:disabled{opacity:.5;cursor:not-allowed}
+@media (max-width:720px){
+  .quicknav-controls{flex-direction:column;align-items:stretch}
+  .quicknav select,.quicknav .btn{width:100%;text-align:center}
+}
 /* avoid — comparison row */
 tr.avoid-row td{background:#2a1414;color:#ff9d94;font-weight:600;border-bottom:1px solid #4a2222}
 tr.avoid-row a{color:#ff9d94;text-decoration:underline}
