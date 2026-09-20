@@ -1,0 +1,167 @@
+{
+  "slug": "corded-random-orbital-sanders",
+  "title": "The 10 Best Corded Random Orbital Sanders",
+  "subtitle": "Wired 5-inch random orbit sanders ranked from live Amazon data — swirl-free finishes for the least money, no battery to run down.",
+  "intro": "A random orbital sander spins and orbits its pad at the same time, so it smooths wood and metal without leaving the swirl marks a fixed rotary sander does. Corded models give you steady power for long sessions and cost far less than a cordless tool plus its battery, which is why they still lead the category. This list covers 5-inch sanders from budget kits under $30 to pro tools, sorted by what varies most: variable speed, how they collect dust, and whether they ship ready to sand.",
+  "data_captured": "2026-09-20",
+  "budget_cap": 40,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.20 },
+  "feature_weights": { "variable_speed": 0.30, "vac_port": 0.25, "dust_box": 0.20, "kit": 0.25 },
+  "reviews_ceiling": 16000,
+  "spec_fields": [
+    { "key": "amps", "label": "Motor" }, { "key": "pad", "label": "Pad Size" },
+    { "key": "opm", "label": "Orbits/min" }, { "key": "speed", "label": "Speed" },
+    { "key": "dust", "label": "Dust Collection" }, { "key": "weight", "label": "Weight" }
+  ],
+  "table_columns": [
+    { "key": "amps", "label": "Motor" }, { "key": "opm", "label": "Orbits/min" },
+    { "key": "variable_speed", "label": "Variable Speed", "type": "bool" }, { "key": "kit", "label": "Kit", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B00ZWJDPTC", "force_overall": true,
+      "name": "DEWALT Orbital Sander Kit, 5 inch, 3 Amp, Corded, 12,000 OPM (DWE6421K)",
+      "brand": "DEWALT", "model": "DWE6421K",
+      "image": "https://m.media-amazon.com/images/I/613BH8vx0wL._AC_SX425_.jpg",
+      "price": 64.89, "rating": 4.7, "reviews_count": 5587, "bought": "1K+/mo",
+      "specs": { "amps": "3 A", "pad": "5\"", "opm": "12,000 OPM", "speed": "Single", "dust": "Dust bag + vac port", "weight": null },
+      "features": { "variable_speed": false, "vac_port": true, "dust_box": false, "kit": true },
+      "verdict": "The everyday pick for most people. The 3-amp motor runs a fixed 12,000 OPM, the short body gets you close to the work, and the dust port clicks onto a DEWALT vac or any 1-1/4\" shop-vac hose for real dust control. Ships as a kit with a dust bag and a carrying bag, and carries a 3-year warranty.",
+      "pros": ["5,587 reviews at 4.7 stars", "Dust port fits DEWALT collectors and 1-1/4\" shop-vac hoses", "3-year warranty and a carrying bag included"],
+      "cons": ["Single speed — no dial for delicate finishing", "The cloth dust bag fills fast and passes fine dust"]
+    },
+    {
+      "asin": "B07FKBDNNQ", "force_budget": true,
+      "name": "SKIL 5\" Random Orbital Sander with Cyclonic Dust Box & 3pc Sanding Sheet (SR211601)",
+      "brand": "SKIL", "model": "SR211601",
+      "image": "https://m.media-amazon.com/images/I/61gLO6tD4UL._AC_SX425_.jpg",
+      "price": 37.00, "rating": 4.5, "reviews_count": 7594, "bought": "6K+/mo",
+      "specs": { "amps": "2.8 A", "pad": "5\"", "opm": "13,000 OPM", "speed": "Variable", "dust": "Cyclonic dust box", "weight": "3.4 lb" },
+      "features": { "variable_speed": true, "vac_port": false, "dust_box": true, "kit": true },
+      "verdict": "The value pick, and the best-selling random orbital sander on Amazon at 6,000+ a month. Under $40 gets you variable speed and a clear cyclonic dust box that snaps off to empty, plus three sanding sheets to start. A lot of tool for the money, and the reason it's the category's #1 seller.",
+      "pros": ["7,594 reviews at 4.5 stars, the #1 best-seller in the category", "Variable speed at a budget price", "Cyclonic dust box is see-through and empties clean"],
+      "cons": ["No port to hook up a shop vac — you're stuck with the box", "1-year warranty, shorter than DEWALT's or CRAFTSMAN's"]
+    },
+    {
+      "asin": "B0858C7X3M",
+      "name": "DEWALT Random Orbit Sander, Variable Speed, 5-Inch (DWE6423)",
+      "brand": "DEWALT", "model": "DWE6423",
+      "image": "https://m.media-amazon.com/images/I/81OsP662JsL._AC_SX425_.jpg",
+      "price": 79.00, "rating": 4.7, "reviews_count": 3630, "bought": "3K+/mo",
+      "specs": { "amps": "3 A", "pad": "5\"", "opm": "8,000–12,000 OPM", "speed": "Variable", "dust": "Dust bag + vac port", "weight": "3.4 lb" },
+      "features": { "variable_speed": true, "vac_port": true, "dust_box": false, "kit": false },
+      "verdict": "The variable-speed version of the DWE6421 above, and worth the extra money if you sand a range of materials. The dial runs 8,000 to 12,000 OPM, so you can slow down for veneer, paint, or finishing and open it up for stock removal. Same DEWALT vac port and 3-year warranty.",
+      "pros": ["Variable speed from 8,000 to 12,000 OPM", "3,630 reviews at 4.7 stars, 3K+ bought last month", "Dust port fits DEWALT collectors and 1-1/4\" hoses"],
+      "cons": ["Sold with just a dust bag, no case", "Costs more than the fixed-speed DWE6421K"]
+    },
+    {
+      "asin": "B00BD5G9VA",
+      "name": "BOSCH ROS20VSC Palm Sander, Variable Speed Random Orbital Sander with Dust Canister & Carrying Bag",
+      "brand": "Bosch", "model": "ROS20VSC",
+      "image": "https://m.media-amazon.com/images/I/51pI0BW2pFL._AC_SX425_.jpg",
+      "price": 99.00, "rating": 4.6, "reviews_count": 4996, "bought": "400+/mo",
+      "specs": { "amps": "2.5 A", "pad": "5\"", "opm": "7,500–12,000 OPM", "speed": "Variable", "dust": "Twist-off canister + microfilter + vac", "weight": "3.5 lb" },
+      "features": { "variable_speed": true, "vac_port": true, "dust_box": true, "kit": true },
+      "verdict": "The most feature-complete sander here. Variable speed, a pad-dampening system that fights swirl marks on lift-off, and a twist-off dust canister with a microfilter that traps particles down to half a micron. Comes with the canister, a vacuum adapter, and a carrying bag, so it does everything out of the box.",
+      "pros": ["4,996 reviews at 4.6 stars", "Pad dampening minimizes swirl marks", "Microfilter canister plus a vacuum adapter for the cleanest dust collection here"],
+      "cons": ["One of the pricier tools on the list", "2.5-amp motor is smaller than the DEWALT and Makita picks"]
+    },
+    {
+      "asin": "B003M5IWM8", "premium": true,
+      "name": "Makita BO5041K 5\" Random Orbit Sander with Case",
+      "brand": "Makita", "model": "BO5041K",
+      "image": "https://m.media-amazon.com/images/I/51OW3zbd87L._AC_SX425_.jpg",
+      "price": 144.00, "rating": 4.8, "reviews_count": 1494, "bought": "100+/mo",
+      "specs": { "amps": "3 A", "pad": "5\"", "opm": "4,000–12,000 OPM", "speed": "Variable", "dust": "Dust bag + vac port", "weight": "3.1 lb" },
+      "features": { "variable_speed": true, "vac_port": true, "dust_box": false, "kit": true },
+      "verdict": "The one to buy if you sand for a living or just want the best. It's the highest-rated sander on the list at 4.8 stars, with the widest speed range here (4,000 to 12,000 OPM), a rubberized palm grip that kills vibration, and a hard case. You pay for it, but Makita build quality is why it lasts.",
+      "pros": ["4.8 stars across 1,494 reviews, the best on the list", "Widest speed range here, 4,000 to 12,000 OPM", "Low-vibration grip and a hard carrying case"],
+      "cons": ["The most expensive tool on the list", "1-year warranty, shorter than DEWALT's 3-year"]
+    },
+    {
+      "asin": "B00MLSS1SW",
+      "name": "BLACK+DECKER Orbital Sander, 5 Inch, 2.0 Amp, 12,000 OPM, Corded (BDERO100)",
+      "brand": "BLACK+DECKER", "model": "BDERO100",
+      "image": "https://m.media-amazon.com/images/I/71dHKwWREsL._AC_SX425_.jpg",
+      "price": 39.99, "rating": 4.6, "reviews_count": 15604, "bought": "200+/mo",
+      "specs": { "amps": "2 A", "pad": "5\"", "opm": "12,000 OPM", "speed": "Single", "dust": "Dust bag", "weight": "3.2 lb" },
+      "features": { "variable_speed": false, "vac_port": false, "dust_box": false, "kit": false },
+      "verdict": "The most-reviewed sander on the list by a wide margin — 15,604 ratings at 4.6 stars for a $40 tool. It's a no-frills 2-amp, single-speed sander with hook-and-loop paper changes and a dust bag. Not a pro tool, but a proven, cheap choice for occasional home projects.",
+      "pros": ["15,604 reviews at 4.6 stars, most of any sander here", "Light and compact for tight spaces", "Hook-and-loop pad for fast paper changes"],
+      "cons": ["Smallest motor here at 2 amps, single speed only", "Dust bag only — no canister or vac port"]
+    },
+    {
+      "asin": "B07KHJT6P8",
+      "name": "CRAFTSMAN Orbital Sander, 5 inch, 12,000 OPM, 3 Amp, Corded (CMEW231)",
+      "brand": "CRAFTSMAN", "model": "CMEW231",
+      "image": "https://m.media-amazon.com/images/I/71wk0tEhLFL._AC_SX425_.jpg",
+      "price": 69.00, "rating": 4.7, "reviews_count": 1691, "bought": "50+/mo",
+      "specs": { "amps": "3 A", "pad": "5\"", "opm": "12,000 OPM", "speed": "Single", "dust": "Dust bag + vac port", "weight": "3.4 lb" },
+      "features": { "variable_speed": false, "vac_port": true, "dust_box": false, "kit": false },
+      "verdict": "A solid 3-amp CRAFTSMAN with an on-board dust bag plus a port for a 1-3/4\" vacuum hose, backed by a 3-year warranty. Single speed keeps it simple, and at $69 it slots between the budget kits and the DEWALT tools with a name people trust.",
+      "pros": ["1,691 reviews at 4.7 stars", "Dust bag plus a vacuum-hose connection", "3-year limited warranty"],
+      "cons": ["Single speed, no dial", "Costs more than the SKIL or budget kits with fewer extras"]
+    },
+    {
+      "asin": "B07MYYNXPQ",
+      "name": "Metabo HPT Random Orbit Finishing Sander, 5-Inch Variable Speed (SV13YST)",
+      "brand": "Metabo HPT", "model": "SV13YST",
+      "image": "https://m.media-amazon.com/images/I/61JLMFpLYnL._AC_SX425_.jpg",
+      "price": 59.00, "rating": 4.5, "reviews_count": 664, "bought": "50+/mo",
+      "specs": { "amps": "2.8 A", "pad": "5\"", "opm": "Up to 13,000 OPM", "speed": "Variable", "dust": "Dust bag + vac adapter", "weight": "3.1 lb" },
+      "features": { "variable_speed": true, "vac_port": true, "dust_box": false, "kit": true },
+      "verdict": "A variable-speed sander that undercuts the Bosch and DEWALT VS tools on price, and backs it with a 5-year warranty that's the longest here. Ships with five sanding sheets, a dust bag, and a vacuum hose adapter, so it's ready to work and easy to hook to a shop vac.",
+      "pros": ["Variable speed for under $60", "5-year warranty, the longest on the list", "Comes with sandpaper, dust bag, and a vac adapter"],
+      "cons": ["Smaller review base than the big-brand picks", "2.8-amp motor, geared to finishing over heavy removal"]
+    },
+    {
+      "asin": "B098L66VWW",
+      "name": "HYCHIKA 5-Inch Random Orbital Sander, 6 Variable Speeds, 13,000 OPM, 12pc Sandpaper",
+      "brand": "HYCHIKA", "model": "OS300W",
+      "image": "https://m.media-amazon.com/images/I/81q3VM1oS1L._AC_SX425_.jpg",
+      "price": 21.66, "rating": 4.5, "reviews_count": 1893, "bought": "2K+/mo",
+      "specs": { "amps": "2.5 A", "pad": "5\"", "opm": "Up to 13,000 OPM", "speed": "Variable (6-speed)", "dust": "Dust bag", "weight": null },
+      "features": { "variable_speed": true, "vac_port": false, "dust_box": false, "kit": true },
+      "verdict": "The cheapest tool on the list and a genuine best-seller at 2,000+ a month. Six speed settings, a 300-watt motor, and 12 sanding discs in three grits for around $22. It's an off-brand DIY sander, not a jobsite tool, but the price-to-features ratio is hard to argue with.",
+      "pros": ["Cheapest sander here with 6-speed variable control", "Ships with 12 sanding discs across 3 grits", "1,893 reviews at 4.5 stars, ranked #4 in the category"],
+      "cons": ["Off-brand tool built for light home use", "Dust bag only, no vacuum port"]
+    },
+    {
+      "asin": "B0D9VTX51B",
+      "name": "DEKOPRO 5\" Random Orbital Sander, 6 Variable Speeds, with Dust Box & 16pc Sandpaper",
+      "brand": "DEKOPRO", "model": "DKOS30A125Y",
+      "image": "https://m.media-amazon.com/images/I/716YM87zw5L._AC_SX425_.jpg",
+      "price": 28.99, "rating": 4.3, "reviews_count": 2669, "bought": "1K+/mo",
+      "specs": { "amps": "2.5 A", "pad": "5\"", "opm": "Up to 13,000 OPM", "speed": "Variable (6-speed)", "dust": "Dust box/bag", "weight": "3.6 lb" },
+      "features": { "variable_speed": true, "vac_port": false, "dust_box": false, "kit": true },
+      "verdict": "Another cheap variable-speed kit, this one bundling 16 sanding discs across six grits from coarse to 1000. Six speeds and a detachable dust collector for under $30. The 4.3-star rating is the lowest of the picks here, so treat it as a light-duty starter, not a daily driver.",
+      "pros": ["16 sanding discs from 60 to 1000 grit included", "6-speed variable control for under $30", "2,669 reviews, ranked #5 in the category"],
+      "cons": ["4.3 stars, the lowest rating of the picks here", "Off-brand tool with a dust bag and no vac port"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B00N1JC7HQ",
+      "name": "ZFE Random Orbital Sander 5\" & 6\" Pneumatic Palm Sander",
+      "brand": "ZFE", "model": "PA0000375PLUS5",
+      "image": "https://m.media-amazon.com/images/I/71RnJBOItDL._AC_SX425_.jpg",
+      "price": 46.99, "rating": 4.4, "reviews_count": 2126,
+      "flag": "Air-powered — needs a compressor, not a wall outlet",
+      "verdict": "This isn't an electric sander. It's a pneumatic (air) tool that does nothing on its own — it needs an air compressor most buyers don't have, yet it sits in the results right beside plug-in sanders. If you want to plug in and sand, any of the corded tools above is the right buy.",
+      "reasons": [
+        "Its power source is pneumatic: it runs on compressed air, not electricity, and has no cord or plug. It won't turn on without an air compressor, which is not included and typically costs $100 to $300 more than the sander.",
+        "The listing buries that. It's titled simply \"Random Orbital Sander,\" ranks alongside corded electric sanders, and even lists a \"1 A\" amperage and a \"10,000 rpm\" spec — figures that make no sense for an air tool and make it easy to mistake for an electric one.",
+        "A palm air sander like this needs a steady 5 to 7 CFM at 90 PSI to run continuously. Many small pancake and hot-dog home compressors can't sustain that, so even a buyer who owns one may find the tool starves and slows under load.",
+        "It's a 5\"/6\" combo that needs backing-plate swaps, and 6\" discs are less common and pricier than the 5\" hook-and-loop discs every electric sander above uses."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "What does \"random orbital\" mean?", "a": "The pad spins in a circle and orbits off-center at the same time, so it never traces the same path twice. That random motion is what stops it from leaving the circular swirl marks a fixed rotary sander leaves, which is why it's the go-to for finishing wood before paint or stain." },
+    { "q": "Do I need variable speed?", "a": "Variable speed lets you slow the pad down for delicate work like veneer, paint prep, or polishing, where full speed can burn or gouge, and speed it up for fast stock removal. If you only sand bare wood, a single-speed tool like the DEWALT DWE6421K or BLACK+DECKER is fine. For mixed materials, pay for the dial." },
+    { "q": "Dust bag, canister, or shop vac?", "a": "A cloth dust bag is convenient but fills fast and lets fine dust through. A cyclonic box or twist-off canister (SKIL, Bosch) is tidier and shows the fill level. The cleanest option is a tool with a vacuum port, like the DEWALT, CRAFTSMAN, or Metabo HPT picks, hooked to a shop vac — it collects the most and keeps the air clearer." },
+    { "q": "Is the 5-inch pad standard?", "a": "Yes. Five-inch hook-and-loop discs are the most common and cheapest sandpaper you can buy, and every tool on this list uses them. Match the disc's hole pattern (usually 8 holes) to the pad so the dust extraction lines up." },
+    { "q": "Corded or cordless?", "a": "A corded sander gives constant power for long sanding sessions and costs much less, since there's no battery to buy. Cordless only makes sense if you need to sand where a cord can't reach or you're already invested in a battery platform." },
+    { "q": "What do the OPM numbers mean?", "a": "OPM is orbits per minute — how fast the pad moves. Higher OPM removes material faster; most 5-inch sanders top out around 12,000 to 13,000 OPM. On a variable-speed tool, the low end matters just as much: it's what lets you dial back for a fine finish." }
+  ]
+}
