@@ -1,0 +1,167 @@
+{
+  "slug": "corded-angle-grinders",
+  "title": "The 10 Best Corded Angle Grinders",
+  "subtitle": "Wired angle grinders ranked from live Amazon data — full power for the least money, with no battery to run down.",
+  "intro": "A corded angle grinder trades the freedom of a battery for a motor that never fades, which is why these are still the workhorse for cutting, grinding, and rust removal at a bench or anywhere a cord reaches. The price gap is the real story: most of the best-sellers here cost less than a single pro battery. This list covers 4-1/2\" grinders from 6 to 11 amps, with a mix of slide and paddle switches and a few that ship as ready-to-use kits with wheels and a case.",
+  "data_captured": "2026-09-20",
+  "budget_cap": 50,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.20 },
+  "feature_weights": { "paddle_switch": 0.25, "tool_free_guard": 0.25, "kit": 0.25, "metal_gear_case": 0.25 },
+  "reviews_ceiling": 7000,
+  "spec_fields": [
+    { "key": "amps", "label": "Motor" }, { "key": "wheel_size", "label": "Wheel Size" },
+    { "key": "max_rpm", "label": "Max Speed" }, { "key": "switch", "label": "Switch" },
+    { "key": "weight", "label": "Weight" }, { "key": "accessories", "label": "In the Box" }
+  ],
+  "table_columns": [
+    { "key": "amps", "label": "Motor" }, { "key": "max_rpm", "label": "Max Speed" },
+    { "key": "paddle_switch", "label": "Paddle Switch", "type": "bool" }, { "key": "kit", "label": "Kit", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B009ELXH1K", "force_overall": true,
+      "name": "DEWALT Angle Grinder, One-Touch Guard, 4-1/2-Inch (DWE4011)",
+      "brand": "DEWALT", "model": "DWE4011",
+      "image": "https://m.media-amazon.com/images/I/71bE+CjF4pL._AC_SX425_.jpg",
+      "price": 76.20, "rating": 4.6, "reviews_count": 2413, "bought": "2K+/mo",
+      "specs": { "amps": "7 A", "wheel_size": "4-1/2\"", "max_rpm": 12000, "switch": "Slide", "weight": "3.9 lb", "accessories": "Wheel, guard, wrench, handle" },
+      "features": { "paddle_switch": false, "tool_free_guard": true, "kit": false, "metal_gear_case": false },
+      "verdict": "The default pick for most people: a light 3.9-pound DEWALT with a One-Touch guard you rotate by hand, at 2,000+ sold a month. The 7-amp motor is smaller than the 11-amp tools here, but for cutting bolts, grinding welds, and stripping rust it has the power you'll actually use.",
+      "pros": ["2,413 reviews at 4.6 stars, and 2K+ bought last month", "One-Touch guard rotates 360 degrees without a tool", "Only 3.9 pounds, so it stays comfortable overhead"],
+      "cons": ["Slide switch, not a safer dead-man paddle", "7 amps is less motor than the DEWALT 402 line below"]
+    },
+    {
+      "asin": "B0010DHFTK", "premium": true,
+      "name": "Makita 9557PBX1 4-1/2\" Paddle Switch Cut-Off/Angle Grinder Kit",
+      "brand": "Makita", "model": "9557PBX1",
+      "image": "https://m.media-amazon.com/images/I/611t4x6y4uL._AC_SX425_.jpg",
+      "price": 124.00, "rating": 4.8, "reviews_count": 3970, "bought": "100+/mo",
+      "specs": { "amps": "7.5 A", "wheel_size": "4-1/2\"", "max_rpm": 11000, "switch": "Paddle (lock-on)", "weight": "4.5 lb", "accessories": "Diamond blade, 5 wheels, 2 guards, case" },
+      "features": { "paddle_switch": true, "tool_free_guard": false, "kit": true, "metal_gear_case": true },
+      "verdict": "The one to buy if you want the whole package. It's the highest-rated grinder on the list at 4.8 stars, and it ships as a real kit: the tool, a diamond blade, five grinding wheels, both a grinding and a cut-off guard, and a case. Labyrinth-sealed motor and a metal gear housing back up the price.",
+      "pros": ["4.8 stars across 3,970 reviews, the best on the list", "Ships with a diamond blade, 5 wheels, 2 guards, and a case", "Labyrinth-sealed motor and metal gear housing for tool life"],
+      "cons": ["The most expensive tool here", "1-year warranty, shorter than DEWALT's 3-year"]
+    },
+    {
+      "asin": "B00SKOD77G",
+      "name": "DEWALT Angle Grinder, 4-1/2 in., 11 Amp, No Lock-On Paddle Switch, Dust Ejection (DWE402N)",
+      "brand": "DEWALT", "model": "DWE402N",
+      "image": "https://m.media-amazon.com/images/I/51SEkA8HEfL._AC_SX425_.jpg",
+      "price": 89.00, "rating": 4.6, "reviews_count": 203, "bought": "200+/mo",
+      "specs": { "amps": "11 A", "wheel_size": "4-1/2\"", "max_rpm": 11000, "switch": "Paddle (no-lock)", "weight": "6.3 lb", "accessories": "Guard, wrench, handle" },
+      "features": { "paddle_switch": true, "tool_free_guard": true, "kit": false, "metal_gear_case": false },
+      "verdict": "The pick when you want more motor and a safer switch. The 11-amp version of DEWALT's 402 uses a no-lock paddle that stops the moment you let go, plus a Dust Ejection System that clears grit out of the vents. It's heavier at 6.3 pounds, which is the trade for the extra power.",
+      "pros": ["11-amp motor for faster material removal", "No-lock paddle switch stops the wheel when you release it", "Dust Ejection System keeps grit out of the motor"],
+      "cons": ["Heaviest of the 4-1/2\" tools here at 6.3 pounds", "Newer listing, so fewer reviews than the DWE4011"]
+    },
+    {
+      "asin": "B01HD4EH4A",
+      "name": "Bosch GWS8-45 4-1/2 In. Angle Grinder",
+      "brand": "Bosch", "model": "GWS8-45",
+      "image": "https://m.media-amazon.com/images/I/51b27xqzrUL._AC_SX425_.jpg",
+      "price": 81.80, "rating": 4.6, "reviews_count": 2158, "bought": "200+/mo",
+      "specs": { "amps": "7.5 A", "wheel_size": "4-1/2\"", "max_rpm": 11000, "switch": "Slide", "weight": "4.2 lb", "accessories": "Guard, flange, wrench, handle" },
+      "features": { "paddle_switch": false, "tool_free_guard": true, "kit": false, "metal_gear_case": false },
+      "verdict": "A pro-grade 7.5-amp Bosch with a slim grip and Service Minder brushes that shut the tool off when the brushes are due, so you replace them before they take the motor with them. A quiet, well-built option if you'd rather buy Bosch than DEWALT.",
+      "pros": ["2,158 reviews at 4.6 stars", "Service Minder brushes stop the tool before the motor is damaged", "Slim grip and a quick-adjust burst-protection guard"],
+      "cons": ["Slide switch, not a dead-man paddle", "Sold bare — no wheels in the box"]
+    },
+    {
+      "asin": "B07L21GNHL",
+      "name": "Metabo HPT 4-1/2-Inch Angle Grinder, 5 Grinding Wheels & Hard Case, 6.2-Amp (G12SR4)",
+      "brand": "Metabo HPT", "model": "G12SR4",
+      "image": "https://m.media-amazon.com/images/I/61a3D5SfYHS._AC_SX425_.jpg",
+      "price": 49.00, "rating": 4.6, "reviews_count": 4973, "bought": "300+/mo",
+      "specs": { "amps": "6.2 A", "wheel_size": "4-1/2\"", "max_rpm": 12000, "switch": "Slide", "weight": "4.0 lb", "accessories": "5 grinding wheels, case" },
+      "features": { "paddle_switch": false, "tool_free_guard": false, "kit": true, "metal_gear_case": false },
+      "verdict": "The most-reviewed value pick: 4,973 ratings at 4.6 stars for a $49 tool that comes with five grinding wheels and a hard case. At 4 pounds with a slide switch and a low-profile gear case, it's a clean, cheap grinder for occasional and light shop use.",
+      "pros": ["4,973 reviews at 4.6 stars for under $50", "Ships with 5 grinding wheels and a hard case", "Only 4 pounds, with a quick-off slide switch"],
+      "cons": ["6.2 amps is the smallest motor on the list", "No tool-free guard adjustment"]
+    },
+    {
+      "asin": "B07KKB4C78",
+      "name": "CRAFTSMAN Small Angle Grinder Tool 4-1/2 inch, 6 Amp, 12,000 RPM, Corded (CMEG100)",
+      "brand": "CRAFTSMAN", "model": "CMEG100",
+      "image": "https://m.media-amazon.com/images/I/71tmwrvOgxL._AC_SX425_.jpg",
+      "price": 49.00, "rating": 4.6, "reviews_count": 3015, "bought": "50+/mo",
+      "specs": { "amps": "6 A", "wheel_size": "4-1/2\"", "max_rpm": 12000, "switch": "Slide", "weight": "4.6 lb", "accessories": "Wheel, guard, handle, wrench" },
+      "features": { "paddle_switch": false, "tool_free_guard": true, "kit": false, "metal_gear_case": false },
+      "verdict": "A solid budget CRAFTSMAN with a genuinely useful tool-free guard and a spindle lock for fast wheel changes, backed by a 3-year warranty that's rare at this price. Works with the VERSATRACK wall system if you hang your tools.",
+      "pros": ["3,015 reviews at 4.6 stars", "Tool-free guard and spindle lock for quick changes", "3-year limited warranty, long for a $49 grinder"],
+      "cons": ["6-amp motor, geared to light and occasional use", "Slide switch, no paddle"]
+    },
+    {
+      "asin": "B001EYU8TO",
+      "name": "PORTER-CABLE Angle Grinder Tool, 4-1/2-Inch, 7.5-Amp (PC750AG)",
+      "brand": "PORTER-CABLE", "model": "PC750AG",
+      "image": "https://m.media-amazon.com/images/I/71dp8IyDeTS._AC_SX425_.jpg",
+      "price": 67.57, "rating": 4.6, "reviews_count": 2800, "bought": "50+/mo",
+      "specs": { "amps": "7.5 A", "wheel_size": "4-1/2\"", "max_rpm": 10000, "switch": "Slide", "weight": "5.9 lb", "accessories": "Handle, wrench" },
+      "features": { "paddle_switch": false, "tool_free_guard": false, "kit": false, "metal_gear_case": true },
+      "verdict": "A 7.5-amp grinder built around a cast metal gear housing, which is where a corded grinder takes the most abuse and heat. The 3-position handle and spindle lock are standard, and the 3-year warranty plus 90-day money-back is generous.",
+      "pros": ["2,800 reviews at 4.6 stars", "Cast metal gear housing for durability and heat", "3-year warranty and 90-day money-back guarantee"],
+      "cons": ["Heaviest single-tool option at 5.9 pounds", "10,000 RPM, a touch slower than the 11-12K field"]
+    },
+    {
+      "asin": "B07P5D6M4V", "force_budget": true,
+      "name": "AVID POWER Angle Grinder, 7.5-Amp 4-1/2 inch, with Grinding & Cutting Wheels, Flap Disc and Handle",
+      "brand": "AVID POWER", "model": "AG589",
+      "image": "https://m.media-amazon.com/images/I/71ArwQ1+sOL._AC_SX425_.jpg",
+      "price": 39.99, "rating": 4.5, "reviews_count": 6249, "bought": "900+/mo",
+      "specs": { "amps": "7.5 A", "wheel_size": "4-1/2\"", "max_rpm": 12000, "switch": "Slide", "weight": "3.6 lb", "accessories": "4 wheels, flap disc, guard, handle, wrench" },
+      "features": { "paddle_switch": false, "tool_free_guard": true, "kit": true, "metal_gear_case": false },
+      "verdict": "The value pick, and the best-selling grinder on the list at 900+ a month. Under $40 gets you a 7.5-amp tool plus two cutting wheels, two grinding wheels, and a flap disc, so you can cut and grind the day it arrives. It's a DIY-grade tool, not a jobsite one, and reviewers say to keep the spare carbon brushes handy.",
+      "pros": ["6,249 reviews at 4.5 stars, most of any grinder here", "Under $40 with 4 wheels and a flap disc included", "Tool-free guard and a light 3.6-pound body"],
+      "cons": ["DIY-grade — reviewers report shorter motor life under heavy use", "Off-brand tool with a 1-year warranty"]
+    },
+    {
+      "asin": "B0036WBGI4",
+      "name": "SKIL 6 Amp 4-1/2-Inch Corded Angle Grinder (9295-01)",
+      "brand": "SKIL", "model": "9295-01",
+      "image": "https://m.media-amazon.com/images/I/61GvQ8X5hBL._AC_SX425_.jpg",
+      "price": 32.99, "rating": 4.6, "reviews_count": 1926, "bought": "200+/mo",
+      "specs": { "amps": "6 A", "wheel_size": "4-1/2\"", "max_rpm": 11000, "switch": "Slide", "weight": "4.0 lb", "accessories": "Wrench, handle" },
+      "features": { "paddle_switch": false, "tool_free_guard": true, "kit": false, "metal_gear_case": true },
+      "verdict": "A dependable $33 grinder that punches above its price: a metal gear housing, a tool-less guard, and a vibration-reducing handle with onboard wrench storage. The 6-amp motor keeps it to light and medium jobs, but the build is better than the number suggests.",
+      "pros": ["1,926 reviews at 4.6 stars for $33", "Heavy-duty metal gear housing", "Tool-less guard and a handle that stores the wrench"],
+      "cons": ["6-amp motor limits it to lighter work", "Sold bare — no wheels included"]
+    },
+    {
+      "asin": "B01FJLKS1K",
+      "name": "WEN 7-Amp Angle Grinder with 4-1/2-Inch Wheel and Reversible Handle (944)",
+      "brand": "WEN", "model": "944",
+      "image": "https://m.media-amazon.com/images/I/81J7AlOUFDL._AC_SX425_.jpg",
+      "price": 25.56, "rating": 4.6, "reviews_count": 888, "bought": "600+/mo",
+      "specs": { "amps": "7 A", "wheel_size": "4-1/2\"", "max_rpm": 11000, "switch": "Slide", "weight": "4.6 lb", "accessories": "Wheel, wrench, handle" },
+      "features": { "paddle_switch": false, "tool_free_guard": false, "kit": false, "metal_gear_case": false },
+      "verdict": "The cheapest name-brand grinder here and a strong seller at 600+ a month. The 7-amp motor and reversible handle cover basic cutting and grinding, and an arbor adapter fits both 5/8\" and 7/8\" wheels. A fine first grinder or a spare you won't cry over.",
+      "pros": ["Under $26, the lowest price on the list", "7-amp motor with a reversible left/right handle", "Arbor adapter fits both 5/8\" and 7/8\" wheels"],
+      "cons": ["No tool-free guard", "2-year warranty, shorter than the DEWALT and CRAFTSMAN picks"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0HJ17WW12",
+      "name": "VEVOR Angle Grinder, 6\" Electric Grinder, 1400W 13Amps 10000RPM",
+      "brand": "VEVOR", "model": "M3120-120-2",
+      "image": "https://m.media-amazon.com/images/I/71PhC5mcn-L._AC_SX425_.jpg",
+      "price": 70.90, "rating": 4.1, "reviews_count": 54,
+      "flag": "6\" wheels run at a fixed 10,000 RPM — almost no speed headroom",
+      "verdict": "This is a 6-inch grinder mixed in with the compact 4-1/2\" tools, sold with specs that don't line up and a fixed speed that sits right at the wheel's safe limit. For the same money, any of the 4-1/2\" grinders above is the safer, better-understood buy.",
+      "reasons": [
+        "It runs a fixed 10,000 RPM on 6-inch wheels, and 6\" grinding and cut-off wheels are typically rated for only about 10,000 to 10,250 RPM maximum. That leaves almost no safety margin, and fitting a cheaper or older 6\" wheel rated slightly lower is exactly how a wheel bursts under the guard.",
+        "The electrical claims contradict each other: 1400W at 120V is 11.7 amps, not the 13 amps in the title, and a genuine 13-amp continuous draw crowds the limit of a standard 15-amp household circuit. The bigger number is the marketing one.",
+        "It's the wrong tool for a shopper in this category. A 6-inch grinder is heavier at 7.7 pounds and needs larger, pricier, less-common wheels, yet it sits in the same search as the compact 4-1/2\" tools most buyers actually want.",
+        "VEVOR is a house brand spanning thousands of unrelated products, the model number is a generic code, and the part number is literally \"Angle Grinder, 6\\\"\" — signs of a repackaged OEM tool rather than a grinder line with a track record or a warranty to stand behind it."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Why buy corded instead of cordless?", "a": "A corded grinder gives you full, constant power for the least money and never runs out mid-cut, so it's the better choice for bench work, longer grinding sessions, and anyone who doesn't already own a battery platform. Cordless wins only when you need to work where a cord can't reach." },
+    { "q": "How many amps do I need?", "a": "6 amps handles light and occasional cutting, grinding, and rust removal. 7 to 7.5 amps is the sweet spot for most DIY and home-shop work. 11 amps, like the DEWALT DWE402N, is for heavy or frequent metal removal where you don't want the motor bogging down." },
+    { "q": "Paddle switch or slide switch?", "a": "A slide switch stays on until you turn it off, which is convenient but keeps spinning if you drop the tool. A dead-man paddle switch (Makita 9557PBX1, DEWALT DWE402N) stops the wheel the instant you release it, which is the safer choice if you use a grinder often." },
+    { "q": "What is a tool-free guard, and does it matter?", "a": "The guard deflects sparks and shrapnel and has to be repositioned as you switch between cutting and grinding. A tool-free guard rotates by hand or a lever; without one you need a wrench every time. It's a small feature that you'll appreciate on every job." },
+    { "q": "Bare tool or a kit with wheels?", "a": "A bare tool is cheaper if you already have wheels, but you can't use it out of the box. Kits like the AVID POWER, Metabo HPT G12SR4, and Makita 9557PBX1 include cutting and grinding wheels so you can start immediately, which is worth it for a first grinder." },
+    { "q": "Can I put a 5-inch wheel on a 4-1/2-inch grinder?", "a": "No. The guard and the tool's rated speed are matched to the 4-1/2\" wheel size. A wheel that's too large won't fit the guard and can spin past its safe RPM. Always match the wheel to the grinder's rated size and keep the RPM rating on the wheel at or above the tool's speed." }
+  ]
+}
