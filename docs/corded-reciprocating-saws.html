@@ -31,6 +31,46 @@
 
 <main>
 
+  
+  <nav class="quicknav quicknav-bar" aria-label="Quick navigation">
+    <div class="quicknav-controls">
+      <a class="back-home" href="index.html">&larr; Home</a>
+      <select id="qn-category" aria-label="Category">
+        <option value="">Category&hellip;</option>
+        <option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="storage">Tool storage</option>
+      </select>
+      <select id="qn-subcategory" aria-label="Sub-category" disabled>
+        <option value="">Sub-category&hellip;</option>
+      </select>
+      <button type="button" id="qn-go" class="btn" disabled>Go</button>
+    </div>
+    <script>
+    (function(){
+      var cats = {"wireless": [{"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}], "storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}]};
+      var catSel = document.getElementById('qn-category');
+      var subSel = document.getElementById('qn-subcategory');
+      var go = document.getElementById('qn-go');
+      if(!catSel || !subSel || !go){ return; }
+      function fillSubs(){
+        var list = cats[catSel.value] || [];
+        subSel.innerHTML = '<option value="">Sub-category\u2026</option>';
+        list.forEach(function(c){
+          var o = document.createElement('option');
+          o.value = c.slug; o.textContent = c.title;
+          subSel.appendChild(o);
+        });
+        subSel.disabled = list.length === 0;
+        updateGo();
+      }
+      function updateGo(){ go.disabled = !subSel.value; }
+      function navigate(){ if(subSel.value){ window.location.href = subSel.value + '.html'; } }
+      catSel.addEventListener('change', fillSubs);
+      subSel.addEventListener('change', updateGo);
+      go.addEventListener('click', navigate);
+      subSel.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ navigate(); } });
+    })();
+    </script>
+  </nav>
   <section class="lead">
     <h1>The 10 Best Corded Reciprocating Saws</h1>
     <p class="sub">Wired demo saws ranked from live Amazon data — endless power for cutting, pruning, and tear-out.</p>

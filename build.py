@@ -338,7 +338,9 @@ def build_category(site, filename):
     columns = cat.get("table_columns") or DEFAULT_TABLE_COLUMNS
     heroes = "".join(render_hero_card(p, site, cat) for p in (overall, budget, premium) if p)
     cards = "".join(render_card(p, site, spec_fields) for p in ranked)
+    quicknav = render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)
     body = f"""
+  {quicknav}
   <section class="lead">
     <h1>{esc(cat['title'])}</h1>
     <p class="sub">{esc(cat['subtitle'])}</p>
@@ -394,10 +396,32 @@ def build_category(site, filename):
     return cat, overall, budget
 
 
-def render_quicknav(nav_groups):
-    """Two linked dropdowns (category -> sub-category) + Go button.
+# Home-page groups (label, blurb, power-key). Shared by the home sections and the
+# quick-navigation dropdown so both stay in sync.
+HOME_GROUPS = [
+    ("Wireless tools", "Battery powered &mdash; cut, drive, and drill anywhere, no cord.", "wireless"),
+    ("Wired tools", "Corded &mdash; full unlimited power for the least money, never a dead battery.", "wired"),
+    ("Tool storage", "Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.", "storage"),
+]
 
-    nav_groups: list of (label, key, members) as built in build_home.
+
+def nav_groups_from_site(site):
+    """[(label, key, members)] straight from site.json — for pages that don't
+    build the ranked results (category pages) but still need the nav dropdown."""
+    out = []
+    for label, _sub, key in HOME_GROUPS:
+        members = [c for c in site["categories"] if c.get("power") == key]
+        if members:
+            out.append((label, key, members))
+    return out
+
+
+def render_quicknav(nav_groups, compact=False, back_home=False):
+    """Linked dropdowns (category -> sub-category) + Go button.
+
+    nav_groups: list of (label, key, members).
+    compact:    omit the heading/blurb; render as a slim top-of-page toolbar.
+    back_home:  prepend a "Home" button that returns to index.html.
     """
     if not nav_groups:
         return ""
@@ -432,12 +456,10 @@ def render_quicknav(nav_groups):
       subSel.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ navigate(); } });
     })();
     """.replace("__DATA__", json.dumps(data))
-    return f"""
-  <section class="quicknav" aria-labelledby="qn-h">
-    <h2 id="qn-h">Quick navigation</h2>
-    <p class="group-sub">Pick a category, choose a tool, and jump straight to its top&#8209;10 list.</p>
-    <div class="quicknav-controls">
-      <select id="qn-category" aria-label="Category">
+    back = ('<a class="back-home" href="index.html">&larr; Home</a>\n      '
+            if back_home else "")
+    controls = f"""<div class="quicknav-controls">
+      {back}<select id="qn-category" aria-label="Category">
         <option value="">Category&hellip;</option>
         {cat_opts}
       </select>
@@ -445,7 +467,18 @@ def render_quicknav(nav_groups):
         <option value="">Sub-category&hellip;</option>
       </select>
       <button type="button" id="qn-go" class="btn" disabled>Go</button>
-    </div>
+    </div>"""
+    if compact:
+        return f"""
+  <nav class="quicknav quicknav-bar" aria-label="Quick navigation">
+    {controls}
+    <script>{js}</script>
+  </nav>"""
+    return f"""
+  <section class="quicknav" aria-labelledby="qn-h">
+    <h2 id="qn-h">Quick navigation</h2>
+    <p class="group-sub">Pick a category, choose a tool, and jump straight to its top&#8209;10 list.</p>
+    {controls}
     <script>{js}</script>
   </section>"""
 
@@ -466,14 +499,9 @@ def build_home(site, cats):
         <span class="btn ghost">See the top {c['count']} &rarr;</span>
       </a>"""
 
-    groups = [
-        ("Wireless tools", "Battery powered &mdash; cut, drive, and drill anywhere, no cord.", "wireless"),
-        ("Wired tools", "Corded &mdash; full unlimited power for the least money, never a dead battery.", "wired"),
-        ("Tool storage", "Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.", "storage"),
-    ]
     sections = []
     nav_groups = []
-    for label, sub, key in groups:
+    for label, sub, key in HOME_GROUPS:
         members = [c for c in site["categories"] if c.get("power") == key and c["slug"] in by_slug]
         if not members:
             continue
@@ -644,9 +672,15 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .quicknav select:focus-visible{outline:2px solid var(--brand);outline-offset:1px}
 .quicknav .btn{border:0;cursor:pointer;font-family:inherit;font-size:.95rem}
 .quicknav .btn:disabled{opacity:.5;cursor:not-allowed}
+.back-home{display:inline-flex;align-items:center;gap:6px;background-color:var(--card-2);color:var(--ink);
+  border:1px solid var(--line);border-radius:9px;padding:10px 16px;font-size:.95rem;font-weight:600;white-space:nowrap}
+.back-home:hover{border-color:var(--brand);color:var(--brand-ink)}
+.back-home:focus-visible{outline:2px solid var(--brand);outline-offset:1px}
+/* compact top-of-page toolbar (category pages) */
+.quicknav-bar{margin:6px 0 4px;padding-bottom:14px;border-bottom:1px solid var(--line)}
 @media (max-width:720px){
   .quicknav-controls{flex-direction:column;align-items:stretch}
-  .quicknav select,.quicknav .btn{width:100%;text-align:center}
+  .quicknav select,.quicknav .btn,.back-home{width:100%;text-align:center;justify-content:center}
 }
 /* avoid — comparison row */
 tr.avoid-row td{background:#2a1414;color:#ff9d94;font-weight:600;border-bottom:1px solid #4a2222}
