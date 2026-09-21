@@ -1,0 +1,167 @@
+{
+  "slug": "cordless-jigsaws",
+  "title": "The 10 Best Cordless Jigsaws",
+  "subtitle": "Battery-powered jigsaws ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
+  "intro": "A jigsaw is the tool for curves, cutouts, and plunge cuts a circular saw can't make, and a cordless one goes wherever the cut needs to happen. Most of the best-sellers here ship as a bare tool with no battery, so check whether a pick is tool-only or a ready-to-use kit, and which battery platform it rides. Blade speed, orbital action, and bevel range vary more than you'd expect across brands — the buyer's guide below breaks down what each one actually changes about your cut.",
+  "data_captured": "2026-09-21",
+  "budget_cap": 90,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.20 },
+  "feature_weights": { "kit": 0.30, "brushless": 0.30, "led_light": 0.20, "dust_blower": 0.20 },
+  "reviews_ceiling": 10000,
+  "spec_fields": [
+    { "key": "battery", "label": "Battery Platform" }, { "key": "max_spm", "label": "Max Speed" },
+    { "key": "orbital_settings", "label": "Orbital Settings" }, { "key": "bevel", "label": "Bevel Range" },
+    { "key": "blade_type", "label": "Blade Type" }, { "key": "accessories", "label": "Accessories" }
+  ],
+  "table_columns": [
+    { "key": "battery", "label": "Battery" }, { "key": "max_spm", "label": "Max Speed" },
+    { "key": "orbital_settings", "label": "Orbital Settings" }, { "key": "kit", "label": "Kit", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07JPFHQKG", "force_overall": true,
+      "name": "DEWALT 20V MAX XR Jig Saw, 3,200 Blade Speed, Cordless, Brushless Motor, LED Light, Bare Tool Only (DCS334B)",
+      "brand": "DEWALT", "model": "DCS334B",
+      "image": "https://m.media-amazon.com/images/I/61cIUPtEqDL._AC_SX425_.jpg",
+      "price": 129.00, "rating": 4.8, "reviews_count": 9623, "bought": "3K+/mo",
+      "specs": { "battery": "20V MAX", "max_spm": "3,200 SPM", "orbital_settings": "4-position", "bevel": "0°, 15°, 30°, 45°", "blade_type": "T-shank", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "led_light": true, "dust_blower": true },
+      "verdict": "The most-reviewed, highest-rated cordless jigsaw on Amazon, carrying an actual 'Overall Pick' badge on the listing — a brushless XR motor at 3,200 SPM, all-metal keyless blade and bevel adjustments, and a dust blower to keep the cut line clear. Bare tool, so budget for a 20V MAX battery.",
+      "pros": ["9,623 reviews at 4.8 stars — more than any other jigsaw here, with 3,000+ bought in the past month", "Brushless motor rated for longer runtime than DEWALT's own DCS331", "All-metal keyless blade change and keyless bevel adjustment (0°/15°/30°/45°)"],
+      "cons": ["Bare tool — no battery or charger included", "Compact-grip body trades some leverage versus the barrel-grip DCS335B"]
+    },
+    {
+      "asin": "B007NVSSFS",
+      "name": "DEWALT 20V MAX Jig Saw, Tool Only (DCS331B)",
+      "brand": "DEWALT", "model": "DCS331B",
+      "image": "https://m.media-amazon.com/images/I/610ZZ7ZkgQL._AC_SX425_.jpg",
+      "price": 145.64, "rating": 4.8, "reviews_count": 8008, "bought": "200+/mo",
+      "specs": { "battery": "20V MAX", "max_spm": "0-3,000 SPM (variable)", "orbital_settings": "4-position", "bevel": "0°, 15°, 30°, 45°", "blade_type": "T-shank", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": false, "led_light": false, "dust_blower": true },
+      "verdict": "DEWALT's original 20V MAX jigsaw and still one of the best-reviewed on Amazon — a motor with variable speed to 3,000 SPM, an all-metal keyless blade clamp, and a keyless bevel shoe. A dependable, no-surprises pick for anyone already on 20V MAX batteries.",
+      "pros": ["8,008 reviews at 4.8 stars", "Variable speed 0-3,000 SPM with 4-position orbital action for control across materials", "Accepts standard T-shank blades with an anti-slip comfort grip"],
+      "cons": ["Brushed motor, not brushless, so it runs hotter than the DCS334B under sustained use", "Bare tool — battery and charger sold separately"]
+    },
+    {
+      "asin": "B07KSS2BGF",
+      "name": "DEWALT 20V MAX Jig Saw, Cordless, Barrel Grip, 3,200 Blade Speed, Bare Tool Only (DCS335B)",
+      "brand": "DEWALT", "model": "DCS335B",
+      "image": "https://m.media-amazon.com/images/I/61-xLoJ8HML._AC_SX425_.jpg",
+      "price": 147.99, "rating": 4.7, "reviews_count": 2430, "bought": "400+/mo",
+      "specs": { "battery": "20V MAX", "max_spm": "3,200 SPM", "orbital_settings": null, "bevel": "0°, 15°, 30°, 45°", "blade_type": "T-shank", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "led_light": true, "dust_blower": true },
+      "verdict": "The barrel-grip version of DEWALT's brushless jigsaw, built for one-handed control on detail and curve cuts. Same 3,200 SPM brushless motor and keyless blade/bevel adjustments as the DCS334B, in a grip style some users prefer for finer work.",
+      "pros": ["2,430 reviews at 4.7 stars, 400+ bought in the past month", "Brushless motor at 3,200 SPM with a bright LED and integrated dust blower", "Keyless bevel shoe with detents at 0°/15°/30°/45°"],
+      "cons": ["Bare tool — no battery or charger included", "Barrel grip favors precision work over aggressive, high-pressure cuts"]
+    },
+    {
+      "asin": "B07H7DQ3DK", "premium": true,
+      "name": "Milwaukee M18 FUEL D-Handle Jig Saw, Bare Tool (2737-20)",
+      "brand": "Milwaukee", "model": "2737-20",
+      "image": "https://m.media-amazon.com/images/I/81R+FSgvYJL._AC_SY450_.jpg",
+      "price": 199.00, "rating": 4.8, "reviews_count": 2981, "bought": "100+/mo",
+      "specs": { "battery": "M18", "max_spm": null, "orbital_settings": null, "bevel": null, "blade_type": null, "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "led_light": false, "dust_blower": false },
+      "verdict": "The one to buy if money's no object — Milwaukee's M18 FUEL D-Handle jigsaw, with a rotating D-handle body that lets the blade swivel independently for tight, controlled cuts a fixed-body jigsaw can't match. Bare tool on the huge M18 platform.",
+      "pros": ["2,981 reviews at 4.8 stars, the highest rating of any premium pick here", "Rotating D-handle body lets the blade track curves without twisting your grip", "Runs on the wide Milwaukee M18 battery ecosystem"],
+      "cons": ["Most expensive jigsaw in this lineup at $199 for a bare tool", "This listing publishes very few spec details beyond the headline features"]
+    },
+    {
+      "asin": "B0BDGQKRLS",
+      "name": "Makita XVJ04Z 18V LXT Lithium-Ion Brushless Cordless Jig Saw, Tool Only",
+      "brand": "Makita", "model": "XVJ04Z",
+      "image": "https://m.media-amazon.com/images/I/61WgbbRF+vL._AC_SX425_.jpg",
+      "price": 158.99, "rating": 4.8, "reviews_count": 271, "bought": "200+/mo",
+      "specs": { "battery": "18V LXT", "max_spm": "0-3,000 SPM (variable)", "orbital_settings": "3-position + straight", "bevel": null, "blade_type": null, "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": true, "led_light": true, "dust_blower": false },
+      "verdict": "The Makita pick — a brushless 18V LXT jigsaw with a soft no-load start that ramps the blade up gradually for a cleaner starting cut, plus three orbital settings and a straight-cut mode. Bare tool on the LXT platform.",
+      "pros": ["271 reviews at 4.8 stars, the highest rating of any bare tool here", "Brushless motor at 0-3,000 SPM with soft no-load start for accurate starting cuts", "3 orbital settings plus straight cutting for a wide range of materials"],
+      "cons": ["Smallest review base of the bare tools in this lineup", "Bare tool — battery and charger sold separately, and Amazon hides the buy-box price until checkout"]
+    },
+    {
+      "asin": "B07KKB4M9F",
+      "name": "CRAFTSMAN V20 Cordless Jig Saw, 3 Orbital Settings, Up to 2,500 SPM, Bare Tool Only (CMCS600B)",
+      "brand": "CRAFTSMAN", "model": "CMCS600B",
+      "image": "https://m.media-amazon.com/images/I/71qqJ-BufpL._AC_SX425_.jpg",
+      "price": 88.08, "rating": 4.7, "reviews_count": 1392, "bought": "200+/mo",
+      "specs": { "battery": "V20", "max_spm": "0-2,500 SPM (variable)", "orbital_settings": "3-position", "bevel": "0-45°", "blade_type": "T & U shank", "accessories": "Bare tool" },
+      "features": { "kit": false, "brushless": false, "led_light": false, "dust_blower": true },
+      "verdict": "A straightforward bare-tool jigsaw on the CRAFTSMAN V20 platform — variable speed to 2,500 SPM, 3 orbital settings, and a dust blower, for well under $100. A dependable pick if you already own V20 batteries.",
+      "pros": ["1,392 reviews at 4.7 stars", "Accepts both T and U shank blades for wider blade availability", "45° beveling shoe and a dust blower for cut-line visibility"],
+      "cons": ["Brushed motor, not brushless", "Bare tool — no battery or charger included"]
+    },
+    {
+      "asin": "B07KGMR1J1",
+      "name": "CRAFTSMAN V20 Cordless Jig Saw Kit, 3 Orbital Settings, Up to 2,500 SPM, Battery and Charger Included (CMCS600D1)",
+      "brand": "CRAFTSMAN", "model": "CMCS600D1",
+      "image": "https://m.media-amazon.com/images/I/71P4-VARqML._AC_SX425_.jpg",
+      "price": 189.00, "rating": 4.6, "reviews_count": 473, "bought": null,
+      "specs": { "battery": "V20", "max_spm": "0-2,500 SPM (variable)", "orbital_settings": "3-position", "bevel": "0-45°", "blade_type": "T & U shank", "accessories": "Battery, charger" },
+      "features": { "kit": true, "brushless": false, "led_light": false, "dust_blower": true },
+      "verdict": "The ready-to-cut version of the CMCS600B — same 2,500 SPM motor and 3 orbital settings, with a V20 battery and charger in the box. Priced like a premium kit, but it's the only CRAFTSMAN jigsaw here you can use straight out of the package.",
+      "pros": ["Battery and charger included — cut on day one", "Same 3 orbital settings, 45° bevel, and T/U shank blade compatibility as the bare CMCS600B", "473 reviews at 4.6 stars"],
+      "cons": ["At $189, it costs more than twice the bare CMCS600B tool", "Brushed motor, not brushless"]
+    },
+    {
+      "asin": "B078C5S3NC",
+      "name": "BLACK+DECKER 20V MAX POWERCONNECT Cordless Jig Saw (BDCJS20C)",
+      "brand": "BLACK+DECKER", "model": "BDCJS20C",
+      "image": "https://m.media-amazon.com/images/I/611GdPLYfpL._AC_SX425_.jpg",
+      "price": 86.00, "rating": 4.6, "reviews_count": 3801, "bought": null,
+      "specs": { "battery": "20V MAX POWERCONNECT", "max_spm": "0-2,500 RPM (variable)", "orbital_settings": null, "bevel": "0-45°", "blade_type": "T & U shank", "accessories": "1 blade, battery, charger" },
+      "features": { "kit": true, "brushless": false, "led_light": false, "dust_blower": true },
+      "verdict": "The most-reviewed complete kit in this category by a wide margin — a jig saw, blade, POWERCONNECT battery, and charger for $86. Not the fastest or most powerful jigsaw here, but nothing else gives you everything you need to start cutting for this little.",
+      "pros": ["3,801 reviews at 4.6 stars — more reviews than every other kit in this category combined", "Includes the saw, a blade, a 20V MAX POWERCONNECT battery, and a charger", "Wire guard and built-in dust blower keep the cut line visible"],
+      "cons": ["Brushed motor, not brushless", "2,500 RPM ceiling is on the slower end for a cordless jigsaw"]
+    },
+    {
+      "asin": "B07P3G7TV5",
+      "name": "WORX Cordless Jigsaw, 20V, WX543L",
+      "brand": "WORX", "model": "WX543L",
+      "image": "https://m.media-amazon.com/images/I/51I-Yxcr1kL._AC_SX425_.jpg",
+      "price": 83.62, "rating": 4.6, "reviews_count": 461, "bought": null,
+      "specs": { "battery": "20V PowerShare", "max_spm": null, "orbital_settings": null, "bevel": null, "blade_type": null, "accessories": "1 blade, 1.5Ah battery, charger" },
+      "features": { "kit": true, "brushless": false, "led_light": false, "dust_blower": false },
+      "verdict": "A compact PowerShare kit with a dual-handle design and tool-free blade changes — everything needed to start cutting for under $85, including a battery and charger.",
+      "pros": ["461 reviews at 4.6 stars", "Includes a blade, 1.5Ah 20V battery, and charger", "Tool-free blade change and orbital cutting action"],
+      "cons": ["WORX doesn't publish a max SPM figure for this model", "1.5Ah battery is the smallest capacity of the kits here — expect shorter runtime per charge"]
+    },
+    {
+      "asin": "B0DPKRX6Z1",
+      "name": "SEESII Jig Saw, Cordless Jigsaw Tool with 2x2.0Ah Batteries and Charger",
+      "brand": "Seesii", "model": "2x2.0Ah Kit",
+      "image": "https://m.media-amazon.com/images/I/915kLcxt3vL._AC_SX425_.jpg",
+      "price": 79.99, "rating": 4.6, "reviews_count": 247, "bought": "300+/mo",
+      "specs": { "battery": "21V (2x2.0Ah)", "max_spm": "0-2,800 SPM (variable)", "orbital_settings": "4-position", "bevel": "0-45°", "blade_type": null, "accessories": "2 batteries, charger, 9 blades, bag" },
+      "features": { "kit": true, "brushless": false, "led_light": true, "dust_blower": false },
+      "verdict": "The most complete kit in the category for the money — two batteries, a charger, 9 blades, and a carrying bag, all under $80. A legitimate starter kit if you don't already own a battery platform.",
+      "pros": ["Two 21V 2.0Ah batteries and a charger included, so you're never waiting on a recharge", "9 blades covering wood, metal, and curves included in the box", "Variable speed to 2,800 SPM with 4 orbital settings and an adjustable 0-45° bevel"],
+      "cons": ["Off-brand 21V battery with no wider tool ecosystem", "Smaller review base (247) than the BLACK+DECKER or WORX kits"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0F6LGKYFW",
+      "name": "Jig Saw Compatible with 18V Battery, Cordless JigSaw with Built-in LED Light, 45 Deg Bevel, 3 Orbital Settings (No Battery)",
+      "brand": "bellaDimora", "model": "For Makita 18V",
+      "image": "https://m.media-amazon.com/images/I/811euNiKN7L._AC_SX425_.jpg",
+      "price": 45.99, "rating": 3.6, "reviews_count": 35,
+      "flag": "Lowest rating in the category, sold as one body under two incompatible battery platforms",
+      "verdict": "The lowest-rated jigsaw that turned up in this search, and the numbers back it up — 3.6 stars against 4.6+ for every kit ranked above. Skip it for the SEESII kit, which costs about the same once you account for the battery this one doesn't include.",
+      "reasons": [
+        "3.6 stars across 35 ratings — the worst rating of any jigsaw in this search, well below the 4.6+ every ranked kit here carries.",
+        "The listing sells the identical tool body as both a 'For Makita 18V' and a 'For DeWalt 20V' size variant — Makita LXT and DeWalt 20V MAX use physically different battery rails, so a tool genuinely engineered for one platform can't just swap to the other. That points to a generic import body with a bolted-on adapter, not a saw built for either platform.",
+        "Sold under the generic storefront brand 'bellaDimora,' using the same templated bullet copy ('Works with Your Batteries — Drop In and Cut') that turns up on nearly identical listings from other throwaway brand names — a hallmark of unbranded factory resale rather than a company standing behind its own tool.",
+        "At $45.99 with no battery included, it isn't meaningfully cheaper than the SEESII kit above ($79.99 list), which includes two real batteries, a charger, and 9 blades for about $34 more."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Bare tool or kit?", "a": "A bare tool ships with no battery or charger — worth it if you already own the brand's batteries, a dead end if you don't. A kit includes a battery and charger and sometimes blades, ready to cut out of the box. Each pick above says which." },
+    { "q": "What does orbital action actually do?", "a": "Orbital action moves the blade slightly forward on the upstroke in addition to up-and-down, which speeds up cutting in soft materials like wood at the cost of a rougher edge. Dial it down (or off) for clean cuts in metal, plastic, or finished surfaces, and up for fast, aggressive cuts in framing lumber." },
+    { "q": "How many strokes per minute (SPM) do I need?", "a": "Most cordless jigsaws run 2,500-3,200 SPM at full speed, which covers wood, plastic, and thin metal. Variable-speed triggers let you slow down for tight curves or delicate materials, so the max number matters less than having good low-end control." },
+    { "q": "Brushless or brushed?", "a": "Brushless motors run cooler, last longer, and hold speed better under load — worth it if you'll use the saw often or push it through thick material. For occasional cuts around the house, a brushed tool like the CRAFTSMAN or BLACK+DECKER picks is fine." },
+    { "q": "Which battery platform should I buy into?", "a": "Buy on the same platform as tools you already own (DEWALT 20V MAX, Milwaukee M18, Makita 18V LXT, CRAFTSMAN V20) so one battery lineup covers everything. If you own nothing yet, a self-contained kit like the BLACK+DECKER, WORX, or SEESII avoids the platform lock-in." },
+    { "q": "T-shank or U-shank blades?", "a": "T-shank is the modern standard and what most tool-free blade clamps are designed around — it's what you'll find on hardware store shelves. A saw that accepts both T and U shank blades, like the CRAFTSMAN picks, gives you more flexibility if you're using older or off-brand blades." }
+  ]
+}
