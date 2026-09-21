@@ -1,0 +1,167 @@
+{
+  "slug": "corded-jigsaws",
+  "title": "The 10 Best Corded Jigsaws",
+  "subtitle": "Wired jigsaws ranked from live Amazon data — curves, cutouts, and bevels for the least money, no battery to run down.",
+  "intro": "A jigsaw is the tool for curves, circles, and cutouts that a straight-cutting saw can't touch, and a corded one gives you steady power for as long as the cut takes. The best-sellers here run 5 to 7 amps and cost less than a single pro battery. What separates them is the stuff you use every day: variable speed, orbital settings for faster cuts, and whether you can swap blades without hunting for a wrench. This list covers 10 corded jigsaws from budget kits to pro top-handles.",
+  "data_captured": "2026-09-21",
+  "budget_cap": 50,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.20 },
+  "feature_weights": { "tool_free_blade": 0.40, "kit": 0.30, "laser_light": 0.30 },
+  "reviews_ceiling": 12000,
+  "spec_fields": [
+    { "key": "amps", "label": "Motor" }, { "key": "spm", "label": "Max Speed" },
+    { "key": "orbital", "label": "Orbital" }, { "key": "bevel", "label": "Bevel" },
+    { "key": "weight", "label": "Weight" }
+  ],
+  "table_columns": [
+    { "key": "amps", "label": "Motor" }, { "key": "spm", "label": "Max Speed" },
+    { "key": "tool_free_blade", "label": "Tool-Free Blade", "type": "bool" }, { "key": "kit", "label": "Kit", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B0007XXHHI", "force_overall": true,
+      "name": "DEWALT Jig Saw, Top Handle, 6.5-Amp, Corded (DW331K)",
+      "brand": "DEWALT", "model": "DW331K",
+      "image": "https://m.media-amazon.com/images/I/71jz1yd5ssL._AC_SX425_.jpg",
+      "price": 129.00, "rating": 4.7, "reviews_count": 1316, "bought": "100+/mo",
+      "specs": { "amps": "6.5 A", "spm": "500–3,100 SPM", "orbital": "4-position", "bevel": "0–45° (detents)", "weight": null },
+      "features": { "tool_free_blade": true, "kit": true, "laser_light": false },
+      "verdict": "The benchmark corded jigsaw and the pick for most people who cut often. A 6.5-amp motor, a keyless lever blade clamp, 4-position orbital action, and positive bevel detents at 0, 15, 30, and 45 degrees. All-metal gear case, T-shank blades, and it ships in a kit box with an anti-splinter base.",
+      "pros": ["Keyless lever blade change, no wrench needed", "4-position orbital plus bevel detents for repeatable angles", "All-metal gear case and a 3-year DEWALT warranty"],
+      "cons": ["One of the pricier tools on the list", "No onboard work light or laser"]
+    },
+    {
+      "asin": "B07FD341YS", "force_budget": true,
+      "name": "SKIL 6 Amp Corded Jig Saw with Tool-Free Blade Change (JS314901)",
+      "brand": "SKIL", "model": "JS314901",
+      "image": "https://m.media-amazon.com/images/I/61MmPwBPNwL._AC_SX425_.jpg",
+      "price": 44.10, "rating": 4.7, "reviews_count": 2363, "bought": "700+/mo",
+      "specs": { "amps": "6 A", "spm": null, "orbital": "4-stage", "bevel": "0–45°", "weight": "4.9 lb" },
+      "features": { "tool_free_blade": true, "kit": true, "laser_light": true },
+      "verdict": "The value pick, and the #3 best-seller in the category. Under $45 gets you a 6-amp motor, tool-free blade change, 4-stage orbital, a tool-free bevel, and a bright halo LED that lights the cut line. Comes with a wood blade and a metal blade to start.",
+      "pros": ["2,363 reviews at 4.7 stars, ranked #3 in jig saws", "Tool-free blade change and tool-free bevel adjustment", "Halo LED lights the cut line, and two blades are included"],
+      "cons": ["Plastic body, geared to DIY over daily jobsite use", "1-year warranty, shorter than DEWALT's or CRAFTSMAN's"]
+    },
+    {
+      "asin": "B004323NPK", "premium": true,
+      "name": "BOSCH Top-Handle Jig Saw, 7.0 Amp, Variable-Speed, Corded (JS470E)",
+      "brand": "Bosch", "model": "JS470E",
+      "image": "https://m.media-amazon.com/images/I/51zKULMR+bL._AC_SX425_.jpg",
+      "price": 142.99, "rating": 4.8, "reviews_count": 1408, "bought": "100+/mo",
+      "specs": { "amps": "7 A", "spm": "3,100 SPM", "orbital": "4-setting", "bevel": "0–45°", "weight": "3 lb" },
+      "features": { "tool_free_blade": true, "kit": true, "laser_light": false },
+      "verdict": "The one to buy if you want the best cutting jigsaw here. The strongest motor on the list at 7 amps, the highest rating at 4.8 stars, and a precision-machined plunging system that keeps cuts smooth and accurate. Tool-less blade change with an ejection lever so you never touch a hot blade, and it ships with a carrying case.",
+      "pros": ["7-amp motor, the most power on the list", "4.8 stars, the highest rating here", "Tool-less blade change with a no-touch ejection lever, plus a case"],
+      "cons": ["Premium price", "No onboard work light"]
+    },
+    {
+      "asin": "B00OJ72LHK",
+      "name": "BLACK+DECKER Jig Saw, 5-Amp, 3,000 SPM, 4 Curve Settings, Corded (BDEJS600C)",
+      "brand": "BLACK+DECKER", "model": "BDEJS600C",
+      "image": "https://m.media-amazon.com/images/I/71V7sZeGH8L._AC_SX425_.jpg",
+      "price": 59.99, "rating": 4.7, "reviews_count": 11144, "bought": "100+/mo",
+      "specs": { "amps": "5 A", "spm": "Up to 3,000 SPM", "orbital": "4 curve settings", "bevel": "0–45°", "weight": "4.6 lb" },
+      "features": { "tool_free_blade": false, "kit": false, "laser_light": false },
+      "verdict": "The most-reviewed jigsaw here by far — 11,144 ratings at 4.7 stars. A 5-amp variable-speed saw with four Curve Control orbital settings and 45-degree bevels, at a fair price. A proven, uncomplicated pick for home projects.",
+      "pros": ["11,144 reviews at 4.7 stars, most of any jigsaw here", "Four curve settings for control on rounded cuts", "Adjustable shoe with a wire guard for a clear sight line"],
+      "cons": ["Blade change uses a clamp screw, not a tool-free release", "Smallest motor on the list at 5 amps"]
+    },
+    {
+      "asin": "B07KKB9KS5",
+      "name": "CRAFTSMAN Jig Saw, 6.0-Amp, Corded (CMES612)",
+      "brand": "CRAFTSMAN", "model": "CMES612",
+      "image": "https://m.media-amazon.com/images/I/71I9kWiHFKL._AC_SX425_.jpg",
+      "price": 99.31, "rating": 4.7, "reviews_count": 438, "bought": null,
+      "specs": { "amps": "6 A", "spm": "0–3,200 SPM", "orbital": "4-setting", "bevel": "0–45°", "weight": "5.9 lb" },
+      "features": { "tool_free_blade": false, "kit": false, "laser_light": false },
+      "verdict": "A 6-amp CRAFTSMAN with a variable-speed trigger, four orbital settings, and a 3-year warranty that beats most of the field. It hangs on the VERSATRACK wall system if you use one. A solid mid-range pick if you're building out a CRAFTSMAN kit.",
+      "pros": ["Variable-speed trigger up to 3,200 SPM", "Four orbital settings for different materials", "3-year limited warranty"],
+      "cons": ["Blade change needs the included hex key", "Costs more than better-selling tools with similar specs"]
+    },
+    {
+      "asin": "B00608ZSI0",
+      "name": "Makita JV0600K Top Handle Jig Saw, with Tool Case",
+      "brand": "Makita", "model": "JV0600K",
+      "image": "https://m.media-amazon.com/images/I/61aExpImuBL._AC_SX425_.jpg",
+      "price": 159.00, "rating": 4.7, "reviews_count": 1199, "bought": null,
+      "specs": { "amps": "6.5 A", "spm": "500–3,100 SPM", "orbital": "3 + straight", "bevel": "0–45°", "weight": null },
+      "features": { "tool_free_blade": true, "kit": true, "laser_light": false },
+      "verdict": "The pro's pick if you sand dust matters. A 6.5-amp Makita with a through-the-body dust port that hooks to a vacuum, a counterbalance system that keeps vibration low, and tool-less blade changes. Three orbital settings plus a straight-cut mode, and it comes in a tool case.",
+      "pros": ["Through-body dust port connects to a vacuum", "Counterbalance system for low-vibration cuts", "Tool-less blade change and a hard case included"],
+      "cons": ["The most expensive tool on the list", "No onboard work light"]
+    },
+    {
+      "asin": "B07D9YFFPZ",
+      "name": "WEN 33606 6.6-Amp Variable Speed Orbital Jig Saw with Laser and LED Light",
+      "brand": "WEN", "model": "33606",
+      "image": "https://m.media-amazon.com/images/I/91wTLu4IePL._AC_SX425_.jpg",
+      "price": 32.44, "rating": 4.5, "reviews_count": 2674, "bought": "400+/mo",
+      "specs": { "amps": "6.6 A", "spm": "0–3,300 SPM", "orbital": "4-position", "bevel": "0–45°", "weight": "5.4 lb" },
+      "features": { "tool_free_blade": false, "kit": true, "laser_light": true },
+      "verdict": "The most features for the least money. A 6.6-amp motor, 4-position orbital, both a laser and an LED light, a dust port and a blower, plus a wood blade, a metal blade, and a parallel fence in the box. At around $32 it's a lot of jigsaw for a beginner or a backup.",
+      "pros": ["Laser guide and LED light for tracking the cut line", "Two blades and a parallel fence included", "Dust port for a vacuum plus a front dust blower"],
+      "cons": ["Blade change uses a set screw, not a tool-free release", "4.5-star rating, a step below the brand-name picks"]
+    },
+    {
+      "asin": "B07S1MK2DV",
+      "name": "HYCHIKA 6.7A Corded Jig Saw, 6-Speed, 4 Orbital Settings, Laser Guide, 6 Blades",
+      "brand": "HYCHIKA", "model": "JS-100C",
+      "image": "https://m.media-amazon.com/images/I/71dlPQSpuGL._AC_SX425_.jpg",
+      "price": 37.99, "rating": 4.6, "reviews_count": 568, "bought": "50+/mo",
+      "specs": { "amps": "6.7 A", "spm": "800–3,000 SPM", "orbital": "4 (0–3)", "bevel": "±45°", "weight": null },
+      "features": { "tool_free_blade": true, "kit": true, "laser_light": true },
+      "verdict": "A budget kit that punches above its price: 6.7-amp motor, six speeds, four orbital settings, a quick-release tool-free chuck, a laser guide, and six T-shank blades in the box. The ±45-degree base tilts both ways, which not every jigsaw here does.",
+      "pros": ["Tool-free blade change plus 6 T-shank blades included", "Laser guide and a guide ruler for straight cuts", "Bevels both directions, from -45 to +45 degrees"],
+      "cons": ["Off-brand tool built for DIY use", "1-year limited warranty"]
+    },
+    {
+      "asin": "B09PD3ZFW5",
+      "name": "WORKPRO 6.5-Amp Corded Jig Saw, 6 Variable Speeds, 4 Orbital Settings, 7 Blades",
+      "brand": "WORKPRO", "model": "W124748A",
+      "image": "https://m.media-amazon.com/images/I/81QYT4UAbxL._AC_SX425_.jpg",
+      "price": 49.99, "rating": 4.5, "reviews_count": 391, "bought": "50+/mo",
+      "specs": { "amps": "6.5 A", "spm": "Up to 3,000 SPM", "orbital": "4-setting", "bevel": "±45°", "weight": "5.4 lb" },
+      "features": { "tool_free_blade": true, "kit": true, "laser_light": true },
+      "verdict": "Another feature-loaded budget kit, this one bundling seven T-shank blades. A 6.5-amp motor, six speeds, four orbital settings, tool-less blade change via a button, an LED light, and a dust blower with a vacuum pipe. Bevels both ways to 45 degrees.",
+      "pros": ["Tool-free blade change and 7 blades included", "LED light and a dust pipe for cleaner cuts", "Six speeds and ±45-degree bevels"],
+      "cons": ["Off-brand tool, DIY-grade", "Smaller review base than the name-brand picks"]
+    },
+    {
+      "asin": "B004323NQY",
+      "name": "BOSCH JS260 Top-Handle Jig Saw, 6.0 Amp, Variable Speed, Toolless Blade Change",
+      "brand": "Bosch", "model": "JS260",
+      "image": "https://m.media-amazon.com/images/I/71TnbujFPhL._AC_SX425_.jpg",
+      "price": 119.00, "rating": 4.7, "reviews_count": 1634, "bought": "50+/mo",
+      "specs": { "amps": "6 A", "spm": "Up to 3,100 SPM", "orbital": "4-setting", "bevel": "0–45°", "weight": "6.9 lb" },
+      "features": { "tool_free_blade": true, "kit": true, "laser_light": false },
+      "verdict": "Bosch build quality a step down in price from the JS470E. A 6-amp top-handle with the same tool-less blade change, four orbital settings, a low-vibration plunging mechanism, and a heavy-gauge steel footplate. Ships with an anti-splinter insert, a blade, and a carrying bag.",
+      "pros": ["Tool-less blade change with a multidirectional T-shank clamp", "Low-vibration plunging design for smooth, accurate cuts", "Comes with a blade, anti-splinter insert, and a carrying bag"],
+      "cons": ["Accepts T-shank blades only, not U-shank", "No onboard work light"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0H5V6KWF5",
+      "name": "DEKOPRO Corded Jig Saw, 6 Variable Speed, 3,000 SPM, 8 Blades",
+      "brand": "DEKOPRO", "model": "DKPJGSA040C1",
+      "image": "https://m.media-amazon.com/images/I/71ZpabFqiTL._AC_SX425_.jpg",
+      "price": 25.99, "rating": 3.9, "reviews_count": 9,
+      "flag": "400-watt motor (~3.3 A) — roughly half the field",
+      "verdict": "A cheap jigsaw whose real problem is under the hood: a 400-watt motor, about 3.3 amps, roughly half the power of every pick above. For the same money the WEN and HYCHIKA give you nearly twice the motor and a real brand. Skip it.",
+      "reasons": [
+        "The motor is 400 watts, about 3.3 amps — nearly half the 6-to-7-amp motors on the tools above. A jigsaw that weak bogs down in the hardwood, thick stock, and metal where you'd actually want orbital action, so you end up forcing cuts it should breeze through.",
+        "The listing hides the amperage. It leads with \"Power Motor: Max 3,000 SPM\" instead of a motor rating — strokes-per-minute looks impressive but says nothing about cutting power, and burying the motor spec usually means the number isn't flattering.",
+        "It's an anonymous, keyword-stuffed listing: the title reads \"Jig Saw Corded: Electric Jigsaw Tool, Power Jig Saws for Woodworking\" with no model up front, and the model in the fine print is a generic code — a reseller shell, not a tool line with support behind it.",
+        "For the same $26, the WEN 33606 (6.6 amp, laser, 2 blades and a fence) or the HYCHIKA kit (6.7 amp, laser, 6 blades) give you nearly double the motor, more features, and a brand storefront that stands behind the tool."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "What is orbital action, and do I need it?", "a": "Orbital action swings the blade forward into the cut on the upstroke instead of just moving straight up and down. Higher orbital settings cut faster and rougher, which is great for ripping through softwood; turn it off for slow, clean cuts in hardwood, metal, or finish work. Most jigsaws here offer four settings so you can match the material." },
+    { "q": "How many amps do I need?", "a": "5 amps handles plywood, trim, and general DIY cutting. 6 to 6.5 amps is the sweet spot for most work, giving you power without bogging down in thicker or harder stock. 7 amps, like the Bosch JS470E, is for frequent or heavy cutting where you don't want the motor to slow under load." },
+    { "q": "What does tool-free blade change mean?", "a": "A tool-free clamp lets you pop a blade in or out by hand or with a lever, no wrench or hex key needed. It sounds minor until you change blades ten times in a project. The DEWALT, both Bosch tools, Makita, SKIL, HYCHIKA, and WORKPRO have it; the BLACK+DECKER and CRAFTSMAN need a small tool." },
+    { "q": "T-shank or U-shank blades?", "a": "T-shank (tang) blades are the modern standard and snap into tool-free clamps, with by far the widest selection at any store. U-shank is the older style with a slot. Every tool on this list takes T-shank blades, so buy those and you'll never hunt for a match." },
+    { "q": "Do I need variable speed and bevel cuts?", "a": "Variable speed lets you slow down for metal, laminate, and tight curves and speed up for straight cuts in wood, so it's worth having — every pick here includes it. A bevel base tilts the shoe up to 45 degrees for angled cuts; the HYCHIKA and WORKPRO tilt both directions, the rest go one way to 45." },
+    { "q": "Corded or cordless?", "a": "A corded jigsaw gives constant power for long or heavy cuts and costs far less, with no battery to buy or recharge. Cordless is worth it only if you need to cut where a cord can't reach or you're already on a battery platform." }
+  ]
+}
