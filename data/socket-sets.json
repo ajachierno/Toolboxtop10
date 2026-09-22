@@ -1,0 +1,459 @@
+{
+  "slug": "socket-sets",
+  "title": "The 10 Best Socket Sets",
+  "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
+  "intro": "We pulled the best-selling socket sets on Amazon, from $25 starter kits to 230-piece mechanics sets and dedicated impact sets, and scored each on one 100-point scale built from its star rating, review volume and the features that matter: both SAE and metric sizes, more than one drive size, impact-rated sockets, and a lifetime warranty. Hex bit socket sets and nut driver sets are different tools and aren't ranked here.",
+  "data_captured": "2026-09-22",
+  "budget_cap": 30,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "sae_metric": 0.35,
+    "multi_drive": 0.3,
+    "impact_rated": 0.15,
+    "lifetime_warranty": 0.2
+  },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    {
+      "key": "drive",
+      "label": "Drive"
+    },
+    {
+      "key": "pieces",
+      "label": "Pieces"
+    },
+    {
+      "key": "standards",
+      "label": "Sizes"
+    },
+    {
+      "key": "finish",
+      "label": "Finish"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "drive",
+      "label": "Drive"
+    },
+    {
+      "key": "pieces",
+      "label": "Pieces"
+    },
+    {
+      "key": "sae_metric",
+      "label": "SAE+Metric",
+      "type": "bool"
+    },
+    {
+      "key": "impact_rated",
+      "label": "Impact",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B01BHJE0J4",
+      "name": "DEWALT 192-Piece Mechanics Tool Set, 1/4, 3/8 & 1/2 in Drive, SAE and Metric, Hard Shell Case (DWMT75049)",
+      "brand": "DEWALT",
+      "model": "DWMT75049",
+      "image": "https://m.media-amazon.com/images/I/81XYDGRrRXL._AC_SL1500_.jpg",
+      "price": 169.94,
+      "rating": 4.8,
+      "reviews_count": 8012,
+      "bought": "1K+/mo",
+      "specs": {
+        "drive": "1/4, 3/8, 1/2 in",
+        "pieces": "192",
+        "standards": "SAE & Metric",
+        "finish": "Polished chrome"
+      },
+      "features": {
+        "sae_metric": true,
+        "multi_drive": true,
+        "impact_rated": false,
+        "lifetime_warranty": true
+      },
+      "verdict": "The set to buy once. Three drive sizes, SAE and metric, 6-point DirectTorque sockets, combination wrenches and hex keys in one hard case, backed by DEWALT's limited lifetime warranty and 8,000 reviews at 4.8 stars.",
+      "pros": [
+        "Covers 1/4, 3/8 and 1/2 in drive in SAE and metric",
+        "6-point sockets grip the flats to resist rounding",
+        "Includes combination wrenches, hex keys, extensions and adapters",
+        "Limited lifetime warranty"
+      ],
+      "cons": [
+        "Heavy: the listing puts it at 16.8 kg",
+        "Hard case is bulky to carry around",
+        "More than a casual DIYer needs"
+      ],
+      "force_overall": true
+    },
+    {
+      "asin": "B074MFY7BM",
+      "name": "Amazon Basics Mechanic's Tool Socket Set With Case, 123-Piece (AMZ1703)",
+      "brand": "Amazon Basics",
+      "model": "AMZ1703",
+      "image": "https://m.media-amazon.com/images/I/8133lS1c2jL._AC_SL1500_.jpg",
+      "price": 56.69,
+      "rating": 4.7,
+      "reviews_count": 13156,
+      "bought": "600+/mo",
+      "specs": {
+        "drive": "1/4, 3/8, 1/2 in",
+        "pieces": "123",
+        "standards": "SAE & Metric",
+        "finish": "Polished chrome"
+      },
+      "features": {
+        "sae_metric": true,
+        "multi_drive": true,
+        "impact_rated": false,
+        "lifetime_warranty": false
+      },
+      "verdict": "The most-reviewed set on this list and the cheapest way into all three drive sizes. Chrome-vanadium sockets, hex keys and screwdriver bits in a carry case, for about a third of the DEWALT's price.",
+      "pros": [
+        "All three drive sizes for under $60",
+        "SAE and metric sockets, hex keys and bits",
+        "13,000+ reviews at 4.7 stars",
+        "Chrome-vanadium, polished for corrosion resistance"
+      ],
+      "cons": [
+        "No lifetime warranty listed",
+        "The listing's bullets say 145 pieces while the title says 123, so check the contents list",
+        "Mostly sockets and bits, no combination wrenches"
+      ]
+    },
+    {
+      "asin": "B0CMJF6DYD",
+      "name": "CRAFTSMAN 230-Piece Mechanics Tool Set with VERSASTACK 3-Drawer Toolbox, SAE and Metric, 1/4, 3/8 & 1/2 in Drive (CMMT45306)",
+      "brand": "CRAFTSMAN",
+      "model": "CMMT45306",
+      "image": "https://m.media-amazon.com/images/I/81qJzb4m3bL._AC_SL1500_.jpg",
+      "price": 129.0,
+      "rating": 4.7,
+      "reviews_count": 3003,
+      "bought": "3K+/mo",
+      "specs": {
+        "drive": "1/4, 3/8, 1/2 in",
+        "pieces": "230",
+        "standards": "SAE & Metric",
+        "finish": null
+      },
+      "features": {
+        "sae_metric": true,
+        "multi_drive": true,
+        "impact_rated": false,
+        "lifetime_warranty": true
+      },
+      "verdict": "The best seller right now, and the one that comes with real storage. 91 sockets, three low-profile 72-tooth ratchets, 21 wrenches and 44 hex keys ride in a stackable 3-drawer VERSASTACK box.",
+      "pros": [
+        "3-drawer box that stacks with other VERSASTACK storage",
+        "72-tooth ratchets with a thinner head for tight spots",
+        "21 combination wrenches included",
+        "Full lifetime warranty"
+      ],
+      "cons": [
+        "24.7 lb with the box, so not a trunk kit",
+        "66 of the 230 pieces are driver bits",
+        "Fewer reviews than the older DEWALT and Amazon Basics sets"
+      ]
+    },
+    {
+      "asin": "B00U0P0GHM",
+      "name": "DEWALT Mechanics Tools Kit and Socket Set, 1/4 & 3/8 in Drive, 108-Piece (DWMT73801)",
+      "brand": "DEWALT",
+      "model": "DWMT73801",
+      "image": "https://m.media-amazon.com/images/I/71mPvINiSKL._SL1500_.jpg",
+      "price": 79.97,
+      "rating": 4.8,
+      "reviews_count": 7550,
+      "bought": "1K+/mo",
+      "specs": {
+        "drive": "1/4, 3/8 in",
+        "pieces": "108",
+        "standards": null,
+        "finish": "Polished"
+      },
+      "features": {
+        "sae_metric": false,
+        "multi_drive": true,
+        "impact_rated": false,
+        "lifetime_warranty": false
+      },
+      "verdict": "A mid-size DEWALT set for household and light car work. Two pear-head ratchets, DirectTorque sockets, extensions and adapters in a compact case, rated 4.8 across 7,500 reviews.",
+      "pros": [
+        "Two pear-head ratchets (1/4 and 3/8 in)",
+        "DirectTorque sockets resist rounding",
+        "4.8 stars across 7,500+ reviews",
+        "Compact enough for a truck or closet shelf"
+      ],
+      "cons": [
+        "No 1/2 in drive for suspension or lug-size bolts",
+        "The listing title only says SAE and doesn't publish a size chart, so confirm the metric coverage before you buy",
+        "No warranty terms on the listing"
+      ]
+    },
+    {
+      "asin": "B01IFSX9M4",
+      "name": "DEWALT Impact Socket Set with Ratchet, Metric/SAE, 1/2 in Drive, 23-Piece (DWMT74739)",
+      "brand": "DEWALT",
+      "model": "DWMT74739",
+      "image": "https://m.media-amazon.com/images/I/71j7st1PmDL._AC_SL1500_.jpg",
+      "price": 65.99,
+      "rating": 4.8,
+      "reviews_count": 9322,
+      "bought": "600+/mo",
+      "specs": {
+        "drive": "1/2 in",
+        "pieces": "23",
+        "standards": "SAE & Metric",
+        "finish": "Polished"
+      },
+      "features": {
+        "sae_metric": true,
+        "multi_drive": false,
+        "impact_rated": true,
+        "lifetime_warranty": true
+      },
+      "verdict": "A focused 1/2 in drive set for people who own an impact wrench. Heat-treated CR-440 impact sockets with laser-etched sizes, plus a ratchet for hand work, backed by a lifetime warranty.",
+      "pros": [
+        "Impact-rated CR-440 steel, safe on an impact wrench",
+        "Includes a ratchet so it works by hand too",
+        "Laser-etched sizes are easy to read",
+        "Lifetime warranty"
+      ],
+      "cons": [
+        "Only 23 pieces, big fasteners only",
+        "1/2 in drive is too large for small engine-bay work",
+        "Not a replacement for a general mechanics set"
+      ]
+    },
+    {
+      "asin": "B01LZEMYOD",
+      "name": "EPAuto 40-Piece 1/4 & 3/8 in Drive Socket Set with 72-Tooth Ratchet (ST-03A-1)",
+      "brand": "EPAuto",
+      "model": "ST-03A-1",
+      "image": "https://m.media-amazon.com/images/I/91F6d6mJw9L._AC_SL1500_.jpg",
+      "price": 29.97,
+      "rating": 4.6,
+      "reviews_count": 12990,
+      "bought": "1K+/mo",
+      "specs": {
+        "drive": "1/4, 3/8 in",
+        "pieces": "40",
+        "standards": "SAE & Metric",
+        "finish": "Mirror-polished chrome"
+      },
+      "features": {
+        "sae_metric": true,
+        "multi_drive": true,
+        "impact_rated": false,
+        "lifetime_warranty": false
+      },
+      "verdict": "The best cheap socket set. Chrome-vanadium sockets in SAE and metric, a 72-tooth reversible 3/8 in ratchet, and a plastic organizer case, made in Taiwan, for about $30.",
+      "pros": [
+        "72-tooth ratchet swings in tight spaces",
+        "SAE and metric in two drive sizes",
+        "Nearly 13,000 reviews at 4.6 stars",
+        "Made in Taiwan from Cr-V steel"
+      ],
+      "cons": [
+        "No 1/2 in drive",
+        "40 pieces means gaps in the size run",
+        "No warranty terms on the listing"
+      ],
+      "force_budget": true
+    },
+    {
+      "asin": "B07RBV3LZT",
+      "name": "WORKPRO 39-Piece CR-V Socket Set, 1/4 & 3/8 in Drive, Metric & SAE, Quick-Release Ratchet (W003067)",
+      "brand": "WORKPRO",
+      "model": "W003067",
+      "image": "https://m.media-amazon.com/images/I/81iMpMAF41L._AC_SL1500_.jpg",
+      "price": 24.59,
+      "rating": 4.6,
+      "reviews_count": 5317,
+      "bought": "1K+/mo",
+      "specs": {
+        "drive": "1/4, 3/8 in",
+        "pieces": "39",
+        "standards": "SAE & Metric",
+        "finish": "Polished chrome"
+      },
+      "features": {
+        "sae_metric": true,
+        "multi_drive": true,
+        "impact_rated": false,
+        "lifetime_warranty": false
+      },
+      "verdict": "The cheapest set here that's still worth owning. Mostly 1/4 in drive sockets from 5/32 in and 4 mm up, a quick-release 3/8 in ratchet, a spinner handle and an extension bar.",
+      "pros": [
+        "Under $25",
+        "Quick-release reversible ratchet",
+        "Spinner handle for fast run-down",
+        "Heat-treated Cr-V, laser-marked sizes"
+      ],
+      "cons": [
+        "3/8 in drive sockets stop at 9/16 in and 13 mm",
+        "Too light for suspension or lug nuts",
+        "No warranty terms on the listing"
+      ]
+    },
+    {
+      "asin": "B07RGBXTQ2",
+      "name": "CASOMAN 3/8 in Drive Impact Socket Set, 49-Piece, SAE 5/16-3/4 in and Metric 8-22 mm, 6-Point Cr-V (CS041)",
+      "brand": "CASOMAN",
+      "model": "CS041",
+      "image": "https://m.media-amazon.com/images/I/81kY0QjVeTL._AC_SL1500_.jpg",
+      "price": 35.97,
+      "rating": 4.7,
+      "reviews_count": 5787,
+      "bought": "1K+/mo",
+      "specs": {
+        "drive": "3/8 in",
+        "pieces": "49",
+        "standards": "SAE & Metric",
+        "finish": "Black phosphate"
+      },
+      "features": {
+        "sae_metric": true,
+        "multi_drive": false,
+        "impact_rated": true,
+        "lifetime_warranty": false
+      },
+      "verdict": "An inexpensive impact set sized for a 3/8 in cordless impact wrench. Deep and shallow 6-point sockets in both standards, with extensions, a universal joint and a 1/2 to 3/8 in reducer.",
+      "pros": [
+        "Deep and shallow sockets in SAE and metric",
+        "Impact-grade Cr-V with black phosphate finish",
+        "Hard-stamped plus laser-etched sizes",
+        "Under $40"
+      ],
+      "cons": [
+        "No ratchet included, sockets and accessories only",
+        "3/8 in drive only",
+        "No warranty terms on the listing"
+      ]
+    },
+    {
+      "asin": "B07TBH736Z",
+      "name": "TEKTON 3/8 in Drive 6-Point Socket and Ratchet Set, 73-Piece, 1/4-1 in and 6-24 mm (SKT15311)",
+      "brand": "TEKTON",
+      "model": "SKT15311",
+      "image": "https://m.media-amazon.com/images/I/71CqL9iV3GL._AC_SL1500_.jpg",
+      "price": 186.66,
+      "rating": 4.8,
+      "reviews_count": 2842,
+      "bought": "200+/mo",
+      "specs": {
+        "drive": "3/8 in",
+        "pieces": "73",
+        "standards": "SAE & Metric",
+        "finish": "Polished"
+      },
+      "features": {
+        "sae_metric": true,
+        "multi_drive": false,
+        "impact_rated": false,
+        "lifetime_warranty": true
+      },
+      "verdict": "The set to buy if you care about complete size runs. Every 3/8 in drive size from 1/4 to 1 in and 6 to 24 mm, in both shallow and deep, plus an 18 in breaker bar and TEKTON's no-receipt lifetime warranty.",
+      "pros": [
+        "No gaps: 1/4-1 in and 6-24 mm, shallow and deep",
+        "18 in breaker bar for stuck bolts",
+        "Warranty with no time limit and no receipt needed",
+        "6-point sockets throughout"
+      ],
+      "cons": [
+        "3/8 in drive only at this price",
+        "Only one ratchet",
+        "Costs more than the 192-piece DEWALT"
+      ],
+      "premium": true
+    },
+    {
+      "asin": "B07MXB85S3",
+      "name": "NEIKO 02448A 1/2 in Drive Master Impact Socket Set, 65-Piece, SAE 3/8-1-1/4 in and Metric 10-24 mm",
+      "brand": "NEIKO",
+      "model": "02448A",
+      "image": "https://m.media-amazon.com/images/I/71MNutfFhXL._AC_SL1500_.jpg",
+      "price": 149.36,
+      "rating": 4.8,
+      "reviews_count": 10353,
+      "bought": "600+/mo",
+      "specs": {
+        "drive": "1/2 in",
+        "pieces": "65",
+        "standards": "SAE & Metric",
+        "finish": "Black phosphate"
+      },
+      "features": {
+        "sae_metric": true,
+        "multi_drive": false,
+        "impact_rated": true,
+        "lifetime_warranty": false
+      },
+      "verdict": "The big impact set for lug nuts, suspension and farm equipment. 58 deep and shallow 1/2 in drive sockets up to 1-1/4 in and 24 mm, a 72-tooth quick-release ratchet and three extensions in a labeled blow-molded case.",
+      "pros": [
+        "Sizes up to 1-1/4 in and 24 mm, deep and shallow",
+        "Impact-grade Cr-V",
+        "72-tooth ratchet included",
+        "10,000+ reviews at 4.8 stars"
+      ],
+      "cons": [
+        "1/2 in drive only, no small sockets",
+        "Heavy and bulky case",
+        "No warranty terms on the listing"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FCSKZJ2J",
+      "name": "COYAGRIP 46-Piece 1/4 in Drive Socket Ratchet Wrench Set, Metric, with Bit Sockets and Case",
+      "brand": "COYAGRIP",
+      "model": "46PCS",
+      "image": "https://m.media-amazon.com/images/I/71Qk6nSd9vL._AC_SL1500_.jpg",
+      "price": 9.99,
+      "rating": 3.5,
+      "reviews_count": 223,
+      "flag": "Carbon steel, 24-tooth ratchet, metric only",
+      "verdict": "The one to skip. It sells itself as a professional set, but the listing's own specs describe carbon-steel sockets and a coarse 24-tooth ratchet, and at 3.5 stars it's the lowest-rated socket set in Amazon's top results.",
+      "reasons": [
+        "The sockets are carbon steel. Every set on this list uses chrome-vanadium, the baseline for sockets that don't crack or spread under load.",
+        "The ratchet has 24 teeth, so it needs a 15-degree swing to catch the next tooth. The 72-tooth ratchets on this list need 5 degrees, which matters in a crowded engine bay.",
+        "Metric only, 4 to 14 mm. Most American cars, mowers and appliances still have SAE fasteners somewhere.",
+        "The WORKPRO and EPAuto sets cost $15 to $20 more, rate 4.6, and fix every problem above."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What drive size socket set do I need?",
+      "a": "3/8 in drive is the most useful single size: it handles most car, bike and household fasteners. 1/4 in drive is for small bolts and tight spots, and 1/2 in drive is for lug nuts, suspension and anything that needs a long breaker bar. If you only buy one set, get one with 3/8 in drive. A set with all three covers nearly everything."
+    },
+    {
+      "q": "Do I need both SAE and metric sockets?",
+      "a": "In the US, yes. Most modern cars are metric, but older American vehicles, lawn equipment, trailers and a lot of household hardware are SAE. A set with both saves you from finding out mid-job that 10 mm doesn't fit."
+    },
+    {
+      "q": "What's the difference between 6-point and 12-point sockets?",
+      "a": "A 6-point socket grips the flat sides of a nut, so it's far less likely to round off a tight or rusty fastener. A 12-point socket fits onto the nut at more angles, which helps in cramped spaces, but it bears on the corners. For general and automotive work, 6-point is the safer default."
+    },
+    {
+      "q": "Can I use regular chrome sockets on an impact wrench?",
+      "a": "No. Chrome sockets are hard but brittle, and the hammering of an impact wrench can crack them. Impact sockets are made from tougher steel, usually with a black finish and thicker walls. If you own an impact wrench, buy a dedicated impact set like the DEWALT, CASOMAN or NEIKO sets here."
+    },
+    {
+      "q": "Why does ratchet tooth count matter?",
+      "a": "Tooth count sets how far you have to swing the handle before it catches. A 72-tooth ratchet needs 5 degrees of swing, a 24-tooth ratchet needs 15. In an engine bay or under a sink, that difference decides whether you can turn the bolt at all."
+    },
+    {
+      "q": "Is a big piece count worth it?",
+      "a": "Only partly. Piece counts include every bit, hex key and adapter, so a 200-piece set may have fewer sockets than you'd think. Check the size run instead: a good set has every size from about 1/4 to 3/4 in and 8 to 19 mm with no gaps, in both deep and shallow."
+    }
+  ]
+}
