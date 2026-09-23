@@ -278,7 +278,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
     tag_state = ("" if site["affiliate_tag"] else
                  '<div class="notice">Preview build &mdash; affiliate links are '
                  'untagged until the Amazon Associates account is approved.</div>')
-    home_link = "" if is_home else '<a href="index.html">&larr; All categories</a>'
+    home_link = "" if is_home else '<a href="./">&larr; All categories</a>'
     desc = meta_desc(description or site["description"])
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     canonical_url = canonical if canonical else (f"{base}/" if base else "")
@@ -312,7 +312,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
 </head>
 <body>
 <header class="site">
-  <a class="logo" href="index.html"><img src="assets/logo.png" alt="{esc(site['brand'])}"></a>
+  <a class="logo" href="./"><img src="assets/logo.png" alt="{esc(site['brand'])}"></a>
   <span class="slogan">{esc(site['tagline'])}</span>
 </header>
 {tag_state}
@@ -472,7 +472,7 @@ def render_quicknav(nav_groups, compact=False, back_home=False):
 
     nav_groups: list of (label, key, members).
     compact:    omit the heading/blurb; render as a slim top-of-page toolbar.
-    back_home:  prepend a "Home" button that returns to index.html.
+    back_home:  prepend a "Home" button that returns to the homepage (./).
     """
     if not nav_groups:
         return ""
@@ -507,7 +507,7 @@ def render_quicknav(nav_groups, compact=False, back_home=False):
       subSel.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ navigate(); } });
     })();
     """.replace("__DATA__", json.dumps(data))
-    back = ('<a class="back-home" href="index.html">&larr; Home</a>\n      '
+    back = ('<a class="back-home" href="./">&larr; Home</a>\n      '
             if back_home else "")
     controls = f"""<div class="quicknav-controls">
       {back}<select id="qn-category" aria-label="Category">
