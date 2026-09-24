@@ -15,7 +15,9 @@ jobs:
         with:
           fetch-depth: 0
       - name: Previous sitemap
-        run: git show "${{ github.event.before }}:docs/sitemap.xml" > /tmp/old-sitemap.xml 2>/dev/null || : > /tmp/old-sitemap.xml
+        run: |
+          git show "${{ github.event.before }}:docs/sitemap.xml" > /tmp/old-sitemap.xml 2>/dev/null \
+            || true > /tmp/old-sitemap.xml
       - name: Wait for Pages to serve the new sitemap
         run: |
           for i in $(seq 1 30); do
