@@ -1,0 +1,28 @@
+# After a push to main changes the sitemap, wait for GitHub Pages to serve it,
+# then ping IndexNow (Bing etc.) with only the URLs whose lastmod changed.
+name: IndexNow ping
+on:
+  push:
+    branches: [main]
+    paths: [docs/sitemap.xml]
+permissions:
+  contents: read
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Previous sitemap
+        run: git show "${{ github.event.before }}:docs/sitemap.xml" > /tmp/old-sitemap.xml 2>/dev/null || : > /tmp/old-sitemap.xml
+      - name: Wait for Pages to serve the new sitemap
+        run: |
+          for i in $(seq 1 30); do
+            if curl -fsS "https://toolboxtop10.com/sitemap.xml?cb=$RANDOM" | cmp -s - docs/sitemap.xml; then
+              echo "live after ~$((i*20))s"; exit 0; fi
+            sleep 20
+          done
+          echo "Pages not updated after 10 min; pinging anyway"
+      - name: Ping IndexNow
+        run: python3 scripts/indexnow_ping.py /tmp/old-sitemap.xml docs/sitemap.xml

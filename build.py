@@ -279,6 +279,7 @@ _TRACKING_FORMATS = {
     "ga4_measurement_id": r"G-[A-Z0-9]{4,16}",
     "google_site_verification": r"[A-Za-z0-9_-]{20,100}",
     "bing_site_verification": r"[A-F0-9]{32}",
+    "indexnow_key": r"[a-f0-9]{32}",
 }
 
 
@@ -670,17 +671,24 @@ def main():
     # sitemap.xml + robots.txt (SEO / Search Console)
     if site.get("custom_domain"):
         base = f"https://{site['custom_domain']}"
-        lastmod = site["updated"]
-        urls = [(f"{base}/", "1.0")] + [(f"{base}/{c['slug']}.html", "0.8") for c in site["categories"]]
+        # Per-page lastmod = the date that page's data was captured/audited, so Google
+        # can trust it (a site-wide "today" on every URL teaches it to ignore lastmod).
+        # Home changes whenever any category does, so it takes the newest date.
+        cat_dates = [(cat["slug"], cat.get("data_captured") or site["updated"]) for cat, _, _ in cats]
+        urls = ([(f"{base}/", "1.0", max(d for _, d in cat_dates))]
+                + [(f"{base}/{slug}.html", "0.8", d) for slug, d in cat_dates])
         entries = "\n".join(
             f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod>"
-            f"<changefreq>weekly</changefreq><priority>{pr}</priority></url>" for u, pr in urls)
+            f"<changefreq>weekly</changefreq><priority>{pr}</priority></url>" for u, pr, lastmod in urls)
         (OUT / "sitemap.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
             f"{entries}\n</urlset>\n", encoding="utf-8")
         (OUT / "robots.txt").write_text(
             f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+    # IndexNow ownership key (Bing/Yandex/Seznam/Naver); pinged by .github/workflows/indexnow.yml
+    if TRACKING.get("indexnow_key"):
+        (OUT / f"{TRACKING['indexnow_key']}.txt").write_text(TRACKING["indexnow_key"], encoding="utf-8")
     print(f"Built {len(cats)} category page(s) + home into {OUT}")
     for cat, overall, budget in cats:
         print(f"  {cat['slug']}: Best Overall = {overall['brand']} {overall['model']} "
