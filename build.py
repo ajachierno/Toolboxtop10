@@ -325,7 +325,7 @@ TRACKING = load_tracking()
 
 
 def page(site, title, body, is_home=False, description=None, canonical=None,
-         image=None, structured_data=""):
+         image=None, structured_data="", updated=None):
     tag_state = ("" if site["affiliate_tag"] else
                  '<div class="notice">Preview build &mdash; affiliate links are '
                  'untagged until the Amazon Associates account is approved.</div>')
@@ -375,7 +375,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
   When you buy through links on this site we may earn an Amazon Associates commission, at no
   extra cost to you. Prices and ratings are pulled from Amazon and change over time; the figures
   here were captured on the date shown and are not guaranteed to be current.</p>
-  <p class="muted">{home_link} &nbsp; Last updated on {esc(site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
+  <p class="muted">{home_link} &nbsp; Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
 </body>
 </html>"""
@@ -393,7 +393,12 @@ def oxford(items):
     return ", ".join(items[:-1]) + f", and {items[-1]}"
 
 
-def render_deals(brands, site):
+def cat_date(cat, site):
+    """The date this category's prices/ratings were captured (or last audited)."""
+    return cat.get("data_captured") or site["updated"]
+
+
+def render_deals(brands, site, captured):
     """Short deals note for a category page, naming the brands on that page."""
     if not brands:
         return ""
@@ -405,13 +410,13 @@ def render_deals(brands, site):
     <p>The tools ranked here come from {names}. Prices on these brands move week to
     week on Amazon, and the deepest cuts usually land around Prime Day and Black Friday.
     Every price button on this page opens the live listing, so you always see today's
-    number, not the one we captured on {esc(site['updated'])}. If your pick is over budget
+    number, not the one we captured on {esc(captured)}. If your pick is over budget
     right now, check back in a few days &mdash; {top} rotate through sales and bundle
     deals often.</p>
   </section>"""
 
 
-def render_home_deals(major_brands, site):
+def render_home_deals(major_brands, site, oldest, newest):
     """Short deals note for the home page, naming the brands seen across the site."""
     if not major_brands:
         return ""
@@ -421,8 +426,8 @@ def render_home_deals(major_brands, site):
     <h2>Deals on the major brands</h2>
     <p>The same names turn up across these lists: {names}. Those brands run their
     steepest Amazon markdowns around Prime Day and Black Friday, and cordless kits get
-    bundled and discounted all year. The prices we show were captured on
-    {esc(site['updated'])} and drift over time, so every price button goes straight to the
+    bundled and discounted all year. The prices we show were captured
+    {f"on {esc(newest)}" if oldest == newest else f"between {esc(oldest)} and {esc(newest)} (each list shows its own date)"} and drift over time, so every price button goes straight to the
     live Amazon listing &mdash; click through to see what a tool actually costs today
     before you buy.</p>
   </section>"""
@@ -447,7 +452,7 @@ def build_category(site, filename):
     <p class="intro">{esc(cat['intro'])}</p>
   </section>
   <section class="heroes">{heroes}</section>
-  {render_deals(brands, site)}
+  {render_deals(brands, site, cat_date(cat, site))}
   <section class="compare">
     <h2>Side-by-side comparison</h2>
     {render_table(ranked, avoid, site, columns)}
@@ -473,7 +478,7 @@ def build_category(site, filename):
   {render_avoid(avoid, site)}"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     canonical = f"{base}/{cat['slug']}.html" if base else ""
-    year = str(site.get("updated", ""))[:4]
+    year = str(cat_date(cat, site))[:4]
     title = f"{cat['title']}{f' ({year})' if year else ''} — {site['brand']}"
     description = (f"{cat['title']} ranked from real Amazon ratings, review counts and prices. "
                   f"Best Overall: {overall['brand']} {overall['model']}; Best Budget: "
@@ -493,7 +498,7 @@ def build_category(site, filename):
     sd = jsonld(breadcrumb, itemlist) + jsonld(faq)
     (OUT / f"{cat['slug']}.html").write_text(
         page(site, title, body, description=description, canonical=canonical,
-             structured_data=sd), encoding="utf-8")
+             structured_data=sd, updated=cat_date(cat, site)), encoding="utf-8")
     return cat, overall, budget
 
 
@@ -630,6 +635,7 @@ def build_home(site, cats):
     if len(major) < 4:  # fallback for a small site: most-common brands overall
         major = sorted(order, key=lambda b: (-counts[b], order.index(b)))
     major = major[:10]
+    dates = [cat_date(entry[0], site) for entry in by_slug.values()] or [site["updated"]]
     # Collapsed groups open while hovered (and via the native click/tap toggle),
     # then collapse again when the pointer leaves.
     hover_js = ("(function(){document.querySelectorAll('details.cats')"
@@ -644,7 +650,7 @@ def build_home(site, cats):
   </section>
   {render_quicknav(nav_groups)}
   {''.join(sections)}
-  {render_home_deals(major, site)}
+  {render_home_deals(major, site, min(dates), max(dates))}
   <script>{hover_js}</script>"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     org = {"@context": "https://schema.org", "@type": "Organization", "name": site["brand"],
@@ -653,7 +659,8 @@ def build_home(site, cats):
                "url": f"{base}/" if base else "", "description": site["description"]}
     (OUT / "index.html").write_text(
         page(site, f"{site['brand']} — {site['tagline']}", body, is_home=True,
-             canonical=f"{base}/" if base else "", structured_data=jsonld(org, website)),
+             canonical=f"{base}/" if base else "", structured_data=jsonld(org, website),
+             updated=max(dates)),
         encoding="utf-8")
 
 
