@@ -444,6 +444,12 @@ def build_category(site, filename):
     brands = list(dict.fromkeys(p["brand"] for p in ranked))
     cat["_brands"] = brands  # picked up by build_home for the site-wide deals note
     quicknav = render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)
+    compare_link = ""
+    if cat["slug"] in COMPARE and budget:
+        build_comparison(site, cat, overall, budget, premium, spec_fields, columns)
+        compare_link = (f'\n  <p class="vs-link">Torn between the top two? '
+                        f'<a href="{compare_filename(cat["slug"])}"><b>{esc(_short(overall))} vs '
+                        f'{esc(_short(budget))}</b>, compared side by side &rarr;</a></p>')
     body = f"""
   {quicknav}
   <section class="lead">
@@ -451,7 +457,7 @@ def build_category(site, filename):
     <p class="sub">{esc(cat['subtitle'])}</p>
     <p class="intro">{esc(cat['intro'])}</p>
   </section>
-  <section class="heroes">{heroes}</section>
+  <section class="heroes">{heroes}</section>{compare_link}
   {render_deals(brands, site, cat_date(cat, site))}
   <section class="compare">
     <h2>Side-by-side comparison</h2>
@@ -500,6 +506,215 @@ def build_category(site, filename):
         page(site, title, body, description=description, canonical=canonical,
              structured_data=sd, updated=cat_date(cat, site)), encoding="utf-8")
     return cat, overall, budget
+
+
+# ------------------------------------------------------------------ comparison pages
+# "Best Overall vs Best Budget" per category, generated from the same ranked data so
+# they update whenever the category does. Only slugs listed in data/compare.json get
+# a page, so new comparisons can be released in batches and watched in Search Console.
+def compare_slugs():
+    path = DATA / "compare.json"
+    return set(json.loads(path.read_text(encoding="utf-8")).get("overall_vs_budget", [])) if path.exists() else set()
+
+
+COMPARE = compare_slugs()
+
+
+def compare_filename(slug):
+    return f"{slug}-overall-vs-budget.html"
+
+
+# How each scored feature reads mid-sentence ("For the extra money you get: ...").
+FEATURE_PROSE = {
+    "accessories": "extra accessories", "anti_vibe": "an anti-vibration grip", "auto_lock": "an auto-locking blade",
+    "ball_bearing": "ball-bearing drawer slides", "ball_end": "ball-end tips", "both_units": "both SAE and metric sizes",
+    "brake": "an electric blade brake", "brushless": "a brushless motor", "case": "a carrying case",
+    "comfort_grip": "comfort grips", "cutter": "a built-in wire cutter", "cutters": "cutting pliers in the set",
+    "double_sided": "double-sided markings", "dual_battery": "two batteries in the box",
+    "dual_material": "dual-material handles", "dual_scale": "dual inch/metric scales", "dust_blower": "a dust blower",
+    "dust_box": "a dust box", "forward_reverse": "forward/reverse", "fractions": "fraction markings",
+    "groove_joint": "groove-joint pliers", "hammer": "a hammer-drill mode", "hard_base": "a hard, waterproof base",
+    "heavy_duty": "heavy-duty construction", "high_bevel": "a high bevel capacity", "hog_ring": "a hog-ring anvil (fast socket swaps)",
+    "impact_rated": "impact-rated sockets", "keyless": "a keyless chuck", "kickback_brake": "a kickback brake",
+    "kit": "a complete kit (everything you need in the box)", "laser": "a laser guide", "laser_light": "a laser guide",
+    "led": "an LED work light", "led_light": "an LED work light", "lifetime_warranty": "a lifetime warranty",
+    "lighted": "a built-in light", "lock": "locking drawers", "long_reach": "extra reach",
+    "magnetic": "magnetic tips", "magnetic_hook": "a magnetic hook", "magnetic_start": "a magnetic start",
+    "metal_gear_case": "a metal gear case", "metal_latches": "metal latches", "multi_drive": "multiple drive sizes",
+    "multi_mode": "multiple modes", "nut_driver": "nut drivers", "one_piece": "one-piece forged construction",
+    "orbital": "orbital action", "paddle_switch": "a paddle switch", "pouch": "a storage pouch",
+    "power_strip": "a built-in power strip", "ratcheting": "a ratcheting handle", "removable_tray": "a removable tray",
+    "riser": "a riser/top chest", "sae_metric": "both SAE and metric sizes", "set": "a multi-piece set",
+    "shoulder_strap": "a shoulder strap", "side_puller": "side-puller jaws", "soft_grip": "soft grips",
+    "stackable": "a stackable design", "tool_free": "tool-free adjustments", "tool_free_blade": "tool-free blade changes",
+    "tool_free_guard": "a tool-free guard", "torx": "Torx bits", "two_speed": "a 2-speed gearbox",
+    "vac_port": "a vacuum port", "variable_speed": "variable speed", "vsr": "a variable-speed reversing trigger",
+    "water_resistant": "water resistance", "wide_jaw": "a wide jaw opening", "wood_top": "a wood worktop",
+    "zippered": "a zippered closure",
+}
+
+
+def _feature_labels(cat, columns):
+    labels = {c["key"]: c["label"] for c in columns if c.get("type") == "bool"}
+    return {k: labels.get(k, k.replace("_", " ").capitalize()) for k in cat["feature_weights"]}
+
+
+def _short(p):
+    return f"{p['brand']} {p['model']}"
+
+
+def build_comparison(site, cat, overall, budget, premium, spec_fields, columns):
+    a, b = overall, budget
+    A, B = _short(a), _short(b)
+    flabels = _feature_labels(cat, columns)
+    prose = {k: FEATURE_PROSE.get(k, k.replace("_", " ")) for k in flabels}
+    only_a = [prose[k] for k in flabels if a["features"].get(k) and not b["features"].get(k)]
+    only_b = [prose[k] for k in flabels if b["features"].get(k) and not a["features"].get(k)]
+    diff = a["price"] - b["price"]
+    pct = round(abs(diff) / b["price"] * 100) if b["price"] else 0
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    cat_page = f"{cat['slug']}.html"
+    short_title = cat["title"].replace("The 10 Best ", "")
+
+    # --- the computed verdict: every sentence comes from the data, nothing generic
+    if diff > 0:
+        price_line = (f"The {esc(A)} costs <b>{money(diff)} more</b> ({pct}% more) than the "
+                      f"{esc(B)} &mdash; {money(a['price'])} vs {money(b['price'])}.")
+    elif diff < 0:
+        price_line = (f"Unusually, our Best Overall is the <b>cheaper</b> one right now: the {esc(A)} is "
+                      f"{money(-diff)} less than the {esc(B)} ({money(a['price'])} vs {money(b['price'])}).")
+    else:
+        price_line = f"Both cost {money(a['price'])} right now."
+    if only_a:
+        feat_line = f"For the extra money you get: <b>{esc(oxford(only_a))}</b>."
+    else:
+        feat_line = "On the features we score, the Best Overall adds nothing the budget pick lacks."
+    if only_b:
+        feat_line += f" Meanwhile the {esc(B)} has {esc(oxford(only_b))}, which the {esc(A)} doesn't."
+    trust = ("more" if a["reviews_count"] > b["reviews_count"] else "fewer")
+    trust_line = (f"Buyers rate them {a['rating']} vs {b['rating']} stars, and the {esc(A)} has "
+                  f"{trust} reviews behind its rating ({a['reviews_count']:,} vs {b['reviews_count']:,}). "
+                  f"On our 100-point scale that works out to <b>{a['score']} vs {b['score']}</b>.")
+    gap = a["score"] - b["score"]
+    if diff > 0 and gap < 0:
+        bottom = (f"<b>Bottom line:</b> by our numbers the {esc(B)} wins outright &mdash; it scores higher "
+                  f"({b['score']} vs {a['score']}) and costs {money(diff)} less. Only pay more for the "
+                  f"{esc(A)} if the strengths listed below matter to you.")
+    elif diff > 0 and gap <= 3:
+        closeness = "the scores are tied" if gap == 0 else f"only {gap} point{'s' if gap > 1 else ''} separate them"
+        need = esc(oxford(only_a)) if only_a else f"what the table below shows the {esc(A)} does better"
+        bottom = (f"<b>Bottom line:</b> {closeness}, so the {esc(B)} is the smarter buy unless "
+                  f"you specifically need {need}.")
+    elif diff > 0:
+        bottom = (f"<b>Bottom line:</b> if you'll use it often, the {esc(A)} is worth the {money(diff)}. "
+                  f"For occasional jobs around the house, the {esc(B)} does the work for less.")
+    else:
+        bottom = f"<b>Bottom line:</b> the {esc(A)} is the better tool and costs no more &mdash; buy it."
+
+    # --- side-by-side table: key numbers, every spec field, every scored feature
+    def row(label, va, vb):
+        return f"<tr><th>{esc(label)}</th><td>{va}</td><td>{vb}</td></tr>"
+
+    def spec(p, key):
+        v = p["specs"].get(key)
+        if v is None or v == "":
+            return "&mdash;"
+        return f"{v:,} rpm" if key == "max_rpm" and isinstance(v, (int, float)) else esc(v)
+
+    rows = [row("Price", money(a["price"]), money(b["price"])),
+            row("Rating", f"{stars(a['rating'])} {a['rating']}", f"{stars(b['rating'])} {b['rating']}"),
+            row("Reviews", f"{a['reviews_count']:,}", f"{b['reviews_count']:,}"),
+            row("Our score", f"<b>{a['score']}</b>/100 (#{a['rank']})", f"<b>{b['score']}</b>/100 (#{b['rank']})")]
+    if a.get("bought") or b.get("bought"):
+        rows.append(row("Bought on Amazon", esc(a.get("bought") or "&mdash;"), esc(b.get("bought") or "&mdash;")))
+    rows += [row(f["label"], spec(a, f["key"]), spec(b, f["key"])) for f in spec_fields]
+    rows += [row(lbl, "Yes" if a["features"].get(k) else "No", "Yes" if b["features"].get(k) else "No")
+             for k, lbl in flabels.items()]
+    table = (f'<div class="tablewrap"><table class="vs-table"><tr><th></th>'
+             f'<th>{esc(A)}<br><span class="badge overall">Best Overall</span></th>'
+             f'<th>{esc(B)}<br><span class="badge budget">Best Budget</span></th></tr>'
+             f'{"".join(rows)}</table></div>')
+
+    def side(p, kind, label):
+        url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
+        pros = "".join(f"<li>{esc(x)}</li>" for x in p["pros"])
+        cons = "".join(f"<li>{esc(x)}</li>" for x in p["cons"])
+        return f"""
+    <article class="card vs-side {kind}">
+      <span class="badge {kind}">{label}</span>
+      <div class="card-head">
+        <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
+        <div class="card-title"><div class="brand">{esc(p['brand'])}</div><h3>{esc(p['name'])}</h3></div>
+      </div>
+      <p class="verdict">{esc(p['verdict'])}</p>
+      <div class="pc">
+        <div class="pros"><h4>Choose it for</h4><ul>{pros}</ul></div>
+        <div class="cons"><h4>Watch out for</h4><ul>{cons}</ul></div>
+      </div>
+      <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price &rarr;</a>
+    </article>"""
+
+    premium_note = ""
+    if premium and premium is not a and premium is not b:
+        premium_note = (f'<p class="muted">Price no object? Our pick is the '
+                        f'<a href="{cat_page}#{esc(premium["asin"])}"><b>{esc(_short(premium))}</b></a> '
+                        f'({money(premium["price"])}) &mdash; see why on the full ranking.</p>')
+
+    qa = [
+        (f"Is the {A} worth the extra money over the {B}?",
+         re.sub(r"<[^>]+>", "", f"{price_line} {feat_line} {bottom}").replace("&mdash;", "—")),
+        (f"Which has better reviews, the {A} or the {B}?",
+         f"The {A} is rated {a['rating']} stars from {a['reviews_count']:,} reviews; the {B} is rated "
+         f"{b['rating']} stars from {b['reviews_count']:,} reviews."),
+        (f"What is the best {short_title.lower()} pick overall?",
+         f"Our Best Overall is the {A} (score {a['score']}/100), ranked against 9 other "
+         f"{short_title.lower()} on rating, review volume and features."),
+    ]
+    faq_html = "\n".join(f"<details><summary>{esc(q)}</summary><p>{esc(ans)}</p></details>" for q, ans in qa)
+
+    others = [c for c in site["categories"] if c["slug"] in COMPARE and c["slug"] != cat["slug"]]
+    group = [c for c in others if c.get("power") == next(
+        (x.get("power") for x in site["categories"] if x["slug"] == cat["slug"]), None)] or others
+    related = "".join(f'<li><a href="{compare_filename(c["slug"])}">{esc(c["title"])}: Best Overall vs Best Budget</a></li>'
+                      for c in group[:6])
+    related_html = f'<section class="guide"><h2>More head-to-heads</h2><ul class="vs-related">{related}</ul></section>' if related else ""
+
+    captured = cat_date(cat, site)
+    body = f"""
+  {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
+  <section class="lead">
+    <p class="muted"><a href="{cat_page}">&larr; {esc(cat['title'])}</a></p>
+    <h1>{esc(A)} vs {esc(B)}</h1>
+    <p class="sub">Our Best Overall vs our Best Budget {esc(short_title.lower())} &mdash; is the upgrade worth it?</p>
+  </section>
+  <section class="deals vs-verdict">
+    <h2>The short answer</h2>
+    <p>{price_line} {feat_line}</p>
+    <p>{trust_line}</p>
+    <p>{bottom}</p>
+    {premium_note}
+  </section>
+  <section class="compare"><h2>Side by side</h2>{table}
+    <p class="tiny muted">Prices, ratings and review counts captured from Amazon on {esc(captured)}; prices change often.</p></section>
+  <section class="vs-grid">{side(a, "overall", "Best Overall")}{side(b, "budget", "Best Budget")}</section>
+  <section class="guide"><h2>Quick answers</h2>{faq_html}</section>
+  <section class="howwerank"><h2>See the full top 10</h2>
+    <p>These two are picked from a ranking of 10 {esc(short_title.lower())}, scored on star rating,
+    review volume and the features that matter for the job. <a href="{cat_page}"><b>See all 10 and the one to avoid &rarr;</b></a></p></section>
+  {related_html}"""
+    canonical = f"{base}/{compare_filename(cat['slug'])}" if base else ""
+    title = f"{A} vs {B}: Best Overall vs Best Budget {short_title} ({captured[:4]})"
+    description = (f"{A} vs {B} compared: price, rating, specs and features side by side. "
+                   f"Is the {money(diff) + ' ' if diff > 0 else ''}upgrade worth it? Our verdict from real Amazon data.")
+    breadcrumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": site["brand"], "item": f"{base}/"},
+        {"@type": "ListItem", "position": 2, "name": cat["title"], "item": f"{base}/{cat_page}"},
+        {"@type": "ListItem", "position": 3, "name": f"{A} vs {B}", "item": canonical}]} if base else None
+    faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in qa]}
+    (OUT / compare_filename(cat["slug"])).write_text(
+        page(site, title, body, description=description, canonical=canonical,
+             structured_data=jsonld(breadcrumb) + jsonld(faq), updated=captured), encoding="utf-8")
 
 
 # Home-page groups (label, blurb, power-key). Shared by the home sections and the
@@ -683,7 +898,8 @@ def main():
         # Home changes whenever any category does, so it takes the newest date.
         cat_dates = [(cat["slug"], cat.get("data_captured") or site["updated"]) for cat, _, _ in cats]
         urls = ([(f"{base}/", "1.0", max(d for _, d in cat_dates))]
-                + [(f"{base}/{slug}.html", "0.8", d) for slug, d in cat_dates])
+                + [(f"{base}/{slug}.html", "0.8", d) for slug, d in cat_dates]
+                + [(f"{base}/{compare_filename(slug)}", "0.6", d) for slug, d in cat_dates if slug in COMPARE])
         entries = "\n".join(
             f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod>"
             f"<changefreq>weekly</changefreq><priority>{pr}</priority></url>" for u, pr, lastmod in urls)
@@ -821,6 +1037,14 @@ details p{margin:.6em 0 0;color:var(--muted)}
 /* compact top-of-page toolbar (category pages) */
 .quicknav-bar{margin:6px 0 4px;padding-bottom:14px;border-bottom:1px solid var(--line)}
 /* deals note */
+.vs-link{margin:14px 0 0;color:var(--muted)} .vs-link a{color:var(--brand-ink)}
+.vs-verdict p{margin:.5em 0 0} .vs-verdict a{color:var(--brand-ink)}
+.vs-table{min-width:0;table-layout:fixed} .vs-table th,.vs-table td{white-space:normal;overflow-wrap:anywhere;padding:10px 8px}
+.vs-table th:first-child{text-align:left;color:var(--muted);font-weight:600;width:30%;font-size:.7rem;letter-spacing:0;overflow-wrap:normal;hyphens:auto}
+.vs-table .stars{width:66px;height:12px;-webkit-mask-size:13.2px 12px;mask-size:13.2px 12px}
+.vs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:2rem}
+.vs-side .badge{margin-bottom:8px;display:inline-block} .vs-side .btn{margin-top:14px}
+.vs-related{padding-left:18px} .vs-related li{margin:6px 0} .vs-related a,.howwerank a{color:var(--brand-ink)}
 .deals{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);
   border-radius:var(--radius);padding:16px 20px;margin:22px 0}
 .deals h2{margin:0 0 .4rem;font-size:1.15rem}

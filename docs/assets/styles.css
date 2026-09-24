@@ -116,6 +116,14 @@ details p{margin:.6em 0 0;color:var(--muted)}
 /* compact top-of-page toolbar (category pages) */
 .quicknav-bar{margin:6px 0 4px;padding-bottom:14px;border-bottom:1px solid var(--line)}
 /* deals note */
+.vs-link{margin:14px 0 0;color:var(--muted)} .vs-link a{color:var(--brand-ink)}
+.vs-verdict p{margin:.5em 0 0} .vs-verdict a{color:var(--brand-ink)}
+.vs-table{min-width:0;table-layout:fixed} .vs-table th,.vs-table td{white-space:normal;overflow-wrap:anywhere;padding:10px 8px}
+.vs-table th:first-child{text-align:left;color:var(--muted);font-weight:600;width:30%;font-size:.7rem;letter-spacing:0;overflow-wrap:normal;hyphens:auto}
+.vs-table .stars{width:66px;height:12px;-webkit-mask-size:13.2px 12px;mask-size:13.2px 12px}
+.vs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:2rem}
+.vs-side .badge{margin-bottom:8px;display:inline-block} .vs-side .btn{margin-top:14px}
+.vs-related{padding-left:18px} .vs-related li{margin:6px 0} .vs-related a,.howwerank a{color:var(--brand-ink)}
 .deals{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);
   border-radius:var(--radius);padding:16px 20px;margin:22px 0}
 .deals h2{margin:0 0 .4rem;font-size:1.15rem}
