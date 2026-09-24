@@ -309,7 +309,7 @@ def tracking_head(ids, is_home):
     if is_home and ids.get("bing_site_verification"):
         tags.append(f'<meta name="msvalidate.01" content="{ids["bing_site_verification"]}">')
     if ids.get("cloudflare_beacon_token"):
-        tags.append("<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" "
+        tags.append("<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js\" "
                     f"data-cf-beacon='{{\"token\": \"{ids['cloudflare_beacon_token']}\"}}'></script>")
     if ids.get("ga4_measurement_id"):
         gid = ids["ga4_measurement_id"]
