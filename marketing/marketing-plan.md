@@ -1,236 +1,195 @@
-# ToolboxTop10 — Traffic Growth Plan (DRAFT v1)
+# ToolboxTop10 — Agent-Executed Traffic Plan (DRAFT v2)
 
 _Drafted 2026-09-24. Horizon: 9 months (Oct 2026 – Jun 2027). Goal: maximize site visits._
+_Executor: Claude, running as a scheduled daily task. The owner does a one-time setup and nothing else._
 
-This is a draft for review. Every number below that depends on the site's current traffic
-is marked as an assumption, because **the site has no analytics installed** (no GA4,
-Plausible, or Cloudflare snippet in `docs/`), so nobody knows the baseline yet.
-
----
-
-## 0. What the site has now (from the repo)
-
-- 28 category pages, all published since 2026-08-09. About one new category a day, plus refresh audits.
-- Good technical SEO already: canonical tags, sitemap, robots.txt, OG/Twitter tags,
-  and JSON-LD (`ItemList`, `BreadcrumbList`, `FAQPage`).
-- Gaps:
-  - **No analytics.** You can't measure any plan without it.
-  - **No email capture.** Every visitor who leaves is gone for good.
-  - **The OG image is the logo on every page**, so shared links look the same everywhere
-    and get fewer clicks.
-  - **No first-hand testing.** The site ranks products from Amazon data. Google's reviews
-    system specifically demotes review content without first-hand experience, and this
-    is the biggest long-term risk to SEO traffic. The $150 plan targets it.
-  - **No comparison or "under $X" pages**, even though the data to generate them is already in `data/*.json`.
-
-## 1. Unit economics (why the budgets are split the way they are)
-
-- Amazon pays about **3% on Tools & Home Improvement**. On a ~$100–150 cart that's
-  about **$3–4.50 per sale**.
-- A typical affiliate funnel: about 30% of visitors click out, and about 8–10% of those buy.
-  That works out to roughly **$0.03–0.10 earned per visitor**.
-- **So a paid click only pays back if it costs under ~$0.10.** Google Search ads for
-  "best cordless drill" cost $1–3 per click, which loses money on every click. Only
-  cheap-CPC channels (Pinterest, sometimes Reddit or Meta) get close.
-- Conclusion: **spend money on things that keep producing traffic** (original content,
-  design tools, tested products). Paid clicks stop the day the spend stops. Every plan
-  follows that rule.
-
-## 2. Rules that apply to every plan (break these and you lose the channel)
-
-- **Amazon Associates:**
-  - No affiliate links in emails or PDFs. Newsletters link to the site, never to Amazon.
-  - Don't bid on "Amazon" keywords in ads.
-  - Ads must point to toolboxtop10.com, never straight to Amazon.
-  - New Associates accounts are closed if they don't get **3 qualifying sales within
-    180 days**. If you signed up around Aug 9, the deadline is about **early Feb 2027**.
-    Check the real date in Associates Central.
-- **Reddit:** most tool subs ban or shadow-remove affiliate links and new-account
-  self-promotion. Build karma first and follow the 90/10 rule (90% genuine help).
-  Link to the site only where the sub allows it.
-- **Don't buy backlinks or "SEO packages"** from Fiverr and similar. They cause Google
-  penalties that are hard to reverse.
-- **No AI-spun mass pages without real data.** Programmatic pages (below) have to be
-  built from the real product data, one useful page per real comparison.
+v1 assumed a person would do the marketing. It has been replaced. This version covers only
+what an agent can do legitimately and without anyone's help.
 
 ---
 
-## 3. Plan A — Free ($0/month, ~6–8 hrs/week of your time)
+## 0. Starting point and constraints
 
-**Week 1 setup (do this first in every plan)**
-- Install **Cloudflare Web Analytics** or **GA4** (both free). Add the snippet to the `build.py` page template.
-- Verify the site in **Google Search Console** and **Bing Webmaster Tools** and submit `sitemap.xml`.
-  - Turn on **IndexNow** in Bing so each new daily category gets indexed within hours.
-- Generate **one OG image per category** in `build.py` (the #1 pick's photo plus
-  "10 Best Cordless Drills (2026)"). Every share on Pinterest, Reddit, Facebook, or
-  iMessage looks better and gets more clicks.
-- Add **free email capture** ("Price-drop alerts for the #1 pick", "New category
-  every week"): MailerLite or Buttondown free tier.
+- **Traffic today:** about 0. There's no analytics yet, so every number below is an estimate until about day 30.
+- **Site:** 28 category pages on GitHub Pages, served from `main` → `docs/`. Technical SEO is
+  already solid (canonical tags, sitemap, JSON-LD for ItemList, Breadcrumb, and FAQ).
+- **A separate daily process already adds and refreshes categories.** This plan does **not**
+  add categories or edit existing `data/<category>.json` files, so the two don't collide
+  (see §6).
+- **Amazon pays about 3% on tools**, which is roughly $0.03–0.10 earned per visitor. Any
+  paid click that costs more than about $0.10 loses money directly. Paid spend is therefore
+  small, capped, and limited to the cheapest channel (Pinterest).
+- **What the agent won't do:**
+  - Post on Reddit, Facebook groups, or Quora. Bot posting breaks their rules, and Reddit
+    bans domains permanently.
+  - Create accounts in the owner's name.
+  - Contact journalists or bloggers as the owner.
+  - Put affiliate links in email. Amazon's rules forbid it.
+  - Buy backlinks.
 
-**SEO (the compounding engine)**
-- **Programmatic comparison pages** built from existing JSON:
-  - "DEWALT DCD771C2 vs AVID ACD305"
-  - "Best cordless drill under $100"
-  - "Corded vs cordless jigsaw"
+## 1. One-time owner setup (about 30–45 minutes total)
 
-  These are long-tail searches with much less competition than "best X". Target ~5 per
-  category, which is **~140 new pages** without new research.
-- Cross-link each corded/cordless pair (e.g. cordless ↔ corded jigsaws) and
-  hand-tool ↔ power-tool buyers.
-- Keep publishing a new category daily. Prioritize categories with a high-volume
-  "best ___" query but weak current SERPs (forums or Amazon ranking in the top 5 is the tell).
-- Put a visible "Updated [date]" on each page and refresh monthly (you already do audits,
-  so surface them).
+| # | Step | Needed for | Time |
+|---|---|---|---|
+| 1 | Create free Cloudflare Web Analytics (or GA4) and send the site token | All tiers, for measurement | 5 min |
+| 2 | Google Search Console: Claude adds a verification meta tag, then you click Verify. Also add Bing Webmaster (it imports from Google Search Console in one click) | All tiers | 10 min |
+| 3 | Pinterest: create a business account, claim toolboxtop10.com (Claude adds the tag), create a developer app, and store the access token as an environment secret `PINTEREST_TOKEN` | All tiers (optional on Free, but it's the biggest single lever) | 15–20 min, plus Pinterest's app approval (can take days) |
+| 4 | Pinterest Ads: add a card and set an **account spending limit of $50** (or $75 on the $100 tier). The platform enforces the cap, so the price stays fixed | $50 and $100 | 5 min |
+| 5 | DataForSEO: prepay $25/month and store the API login as secret `DATAFORSEO_AUTH` | $100 only | 5 min |
 
-**Pinterest (the best free channel for DIY/tools)**
-- Set up a business account, claim the domain, and create one board per category group (Power, Hand, Storage).
-- Post **3–5 pins a day** with Pinterest's free native scheduler. Pin types:
+Any step you skip just removes the tasks that depend on it. Nothing else breaks.
+
+---
+
+## 2. FREE plan — $0/month
+
+### Month 1 (Oct): foundations and the pre–Black Friday push
+**Week 1**
+- Add an analytics snippet and Search Console/Bing verification tags to the `build.py` page template.
+- **IndexNow:** host the key file at `docs/<key>.txt`, then ping Bing and Yandex with every
+  new or changed URL after each build. New categories from the daily process get indexed
+  within hours instead of weeks.
+- **Per-page preview images:** generate a 1200×630 image for each page at build time
+  showing the page title, the #1 pick, and its score. This replaces the logo on every
+  page and gets more clicks when links are shared.
+- **Internal links:** link each corded/cordless pair both ways (e.g. cordless ↔ corded
+  jigsaws) and add a "Related tools" block to every category page.
+
+**Weeks 2–4: the comparison page engine (new `build_compare.py`, reads existing JSON, never edits it)**
+- **"X vs Y" pages:** Best Overall vs Best Budget, and Best Overall vs Money No Object, in
+  every category (about 56 pages). Each one has a spec table, score breakdown, "who should
+  buy which", and FAQ schema.
+- **"Best ___ under $50 / $100 / $200" pages**, only where at least 3 products qualify (about 40 pages).
+- **"Corded vs cordless ___" guides** for the 7 paired categories.
+- **Brand pages** ("Best DEWALT tools we rank", "Best Milwaukee…") for brands appearing in 3 or more categories.
+- **Seasonal hub pages:** "Best tool gifts under $50 / $100" and "Black Friday tool picks",
+  live **by Nov 1** (peak search season).
+- About 120 new pages total, all added to the sitemap and pinged through IndexNow.
+
+**Every day**
+- Detect any categories added or refreshed by the other process, then regenerate their
+  comparison pages, preview images, and links.
+- **Pinterest** (if setup step 3 is done): generate 5–10 tall pins a day (1000×1500) from
+  the real data with Python/Pillow. Formats:
   - "Top 3 under $60"
   - "Tools to AVOID"
-  - "Best Overall vs Best Budget"
+  - "Overall vs Budget"
+  - "Corded vs Cordless"
 
-  Make them 1000×1500 in free Canva.
-- Pins keep driving traffic for 6–12 months, unlike social posts that last a day or two.
+  Each pin gets keyword-rich titles and descriptions, links to the matching page, and goes
+  onto boards organized by tool type.
 
-**Short video (faceless, from existing data)**
-- YouTube Shorts, TikTok, and IG Reels: 30-second slideshows like "3 cordless drills
-  NOT to buy" and "Best budget impact driver 2026". Batch 7 on Sunday and post daily.
-- Put the link in the bio or channel description. On YouTube, link to the specific page.
+### Months 2–3 (Nov–Dec): holiday peak
+- Refresh the gift and Black Friday pages every week with current prices. Each refresh is a
+  commit, which also shows Google the pages are current.
+- Add a "Price checked [date]" label to every page's #1 pick.
+- Pinterest: shift the pin mix toward gifts, since holiday DIY/gift pins peak in Nov–Dec.
+- **Email capture:** a static form (Buttondown free tier, owner-created, or a simple
+  form service) offering "New rankings + price drops, monthly". The emails would never
+  contain affiliate links.
 
-**Communities**
-- Reddit (r/Tools, r/DIY, r/HomeImprovement, r/MechanicAdvice, r/woodworking,
-  r/HomeImprovement's weekly threads): answer "which drill should I buy" questions with
-  the real data, and link only where it's allowed.
-- Quora: answer 3 "best X for Y" questions a week.
-- Facebook groups: first-time homeowner, DIY, and tool-deal groups. Share "avoid" lists.
-  Those get shared because they're contrarian.
+### Months 4–9 (Jan–Jun): compounding and pruning
+- **Monthly analytics review** (Search Console and analytics, once access is given):
+  - Pages with impressions but a low click rate get a rewritten title and meta description.
+  - Pages ranking in positions 8–20 get a stronger FAQ, more internal links, and one related comparison page.
+  - Pages with no impressions after 90 days get merged or removed from the sitemap.
+- **Pinterest:**
+  - Every pin topic that saves well gets 3 new designs, because Pinterest rewards fresh pins.
+  - Pin formats that underperform get dropped.
+- **Seasonal content:**
+  - Father's Day gift pages go live by May 1.
+  - Spring project pages ("tools for building a deck or garden beds") go live by Mar 1.
+- **Weekly report to the owner** covering visits by channel, top pages, new pages, and what changed.
 
-**Free PR and backlinks**
-- Sign up as a source on **Qwoted, Featured.com, and Source of Sources**. Answer 2–3
-  journalist queries a week about tools, DIY, and home maintenance.
-- Pitch your "Tools to Avoid" data to 20 DIY and home bloggers as a free resource.
-  Data-driven lists earn links.
+## 3. $50/month plan
 
-## 4. Plan B — $50/month (fixed)
+**Free plan, plus Pinterest Ads, $50/month fixed (the account limit enforces it).**
 
-Everything in Plan A, plus:
+- **Week 1 of each month:** pick the 3 organic pins with the highest click rate from the
+  last 30 days and promote them through the Pinterest Ads API.
+  - Targeting: the home improvement / DIY / tools interests plus the page's keywords.
+  - Daily budget: ~$1.60, so the month never goes over.
+- **Every week:** pause any ad costing more than $0.30 a click after 7 days, and move its
+  budget to the next-best organic pin.
+- **Nov–Dec:** shift about 70% of the budget to gift pages (highest intent, highest conversion).
+- Why it's worth doing:
+  - At a $0.15–0.30 click cost that's about 170–330 extra visits a month.
+  - Promoted pins also collect saves, and saved pins keep sending traffic after the ad ends.
+- **Best value per dollar of the paid tiers.**
 
-| Line item | Fixed $/mo | Why |
+## 4. $100/month plan
+
+**The $50 plan, with two changes:**
+
+| Line | Fixed $/mo | What Claude does with it |
 |---|---|---|
-| Canva Pro | $15 | Brand kit, bulk-create pins from a CSV of your product data (40+ pins in minutes), background remover for product photos |
-| Pinterest Ads | $35 | Promote only the 3 best-performing organic pins each month. Home/DIY CPCs usually run ~$0.10–0.40, so about 90–350 clicks. This is the one paid channel near break-even. |
-| **Total** | **$50** | |
+| Pinterest Ads | $75 | Same process as the $50 plan, but promoting the top 5 pins instead of 3 |
+| DataForSEO (keyword and search-results data, prepaid) | $25 | See below |
+| **Total** | **$100** | |
 
-- Rules: only promote pins that already have above-average organic saves or clicks.
-  Target a "Home improvement / DIY" interest plus keywords. Hard-cap the daily budget
-  (~$1.15/day) so the month never goes over.
-- The Canva bulk-create feature is the real win. It raises pin volume from 3–5 a day
-  to 10–15 a day for the same time.
+What the agent does with the search data:
+- **Month 1:** pull search volume and difficulty for every category's "best ___" query and
+  about 500 comparison and "under $X" variations. Build comparison pages for **the searches
+  people actually make**, not every possible pair.
+- **Monthly:**
+  - Check where the top 50 pages rank.
+  - Look for weak competition on page 1 (forums, Amazon, or Reddit in the top 5). That
+    means the query is winnable, so build it next.
+- **Send the owner a ranked list of categories to add** to the other daily process. This is
+  a suggestion only, since this plan doesn't add categories itself.
+- The extra $50 has lower returns than the first $50, but the search data keeps improving
+  every page built after it.
 
-## 5. Plan C — $100/month (fixed)
+## 5. Projected monthly visits (from a baseline of about 0)
 
-Everything in Plan B, plus:
-
-| Line item | Fixed $/mo | Why |
-|---|---|---|
-| Canva Pro | $15 | as above |
-| Pinterest Ads | $35 | as above |
-| Keyword tool (e.g. Keywords Everywhere or a low-tier Ubersuggest plan) | ~$10–15 | Pick which categories and comparison pages to build from real search volume instead of guesses |
-| Reddit Ads burst | $35–40 | One 7–8 day burst per month at the $5/day minimum on the single best page (e.g. the "Avoid" list). Cheap test of whether Reddit's audience converts. Kill it after month 2 if CPC > $0.30. |
-| **Total** | **$100** | Keep the total fixed by adjusting the Reddit line to fit the tool's actual price |
-
-- **Honest take:** the extra $50 over Plan B buys mostly short-term clicks. The keyword
-  tool is the only part that compounds. That's why Plan D exists.
-
-## 6. Plan D (recommended) — $150/month (fixed): "We actually tested it"
-
-Everything in Plan B ($50), plus **$100/month to buy one tool and test it hands-on.**
-
-| Line item | Fixed $/mo | Why |
-|---|---|---|
-| Canva Pro | $15 | as above |
-| Pinterest Ads | $35 | as above |
-| One test tool per month | $100 | Buy the Best Budget pick in a high-traffic category. Test it on camera. Keep or resell. |
-| **Total** | **$150** | Resale on FB Marketplace typically recovers ~40–60%, so the **net cost is ~$90–110/mo** |
-
-What each $100 tool produces:
-- **Original photos plus a "We bought & tested it" section** on the category page, with
-  measured runtime, real torque tests, and noise. This is exactly the first-hand evidence
-  Google's reviews system rewards, and it lifts the whole site, not just one page.
-- **1 long YouTube video plus 5–8 Shorts.** YouTube is the #2 search engine, and tool
-  reviews are one of its biggest niches.
-- **Reddit posts that aren't self-promotion:** "I bought the $49 drill everyone says
-  to avoid. Here's what happened." Tool subs welcome real testing and remove listicles.
-- **Link bait:** original test data is what journalists and bloggers cite, which feeds
-  the Plan A PR work.
-
-Why this beats Plan C: Plan C's extra $50 buys ~150 clicks that disappear. Plan D's
-extra $100 buys a permanent ranking asset, a video library, and credibility with Reddit
-and journalists, all of which compound.
-
----
-
-## 7. Projected monthly traffic (visits/month)
-
-**Assumption:** baseline of **~300 visits/month** today. That's typical for a 6-week-old
-affiliate site with no promotion, but it's **unverified until analytics is installed.**
-If the real baseline is different, the curve shape still holds but the numbers shift.
-Paid visits are included in each month and stop when spend stops.
-
-Also assumed: you put in the Plan A time (~6–8 hrs/week) on every plan. Money doesn't
-replace that time.
-
-| Month | A: Free | B: $50 | C: $100 | D: $150 (rec.) |
+| Month | Free (no Pinterest) | Free + Pinterest | $50 | $100 |
 |---|---|---|---|---|
-| 1 (Oct) | 400 | 550 | 700 | 600 |
-| 2 (Nov) | 550 | 800 | 1,000 | 900 |
-| 3 (Dec) | 750 | 1,100 | 1,400 | 1,400 |
-| 4 (Jan) | 1,000 | 1,500 | 1,850 | 2,100 |
-| 5 (Feb) | 1,300 | 1,950 | 2,350 | 3,000 |
-| 6 (Mar) | 1,700 | 2,500 | 2,950 | 4,100 |
-| 7 (Apr) | 2,200 | 3,100 | 3,650 | 5,400 |
-| 8 (May) | 2,700 | 3,800 | 4,450 | 6,700 |
-| 9 (Jun) | **3,300** | **4,500** | **5,300** | **8,000** |
-| **Growth vs. baseline** | **~11×** | **~15×** | **~18×** | **~27×** |
-| **Month-9 range (low–high)** | 1,200–6,000 | 1,800–8,000 | 2,200–9,500 | 3,000–15,000 |
-| 9-month total spend | $0 | $450 | $900 | $1,350 (~$800 net after resale) |
-| Cost per extra month-9 visit vs. Free | — | ~$0.04 | ~$0.05 | ~$0.02 net |
+| 1 (Oct) | 20 | 50 | 250 | 400 |
+| 2 (Nov) | 50 | 150 | 400 | 600 |
+| 3 (Dec) | 80 | 250 | 500 | 750 |
+| 4 (Jan) | 130 | 400 | 700 | 950 |
+| 5 (Feb) | 200 | 600 | 950 | 1,250 |
+| 6 (Mar) | 300 | 900 | 1,300 | 1,700 |
+| 7 (Apr) | 430 | 1,200 | 1,700 | 2,150 |
+| 8 (May) | 600 | 1,550 | 2,100 | 2,650 |
+| 9 (Jun) | **800** | **2,000** | **2,600** | **3,200** |
+| Month-9 range | 200–2,000 | 600–4,500 | 1,000–5,500 | 1,300–6,500 |
+| 9-month spend | $0 | $0 | $450 | $900 |
+| Extra month-9 visits per $ vs. Free + Pinterest | — | — | ~12 per $ | ~13 per $ at month 9, but mostly paid clicks |
 
 Why the curves look like this:
-- **SEO is slow for months 1–4**, because new domains usually take 4–8 months to rank for
-  anything competitive. It picks up after that as ~250 category pages and ~140 comparison
-  pages age. Most of the growth in every plan comes from months 5–9.
-- **Pinterest ramps over 2–3 months** as pins get distributed, then keeps going.
-- **Plan C leads early** because of paid clicks. **Plan D overtakes it around month 4**
-  as tested content and YouTube start compounding.
-- **Nov–Dec (Black Friday and holiday gifting)** is peak season for tool searches. Every
-  plan should have comparison pages and pins live **by Nov 1**.
-- Rough revenue check at $0.03–0.10 per visit: month-9 earnings are about $100–330
-  (Free) to $240–800 (Plan D) a month. That's enough for Plan D to pay for itself by
-  about month 6–7.
+- The Free plan is slow until about month 5, because Google holds back new domains.
+- Pinterest ramps up over 2–3 months.
+- Paid traffic shows up from day 1 but stops when spend stops.
+- Around month 9, the $100 tier's search data starts to matter more than its extra ad spend.
+- Low end of each range: Pinterest API approval stalls, or Google is slow to trust the
+  site. High end: several comparison pages reach the top 3 for real searches.
+- **Revenue check:** at $0.03–0.10 per visit, month 9 earns about $25–80 (Free, no
+  Pinterest) up to $95–320 (the $100 tier).
 
-## 8. Measurement (weekly, 15 min)
+**Recommendation:** Free + Pinterest setup (step 3) is the biggest gain. $50 is the best
+paid value. Only choose $100 if you want the traffic sooner and can accept a lower return
+on the second $50.
 
-- Visits by channel (organic, Pinterest, Reddit, YouTube, direct).
-- Search Console: impressions, clicks, and average position for the top 20 pages.
-- Amazon Associates: clicks, orders, and earnings per 1,000 visits.
-- Paid: cost per click. **Kill any paid line whose CPC is over $0.30 for 2 weeks straight.**
-- Email: new subscribers each week.
+## 6. How this runs alongside the existing daily process
 
-## 9. First 14 days (any plan)
+- **Scope split:**
+  - This plan owns `build.py` template changes (analytics, preview images, links, IndexNow),
+    new `build_compare.py`, new `data/compare/*.json`, generated `docs/compare/*`, the
+    `pins/` output, and `marketing/`.
+  - This plan never touches `data/<category>.json` or `data/site.json` category entries.
+- **Schedule:** run at a fixed time well away from the other process. Before building,
+  always pull the latest `main`, so it builds on top of that day's new category.
+- **Publishing:** default is a daily PR for the first 2 weeks. After that, push straight to
+  `main` only if the owner approves (§7 Q2).
+- **`build.py` changes are one-time, small, and made first,** so the other process picks
+  them up automatically after that.
 
-1. Analytics, Search Console, Bing, and IndexNow (day 1–2).
-2. Per-category OG images and email capture in `build.py` (day 3–5).
-3. Pinterest business account, domain claim, first 30 pins (day 3–7).
-4. First 20 programmatic comparison pages (day 6–12).
-5. Journalist-source signups, and the Reddit account starts building karma (day 1, ongoing).
-6. Plan D only: order the first test tool (the Best Budget cordless drill) on day 1 so
-   the video is out before Black Friday.
+## 7. Decisions still open
 
-## 10. Open questions (these change the numbers)
-
-1. **What is the real current traffic?** Every projection above rests on the 300/month guess.
-2. How many hours a week can you actually put in? The plans assume 6–8.
-3. Are you willing to appear on camera or use your voice? Plan D works faceless but does better with a person.
-4. When did you join Amazon Associates? This sets the 180-day, 3-sale deadline.
-5. Is this repo public? If so, this plan is visible on GitHub. Say the word and it can move somewhere private.
+1. Which tier: Free, $50, or $100?
+2. Publishing: PRs for review, or auto-push to `main`?
+3. Will you do Pinterest setup (step 3)?
+4. What drives the existing daily process (another scheduled task, a script, you by hand)?
+   Knowing that lets the schedule be set to avoid collisions.
+5. Is this repo public? If it is, this plan is visible on GitHub.
