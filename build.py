@@ -8,6 +8,7 @@ No third-party dependencies. Run:  python build.py
 """
 import json
 import math
+import re
 import html
 from pathlib import Path
 
@@ -273,6 +274,55 @@ def jsonld(*objs):
             + json.dumps(payload, ensure_ascii=False) + '</script>')
 
 
+_TRACKING_FORMATS = {
+    "cloudflare_beacon_token": r"[0-9a-f]{32}",
+    "ga4_measurement_id": r"G-[A-Z0-9]{4,16}",
+    "google_site_verification": r"[A-Za-z0-9_-]{20,100}",
+    "bing_site_verification": r"[A-F0-9]{32}",
+}
+
+
+def load_tracking():
+    """Read data/tracking.json (kept apart from site.json so the daily category
+    process never collides with it). Blank values are skipped; a malformed value
+    stops the build rather than shipping a broken or injectable tag."""
+    path = DATA / "tracking.json"
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    ids = {}
+    for key, pattern in _TRACKING_FORMATS.items():
+        value = (raw.get(key) or "").strip()
+        if value and not re.fullmatch(pattern, value):
+            raise SystemExit(f"data/tracking.json: {key}={value!r} does not look valid")
+        if value:
+            ids[key] = value
+    return ids
+
+
+def tracking_head(ids, is_home):
+    """Analytics on every page; ownership-verification tags on the home page only
+    (that is where Search Console and Bing look for them)."""
+    tags = []
+    if is_home and ids.get("google_site_verification"):
+        tags.append(f'<meta name="google-site-verification" content="{ids["google_site_verification"]}">')
+    if is_home and ids.get("bing_site_verification"):
+        tags.append(f'<meta name="msvalidate.01" content="{ids["bing_site_verification"]}">')
+    if ids.get("cloudflare_beacon_token"):
+        tags.append("<script defer src=\"https://static.cloudflareinsights.com/beacon.min.js\" "
+                    f"data-cf-beacon='{{\"token\": \"{ids['cloudflare_beacon_token']}\"}}'></script>")
+    if ids.get("ga4_measurement_id"):
+        gid = ids["ga4_measurement_id"]
+        tags.append(f'<script async src="https://www.googletagmanager.com/gtag/js?id={gid}"></script>\n'
+                    "<script>window.dataLayer=window.dataLayer||[];"
+                    "function gtag(){dataLayer.push(arguments);}"
+                    f"gtag('js',new Date());gtag('config','{gid}');</script>")
+    return "".join("\n" + t for t in tags)
+
+
+TRACKING = load_tracking()
+
+
 def page(site, title, body, is_home=False, description=None, canonical=None,
          image=None, structured_data=""):
     tag_state = ("" if site["affiliate_tag"] else
@@ -305,7 +355,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
 <meta name="description" content="{esc(desc)}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">{canonical_tag}
 <meta name="theme-color" content="#000000">
-<link rel="icon" href="assets/logo.png">{social}
+<link rel="icon" href="assets/logo.png">{social}{tracking_head(TRACKING, is_home)}
 {site.get('head_extra', '')}
 {structured_data}
 <link rel="stylesheet" href="assets/styles.css">
