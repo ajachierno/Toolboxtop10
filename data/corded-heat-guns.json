@@ -1,0 +1,452 @@
+{
+  "slug": "corded-heat-guns",
+  "title": "The 10 Best Corded Heat Guns",
+  "subtitle": "Plug-in heat guns ranked from live Amazon data: paint stripping, shrink tubing, and PVC bending for the least money.",
+  "intro": "A heat gun strips paint, softens adhesive, shrinks tubing and wrap, bends PVC, and thaws frozen pipes. The best-sellers run 1,200 to 2,000 watts and range from $18 two-setting guns to digital kits that set temperature in 50°F steps. We ranked 10 full-size corded guns on rating, review volume, and features (variable temperature, a digital readout, separate fan speeds, and included nozzles), and left the small 300-watt craft guns off the list.",
+  "data_captured": "2026-09-24",
+  "budget_cap": 30,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "variable_temp": 0.35,
+    "digital_display": 0.2,
+    "two_speed_fan": 0.2,
+    "kit": 0.25
+  },
+  "reviews_ceiling": 20000,
+  "spec_fields": [
+    {
+      "key": "watts",
+      "label": "Power"
+    },
+    {
+      "key": "temp",
+      "label": "Temperature"
+    },
+    {
+      "key": "controls",
+      "label": "Controls"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "warranty",
+      "label": "Warranty"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "watts",
+      "label": "Power"
+    },
+    {
+      "key": "temp",
+      "label": "Temperature"
+    },
+    {
+      "key": "variable_temp",
+      "label": "Variable Temp",
+      "type": "bool"
+    },
+    {
+      "key": "kit",
+      "label": "Nozzles Incl.",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B01MED5TK1",
+      "force_overall": true,
+      "name": "Wagner Spraytech FURNO 500 Heat Gun, 12 Settings, 150°F to 1200°F",
+      "brand": "Wagner",
+      "model": "FURNO 500 (503063)",
+      "image": "https://m.media-amazon.com/images/I/71QpD6E+poL._AC_SX425_.jpg",
+      "price": 51.99,
+      "rating": 4.6,
+      "reviews_count": 1552,
+      "bought": "400+/mo",
+      "specs": {
+        "watts": "1,500 W",
+        "temp": "150–1,200°F",
+        "controls": "12 digital settings",
+        "weight": "2.8 lb",
+        "warranty": "3 years"
+      },
+      "features": {
+        "variable_temp": true,
+        "digital_display": true,
+        "two_speed_fan": true,
+        "kit": true
+      },
+      "verdict": "The pick for most people: 12 push-button temperature settings from 150 to 1,200°F on an LED screen, two fan speeds, and a cool-down mode, for about $52. ETL listed, sold by Amazon, and covered by a 3-year warranty.",
+      "pros": [
+        "Push-button temperature settings you can repeat exactly, with a readout",
+        "Two fan speeds plus a cool-down mode",
+        "3-year warranty and ETL safety listing"
+      ],
+      "cons": [
+        "Only two nozzles in the box (glass protector and flare)",
+        "Heaviest gun on the list at 2.8 lb"
+      ]
+    },
+    {
+      "asin": "B00EU2T8GG",
+      "force_budget": true,
+      "name": "Genesis GHG1500A Dual Temperature Heat Gun Kit, 572°F/1000°F, with 4 Nozzles",
+      "brand": "Genesis",
+      "model": "GHG1500A",
+      "image": "https://m.media-amazon.com/images/I/61g4PHFS5FL._AC_SX425_.jpg",
+      "price": 18.05,
+      "rating": 4.6,
+      "reviews_count": 17523,
+      "bought": "400+/mo",
+      "specs": {
+        "watts": "1,500 W",
+        "temp": "572°F / 1,000°F",
+        "controls": "2-setting rocker",
+        "weight": "2 lb",
+        "warranty": "2 years"
+      },
+      "features": {
+        "variable_temp": false,
+        "digital_display": false,
+        "two_speed_fan": false,
+        "kit": true
+      },
+      "verdict": "The budget pick. A 1,500-watt, 12.5-amp gun with low and high settings, four nozzles, a 6.5 ft cord, and a 2-year warranty for about $18. Two fixed heats cover paint stripping, shrink tubing, and thawing pipes.",
+      "pros": [
+        "Four nozzles included: two deflectors, a reflector, and a reducer",
+        "2-year warranty, sold and shipped by Amazon",
+        "Over 17,000 ratings at 4.6 stars"
+      ],
+      "cons": [
+        "Only two heat settings, no dial for delicate work",
+        "Airflow is tied to the heat setting, not separately adjustable"
+      ]
+    },
+    {
+      "asin": "B007X2ATZE",
+      "premium": true,
+      "name": "DEWALT Classic Heat Gun with LCD Display & Hard Case/Accessory Kit (D26960K)",
+      "brand": "DEWALT",
+      "model": "D26960K",
+      "image": "https://m.media-amazon.com/images/I/71hpQLjSFwL._AC_SX425_.jpg",
+      "price": 129.99,
+      "rating": 4.8,
+      "reviews_count": 2292,
+      "bought": "200+/mo",
+      "specs": {
+        "watts": "1,550 W",
+        "temp": null,
+        "controls": "LCD, 50°F steps",
+        "weight": "2.3 lb",
+        "warranty": "3 years"
+      },
+      "features": {
+        "variable_temp": true,
+        "digital_display": true,
+        "two_speed_fan": false,
+        "kit": true
+      },
+      "verdict": "The one to buy if price doesn't matter. An LCD readout that sets temperature in 50-degree steps, overload protection that shuts the element down before it burns out, a kickstand that resists tipping, and a hard case with an accessory kit.",
+      "pros": [
+        "LCD temperature readout with 50°F increments",
+        "Hard case with an accessory kit",
+        "Highest rating on the list (4.8) and a 3-year warranty"
+      ],
+      "cons": [
+        "About seven times the price of the budget pick",
+        "The listing doesn't publish the temperature range"
+      ]
+    },
+    {
+      "asin": "B078S5QMFG",
+      "name": "SEEKONE 1800W Heat Gun, Variable Temp 122°F–1202°F, 4 Nozzles",
+      "brand": "SEEKONE",
+      "model": "SDL-2816",
+      "image": "https://m.media-amazon.com/images/I/61YIe1AgJNL._AC_SX425_.jpg",
+      "price": 25.99,
+      "rating": 4.6,
+      "reviews_count": 38261,
+      "bought": "10K+/mo",
+      "specs": {
+        "watts": "1,800 W",
+        "temp": "122–1,202°F",
+        "controls": "Dial + 2 airflow modes",
+        "weight": "1.96 lb",
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": true,
+        "digital_display": false,
+        "two_speed_fan": true,
+        "kit": true
+      },
+      "verdict": "Amazon's best-selling heat gun by a wide margin, with more than 38,000 ratings. A temperature dial from 122 to 1,202°F, two airflow modes, and four nozzles for about $26. The most gun for the money if you want a dial.",
+      "pros": [
+        "Variable temperature dial plus a high/low airflow switch",
+        "Four nozzles included",
+        "10,000+ bought in the past month"
+      ],
+      "cons": [
+        "Sold by a third-party seller (KEBO-USA), not Amazon",
+        "No warranty term stated on the listing"
+      ]
+    },
+    {
+      "asin": "B004NDX7O6",
+      "name": "BLACK+DECKER Heat Gun, Corded, Dual Heat Settings up to 1000 Degrees, 1350 Watt (HG1300)",
+      "brand": "BLACK+DECKER",
+      "model": "HG1300",
+      "image": "https://m.media-amazon.com/images/I/71EW+OUPtjL._AC_SX425_.jpg",
+      "price": 39.99,
+      "rating": 4.8,
+      "reviews_count": 10853,
+      "bought": "500+/mo",
+      "specs": {
+        "watts": "1,350 W",
+        "temp": "750°F / 1,000°F",
+        "controls": "2-setting switch",
+        "weight": "1.6 lb",
+        "warranty": "2 years"
+      },
+      "features": {
+        "variable_temp": false,
+        "digital_display": false,
+        "two_speed_fan": false,
+        "kit": false
+      },
+      "verdict": "A light, simple two-heat gun with a 3-position side handle and a built-in stand. Rated 4.8 across more than 10,000 reviews, so it's a safe buy for paint and adhesive removal around the house.",
+      "pros": [
+        "4.8 stars across 10,000+ ratings",
+        "Light at about 1.6 lb, with a 3-position side handle",
+        "Built-in stand for cool-down"
+      ],
+      "cons": [
+        "Only two heat settings",
+        "Ships with a single glass-protector nozzle"
+      ]
+    },
+    {
+      "asin": "B00004TUCV",
+      "name": "Wagner Spraytech HT1000 Dual-Temperature Heat Gun, Low 750°F, High 1000°F",
+      "brand": "Wagner",
+      "model": "HT1000 (0503008)",
+      "image": "https://m.media-amazon.com/images/I/51ZavH8GxTL._AC_SX425_.jpg",
+      "price": 24.99,
+      "rating": 4.7,
+      "reviews_count": 14762,
+      "bought": "500+/mo",
+      "specs": {
+        "watts": "1,200 W",
+        "temp": "750°F / 1,000°F",
+        "controls": "2 heats, 2 fan speeds",
+        "weight": null,
+        "warranty": "2 years"
+      },
+      "features": {
+        "variable_temp": false,
+        "digital_display": false,
+        "two_speed_fan": true,
+        "kit": false
+      },
+      "verdict": "The long-running basic heat gun: 750°F and 1,000°F settings, two fan speeds, an integrated stand, and a hanging hook. ETL listed and sold by Amazon for $25.",
+      "pros": [
+        "4.7 stars across nearly 15,000 ratings",
+        "Two fan speeds on top of the two heats",
+        "ETL listed, 2-year home-use warranty"
+      ],
+      "cons": [
+        "Lowest wattage of the guns here (1,200 W)",
+        "No nozzles in the box (a separate HT1000 kit adds three)"
+      ]
+    },
+    {
+      "asin": "B004Q04X44",
+      "name": "PORTER-CABLE Heat Gun, 1500 Watt, Variable Temperature, Corded (PC1500HG)",
+      "brand": "PORTER-CABLE",
+      "model": "PC1500HG",
+      "image": "https://m.media-amazon.com/images/I/71NcQ-is9jL._AC_SX425_.jpg",
+      "price": 44.99,
+      "rating": 4.7,
+      "reviews_count": 5622,
+      "bought": "400+/mo",
+      "specs": {
+        "watts": "1,500 W",
+        "temp": null,
+        "controls": "Dial + 2 fan speeds",
+        "weight": "2.5 lb",
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": true,
+        "digital_display": false,
+        "two_speed_fan": true,
+        "kit": false
+      },
+      "verdict": "A 1,500-watt gun with a variable temperature dial and a separate high/low fan switch, so you can set heat and airflow independently. Stands upright for hands-free use.",
+      "pros": [
+        "Temperature dial and fan speed are set separately",
+        "4.7 stars across 5,600+ ratings",
+        "Integrated stand for hands-free use"
+      ],
+      "cons": [
+        "No nozzles included, a common complaint in reviews",
+        "The title says 'dual temperature' but the gun has a dial, and the listing doesn't publish its range"
+      ]
+    },
+    {
+      "asin": "B07Y47MHKB",
+      "name": "CRAFTSMAN Heat Gun, Corded, Variable Heat Setting up to 1200 Degrees, 1500 Watt (CMEE531)",
+      "brand": "CRAFTSMAN",
+      "model": "CMEE531",
+      "image": "https://m.media-amazon.com/images/I/61EmzkPmXlL._AC_SX425_.jpg",
+      "price": 69.99,
+      "rating": 4.6,
+      "reviews_count": 667,
+      "bought": "100+/mo",
+      "specs": {
+        "watts": "1,500 W",
+        "temp": "120–1,200°F",
+        "controls": "Dial + 2 fan speeds",
+        "weight": null,
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": true,
+        "digital_display": false,
+        "two_speed_fan": true,
+        "kit": false
+      },
+      "verdict": "A 1,500-watt gun with a temperature dial from 120 to 1,200°F, two fan speeds, an integrated stand, and a 6 ft cord. Worth it if you already buy CRAFTSMAN and want the dial.",
+      "pros": [
+        "Wide 120–1,200°F dial range",
+        "Two fan speeds and a 6 ft cord"
+      ],
+      "cons": [
+        "Costs more than the PORTER-CABLE with similar controls",
+        "Bare gun, no nozzles listed in the box"
+      ]
+    },
+    {
+      "asin": "B07QJMH2F4",
+      "name": "Makita HG6530VK Variable Temperature Heat Gun Kit with LCD Digital Display",
+      "brand": "Makita",
+      "model": "HG6530VK",
+      "image": "https://m.media-amazon.com/images/I/61QhUTipoBL._AC_SX425_.jpg",
+      "price": 179.0,
+      "rating": 4.6,
+      "reviews_count": 484,
+      "bought": "50+/mo",
+      "specs": {
+        "watts": "2,000 W",
+        "temp": "122–1,202°F",
+        "controls": "LCD, 50°F steps; 3 airflow",
+        "weight": "2.0 lb",
+        "warranty": "1 year"
+      },
+      "features": {
+        "variable_temp": true,
+        "digital_display": true,
+        "two_speed_fan": true,
+        "kit": true
+      },
+      "verdict": "Makita's pro kit: push-button temperature control from 122 to 1,202°F in 50°F steps with an LCD readout, a three-position airflow switch (cool, low, high), and a case with four nozzles. Built for vehicle wraps, tinting, and daily trade use.",
+      "pros": [
+        "LCD readout with 50°F steps",
+        "Cool, low, and high airflow positions",
+        "Case plus glass-protection, wide-slot, reflector, and reduction nozzles"
+      ],
+      "cons": [
+        "Most expensive gun on the list",
+        "Only a 1-year warranty listed, shorter than DEWALT or Wagner"
+      ]
+    },
+    {
+      "asin": "B0BRK5TFNB",
+      "name": "AcmyslaT Heat Gun, Dual Temperature 572°F~932°F, 4 Nozzles",
+      "brand": "AcmyslaT",
+      "model": "R003",
+      "image": "https://m.media-amazon.com/images/I/61px2-jUlbL._AC_SX425_.jpg",
+      "price": 17.69,
+      "rating": 4.6,
+      "reviews_count": 4494,
+      "bought": "600+/mo",
+      "specs": {
+        "watts": null,
+        "temp": "572°F / 932°F",
+        "controls": "2 modes",
+        "weight": "1.87 lb",
+        "warranty": "1 year"
+      },
+      "features": {
+        "variable_temp": false,
+        "digital_display": false,
+        "two_speed_fan": false,
+        "kit": true
+      },
+      "verdict": "A cheap two-mode gun with four nozzles, suited to shrink tubing, resin, and crafts. It tops out at 932°F, lower than the rest of the list, which slows paint stripping.",
+      "pros": [
+        "Four nozzles included",
+        "Under $18"
+      ],
+      "cons": [
+        "Lowest top temperature here (932°F)",
+        "The listing doesn't give a wattage",
+        "The seller warns the element may smoke on first uses while its glue cures"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0BVZJSR7D",
+      "name": "HILIPE Cordless Heat Gun for DeWALT 20V Battery (No Battery)",
+      "brand": "HILIPE",
+      "model": "HG-2",
+      "image": "https://m.media-amazon.com/images/I/81g3yNwmjeL._AC_SX425_.jpg",
+      "price": 39.99,
+      "rating": 4.1,
+      "reviews_count": 375,
+      "flag": "350 W battery clone that costs more than a corded gun",
+      "verdict": "A tool-only knockoff that runs on DeWALT 20V packs and puts out 350 watts, a fraction of any corded gun above. It costs more than the budget corded picks and you still need a battery. If you need a cordless heat gun, buy one from the company that makes your batteries.",
+      "reasons": [
+        "It's rated at 350 watts. The corded guns on this list run 1,200 to 2,000 watts, so this one moves far less heat and is slow at paint stripping and other large-surface jobs, which is most of what a heat gun gets bought for.",
+        "It isn't a DeWALT tool. It fits DeWALT 20V batteries, but DeWALT doesn't make or support it, and the listing gives no warranty term or runtime.",
+        "At $39.99 with no battery, it costs more than the Genesis ($18), Wagner HT1000 ($25), and SEEKONE ($26), which have 3.5 to 5 times the wattage.",
+        "The listing reads like a generic import ('Dapted to DeWALT 20v max battery'), and at 4.1 stars it's the lowest-rated gun we considered for this page."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "How hot does a heat gun need to get?",
+      "a": "Around 1,000°F handles paint stripping, adhesive removal, and loosening rusted bolts. Lower heat, roughly 200 to 600°F, is for shrink tubing, vinyl wrap, bending PVC, and plastics you don't want to scorch. A dial or digital control covers both with one tool; a two-setting gun gives you one low and one high."
+    },
+    {
+      "q": "Dual temperature or variable temperature?",
+      "a": "Dual-temperature guns (Genesis, BLACK+DECKER, Wagner HT1000) have a low and a high switch. They're cheap and fine for paint and pipes. Variable guns (SEEKONE, PORTER-CABLE, CRAFTSMAN) add a dial, and digital guns (Wagner FURNO 500, DEWALT, Makita) let you set an exact temperature and repeat it, which matters for vinyl wrap, tinting, and plastics."
+    },
+    {
+      "q": "Do I need nozzles?",
+      "a": "They help. A glass protector deflects heat when you strip window frames, a flat nozzle spreads heat along a strip of paint, a reflector wraps heat around a pipe or shrink tube, and a reducer concentrates it on a small spot. Several guns here ship bare; the Genesis, SEEKONE, AcmyslaT, Wagner FURNO 500, and the DEWALT and Makita kits include nozzles."
+    },
+    {
+      "q": "What about the small 300 to 400 watt craft heat guns?",
+      "a": "Those are embossing and resin tools. They're light and cheap, but at a quarter of the wattage they won't strip paint or thaw a pipe in any reasonable time. We left them off this list; buy one only for paper crafts or epoxy."
+    },
+    {
+      "q": "Is a heat gun safe to use indoors?",
+      "a": "Yes, with care. The nozzle stays hot for minutes after you switch off, so use the built-in stand and let it cool on low or in cool-down mode. When stripping old paint, keep the temperature as low as works and test pre-1978 paint for lead first: overheating lead paint releases toxic fumes."
+    },
+    {
+      "q": "Corded or cordless?",
+      "a": "Corded, for almost everyone. A heat gun turns electricity straight into heat, so it draws far more power than a battery pack can supply for long. Cordless guns suit quick shrink-tube jobs away from an outlet; for anything else a corded gun is cheaper and several times stronger."
+    }
+  ]
+}
