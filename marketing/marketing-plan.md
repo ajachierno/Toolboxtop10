@@ -155,7 +155,7 @@ What the agent does with the search data:
 | 9 (Jun) | **800** | **2,000** | **2,600** | **3,200** |
 | Month-9 range | 200–2,000 | 600–4,500 | 1,000–5,500 | 1,300–6,500 |
 | 9-month spend | $0 | $0 | $450 | $900 |
-| Extra month-9 visits per $ vs. Free + Pinterest | — | — | ~12 per $ | ~13 per $ at month 9, but mostly paid clicks |
+| Extra month-9 visits per $ vs. Free + Pinterest | — | — | ~12 per $ | ~12 per $, but more of it is paid clicks |
 
 Why the curves look like this:
 - The Free plan is slow until about month 5, because Google holds back new domains.
