@@ -1,0 +1,454 @@
+{
+  "slug": "corded-rotary-hammers",
+  "title": "The 10 Best Corded Rotary Hammers",
+  "subtitle": "SDS-Plus rotary hammers for concrete and masonry, ranked from live Amazon data.",
+  "intro": "A rotary hammer drills concrete, brick, and block much faster than a regular hammer drill, and most can switch to hammer-only mode for chipping tile or mortar. We ranked 10 corded SDS-Plus best-sellers on rating, review volume, and features (vibration control, a slip clutch, and bits and chisels in the box). They run from a $53 8-amp starter kit to a $240 Bosch with a kickback sensor.",
+  "data_captured": "2026-09-25",
+  "budget_cap": 60,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "vibration_control": 0.4,
+    "safety_clutch": 0.3,
+    "kit": 0.3
+  },
+  "reviews_ceiling": 5000,
+  "spec_fields": [
+    {
+      "key": "amps",
+      "label": "Motor"
+    },
+    {
+      "key": "impact",
+      "label": "Impact energy"
+    },
+    {
+      "key": "capacity",
+      "label": "Concrete capacity"
+    },
+    {
+      "key": "modes",
+      "label": "Modes"
+    },
+    {
+      "key": "warranty",
+      "label": "Warranty"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "amps",
+      "label": "Motor"
+    },
+    {
+      "key": "impact",
+      "label": "Impact"
+    },
+    {
+      "key": "capacity",
+      "label": "Concrete"
+    },
+    {
+      "key": "vibration_control",
+      "label": "Vibration Control",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00VNBV2F2",
+      "force_overall": true,
+      "name": "DEWALT SDS Plus Rotary Hammer Drill, 1-1/8 in., Vibration Control, Corded (D25263K)",
+      "brand": "DEWALT",
+      "model": "D25263K",
+      "image": "https://m.media-amazon.com/images/I/61u0iPg02wL._SL1000_.jpg",
+      "price": 176.26,
+      "rating": 4.7,
+      "reviews_count": 1555,
+      "bought": "400+/mo",
+      "specs": {
+        "amps": "8.5 A",
+        "impact": "3.0 J",
+        "capacity": "1-1/8\"",
+        "modes": null,
+        "warranty": "3 years"
+      },
+      "features": {
+        "vibration_control": true,
+        "safety_clutch": true,
+        "kit": false
+      },
+      "verdict": "The one to buy if you drill concrete more than once in a while: an 8.5-amp D-handle hammer with DEWALT's SHOCKS vibration control, a clutch that lets go when a bit jams, and a 3-year warranty. Sold and shipped by Amazon.",
+      "pros": [
+        "SHOCKS active vibration control at the handles",
+        "Clutch cuts the sudden torque reaction when a bit binds",
+        "Longest warranty on the list: 3 years, plus 2 years of free service",
+        "Works with DEWALT's D25301D dust extractor"
+      ],
+      "cons": [
+        "No bits or chisels in the box, just the side handle, depth rod, and kit box",
+        "The listing doesn't state the tool's weight or number of modes"
+      ]
+    },
+    {
+      "asin": "B000BB79Q6",
+      "name": "BOSCH 11255VSR Bulldog Xtreme 1 In. SDS-Plus Rotary Hammer",
+      "brand": "Bosch",
+      "model": "11255VSR",
+      "image": "https://m.media-amazon.com/images/I/513oBPM4cPL._AC_SL1000_.jpg",
+      "price": 177.99,
+      "rating": 4.7,
+      "reviews_count": 3033,
+      "bought": "300+/mo",
+      "specs": {
+        "amps": "8 A",
+        "impact": "2.0 ft-lb",
+        "capacity": "1\"",
+        "modes": "3",
+        "warranty": "1 year"
+      },
+      "features": {
+        "vibration_control": true,
+        "safety_clutch": false,
+        "kit": false
+      },
+      "verdict": "The most-reviewed name-brand rotary hammer on Amazon, with 3,000+ ratings at 4.7 stars. Three modes, 0-1,300 rpm, 0-5,800 bpm, and a 36-position Vario-Lock for setting the chisel angle.",
+      "pros": [
+        "3,000+ reviews averaging 4.7 stars",
+        "Vario-Lock gives 36 chisel positions",
+        "Variable-speed trigger with reverse",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Hits lighter than the DEWALT (2.0 ft-lb)",
+        "The listing doesn't mention a slip clutch",
+        "1-year warranty on this listing",
+        "No bits included"
+      ]
+    },
+    {
+      "asin": "B00Z5LTQYU",
+      "name": "Makita HR2641 1\" AVT Rotary Hammer, Accepts SDS-Plus Bits (D-Handle)",
+      "brand": "Makita",
+      "model": "HR2641",
+      "image": "https://m.media-amazon.com/images/I/61lrh4Ax5jL._AC_SL1000_.jpg",
+      "price": 184.99,
+      "rating": 4.7,
+      "reviews_count": 228,
+      "specs": {
+        "amps": "8 A",
+        "impact": "2.1 ft-lb (2.9 J)",
+        "capacity": "1\"",
+        "modes": "3",
+        "warranty": "1 year"
+      },
+      "features": {
+        "vibration_control": true,
+        "safety_clutch": true,
+        "kit": false
+      },
+      "verdict": "Makita's AVT counterweight system cancels much of the hammering vibration, and a torque-limiting clutch protects the gears if the bit binds. A pro-grade D-handle with 40 chisel angle settings.",
+      "pros": [
+        "Anti-Vibration Technology counterbalance plus a damper spring",
+        "Torque-limiting clutch",
+        "40 bit angle settings and a retractable tool hook",
+        "Sold by Amazon"
+      ],
+      "cons": [
+        "Far fewer reviews than the DEWALT and Bosch",
+        "1-year warranty on this listing",
+        "No bits included"
+      ]
+    },
+    {
+      "asin": "B01N4RSKSH",
+      "premium": true,
+      "name": "BOSCH GBH2-28L 8.5 Amp SDS-plus Bulldog Xtreme Max 1-1/8 In. Rotary Hammer",
+      "brand": "Bosch",
+      "model": "GBH2-28L",
+      "image": "https://m.media-amazon.com/images/I/51+jOp-BvsL._AC_SL1000_.jpg",
+      "price": 240.0,
+      "rating": 4.7,
+      "reviews_count": 1123,
+      "bought": "100+/mo",
+      "specs": {
+        "amps": "8.5 A",
+        "impact": "2.4 ft-lb",
+        "capacity": "1-1/8\"",
+        "modes": "3",
+        "warranty": "1 year"
+      },
+      "features": {
+        "vibration_control": true,
+        "safety_clutch": true,
+        "kit": false
+      },
+      "verdict": "Bosch's step-up Bulldog adds KickBack Control, a sensor that stops rotation when the bit binds, on top of counter-balanced vibration control. Worth the extra money if you drill overhead or all day.",
+      "pros": [
+        "KickBack Control sensor stops the tool on bind-up",
+        "Counter-balanced vibration control",
+        "Vario-Lock chisel positioning and HammerHook",
+        "4.7 stars across 1,100+ reviews"
+      ],
+      "cons": [
+        "Most expensive hammer on the list",
+        "Sold by a third-party seller (Express Shipping Tools), not Amazon",
+        "No bits included"
+      ]
+    },
+    {
+      "asin": "B07QW55TPV",
+      "name": "ENEACRO 1-1/4 Inch SDS-Plus 13 Amp Heavy Duty Rotary Hammer Drill (ENRH3201)",
+      "brand": "ENEACRO",
+      "model": "ENRH3201",
+      "image": "https://m.media-amazon.com/images/I/71zw3N4K5cL._AC_SL1300_.jpg",
+      "price": 109.95,
+      "rating": 4.6,
+      "reviews_count": 3512,
+      "bought": "500+/mo",
+      "specs": {
+        "amps": "13 A",
+        "impact": "5.5 ft-lb (7.4 J)",
+        "capacity": "1-1/4\"",
+        "modes": "4",
+        "warranty": "2 years"
+      },
+      "features": {
+        "vibration_control": true,
+        "safety_clutch": true,
+        "kit": true
+      },
+      "verdict": "The most-reviewed hammer on the list at 3,500+ ratings, and the hardest hitting at 5.5 ft-lb. A heavy 13-amp tool for breaking tile and chiseling concrete, with bits, chisels, and a case in the box.",
+      "pros": [
+        "Hardest-hitting pick: 5.5 ft-lb (7.4 J)",
+        "3,500+ reviews at 4.6 stars",
+        "Safety clutch and double-layer vibration damping",
+        "Comes with 3 bits, 2 chisels, grease, and a case"
+      ],
+      "cons": [
+        "12.6 lb bare tool, heavy for overhead work",
+        "Slower rotation (820 rpm) than the name brands",
+        "Sold by the brand's store, not Amazon"
+      ]
+    },
+    {
+      "asin": "B07X1S4SRM",
+      "name": "AOBEN 13 Amp Heavy Duty 1-1/4 Inch SDS-Plus Rotary Hammer Drill with Vibration Control and Safety Clutch",
+      "brand": "AOBEN",
+      "model": "AB2132ZA",
+      "image": "https://m.media-amazon.com/images/I/71Ci49X7JUL._AC_SL1490_.jpg",
+      "price": 109.99,
+      "rating": 4.5,
+      "reviews_count": 1812,
+      "bought": "100+/mo",
+      "specs": {
+        "amps": "13 A",
+        "impact": null,
+        "capacity": "1-1/4\"",
+        "modes": "3",
+        "warranty": null
+      },
+      "features": {
+        "vibration_control": true,
+        "safety_clutch": true,
+        "kit": true
+      },
+      "verdict": "Another 13-amp, 1-1/4 inch demolition-style hammer with a full accessory kit. Same price as the ENEACRO, with fewer reviews and a thinner spec sheet.",
+      "pros": [
+        "13-amp motor for chipping and tile removal",
+        "3 bits, 2 chisels, spare brushes, and a case included",
+        "Vibration control and safety clutch"
+      ],
+      "cons": [
+        "The listing gives no impact-energy figure",
+        "No warranty term stated on the listing",
+        "12 lb, so it's a two-handed tool"
+      ]
+    },
+    {
+      "asin": "B08QRXN5JZ",
+      "name": "Berserker 1-1/8\" SDS-Plus Rotary Hammer Drill for Concrete 26FA, 9 Amp",
+      "brand": "Berserker",
+      "model": "26FA",
+      "image": "https://m.media-amazon.com/images/I/71bTDqa7tEL._AC_SL1500_.jpg",
+      "price": 79.79,
+      "rating": 4.6,
+      "reviews_count": 900,
+      "bought": "100+/mo",
+      "specs": {
+        "amps": "9 A",
+        "impact": "3.3 ft-lb (4.5 J)",
+        "capacity": "1-1/8\"",
+        "modes": "3",
+        "warranty": "2 years"
+      },
+      "features": {
+        "vibration_control": false,
+        "safety_clutch": true,
+        "kit": true
+      },
+      "verdict": "A 9.5 lb mid-size hammer that out-hits the name brands on paper (3.3 ft-lb) for under $80, with an aluminum housing and a 2-year warranty.",
+      "pros": [
+        "More rated impact energy than the DEWALT, Bosch, and Makita",
+        "Overload clutch and aluminum housing",
+        "Bits, 2 chisels, and a case included",
+        "2-year warranty"
+      ],
+      "cons": [
+        "The listing makes no vibration-control claim",
+        "The brand says it's for light construction, not heavy demolition"
+      ]
+    },
+    {
+      "asin": "B0F6CK5VC5",
+      "name": "DESHUO 1\" SDS-Plus Lightweight Rotary Hammer Drill, 9 Amp, 7.2 Lbs, 4 Functions (DS-LD26)",
+      "brand": "DESHUO",
+      "model": "DS-LD26",
+      "image": "https://m.media-amazon.com/images/I/71j3g6E+efL._AC_SL1500_.jpg",
+      "price": 54.79,
+      "rating": 4.4,
+      "reviews_count": 426,
+      "bought": "1K+/mo",
+      "specs": {
+        "amps": "9 A",
+        "impact": "2.21 ft-lb (3 J)",
+        "capacity": "1\"",
+        "modes": "4",
+        "warranty": "2 years"
+      },
+      "features": {
+        "vibration_control": true,
+        "safety_clutch": true,
+        "kit": true
+      },
+      "verdict": "The best-selling rotary hammer in our search, at 1,000+ sold a month. At 7.2 lb it's the lightest tool here, and it has a clutch, reverse, and a lock-on trigger for about $55.",
+      "pros": [
+        "Lightest on the list at 7.2 lb",
+        "Safety clutch, vibration control, forward/reverse",
+        "3 bits, 2 chisels, and a case included",
+        "2-year warranty"
+      ],
+      "cons": [
+        "The brand says it's for DIY use, not heavy demolition",
+        "4.4 stars, the lowest rating among our picks",
+        "Sold by the brand's store, not Amazon"
+      ]
+    },
+    {
+      "asin": "B0BG54HMS9",
+      "name": "DongCheng 1-1/8 Inch SDS-Plus Rotary Hammer, 9.2A Motor, 3.6J Impact Energy (DZC03-28)",
+      "brand": "Dong Cheng",
+      "model": "DZC03-28",
+      "image": "https://m.media-amazon.com/images/I/71QJ9L7eV3L._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.6,
+      "reviews_count": 363,
+      "bought": "100+/mo",
+      "specs": {
+        "amps": "9.2 A",
+        "impact": "3.6 J",
+        "capacity": "1-1/8\"",
+        "modes": "2",
+        "warranty": null
+      },
+      "features": {
+        "vibration_control": true,
+        "safety_clutch": true,
+        "kit": true
+      },
+      "verdict": "A 9.2-amp, 1-1/8 inch hammer with 3.6 J of impact energy and a full bit-and-chisel kit for $70.",
+      "pros": [
+        "3.6 J impact energy at 5,000 bpm",
+        "Safety clutch and anti-vibration handle",
+        "Bits, 2 chisels, brushes, grease, and a case included"
+      ],
+      "cons": [
+        "Only two modes, with no drill-only setting for wood or steel",
+        "No warranty term stated on the listing"
+      ]
+    },
+    {
+      "asin": "B0BPLWR3FD",
+      "name": "VEVOR 1 Inch SDS-Plus Rotary Hammer Drill, 8 Amp, Safety Clutch (Z1C-DS-24FQ)",
+      "brand": "VEVOR",
+      "model": "Z1C-DS-24FQ",
+      "image": "https://m.media-amazon.com/images/I/71Pw7wccxuL._AC_SL1500_.jpg",
+      "price": 53.47,
+      "rating": 4.5,
+      "reviews_count": 206,
+      "bought": "50+/mo",
+      "specs": {
+        "amps": "8 A",
+        "impact": "2.4 J",
+        "capacity": "1\"",
+        "modes": "4",
+        "warranty": null
+      },
+      "features": {
+        "vibration_control": false,
+        "safety_clutch": true,
+        "kit": true
+      },
+      "verdict": "The cheapest hammer on the list, sold by Amazon. 8 amps, four modes, and a clutch, plus bits, chisels, a depth gauge, and a case: enough for anchor holes and occasional tile removal.",
+      "pros": [
+        "Lowest price on the list, sold and shipped by Amazon",
+        "4 modes including drill-only",
+        "3 bits, 2 chisels, depth gauge, and case included"
+      ],
+      "cons": [
+        "Lightest hitter here at 2.4 J",
+        "No vibration-control claim and no stated warranty",
+        "9.5 lb, heavier than the DESHUO for less punch"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DBM3QSMB",
+      "name": "DOVAMAN 1-9/16'' SDS Rotary Hammer Drill, 12.5Amp Heavy Duty (RH15A)",
+      "brand": "DOVAMAN",
+      "model": "RH15A",
+      "image": "https://m.media-amazon.com/images/I/81NVkH70XvL._AC_SL1500_.jpg",
+      "price": 104.47,
+      "rating": 4.5,
+      "reviews_count": 690,
+      "flag": "Headline 1-9/16\" is its wood capacity; spec table says 230 V",
+      "verdict": "The headline number is misleading and the spec table contradicts the bullets. For about the same money, the ENEACRO has near-identical published specs, a consistent listing, and a stated 2-year warranty.",
+      "reasons": [
+        "The title leads with 1-9/16\", a size buyers associate with bigger SDS-Max hammers. The bullets show that's the wood capacity. In concrete, which is what a rotary hammer is for, it's rated at 1-1/4\", the same as the $110 ENEACRO and AOBEN.",
+        "The spec table lists 230 volts and 12.5 milliamps. The bullets say 120 V and 12.5 amps. Some of the published numbers are wrong, and the listing doesn't tell you which.",
+        "Its published dimensions, bare-tool weight, and 18.1 lb kit weight almost exactly match the ENEACRO ENRH3201's, so you'd pay the same price for what reads as the same tool under another label.",
+        "It's sold by a third-party storefront (MilkyWay Galaxy), not the brand, and the listing states no warranty term."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Rotary hammer or hammer drill?",
+      "a": "A hammer drill uses ridged clutch plates to rattle the bit. That's fine for a few 1/4\" anchor holes in brick. A rotary hammer uses a piston to strike the bit, so it drills concrete several times faster, handles 1/2\" and larger holes easily, and can chip in hammer-only mode. If you're drilling more than a handful of holes in concrete, get a rotary hammer."
+    },
+    {
+      "q": "What is SDS-Plus, and do I need special bits?",
+      "a": "SDS-Plus is the shank and chuck system on every hammer on this page. The bit slides in and locks without a key, and it can slide back and forth so the piston can strike it. You need SDS-Plus bits and chisels. Regular round-shank bits won't fit without an adapter chuck, and SDS-Max bits are a larger, different size."
+    },
+    {
+      "q": "How much impact energy do I need?",
+      "a": "Around 2 to 3 joules (1.5 to 2.2 ft-lb) handles anchor holes up to about 1/2\" and light tile removal. The 13-amp hammers rated 5 to 7 joules are better for breaking floor tile, chiseling concrete, and holes over 3/4\", but they weigh 12 lb or more. Brands don't all measure impact energy the same way, so treat small differences between brands with some skepticism."
+    },
+    {
+      "q": "Is vibration control worth paying for?",
+      "a": "If you'll run it for more than a few minutes at a time, yes. Hammering vibration is what wears out your hands and arms. DEWALT's SHOCKS, Makita's AVT, and Bosch's counter-balance systems cut what reaches the handle; many budget tools only add a padded grip."
+    },
+    {
+      "q": "Why don't the name-brand hammers include bits?",
+      "a": "DEWALT, Bosch, and Makita sell the tool with a side handle, depth rod, and case, and expect you to buy bits for the job. A decent SDS-Plus bit and chisel set runs $30 to $40. The budget brands bundle bits and chisels, which is handy for a first project, but those bits tend to wear out quickly."
+    },
+    {
+      "q": "What does a safety clutch do?",
+      "a": "If the bit catches on rebar or jams in the hole, the motor's torque can twist the tool hard enough to hurt your wrist. A slip clutch or kickback sensor disconnects the drive when that happens. Every pick here lists one except the Bosch 11255VSR, whose listing doesn't mention it."
+    }
+  ]
+}
