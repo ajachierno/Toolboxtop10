@@ -239,7 +239,7 @@ def render_avoid(avoid, site):
         <a class="btn ghost" href="{url}" target="_blank" rel="sponsored nofollow noopener">See the listing on Amazon (so you recognize it)</a>
       </article>""")
     return f"""
-  <section class="avoid">
+  <section class="avoid" id="avoid">
     <h2>Tools to avoid</h2>
     <p class="avoid-lead">Not everything in the search results deserves your money.
     This one would rank dead last on our scale — here's the listing to walk past, and exactly why.</p>
@@ -433,6 +433,21 @@ def render_home_deals(major_brands, site, oldest, newest):
   </section>"""
 
 
+def render_jump(has_avoid):
+    """On-this-page links for category pages. Hidden on desktop, sticky on phones."""
+    avoid = '<a href="#avoid" class="avoid-link">Avoid</a>' if has_avoid else ""
+    return ('<nav class="jump" aria-label="On this page">'
+            '<a href="#picks">Top picks</a><a href="#compare">Compare</a>'
+            f'<a href="#ranked">Full ranking</a><a href="#howwerank">How we rank</a>{avoid}</nav>')
+
+
+# Back-to-top button for the long category pages; shows after scrolling (phones only, via CSS).
+TO_TOP = """<a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
+  <script>(function(){var b=document.querySelector('.to-top');
+  addEventListener('scroll',function(){b.classList.toggle('show',scrollY>900)},{passive:true});
+  b.addEventListener('click',function(e){e.preventDefault();scrollTo({top:0,behavior:'smooth'})});})();</script>"""
+
+
 def build_category(site, filename):
     cat = load(filename)
     ranked, overall, budget, premium = rank_products(cat)
@@ -457,17 +472,19 @@ def build_category(site, filename):
     <p class="sub">{esc(cat['subtitle'])}</p>
     <p class="intro">{esc(cat['intro'])}</p>
   </section>
-  <section class="heroes">{heroes}</section>{compare_link}
+  {render_jump(bool(avoid))}
+  <section class="heroes" id="picks">{heroes}</section>{compare_link}
   {render_deals(brands, site, cat_date(cat, site))}
-  <section class="compare">
+  <section class="compare" id="compare">
     <h2>Side-by-side comparison</h2>
+    <p class="swipe-hint">Swipe the table sideways for more columns &rarr;</p>
     {render_table(ranked, avoid, site, columns)}
   </section>
-  <section class="ranked">
+  <section class="ranked" id="ranked">
     <h2>The full ranking</h2>
     {cards}
   </section>
-  <section class="howwerank">
+  <section class="howwerank" id="howwerank">
     <h2>How we rank</h2>
     <p>Every tool gets one score from 0 to 100, weighted
     {int(cat['weights']['rating']*100)}% on its star rating,
@@ -481,7 +498,8 @@ def build_category(site, filename):
     <h2>Buyer's guide</h2>
     {render_guide(cat['buyers_guide'])}
   </section>
-  {render_avoid(avoid, site)}"""
+  {render_avoid(avoid, site)}
+  {TO_TOP}"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     canonical = f"{base}/{cat['slug']}.html" if base else ""
     year = str(cat_date(cat, site))[:4]
@@ -1099,6 +1117,80 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
   .specs{grid-template-columns:repeat(2,1fr)}
   .pc{grid-template-columns:1fr}
   .hero-card img{width:88px;height:88px}
+}
+/* mobile layer: jump bar, swipe hint and back-to-top are phone-only; desktop is unchanged */
+.jump,.swipe-hint,.to-top{display:none}
+@media (max-width:720px){
+  /* header */
+  header.site{padding:10px 16px;gap:8px}
+  .logo img{height:40px}
+  .slogan{display:none}
+  main{padding:0 16px 32px}
+  h1{font-size:1.7rem}
+  .home h1{font-size:1.9rem}
+  h2{font-size:1.3rem;margin:1.8rem 0 .8rem}
+  .lead{padding:8px 0 4px}
+  .lead .sub{font-size:1rem}
+
+  /* compact quick nav: selects side by side, Home + Go side by side */
+  .quicknav-controls{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .quicknav select{min-width:0;width:100%;padding:9px 28px 9px 10px;font-size:.88rem;text-align:left;
+    background-position:right 10px center}
+  .quicknav .btn,.back-home{padding:9px 12px;font-size:.9rem}
+  .quicknav #qn-category{order:1} .quicknav #qn-subcategory{order:2}
+  .quicknav .back-home{order:3} .quicknav #qn-go{order:4}
+  .quicknav:not(.quicknav-bar) #qn-go{grid-column:1/-1}
+  .quicknav-bar{margin:0 0 4px;padding-bottom:10px}
+
+  /* on-this-page jump bar, sticks to the top while scrolling */
+  .jump{display:flex;gap:8px;overflow-x:auto;position:sticky;top:0;z-index:20;
+    margin:10px -16px 0;padding:8px 16px;background:rgba(0,0,0,.92);backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);scrollbar-width:none}
+  .jump::-webkit-scrollbar{display:none}
+  .jump a{flex:none;background:var(--card-2);border:1px solid var(--line);border-radius:20px;
+    padding:6px 13px;font-size:.85rem;font-weight:600;color:var(--ink)}
+  .jump a.avoid-link{color:#ff9d94;border-color:#4a2222}
+  section[id]{scroll-margin-top:60px}
+
+  /* hero picks */
+  .heroes{gap:16px}
+  .hero-card{padding:14px}
+  .hero-card img{width:76px;height:76px}
+  .hero-price{font-size:1.3rem;margin:6px 0}
+
+  /* comparison table: pin # and Tool, hint that it scrolls */
+  .swipe-hint{display:block;margin:-4px 0 8px;font-size:.8rem;color:var(--muted)}
+  #compare table{font-size:.85rem}
+  #compare th,#compare td{padding:9px 10px}
+  #compare tr>:nth-child(1),#compare tr>:nth-child(2){position:sticky;z-index:1;background:var(--card)}
+  #compare tr>:nth-child(1){left:0;width:38px;min-width:38px;max-width:38px}
+  #compare tr>:nth-child(2){left:37px;white-space:normal;min-width:120px;max-width:130px;
+    box-shadow:6px 0 8px -6px rgba(0,0,0,.9)}
+  #compare tr>th:nth-child(-n+2){background:#181c23}
+  #compare tr.avoid-row>:nth-child(-n+2){background:#2a1414}
+
+  /* product cards: price + sales note on one line, full-width buy button under */
+  .card{padding:16px;margin:14px 0}
+  .card-head{gap:12px}
+  .card-title h3{font-size:1.05rem}
+  .card-buy{display:grid;grid-template-columns:1fr auto;align-items:center;gap:8px 12px;margin-top:4px}
+  .card-buy .price{grid-row:1;grid-column:1;font-size:1.45rem}
+  .card-buy .tiny{grid-row:1;grid-column:2}
+  .card-buy .btn{grid-row:2;grid-column:1/-1;text-align:center;padding:13px 16px;font-size:1rem;margin:0}
+  .verdict{margin:14px 0 12px;font-size:.98rem}
+  .avoid-card{padding:18px 16px}
+
+  /* home: less nested padding */
+  details.cats{padding:12px}
+  .cat-grid{gap:12px}
+  .cat-card{padding:16px}
+  .cat-picks{margin:8px 0}
+
+  /* back to top */
+  .to-top{display:flex;align-items:center;justify-content:center;position:fixed;right:16px;bottom:18px;z-index:30;
+    width:44px;height:44px;border-radius:50%;background:var(--brand);color:#231400;font-weight:800;font-size:1.2rem;
+    box-shadow:0 4px 14px rgba(0,0,0,.6);opacity:0;pointer-events:none;transition:opacity .2s}
+  .to-top.show{opacity:1;pointer-events:auto}
 }
 """
 
