@@ -280,6 +280,7 @@ _TRACKING_FORMATS = {
     "ga4_measurement_id": r"G-[A-Z0-9]{4,16}",
     "google_site_verification": r"[A-Za-z0-9_-]{20,100}",
     "bing_site_verification": r"[A-F0-9]{32}",
+    "pinterest_site_verification": r"[a-f0-9]{32}",
     "indexnow_key": r"[a-f0-9]{32}",
 }
 
@@ -310,6 +311,8 @@ def tracking_head(ids, is_home):
         tags.append(f'<meta name="google-site-verification" content="{ids["google_site_verification"]}">')
     if is_home and ids.get("bing_site_verification"):
         tags.append(f'<meta name="msvalidate.01" content="{ids["bing_site_verification"]}">')
+    if is_home and ids.get("pinterest_site_verification"):
+        tags.append(f'<meta name="p:domain_verify" content="{ids["pinterest_site_verification"]}">')
     if ids.get("cloudflare_beacon_token"):
         tags.append("<script type=\"module\" src=\"https://static.cloudflareinsights.com/beacon.min.js\" "
                     f"data-cf-beacon='{{\"token\": \"{ids['cloudflare_beacon_token']}\"}}'></script>")
