@@ -573,6 +573,10 @@ FEATURE_PROSE = {
     "vac_port": "a vacuum port", "variable_speed": "variable speed", "vsr": "a variable-speed reversing trigger",
     "water_resistant": "water resistance", "wide_jaw": "a wide jaw opening", "wood_top": "a wood worktop",
     "zippered": "a zippered closure",
+    # table saws / miter saws (queued in data/category-queue.json)
+    "stand": "a stand", "rack_pinion_fence": "a rack-and-pinion fence", "dado": "dado-blade capability",
+    "soft_start": "a soft start", "sliding": "a sliding rail for wider cuts", "dual_bevel": "dual bevel",
+    "cut_guide": "a laser or LED cut guide",
 }
 
 
