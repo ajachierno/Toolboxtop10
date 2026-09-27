@@ -959,6 +959,17 @@ def load_brands():
 
 
 BRANDS = [b for b in load_brands() if b.get("enabled")]
+for _b in BRANDS:
+    for _k in ("button", "button_text"):
+        if _b.get(_k) and not re.fullmatch(r"#[0-9A-Fa-f]{6}", _b[_k]):
+            raise SystemExit(f"data/brands.json: {_b['brand']} {_k}={_b[_k]!r} is not a #RRGGBB color")
+
+
+def brand_style(cfg):
+    """Inline CSS variables so this brand's buttons use its own colors."""
+    if not cfg.get("button"):
+        return ""
+    return f' style="--brand-btn:{cfg["button"]};--brand-btn-ink:{cfg.get("button_text", "#000000")}"'
 
 
 def brand_platform(p, cfg):
@@ -1058,6 +1069,7 @@ def build_brand_page(site, cfg, by_slug):
     related_html = f'<section class="guide"><h2>More guides</h2><ul class="vs-related">{related}</ul></section>' if related else ""
     body = f"""
   {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
+  <div class="brand-theme"{brand_style(cfg)}>
   <section class="lead">
     <h1>{esc(cfg['title'])}</h1>
     <p class="sub">{esc(cfg['subtitle'])}</p>
@@ -1072,7 +1084,8 @@ def build_brand_page(site, cfg, by_slug):
   {''.join(sections)}
   {miss}
   <section class="guide"><h2>{brand} questions</h2>{render_guide(cfg.get('faq', []))}</section>
-  {related_html}"""
+  {related_html}
+  </div>"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     return _write_hub(site, cfg, body, dates, _itemlist(cfg["title"], chosen, base) if base else None)
 
@@ -1085,7 +1098,7 @@ def build_brands(site, cats):
 def render_brand_strip():
     if not BRANDS:
         return ""
-    links = "".join(f'<a class="btn ghost-btn" href="{b["slug"]}.html">Best {esc(b["brand"])} tools &rarr;</a>' for b in BRANDS)
+    links = "".join(f'<a class="btn ghost-btn brand-btn" href="{b["slug"]}.html"{brand_style(b)}>Best {esc(b["brand"])} tools &rarr;</a>' for b in BRANDS)
     return f"""
   <section class="deals seasonal-strip brand-strip">
     <h2>Shop by brand</h2>
@@ -1428,6 +1441,10 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .brand-vs{margin:0 0 6px;color:var(--muted)} .brand-vs b{color:var(--ink)} .brand-vs a,.brand-also a{color:var(--brand-ink)}
 .brand-missing{columns:2} .brand-missing a{color:var(--brand-ink)}
 .ghost-btn{background:var(--card-2);color:var(--ink);border:1px solid var(--line)} .ghost-btn:hover{border-color:var(--brand)}
+/* brand pages: buy buttons and the home "Shop by brand" buttons take the brand's own colors */
+.brand-theme .brand-card .btn,.brand-btn[style]{background:var(--brand-btn);color:var(--brand-btn-ink);border-color:var(--brand-btn)}
+.brand-theme .brand-card .btn:hover,.brand-btn[style]:hover{filter:brightness(1.1)}
+.brand-theme .brand-card .btn:focus-visible,.brand-btn[style]:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .vs-link{margin:14px 0 0;color:var(--muted)} .vs-link a{color:var(--brand-ink)}
 .vs-verdict p{margin:.5em 0 0} .vs-verdict a{color:var(--brand-ink)}
 .vs-table{min-width:0;table-layout:fixed} .vs-table th,.vs-table td{white-space:normal;overflow-wrap:anywhere;padding:10px 8px}
