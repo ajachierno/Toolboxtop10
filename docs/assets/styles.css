@@ -121,6 +121,11 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .pick-more{color:var(--brand-ink)}
 .seasonal-strip .strip-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
 .bf-table a{color:var(--brand-ink)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tag{display:inline-block;border:1px solid var(--line);background:var(--card-2);color:var(--ink);font-size:.72rem;font-weight:700;padding:2px 9px;border-radius:20px}
+.brand-vs{margin:0 0 6px;color:var(--muted)} .brand-vs b{color:var(--ink)} .brand-vs a,.brand-also a{color:var(--brand-ink)}
+.brand-missing{columns:2} .brand-missing a{color:var(--brand-ink)}
+.ghost-btn{background:var(--card-2);color:var(--ink);border:1px solid var(--line)} .ghost-btn:hover{border-color:var(--brand)}
 .vs-link{margin:14px 0 0;color:var(--muted)} .vs-link a{color:var(--brand-ink)}
 .vs-verdict p{margin:.5em 0 0} .vs-verdict a{color:var(--brand-ink)}
 .vs-table{min-width:0;table-layout:fixed} .vs-table th,.vs-table td{white-space:normal;overflow-wrap:anywhere;padding:10px 8px}
