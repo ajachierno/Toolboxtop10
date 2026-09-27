@@ -307,7 +307,7 @@ def all_pins(site, year, cats, by_group):
     Black Friday first (the season is now), then top-3 and avoid pins interleaved."""
     pins = []
     for cfg in build.SEASONAL.get("gifts", []):
-        if not cfg.get("enabled"):
+        if not cfg.get("enabled") or cfg.get("kind") == "premium":  # price-band gift pins only
             continue
         for group in ("wireless", "wired", "hand", "storage"):
             picks = [(cat, build.gift_pick(cat, cfg["min_price"], cfg["max_price"]))

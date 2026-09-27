@@ -753,7 +753,7 @@ SEASONAL = load_seasonal()
 def seasonal_pages():
     """[(slug, label, link_from)] of enabled seasonal pages, for cross-links, the home strip
     and sitemap. link_from: on-site links stay hidden until this date (see reveal_attr)."""
-    out = [(g["slug"], g["title"].split(" (")[0], g.get("link_from"))
+    out = [(g["slug"], g.get("label") or g["title"].split(" (")[0], g.get("link_from"))
            for g in SEASONAL.get("gifts", []) if g.get("enabled")]
     bf = SEASONAL.get("black_friday")
     if bf and bf.get("enabled"):
@@ -791,7 +791,7 @@ def cat_name(cat):
     return re.sub(r"^The \d+ Best ", "", cat["title"])
 
 
-def render_pick_card(p, cat, site, label=None, price_note=""):
+def render_pick_card(p, cat, site, label=None, price_note="", tags=""):
     url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
     tag = f'<span class="badge {esc(p["badge_kind"] or "")}">{esc(label)}</span>' if label else ""
     return f"""
@@ -804,6 +804,7 @@ def render_pick_card(p, cat, site, label=None, price_note=""):
             <h3>{esc(p['name'])}</h3>
             <div class="rate">{stars(p['rating'])} <b>{p['rating']}</b>
               <span class="muted">{p['reviews_count']:,} reviews &middot; score {p['score']}/100</span></div>
+            {f'<div class="tags">{tags}</div>' if tags else ''}
           </div>
           <div class="card-buy">
             <div class="price">{money(p['price'])}</div>
@@ -816,10 +817,14 @@ def render_pick_card(p, cat, site, label=None, price_note=""):
       </article>"""
 
 
-def _grouped(site, by_slug, pick):
-    """Picks per home group, in home-page order. pick(cat) -> html or ''."""
+TOOLS_FIRST = {"wireless": 0, "wired": 1, "hand": 2, "storage": 3}
+
+
+def _grouped(site, by_slug, pick, order=None):
+    """Picks per home group, in home-page order (or by `order`). pick(cat) -> html or ''."""
     out = []
-    for label, _sub, key in HOME_GROUPS:
+    groups = sorted(HOME_GROUPS, key=lambda g: order.get(g[2], 9)) if order else HOME_GROUPS
+    for label, _sub, key in groups:
         cards = [pick(by_slug[c["slug"]]) for c in site["categories"]
                  if c.get("power") == key and c["slug"] in by_slug]
         cards = [c for c in cards if c]
@@ -858,18 +863,43 @@ def _itemlist(name, items, base):
                  "url": f"{base}/{cat['slug']}.html#{p['asin']}"} for i, (cat, p) in enumerate(items, 1)]}
 
 
+def premium_tags(p, cat, cordless):
+    """Battery platform + bare-tool warning for a cordless premium pick (pro cordless
+    tools are often sold tool-only, which is only a good gift for a brand owner)."""
+    if not cordless:
+        return ""
+    tags = []
+    brand = next((b for b in BRANDS if b["brand"].lower() == p["brand"].lower()), None)
+    plat = brand_platform(p, brand) if brand else None
+    if plat:
+        tags.append(f'<span class="tag">{esc(p["brand"])} {esc(plat)}</span>')
+    if any("kit" in x["features"] for x in cat["products"]):
+        tags.append('<span class="tag">Kit: battery + charger</span>' if p["features"].get("kit")
+                    else '<span class="tag">Bare tool: battery sold separately</span>')
+    return "".join(tags)
+
+
 def build_gift_page(site, cfg, by_slug):
-    lo, hi = cfg["min_price"], cfg["max_price"]
+    premium = cfg.get("kind") == "premium"
+    lo, hi = cfg.get("min_price", 0), cfg.get("max_price", 0)
+    power = {c["slug"]: c.get("power") for c in site["categories"]}
     chosen = []
 
     def pick(cat):
-        p = gift_pick(cat, lo, hi)
+        if premium:
+            p = next((x for x in sorted(cat["products"], key=lambda x: x["rank"]) if x.get("premium")), None)
+        else:
+            p = gift_pick(cat, lo, hi)
         if not p:
             return ""
         chosen.append((cat, p))
-        return render_pick_card(p, cat, site, price_note=f"price on {esc(cat_date(cat, site))}")
+        note = f"price on {esc(cat_date(cat, site))}"
+        if premium:
+            return render_pick_card(p, cat, site, "Money No Object", note,
+                                    premium_tags(p, cat, power.get(cat["slug"]) == "wireless"))
+        return render_pick_card(p, cat, site, price_note=note)
 
-    groups = _grouped(site, by_slug, pick)
+    groups = _grouped(site, by_slug, pick, TOOLS_FIRST if premium else None)
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     dates = [cat_date(cat, site) for cat, _ in chosen]
     body = f"""
@@ -878,7 +908,7 @@ def build_gift_page(site, cfg, by_slug):
     <h1>{esc(cfg['title'])}</h1>
     <p class="sub">{esc(cfg['subtitle'])}</p>
     <p class="intro">{esc(cfg['intro'])}</p>
-    <p class="muted">{len(chosen)} gifts, one per category. Prices were captured from Amazon
+    <p class="muted">{len(chosen)} gifts, one per category{f", from {money(min(p['price'] for _, p in chosen))} to {money(max(p['price'] for _, p in chosen))}" if premium and chosen else ""}. Prices were captured from Amazon
     {f"on {esc(min(dates))}" if dates and min(dates) == max(dates) else f"between {esc(min(dates))} and {esc(max(dates))}" if dates else ""}
     and change often, so check the live price before you buy.</p>
   </section>
@@ -1053,8 +1083,7 @@ def build_brand_page(site, cfg, by_slug):
     chosen, missing, dates, total, n_top, n_overall = [], [], [], 0, 0, 0
     sections = []
     # Battery platform is why people stay loyal, so cordless leads; storage goes last.
-    order = {"wireless": 0, "wired": 1, "hand": 2, "storage": 3}
-    for label, _sub, key in sorted(HOME_GROUPS, key=lambda g: order.get(g[2], 9)):
+    for label, _sub, key in sorted(HOME_GROUPS, key=lambda g: TOOLS_FIRST.get(g[2], 9)):
         cards = []
         for c in site["categories"]:
             if c.get("power") != key or c["slug"] not in by_slug:
