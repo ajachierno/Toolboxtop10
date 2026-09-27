@@ -31,3 +31,9 @@ is set via the `CNAME` file (generated from `data/site.json` -> `custom_domain`)
 
 Set `affiliate_tag` in `data/site.json` to your Amazon Associates tracking ID, then rebuild.
 Every "buy" link becomes `https://www.amazon.com/dp/<ASIN>?tag=<TAG>&linkCode=ll1`.
+
+## Requesting new categories
+
+Add an entry to `data/category-queue.json` (slug, title, power group, and suggested
+specs/scoring). The scheduled category skill builds the first queued entry on its next
+run and removes it from the queue in the same commit. `build.py` does not read the queue.
