@@ -381,7 +381,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
   here were captured on the date shown and are not guaranteed to be current.</p>
   <p class="muted">{home_link} &nbsp; Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
-</body>
+{REVEAL_JS + chr(10) if 'data-show-from' in body else ''}</body>
 </html>"""
 
 
@@ -751,12 +751,28 @@ SEASONAL = load_seasonal()
 
 
 def seasonal_pages():
-    """[(slug, label)] of enabled seasonal pages, for cross-links, the home strip and sitemap."""
-    out = [(g["slug"], g["title"].split(" (")[0]) for g in SEASONAL.get("gifts", []) if g.get("enabled")]
+    """[(slug, label, link_from)] of enabled seasonal pages, for cross-links, the home strip
+    and sitemap. link_from: on-site links stay hidden until this date (see reveal_attr)."""
+    out = [(g["slug"], g["title"].split(" (")[0], g.get("link_from"))
+           for g in SEASONAL.get("gifts", []) if g.get("enabled")]
     bf = SEASONAL.get("black_friday")
     if bf and bf.get("enabled"):
-        out.append((bf["slug"], f"Black Friday Tool Deals {bf['year']}"))
+        out.append((bf["slug"], f"Black Friday Tool Deals {bf['year']}", bf.get("link_from")))
     return out
+
+
+def reveal_attr(link_from):
+    """Hide a link until link_from (YYYY-MM-DD). The page itself stays live and in the
+    sitemap, so search engines index it; REVEAL_JS un-hides the link on the day, and any
+    build after that date renders it plainly."""
+    if not link_from or datetime.date.today() >= datetime.date.fromisoformat(link_from):
+        return ""
+    return f' hidden data-show-from="{esc(link_from)}"'
+
+
+REVEAL_JS = ("<script>document.querySelectorAll('[data-show-from]').forEach(function(e){"
+             "var p=e.getAttribute('data-show-from').split('-');"
+             "if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>")
 
 
 def gift_pick(cat, lo, hi):
@@ -813,7 +829,8 @@ def _grouped(site, by_slug, pick):
 
 
 def _seasonal_related(current):
-    links = "".join(f'<li><a href="{s}.html">{esc(t)}</a></li>' for s, t in seasonal_pages() if s != current)
+    links = "".join(f'<li{reveal_attr(lf)}><a href="{s}.html">{esc(t)}</a></li>'
+                    for s, t, lf in seasonal_pages() if s != current)
     return f'<section class="guide"><h2>More holiday guides</h2><ul class="vs-related">{links}</ul></section>' if links else ""
 
 
@@ -941,11 +958,11 @@ def render_seasonal_strip():
     pages = seasonal_pages()
     if not pages:
         return ""
-    links = "".join(f'<a class="btn" href="{s}.html">{esc(t)} &rarr;</a>' for s, t in pages)
+    links = "".join(f'<a class="btn" href="{s}.html"{reveal_attr(lf)}>{esc(t)} &rarr;</a>' for s, t, lf in pages)
     return f"""
   <section class="deals seasonal-strip">
     <h2>Holiday gift guides</h2>
-    <p>Our top-ranked picks, sorted by budget, plus the regular prices to check Black Friday deals against.</p>
+    <p>Our top-ranked tool picks, sorted by budget.</p>
     <div class="strip-links">{links}</div>
   </section>"""
 
@@ -1065,7 +1082,7 @@ def build_brand_page(site, cfg, by_slug):
                 f'Here are the best picks from any brand:</p><ul class="vs-related brand-missing">{links}</ul></section>')
     others = [b for b in BRANDS if b["slug"] != cfg["slug"]]
     related = "".join(f'<li><a href="{b["slug"]}.html">Best {esc(b["brand"])} tools</a></li>' for b in others)
-    related += "".join(f'<li><a href="{s}.html">{esc(t)}</a></li>' for s, t in seasonal_pages())
+    related += "".join(f'<li{reveal_attr(lf)}><a href="{s}.html">{esc(t)}</a></li>' for s, t, lf in seasonal_pages())
     related_html = f'<section class="guide"><h2>More guides</h2><ul class="vs-related">{related}</ul></section>' if related else ""
     body = f"""
   {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
@@ -1326,6 +1343,7 @@ CSS = r"""
   --radius:14px; --max:1060px;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 body{margin:0;background:var(--bg);color:var(--ink);
   font:16px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
