@@ -40,8 +40,8 @@
   
   <section class="deals seasonal-strip">
     <h2>Holiday gift guides</h2>
-    <p>Our top-ranked picks, sorted by budget, plus the regular prices to check Black Friday deals against.</p>
-    <div class="strip-links"><a class="btn" href="tool-gifts-under-50.html">Best Tool Gifts Under $50 &rarr;</a><a class="btn" href="tool-gifts-under-100.html">Best Tool Gifts Under $100 &rarr;</a><a class="btn" href="black-friday-tool-deals.html">Black Friday Tool Deals 2026 &rarr;</a></div>
+    <p>Our top-ranked tool picks, sorted by budget.</p>
+    <div class="strip-links"><a class="btn" href="tool-gifts-under-50.html">Best Tool Gifts Under $50 &rarr;</a><a class="btn" href="tool-gifts-under-100.html">Best Tool Gifts Under $100 &rarr;</a><a class="btn" href="black-friday-tool-deals.html" hidden data-show-from="2026-11-15">Black Friday Tool Deals 2026 &rarr;</a></div>
   </section>
   
   <section class="deals seasonal-strip brand-strip">
@@ -414,5 +414,6 @@
   here were captured on the date shown and are not guaranteed to be current.</p>
   <p class="muted"> &nbsp; Last updated on 2026-09-26. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
+<script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
 </body>
 </html>
