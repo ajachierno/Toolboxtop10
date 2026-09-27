@@ -38,6 +38,18 @@
     <p class="sub">Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.</p>
   </section>
   
+  <section class="deals seasonal-strip">
+    <h2>Holiday gift guides</h2>
+    <p>Our top-ranked picks, sorted by budget, plus the regular prices to check Black Friday deals against.</p>
+    <div class="strip-links"><a class="btn" href="tool-gifts-under-50.html">Best Tool Gifts Under $50 &rarr;</a><a class="btn" href="tool-gifts-under-100.html">Best Tool Gifts Under $100 &rarr;</a><a class="btn" href="black-friday-tool-deals.html">Black Friday Tool Deals 2026 &rarr;</a></div>
+  </section>
+  
+  <section class="deals seasonal-strip brand-strip">
+    <h2>Shop by brand</h2>
+    <p>Staying on one battery platform? The top-ranked tool from each brand, in every category.</p>
+    <div class="strip-links"><a class="btn ghost-btn brand-btn" href="best-dewalt-tools.html" style="--brand-btn:#FEBD17;--brand-btn-ink:#000000">Best DEWALT tools &rarr;</a><a class="btn ghost-btn brand-btn" href="best-milwaukee-tools.html" style="--brand-btn:#DB011C;--brand-btn-ink:#FFFFFF">Best Milwaukee tools &rarr;</a><a class="btn ghost-btn brand-btn" href="best-craftsman-tools.html" style="--brand-btn:#D6001C;--brand-btn-ink:#FFFFFF">Best CRAFTSMAN tools &rarr;</a><a class="btn ghost-btn brand-btn" href="best-makita-tools.html" style="--brand-btn:#008C95;--brand-btn-ink:#FFFFFF">Best Makita tools &rarr;</a></div>
+  </section>
+  
   <section class="quicknav" aria-labelledby="qn-h">
     <h2 id="qn-h">Quick navigation</h2>
     <p class="group-sub">Pick a category, choose a tool, and jump straight to its top&#8209;10 list.</p>
@@ -78,21 +90,11 @@
     })();
     </script>
   </section>
-  
-  <section class="deals seasonal-strip">
-    <h2>Holiday gift guides</h2>
-    <p>Our top-ranked picks, sorted by budget, plus the regular prices to check Black Friday deals against.</p>
-    <div class="strip-links"><a class="btn" href="tool-gifts-under-50.html">Best Tool Gifts Under $50 &rarr;</a><a class="btn" href="tool-gifts-under-100.html">Best Tool Gifts Under $100 &rarr;</a><a class="btn" href="black-friday-tool-deals.html">Black Friday Tool Deals 2026 &rarr;</a></div>
-  </section>
-  
-  <section class="deals seasonal-strip brand-strip">
-    <h2>Shop by brand</h2>
-    <p>Staying on one battery platform? The top-ranked tool from each brand, in every category.</p>
-    <div class="strip-links"><a class="btn ghost-btn brand-btn" href="best-dewalt-tools.html" style="--brand-btn:#FEBD17;--brand-btn-ink:#000000">Best DEWALT tools &rarr;</a><a class="btn ghost-btn brand-btn" href="best-milwaukee-tools.html" style="--brand-btn:#DB011C;--brand-btn-ink:#FFFFFF">Best Milwaukee tools &rarr;</a><a class="btn ghost-btn brand-btn" href="best-craftsman-tools.html" style="--brand-btn:#D6001C;--brand-btn-ink:#FFFFFF">Best CRAFTSMAN tools &rarr;</a><a class="btn ghost-btn brand-btn" href="best-makita-tools.html" style="--brand-btn:#008C95;--brand-btn-ink:#FFFFFF">Best Makita tools &rarr;</a></div>
-  </section>
+  <h2 class="shop-head">Shop by category</h2>
   
   <details class="cats">
     <summary><h2>Tool storage</h2></summary>
+    <button type="button" class="cats-collapse" hidden>Collapse</button>
     <p class="group-sub">Boxes, chests, cabinets, and bags &mdash; keep every tool organized, portable, and secure.</p>
     <div class="cat-grid">
       <a class="cat-card" href="rolling-tool-chests.html">
@@ -125,6 +127,7 @@
   </details>
   <details class="cats">
     <summary><h2>Wireless tools</h2></summary>
+    <button type="button" class="cats-collapse" hidden>Collapse</button>
     <p class="group-sub">Battery powered &mdash; cut, drive, and drill anywhere, no cord.</p>
     <div class="cat-grid">
       <a class="cat-card" href="cordless-jigsaws.html">
@@ -220,6 +223,7 @@
   </details>
   <details class="cats">
     <summary><h2>Wired tools</h2></summary>
+    <button type="button" class="cats-collapse" hidden>Collapse</button>
     <p class="group-sub">Corded &mdash; full unlimited power for the least money, never a dead battery.</p>
     <div class="cat-grid">
       <a class="cat-card" href="corded-drills.html">
@@ -315,6 +319,7 @@
   </details>
   <details class="cats">
     <summary><h2>Hand tools</h2></summary>
+    <button type="button" class="cats-collapse" hidden>Collapse</button>
     <p class="group-sub">No batteries, no cords &mdash; the essentials every toolbox needs.</p>
     <div class="cat-grid">
       <a class="cat-card" href="claw-hammers.html">
@@ -400,7 +405,7 @@
     live Amazon listing &mdash; click through to see what a tool actually costs today
     before you buy.</p>
   </section>
-  <script>(function(){document.querySelectorAll('details.cats').forEach(function(d){d.addEventListener('mouseenter',function(){d.open=true;});d.addEventListener('mouseleave',function(){d.open=false;});});})();</script>
+  <script>(function(){document.querySelectorAll('details.cats').forEach(function(d){var s=d.querySelector('summary'),c=d.querySelector('.cats-collapse');c.hidden=false;d.addEventListener('mouseenter',function(){d.open=true;});s.addEventListener('click',function(e){e.preventDefault();d.open=true;});c.addEventListener('click',function(){d.open=false;s.focus();});});})();</script>
 </main>
 <footer>
   <p class="disclosure"><b>Affiliate disclosure.</b> ToolboxTop10 is reader-supported.

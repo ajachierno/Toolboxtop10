@@ -1221,6 +1221,7 @@ def build_home(site, cats):
         sections.append(
             f'\n  <details class="cats">'
             f'\n    <summary><h2>{esc(label)}</h2></summary>'
+            f'\n    <button type="button" class="cats-collapse" hidden>Collapse</button>'
             f'\n    <p class="group-sub">{sub}</p>'
             f'\n    <div class="cat-grid">{cards}</div>\n  </details>')
         nav_groups.append((label, key, members))
@@ -1241,21 +1242,25 @@ def build_home(site, cats):
         major = sorted(order, key=lambda b: (-counts[b], order.index(b)))
     major = major[:10]
     dates = [cat_date(entry[0], site) for entry in by_slug.values()] or [site["updated"]]
-    # Collapsed groups open while hovered (and via the native click/tap toggle),
-    # then collapse again when the pointer leaves.
+    # Groups open on hover or click/tap and stay open; only the Collapse button
+    # closes one. (Without JS the native <details> toggle still works.)
     hover_js = ("(function(){document.querySelectorAll('details.cats')"
                 ".forEach(function(d){"
+                "var s=d.querySelector('summary'),c=d.querySelector('.cats-collapse');"
+                "c.hidden=false;"
                 "d.addEventListener('mouseenter',function(){d.open=true;});"
-                "d.addEventListener('mouseleave',function(){d.open=false;});"
+                "s.addEventListener('click',function(e){e.preventDefault();d.open=true;});"
+                "c.addEventListener('click',function(){d.open=false;s.focus();});"
                 "});})();")
     body = f"""
   <section class="lead home">
     <h1>{esc(site['brand'])}</h1>
     <p class="sub">{esc(site['description'])}</p>
   </section>
-  {render_quicknav(nav_groups)}
   {render_seasonal_strip()}
   {render_brand_strip()}
+  {render_quicknav(nav_groups)}
+  <h2 class="shop-head">Shop by category</h2>
   {''.join(sections)}
   {render_home_deals(major, site, min(dates), max(dates))}
   <script>{hover_js}</script>"""
@@ -1459,7 +1464,8 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .deals p{margin:0;color:var(--muted);max-width:80ch}
 .deals b{color:var(--ink)}
 /* collapsible home groups (heading only until hover/click) */
-details.cats{margin:1.6rem 0 0;border-top:1px solid var(--line);padding-top:1.1rem}
+.shop-head{margin:2.4rem 0 0}
+details.cats{--cats-top:1.1rem;--cats-side:16px;position:relative;margin:1.2rem 0 0;border-top:1px solid var(--line);padding-top:var(--cats-top)}
 details.cats>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:12px}
 details.cats>summary::-webkit-details-marker{display:none}
 details.cats>summary h2{margin:0}
@@ -1467,6 +1473,17 @@ details.cats>summary::after{content:"";margin-left:auto;flex:none;width:9px;heig
   border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);
   transform:rotate(45deg);transition:transform .15s}
 details.cats[open]>summary::after{transform:rotate(-135deg)}
+/* open groups swap the chevron for a Collapse button in the same spot */
+details.cats[open]>summary{padding-right:120px}
+details.cats[open]:has(.cats-collapse:not([hidden]))>summary::after{display:none}
+.cats-collapse{display:none;position:absolute;top:var(--cats-top);right:var(--cats-side);margin-top:3px;
+  background:var(--card-2);color:var(--ink);border:1px solid var(--line);border-radius:9px;
+  padding:6px 12px;font:600 .85rem/1.2 inherit;font-family:inherit;cursor:pointer}
+details.cats[open]>.cats-collapse:not([hidden]){display:inline-flex;align-items:center;gap:6px}
+.cats-collapse::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;
+  transform:rotate(-135deg);margin-top:4px}
+.cats-collapse:hover{border-color:var(--brand);color:var(--brand-ink)}
+.cats-collapse:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 details.cats>summary:hover h2{color:var(--brand-ink)}
 details.cats>summary:hover::after{border-color:var(--brand-ink)}
 details.cats>summary:focus-visible{outline:2px solid var(--brand);outline-offset:3px;border-radius:6px}
@@ -1571,7 +1588,7 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
   .avoid-card{padding:18px 16px}
 
   /* home: less nested padding */
-  details.cats{padding:12px}
+  details.cats{padding:12px;--cats-top:12px;--cats-side:12px}
   .cat-grid{gap:12px}
   .cat-card{padding:16px}
   .cat-picks{margin:8px 0}
