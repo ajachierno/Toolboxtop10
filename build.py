@@ -968,7 +968,7 @@ def brand_platform(p, cfg):
     return None
 
 
-def render_brand_card(p, cat, site, cfg, others):
+def render_brand_card(p, cat, site, cfg, others, cordless):
     url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
     name = cat_name(cat)
     ranked = sorted(cat["products"], key=lambda x: x["rank"])
@@ -977,7 +977,8 @@ def render_brand_card(p, cat, site, cfg, others):
     plat = brand_platform(p, cfg)
     if plat:
         tags.append(f'<span class="tag">{esc(plat)}</span>')
-    if any("kit" in x["features"] for x in cat["products"]):
+    # "kit" means battery + charger only for cordless tools (corded kits are case/accessory kits).
+    if cordless and any("kit" in x["features"] for x in cat["products"]):
         tags.append('<span class="tag">Kit: battery + charger</span>' if p["features"].get("kit")
                     else '<span class="tag">Bare tool: battery sold separately</span>')
     if p["badge"]:
@@ -1041,7 +1042,7 @@ def build_brand_page(site, cfg, by_slug):
             total += len(mine)
             n_top += p["rank"] == 1
             n_overall += p["badge_kind"] == "overall"
-            cards.append(render_brand_card(p, cat, site, cfg, mine[1:]))
+            cards.append(render_brand_card(p, cat, site, cfg, mine[1:], key == "wireless"))
         if cards:
             sections.append(f'<section class="pick-group"><h2>{esc(label)}</h2>{"".join(cards)}</section>')
     brand = esc(cfg["brand"])
