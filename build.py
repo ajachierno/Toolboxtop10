@@ -817,7 +817,7 @@ def _seasonal_related(current):
     return f'<section class="guide"><h2>More holiday guides</h2><ul class="vs-related">{links}</ul></section>' if links else ""
 
 
-def _write_seasonal(site, cfg, body, captured_dates, extra_sd=None):
+def _write_hub(site, cfg, body, captured_dates, extra_sd=None):
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     canonical = f"{base}/{cfg['slug']}.html" if base else ""
     faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
@@ -868,7 +868,7 @@ def build_gift_page(site, cfg, by_slug):
   {groups}
   <section class="guide"><h2>Gift-buying questions</h2>{render_guide(cfg.get('faq', []))}</section>
   {_seasonal_related(cfg['slug'])}"""
-    return _write_seasonal(site, cfg, body, dates, _itemlist(cfg["title"], chosen, base) if base else None)
+    return _write_hub(site, cfg, body, dates, _itemlist(cfg["title"], chosen, base) if base else None)
 
 
 def _long_date(iso):
@@ -921,7 +921,7 @@ def build_black_friday(site, cfg, by_slug):
   {groups}
   <section class="guide"><h2>Black Friday tool questions</h2>{render_guide(cfg.get('faq', []))}</section>
   {_seasonal_related(cfg['slug'])}"""
-    return _write_seasonal(site, cfg, body, dates)
+    return _write_hub(site, cfg, body, dates)
 
 
 def build_seasonal(site, cats):
@@ -946,6 +946,149 @@ def render_seasonal_strip():
   <section class="deals seasonal-strip">
     <h2>Holiday gift guides</h2>
     <p>Our top-ranked picks, sorted by budget, plus the regular prices to check Black Friday deals against.</p>
+    <div class="strip-links">{links}</div>
+  </section>"""
+
+
+# ------------------------------------------------------------------ brand hub pages
+# "Best DEWALT tools" etc.: the brand's top-ranked product in every category where it
+# made our top 10, for readers staying on one battery platform. Copy in data/brands.json.
+def load_brands():
+    path = DATA / "brands.json"
+    return json.loads(path.read_text(encoding="utf-8")).get("brands", []) if path.exists() else []
+
+
+BRANDS = [b for b in load_brands() if b.get("enabled")]
+
+
+def brand_platform(p, cfg):
+    for rule in cfg.get("platforms", []):
+        if re.search(rule["match"], p["name"], re.I):
+            return rule["label"]
+    return None
+
+
+def render_brand_card(p, cat, site, cfg, others):
+    url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
+    name = cat_name(cat)
+    ranked = sorted(cat["products"], key=lambda x: x["rank"])
+    top = ranked[0]
+    tags = []
+    plat = brand_platform(p, cfg)
+    if plat:
+        tags.append(f'<span class="tag">{esc(plat)}</span>')
+    if any("kit" in x["features"] for x in cat["products"]):
+        tags.append('<span class="tag">Kit: battery + charger</span>' if p["features"].get("kit")
+                    else '<span class="tag">Bare tool: battery sold separately</span>')
+    if p["badge"]:
+        tags.append(f'<span class="badge {esc(p["badge_kind"])}">{esc(p["badge"])}</span>')
+    if p["badge_kind"] == "overall":
+        verdict = f"This is also our <b>Best Overall</b> {esc(name.lower())} pick, from any brand."
+    elif p["rank"] == 1:
+        verdict = f"The <b>highest score of any brand</b> in our {esc(name.lower())} list."
+    else:
+        verdict = (f'Top score from any brand: the <a href="{esc(cat["slug"])}.html#{esc(top["asin"])}">'
+                   f'{esc(_short(top))}</a> ({top["score"]}/100), {top["score"] - p["score"]} '
+                   f'point{"s" if top["score"] - p["score"] != 1 else ""} ahead.')
+    also = ""
+    if others:
+        links = ", ".join(f'<a href="{esc(cat["slug"])}.html#{esc(o["asin"])}">{esc(o["model"])}</a> (#{o["rank"]})'
+                          for o in others)
+        also = f'<p class="tiny muted brand-also">Also in our top 10: {links}</p>'
+    return f"""
+      <article class="card pick-card brand-card" id="{esc(cat['slug'])}">
+        <div class="card-head">
+          <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
+          <div class="card-title">
+            <div class="brand">{esc(name)} &middot; ranked #{p['rank']} of {len(cat['products'])}</div>
+            <h3>{esc(p['name'])}</h3>
+            <div class="rate">{stars(p['rating'])} <b>{p['rating']}</b>
+              <span class="muted">{p['reviews_count']:,} reviews &middot; score {p['score']}/100</span></div>
+            <div class="tags">{"".join(tags)}</div>
+          </div>
+          <div class="card-buy">
+            <div class="price">{money(p['price'])}</div>
+            <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">price on {esc(cat_date(cat, site))}</div>
+          </div>
+        </div>
+        <p class="verdict">{esc(p['verdict'])}</p>
+        <p class="brand-vs">{verdict}</p>
+        {also}
+        <p class="tiny"><a class="pick-more" href="{esc(cat['slug'])}.html">See all 10 {esc(name.lower())} &rarr;</a></p>
+      </article>"""
+
+
+def build_brand_page(site, cfg, by_slug):
+    want = cfg["brand"].lower()
+    chosen, missing, dates, total, n_top, n_overall = [], [], [], 0, 0, 0
+    sections = []
+    # Battery platform is why people stay loyal, so cordless leads; storage goes last.
+    order = {"wireless": 0, "wired": 1, "hand": 2, "storage": 3}
+    for label, _sub, key in sorted(HOME_GROUPS, key=lambda g: order.get(g[2], 9)):
+        cards = []
+        for c in site["categories"]:
+            if c.get("power") != key or c["slug"] not in by_slug:
+                continue
+            cat = by_slug[c["slug"]]
+            mine = sorted((p for p in cat["products"] if p["brand"].lower() == want), key=lambda p: p["rank"])
+            if not mine:
+                missing.append(cat)
+                continue
+            p = mine[0]
+            chosen.append((cat, p))
+            dates.append(cat_date(cat, site))
+            total += len(mine)
+            n_top += p["rank"] == 1
+            n_overall += p["badge_kind"] == "overall"
+            cards.append(render_brand_card(p, cat, site, cfg, mine[1:]))
+        if cards:
+            sections.append(f'<section class="pick-group"><h2>{esc(label)}</h2>{"".join(cards)}</section>')
+    brand = esc(cfg["brand"])
+    miss = ""
+    if missing:
+        links = "".join(f'<li><a href="{esc(c["slug"])}.html">{esc(cat_name(c))}</a></li>' for c in missing)
+        miss = (f'<section class="guide"><h2>Where {brand} didn\'t make our top 10</h2>'
+                f'<p class="muted">No {brand} product made these lists when we last checked. '
+                f'Here are the best picks from any brand:</p><ul class="vs-related brand-missing">{links}</ul></section>')
+    others = [b for b in BRANDS if b["slug"] != cfg["slug"]]
+    related = "".join(f'<li><a href="{b["slug"]}.html">Best {esc(b["brand"])} tools</a></li>' for b in others)
+    related += "".join(f'<li><a href="{s}.html">{esc(t)}</a></li>' for s, t in seasonal_pages())
+    related_html = f'<section class="guide"><h2>More guides</h2><ul class="vs-related">{related}</ul></section>' if related else ""
+    body = f"""
+  {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
+  <section class="lead">
+    <h1>{esc(cfg['title'])}</h1>
+    <p class="sub">{esc(cfg['subtitle'])}</p>
+    <p class="intro">{esc(cfg['intro'])}</p>
+  </section>
+  <section class="deals brand-stats">
+    <h2>{brand} at a glance</h2>
+    <p><b>{total} {brand} tools</b> made our top-10 lists, across <b>{len(chosen)} of {len(by_slug)}</b> categories.
+    {brand} scores highest of any brand in <b>{n_top}</b> of them and is our Best Overall pick in <b>{n_overall}</b>.
+    Below is the best {brand} in each category, with an honest note wherever another brand ranked higher.</p>
+  </section>
+  {''.join(sections)}
+  {miss}
+  <section class="guide"><h2>{brand} questions</h2>{render_guide(cfg.get('faq', []))}</section>
+  {related_html}"""
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    return _write_hub(site, cfg, body, dates, _itemlist(cfg["title"], chosen, base) if base else None)
+
+
+def build_brands(site, cats):
+    by_slug = {cat["slug"]: cat for cat, _o, _b in cats}
+    return [(b["slug"], build_brand_page(site, b, by_slug)) for b in BRANDS]
+
+
+def render_brand_strip():
+    if not BRANDS:
+        return ""
+    links = "".join(f'<a class="btn ghost-btn" href="{b["slug"]}.html">Best {esc(b["brand"])} tools &rarr;</a>' for b in BRANDS)
+    return f"""
+  <section class="deals seasonal-strip brand-strip">
+    <h2>Shop by brand</h2>
+    <p>Staying on one battery platform? The top-ranked tool from each brand, in every category.</p>
     <div class="strip-links">{links}</div>
   </section>"""
 
@@ -1098,6 +1241,7 @@ def build_home(site, cats):
   </section>
   {render_quicknav(nav_groups)}
   {render_seasonal_strip()}
+  {render_brand_strip()}
   {''.join(sections)}
   {render_home_deals(major, site, min(dates), max(dates))}
   <script>{hover_js}</script>"""
@@ -1124,7 +1268,7 @@ def main():
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     cats = [build_category(site, f"{c['slug']}.json") for c in site["categories"]]
     build_home(site, cats)
-    seasonal = build_seasonal(site, cats)
+    seasonal = build_seasonal(site, cats) + build_brands(site, cats)
     # sitemap.xml + robots.txt (SEO / Search Console)
     if site.get("custom_domain"):
         base = f"https://{site['custom_domain']}"
@@ -1278,6 +1422,11 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .pick-more{color:var(--brand-ink)}
 .seasonal-strip .strip-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
 .bf-table a{color:var(--brand-ink)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tag{display:inline-block;border:1px solid var(--line);background:var(--card-2);color:var(--ink);font-size:.72rem;font-weight:700;padding:2px 9px;border-radius:20px}
+.brand-vs{margin:0 0 6px;color:var(--muted)} .brand-vs b{color:var(--ink)} .brand-vs a,.brand-also a{color:var(--brand-ink)}
+.brand-missing{columns:2} .brand-missing a{color:var(--brand-ink)}
+.ghost-btn{background:var(--card-2);color:var(--ink);border:1px solid var(--line)} .ghost-btn:hover{border-color:var(--brand)}
 .vs-link{margin:14px 0 0;color:var(--muted)} .vs-link a{color:var(--brand-ink)}
 .vs-verdict p{margin:.5em 0 0} .vs-verdict a{color:var(--brand-ink)}
 .vs-table{min-width:0;table-layout:fixed} .vs-table th,.vs-table td{white-space:normal;overflow-wrap:anywhere;padding:10px 8px}
