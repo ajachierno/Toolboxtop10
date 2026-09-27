@@ -1,5 +1,5 @@
 {
-  "_readme": "Brand hub pages built by build.py from the ranked category data. Each page shows the brand's highest-ranked product in every category where it made our top 10, grouped by battery platform, and says honestly where another brand ranked higher. 'brand' must match the product 'brand' field exactly (case-insensitive). Set \"enabled\": false to drop a page.",
+  "_readme": "Brand hub pages built by build.py from the ranked category data. Each page shows the brand's highest-ranked product in every category where it made our top 10, grouped by battery platform, and says honestly where another brand ranked higher. 'brand' must match the product 'brand' field exactly (case-insensitive). Set \"enabled\": false to drop a page. 'button' / 'button_text' are the brand's own color and the text color it pairs with, used on that brand's buttons.",
   "brands": [
     {
       "enabled": true,
@@ -43,7 +43,9 @@
           "q": "Why isn't DEWALT listed in every category?",
           "a": "We only show DEWALT tools that made our ranked top 10. Where no DEWALT made the cut, we link to that list so you can see the best from any brand."
         }
-      ]
+      ],
+      "button": "#FEBD17",
+      "button_text": "#000000"
     },
     {
       "enabled": true,
@@ -87,7 +89,9 @@
           "q": "Should I buy a bare tool or a kit?",
           "a": "Nearly all the Milwaukee power tools here are bare tools (\"tool only\"), which is how Milwaukee sells best on Amazon. They make sense if you already own M18 or M12 batteries and a charger. If you don't, add a starter battery kit, or pick a kit from our main lists instead."
         }
-      ]
+      ],
+      "button": "#DB011C",
+      "button_text": "#FFFFFF"
     },
     {
       "enabled": true,
@@ -127,7 +131,9 @@
           "q": "Why isn't CRAFTSMAN the top pick in more categories?",
           "a": "CRAFTSMAN makes our top-10 lists often, but in most categories another brand scores higher on ratings, review volume, or features. Each card says who ranked higher and by how much, so you can decide whether staying with CRAFTSMAN is worth it."
         }
-      ]
+      ],
+      "button": "#D6001C",
+      "button_text": "#FFFFFF"
     },
     {
       "enabled": true,
@@ -167,7 +173,9 @@
           "q": "Why are so many of these Makita tools corded?",
           "a": "Because that's where Makita scores best in our data. Its corded angle grinder, random orbit sander, and jigsaw rank near the top of their lists, and corded tools don't tie you to any battery platform."
         }
-      ]
+      ],
+      "button": "#008C95",
+      "button_text": "#FFFFFF"
     }
   ]
 }

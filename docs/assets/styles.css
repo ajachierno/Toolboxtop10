@@ -126,6 +126,10 @@ details p{margin:.6em 0 0;color:var(--muted)}
 .brand-vs{margin:0 0 6px;color:var(--muted)} .brand-vs b{color:var(--ink)} .brand-vs a,.brand-also a{color:var(--brand-ink)}
 .brand-missing{columns:2} .brand-missing a{color:var(--brand-ink)}
 .ghost-btn{background:var(--card-2);color:var(--ink);border:1px solid var(--line)} .ghost-btn:hover{border-color:var(--brand)}
+/* brand pages: buy buttons and the home "Shop by brand" buttons take the brand's own colors */
+.brand-theme .brand-card .btn,.brand-btn[style]{background:var(--brand-btn);color:var(--brand-btn-ink);border-color:var(--brand-btn)}
+.brand-theme .brand-card .btn:hover,.brand-btn[style]:hover{filter:brightness(1.1)}
+.brand-theme .brand-card .btn:focus-visible,.brand-btn[style]:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
 .vs-link{margin:14px 0 0;color:var(--muted)} .vs-link a{color:var(--brand-ink)}
 .vs-verdict p{margin:.5em 0 0} .vs-verdict a{color:var(--brand-ink)}
 .vs-table{min-width:0;table-layout:fixed} .vs-table th,.vs-table td{white-space:normal;overflow-wrap:anywhere;padding:10px 8px}
