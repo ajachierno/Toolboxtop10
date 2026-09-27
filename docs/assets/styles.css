@@ -116,6 +116,11 @@ details p{margin:.6em 0 0;color:var(--muted)}
 /* compact top-of-page toolbar (category pages) */
 .quicknav-bar{margin:6px 0 4px;padding-bottom:14px;border-bottom:1px solid var(--line)}
 /* deals note */
+.pick-group h2{border-top:1px solid var(--line);padding-top:1.2rem}
+.pick-card .badge{margin-bottom:4px} .pick-card .verdict{margin:14px 0 6px}
+.pick-more{color:var(--brand-ink)}
+.seasonal-strip .strip-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.bf-table a{color:var(--brand-ink)}
 .vs-link{margin:14px 0 0;color:var(--muted)} .vs-link a{color:var(--brand-ink)}
 .vs-verdict p{margin:.5em 0 0} .vs-verdict a{color:var(--brand-ink)}
 .vs-table{min-width:0;table-layout:fixed} .vs-table th,.vs-table td{white-space:normal;overflow-wrap:anywhere;padding:10px 8px}
@@ -246,6 +251,9 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
   .cat-grid{gap:12px}
   .cat-card{padding:16px}
   .cat-picks{margin:8px 0}
+
+  /* holiday strip on home */
+  .seasonal-strip .strip-links .btn{flex:1 1 100%;text-align:center}
 
   /* back to top */
   .to-top{display:flex;align-items:center;justify-content:center;position:fixed;right:16px;bottom:18px;z-index:30;

@@ -6,6 +6,7 @@ single 100-point scale, then writes a static site into docs/ (served by GitHub P
 
 No third-party dependencies. Run:  python build.py
 """
+import datetime
 import json
 import math
 import re
@@ -735,6 +736,217 @@ def build_comparison(site, cat, overall, budget, premium, spec_fields, columns):
              structured_data=jsonld(breadcrumb) + jsonld(faq), updated=captured), encoding="utf-8")
 
 
+# --------------------------------------------------------------- seasonal hub pages
+# Gift guides and the Black Friday page, generated from the already-ranked category
+# data so every pick stays in step with its category. Copy lives in data/seasonal.json.
+def load_seasonal():
+    path = DATA / "seasonal.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+SEASONAL = load_seasonal()
+
+
+def seasonal_pages():
+    """[(slug, label)] of enabled seasonal pages, for cross-links, the home strip and sitemap."""
+    out = [(g["slug"], g["title"].split(" (")[0]) for g in SEASONAL.get("gifts", []) if g.get("enabled")]
+    bf = SEASONAL.get("black_friday")
+    if bf and bf.get("enabled"):
+        out.append((bf["slug"], f"Black Friday Tool Deals {bf['year']}"))
+    return out
+
+
+def gift_pick(cat, lo, hi):
+    """Best-scoring product in [lo, hi]. Where a category sells kits, only kits
+    qualify — nobody wants to unwrap a cordless tool with no battery. Unbranded
+    ("Generic") listings are skipped: fine to buy for yourself, a poor gift."""
+    pool = cat["products"]
+    if any("kit" in p["features"] for p in pool):
+        pool = [p for p in pool if p["features"].get("kit")]
+    pool = [p for p in pool if lo <= p["price"] <= hi and p["brand"].lower() != "generic"]
+    return max(pool, key=lambda p: (p["score"], p["reviews_count"])) if pool else None
+
+
+def cat_name(cat):
+    """'The 10 Best Cordless Drills' -> 'Cordless Drills'."""
+    return re.sub(r"^The \d+ Best ", "", cat["title"])
+
+
+def render_pick_card(p, cat, site, label=None, price_note=""):
+    url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
+    tag = f'<span class="badge {esc(p["badge_kind"] or "")}">{esc(label)}</span>' if label else ""
+    return f"""
+      <article class="card pick-card" id="{esc(cat['slug'])}">
+        <div class="card-head">
+          <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
+          <div class="card-title">
+            {tag}
+            <div class="brand">{esc(cat_name(cat))} &middot; {esc(p['brand'])}</div>
+            <h3>{esc(p['name'])}</h3>
+            <div class="rate">{stars(p['rating'])} <b>{p['rating']}</b>
+              <span class="muted">{p['reviews_count']:,} reviews &middot; score {p['score']}/100</span></div>
+          </div>
+          <div class="card-buy">
+            <div class="price">{money(p['price'])}</div>
+            <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">{price_note}</div>
+          </div>
+        </div>
+        <p class="verdict">{esc(p['verdict'])}</p>
+        <p class="tiny"><a class="pick-more" href="{esc(cat['slug'])}.html#{esc(p['asin'])}">Ranked #{p['rank']} of {len(cat['products'])} {esc(cat_name(cat).lower())} &mdash; see the full list &rarr;</a></p>
+      </article>"""
+
+
+def _grouped(site, by_slug, pick):
+    """Picks per home group, in home-page order. pick(cat) -> html or ''."""
+    out = []
+    for label, _sub, key in HOME_GROUPS:
+        cards = [pick(by_slug[c["slug"]]) for c in site["categories"]
+                 if c.get("power") == key and c["slug"] in by_slug]
+        cards = [c for c in cards if c]
+        if cards:
+            out.append(f'<section class="pick-group"><h2>{esc(label)}</h2>{"".join(cards)}</section>')
+    return "".join(out)
+
+
+def _seasonal_related(current):
+    links = "".join(f'<li><a href="{s}.html">{esc(t)}</a></li>' for s, t in seasonal_pages() if s != current)
+    return f'<section class="guide"><h2>More holiday guides</h2><ul class="vs-related">{links}</ul></section>' if links else ""
+
+
+def _write_seasonal(site, cfg, body, captured_dates, extra_sd=None):
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    canonical = f"{base}/{cfg['slug']}.html" if base else ""
+    faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q["q"], "acceptedAnswer": {"@type": "Answer", "text": q["a"]}}
+        for q in cfg.get("faq", [])]}
+    breadcrumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": site["brand"], "item": f"{base}/"},
+        {"@type": "ListItem", "position": 2, "name": cfg["title"], "item": canonical}]} if base else None
+    updated = max(captured_dates) if captured_dates else site["updated"]
+    (OUT / f"{cfg['slug']}.html").write_text(
+        page(site, f"{cfg['title']} — {site['brand']}", body, description=cfg["subtitle"],
+             canonical=canonical, structured_data=jsonld(breadcrumb, extra_sd) + jsonld(faq),
+             updated=updated), encoding="utf-8")
+    return updated
+
+
+def _itemlist(name, items, base):
+    return {"@context": "https://schema.org", "@type": "ItemList", "name": name,
+            "numberOfItems": len(items), "itemListElement": [
+                {"@type": "ListItem", "position": i, "name": f"{p['brand']} {p['model']}",
+                 "url": f"{base}/{cat['slug']}.html#{p['asin']}"} for i, (cat, p) in enumerate(items, 1)]}
+
+
+def build_gift_page(site, cfg, by_slug):
+    lo, hi = cfg["min_price"], cfg["max_price"]
+    chosen = []
+
+    def pick(cat):
+        p = gift_pick(cat, lo, hi)
+        if not p:
+            return ""
+        chosen.append((cat, p))
+        return render_pick_card(p, cat, site, price_note=f"price on {esc(cat_date(cat, site))}")
+
+    groups = _grouped(site, by_slug, pick)
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    dates = [cat_date(cat, site) for cat, _ in chosen]
+    body = f"""
+  {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
+  <section class="lead">
+    <h1>{esc(cfg['title'])}</h1>
+    <p class="sub">{esc(cfg['subtitle'])}</p>
+    <p class="intro">{esc(cfg['intro'])}</p>
+    <p class="muted">{len(chosen)} gifts, one per category. Prices were captured from Amazon
+    {f"on {esc(min(dates))}" if dates and min(dates) == max(dates) else f"between {esc(min(dates))} and {esc(max(dates))}" if dates else ""}
+    and change often, so check the live price before you buy.</p>
+  </section>
+  {groups}
+  <section class="guide"><h2>Gift-buying questions</h2>{render_guide(cfg.get('faq', []))}</section>
+  {_seasonal_related(cfg['slug'])}"""
+    return _write_seasonal(site, cfg, body, dates, _itemlist(cfg["title"], chosen, base) if base else None)
+
+
+def _long_date(iso):
+    d = datetime.date.fromisoformat(iso)
+    return f"{d:%A, %B} {d.day}, {d.year}"
+
+
+def build_black_friday(site, cfg, by_slug):
+    rows, dates = [], []
+
+    def pick(entry):
+        cat, overall, budget = entry
+        dates.append(cat_date(cat, site))
+        rows.append((cat, overall, budget))
+        note = f"regular price on {esc(cat_date(cat, site))}"
+        cards = render_pick_card(overall, cat, site, "Best Overall", note)
+        if budget and budget is not overall:
+            cards += render_pick_card(budget, cat, site, "Best Budget", note)
+        return cards
+
+    groups = _grouped(site, by_slug, pick)
+    table_rows = "".join(
+        f'<tr><td><a href="#{esc(cat["slug"])}">{esc(cat_name(cat))}</a></td>'
+        f'<td>{esc(_short(o))}</td><td>{money(o["price"])}</td>'
+        f'<td>{esc(_short(b)) if b else "&mdash;"}</td><td>{money(b["price"]) if b else "&mdash;"}</td></tr>'
+        for cat, o, b in rows)
+    bf = cfg["black_friday"]
+    cm = cfg["cyber_monday"]
+    body = f"""
+  {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
+  <section class="lead">
+    <h1>{esc(cfg['title'])}</h1>
+    <p class="sub">{esc(cfg['subtitle'])}</p>
+    <p class="intro">{esc(cfg['intro'])}</p>
+  </section>
+  <section class="deals">
+    <h2>Key dates</h2>
+    <p><b>Black Friday:</b> {_long_date(bf)}. <b>Cyber Monday:</b> {_long_date(cm)}. Early deals usually
+    start the week before. Every button below opens the live Amazon listing, so you see
+    today's price next to the regular price we recorded.</p>
+  </section>
+  <section class="compare" id="price-to-beat">
+    <h2>Price-to-beat cheat sheet</h2>
+    <p class="swipe-hint">Swipe the table sideways for more columns &rarr;</p>
+    <div class="tablewrap"><table class="bf-table"><tr><th>Category</th><th>Best Overall</th><th>Regular</th>
+      <th>Best Budget</th><th>Regular</th></tr>{table_rows}</table></div>
+    <p class="tiny muted">"Regular" = the Amazon price when we last checked each category
+    ({esc(min(dates))} to {esc(max(dates))}). If the Black Friday price is at or above it, it isn't a deal.</p>
+  </section>
+  {groups}
+  <section class="guide"><h2>Black Friday tool questions</h2>{render_guide(cfg.get('faq', []))}</section>
+  {_seasonal_related(cfg['slug'])}"""
+    return _write_seasonal(site, cfg, body, dates)
+
+
+def build_seasonal(site, cats):
+    """Build every enabled seasonal page; returns [(slug, lastmod)] for the sitemap."""
+    by_slug = {cat["slug"]: (cat, overall, budget) for cat, overall, budget in cats}
+    built = []
+    for g in SEASONAL.get("gifts", []):
+        if g.get("enabled"):
+            built.append((g["slug"], build_gift_page(site, g, {s: v[0] for s, v in by_slug.items()})))
+    bf = SEASONAL.get("black_friday")
+    if bf and bf.get("enabled"):
+        built.append((bf["slug"], build_black_friday(site, bf, by_slug)))
+    return built
+
+
+def render_seasonal_strip():
+    pages = seasonal_pages()
+    if not pages:
+        return ""
+    links = "".join(f'<a class="btn" href="{s}.html">{esc(t)} &rarr;</a>' for s, t in pages)
+    return f"""
+  <section class="deals seasonal-strip">
+    <h2>Holiday gift guides</h2>
+    <p>Our top-ranked picks, sorted by budget, plus the regular prices to check Black Friday deals against.</p>
+    <div class="strip-links">{links}</div>
+  </section>"""
+
+
 # Home-page groups (label, blurb, power-key). Shared by the home sections and the
 # quick-navigation dropdown so both stay in sync.
 HOME_GROUPS = [
@@ -882,6 +1094,7 @@ def build_home(site, cats):
     <p class="sub">{esc(site['description'])}</p>
   </section>
   {render_quicknav(nav_groups)}
+  {render_seasonal_strip()}
   {''.join(sections)}
   {render_home_deals(major, site, min(dates), max(dates))}
   <script>{hover_js}</script>"""
@@ -908,6 +1121,7 @@ def main():
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     cats = [build_category(site, f"{c['slug']}.json") for c in site["categories"]]
     build_home(site, cats)
+    seasonal = build_seasonal(site, cats)
     # sitemap.xml + robots.txt (SEO / Search Console)
     if site.get("custom_domain"):
         base = f"https://{site['custom_domain']}"
@@ -917,7 +1131,8 @@ def main():
         cat_dates = [(cat["slug"], cat.get("data_captured") or site["updated"]) for cat, _, _ in cats]
         urls = ([(f"{base}/", "1.0", max(d for _, d in cat_dates))]
                 + [(f"{base}/{slug}.html", "0.8", d) for slug, d in cat_dates]
-                + [(f"{base}/{compare_filename(slug)}", "0.6", d) for slug, d in cat_dates if slug in COMPARE])
+                + [(f"{base}/{compare_filename(slug)}", "0.6", d) for slug, d in cat_dates if slug in COMPARE]
+                + [(f"{base}/{slug}.html", "0.7", d) for slug, d in seasonal])
         entries = "\n".join(
             f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod>"
             f"<changefreq>weekly</changefreq><priority>{pr}</priority></url>" for u, pr, lastmod in urls)
@@ -1055,6 +1270,11 @@ details p{margin:.6em 0 0;color:var(--muted)}
 /* compact top-of-page toolbar (category pages) */
 .quicknav-bar{margin:6px 0 4px;padding-bottom:14px;border-bottom:1px solid var(--line)}
 /* deals note */
+.pick-group h2{border-top:1px solid var(--line);padding-top:1.2rem}
+.pick-card .badge{margin-bottom:4px} .pick-card .verdict{margin:14px 0 6px}
+.pick-more{color:var(--brand-ink)}
+.seasonal-strip .strip-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.bf-table a{color:var(--brand-ink)}
 .vs-link{margin:14px 0 0;color:var(--muted)} .vs-link a{color:var(--brand-ink)}
 .vs-verdict p{margin:.5em 0 0} .vs-verdict a{color:var(--brand-ink)}
 .vs-table{min-width:0;table-layout:fixed} .vs-table th,.vs-table td{white-space:normal;overflow-wrap:anywhere;padding:10px 8px}
@@ -1185,6 +1405,9 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
   .cat-grid{gap:12px}
   .cat-card{padding:16px}
   .cat-picks{margin:8px 0}
+
+  /* holiday strip on home */
+  .seasonal-strip .strip-links .btn{flex:1 1 100%;text-align:center}
 
   /* back to top */
   .to-top{display:flex;align-items:center;justify-content:center;position:fixed;right:16px;bottom:18px;z-index:30;
