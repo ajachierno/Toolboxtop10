@@ -257,7 +257,7 @@ def pin_gifts(site, group, picks, cfg):
             + ". Ready to use out of the box.")
     kw = [f"tool gifts {band.lower()}", "gifts for dad", "gifts for him", "diy gift ideas",
           "christmas gifts for men", f"{noun.lower()} gifts"]
-    return img, title, desc[:500], f"{cfg['slug']}.html", kw
+    return img, title, desc, f"{cfg['slug']}.html", kw
 
 
 def pin_black_friday(site, rows, cfg):
@@ -352,11 +352,12 @@ def main():
     start = datetime.date.fromisoformat(args.start)
     hours = [14, 16, 18, 20, 22, 23, 15, 17, 19, 21][:args.per_day]  # UTC = US daytime/evening
     for i, (pid, board, (img, title, desc, path, kw)) in enumerate(pins):
-        img.save(out / f"{pid}.png", optimize=True)
+        # Flat colors: a 256-color palette is visually identical and ~60% smaller.
+        img.quantize(256, dither=Image.Dither.NONE).save(out / f"{pid}.png", optimize=True)
         day, slot = divmod(i, args.per_day)
         when = datetime.datetime.combine(start + datetime.timedelta(days=day), datetime.time(hours[slot]))
         rows.append({"Title": title[:100], "Media URL": f"{base}/pins/{pid}.png", "Pinterest board": board,
-                     "Thumbnail": "", "Description": desc[:500], "Link": f"{base}/{path}",
+                     "Thumbnail": "", "Description": build.meta_desc(desc, 499), "Link": f"{base}/{path}",
                      "Publish date": when.strftime("%Y-%m-%dT%H:%M:%S"), "Keywords": ", ".join(kw)})
     print(f"wrote {len(pins)} pin(s) to {out}")
     if args.only != "sample":
