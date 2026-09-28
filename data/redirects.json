@@ -1,0 +1,6 @@
+{
+  "_readme": "Old URL -> current URL, for pages that were renamed or removed but may still be indexed. build.py writes a stub at the old path with a canonical link and an instant meta refresh (GitHub Pages can't do server redirects; Google treats this as a redirect). Stubs are not added to the sitemap.",
+  "redirects": {
+    "impact-drivers.html": "cordless-impact-drivers.html"
+  }
+}

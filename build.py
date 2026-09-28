@@ -469,12 +469,18 @@ def build_category(site, filename):
         compare_link = (f'\n  <p class="vs-link">Torn between the top two? '
                         f'<a href="{compare_filename(cat["slug"])}"><b>{esc(_short(overall))} vs '
                         f'{esc(_short(budget))}</b>, compared side by side &rarr;</a></p>')
+    twin = twin_of(site, cat["slug"])
+    twin_link = ""
+    if twin:
+        kind = "cordless" if twin["slug"].startswith("cordless-") else "corded"
+        twin_link = (f'\n    <p class="vs-link">Looking for {kind} instead? '
+                     f'<a href="{twin["slug"]}.html">See the 10 best {esc(twin["title"].lower())} &rarr;</a></p>')
     body = f"""
   {quicknav}
   <section class="lead">
     <h1>{esc(cat['title'])}</h1>
     <p class="sub">{esc(cat['subtitle'])}</p>
-    <p class="intro">{esc(cat['intro'])}</p>
+    <p class="intro">{esc(cat['intro'])}</p>{twin_link}
   </section>
   {render_jump(bool(avoid))}
   <section class="heroes" id="picks">{heroes}</section>{compare_link}
@@ -503,6 +509,7 @@ def build_category(site, filename):
     {render_guide(cat['buyers_guide'])}
   </section>
   {render_avoid(avoid, site)}
+  {render_related(site, cat)}
   {TO_TOP}"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     canonical = f"{base}/{cat['slug']}.html" if base else ""
@@ -1178,6 +1185,39 @@ def nav_groups_from_site(site):
     return out
 
 
+def twin_of(site, slug):
+    """The corded/cordless counterpart of a category, if the site has one."""
+    for a, b in (("corded-", "cordless-"), ("cordless-", "corded-")):
+        if slug.startswith(a):
+            other = b + slug[len(a):]
+            return next((c for c in site["categories"] if c["slug"] == other), None)
+    return None
+
+
+RELATED_COUNT = 5
+
+
+def render_related(site, cat):
+    """Plain <a> links to the twin plus the next few categories in the same home group,
+    wrapping around, so every category page gets crawlable links from its neighbours
+    (the quick-nav dropdown is JavaScript and search engines don't follow it)."""
+    power = next((c.get("power") for c in site["categories"] if c["slug"] == cat["slug"]), None)
+    group = [c for c in site["categories"] if c.get("power") == power]
+    i = next((n for n, c in enumerate(group) if c["slug"] == cat["slug"]), None)
+    twin = twin_of(site, cat["slug"])
+    picks = [twin] if twin else []
+    if i is not None:
+        for c in group[i + 1:] + group[:i]:
+            if len(picks) >= RELATED_COUNT + bool(twin):
+                break
+            if c not in picks:
+                picks.append(c)
+    if not picks:
+        return ""
+    items = "".join(f'<li><a href="{c["slug"]}.html">The 10 best {esc(c["title"].lower())}</a></li>' for c in picks)
+    return f'<section class="guide" id="related"><h2>Related tools</h2><ul class="vs-related">{items}</ul></section>'
+
+
 def render_quicknav(nav_groups, compact=False, back_home=False):
     """Linked dropdowns (category -> sub-category) + Go button.
 
@@ -1326,6 +1366,29 @@ def build_home(site, cats):
         encoding="utf-8")
 
 
+def build_redirects(site):
+    """Stub pages for old URLs listed in data/redirects.json (see its _readme)."""
+    path = DATA / "redirects.json"
+    if not path.exists():
+        return
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    for old, new in json.loads(path.read_text(encoding="utf-8")).get("redirects", {}).items():
+        target = f"{base}/{new}" if base else new
+        (OUT / old).write_text(f"""<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moved: {esc(new)}</title>
+<link rel="canonical" href="{esc(target)}">
+<meta http-equiv="refresh" content="0; url={esc(target)}">
+</head>
+<body>
+<p>This page has moved to <a href="{esc(target)}">{esc(target)}</a>.</p>
+</body>
+</html>
+""", encoding="utf-8")
+
+
 def main():
     site = load("site.json")
     OUT.mkdir(exist_ok=True)
@@ -1358,6 +1421,7 @@ def main():
             f"{entries}\n</urlset>\n", encoding="utf-8")
         (OUT / "robots.txt").write_text(
             f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+    build_redirects(site)
     # IndexNow ownership key (Bing/Yandex/Seznam/Naver); pinged by .github/workflows/indexnow.yml
     if TRACKING.get("indexnow_key"):
         (OUT / f"{TRACKING['indexnow_key']}.txt").write_text(TRACKING["indexnow_key"], encoding="utf-8")
