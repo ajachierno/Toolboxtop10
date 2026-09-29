@@ -1,0 +1,523 @@
+{
+  "slug": "cordless-miter-saws",
+  "title": "The 10 Best Cordless Miter Saws",
+  "subtitle": "Battery-powered miter saws from 6-1/2 to 12 inches, sliding and fixed, ranked from live Amazon data.",
+  "intro": "We ranked 10 cordless miter saws from Amazon's miter saw search results on rating, review volume, and five features: sliding rails, dual bevel, a brushless motor, a cut-line guide, and a battery in the box. Most name-brand saws are sold as bare tools for people who already own the batteries. Prices run from $155 for the RYOBI P553 to $1,139 for the Makita XSL06PT kit.",
+  "data_captured": "2026-09-29",
+  "budget_cap": 250,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "sliding": 0.3,
+    "dual_bevel": 0.25,
+    "brushless": 0.2,
+    "cut_guide": 0.15,
+    "kit": 0.1
+  },
+  "reviews_ceiling": 3000,
+  "spec_fields": [
+    {
+      "key": "blade",
+      "label": "Blade"
+    },
+    {
+      "key": "voltage",
+      "label": "Voltage"
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "bevel",
+      "label": "Bevel"
+    },
+    {
+      "key": "crosscut",
+      "label": "Crosscut"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "battery",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "blade",
+      "label": "Blade"
+    },
+    {
+      "key": "voltage",
+      "label": "Voltage"
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "sliding",
+      "label": "Sliding",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00YEWX4SK",
+      "name": "DEWALT 20V MAX 7-1/4-Inch Sliding Miter Saw, Tool Only (DCS361B)",
+      "brand": "DEWALT",
+      "model": "DCS361B",
+      "image": "https://m.media-amazon.com/images/I/61jWi-6lW7L._AC_SL1500_.jpg",
+      "price": 296.65,
+      "rating": 4.8,
+      "reviews_count": 3086,
+      "bought": "800+/mo",
+      "specs": {
+        "blade": "7-1/4\"",
+        "voltage": "20V MAX",
+        "type": "Sliding compound",
+        "bevel": null,
+        "crosscut": null,
+        "speed": null,
+        "weight": "30 lb",
+        "battery": "Tool only"
+      },
+      "features": {
+        "sliding": true,
+        "dual_bevel": false,
+        "brushless": false,
+        "cut_guide": true,
+        "kit": false
+      },
+      "verdict": "The best-selling cordless miter saw on Amazon by a wide margin, with 3,086 ratings at 4.8 stars. A 7-1/4-inch slider for anyone already on DEWALT 20V batteries.",
+      "pros": [
+        "3,086 ratings at 4.8 stars, and 800+ bought in the past month",
+        "DEWALT rates it at about 183 cuts of 2x4 pine per charge",
+        "Cut-line system lights the blade path with nothing to calibrate",
+        "Cuts 3-5/8\" nested crown and 3-1/2\" base standing up"
+      ],
+      "cons": [
+        "Tool only: battery and charger cost extra",
+        "The listing's spec table calls the motor brushed",
+        "7-1/4\" blade limits crosscut height compared with a 10\" or 12\" saw"
+      ]
+    },
+    {
+      "asin": "B00X52TZYM",
+      "name": "DEWALT 20V MAX 7-1/4-Inch Sliding Miter Saw Kit with 4.0Ah Battery (DCS361M1)",
+      "brand": "DEWALT",
+      "model": "DCS361M1",
+      "image": "https://m.media-amazon.com/images/I/61sSoaHSlvL._AC_SL1000_.jpg",
+      "price": 329.0,
+      "rating": 4.7,
+      "reviews_count": 821,
+      "bought": "200+/mo",
+      "specs": {
+        "blade": "7-1/4\"",
+        "voltage": "20V MAX",
+        "type": "Sliding compound",
+        "bevel": null,
+        "crosscut": null,
+        "speed": null,
+        "weight": "31.6 lb",
+        "battery": "4.0Ah battery + charger"
+      },
+      "features": {
+        "sliding": true,
+        "dual_bevel": false,
+        "brushless": false,
+        "cut_guide": true,
+        "kit": true
+      },
+      "verdict": "The same DCS361 saw as the bare tool, packaged with a 4.0Ah battery and charger. For $32 more than the tool alone, it's the cheapest way into a name-brand cordless miter saw if you own no DEWALT packs.",
+      "pros": [
+        "Battery (DCB204) and charger included, so it cuts out of the box",
+        "Only $32 more than the bare tool",
+        "11 positive miter stops on a stainless detent plate",
+        "Cut-line blade positioning for trim work"
+      ],
+      "cons": [
+        "One 4.0Ah pack: expect to stop and recharge on a full day of framing",
+        "The listing's spec table says brushless and 16 ounces; the DEWALT bullets and the bare-tool listing say otherwise, so ignore that table"
+      ]
+    },
+    {
+      "asin": "B004HASE0W",
+      "name": "DEWALT 20V MAX XR 12-Inch Double Bevel Sliding Miter Saw, Tool Only (DCS785B)",
+      "brand": "DEWALT",
+      "model": "DCS785B",
+      "image": "https://m.media-amazon.com/images/I/71dsO3HZTGL._AC_SL1500_.jpg",
+      "price": 499.0,
+      "rating": 4.8,
+      "reviews_count": 55,
+      "bought": "200+/mo",
+      "specs": {
+        "blade": "12\"",
+        "voltage": "20V MAX / FLEXVOLT",
+        "type": "Sliding compound",
+        "bevel": "Dual",
+        "crosscut": "14\" horizontal",
+        "speed": null,
+        "weight": "51.7 lb",
+        "battery": "Tool only"
+      },
+      "features": {
+        "sliding": true,
+        "dual_bevel": true,
+        "brushless": false,
+        "cut_guide": true,
+        "kit": false
+      },
+      "verdict": "A full-size 12-inch dual-bevel slider that runs on a single 20V MAX or FLEXVOLT battery. It cuts 14 inches wide and 6-1/2-inch base standing up, which covers almost everything a corded 12-inch saw does.",
+      "pros": [
+        "14\" horizontal crosscut, 6-1/2\" base and 6-1/2\" nested crown",
+        "Takes any DEWALT 20V MAX or FLEXVOLT battery",
+        "Wireless tool control can switch on a compatible vacuum with the trigger",
+        "Bevel pawls for quick 22.5° and 33.9° settings"
+      ],
+      "cons": [
+        "$499 without a battery",
+        "51.7 lb tool only, heavy to carry between rooms",
+        "Only 55 ratings so far"
+      ],
+      "premium": true
+    },
+    {
+      "asin": "B0FCHG4YJL",
+      "name": "DEWALT 20V MAX XR 10-Inch Double Bevel Fixed Miter Saw, Tool Only (DCS714B)",
+      "brand": "DEWALT",
+      "model": "DCS714B",
+      "image": "https://m.media-amazon.com/images/I/71QzFpDhRtL._AC_SL1500_.jpg",
+      "price": 429.0,
+      "rating": 4.7,
+      "reviews_count": 67,
+      "bought": null,
+      "specs": {
+        "blade": "10\"",
+        "voltage": "20V MAX / FLEXVOLT",
+        "type": "Fixed compound",
+        "bevel": "Dual",
+        "crosscut": "6\" horizontal",
+        "speed": null,
+        "weight": "34 lb",
+        "battery": "Tool only"
+      },
+      "features": {
+        "sliding": false,
+        "dual_bevel": true,
+        "brushless": false,
+        "cut_guide": true,
+        "kit": false
+      },
+      "verdict": "A compact 10-inch dual-bevel saw without rails. It's the trim carpenter's option in the DEWALT lineup: 5-1/4-inch base and crown capacity at 34 pounds.",
+      "pros": [
+        "5-1/4\" base standing up and 5-1/4\" nested crown",
+        "Dual bevel with pawls at 22.5° and 33.9°",
+        "DEWALT rates it at up to 311 cuts of 2x4 per charge",
+        "No rails sticking out the back, so it fits a small trailer or shelf"
+      ],
+      "cons": [
+        "No slide: crosscut tops out at 6\" wide",
+        "Tool only, $429 before a battery",
+        "Costs more than the sliding DCS361"
+      ]
+    },
+    {
+      "asin": "B0764S2BL6",
+      "name": "Makita XSL06PT 18V X2 LXT (36V) Brushless 10-Inch Dual-Bevel Sliding Miter Saw Kit with Laser (5.0Ah)",
+      "brand": "Makita",
+      "model": "XSL06PT",
+      "image": "https://m.media-amazon.com/images/I/61cuM3NhktL._AC_SL1000_.jpg",
+      "price": 1139.0,
+      "rating": 4.4,
+      "reviews_count": 213,
+      "bought": null,
+      "specs": {
+        "blade": "10\"",
+        "voltage": "36V (2 x 18V LXT)",
+        "type": "Sliding compound",
+        "bevel": "0-48° L/R",
+        "crosscut": "4x12",
+        "speed": "4,400 rpm",
+        "weight": null,
+        "battery": "Two 5.0Ah batteries + charger"
+      },
+      "features": {
+        "sliding": true,
+        "dual_bevel": true,
+        "brushless": true,
+        "cut_guide": true,
+        "kit": true
+      },
+      "verdict": "A 10-inch dual-bevel slider that runs on two 18V LXT packs, sold as a complete kit. It's the most capable saw here and priced like it.",
+      "pros": [
+        "Two 5.0Ah batteries and a charger in the box",
+        "Makita rates it at 334 cuts of 2x4 or 192 cuts of 2x12 per charge",
+        "Brushless motor with a built-in laser",
+        "Bevels 0-48° both ways; the front bevel lock is easy to reach"
+      ],
+      "cons": [
+        "$1,139, more than three times the DEWALT kit",
+        "Needs two batteries at once",
+        "The spec table's \"400 rpm\" is a typo; the listing bullets say 4,400"
+      ]
+    },
+    {
+      "asin": "B017ZBCMQ6",
+      "name": "Makita XSL02Z 18V X2 LXT (36V) Brushless 7-1/2-Inch Dual Slide Compound Miter Saw, Tool Only",
+      "brand": "Makita",
+      "model": "XSL02Z",
+      "image": "https://m.media-amazon.com/images/I/61hmpUQ3hrL._AC_SL1000_.jpg",
+      "price": 819.0,
+      "rating": 4.3,
+      "reviews_count": 160,
+      "bought": null,
+      "specs": {
+        "blade": "7-1/2\"",
+        "voltage": "36V (2 x 18V LXT)",
+        "type": "Sliding compound",
+        "bevel": null,
+        "crosscut": "2x12 @ 90°",
+        "speed": "5,700 rpm",
+        "weight": "28.2 lb with batteries",
+        "battery": "Tool only"
+      },
+      "features": {
+        "sliding": true,
+        "dual_bevel": false,
+        "brushless": true,
+        "cut_guide": false,
+        "kit": false
+      },
+      "verdict": "A small-blade slider that still crosscuts a 2x12, thanks to a four-rail slide. It weighs 28.2 pounds with batteries fitted.",
+      "pros": [
+        "Crosscuts 2x12 at 90° and 2x8 at 45°",
+        "28.2 lb with batteries",
+        "Four steel rails for a stiffer slide",
+        "Brushless, 5,700 rpm"
+      ],
+      "cons": [
+        "$819 for a bare 7-1/2\" saw",
+        "Needs two 18V batteries, sold separately",
+        "No laser or LED cut guide mentioned on the listing"
+      ]
+    },
+    {
+      "asin": "B0794FNP1N",
+      "name": "Makita XSL05Z 18V LXT Brushless 6-1/2-Inch Compact Dual-Bevel Miter Saw with Laser, Tool Only",
+      "brand": "Makita",
+      "model": "XSL05Z",
+      "image": "https://m.media-amazon.com/images/I/61IaqRlxnML._AC_SL1000_.jpg",
+      "price": 669.0,
+      "rating": 4.9,
+      "reviews_count": 94,
+      "bought": null,
+      "specs": {
+        "blade": "6-1/2\"",
+        "voltage": "18V LXT",
+        "type": "Fixed compound",
+        "bevel": "0-46° L/R",
+        "crosscut": null,
+        "speed": null,
+        "weight": "14.6 lb with battery",
+        "battery": "Tool only"
+      },
+      "features": {
+        "sliding": false,
+        "dual_bevel": true,
+        "brushless": true,
+        "cut_guide": true,
+        "kit": false
+      },
+      "verdict": "A trim saw small enough to set on a stair tread. It runs on one 18V LXT battery and bevels both ways, which is rare at this size.",
+      "pros": [
+        "Highest rating on the list at 4.9 stars",
+        "14.6 lb with a battery",
+        "Dual bevel 0-46° and miters 0-52° both ways",
+        "Makita rates it at 270 cuts of 1/2\" x 3-1/2\" baseboard per 6.0Ah charge"
+      ],
+      "cons": [
+        "6-1/2\" blade is for trim and small stock, not framing",
+        "$669 without a battery",
+        "Blade size is less common than 7-1/4\" or 10\""
+      ]
+    },
+    {
+      "asin": "B09SNK2SBL",
+      "name": "RYOBI ONE+ 18V Cordless 7-1/4-Inch Sliding Compound Miter Saw (PBT01B)",
+      "brand": "RYOBI",
+      "model": "PBT01B",
+      "image": "https://m.media-amazon.com/images/I/61rE0aaz+nL._AC_SL1500_.jpg",
+      "price": 238.99,
+      "rating": 4.7,
+      "reviews_count": 89,
+      "bought": "50+/mo",
+      "specs": {
+        "blade": "7-1/4\"",
+        "voltage": "18V ONE+",
+        "type": "Sliding compound",
+        "bevel": "0-45° L",
+        "crosscut": "2x10",
+        "speed": "3,600 rpm",
+        "weight": "30.2 lb",
+        "battery": "Tool only"
+      },
+      "features": {
+        "sliding": true,
+        "dual_bevel": false,
+        "brushless": false,
+        "cut_guide": false,
+        "kit": false
+      },
+      "verdict": "The cheapest name-brand slider here, and it crosscuts a 2x10. If you already own RYOBI ONE+ batteries, it does most of what the DEWALT DCS361 does for about $58 less.",
+      "pros": [
+        "Crosscuts a nominal 2x10",
+        "RYOBI rates it at up to 800 cuts per charge on a 9.0Ah pack",
+        "Runs on any RYOBI ONE+ 18V battery",
+        "Miters 47° both ways with stops at common angles"
+      ],
+      "cons": [
+        "Battery and charger sold separately",
+        "Bevels left only",
+        "No laser or shadow line"
+      ],
+      "force_budget": true
+    },
+    {
+      "asin": "B081LNF6VF",
+      "name": "RYOBI 18V ONE+ Cordless 7-1/4-Inch Compound Miter Saw, Tool Only (P553)",
+      "brand": "RYOBI",
+      "model": "P553",
+      "image": "https://m.media-amazon.com/images/I/71QsrhkyKTL._SL1500_.jpg",
+      "price": 155.28,
+      "rating": 4.5,
+      "reviews_count": 416,
+      "bought": "50+/mo",
+      "specs": {
+        "blade": "7-1/4\"",
+        "voltage": "18V ONE+",
+        "type": "Compound",
+        "bevel": null,
+        "crosscut": null,
+        "speed": null,
+        "weight": "19 lb",
+        "battery": "Tool only"
+      },
+      "features": {
+        "sliding": false,
+        "dual_bevel": false,
+        "brushless": false,
+        "cut_guide": false,
+        "kit": false
+      },
+      "verdict": "RYOBI's basic 7-1/4-inch chop saw, listed under the seller name ONEAND. The lowest price on the list, for occasional trim and 2x4 cuts on ONE+ batteries.",
+      "pros": [
+        "Lowest price here at $155",
+        "19 lb, easy to carry",
+        "Works with any RYOBI ONE+ 18V battery",
+        "416 ratings at 4.5 stars"
+      ],
+      "cons": [
+        "The listing has no bullets and no published bevel, crosscut, or speed figures",
+        "Ships with a 24-tooth blade, rough for finish trim",
+        "The listing states a 30-day limited warranty"
+      ]
+    },
+    {
+      "asin": "B0BCXG16GG",
+      "name": "BOSCH PROFACTOR 18V 7-1/4-Inch Single-Bevel Slide Miter Saw, Bare Tool (GCM18V-07SN)",
+      "brand": "Bosch",
+      "model": "GCM18V-07SN",
+      "image": "https://m.media-amazon.com/images/I/61GWUoFH48L._AC_SL1000_.jpg",
+      "price": 349.0,
+      "rating": 4.4,
+      "reviews_count": 73,
+      "bought": null,
+      "specs": {
+        "blade": "7-1/4\"",
+        "voltage": "18V (CORE18V)",
+        "type": "Sliding compound",
+        "bevel": "Single",
+        "crosscut": "8-1/4\"",
+        "speed": null,
+        "weight": "26 lb",
+        "battery": "Tool only"
+      },
+      "features": {
+        "sliding": true,
+        "dual_bevel": false,
+        "brushless": true,
+        "cut_guide": false,
+        "kit": false
+      },
+      "verdict": "Bosch's brushless 7-1/4-inch slider for its PROFACTOR system. Light at 26 pounds, with a tall fence and centered slide bars.",
+      "pros": [
+        "BITURBO brushless motor",
+        "8-1/4\" crosscut and 3-3/4\" nested crown",
+        "26 lb tool only, with a carry handle",
+        "Bosch lists a five-year limited warranty on its 18V tools"
+      ],
+      "cons": [
+        "Bare tool, built around CORE18V High Power packs",
+        "Single bevel",
+        "No laser or shadow line"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0H6HWZV6H",
+      "name": "VEVOR Sliding Compound Miter Saw, 7-1/4 inch Blade, DC 18.5V Cordless, Battery and Charger Included, for Cutting Wood, Metals, Laminates",
+      "brand": "VEVOR",
+      "model": "J0XL-DU04-185",
+      "image": "https://m.media-amazon.com/images/I/71GdAeRrPDL._AC_SL1500_.jpg",
+      "price": 236.9,
+      "rating": 4.4,
+      "reviews_count": 152,
+      "flag": "Proprietary 18.5V battery of unstated size; sold for metal with a 24T blade",
+      "verdict": "It's a best-seller and the cheapest complete kit in the search, but the battery fits nothing else, the listing never says how big it is, and it markets a 24-tooth wood blade for metal. The RYOBI PBT01B costs about the same and runs on a battery platform with hundreds of tools.",
+      "reasons": [
+        "The spec table lists the battery as \"Nonstandard\" 18.5V. It doesn't fit any tool platform, and the listing never gives its amp-hour rating, so you can't estimate runtime or price a spare.",
+        "The title says it cuts metals, but it ships with a 24-tooth blade at 3,800 rpm. That's a coarse framing blade, not a metal-cutting setup.",
+        "The listing contradicts itself on bevel. One bullet says bevel and miter both adjust \"up to ±45°\"; the description says the bevel is 0-45° left only.",
+        "The spec table lists blade material as ADC12, a die-cast aluminum alloy used for housings, and no warranty term is stated beyond a customer-service request link."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Is a cordless miter saw powerful enough?",
+      "a": "For trim, flooring, and most 2x framing, yes. DEWALT rates the 7-1/4\" DCS361 at about 183 cuts of 2x4 pine per charge, and the 12\" DCS785 cuts 14 inches wide. Where a cordless saw falls short is all-day production cutting on one or two batteries. If the saw lives on a bench next to an outlet, a corded saw costs less for the same capacity."
+    },
+    {
+      "q": "Should I buy the kit or the bare tool?",
+      "a": "Buy the bare tool if you already own batteries on that platform. The saw is the expensive part, and a pack you already have works fine. If you're starting from zero, a kit like the DEWALT DCS361M1 adds a 4.0Ah battery and charger for $32 over the bare tool, which is less than buying them separately."
+    },
+    {
+      "q": "What blade size do I need?",
+      "a": "7-1/4\" covers trim and 2x lumber, and the sliding versions crosscut a 2x10 or 2x12. A 10\" or 12\" saw cuts taller base molding and wider boards but weighs 34 to 52 pounds. A 6-1/2\" saw like the Makita XSL05Z is a trim tool, sized for baseboard and casing."
+    },
+    {
+      "q": "Sliding or fixed?",
+      "a": "A slider pulls the blade through the board, so a small blade crosscuts wide stock. The 7-1/4\" RYOBI PBT01B crosscuts a 2x10, while the fixed 10\" DEWALT DCS714 stops at 6 inches wide. Fixed saws are lighter and more compact, which is why trim carpenters like them."
+    },
+    {
+      "q": "Does the battery platform matter?",
+      "a": "More than any spec. A saw that runs on packs you already own saves the cost of batteries and a charger. Avoid saws with a proprietary battery that fits nothing else, like the VEVOR on this page: when that battery dies, you're shopping for a part that may not be sold separately."
+    },
+    {
+      "q": "Single or dual bevel?",
+      "a": "A single-bevel saw tilts one way, so for the opposite bevel you flip the board. That's fine for framing. Dual bevel saves time on crown and long runs of matched trim. Here, the DEWALT DCS785 and DCS714 and the Makita XSL05Z and XSL06PT bevel both ways."
+    }
+  ]
+}
