@@ -584,6 +584,9 @@ FEATURE_PROSE = {
     "stand": "a stand", "rack_pinion_fence": "a rack-and-pinion fence", "dado": "dado-blade capability",
     "soft_start": "a soft start", "sliding": "a sliding rail for wider cuts", "dual_bevel": "dual bevel",
     "cut_guide": "a laser or LED cut guide",
+    # shop vacuums
+    "blower": "a blower port", "wide_hose": "a wide (1-7/8 in. or larger) hose",
+    "drain_port": "a drain port", "stainless_tank": "a stainless steel tank",
 }
 
 
