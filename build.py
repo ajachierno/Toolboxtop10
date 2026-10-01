@@ -329,7 +329,7 @@ TRACKING = load_tracking()
 
 
 def page(site, title, body, is_home=False, description=None, canonical=None,
-         image=None, structured_data="", updated=None):
+         image=None, structured_data="", updated=None, noindex=False):
     tag_state = ("" if site["affiliate_tag"] else
                  '<div class="notice">Preview build &mdash; affiliate links are '
                  'untagged until the Amazon Associates account is approved.</div>')
@@ -358,7 +358,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">{canonical_tag}
+<meta name="robots" content="{"noindex, follow" if noindex else "index, follow, max-image-preview:large, max-snippet:-1"}">{canonical_tag}
 <meta name="theme-color" content="#000000">
 <link rel="icon" href="assets/logo.png">{social}{tracking_head(TRACKING, is_home)}
 {site.get('head_extra', '')}
@@ -367,7 +367,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
 </head>
 <body>
 <header class="site">
-  <a class="logo" href="./"><img src="assets/logo.png" alt="{esc(site['brand'])}"></a>
+  <a class="logo" href="./"><img src="assets/logo.webp" width="336" height="112" alt="{esc(site['brand'])}"></a>
   <span class="slogan">{esc(site['tagline'])}</span>
 </header>
 {tag_state}
@@ -533,6 +533,7 @@ def build_category(site, filename):
     sd = jsonld(breadcrumb, itemlist) + jsonld(faq)
     (OUT / f"{cat['slug']}.html").write_text(
         page(site, title, body, description=description, canonical=canonical,
+             image=overall["image"] if overall else None,
              structured_data=sd, updated=cat_date(cat, site)), encoding="utf-8")
     return cat, overall, budget
 
@@ -541,12 +542,14 @@ def build_category(site, filename):
 # "Best Overall vs Best Budget" per category, generated from the same ranked data so
 # they update whenever the category does. Only slugs listed in data/compare.json get
 # a page, so new comparisons can be released in batches and watched in Search Console.
-def compare_slugs():
+def compare_config():
     path = DATA / "compare.json"
-    return set(json.loads(path.read_text(encoding="utf-8")).get("overall_vs_budget", [])) if path.exists() else set()
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
 
 
-COMPARE = compare_slugs()
+COMPARE = set(compare_config().get("overall_vs_budget", []))
+# noindex: built and linked from category pages, but kept out of Google and the sitemap.
+COMPARE_NOINDEX = bool(compare_config().get("noindex"))
 
 
 def compare_filename(slug):
@@ -749,8 +752,9 @@ def build_comparison(site, cat, overall, budget, premium, spec_fields, columns):
     faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}} for q, ans in qa]}
     (OUT / compare_filename(cat["slug"])).write_text(
-        page(site, title, body, description=description, canonical=canonical,
-             structured_data=jsonld(breadcrumb) + jsonld(faq), updated=captured), encoding="utf-8")
+        page(site, title, body, description=description, canonical=canonical, image=a["image"],
+             structured_data=jsonld(breadcrumb) + jsonld(faq), updated=captured,
+             noindex=COMPARE_NOINDEX), encoding="utf-8")
 
 
 # --------------------------------------------------------------- seasonal hub pages
@@ -853,7 +857,7 @@ def _seasonal_related(current):
     return f'<section class="guide"><h2>More holiday guides</h2><ul class="vs-related">{links}</ul></section>' if links else ""
 
 
-def _write_hub(site, cfg, body, captured_dates, extra_sd=None):
+def _write_hub(site, cfg, body, captured_dates, extra_sd=None, image=None):
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     canonical = f"{base}/{cfg['slug']}.html" if base else ""
     faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
@@ -865,8 +869,8 @@ def _write_hub(site, cfg, body, captured_dates, extra_sd=None):
     updated = max(captured_dates) if captured_dates else site["updated"]
     (OUT / f"{cfg['slug']}.html").write_text(
         page(site, f"{cfg['title']} — {site['brand']}", body, description=cfg["subtitle"],
-             canonical=canonical, structured_data=jsonld(breadcrumb, extra_sd) + jsonld(faq),
-             updated=updated), encoding="utf-8")
+             canonical=canonical, image=image, structured_data=jsonld(breadcrumb, extra_sd) + jsonld(faq),
+             updated=updated, noindex=bool(cfg.get("noindex"))), encoding="utf-8")
     return updated
 
 
@@ -929,7 +933,8 @@ def build_gift_page(site, cfg, by_slug):
   {groups}
   <section class="guide"><h2>Gift-buying questions</h2>{render_guide(cfg.get('faq', []))}</section>
   {_seasonal_related(cfg['slug'])}"""
-    return _write_hub(site, cfg, body, dates, _itemlist(cfg["title"], chosen, base) if base else None)
+    return _write_hub(site, cfg, body, dates, _itemlist(cfg["title"], chosen, base) if base else None,
+                      chosen[0][1]["image"] if chosen else None)
 
 
 def _long_date(iso):
@@ -986,15 +991,20 @@ def build_black_friday(site, cfg, by_slug):
 
 
 def build_seasonal(site, cats):
-    """Build every enabled seasonal page; returns [(slug, lastmod)] for the sitemap."""
+    """Build every enabled seasonal page; returns [(slug, lastmod)] for the sitemap
+    (pages flagged noindex are built but left out)."""
     by_slug = {cat["slug"]: (cat, overall, budget) for cat, overall, budget in cats}
     built = []
     for g in SEASONAL.get("gifts", []):
         if g.get("enabled"):
-            built.append((g["slug"], build_gift_page(site, g, {s: v[0] for s, v in by_slug.items()})))
+            lastmod = build_gift_page(site, g, {s: v[0] for s, v in by_slug.items()})
+            if not g.get("noindex"):
+                built.append((g["slug"], lastmod))
     bf = SEASONAL.get("black_friday")
     if bf and bf.get("enabled"):
-        built.append((bf["slug"], build_black_friday(site, bf, by_slug)))
+        lastmod = build_black_friday(site, bf, by_slug)
+        if not bf.get("noindex"):
+            built.append((bf["slug"], lastmod))
     return built
 
 
@@ -1147,12 +1157,14 @@ def build_brand_page(site, cfg, by_slug):
   {related_html}
   </div>"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
-    return _write_hub(site, cfg, body, dates, _itemlist(cfg["title"], chosen, base) if base else None)
+    return _write_hub(site, cfg, body, dates, _itemlist(cfg["title"], chosen, base) if base else None,
+                      chosen[0][1]["image"] if chosen else None)
 
 
 def build_brands(site, cats):
     by_slug = {cat["slug"]: cat for cat, _o, _b in cats}
-    return [(b["slug"], build_brand_page(site, b, by_slug)) for b in BRANDS]
+    built = [(b, build_brand_page(site, b, by_slug)) for b in BRANDS]
+    return [(b["slug"], lastmod) for b, lastmod in built if not b.get("noindex")]
 
 
 def render_brand_strip():
@@ -1413,7 +1425,8 @@ def main():
         cat_dates = [(cat["slug"], cat.get("data_captured") or site["updated"]) for cat, _, _ in cats]
         urls = ([(f"{base}/", "1.0", max(d for _, d in cat_dates))]
                 + [(f"{base}/{slug}.html", "0.8", d) for slug, d in cat_dates]
-                + [(f"{base}/{compare_filename(slug)}", "0.6", d) for slug, d in cat_dates if slug in COMPARE]
+                + [(f"{base}/{compare_filename(slug)}", "0.6", d) for slug, d in cat_dates
+                   if slug in COMPARE and not COMPARE_NOINDEX]
                 + [(f"{base}/{slug}.html", "0.7", d) for slug, d in seasonal])
         entries = "\n".join(
             f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod>"

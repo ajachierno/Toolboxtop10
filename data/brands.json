@@ -1,5 +1,5 @@
 {
-  "_readme": "Brand hub pages built by build.py from the ranked category data. Each page shows the brand's highest-ranked product in every category where it made our top 10, grouped by battery platform, and says honestly where another brand ranked higher. 'brand' must match the product 'brand' field exactly (case-insensitive). Set \"enabled\": false to drop a page. 'button' / 'button_text' are the brand's own color and the text color it pairs with, used on that brand's buttons.",
+  "_readme": "Brand hub pages built by build.py from the ranked category data. Each page shows the brand's highest-ranked product in every category where it made our top 10, grouped by battery platform, and says honestly where another brand ranked higher. 'brand' must match the product 'brand' field exactly (case-insensitive). Set \"enabled\": false to drop a page. 'button' / 'button_text' are the brand's own color and the text color it pairs with, used on that brand's buttons. Set \"noindex\": true to keep a page built and linked but out of Google and the sitemap.",
   "brands": [
     {
       "enabled": true,
@@ -96,6 +96,7 @@
     {
       "enabled": true,
       "slug": "best-craftsman-tools",
+      "noindex": true,
       "brand": "CRAFTSMAN",
       "title": "Best CRAFTSMAN Tools (2026): Our Top Pick in Every Category",
       "subtitle": "Sticking with CRAFTSMAN? Here's the highest-ranked CRAFTSMAN in each of our top-10 lists, from V20 cordless kits to hand tools and tool boxes.",

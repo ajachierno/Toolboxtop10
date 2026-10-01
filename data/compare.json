@@ -1,5 +1,6 @@
 {
-  "_readme": "Categories that get a 'Best Overall vs Best Budget' page (<slug>-overall-vs-budget.html). Released in batches; check Search Console 'Crawled - currently not indexed' before adding more.",
+  "_readme": "Categories that get a 'Best Overall vs Best Budget' page (<slug>-overall-vs-budget.html). Released in batches; check Search Console 'Crawled - currently not indexed' before adding more. \"noindex\": true keeps every comparison page built and linked from its category page but out of Google and the sitemap.",
+  "noindex": true,
   "overall_vs_budget": [
     "cordless-drills", "cordless-impact-drivers", "cordless-circular-saws", "cordless-jigsaws",
     "cordless-reciprocating-saws", "cordless-oscillating-tools", "cordless-angle-grinders",
