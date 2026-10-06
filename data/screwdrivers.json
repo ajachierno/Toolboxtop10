@@ -4,6 +4,9 @@
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
   "intro": "We pulled the best-selling manual screwdriver sets on Amazon — fixed-handle sets, multi-bit and ratcheting drivers, magnetic-tip budget kits, and a precision set for electronics — then scored each on a single 100-point scale built from its star rating, review volume, value, and the features that matter: magnetic tips, a ratcheting mechanism, a nut driver, and a storage case. Cordless power screwdrivers are a separate tool and aren't on this list.",
   "data_captured": "2026-09-19",
+  "changelog": [
+    {"date": "2026-09-19", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
   "budget_cap": 10,
   "weights": {
     "rating": 0.45,

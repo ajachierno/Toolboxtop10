@@ -4,6 +4,10 @@
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
   "intro": "We pulled the best-selling rolling tool chests and cabinets on Amazon, then scored each one on a single 100-point scale built from its star rating, how many people have reviewed it, its value for the price, and the features that matter for shop storage. Heavy steel with ball-bearing drawers, modular stacking systems, or a full workbench on wheels — here is where each lands.",
   "data_captured": "2026-09-30",
+  "changelog": [
+    {"date": "2026-09-19", "note": "Page published."},
+    {"date": "2026-09-30", "note": "Replaced 8 of 10 picks: 5 listings had no sellers left on Amazon and 3 were only offered by third parties at marked-up prices. The Goplus 5-drawer chest is the new Best Budget."}
+  ],
   "budget_cap": 200,
   "weights": {
     "rating": 0.5,

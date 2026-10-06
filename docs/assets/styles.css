@@ -77,6 +77,34 @@ table a{color:var(--budget);font-weight:600}
 .scorebar{position:relative;height:8px;background:var(--line);border-radius:6px;margin:12px 0 0;max-width:280px}
 .scorebar span{position:absolute;left:0;top:0;bottom:0;background:var(--brand);border-radius:6px}
 .scorebar em{position:absolute;right:-2px;top:12px;font-size:.75rem;color:var(--muted);font-style:normal}
+.breakdown{margin-top:30px;font-size:.85rem;max-width:520px}
+.breakdown summary{cursor:pointer;color:var(--brand-ink);font-weight:700}
+.breakdown ul{list-style:none;padding:0;margin:10px 0 6px}
+.breakdown li{display:grid;grid-template-columns:150px 1fr auto;gap:10px;align-items:center;margin:6px 0}
+.bd-label i{display:block;color:var(--muted);font-style:normal;font-size:.72rem}
+.bd-bar{position:relative;height:6px;background:var(--line);border-radius:4px;min-width:50px}
+.bd-bar span{position:absolute;left:0;top:0;bottom:0;background:var(--brand);border-radius:4px}
+.bd-num{white-space:nowrap;color:var(--muted)}
+.bd-num b,.bd-total b{color:var(--ink)}
+.bd-feat,.bd-total{margin:6px 0;color:var(--muted)}
+.bd-total a{color:var(--brand-ink)}
+.tfilter{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 10px}
+.tfilter button{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:999px;
+  padding:4px 12px;font:inherit;font-size:.8rem;cursor:pointer}
+.tfilter button.on{background:var(--brand);border-color:var(--brand);color:#231400;font-weight:700}
+.sortbtn{all:unset;cursor:pointer;white-space:nowrap}
+.sortbtn::after{content:" \2195";opacity:.35;font-size:.8em}
+th[aria-sort=ascending] .sortbtn::after{content:" \25B2";opacity:1}
+th[aria-sort=descending] .sortbtn::after{content:" \25BC";opacity:1}
+.sortbtn:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.sort-hint{margin:6px 0 0}
+.changes ul{list-style:none;padding:0;margin:8px 0 0}
+.changes li{padding:8px 0;border-top:1px solid var(--line)}
+.changes time{display:inline-block;min-width:110px;color:var(--brand-ink);font-weight:700}
+@media (max-width:720px){
+  .breakdown li{grid-template-columns:1fr auto}
+  .bd-bar{grid-column:1/-1;order:3}
+}
 .card-buy{text-align:right}
 .price{font-size:1.6rem;font-weight:800}
 .card-buy .btn{margin:8px 0 6px}

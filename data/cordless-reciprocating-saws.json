@@ -4,6 +4,10 @@
   "subtitle": "Battery-powered demo saws ranked from live Amazon data — cut, prune, and tear out anywhere.",
   "intro": "A reciprocating saw (the tool everyone calls a Sawzall) pushes a long blade back and forth to rip through wood, metal, nail-embedded lumber, PVC, and tree branches. It's the demolition and rough-cut workhorse. Cordless models let you use it up a ladder, in a crawlspace, or out in the yard with no cord. Most of the best sell as a bare tool, so check whether a pick is a bare tool or a ready-to-use kit, and which battery platform it rides. Need maximum sustained power for the least money? See the corded list.",
   "data_captured": "2026-09-27",
+  "changelog": [
+    {"date": "2026-08-11", "note": "Page published."},
+    {"date": "2026-09-27", "note": "Fixed the DEWALT DCS369B link, which pointed to a different saw. Corrected the RYOBI model to PCL515B; its price rose to $70, so Best Budget moved to the BLACK+DECKER BDCR20B ($59)."}
+  ],
   "budget_cap": 60,
   "weights": { "rating": 0.50, "reviews": 0.35, "features": 0.15 },
   "feature_weights": { "kit": 0.30, "brushless": 0.25, "variable_speed": 0.15, "tool_free": 0.15, "orbital": 0.15 },

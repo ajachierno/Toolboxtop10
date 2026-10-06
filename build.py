@@ -41,6 +41,10 @@ def score_product(p, cat):
     reviews_s = min(1.0, math.log10(p["reviews_count"] + 1) / math.log10(ceil))
     feat_s = feature_score(p["features"], cat["feature_weights"])
     composite = w["rating"] * rating_s + w["reviews"] * reviews_s + w["features"] * feat_s
+    # Kept for the "Why this score" breakdown on each card: (label, weight, 0-1 sub-score).
+    p["score_parts"] = [("Star rating", w["rating"], rating_s),
+                        ("Number of reviews", w["reviews"], reviews_s),
+                        ("Features", w["features"], feat_s)]
     return round(composite * 100)
 
 
@@ -139,7 +143,37 @@ def render_hero_card(p, site, cat):
     </a>"""
 
 
-def render_card(p, site, spec_fields):
+def render_breakdown(p, cat):
+    """Collapsible per-factor breakdown that adds up to the card's 0-100 score."""
+    parts = [x for x in p.get("score_parts", []) if x[1]]
+    # Whole points per factor that add up exactly to the rounded score (largest remainder).
+    raw = [w * sub * 100 for _, w, sub in parts]
+    pts = [math.floor(v) for v in raw]
+    for i in sorted(range(len(raw)), key=lambda i: raw[i] - pts[i], reverse=True)[:max(0, p["score"] - sum(pts))]:
+        pts[i] += 1
+    rows = []
+    for (label, weight, sub), pt in zip(parts, pts):
+        rows.append(f'<li><span class="bd-label">{esc(label)} <i>{round(weight * 100)}% of score</i></span>'
+                    f'<span class="bd-bar"><span style="width:{round(sub * 100)}%"></span></span>'
+                    f'<span class="bd-num">{round(sub * 100)}/100 &rarr; <b>{pt}</b> pts</span></li>')
+    fw = cat.get("feature_weights", {})
+    has = [k for k in fw if p["features"].get(k)]
+    lacks = [k for k in fw if not p["features"].get(k)]
+    feat = ""
+    if fw:
+        fmt = lambda ks: ", ".join(esc(FEATURE_PROSE.get(k, k.replace("_", " "))) for k in ks)
+        if not lacks:
+            feat = f"<b>Has every feature we score:</b> {fmt(has)}."
+        else:
+            feat = (f"<b>Has:</b> {fmt(has)}. " if has else "") + f"<b>Missing:</b> {fmt(lacks)}."
+        feat = f'<p class="bd-feat">{feat}</p>'
+    return (f'<details class="breakdown"><summary>Why this score</summary>'
+            f'<ul>{"".join(rows)}</ul>{feat}'
+            f'<p class="bd-total">Total: <b>{p["score"]}</b>/100. '
+            f'<a href="#howwerank">How the score works</a></p></details>')
+
+
+def render_card(p, site, spec_fields, cat=None):
     url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
     badge = (f'<span class="badge {esc(p["badge_kind"])}">{esc(p["badge"])}</span>'
              if p["badge"] else "")
@@ -158,6 +192,7 @@ def render_card(p, site, spec_fields):
             <span class="muted">{p['reviews_count']:,} reviews</span></div>
           <div class="scorebar"><span style="width:{p['score']}%"></span>
             <em>Score {p['score']}/100</em></div>
+          {render_breakdown(p, cat) if cat else ""}
         </div>
         <div class="card-buy">
           <div class="price">{money(p['price'])}</div>
@@ -196,7 +231,7 @@ def render_table(ranked, avoid, site, columns):
             f'<td class="{"c" if c.get("type") == "bool" else ""}">{_table_cell(p, c)}</td>'
             for c in columns)
         rows.append(
-            f'<tr><td class="c">{p["rank"]}</td>'
+            f'<tr data-brand="{esc(p["brand"])}"><td class="c">{p["rank"]}</td>'
             f'<td><a href="#{p["asin"]}">{esc(p["brand"])} {esc(p["model"])}</a></td>'
             f'<td>{money(p["price"])}</td>'
             f'<td class="c">{p["rating"]}</td>'
@@ -213,6 +248,80 @@ def render_table(ranked, avoid, site, columns):
             f'<td class="c" colspan="{len(columns)}">{esc(a.get("flag", "Avoid"))}</td>'
             f'<td class="c"><b>AVOID</b></td></tr>')
     return f'<div class="tablewrap"><table>{head}{"".join(rows)}</table></div>'
+
+
+def render_table_filters(ranked):
+    """Brand filter chips for the comparison table (wired up by TABLE_JS)."""
+    brands = sorted(set(p["brand"] for p in ranked), key=str.lower)
+    if len(brands) < 2:
+        return ""
+    chips = "".join(f'<button type="button" data-brand="{esc(b)}">{esc(b)}</button>' for b in brands)
+    return (f'<div class="tfilter" hidden><span class="muted">Brand:</span>'
+            f'<button type="button" class="on" data-brand="">All</button>{chips}</div>')
+
+
+# Click a column header to sort the comparison table; brand chips filter rows.
+# Without JS the static table (ranked by score) is unchanged. Avoid rows stay last.
+TABLE_JS = r"""<script>(function(){
+var sec=document.getElementById('compare');if(!sec)return;var t=sec.querySelector('table');if(!t)return;
+var rows=function(){return Array.prototype.slice.call(t.rows,1)};
+function val(td){var x=td.textContent.trim().replace(/[$,]/g,'');if(x===''||x==='—')return null;
+var m=x.match(/^(\d+)[ -]+(\d+)\/(\d+)/);if(m)return +m[1]+m[2]/m[3];
+m=x.match(/^(\d+)\/(\d+)/);if(m)return m[1]/m[2];
+var n=parseFloat(x);return isNaN(n)?x.toLowerCase():n}
+var ths=t.rows[0].cells;
+Array.prototype.forEach.call(ths,function(th,i){if(i===1)return;
+var b=document.createElement('button');b.type='button';b.className='sortbtn';b.textContent=th.textContent;
+th.textContent='';th.appendChild(b);
+b.addEventListener('click',function(){
+var asc=th.getAttribute('aria-sort')?th.getAttribute('aria-sort')!=='ascending':(i===0||i===2);
+Array.prototype.forEach.call(ths,function(h){h.removeAttribute('aria-sort')});
+th.setAttribute('aria-sort',asc?'ascending':'descending');
+var rs=rows(),keep=rs.filter(function(r){return !r.classList.contains('avoid-row')}),
+av=rs.filter(function(r){return r.classList.contains('avoid-row')});
+keep.sort(function(a,c){var x=val(a.cells[i]),y=val(c.cells[i]);
+if(x===null&&y===null)return 0;if(x===null)return 1;if(y===null)return -1;
+var r=(typeof x===typeof y)?(x<y?-1:x>y?1:0):(typeof x==='number'?-1:1);return asc?r:-r});
+keep.concat(av).forEach(function(r){r.parentNode.appendChild(r)})})});
+var f=sec.querySelector('.tfilter');if(!f)return;f.hidden=false;
+f.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;
+Array.prototype.forEach.call(f.children,function(c){c.classList&&c.classList.toggle('on',c===b)});
+var want=b.getAttribute('data-brand');
+rows().forEach(function(r){if(r.classList.contains('avoid-row'))return;
+r.hidden=!!want&&r.getAttribute('data-brand')!==want})})})();</script>"""
+
+
+def render_feature_weights(cat):
+    fw = sorted(cat.get("feature_weights", {}).items(), key=lambda kv: -kv[1])
+    if not fw:
+        return ""
+    prose = lambda k: re.sub(r" \(.*\)$", "", FEATURE_PROSE.get(k, k.replace("_", " ")))
+    parts = ", ".join(f"{esc(prose(k))} ({round(v * 100)}%)" for k, v in fw)
+    ceil = cat.get("reviews_ceiling", 60000)
+    return (f"<p>The features score is built from {parts}, capped at 100. The review-count score "
+            f"is on a log scale, so each tenfold jump in reviews adds the same amount, and {ceil:,} or "
+            f"more reviews gets full marks. Open <b>Why this score</b> on any tool to see its numbers.</p>")
+
+
+def render_changes(cat):
+    """Last few dated changelog entries from the category JSON, newest first."""
+    log = sorted(cat.get("changelog", []), key=lambda e: e["date"], reverse=True)[:3]
+    if not log:
+        return ""
+    items = "".join(
+        f'<li><time datetime="{esc(e["date"])}">{_short_date(e["date"])}</time> {esc(e["note"])}</li>'
+        for e in log)
+    return f"""
+  <section class="changes" id="changes">
+    <h2>What changed</h2>
+    <p class="muted">We re-check every listing on this page on a rotation. The most recent changes:</p>
+    <ul>{items}</ul>
+  </section>"""
+
+
+def _short_date(iso):
+    d = datetime.date.fromisoformat(iso)
+    return f"{d:%b} {d.day}, {d.year}"
 
 
 def render_avoid(avoid, site):
@@ -459,7 +568,7 @@ def build_category(site, filename):
     spec_fields = cat.get("spec_fields") or DEFAULT_SPEC_FIELDS
     columns = cat.get("table_columns") or DEFAULT_TABLE_COLUMNS
     heroes = "".join(render_hero_card(p, site, cat) for p in (overall, budget, premium) if p)
-    cards = "".join(render_card(p, site, spec_fields) for p in ranked)
+    cards = "".join(render_card(p, site, spec_fields, cat) for p in ranked)
     brands = list(dict.fromkeys(p["brand"] for p in ranked))
     cat["_brands"] = brands  # picked up by build_home for the site-wide deals note
     quicknav = render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)
@@ -488,7 +597,9 @@ def build_category(site, filename):
   <section class="compare" id="compare">
     <h2>Side-by-side comparison</h2>
     <p class="swipe-hint">Swipe the table sideways for more columns &rarr;</p>
+    {render_table_filters(ranked)}
     {render_table(ranked, avoid, site, columns)}
+    <p class="tiny muted sort-hint">Tap a column heading to sort.</p>
   </section>
   <section class="ranked" id="ranked">
     <h2>The full ranking</h2>
@@ -503,13 +614,15 @@ def build_category(site, filename):
     matter for the job. The list is ordered by that score. <b>Best Overall</b> is our pick for the
     best all-around, ready-to-use tool; <b>Best Budget</b> the best value at or under
     ${cat['budget_cap']}; and <b>Money No Object</b> the one to buy if price is no object.</p>
-  </section>
+    {render_feature_weights(cat)}
+  </section>{render_changes(cat)}
   <section class="guide">
     <h2>Buyer's guide</h2>
     {render_guide(cat['buyers_guide'])}
   </section>
   {render_avoid(avoid, site)}
   {render_related(site, cat)}
+  {TABLE_JS}
   {TO_TOP}"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     canonical = f"{base}/{cat['slug']}.html" if base else ""
@@ -558,6 +671,9 @@ def compare_filename(slug):
 
 # How each scored feature reads mid-sentence ("For the extra money you get: ...").
 FEATURE_PROSE = {
+    "digital_display": "a digital temperature display", "safety_clutch": "a safety clutch",
+    "two_speed_fan": "a two-speed fan", "variable_temp": "variable temperature control",
+    "vibration_control": "vibration control",
     "accessories": "extra accessories", "anti_vibe": "an anti-vibration grip", "auto_lock": "an auto-locking blade",
     "ball_bearing": "ball-bearing drawer slides", "ball_end": "ball-end tips", "both_units": "both SAE and metric sizes",
     "brake": "an electric blade brake", "brushless": "a brushless motor", "case": "a carrying case",
@@ -1527,6 +1643,34 @@ table a{color:var(--budget);font-weight:600}
 .scorebar{position:relative;height:8px;background:var(--line);border-radius:6px;margin:12px 0 0;max-width:280px}
 .scorebar span{position:absolute;left:0;top:0;bottom:0;background:var(--brand);border-radius:6px}
 .scorebar em{position:absolute;right:-2px;top:12px;font-size:.75rem;color:var(--muted);font-style:normal}
+.breakdown{margin-top:30px;font-size:.85rem;max-width:520px}
+.breakdown summary{cursor:pointer;color:var(--brand-ink);font-weight:700}
+.breakdown ul{list-style:none;padding:0;margin:10px 0 6px}
+.breakdown li{display:grid;grid-template-columns:150px 1fr auto;gap:10px;align-items:center;margin:6px 0}
+.bd-label i{display:block;color:var(--muted);font-style:normal;font-size:.72rem}
+.bd-bar{position:relative;height:6px;background:var(--line);border-radius:4px;min-width:50px}
+.bd-bar span{position:absolute;left:0;top:0;bottom:0;background:var(--brand);border-radius:4px}
+.bd-num{white-space:nowrap;color:var(--muted)}
+.bd-num b,.bd-total b{color:var(--ink)}
+.bd-feat,.bd-total{margin:6px 0;color:var(--muted)}
+.bd-total a{color:var(--brand-ink)}
+.tfilter{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:0 0 10px}
+.tfilter button{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:999px;
+  padding:4px 12px;font:inherit;font-size:.8rem;cursor:pointer}
+.tfilter button.on{background:var(--brand);border-color:var(--brand);color:#231400;font-weight:700}
+.sortbtn{all:unset;cursor:pointer;white-space:nowrap}
+.sortbtn::after{content:" \2195";opacity:.35;font-size:.8em}
+th[aria-sort=ascending] .sortbtn::after{content:" \25B2";opacity:1}
+th[aria-sort=descending] .sortbtn::after{content:" \25BC";opacity:1}
+.sortbtn:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.sort-hint{margin:6px 0 0}
+.changes ul{list-style:none;padding:0;margin:8px 0 0}
+.changes li{padding:8px 0;border-top:1px solid var(--line)}
+.changes time{display:inline-block;min-width:110px;color:var(--brand-ink);font-weight:700}
+@media (max-width:720px){
+  .breakdown li{grid-template-columns:1fr auto}
+  .bd-bar{grid-column:1/-1;order:3}
+}
 .card-buy{text-align:right}
 .price{font-size:1.6rem;font-weight:800}
 .card-buy .btn{margin:8px 0 6px}
