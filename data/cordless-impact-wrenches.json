@@ -3,8 +3,10 @@
   "title": "The 10 Best Cordless Impact Wrenches",
   "subtitle": "Battery-powered impact wrenches ranked from live Amazon data — for lug nuts, suspension bolts, and rusted hardware.",
   "intro": "These are the best-selling cordless impact wrenches on Amazon right now, scored on rating, review volume, and a few features that matter on this tool: a complete kit, a hog ring anvil for quick socket changes, and selectable speed modes. The list splits into two camps: DEWALT, Milwaukee, and CRAFTSMAN tools with up to 1,400 ft-lbs of breakaway torque, and $50-80 kits that include batteries but lock you into their own battery. Torque figures on the budget listings are the maker's own claims, not independent tests.",
-  "data_captured": "2026-09-23",
+  "data_captured": "2026-10-06",
+  "audited": "2026-09-23",
   "changelog": [
+    {"date": "2026-10-06", "note": "The Protmex JKO-09 no longer has a featured offer on Amazon, so it's replaced by the MAGSEN 900 ft-lb kit ($85.49, 1K+ sold last month). Prices re-checked on the other picks; the Milwaukee 2967-20 rose from $239.77 to $265. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
     {"date": "2026-09-23", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
   ],
   "budget_cap": 80,
@@ -68,10 +70,10 @@
       "brand": "CRAFTSMAN",
       "model": "CMCF940M1",
       "image": "https://m.media-amazon.com/images/I/717ChtBDGeL._AC_SX425_.jpg",
-      "price": 199.0,
+      "price": 199.00,
       "rating": 4.8,
-      "reviews_count": 990,
-      "bought": "300+/mo",
+      "reviews_count": 999,
+      "bought": "400+/mo",
       "specs": {
         "voltage": "20V",
         "drive": "1/2 in, hog ring",
@@ -103,10 +105,10 @@
       "brand": "DEWALT",
       "model": "DCF900P1",
       "image": "https://m.media-amazon.com/images/I/81rSIJtrJRL._AC_SX425_.jpg",
-      "price": 320.8,
+      "price": 320.80,
       "rating": 4.8,
-      "reviews_count": 2753,
-      "bought": "800+/mo",
+      "reviews_count": 2772,
+      "bought": "600+/mo",
       "specs": {
         "voltage": "20V MAX",
         "drive": "1/2 in, hog ring",
@@ -137,9 +139,9 @@
       "brand": "DEWALT",
       "model": "DCF900B",
       "image": "https://m.media-amazon.com/images/I/71Iy4AYMg9L._AC_SX425_.jpg",
-      "price": 199.99,
-      "rating": 4.7,
-      "reviews_count": 2575,
+      "price": 196.25,
+      "rating": 4.8,
+      "reviews_count": 2589,
       "bought": "3K+/mo",
       "specs": {
         "voltage": "20V MAX",
@@ -171,9 +173,9 @@
       "brand": "DEWALT",
       "model": "DCF921B",
       "image": "https://m.media-amazon.com/images/I/51pa9bfvqyL._AC_SX425_.jpg",
-      "price": 140.0,
+      "price": 139.99,
       "rating": 4.8,
-      "reviews_count": 1014,
+      "reviews_count": 1027,
       "bought": "1K+/mo",
       "specs": {
         "voltage": "20V MAX",
@@ -205,9 +207,9 @@
       "brand": "Milwaukee",
       "model": "2967-20",
       "image": "https://m.media-amazon.com/images/I/515REkS8lnL._AC_SX425_.jpg",
-      "price": 239.77,
-      "rating": 4.8,
-      "reviews_count": 1841,
+      "price": 265.00,
+      "rating": 4.7,
+      "reviews_count": 1872,
       "bought": "1K+/mo",
       "specs": {
         "voltage": "18V",
@@ -221,7 +223,7 @@
         "hog_ring": true,
         "multi_mode": true
       },
-      "verdict": "Milwaukee's full-size high-torque wrench for anyone on the M18 platform. 4-mode drive control, an all-metal drivetrain, and 1,800+ reviews at 4.8 stars.",
+      "verdict": "Milwaukee's full-size high-torque wrench for anyone on the M18 platform. 4-mode drive control, an all-metal drivetrain, and 1,800+ reviews at 4.7 stars.",
       "pros": [
         "Runs on every M18 battery",
         "4-mode control, 0-3,000 RPM / 0-1,500 IPM",
@@ -239,9 +241,9 @@
       "brand": "Milwaukee",
       "model": "2854-20",
       "image": "https://m.media-amazon.com/images/I/51PCnOV51vL._AC_SX425_.jpg",
-      "price": 146.97,
+      "price": 151.90,
       "rating": 4.8,
-      "reviews_count": 2031,
+      "reviews_count": 2033,
       "bought": "1K+/mo",
       "specs": {
         "voltage": "18V",
@@ -276,7 +278,7 @@
       "image": "https://m.media-amazon.com/images/I/81sgxhEQ9-L._AC_SX425_.jpg",
       "price": 79.99,
       "rating": 4.4,
-      "reviews_count": 1703,
+      "reviews_count": 1726,
       "bought": "2K+/mo",
       "specs": {
         "voltage": "21V",
@@ -307,10 +309,10 @@
       "brand": "Robustrue",
       "model": "RT800B",
       "image": "https://m.media-amazon.com/images/I/81vSrQXVwtL._AC_SX425_.jpg",
-      "price": 69.97,
+      "price": 66.47,
       "rating": 4.5,
-      "reviews_count": 1398,
-      "bought": "500+/mo",
+      "reviews_count": 1420,
+      "bought": "600+/mo",
       "specs": {
         "voltage": "21V",
         "drive": "1/2 in",
@@ -335,38 +337,16 @@
       ]
     },
     {
-      "asin": "B0D2KWW5DQ",
-      "name": "Protmex 1/2\" Brushless Cordless Impact Wrench, 900 ft-lbs, 21V, 2x 4.0Ah Batteries (JKO-09)",
-      "brand": "Protmex",
-      "model": "JKO-09",
-      "image": "https://m.media-amazon.com/images/I/71AuGNgKG6L._AC_SX425_.jpg",
-      "price": 74.39,
-      "rating": 4.6,
-      "reviews_count": 1886,
-      "bought": "50+/mo",
-      "specs": {
-        "voltage": "21V",
-        "drive": "1/2 in",
-        "torque": "900 ft-lbs (1,200 N·m) claimed",
-        "battery": "2 x 4.0Ah + charger",
-        "modes": "3 speeds (forward)"
-      },
-      "features": {
-        "kit": true,
-        "hog_ring": false,
-        "multi_mode": true
-      },
-      "verdict": "The best-rated of the budget kits at 4.6 stars from nearly 1,900 reviews. Two batteries, four impact sockets, an extension, and three forward speeds for about $74.",
-      "pros": [
-        "4.6 stars across 1,886 reviews",
-        "3 forward speeds up to 3,500 RPM",
-        "Two 4Ah batteries, sockets, and extension bar included"
-      ],
-      "cons": [
-        "Reverse runs at one fixed speed",
-        "1,200 N·m is 885 ft-lbs, so the 900 ft-lbs headline is rounded up",
-        "Proprietary battery"
-      ]
+      "asin": "B0F8NYXVJP",
+      "name": "MAGSEN 1/2\" Cordless Impact Wrench, 900 ft-lbs, Brushless, 3 Speeds, 2x 4.0Ah Batteries, 5 Sockets",
+      "brand": "MAGSEN", "model": "21V 1/2\" kit",
+      "image": "https://m.media-amazon.com/images/I/81MTd2ZayWL._AC_SL1500_.jpg",
+      "price": 85.49, "rating": 4.5, "reviews_count": 702, "bought": "1K+/mo",
+      "specs": { "voltage": "21V", "drive": "1/2 in", "torque": "900 ft-lbs (1,200 N·m) claimed", "battery": "2 x 4.0Ah + charger", "modes": "3 speeds + reverse auto-stop" },
+      "features": { "kit": true, "hog_ring": false, "multi_mode": true },
+      "verdict": "A complete car-tire kit: brushless 1/2-inch wrench, two 4Ah batteries, a fast charger, five metric impact sockets, an extension and a hard case. Over 1,000 sold last month. The 900 ft-lb figure is the seller's claim, not an independent test.",
+      "pros": ["Two 4Ah batteries, charger, 5 sockets and a case in the box", "3 speed settings (1,800 / 2,800 / 3,800 RPM) with published torque for each", "Reverse auto-stop slows the anvil once a nut breaks loose"],
+      "cons": ["Uses its own 21V battery that fits no major tool platform", "The listing gives the weight as 10 lbs, heavy for overhead work"]
     },
     {
       "asin": "B0GLPKVTDN",
@@ -374,9 +354,9 @@
       "brand": "KIMO",
       "model": "3603",
       "image": "https://m.media-amazon.com/images/I/71H8XGln4pL._AC_SX425_.jpg",
-      "price": 49.99,
+      "price": 55.99,
       "rating": 4.6,
-      "reviews_count": 4739,
+      "reviews_count": 4742,
       "bought": "200+/mo",
       "specs": {
         "voltage": "20V",
@@ -410,9 +390,9 @@
       "brand": "CloudDream",
       "model": "Ratchet-7",
       "image": "https://m.media-amazon.com/images/I/718Gp14x5sL._AC_SX425_.jpg",
-      "price": 19.99,
+      "price": 18.99,
       "rating": 3.7,
-      "reviews_count": 49,
+      "reviews_count": 50,
       "flag": "Listing contradicts itself",
       "verdict": "A $20 unbranded wrench whose listing can't agree with itself on how many speeds it has or even what tool it is, sold to run on batteries from a brand that doesn't make or warranty it.",
       "reasons": [

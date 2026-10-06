@@ -107,6 +107,8 @@ th[aria-sort=descending] .sortbtn::after{content:" \25BC";opacity:1}
 }
 .card-buy{text-align:right}
 .price{font-size:1.6rem;font-weight:800}
+.lowprice{font-size:.75rem;color:var(--muted);margin-top:2px}
+.lowprice.best{color:var(--overall);font-weight:700}
 .card-buy .btn{margin:8px 0 6px}
 .verdict{margin:18px 0 14px;font-size:1.02rem}
 .specs{display:grid;grid-template-columns:repeat(4,1fr);gap:10px 18px;margin:0 0 16px;

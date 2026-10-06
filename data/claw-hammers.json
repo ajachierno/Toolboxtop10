@@ -3,8 +3,10 @@
   "title": "The 10 Best Claw Hammers",
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
   "intro": "We pulled the best-selling claw hammers on Amazon — fiberglass all-rounders, one-piece forged steel, and classic wood-handled models — then scored each one on a single 100-point scale built from its star rating, review volume, value, and the features that matter when you're driving and pulling nails all day: a shock-absorbing handle, a magnetic nail starter, one-piece construction, and a side nail puller. Here is where each lands.",
-  "data_captured": "2026-09-19",
+  "data_captured": "2026-10-06",
+  "audited": "2026-09-19",
   "changelog": [
+    {"date": "2026-10-06", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
     {"date": "2026-09-19", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
   ],
   "budget_cap": 15,
@@ -43,7 +45,7 @@
       "image": "https://m.media-amazon.com/images/I/718GmjiwbAL._AC_SX522_.jpg",
       "price": 24.98,
       "rating": 4.8,
-      "reviews_count": 4930,
+      "reviews_count": 4953,
       "bought": "1K+/mo",
       "specs": {
         "weight": "16 oz",
@@ -77,9 +79,9 @@
       "brand": "Spec Ops",
       "model": "SPEC-M22CF",
       "image": "https://m.media-amazon.com/images/I/61rWuUHirzL._AC_SX522_.jpg",
-      "price": 28.8,
+      "price": 27.98,
       "rating": 4.8,
-      "reviews_count": 4593,
+      "reviews_count": 4611,
       "bought": "600+/mo",
       "specs": {
         "weight": "22 oz",
@@ -116,8 +118,8 @@
       "image": "https://m.media-amazon.com/images/I/61XqQGp-MoL._AC_SX522_.jpg",
       "price": 31.79,
       "rating": 4.9,
-      "reviews_count": 1804,
-      "bought": "200+/mo",
+      "reviews_count": 1811,
+      "bought": "300+/mo",
       "specs": {
         "weight": "16 oz",
         "handle": "Steel (one-piece)",
@@ -152,7 +154,7 @@
       "image": "https://m.media-amazon.com/images/I/415ARQYt4TL._AC_SX522_.jpg",
       "price": 24.29,
       "rating": 4.7,
-      "reviews_count": 1829,
+      "reviews_count": 1842,
       "bought": "300+/mo",
       "specs": {
         "weight": "16 oz",
@@ -188,8 +190,8 @@
       "image": "https://m.media-amazon.com/images/I/61IkWwduCpL._AC_SX522_.jpg",
       "price": 23.99,
       "rating": 4.7,
-      "reviews_count": 448,
-      "bought": "300+/mo",
+      "reviews_count": 458,
+      "bought": "200+/mo",
       "specs": {
         "weight": "20 oz",
         "handle": "Steel (one-piece)",
@@ -225,7 +227,7 @@
       "image": "https://m.media-amazon.com/images/I/31gO9C2-vyL._AC_SX522_.jpg",
       "price": 11.99,
       "rating": 4.8,
-      "reviews_count": 7316,
+      "reviews_count": 7336,
       "bought": "2K+/mo",
       "specs": {
         "weight": "16 oz",
@@ -261,7 +263,7 @@
       "image": "https://m.media-amazon.com/images/I/61owEJX3dBL._AC_SX522_.jpg",
       "price": 12.98,
       "rating": 4.8,
-      "reviews_count": 5365,
+      "reviews_count": 5375,
       "bought": "1K+/mo",
       "specs": {
         "weight": "16 oz",
@@ -297,8 +299,8 @@
       "image": "https://m.media-amazon.com/images/I/41It6OLRg7L._AC_SX522_.jpg",
       "price": 25.97,
       "rating": 4.8,
-      "reviews_count": 700,
-      "bought": "200+/mo",
+      "reviews_count": 704,
+      "bought": "100+/mo",
       "specs": {
         "weight": "18 oz",
         "handle": "Fiberglass",
@@ -333,7 +335,7 @@
       "image": "https://m.media-amazon.com/images/I/61N2wDG4F7L._AC_SX522_.jpg",
       "price": 6.99,
       "rating": 4.8,
-      "reviews_count": 9946,
+      "reviews_count": 10009,
       "bought": "6K+/mo",
       "specs": {
         "weight": "8 oz",
@@ -427,19 +429,19 @@
   "avoid": [
     {
       "asin": "B0H5VNY7XP",
-      "name": "Adjustable Claw Hammer, 32 oz, 45# Carbon Steel Forged, Magnetic",
+      "name": "Adjustable Claw Hammer, 52 oz, 45# Carbon Steel Forged, Magnetic",
       "brand": "No-name",
-      "model": "32 oz Adjustable",
+      "model": "52 oz Adjustable",
       "image": "https://m.media-amazon.com/images/I/71h4SQEenwL._AC_SX522_.jpg",
-      "price": 29.99,
-      "rating": 4.7,
-      "reviews_count": 3,
+      "price": 28.49,
+      "rating": 4.8,
+      "reviews_count": 5,
       "flag": "Wrong weight, gimmick claw",
-      "verdict": "The one to skip. A 32 oz head is the wrong tool for driving nails, and the 'adjustable' rotating claw adds a moving joint to a tool that should be one solid piece.",
+      "verdict": "The one to skip. A 52 oz head is the wrong tool for driving nails, and the 'adjustable' rotating claw adds a moving joint to a tool that should be one solid piece.",
       "reasons": [
-        "At 32 oz the head is roughly double a standard 16 oz hammer and heavier than even a 22–25 oz framing hammer. That much mass fatigues your wrist and elbow fast and overdrives nails — it's a demolition weight sold as a general claw hammer.",
+        "At 52 oz the head is roughly double a standard 16 oz hammer and heavier than even a 22–25 oz framing hammer. That much mass fatigues your wrist and elbow fast and overdrives nails — it's a demolition weight sold as a general claw hammer.",
         "The 'adjustable' rotating claw is a gimmick. It introduces a pivot and moving parts exactly where a hammer should be a single rigid piece — a built-in failure point under the shock of hard strikes.",
-        "It's an unbranded marketplace listing with no trade reputation, service record, or warranty behind it — for the same ~$30 you can buy a one-piece forged Estwing or a fully featured Jorgensen from our list.",
+        "It's an unbranded marketplace listing with no trade reputation, service record, or warranty behind it — for the same ~$50 you can buy a one-piece forged Estwing or a fully featured Jorgensen from our list.",
         "For real nail-pulling leverage a proper cat's-paw or pry bar does the job better and cheaper than a swiveling claw bolted onto an oversized head."
       ]
     }

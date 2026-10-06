@@ -24,6 +24,47 @@ def load(name):
     return json.loads((DATA / name).read_text(encoding="utf-8"))
 
 
+# ------------------------------------------------------------------- price history
+# data/price-history.json: {asin: [[date, price], ...]}. Every build records each
+# product's current price under its category's data_captured date, so each refresh
+# adds a point automatically. Seeded from git history by scripts/seed_price_history.py.
+PRICE_HISTORY = {}
+
+
+def record_prices(site):
+    path = DATA / "price-history.json"
+    hist = {a: dict(v) for a, v in json.loads(path.read_text(encoding="utf-8")).items()} if path.exists() else {}
+    before = json.dumps(hist, sort_keys=True)
+    for c in site["categories"]:
+        cat = load(f"{c['slug']}.json")
+        when = cat.get("data_captured") or site["updated"]
+        for p in cat["products"] + cat.get("avoid", []):
+            if isinstance(p.get("price"), (int, float)):
+                hist.setdefault(p["asin"], {})[when] = p["price"]
+    PRICE_HISTORY.clear()
+    PRICE_HISTORY.update({a: sorted(d.items()) for a, d in hist.items()})
+    if json.dumps(hist, sort_keys=True) != before:
+        lines = [f"  {json.dumps(a)}: {json.dumps(v)}" for a, v in sorted(PRICE_HISTORY.items())]
+        path.write_text("{\n" + ",\n".join(lines) + "\n}\n", encoding="utf-8")
+
+
+def price_note(p):
+    """'Lowest in our checks' line, shown once a product has 2+ dated captures."""
+    pts = PRICE_HISTORY.get(p["asin"], [])
+    if len(pts) < 2 or not isinstance(p.get("price"), (int, float)):
+        return ""
+    low = min(v for _, v in pts)
+    since = _short_date(pts[0][0])
+    if all(v == p["price"] for _, v in pts):
+        n = "both" if len(pts) == 2 else f"all {len(pts)}"
+        return f'<div class="lowprice">Same price in {n} of our checks since {since}</div>'
+    if p["price"] <= low:
+        return f'<div class="lowprice best">Lowest price in our {len(pts)} checks since {since}</div>'
+    low_date = max(d for d, v in pts if v == low)
+    return (f'<div class="lowprice">Lowest in our checks: {money(low)} on {_short_date(low_date)}'
+            f'</div>')
+
+
 def amazon_url(asin, tag, domain):
     base = f"https://{domain}/dp/{asin}"
     return f"{base}?tag={tag}&linkCode=ll1" if tag else base
@@ -196,6 +237,7 @@ def render_card(p, site, spec_fields, cat=None):
         </div>
         <div class="card-buy">
           <div class="price">{money(p['price'])}</div>
+          {price_note(p)}
           <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
           <div class="tiny muted">{esc(p.get('bought',''))}</div>
         </div>
@@ -1529,6 +1571,7 @@ def main():
     if site.get("custom_domain"):
         (OUT / "CNAME").write_text(site["custom_domain"], encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
+    record_prices(site)
     cats = [build_category(site, f"{c['slug']}.json") for c in site["categories"]]
     build_home(site, cats)
     seasonal = build_seasonal(site, cats) + build_brands(site, cats)
@@ -1673,6 +1716,8 @@ th[aria-sort=descending] .sortbtn::after{content:" \25BC";opacity:1}
 }
 .card-buy{text-align:right}
 .price{font-size:1.6rem;font-weight:800}
+.lowprice{font-size:.75rem;color:var(--muted);margin-top:2px}
+.lowprice.best{color:var(--overall);font-weight:700}
 .card-buy .btn{margin:8px 0 6px}
 .verdict{margin:18px 0 14px;font-size:1.02rem}
 .specs{display:grid;grid-template-columns:repeat(4,1fr);gap:10px 18px;margin:0 0 16px;
