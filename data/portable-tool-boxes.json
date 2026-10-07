@@ -3,9 +3,10 @@
   "title": "The 10 Best Portable Tool Boxes",
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
   "intro": "We pulled the best-selling hand-carry tool boxes on Amazon — classic cantilever trays, stackable modular cases, small portable drawer boxes, and totes — then scored each one on a single 100-point scale built from its star rating, review volume, value, and the features that matter when a box has to travel. Here is where each lands.",
-  "data_captured": "2026-10-06",
-  "audited": "2026-09-19",
+  "data_captured": "2026-10-07",
+  "audited": "2026-10-07",
   "changelog": [
+    {"date": "2026-10-07", "note": "Replaced 4 picks. The CRAFTSMAN CMST20901 and DEWALT DWST17814 no longer have an Amazon buy box, and the Milwaukee PACKOUT 48-22-8425 and Torin ATRJH-3430T have dropped out of the top 40 in Amazon's Tool Boxes best-seller list. Added the CRAFTSMAN CMST13004, DEWALT TSTAK DWST17803 and DWST17808, and a P.I.T. 5-drawer mini metal box. Prices on the other 6 picks are unchanged."},
     {"date": "2026-10-06", "note": "Replaced 7 of 10 picks: 4 listings are now 'currently unavailable' and 3 are reseller-only. Added the CRAFTSMAN CMST16901, STANLEY 028001L, DEWALT TSTAK DWST17804 and DWST17814, Plano 452-006, Torin ATRJH-3430T and Milwaukee PACKOUT 48-22-8442 (the new Money No Object pick). New tool to avoid: a VEVOR 3-drawer metal box. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
     {"date": "2026-09-19", "note": "Page published."}
   ],
@@ -71,42 +72,16 @@
   ],
   "products": [
     {
-      "asin": "B07D2CS8L3",
-      "name": "Milwaukee 48-22-8425 PACKOUT Large Tool Box",
-      "brand": "Milwaukee",
-      "model": "48-22-8425",
-      "image": "https://m.media-amazon.com/images/I/417axj1gW1L._AC_SX522_.jpg",
-      "price": 89.99,
-      "rating": 5.0,
-      "reviews_count": 36,
-      "bought": "100+/mo",
-      "specs": {
-        "type": "Stackable case",
-        "size": "22 in",
-        "material": "Impact polymer",
-        "capacity": "75 lbs",
-        "organizers": "Removable tray",
-        "weight": "8.8 lb"
-      },
-      "features": {
-        "stackable": true,
-        "lock": true,
-        "metal_latches": true,
-        "water_resistant": true,
-        "removable_tray": true
-      },
-      "verdict": "The modern standard. Impact-proof, weather-sealed, and the box the whole PACKOUT system stacks and locks onto — the highest-rated portable box here.",
-      "pros": [
-        "The best-rated, most-trusted box in the PACKOUT line",
-        "IP65 weather seal keeps tools dry",
-        "Metal-reinforced corners and heavy-duty latches",
-        "Locks and stacks with every PACKOUT unit"
-      ],
-      "cons": [
-        "Pricey next to a plain hand box",
-        "The system tempts you into buying more boxes",
-        "Heavier than a basic tote"
-      ]
+      "asin": "B09BDK19JZ",
+      "name": "CRAFTSMAN Tool Box, Lockable, 13 in., Red/Black (CMST13004)",
+      "brand": "CRAFTSMAN", "model": "CMST13004",
+      "image": "https://m.media-amazon.com/images/I/71zUDsxzCGL._AC_SL1500_.jpg",
+      "price": 11.87, "rating": 4.4, "reviews_count": 1037, "bought": "2K+/mo",
+      "specs": { "type": "Hand box", "size": "13 in", "material": "Plastic, metal front latch", "capacity": "16 lbs", "organizers": "Removable tray", "weight": null },
+      "features": { "stackable": false, "lock": true, "metal_latches": true, "water_resistant": false, "removable_tray": true },
+      "verdict": "The smaller sibling of the 16-inch CRAFTSMAN on this page: 12.5 inches long, with the same metal front latch, padlock eye and lift-out tray. Sized for a car trunk or a kitchen-drawer tool kit.",
+      "pros": ["About $12 with a metal latch and padlock eye", "Lift-out tray for small hand tools", "Over 2,000 sold last month, limited lifetime warranty"],
+      "cons": ["16 lb load limit", "Listed as water repellent, not water resistant", "Too short for a hammer longer than about 12 inches"]
     },
     {
       "asin": "B09BDK7YG6",
@@ -133,42 +108,16 @@
       "cons": ["Listing gives a 10 lb maximum load, low for a box this size", "No feature details published on the listing"]
     },
     {
-      "asin": "B09C8YTWG5",
-      "name": "CRAFTSMAN CMST20901 20 in. Lockable Tool Box with Tray",
-      "brand": "CRAFTSMAN",
-      "model": "CMST20901",
-      "image": "https://m.media-amazon.com/images/I/61FiMwXw3WL._AC_SX522_.jpg",
-      "price": 23.98,
-      "rating": 4.7,
-      "reviews_count": 2893,
-      "bought": "2K+/mo",
-      "specs": {
-        "type": "Cantilever-lid box",
-        "size": "20 in",
-        "material": "Structural plastic",
-        "capacity": "~30 lbs",
-        "organizers": "Cantilever tray + lid bins",
-        "weight": "3.6 lb"
-      },
-      "features": {
-        "stackable": false,
-        "lock": true,
-        "metal_latches": true,
-        "water_resistant": false,
-        "removable_tray": true
-      },
-      "verdict": "The lockable classic. A 20 in box that's padlock-ready, with a cantilever tray and see-through lid windows — a small step up from the Stanley for security.",
-      "pros": [
-        "Padlock-ready hasp for security",
-        "Cantilever tray lifts up and out of the way",
-        "Lid windows show contents without opening",
-        "A long-trusted, well-reviewed budget box"
-      ],
-      "cons": [
-        "Padlock not included",
-        "Plastic build, light-duty",
-        "Not weather-sealed"
-      ]
+      "asin": "B00BF4VUKO",
+      "name": "DEWALT TSTAK III Tool Organizer, Single Deep Drawer (DWST17803)",
+      "brand": "DEWALT", "model": "DWST17803",
+      "image": "https://m.media-amazon.com/images/I/51tN3h5oMwL._AC_SL1000_.jpg",
+      "price": 35.91, "rating": 4.8, "reviews_count": 2992, "bought": "800+/mo",
+      "specs": { "type": "Stackable drawer unit", "size": "16.7 in", "material": null, "capacity": "15 lbs (20 lbs max listed)", "organizers": "1 deep drawer, removable covered cups", "weight": null },
+      "features": { "stackable": true, "lock": false, "metal_latches": true, "water_resistant": false, "removable_tray": false },
+      "verdict": "One deep drawer on ball-bearing slides, with removable covered cups for bits and fasteners, in a unit that latches into the TSTAK stack. Pick this over the 2-drawer DWST17804 if your parts are taller than a shallow drawer allows.",
+      "pros": ["Deep drawer on ball-bearing slides", "Removable covered cups keep small parts from mixing", "4.8 stars across 2,992 reviews, metal side latches"],
+      "cons": ["Listing gives 15 lbs capacity and a 20 lb maximum", "Listed as not water resistant"]
     },
     {
       "asin": "B00BPI1TWO",
@@ -183,16 +132,16 @@
       "cons": ["16.5 lb load limit", "Listed as not water resistant"]
     },
     {
-      "asin": "B01N2IMKYO",
-      "name": "DEWALT TSTAK Tool Box, Deep, Long Handle, Water and Debris Resistant (DWST17814)",
-      "brand": "DEWALT", "model": "DWST17814",
-      "image": "https://m.media-amazon.com/images/I/61moYgjs9kL._AC_SL1500_.jpg",
-      "price": 34.97, "rating": 4.7, "reviews_count": 4338, "bought": "300+/mo",
-      "specs": { "type": "Stackable case", "size": "17.25 in", "material": null, "capacity": "12 kg (26 lbs)", "organizers": "Fixed lid dividers", "weight": null },
-      "features": { "stackable": true, "lock": false, "metal_latches": true, "water_resistant": true, "removable_tray": false },
-      "verdict": "The deep TSTAK box, 13.25 inches tall, for drills and other bulky power tools. Rust-resistant metal latches, a water and debris seal, and fixed dividers in the lid for bits.",
-      "pros": ["Deep enough for a drill or impact driver", "Metal latches and a water-resistant rating", "Other TSTAK units stack underneath it"],
-      "cons": ["Fixed dividers, not removable", "The long top handle means it has to sit on top of a stack"]
+      "asin": "B00B6K4VDK",
+      "name": "DEWALT TSTAK Tool Storage Organizer, Long Handle (DWST17808)",
+      "brand": "DEWALT", "model": "DWST17808",
+      "image": "https://m.media-amazon.com/images/I/61z4IV-4joL._AC_SL1500_.jpg",
+      "price": 32.99, "rating": 4.7, "reviews_count": 2521, "bought": "700+/mo",
+      "specs": { "type": "Stackable case", "size": "17.3 in", "material": null, "capacity": "10 kg (22 lbs)", "organizers": "Fixed dividers", "weight": null },
+      "features": { "stackable": true, "lock": false, "metal_latches": true, "water_resistant": false, "removable_tray": false },
+      "verdict": "A 13-inch-tall TSTAK case with fixed dividers sized for drills and bits, and a long handle across the top. Other TSTAK units latch on underneath it, so it rides at the top of a stack.",
+      "pros": ["Tall enough for a compact drill or impact driver", "Rust-resistant metal latches", "Other TSTAK units latch on underneath"],
+      "cons": ["Fixed dividers, not removable", "The long top handle means nothing stacks on top of it", "Listed as water repellent, not water resistant"]
     },
     {
       "asin": "B00CBY2EIO",
@@ -202,7 +151,7 @@
       "image": "https://m.media-amazon.com/images/I/7165V6S8hIL._AC_SX522_.jpg",
       "price": 29.98,
       "rating": 4.7,
-      "reviews_count": 12837,
+      "reviews_count": 12840,
       "bought": "4K+/mo",
       "specs": {
         "type": "Stackable case",
@@ -245,16 +194,16 @@
       "cons": ["11 lb load limit", "Plastic latches, no lock point listed"]
     },
     {
-      "asin": "B08DVFLT5P",
-      "name": "Torin 17-Inch Plastic Tool Box, 3-Tier Folding Tray Organizer (ATRJH-3430T)",
-      "brand": "Torin", "model": "ATRJH-3430T",
-      "image": "https://m.media-amazon.com/images/I/612RyL5kG5L._AC_SL1500_.jpg",
-      "price": 21.24, "rating": 4.4, "reviews_count": 1922,
-      "specs": { "type": "Cantilever box", "size": "16.5 in", "material": "Plastic, metal latches", "capacity": "10 lbs", "organizers": "3-tier folding tray, clear small-parts lid", "weight": "1.6 lb" },
-      "features": { "stackable": false, "lock": false, "metal_latches": true, "water_resistant": false, "removable_tray": false },
-      "verdict": "A cantilever box: open the lid and three tiers of trays fold out so you can see everything at once. Metal latches and a clear lid compartment for small parts, at 1.6 lbs empty.",
-      "pros": ["3-tier folding trays keep small tools visible", "Metal latches", "Light at 1.6 lbs"],
-      "cons": ["10 lb load limit", "1-year warranty"]
+      "asin": "B0C4DFYV5C",
+      "name": "P.I.T. Mini Tool Box, Small Metal Toolbox Organizer with 5 Drawers, White",
+      "brand": "P.I.T.", "model": "E-STC02-09WH",
+      "image": "https://m.media-amazon.com/images/I/71SQ8hh2-xL._AC_SL1500_.jpg",
+      "price": 40.79, "rating": 4.3, "reviews_count": 2079,
+      "specs": { "type": "Mini drawer box", "size": "8.6 in", "material": "Q235 steel", "capacity": "2.2 lbs per drawer", "organizers": "5 drawers, PVC liners", "weight": "4.5 lb" },
+      "features": { "stackable": false, "lock": false, "metal_latches": false, "water_resistant": false, "removable_tray": false },
+      "verdict": "A small powder-coated steel chest with five lined drawers, 8.6 inches wide. It suits precision screwdrivers, bits and hobby parts on a bench or desk, not full-size hand tools.",
+      "pros": ["Steel body with lined drawers", "Five drawers keep small parts sorted", "Non-slip feet for bench use"],
+      "cons": ["Drawers are 1 inch deep (bottom drawer 1.7 in) and rated for 2.2 lbs each", "No ball-bearing slides", "Magnetic closure only, no latch or lock"]
     },
     {
       "asin": "B08189NW5C", "premium": true,
@@ -264,7 +213,7 @@
       "price": 168.29, "rating": 4.8, "reviews_count": 192, "bought": "300+/mo",
       "specs": { "type": "Stackable drawer unit", "size": "22.2 in", "material": "Impact-resistant poly", "capacity": "23 kg (50 lbs)", "organizers": "2 drawers", "weight": "20.1 lb" },
       "features": { "stackable": true, "lock": false, "metal_latches": false, "water_resistant": true, "removable_tray": false },
-      "verdict": "Two full-width drawers in a PACKOUT unit that locks onto the 48-22-8425 box on this page and the rest of the system. The pick if you're already on PACKOUT and want drawers on the jobsite.",
+      "verdict": "Two full-width drawers in a PACKOUT unit that locks onto the rest of the Milwaukee system. The pick if you're already on PACKOUT and want drawers on the jobsite.",
       "pros": ["Locks into the Milwaukee PACKOUT system", "Two drawers, 50 lb rated load", "4.8 stars, 300+ sold last month"],
       "cons": ["Most expensive box here at $168.29", "20.1 lbs empty"]
     }
