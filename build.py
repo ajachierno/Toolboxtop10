@@ -993,7 +993,7 @@ def render_pick_card(p, cat, site, label=None, price_note="", tags=""):
       </article>"""
 
 
-TOOLS_FIRST = {"wireless": 0, "wired": 1, "hand": 2, "storage": 3}
+TOOLS_FIRST = {"wireless": 0, "wired": 1, "hand": 2, "garage": 3, "storage": 4}
 
 
 def _grouped(site, by_slug, pick, order=None):
@@ -1344,6 +1344,7 @@ HOME_GROUPS = [
     ("Wireless tools", "Battery powered &mdash; cut, drive, and drill anywhere, no cord.", "wireless"),
     ("Wired tools", "Corded &mdash; full unlimited power for the least money, never a dead battery.", "wired"),
     ("Hand tools", "No batteries, no cords &mdash; the essentials every toolbox needs.", "hand"),
+    ("Garage & auto shop", "Shop equipment for working on your own vehicles &mdash; lifting, tires, and inspection.", "garage"),
 ]
 
 

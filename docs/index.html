@@ -56,7 +56,7 @@
     <div class="quicknav-controls">
       <select id="qn-category" aria-label="Category">
         <option value="">Category&hellip;</option>
-        <option value="storage">Tool storage</option><option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="hand">Hand tools</option>
+        <option value="storage">Tool storage</option><option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="hand">Hand tools</option><option value="garage">Garage &amp; auto shop</option>
       </select>
       <select id="qn-subcategory" aria-label="Sub-category" disabled>
         <option value="">Sub-category&hellip;</option>
@@ -65,7 +65,7 @@
     </div>
     <script>
     (function(){
-      var cats = {"storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}], "wireless": [{"slug": "cordless-jigsaws", "title": "Cordless Jigsaws"}, {"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}, {"slug": "cordless-random-orbital-sanders", "title": "Cordless Random Orbital Sanders"}, {"slug": "cordless-impact-wrenches", "title": "Cordless Impact Wrenches"}, {"slug": "cordless-rotary-hammers", "title": "Cordless Rotary Hammers"}, {"slug": "cordless-miter-saws", "title": "Cordless Miter Saws"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}, {"slug": "corded-angle-grinders", "title": "Corded Angle Grinders"}, {"slug": "corded-random-orbital-sanders", "title": "Corded Random Orbital Sanders"}, {"slug": "corded-jigsaws", "title": "Corded Jigsaws"}, {"slug": "corded-heat-guns", "title": "Corded Heat Guns"}, {"slug": "corded-rotary-hammers", "title": "Corded Rotary Hammers"}, {"slug": "corded-table-saws", "title": "Corded Table Saws"}, {"slug": "corded-miter-saws", "title": "Corded Miter Saws"}, {"slug": "corded-shop-vacuums", "title": "Corded Shop Vacuums"}], "hand": [{"slug": "claw-hammers", "title": "Claw Hammers"}, {"slug": "tape-measures", "title": "Tape Measures"}, {"slug": "screwdrivers", "title": "Screwdriver Sets"}, {"slug": "allen-keys", "title": "Allen Key (Hex Key) Sets"}, {"slug": "pliers", "title": "Pliers Sets"}, {"slug": "needle-nose-pliers", "title": "Needle-Nose Pliers"}, {"slug": "adjustable-wrenches", "title": "Adjustable (Crescent) Wrenches"}, {"slug": "socket-sets", "title": "Socket Sets"}]};
+      var cats = {"storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}], "wireless": [{"slug": "cordless-jigsaws", "title": "Cordless Jigsaws"}, {"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}, {"slug": "cordless-random-orbital-sanders", "title": "Cordless Random Orbital Sanders"}, {"slug": "cordless-impact-wrenches", "title": "Cordless Impact Wrenches"}, {"slug": "cordless-rotary-hammers", "title": "Cordless Rotary Hammers"}, {"slug": "cordless-miter-saws", "title": "Cordless Miter Saws"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}, {"slug": "corded-angle-grinders", "title": "Corded Angle Grinders"}, {"slug": "corded-random-orbital-sanders", "title": "Corded Random Orbital Sanders"}, {"slug": "corded-jigsaws", "title": "Corded Jigsaws"}, {"slug": "corded-heat-guns", "title": "Corded Heat Guns"}, {"slug": "corded-rotary-hammers", "title": "Corded Rotary Hammers"}, {"slug": "corded-table-saws", "title": "Corded Table Saws"}, {"slug": "corded-miter-saws", "title": "Corded Miter Saws"}, {"slug": "corded-shop-vacuums", "title": "Corded Shop Vacuums"}], "hand": [{"slug": "claw-hammers", "title": "Claw Hammers"}, {"slug": "tape-measures", "title": "Tape Measures"}, {"slug": "screwdrivers", "title": "Screwdriver Sets"}, {"slug": "allen-keys", "title": "Allen Key (Hex Key) Sets"}, {"slug": "pliers", "title": "Pliers Sets"}, {"slug": "needle-nose-pliers", "title": "Needle-Nose Pliers"}, {"slug": "adjustable-wrenches", "title": "Adjustable (Crescent) Wrenches"}, {"slug": "socket-sets", "title": "Socket Sets"}], "garage": [{"slug": "wheel-balancers", "title": "Wheel Balancers"}, {"slug": "tire-changers", "title": "Tire Changers"}, {"slug": "engine-hoists", "title": "Engine Hoists"}, {"slug": "transmission-jacks", "title": "Transmission Jacks"}, {"slug": "sewer-inspection-cameras", "title": "Sewer Inspection Cameras"}]};
       var catSel = document.getElementById('qn-category');
       var subSel = document.getElementById('qn-subcategory');
       var go = document.getElementById('qn-go');
@@ -431,13 +431,64 @@
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a></div>
   </details>
+  <details class="cats">
+    <summary><h2>Garage &amp; auto shop</h2></summary>
+    <button type="button" class="cats-collapse" hidden>Collapse</button>
+    <p class="group-sub">Shop equipment for working on your own vehicles &mdash; lifting, tires, and inspection.</p>
+    <div class="cat-grid">
+      <a class="cat-card" href="wheel-balancers.html">
+        <h3>Wheel Balancers</h3>
+        <p>10 best wheel balancers for the home garage, from $55 bubble balancers to computerized spin balancers.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Hkysnoa Bubble Balancer</span>
+          <span><b>Best Budget:</b> NYXOVA G08251054</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="tire-changers.html">
+        <h3>Tire Changers</h3>
+        <p>10 best tire changers, from manual stands for 16-inch wheels to air-powered shop machines for 24-inch rims.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> KATOOL KT-T810</span>
+          <span><b>Best Budget:</b> TUFFIOM TFmtc0304</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="engine-hoists.html">
+        <h3>Engine Hoists</h3>
+        <p>10 best 2-ton engine hoists and cherry pickers, with and without load levelers, for engine swaps at home.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Garvee Folding 2-Ton Hoist with Leveler</span>
+          <span><b>Best Budget:</b> TUFFIOM CRANE-G33001972</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="transmission-jacks.html">
+        <h3>Transmission Jacks</h3>
+        <p>10 best transmission jacks, high-lift telescoping and low-profile, for cars on a lift or on jack stands.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> VEVOR 1,322 lb Telescoping</span>
+          <span><b>Best Budget:</b> Garvee 450 lb Low Profile</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="sewer-inspection-cameras.html">
+        <h3>Sewer Inspection Cameras</h3>
+        <p>10 best sewer and drain cameras, 100 to 165 ft, with self-leveling heads and locators for finding the problem.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Anysun 165 ft with Locator</span>
+          <span><b>Best Budget:</b> VEVOR 98 ft Sewer Camera</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a></div>
+  </details>
   
   <section class="deals">
     <h2>Deals on the major brands</h2>
     <p>The same names turn up across these lists: DEWALT, CRAFTSMAN, Makita, WORKPRO, BLACK+DECKER, Milwaukee, SKIL, Amazon Basics, RYOBI, and Klein Tools. Those brands run their
     steepest Amazon markdowns around Prime Day and Black Friday, and cordless kits get
     bundled and discounted all year. The prices we show were captured
-    on 2026-10-06 and drift over time, so every price button goes straight to the
+    between 2026-10-06 and 2026-10-07 (each list shows its own date) and drift over time, so every price button goes straight to the
     live Amazon listing &mdash; click through to see what a tool actually costs today
     before you buy.</p>
   </section>
@@ -448,7 +499,7 @@
   When you buy through links on this site we may earn an Amazon Associates commission, at no
   extra cost to you. Prices and ratings are pulled from Amazon and change over time; the figures
   here were captured on the date shown and are not guaranteed to be current.</p>
-  <p class="muted"> &nbsp; Last updated on 2026-10-06. Not affiliated with Amazon or any manufacturer.</p>
+  <p class="muted"> &nbsp; Last updated on 2026-10-07. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
 <script>document.querySelectorAll('[data-show-from]').forEach(function(e){var p=e.getAttribute('data-show-from').split('-');if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>
 </body>

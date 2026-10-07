@@ -1,0 +1,441 @@
+{
+  "slug": "tire-changers",
+  "title": "The 10 Best Tire Changers",
+  "subtitle": "Manual, air-assisted, and shop tire changers for the home garage, ranked from live Amazon data.",
+  "intro": "A tire changer pays for itself fast if you swap your own tires, run a trailer, or keep a second set of wheels. Amazon's range runs from $60 manual stands for wheels up to 16 inches, to air-assisted portable changers around $400, to 500-pound shop machines near $1,100 that handle 24-inch rims. We ranked 10 on star rating, review volume, and features (bead breaker, powered operation, rim protection, and a bead blaster).",
+  "data_captured": "2026-10-07",
+  "audited": "2026-10-07",
+  "changelog": [
+    {
+      "date": "2026-10-07",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 70,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "bead_breaker": 0.25,
+    "powered": 0.35,
+    "rim_protection": 0.25,
+    "bead_blaster": 0.15
+  },
+  "reviews_ceiling": 1000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "range",
+      "label": "Wheel range"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "range",
+      "label": "Wheel range"
+    },
+    {
+      "key": "powered",
+      "label": "Powered",
+      "type": "bool"
+    },
+    {
+      "key": "bead_blaster",
+      "label": "Bead blaster",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B085FTHNT6",
+      "name": "TUFFIOM Manual Tire Changer, Portable Hand Bead Breaker Mounting Tool for 8 to 16 in. Tires",
+      "brand": "TUFFIOM",
+      "model": "TFmtc0304",
+      "image": "https://m.media-amazon.com/images/I/51B-qjWzURL._AC_SX425_.jpg",
+      "price": 60.79,
+      "rating": 4.4,
+      "reviews_count": 508,
+      "bought": "100+/mo",
+      "specs": {
+        "type": "Manual stand",
+        "range": "8 to 16 in. tires",
+        "power": "None",
+        "weight": "34.6 lb"
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": false,
+        "rim_protection": false,
+        "bead_blaster": false
+      },
+      "verdict": "The best-rated manual tire changer with a big review count. It breaks the bead, holds the wheel with a locking collar, and handles car, trailer, and mower tires up to 16 inches.",
+      "pros": [
+        "4.4 stars across 500+ reviews",
+        "Three bead-breaker positions on the tube cover 8 to 16 in. tires",
+        "Locking collar holds the wheel while you mount and dismount"
+      ],
+      "cons": [
+        "Stops at 16 in., so most modern car and truck wheels (17 in. and up) won't fit",
+        "All muscle: expect to work hard on stiff sidewalls",
+        "Needs bolting down for the best results"
+      ],
+      "force_budget": true
+    },
+    {
+      "asin": "B0CNRMWHRG",
+      "name": "VEVOR Manual Tire Changer, Portable Hand Bead Breaker Mounting Tool for 8 to 16 in. Tires",
+      "brand": "VEVOR",
+      "model": "Manual Tire Changer",
+      "image": "https://m.media-amazon.com/images/I/713SRTurLfL._AC_SX425_.jpg",
+      "price": 62.91,
+      "rating": 3.9,
+      "reviews_count": 755,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "Manual stand",
+        "range": "8 to 16 in. tires",
+        "power": "None",
+        "weight": null
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": false,
+        "rim_protection": false,
+        "bead_blaster": false
+      },
+      "verdict": "The best-selling tire changer on Amazon by volume. It's the same classic stand-and-bar design as the TUFFIOM, with rounded contact points and an X-shaped base you can bolt to the floor.",
+      "pros": [
+        "Most-reviewed and best-selling tire changer we found (500+ bought a month)",
+        "Q235B steel with electrostatic powder coat",
+        "Parts that touch the tire are thickened and rounded to reduce damage"
+      ],
+      "cons": [
+        "3.9-star average is lower than the TUFFIOM's",
+        "8 to 16 in. tires only",
+        "VEVOR recommends lubricating the bead, so budget for tire paste"
+      ]
+    },
+    {
+      "asin": "B08BC2JKLW",
+      "name": "EASYBERG Manual Tire Changer, Bead Breaker and Tire Mounting Tool, 4 to 16.5 in. Rims",
+      "brand": "EASYBERG",
+      "model": "FY0781",
+      "image": "https://m.media-amazon.com/images/I/51BuOEEyCHL._AC_SX425_.jpg",
+      "price": 82.99,
+      "rating": 4.1,
+      "reviews_count": 223,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Manual stand",
+        "range": "4 to 16.5 in. rims",
+        "power": "None",
+        "weight": "66 lb"
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": false,
+        "rim_protection": false,
+        "bead_blaster": false
+      },
+      "verdict": "A heavier manual changer with a reinforced rectangular base and a wider size range, down to 4-inch ATV, trailer, and mower rims.",
+      "pros": [
+        "4 to 16.5 in. range reaches small trailer and lawn-equipment rims",
+        "Reinforced rectangular base for a steadier platform",
+        "Integrated bead breaker and adjustable locking collar"
+      ],
+      "cons": [
+        "Tops out at 16.5 in. rims",
+        "Listing doesn't say whether the base has bolt-down holes"
+      ]
+    },
+    {
+      "asin": "B09T67YSS7",
+      "name": "Olympia Tools Manual Tire Changer Base, Red, 75-378-101",
+      "brand": "Olympia Tools",
+      "model": "75-378-101",
+      "image": "https://m.media-amazon.com/images/I/71IaIdPdCjL._AC_SX425_.jpg",
+      "price": 89.99,
+      "rating": 3.7,
+      "reviews_count": 148,
+      "specs": {
+        "type": "Manual stand",
+        "range": "8 to 16 in. tires",
+        "power": "None",
+        "weight": null
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": false,
+        "rim_protection": false,
+        "bead_blaster": false
+      },
+      "verdict": "A name-brand version of the classic manual changer that ships with the bead breaker, tire iron, and lever bar. Olympia says it handles light-truck flotation tires up to 12.5L16.",
+      "pros": [
+        "Bead breaker, tire iron, and lever bar included",
+        "Handles flotation tires up to 12.5L16",
+        "Designed to protect inner tubes"
+      ],
+      "cons": [
+        "3.7 stars is the lowest rating on this list",
+        "8 to 16 in. tires only"
+      ]
+    },
+    {
+      "asin": "B0BVVX1XBJ",
+      "name": "MOTOOS Manual Tire Changer, Portable Hand Tire Changer for 4 to 16.5 in. Rims",
+      "brand": "MOTOOS",
+      "model": "1032RD7288",
+      "image": "https://m.media-amazon.com/images/I/61ZActzKziL._AC_SX425_.jpg",
+      "price": 125.99,
+      "rating": 4.2,
+      "reviews_count": 69,
+      "specs": {
+        "type": "Manual stand",
+        "range": "4 to 16.5 in. rims",
+        "power": "None",
+        "weight": "61.7 lb"
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": false,
+        "rim_protection": false,
+        "bead_blaster": false
+      },
+      "verdict": "A 62-pound manual changer that works bolted down or free-standing. Good for a farm or garage that handles ATV, trailer, and small car wheels.",
+      "pros": [
+        "Heavy 61.7 lb steel frame stays put while you break beads",
+        "Bolt-down or portable setup",
+        "4 to 16.5 in. rims, including ATVs, go-karts, and trailers"
+      ],
+      "cons": [
+        "No 17 in. or larger wheels",
+        "Fewer reviews than the TUFFIOM and VEVOR"
+      ]
+    },
+    {
+      "asin": "B0FM2KYBDS",
+      "name": "KATOOL Mini Tire Changer Machine KT-1030P, 39 in. Max Wheel Diameter",
+      "brand": "KATOOL",
+      "model": "KT-1030P",
+      "image": "https://m.media-amazon.com/images/I/61urOexDBhL._AC_SX425_.jpg",
+      "price": 365.0,
+      "rating": 4.1,
+      "reviews_count": 17,
+      "specs": {
+        "type": "Mini machine",
+        "range": "10 to 21 in. rims, 39 in. max wheel",
+        "power": "Shop air (per buyers)",
+        "weight": "110 lb"
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": true,
+        "rim_protection": false,
+        "bead_blaster": false
+      },
+      "verdict": "A compact machine that takes 10 to 21 inch rims and wheels up to 39 inches, at 110 pounds. It fills the gap between a manual stand and a full shop machine.",
+      "pros": [
+        "Handles 17 to 21 in. car and truck wheels that manual stands can't",
+        "39 in. max wheel diameter covers most light-truck and off-road tires",
+        "110 lb and compact enough for a van or small garage"
+      ],
+      "cons": [
+        "Needs an air compressor; buyers say the listing doesn't mention it",
+        "Listing has no rim-protection details",
+        "Ships in 6 to 7 days"
+      ]
+    },
+    {
+      "asin": "B0FQC1882K",
+      "name": "LCTX Manual Tire Changer for Home Use, Bead Breaker and Tire Mounting Tool, 12 to 21 in. Rims",
+      "brand": "LCTX",
+      "model": "JYM009",
+      "image": "https://m.media-amazon.com/images/I/61nhsHekcbL._AC_SX425_.jpg",
+      "price": 399.99,
+      "rating": 5.0,
+      "reviews_count": 9,
+      "specs": {
+        "type": "Air-assisted stand",
+        "range": "12 to 21 in. rims, 39 in. max tire",
+        "power": "Shop air, 120 to 145 psi",
+        "weight": "83 lb"
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": true,
+        "rim_protection": false,
+        "bead_blaster": false
+      },
+      "verdict": "A portable changer with an air-cylinder bead breaker worked by a foot pedal, rated at up to 5,600 lb of bead-breaking force. It handles low-profile tires on rims up to 21 inches.",
+      "pros": [
+        "Air-powered bead breaker (foot pedal) does the hardest part of the job",
+        "12 to 21 in. rims, including low-profile tires",
+        "83 lb, light enough to move between garage and driveway"
+      ],
+      "cons": [
+        "Needs a compressor that delivers 120 to 145 psi",
+        "Assembly has many parts; the seller asks you to watch its video first",
+        "Sold under a generic brand listing"
+      ]
+    },
+    {
+      "asin": "B0D7PHNVHX",
+      "name": "KATOOL ME-T500 24 in. Tire Changer Machine",
+      "brand": "KATOOL",
+      "model": "ME-T500",
+      "image": "https://m.media-amazon.com/images/I/51NrnAxh25L._AC_SX425_.jpg",
+      "price": 999.0,
+      "rating": 4.6,
+      "reviews_count": 39,
+      "specs": {
+        "type": "Shop machine",
+        "range": "Outside clamp 12 to 22 in., inside 14 to 24 in.",
+        "power": "120V motor + shop air",
+        "weight": "473 lb"
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": true,
+        "rim_protection": true,
+        "bead_blaster": false
+      },
+      "verdict": "A full rim-clamp tire machine for a home garage, with a motorized turntable and a non-marring mount head. Buyers report it handling 20-inch truck wheels and 40-inch crawler tires.",
+      "pros": [
+        "Outside and inside clamping covers 12 to 24 in. rims",
+        "Stainless mount head with a plastic cover, plus a non-marring spade cover for alloy wheels",
+        "Runs on a standard 120V circuit"
+      ],
+      "cons": [
+        "The title says 2.0 HP but the listing's own bullet says a 1.5 HP motor",
+        "No bead blaster; buyers say they wished it had one",
+        "Needs an air compressor and a spot for a 473 lb machine"
+      ]
+    },
+    {
+      "asin": "B0BQHWLK7Y",
+      "name": "KATOOL KT-T810 2.0HP Tire Changer Machine with Bead Blaster",
+      "brand": "KATOOL",
+      "model": "KT-T810",
+      "image": "https://m.media-amazon.com/images/I/61-o-wqfpXL._AC_SX425_.jpg",
+      "price": 1129.0,
+      "rating": 4.5,
+      "reviews_count": 39,
+      "specs": {
+        "type": "Shop machine",
+        "range": "Outside clamp 12 to 22 in., inside 14 to 24 in.",
+        "power": "110V 2.0 HP + shop air (116 to 145 psi)",
+        "weight": "520 lb"
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": true,
+        "rim_protection": true,
+        "bead_blaster": true
+      },
+      "verdict": "KATOOL's shop machine with everything a home tire shop needs: a bead blaster to seat stubborn tires, an assist arm, and rim protection. It costs about $130 more than the ME-T500.",
+      "pros": [
+        "Built-in bead blaster seats stiff sidewalls and low-profile tires",
+        "Tool-free switch between outside (12 to 22 in.) and inside (14 to 24 in.) clamping",
+        "Enclosed body and an air filter with oil mist to protect the pneumatics"
+      ],
+      "cons": [
+        "520 lb; plan the delivery and the floor space",
+        "Ships in 6 to 7 days",
+        "Needs a compressor that holds 116 to 145 psi"
+      ],
+      "force_overall": true
+    },
+    {
+      "asin": "B0BMQQBX5T",
+      "name": "Rabaconda Motorcycle Tire Changer, Street Bike Starter Kit, 12 to 21 in. Wheels",
+      "brand": "Rabaconda",
+      "model": "Street Bike Tire Changer",
+      "image": "https://m.media-amazon.com/images/I/61+GTa2uEkL._AC_SX425_.jpg",
+      "price": 759.0,
+      "rating": 4.6,
+      "reviews_count": 165,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Motorcycle stand",
+        "range": "12 to 21 in. motorcycle wheels, tires to 250 mm wide",
+        "power": "None",
+        "weight": null
+      },
+      "features": {
+        "bead_breaker": true,
+        "powered": false,
+        "rim_protection": true,
+        "bead_blaster": false
+      },
+      "verdict": "The motorcycle pick. It folds into a carry bag, holds cast, forged, and spoked street-bike wheels at a comfortable angle, and uses a plastic mount head so it won't mark your rims.",
+      "pros": [
+        "Plastic mounting head and a covered tire iron protect rims",
+        "Fits 12 to 21 in. wheels, tires up to 250 mm, single- and double-sided swingarms",
+        "Lifetime warranty (excluding wear items); made in the EU"
+      ],
+      "cons": [
+        "Motorcycles only; it won't do car tires",
+        "Some wide-hub bikes need an extra-cost spindle kit"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0HCHPJ4BN",
+      "name": "Krysolad Manual Tire Changer Machine, 8 to 21 in. Tire Change",
+      "brand": "Krysolad",
+      "model": "Manual Tire Changer 82",
+      "image": "https://m.media-amazon.com/images/I/51dcFKjC2UL._AC_SX425_.jpg",
+      "price": 159.99,
+      "rating": 1.7,
+      "reviews_count": 4,
+      "flag": "No bead breaker in the kit",
+      "verdict": "It promises 8 to 21 inch wheels and quick bead breaking from a 23-pound duck-head kit, but the parts list doesn't include anything that breaks a bead. The TUFFIOM costs about $100 less and comes with a bead breaker.",
+      "reasons": [
+        "The kit is listed as a duckbill adapter, a mounting base, and conical washers. There's no bead breaker, yet the same bullet says it \"separates tire bead in seconds.\" Breaking the bead is the hardest part of a tire change.",
+        "It claims 8 to 21 inch fitment, but a buyer reports their 8 in. golf-cart tires wouldn't work on it at all.",
+        "It's pitched as \"ideal for tabletop use\" and as an upgrade for professional shops: a 23 lb stand on a 10 in. base isn't stable enough for either a 21 in. wheel or daily shop work.",
+        "The title says 8 to 21 inch \"tire\" while the bullets say 8 to 21 inch \"rims\", which are very different sizes."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Will a manual tire changer handle my car's wheels?",
+      "a": "Check your rim size first. The classic manual stands here (TUFFIOM, VEVOR, Olympia) stop at 16 in., and EASYBERG and MOTOOS at 16.5 in. Most cars sold in the last decade ride on 17 in. or larger wheels, which need a changer rated to 21 in. or more, like the LCTX, the KATOOL KT-1030P, or a full shop machine."
+    },
+    {
+      "q": "Do I need an air compressor?",
+      "a": "Manual stands don't. The LCTX, KATOOL KT-1030P, and both KATOOL shop machines use compressed air for the bead breaker or clamps, and the shop machines want 116 to 145 psi. A small pancake compressor won't keep up; plan on a tank of 20 gallons or more."
+    },
+    {
+      "q": "What is a bead blaster?",
+      "a": "A bead blaster is a burst of air through a ring or nozzle that snaps a tire's bead onto the rim. Stiff run-flats, low-profile tires, and big off-road tires often won't seat with an ordinary air chuck. The KATOOL KT-T810 has one built in; for the others you can buy a separate bead seater tank."
+    },
+    {
+      "q": "Will a tire changer scratch alloy wheels?",
+      "a": "A bare steel bar can. Look for a plastic or covered mount head and jaw covers. The KATOOL ME-T500 and KT-T810 include non-marring covers, and the Rabaconda uses a plastic mount head. With a manual stand, use rim protectors and plenty of tire lube."
+    },
+    {
+      "q": "Can I balance tires with a tire changer?",
+      "a": "No. A changer only mounts and dismounts tires. You'll still need to balance the wheel afterward, either at a shop or with a wheel balancer. See our wheel balancer rankings for bubble and computerized options."
+    }
+  ]
+}

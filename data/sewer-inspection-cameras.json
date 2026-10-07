@@ -1,0 +1,463 @@
+{
+  "slug": "sewer-inspection-cameras",
+  "title": "The 10 Best Sewer Inspection Cameras",
+  "subtitle": "Push-cable drain and sewer cameras for homeowners and plumbers, ranked from live Amazon data.",
+  "intro": "A sewer camera shows you what's inside a drain or main line, whether that's roots, a belly, a crushed pipe, or a lost toy, before you pay for a dig. Amazon's sewer cameras run from about $175 for a basic 100-foot camera to about $1,100 for self-leveling systems with a locator that pinpoints the problem from above ground. We ranked 10 on star rating, review volume, and features (self-leveling head, locator, recording, distance markings, and a 7-inch or larger screen).",
+  "data_captured": "2026-10-07",
+  "audited": "2026-10-07",
+  "changelog": [
+    {
+      "date": "2026-10-07",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 180,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "self_leveling": 0.25,
+    "locator": 0.25,
+    "dvr": 0.15,
+    "distance_marks": 0.15,
+    "big_screen": 0.2
+  },
+  "reviews_ceiling": 1000,
+  "spec_fields": [
+    {
+      "key": "cable",
+      "label": "Cable"
+    },
+    {
+      "key": "screen",
+      "label": "Screen"
+    },
+    {
+      "key": "resolution",
+      "label": "Video"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "head",
+      "label": "Camera head"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "cable",
+      "label": "Cable"
+    },
+    {
+      "key": "screen",
+      "label": "Screen"
+    },
+    {
+      "key": "self_leveling",
+      "label": "Self-leveling",
+      "type": "bool"
+    },
+    {
+      "key": "locator",
+      "label": "Locator",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0FFGFV5J8",
+      "name": "ChoosePRO HD 1080P Sewer Camera 100 ft, 7 in. Screen, 32GB DVR",
+      "brand": "ChoosePRO",
+      "model": "HD1080P 100 ft",
+      "image": "https://m.media-amazon.com/images/I/81ZDPZSyofL._AC_SX425_.jpg",
+      "price": 299.99,
+      "rating": 4.5,
+      "reviews_count": 122,
+      "bought": "100+/mo",
+      "specs": {
+        "cable": "100 ft",
+        "screen": "7 in.",
+        "resolution": "1080p",
+        "battery": "8+ hr",
+        "head": "0.71 in. (18 mm)"
+      },
+      "features": {
+        "self_leveling": false,
+        "locator": false,
+        "dvr": true,
+        "distance_marks": false,
+        "big_screen": true
+      },
+      "verdict": "The most-reviewed dedicated sewer camera we found, with a 4.5-star average. A 1080p head, a 7-inch screen that clamps to the reel, and a twist-lock reel brake that's easier to use than the usual thumb screws.",
+      "pros": [
+        "4.5 stars across 120+ reviews; 100+ sold a month",
+        "Twist-lock reel and a thicker 0.637 in. reel frame",
+        "32GB card, 16x digital zoom, 8+ hours per charge, 12-month warranty"
+      ],
+      "cons": [
+        "No self-leveling head, so the picture rotates as the cable twists",
+        "No distance markings are mentioned in the listing",
+        "No sonde or locator"
+      ]
+    },
+    {
+      "asin": "B0FK294Z6X",
+      "name": "Anysun 9 in. Self-Leveling Sewer Camera, 100 ft, Length Marker, 1080P DVR",
+      "brand": "Anysun",
+      "model": "L09D1-5C",
+      "image": "https://m.media-amazon.com/images/I/714dmq3IZTL._AC_SX425_.jpg",
+      "price": 319.85,
+      "rating": 4.1,
+      "reviews_count": 102,
+      "specs": {
+        "cable": "100 ft, 5 mm",
+        "screen": "9 in.",
+        "resolution": "1080p",
+        "battery": "5,100 mAh, up to 10 hr",
+        "head": null
+      },
+      "features": {
+        "self_leveling": true,
+        "locator": false,
+        "dvr": true,
+        "distance_marks": true,
+        "big_screen": true
+      },
+      "verdict": "A self-leveling camera with a 9-inch screen and a length-marked cable for about $320. It's the cheapest way to get an upright picture and know how far down the line a problem is.",
+      "pros": [
+        "Self-leveling head keeps the image upright",
+        "Length-marked 100 ft push cable",
+        "9 in. IPS screen and up to 10 hours per charge"
+      ],
+      "cons": [
+        "4.1 stars, lower than the ChoosePRO",
+        "No locator; you'll know the distance but not the exact spot in the yard",
+        "Stock was low when we checked"
+      ]
+    },
+    {
+      "asin": "B0D5M8PB92",
+      "name": "Anysun Self-Leveling Sewer Camera with 512Hz Locator, 165 ft, 7mm Cable, 9 in.",
+      "brand": "Anysun",
+      "model": "165 ft with Locator",
+      "image": "https://m.media-amazon.com/images/I/71o798nhaEL._SL1500_.jpg",
+      "price": 1039.99,
+      "rating": 4.2,
+      "reviews_count": 62,
+      "specs": {
+        "cable": "165 ft, 7 mm",
+        "screen": "9 in.",
+        "resolution": "1080p",
+        "battery": null,
+        "head": null
+      },
+      "features": {
+        "self_leveling": true,
+        "locator": true,
+        "dvr": true,
+        "distance_marks": true,
+        "big_screen": true
+      },
+      "verdict": "A full sewer inspection system: self-leveling camera, a 512Hz sonde with a handheld locator, an on-screen distance counter, a microphone for voice notes, and a stiff 7mm push cable for 165-foot runs.",
+      "pros": [
+        "512Hz sonde and locator find the camera's position from above ground",
+        "Stiff 7 mm fiberglass cable pushes farther through main lines",
+        "On-screen distance counter and built-in mic for narrated recordings"
+      ],
+      "cons": [
+        "About $1,040",
+        "4.2-star average",
+        "Bulkier than the 5 mm cable kits"
+      ]
+    },
+    {
+      "asin": "B0FPBZ2R5N",
+      "name": "VEVOR Sewer Camera, 98 ft, 4.3 in. Drain Inspection Tool, IP68, 16GB Card",
+      "brand": "VEVOR",
+      "model": "98 ft Sewer Camera",
+      "image": "https://m.media-amazon.com/images/I/71+vMMLsoaL._AC_SX425_.jpg",
+      "price": 174.32,
+      "rating": 4.1,
+      "reviews_count": 100,
+      "specs": {
+        "cable": "98 ft",
+        "screen": "4.3 in.",
+        "resolution": "720p",
+        "battery": "4,500 mAh, up to 5 hr",
+        "head": null
+      },
+      "features": {
+        "self_leveling": false,
+        "locator": false,
+        "dvr": true,
+        "distance_marks": true,
+        "big_screen": false
+      },
+      "verdict": "The cheapest real sewer camera with a solid review count. It records to a 16GB card and has distance markings on a 98-foot fiberglass cable.",
+      "pros": [
+        "Lowest price on the list (about $174)",
+        "Distance markings on the cable",
+        "Metal reel; 120° viewing angle"
+      ],
+      "cons": [
+        "720p video, the lowest resolution here",
+        "Small 4.3 in. screen",
+        "Up to 5 hours of battery, about half the others"
+      ],
+      "force_budget": true
+    },
+    {
+      "asin": "B0FVLGW7XL",
+      "name": "VISIOPROBE Sewer Camera 100 ft, 23mm 1080P Probe, 8,500mAh, 32GB Audio and Video Record",
+      "brand": "VISIOPROBE",
+      "model": "F2529PDOC23-30M-K",
+      "image": "https://m.media-amazon.com/images/I/71d-DVOpVOL._SL1500_.jpg",
+      "price": 219.99,
+      "rating": 4.4,
+      "reviews_count": 64,
+      "bought": "200+/mo",
+      "specs": {
+        "cable": "100 ft",
+        "screen": "4.3 in.",
+        "resolution": "1080p (AHD)",
+        "battery": "8,500 mAh",
+        "head": "23 mm"
+      },
+      "features": {
+        "self_leveling": false,
+        "locator": false,
+        "dvr": true,
+        "distance_marks": true,
+        "big_screen": false
+      },
+      "verdict": "A compact 100-foot camera with a big 8,500 mAh battery, depth markers on the cable, and two wheeled head guards for different pipe sizes. It's one of the fastest-selling sewer cameras on Amazon right now.",
+      "pros": [
+        "200+ sold a month; #2 in Video Inspection Equipment",
+        "Two wheeled protective heads to center the camera in larger pipes",
+        "Sun visor on the screen; 1-year warranty"
+      ],
+      "cons": [
+        "4.3 in. screen",
+        "No self-leveling"
+      ]
+    },
+    {
+      "asin": "B0G15X3PZ2",
+      "name": "KCapyn Sewer Camera 100 ft, 5 in. IPS Screen, 17mm Head, 1080P, Toolbox Case",
+      "brand": "KCapyn",
+      "model": "100 ft Toolbox Camera",
+      "image": "https://m.media-amazon.com/images/I/71KAVhAUvpL._AC_SX425_.jpg",
+      "price": 246.04,
+      "rating": 4.3,
+      "reviews_count": 59,
+      "bought": "100+/mo",
+      "specs": {
+        "cable": "100 ft",
+        "screen": "5 in.",
+        "resolution": "1080p",
+        "battery": "5,000 mAh",
+        "head": "17 mm"
+      },
+      "features": {
+        "self_leveling": false,
+        "locator": false,
+        "dvr": true,
+        "distance_marks": false,
+        "big_screen": false
+      },
+      "verdict": "A 1080p camera built into an orange toolbox: the monitor and reel live in the case, with storage for the head guards and hooks.",
+      "pros": [
+        "Everything packs into one toolbox",
+        "Smaller 17 mm head fits tighter drains",
+        "100+ sold a month"
+      ],
+      "cons": [
+        "No distance markings mentioned",
+        "No self-leveling"
+      ]
+    },
+    {
+      "asin": "B0FJL8WJG5",
+      "name": "ESANHAO Sewer Camera 100 ft, 12 LEDs, 4.3 in. IPS, 32GB, 23mm, 8,500mAh",
+      "brand": "ESANHAO",
+      "model": "F964DBC23-30M-K",
+      "image": "https://m.media-amazon.com/images/I/715otOjsHoL._SL1500_.jpg",
+      "price": 219.99,
+      "rating": 4.6,
+      "reviews_count": 30,
+      "specs": {
+        "cable": "100 ft, 5 mm",
+        "screen": "4.3 in.",
+        "resolution": "1080p (AHD)",
+        "battery": "8,500 mAh, 6 to 8 hr",
+        "head": "23 mm"
+      },
+      "features": {
+        "self_leveling": false,
+        "locator": false,
+        "dvr": true,
+        "distance_marks": true,
+        "big_screen": false
+      },
+      "verdict": "A 4.6-star camera with a stainless 23mm head, 12 LEDs, a meter-marked 5mm cable, and 6 to 8 hours of battery. Good value for checking a house drain to the street.",
+      "pros": [
+        "4.6 stars, tied for the best rating here",
+        "Meter-marked 5 mm fiberglass cable",
+        "1-year warranty"
+      ],
+      "cons": [
+        "4.3 in. screen",
+        "Fewer reviews than the top sellers"
+      ]
+    },
+    {
+      "asin": "B0DPFF56XL",
+      "name": "Sanyipace Self-Leveling Sewer Camera with 512Hz Locator, 100 ft, 9 in. Screen, 1080P",
+      "brand": "Sanyipace",
+      "model": "100 ft with Locator",
+      "image": "https://m.media-amazon.com/images/I/71LvMUtaIJL._SL1500_.jpg",
+      "price": 1099.88,
+      "rating": 4.6,
+      "reviews_count": 24,
+      "specs": {
+        "cable": "100 ft",
+        "screen": "9 in. sunlight-readable",
+        "resolution": "1080p",
+        "battery": null,
+        "head": "23 mm"
+      },
+      "features": {
+        "self_leveling": true,
+        "locator": true,
+        "dvr": true,
+        "distance_marks": true,
+        "big_screen": true
+      },
+      "verdict": "The highest-rated locator camera we found. Self-leveling head with a sapphire lens, a two-mode 512Hz locator, a live distance counter, and a glare-resistant 9-inch screen for outdoor work.",
+      "pros": [
+        "4.6 stars, the best rating among locator systems",
+        "Locator has far (16.5 ft) and near (3.3 ft) modes with six sensitivity levels",
+        "Sapphire lens, 5x zoom, works from -4°F to 140°F"
+      ],
+      "cons": [
+        "About $1,100",
+        "100 ft cable; the 165 ft Anysun reaches farther for about the same money"
+      ]
+    },
+    {
+      "asin": "B0G5PDSZPV",
+      "name": "Powerwill Self-Leveling Drain Camera, 165 ft, 9 in. 1080P, 5mm Meter-Marked Cable",
+      "brand": "Powerwill",
+      "model": "165 ft Self-Leveling",
+      "image": "https://m.media-amazon.com/images/I/81Gg1iWrh4L._SL1500_.jpg",
+      "price": 379.99,
+      "rating": 4.6,
+      "reviews_count": 13,
+      "specs": {
+        "cable": "165 ft, 5 mm",
+        "screen": "9 in.",
+        "resolution": "1080p",
+        "battery": "5,100 mAh, 8 to 10 hr",
+        "head": null
+      },
+      "features": {
+        "self_leveling": true,
+        "locator": false,
+        "dvr": true,
+        "distance_marks": true,
+        "big_screen": true
+      },
+      "verdict": "The longest cable for the money: 165 feet, a self-leveling head, and a 9-inch screen for about $380. Good for main lines and long runs to the city tap.",
+      "pros": [
+        "165 ft cable for under $400",
+        "Self-leveling, 5x zoom, 32GB card",
+        "8 to 10 hours per charge"
+      ],
+      "cons": [
+        "No locator",
+        "Only about a dozen reviews"
+      ]
+    },
+    {
+      "asin": "B0GK78HJ9C",
+      "name": "Holdwells Sewer Camera with 512Hz Locator, 9 in. Screen, 30m",
+      "brand": "Holdwells",
+      "model": "30 m with Locator",
+      "image": "https://m.media-amazon.com/images/I/710IPXgA0WL._AC_SX425_.jpg",
+      "price": 557.99,
+      "rating": 3.8,
+      "reviews_count": 19,
+      "bought": "50+/mo",
+      "specs": {
+        "cable": "98 ft (30 m), 5 mm",
+        "screen": "9 in.",
+        "resolution": "1080p",
+        "battery": "4,500 mAh, 8 hr",
+        "head": "23 mm"
+      },
+      "features": {
+        "self_leveling": false,
+        "locator": true,
+        "dvr": true,
+        "distance_marks": true,
+        "big_screen": true
+      },
+      "verdict": "The cheapest camera here with a 512Hz transmitter and locator in the box, about half the price of the Anysun and Sanyipace locator systems.",
+      "pros": [
+        "Locator and sonde included for about $558",
+        "Real-time distance counter on screen",
+        "Pipe pulley and roller guide for different pipe sizes"
+      ],
+      "cons": [
+        "3.8 stars, the lowest rating on this list",
+        "30 m cable is shorter than the 165 ft systems"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DWSKVF5H",
+      "name": "TGJOR Endoscope Camera with Light, 5 in. 1080P Dual-Lens Borescope \"for Sewer\", 16.4 ft",
+      "brand": "TGJOR",
+      "model": "16.4 ft Dual-Lens Borescope",
+      "image": "https://m.media-amazon.com/images/I/7151iHyMsAL._AC_SX425_.jpg",
+      "price": 29.99,
+      "rating": 4.4,
+      "reviews_count": 1300,
+      "flag": "16 ft borescope sold as a sewer camera",
+      "verdict": "It's a handy $30 borescope for looking behind walls and into engines, but the title sells it as a sewer camera, and it can't do that job. For sewer lines, the VEVOR 98 ft camera is the cheapest real option.",
+      "reasons": [
+        "The cable is 16.4 ft. A house sewer line usually runs 30 to 100 ft or more from the cleanout to the street, so it can't reach most problems.",
+        "It's rated IP67, which covers temporary immersion only. Every sewer camera on our list has an IP68 head built to sit in standing water.",
+        "The listing's own spec table says \"No Video\" and \"No picture, NoVideo\" for capture and media, so you may not be able to record what you find to show a plumber.",
+        "A thin semi-rigid snake can't be pushed through traps and long sweeps the way a fiberglass push cable can."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "How long a cable do I need?",
+      "a": "Measure from your cleanout to the street or septic tank and add 20 to 30 ft. For most houses 100 ft is enough. Long lots, rural properties, and commercial lines may need 165 ft. Only the full length is useful if the cable is stiff enough to push it there; 7 mm cables push farther than 5 mm."
+    },
+    {
+      "q": "What does self-leveling do?",
+      "a": "A self-leveling head keeps the picture upright as the cable twists, so the bottom of the pipe stays at the bottom of the screen. It makes it much easier to judge sags, standing water, and which side a root is coming in from."
+    },
+    {
+      "q": "Do I need a locator?",
+      "a": "A locator (512Hz sonde in the camera head plus a handheld receiver) tells you where the camera is under the yard and how deep. It's worth it if you plan to dig or need to mark a repair spot. If you just want to see whether there's a clog or roots, distance markings on the cable are enough."
+    },
+    {
+      "q": "Can I push a sewer camera through a toilet?",
+      "a": "Not usually. Toilet traps are tight and can snag or crack the camera. Go in through a cleanout, or pull the toilet and enter through the flange. Clear standing clogs with a snake first; the camera can't get past a full blockage."
+    },
+    {
+      "q": "Will a $30 borescope work instead?",
+      "a": "For a sink trap or a few feet of drain, maybe. For a sewer line, no: borescopes have 10 to 16 ft cables that are too floppy to push around bends, and they usually aren't rated for full submersion."
+    }
+  ]
+}

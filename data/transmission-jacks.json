@@ -1,0 +1,440 @@
+{
+  "slug": "transmission-jacks",
+  "title": "The 10 Best Transmission Jacks",
+  "subtitle": "Telescoping and low-profile transmission jacks for home and shop, ranked from live Amazon data.",
+  "intro": "A transmission jack holds a transmission level while you unbolt it and lower it out, a job that is dangerous on a floor jack. There are two kinds: telescoping (high-lift) jacks that reach 67 to 74 inches for cars on a lift, and low-profile floor jacks that roll under cars on jack stands. We ranked 10 on star rating, review volume, and features (foot-pedal lift, a tilting saddle, a dual-piston pump, and locking casters).",
+  "data_captured": "2026-10-07",
+  "audited": "2026-10-07",
+  "changelog": [
+    {
+      "date": "2026-10-07",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 100,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "foot_pedal": 0.3,
+    "tilt_saddle": 0.25,
+    "dual_pump": 0.2,
+    "locking_casters": 0.25
+  },
+  "reviews_ceiling": 1000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "range",
+      "label": "Lift range"
+    },
+    {
+      "key": "tilt",
+      "label": "Saddle tilt"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "range",
+      "label": "Lift range"
+    },
+    {
+      "key": "foot_pedal",
+      "label": "Foot pedal",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0CLLM96VP",
+      "name": "VEVOR Transmission Jack, 1,322 lb Hydraulic Telescoping, High Lift with Foot Pedal",
+      "brand": "VEVOR",
+      "model": "1,322 lb Telescoping",
+      "image": "https://m.media-amazon.com/images/I/71gsm-c6wXL._AC_SX425_.jpg",
+      "price": 170.05,
+      "rating": 4.4,
+      "reviews_count": 178,
+      "bought": "300+/mo",
+      "specs": {
+        "type": "Telescoping (high lift)",
+        "capacity": "1,322 lb",
+        "range": "34.3 to 68.5 in.",
+        "tilt": "Up to 30°"
+      },
+      "features": {
+        "foot_pedal": true,
+        "tilt_saddle": true,
+        "dual_pump": false,
+        "locking_casters": true
+      },
+      "verdict": "The best-selling telescoping transmission jack on Amazon. It lifts 1,322 lb from about 34 to 68 inches with a foot pedal, for cars on a two-post lift.",
+      "pros": [
+        "300+ sold a month with a 4.4-star average",
+        "Foot pedal raises the load hands-free; saddle tilts up to 30°",
+        "Two of the four casters lock; center ring for pushing"
+      ],
+      "cons": [
+        "The title says 32 to 67 in. but the bullets say 34.3 to 68.5 in.",
+        "Needs the car on a lift; it's too tall for jack stands",
+        "VEVOR warns the base can be assembled backwards"
+      ]
+    },
+    {
+      "asin": "B0FRP4N2ZQ",
+      "name": "VEVOR Hydraulic Transmission Jack, 1,660 lb, 34.6 to 69.3 in. Two-Stage",
+      "brand": "VEVOR",
+      "model": "1,660 lb Telescoping",
+      "image": "https://m.media-amazon.com/images/I/613Ln6u6wUL._AC_SX425_.jpg",
+      "price": 209.9,
+      "rating": 4.4,
+      "reviews_count": 20,
+      "bought": "100+/mo",
+      "specs": {
+        "type": "Telescoping (high lift)",
+        "capacity": "1,660 lb",
+        "range": "34.6 to 69.3 in.",
+        "tilt": "Up to 30°, 360° rotation"
+      },
+      "features": {
+        "foot_pedal": true,
+        "tilt_saddle": true,
+        "dual_pump": false,
+        "locking_casters": true
+      },
+      "verdict": "VEVOR's heavier-duty telescoping jack: 1,660 lb capacity, a tray that rotates 360 degrees and tilts 30, and width-adjustable claws for different transmission pans.",
+      "pros": [
+        "1,660 lb capacity covers light-truck transmissions and transfer cases",
+        "Tray rotates 360° and tilts 30°; mounting plate adjusts in width",
+        "Now #2 in Amazon's Transmission Jacks category"
+      ],
+      "cons": [
+        "About $40 more than the 1,322 lb VEVOR",
+        "Newer listing with only about 20 reviews"
+      ]
+    },
+    {
+      "asin": "B0DB8JJ2LZ",
+      "name": "JustSmart Dual Plunger Hydraulic Transmission Jack, 1,322 lb, 33.5 to 69 in.",
+      "brand": "JustSmart",
+      "model": "Dual Plunger 1,322 lb",
+      "image": "https://m.media-amazon.com/images/I/61d8HZhhWKL._AC_SX425_.jpg",
+      "price": 229.99,
+      "rating": 4.5,
+      "reviews_count": 67,
+      "specs": {
+        "type": "Telescoping (high lift)",
+        "capacity": "1,322 lb",
+        "range": "33.5 to 69 in.",
+        "tilt": "30°"
+      },
+      "features": {
+        "foot_pedal": true,
+        "tilt_saddle": true,
+        "dual_pump": true,
+        "locking_casters": true
+      },
+      "verdict": "A telescoping jack with a dual-plunger pump that JustSmart says reaches full height in about 20 seconds. It comes with a non-slip pad on the saddle and two safety chains.",
+      "pros": [
+        "Dual-plunger pump lifts faster with fewer pedal strokes",
+        "Non-slip NBR pad on the saddle",
+        "4.5 stars; two of four casters brake"
+      ],
+      "cons": [
+        "Priced near the 1,660 lb VEVOR but rated for less weight",
+        "Lift time is the seller's claim; we couldn't verify it"
+      ]
+    },
+    {
+      "asin": "B00AC8KGV8",
+      "name": "Sunex Tools 7793B 1,000 lb Telescopic Transmission Jack, Foot Pump, Tilt Saddle",
+      "brand": "Sunex Tools",
+      "model": "7793B",
+      "image": "https://m.media-amazon.com/images/I/61kJDGn5CsL._AC_SX425_.jpg",
+      "price": 847.99,
+      "rating": 4.6,
+      "reviews_count": 221,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Telescoping (high lift)",
+        "capacity": "1,000 lb",
+        "range": "Up to 74 in.",
+        "tilt": "Tilt saddle"
+      },
+      "features": {
+        "foot_pedal": true,
+        "tilt_saddle": true,
+        "dual_pump": false,
+        "locking_casters": false
+      },
+      "verdict": "The most-reviewed transmission jack we found, from a pro tool brand. It reaches 74 inches, has an overload valve, and lowers far enough to slide the transmission onto a workbench.",
+      "pros": [
+        "4.6 stars across 220+ reviews",
+        "Overload valve stops the jack from lifting beyond its rating",
+        "Rams lower enough to transfer the transmission to a work table"
+      ],
+      "cons": [
+        "About five times the price of the VEVOR",
+        "1,000 lb capacity is lower than the imports",
+        "Strap tie-down, not chains; only one was left in stock when we checked"
+      ]
+    },
+    {
+      "asin": "B0082LTO10",
+      "name": "Sunex Tools 7796 1,000 lb Air/Hydraulic Telescopic Transmission Jack with Adjustable Saddle Arms",
+      "brand": "Sunex Tools",
+      "model": "7796",
+      "image": "https://m.media-amazon.com/images/I/7106Z6FXEWL._AC_SX425_.jpg",
+      "price": 1329.2,
+      "rating": 4.6,
+      "reviews_count": 138,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Air/hydraulic telescoping",
+        "capacity": "1,000 lb",
+        "range": "35 to 73.5 in.",
+        "tilt": "37° fwd, 26° back, 12° side"
+      },
+      "features": {
+        "foot_pedal": true,
+        "tilt_saddle": true,
+        "dual_pump": false,
+        "locking_casters": true
+      },
+      "verdict": "A shop-grade jack: an air-powered first stage on the foot pedal, a hydraulic second stage on the hand pump, and four ratcheting saddle arms that grab the oil-pan flange.",
+      "pros": [
+        "Air first stage gets the saddle up fast; hydraulic second stage for fine control",
+        "Saddle tilts 37° forward, 26° back, and 12° to each side",
+        "30.25 in. square base, locking casters, 1-year Sunex warranty"
+      ],
+      "cons": [
+        "$1,300+; needs shop air regulated to 100 psi",
+        "Overkill for a once-a-year job"
+      ],
+      "premium": true
+    },
+    {
+      "asin": "B0GPPRRBNN",
+      "name": "Garvee Transmission Jack, 450 lb Low Profile Lift, 7 to 23 in. with Safety Straps",
+      "brand": "Garvee",
+      "model": "450 lb Low Profile",
+      "image": "https://m.media-amazon.com/images/I/61-Nw-MkPbL._AC_SX425_.jpg",
+      "price": 93.99,
+      "rating": 4.1,
+      "reviews_count": 94,
+      "bought": "300+/mo",
+      "specs": {
+        "type": "Low profile (floor)",
+        "capacity": "450 lb",
+        "range": "7 to 23 in.",
+        "tilt": null
+      },
+      "features": {
+        "foot_pedal": false,
+        "tilt_saddle": false,
+        "dual_pump": false,
+        "locking_casters": true
+      },
+      "verdict": "A $94 low-profile jack for cars up on jack stands. It rolls under at 7 inches, lifts to 23, and comes with 2-meter straps to hold the transmission down.",
+      "pros": [
+        "Cheapest jack on the list; 300+ sold a month",
+        "7 in. low height fits under cars on jack stands, no lift needed",
+        "Four locking casters and two 2 m safety straps"
+      ],
+      "cons": [
+        "450 lb capacity: fine for most car transmissions, too little for heavy truck units",
+        "No tilt adjustment listed",
+        "Tops out at 23 in.; won't reach a car on a lift"
+      ],
+      "force_budget": true
+    },
+    {
+      "asin": "B0CJY5R8W3",
+      "name": "KAFLLA High Lift Hydraulic Transmission Jack, 1,660 lb, 35 to 72 in.",
+      "brand": "KAFLLA",
+      "model": "1,660 lb Telescoping",
+      "image": "https://m.media-amazon.com/images/I/61OdivLGVCL._AC_SX425_.jpg",
+      "price": 125.99,
+      "rating": 4.6,
+      "reviews_count": 114,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Telescoping (high lift)",
+        "capacity": "1,660 lb",
+        "range": "35 to 72 in.",
+        "tilt": "30°"
+      },
+      "features": {
+        "foot_pedal": true,
+        "tilt_saddle": true,
+        "dual_pump": false,
+        "locking_casters": false
+      },
+      "verdict": "The best value telescoping jack here: 1,660 lb and a 72-inch reach for about $126, with a 4.6-star average across more than 100 reviews.",
+      "pros": [
+        "4.6 stars, tied with the Sunex jacks for the best rating",
+        "1,660 lb capacity and 35 to 72 in. range for about $126",
+        "Retaining chain and 30° tilting saddle"
+      ],
+      "cons": [
+        "The spec table says 1,600 lb while the title says 1,660 lb",
+        "Listing doesn't mention locking casters"
+      ]
+    },
+    {
+      "asin": "B07XRMVRCT",
+      "name": "MOTOOS 1,100 lb Hydraulic Transmission Jack, 7.68 to 24.8 in. Low Profile Lift",
+      "brand": "MOTOOS",
+      "model": "1,100 lb Low Profile",
+      "image": "https://m.media-amazon.com/images/I/61dUFbwZ98L._AC_SX425_.jpg",
+      "price": 164.99,
+      "rating": 4.2,
+      "reviews_count": 77,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Low profile (floor)",
+        "capacity": "1,100 lb",
+        "range": "7.68 to 24.8 in.",
+        "tilt": "Forward/back"
+      },
+      "features": {
+        "foot_pedal": false,
+        "tilt_saddle": true,
+        "dual_pump": false,
+        "locking_casters": false
+      },
+      "verdict": "A low-profile jack with more than twice the Garvee's capacity. It rolls under at 7.7 inches and tilts the saddle fore and aft to line up the input shaft.",
+      "pros": [
+        "1,100 lb capacity in a roll-under jack",
+        "Forward and backward saddle tilt for alignment",
+        "Works with the car on jack stands"
+      ],
+      "cons": [
+        "Hand pumped, not foot pedal",
+        "No caster locks mentioned"
+      ]
+    },
+    {
+      "asin": "B0D4M4MNH8",
+      "name": "VEVOR Transmission Jack, 1,100 lb, 33.5 to 67 in. Two-Stage Telescoping",
+      "brand": "VEVOR",
+      "model": "1,100 lb Telescoping",
+      "image": "https://m.media-amazon.com/images/I/71WLtaPfQNL._AC_SX425_.jpg",
+      "price": 161.48,
+      "rating": 4.3,
+      "reviews_count": 156,
+      "specs": {
+        "type": "Telescoping (high lift)",
+        "capacity": "1,100 lb",
+        "range": "33.5 to 67 in.",
+        "tilt": "30°"
+      },
+      "features": {
+        "foot_pedal": true,
+        "tilt_saddle": true,
+        "dual_pump": false,
+        "locking_casters": false
+      },
+      "verdict": "VEVOR's half-ton telescoping jack: foot-pedal lift, a 30-degree tilting tray, and two safety chains. A cheaper alternative to the 1,322 lb model with a similar review count.",
+      "pros": [
+        "4.3 stars across about 150 reviews",
+        "Two heavy-duty anchor chains secure the load",
+        "Foot pedal and pull ring for moving between cars"
+      ],
+      "cons": [
+        "1,100 lb rating is the lowest of the telescoping imports",
+        "Caster brakes aren't mentioned"
+      ]
+    },
+    {
+      "asin": "B0DHRQM4YD",
+      "name": "LARBANKE Hydraulic Transmission Jack, 1,322 lb, Two-Stage Ram, 33.4 to 68.8 in.",
+      "brand": "LARBANKE",
+      "model": "1,322 lb Telescoping",
+      "image": "https://m.media-amazon.com/images/I/61oTnn9bunL._AC_SX425_.jpg",
+      "price": 151.99,
+      "rating": 4.3,
+      "reviews_count": 42,
+      "specs": {
+        "type": "Telescoping (high lift)",
+        "capacity": "1,322 lb",
+        "range": "33.4 to 68.8 in.",
+        "tilt": "Up to 30°"
+      },
+      "features": {
+        "foot_pedal": true,
+        "tilt_saddle": true,
+        "dual_pump": true,
+        "locking_casters": true
+      },
+      "verdict": "A 1,322 lb telescoping jack with dual-piston pumps for faster lifting, two fixed safety chains, and braking casters, for less than the VEVOR or JustSmart.",
+      "pros": [
+        "Dual-piston pumps need less pedal effort",
+        "Two fixed chains on the saddle",
+        "About $78 less than the JustSmart dual-plunger jack"
+      ],
+      "cons": [
+        "Only about 40 reviews",
+        "Low stock when we checked"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FQHC5B69",
+      "name": "VEVOR Adjustable Floor Transmission Jack, 2,200 lb / 1T Low Profile, 7.28 to 27.6 in.",
+      "brand": "VEVOR",
+      "model": "2,200 lb Low Profile",
+      "image": "https://m.media-amazon.com/images/I/713HXLb+QmL._AC_SX425_.jpg",
+      "price": 329.9,
+      "rating": 2.1,
+      "reviews_count": 7,
+      "flag": "Rated half the title's load when moving",
+      "verdict": "It's currently Amazon's #1 seller in Transmission Jacks, on the strength of a 2,200 lb headline. The fine print cuts that in half for the way you actually use one, and it costs twice as much as the MOTOOS low-profile jack.",
+      "reasons": [
+        "The title says 2,200 lb, but the first bullet says the transport load is 1,100 lb. A transmission jack spends most of its working life rolling a loaded transmission out from under the car, so 1,100 lb is the rating that matters.",
+        "At $330 it costs about twice as much as the 1,100 lb MOTOOS low-profile jack.",
+        "The spec table lists its vehicle service type as \"ATV\" while the title and bullets pitch it for heavy-duty automotive work.",
+        "Buyers rate it 2.1 stars, the lowest of any jack we considered for this list."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Telescoping or low profile?",
+      "a": "Telescoping (high-lift) jacks start around 33 to 35 in. and reach 67 to 74 in. They're built for cars on a two-post lift. Low-profile jacks start at about 7 to 8 in. and top out around 23 to 27 in., so they're for cars on jack stands. Pick the one that matches how you lift the car."
+    },
+    {
+      "q": "How much capacity do I need?",
+      "a": "Most car automatics weigh roughly 150 to 250 lb dry, and many light-truck automatics run 200 to 350 lb. A 450 lb jack covers most cars. For trucks, transfer cases, and a margin for torque converter fluid, a 1,000 lb or larger jack is the safer pick."
+    },
+    {
+      "q": "Can I use a floor jack instead?",
+      "a": "Not safely on its own. A floor jack's saddle is small, it rises in an arc, and there's nothing to strap the transmission to. Bolt-on adapter plates exist, but they're usually rated around 300 lb. A real transmission jack has a wide saddle with tilt adjustment and chains."
+    },
+    {
+      "q": "Why does saddle tilt matter?",
+      "a": "The transmission's input shaft has to slide straight into the engine's pilot bearing or torque converter. A saddle that tilts forward, back, and side to side lets you match the engine's angle instead of muscling the transmission into place."
+    },
+    {
+      "q": "Do I need a foot pedal?",
+      "a": "It helps. With the car on a lift you'll have both hands on the transmission, so a foot pedal lets you raise it without letting go. The telescoping jacks here all use a foot pedal; the low-profile ones use a hand pump."
+    }
+  ]
+}

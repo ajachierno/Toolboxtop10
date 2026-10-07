@@ -38,7 +38,7 @@
       <a class="back-home" href="./">&larr; Home</a>
       <select id="qn-category" aria-label="Category">
         <option value="">Category&hellip;</option>
-        <option value="storage">Tool storage</option><option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="hand">Hand tools</option>
+        <option value="storage">Tool storage</option><option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="hand">Hand tools</option><option value="garage">Garage &amp; auto shop</option>
       </select>
       <select id="qn-subcategory" aria-label="Sub-category" disabled>
         <option value="">Sub-category&hellip;</option>
@@ -47,7 +47,7 @@
     </div>
     <script>
     (function(){
-      var cats = {"storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}], "wireless": [{"slug": "cordless-jigsaws", "title": "Cordless Jigsaws"}, {"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}, {"slug": "cordless-random-orbital-sanders", "title": "Cordless Random Orbital Sanders"}, {"slug": "cordless-impact-wrenches", "title": "Cordless Impact Wrenches"}, {"slug": "cordless-rotary-hammers", "title": "Cordless Rotary Hammers"}, {"slug": "cordless-miter-saws", "title": "Cordless Miter Saws"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}, {"slug": "corded-angle-grinders", "title": "Corded Angle Grinders"}, {"slug": "corded-random-orbital-sanders", "title": "Corded Random Orbital Sanders"}, {"slug": "corded-jigsaws", "title": "Corded Jigsaws"}, {"slug": "corded-heat-guns", "title": "Corded Heat Guns"}, {"slug": "corded-rotary-hammers", "title": "Corded Rotary Hammers"}, {"slug": "corded-table-saws", "title": "Corded Table Saws"}, {"slug": "corded-miter-saws", "title": "Corded Miter Saws"}, {"slug": "corded-shop-vacuums", "title": "Corded Shop Vacuums"}], "hand": [{"slug": "claw-hammers", "title": "Claw Hammers"}, {"slug": "tape-measures", "title": "Tape Measures"}, {"slug": "screwdrivers", "title": "Screwdriver Sets"}, {"slug": "allen-keys", "title": "Allen Key (Hex Key) Sets"}, {"slug": "pliers", "title": "Pliers Sets"}, {"slug": "needle-nose-pliers", "title": "Needle-Nose Pliers"}, {"slug": "adjustable-wrenches", "title": "Adjustable (Crescent) Wrenches"}, {"slug": "socket-sets", "title": "Socket Sets"}]};
+      var cats = {"storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}], "wireless": [{"slug": "cordless-jigsaws", "title": "Cordless Jigsaws"}, {"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}, {"slug": "cordless-random-orbital-sanders", "title": "Cordless Random Orbital Sanders"}, {"slug": "cordless-impact-wrenches", "title": "Cordless Impact Wrenches"}, {"slug": "cordless-rotary-hammers", "title": "Cordless Rotary Hammers"}, {"slug": "cordless-miter-saws", "title": "Cordless Miter Saws"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}, {"slug": "corded-angle-grinders", "title": "Corded Angle Grinders"}, {"slug": "corded-random-orbital-sanders", "title": "Corded Random Orbital Sanders"}, {"slug": "corded-jigsaws", "title": "Corded Jigsaws"}, {"slug": "corded-heat-guns", "title": "Corded Heat Guns"}, {"slug": "corded-rotary-hammers", "title": "Corded Rotary Hammers"}, {"slug": "corded-table-saws", "title": "Corded Table Saws"}, {"slug": "corded-miter-saws", "title": "Corded Miter Saws"}, {"slug": "corded-shop-vacuums", "title": "Corded Shop Vacuums"}], "hand": [{"slug": "claw-hammers", "title": "Claw Hammers"}, {"slug": "tape-measures", "title": "Tape Measures"}, {"slug": "screwdrivers", "title": "Screwdriver Sets"}, {"slug": "allen-keys", "title": "Allen Key (Hex Key) Sets"}, {"slug": "pliers", "title": "Pliers Sets"}, {"slug": "needle-nose-pliers", "title": "Needle-Nose Pliers"}, {"slug": "adjustable-wrenches", "title": "Adjustable (Crescent) Wrenches"}, {"slug": "socket-sets", "title": "Socket Sets"}], "garage": [{"slug": "wheel-balancers", "title": "Wheel Balancers"}, {"slug": "tire-changers", "title": "Tire Changers"}, {"slug": "engine-hoists", "title": "Engine Hoists"}, {"slug": "transmission-jacks", "title": "Transmission Jacks"}, {"slug": "sewer-inspection-cameras", "title": "Sewer Inspection Cameras"}]};
       var catSel = document.getElementById('qn-category');
       var subSel = document.getElementById('qn-subcategory');
       var go = document.getElementById('qn-go');
@@ -87,9 +87,9 @@
     <h2>Price-to-beat cheat sheet</h2>
     <p class="swipe-hint">Swipe the table sideways for more columns &rarr;</p>
     <div class="tablewrap"><table class="bf-table"><tr><th>Category</th><th>Best Overall</th><th>Regular</th>
-      <th>Best Budget</th><th>Regular</th></tr><tr><td><a href="#rolling-tool-chests">Rolling Tool Chests &amp; Cabinets</a></td><td>Milwaukee 48-22-8426</td><td>$189</td><td>Goplus 5-Drawer Tool Chest</td><td>$121.54</td></tr><tr><td><a href="#portable-tool-boxes">Portable Tool Boxes</a></td><td>DEWALT DWST17806</td><td>$29.98</td><td>DEWALT DWST17814</td><td>$34.97</td></tr><tr><td><a href="#tool-bags">Tool Bags</a></td><td>WORKPRO W136007A</td><td>$24.68</td><td>Amazon Basics 12 in, 16-pocket</td><td>$13.64</td></tr><tr><td><a href="#cordless-jigsaws">Cordless Jigsaws</a></td><td>DEWALT DCS334B</td><td>$129</td><td>WORX WX550L</td><td>$69.31</td></tr><tr><td><a href="#cordless-drills">Cordless Drills</a></td><td>DEWALT DCD771C2</td><td>$119</td><td>AVID POWER ACD305</td><td>$39.99</td></tr><tr><td><a href="#cordless-impact-drivers">Cordless Impact Drivers</a></td><td>DEWALT DCF787D1</td><td>$129</td><td>AVID POWER Impact Kit</td><td>$39.99</td></tr><tr><td><a href="#cordless-circular-saws">Cordless Circular Saws</a></td><td>DEWALT DCS391B</td><td>$99</td><td>RYOBI P505</td><td>$45.99</td></tr><tr><td><a href="#cordless-oscillating-tools">Cordless Oscillating Tools</a></td><td>DEWALT DCS356B</td><td>$100.01</td><td>AVID POWER 20V Kit</td><td>$62.99</td></tr><tr><td><a href="#cordless-reciprocating-saws">Cordless Reciprocating Saws</a></td><td>BLACK+DECKER BDCR20C</td><td>$79</td><td>BLACK+DECKER BDCR20B</td><td>$59</td></tr><tr><td><a href="#cordless-angle-grinders">Cordless Angle Grinders</a></td><td>DEWALT DCG413B</td><td>$152.57</td><td>AOBEN AT-102D</td><td>$79.99</td></tr><tr><td><a href="#cordless-random-orbital-sanders">Cordless Random Orbital Sanders</a></td><td>DEWALT DCW210P1</td><td>$192</td><td>AVID POWER 20V ROS</td><td>$49.99</td></tr><tr><td><a href="#cordless-impact-wrenches">Cordless Impact Wrenches</a></td><td>CRAFTSMAN CMCF940M1</td><td>$199</td><td>Robustrue RT800B</td><td>$66.47</td></tr><tr><td><a href="#cordless-rotary-hammers">Cordless Rotary Hammers</a></td><td>DEWALT DCH273B</td><td>$259.96</td><td>Dong Cheng DCZC22</td><td>$63.99</td></tr><tr><td><a href="#cordless-miter-saws">Cordless Miter Saws</a></td><td>DEWALT DCS361M1</td><td>$379.99</td><td>RYOBI PBT01B</td><td>$238.99</td></tr><tr><td><a href="#corded-drills">Corded Drills</a></td><td>DEWALT DWD210G</td><td>$98.65</td><td>BLACK+DECKER DR260C</td><td>$44.94</td></tr><tr><td><a href="#corded-impact-wrenches">Corded Impact Wrenches</a></td><td>CRAFTSMAN CMEF901</td><td>$129</td><td>Eastvolt 800W</td><td>$42.99</td></tr><tr><td><a href="#corded-circular-saws">Corded Circular Saws</a></td><td>DEWALT DWE575SB</td><td>$140.99</td><td>SKIL 5080-01</td><td>$44</td></tr><tr><td><a href="#corded-oscillating-tools">Corded Oscillating Tools</a></td><td>AVID POWER 3.5A</td><td>$53.99</td><td>WEN 3.5A</td><td>$44.99</td></tr><tr><td><a href="#corded-reciprocating-saws">Corded Reciprocating Saws</a></td><td>CRAFTSMAN CMES300</td><td>$88.95</td><td>SKIL 9206-02</td><td>$54.99</td></tr><tr><td><a href="#corded-angle-grinders">Corded Angle Grinders</a></td><td>DEWALT DWE4011</td><td>$75.48</td><td>AVID POWER AG589</td><td>$39.99</td></tr><tr><td><a href="#corded-random-orbital-sanders">Corded Random Orbital Sanders</a></td><td>DEWALT DWE6421K</td><td>$64.89</td><td>SKIL SR211601</td><td>$37</td></tr><tr><td><a href="#corded-jigsaws">Corded Jigsaws</a></td><td>Bosch JS260</td><td>$119</td><td>SKIL JS314901</td><td>$51.80</td></tr><tr><td><a href="#corded-heat-guns">Corded Heat Guns</a></td><td>Wagner FURNO 500 (503063)</td><td>$44.45</td><td>Genesis GHG1500A</td><td>$15.34</td></tr><tr><td><a href="#corded-rotary-hammers">Corded Rotary Hammers</a></td><td>DEWALT D25263K</td><td>$176.26</td><td>Dong Cheng DZC03-28</td><td>$55.99</td></tr><tr><td><a href="#corded-table-saws">Corded Table Saws</a></td><td>DEWALT DWE7491RS</td><td>$599</td><td>SKIL TS6308-00</td><td>$249</td></tr><tr><td><a href="#corded-miter-saws">Corded Miter Saws</a></td><td>DEWALT DWS780</td><td>$649</td><td>Metabo HPT C10FCG2</td><td>$111.95</td></tr><tr><td><a href="#corded-shop-vacuums">Corded Shop Vacuums</a></td><td>CRAFTSMAN CMXEVBE17595</td><td>$121.99</td><td>STANLEY SL18116P</td><td>$57.39</td></tr><tr><td><a href="#claw-hammers">Claw Hammers</a></td><td>ESTWING E3-16S</td><td>$24.98</td><td>IRWIN 1954889</td><td>$11.99</td></tr><tr><td><a href="#tape-measures">Tape Measures</a></td><td>Komelon SL2825</td><td>$7.99</td><td>Amazon Basics 16 ft</td><td>$5.84</td></tr><tr><td><a href="#screwdrivers">Screwdriver Sets</a></td><td>Klein Tools 32500</td><td>$15.97</td><td>Amartisan 10-Piece Magnetic</td><td>$9.99</td></tr><tr><td><a href="#allen-keys">Allen Key (Hex Key) Sets</a></td><td>Amazon Basics 36-Piece</td><td>$10.49</td><td>EFFICERE 30-Piece</td><td>$12.99</td></tr><tr><td><a href="#pliers">Pliers Sets</a></td><td>WORKPRO 7-Piece (Blue)</td><td>$18.99</td><td>Amazon Basics 4-Piece</td><td>$15.28</td></tr><tr><td><a href="#needle-nose-pliers">Needle-Nose Pliers</a></td><td>IRWIN 2078216</td><td>$10.85</td><td>Dykes 6-Inch</td><td>$5.99</td></tr><tr><td><a href="#adjustable-wrenches">Adjustable (Crescent) Wrenches</a></td><td>CRAFTSMAN CMMT12001</td><td>$33.99</td><td>Olympia Tools 10-Inch</td><td>$10.99</td></tr><tr><td><a href="#socket-sets">Socket Sets</a></td><td>DEWALT DWMT75049</td><td>$156</td><td>EPAuto ST-03A-1</td><td>$29.97</td></tr></table></div>
+      <th>Best Budget</th><th>Regular</th></tr><tr><td><a href="#rolling-tool-chests">Rolling Tool Chests &amp; Cabinets</a></td><td>Milwaukee 48-22-8426</td><td>$189</td><td>Goplus 5-Drawer Tool Chest</td><td>$121.54</td></tr><tr><td><a href="#portable-tool-boxes">Portable Tool Boxes</a></td><td>DEWALT DWST17806</td><td>$29.98</td><td>DEWALT DWST17814</td><td>$34.97</td></tr><tr><td><a href="#tool-bags">Tool Bags</a></td><td>WORKPRO W136007A</td><td>$24.68</td><td>Amazon Basics 12 in, 16-pocket</td><td>$13.64</td></tr><tr><td><a href="#cordless-jigsaws">Cordless Jigsaws</a></td><td>DEWALT DCS334B</td><td>$129</td><td>WORX WX550L</td><td>$69.31</td></tr><tr><td><a href="#cordless-drills">Cordless Drills</a></td><td>DEWALT DCD771C2</td><td>$119</td><td>AVID POWER ACD305</td><td>$39.99</td></tr><tr><td><a href="#cordless-impact-drivers">Cordless Impact Drivers</a></td><td>DEWALT DCF787D1</td><td>$129</td><td>AVID POWER Impact Kit</td><td>$39.99</td></tr><tr><td><a href="#cordless-circular-saws">Cordless Circular Saws</a></td><td>DEWALT DCS391B</td><td>$99</td><td>RYOBI P505</td><td>$45.99</td></tr><tr><td><a href="#cordless-oscillating-tools">Cordless Oscillating Tools</a></td><td>DEWALT DCS356B</td><td>$100.01</td><td>AVID POWER 20V Kit</td><td>$62.99</td></tr><tr><td><a href="#cordless-reciprocating-saws">Cordless Reciprocating Saws</a></td><td>BLACK+DECKER BDCR20C</td><td>$79</td><td>BLACK+DECKER BDCR20B</td><td>$59</td></tr><tr><td><a href="#cordless-angle-grinders">Cordless Angle Grinders</a></td><td>DEWALT DCG413B</td><td>$152.57</td><td>AOBEN AT-102D</td><td>$79.99</td></tr><tr><td><a href="#cordless-random-orbital-sanders">Cordless Random Orbital Sanders</a></td><td>DEWALT DCW210P1</td><td>$192</td><td>AVID POWER 20V ROS</td><td>$49.99</td></tr><tr><td><a href="#cordless-impact-wrenches">Cordless Impact Wrenches</a></td><td>CRAFTSMAN CMCF940M1</td><td>$199</td><td>Robustrue RT800B</td><td>$66.47</td></tr><tr><td><a href="#cordless-rotary-hammers">Cordless Rotary Hammers</a></td><td>DEWALT DCH273B</td><td>$259.96</td><td>Dong Cheng DCZC22</td><td>$63.99</td></tr><tr><td><a href="#cordless-miter-saws">Cordless Miter Saws</a></td><td>DEWALT DCS361M1</td><td>$379.99</td><td>RYOBI PBT01B</td><td>$238.99</td></tr><tr><td><a href="#corded-drills">Corded Drills</a></td><td>DEWALT DWD210G</td><td>$98.65</td><td>BLACK+DECKER DR260C</td><td>$44.94</td></tr><tr><td><a href="#corded-impact-wrenches">Corded Impact Wrenches</a></td><td>CRAFTSMAN CMEF901</td><td>$129</td><td>Eastvolt 800W</td><td>$42.99</td></tr><tr><td><a href="#corded-circular-saws">Corded Circular Saws</a></td><td>DEWALT DWE575SB</td><td>$140.99</td><td>SKIL 5080-01</td><td>$44</td></tr><tr><td><a href="#corded-oscillating-tools">Corded Oscillating Tools</a></td><td>AVID POWER 3.5A</td><td>$53.99</td><td>WEN 3.5A</td><td>$44.99</td></tr><tr><td><a href="#corded-reciprocating-saws">Corded Reciprocating Saws</a></td><td>CRAFTSMAN CMES300</td><td>$88.95</td><td>SKIL 9206-02</td><td>$54.99</td></tr><tr><td><a href="#corded-angle-grinders">Corded Angle Grinders</a></td><td>DEWALT DWE4011</td><td>$75.48</td><td>AVID POWER AG589</td><td>$39.99</td></tr><tr><td><a href="#corded-random-orbital-sanders">Corded Random Orbital Sanders</a></td><td>DEWALT DWE6421K</td><td>$64.89</td><td>SKIL SR211601</td><td>$37</td></tr><tr><td><a href="#corded-jigsaws">Corded Jigsaws</a></td><td>Bosch JS260</td><td>$119</td><td>SKIL JS314901</td><td>$51.80</td></tr><tr><td><a href="#corded-heat-guns">Corded Heat Guns</a></td><td>Wagner FURNO 500 (503063)</td><td>$44.45</td><td>Genesis GHG1500A</td><td>$15.34</td></tr><tr><td><a href="#corded-rotary-hammers">Corded Rotary Hammers</a></td><td>DEWALT D25263K</td><td>$176.26</td><td>Dong Cheng DZC03-28</td><td>$55.99</td></tr><tr><td><a href="#corded-table-saws">Corded Table Saws</a></td><td>DEWALT DWE7491RS</td><td>$599</td><td>SKIL TS6308-00</td><td>$249</td></tr><tr><td><a href="#corded-miter-saws">Corded Miter Saws</a></td><td>DEWALT DWS780</td><td>$649</td><td>Metabo HPT C10FCG2</td><td>$111.95</td></tr><tr><td><a href="#corded-shop-vacuums">Corded Shop Vacuums</a></td><td>CRAFTSMAN CMXEVBE17595</td><td>$121.99</td><td>STANLEY SL18116P</td><td>$57.39</td></tr><tr><td><a href="#claw-hammers">Claw Hammers</a></td><td>ESTWING E3-16S</td><td>$24.98</td><td>IRWIN 1954889</td><td>$11.99</td></tr><tr><td><a href="#tape-measures">Tape Measures</a></td><td>Komelon SL2825</td><td>$7.99</td><td>Amazon Basics 16 ft</td><td>$5.84</td></tr><tr><td><a href="#screwdrivers">Screwdriver Sets</a></td><td>Klein Tools 32500</td><td>$15.97</td><td>Amartisan 10-Piece Magnetic</td><td>$9.99</td></tr><tr><td><a href="#allen-keys">Allen Key (Hex Key) Sets</a></td><td>Amazon Basics 36-Piece</td><td>$10.49</td><td>EFFICERE 30-Piece</td><td>$12.99</td></tr><tr><td><a href="#pliers">Pliers Sets</a></td><td>WORKPRO 7-Piece (Blue)</td><td>$18.99</td><td>Amazon Basics 4-Piece</td><td>$15.28</td></tr><tr><td><a href="#needle-nose-pliers">Needle-Nose Pliers</a></td><td>IRWIN 2078216</td><td>$10.85</td><td>Dykes 6-Inch</td><td>$5.99</td></tr><tr><td><a href="#adjustable-wrenches">Adjustable (Crescent) Wrenches</a></td><td>CRAFTSMAN CMMT12001</td><td>$33.99</td><td>Olympia Tools 10-Inch</td><td>$10.99</td></tr><tr><td><a href="#socket-sets">Socket Sets</a></td><td>DEWALT DWMT75049</td><td>$156</td><td>EPAuto ST-03A-1</td><td>$29.97</td></tr><tr><td><a href="#wheel-balancers">Wheel Balancers</a></td><td>Hkysnoa Bubble Balancer</td><td>$58.20</td><td>NYXOVA G08251054</td><td>$57.99</td></tr><tr><td><a href="#tire-changers">Tire Changers</a></td><td>KATOOL KT-T810</td><td>$1,129</td><td>TUFFIOM TFmtc0304</td><td>$60.79</td></tr><tr><td><a href="#engine-hoists">Engine Hoists</a></td><td>Garvee Folding 2-Ton Hoist with Leveler</td><td>$218.99</td><td>TUFFIOM CRANE-G33001972</td><td>$169.90</td></tr><tr><td><a href="#transmission-jacks">Transmission Jacks</a></td><td>VEVOR 1,322 lb Telescoping</td><td>$170.05</td><td>Garvee 450 lb Low Profile</td><td>$93.99</td></tr><tr><td><a href="#sewer-inspection-cameras">Sewer Inspection Cameras</a></td><td>Anysun 165 ft with Locator</td><td>$1,039.99</td><td>VEVOR 98 ft Sewer Camera</td><td>$174.32</td></tr></table></div>
     <p class="tiny muted">"Regular" = the Amazon price when we last checked each category
-    (2026-10-06 to 2026-10-06). If the Black Friday price is at or above it, it isn't a deal.</p>
+    (2026-10-06 to 2026-10-07). If the Black Friday price is at or above it, it isn't a deal.</p>
   </section>
   <section class="pick-group"><h2>Tool storage</h2>
       <article class="card pick-card" id="rolling-tool-chests">
@@ -1491,6 +1491,206 @@
         </div>
         <p class="verdict">The best cheap socket set. Chrome-vanadium sockets in SAE and metric, a 72-tooth reversible 3/8 in ratchet, and a plastic organizer case, made in Taiwan, for about $30.</p>
         <p class="tiny"><a class="pick-more" href="socket-sets.html#B01LZEMYOD">Ranked #4 of 10 socket sets &mdash; see the full list &rarr;</a></p>
+      </article></section><section class="pick-group"><h2>Garage &amp; auto shop</h2>
+      <article class="card pick-card" id="wheel-balancers">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/51M5jgKcUaL._AC_SX425_.jpg" alt="Hkysnoa Portable Bubble Wheel Balancer with Bubble Level" loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge overall">Best Overall</span>
+            <div class="brand">Wheel Balancers &middot; Hkysnoa</div>
+            <h3>Hkysnoa Portable Bubble Wheel Balancer with Bubble Level</h3>
+            <div class="rate"><span class="stars" style="--pct:88%" aria-label="4.4 out of 5 stars"></span> <b>4.4</b>
+              <span class="muted">809 reviews &middot; score 74/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$58.20</div>
+            <a class="btn" href="https://www.amazon.com/dp/B07NCKHTYX?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">The best-selling bubble balancer on Amazon, with the most reviews in the category. It balances car and light-truck wheels off the vehicle for the price of balancing one set of tires at a shop.</p>
+        <p class="tiny"><a class="pick-more" href="wheel-balancers.html#B07NCKHTYX">Ranked #1 of 10 wheel balancers &mdash; see the full list &rarr;</a></p>
+      </article>
+      <article class="card pick-card" id="wheel-balancers">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/61Jg6SPtIXL._AC_SX425_.jpg" alt="NYXOVA Portable Bubble Wheel Balancer, Tire Balancer with Bubble Level" loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge budget">Best Budget</span>
+            <div class="brand">Wheel Balancers &middot; NYXOVA</div>
+            <h3>NYXOVA Portable Bubble Wheel Balancer, Tire Balancer with Bubble Level</h3>
+            <div class="rate"><span class="stars" style="--pct:88%" aria-label="4.4 out of 5 stars"></span> <b>4.4</b>
+              <span class="muted">215 reviews &middot; score 67/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$57.99</div>
+            <a class="btn" href="https://www.amazon.com/dp/B0CGL52TZ5?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">The same 24-inch bubble design as the rest of the field, with chrome-plated rods and springs and a solid 4.4-star record. A safe pick if the top seller is out of stock.</p>
+        <p class="tiny"><a class="pick-more" href="wheel-balancers.html#B0CGL52TZ5">Ranked #3 of 10 wheel balancers &mdash; see the full list &rarr;</a></p>
+      </article>
+      <article class="card pick-card" id="tire-changers">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/61-o-wqfpXL._AC_SX425_.jpg" alt="KATOOL KT-T810 2.0HP Tire Changer Machine with Bead Blaster" loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge overall">Best Overall</span>
+            <div class="brand">Tire Changers &middot; KATOOL</div>
+            <h3>KATOOL KT-T810 2.0HP Tire Changer Machine with Bead Blaster</h3>
+            <div class="rate"><span class="stars" style="--pct:90%" aria-label="4.5 out of 5 stars"></span> <b>4.5</b>
+              <span class="muted">39 reviews &middot; score 79/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$1,129</div>
+            <a class="btn" href="https://www.amazon.com/dp/B0BQHWLK7Y?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">KATOOL&#x27;s shop machine with everything a home tire shop needs: a bead blaster to seat stubborn tires, an assist arm, and rim protection. It costs about $130 more than the ME-T500.</p>
+        <p class="tiny"><a class="pick-more" href="tire-changers.html#B0BQHWLK7Y">Ranked #1 of 10 tire changers &mdash; see the full list &rarr;</a></p>
+      </article>
+      <article class="card pick-card" id="tire-changers">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/51B-qjWzURL._AC_SX425_.jpg" alt="TUFFIOM Manual Tire Changer, Portable Hand Bead Breaker Mounting Tool for 8 to 16 in. Tires" loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge budget">Best Budget</span>
+            <div class="brand">Tire Changers &middot; TUFFIOM</div>
+            <h3>TUFFIOM Manual Tire Changer, Portable Hand Bead Breaker Mounting Tool for 8 to 16 in. Tires</h3>
+            <div class="rate"><span class="stars" style="--pct:88%" aria-label="4.4 out of 5 stars"></span> <b>4.4</b>
+              <span class="muted">508 reviews &middot; score 76/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$60.79</div>
+            <a class="btn" href="https://www.amazon.com/dp/B085FTHNT6?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">The best-rated manual tire changer with a big review count. It breaks the bead, holds the wheel with a locking collar, and handles car, trailer, and mower tires up to 16 inches.</p>
+        <p class="tiny"><a class="pick-more" href="tire-changers.html#B085FTHNT6">Ranked #4 of 10 tire changers &mdash; see the full list &rarr;</a></p>
+      </article>
+      <article class="card pick-card" id="engine-hoists">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/61phYgMqRkL._AC_SX425_.jpg" alt="Garvee 2-Ton Folding Engine Hoist with Leveler, 4,400 lb Hydraulic Shop Crane" loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge overall">Best Overall</span>
+            <div class="brand">Engine Hoists &middot; Garvee</div>
+            <h3>Garvee 2-Ton Folding Engine Hoist with Leveler, 4,400 lb Hydraulic Shop Crane</h3>
+            <div class="rate"><span class="stars" style="--pct:94%" aria-label="4.7 out of 5 stars"></span> <b>4.7</b>
+              <span class="muted">11 reviews &middot; score 68/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$218.99</div>
+            <a class="btn" href="https://www.amazon.com/dp/B0GHV7HH1H?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">The highest-rated hoist we found at 4.7 stars. It includes a leveler and is one of the few listings that publishes its lift range: 39.5 to 74 inches.</p>
+        <p class="tiny"><a class="pick-more" href="engine-hoists.html#B0GHV7HH1H">Ranked #2 of 10 engine hoists &mdash; see the full list &rarr;</a></p>
+      </article>
+      <article class="card pick-card" id="engine-hoists">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/61R6DZEDrTL._AC_SX425_.jpg" alt="TUFFIOM 2 Ton Folding Hydraulic Engine Crane with Telescopic Boom and Outriggers" loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge budget">Best Budget</span>
+            <div class="brand">Engine Hoists &middot; TUFFIOM</div>
+            <h3>TUFFIOM 2 Ton Folding Hydraulic Engine Crane with Telescopic Boom and Outriggers</h3>
+            <div class="rate"><span class="stars" style="--pct:82%" aria-label="4.1 out of 5 stars"></span> <b>4.1</b>
+              <span class="muted">86 reviews &middot; score 60/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$169.90</div>
+            <a class="btn" href="https://www.amazon.com/dp/B0CBQ359Z2?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">The cheapest well-reviewed engine hoist we found. Four boom positions from 1,100 to 4,400 lb, six steel casters, and a frame that folds flat.</p>
+        <p class="tiny"><a class="pick-more" href="engine-hoists.html#B0CBQ359Z2">Ranked #8 of 10 engine hoists &mdash; see the full list &rarr;</a></p>
+      </article>
+      <article class="card pick-card" id="transmission-jacks">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/71gsm-c6wXL._AC_SX425_.jpg" alt="VEVOR Transmission Jack, 1,322 lb Hydraulic Telescoping, High Lift with Foot Pedal" loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge overall">Best Overall</span>
+            <div class="brand">Transmission Jacks &middot; VEVOR</div>
+            <h3>VEVOR Transmission Jack, 1,322 lb Hydraulic Telescoping, High Lift with Foot Pedal</h3>
+            <div class="rate"><span class="stars" style="--pct:88%" aria-label="4.4 out of 5 stars"></span> <b>4.4</b>
+              <span class="muted">178 reviews &middot; score 82/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$170.05</div>
+            <a class="btn" href="https://www.amazon.com/dp/B0CLLM96VP?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">The best-selling telescoping transmission jack on Amazon. It lifts 1,322 lb from about 34 to 68 inches with a foot pedal, for cars on a two-post lift.</p>
+        <p class="tiny"><a class="pick-more" href="transmission-jacks.html#B0CLLM96VP">Ranked #1 of 10 transmission jacks &mdash; see the full list &rarr;</a></p>
+      </article>
+      <article class="card pick-card" id="transmission-jacks">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/61-Nw-MkPbL._AC_SX425_.jpg" alt="Garvee Transmission Jack, 450 lb Low Profile Lift, 7 to 23 in. with Safety Straps" loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge budget">Best Budget</span>
+            <div class="brand">Transmission Jacks &middot; Garvee</div>
+            <h3>Garvee Transmission Jack, 450 lb Low Profile Lift, 7 to 23 in. with Safety Straps</h3>
+            <div class="rate"><span class="stars" style="--pct:82%" aria-label="4.1 out of 5 stars"></span> <b>4.1</b>
+              <span class="muted">94 reviews &middot; score 65/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$93.99</div>
+            <a class="btn" href="https://www.amazon.com/dp/B0GPPRRBNN?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">A $94 low-profile jack for cars up on jack stands. It rolls under at 7 inches, lifts to 23, and comes with 2-meter straps to hold the transmission down.</p>
+        <p class="tiny"><a class="pick-more" href="transmission-jacks.html#B0GPPRRBNN">Ranked #9 of 10 transmission jacks &mdash; see the full list &rarr;</a></p>
+      </article>
+      <article class="card pick-card" id="sewer-inspection-cameras">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/71o798nhaEL._SL1500_.jpg" alt="Anysun Self-Leveling Sewer Camera with 512Hz Locator, 165 ft, 7mm Cable, 9 in." loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge overall">Best Overall</span>
+            <div class="brand">Sewer Inspection Cameras &middot; Anysun</div>
+            <h3>Anysun Self-Leveling Sewer Camera with 512Hz Locator, 165 ft, 7mm Cable, 9 in.</h3>
+            <div class="rate"><span class="stars" style="--pct:84%" aria-label="4.2 out of 5 stars"></span> <b>4.2</b>
+              <span class="muted">62 reviews &middot; score 79/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$1,039.99</div>
+            <a class="btn" href="https://www.amazon.com/dp/B0D5M8PB92?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">A full sewer inspection system: self-leveling camera, a 512Hz sonde with a handheld locator, an on-screen distance counter, a microphone for voice notes, and a stiff 7mm push cable for 165-foot runs.</p>
+        <p class="tiny"><a class="pick-more" href="sewer-inspection-cameras.html#B0D5M8PB92">Ranked #1 of 10 sewer inspection cameras &mdash; see the full list &rarr;</a></p>
+      </article>
+      <article class="card pick-card" id="sewer-inspection-cameras">
+        <div class="card-head">
+          <div class="card-img"><img src="https://m.media-amazon.com/images/I/71+vMMLsoaL._AC_SX425_.jpg" alt="VEVOR Sewer Camera, 98 ft, 4.3 in. Drain Inspection Tool, IP68, 16GB Card" loading="lazy"></div>
+          <div class="card-title">
+            <span class="badge budget">Best Budget</span>
+            <div class="brand">Sewer Inspection Cameras &middot; VEVOR</div>
+            <h3>VEVOR Sewer Camera, 98 ft, 4.3 in. Drain Inspection Tool, IP68, 16GB Card</h3>
+            <div class="rate"><span class="stars" style="--pct:82%" aria-label="4.1 out of 5 stars"></span> <b>4.1</b>
+              <span class="muted">100 reviews &middot; score 66/100</span></div>
+            
+          </div>
+          <div class="card-buy">
+            <div class="price">$174.32</div>
+            <a class="btn" href="https://www.amazon.com/dp/B0FPBZ2R5N?tag=toolboxtop10-20&linkCode=ll1" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <div class="tiny muted">regular price on 2026-10-07</div>
+          </div>
+        </div>
+        <p class="verdict">The cheapest real sewer camera with a solid review count. It records to a 16GB card and has distance markings on a 98-foot fiberglass cable.</p>
+        <p class="tiny"><a class="pick-more" href="sewer-inspection-cameras.html#B0FPBZ2R5N">Ranked #7 of 10 sewer inspection cameras &mdash; see the full list &rarr;</a></p>
       </article></section>
   <section class="guide"><h2>Black Friday tool questions</h2><details><summary>When is Black Friday 2026?</summary><p>Black Friday is Friday, November 27, 2026, the day after Thanksgiving. Cyber Monday is November 30, 2026. Amazon typically starts early Black Friday pricing on tools in the week before.</p></details>
 <details><summary>Are Black Friday tool deals actually good?</summary><p>Some are, many aren&#x27;t. Cordless kits from the big brands (DEWALT, Milwaukee, RYOBI, Makita) often get real cuts or free-battery bundles. But some &quot;deals&quot; are special-edition kits that never sold at the crossed-out price. Compare against the regular price we list here before you buy.</p></details>
@@ -1503,7 +1703,7 @@
   When you buy through links on this site we may earn an Amazon Associates commission, at no
   extra cost to you. Prices and ratings are pulled from Amazon and change over time; the figures
   here were captured on the date shown and are not guaranteed to be current.</p>
-  <p class="muted"><a href="./">&larr; All categories</a> &nbsp; Last updated on 2026-10-06. Not affiliated with Amazon or any manufacturer.</p>
+  <p class="muted"><a href="./">&larr; All categories</a> &nbsp; Last updated on 2026-10-07. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
 </body>
 </html>
