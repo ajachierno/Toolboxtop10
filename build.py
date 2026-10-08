@@ -243,6 +243,7 @@ def render_card(p, site, spec_fields, cat=None):
         </div>
       </div>
       <p class="verdict">{esc(p['verdict'])}</p>
+      {render_fit(p)}
       <dl class="specs">{spec_rows(p['specs'], spec_fields)}</dl>
       <div class="pc">
         <div class="pros"><h4>Pros</h4><ul>{pros}</ul></div>
@@ -530,6 +531,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
   When you buy through links on this site we may earn an Amazon Associates commission, at no
   extra cost to you. Prices and ratings are pulled from Amazon and change over time; the figures
   here were captured on the date shown and are not guaranteed to be current.</p>
+  <p class="footlinks"><a href="about.html">About &amp; how we rank</a> &middot; <a href="mailto:{esc(site.get('contact_email', ''))}">Contact</a></p>
   <p class="muted">{home_link} &nbsp; Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
 {REVEAL_JS + chr(10) if 'data-show-from' in body else ''}</body>
@@ -588,6 +590,106 @@ def render_home_deals(major_brands, site, oldest, newest):
   </section>"""
 
 
+def render_fit(p):
+    """'Best for' / 'Skip it if' lines on a product card (optional data fields)."""
+    if not p.get("best_for") and not p.get("skip_if"):
+        return ""
+    yes = f'<p><b class="fit-yes">Best for:</b> {esc(p["best_for"])}</p>' if p.get("best_for") else ""
+    no = f'<p><b class="fit-no">Skip it if:</b> {esc(p["skip_if"])}</p>' if p.get("skip_if") else ""
+    return f'<div class="fit">{yes}{no}</div>'
+
+
+def render_fit_list(ranked):
+    """'Which one is for you?' - every pick with its best_for line, in rank order."""
+    if not all(p.get("best_for") for p in ranked):
+        return ""
+    rows = "".join(
+        f'<li><a href="#{esc(p["asin"])}"><b>{esc(p["brand"])} {esc(p["model"])}</b></a>'
+        f'{f" <span class=\"badge {esc(p["badge_kind"])}\">{esc(p["badge"])}</span>" if p["badge"] else ""}'
+        f'<span class="fit-for">{esc(p["best_for"])}</span></li>' for p in ranked)
+    return f"""
+  <section class="fitlist" id="fit">
+    <h2>Which one is for you?</h2>
+    <ul>{rows}</ul>
+  </section>"""
+
+
+# Battery platforms for "Already own batteries?". Only genuine brand platforms are listed;
+# third-party bodies that take another brand's batteries and proprietary-battery kits are left out.
+def battery_platform(p):
+    b = p["brand"].upper()
+    text = " ".join([p["name"], p["model"]] + [str(v) for v in p["specs"].values() if v]).upper()
+    if b == "DEWALT":
+        return "DEWALT 12V MAX" if "12V" in text and "20V" not in text else "DEWALT 20V MAX"
+    if b == "MILWAUKEE":
+        return "Milwaukee M12" if "M12" in text else "Milwaukee M18"
+    if b == "MAKITA":
+        return "Makita 40V XGT" if "XGT" in text else "Makita 18V LXT"
+    if b == "RYOBI":
+        return "RYOBI 18V ONE+"
+    if b == "CRAFTSMAN":
+        return "CRAFTSMAN V12" if "V12" in text else "CRAFTSMAN V20"
+    if b == "BLACK+DECKER":
+        return "BLACK+DECKER 12V MAX" if "12V" in text and "20V" not in text else "BLACK+DECKER 20V MAX"
+    if b == "BOSCH":
+        return "Bosch 12V" if "12V" in text and "18V" not in text else "Bosch 18V"
+    if b == "WORX":
+        return "WORX 20V PowerShare"
+    if b == "SKIL":
+        return "SKIL PWR CORE 20"
+    if b == "METABO HPT":
+        return "Metabo HPT 18V MultiVolt"
+    if b == "WEN":
+        return "WEN 20V Max"
+    return None
+
+
+def in_the_box(p):
+    """Battery included or bare tool, read from the listing text (not the scoring 'kit' flag)."""
+    text = " ".join([p["name"]] + [str(v) for v in p["specs"].values() if v]).lower()
+    if re.search(r"tool only|bare tool|\bbare\b|not included|sold separately|no battery", text):
+        return "Tool only"
+    # Brand model-number conventions for bare tools: Milwaukee -20, Makita ...Z, DEWALT ...B, Metabo HPT ...Q4.
+    m, b = p["model"].upper(), p["brand"].upper()
+    if ((b == "MILWAUKEE" and m.endswith("-20")) or (b == "MAKITA" and re.search(r"Z[A-Z]?$", m))
+            or (b == "DEWALT" and re.match(r"DC[A-Z]\d+B$", m)) or (b == "METABO HPT" and m.endswith("Q4"))):
+        return "Tool only"
+    if re.search(r"\d(\.\d)?\s*ah\b|charger|battery included|batteries|\bkit\b", text):
+        return "Battery included"
+    return "&mdash;"
+
+
+def render_platforms(cat, ranked, site):
+    if not cat["slug"].startswith("cordless-"):
+        return ""
+    best = {}
+    for p in ranked:  # rank order, so the first hit per platform is the top pick on it
+        plat = battery_platform(p)
+        if plat and plat not in best:
+            best[plat] = p
+    if len(best) < 3:
+        return ""
+    rows = []
+    for plat, p in sorted(best.items(), key=lambda kv: kv[1]["rank"]):
+        box = in_the_box(p)
+        rows.append(f'<tr><td>{esc(plat)}</td><td><a href="#{esc(p["asin"])}">{esc(p["brand"])} {esc(p["model"])}</a>'
+                    f' <span class="muted">#{p["rank"]}</span></td><td>{money(p["price"])}</td><td>{box}</td></tr>')
+    return f"""
+  <section class="platforms" id="platforms">
+    <h2>Already own batteries?</h2>
+    <p>Batteries only fit their own brand's platform, so the best tool for you is often the best
+    one that runs on the packs you already have. Here's our top-ranked pick on each platform on this page.
+    A tool-only model skips the cost of a battery and charger you don't need.</p>
+    <div class="tablewrap"><table><tr><th>Your batteries</th><th>Our top pick on that platform</th><th>Price</th><th>In the box</th></tr>{"".join(rows)}</table></div>
+    <p class="tiny muted">Tools sold as "compatible with" another brand's batteries aren't listed here. They're made by third parties, and the battery brand doesn't warrant them.</p>
+  </section>"""
+
+
+def render_byline(cat, site):
+    return (f'<p class="byline">Ranked by {esc(site["brand"])} from Amazon data captured '
+            f'{_short_date(cat_date(cat, site))}. <a href="about.html">How we rank</a></p>')
+
+
 def render_jump(has_avoid):
     """On-this-page links for category pages. Hidden on desktop, sticky on phones."""
     avoid = '<a href="#avoid" class="avoid-link">Avoid</a>' if has_avoid else ""
@@ -631,10 +733,11 @@ def build_category(site, filename):
   <section class="lead">
     <h1>{esc(cat['title'])}</h1>
     <p class="sub">{esc(cat['subtitle'])}</p>
+    {render_byline(cat, site)}
     <p class="intro">{esc(cat['intro'])}</p>{twin_link}
   </section>
   {render_jump(bool(avoid))}
-  <section class="heroes" id="picks">{heroes}</section>{compare_link}
+  <section class="heroes" id="picks">{heroes}</section>{compare_link}{render_fit_list(ranked)}{render_platforms(cat, ranked, site)}
   {render_deals(brands, site, cat_date(cat, site))}
   <section class="compare" id="compare">
     <h2>Side-by-side comparison</h2>
@@ -1540,6 +1643,101 @@ def build_home(site, cats):
         encoding="utf-8")
 
 
+def build_about(site, cats):
+    """About & methodology page: no personal details, just how the site works."""
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    email = site.get("contact_email", "")
+    rows = []
+    for cat, _, _ in sorted(cats, key=lambda t: t[0]["title"]):
+        w, fw = cat["weights"], cat.get("feature_weights", {})
+        feats = ", ".join(re.sub(r" \(.*\)$", "", FEATURE_PROSE.get(k, k.replace("_", " "))) for k, _ in
+                          sorted(fw.items(), key=lambda kv: -kv[1]))
+        rows.append(f'<tr><td><a href="{esc(cat["slug"])}.html">{esc(cat["title"])}</a></td>'
+                    f'<td class="c">{round(w["rating"] * 100)}%</td><td class="c">{round(w["reviews"] * 100)}%</td>'
+                    f'<td class="c">{round(w["features"] * 100)}%</td><td>{esc(feats)}</td>'
+                    f'<td class="c">{cat.get("reviews_ceiling", 60000):,}</td><td class="c">${cat["budget_cap"]}</td></tr>')
+    newest = max(c.get("data_captured") or site["updated"] for c, _, _ in cats)
+    body = f"""
+  {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
+  <section class="lead about">
+    <h1>About {esc(site['brand'])} and how we rank</h1>
+    <p class="intro">{esc(site['brand'])} ranks tools and shop gear using published Amazon data: price,
+    star rating, number of reviews, and the specs and features on each listing. Every category page
+    lists 10 picks and 1 tool to avoid, scored on one scale, with the numbers behind every score shown
+    on the page.</p>
+  </section>
+  <section class="about-body">
+    <h2>Where the numbers come from</h2>
+    <p>Every price, rating, review count and spec comes from the product's live Amazon listing. If a
+    listing doesn't publish a spec, the page shows a dash instead of a guess. Each page shows the date its
+    data was captured, and prices move daily, so check the current price on Amazon before you buy.</p>
+    <p>We re-check every listing on a rotation. Listings that go unavailable, lose their featured offer,
+    or drop out of Amazon's best-sellers for that tool get replaced, and each page's
+    <b>What changed</b> section records what moved and when. We also keep every price we capture, which is
+    where the "lowest in our checks" line under each price comes from.</p>
+
+    <h2>How the score works</h2>
+    <p>Each product gets one score from 0 to 100, built from three parts:</p>
+    <ul>
+      <li><b>Star rating.</b> The Amazon average, out of 5.</li>
+      <li><b>Number of reviews.</b> More reviews mean more confidence that the rating is real. This part
+      is on a log scale, so each tenfold jump in reviews adds the same amount, and it tops out at a
+      ceiling set per category. A tool with a few hundred reviews can still score well.</li>
+      <li><b>Features.</b> The features that matter for that kind of tool, each with its own weight. A
+      product only gets credit for a feature its listing states.</li>
+    </ul>
+    <p>Open <b>Why this score</b> on any product to see its three sub-scores and the features it has and
+    lacks. The weights for every category are below.</p>
+
+    <h2>The badges</h2>
+    <p><b>Best Overall</b> is the highest-scoring ready-to-use option, usually a kit with a battery and
+    charger for cordless tools. <b>Best Budget</b> is the best value at or under the category's price
+    cap. <b>Money No Object</b> is the one to buy if price doesn't matter. When the top scorer isn't a
+    sensible recommendation for a badge (for example, a bare tool for Best Overall, or a product that
+    doesn't really belong in the category), we assign the badge to the next sensible pick and say why in
+    the copy.</p>
+
+    <h2>Tools to avoid</h2>
+    <p>Every page names one listing to skip, and the reason is always something on the listing itself: a
+    spec that contradicts another spec, a tool that's wrong for the job, a third-party body sold under
+    another brand's battery name, or a claim the listing can't back up. We never mark a product as one to
+    avoid just because it's new or has few reviews.</p>
+
+    <h2>What we don't do</h2>
+    <ul>
+      <li>We don't test tools hands-on yet. The rankings are built from published data, and the pages say so.</li>
+      <li>No brand pays to be listed, ranked or badged.</li>
+      <li>We don't write deal prices we can't see. Sale periods are named, and prices captured during one
+      are flagged on the page.</li>
+    </ul>
+
+    <h2>How the site makes money</h2>
+    <p>Links to Amazon are affiliate links. If you buy through one, {esc(site['brand'])} may earn a
+    commission at no extra cost to you. Amazon pays a percentage of the sale, so a pricier tool earns
+    more, but the score never looks at price or commission. Rankings come only from the rating, review
+    count and features described above.</p>
+
+    <h2>Corrections and contact</h2>
+    <p>Spotted a wrong spec, a dead link or a price that's way off? Email
+    <a href="mailto:{esc(email)}">{esc(email)}</a> and we'll check the listing and fix the page.</p>
+
+    <h2>Weights by category</h2>
+    <div class="tablewrap"><table><tr><th>Category</th><th>Rating</th><th>Reviews</th><th>Features</th>
+    <th>Features scored (most weight first)</th><th>Review ceiling</th><th>Budget cap</th></tr>{"".join(rows)}</table></div>
+  </section>"""
+    canonical = f"{base}/about.html" if base else ""
+    sd = jsonld({"@context": "https://schema.org", "@type": "AboutPage", "name": f"About {site['brand']}",
+                 "url": canonical or None,
+                 "publisher": {"@type": "Organization", "name": site["brand"], "url": f"{base}/",
+                               "email": email or None}})
+    (OUT / "about.html").write_text(
+        page(site, f"About {site['brand']} and how we rank", body,
+             description=f"How {site['brand']} ranks tools: where the data comes from, how the 0-100 score "
+                         f"is built, how picks to avoid are chosen, and how to report a correction.",
+             canonical=canonical, structured_data=sd, updated=newest), encoding="utf-8")
+    return newest
+
+
 def build_redirects(site):
     """Stub pages for old URLs listed in data/redirects.json (see its _readme)."""
     path = DATA / "redirects.json"
@@ -1576,6 +1774,7 @@ def main():
     cats = [build_category(site, f"{c['slug']}.json") for c in site["categories"]]
     build_home(site, cats)
     seasonal = build_seasonal(site, cats) + build_brands(site, cats)
+    about_date = build_about(site, cats)
     # sitemap.xml + robots.txt (SEO / Search Console)
     if site.get("custom_domain"):
         base = f"https://{site['custom_domain']}"
@@ -1587,7 +1786,8 @@ def main():
                 + [(f"{base}/{slug}.html", "0.8", d) for slug, d in cat_dates]
                 + [(f"{base}/{compare_filename(slug)}", "0.6", d) for slug, d in cat_dates
                    if slug in COMPARE and not COMPARE_NOINDEX]
-                + [(f"{base}/{slug}.html", "0.7", d) for slug, d in seasonal])
+                + [(f"{base}/{slug}.html", "0.7", d) for slug, d in seasonal]
+                + [(f"{base}/about.html", "0.5", about_date)])
         entries = "\n".join(
             f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod>"
             f"<changefreq>weekly</changefreq><priority>{pr}</priority></url>" for u, pr, lastmod in urls)
@@ -1718,6 +1918,20 @@ th[aria-sort=descending] .sortbtn::after{content:" \25BC";opacity:1}
 .card-buy{text-align:right}
 .price{font-size:1.6rem;font-weight:800}
 .lowprice{font-size:.75rem;color:var(--muted);margin-top:2px}
+.byline{font-size:.85rem;color:var(--muted);margin:4px 0 10px}
+.byline a,.footlinks a,.fitlist a,.platforms a,.about-body a{color:var(--brand-ink)}
+.fit{margin:10px 0 4px;font-size:.92rem}
+.fit p{margin:4px 0}
+.fit-yes{color:var(--overall)}
+.fit-no{color:#ff7b72}
+.fitlist ul{list-style:none;padding:0;margin:8px 0 0}
+.fitlist li{padding:9px 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
+.fitlist .fit-for{color:var(--muted);flex-basis:100%}
+.fitlist .badge{font-size:.65rem}
+.platforms td,.platforms th{white-space:normal}
+.about-body h2{margin-top:28px}
+.about-body li{margin:6px 0}
+.footlinks{margin:6px 0}
 .lowprice.best{color:var(--overall);font-weight:700}
 .card-buy .btn{margin:8px 0 6px}
 .verdict{margin:18px 0 14px;font-size:1.02rem}

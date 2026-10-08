@@ -108,6 +108,20 @@ th[aria-sort=descending] .sortbtn::after{content:" \25BC";opacity:1}
 .card-buy{text-align:right}
 .price{font-size:1.6rem;font-weight:800}
 .lowprice{font-size:.75rem;color:var(--muted);margin-top:2px}
+.byline{font-size:.85rem;color:var(--muted);margin:4px 0 10px}
+.byline a,.footlinks a,.fitlist a,.platforms a,.about-body a{color:var(--brand-ink)}
+.fit{margin:10px 0 4px;font-size:.92rem}
+.fit p{margin:4px 0}
+.fit-yes{color:var(--overall)}
+.fit-no{color:#ff7b72}
+.fitlist ul{list-style:none;padding:0;margin:8px 0 0}
+.fitlist li{padding:9px 0;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
+.fitlist .fit-for{color:var(--muted);flex-basis:100%}
+.fitlist .badge{font-size:.65rem}
+.platforms td,.platforms th{white-space:normal}
+.about-body h2{margin-top:28px}
+.about-body li{margin:6px 0}
+.footlinks{margin:6px 0}
 .lowprice.best{color:var(--overall);font-weight:700}
 .card-buy .btn{margin:8px 0 6px}
 .verdict{margin:18px 0 14px;font-size:1.02rem}

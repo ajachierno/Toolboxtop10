@@ -33,6 +33,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX", "max_rpm": "0-3,000 SPM", "stroke": "7/8 in", "blade_change": "Tool-free" },
       "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The best pick for most people — a complete kit (battery and charger included) with 10,000 reviews at 4.6 stars, ready to cut out of the box for under $80. Tool-free blade change and enough power for pruning and demolition.",
+      "best_for": "Most homeowners: a complete recip kit for pruning and demo under $80.",
+      "skip_if": "You do heavy demolition; a brushless pro saw has more power.",
       "pros": ["10,000 reviews at 4.6 stars", "Battery and charger included — ready to use", "Tool-free blade change, variable speed"],
       "cons": ["Not brushless", "Less power than a pro 18/20V brushless saw"]
     },
@@ -45,6 +47,8 @@
       "specs": { "type": "Cordless", "power": "18V ONE+", "max_rpm": "0-3,400 SPM", "stroke": "1 in", "blade_change": "Tool-free" },
       "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The pick if you're already on RYOBI ONE+. A 3,400-SPM saw with a 1-inch stroke and tool-free blade change, sold as a bare tool. Add a ONE+ battery and go.",
+      "best_for": "RYOBI ONE+ owners who want the fastest stroke rate here.",
+      "skip_if": "You want to buy from Amazon with a full warranty; it's a third-party listing.",
       "pros": ["Fastest stroke rate here at 3,400 SPM", "1-inch stroke, tool-free blade change", "Huge RYOBI ONE+ platform"],
       "cons": ["Tool only — no battery or charger", "Not brushless", "Amazon listing is a third-party seller with a 30-day warranty; check the price elsewhere too"]
     },
@@ -57,6 +61,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX", "max_rpm": "0-2,900 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
       "features": { "kit": false, "brushless": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The best cordless recip money can buy — brushless, compact, and brutally capable, with 10,800 reviews at 4.8 stars. A 1-1/8\" stroke rips through nail-embedded lumber like a corded saw. Bare tool.",
+      "best_for": "Remodelers on DEWALT 20V MAX who cut nail-embedded lumber regularly.",
+      "skip_if": "You prune a few branches a year; it's near $180 bare.",
       "pros": ["Brushless with a long 1-1/8\" stroke", "10,800 reviews at 4.8 stars", "Compact for tight demo work"],
       "cons": ["Near $180 for a bare tool", "Overkill for occasional pruning"]
     },
@@ -69,6 +75,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX", "max_rpm": "0-2,900 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
       "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The compact DEWALT that fits between studs and into tight spots, with a full 1-1/8\" stroke and 4,500 reviews at 4.8 stars. Cheaper than the brushless XR if you don't need the last bit of runtime.",
+      "best_for": "Tight spots between studs on DEWALT 20V MAX, for less than the brushless model.",
+      "skip_if": "You want brushless runtime.",
       "pros": ["Compact body, full 1-1/8\" stroke", "4,500 reviews at 4.8 stars", "Tool-free blade change"],
       "cons": ["Tool only — no battery or charger", "Not brushless"]
     },
@@ -81,6 +89,8 @@
       "specs": { "type": "Cordless", "power": "18V M18", "max_rpm": "0-3,000 SPM", "stroke": "1-1/4 in", "blade_change": "Tool-free" },
       "features": { "kit": false, "brushless": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The pro's SAWZALL — Milwaukee invented the reciprocating saw, and the M18 FUEL is a brushless demolition monster with a huge 1-1/4\" stroke. The pick if you're on the M18 platform.",
+      "best_for": "Milwaukee M18 owners doing heavy demolition with a long 1-1/4 in stroke.",
+      "skip_if": "You don't own M18 batteries; it's the priciest saw here.",
       "pros": ["Brushless, aggressive 1-1/4\" stroke", "The original SAWZALL name, 4.7 stars", "Milwaukee M18 platform"],
       "cons": ["Tool only — no battery or charger", "Priciest saw here"]
     },
@@ -93,6 +103,8 @@
       "specs": { "type": "Cordless", "power": "20V", "max_rpm": null, "stroke": "3/4 in", "blade_change": "Tool-free" },
       "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "Two tools in one — flip it to use as a reciprocating saw or a jigsaw. Clever, light, and well-reviewed (4,000 ratings) on the WORX Power Share platform. Great for a homeowner who wants both.",
+      "best_for": "Homeowners who want a recip saw and a jigsaw in one light tool.",
+      "skip_if": "You do real demolition; the 3/4 in stroke is short.",
       "pros": ["Reciprocating saw and jigsaw in one", "4,000 reviews at 4.6 stars", "Light and easy to handle"],
       "cons": ["Shorter 3/4\" stroke than a dedicated demo saw", "Jack-of-two-trades vs a pro recip"]
     },
@@ -105,6 +117,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX", "max_rpm": "0-3,000 SPM", "stroke": "7/8 in", "blade_change": "Tool-free" },
       "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The cheapest name-brand saw here at $59: the bare-tool version of the popular BLACK+DECKER recip. Grab it if you already own 20V POWERCONNECT batteries. 4,101 reviews and tool-free blade change.",
+      "best_for": "BLACK+DECKER 20V MAX owners who want the cheapest name-brand saw.",
+      "skip_if": "You need a battery; buy the BDCR20C kit.",
       "pros": ["Cheapest name-brand saw here", "4,101 reviews at 4.6 stars", "Tool-free blade change, variable speed", "Sold and shipped by Amazon"],
       "cons": ["Tool only — no battery or charger", "7/8\" stroke, light-duty demo"]
     },
@@ -117,6 +131,8 @@
       "specs": { "type": "Cordless", "power": "20V", "max_rpm": "0-3,000 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
       "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "A full 1-1/8\" stroke on the CRAFTSMAN V20 platform, with a variable-speed trigger and tool-free blade change. Solid 4.7-star name-brand pick if you're already in V20.",
+      "best_for": "CRAFTSMAN V20 owners who want a full 1-1/8 in stroke.",
+      "skip_if": "You want brushless or need a battery included.",
       "pros": ["Long 1-1/8\" stroke for a mid-price saw", "4.7 stars, tool-free blade change", "CRAFTSMAN V20 platform"],
       "cons": ["Tool only — no battery or charger", "Not brushless"]
     },
@@ -129,6 +145,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX", "max_rpm": "0-2,800 SPM", "stroke": null, "blade_change": "Tool-free" },
       "features": { "kit": false, "brushless": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "DEWALT's one-handed ATOMIC recip: brushless, 12.5 inches long and 3.13 lbs, 37% lighter than the DCS367. 8,460 reviews at 4.8 stars. The get-into-corners saw on the 20V platform.",
+      "best_for": "One-handed cuts in corners and overhead on DEWALT 20V MAX.",
+      "skip_if": "You do heavy demolition; it's built for tight spots.",
       "pros": ["Brushless, 3.13 lbs, one-handed", "8,460 reviews at 4.8 stars", "Pivoting shoe and LED"],
       "cons": ["Tool only — no battery or charger", "Built for tight spots, not heavy demolition"]
     },
@@ -141,6 +159,8 @@
       "specs": { "type": "Cordless", "power": "21V", "max_rpm": "0-3,000 SPM", "stroke": null, "blade_change": "Tool-free" },
       "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "A loaded budget kit — two 4.0Ah batteries, charger, and blades for under $60. No brand pedigree, but a lot of runtime and everything you need to start cutting out of the box.",
+      "best_for": "A kit with two 4.0Ah batteries for long cutting sessions under $60.",
+      "skip_if": "You want batteries that run other brand-name tools.",
       "pros": ["Two 4.0Ah batteries and charger included", "Tool-free blade change, variable speed", "Ready to use, no platform needed"],
       "cons": ["Off-brand batteries, no ecosystem", "Not brushless"]
     }

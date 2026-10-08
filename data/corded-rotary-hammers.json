@@ -87,6 +87,8 @@
         "kit": false
       },
       "verdict": "The one to buy if you drill concrete more than once in a while: an 8.5-amp D-handle hammer with DEWALT's SHOCKS vibration control, a clutch that lets go when a bit jams, and a 3-year warranty. Sold and shipped by Amazon.",
+      "best_for": "Drilling concrete more than once in a while, with low vibration and a 3-year warranty.",
+      "skip_if": "You need bits included.",
       "pros": [
         "SHOCKS active vibration control at the handles",
         "Clutch cuts the sudden torque reaction when a bit binds",
@@ -121,6 +123,8 @@
         "kit": false
       },
       "verdict": "The most-reviewed name-brand rotary hammer on Amazon, with 3,000+ ratings at 4.7 stars. Three modes, 0-1,300 rpm, 0-5,800 bpm, and a 36-position Vario-Lock for setting the chisel angle.",
+      "best_for": "A proven name-brand hammer with 36 chisel positions.",
+      "skip_if": "You want the hardest hitter or a slip clutch.",
       "pros": [
         "3,000+ reviews averaging 4.7 stars",
         "Vario-Lock gives 36 chisel positions",
@@ -156,6 +160,8 @@
         "kit": false
       },
       "verdict": "Makita's AVT counterweight system cancels much of the hammering vibration, and a torque-limiting clutch protects the gears if the bit binds. A pro-grade D-handle with 40 chisel angle settings.",
+      "best_for": "Pros who want low vibration and 40 chisel angles.",
+      "skip_if": "You want a long review history or warranty.",
       "pros": [
         "Anti-Vibration Technology counterbalance plus a damper spring",
         "Torque-limiting clutch",
@@ -192,6 +198,8 @@
         "kit": false
       },
       "verdict": "Bosch's step-up Bulldog adds KickBack Control, a sensor that stops rotation when the bit binds, on top of counter-balanced vibration control. Worth the extra money if you drill overhead or all day.",
+      "best_for": "Overhead or all-day drilling, where kickback control matters.",
+      "skip_if": "You want to buy from Amazon; it's a third-party seller.",
       "pros": [
         "KickBack Control sensor stops the tool on bind-up",
         "Counter-balanced vibration control",
@@ -199,7 +207,7 @@
         "4.7 stars across 1,100+ reviews"
       ],
       "cons": [
-        "Most expensive hammer on the list",
+        "One of the two most expensive hammers here",
         "Sold by a third-party seller (Express Shipping Tools), not Amazon",
         "No bits included"
       ]
@@ -227,6 +235,8 @@
         "kit": true
       },
       "verdict": "The most-reviewed hammer on the list at 3,500+ ratings, and the hardest hitting at 5.5 ft-lb. A heavy 13-amp tool for breaking tile and chiseling concrete, with bits, chisels, and a case in the box.",
+      "best_for": "Breaking tile and chiseling concrete with the hardest hitter here.",
+      "skip_if": "You drill overhead; it's 12.6 lb.",
       "pros": [
         "Hardest-hitting pick: 5.5 ft-lb (7.4 J)",
         "3,500+ reviews at 4.6 stars",
@@ -262,6 +272,8 @@
         "kit": true
       },
       "verdict": "Another 13-amp, 1-1/4 inch demolition-style hammer with a full accessory kit. Same price as the ENEACRO, with fewer reviews and a thinner spec sheet.",
+      "best_for": "Chipping and tile removal with a full accessory kit.",
+      "skip_if": "You want a published impact rating or warranty.",
       "pros": [
         "13-amp motor for chipping and tile removal",
         "3 bits, 2 chisels, spare brushes, and a case included",
@@ -296,6 +308,8 @@
         "kit": true
       },
       "verdict": "A 9.5 lb mid-size hammer that out-hits the name brands on paper (3.3 ft-lb) for under $80, with an aluminum housing and a 2-year warranty.",
+      "best_for": "Light construction with more rated impact than the name brands, under $80.",
+      "skip_if": "You do heavy demolition.",
       "pros": [
         "More rated impact energy than the DEWALT, Bosch, and Makita",
         "Overload clutch and aluminum housing",
@@ -330,6 +344,8 @@
         "kit": true
       },
       "verdict": "The best-selling rotary hammer in our search, at 1,000+ sold a month. At 7.2 lb it's the lightest tool here, and it has a clutch, reverse, and a lock-on trigger for about $55.",
+      "best_for": "DIY anchor holes with the lightest hammer here.",
+      "skip_if": "You do heavy demolition.",
       "pros": [
         "Lightest on the list at 7.2 lb",
         "Safety clutch, vibration control, forward/reverse",
@@ -364,7 +380,9 @@
         "safety_clutch": true,
         "kit": true
       },
-      "verdict": "A 9.2-amp, 1-1/8 inch hammer with 3.6 J of impact energy and a full bit-and-chisel kit for $70.",
+      "verdict": "A 9.2-amp, 1-1/8 inch hammer with 3.6 J of impact energy and a full bit-and-chisel kit for about $56.",
+      "best_for": "Concrete work with a full bit and chisel kit at a low price.",
+      "skip_if": "You need to drill wood or steel; there's no drill-only mode.",
       "pros": [
         "3.6 J impact energy at 5,000 bpm",
         "Safety clutch and anti-vibration handle",
@@ -397,9 +415,11 @@
         "safety_clutch": true,
         "kit": true
       },
-      "verdict": "The cheapest hammer on the list, sold by Amazon. 8 amps, four modes, and a clutch, plus bits, chisels, a depth gauge, and a case: enough for anchor holes and occasional tile removal.",
+      "verdict": "A low-priced hammer, sold and shipped by Amazon. 8 amps, four modes, and a clutch, plus bits, chisels, a depth gauge, and a case: enough for anchor holes and occasional tile removal.",
+      "best_for": "Anchor holes and occasional tile removal, sold by Amazon.",
+      "skip_if": "You want more punch; it's the lightest hitter here.",
       "pros": [
-        "Lowest price on the list, sold and shipped by Amazon",
+        "Low price, sold and shipped by Amazon",
         "4 modes including drill-only",
         "3 bits, 2 chisels, depth gauge, and case included"
       ],

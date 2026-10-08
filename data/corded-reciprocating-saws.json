@@ -34,6 +34,8 @@
       "specs": { "type": "Corded", "power": "7.5 amp", "max_rpm": "0-3,200 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The best all-around corded recip for most people. A balanced 7.5-amp CRAFTSMAN with a full 1-1/8\" stroke, tool-free blade change, and 4.7 stars — enough power for pruning and remodeling without the weight of a demolition saw.",
+      "best_for": "Pruning and remodeling with a balanced, well-rated corded saw.",
+      "skip_if": "You do heavy demolition all day; a 12-amp saw has more muscle.",
       "pros": ["7.5-amp motor, 3,200 SPM, 1-1/8\" stroke", "Tool-free blade change, 4.7 stars", "CRAFTSMAN build, plug-and-go"],
       "cons": ["Less amps than heavy-demo saws", "Mid-range price"]
     },
@@ -46,6 +48,8 @@
       "specs": { "type": "Corded", "power": "7.5 amp", "max_rpm": "0-2,700 SPM", "stroke": null, "blade_change": "Tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The value pick — a genuine 7.5-amp corded recip with variable speed and a tool-free blade change for around $55, backed by nearly 2,000 reviews. Everything a homeowner needs to demo and prune, nothing they don't.",
+      "best_for": "Homeowner demo and pruning for about $55.",
+      "skip_if": "You want orbital action for faster wood cuts.",
       "pros": ["7.5-amp motor for about $55", "1,947 reviews at 4.6 stars", "Tool-free blade change, variable speed"],
       "cons": ["Basic build vs the DEWALT", "No orbital action"]
     },
@@ -58,8 +62,10 @@
       "specs": { "type": "Corded", "power": "12 amp", "max_rpm": "0-2,900 SPM", "stroke": "1-1/8 in", "blade_change": "4-position, tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The most powerful, best-reviewed corded recip here — a 12-amp DEWALT with a 4-position blade clamp (cut flush or at angles) and 3,900+ reviews at 4.7 stars. If price is no object and you want a demolition workhorse, this is it.",
+      "best_for": "Demolition work, with a 12-amp motor and a blade clamp for flush cuts.",
+      "skip_if": "You want something light for occasional cuts.",
       "pros": ["Big 12-amp motor, 4.7 stars over 3,900+ reviews", "4-position blade clamp for flush and angled cuts", "1-1/8\" stroke, tool-free"],
-      "cons": ["Priciest of the mainstream picks", "Heavier than a 7.5-amp saw"]
+      "cons": ["One of the pricier picks here", "Heavier than a 7.5-amp saw"]
     },
     {
       "asin": "B075LPPW87",
@@ -70,6 +76,8 @@
       "specs": { "type": "Corded", "power": "13 amp", "max_rpm": "0-2,800 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The most amps here (13) plus Buzzkill anti-vibration tech that noticeably reduces hand fatigue on long cuts. A smooth, powerful pick if you'll run it for hours.",
+      "best_for": "Long cutting sessions where anti-vibration saves your hands.",
+      "skip_if": "You make occasional cuts; it's heavy and pricey.",
       "pros": ["Strongest 13-amp motor on the list", "Buzzkill anti-vibration for less fatigue", "4.7 stars, tool-free blade change"],
       "cons": ["Heavier and pricier", "Overkill for occasional cuts"]
     },
@@ -82,6 +90,8 @@
       "specs": { "type": "Corded", "power": "9 amp", "max_rpm": "0-2,700 SPM", "stroke": null, "blade_change": "Tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "More motor than the budget saws for a small step up in price — a 9-amp SKIL with variable speed and a tool-free blade change. A smart middle ground under $75.",
+      "best_for": "More motor than the budget saws for under $75.",
+      "skip_if": "You want orbital action.",
       "pros": ["9-amp motor, more power for the price", "Tool-free blade change, 4.6 stars", "Trusted SKIL build"],
       "cons": ["Fewer reviews than the 9206", "No orbital action"]
     },
@@ -94,6 +104,8 @@
       "specs": { "type": "Corded", "power": "10 amp", "max_rpm": "0-2,800 SPM", "stroke": null, "blade_change": "Tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "WEN's value formula — a real 10-amp motor and an 8-position rotating handle for cutting at awkward angles, all for around $53. A lot of power per dollar from a known value brand.",
+      "best_for": "Cutting at awkward angles with a rotating handle, for about $53.",
+      "skip_if": "You want a long review history behind it.",
       "pros": ["10-amp motor for about $53", "8-position handle for angled cuts", "Tool-free blade change"],
       "cons": ["4.4 stars, smaller review base", "Basic build"]
     },
@@ -106,6 +118,8 @@
       "specs": { "type": "Corded", "power": "7 amp", "max_rpm": "0-2,800 SPM", "stroke": null, "blade_change": "Removable, tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "A simple, light 7-amp corded recip from a trusted home brand, with a removable tool-free blade clamp. Fine for pruning, PVC, and light demolition around the house.",
+      "best_for": "Light pruning, PVC and small demo jobs with a light saw.",
+      "skip_if": "You do heavy demolition; 7 amps is light.",
       "pros": ["Light and easy for a corded saw", "Tool-free removable blade clamp", "Trusted BLACK+DECKER name"],
       "cons": ["7 amps is light for heavy demo", "4.4 stars, fewer reviews"]
     },
@@ -118,6 +132,8 @@
       "specs": { "type": "Corded", "power": "12 amp", "max_rpm": "0-2,700 SPM", "stroke": "1-3/16 in", "blade_change": "Tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "Bosch pro build in a 12-amp corded package, with a long 1-3/16\" stroke for aggressive cutting. Newer to Amazon, but Bosch's reputation and stroke length make it a serious demo saw.",
+      "best_for": "Aggressive demo cuts with a long 1-3/16 in stroke and Bosch build.",
+      "skip_if": "You want proof from lots of reviews; it has very few.",
       "pros": ["12-amp motor, long 1-3/16\" stroke", "Bosch pro-grade build", "Tool-free blade change"],
       "cons": ["Few reviews on Amazon yet", "Priced with the pro saws"]
     },
@@ -130,6 +146,8 @@
       "specs": { "type": "Corded", "power": "12 amp", "max_rpm": "0-2,800 SPM", "stroke": "1-1/4 in", "blade_change": "Tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "A pro-grade Makita with a big 1-1/4\" stroke and a tool-less blade clamp — a longtime favorite of tradespeople for tearing through framing and metal. Sold here in a renewed listing.",
+      "best_for": "Tradespeople cutting framing and metal with a 1-1/4 in stroke.",
+      "skip_if": "You don't want a renewed unit.",
       "pros": ["12-amp motor, aggressive 1-1/4\" stroke", "Pro Makita durability", "Tool-free blade change"],
       "cons": ["Renewed listing, few reviews", "Priced with the pro saws"]
     },
@@ -142,6 +160,8 @@
       "specs": { "type": "Corded", "power": "6 amp", "max_rpm": "0-2,800 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The cheapest way into a real corded recip: a 6-amp saw with a full 1-1/8\" stroke, a pivoting shoe, and five blades in the box for under $40. Right for occasional pruning, PVC, and pallet breakdown, not all-day demolition.",
+      "best_for": "Occasional pruning, PVC and pallet breakdown for under $40.",
+      "skip_if": "You do all-day demolition; 6 amps is the weakest here.",
       "pros": ["Under $40 with 2 wood and 3 metal blades", "Full 1-1/8\" stroke, tool-free blade change", "Pivoting shoe and trigger lock-on button"],
       "cons": ["6 amps is the weakest motor here", "Listing quotes both 2,800 and 3,000 SPM; the spec table says 2,800"]
     }

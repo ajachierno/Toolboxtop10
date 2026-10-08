@@ -33,6 +33,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX", "oscillation": null, "opm": "0-20,000 OPM", "accessories": "Bare tool" },
       "features": { "kit": false, "brushless": true, "variable_speed": true, "tool_free": true, "accessories": false },
       "verdict": "The best cordless multi-tool, and it's not close — 14,000+ reviews at 4.8 stars. A brushless, 3-speed DEWALT that takes standard blades and rides the huge 20V MAX platform. Bare tool, so add a battery.",
+      "best_for": "DEWALT 20V MAX owners: the best cordless multi-tool, period.",
+      "skip_if": "You don't own the batteries; it's tool only.",
       "pros": ["14,400 reviews at 4.8 stars", "Brushless, 3-speed, tool-free blade change", "Runs on the massive DEWALT 20V MAX lineup"],
       "cons": ["Tool only — no battery or charger", "Pricey once you add a battery if you're new to DEWALT"]
     },
@@ -45,6 +47,8 @@
       "specs": { "type": "Cordless", "power": "20V", "oscillation": null, "opm": null, "accessories": "Included" },
       "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "The value pick — a complete cordless kit with a battery, charger, and blades for around $60, backed by nearly 4,000 reviews. Ready to cut out of the box, no platform required.",
+      "best_for": "A complete multi-tool kit with blades for about $60.",
+      "skip_if": "You want batteries that run other brand-name tools.",
       "pros": ["Battery, charger, and accessories included", "Nearly 4,000 reviews at 4.4 stars", "Variable speed, tool-free blade change"],
       "cons": ["Off-brand battery with no wider ecosystem", "Not brushless"]
     },
@@ -57,6 +61,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX XR", "oscillation": null, "opm": "3-speed selector", "accessories": "Battery, charger" },
       "features": { "kit": true, "brushless": true, "variable_speed": true, "tool_free": true, "accessories": false },
       "verdict": "The DCS356 brushless multi-tool with a 20V MAX battery and charger in the box, and Amazon's #1 best seller in oscillating tools. If you don't already own DEWALT batteries and want the best tool here, buy this one.",
+      "best_for": "Starting fresh and wanting the best multi-tool with battery and charger.",
+      "skip_if": "You already own DEWALT 20V MAX packs; the bare DCS356B saves money.",
       "pros": ["Battery and charger included, so there's no platform to buy into first", "Brushless, 3-speed selector plus a variable-speed trigger", "5,669 reviews at 4.8 stars", "Universal adapter takes most brands' blades"],
       "cons": ["No blades in the box, unlike some cheaper kits", "Spare batteries mean staying on DEWALT 20V MAX"]
     },
@@ -69,6 +75,8 @@
       "specs": { "type": "Cordless", "power": "20V", "oscillation": null, "opm": null, "accessories": "Battery, charger, blades" },
       "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "A complete name-brand kit on the CRAFTSMAN V20 platform. Battery, charger, and blades included, with a tool-free blade change and solid 4.7-star reviews.",
+      "best_for": "Starting on CRAFTSMAN V20 with blades in the box.",
+      "skip_if": "You already own V20 batteries; the bare CMCE500B is cheaper.",
       "pros": ["Ready-to-use V20 kit with blades", "Tool-free blade change, 4.7 stars", "Shares batteries with CRAFTSMAN V20 tools"],
       "cons": ["Not brushless", "Pricier than the AVID kit"]
     },
@@ -81,6 +89,8 @@
       "specs": { "type": "Cordless", "power": "18V M18", "oscillation": null, "opm": "11,000-18,000 OPM", "accessories": "Blade + sanding pad" },
       "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": false, "accessories": false },
       "verdict": "The M18 pick, and Amazon's #3 best-selling oscillating tool. A 12-setting speed dial and an all-metal gear case on Milwaukee's full-size 18V platform. Bare tool, so bring an M18 battery.",
+      "best_for": "Milwaukee M18 owners who want a metal gear case and fine speed control.",
+      "skip_if": "You want to buy from Amazon directly; it's a third-party seller right now.",
       "pros": ["5,600+ reviews at 4.7 stars", "All-metal gear case, 12 speed settings", "Runs on Milwaukee M18 batteries"],
       "cons": ["Tool only — no battery or charger", "Not brushless, and the listing doesn't claim a tool-free blade change", "Currently sold by a third-party seller, not Amazon"]
     },
@@ -93,6 +103,8 @@
       "specs": { "type": "Cordless", "power": "12V M12", "oscillation": null, "opm": null, "accessories": "Bare tool" },
       "features": { "kit": false, "brushless": true, "variable_speed": true, "tool_free": true, "accessories": false },
       "verdict": "The compact pro pick. M12 FUEL is a brushless, surprisingly powerful 12V tool that fits into tight spots — ideal if you're already on Milwaukee M12. Bare tool.",
+      "best_for": "Tight spots and M12 owners who want brushless power in a small body.",
+      "skip_if": "You run it for long stretches; 12V has less runtime.",
       "pros": ["Brushless power in a compact 12V body", "Great in tight spaces, 4.6 stars", "Milwaukee M12 platform"],
       "cons": ["Tool only — no battery or charger", "12V has less runtime than 18/20V"]
     },
@@ -105,6 +117,8 @@
       "specs": { "type": "Cordless", "power": "18V ONE+", "oscillation": null, "opm": null, "accessories": "Bare tool" },
       "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": false },
       "verdict": "The pick if you're on RYOBI ONE+. A simple, well-priced multi-tool with tool-free blade change and 1,700 reviews — just add a ONE+ battery.",
+      "best_for": "RYOBI ONE+ owners who want a cheap, simple multi-tool.",
+      "skip_if": "You don't own RYOBI batteries; it's tool only.",
       "pros": ["Cheap entry on the huge RYOBI ONE+ platform", "Tool-free blade change, 4.4 stars", "1,700 reviews"],
       "cons": ["Tool only — no battery or charger", "Not brushless"]
     },
@@ -117,6 +131,8 @@
       "specs": { "type": "Cordless", "power": "20V", "oscillation": null, "opm": "Max 21,000 OPM", "accessories": "26 pieces + battery" },
       "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "A loaded budget kit — battery, charger, and 26 accessories for around $70, with 2,200 reviews behind it. A lot of tool and blades for a first multi-tool.",
+      "best_for": "A first multi-tool with 26 accessories and a battery included.",
+      "skip_if": "You want batteries that fit other brands' tools.",
       "pros": ["Battery plus 26 accessories included", "2,200 reviews, 6 variable speeds", "Ready to use out of the box"],
       "cons": ["Off-brand battery, no ecosystem", "Not brushless"]
     },
@@ -129,6 +145,8 @@
       "specs": { "type": "Cordless", "power": "20V", "oscillation": null, "opm": null, "accessories": "Bare tool" },
       "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "accessories": false },
       "verdict": "The bare-tool version of the CRAFTSMAN V20 multi-tool — grab it if you already own V20 batteries. Tool-free blade change and a universal accessory fit.",
+      "best_for": "CRAFTSMAN V20 owners who just need the bare tool.",
+      "skip_if": "You need a battery; buy the V20 kit instead.",
       "pros": ["Cheaper bare-tool option on V20", "Universal tool-free blade change, 4.6 stars", "Shares V20 batteries"],
       "cons": ["Tool only — no battery or charger", "Not brushless"]
     },
@@ -141,6 +159,8 @@
       "specs": { "type": "Cordless", "power": "18V LXT", "oscillation": "3.2°", "opm": "6,000-20,000 OPM", "accessories": "Plunge blade + adapters" },
       "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": false, "accessories": false },
       "verdict": "The Makita LXT pick: a 4.8-star multi-tool with a wide 3.2° swing for faster cuts and a slim 2-3/8\" grip. Ships with adapters for other brands' blades. Bare tool, so bring an 18V LXT battery.",
+      "best_for": "Makita LXT owners who want faster cuts from a wide 3.2° swing.",
+      "skip_if": "You want tool-free blade changes; the listing doesn't claim them.",
       "pros": ["5,400+ reviews at 4.8 stars", "3.2° oscillation angle, 6,000-20,000 OPM dial", "Adapters included for most other brands' accessories"],
       "cons": ["Tool only — no battery or charger", "Not brushless, and the listing doesn't claim a tool-free blade change", "Currently sold by a third-party seller, not Amazon"]
     }

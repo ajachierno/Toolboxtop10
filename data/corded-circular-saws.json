@@ -33,6 +33,8 @@
       "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-57°", "weight": "8.8 lb" },
       "features": { "kit": true, "brake": true, "laser": false, "high_bevel": true },
       "verdict": "The best all-around corded saw. Highest rated here at 4.8 stars, with an electric brake that stops the blade fast, a 57° bevel, and a light 8.8 lb body. The SKIL below is cheaper, but this is the better tool.",
+      "best_for": "The best all-round corded saw, with a blade brake for safety.",
+      "skip_if": "You're on a budget; the SKIL 5280 is half the price.",
       "pros": ["4.8 stars over 5,000+ reviews", "Electric brake stops the blade on trigger release", "Light 8.8 lb body, 57° bevel"],
       "cons": ["Twice the price of the budget SKIL", "No laser guide"]
     },
@@ -45,6 +47,8 @@
       "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-51°", "weight": "8.7 lb" },
       "features": { "kit": true, "brake": false, "laser": true, "high_bevel": true },
       "verdict": "The value legend, and the highest-scoring corded saw on this list. 14,000 reviews at 4.7 stars, full 15-amp power, and a laser guide for around $70. The most saw per dollar you can buy.",
+      "best_for": "The most saw per dollar: 15 amps and a laser guide for about $70.",
+      "skip_if": "You want an electric blade brake.",
       "pros": ["Most-reviewed saw here — 14,192 ratings at 4.7 stars", "Full 15-amp power under $70", "Single-beam laser guide"],
       "cons": ["No electric brake", "Basic build vs the DEWALT and SKILSAW"]
     },
@@ -57,6 +61,8 @@
       "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-53°", "weight": "11.5 lb" },
       "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
       "verdict": "The pro's saw. A worm-drive gearbox puts more torque to the blade for wet lumber and long rips, and the magnesium body keeps it to a light-for-a-worm-drive 11.5 lb. Overkill for a bookshelf; perfect if you frame houses.",
+      "best_for": "Framing and long rips in wet or thick lumber.",
+      "skip_if": "You cut a few boards a year; it's heavy and the priciest here.",
       "pros": ["Worm-drive torque powers through wet, thick stock", "Light magnesium build with a Diablo blade included", "4.8 stars"],
       "cons": ["Most expensive saw here", "Heavier and longer than a sidewinder"]
     },
@@ -69,6 +75,8 @@
       "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": 5800, "bevel": "0-45°", "weight": null },
       "features": { "kit": true, "brake": false, "laser": true, "high_bevel": false },
       "verdict": "A pro-grade corded classic — smooth, fast (5,800 rpm), and built to last, with twin LED lights on the cut line. A favorite of tradespeople who don't want a worm drive.",
+      "best_for": "Tradespeople who want a fast, smooth sidewinder with LED cut-line lights.",
+      "skip_if": "You're shopping on price; the SKIL cuts similarly for less.",
       "pros": ["Smooth, fast 5,800 rpm motor", "Built-in LED lights on the blade line", "Long-running Makita reliability"],
       "cons": ["Pricier than the SKIL for similar cuts", "No electric brake"]
     },
@@ -81,6 +89,8 @@
       "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-56°", "weight": null },
       "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
       "verdict": "Worm-drive power in a lighter sidewinder body. The Dual-Field motor runs cooler under load and the 56° bevel is generous — a great middle ground between the budget SKIL and the full worm drive.",
+      "best_for": "Long cuts where a cooler-running motor matters, without worm-drive weight.",
+      "skip_if": "You want a brake or laser guide.",
       "pros": ["Dual-Field motor stays cool on long cuts", "Big 56° bevel", "4.8 stars, lighter than a worm drive"],
       "cons": ["Fewer reviews than the big sellers", "No brake or laser"]
     },
@@ -92,8 +102,10 @@
       "price": 44.00, "rating": 4.6, "reviews_count": 5413, "bought": "1K+/mo",
       "specs": { "type": "Corded", "power": "13 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-51°", "weight": null },
       "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
-      "verdict": "The rock-bottom price for a real 7-1/4\" saw. A 13-amp motor is a touch less muscle than the 15-amp models, but for occasional cuts around the house it's hard to argue with $44 and 5,000+ reviews.",
-      "pros": ["Cheapest full-size saw here", "13-amp power, 5,413 reviews at 4.6 stars", "Just plug in and cut"],
+      "verdict": "The cheapest name-brand 7-1/4\" saw here. A 13-amp motor is a touch less muscle than the 15-amp models, but for occasional cuts around the house it's hard to argue with $44 and 5,000+ reviews.",
+      "best_for": "Occasional cuts around the house at the lowest price for a name-brand full-size saw.",
+      "skip_if": "You cut dense lumber often; 13 amps is a step down.",
+      "pros": ["Cheapest name-brand full-size saw here", "13-amp power, 5,413 reviews at 4.6 stars", "Just plug in and cut"],
       "cons": ["13 amps vs 15 on the better saws", "No brake, laser, or frills"]
     },
     {
@@ -105,6 +117,8 @@
       "specs": { "type": "Corded", "power": "15 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-57°", "weight": "8.8 lb" },
       "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
       "verdict": "The DWE575SB without the electric brake, for a bit less. Same light 8.8 lb chassis, 15-amp motor, and 57° bevel — a great DEWALT corded saw if you don't need the brake.",
+      "best_for": "The DEWALT build for less, if you can live without the brake.",
+      "skip_if": "You want the blade to stop fast; get the DWE575SB.",
       "pros": ["Light 8.8 lb DEWALT build", "Full 15-amp power, 57° bevel", "4.7 stars"],
       "cons": ["No electric brake (that's the SB model)", "No laser guide"]
     },
@@ -117,6 +131,8 @@
       "specs": { "type": "Corded", "power": "14 amp", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-51°", "weight": null },
       "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
       "verdict": "SKIL's mid-tier corded saw — a 14-amp motor that splits the difference between the budget 5080 and the 15-amp 5280. A solid, no-drama pick under $60.",
+      "best_for": "A no-drama 14-amp saw under $60.",
+      "skip_if": "You want a long review history or a laser guide.",
       "pros": ["14-amp motor, 7-1/4\" blade", "Trusted SKIL build under $60", "4.6 stars"],
       "cons": ["Fewer reviews than the 5280/5080", "No brake or laser"]
     },
@@ -129,6 +145,8 @@
       "specs": { "type": "Corded", "power": "5.8 amp", "blade": "4-1/2 in", "max_rpm": 4000, "bevel": "0-45°", "weight": null },
       "features": { "kit": true, "brake": false, "laser": true, "high_bevel": false },
       "verdict": "A one-handed compact corded saw for plywood, paneling, and flooring. Light and easy in tight spaces, with a laser guide — just know a 4-1/2\" blade won't cut through a 2x4 in one pass.",
+      "best_for": "One-handed cuts in plywood, paneling and flooring.",
+      "skip_if": "You cut 2x4s; the 4-1/2 in blade can't get through in one pass.",
       "pros": ["Light one-handed body, 2,412 reviews", "Laser guide and auxiliary handle", "Corded — no battery to manage"],
       "cons": ["4-1/2\" blade limits cut depth", "Small 5.8-amp motor, not for framing"]
     },
@@ -140,8 +158,10 @@
       "price": 32.29, "rating": 4.6, "reviews_count": 271, "bought": "100+/mo",
       "specs": { "type": "Corded", "power": "11 amp", "blade": "7-1/4 in", "max_rpm": 4500, "bevel": "0-45°", "weight": null },
       "features": { "kit": true, "brake": false, "laser": false, "high_bevel": false },
-      "verdict": "The budget floor for a full-size corded saw. An 11-amp motor is modest, but you get a real 7-1/4\" blade, bevel adjustment, and dust collection for around $40.",
-      "pros": ["Full-size 7-1/4\" saw for about $40", "Bevel adjust plus a dust port", "4.6 stars"],
+      "verdict": "The budget floor for a full-size corded saw. An 11-amp motor is modest, but you get a real 7-1/4\" blade, bevel adjustment, and dust collection for around $32.",
+      "best_for": "A full-size 7-1/4 in saw for about $32 for occasional jobs.",
+      "skip_if": "You want brand-name power and support.",
+      "pros": ["Full-size 7-1/4\" saw for about $32", "Bevel adjust plus a dust port", "4.6 stars"],
       "cons": ["11-amp motor is weaker than name-brand saws", "Generic brand and support"]
     }
   ],

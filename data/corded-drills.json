@@ -34,6 +34,8 @@
       "specs": { "type": "Corded", "power": "8 amp", "chuck": "3/8 in keyed", "max_rpm": "0-2,500 rpm", "function": "Drill/driver", "grip": "Mid-handle" },
       "features": { "kit": true, "vsr": true, "keyless": false, "hammer": false },
       "verdict": "The best corded drill for most people. A strong 8-amp motor, a comfortable mid-handle grip for control on big bits, and the highest rating here at 4.8 stars. Pure DEWALT reliability that'll outlast a decade of batteries.",
+      "best_for": "Regular drilling with big bits, where the mid-handle gives control.",
+      "skip_if": "You hate chuck keys; this one is keyed.",
       "pros": ["8-amp motor, 4.8 stars over 1,800 reviews", "Mid-handle grip for control and torque", "Built to run for years"],
       "cons": ["Keyed chuck (a chuck key to keep track of)", "Pricier than budget corded drills"]
     },
@@ -46,6 +48,8 @@
       "specs": { "type": "Corded", "power": "5.5 amp", "chuck": "3/8 in keyless", "max_rpm": "0-1,500 rpm", "function": "Drill/driver", "grip": "Pistol grip" },
       "features": { "kit": true, "vsr": true, "keyless": true, "hammer": false },
       "verdict": "The value legend, and the highest-scoring corded drill here. 7,700 reviews at 4.6 stars, a keyless chuck, and variable-speed reversible control for around $44. The one to buy if you just need a reliable drill.",
+      "best_for": "A reliable, cheap drill for everyday jobs around the house.",
+      "skip_if": "You drill large holes or masonry; 5.5 amps and no hammer mode.",
       "pros": ["Most-reviewed corded drill here — 7,700 ratings at 4.6 stars", "Keyless chuck, variable speed reversible", "Cheap and dependable"],
       "cons": ["5.5 amps is light for heavy drilling", "Not a hammer drill"]
     },
@@ -58,6 +62,8 @@
       "specs": { "type": "Corded", "power": "10 amp", "chuck": "1/2 in keyed", "max_rpm": "0-2,700 rpm", "function": "Hammer drill", "grip": "Pistol grip" },
       "features": { "kit": true, "vsr": true, "keyless": false, "hammer": true },
       "verdict": "The most powerful drill on the list, and the one to buy if price is no object. A 10-amp hammer drill that bores through concrete and masonry, ships in a kit with a case, and carries DEWALT's build and warranty.",
+      "best_for": "Concrete, brick and big holes, where a 10-amp hammer drill earns its price.",
+      "skip_if": "You mostly drill wood; it's overkill and the most expensive here.",
       "pros": ["Big 10-amp motor with hammer mode for masonry", "Comes as a kit with a carry case", "4.7 stars, DEWALT durability"],
       "cons": ["By far the most expensive here", "Overkill for wood and light drilling"]
     },
@@ -70,6 +76,8 @@
       "specs": { "type": "Corded", "power": "7 amp", "chuck": "3/8 in keyed", "max_rpm": "0-2,800 rpm", "function": "Drill/driver", "grip": "Pistol grip" },
       "features": { "kit": true, "vsr": true, "keyless": false, "hammer": false },
       "verdict": "A no-nonsense 7-amp DEWALT with a keyed chuck for maximum bit grip. Smooth, durable, and well-rated over 1,100 reviews — a great pick if you prefer a keyed chuck's holding power.",
+      "best_for": "Users who want a keyed chuck's grip on bits and a 7-amp DEWALT motor.",
+      "skip_if": "You want keyless bit changes or the lowest price.",
       "pros": ["7-amp motor, keyed chuck grips bits hard", "4.6 stars over 1,100 reviews", "DEWALT build"],
       "cons": ["Keyed chuck needs the key", "Priced above the value B+D"]
     },
@@ -82,6 +90,8 @@
       "specs": { "type": "Corded", "power": "5.5 amp", "chuck": "1/2 in keyless", "max_rpm": "0-3,000 rpm", "function": "Drill/driver", "grip": "In-line handle" },
       "features": { "kit": true, "vsr": true, "keyless": true, "hammer": false },
       "verdict": "A light 3.7 lb Makita with a 1/2 in keyless chuck and an in-line handle that keeps the bit on target. A good fit for accurate, lower-torque drilling in wood and metal.",
+      "best_for": "Accurate drilling in wood and metal with a light 3.7 lb drill and keyless 1/2 in chuck.",
+      "skip_if": "You need a long track record; it has few ratings so far.",
       "pros": ["1/2 in keyless chuck takes larger bits without a key", "Only 3.7 lb, with all-ball-bearing construction", "0-3,000 rpm variable speed with a lock-on button", "6.6 ft cord"],
       "cons": ["5.5-amp motor ties the DR260C for the smallest on this list", "No hammer function for masonry", "Few ratings so far, so long-term durability is less proven"]
     },
@@ -94,6 +104,8 @@
       "specs": { "type": "Corded", "power": "7.5 amp", "chuck": "1/2 in", "max_rpm": "0-2,800 rpm", "function": "Drill/driver", "grip": "Pistol grip" },
       "features": { "kit": true, "vsr": true, "keyless": true, "hammer": false },
       "verdict": "A 7.5-amp, 1/2-inch corded drill that takes bigger bits than the 3/8\" models — good for spade bits and hole saws. Solid SKIL value at just over $50.",
+      "best_for": "Spade bits and hole saws on a budget, thanks to the 1/2 in chuck.",
+      "skip_if": "You need a hammer mode for masonry.",
       "pros": ["7.5-amp motor, larger 1/2\" chuck", "Handles bigger bits and hole saws", "4.5 stars under $55"],
       "cons": ["Fewer reviews than the leaders", "No hammer mode"]
     },
@@ -106,6 +118,8 @@
       "specs": { "type": "Corded", "power": "6.5 amp", "chuck": "1/2 in", "max_rpm": "0-3,000 rpm", "function": "Hammer drill", "grip": "Pistol grip" },
       "features": { "kit": true, "vsr": true, "keyless": false, "hammer": true },
       "verdict": "The affordable way into a corded hammer drill. A 6.5-amp motor with a hammer mode for the occasional concrete anchor or brick, backed by 2,200 reviews for around $54.",
+      "best_for": "An occasional concrete anchor or brick hole for about $54.",
+      "skip_if": "You drill masonry often; 6.5 amps is modest.",
       "pros": ["Hammer mode for masonry under $55", "2,200 reviews, 1/2\" chuck", "Trusted BLACK+DECKER name"],
       "cons": ["6.5 amps is modest for heavy masonry", "4.3 stars, a step below the leaders"]
     },
@@ -117,8 +131,10 @@
       "price": 13.09, "rating": 4.2, "reviews_count": 2294, "bought": "1K+/mo",
       "specs": { "type": "Corded", "power": "7.5 amp", "chuck": "1/2 in", "max_rpm": "0-3,000 rpm", "function": "Hammer drill", "grip": "Pistol grip" },
       "features": { "kit": true, "vsr": true, "keyless": false, "hammer": true },
-      "verdict": "Astonishing value — a 7.5-amp hammer drill with a bit set for around $21, and 2,200 reviews to back it up. Not refined, but for occasional drilling and light masonry it's hard to beat the price.",
-      "pros": ["7.5-amp hammer drill for about $21", "Comes with a 6-piece bit set", "2,200 reviews"],
+      "verdict": "Astonishing value — a 7.5-amp hammer drill with a bit set for around $13, and 2,200 reviews to back it up. Not refined, but for occasional drilling and light masonry it's hard to beat the price.",
+      "best_for": "Occasional drilling and light masonry on the smallest budget.",
+      "skip_if": "You'll use it daily or want a refined tool.",
+      "pros": ["7.5-amp hammer drill for about $13", "Comes with a 6-piece bit set", "2,200 reviews"],
       "cons": ["Basic build and 4.2-star rating", "Not for heavy daily use"]
     },
     {
@@ -130,6 +146,8 @@
       "specs": { "type": "Corded", "power": "7 amp", "chuck": "1/2 in keyless", "max_rpm": "0-1,200 rpm", "function": "Drill/driver", "grip": "Pistol grip" },
       "features": { "kit": true, "vsr": true, "keyless": true, "hammer": false },
       "verdict": "A 7-amp, 1/2-inch drill/driver with a keyless chuck and a lower top speed geared for torque — good for driving fasteners and big bits. A well-rated BLACK+DECKER at a fair price.",
+      "best_for": "Driving fasteners and turning big bits, with a torque-geared 1/2 in keyless chuck.",
+      "skip_if": "You want fast drilling in small bits; it tops out at 1,200 rpm.",
       "pros": ["7-amp motor, 1/2\" keyless chuck", "Torque-geared for driving and big bits", "4.6 stars"],
       "cons": ["Lower top RPM than 3/8\" drills", "No hammer function"]
     },
@@ -142,6 +160,8 @@
       "specs": { "type": "Corded", "power": "7.5 amp", "chuck": "1/2 in", "max_rpm": "0-3,000 rpm", "function": "Hammer drill", "grip": "Pistol grip" },
       "features": { "kit": true, "vsr": true, "keyless": false, "hammer": true },
       "verdict": "SKIL's 7.5-amp corded hammer drill — more motor than the BLACK+DECKER for a similar price, with a hammer mode for masonry. A capable mid-range pick.",
+      "best_for": "A mid-priced hammer drill with more motor than the BLACK+DECKER.",
+      "skip_if": "You want a keyless chuck.",
       "pros": ["7.5-amp motor with hammer mode", "1/2\" chuck for bigger bits", "889 reviews"],
       "cons": ["4.2-star rating", "No keyless chuck"]
     }

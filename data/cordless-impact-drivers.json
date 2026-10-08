@@ -28,6 +28,8 @@
       "specs": { "voltage": "20V MAX", "chuck": "1/4 in hex", "max_rpm": 2800, "speeds": "1-speed", "torque": "1,500 in-lbs", "clutch": null, "battery": "1.3Ah + charger included", "weight": null },
       "features": { "brushless": true, "two_speed": false, "led": true, "dual_battery": false, "kit": true },
       "verdict": "The one to buy if you're starting fresh. Brushless DEWALT power, 4.8 stars, and it comes with a battery and charger so you can work the day it arrives.",
+      "best_for": "Starting fresh: a brushless DEWALT driver with battery and charger.",
+      "skip_if": "You want speed settings for delicate screws; it has one speed.",
       "pros": ["Highest rating here — 4.8 stars over 1,700+ reviews", "Brushless motor for longer runtime and tool life", "Battery and charger included — ready to use out of the box"],
       "cons": ["Single-speed (no precision modes)", "Only one battery in the kit", "Costs more than the bare-tool DEWALTs below"]
     },
@@ -44,6 +46,8 @@
       "specs": { "voltage": "20V MAX", "chuck": "1/4 in hex", "max_rpm": 3400, "speeds": "3-speed", "torque": "1,825 in-lbs", "clutch": null, "battery": "Tool only — battery sold separately", "weight": null },
       "features": { "brushless": true, "two_speed": true, "led": true, "dual_battery": false, "kit": false },
       "verdict": "The highest-scoring tool on this list, and the one pros pick: XR brushless, 1,825 in-lbs, and a 3-speed selector. Just remember it's bare — you'll need a 20V battery.",
+      "best_for": "DEWALT 20V MAX owners who want the most torque and 3 speed settings.",
+      "skip_if": "You don't own the batteries; it's tool only and pricey once you add one.",
       "pros": ["Most torque here (1,825 in-lbs) with a 3-speed selector for control", "XR brushless motor, 3,400 rpm, LED", "3,000+ reviews at 4.7 stars"],
       "cons": ["Tool only — no battery or charger included", "Pricey once you add a battery if you don't own one", "Overkill for light household jobs"]
     },
@@ -60,6 +64,8 @@
       "specs": { "voltage": "20V MAX", "chuck": "1/4 in hex", "max_rpm": null, "speeds": null, "torque": "1,700 in-lbs", "clutch": null, "battery": "Tool only — battery sold separately", "weight": null },
       "features": { "brushless": true, "two_speed": false, "led": true, "dual_battery": false, "kit": false },
       "verdict": "The compact favorite. ATOMIC is DEWALT's short, light brushless line — 1,700 in-lbs in a body that fits between studs. Bare tool for people already on the 20V platform.",
+      "best_for": "Tight spaces between studs and joists, on DEWALT 20V MAX.",
+      "skip_if": "You want speed settings; it has none.",
       "pros": ["Compact, light brushless design for tight spaces", "1,700 in-lbs and 3,300+ reviews at 4.7 stars", "Cheaper than the full-size DEWALTs"],
       "cons": ["Tool only — no battery or charger", "No multi-speed selector", "Max speed not published by DEWALT for this model"]
     },
@@ -76,6 +82,8 @@
       "specs": { "voltage": "20V MAX", "chuck": "1/4 in hex", "max_rpm": 2800, "speeds": "1-speed", "torque": "1,460 in-lbs", "clutch": null, "battery": "1.3Ah + charger included", "weight": null },
       "features": { "brushless": false, "two_speed": false, "led": true, "dual_battery": false, "kit": true },
       "verdict": "A name-brand kit under $70 with a battery in the box. Brushed motor keeps the price down; fine for the weekend DIYer who doesn't already own a battery platform.",
+      "best_for": "Weekend DIY on CRAFTSMAN V20 with the battery included.",
+      "skip_if": "You drive long lag screws often; it has the least torque of the brand-name picks.",
       "pros": ["Battery and charger included at a mid-range price", "CRAFTSMAN V20 platform, 2,800 rpm, LED", "4.7 stars over 2,300 reviews"],
       "cons": ["Brushed motor — shorter life than brushless", "Lowest torque of the name-brand picks (1,460 in-lbs)", "One 1.3Ah battery only"]
     },
@@ -92,6 +100,8 @@
       "specs": { "voltage": "20V", "chuck": "1/4 in hex", "max_rpm": 2600, "speeds": "2-speed", "torque": "2,220 in-lbs", "clutch": null, "battery": "20V Li-ion + charger included", "weight": null },
       "features": { "brushless": true, "two_speed": true, "led": true, "dual_battery": false, "kit": true },
       "verdict": "The value champ. A brushless, two-speed impact driver with the highest torque rating of the budget kits, a battery, charger, and sockets — all for around $40.",
+      "best_for": "A brushless, two-speed kit for about $40 with sockets included.",
+      "skip_if": "You want batteries that fit other brands' tools.",
       "pros": ["Brushless and two-speed at a budget price", "2,220 in-lbs — more torque on paper than the name-brand picks", "Complete kit: battery, charger, sockets, and bits"],
       "cons": ["4.4-star rating trails the DEWALT and CRAFTSMAN picks", "Locked to AVID POWER's own batteries", "Off-brand support and durability record"]
     },
@@ -108,6 +118,8 @@
       "specs": { "voltage": "18V", "chuck": "1/4 in hex", "max_rpm": 3400, "speeds": null, "torque": "1,800 in-lbs", "clutch": null, "battery": "Tool only — battery sold separately", "weight": null },
       "features": { "brushless": false, "two_speed": false, "led": false, "dual_battery": false, "kit": false },
       "verdict": "The pick if you're already in the RYOBI ONE+ world. 1,800 in-lbs and 3,400 rpm for $41 as a bare tool — a lot of driver if you own the batteries.",
+      "best_for": "RYOBI ONE+ owners who want strong torque for little money.",
+      "skip_if": "You don't own RYOBI batteries; it's tool only.",
       "pros": ["Strong 1,800 in-lbs and 3,400 rpm for the price", "Works with the huge RYOBI ONE+ 18V battery lineup", "4.6 stars over 1,300+ reviews"],
       "cons": ["Tool only — no battery or charger", "Brushed motor", "Only worth it if you already own RYOBI ONE+ batteries"]
     },
@@ -125,6 +137,8 @@
       "specs": { "voltage": "20V MAX", "chuck": "1/4 in hex", "max_rpm": 3000, "speeds": null, "torque": null, "clutch": null, "battery": "Tool only — battery sold separately", "weight": null },
       "features": { "brushless": true, "two_speed": false, "led": true, "dual_battery": false, "kit": false },
       "verdict": "The quiet one. A hydraulic impact driver trades the machine-gun rattle for a low hum — worth it if you drive fasteners indoors or near sleeping kids. Premium price, bare tool.",
+      "best_for": "Indoor or late-night driving where noise matters.",
+      "skip_if": "You just want the most torque per dollar; it's the most expensive here.",
       "pros": ["Hydraulic mechanism runs far quieter than a standard impact", "Brushless with an LED halo ring for shadow-free light", "4.6 stars — the specialist pros' pick"],
       "cons": ["Most expensive on the list, and it's tool only", "Overkill unless you specifically want the quiet operation", "DEWALT doesn't publish a torque figure for this model"]
     },
@@ -140,7 +154,9 @@
       "bought": "50+/mo",
       "specs": { "voltage": "20V", "chuck": "1/4 in hex", "max_rpm": 2800, "speeds": null, "torque": null, "clutch": null, "battery": "1.3Ah + charger included", "weight": null },
       "features": { "brushless": false, "two_speed": false, "led": true, "dual_battery": false, "kit": true },
-      "verdict": "The cheapest complete kit from a driver that sells well. Battery, charger, and bits under $40 — a fine grab-and-go for occasional fastening.",
+      "verdict": "A cheap complete kit from a driver that sells well. Battery, charger, and bits under $40 — a fine grab-and-go for occasional fastening.",
+      "best_for": "Occasional fastening with a cheap, complete kit.",
+      "skip_if": "You need a published torque rating or heavy-duty use.",
       "pros": ["Complete kit under $40", "2,800 rpm with an LED work light", "1,800+ reviews"],
       "cons": ["Brushed motor and no published torque figure", "Small 1.3Ah battery", "Generic brand and support"]
     },
@@ -157,6 +173,8 @@
       "specs": { "voltage": "18V", "chuck": "1/4 in hex", "max_rpm": 2750, "speeds": null, "torque": "1,500 in-lbs", "clutch": null, "battery": "Tool only — battery sold separately", "weight": null },
       "features": { "brushless": false, "two_speed": false, "led": true, "dual_battery": false, "kit": false },
       "verdict": "The proven workhorse. Nearly 4,700 reviews at 4.8 stars on the M18 platform — not the newest driver here, but the one with the longest track record of not letting people down.",
+      "best_for": "Milwaukee M18 owners who want the driver with the longest track record.",
+      "skip_if": "You want brushless or a compact body; it's an older, bulkier design.",
       "pros": ["Highest review count on this list by a wide margin, at a 4.8-star average", "REDLINK electronics protect the tool and battery from overheating", "Runs on the huge M18 battery lineup"],
       "cons": ["Tool only — no battery or charger", "Brushed motor, not Milwaukee's newer brushless line", "Bulkier than the compact ATOMIC and RP picks"]
     },
@@ -173,6 +191,8 @@
       "specs": { "voltage": "20V", "chuck": "1/4 in hex", "max_rpm": 2800, "speeds": null, "torque": "1,593 in-lbs", "clutch": null, "battery": "2.0Ah + charger included", "weight": null },
       "features": { "brushless": false, "two_speed": false, "led": true, "dual_battery": false, "kit": true },
       "verdict": "The budget floor with a real battery. Lowest price here, and it still ships with a 2.0Ah pack and 1,593 in-lbs — enough for furniture, decks, and light framing.",
+      "best_for": "The cheapest driver here that still comes with a 2.0Ah battery.",
+      "skip_if": "You want a long-standing brand behind it.",
       "pros": ["Cheapest impact driver on the list", "Ships with a 2.0Ah battery and charger", "1,593 in-lbs, LED, 3,000 IPM"],
       "cons": ["Brushed motor", "Generic brand with a short track record", "Single speed, single battery"]
     }

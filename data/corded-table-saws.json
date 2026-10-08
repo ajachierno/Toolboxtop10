@@ -102,6 +102,8 @@
         "soft_start": false
       },
       "verdict": "The most-reviewed 10-inch jobsite saw on Amazon and the widest rip on this list at 32-1/2 inches, enough to split a 4x8 sheet down the middle. It comes on a folding rolling stand and is sold and shipped by Amazon.",
+      "best_for": "Ripping full plywood sheets, with a rolling stand included.",
+      "skip_if": "You have to lift it alone; it's 110 lb.",
       "pros": [
         "32-1/2\" rip capacity with a telescoping rack and pinion fence",
         "Rolling stand included; folds down for the truck",
@@ -142,6 +144,8 @@
         "soft_start": false
       },
       "verdict": "Amazon's #1 table saw right now: a 10-inch saw with rack and pinion fence rails and legs that fold into the body, for about half the price of the DEWALT. The rip is 7 inches shorter.",
+      "best_for": "A 10-inch saw with a good fence and built-in legs for about $300.",
+      "skip_if": "You rip full sheets; 25-1/2 in falls short.",
       "pros": [
         "Rack and pinion fence rails keep the fence parallel to the blade",
         "Integrated folding legs, so no separate stand to buy",
@@ -182,6 +186,8 @@
         "soft_start": false
       },
       "verdict": "The highest-rated saw on the list (4.8 stars across 5,814 reviews). The 8-1/4-inch blade trades cut depth for a 54 lb saw that one person can carry, and it still rips 24-1/2 inches.",
+      "best_for": "One-person carrying, with the highest rating here.",
+      "skip_if": "You need full 10-inch cut depth or a stand included.",
       "pros": [
         "4.8 stars from over 5,800 reviews",
         "Rack and pinion telescoping fence rails",
@@ -220,9 +226,11 @@
         "dado": false,
         "soft_start": false
       },
-      "verdict": "The same DWE7485 saw bundled with DEWALT's jobsite stand for $20 more than the bare saw. If you don't already have a stand or a bench to bolt it to, this is the better buy of the two.",
+      "verdict": "The same DWE7485 saw bundled with DEWALT's jobsite stand for about $55 more than the bare saw. If you don't already have a stand or a bench to bolt it to, this is the better buy of the two.",
+      "best_for": "The compact DEWALT with a stand, if you have no bench for it.",
+      "skip_if": "You already own a stand; the bare DWE7485 is cheaper.",
       "pros": [
-        "Stand included for $20 over the saw alone",
+        "Stand included for about $55 over the saw alone",
         "Rack and pinion telescoping fence rails, 24-1/2\" rip",
         "Blade brake and power-loss reset",
         "Sold and shipped by Amazon"
@@ -259,6 +267,8 @@
         "soft_start": false
       },
       "verdict": "A worm-drive saw built for framing crews: the deepest cut here at 3-5/8 inches, a 30-1/2-inch rip, and a rolling stand with 16-inch wheels for rough ground.",
+      "best_for": "Framing crews cutting thick, wet or treated lumber.",
+      "skip_if": "You want a long warranty; it's 1 year.",
       "pros": [
         "Deepest cut on the list: 3-5/8\" at 90 degrees",
         "Worm-drive gearing for torque in thick, wet, or treated lumber",
@@ -298,6 +308,8 @@
         "soft_start": true
       },
       "verdict": "The most complete feature set here: soft start, electronic speed regulation under load, a blade brake that stops in about three seconds, and Bosch's gravity-rise wheeled stand. It costs the most, and it has far fewer reviews than the DEWALT.",
+      "best_for": "Shared jobsite circuits and quick setup with the gravity-rise stand.",
+      "skip_if": "You want a long track record; it has few reviews.",
       "pros": [
         "Soft start reduces breaker trips on shared jobsite circuits",
         "Brake stops the blade in about 3 seconds",
@@ -340,6 +352,8 @@
         "soft_start": true
       },
       "verdict": "The only saw here that ships with a zero-clearance throat plate, a dado plate, and a cross-cut sled, and its blade is rated for mild steel and aluminum as well as wood. It's a newer listing that's already selling 200+ a month.",
+      "best_for": "Cutting wood and metal, with dado plate and cross-cut sled included.",
+      "skip_if": "You want the best-rated name brand; it's 4.4 stars.",
       "pros": [
         "Dado plate, zero-clearance plate, and cross-cut sled included",
         "Soft start and an electronic blade brake",
@@ -380,6 +394,8 @@
         "soft_start": false
       },
       "verdict": "The cheapest saw here with a rack and pinion fence, from a brand with a real parts and service network. At 40 lb it's the lightest name-brand saw on the list. You'll need a bench or SKIL's folding stand.",
+      "best_for": "A light saw with a real rack-and-pinion fence for $249.",
+      "skip_if": "You need deep cuts or a stand included.",
       "pros": [
         "Rack and pinion fence rails at $249",
         "24-1/2\" rip to the right, 12\" to the left",
@@ -421,6 +437,8 @@
         "soft_start": false
       },
       "verdict": "A 10-inch saw on a four-leg metal stand for about $210. Its fence is a metal lever-lock design, not rack and pinion, and the listing doesn't state a rip capacity.",
+      "best_for": "A 10-inch saw on a stand for about $210.",
+      "skip_if": "You need a published rip capacity or a rack-and-pinion fence.",
       "pros": [
         "10\" blade and a stand for $209.99",
         "Metal rip fence with a locking lever",
@@ -460,6 +478,8 @@
         "soft_start": false
       },
       "verdict": "The cheapest 10-inch saw on Amazon's table saw best-seller list, and one of its top sellers. It's a light benchtop saw for occasional crosscuts and small rips, and the listing doesn't describe the fence or give a rip capacity.",
+      "best_for": "Occasional crosscuts and small rips on a light benchtop saw.",
+      "skip_if": "You need a rip fence; the listing doesn't include one.",
       "pros": [
         "$179.99 for a 10\" 15-amp saw",
         "28.3 lb, the lightest saw here",

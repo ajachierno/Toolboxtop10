@@ -34,6 +34,8 @@
       "specs": { "type": "Corded", "power": "3.5 amp", "oscillation": "4.5°", "opm": null, "accessories": "13 pieces" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "The best all-around corded multi-tool. A strong 3.5-amp motor, a wide 4.5° oscillation angle that cuts fast, variable speed, and tool-free blade change — all backed by nearly 4,000 reviews for about $54.",
+      "best_for": "Most DIY cutting: fast 4.5° swing, variable speed and tool-free blades for about $54.",
+      "skip_if": "You want a name brand's warranty behind it.",
       "pros": ["3.5-amp motor with a fast 4.5° oscillation", "Nearly 4,000 reviews at 4.4 stars", "Variable speed + tool-free blade change"],
       "cons": ["Off-brand vs Dremel/DEWALT", "Basic accessory set"]
     },
@@ -45,9 +47,11 @@
       "price": 33.88, "rating": 4.5, "reviews_count": 2439, "bought": "300+/mo",
       "specs": { "type": "Corded", "power": "2.2 amp", "oscillation": null, "opm": null, "accessories": "Flush-cut blade" },
       "features": { "kit": true, "variable_speed": true, "tool_free": false, "accessories": false },
-      "verdict": "A simple 2.2-amp corded tool with variable speed and 2,400 reviews at 4.5 stars. Fine for trim, drywall, and light remodeling, though at around $48 it now costs more than the stronger WEN.",
+      "verdict": "A simple 2.2-amp corded tool with variable speed and 2,400 reviews at 4.5 stars. Fine for trim, drywall, and light remodeling, and at about $34 it costs less than the stronger 3.5-amp WEN.",
+      "best_for": "Light trim and drywall cuts with a well-reviewed, simple tool.",
+      "skip_if": "You cut heavier material; the 3.5-amp WEN has much more motor for about $11 more.",
       "pros": ["2,400 reviews at 4.5 stars", "Variable speed", "Simple and reliable for light work"],
-      "cons": ["2.2 amps is modest for heavy cutting", "Blade change isn't fully tool-free", "Costs more than the 3.5-amp WEN"]
+      "cons": ["2.2 amps is modest for heavy cutting", "Blade change isn't fully tool-free", "The 3.5-amp WEN has much more motor for about $11 more"]
     },
     {
       "asin": "B00DQH1K2Q", "premium": true,
@@ -58,6 +62,8 @@
       "specs": { "type": "Corded", "power": "3 amp", "oscillation": null, "opm": "0-22,000 OPM", "accessories": "29-piece kit + bag" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "The pro's corded pick. A refined DEWALT with a dual-grip body, tool-free blade change, and a big accessory kit — 4.8 stars over 2,600 reviews. Expensive, but the one to buy if price is no object.",
+      "best_for": "Remodelers who use a multi-tool weekly and want DEWALT build and a big kit.",
+      "skip_if": "You make a few cuts a year; it's by far the priciest.",
       "pros": ["4.8 stars, DEWALT build and warranty", "Tool-free blade change, big accessory kit", "Smooth, powerful, low-vibration"],
       "cons": ["By far the most expensive here", "Overkill for occasional DIY"]
     },
@@ -70,6 +76,8 @@
       "specs": { "type": "Corded", "power": "3 amp", "oscillation": null, "opm": null, "accessories": "Universal fit" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "A solid name-brand corded tool with a universal tool-free accessory system and a 3-amp motor. CRAFTSMAN build at 4.6 stars, a step down in price from the DEWALT.",
+      "best_for": "Buyers who want a CRAFTSMAN corded tool with a universal tool-free system.",
+      "skip_if": "You're shopping on amps per dollar; it's pricey for 3 amps.",
       "pros": ["3-amp motor, universal tool-free system", "CRAFTSMAN name at 4.6 stars", "Variable speed"],
       "cons": ["Pricey for the amp rating", "Smaller review base"]
     },
@@ -82,6 +90,8 @@
       "specs": { "type": "Corded", "power": "3 amp", "oscillation": null, "opm": "0-22,000 OPM", "accessories": "Kit + storage bag" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "The more affordable DEWALT corded kit. Same 3-amp DWE315 tool and tool-free blade change with a smaller accessory set and bag — real DEWALT for under $100.",
+      "best_for": "Real DEWALT quality under $100, with a smaller kit.",
+      "skip_if": "You want a long review history; the listing is new.",
       "pros": ["DEWALT quality under $100", "Tool-free blade change, storage bag", "0-22,000 OPM variable speed"],
       "cons": ["Newer listing, few reviews", "Smaller kit than the premium DEWALT"]
     },
@@ -94,6 +104,8 @@
       "specs": { "type": "Corded", "power": "3.5 amp", "oscillation": null, "opm": null, "accessories": "Kit + case" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "Dremel more or less invented the consumer oscillating tool. The MM35 is a smooth 3.5-amp tool with a quick-change accessory system and universal blade fit — a safe, well-built pick.",
+      "best_for": "A smooth, low-vibration tool from the brand that started the category.",
+      "skip_if": "You want the most power per dollar; the AVID is cheaper.",
       "pros": ["3.5-amp motor, low-vibration Dremel build", "Universal quick-change blade system", "4.5 stars"],
       "cons": ["Pricier than the AVID for similar power", "Modest review count"]
     },
@@ -106,6 +118,8 @@
       "specs": { "type": "Corded", "power": "2.4 amp", "oscillation": null, "opm": null, "accessories": "28 pieces" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "A big-value kit — a corded tool with 28 accessories and 2,600 reviews at 4.5 stars. The 2.4-amp motor is modest, but you get everything to start cutting for under $60.",
+      "best_for": "Starting out with 28 accessories in the box for under $50.",
+      "skip_if": "You cut hardwood or metal often; 2.4 amps is light.",
       "pros": ["28-piece accessory kit", "2,600 reviews at 4.5 stars", "Tool-free blade change"],
       "cons": ["2.4 amps is light for heavy cutting", "Generic brand support"]
     },
@@ -118,6 +132,8 @@
       "specs": { "type": "Corded", "power": "4.2 amp", "oscillation": null, "opm": null, "accessories": "33 pieces" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "The most powerful motor of the value kits — 4.2 amps with a 33-piece accessory set and 2,000 reviews. If you want corded muscle without paying DEWALT money, this is it.",
+      "best_for": "The most motor (4.2 amps) of the value kits, with 33 accessories.",
+      "skip_if": "You want brand-name support.",
       "pros": ["Strong 4.2-amp motor", "33-piece accessory kit, 2,000 reviews", "Tool-free blade change"],
       "cons": ["4.4 stars, a hair below the leaders", "Off-brand support"]
     },
@@ -130,6 +146,8 @@
       "specs": { "type": "Corded", "power": "3.5 amp", "oscillation": null, "opm": null, "accessories": "Kit incl." },
       "features": { "kit": true, "variable_speed": true, "tool_free": false, "accessories": true },
       "verdict": "The budget pick. WEN's usual formula of real power for a low price: a 3.5-amp motor with variable speed and an accessory set for under $45, from a brand that specializes in value tools.",
+      "best_for": "3.5 amps of power for under $45 from a value brand.",
+      "skip_if": "You want fully tool-free blade changes.",
       "pros": ["3.5-amp motor under $45", "Variable speed, accessories included", "4.4 stars"],
       "cons": ["Blade change isn't fully tool-free", "Fewer reviews than the big kits"]
     },
@@ -142,6 +160,8 @@
       "specs": { "type": "Corded", "power": "3.0 amp", "oscillation": null, "opm": null, "accessories": "Kit + 7 speeds" },
       "features": { "kit": true, "variable_speed": true, "tool_free": true, "accessories": true },
       "verdict": "A well-rounded 3-amp kit with seven variable speeds and a tool-free blade change. 936 reviews at 4.7 stars make it a safe mid-price choice.",
+      "best_for": "A safe mid-price kit with 7 speeds and a 4.7-star rating.",
+      "skip_if": "You want the strongest motor at this price; 4-amp kits cost the same.",
       "pros": ["3-amp motor, 7 variable speeds", "Tool-free blade change, 4.7 stars", "Complete accessory kit"],
       "cons": ["Priced like stronger 4-amp kits", "Generic brand"]
     }

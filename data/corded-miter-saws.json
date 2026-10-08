@@ -100,6 +100,8 @@
         "cut_guide": false
       },
       "verdict": "The most-reviewed miter saw on Amazon, with 6,933 ratings at 4.8 stars. A 12-inch blade on a fixed arm, so it cuts a 2x8 square without the cost or bulk of a slider.",
+      "best_for": "Most people: a proven 12-inch chop saw that cuts a 2x8.",
+      "skip_if": "You bevel both ways or cut wide shelving.",
       "pros": [
         "14 positive stops on a stainless-steel miter detent plate",
         "Tall sliding fence holds 5-1/2\" base molding upright",
@@ -138,6 +140,8 @@
         "cut_guide": true
       },
       "verdict": "The contractor's standard: a 12-inch double-bevel slider that crosscuts a 2x14 and marks the cut with a shadow line that never needs calibrating.",
+      "best_for": "Contractors who crosscut 2x14 and want a shadow-line guide.",
+      "skip_if": "You're short on space or budget; it's deep and costs $649.",
       "pros": [
         "Crosscuts 2x14 at 90° and 2x10 at 45°",
         "XPS LED shadow line shows the kerf on the wood, with no laser to adjust",
@@ -177,6 +181,8 @@
         "cut_guide": false
       },
       "verdict": "The 10-inch version of the DWS715. Lighter and cheaper, with the same detent plate and fence, but it crosscuts only a 2x6.",
+      "best_for": "A light, cheap-to-feed 10-inch DEWALT for trim and 2x6 cuts.",
+      "skip_if": "You want value; the Metabo HPT does similar cuts for much less.",
       "pros": [
         "Same 14-stop stainless detent plate as the 12\" DWS715",
         "31 lb, easy to carry to the job",
@@ -186,7 +192,7 @@
       "cons": [
         "2x6 crosscut at 90°, 2x4 at 45°",
         "Single bevel, no cut guide",
-        "$120 more than the Metabo HPT for a similar 10\" chop saw"
+        "$167 more than the Metabo HPT for a similar 10\" chop saw"
       ]
     },
     {
@@ -215,6 +221,8 @@
         "cut_guide": true
       },
       "verdict": "Amazon's #2 power miter saw and the cheapest saw here with all three upgrades: sliding rails, dual bevel, and an LED shadow line. It crosscuts a 2x12 for $249.",
+      "best_for": "Sliding, dual-bevel and a shadow line for $249.",
+      "skip_if": "You do fine trim; swap the 40-tooth blade first.",
       "pros": [
         "Crosscuts 2x12 at 90° and 2x8 at 45°",
         "Dual bevel with stops at 48° and 45° left, 0°, and 45° right",
@@ -254,6 +262,8 @@
         "cut_guide": true
       },
       "verdict": "A 12-inch double-bevel chop saw with DEWALT's XPS cutline light. Pick it over the DWS715 if you cut a lot of crown or bevel both ways and don't want to flip boards.",
+      "best_for": "Crown and bevels both ways without flipping boards.",
+      "skip_if": "You don't need the second bevel; the DWS715 is cheaper.",
       "pros": [
         "Bevels 0-48° left and right with stops at 0°, 22.5°, 33.9°, and 45°",
         "XPS LED cutline, no laser to calibrate",
@@ -261,7 +271,7 @@
         "Miters 50° both ways"
       ],
       "cons": [
-        "$78 more than the DWS715 for the second bevel direction and the light",
+        "$123 more than the DWS715 for the second bevel direction and the light",
         "49 lb",
         "The listing doesn't publish a crosscut capacity"
       ]
@@ -292,6 +302,8 @@
         "cut_guide": false
       },
       "verdict": "Amazon's #1 power miter saw right now and the cheapest name-brand saw here: a light 10-inch chop saw with a 5-year warranty for $111.95.",
+      "best_for": "A light, cheap chop saw with a 5-year warranty.",
+      "skip_if": "You bevel to the right.",
       "pros": [
         "$111.95 from Amazon, with a 5-year warranty",
         "24.2 lb, the lightest saw on this list",
@@ -331,6 +343,8 @@
         "cut_guide": false
       },
       "verdict": "Bosch's articulated-arm glide saw. It gets a 12-inch crosscut from a 10-inch blade and needs up to 10 inches less depth than a rail slider, which suits a saw pushed against a wall.",
+      "best_for": "A saw pushed against a wall, where rails won't fit.",
+      "skip_if": "You move it often; it's 64 lb.",
       "pros": [
         "Glide arm needs up to 10\" less depth than rail sliders",
         "12\" horizontal crosscut, 5-1/2\" base and 6\" crown against the fence",
@@ -370,6 +384,8 @@
         "cut_guide": false
       },
       "verdict": "A long-running Makita 10-inch chop saw with a direct-drive motor. Solid and light, but it costs more than the DEWALT DWS713 for the same basic job.",
+      "best_for": "A light Makita chop saw with a direct-drive motor.",
+      "skip_if": "You're shopping on value; the DWS713 is cheaper.",
       "pros": [
         "Direct-drive 15 A motor, no belt to slip or replace",
         "Miters 0-45° left and 0-52° right with 9 positive stops",
@@ -408,6 +424,8 @@
         "cut_guide": true
       },
       "verdict": "Makita's 10-inch slider with a two-rail system that runs flush to a wall. It handles 6-5/8-inch nested crown, the same as a typical 12-inch saw.",
+      "best_for": "Wall-flush setups that still handle big crown.",
+      "skip_if": "You'd rather not calibrate a laser.",
       "pros": [
         "Rail design lets it sit flush against a wall",
         "6-5/8\" nested crown and 5-1/4\" vertical capacity",
@@ -447,14 +465,16 @@
         "cut_guide": true
       },
       "verdict": "The cheapest slider with a real following: 759 ratings, a 13-inch rail, and a low 3,200 rpm setting for plastic and soft metal. It's a budget brand sold by a third-party storefront.",
+      "best_for": "The cheapest slider with a real following and a low speed for plastic.",
+      "skip_if": "You want to buy from Amazon; it's a third-party seller.",
       "pros": [
-        "Sliding rails for about a 13\" crosscut at $190",
+        "Sliding rails for about a 13\" crosscut at $161",
         "Two speeds, 4,500 and 3,200 rpm",
         "Ships with three TCT blades, a laser, and spare brushes",
         "Extendable side tables"
       ],
       "cons": [
-        "Rated 4.3, the lowest here",
+        "Rated 4.4, the lowest here",
         "Sold by a third party (MilkyWay Galaxy), not Amazon",
         "Single bevel",
         "The listing gives the max cut as both 4 x 13\" and 3.5 x 13.4\""
@@ -472,7 +492,7 @@
       "rating": 4.5,
       "reviews_count": 305,
       "flag": "Sold \"for Metal\" with a 36T wood blade at 5,000 rpm; listing contradicts itself on bevel and miter",
-      "verdict": "The title sells it as a saw for metal, but it spins a 36-tooth blade at 5,000 rpm, and the listing can't agree with itself on which way it bevels or miters. The Metabo HPT C10FCG2 costs $13 more and has none of these problems.",
+      "verdict": "The title sells it as a saw for metal, but it spins a 36-tooth blade at 5,000 rpm, and the listing can't agree with itself on which way it bevels or miters. The Metabo HPT C10FCG2 costs about $14 less and has none of these problems.",
       "reasons": [
         "The title says \"Power Saw for Metal\", yet it ships with a 36-tooth blade running at 5,000 rpm. Saws that actually cut metal slow down for it (the DOVAMAN here drops to 3,200 rpm) and use a blade made for metal. The bullets quietly narrow the claim to \"soft metal\".",
         "The title says single bevel 0-45°. A bullet says the base adjusts \"on both sides\" for bevels, and the same bullet says miters go left only. The brand's own comparison chart says the bevel is left only. You can't tell from the listing what the saw does.",

@@ -33,6 +33,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX", "blade": "6-1/2 in", "max_rpm": 5150, "bevel": "0-50°", "weight": null },
       "features": { "kit": false, "brake": false, "laser": false, "high_bevel": true },
       "verdict": "The best-selling cordless saw here by a mile — 11,000+ reviews at 4.6 stars. Fast, well-balanced, and it rides the huge DEWALT 20V MAX platform. It's a bare tool, so you'll need a battery.",
+      "best_for": "DEWALT 20V MAX owners: the proven, best-selling cordless saw.",
+      "skip_if": "You need to cut deeper than a 6-1/2 in blade allows.",
       "pros": ["11,197 reviews at 4.6 stars — the proven pick", "5,150 rpm, 0-50° bevel", "Runs on the massive DEWALT 20V MAX lineup"],
       "cons": ["Tool only — no battery or charger", "6-1/2\" blade cuts shallower than a 7-1/4\""]
     },
@@ -45,6 +47,8 @@
       "specs": { "type": "Cordless", "power": "18V ONE+", "blade": "5-1/2 in", "max_rpm": 4700, "bevel": "0-50°", "weight": null },
       "features": { "kit": false, "brake": false, "laser": false, "high_bevel": true },
       "verdict": "The cheapest way into a cordless saw — if you're on RYOBI ONE+. The 5-1/2\" blade is light and handy for plywood, trim, and breaking down sheet goods. A bare tool, so grab a ONE+ battery.",
+      "best_for": "RYOBI ONE+ owners cutting plywood, trim and sheet goods.",
+      "skip_if": "You cut framing lumber; a 5-1/2 in blade is shallow.",
       "pros": ["Cheapest name-brand cordless saw here", "Light and easy at 5-1/2\", 4.6 stars", "Huge RYOBI ONE+ 18V ecosystem"],
       "cons": ["Tool only — no battery or charger", "5-1/2\" blade limits cut depth"]
     },
@@ -57,6 +61,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX", "blade": "7-1/4 in", "max_rpm": 5500, "bevel": "0-57°", "weight": "9.88 lbs" },
       "features": { "kit": false, "brake": true, "laser": false, "high_bevel": true },
       "verdict": "The best cordless saw money can buy short of a FLEXVOLT. A brushless motor spins a full 7-1/4\" blade at 5,500 rpm with an electric brake and a 57° bevel — near-corded performance with no cord. (DEWALT's part number for this listing is DCS590B, the tool-only successor to the older DCS570B.)",
+      "best_for": "Near-corded cutting with a full 7-1/4 in blade on DEWALT 20V MAX.",
+      "skip_if": "You're on a budget or don't own big batteries; it drains them fast.",
       "pros": ["Full 7-1/4\" blade and 5,500 rpm from a battery", "Brushless motor plus an electric brake", "57° bevel, corded-like power"],
       "cons": ["Priciest here, and it's a bare tool", "Chews through batteries faster than a 6-1/2\""]
     },
@@ -69,6 +75,8 @@
       "specs": { "type": "Cordless", "power": "20V MAX", "blade": "5-1/2 in", "max_rpm": null, "bevel": null, "weight": null },
       "features": { "kit": false, "brake": false, "laser": false, "high_bevel": false },
       "verdict": "A light, simple cordless saw on the popular BLACK+DECKER 20V platform. Great for plywood and DIY cuts around the house, with 4,000+ reviews behind it — just add a battery.",
+      "best_for": "BLACK+DECKER 20V MAX owners doing light plywood and DIY cuts.",
+      "skip_if": "You cut 2x lumber regularly; it's light duty.",
       "pros": ["4,268 reviews on a common home battery platform", "Light 5-1/2\" body for easy handling", "Inexpensive as a bare tool"],
       "cons": ["Tool only — no battery or charger", "5-1/2\" blade, light-duty only"]
     },
@@ -81,6 +89,8 @@
       "specs": { "type": "Cordless", "power": "20V", "blade": "7-1/4 in", "max_rpm": null, "bevel": "0-56°", "weight": null },
       "features": { "kit": false, "brake": false, "laser": false, "high_bevel": true },
       "verdict": "A full 7-1/4\" brushless cordless saw with an LED worklight and a 56° bevel, on the CRAFTSMAN V20 platform. Priced up from where it sat a year ago, so it's no longer the budget play — buy it for the platform, not the discount.",
+      "best_for": "CRAFTSMAN V20 owners who want a full 7-1/4 in brushless saw.",
+      "skip_if": "You're shopping on price; it's no longer a bargain bare tool.",
       "pros": ["Full 7-1/4\" blade, brushless motor", "56° bevel with LED cutline light, 4.5 stars", "CRAFTSMAN V20 battery platform"],
       "cons": ["Tool only — no battery or charger", "Price has climbed well past its old bare-tool bargain territory"]
     },
@@ -93,6 +103,8 @@
       "specs": { "type": "Cordless", "power": "18V M18", "blade": "6-1/2 in", "max_rpm": 3500, "bevel": "0-50°", "weight": null },
       "features": { "kit": false, "brake": false, "laser": false, "high_bevel": true },
       "verdict": "The pick for anyone already on Milwaukee M18. Solid and well-balanced for a bare tool; not the fastest, but it taps into one of the best battery platforms out there.",
+      "best_for": "Milwaukee M18 owners who want a well-balanced bare saw.",
+      "skip_if": "You want speed; 3,500 rpm is the slowest here.",
       "pros": ["Runs on the excellent Milwaukee M18 system", "0-50° bevel, 4.6 stars", "Well-balanced for control"],
       "cons": ["Tool only — no battery or charger", "3,500 rpm is on the slower side"]
     },
@@ -105,6 +117,8 @@
       "specs": { "type": "Cordless", "power": "20V", "blade": "6-1/2 in", "max_rpm": 4700, "bevel": "0-50°", "weight": "6.4 lbs" },
       "features": { "kit": true, "brake": false, "laser": false, "high_bevel": true },
       "verdict": "A capable 6-1/2\" cordless saw on the WORX Power Share 20V platform, spinning up to 4,700 rpm. Now sells as a full kit — a 2.0Ah battery and charger included — so it's ready to cut out of the box.",
+      "best_for": "A full-size 6-1/2 in kit with battery included, on WORX PowerShare.",
+      "skip_if": "You want a long track record; it has few reviews so far.",
       "pros": ["Battery and charger included, ready to cut out of the box", "Full 6-1/2\" blade, up to 4,700 rpm, 0-50° bevel", "WORX Power Share 20V platform, 4.5 stars"],
       "cons": ["Small review base so far", "PowerShare batteries only cross-compatible with other WORX tools"]
     },
@@ -116,7 +130,9 @@
       "price": 89.99, "rating": 4.5, "reviews_count": 307, "bought": "200+/mo",
       "specs": { "type": "Cordless", "power": "20V", "blade": "6-1/2 in", "max_rpm": 4500, "bevel": null, "weight": null },
       "features": { "kit": true, "brake": false, "laser": false, "high_bevel": false },
-      "verdict": "The cheapest full-size cordless saw that actually comes with a battery. A 6-1/2\" blade, charger, and pack in the box for around $90 — genuinely ready to cut out of the box, no platform required.",
+      "verdict": "Tied with the WORX WX526L as the cheapest full-size cordless saw here that comes with a battery. A 6-1/2\" blade, charger, and pack in the box for around $90 — genuinely ready to cut out of the box, no platform required.",
+      "best_for": "A full-size saw with battery and charger, no platform required.",
+      "skip_if": "You want batteries that run other brand-name tools.",
       "pros": ["Battery and charger included — no platform needed", "Full 6-1/2\" blade, 4,500 rpm", "4.5 stars"],
       "cons": ["Off-brand batteries with no wider ecosystem", "Generic support"]
     },
@@ -129,6 +145,8 @@
       "specs": { "type": "Cordless", "power": "20V", "blade": "4-1/2 in", "max_rpm": 4500, "bevel": null, "weight": null },
       "features": { "kit": true, "brake": false, "laser": true, "high_bevel": false },
       "verdict": "A one-handed mini saw that ships with a big 4.0Ah battery. Great for plywood, laminate, and paneling in tight spots — just not deep enough for framing lumber.",
+      "best_for": "One-handed cuts in plywood, laminate and paneling, with a big 4.0Ah battery.",
+      "skip_if": "You cut 2x4s; the 4-1/2 in blade can't get through in one pass.",
       "pros": ["Includes a large 4.0Ah battery and charger", "Light one-handed body with a laser guide", "4.5 stars over 600+ reviews"],
       "cons": ["4-1/2\" blade can't cut a 2x4 in one pass", "Not a full-size saw replacement"]
     },
@@ -141,6 +159,8 @@
       "specs": { "type": "Cordless", "power": "20V", "blade": "4-1/2 in", "max_rpm": 3400, "bevel": "0-45°", "weight": null },
       "features": { "kit": true, "brake": false, "laser": true, "high_bevel": false },
       "verdict": "A cheap mini saw that comes with a battery and two blades. Handy one-handed for plywood, PVC, and flooring — know the limit: a 4-1/2\" blade won't cut through a 2x4 in one pass.",
+      "best_for": "Cheap one-handed cuts in PVC, plywood and flooring.",
+      "skip_if": "You need a full-size saw or a top-rated tool; it's the lowest rated here.",
       "pros": ["Battery, charger, and two blades included", "Light one-handed body with a laser guide", "2,500 reviews"],
       "cons": ["4-1/2\" blade, light-duty only", "Lowest rating here at 4.2 stars"]
     }

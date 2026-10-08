@@ -105,6 +105,8 @@
         "kit": false
       },
       "verdict": "The best-selling cordless miter saw on Amazon by a wide margin, with 3,087 ratings at 4.8 stars. A 7-1/4-inch slider for anyone already on DEWALT 20V batteries.",
+      "best_for": "DEWALT 20V MAX owners: the best-selling cordless miter saw.",
+      "skip_if": "You cut tall stock; a 7-1/4 in blade limits height.",
       "pros": [
         "3,087 ratings at 4.8 stars, and 800+ bought in the past month",
         "DEWALT rates it at about 183 cuts of 2x4 pine per charge",
@@ -144,10 +146,12 @@
         "cut_guide": true,
         "kit": true
       },
-      "verdict": "The same DCS361 saw as the bare tool, packaged with a 4.0Ah battery and charger. For $32 more than the tool alone, it's the cheapest way into a name-brand cordless miter saw if you own no DEWALT packs.",
+      "verdict": "The same DCS361 saw as the bare tool, packaged with a 4.0Ah battery and charger. For about $83 more than the tool alone, it's the cheapest way into a name-brand cordless miter saw if you own no DEWALT packs.",
+      "best_for": "Getting into a cordless miter saw with no DEWALT packs.",
+      "skip_if": "You frame all day; one 4.0Ah battery won't last.",
       "pros": [
         "Battery (DCB204) and charger included, so it cuts out of the box",
-        "Only $32 more than the bare tool",
+        "About $83 more than the bare tool",
         "11 positive miter stops on a stainless detent plate",
         "Cut-line blade positioning for trim work"
       ],
@@ -184,6 +188,8 @@
         "kit": false
       },
       "verdict": "A full-size 12-inch dual-bevel slider that runs on a single 20V MAX or FLEXVOLT battery. It cuts 14 inches wide and 6-1/2-inch base standing up, which covers almost everything a corded 12-inch saw does.",
+      "best_for": "Full-size 12-inch cutting on one DEWALT battery.",
+      "skip_if": "You carry it room to room; it's 51.7 lb.",
       "pros": [
         "14\" horizontal crosscut, 6-1/2\" base and 6-1/2\" nested crown",
         "Takes any DEWALT 20V MAX or FLEXVOLT battery",
@@ -225,6 +231,8 @@
         "kit": false
       },
       "verdict": "A compact 10-inch dual-bevel saw without rails. It's the trim carpenter's option in the DEWALT lineup: 5-1/4-inch base and crown capacity at 34 pounds.",
+      "best_for": "Trim carpenters who want dual bevel with no rails out back.",
+      "skip_if": "You need wide crosscuts; it tops out at 6 in.",
       "pros": [
         "5-1/4\" base standing up and 5-1/4\" nested crown",
         "Dual bevel with pawls at 22.5° and 33.9°",
@@ -265,6 +273,8 @@
         "kit": true
       },
       "verdict": "A 10-inch dual-bevel slider that runs on two 18V LXT packs, sold as a complete kit. It's the most capable saw here and priced like it.",
+      "best_for": "Makita LXT pros who want the most capable cordless slider.",
+      "skip_if": "You're on a budget; it's over $1,100.",
       "pros": [
         "Two 5.0Ah batteries and a charger in the box",
         "Makita rates it at 334 cuts of 2x4 or 192 cuts of 2x12 per charge",
@@ -305,6 +315,8 @@
         "kit": false
       },
       "verdict": "A small-blade slider that still crosscuts a 2x12, thanks to a four-rail slide. It weighs 28.2 pounds with batteries fitted.",
+      "best_for": "A light slider that still crosscuts a 2x12.",
+      "skip_if": "You need a cut guide or don't own two LXT batteries.",
       "pros": [
         "Crosscuts 2x12 at 90° and 2x8 at 45°",
         "28.2 lb with batteries",
@@ -345,6 +357,8 @@
         "kit": false
       },
       "verdict": "A trim saw small enough to set on a stair tread. It runs on one 18V LXT battery and bevels both ways, which is rare at this size.",
+      "best_for": "Trim work on stairs and small stock, with the best rating here.",
+      "skip_if": "You frame; a 6-1/2 in blade is for trim.",
       "pros": [
         "Highest rating on the list at 4.9 stars",
         "14.6 lb with a battery",
@@ -385,6 +399,8 @@
         "kit": false
       },
       "verdict": "The cheapest name-brand slider here, and it crosscuts a 2x10. If you already own RYOBI ONE+ batteries, it does most of what the DEWALT DCS361 does for about $58 less.",
+      "best_for": "RYOBI ONE+ owners who want a slider that cuts a 2x10.",
+      "skip_if": "You bevel to the right.",
       "pros": [
         "Crosscuts a nominal 2x10",
         "RYOBI rates it at up to 800 cuts per charge on a 9.0Ah pack",
@@ -426,8 +442,10 @@
         "kit": false
       },
       "verdict": "RYOBI's basic 7-1/4-inch chop saw, listed under the seller name ONEAND. The lowest price on the list, for occasional trim and 2x4 cuts on ONE+ batteries.",
+      "best_for": "Occasional trim and 2x4 cuts on RYOBI batteries.",
+      "skip_if": "You want published specs or a long warranty.",
       "pros": [
-        "Lowest price here at $155",
+        "Lowest price here at $149.95",
         "19 lb, easy to carry",
         "Works with any RYOBI ONE+ 18V battery",
         "417 ratings at 4.5 stars"
@@ -466,6 +484,8 @@
         "kit": false
       },
       "verdict": "Bosch's brushless 7-1/4-inch slider for its PROFACTOR system. Light at 26 pounds, with a tall fence and centered slide bars.",
+      "best_for": "Bosch PROFACTOR owners who want a light brushless slider.",
+      "skip_if": "You don't own CORE18V high-power packs.",
       "pros": [
         "BITURBO brushless motor",
         "8-1/4\" crosscut and 3-3/4\" nested crown",
@@ -506,7 +526,7 @@
     },
     {
       "q": "Should I buy the kit or the bare tool?",
-      "a": "Buy the bare tool if you already own batteries on that platform. The saw is the expensive part, and a pack you already have works fine. If you're starting from zero, a kit like the DEWALT DCS361M1 adds a 4.0Ah battery and charger for $32 over the bare tool, which is less than buying them separately."
+      "a": "Buy the bare tool if you already own batteries on that platform. The saw is the expensive part, and a pack you already have works fine. If you're starting from zero, a kit like the DEWALT DCS361M1 adds a 4.0Ah battery and charger for about $83 over the bare tool."
     },
     {
       "q": "What blade size do I need?",

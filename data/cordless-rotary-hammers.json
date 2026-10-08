@@ -92,6 +92,8 @@
         "kit": false
       },
       "verdict": "The best-selling cordless rotary hammer on Amazon by a wide margin: a 1\" L-shape hammer with DEWALT's SHOCKS vibration control, three modes including chipping, and a 3-year warranty. Sold and shipped by Amazon.",
+      "best_for": "DEWALT 20V MAX owners who drill concrete often and want low vibration.",
+      "skip_if": "You want a clutch or kickback protection listed.",
       "pros": [
         "SHOCKS active vibration control at the handles",
         "Drill, hammer drill, and chip modes on one dial",
@@ -128,6 +130,8 @@
         "kit": false
       },
       "verdict": "More hitting power than the DCH273B (2.6 J against 2.1 J) in a lighter D-handle body, for about $80 less. It's tied for the highest rating on the page and sold by Amazon.",
+      "best_for": "More hitting power in a lighter body, for less than the DCH273B.",
+      "skip_if": "You want vibration control.",
       "pros": [
         "Highest listed impact energy of the DEWALTs: 2.6 J",
         "5 lb bare tool",
@@ -164,6 +168,8 @@
         "kit": false
       },
       "verdict": "A compact 5/8\" hammer for overhead anchor work: rod hanging, strut, and cable tray. It's light and has SHOCKS vibration control, but it has no chisel mode and isn't meant for big holes.",
+      "best_for": "Overhead anchor work: rod hanging, strut and cable tray.",
+      "skip_if": "You need to chip or drill large holes.",
       "pros": [
         "Lightest DEWALT here at 4.59 lb",
         "SHOCKS vibration control",
@@ -200,13 +206,15 @@
         "kit": false
       },
       "verdict": "Milwaukee's M18 FUEL 1\" hammer with AUTOSTOP, which senses a bind-up and cuts power before the tool can wrench your arm. Buy it if you're on M18 batteries and drill concrete for a living.",
+      "best_for": "M18 pros who drill concrete daily and want bind-up protection.",
+      "skip_if": "You want to buy from Amazon; it's a third-party seller.",
       "pros": [
         "AUTOSTOP bind-up control",
         "Brushless M18 FUEL motor",
         "Runs on any M18 battery"
       ],
       "cons": [
-        "Most expensive bare tool on the list",
+        "One of the two most expensive bare tools here",
         "Thin listing: no impact energy, modes, or warranty term stated",
         "Sold by a third-party seller (Neandertool)"
       ]
@@ -235,6 +243,8 @@
         "kit": false
       },
       "verdict": "The cheaper Milwaukee: a brushless (non-FUEL) 1\" D-handle hammer with the AVS anti-vibration system. The listing says it drills 3/8\" x 2\" holes faster than corded 1\" D-handle hammers, up to 100 per XC5.0 charge.",
+      "best_for": "M18 owners who want low vibration for less than the FUEL model.",
+      "skip_if": "You want published impact energy or a warranty term.",
       "pros": [
         "AVS anti-vibration system",
         "5.3 lb bare tool",
@@ -270,6 +280,8 @@
         "kit": false
       },
       "verdict": "The only name-brand hammer here with both kickback control and an anti-vibration system on the listing. It's a 3/4\" tool, so it suits anchor holes more than large bores. Sold by Amazon.",
+      "best_for": "Bosch 18V owners who want kickback control and anti-vibration.",
+      "skip_if": "You drill holes larger than 3/4 in.",
       "pros": [
         "Kickback control cuts power when the bit binds",
         "Anti-vibration system",
@@ -305,6 +317,8 @@
         "kit": false
       },
       "verdict": "A sub-compact 10-3/4\" hammer for overhead and tight-space anchor work on Makita batteries. It's the smallest tool on the list, and the least powerful.",
+      "best_for": "Overhead anchor work in tight spaces on Makita LXT.",
+      "skip_if": "You need power; it's the weakest here.",
       "pros": [
         "4.6 lb with a battery installed",
         "Vibration-absorbing handle moves independently of the motor",
@@ -340,6 +354,8 @@
         "kit": true
       },
       "verdict": "A complete kit for about $120: 2.5 J brushless hammer, two 4.0Ah batteries, charger, three bits, two chisels, and a case. A good pick for a homeowner who doesn't already own a battery platform.",
+      "best_for": "Homeowners without a platform who want a complete kit.",
+      "skip_if": "You want batteries with a wide range of other tools.",
       "pros": [
         "Ready to use: two batteries, charger, bits, chisels, and case",
         "Safety clutch",
@@ -375,9 +391,11 @@
         "safety_clutch": false,
         "kit": true
       },
-      "verdict": "The cheapest way to own a real cordless SDS-Plus hammer: a brushless 2.1 J tool with a 4.0Ah battery, charger, and four bits for $80. Fine for a weekend of anchor holes.",
+      "verdict": "The cheapest way to own a real cordless SDS-Plus hammer: a brushless 2.1 J tool with a 4.0Ah battery, charger, and four bits for about $64. Fine for a weekend of anchor holes.",
+      "best_for": "A weekend of anchor holes with a complete kit for under $70.",
+      "skip_if": "You need two batteries or a clutch.",
       "pros": [
-        "Full kit for $80: battery, charger, and 1/4\" to 1/2\" bits",
+        "Full kit for about $64: battery, charger, and 1/4\" to 1/2\" bits",
         "2.1 J, the same as the DCH273B",
         "Four modes including chisel",
         "Anti-vibration side handle and vibration-reduction mechanism"
@@ -412,11 +430,13 @@
         "kit": false
       },
       "verdict": "A bare tool that runs on DEWALT 20V MAX batteries, for DEWALT owners who drill concrete a few times a year and don't want to pay $180 for the yellow one.",
+      "best_for": "DEWALT battery owners who drill concrete a few times a year.",
+      "skip_if": "You want a DEWALT warranty; it's a third-party tool.",
       "pros": [
         "Runs on DEWALT 20V MAX batteries",
         "Safety clutch and vibration buffer",
         "Five SDS-Plus bits and a carry bag included",
-        "Cheapest tool on the list"
+        "Cheapest bare tool on the list"
       ],
       "cons": [
         "No battery or charger",

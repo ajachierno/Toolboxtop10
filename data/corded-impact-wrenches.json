@@ -87,6 +87,8 @@
         "forward_reverse": true
       },
       "verdict": "The value pick: a genuine 7.5-amp corded impact wrench for about $43, rated for 450 ft-lbs, with 1,200 reviews behind it. It plugs into the wall and breaks loose lug nuts for a third of the CRAFTSMAN's price.",
+      "best_for": "Breaking lug nuts loose at home for about $43.",
+      "skip_if": "You want a brand-name warranty behind it.",
       "pros": [
         "Full 7.5-amp / 800W motor for about $43",
         "450 ft-lbs rated, 3,400 rpm",
@@ -120,6 +122,8 @@
         "forward_reverse": true
       },
       "verdict": "The best corded impact wrench you can buy new right now. 450 ft-lbs from a wall outlet, a hog-ring anvil, a variable-speed trigger, and 715 reviews at 4.5 stars. It costs more than the off-brand 7.5-amp wrenches, and the brand and track record are what you're paying for.",
+      "best_for": "Garage use where you want 450 ft-lbs and a CRAFTSMAN warranty.",
+      "skip_if": "You work overhead a lot; it weighs 8.7 lb.",
       "pros": [
         "450 ft-lbs of breakaway torque from a wall outlet",
         "715 reviews at 4.5 stars, CRAFTSMAN warranty",
@@ -154,6 +158,8 @@
         "forward_reverse": true
       },
       "verdict": "A roadside impact wrench that runs off your car's 12V socket — perfect for the trunk when you get a flat far from an outlet. Not shop-grade power, but 1,300 reviews say it does the tire-change job.",
+      "best_for": "Keeping in the trunk for flat tires far from an outlet.",
+      "skip_if": "You need to break rusted or overtightened nuts.",
       "pros": [
         "Runs off a 12V car socket — works roadside",
         "1,300 reviews, made for tire changes",
@@ -187,6 +193,8 @@
         "forward_reverse": true
       },
       "verdict": "Another 12V roadside wrench, with a bold 400 N·m / 300 ft-lb claim. Treat that number with skepticism — a 12V socket can't feed that in the real world — but as a spare-tire tool it's fine.",
+      "best_for": "A cheap spare-tire tool that runs off your car's 12V socket.",
+      "skip_if": "You believe the 400 N·m claim; a 12V socket can't deliver it.",
       "pros": [
         "Cheap 12V trunk tool",
         "Includes sockets for lug nuts",
@@ -220,6 +228,8 @@
         "forward_reverse": true
       },
       "verdict": "WEN's value formula applied to an AC impact wrench — a real 7.5-amp motor with a hog-ring anvil for around $50. A sensible budget alternative to the Eastvolt from a known value brand.",
+      "best_for": "A budget AC wrench with a hog-ring anvil from a known value brand.",
+      "skip_if": "You want a long review history; it has few reviews so far.",
       "pros": [
         "7.5-amp AC motor near $50",
         "Hog-ring anvil, forward/reverse",
@@ -253,6 +263,8 @@
         "forward_reverse": true
       },
       "verdict": "From K Tool International, a real automotive tool brand. A straightforward corded 1/2-inch impact wrench at the low end of the price range — newer to Amazon, but a legitimate name in the trade.",
+      "best_for": "Buyers who want an automotive-tool brand at a low price.",
+      "skip_if": "You want proof from lots of reviews; it has 5.",
       "pros": [
         "Established automotive-tool brand",
         "Low price for an AC impact wrench",
@@ -269,7 +281,7 @@
       "brand": "DEKOPRO",
       "model": "4A",
       "image": "https://m.media-amazon.com/images/I/614kRWqJJJL._AC_SX425_.jpg",
-      "price": 411.1111,
+      "price": 49.99,
       "rating": 4.2,
       "reviews_count": 11,
       "bought": "50+/mo",
@@ -286,6 +298,8 @@
         "forward_reverse": true
       },
       "verdict": "A compact, lighter-duty corded impact wrench from budget brand DEKOPRO. The 4-amp motor is modest, but for light automotive and household bolts at a low price it fills a gap.",
+      "best_for": "Light automotive and household bolts with a compact wrench.",
+      "skip_if": "You face stuck bolts; 4 amps is light duty.",
       "pros": [
         "Compact and light for a corded wrench",
         "Low price, forward/reverse",
@@ -319,6 +333,8 @@
         "forward_reverse": true
       },
       "verdict": "The strongest motor on the list: 8.5 amps, 400 ft-lbs of breakaway torque, and a cast-aluminum gear housing, for well under the CRAFTSMAN's price. A solid garage wrench if you want more motor than the budget picks.",
+      "best_for": "The most motor here (8.5 amps) for less than the CRAFTSMAN.",
+      "skip_if": "You want something light; at 8.8 lb it's the heaviest here.",
       "pros": [
         "8.5-amp motor, the most on this list",
         "400 ft-lbs breakaway, 320 ft-lbs tightening",
@@ -352,6 +368,8 @@
         "forward_reverse": true
       },
       "verdict": "A well-reviewed 7.5-amp wrench with a metal gearbox and a friction-ring anvil, 686 reviews at 4.5 stars. Its 240 ft-lbs rating is lower than the 400-450 ft-lb wrenches here, so it suits normal lug nuts better than seized suspension bolts.",
+      "best_for": "Normal lug nuts with a well-reviewed metal-gearbox wrench.",
+      "skip_if": "You face seized suspension bolts; it's rated 240 ft-lbs.",
       "pros": [
         "686 reviews at 4.5 stars",
         "Metal gearbox, friction-ring anvil",
@@ -385,6 +403,8 @@
         "forward_reverse": false
       },
       "verdict": "A roadside 12V wrench that runs off the cigarette lighter or clips straight to the car battery. It comes in a hard case with a work light, two lug-nut sockets and a spare fuse, so it can live in the trunk for flat-tire days.",
+      "best_for": "A trunk kit with case, light and sockets that clips to the car battery.",
+      "skip_if": "You want shop power; 12V is light duty.",
       "pros": [
         "Cigarette-lighter cable and battery clamps both included",
         "Hard case, LED work light, two reversible lug-nut sockets",

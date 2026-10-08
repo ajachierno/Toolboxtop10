@@ -61,6 +61,8 @@
         "side_puller": false
       },
       "verdict": "The one to own. Estwing's 16 oz rip hammer is forged from a single piece of American steel, so the head can never work loose or fly off, and the patented shock-reduction grip takes the sting out of every strike. It's the hammer most carpenters have carried for decades.",
+      "best_for": "The one hammer most people should own for life.",
+      "skip_if": "You want a magnetic nail starter.",
       "pros": [
         "One-piece forged steel — head can't loosen or separate",
         "Patented shock-reduction grip cuts vibration on missed and hard hits",
@@ -97,6 +99,8 @@
         "side_puller": false
       },
       "verdict": "The framer's choice. A 22 oz steel-handled framing hammer with a magnetic nail starter and a milled (waffle) face that bites the nail head so it won't skate off. Built for driving framing nails fast, not for finish work.",
+      "best_for": "Framing and demo, with a magnetic starter for one-handed nailing.",
+      "skip_if": "You do trim or cabinetry; the milled face leaves marks.",
       "pros": [
         "Magnetic nail starter lets you set and drive one-handed",
         "Milled face grips nail heads and resists glancing blows",
@@ -134,6 +138,8 @@
         "side_puller": false
       },
       "verdict": "The highest-rated hammer here, at 4.9 stars. Same one-piece forged steel and shock-reduction grip as the rip model, but with a curved claw that gives more leverage for pulling bent nails. A buy-it-once tool with a smooth face safe for finish work.",
+      "best_for": "Pulling nails and finish work with a buy-it-once hammer.",
+      "skip_if": "You pry and demo; a rip claw is better for that.",
       "pros": [
         "Curved claw pulls nails with more leverage than a straight claw",
         "One-piece forged steel — nothing to loosen or break",
@@ -170,6 +176,8 @@
         "side_puller": false
       },
       "verdict": "The magnetic-start all-rounder. A 16 oz steel hammer with the same magnetic nail starter and shock-absorbing grip as the framing model, but at a general-purpose weight and with a smooth face that works for both rough and finish nailing.",
+      "best_for": "An all-round 16 oz with a magnetic nail starter.",
+      "skip_if": "You want the most leverage for pulling nails.",
       "pros": [
         "Magnetic nail starter for one-handed setting",
         "Smooth face suits a wider range of jobs than a milled face",
@@ -206,6 +214,8 @@
         "side_puller": true
       },
       "verdict": "The most feature-loaded hammer on the list for the money. One-piece forged steel, a magnetic nail starter, a shock-absorbing anti-slip grip, and a side nail puller notch — everything the pricier framing hammers have, at a mid-list price.",
+      "best_for": "Framing features at a mid-list price: magnetic starter and side puller.",
+      "skip_if": "You do finish work; the milled face marks wood.",
       "pros": [
         "One-piece forged construction — head can't come loose",
         "Magnetic nail starter plus a side puller for stubborn nails",
@@ -243,6 +253,8 @@
         "side_puller": false
       },
       "verdict": "The value pick most people should buy. A 16 oz fiberglass general-purpose hammer at around twelve dollars, with 4.8 stars across thousands of reviews. The fiberglass handle absorbs more shock than bare steel and won't rot like wood. No frills, just a solid everyday hammer.",
+      "best_for": "Most households: a quality 16 oz hammer for about $12.",
+      "skip_if": "You want a one-piece hammer that can never loosen.",
       "pros": [
         "Cheapest quality 16 oz on the list",
         "Fiberglass handle dampens shock and shrugs off weather",
@@ -279,6 +291,8 @@
         "side_puller": false
       },
       "verdict": "The other budget default. Craftsman's 16 oz fiberglass hammer trades blow-for-blow with the Irwin — same weight, same money, same 4.8 stars — and carries a name a lot of buyers already trust. Pick whichever is cheaper the day you buy.",
+      "best_for": "A budget 16 oz from a name you trust.",
+      "skip_if": "You'd pay the same for the Irwin; buy whichever is cheaper today.",
       "pros": [
         "Trusted Craftsman name at a budget price",
         "Fiberglass handle absorbs shock and resists weather",
@@ -315,6 +329,8 @@
         "side_puller": false
       },
       "verdict": "The trade-grade fiberglass option. Klein's 18 oz straight-claw hammer pairs a shock-absorbing fiberglass handle with the brand's electrician-grade build quality, plus a tether hole for working at height. A middle weight between a 16 and a 20.",
+      "best_for": "Work at height, with a tether hole and a shock-absorbing grip.",
+      "skip_if": "You're on a budget; it's pricey for a fiberglass hammer.",
       "pros": [
         "Shock-absorbing non-slip fiberglass grip",
         "18 oz splits the difference between control and driving power",
@@ -351,6 +367,8 @@
         "side_puller": false
       },
       "verdict": "The best small hammer, and the best-seller of the bunch by review count. At 8 oz it's built for hanging pictures, tacking trim, and drawer-kit jobs — not framing. The magnetic head starts small nails and brads so you don't hit your fingers.",
+      "best_for": "Hanging pictures, tacking trim and small nails.",
+      "skip_if": "You drive framing nails; 8 oz is too light.",
       "pros": [
         "Magnetic head starts small nails one-handed",
         "Light 8 oz is easy to control for delicate work",
@@ -387,6 +405,8 @@
         "side_puller": false
       },
       "verdict": "The wood-handle pick. If you like the feel and shock damping of a traditional hardwood handle, this 16 oz forged-steel head on solid oak is an affordable classic. Wood absorbs vibration well and is cheap to replace if it ever breaks.",
+      "best_for": "People who like the feel of a traditional wood handle.",
+      "skip_if": "You want a head that can never loosen.",
       "pros": [
         "Solid oak handle damps vibration naturally",
         "Traditional feel and balance many carpenters prefer",
@@ -429,19 +449,19 @@
   "avoid": [
     {
       "asin": "B0H5VNY7XP",
-      "name": "Adjustable Claw Hammer, 52 oz, 45# Carbon Steel Forged, Magnetic",
+      "name": "Adjustable Claw Hammer, 32 oz, 45# Carbon Steel Forged, Magnetic",
       "brand": "No-name",
-      "model": "52 oz Adjustable",
+      "model": "32 oz Adjustable",
       "image": "https://m.media-amazon.com/images/I/71h4SQEenwL._AC_SX522_.jpg",
       "price": 28.49,
       "rating": 4.8,
       "reviews_count": 5,
       "flag": "Wrong weight, gimmick claw",
-      "verdict": "The one to skip. A 52 oz head is the wrong tool for driving nails, and the 'adjustable' rotating claw adds a moving joint to a tool that should be one solid piece.",
+      "verdict": "The one to skip. A 32 oz head is the wrong tool for driving nails, and the 'adjustable' rotating claw adds a moving joint to a tool that should be one solid piece.",
       "reasons": [
-        "At 52 oz the head is roughly double a standard 16 oz hammer and heavier than even a 22–25 oz framing hammer. That much mass fatigues your wrist and elbow fast and overdrives nails — it's a demolition weight sold as a general claw hammer.",
+        "At 32 oz the head is roughly double a standard 16 oz hammer and heavier than even a 22–25 oz framing hammer. That much mass fatigues your wrist and elbow fast and overdrives nails — it's a demolition weight sold as a general claw hammer.",
         "The 'adjustable' rotating claw is a gimmick. It introduces a pivot and moving parts exactly where a hammer should be a single rigid piece — a built-in failure point under the shock of hard strikes.",
-        "It's an unbranded marketplace listing with no trade reputation, service record, or warranty behind it — for the same ~$50 you can buy a one-piece forged Estwing or a fully featured Jorgensen from our list.",
+        "It's an unbranded marketplace listing with no trade reputation, service record, or warranty behind it — for the same ~$30 you can buy a one-piece forged Estwing or a fully featured Jorgensen from our list.",
         "For real nail-pulling leverage a proper cat's-paw or pry bar does the job better and cheaper than a swiveling claw bolted onto an oversized head."
       ]
     }

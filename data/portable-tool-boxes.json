@@ -80,6 +80,8 @@
       "specs": { "type": "Hand box", "size": "13 in", "material": "Plastic, metal front latch", "capacity": "16 lbs", "organizers": "Removable tray", "weight": null },
       "features": { "stackable": false, "lock": true, "metal_latches": true, "water_resistant": false, "removable_tray": true },
       "verdict": "The smaller sibling of the 16-inch CRAFTSMAN on this page: 12.5 inches long, with the same metal front latch, padlock eye and lift-out tray. Sized for a car trunk or a kitchen-drawer tool kit.",
+      "best_for": "A car-trunk or kitchen-drawer tool kit for about $12.",
+      "skip_if": "You carry a full-size hammer; it's too short.",
       "pros": ["About $12 with a metal latch and padlock eye", "Lift-out tray for small hand tools", "Over 2,000 sold last month, limited lifetime warranty"],
       "cons": ["16 lb load limit", "Listed as water repellent, not water resistant", "Too short for a hammer longer than about 12 inches"]
     },
@@ -92,6 +94,8 @@
       "specs": { "type": "Hand box", "size": "16 in", "material": "Plastic, metal front latch", "capacity": null, "organizers": "Removable tray", "weight": null },
       "features": { "stackable": false, "lock": true, "metal_latches": true, "water_resistant": false, "removable_tray": true },
       "verdict": "A basic 16-inch box with a metal front latch, a padlock eye and a lift-out tray, from a brand you can find in any hardware store. It's the best-selling box in this search, with more than 4,000 sold last month.",
+      "best_for": "A basic lockable hand box with a lift-out tray for under $20.",
+      "skip_if": "You want a box that stacks into a system or keeps out water.",
       "pros": ["Under $20 with a metal latch and padlock eye", "Lift-out tray for small hand tools", "2,840 reviews at 4.5 stars"],
       "cons": ["Listed as not water resistant", "Doesn't stack or lock into a modular system"]
     },
@@ -104,6 +108,8 @@
       "specs": { "type": "Hand box", "size": "28 in", "material": "Structural foam", "capacity": "10 lbs (as listed)", "organizers": null, "weight": "10.1 lb" },
       "features": { "stackable": false, "lock": false, "metal_latches": false, "water_resistant": true, "removable_tray": false },
       "verdict": "The long box on this list: 28 inches, so a level, a handsaw or a pry bar fits flat. Structural foam walls and a water-resistant rating. Amazon's listing has no feature bullets, so we can't confirm the latch or tray details.",
+      "best_for": "Long tools like levels and handsaws that need 28 inches.",
+      "skip_if": "You load it heavy; the listing gives a 10 lb limit.",
       "pros": ["28-inch length fits long hand tools", "Rated water resistant", "4.7 stars across 802 reviews"],
       "cons": ["Listing gives a 10 lb maximum load, low for a box this size", "No feature details published on the listing"]
     },
@@ -116,6 +122,8 @@
       "specs": { "type": "Stackable drawer unit", "size": "16.7 in", "material": null, "capacity": "15 lbs (20 lbs max listed)", "organizers": "1 deep drawer, removable covered cups", "weight": null },
       "features": { "stackable": true, "lock": false, "metal_latches": true, "water_resistant": false, "removable_tray": false },
       "verdict": "One deep drawer on ball-bearing slides, with removable covered cups for bits and fasteners, in a unit that latches into the TSTAK stack. Pick this over the 2-drawer DWST17804 if your parts are taller than a shallow drawer allows.",
+      "best_for": "Taller parts and bits in one deep ball-bearing drawer that stacks with TSTAK.",
+      "skip_if": "You want two shallow drawers; see the DWST17804.",
       "pros": ["Deep drawer on ball-bearing slides", "Removable covered cups keep small parts from mixing", "4.8 stars across 2,992 reviews, metal side latches"],
       "cons": ["Listing gives 15 lbs capacity and a 20 lb maximum", "Listed as not water resistant"]
     },
@@ -128,6 +136,8 @@
       "specs": { "type": "Stackable drawer unit", "size": "17.3 in", "material": null, "capacity": "16.5 lbs", "organizers": "2 drawers, removable dividers", "weight": "9.2 lb" },
       "features": { "stackable": true, "lock": false, "metal_latches": false, "water_resistant": false, "removable_tray": false },
       "verdict": "Two ball-bearing drawers with removable dividers for bits, screws and small parts, in a unit that latches onto the rest of the TSTAK line. Over 1,000 sold last month.",
+      "best_for": "Sorting screws and bits in two drawers that stack with TSTAK.",
+      "skip_if": "You need water resistance or more than 16.5 lbs of load.",
       "pros": ["Ball-bearing drawer slides", "Stacks and latches with other TSTAK boxes", "4,101 reviews at 4.7 stars, limited lifetime warranty"],
       "cons": ["16.5 lb load limit", "Listed as not water resistant"]
     },
@@ -140,6 +150,8 @@
       "specs": { "type": "Stackable case", "size": "17.3 in", "material": null, "capacity": "10 kg (22 lbs)", "organizers": "Fixed dividers", "weight": null },
       "features": { "stackable": true, "lock": false, "metal_latches": true, "water_resistant": false, "removable_tray": false },
       "verdict": "A 13-inch-tall TSTAK case with fixed dividers sized for drills and bits, and a long handle across the top. Other TSTAK units latch on underneath it, so it rides at the top of a stack.",
+      "best_for": "Carrying a compact drill and bits at the top of a TSTAK stack.",
+      "skip_if": "You want removable dividers.",
       "pros": ["Tall enough for a compact drill or impact driver", "Rust-resistant metal latches", "Other TSTAK units latch on underneath"],
       "cons": ["Fixed dividers, not removable", "The long top handle means nothing stacks on top of it", "Listed as water repellent, not water resistant"]
     },
@@ -169,6 +181,8 @@
         "removable_tray": true
       },
       "verdict": "The deep TSTAK box. A tall single-latch case with a lift-out tote tray that stacks with the rest of the TSTAK line — great for a full hand-tool loadout.",
+      "best_for": "A deep, stackable box for a full hand-tool loadout.",
+      "skip_if": "You need a lock; it has a single latch and no lock point.",
       "pros": [
         "Deep bin for bulky tools",
         "Removable tote tray on top",
@@ -189,7 +203,9 @@
       "price": 13.39, "rating": 4.7, "reviews_count": 3532, "bought": "500+/mo",
       "specs": { "type": "Hand box", "size": "16 in", "material": "Plastic", "capacity": "5 kg (11 lbs)", "organizers": "Lift-out tray, 2 removable organizers", "weight": "3 lb" },
       "features": { "stackable": false, "lock": false, "metal_latches": false, "water_resistant": false, "removable_tray": true },
-      "verdict": "The cheapest box here and one of the best rated: a 3 lb, 16-inch plastic box with a lift-out tray and two small removable organizers. Fine for a kitchen-drawer tool kit.",
+      "verdict": "One of the cheapest boxes here and one of the best rated: a 3 lb, 16-inch plastic box with a lift-out tray and two small removable organizers. Fine for a kitchen-drawer tool kit.",
+      "best_for": "A cheap, light box for a basic household tool kit.",
+      "skip_if": "You carry heavy tools; it's rated for 11 lbs.",
       "pros": ["About $13", "Lift-out tray plus 2 removable organizers", "3,532 reviews at 4.7 stars"],
       "cons": ["11 lb load limit", "Plastic latches, no lock point listed"]
     },
@@ -202,6 +218,8 @@
       "specs": { "type": "Mini drawer box", "size": "8.6 in", "material": "Q235 steel", "capacity": "2.2 lbs per drawer", "organizers": "5 drawers, PVC liners", "weight": "4.5 lb" },
       "features": { "stackable": false, "lock": false, "metal_latches": false, "water_resistant": false, "removable_tray": false },
       "verdict": "A small powder-coated steel chest with five lined drawers, 8.6 inches wide. It suits precision screwdrivers, bits and hobby parts on a bench or desk, not full-size hand tools.",
+      "best_for": "Precision screwdrivers, bits and hobby parts on a bench or desk.",
+      "skip_if": "You want to store full-size hand tools.",
       "pros": ["Steel body with lined drawers", "Five drawers keep small parts sorted", "Non-slip feet for bench use"],
       "cons": ["Drawers are 1 inch deep (bottom drawer 1.7 in) and rated for 2.2 lbs each", "No ball-bearing slides", "Magnetic closure only, no latch or lock"]
     },
@@ -214,6 +232,8 @@
       "specs": { "type": "Stackable drawer unit", "size": "22.2 in", "material": "Impact-resistant poly", "capacity": "23 kg (50 lbs)", "organizers": "2 drawers", "weight": "20.1 lb" },
       "features": { "stackable": true, "lock": false, "metal_latches": false, "water_resistant": true, "removable_tray": false },
       "verdict": "Two full-width drawers in a PACKOUT unit that locks onto the rest of the Milwaukee system. The pick if you're already on PACKOUT and want drawers on the jobsite.",
+      "best_for": "Milwaukee PACKOUT owners who want drawers on the jobsite.",
+      "skip_if": "You aren't on PACKOUT; it's the priciest box here.",
       "pros": ["Locks into the Milwaukee PACKOUT system", "Two drawers, 50 lb rated load", "4.8 stars, 300+ sold last month"],
       "cons": ["Most expensive box here at $168.29", "20.1 lbs empty"]
     }

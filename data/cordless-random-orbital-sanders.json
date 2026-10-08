@@ -32,6 +32,8 @@
       "specs": { "voltage": "20V", "pad": "5\"", "opm": "8,000–12,000 OPM", "speed": "Variable", "dust": "Dust bag + DWV010/012 dust collector port", "weight": null },
       "features": { "brushless": true, "variable_speed": true, "kit": true, "vac_port": true },
       "verdict": "The most complete package on this list. It's the same brushless DCW210B tool below, but sold with a 5.0Ah battery and charger so it's ready to sand out of the box. The variable-speed dial runs 8,000 to 12,000 OPM, and the sander attaches directly to a DEWALT dust collector or the included locking dust bag.",
+      "best_for": "Starting fresh and wanting a brushless sander with a big 5.0Ah battery.",
+      "skip_if": "You already own DEWALT 20V batteries; the bare DCW210B saves over $100.",
       "pros": ["Ships with a 5.0Ah battery and charger, not just the bare tool", "Brushless motor with an 8,000–12,000 OPM variable-speed dial", "Attaches directly to DWV010/012 dust collectors, not just a bag"],
       "cons": ["The most expensive tool on this list by a wide margin", "Overkill if you already own a DEWALT 20V battery"]
     },
@@ -44,6 +46,8 @@
       "specs": { "voltage": "20V", "pad": "5\"", "opm": "7,000–11,000 RPM", "speed": "6-speed variable", "dust": "Dust collection bag (8 vacuum holes)", "weight": null },
       "features": { "brushless": false, "variable_speed": true, "kit": true, "vac_port": false },
       "verdict": "The budget pick, and the only kit here under $50. It comes with a 20V 2.0Ah battery, a charger, and 30 sandpapers across three grits, so there's nothing else to buy. Six speed settings from 7,000 to 11,000 RPM cover most light sanding jobs around the house.",
+      "best_for": "A complete cordless sanding kit with 30 sandpapers for under $50.",
+      "skip_if": "You want to hook up a shop vac.",
       "pros": ["Only full kit (battery + charger) under $50", "6 variable speeds from 7,000 to 11,000 RPM", "Ships with 30 sandpapers across 3 grits"],
       "cons": ["Brushed motor, not brushless", "Dust bag only — no port for a shop vac hose"]
     },
@@ -56,6 +60,8 @@
       "specs": { "voltage": "20V", "pad": "5\"", "opm": "8,000–12,000 OPM", "speed": "Variable", "dust": "Dust bag + DWV010/012 dust collector port", "weight": null },
       "features": { "brushless": true, "variable_speed": true, "kit": false, "vac_port": true },
       "verdict": "The best-selling cordless sander on Amazon by a wide margin — nearly 14,000 reviews at 4.7 stars. It's the bare-tool version of the kit above: same brushless motor, same 8,000–12,000 OPM dial, same dust-sealed switch. The obvious buy if you already own a DEWALT 20V battery.",
+      "best_for": "DEWALT 20V MAX owners: the best-selling cordless sander.",
+      "skip_if": "You need a battery; buying one brings it close to the kit's price.",
       "pros": ["13,953 reviews at 4.7 stars, the most-reviewed sander in this category", "Brushless motor with variable-speed control", "Low-profile design gets close to the work surface"],
       "cons": ["Tool only — battery and charger sold separately", "Costs almost as much as the full kit once you add a battery"]
     },
@@ -68,6 +74,8 @@
       "specs": { "voltage": "18V", "pad": "5\"", "opm": "7,000–12,000 OPM", "speed": "Variable", "dust": "Dust bag", "weight": null },
       "features": { "brushless": false, "variable_speed": true, "kit": false, "vac_port": false },
       "verdict": "The pick for anyone already on Milwaukee's M18 platform. A powerful motor and a 7,000–12,000 OPM variable-speed dial let it remove more material per battery charge, with up to 35 minutes of runtime on a 3.0Ah pack.",
+      "best_for": "Milwaukee M18 owners who want fast material removal.",
+      "skip_if": "You need a battery and charger; it's tool only.",
       "pros": ["3,605 reviews at 4.7 stars, 600+ bought last month", "Powerful motor removes material fast for a cordless sander", "Up to 35 minutes of runtime on a 3.0Ah M18 battery"],
       "cons": ["Tool only — no battery, charger, or case included", "Among the pricier bare tools on this list"]
     },
@@ -80,6 +88,8 @@
       "specs": { "voltage": "18V", "pad": "5\"", "opm": "7,000/9,500/11,000 OPM (3-speed)", "speed": "3-speed", "dust": "Dust bag", "weight": null },
       "features": { "brushless": false, "variable_speed": true, "kit": false, "vac_port": false },
       "verdict": "The highest-rated sander on this list at 4.8 stars across 2,843 reviews. Three fixed speed settings (7,000/9,500/11,000 OPM) switch with a one-touch control, a pad brake cuts down free-spin for a cleaner finish, and Makita rates it for up to 40 minutes of runtime per charge.",
+      "best_for": "Makita LXT owners who want a cleaner finish from the pad brake.",
+      "skip_if": "You want a full variable-speed dial; it has 3 fixed speeds.",
       "pros": ["4.8 stars across 2,843 reviews, the best rating on this list", "Pad brake reduces free-spin for a cleaner finish", "Up to 40 minutes of runtime on a single charge"],
       "cons": ["Tool only — battery and charger sold separately", "Three fixed speeds rather than a full variable dial"]
     },
@@ -91,8 +101,10 @@
       "price": 69.00, "rating": 4.7, "reviews_count": 1497, "bought": "400+/mo",
       "specs": { "voltage": "20V", "pad": "5\"", "opm": "12,000 OPM max", "speed": "Single", "dust": "Dust bag + 1-1/4\" vac hose port", "weight": null },
       "features": { "brushless": false, "variable_speed": false, "kit": false, "vac_port": true },
-      "verdict": "The cheapest bare tool from a major brand here, and a fair trade if you don't need a speed dial. A fixed 12,000 OPM, a low-profile body, and a dust-sealed switch cover most sanding jobs, with a port that connects to a 1-1/4\" shop-vac hose.",
-      "pros": ["1,497 reviews at 4.7 stars, 600+ bought last month", "Cheapest name-brand bare tool on this list", "Dust port fits a 1-1/4\" shop-vac hose, not just the bag"],
+      "verdict": "A low-priced bare tool from a major brand, and a fair trade if you don't need a speed dial. A fixed 12,000 OPM, a low-profile body, and a dust-sealed switch cover most sanding jobs, with a port that connects to a 1-1/4\" shop-vac hose.",
+      "best_for": "CRAFTSMAN V20 owners who want a cheap name-brand sander with a vac port.",
+      "skip_if": "You need a speed dial for delicate finishing.",
+      "pros": ["1,497 reviews at 4.7 stars, 600+ bought last month", "Cheaper than the DEWALT, Milwaukee and Makita bare tools", "Dust port fits a 1-1/4\" shop-vac hose, not just the bag"],
       "cons": ["Single speed — no dial for delicate finishing", "Tool only — battery and charger sold separately"]
     },
     {
@@ -104,6 +116,8 @@
       "specs": { "voltage": "18V", "pad": "5\"", "opm": null, "speed": "6-speed variable", "dust": "Dust bag + 1-1/2\"/1-3/4\" vac adaptor", "weight": "2.6 lb" },
       "features": { "brushless": false, "variable_speed": true, "kit": false, "vac_port": true },
       "verdict": "Ties Makita for the highest rating here at 4.8 stars, with the longest warranty on the list — 5 years. Six speed settings plus an electric brake for faster stops, at 2.6 lb it's also the lightest tool in this lineup, and it ships with two sanding pads and a vacuum adaptor.",
+      "best_for": "Long sanding sessions with the lightest tool here and a 5-year warranty.",
+      "skip_if": "You want a long review history.",
       "pros": ["4.8 stars across 145 reviews", "5-year warranty, the longest on this list", "Lightest tool here at 2.6 lb, with an electric brake"],
       "cons": ["Smaller review base than the bigger brands", "Tool only — battery and charger sold separately"]
     },
@@ -116,6 +130,8 @@
       "specs": { "voltage": "20V", "pad": "5\"", "opm": "12,000 OPM", "speed": "Single", "dust": "Dust bag", "weight": null },
       "features": { "brushless": false, "variable_speed": false, "kit": true, "vac_port": false },
       "verdict": "A complete kit — sander, 1.5Ah battery, charger, and two sandpaper sheets — for under $90. A fixed 12,000 OPM and a compact body keep muscle fatigue down on longer jobs, and the battery works across BLACK+DECKER's 20V MAX lineup.",
+      "best_for": "A complete kit whose battery also runs other BLACK+DECKER 20V MAX tools.",
+      "skip_if": "You sand for long stretches; the 1.5Ah battery runs short.",
       "pros": ["2,600 reviews, the second-most of any sander here", "Complete kit with battery and charger included", "Battery is interchangeable with other BLACK+DECKER 20V MAX tools"],
       "cons": ["Single speed, no dial", "Battery life runs short on the included 1.5Ah pack"]
     },
@@ -128,6 +144,8 @@
       "specs": { "voltage": "18V", "pad": "5\"", "opm": null, "speed": "Single", "dust": "Dust bag + 1-1/4\"/1-7/8\" vac port", "weight": null },
       "features": { "brushless": false, "variable_speed": false, "kit": false, "vac_port": true },
       "verdict": "The pick for anyone already invested in RYOBI's ONE+ battery system, which spans hundreds of tools. Multiple grip zones and a rubber-membrane rocker switch keep it comfortable to hold, and the dust port accepts both 1-1/4\" and 1-7/8\" shop-vac hoses.",
+      "best_for": "RYOBI ONE+ owners who want a vac port that takes two hose sizes.",
+      "skip_if": "You need speed control.",
       "pros": ["Fits RYOBI's ONE+ 18V battery system, the largest cordless lineup on the market", "Dust port accepts two common shop-vac hose sizes", "Multiple grip zones for comfort during longer jobs"],
       "cons": ["Tool only — battery and charger sold separately", "Fewer reviews than the other name-brand picks here"]
     },
@@ -140,6 +158,8 @@
       "specs": { "voltage": "20V", "pad": "5\"", "opm": "6,000–12,000 RPM", "speed": "6-speed variable", "dust": "Dust collector canister", "weight": "3.08 lb" },
       "features": { "brushless": true, "variable_speed": true, "kit": true, "vac_port": false },
       "verdict": "The only brushless kit on this list besides the DEWALT — battery, charger, and 15 sandpapers included, with six speeds from 6,000 to 12,000 RPM. A solid option if you want brushless efficiency without committing to a major cordless platform.",
+      "best_for": "A brushless kit under $100 without buying into a big brand.",
+      "skip_if": "You want batteries that run other brand-name tools.",
       "pros": ["Brushless motor in a complete kit under $100", "6 variable speeds from 6,000 to 12,000 RPM", "Ships with 15 sandpapers across 5 grits"],
       "cons": ["Smallest review base of any pick on this list", "Not part of a wider cordless tool platform like the name brands"]
     }
@@ -157,7 +177,7 @@
         "The brand is \"Dew,\" not DeWalt — a near-miss name that lets the listing ride DeWalt-compatibility searches while dodging Amazon's brand-name trademark checks. It's a pattern worth being suspicious of on any tool listing.",
         "It advertises a 19,000 RPM top speed. Every named-brand sander in this category — DEWALT, Milwaukee, Makita, Metabo HPT, CRAFTSMAN — tops out between 11,000 and 12,000 OPM. A 5-inch random-orbit pad spinning 60% faster than the entire category isn't a performance edge; it's an inflated number, and running a pad that fast is more likely to burn a finish and chew through sandpaper than sand better.",
         "The spec sheet lists \"21 volts,\" despite the whole listing being pitched as compatible with 20V Max DeWalt batteries (which run 20V max / 18V nominal). That's an internal inconsistency, the kind that shows up when a spec sheet gets copy-pasted rather than verified against the actual battery platform.",
-        "It's a bare tool with no battery included, but that fact doesn't show up clearly in the title the way it does on legitimate bare-tool listings — a buyer comparing this $43 price to a $50 complete kit above may not realize a compatible battery is still a separate purchase."
+        "It's a bare tool with no battery included, but that fact doesn't show up clearly in the title the way it does on legitimate bare-tool listings — a buyer comparing this $46 price to a $50 complete kit above may not realize a compatible battery is still a separate purchase."
       ]
     }
   ],

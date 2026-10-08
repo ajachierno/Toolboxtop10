@@ -90,7 +90,10 @@ def apply(slug, scrape, today, dry):
             block = sub_field(block, "bought", json.dumps(bought))
         # Copy that quotes the old review count or star rating.
         if reviews is not None and old_reviews != reviews:
-            block = block.replace(f"{old_reviews:,}", f"{reviews:,}")
+            # Whole numbers only, and only in copy: a plain replace of "9" once turned $49.99 into $411.1111.
+            count = re.compile(rf'(?<![\d,.]){re.escape(f"{old_reviews:,}")}(?![\d,.]|\d)')
+            block = re.sub(r'("(?:verdict|pros|cons|reasons)":\s*)(\[[^\]]*\]|"(?:[^"\\]|\\.)*")',
+                           lambda m: m.group(1) + count.sub(f"{reviews:,}", m.group(2)), block)
         if rating is not None and old_rating != rating:
             block = re.sub(rf"\b{re.escape(str(old_rating))}( stars| out of 5| average)", rf"{rating}\1", block)
         if old_price != price:

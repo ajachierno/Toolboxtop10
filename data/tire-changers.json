@@ -86,6 +86,8 @@
         "bead_blaster": false
       },
       "verdict": "The best-rated manual tire changer with a big review count. It breaks the bead, holds the wheel with a locking collar, and handles car, trailer, and mower tires up to 16 inches.",
+      "best_for": "Car, trailer and mower tires up to 16 in, with the best-rated manual stand.",
+      "skip_if": "Your wheels are 17 in or larger.",
       "pros": [
         "4.4 stars across 500+ reviews",
         "Three bead-breaker positions on the tube cover 8 to 16 in. tires",
@@ -121,6 +123,8 @@
         "bead_blaster": false
       },
       "verdict": "The best-selling tire changer on Amazon by volume. It's the same classic stand-and-bar design as the TUFFIOM, with rounded contact points and an X-shaped base you can bolt to the floor.",
+      "best_for": "The best-selling manual stand, bolted to the floor.",
+      "skip_if": "You want the better-rated stand; the TUFFIOM scores higher.",
       "pros": [
         "Most-reviewed and best-selling tire changer we found (500+ bought a month)",
         "Q235B steel with electrostatic powder coat",
@@ -155,6 +159,8 @@
         "bead_blaster": false
       },
       "verdict": "A heavier manual changer with a reinforced rectangular base and a wider size range, down to 4-inch ATV, trailer, and mower rims.",
+      "best_for": "ATV, trailer and mower rims down to 4 in.",
+      "skip_if": "Your wheels are over 16.5 in.",
       "pros": [
         "4 to 16.5 in. range reaches small trailer and lawn-equipment rims",
         "Reinforced rectangular base for a steadier platform",
@@ -187,6 +193,8 @@
         "bead_blaster": false
       },
       "verdict": "A name-brand version of the classic manual changer that ships with the bead breaker, tire iron, and lever bar. Olympia says it handles light-truck flotation tires up to 12.5L16.",
+      "best_for": "A name-brand stand with bead breaker, tire iron and lever bar included.",
+      "skip_if": "You want a well-rated stand; it's the lowest here.",
       "pros": [
         "Bead breaker, tire iron, and lever bar included",
         "Handles flotation tires up to 12.5L16",
@@ -219,6 +227,8 @@
         "bead_blaster": false
       },
       "verdict": "A 62-pound manual changer that works bolted down or free-standing. Good for a farm or garage that handles ATV, trailer, and small car wheels.",
+      "best_for": "A heavy stand for farm or garage use with ATV and trailer wheels.",
+      "skip_if": "Your wheels are 17 in or larger.",
       "pros": [
         "Heavy 61.7 lb steel frame stays put while you break beads",
         "Bolt-down or portable setup",
@@ -251,6 +261,8 @@
         "bead_blaster": false
       },
       "verdict": "A compact machine that takes 10 to 21 inch rims and wheels up to 39 inches, at 110 pounds. It fills the gap between a manual stand and a full shop machine.",
+      "best_for": "17 to 21 in car and truck wheels in a compact 110 lb machine.",
+      "skip_if": "You don't own an air compressor.",
       "pros": [
         "Handles 17 to 21 in. car and truck wheels that manual stands can't",
         "39 in. max wheel diameter covers most light-truck and off-road tires",
@@ -284,6 +296,8 @@
         "bead_blaster": false
       },
       "verdict": "A portable changer with an air-cylinder bead breaker worked by a foot pedal, rated at up to 5,600 lb of bead-breaking force. It handles low-profile tires on rims up to 21 inches.",
+      "best_for": "Low-profile tires up to 21 in with an air-powered bead breaker.",
+      "skip_if": "You don't have a compressor that delivers 120 psi or more.",
       "pros": [
         "Air-powered bead breaker (foot pedal) does the hardest part of the job",
         "12 to 21 in. rims, including low-profile tires",
@@ -317,6 +331,8 @@
         "bead_blaster": false
       },
       "verdict": "A full rim-clamp tire machine for a home garage, with a motorized turntable and a non-marring mount head. Buyers report it handling 20-inch truck wheels and 40-inch crawler tires.",
+      "best_for": "A home tire shop that needs rim clamping and non-marring heads.",
+      "skip_if": "You need a bead blaster; it doesn't have one.",
       "pros": [
         "Outside and inside clamping covers 12 to 24 in. rims",
         "Stainless mount head with a plastic cover, plus a non-marring spade cover for alloy wheels",
@@ -350,6 +366,8 @@
         "bead_blaster": true
       },
       "verdict": "KATOOL's shop machine with everything a home tire shop needs: a bead blaster to seat stubborn tires, an assist arm, and rim protection. It costs about $130 more than the ME-T500.",
+      "best_for": "A home tire shop that mounts stiff, low-profile tires.",
+      "skip_if": "You lack the floor space or a compressor for a 520 lb machine.",
       "pros": [
         "Built-in bead blaster seats stiff sidewalls and low-profile tires",
         "Tool-free switch between outside (12 to 22 in.) and inside (14 to 24 in.) clamping",
@@ -385,6 +403,8 @@
         "bead_blaster": false
       },
       "verdict": "The motorcycle pick. It folds into a carry bag, holds cast, forged, and spoked street-bike wheels at a comfortable angle, and uses a plastic mount head so it won't mark your rims.",
+      "best_for": "Motorcycle owners who change their own tires and want rims protected.",
+      "skip_if": "You need to change car tires.",
       "pros": [
         "Plastic mounting head and a covered tire iron protect rims",
         "Fits 12 to 21 in. wheels, tires up to 250 mm, single- and double-sided swingarms",

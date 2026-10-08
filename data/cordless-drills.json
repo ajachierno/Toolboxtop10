@@ -28,6 +28,8 @@
       "specs": { "voltage": "20V MAX", "chuck": "1/2 in ratcheting", "max_rpm": 1500, "speeds": "2-speed (0-450 / 0-1500 rpm)", "torque": "300 UWO", "clutch": null, "battery": "2 x 1.3Ah Li-ion", "weight": null },
       "features": { "brushless": false, "two_speed": true, "led": false, "dual_battery": true, "kit": true },
       "verdict": "The safe default. Nearly 50,000 reviews at 4.8 stars, two batteries in the box, and enough power for almost any home job.",
+      "best_for": "Most homeowners: a proven drill with two batteries in the box.",
+      "skip_if": "You want brushless runtime or a work light; see the DCD777D1.",
       "pros": ["Most-reviewed drill here by a mile — 49,862 ratings at 4.8 stars", "Two speeds (0-450 / 1500 rpm) cover both driving and drilling", "Ships with two 1.3Ah batteries, so one is always charging", "1/2 in ratcheting chuck grips bits tightly"],
       "cons": ["Brushed motor — less efficient and shorter-lived than brushless", "No built-in LED work light", "1.3Ah packs are small; heavy use means frequent recharges"]
     },
@@ -45,6 +47,8 @@
       "specs": { "voltage": "20V MAX", "chuck": "1/2 in", "max_rpm": 1500, "speeds": "2-speed", "torque": null, "clutch": null, "battery": "2.0Ah Li-ion", "weight": null },
       "features": { "brushless": true, "two_speed": true, "led": true, "dual_battery": false, "kit": true },
       "verdict": "The upgrade pick. Brushless motor, LED, and a bigger 2.0Ah battery on the same DEWALT platform — worth it if you want longer runtime and tool life.",
+      "best_for": "Buyers who want brushless runtime and an LED on DEWALT 20V MAX.",
+      "skip_if": "You want two batteries; this kit ships with one.",
       "pros": ["Brushless motor runs cooler and lasts longer", "Larger 2.0Ah battery plus a built-in LED", "Same 20V MAX battery platform as the rest of DEWALT's line"],
       "cons": ["One battery in the box, where the DCD771 ships with two", "$106 is a 41% markdown from its $179 list price, so check the price before you buy", "Only ~2,400 reviews vs the DCD771's 49K", "Heavier than a compact 12V drill"]
     },
@@ -61,6 +65,8 @@
       "specs": { "voltage": "20V", "chuck": "3/8 in keyless", "max_rpm": 550, "speeds": "1-speed (0-550 rpm)", "torque": "280 in-lbs", "clutch": "15+1", "battery": "20V Li-ion (level display)", "weight": "2.5 lb" },
       "features": { "brushless": false, "two_speed": false, "led": true, "dual_battery": false, "kit": true },
       "verdict": "The value champ. 23,000+ reviews at 4.6 stars for under $50, light in the hand, and it comes ready to work with a 22-piece bit set.",
+      "best_for": "Light jobs at home: furniture, shelves, picture hooks, under $50.",
+      "skip_if": "You drill masonry or need a second speed for faster drilling.",
       "pros": ["23,602 reviews at 4.6 stars — enormous trust for the price", "Only 2.5 lb with a rubber grip and LED light", "15+1 clutch plus a 22-piece bit set, ready out of the box", "Battery has a real-time charge-level display"],
       "cons": ["Single-speed (0-550 rpm) — slower for drilling", "280 in-lbs is light-duty torque", "Only accepts AVID POWER's own batteries", "Not rated for masonry"]
     },
@@ -76,7 +82,9 @@
       "bought": "3K+/mo",
       "specs": { "voltage": "20V", "chuck": "3/8 in keyless", "max_rpm": 1300, "speeds": "2-speed", "torque": "266 in-lbs", "clutch": "25+1", "battery": "1.5Ah Li-ion", "weight": null },
       "features": { "brushless": false, "two_speed": true, "led": true, "dual_battery": false, "kit": true },
-      "verdict": "A lot of drill for $31 — two speeds, a 25+1 clutch, and a 34-piece bit set. Fine for occasional DIY.",
+      "verdict": "A lot of drill for about $27 — two speeds, a 25+1 clutch, and a 34-piece bit set. Fine for occasional DIY.",
+      "best_for": "Occasional DIY on the tightest budget, with a big bit set included.",
+      "skip_if": "You want brand-name support or a battery that fits other tools.",
       "pros": ["Two variable speeds up to 1300 rpm", "266 in-lbs torque with a 25+1 clutch", "LED light plus a 34-piece bit set included", "9,040 reviews"],
       "cons": ["One battery and charger only", "Off-brand warranty and support", "Brushed motor"]
     },
@@ -93,6 +101,8 @@
       "specs": { "voltage": "20V", "chuck": "3/8 in keyless", "max_rpm": 1500, "speeds": "2-speed", "torque": "30 Nm (~266 in-lbs)", "clutch": "21+1", "battery": "2 x Li-ion", "weight": null },
       "features": { "brushless": false, "two_speed": true, "led": true, "dual_battery": true, "kit": true },
       "verdict": "Two batteries in the box for under $40, plus two speeds and an LED. Basic build, but a lot of kit for the money.",
+      "best_for": "Budget buyers who want two batteries so one is always charged.",
+      "skip_if": "You drill tough materials often; it's built for light duty.",
       "pros": ["Ships with two batteries", "Two speeds up to 1500 rpm, 30 Nm, 21+1 clutch", "LED light and 4.5-star rating"],
       "cons": ["Only ~1,800 reviews", "Light-duty for tough materials", "Generic brand support"]
     },
@@ -109,6 +119,8 @@
       "specs": { "voltage": "20V MAX", "chuck": "1/2 in", "max_rpm": 1500, "speeds": "1-speed", "torque": null, "clutch": null, "battery": "1.3Ah Li-ion", "weight": null },
       "features": { "brushless": false, "two_speed": false, "led": true, "dual_battery": false, "kit": true },
       "verdict": "A name-brand middle option on the V20 platform, with an LED and a 1/2 in chuck. Solid, if not exciting.",
+      "best_for": "Starting on CRAFTSMAN V20 with a 1/2 in chuck for larger bits.",
+      "skip_if": "You want two speeds or brushless; it has neither.",
       "pros": ["CRAFTSMAN V20 battery platform", "1/2 in chuck and 1500 rpm", "Built-in LED, 6,033 reviews at 4.7 stars"],
       "cons": ["Single-speed transmission", "Brushed motor", "Comes with one 1.3Ah battery"]
     },
@@ -125,6 +137,8 @@
       "specs": { "voltage": "12V MAX", "chuck": "3/8 in", "max_rpm": 550, "speeds": "1-speed", "torque": null, "clutch": "11-position", "battery": "1.5Ah Li-ion", "weight": "2.18 lb" },
       "features": { "brushless": false, "two_speed": false, "led": true, "dual_battery": false, "kit": false },
       "verdict": "The featherweight. At 2.18 lb it's the easiest to hold overhead or in a cabinet — just keep the jobs light.",
+      "best_for": "Overhead and in-cabinet work where a 2.18 lb drill saves your wrist.",
+      "skip_if": "You drill big holes; 12V and 550 rpm are strictly light duty.",
       "pros": ["Only 2.18 lb — lightest drill on the list", "11-position clutch and an LED", "Trusted BLACK+DECKER name, 7,700 reviews", "Inexpensive"],
       "cons": ["12V / 550 rpm is strictly light-duty", "Small 1.5Ah battery", "No second gear"]
     },
@@ -141,6 +155,8 @@
       "specs": { "voltage": "20V MAX", "chuck": "3/8 in", "max_rpm": 650, "speeds": "1-speed", "torque": null, "clutch": null, "battery": "1.5Ah Li-ion", "weight": null },
       "features": { "brushless": false, "two_speed": false, "led": false, "dual_battery": false, "kit": true },
       "verdict": "Buy it for the 100-piece bit and socket kit as much as the drill. A complete starter set for a first home toolbox.",
+      "best_for": "A first toolbox: drill plus a 100-piece bit and socket set.",
+      "skip_if": "You need drilling power; 650 rpm single speed is slow.",
       "pros": ["100-piece bit and socket set included — instant starter kit", "20V MAX battery platform", "5,634 reviews at 4.6 stars"],
       "cons": ["650 rpm single-speed is low on power", "No LED light", "Kit accessories are budget-grade"]
     },
@@ -156,8 +172,10 @@
       "bought": "4K+/mo",
       "specs": { "voltage": "20V", "chuck": "3/8 in", "max_rpm": 1350, "speeds": "1-speed", "torque": null, "clutch": "18+1", "battery": "1.5Ah Li-ion", "weight": "2.5 lb" },
       "features": { "brushless": false, "two_speed": false, "led": false, "dual_battery": false, "kit": true },
-      "verdict": "The cheapest 20V here, and it sells hard — 4,000+ bought a month. Bare-bones but gets light jobs done.",
-      "pros": ["Lowest-priced 20V drill on the list", "18+1 clutch, 1350 rpm, only 2.5 lb", "7,737 reviews; noted for battery life"],
+      "verdict": "Among the cheapest 20V drills here, and it sells hard — 4,000+ bought a month. Bare-bones but gets light jobs done.",
+      "best_for": "A 20V drill under $30 with an 18+1 clutch.",
+      "skip_if": "You want a work light or a second speed.",
+      "pros": ["Under $30 for a 20V drill", "18+1 clutch, 1350 rpm, only 2.5 lb", "7,737 reviews; noted for battery life"],
       "cons": ["No LED work light", "Single-speed only", "Generic brand and warranty"]
     },
     {
@@ -173,6 +191,8 @@
       "specs": { "voltage": "12V", "chuck": "3/8 in keyless", "max_rpm": 650, "speeds": "1-speed", "torque": "180 in-lbs", "clutch": "21+1", "battery": "1.3Ah Li-ion", "weight": null },
       "features": { "brushless": false, "two_speed": false, "led": true, "dual_battery": false, "kit": true },
       "verdict": "The budget floor. Lowest price on the list, with an LED and a bit set — fine for hanging shelves and flat-pack furniture.",
+      "best_for": "Flat-pack furniture and hanging shelves for under $25.",
+      "skip_if": "You need to drill wood or metal regularly.",
       "pros": ["Cheapest drill here", "3/8 in keyless chuck, 21+1 clutch, LED", "4.5-star rating"],
       "cons": ["12V / 650 rpm — light-duty only", "Only ~1,800 reviews", "Generic support"]
     }
