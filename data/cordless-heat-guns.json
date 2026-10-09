@@ -1,0 +1,504 @@
+{
+  "slug": "cordless-heat-guns",
+  "title": "The 10 Best Cordless Heat Guns",
+  "subtitle": "Battery-powered heat guns ranked from live Amazon data: shrink tubing, vinyl, and quick heat jobs away from an outlet.",
+  "intro": "A cordless heat gun runs on the same battery pack as your drill, which makes it the tool for shrink tubing on a truck, a frozen fitting in a crawlspace, or vinyl trim on a ladder. The best-sellers are mostly bare tools for DEWALT, Milwaukee, RYOBI, CRAFTSMAN, and Makita packs, plus cheaper 350-watt guns built to fit those batteries. We ranked 10 on rating, review volume, and features (adjustable temperature, included nozzles, a work light, and whether a battery comes in the box).",
+  "data_captured": "2026-10-09",
+  "audited": "2026-10-09",
+  "changelog": [
+    {
+      "date": "2026-10-09",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 70,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "variable_temp": 0.3,
+    "nozzles": 0.2,
+    "led_light": 0.15,
+    "kit": 0.35
+  },
+  "reviews_ceiling": 6000,
+  "spec_fields": [
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "temp",
+      "label": "Temperature"
+    },
+    {
+      "key": "airflow",
+      "label": "Airflow"
+    },
+    {
+      "key": "runtime",
+      "label": "Runtime (listed)"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "warranty",
+      "label": "Warranty"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "temp",
+      "label": "Temperature"
+    },
+    {
+      "key": "airflow",
+      "label": "Airflow"
+    },
+    {
+      "key": "variable_temp",
+      "label": "Adjustable Temp",
+      "type": "bool"
+    },
+    {
+      "key": "kit",
+      "label": "Battery incl.",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07RJDLQXH",
+      "name": "DEWALT 20V MAX Heat Gun Kit, Cordless, Up to 990 Degrees, 42 Minutes of Run Time, LED Light, Battery and Charger Included (DCE530P1)",
+      "brand": "DEWALT",
+      "model": "DCE530P1",
+      "image": "https://m.media-amazon.com/images/I/61QSQLRJ3kL._AC_SL1000_.jpg",
+      "price": 158.18,
+      "rating": 4.4,
+      "reviews_count": 717,
+      "bought": "100+/mo",
+      "specs": {
+        "battery": "DEWALT 20V MAX 5.0Ah + charger (included)",
+        "temp": "Up to 990°F",
+        "airflow": "6.7 CFM",
+        "runtime": "Up to 42 min",
+        "weight": "3 lb",
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": false,
+        "nozzles": true,
+        "led_light": true,
+        "kit": true
+      },
+      "verdict": "The DCE530 heat gun with a DEWALT 5.0Ah battery and charger in the box. It's the same gun as the best-selling DCE530B, and this kit is the simplest way to own one if you don't have DEWALT packs yet.",
+      "best_for": "Buyers without a battery platform who want a name-brand gun that works out of the box.",
+      "skip_if": "You already own DEWALT 20V batteries; the bare DCE530B is $91.30.",
+      "pros": [
+        "Ships with a 5.0Ah battery (DCB205) and charger (DCB115)",
+        "Up to 990°F and 6.7 CFM, with up to 42 minutes of runtime per charge",
+        "Flat and hook nozzles included, plus an LED work light",
+        "Lock-on button for long passes and a lock-off trigger"
+      ],
+      "cons": [
+        "One temperature; the listing shows no low setting",
+        "$158.18 is a lot if you only shrink tubing now and then"
+      ]
+    },
+    {
+      "asin": "B07RJDRS6Y",
+      "name": "DEWALT 20V MAX Heat Gun, Cordless, Up to 990 Degrees, 42 Minutes of Run Time, LED Light, Heatgun with Flat and Hook Nozzle Attachments, Tool Only (DCE530B)",
+      "brand": "DEWALT",
+      "model": "DCE530B",
+      "image": "https://m.media-amazon.com/images/I/71TiTiAFXkL._AC_SL1500_.jpg",
+      "price": 91.3,
+      "rating": 4.4,
+      "reviews_count": 6190,
+      "bought": "2K+/mo",
+      "specs": {
+        "battery": "DEWALT 20V MAX (not included)",
+        "temp": "Up to 990°F",
+        "airflow": "6.7 CFM",
+        "runtime": "Up to 42 min",
+        "weight": "1.17 lb",
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": false,
+        "nozzles": true,
+        "led_light": true,
+        "kit": false
+      },
+      "verdict": "The best-selling cordless heat gun on Amazon by a wide margin, with over 6,000 reviews and 2,000+ sold a month. If you run DEWALT 20V batteries, this is the default choice.",
+      "best_for": "DEWALT 20V owners who want the proven, most-reviewed cordless heat gun.",
+      "skip_if": "You need a low setting for delicate plastics; it has one temperature.",
+      "pros": [
+        "Most-reviewed cordless heat gun on Amazon (6,190 ratings, 4.4 stars)",
+        "Up to 990°F and 6.7 CFM",
+        "Light at 1.17 lb before the battery",
+        "Flat and hook nozzles and an LED work light"
+      ],
+      "cons": [
+        "Tool only: battery and charger cost extra",
+        "Single temperature, so take care on thin plastic and vinyl"
+      ]
+    },
+    {
+      "asin": "B077GPG2HS",
+      "name": "Milwaukee Electric Tool 2688-20 Cordless Heat Gun, Red",
+      "brand": "Milwaukee",
+      "model": "2688-20",
+      "image": "https://m.media-amazon.com/images/I/61yQEkX5zUL._AC_SL1206_.jpg",
+      "price": 142.99,
+      "rating": 4.5,
+      "reviews_count": 1330,
+      "bought": "300+/mo",
+      "specs": {
+        "battery": "Milwaukee M18 (not included)",
+        "temp": "Up to 875°F (468°C)",
+        "airflow": null,
+        "runtime": "40+ connections per XC5.0 pack",
+        "weight": "1.7 lb",
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": false,
+        "nozzles": false,
+        "led_light": true,
+        "kit": false
+      },
+      "verdict": "Milwaukee's compact M18 heat gun, built for electricians shrinking tubing on connections. It has the highest rating on this page and reaches working temperature in 7 seconds.",
+      "best_for": "M18 owners, especially electricians doing heat-shrink connections all day.",
+      "skip_if": "You strip paint; it tops out at 875°F and ships without nozzles.",
+      "pros": [
+        "Highest rating on the page (4.5 stars over 1,330 reviews)",
+        "Reaches operating temperature in 7 seconds",
+        "Compact 6.4 in. body for tight panels and junction boxes",
+        "Milwaukee rates it at over 40 heat-shrink connections per XC5.0 battery"
+      ],
+      "cons": [
+        "Tool only, and no nozzles in the box",
+        "875°F max is lower than the DEWALT and Makita guns"
+      ]
+    },
+    {
+      "asin": "B07SGYWXRY",
+      "force_budget": true,
+      "name": "Ryobi ONE+ 18V Cordless Heat Gun (Tool Only)",
+      "brand": "RYOBI",
+      "model": "P3150",
+      "image": "https://m.media-amazon.com/images/I/51X7GVIPMuL._SL1000_.jpg",
+      "price": 68.95,
+      "rating": 4.3,
+      "reviews_count": 1305,
+      "bought": "500+/mo",
+      "specs": {
+        "battery": "RYOBI ONE+ 18V (not included)",
+        "temp": "Up to 875°F",
+        "airflow": null,
+        "runtime": null,
+        "weight": "1.8 lb",
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": false,
+        "nozzles": true,
+        "led_light": false,
+        "kit": false
+      },
+      "verdict": "The cheapest name-brand cordless heat gun on the list, on the biggest homeowner battery platform. For RYOBI owners it's an easy add-on for shrink tubing, thawing, and light paint work.",
+      "best_for": "RYOBI ONE+ owners who want a cordless heat gun for under $70.",
+      "skip_if": "You want a runtime or airflow figure up front; the listing gives neither.",
+      "pros": [
+        "Lowest price of the name-brand guns at $68.95",
+        "Up to 875°F, at operating temperature in under 10 seconds",
+        "Deflector and concentrator nozzles included",
+        "Runs on any RYOBI ONE+ 18V battery"
+      ],
+      "cons": [
+        "Tool only: battery and charger cost extra",
+        "One temperature setting, and no runtime or airflow figure published"
+      ]
+    },
+    {
+      "asin": "B07Y47CKZX",
+      "name": "CRAFTSMAN V20 Cordless Heat Gun, Up to 950 Degrees, Portable Heat Gun, Tool Only (CMCE530B)",
+      "brand": "CRAFTSMAN",
+      "model": "CMCE530B",
+      "image": "https://m.media-amazon.com/images/I/61KCPIzP8YL._AC_SL1500_.jpg",
+      "price": 119.0,
+      "rating": 4.4,
+      "reviews_count": 324,
+      "bought": "50+/mo",
+      "specs": {
+        "battery": "CRAFTSMAN V20 (not included)",
+        "temp": "Up to 950°F",
+        "airflow": null,
+        "runtime": "Up to 15 min",
+        "weight": "1.63 lb",
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": false,
+        "nozzles": true,
+        "led_light": false,
+        "kit": false
+      },
+      "verdict": "CRAFTSMAN's V20 heat gun: 950°F, at temperature in 7 seconds, with two nozzles. It makes sense if you're already on V20 batteries.",
+      "best_for": "CRAFTSMAN V20 owners who want a matching heat gun.",
+      "skip_if": "You need long sessions; the listing quotes up to 15 minutes per charge.",
+      "pros": [
+        "Up to 950°F, at operating temperature in 7 seconds",
+        "Flat spreader and curved deflector nozzles included",
+        "Compact 1.63 lb body"
+      ],
+      "cons": [
+        "Up to 15 minutes of runtime is the shortest listed figure among the name brands",
+        "$119 bare is $27.70 more than the DEWALT DCE530B"
+      ]
+    },
+    {
+      "asin": "B0BVB9XBBM",
+      "name": "LIVOWALNY Cordless Heat Gun Compatible with DEWALT 20V Battery (Tool Only)",
+      "brand": "LIVOWALNY",
+      "model": "SKU070120001",
+      "image": "https://m.media-amazon.com/images/I/71+Uq6+V-QL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.1,
+      "reviews_count": 1049,
+      "bought": "200+/mo",
+      "specs": {
+        "battery": "Fits DEWALT 20V MAX (not included)",
+        "temp": "572°F / 1,022°F",
+        "airflow": "7 CFM",
+        "runtime": "About 12 min per 4.0Ah",
+        "weight": "1.76 lb",
+        "warranty": "2 years"
+      },
+      "features": {
+        "variable_temp": true,
+        "nozzles": true,
+        "led_light": false,
+        "kit": false
+      },
+      "verdict": "A 350-watt, two-setting heat gun that runs on DEWALT 20V packs for less than half the price of the DCE530B. Good for shrink tubing and small jobs; the battery drains fast.",
+      "best_for": "DEWALT battery owners who want a low and high setting for under $40.",
+      "skip_if": "You want long runtime; the seller lists about 6 minutes on a 2.0Ah pack.",
+      "pros": [
+        "Two settings, 572°F and 1,022°F, at 7 CFM",
+        "Five nozzles included, plus overheat shut-off",
+        "2-year warranty on the listing",
+        "$39.99, less than half the DEWALT DCE530B"
+      ],
+      "cons": [
+        "Seller's runtime: about 6 min on 2.0Ah, 12 min on 4.0Ah, 15 min on 5.0Ah",
+        "Not a DEWALT product; it fits the batteries but DEWALT doesn't support it",
+        "One bullet says 1,202°F max while the spec table and settings say 550°C (1,022°F)"
+      ]
+    },
+    {
+      "asin": "B0B2FCXXX7",
+      "premium": true,
+      "name": "Makita XGH02ZK 18V LXT Lithium-Ion Cordless Variable Temperature Heat Gun, Tool Only",
+      "brand": "Makita",
+      "model": "XGH02ZK",
+      "image": "https://m.media-amazon.com/images/I/51NACVw77OL._AC_SL1000_.jpg",
+      "price": 226.99,
+      "rating": 4.3,
+      "reviews_count": 137,
+      "bought": "100+/mo",
+      "specs": {
+        "battery": "Makita 18V LXT (not included)",
+        "temp": "Variable, up to 1,022°F",
+        "airflow": "4.2 / 7.1 CFM",
+        "runtime": "21 min high / 30 min low (6.0Ah)",
+        "weight": null,
+        "warranty": "3 years"
+      },
+      "features": {
+        "variable_temp": true,
+        "nozzles": true,
+        "led_light": false,
+        "kit": false
+      },
+      "verdict": "The only name-brand cordless gun here with variable temperature and two airflow speeds, and it comes with four nozzles in a case. It's the one to buy if you do vinyl, plastics, or paint work on battery power.",
+      "best_for": "Makita LXT owners who need adjustable temperature and airflow on a cordless gun.",
+      "skip_if": "You only shrink tubing; the $91.30 DEWALT does that for far less.",
+      "pros": [
+        "Variable temperature up to 1,022°F, the highest of the name brands",
+        "Two airflow speeds (4.2 / 7.1 CFM)",
+        "Glass protection, wide-slot, reflector, and reduction nozzles plus a tool case",
+        "3-year limited warranty; runtime published for a 6.0Ah pack"
+      ],
+      "cons": [
+        "$226.99 bare, the most expensive gun on the page",
+        "Up to 21 minutes on high even with a 6.0Ah battery"
+      ]
+    },
+    {
+      "asin": "B0C2PTYS6N",
+      "name": "LIVOWALNY Heat Gun Compatible with Milwaukee 18V Battery (Tool Only), LCD Digital Display",
+      "brand": "LIVOWALNY",
+      "model": "SKU070130004",
+      "image": "https://m.media-amazon.com/images/I/71cLJcrygRL._AC_SL1500_.jpg",
+      "price": 44.99,
+      "rating": 4.0,
+      "reviews_count": 1207,
+      "bought": "300+/mo",
+      "specs": {
+        "battery": "Fits Milwaukee M18 (not included)",
+        "temp": "122–1,022°F (LCD)",
+        "airflow": "Up to 9.9 CFM",
+        "runtime": "About 12 min per 4.0Ah",
+        "weight": "1.54 lb",
+        "warranty": "2 years"
+      },
+      "features": {
+        "variable_temp": true,
+        "nozzles": true,
+        "led_light": false,
+        "kit": false
+      },
+      "verdict": "A 350-watt gun for M18 batteries with an LCD that shows temperature and fan speed, adjustable from 122 to 1,022°F. It's the cheap way to get adjustable heat on a Milwaukee pack.",
+      "best_for": "M18 owners who want a temperature readout for vinyl and shrink work.",
+      "skip_if": "You need sustained heat; the seller lists about 12 minutes on a 4.0Ah pack.",
+      "pros": [
+        "Adjustable 122–1,022°F with an LCD readout",
+        "Six fan speeds, up to 9.9 CFM",
+        "Five nozzles and a 2-year warranty",
+        "$44.99, about a third of the Milwaukee 2688-20"
+      ],
+      "cons": [
+        "Short runtime: about 6 min on 2.0Ah, 12 min on 4.0Ah, 15 min on 5.0Ah",
+        "Not a Milwaukee product; it fits M18 packs only"
+      ]
+    },
+    {
+      "asin": "B0BQM2RFD7",
+      "name": "Edtran Cordless Heat Gun Compatible with Makita 18V LXT Battery, 3 Nozzles, 2-Temp Setting Max 932°F (No Battery)",
+      "brand": "Edtran",
+      "model": "MT18VHG",
+      "image": "https://m.media-amazon.com/images/I/618T0pGz5SL._AC_SL1500_.jpg",
+      "price": 34.0,
+      "rating": 4.1,
+      "reviews_count": 296,
+      "bought": "100+/mo",
+      "specs": {
+        "battery": "Fits Makita 18V LXT (not included)",
+        "temp": "662°F / 932°F",
+        "airflow": "200 L/min",
+        "runtime": null,
+        "weight": "1.59 lb",
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": true,
+        "nozzles": true,
+        "led_light": false,
+        "kit": false
+      },
+      "verdict": "A two-setting, 350-watt heat gun for Makita LXT batteries at $34, less than a sixth of the price of Makita's own XGH02ZK. Fine for shrink tubing and resin work.",
+      "best_for": "Makita LXT owners who need an inexpensive gun for shrink tubing and crafts.",
+      "skip_if": "You strip paint; it tops out at 932°F and the listing gives no runtime.",
+      "pros": [
+        "Cheapest gun on the list at $34",
+        "Two heat settings (662°F and 932°F) plus a cool-air mode",
+        "Reflector and two concentrator nozzles included",
+        "Lock-off button and overheat protection"
+      ],
+      "cons": [
+        "932°F max is the lowest of the battery-platform guns here",
+        "No runtime or warranty term on the listing"
+      ]
+    },
+    {
+      "asin": "B0F2ZBJKXZ",
+      "name": "FULLYEA 21V Cordless Heat Gun, 572°F-1022°F, with 5 Nozzles & Portable Case, 2x4.0Ah Batteries & Charger",
+      "brand": "FULLYEA",
+      "model": "FHG101-011",
+      "image": "https://m.media-amazon.com/images/I/71keeoLxGJL._AC_SL1500_.jpg",
+      "price": 58.99,
+      "rating": 3.9,
+      "reviews_count": 129,
+      "bought": null,
+      "specs": {
+        "battery": "FULLYEA 21V, 2 x 4.0Ah + charger (included)",
+        "temp": "572°F / 1,022°F",
+        "airflow": null,
+        "runtime": "About 20 min high / 40 min low (both packs)",
+        "weight": null,
+        "warranty": null
+      },
+      "features": {
+        "variable_temp": true,
+        "nozzles": true,
+        "led_light": false,
+        "kit": true
+      },
+      "verdict": "A complete kit for $58.99: gun, two 4.0Ah batteries, charger, five nozzles, and a case. It's for someone who owns no battery tools and wants a cordless heat gun for occasional jobs.",
+      "best_for": "Occasional users with no battery platform who want everything in one box under $60.",
+      "skip_if": "You'll use it for work; FULLYEA says it isn't intended for commercial use.",
+      "pros": [
+        "Two 4.0Ah batteries, a charger, and a case included",
+        "Two settings, 572°F and 1,022°F",
+        "Five nozzles in the box"
+      ],
+      "cons": [
+        "Lowest rating among the picks at 3.9 stars",
+        "Listing says it's for small jobs, not commercial use",
+        "The batteries don't fit a major tool brand's platform"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B08L8D8RHB",
+      "name": "Performance Tool W2082 Compact Rechargeable Cordless Heat Gun, 600 Degree Max Output",
+      "brand": "Performance Tool",
+      "model": "W2082",
+      "image": "https://m.media-amazon.com/images/I/61ZTkfTfI8L._AC_SL1500_.jpg",
+      "price": 28.99,
+      "rating": 3.5,
+      "reviews_count": 1061,
+      "flag": "600°F max, sealed 3.6 V battery",
+      "verdict": "A 3.6-volt pocket heater sold as a heat gun. It tops out at 600°F, runs 15 to 20 minutes, and the battery is built in, so it can't strip paint or thaw a pipe and it's finished when the cell wears out.",
+      "reasons": [
+        "Its maximum is 600°F. Every pick on this page reaches at least 875°F, and paint, adhesive, and frozen-pipe work need that range.",
+        "The 3.6 V, 2.0Ah battery is built in. You can't swap in a fresh pack mid-job, and when the cell wears out the tool is done.",
+        "The listing gives 15 to 20 minutes of work per charge, then up to 2 hours to recharge over USB.",
+        "The listing contradicts itself on weight: the bullets say 4.8 ounces, the spec table says 8 ounces.",
+        "At 3.5 stars it's the lowest-rated gun we considered for this page."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Is a cordless heat gun as strong as a corded one?",
+      "a": "No. A corded heat gun draws 1,200 to 2,000 watts from the wall; the third-party battery guns here are rated at 350 watts, and battery packs can't sustain corded-level output for long. Cordless guns are for shrink tubing, small vinyl and plastic jobs, and spots with no outlet. For stripping a door or a window frame, see our corded heat gun ranking."
+    },
+    {
+      "q": "How long does a battery last?",
+      "a": "Shorter than you'd guess. DEWALT lists up to 42 minutes for the DCE530, CRAFTSMAN up to 15 minutes, and Makita 21 minutes on high with a 6.0Ah pack. The 350-watt third-party guns list about 6 minutes on a 2.0Ah pack and about 12 on a 4.0Ah. Use the largest battery you own, and keep a second one charged for longer jobs."
+    },
+    {
+      "q": "Should I buy the brand-name gun or a battery-compatible one?",
+      "a": "If you use it often, buy the gun from the company that makes your batteries: it's built for that pack, and DEWALT, Milwaukee, RYOBI, CRAFTSMAN, and Makita back their own tools. The compatible guns from LIVOWALNY and Edtran cost a third to a half as much and add adjustable heat, which makes them reasonable for occasional shrink-tube and craft work. Their makers don't share a warranty with the battery brand."
+    },
+    {
+      "q": "Do I need adjustable temperature?",
+      "a": "For vinyl wrap, thin plastic, and anything that scorches, yes. The DEWALT, Milwaukee, RYOBI, and CRAFTSMAN listings give a single maximum temperature, from 875 to 990°F, with no low setting. The Makita has variable temperature, and the third-party guns have two settings or a digital range."
+    },
+    {
+      "q": "What are the nozzles for?",
+      "a": "A reflector wraps heat around shrink tubing and pipe, a concentrator or reduction nozzle focuses it on a small spot, a flat or wide-slot nozzle spreads it along a strip of paint or adhesive, and a glass protector keeps heat off window panes. The Milwaukee 2688-20 is the only gun here that ships without one."
+    },
+    {
+      "q": "Is it safe to leave the battery on?",
+      "a": "Take it off when you're done. The LIVOWALNY listings warn that the gun drains the battery if it's left attached. Set the gun down on a non-flammable surface until the nozzle cools; it stays hot after you release the trigger."
+    }
+  ]
+}
