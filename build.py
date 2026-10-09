@@ -486,6 +486,9 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
                  '<div class="notice">Preview build &mdash; affiliate links are '
                  'untagged until the Amazon Associates account is approved.</div>')
     home_link = "" if is_home else '<a href="./">&larr; All categories</a>'
+    storefront = site.get("storefront_url")
+    storefront_link = (f' &middot; <a href="{esc(storefront)}" target="_blank" rel="sponsored nofollow noopener">'
+                       f'Shop our picks on Amazon</a>') if storefront else ""
     desc = meta_desc(description or site["description"])
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     canonical_url = canonical if canonical else (f"{base}/" if base else "")
@@ -531,7 +534,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
   When you buy through links on this site we may earn an Amazon Associates commission, at no
   extra cost to you. Prices and ratings are pulled from Amazon and change over time; the figures
   here were captured on the date shown and are not guaranteed to be current.</p>
-  <p class="footlinks"><a href="about.html">About &amp; how we rank</a> &middot; <a href="mailto:{esc(site.get('contact_email', ''))}">Contact</a></p>
+  <p class="footlinks"><a href="about.html">About &amp; how we rank</a> &middot; <a href="mailto:{esc(site.get('contact_email', ''))}">Contact</a>{storefront_link}</p>
   <p class="muted">{home_link} &nbsp; Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
 {REVEAL_JS + chr(10) if 'data-show-from' in body else ''}</body>
@@ -1647,6 +1650,12 @@ def build_about(site, cats):
     """About & methodology page: no personal details, just how the site works."""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     email = site.get("contact_email", "")
+    storefront = site.get("storefront_url")
+    storefront_para = f"""
+    <p>Our badge picks are also collected in lists on our Amazon storefront:
+    <a href="{esc(storefront)}" target="_blank" rel="sponsored nofollow noopener">Shop our picks on Amazon</a>.
+    Purchases made there can earn {esc(site['brand'])} a commission too, the same way as the links on
+    this site.</p>""" if storefront else ""
     rows = []
     for cat, _, _ in sorted(cats, key=lambda t: t[0]["title"]):
         w, fw = cat["weights"], cat.get("feature_weights", {})
@@ -1715,7 +1724,7 @@ def build_about(site, cats):
     <p>Links to Amazon are affiliate links. If you buy through one, {esc(site['brand'])} may earn a
     commission at no extra cost to you. Amazon pays a percentage of the sale, so a pricier tool earns
     more, but the score never looks at price or commission. Rankings come only from the rating, review
-    count and features described above.</p>
+    count and features described above.</p>{storefront_para}
 
     <h2>Corrections and contact</h2>
     <p>Spotted a wrong spec, a dead link or a price that's way off? Email
