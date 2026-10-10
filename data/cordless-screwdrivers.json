@@ -1,0 +1,196 @@
+{
+  "slug": "cordless-screwdrivers",
+  "title": "The 10 Best Cordless Screwdrivers",
+  "subtitle": "Rechargeable 4V to 8V power screwdrivers for furniture, outlets and small repairs, ranked from live Amazon data.",
+  "intro": "A cordless screwdriver is a small, light power driver for the jobs where a drill is overkill: flat-pack furniture, switch plates, cabinet hinges, battery covers. Most run on a built-in 4V battery that charges over USB. We ranked 10 best-sellers on rating, review volume and features (adjustable torque, an LED, a pivoting or two-position grip and a bit set in the box). They run from about $25 to $148 for Milwaukee's M4 kit. For heavier driving, see our impact driver list.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 30,
+  "platform_table": false,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "adjustable_torque": 0.3, "led": 0.2, "pivoting_grip": 0.2, "bit_set": 0.3 },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    { "key": "voltage", "label": "Voltage" },
+    { "key": "torque", "label": "Max torque" },
+    { "key": "speed", "label": "Speed" },
+    { "key": "torque_settings", "label": "Torque settings" },
+    { "key": "charging", "label": "Charging" },
+    { "key": "in_box", "label": "In the box" }
+  ],
+  "table_columns": [
+    { "key": "voltage", "label": "Voltage" },
+    { "key": "torque", "label": "Torque" },
+    { "key": "adjustable_torque", "label": "Adj. torque", "type": "bool" },
+    { "key": "led", "label": "LED", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07F23B9FH",
+      "name": "SKIL Rechargeable 4V Cordless Screwdriver, 9pcs Bit, Bit Holder, USB Charging Cable (SD561801)",
+      "brand": "SKIL", "model": "SD561801",
+      "image": "https://m.media-amazon.com/images/I/61p9Vfu11JL._AC_SL1000_.jpg",
+      "price": 24.98, "rating": 4.6, "reviews_count": 9108, "bought": "1K+/mo",
+      "specs": { "voltage": "4V", "torque": "36 in-lb", "speed": "220 rpm", "torque_settings": null, "charging": "Micro USB", "in_box": "9 bits, magnetic bit holder, cable" },
+      "features": { "adjustable_torque": false, "led": false, "pivoting_grip": false, "bit_set": true },
+      "verdict": "The best-selling name-brand power screwdriver on Amazon for years: a pistol-grip 4V driver with 36 in-lb of torque, nine bits and a magnetic holder, and a 5-year warranty, for about $25.",
+      "best_for": "Most homes: a proven, cheap power screwdriver with a 5-year warranty.",
+      "skip_if": "You want torque settings or a light; it has neither.",
+      "pros": ["9,108 reviews at 4.6 stars", "36 in-lb, more than most 4V drivers here", "5-year limited warranty"],
+      "cons": ["No adjustable torque, so it can strip small screws", "Micro USB, not USB-C", "No LED"]
+    },
+    {
+      "asin": "B0753F9HK9",
+      "name": "BLACK+DECKER Cordless Screwdriver with LED Light, 4V MAX, 2 Bits (BDCSFL20C)",
+      "brand": "BLACK+DECKER", "model": "BDCSFL20C",
+      "image": "https://m.media-amazon.com/images/I/71NR6Gs2tPL._AC_SL1500_.jpg",
+      "price": 38.99, "rating": 4.6, "reviews_count": 15093, "bought": "1K+/mo",
+      "specs": { "voltage": "4V MAX", "torque": null, "speed": "180 rpm", "torque_settings": null, "charging": "Charger included", "in_box": "2 bits, charger" },
+      "features": { "adjustable_torque": false, "led": true, "pivoting_grip": true, "bit_set": false },
+      "verdict": "The most-reviewed screwdriver on the page: a 4V driver whose handle pivots into three positions and doubles as a flashlight. Only two bits in the box.",
+      "best_for": "Awkward angles: the handle pivots to three positions and has a built-in light.",
+      "skip_if": "You need bits; only two are included.",
+      "pros": ["15,093 reviews, the most here", "3-position pivoting handle", "Doubles as a flashlight; 2-year warranty"],
+      "cons": ["Only 2 bits included", "180 rpm, the slowest here", "No published torque or torque settings"]
+    },
+    {
+      "asin": "B0CGLPL4PS", "force_overall": true,
+      "name": "SKIL Twist 2.0 Rechargeable 4V Screwdriver, Pivoting Head, Torque Setting, USB-C, 28 PC Bit Set & Case (SD5619-02)",
+      "brand": "SKIL", "model": "SD5619-02",
+      "image": "https://m.media-amazon.com/images/I/71QTQUWzejL._AC_SL1500_.jpg",
+      "price": 44.99, "rating": 4.7, "reviews_count": 1877, "bought": "2K+/mo",
+      "specs": { "voltage": "4V", "torque": null, "speed": null, "torque_settings": "3", "charging": "USB-C", "in_box": "28-piece bit set, case, cable" },
+      "features": { "adjustable_torque": true, "led": true, "pivoting_grip": true, "bit_set": true },
+      "verdict": "The best-rated screwdriver here and the one with every feature we score: a head that pivots and locks at 0, 22.5 and 45 degrees, three torque settings, an LED, USB-C charging and 28 bits in a case.",
+      "best_for": "The most complete 4V kit: pivoting head, torque settings and 28 bits.",
+      "skip_if": "You already have bits; the same tool with 2 bits is about $20.",
+      "pros": ["4.7 stars, the best rating here", "Pivoting head locks at three angles; 3 torque settings", "USB-C charging; LED", "28 bits and a case"],
+      "cons": ["SKIL doesn't publish torque or speed on the listing", "The 2-bit version (SD5619-01) is the same tool for less"]
+    },
+    {
+      "asin": "B09PFCX8Q1",
+      "name": "Amazon Basics by SKIL 4V Cordless Stick Screwdriver with 10-Piece Bit Set, USB Cable, LED, 3 Torque Settings",
+      "brand": "Amazon Basics", "model": "ASD2401-01",
+      "image": "https://m.media-amazon.com/images/I/71fiDqIm5-L._AC_SL1500_.jpg",
+      "price": 24.97, "rating": 4.4, "reviews_count": 4735, "bought": "2K+/mo",
+      "specs": { "voltage": "4V", "torque": "22 in-lb", "speed": "300 rpm", "torque_settings": "3", "charging": "USB-C (USB-A cable)", "in_box": "9 bits, bit holder, cable" },
+      "features": { "adjustable_torque": true, "led": true, "pivoting_grip": false, "bit_set": true },
+      "verdict": "A slim stick screwdriver made by SKIL under the Amazon Basics name, with three torque settings, an LED and nine bits for about $25. Slim enough to reach into cabinets.",
+      "best_for": "Tight spots: a slim stick driver with torque settings for about $25.",
+      "skip_if": "You need more torque; it tops out at 22 in-lb.",
+      "pros": ["3 torque settings and an LED at the lowest price here", "Slim stick shape", "USB-C charging port"],
+      "cons": ["22 in-lb, light for wood screws", "Won't charge from a USB-C to USB-C cable, per the listing"]
+    },
+    {
+      "asin": "B0BLMQ8BXB",
+      "name": "HOTO 25-Piece Upgraded Electric Screwdriver Kit, Cordless Screwdriver (QWLSD011)",
+      "brand": "HOTO", "model": "QWLSD011",
+      "image": "https://m.media-amazon.com/images/I/711E-1W75iL._AC_SL1500_.jpg",
+      "price": 29.98, "rating": 4.6, "reviews_count": 2458, "bought": "10K+/mo",
+      "specs": { "voltage": "3.6V", "torque": "4 N·m (35 in-lb); 8 N·m by hand", "speed": null, "torque_settings": "3", "charging": "USB-C (cable not included)", "in_box": "25 S2 bits, 60 mm extension, magnetic case" },
+      "features": { "adjustable_torque": true, "led": true, "pivoting_grip": false, "bit_set": true },
+      "verdict": "The best seller on the page by far, with 10,000+ sold last month: a pen-style driver with three torque settings, a shadowless ring light and 25 hardened bits in a magnetic case. A popular gift.",
+      "best_for": "Furniture and gadget repairs with 25 bits, including Torx and tri-wing.",
+      "skip_if": "You don't own a USB-C cable; one isn't included.",
+      "pros": ["10,000+ bought in the past month", "25 S2 bits including Torx, tri-wing and Pozidriv", "3 torque settings and a ring LED"],
+      "cons": ["Charging cable not included", "3.6V, the lowest voltage here"]
+    },
+    {
+      "asin": "B0DV3XNC3C",
+      "name": "WORX Cordless Screwdriver, 4V, 30-Piece Accessory Kit (WX242L)",
+      "brand": "WORX", "model": "WX242L",
+      "image": "https://m.media-amazon.com/images/I/71WC40OjiaL._AC_SL1500_.jpg",
+      "price": 43.46, "rating": 4.5, "reviews_count": 2877, "bought": "2K+/mo",
+      "specs": { "voltage": "4V", "torque": null, "speed": null, "torque_settings": "7", "charging": "USB-C", "in_box": "30 accessories, case, cable" },
+      "features": { "adjustable_torque": true, "led": true, "pivoting_grip": false, "bit_set": true },
+      "verdict": "A 4V driver with the most torque settings among the 4V picks (seven), a magnetic quick-release chuck, a safety switch and a battery gauge, sold with 30 accessories.",
+      "best_for": "Mixed jobs, from electronics to furniture, with 7 torque settings.",
+      "skip_if": "You need published torque figures; WORX doesn't list them.",
+      "pros": ["7 torque settings", "Magnetic quick-release chuck", "Safety switch and battery indicator"],
+      "cons": ["No torque or speed published on the listing", "Straight body only"]
+    },
+    {
+      "asin": "B0812ZHY5N",
+      "name": "ENERTWIST 8V Cordless Screwdriver, 82 Accessory Kit, Max 10Nm, 21+1 Clutch (ET-CS-8)",
+      "brand": "ENERTWIST", "model": "ET-CS-8",
+      "image": "https://m.media-amazon.com/images/I/71KgUQj2epL._AC_SL1500_.jpg",
+      "price": 41.99, "rating": 4.3, "reviews_count": 5695, "bought": "600+/mo",
+      "specs": { "voltage": "8V", "torque": "88 in-lb", "speed": "230 rpm", "torque_settings": "21 + drill", "charging": "Charger included", "in_box": "82 accessories, flex shaft, case" },
+      "features": { "adjustable_torque": true, "led": true, "pivoting_grip": true, "bit_set": true },
+      "verdict": "The most powerful screwdriver here: an 8V driver with 88 in-lb, a 21-position clutch plus drill mode, a handle that switches between in-line and pistol grip, and 82 accessories in a case.",
+      "best_for": "Wood screws and light drilling, with more than double the torque of the 4V drivers.",
+      "skip_if": "You want a name brand; it's 4.3 stars, the lowest here.",
+      "pros": ["88 in-lb, the most here", "21 clutch settings plus drill mode", "Two-position handle; 82 accessories and a case"],
+      "cons": ["4.3 stars, the lowest here", "11 in long, bulkier than the 4V drivers"]
+    },
+    {
+      "asin": "B0DJBQ9ZBF",
+      "name": "DEWALT Cordless Screwdriver, 4V USB Rechargeable, 12 Bits, LED, FLEXDRIVE Control (DWHT66719)",
+      "brand": "DEWALT", "model": "DWHT66719",
+      "image": "https://m.media-amazon.com/images/I/61qoLUXIm5L._AC_SL1500_.jpg",
+      "price": 77.99, "rating": 4.4, "reviews_count": 2233, "bought": "4K+/mo",
+      "specs": { "voltage": "4V", "torque": "44 in-lb; 124 in-lb by hand", "speed": "360 rpm", "torque_settings": "6", "charging": "USB, 60 min", "in_box": "12 bits, cable" },
+      "features": { "adjustable_torque": true, "led": true, "pivoting_grip": false, "bit_set": true },
+      "verdict": "DEWALT's 4V screwdriver, shaped like a manual screwdriver and driven by sliding a collar instead of pressing a button. Six torque stages, soft start, a 2Ah battery DEWALT rates at 680 screws per charge, and a 3-year warranty.",
+      "best_for": "Trades use: a screwdriver-shaped power driver with 6 torque stages and a 3-year warranty.",
+      "skip_if": "You want value; the SKIL Twist 2.0 kit has more bits for less.",
+      "pros": ["6-stage torque and soft start", "360 rpm, the fastest 4V here", "FLEXDRIVE slide collar works from any grip angle", "3-year limited warranty"],
+      "cons": ["$77.99, about three times the SKIL", "Straight body only"]
+    },
+    {
+      "asin": "B07L78Y72J",
+      "name": "Metabo HPT Cordless Screwdriver Kit, 3.6V Lithium Ion, 2 Batteries (DB3DL2)",
+      "brand": "Metabo HPT", "model": "DB3DL2",
+      "image": "https://m.media-amazon.com/images/I/715AnRXKsPL._AC_SL1500_.jpg",
+      "price": 79.00, "rating": 4.4, "reviews_count": 1447, "bought": "200+/mo",
+      "specs": { "voltage": "3.6V", "torque": null, "speed": "260 / 780 rpm", "torque_settings": "21 + drill", "charging": "Quick charger, 2 x 1.5Ah batteries", "in_box": "2 batteries, charger, 1 bit, hard case" },
+      "features": { "adjustable_torque": true, "led": true, "pivoting_grip": true, "bit_set": false },
+      "verdict": "The only screwdriver here with swappable batteries (two are included) and two speeds. A 21-position clutch, an in-line or pistol grip, a hard case and a lifetime warranty on the tool.",
+      "best_for": "All-day use: two swappable batteries, so one is always charged.",
+      "skip_if": "You need bits; it comes with one.",
+      "pros": ["Two swappable 1.5Ah batteries and a quick charger", "Two speeds, up to 780 rpm", "Lifetime tool warranty, 2-year battery warranty"],
+      "cons": ["Only one bit included", "No published torque figure"]
+    },
+    {
+      "asin": "B00BYFN9FI", "premium": true,
+      "name": "Milwaukee 2101-22 M4 1/4\" Hex Screwdriver Kit with 2 Batteries",
+      "brand": "Milwaukee", "model": "2101-22",
+      "image": "https://m.media-amazon.com/images/I/61o81dAhYkL._AC_SL1500_.jpg",
+      "price": 148.00, "rating": 4.7, "reviews_count": 662, "bought": "1K+/mo",
+      "specs": { "voltage": "M4 (4V)", "torque": null, "speed": null, "torque_settings": null, "charging": "Kit with 2 batteries", "in_box": "2 batteries" },
+      "features": { "adjustable_torque": false, "led": false, "pivoting_grip": false, "bit_set": false },
+      "verdict": "Milwaukee's M4 screwdriver kit with two batteries, rated 4.7 stars and selling 1,000+ a month. The Amazon listing gives almost no specs, so check Milwaukee's site for torque and clutch details before buying.",
+      "best_for": "Pros already on Milwaukee who want a pro-grade compact screwdriver.",
+      "skip_if": "You want to know what you're getting from the listing; it has almost no specs.",
+      "pros": ["4.7 stars, tied for the best here", "Two batteries in the kit", "1,000+ bought in the past month"],
+      "cons": ["$148, the most expensive here", "The listing has three generic bullets and no torque, speed or clutch figures"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B09RZCQXYK",
+      "name": "MQFORU Blue Cordless Electric Screwdriver Set, 3.7V Rechargeable, 47pcs Driver Bit Set (TY002)",
+      "brand": "MQFORU", "model": "TY002",
+      "image": "https://m.media-amazon.com/images/I/71+4oqEAPRL._AC_SL1500_.jpg",
+      "price": 19.99, "rating": 4.2, "reviews_count": 2057,
+      "flag": "Listing names a different brand and contradicts its own specs",
+      "verdict": "A budget kit whose listing can't keep its own name or numbers straight. The Amazon Basics by SKIL driver costs about $5 more, comes from a known maker and has three torque settings.",
+      "reasons": [
+        "It's sold by the MQFORU store, but every bullet calls it a \"MYMULIKE\" screwdriver, so it's unclear who makes it or stands behind it.",
+        "The title says 3.7V; the spec table says 3.6V.",
+        "The spec table lists a 12 mm maximum chuck size on a driver that takes 1/4-inch (6.35 mm) hex bits.",
+        "The listing quotes a 3-to-5-hour recharge for a 1,300 mAh battery. The DEWALT recharges its 2Ah battery in 60 minutes."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Cordless screwdriver or drill?", "a": "A cordless screwdriver is lighter, smaller and gentler: perfect for furniture, cover plates and hinges, where a drill can strip or snap small screws. For long wood screws, lag bolts or drilling holes, use a drill or impact driver." },
+    { "q": "Why do torque settings matter?", "a": "A clutch stops the driver when the screw is snug, so you don't strip the head or crack particleboard. That matters most on flat-pack furniture and electronics. Drivers without settings need you to stop the trigger yourself." },
+    { "q": "How much torque do I need?", "a": "Most 4V screwdrivers deliver 20 to 45 in-lb, enough for furniture and hardware. If you drive 2-inch wood screws, look at the 8V ENERTWIST (88 in-lb) or step up to a drill." },
+    { "q": "Built-in battery or swappable?", "a": "Most here have a built-in battery that charges over USB, which is convenient but means waiting when it's flat. The Metabo HPT and Milwaukee kits come with two swappable batteries, so one can charge while you work." },
+    { "q": "Do I need a pivoting handle?", "a": "A pivoting or two-position handle lets you switch between a straight stick grip for reach and a pistol grip for push and control. It's most useful inside cabinets and behind appliances." }
+  ]
+}

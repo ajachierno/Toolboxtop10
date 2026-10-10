@@ -663,7 +663,8 @@ def in_the_box(p):
 
 
 def render_platforms(cat, ranked, site):
-    if not cat["slug"].startswith("cordless-"):
+    # Opt out with "platform_table": false for cordless tools on built-in batteries (screwdrivers).
+    if not cat["slug"].startswith("cordless-") or cat.get("platform_table") is False:
         return ""
     best = {}
     for p in ranked:  # rank order, so the first hit per platform is the top pick on it
