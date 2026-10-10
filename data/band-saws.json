@@ -1,0 +1,468 @@
+{
+  "slug": "band-saws",
+  "title": "The 10 Best Band Saws",
+  "subtitle": "9-inch benchtop to 14-inch floor band saws for curves, resawing and small-shop woodworking, ranked from live Amazon data.",
+  "intro": "A band saw cuts curves, rips small stock and resaws boards into thinner ones, with a narrow kerf that wastes little wood. We ranked 10 best-sellers on rating, review volume and features (two speeds, a resaw height of 4.5 inches or more, ball-bearing blade guides and a fence in the box). Wheel size sets the class: 9- and 10-inch benchtop saws handle curves and small parts; 14-inch floor saws resaw boards 8 to 13 inches tall. They run from about $139 for WEN's 9-inch to $1,549 for JET's 14-inch.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 140,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "two_speed": 0.25,
+    "resaw": 0.3,
+    "bearings": 0.25,
+    "fence": 0.2
+  },
+  "reviews_ceiling": 1500,
+  "spec_fields": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "depth",
+      "label": "Cut depth (resaw)"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "speed",
+      "label": "Blade speed"
+    },
+    {
+      "key": "table",
+      "label": "Table"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "depth",
+      "label": "Resaw"
+    },
+    {
+      "key": "two_speed",
+      "label": "2-speed",
+      "type": "bool"
+    },
+    {
+      "key": "fence",
+      "label": "Fence",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BFR2BJQP",
+      "force_overall": true,
+      "name": "SKIL 2.8 Amp 9 In. 2-Speed Benchtop Band Saw for Woodworking (BW9501-00)",
+      "brand": "SKIL",
+      "model": "BW9501-00",
+      "image": "https://m.media-amazon.com/images/I/51TqGet9l3L._AC_SL1000_.jpg",
+      "price": 219.0,
+      "rating": 4.4,
+      "reviews_count": 305,
+      "bought": "100+/mo",
+      "specs": {
+        "size": "9 in benchtop",
+        "depth": null,
+        "motor": "2.8 A induction",
+        "speed": "2 speeds",
+        "table": "Rack-and-pinion tilt"
+      },
+      "features": {
+        "two_speed": true,
+        "resaw": false,
+        "bearings": true,
+        "fence": false
+      },
+      "verdict": "A well-equipped 9-inch: an induction motor, two speeds with tool-free belt tensioning, quick blade tension, ball-bearing guides top and bottom, and rack-and-pinion table tilt.",
+      "best_for": "A benchtop saw that's easy to set up and keep in tune.",
+      "skip_if": "You need to resaw wide boards; a 9-inch saw is for curves and small parts.",
+      "pros": [
+        "Two speeds, induction motor",
+        "Ball-bearing guides",
+        "Rack-and-pinion table tilt"
+      ],
+      "cons": [
+        "Cut depth not listed",
+        "Listing showed only 4 left"
+      ]
+    },
+    {
+      "asin": "B0BK2V91VW",
+      "force_budget": true,
+      "name": "WEN 9-Inch Band Saw, 2.8-Amp Benchtop (BA3959)",
+      "brand": "WEN",
+      "model": "BA3959",
+      "image": "https://m.media-amazon.com/images/I/71rRaYb61fL._AC_SL1500_.jpg",
+      "price": 139.05,
+      "rating": 4.4,
+      "reviews_count": 1399,
+      "bought": "700+/mo",
+      "specs": {
+        "size": "9 in benchtop",
+        "depth": "3-1/2 in",
+        "motor": "2.8 A",
+        "speed": "2,500 ft/min",
+        "table": "12-1/4 x 11-7/8 in, bevels 45°"
+      },
+      "features": {
+        "two_speed": false,
+        "resaw": false,
+        "bearings": true,
+        "fence": true
+      },
+      "verdict": "The best-selling and most-reviewed band saw here: a 9-inch with 3-1/2 inches of cut depth, a rip fence, a miter gauge, a 2-1/2-inch dust port and an adjustable blade guard, for about $139.",
+      "best_for": "A first band saw for curves and crafts.",
+      "skip_if": "You want two speeds for plastics and metal.",
+      "pros": [
+        "700+ sold last month; 1,399 reviews",
+        "Rip fence and miter gauge included",
+        "$139.05"
+      ],
+      "cons": [
+        "Single speed",
+        "3-1/2-in depth"
+      ]
+    },
+    {
+      "asin": "B08SK9W4Q5",
+      "name": "WOODSKIL 9-Inch Band Saw, 3-Amp Benchtop Bandsaw, 2500 FPM",
+      "brand": "WOODSKIL",
+      "model": "9 in",
+      "image": "https://m.media-amazon.com/images/I/61yOqaiXDIL._AC_SL1500_.jpg",
+      "price": 222.77,
+      "rating": 4.4,
+      "reviews_count": 516,
+      "bought": "50+/mo",
+      "specs": {
+        "size": "9 in benchtop",
+        "depth": null,
+        "motor": "3 A, 1/2 HP",
+        "speed": "2,500 ft/min",
+        "table": "Cast aluminum, 0-45°, 120° miter gauge"
+      },
+      "features": {
+        "two_speed": false,
+        "resaw": false,
+        "bearings": false,
+        "fence": false
+      },
+      "verdict": "A 1/2 HP 9-inch with a cast aluminum table, a 120° miter gauge, a steel base, a 2-1/2-inch dust port and a wheel brush.",
+      "best_for": "A sturdy 9-inch with a miter gauge.",
+      "skip_if": "The WEN BA3959 does the same for about $84 less.",
+      "pros": [
+        "1/2 HP",
+        "Cast aluminum table",
+        "Wheel dust brush"
+      ],
+      "cons": [
+        "$222.77",
+        "Single speed"
+      ]
+    },
+    {
+      "asin": "B0FRMXSPL8",
+      "name": "QD-KYOHO Portable 9-Inch Bandsaw for Woodworking, 2526 FPM, 1/3 HP, 2.5-Amp",
+      "brand": "QD-KYOHO",
+      "model": "9 in",
+      "image": "https://m.media-amazon.com/images/I/71lvcT0RcIL._AC_SL1500_.jpg",
+      "price": 229.99,
+      "rating": 4.6,
+      "reviews_count": 97,
+      "specs": {
+        "size": "9 in benchtop",
+        "depth": "3-1/2 in",
+        "motor": "2.5 A, 1/3 HP",
+        "speed": "2,526 ft/min",
+        "table": "11-3/4 x 11-3/4 in cast aluminum"
+      },
+      "features": {
+        "two_speed": false,
+        "resaw": false,
+        "bearings": false,
+        "fence": false
+      },
+      "verdict": "A portable 9-inch with a top carry handle, a 2 mm powder-coated steel frame, quick-release blade tension and tool-free guide adjustment.",
+      "best_for": "Moving a band saw between bench and storage.",
+      "skip_if": "Note the 97 reviews are shared across QD-KYOHO's band saw listings.",
+      "pros": [
+        "Carry handle",
+        "Quick-release tension",
+        "4.6 stars"
+      ],
+      "cons": [
+        "1/3 HP",
+        "Reviews shared across models"
+      ]
+    },
+    {
+      "asin": "B0CPM9PV3L",
+      "name": "SHOPMAX 4.2 Amp 10-inch Benchtop Band Saw",
+      "brand": "SHOPMAX",
+      "model": "10 in",
+      "image": "https://m.media-amazon.com/images/I/71YQJNwCCRL._SL1500_.jpg",
+      "price": 199.99,
+      "rating": 4.2,
+      "reviews_count": 43,
+      "specs": {
+        "size": "10 in benchtop",
+        "depth": "4-1/2 in",
+        "motor": "4.2 A induction",
+        "speed": "3,150 ft/min",
+        "table": "Tilts to 45°"
+      },
+      "features": {
+        "two_speed": false,
+        "resaw": true,
+        "bearings": false,
+        "fence": false
+      },
+      "verdict": "A 10-inch with a 4.2A induction motor, 4-1/2 inches of cut depth and steel construction, for less than the 9-inch SKIL.",
+      "best_for": "More resaw height on a benchtop budget.",
+      "skip_if": "You want a track record; it has 43 reviews.",
+      "pros": [
+        "4-1/2-in cut depth",
+        "4.2A induction",
+        "Under $200"
+      ],
+      "cons": [
+        "4.2 stars, 43 reviews",
+        "No fence listed"
+      ]
+    },
+    {
+      "asin": "B0FMJJJDRC",
+      "name": "WOODSKIL 10-Inch Benchtop Bandsaw with Stand, 3.4A Dual-Speed",
+      "brand": "WOODSKIL",
+      "model": "10 in with stand",
+      "image": "https://m.media-amazon.com/images/I/41CWIlGCV6L._AC_SX522_.jpg",
+      "price": 339.0,
+      "rating": 4.4,
+      "reviews_count": 516,
+      "specs": {
+        "size": "10 in, with stand",
+        "depth": null,
+        "motor": "3.4 A",
+        "speed": "2 speeds (2,360 ft/min for hardwood)",
+        "table": "Cast aluminum, 0-45°"
+      },
+      "features": {
+        "two_speed": true,
+        "resaw": false,
+        "bearings": true,
+        "fence": false
+      },
+      "verdict": "A 10-inch on a stand with two speeds, six ball-bearing guides that stop drift, a quick tension lever and tool-free doors, with a 2-year warranty.",
+      "best_for": "A stand-mounted 10-inch with good blade guidance.",
+      "skip_if": "Reviews are shared with WOODSKIL's 9-inch listing.",
+      "pros": [
+        "6 ball-bearing guides",
+        "Two speeds, stand included",
+        "2-year warranty"
+      ],
+      "cons": [
+        "$339.00",
+        "Reviews shared with the 9-inch"
+      ]
+    },
+    {
+      "asin": "B0DG5DMWWX",
+      "name": "QD-KYOHO 10-Inch Bandsaw, 1515 & 3280 FPM Dual-Speed, 1/2 HP, 5.3-Amp, Double-Sided Fence",
+      "brand": "QD-KYOHO",
+      "model": "10 in",
+      "image": "https://m.media-amazon.com/images/I/71dv-RSjXfL._AC_SL1500_.jpg",
+      "price": 445.0,
+      "rating": 4.6,
+      "reviews_count": 97,
+      "specs": {
+        "size": "10 in",
+        "depth": "4-3/4 in",
+        "motor": "5.3 A, 1/2 HP",
+        "speed": "1,515 / 3,280 ft/min",
+        "table": "20.5 x 17.5 in"
+      },
+      "features": {
+        "two_speed": true,
+        "resaw": true,
+        "bearings": false,
+        "fence": true
+      },
+      "verdict": "A 10-inch with a big 20.5 x 17.5-inch table, a low speed for metal and a high speed for wood, 4-3/4 inches of depth and a fence usable from either side.",
+      "best_for": "Wood and light metal in a mid-size saw.",
+      "skip_if": "Reviews are shared across QD-KYOHO's models.",
+      "pros": [
+        "Two speeds for wood and metal",
+        "4-3/4-in depth",
+        "Double-sided fence"
+      ],
+      "cons": [
+        "$445.00",
+        "Reviews shared across models"
+      ]
+    },
+    {
+      "asin": "B01C9TW75U",
+      "name": "JET 10-Inch Woodworking Band Saw with Stand, 1/2 HP (JWB-10)",
+      "brand": "JET",
+      "model": "JWB-10",
+      "image": "https://m.media-amazon.com/images/I/61Ggl7Vg6WL._AC_SL1500_.jpg",
+      "price": 736.99,
+      "rating": 4.0,
+      "reviews_count": 70,
+      "specs": {
+        "size": "10 in, with stand",
+        "depth": null,
+        "motor": "1/2 HP induction",
+        "speed": null,
+        "table": null
+      },
+      "features": {
+        "two_speed": false,
+        "resaw": false,
+        "bearings": true,
+        "fence": false
+      },
+      "verdict": "JET's 10-inch benchtop that moves to the floor on its steel stand, with a Poly-V drive that cuts vibration and ball-bearing guides above and below.",
+      "best_for": "A compact JET for small shops.",
+      "skip_if": "Value matters; at 4.0 stars it trails cheaper saws.",
+      "pros": [
+        "Poly-V drive",
+        "Ball-bearing guides",
+        "Steel stand"
+      ],
+      "cons": [
+        "$736.99",
+        "4.0 stars, the lowest here"
+      ]
+    },
+    {
+      "asin": "B09XWWPY17",
+      "name": "WEN BA1487 Band Saw with Stand, Two-Speed, 14-Inch",
+      "brand": "WEN",
+      "model": "BA1487",
+      "image": "https://m.media-amazon.com/images/I/61F6nDxpKJL._AC_SL1500_.jpg",
+      "price": 891.88,
+      "rating": 4.2,
+      "reviews_count": 66,
+      "specs": {
+        "size": "14 in, with stand",
+        "depth": "8.85 in",
+        "motor": "9.5 A",
+        "speed": "1,480 / 3,280 ft/min",
+        "table": "21-1/2 x 15-3/4 in"
+      },
+      "features": {
+        "two_speed": true,
+        "resaw": true,
+        "bearings": false,
+        "fence": true
+      },
+      "verdict": "A 14-inch floor saw with an 8.85-inch resaw, two speeds, blades up to 1 inch wide, a tension gauge, a circle-cutting guide, a work light and a 3-in-1 dust port.",
+      "best_for": "Resawing on a budget for a 14-inch.",
+      "skip_if": "You need 13-inch resaw; the JET has it.",
+      "pros": [
+        "8.85-in resaw",
+        "Two speeds, 1-in blades",
+        "Tension gauge, light, circle guide"
+      ],
+      "cons": [
+        "4.2 stars",
+        "66 reviews"
+      ]
+    },
+    {
+      "asin": "B07H1BBC6Z",
+      "premium": true,
+      "name": "JET 14\" Woodworking Band Saw, 1.75 HP, 13\" Deep-Cut Resaw Capacity",
+      "brand": "JET",
+      "model": "14 in 1.75 HP",
+      "image": "https://m.media-amazon.com/images/I/614HGe4LvES._AC_SL1500_.jpg",
+      "price": 1549.0,
+      "rating": 4.5,
+      "reviews_count": 194,
+      "specs": {
+        "size": "14 in, with stand",
+        "depth": "13 in",
+        "motor": "1.75 HP",
+        "speed": null,
+        "table": "Ground cast iron, 360 sq in"
+      },
+      "features": {
+        "two_speed": false,
+        "resaw": true,
+        "bearings": false,
+        "fence": true
+      },
+      "verdict": "A serious resaw saw: 13 inches of resaw height from a 1.75 HP motor, a ground cast iron table, blades from 1/8 to 3/4 inch, a machined resaw fence, and a 5-year warranty.",
+      "best_for": "Resawing veneer and wide boards in a home or small production shop.",
+      "skip_if": "You cut curves and small parts; a benchtop saw does that for a tenth of the price.",
+      "pros": [
+        "13-in resaw",
+        "Ground cast iron table",
+        "5-year warranty"
+      ],
+      "cons": [
+        "$1,549.00",
+        "Listing showed only 1 left"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GRWFVDQL",
+      "name": "DeWalt 9\" Band Saw, 3.5 AMP Motor, Two-Speed (1700 & 2500 SPM), LED Worklight",
+      "brand": "DEWALT",
+      "model": "9 in",
+      "image": "https://m.media-amazon.com/images/I/71v-eqo008L._AC_SL1500_.jpg",
+      "price": 249.0,
+      "rating": 3.8,
+      "reviews_count": 8,
+      "flag": "Blade speed given in strokes per minute; lowest rating",
+      "verdict": "A 9-inch band saw whose listing rates it in a unit band saws don't use. For $30 less, the SKIL BW9501 is a 2-speed 9-inch with a clear spec sheet.",
+      "reasons": [
+        "It quotes blade speed as '1700 & 2500 SPM' (strokes per minute), the unit for reciprocating and scroll saws. A band saw's continuous blade is rated in feet per minute.",
+        "At 3.8 stars it's the lowest-rated band saw we compared.",
+        "The spec table says it needs 'Nonstandard Battery batteries' for a corded saw, so the listing's details can't be trusted."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What size band saw do I need?",
+      "a": "9- and 10-inch benchtop saws cut curves, small parts and stock up to about 3-1/2 to 4-3/4 inches thick. 14-inch floor saws resaw boards 8 to 13 inches tall and run wider blades for straight rips."
+    },
+    {
+      "q": "What is resawing?",
+      "a": "Resawing slices a board on edge into thinner boards or veneer. It needs a tall cut depth, a strong motor, a wide blade and a tall fence, which is why it's a 14-inch saw's job."
+    },
+    {
+      "q": "Why two speeds?",
+      "a": "High speed for wood; low speed for plastics, aluminum and other non-ferrous metals, which melt or dull blades at wood speeds."
+    },
+    {
+      "q": "Which blade should I use?",
+      "a": "Narrow blades (1/8-1/4 inch) cut tight curves; wide blades (1/2 inch and up) cut straighter and resaw. Fewer teeth per inch cut faster; more teeth cut smoother."
+    },
+    {
+      "q": "Do ball-bearing guides matter?",
+      "a": "Yes. Bearing guides above and below the table keep the blade from drifting and twisting, which gives straighter cuts and longer blade life."
+    }
+  ]
+}

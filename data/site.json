@@ -192,6 +192,13 @@
       "power": "wired"
     },
     {"slug": "corded-rotary-tools", "title": "Corded Rotary Tools", "blurb": "10 best corded rotary tools, from Dremel to budget kits with flex shafts.", "count": 10, "power": "wired"},
+    {"slug": "corded-hand-planers", "title": "Electric Hand Planers", "blurb": "10 best corded power planers for doors, boards and chamfers.", "count": 10, "power": "wired"},
+    {"slug": "scroll-saws", "title": "Scroll Saws", "blurb": "10 best 16- to 22-inch variable-speed scroll saws.", "count": 10, "power": "wired"},
+    {"slug": "band-saws", "title": "Band Saws", "blurb": "10 best 9-inch benchtop to 14-inch floor band saws.", "count": 10, "power": "wired"},
+    {"slug": "oscillating-spindle-sanders", "title": "Oscillating Spindle Sanders", "blurb": "10 best spindle and belt-spindle sanders for curves.", "count": 10, "power": "wired"},
+    {"slug": "wet-tile-saws", "title": "Wet Tile Saws", "blurb": "10 best tabletop, sliding and handheld wet tile saws.", "count": 10, "power": "wired"},
+    {"slug": "corded-work-lights", "title": "Corded LED Work Lights", "blurb": "10 best tripod and hanging LED work lights.", "count": 10, "power": "wired"},
+    {"slug": "hot-glue-guns", "title": "Hot Glue Guns", "blurb": "10 best mini, full-size and cordless hot glue guns.", "count": 10, "power": "wired"},
     {
       "slug": "corded-routers",
       "title": "Corded Routers",
@@ -222,6 +229,8 @@
     },
     {"slug": "laser-levels", "title": "Laser Levels", "blurb": "10 best self-leveling cross-line and 360-degree laser levels.", "count": 10, "power": "measure"},
     {"slug": "stud-finders", "title": "Stud Finders", "blurb": "10 best multi-sensor, edge-finding and magnetic stud finders.", "count": 10, "power": "measure"},
+    {"slug": "digital-calipers", "title": "Digital Calipers", "blurb": "10 best 6-inch digital calipers, steel and plastic.", "count": 10, "power": "measure"},
+    {"slug": "multimeters", "title": "Digital Multimeters", "blurb": "10 best multimeters for home, auto and electronics.", "count": 10, "power": "measure"},
     {
       "slug": "screwdrivers",
       "title": "Screwdriver Sets",
@@ -273,6 +282,7 @@
     },
     {"slug": "cordless-rotary-tools", "title": "Cordless Rotary Tools", "blurb": "10 best cordless rotary tools, from 12V Dremels to USB pen-size tools.", "count": 10, "power": "wireless"},
     {"slug": "cordless-ratchets", "title": "Cordless Ratchets", "blurb": "10 best 12V and 20V cordless ratchets for engine bays and tight spaces.", "count": 10, "power": "wireless"},
+    {"slug": "rechargeable-work-lights", "title": "Rechargeable Work Lights", "blurb": "10 best magnetic, tool-battery and cordless flood work lights.", "count": 10, "power": "wireless"},
     {
       "slug": "socket-sets",
       "title": "Socket Sets",
@@ -283,6 +293,7 @@
     {"slug": "torque-wrenches", "title": "Torque Wrenches", "blurb": "10 best click, micrometer and digital torque wrenches for wheels, engines and bikes.", "count": 10, "power": "hand"},
     {"slug": "bench-vises", "title": "Bench Vises", "blurb": "10 best bench vises, from 4-1/2-inch home vises to 8-inch shop vises.", "count": 10, "power": "hand"},
     {"slug": "bar-clamps", "title": "Bar Clamps", "blurb": "10 best quick-grip, F-style and parallel bar clamp sets for glue-ups and assembly.", "count": 10, "power": "hand"},
+    {"slug": "staple-guns", "title": "Staple Guns", "blurb": "10 best manual heavy- and light-duty staple guns.", "count": 10, "power": "hand"},
     {
       "slug": "cordless-impact-wrenches",
       "title": "Cordless Impact Wrenches",
@@ -381,6 +392,7 @@
       "count": 10,
       "power": "wireless"
     },
+    {"slug": "cordless-finish-nailers", "title": "Cordless Finish Nailers", "blurb": "10 best battery 15- and 16-gauge finish nailers, no compressor needed.", "count": 10, "power": "wireless"},
     {
       "slug": "cordless-shop-vacuums",
       "title": "Cordless Shop Vacuums",
@@ -434,6 +446,9 @@
     {"slug": "jack-stands", "title": "Jack Stands", "blurb": "10 best jack stands, from 2-ton pairs to 10-ton shop stands.", "count": 10, "power": "garage"},
     {"slug": "obd2-scanners", "title": "OBD2 Scanners", "blurb": "10 best code readers, Bluetooth adapters and ABS/SRS scan tools.", "count": 10, "power": "garage"},
     {"slug": "jump-starters", "title": "Jump Starters", "blurb": "10 best portable lithium and AGM jump starters for cars and trucks.", "count": 10, "power": "garage"},
+    {"slug": "cordless-tire-inflators", "title": "Cordless Tire Inflators", "blurb": "10 best battery tire inflators with auto shut-off.", "count": 10, "power": "garage"},
+    {"slug": "corded-car-polishers", "title": "Corded Car Polishers", "blurb": "10 best dual-action and rotary buffers for wax and swirl removal.", "count": 10, "power": "garage"},
+    {"slug": "cordless-car-polishers", "title": "Cordless Car Polishers", "blurb": "10 best battery dual-action and rotary car polishers.", "count": 10, "power": "garage"},
     {
       "slug": "air-compressors",
       "title": "Air Compressors",
@@ -448,6 +463,9 @@
       "count": 10,
       "power": "air"
     },
+    {"slug": "pneumatic-finish-nailers", "title": "Pneumatic Finish Nailers", "blurb": "10 best 15- and 16-gauge air finish nailers for trim, casing and crown.", "count": 10, "power": "air"},
+    {"slug": "air-impact-wrenches", "title": "Air Impact Wrenches", "blurb": "10 best 1/2-inch pneumatic impact guns for lug nuts and seized bolts.", "count": 10, "power": "air"},
+    {"slug": "air-ratchets", "title": "Air Ratchets", "blurb": "10 best 1/4, 3/8 and 1/2-inch pneumatic ratchets.", "count": 10, "power": "air"},
     {
       "slug": "pneumatic-framing-nailers",
       "title": "Pneumatic Framing Nailers",

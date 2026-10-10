@@ -1,0 +1,471 @@
+{
+  "slug": "cordless-finish-nailers",
+  "title": "The 10 Best Cordless Finish Nailers",
+  "subtitle": "Battery-powered 15- and 16-gauge finish nailers for trim with no compressor or hose, ranked from live Amazon data.",
+  "intro": "A cordless finish nailer drives 15 or 16-gauge trim nails with no compressor, hose or gas cartridge, which makes punch-list and single-room trim jobs far quicker to set up. We ranked 10 best-sellers on rating, review volume and features (a brushless motor, switchable sequential and bump fire, a battery in the box and a 3-year-plus warranty). Expect 6 to 9 lbs, heavier than an air nailer. They run from about $171 for RYOBI's P326 to $395 for Metabo HPT's 15-gauge kit.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 220,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "brushless": 0.3,
+    "selective": 0.3,
+    "kit": 0.2,
+    "long_warranty": 0.2
+  },
+  "reviews_ceiling": 2000,
+  "spec_fields": [
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "gauge",
+      "label": "Gauge"
+    },
+    {
+      "key": "nails",
+      "label": "Nail lengths"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "per_charge",
+      "label": "Nails per charge"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "battery",
+      "label": "Platform"
+    },
+    {
+      "key": "gauge",
+      "label": "Gauge"
+    },
+    {
+      "key": "brushless",
+      "label": "Brushless",
+      "type": "bool"
+    },
+    {
+      "key": "kit",
+      "label": "Battery incl.",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0195KBAVI",
+      "force_overall": true,
+      "name": "DEWALT 20V MAX Finish Nailer, Angled, 16GA, Tool Only (DCN660B)",
+      "brand": "DEWALT",
+      "model": "DCN660B",
+      "image": "https://m.media-amazon.com/images/I/712kFmZ8MpL._AC_SL1500_.jpg",
+      "price": 369.0,
+      "rating": 4.6,
+      "reviews_count": 1914,
+      "bought": "100+/mo",
+      "specs": {
+        "battery": "DEWALT 20V MAX",
+        "gauge": "16, angled",
+        "nails": "Up to 2-1/2 in",
+        "weight": null,
+        "per_charge": null
+      },
+      "features": {
+        "brushless": true,
+        "selective": true,
+        "kit": false,
+        "long_warranty": false
+      },
+      "verdict": "The most-reviewed cordless finish nailer here: a brushless 16-gauge angled nailer with a tool-free sequential/contact switch, depth adjustment and jam release.",
+      "best_for": "DEWALT 20V owners doing trim regularly.",
+      "skip_if": "You don't own DEWALT batteries; the DCN660D1 kit adds one.",
+      "pros": [
+        "1,914 reviews at 4.6 stars",
+        "Brushless",
+        "Tool-free mode, depth and jam release"
+      ],
+      "cons": [
+        "$369.00 bare tool",
+        "Weight not listed"
+      ]
+    },
+    {
+      "asin": "B016ERLYE8",
+      "premium": true,
+      "name": "DEWALT 20V MAX XR Finish Nailer, Angled, 16GA, Kit (DCN660D1)",
+      "brand": "DEWALT",
+      "model": "DCN660D1",
+      "image": "https://m.media-amazon.com/images/I/61XTQq0dUSS._AC_SL1000_.jpg",
+      "price": 392.95,
+      "rating": 4.7,
+      "reviews_count": 840,
+      "specs": {
+        "battery": "DEWALT 20V MAX (2.0Ah included)",
+        "gauge": "16, angled",
+        "nails": "Up to 2-1/2 in",
+        "weight": "6 lb",
+        "per_charge": null
+      },
+      "features": {
+        "brushless": true,
+        "selective": true,
+        "kit": true,
+        "long_warranty": false
+      },
+      "verdict": "The DCN660 as a kit with a 2.0Ah battery, charger and box: the highest-rated cordless finish nailer here.",
+      "best_for": "Starting on DEWALT 20V with a finish nailer.",
+      "skip_if": "You already own DEWALT batteries; the bare DCN660B is $24 less.",
+      "pros": [
+        "4.7 stars, the best here",
+        "Battery and charger included",
+        "Brushless, selectable trigger"
+      ],
+      "cons": [
+        "$392.95",
+        "One 2.0Ah battery"
+      ]
+    },
+    {
+      "asin": "B073GVKSM3",
+      "name": "DEWALT 20V MAX XR Cordless 15-Gauge Angled Finish Nailer, Tool Only (DCN650B)",
+      "brand": "DEWALT",
+      "model": "DCN650B",
+      "image": "https://m.media-amazon.com/images/I/61BRfywQmlL._AC_SL1000_.jpg",
+      "price": 322.99,
+      "rating": 4.5,
+      "reviews_count": 856,
+      "bought": "200+/mo",
+      "specs": {
+        "battery": "DEWALT 20V MAX",
+        "gauge": "15, angled",
+        "nails": null,
+        "weight": "6.6 lb",
+        "per_charge": null
+      },
+      "features": {
+        "brushless": true,
+        "selective": true,
+        "kit": false,
+        "long_warranty": false
+      },
+      "verdict": "DEWALT's 15-gauge for crown, casing and hardwood flooring, with a micro nose for seeing where the nail goes.",
+      "best_for": "Heavy trim and door casing on DEWALT 20V.",
+      "skip_if": "You mostly do baseboard; 16-gauge leaves smaller holes.",
+      "pros": [
+        "15-gauge, brushless",
+        "Micro nose for accuracy",
+        "200+ sold last month"
+      ],
+      "cons": [
+        "Tool only",
+        "6.6 lbs"
+      ]
+    },
+    {
+      "asin": "B07K75LZKX",
+      "name": "DEWALT 20V MAX XR Finish Nailer, Straight, 16GA, Tool Only (DCN662B)",
+      "brand": "DEWALT",
+      "model": "DCN662B",
+      "image": "https://m.media-amazon.com/images/I/61l8mS7iXZL._AC_SL1000_.jpg",
+      "price": 329.74,
+      "rating": 4.6,
+      "reviews_count": 333,
+      "bought": "100+/mo",
+      "specs": {
+        "battery": "DEWALT 20V MAX",
+        "gauge": "16, straight",
+        "nails": null,
+        "weight": "6 lb",
+        "per_charge": null
+      },
+      "features": {
+        "brushless": true,
+        "selective": true,
+        "kit": false,
+        "long_warranty": false
+      },
+      "verdict": "The straight-magazine version of DEWALT's 16-gauge, which takes cheaper straight finish nails, with a micro nose and a brushless motor.",
+      "best_for": "DEWALT owners who'd rather buy straight 16-gauge nails.",
+      "skip_if": "You need to reach into tight corners; the angled DCN660 fits better.",
+      "pros": [
+        "Straight nails cost less",
+        "Micro nose",
+        "6 lbs"
+      ],
+      "cons": [
+        "Tool only",
+        "Straight magazine is less nimble in corners"
+      ]
+    },
+    {
+      "asin": "B0BTTYJWF3",
+      "name": "Metabo HPT 18V MultiVolt Brushless Cordless 16 Gauge Straight Finish Nailer Kit (NT1865DMST)",
+      "brand": "Metabo HPT",
+      "model": "NT1865DMST",
+      "image": "https://m.media-amazon.com/images/I/71exk0WhQkL._AC_SL1500_.jpg",
+      "price": 341.36,
+      "rating": 4.6,
+      "reviews_count": 89,
+      "specs": {
+        "battery": "Metabo HPT 18V MultiVolt (2.0Ah included)",
+        "gauge": "16, straight",
+        "nails": "1 to 2-1/2 in",
+        "weight": "6.5 lb",
+        "per_charge": null
+      },
+      "features": {
+        "brushless": true,
+        "selective": true,
+        "kit": true,
+        "long_warranty": true
+      },
+      "verdict": "An air-spring drive that fires with no ramp-up, like a pneumatic, plus a selective actuation switch, battery, charger and bag, and Metabo HPT's lifetime tool-body warranty.",
+      "best_for": "Trim pros who want air-nailer feel and a lifetime warranty.",
+      "skip_if": "You want a long track record; it has 89 reviews.",
+      "pros": [
+        "Air-spring drive, no ramp-up",
+        "Lifetime tool-body warranty",
+        "Battery and charger included"
+      ],
+      "cons": [
+        "$341.36",
+        "Smaller review base"
+      ]
+    },
+    {
+      "asin": "B0DWZ5WT5W",
+      "name": "Metabo HPT 18V Brushless 15 Gauge Angled Finish Nailer, Kit (NT1865DAA)",
+      "brand": "Metabo HPT",
+      "model": "NT1865DAA",
+      "image": "https://m.media-amazon.com/images/I/71z4Pj+6VwL._AC_SL1500_.jpg",
+      "price": 394.43,
+      "rating": 4.5,
+      "reviews_count": 49,
+      "bought": "200+/mo",
+      "specs": {
+        "battery": "Metabo HPT 18V (2.0Ah included)",
+        "gauge": "15, angled",
+        "nails": null,
+        "weight": "5.9 lb (no battery)",
+        "per_charge": "Up to 700"
+      },
+      "features": {
+        "brushless": true,
+        "selective": true,
+        "kit": true,
+        "long_warranty": true
+      },
+      "verdict": "Metabo HPT's new 15-gauge kit: 13% lighter and smaller than its predecessor, rated for flush drives into hardwood and fiber cement, up to 700 nails per charge, and a lifetime tool-body warranty.",
+      "best_for": "Heavy trim in hardwood and fiber cement.",
+      "skip_if": "Price matters; it's the most expensive here.",
+      "pros": [
+        "5.9 lbs, 15-gauge",
+        "Up to 700 nails per charge",
+        "Lifetime tool-body warranty; kit"
+      ],
+      "cons": [
+        "$394.43",
+        "49 reviews"
+      ]
+    },
+    {
+      "asin": "B09VMP4FV5",
+      "name": "Milwaukee M18 FUEL 15 Gauge Finish Nailer (2839-20)",
+      "brand": "Milwaukee",
+      "model": "2839-20",
+      "image": "https://m.media-amazon.com/images/I/617E1JLBKOL._AC_SL1000_.jpg",
+      "price": 349.0,
+      "rating": 4.6,
+      "reviews_count": 174,
+      "specs": {
+        "battery": "Milwaukee M18",
+        "gauge": "15, angled",
+        "nails": null,
+        "weight": "8.7 lb",
+        "per_charge": null
+      },
+      "features": {
+        "brushless": true,
+        "selective": true,
+        "kit": false,
+        "long_warranty": false
+      },
+      "verdict": "Milwaukee's M18 FUEL 15-gauge with sequential and contact modes, a tool-free jam latch, an LED, tip storage on the magazine and a reversible belt hook.",
+      "best_for": "M18 owners doing heavy trim.",
+      "skip_if": "Weight matters; at 8.7 lbs it's one of the heaviest here.",
+      "pros": [
+        "M18 FUEL brushless",
+        "LED work light",
+        "Tip storage, belt hook"
+      ],
+      "cons": [
+        "8.7 lbs",
+        "Listing has little detail; check Milwaukee's site"
+      ]
+    },
+    {
+      "asin": "B09NC27Q8B",
+      "name": "CRAFTSMAN V20 Cordless Finish Nailer, 16 Gauge, Bare Tool Only (CMCN616B)",
+      "brand": "CRAFTSMAN",
+      "model": "CMCN616B",
+      "image": "https://m.media-amazon.com/images/I/71OK9s0syUL._AC_SL1500_.jpg",
+      "price": 216.1,
+      "rating": 4.3,
+      "reviews_count": 227,
+      "bought": "50+/mo",
+      "specs": {
+        "battery": "CRAFTSMAN V20",
+        "gauge": "16",
+        "nails": null,
+        "weight": "7.6 lb",
+        "per_charge": "Up to 375"
+      },
+      "features": {
+        "brushless": false,
+        "selective": false,
+        "kit": false,
+        "long_warranty": true
+      },
+      "verdict": "A V20 16-gauge for about $150 less than DEWALT's, with tool-free jam and stall settings and a 3-year warranty, rated for up to 375 nails per charge.",
+      "best_for": "CRAFTSMAN V20 owners trimming a room or two.",
+      "skip_if": "You trim every day; DEWALT and Metabo are brushless.",
+      "pros": [
+        "About $150 less than the DCN660B",
+        "3-year warranty",
+        "Tool-free jam and stall settings"
+      ],
+      "cons": [
+        "7.6 lbs",
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B07KH6P3D2",
+      "name": "CRAFTSMAN V20 Cordless Finish Nailer Kit, 16GA, Battery and Charger Included (CMCN616C1)",
+      "brand": "CRAFTSMAN",
+      "model": "CMCN616C1",
+      "image": "https://m.media-amazon.com/images/I/71GJSQhB+ML._AC_SL1500_.jpg",
+      "price": 329.0,
+      "rating": 4.5,
+      "reviews_count": 482,
+      "specs": {
+        "battery": "CRAFTSMAN V20 (included)",
+        "gauge": "16",
+        "nails": "Up to 2-1/2 in",
+        "weight": "9.1 lb (kit)",
+        "per_charge": null
+      },
+      "features": {
+        "brushless": false,
+        "selective": false,
+        "kit": true,
+        "long_warranty": false
+      },
+      "verdict": "The CMCN616 as a kit with battery and charger, rated a little higher than the bare tool listing.",
+      "best_for": "Starting on CRAFTSMAN V20.",
+      "skip_if": "You own V20 batteries; the bare tool saves about $113.",
+      "pros": [
+        "Battery and charger included",
+        "4.5 stars",
+        "Tool-free depth"
+      ],
+      "cons": [
+        "Brushed motor",
+        "Costs nearly as much as DEWALT's bare tool"
+      ]
+    },
+    {
+      "asin": "B0C7S979JX",
+      "force_budget": true,
+      "name": "RYOBI ONE+ 18V 16-Gauge Cordless AirStrike Finish Nailer, Tool Only (P326)",
+      "brand": "RYOBI",
+      "model": "P326",
+      "image": "https://m.media-amazon.com/images/I/61p5o9ddMPL._AC_SL1000_.jpg",
+      "price": 171.31,
+      "rating": 4.2,
+      "reviews_count": 191,
+      "bought": "200+/mo",
+      "specs": {
+        "battery": "RYOBI 18V ONE+",
+        "gauge": "16",
+        "nails": null,
+        "weight": "7.15 lb",
+        "per_charge": null
+      },
+      "features": {
+        "brushless": false,
+        "selective": false,
+        "kit": false,
+        "long_warranty": false
+      },
+      "verdict": "The cheapest cordless finish nailer here: RYOBI's AirStrike 16-gauge with a 78% smaller nose than the P325 for tight spots and an air-pressure dial.",
+      "best_for": "RYOBI ONE+ owners on a budget.",
+      "skip_if": "You want a full warranty; this listing is a third party with 30 days.",
+      "pros": [
+        "$171.31",
+        "Small nose for tight spots",
+        "Runs on any ONE+ battery"
+      ],
+      "cons": [
+        "Third-party listing, 30-day warranty",
+        "4.2 stars"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0G6DPPPDC",
+      "name": "Ecarke Finish Nailer 16 Gauge Compatible with Dewalt 20V Battery, Cordless Straight Brad Nailer",
+      "brand": "Ecarke",
+      "model": "16GA DeWalt-fit",
+      "image": "https://m.media-amazon.com/images/I/71sBA4iwZlL._AC_SL1500_.jpg",
+      "price": 199.99,
+      "rating": 2.3,
+      "reviews_count": 24,
+      "flag": "Rated 2.3; heavier than the DEWALT it imitates",
+      "verdict": "A DEWALT-battery clone that costs more than RYOBI's real nailer and rates far worse. If you're on DEWALT batteries, save for the DCN662B or DCN660B.",
+      "reasons": [
+        "It's rated 2.3 stars, far below every nailer we rank (4.2 and up).",
+        "At 8.95 lbs it's nearly 3 lbs heavier than the DEWALT DCN662B it's built to run alongside, and its title calls it both a finish nailer and a 'brad nailer'.",
+        "It's a third-party body on DEWALT batteries, so DEWALT doesn't warrant it, and the listing names no warranty of its own."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Cordless or pneumatic finish nailer?",
+      "a": "Cordless nailers skip the compressor and hose, which saves setup time on small jobs and punch lists. They're heavier (6 to 9 lbs vs 4 lbs) and cost more. For all-day production trim, an air nailer is lighter and cheaper."
+    },
+    {
+      "q": "Angled or straight?",
+      "a": "Angled magazines reach into corners and under cabinets more easily, and most 15-gauge nailers are angled. Straight 16-gauge nails cost less."
+    },
+    {
+      "q": "Do cordless nailers have a delay?",
+      "a": "Some flywheel designs spin up for a moment before firing. Air-spring designs like Metabo HPT's fire immediately, closer to a pneumatic nailer."
+    },
+    {
+      "q": "How many nails per charge?",
+      "a": "Makers quote 375 to 800 nails per charge on a 2.0Ah battery, depending on the tool and the wood. A spare battery covers a full day of trim."
+    },
+    {
+      "q": "Can a finish nailer do framing?",
+      "a": "No. Finish nailers drive 15 or 16-gauge nails for trim. Framing, sheathing and subfloor need a framing nailer with 2- to 3-1/2-inch clipped or round-head nails."
+    }
+  ]
+}

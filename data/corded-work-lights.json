@@ -1,0 +1,469 @@
+{
+  "slug": "corded-work-lights",
+  "title": "The 10 Best Corded LED Work Lights",
+  "subtitle": "Tripod and hanging LED work lights for job sites, garages and remodels, ranked from live Amazon data.",
+  "intro": "A corded LED work light floods a room, garage or job site with daylight-white light all day without a battery. We ranked 10 best-sellers on rating, review volume and features (a wet-location or IP66 rating, a stated wattage, dimming or color control and a telescoping tripod). Be careful with brightness claims: most budget lights quote 21,000-32,000 lumens without a test standard. A listed wattage is a better reality check, since today's LEDs make roughly 100-150 lumens per watt. They run from about $49 for Wufoty's 2-head tripod light to $120 for LUTEC's tripod light or NS's 150 W hanging light.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 50,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "wet_rated": 0.3,
+    "wattage_listed": 0.3,
+    "dimmable": 0.2,
+    "tripod": 0.2
+  },
+  "reviews_ceiling": 1000,
+  "spec_fields": [
+    {
+      "key": "lumens",
+      "label": "Claimed lumens"
+    },
+    {
+      "key": "watts",
+      "label": "Wattage"
+    },
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "rating",
+      "label": "Weather rating"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "lumens",
+      "label": "Lumens"
+    },
+    {
+      "key": "watts",
+      "label": "Watts"
+    },
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "wet_rated",
+      "label": "Wet rated",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0881GX5KM",
+      "force_overall": true,
+      "name": "LUTEC 5000K 15000 LM 105 W LED Work Light with Telescoping Tripod",
+      "brand": "LUTEC",
+      "model": "15000 lm tripod",
+      "image": "https://m.media-amazon.com/images/I/61ANFuAdK1L._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.6,
+      "reviews_count": 991,
+      "bought": "200+/mo",
+      "specs": {
+        "lumens": "15,000",
+        "watts": "105 W",
+        "style": "2-head tripod, to 5 ft 6 in",
+        "rating": "ETL wet location",
+        "extras": "8-ft cord, heads rotate 330°"
+      },
+      "features": {
+        "wet_rated": true,
+        "wattage_listed": true,
+        "dimmable": false,
+        "tripod": true
+      },
+      "verdict": "The most-reviewed light here with believable numbers: 15,000 lumens from 105 W, ETL-listed for wet locations, a die-cast aluminum housing and a telescoping tripod to 5 ft 6 in.",
+      "best_for": "Job sites and garages where you want a light you can trust in the rain.",
+      "skip_if": "You want a taller stand; it tops out at 5 ft 6 in.",
+      "pros": [
+        "991 reviews at 4.6 stars",
+        "ETL listed for wet locations",
+        "Honest 105 W / 15,000 lm"
+      ],
+      "cons": [
+        "$119.99",
+        "Not dimmable"
+      ]
+    },
+    {
+      "asin": "B0C6DCVDND",
+      "name": "GUWELL 22000 Lumen Work Lights with Stand, 3 Head Portable LED Work Light, IP66",
+      "brand": "GUWELL",
+      "model": "3-head tripod",
+      "image": "https://m.media-amazon.com/images/I/71O9EQtp0EL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.6,
+      "reviews_count": 673,
+      "specs": {
+        "lumens": "22,000 (title) / 21,000 (spec)",
+        "watts": null,
+        "style": "3-head tripod",
+        "rating": "IP66",
+        "extras": "84 LEDs per head, 360° heads"
+      },
+      "features": {
+        "wet_rated": true,
+        "wattage_listed": false,
+        "dimmable": false,
+        "tripod": true
+      },
+      "verdict": "A 3-head IP66 tripod light with die-cast aluminum heads that rotate 360°, tool-free twist-lock setup and a folding stand.",
+      "best_for": "Lighting a whole room during a remodel.",
+      "skip_if": "You want a stated wattage; none is listed.",
+      "pros": [
+        "3 heads, 360° rotation",
+        "IP66",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Lumen figure differs between title and specs",
+        "Wattage not listed"
+      ]
+    },
+    {
+      "asin": "B0CYWSWZ71",
+      "name": "Zetunlo 21000 Lumen LED Work Lights with Stand, 3 Head, 16FT Cord, IP66",
+      "brand": "Zetunlo",
+      "model": "3-head tripod",
+      "image": "https://m.media-amazon.com/images/I/61tT1KI5PlL._AC_SL1500_.jpg",
+      "price": 59.53,
+      "rating": 4.5,
+      "reviews_count": 936,
+      "specs": {
+        "lumens": "21,000",
+        "watts": "210 W",
+        "style": "3-head tripod, to 78.7 in",
+        "rating": "IP66",
+        "extras": "16-ft cord, die-cast aluminum"
+      },
+      "features": {
+        "wet_rated": true,
+        "wattage_listed": true,
+        "dimmable": false,
+        "tripod": true
+      },
+      "verdict": "A 3-head IP66 tripod light whose 21,000 lumens line up with its 210 W rating, with a 78.7-inch telescoping tripod and a 16-foot cord.",
+      "best_for": "Tall, bright light over a work area.",
+      "skip_if": "You need dimming.",
+      "pros": [
+        "210 W stated, 21,000 lm",
+        "78.7-in tripod, 16-ft cord",
+        "IP66"
+      ],
+      "cons": [
+        "Not dimmable",
+        "Heavier than 2-head lights"
+      ]
+    },
+    {
+      "asin": "B0D3HW56DF",
+      "name": "JDZKOMKE 21000 Lumens LED Work Lights with Stand, 3 Adjustable Heads",
+      "brand": "JDZKOMKE",
+      "model": "3-head tripod",
+      "image": "https://m.media-amazon.com/images/I/71NVFi4+BsL._AC_SL1500_.jpg",
+      "price": 50.69,
+      "rating": 4.7,
+      "reviews_count": 202,
+      "bought": "800+/mo",
+      "specs": {
+        "lumens": "21,000",
+        "watts": null,
+        "style": "3-head tripod",
+        "rating": null,
+        "extras": "Tempered glass, three-pin plug"
+      },
+      "features": {
+        "wet_rated": false,
+        "wattage_listed": false,
+        "dimmable": false,
+        "tripod": true
+      },
+      "verdict": "The best seller here and one of the best rated: a 3-head tripod light with twist locks, tempered glass and a grounded three-pin plug.",
+      "best_for": "A cheap 3-head light for the garage.",
+      "skip_if": "You'll use it in the rain; no weather rating is listed.",
+      "pros": [
+        "800+ sold last month",
+        "4.7 stars",
+        "About $51"
+      ],
+      "cons": [
+        "No weather rating",
+        "Wattage not listed"
+      ]
+    },
+    {
+      "asin": "B0D3HZP3B9",
+      "force_budget": true,
+      "name": "Wufoty LED Work Lights with Stand, 14000 Lumen, 2-Head Adjustable",
+      "brand": "Wufoty",
+      "model": "2-head tripod",
+      "image": "https://m.media-amazon.com/images/I/61CqdwJeynL._AC_SL1500_.jpg",
+      "price": 48.99,
+      "rating": 4.7,
+      "reviews_count": 449,
+      "specs": {
+        "lumens": "14,000",
+        "watts": null,
+        "style": "2-head floor stand",
+        "rating": null,
+        "extras": "60 LEDs per head, 360° rotation"
+      },
+      "features": {
+        "wet_rated": false,
+        "wattage_listed": false,
+        "dimmable": false,
+        "tripod": true
+      },
+      "verdict": "The cheapest light here and tied for the best rating: a 2-head stand light with heads that rotate 360°.",
+      "best_for": "Garage and shop lighting on a budget.",
+      "skip_if": "You'll use it outdoors; no weather rating is listed.",
+      "pros": [
+        "$48.99",
+        "4.7 stars",
+        "360° heads"
+      ],
+      "cons": [
+        "Wattage and weather rating not listed",
+        "2 heads"
+      ]
+    },
+    {
+      "asin": "B0FCF85D97",
+      "name": "Szwbee 32000 Lumen LED Work Light with Stand, 4-Head Tripod, Remote Control",
+      "brand": "Szwbee",
+      "model": "4-head tripod",
+      "image": "https://m.media-amazon.com/images/I/61E3YR8kgfL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.4,
+      "reviews_count": 158,
+      "bought": "500+/mo",
+      "specs": {
+        "lumens": "32,000",
+        "watts": "280 W",
+        "style": "4-head tripod, detachable heads",
+        "rating": "IP66",
+        "extras": "Remote, dimming, 3000-6500K color temperature"
+      },
+      "features": {
+        "wet_rated": true,
+        "wattage_listed": true,
+        "dimmable": true,
+        "tripod": true
+      },
+      "verdict": "A 4-head, 280 W IP66 tripod light with a remote that switches it on and off, dims it and changes color temperature from warm 3000K to daylight 6500K. The heads detach.",
+      "best_for": "Big spaces and adjustable light for painting or photos.",
+      "skip_if": "You want a long track record; it has 158 reviews.",
+      "pros": [
+        "Remote, dimming, 4 color temperatures",
+        "280 W, 4 detachable heads",
+        "IP66"
+      ],
+      "cons": [
+        "4.4 stars",
+        "Bulky"
+      ]
+    },
+    {
+      "asin": "B0DNQDQ5RK",
+      "name": "Jefedana 21000-Lumen LED Work Light with Stand for Job Site Garage",
+      "brand": "Jefedana",
+      "model": "3-head tripod",
+      "image": "https://m.media-amazon.com/images/I/71O9mkh+xDL._AC_SL1500_.jpg",
+      "price": 58.99,
+      "rating": 4.5,
+      "reviews_count": 571,
+      "bought": "400+/mo",
+      "specs": {
+        "lumens": "21,000",
+        "watts": "210 W",
+        "style": "Tripod",
+        "rating": null,
+        "extras": "72 LEDs per head, tempered glass"
+      },
+      "features": {
+        "wet_rated": false,
+        "wattage_listed": true,
+        "dimmable": false,
+        "tripod": true
+      },
+      "verdict": "A 210 W, 6500K tripod light with cast aluminum housings, tempered glass and tool-free twist locks.",
+      "best_for": "A bright tripod light for indoor work.",
+      "skip_if": "You need a weather rating; none is listed.",
+      "pros": [
+        "210 W stated",
+        "400+ sold last month",
+        "Cast aluminum heads"
+      ],
+      "cons": [
+        "Spec table lists 70 W, bullets 210 W",
+        "No weather rating"
+      ]
+    },
+    {
+      "asin": "B0DHZVRHBV",
+      "name": "SOARFLY Upgraded LED Work Lights with Stand, 21000 Lumen, 3-Head, Waterproof Foldable Tripod",
+      "brand": "SOARFLY",
+      "model": "3-head tripod",
+      "image": "https://m.media-amazon.com/images/I/61vMaMg9-uL._AC_SL1500_.jpg",
+      "price": 54.99,
+      "rating": 4.5,
+      "reviews_count": 400,
+      "specs": {
+        "lumens": "21,000",
+        "watts": null,
+        "style": "3-head tripod",
+        "rating": "Waterproof (rating not stated)",
+        "extras": "72 LEDs per head, 360° rotation"
+      },
+      "features": {
+        "wet_rated": false,
+        "wattage_listed": false,
+        "dimmable": false,
+        "tripod": true
+      },
+      "verdict": "A 3-head folding tripod light with 360° heads and tempered glass, sold as waterproof.",
+      "best_for": "A mid-price 3-head light.",
+      "skip_if": "You want the waterproofing spelled out; no IP rating is given.",
+      "pros": [
+        "3 heads",
+        "360° rotation",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Spec table lists 9 W per source and 60 W max, which can't reach 21,000 lm",
+        "No IP rating"
+      ]
+    },
+    {
+      "asin": "B07FB8ZBGC",
+      "name": "JC-LGL LED Temporary Work Light 100W 12000LM 5000K LED Construction Light",
+      "brand": "JC-LGL",
+      "model": "100W temporary",
+      "image": "https://m.media-amazon.com/images/I/61ytJRE3PRL._AC_SL1500_.jpg",
+      "price": 87.99,
+      "rating": 4.4,
+      "reviews_count": 102,
+      "bought": "100+/mo",
+      "specs": {
+        "lumens": "12,000",
+        "watts": "100 W",
+        "style": "Hanging, caged",
+        "rating": null,
+        "extras": "Stainless cage, hook, 10-ft cord, 6000 V surge protection"
+      },
+      "features": {
+        "wet_rated": false,
+        "wattage_listed": true,
+        "dimmable": false,
+        "tripod": false
+      },
+      "verdict": "A caged hanging construction light that replaces a 450 W metal halide: 12,000 lumens from 100 W, a stainless hook and cage, surge protection and a 5-year warranty.",
+      "best_for": "Lighting a whole room from the ceiling during framing and drywall.",
+      "skip_if": "You need a stand; it hangs from a hook.",
+      "pros": [
+        "Honest 100 W / 12,000 lm",
+        "Stainless cage and hook",
+        "5-year warranty"
+      ],
+      "cons": [
+        "No stand",
+        "Weather rating not listed"
+      ]
+    },
+    {
+      "asin": "B07VL22CZX",
+      "name": "NS 150W High Bay Temporary LED Work Light 23550Lm 5000K with Hook",
+      "brand": "NS",
+      "model": "150W high bay",
+      "image": "https://m.media-amazon.com/images/I/61VuY8H6UZL._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.6,
+      "reviews_count": 78,
+      "specs": {
+        "lumens": "23,550",
+        "watts": "150 W",
+        "style": "Hanging high bay",
+        "rating": "IP64",
+        "extras": "16.4-ft cord, steel hook"
+      },
+      "features": {
+        "wet_rated": true,
+        "wattage_listed": true,
+        "dimmable": false,
+        "tripod": false
+      },
+      "verdict": "A 150 W hanging high-bay light for warehouses, garages and basements, with a 16.4-foot cord and IP64 sealing.",
+      "best_for": "High ceilings and big open spaces.",
+      "skip_if": "You want portability on a stand.",
+      "pros": [
+        "150 W, 23,550 lm",
+        "IP64",
+        "16.4-ft cord"
+      ],
+      "cons": [
+        "$119.99",
+        "78 reviews"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0D9L6L36B",
+      "name": "YKXJM Work Lights with Stand, 14000 Lumen, 2 Adjustable Heads LED Work Light",
+      "brand": "YKXJM",
+      "model": "2-head tripod",
+      "image": "https://m.media-amazon.com/images/I/61c9nFCm8ML._AC_SL1500_.jpg",
+      "price": 43.99,
+      "rating": 4.6,
+      "reviews_count": 178,
+      "bought": "200+/mo",
+      "flag": "Sold as 14,000 lumens and 21,000 lumens at once",
+      "verdict": "A tripod light whose listing gives two different brightness figures. The Wufoty is $5 more, with the same 2-head design and one consistent 14,000-lumen claim.",
+      "reasons": [
+        "The title says 14,000 lumens; the first bullet says '21000LM super bright'. That's a 50% difference on the number the light is sold on.",
+        "The listing gives no wattage, so neither lumen figure can be sanity-checked.",
+        "It gives no voltage or weather rating, though it's sold for outdoor job sites."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "How many lumens do I need?",
+      "a": "5,000-10,000 real lumens light a garage bay or room well. Budget lights often claim 20,000-30,000 lumens without a test standard; a stated wattage keeps them honest, since good LEDs produce roughly 100-150 lumens per watt."
+    },
+    {
+      "q": "Tripod or hanging?",
+      "a": "Tripod lights aim where you're working and move with you. Hanging caged lights light a whole room evenly from above, which is better for drywall, painting and framing."
+    },
+    {
+      "q": "Do I need a weather rating?",
+      "a": "For outdoor or wet sites, yes. Look for IP65/IP66 or an ETL or UL wet-location listing. Indoor-only lights can fail or shock in the rain."
+    },
+    {
+      "q": "What color temperature is best?",
+      "a": "5000-6500K daylight white shows colors and defects clearly, which is what you want for paint and finish work. Warmer 3000K is easier on the eyes for long sessions."
+    },
+    {
+      "q": "Do LED work lights get hot?",
+      "a": "Far less than halogen, which is why they replaced them. Aluminum housings still get warm, so keep them away from plastic sheeting and flammable materials."
+    }
+  ]
+}

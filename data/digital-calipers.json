@@ -1,0 +1,475 @@
+{
+  "slug": "digital-calipers",
+  "title": "The 10 Best Digital Calipers",
+  "subtitle": "6-inch digital calipers for woodworking, 3D printing, machining and DIY, ranked from live Amazon data.",
+  "intro": "A digital caliper measures outside, inside, depth and step dimensions to a thousandth of an inch: bolt diameters, board thickness, 3D-print tolerances and drill bits. We ranked 10 best-sellers on rating, review volume and features (a stainless steel body, IP54 shop-dust and coolant protection, fraction readout and a data output port). The big divide is material: stainless steel calipers are accurate to about ±0.001 inch, while plastic ones read to ±0.01 inch, ten times coarser. They run from about $9 for Adoric's plastic caliper to $140 for Starrett's.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 10,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "steel": 0.35,
+    "ip54": 0.25,
+    "fractions": 0.2,
+    "data_port": 0.2
+  },
+  "reviews_ceiling": 20000,
+  "spec_fields": [
+    {
+      "key": "body",
+      "label": "Body"
+    },
+    {
+      "key": "accuracy",
+      "label": "Accuracy"
+    },
+    {
+      "key": "resolution",
+      "label": "Resolution"
+    },
+    {
+      "key": "modes",
+      "label": "Units"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "body",
+      "label": "Body"
+    },
+    {
+      "key": "accuracy",
+      "label": "Accuracy"
+    },
+    {
+      "key": "ip54",
+      "label": "IP54",
+      "type": "bool"
+    },
+    {
+      "key": "fractions",
+      "label": "Fractions",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B001AQEZ2W",
+      "force_overall": true,
+      "name": "iGaging IP54 Electronic Digital Caliper 0-6\", Inch/Metric/Fractions, Stainless Steel",
+      "brand": "iGaging",
+      "model": "IP54 0-6 in",
+      "image": "https://m.media-amazon.com/images/I/515+MlPoeRL._SL1500_.jpg",
+      "price": 37.99,
+      "rating": 4.6,
+      "reviews_count": 3356,
+      "bought": "500+/mo",
+      "specs": {
+        "body": "Hardened stainless steel",
+        "accuracy": "±0.001 in",
+        "resolution": "0.0005 in / 0.01 mm / 1/128 in",
+        "modes": "Inch, mm, fractions",
+        "extras": "IP54, super-large 2-3/8 x 7/8-in display, repeatability 0.0005 in"
+      },
+      "features": {
+        "steel": true,
+        "ip54": true,
+        "fractions": true,
+        "data_port": false
+      },
+      "verdict": "The best all-round caliper for the money: hardened stainless steel, ±0.001-inch accuracy with 0.0005-inch resolution, an extra-large display, fraction readout and IP54 protection against shop dust and coolant.",
+      "best_for": "Woodworking and machining where shop dust and oil are everywhere.",
+      "skip_if": "You need data output to a computer; the Absolute Origin has it.",
+      "pros": [
+        "IP54 sealed",
+        "0.0005-in resolution, 1/128-in fractions",
+        "Super-large display"
+      ],
+      "cons": [
+        "No data port",
+        "$37.99"
+      ]
+    },
+    {
+      "asin": "B07DFFYCXS",
+      "force_budget": true,
+      "name": "Adoric Digital Caliper 0-6 Inch, Inch/mm Conversion, Large LCD",
+      "brand": "Adoric",
+      "model": "0-6 in",
+      "image": "https://m.media-amazon.com/images/I/614gKlEGiwL._SL1500_.jpg",
+      "price": 8.99,
+      "rating": 4.5,
+      "reviews_count": 38144,
+      "bought": "8K+/mo",
+      "specs": {
+        "body": "Plastic",
+        "accuracy": "±0.01 in (0.2 mm)",
+        "resolution": "0.01 in / 0.1 mm",
+        "modes": "Inch, mm",
+        "extras": "Auto-off"
+      },
+      "features": {
+        "steel": false,
+        "ip54": false,
+        "fractions": false,
+        "data_port": false
+      },
+      "verdict": "The most-reviewed caliper here, for under $9, and fine for rough household measuring. It's plastic and reads only to ±0.01 inch, ten times coarser than a steel caliper.",
+      "best_for": "Household measuring, crafts and a junk drawer.",
+      "skip_if": "You need thousandths: 3D printing tolerances, machining or bearings.",
+      "pros": [
+        "$8.99",
+        "38,144 reviews; 8,000+ sold last month",
+        "Measures inside, outside, depth and step"
+      ],
+      "cons": [
+        "Plastic body",
+        "±0.01-in accuracy"
+      ]
+    },
+    {
+      "asin": "B07X8JQ8L5",
+      "name": "Kynup Digital Caliper, Stainless Steel, 6 Inch (170)",
+      "brand": "Kynup",
+      "model": "170",
+      "image": "https://m.media-amazon.com/images/I/71iAR6ETGLL._SL1500_.jpg",
+      "price": 23.98,
+      "rating": 4.6,
+      "reviews_count": 11883,
+      "bought": "2K+/mo",
+      "specs": {
+        "body": "Stainless steel",
+        "accuracy": "±0.001 in / 0.02 mm",
+        "resolution": null,
+        "modes": "3 modes (inch, mm, fractions)",
+        "extras": "Auto-off, 3 spare cells, screwdriver, case"
+      },
+      "features": {
+        "steel": true,
+        "ip54": false,
+        "fractions": true,
+        "data_port": false
+      },
+      "verdict": "A widely reviewed steel caliper: polished stainless steel, ±0.001-inch accuracy, three units including fractions, and spare batteries and a case in the box, for about $24.",
+      "best_for": "3D printing, woodworking and general shop use on a budget.",
+      "skip_if": "Your shop is dusty or oily; it's not IP rated.",
+      "pros": [
+        "11,883 reviews at 4.6 stars",
+        "Stainless steel, ±0.001 in",
+        "Spare batteries and case"
+      ],
+      "cons": [
+        "No IP rating",
+        "Resolution not listed"
+      ]
+    },
+    {
+      "asin": "B017KUC6XQ",
+      "name": "VINCA IP54 Grade Digital Caliper DCLA-0605, 6 Inch, Inch/Millimeter/Fraction, Stainless Steel",
+      "brand": "VINCA",
+      "model": "DCLA-0605",
+      "image": "https://m.media-amazon.com/images/I/611vwfQRJVL._SL1500_.jpg",
+      "price": 21.45,
+      "rating": 4.6,
+      "reviews_count": 8882,
+      "bought": "1K+/mo",
+      "specs": {
+        "body": "Stainless steel, glass scale",
+        "accuracy": "±0.001 in / 0.03 mm",
+        "resolution": null,
+        "modes": "Inch, mm, fractions",
+        "extras": "IP54, RS232 data port, 1/2 x 1-1/2-in LCD"
+      },
+      "features": {
+        "steel": true,
+        "ip54": true,
+        "fractions": true,
+        "data_port": true
+      },
+      "verdict": "The best value here: stainless steel with a glass scale, IP54 sealing, fraction readout and an RS232 data port, for about $21.",
+      "best_for": "Getting every feature for the lowest price.",
+      "skip_if": "You want a long-established brand.",
+      "pros": [
+        "IP54 and RS232 data port",
+        "Glass scale",
+        "$21.45"
+      ],
+      "cons": [
+        "±0.03 mm metric spec",
+        "Data cable not included"
+      ]
+    },
+    {
+      "asin": "B08Y8M54M9",
+      "name": "Jiavarry Digital Caliper, Stainless Steel, Inch/Metric/Fraction, 6 Inch",
+      "brand": "Jiavarry",
+      "model": "6 in",
+      "image": "https://m.media-amazon.com/images/I/613ogMkDwQS._AC_SL1001_.jpg",
+      "price": 23.98,
+      "rating": 4.5,
+      "reviews_count": 8763,
+      "bought": "8K+/mo",
+      "specs": {
+        "body": "Stainless steel",
+        "accuracy": "±0.001 in / 0.02 mm",
+        "resolution": null,
+        "modes": "Inch, mm, fractions",
+        "extras": "Zero at any position"
+      },
+      "features": {
+        "steel": true,
+        "ip54": false,
+        "fractions": true,
+        "data_port": false
+      },
+      "verdict": "One of the best-selling steel calipers: stainless body, fraction readout and four measuring modes.",
+      "best_for": "General shop measuring.",
+      "skip_if": "You want IP54; the VINCA has it for less.",
+      "pros": [
+        "8,000+ sold last month",
+        "Stainless steel, ±0.001 in",
+        "Fractions"
+      ],
+      "cons": [
+        "No IP rating",
+        "The VINCA adds more for less"
+      ]
+    },
+    {
+      "asin": "B000GSLKIW",
+      "name": "NEIKO 01407A Electronic Digital Caliper, 0-6 Inches, Stainless Steel, Inch/Fraction/mm",
+      "brand": "NEIKO",
+      "model": "01407A",
+      "image": "https://m.media-amazon.com/images/I/61zdzua+T6L._SL1500_.jpg",
+      "price": 27.99,
+      "rating": 4.4,
+      "reviews_count": 19400,
+      "specs": {
+        "body": "Stainless steel",
+        "accuracy": "0.001 in / 0.02 mm",
+        "resolution": null,
+        "modes": "Inch, fractions, mm",
+        "extras": "Knurled thumb roller, case"
+      },
+      "features": {
+        "steel": true,
+        "ip54": false,
+        "fractions": true,
+        "data_port": false
+      },
+      "verdict": "A long-time best seller with 19,400 reviews: stainless steel, a knurled thumb roller, three units including fractions and a case.",
+      "best_for": "A proven steel caliper with a case.",
+      "skip_if": "Rating matters; at 4.4 it trails cheaper steel calipers.",
+      "pros": [
+        "19,400 reviews",
+        "Inch, fraction and mm",
+        "Case included"
+      ],
+      "cons": [
+        "4.4 stars",
+        "No IP rating"
+      ]
+    },
+    {
+      "asin": "B000UCIGCW",
+      "name": "General Tools Digital Caliper #147, 6\", Stainless Steel",
+      "brand": "General Tools",
+      "model": "147",
+      "image": "https://m.media-amazon.com/images/I/61Vk7I9W1OL._SL1500_.jpg",
+      "price": 36.29,
+      "rating": 4.7,
+      "reviews_count": 899,
+      "bought": "300+/mo",
+      "specs": {
+        "body": "Stainless steel and carbon fiber",
+        "accuracy": "±0.001 in / 0.02 mm",
+        "resolution": null,
+        "modes": "3 modes",
+        "extras": "Extra-large LCD, auto power off"
+      },
+      "features": {
+        "steel": true,
+        "ip54": false,
+        "fractions": true,
+        "data_port": false
+      },
+      "verdict": "The highest-rated caliper here: stainless steel with non-marring carbon fiber, an extra-large display and three modes, from a long-established precision tool maker.",
+      "best_for": "Woodworkers who don't want steel jaws marring workpieces.",
+      "skip_if": "You need IP54 sealing.",
+      "pros": [
+        "4.7 stars",
+        "Non-marring carbon fiber",
+        "Extra-large LCD"
+      ],
+      "cons": [
+        "No IP rating",
+        "$36.29"
+      ]
+    },
+    {
+      "asin": "B00INL0BTS",
+      "name": "iGAGING Absolute Origin 0-6\" Digital Caliper, IP54, SPC/USB Output Port, Case",
+      "brand": "iGAGING",
+      "model": "Absolute Origin",
+      "image": "https://m.media-amazon.com/images/I/81MRTRCxHVL._SL1500_.jpg",
+      "price": 47.77,
+      "rating": 4.6,
+      "reviews_count": 1892,
+      "bought": "1K+/mo",
+      "specs": {
+        "body": "Stainless steel",
+        "accuracy": "0.001 in",
+        "resolution": null,
+        "modes": "Inch, mm",
+        "extras": "Absolute origin, IP54, SPC/USB output, case"
+      },
+      "features": {
+        "steel": true,
+        "ip54": true,
+        "fractions": false,
+        "data_port": true
+      },
+      "verdict": "An absolute-origin caliper that remembers its zero even after power-off, so you never re-zero at startup, with IP54 sealing and an SPC/USB port for sending readings to a spreadsheet or CAD.",
+      "best_for": "Machinists and anyone logging measurements.",
+      "skip_if": "You read fractions; this model is inch and metric only.",
+      "pros": [
+        "Absolute origin, no re-zeroing",
+        "SPC/USB data output",
+        "IP54"
+      ],
+      "cons": [
+        "No fraction mode",
+        "$47.77"
+      ]
+    },
+    {
+      "asin": "B0015S6GMM",
+      "name": "Fowler 54-101-150-2 Xtra-Value Cal Digital Caliper, 0-6\"/150mm",
+      "brand": "Fowler",
+      "model": "54-101-150-2",
+      "image": "https://m.media-amazon.com/images/I/41Ngm-7P6UL._SL1200_.jpg",
+      "price": 78.05,
+      "rating": 4.6,
+      "reviews_count": 853,
+      "bought": "200+/mo",
+      "specs": {
+        "body": "Stainless steel",
+        "accuracy": "±0.001 in / 0.02 mm",
+        "resolution": "0.0005 in / 0.01 mm",
+        "modes": "Inch, mm",
+        "extras": "2 CR2032 batteries, case, 1-year warranty"
+      },
+      "features": {
+        "steel": true,
+        "ip54": false,
+        "fractions": false,
+        "data_port": false
+      },
+      "verdict": "A machinist-brand caliper with 0.0005-inch resolution, CR2032 batteries that last longer than button cells, a protective case and a full 1-year warranty.",
+      "best_for": "Machine shops that want a known metrology brand.",
+      "skip_if": "You don't need the brand; the iGaging IP54 has similar specs for half the price.",
+      "pros": [
+        "0.0005-in resolution",
+        "CR2032 batteries",
+        "1-year warranty"
+      ],
+      "cons": [
+        "$78.05",
+        "No IP rating or fractions"
+      ]
+    },
+    {
+      "asin": "B00WSOU772",
+      "premium": true,
+      "name": "Starrett Stainless Steel Electronic Slide Caliper, 0-6\" Range, .0005\" Res",
+      "brand": "Starrett",
+      "model": "Electronic slide caliper 0-6 in",
+      "image": "https://m.media-amazon.com/images/I/41ZavzT9LJL._SL1200_.jpg",
+      "price": 139.99,
+      "rating": 4.5,
+      "reviews_count": 374,
+      "bought": "500+/mo",
+      "specs": {
+        "body": "Hardened stainless steel",
+        "accuracy": "±0.001 in / ±0.02 mm",
+        "resolution": "0.0005 in / 0.01 mm",
+        "modes": "Inch, mm",
+        "extras": "Fine adjustment thumbwheel, 30-min auto-off"
+      },
+      "features": {
+        "steel": true,
+        "ip54": false,
+        "fractions": false,
+        "data_port": false
+      },
+      "verdict": "Starrett's electronic caliper: hardened stainless measuring surfaces, a fine-adjustment thumbwheel and 0.0005-inch resolution from the best-known name in American precision tools.",
+      "best_for": "Machinists who want Starrett on the bench.",
+      "skip_if": "You're measuring 3D prints; a $24 steel caliper is accurate enough.",
+      "pros": [
+        "Starrett build quality",
+        "Fine-adjust thumbwheel",
+        "0.0005-in resolution"
+      ],
+      "cons": [
+        "$139.99",
+        "No IP rating or data port"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B09M225ZP9",
+      "name": "Viecam 0-6 Inches Digital Caliper with Large LCD Screen and Auto-Off",
+      "brand": "Viecam",
+      "model": "VC6.0",
+      "image": "https://m.media-amazon.com/images/I/51ng6i3Bi9L._SL1000_.jpg",
+      "price": 5.99,
+      "rating": 4.5,
+      "reviews_count": 637,
+      "bought": "400+/mo",
+      "flag": "Sold as carbon fiber; reads only to ±0.01 in",
+      "verdict": "A $6 caliper sold as carbon fiber with plastic-caliper accuracy. If you want a cheap one, the Adoric is $3 more with 60 times the reviews; if you need precision, buy steel.",
+      "reasons": [
+        "The spec table lists the material as carbon fiber, but its 0.1 mm resolution and ±0.01-inch accuracy are those of the cheapest plastic calipers, ten times coarser than steel ones.",
+        "The spec table lists the model as 'nys' and says nothing is included, so the listing details aren't reliable.",
+        "It doesn't do anything the Adoric doesn't, with far less track record."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Steel or plastic calipers?",
+      "a": "Stainless steel calipers are accurate to about ±0.001 inch and hold up for years. Plastic calipers read to ±0.01 inch, ten times coarser, and the jaws flex. Plastic is fine for rough measuring; anything with tolerances needs steel."
+    },
+    {
+      "q": "Accuracy vs resolution?",
+      "a": "Resolution is the smallest step the display shows (0.0005 inch on good calipers). Accuracy is how close the reading is to the truth (typically ±0.001 inch). A display can show more digits than the caliper can actually measure."
+    },
+    {
+      "q": "What does IP54 mean?",
+      "a": "IP54 calipers resist dust and splashing water or coolant. Unsealed digital calipers can glitch when dust or moisture gets into the electronics."
+    },
+    {
+      "q": "Do I need fraction readout?",
+      "a": "If you work in fractional inches (woodworking, drill bits), a fraction mode saves converting decimals. Machinists usually prefer decimal inches or millimeters."
+    },
+    {
+      "q": "How do I get accurate readings?",
+      "a": "Clean the jaws, close them and zero before measuring, use light consistent pressure, and measure square to the part. Replace the battery when the display flickers or drifts."
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "slug": "scroll-saws",
+  "title": "The 10 Best Scroll Saws",
+  "subtitle": "16- to 22-inch variable-speed scroll saws for fretwork, puzzles, inlay and intricate curves, ranked from live Amazon data.",
+  "intro": "A scroll saw cuts tight curves and interior cutouts in wood, plastic and thin metal that no other saw can reach. We ranked 10 best-sellers on rating, review volume and features (tool-free blade changes, a work light, an upper arm that lifts for inside cuts and a throat of 20 inches or more). The throat size sets the largest piece you can turn: 16-inch saws suit hobby work, 20-22-inch saws handle big panels. They run from about $110 for Dremel's compact Moto-Saw to $900 for JET's 22-inch.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 120,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "tool_free": 0.25,
+    "light": 0.2,
+    "arm_lift": 0.25,
+    "large_throat": 0.3
+  },
+  "reviews_ceiling": 5000,
+  "spec_fields": [
+    {
+      "key": "throat",
+      "label": "Throat"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "thickness",
+      "label": "Max thickness"
+    },
+    {
+      "key": "table",
+      "label": "Table"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "throat",
+      "label": "Throat"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "arm_lift",
+      "label": "Arm lifts",
+      "type": "bool"
+    },
+    {
+      "key": "light",
+      "label": "Light",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07MC1HLNP",
+      "force_overall": true,
+      "name": "WEN 3921 Variable Speed Scroll Saw, 16-Inch with Work Light",
+      "brand": "WEN",
+      "model": "3921",
+      "image": "https://m.media-amazon.com/images/I/81ENwS8ql3L._AC_SL1500_.jpg",
+      "price": 119.0,
+      "rating": 4.5,
+      "reviews_count": 5161,
+      "bought": "100+/mo",
+      "specs": {
+        "throat": "16 in",
+        "speed": "400-1,600 spm",
+        "thickness": "2 in",
+        "table": "16 x 11 in, bevels 45° left",
+        "extras": "Flex light, air pump, dust port, cast iron base"
+      },
+      "features": {
+        "tool_free": true,
+        "light": true,
+        "arm_lift": false,
+        "large_throat": false
+      },
+      "verdict": "The most-reviewed scroll saw here and the go-to first saw: variable speed, a flex light, an air pump to clear sawdust, a cast iron base, and blades that mount in two directions for unlimited rip length.",
+      "best_for": "Beginners and hobby fretwork.",
+      "skip_if": "You cut large panels; a 20-inch throat takes bigger work.",
+      "pros": [
+        "5,161 reviews at 4.5 stars",
+        "Blades mount two ways for long rips",
+        "Light, air pump, cast iron base"
+      ],
+      "cons": [
+        "16-in throat",
+        "Arm doesn't lift for inside cuts"
+      ]
+    },
+    {
+      "asin": "B084LKTV6Y",
+      "name": "WEN 3922 16-inch Variable Speed Scroll Saw with Easy-Access Blade Changes",
+      "brand": "WEN",
+      "model": "3922",
+      "image": "https://m.media-amazon.com/images/I/811o3zpjiwL._AC_SL1500_.jpg",
+      "price": 119.77,
+      "rating": 4.5,
+      "reviews_count": 1266,
+      "bought": "400+/mo",
+      "specs": {
+        "throat": "16 in",
+        "speed": "550-1,600 spm",
+        "thickness": "2 in",
+        "table": "16 x 10 in, bevels 45°",
+        "extras": "Flip-open side panel, air pump, dust port, foot lock"
+      },
+      "features": {
+        "tool_free": true,
+        "light": false,
+        "arm_lift": false,
+        "large_throat": false
+      },
+      "verdict": "The best-selling scroll saw here: a side panel flips open for easier blade changes, plus tool-free blade adapters, a cast iron base, an air pump and a dust port.",
+      "best_for": "Hobbyists who change blades often.",
+      "skip_if": "You want a work light; the 3921 and 3923 have one.",
+      "pros": [
+        "400+ sold last month",
+        "Flip-open side panel",
+        "Cast iron base, air pump"
+      ],
+      "cons": [
+        "No work light listed",
+        "16-in throat"
+      ]
+    },
+    {
+      "asin": "B00AFELU6O",
+      "force_budget": true,
+      "name": "Dremel MS20-01 Moto-Saw Variable Speed Compact Scroll Saw Kit",
+      "brand": "Dremel",
+      "model": "MS20-01",
+      "image": "https://m.media-amazon.com/images/I/71J6Qd9EUgL._AC_SL1500_.jpg",
+      "price": 110.49,
+      "rating": 4.4,
+      "reviews_count": 990,
+      "bought": "200+/mo",
+      "specs": {
+        "throat": "Compact",
+        "speed": "Variable",
+        "thickness": null,
+        "table": "Clamps to any bench",
+        "extras": "Detachable handheld coping saw, dust port"
+      },
+      "features": {
+        "tool_free": true,
+        "light": false,
+        "arm_lift": false,
+        "large_throat": false
+      },
+      "verdict": "A compact scroll saw that clamps to any table and detaches into a handheld coping saw, with auto-tensioning quick-change blades and a 2-year warranty.",
+      "best_for": "Small spaces, crafts and taking the saw to the work.",
+      "skip_if": "You do serious fretwork; a full-size saw is steadier.",
+      "pros": [
+        "Detaches for handheld use",
+        "Auto-tensioning blades",
+        "2-year warranty"
+      ],
+      "cons": [
+        "Small capacity",
+        "Lighter duty than full-size saws"
+      ]
+    },
+    {
+      "asin": "B0BFQY114K",
+      "name": "SKIL 1.2 Amp 16 in. Variable Speed Scroll Saw with LED Work Light (SS9503-00)",
+      "brand": "SKIL",
+      "model": "SS9503-00",
+      "image": "https://m.media-amazon.com/images/I/61byDTstgFL._SL1500_.jpg",
+      "price": 166.73,
+      "rating": 4.5,
+      "reviews_count": 198,
+      "bought": "100+/mo",
+      "specs": {
+        "throat": "16 in",
+        "speed": "Electronic variable",
+        "thickness": null,
+        "table": "16 x 10 in, tilts 0-45°",
+        "extras": "LED, dust blower, on-tool blade storage"
+      },
+      "features": {
+        "tool_free": true,
+        "light": true,
+        "arm_lift": false,
+        "large_throat": false
+      },
+      "verdict": "A 16-inch saw with electronic variable speed, an integrated LED, a dust blower that keeps the line clear, keyless blade changes and onboard blade storage.",
+      "best_for": "A brand-name 16-inch saw with a light.",
+      "skip_if": "Price matters; the WEN 3921 has similar features for less.",
+      "pros": [
+        "Integrated LED",
+        "Keyless blade change",
+        "Onboard blade storage"
+      ],
+      "cons": [
+        "About $48 more than the WEN 3921",
+        "Listing showed only 1 left"
+      ]
+    },
+    {
+      "asin": "B09XWV7FJT",
+      "name": "WEN 3923 Variable Speed Scroll Saw, 16-Inch with Work Light and Easy Access Blade Changes",
+      "brand": "WEN",
+      "model": "3923",
+      "image": "https://m.media-amazon.com/images/I/71B4M984VWL._AC_SL1500_.jpg",
+      "price": 158.46,
+      "rating": 4.4,
+      "reviews_count": 416,
+      "bought": "100+/mo",
+      "specs": {
+        "throat": "16 in",
+        "speed": "550-1,600 spm",
+        "thickness": "2 in",
+        "table": "16 x 10 in, bevels 45°",
+        "extras": "Work light, flip-open side panel, air pump, dust port"
+      },
+      "features": {
+        "tool_free": true,
+        "light": true,
+        "arm_lift": false,
+        "large_throat": false
+      },
+      "verdict": "The 3922 with a work light added: flip-open blade access, tool-free blade adapters, a cast iron base, an air pump and a dust port.",
+      "best_for": "WEN's easiest blade changes plus a light.",
+      "skip_if": "You can live without the light; the 3922 is about $39 less.",
+      "pros": [
+        "Work light",
+        "Flip-open side panel",
+        "Cast iron base"
+      ],
+      "cons": [
+        "About $39 more than the 3922",
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B0DWHL23YK",
+      "name": "BUCKTOOL 16-Inch Scroll Saw, 1.3A, Double Parallel-Link Drive",
+      "brand": "BUCKTOOL",
+      "model": "16 in",
+      "image": "https://m.media-amazon.com/images/I/71ufU3N6wVL._AC_SL1500_.jpg",
+      "price": 305.0,
+      "rating": 4.7,
+      "reviews_count": 71,
+      "specs": {
+        "throat": "16 in",
+        "speed": "Variable",
+        "thickness": null,
+        "table": "19-11/16 x 13-3/8 in",
+        "extras": "Tilting arm 30° L / 45° R, lifting upper arm"
+      },
+      "features": {
+        "tool_free": true,
+        "light": false,
+        "arm_lift": true,
+        "large_throat": false
+      },
+      "verdict": "A step up from hobby saws: a double parallel-link drive for smoother, square cuts, an arm that tilts instead of the table, a lifting upper arm for top-down blade insertion, and up-front controls.",
+      "best_for": "Serious hobbyists doing lots of inside cuts.",
+      "skip_if": "You want a long track record; it has 71 reviews.",
+      "pros": [
+        "Parallel-link drive",
+        "Arm lifts for inside cuts",
+        "Tilting arm keeps table flat"
+      ],
+      "cons": [
+        "$305.00",
+        "Small review base"
+      ]
+    },
+    {
+      "asin": "B0CPDT9BMW",
+      "name": "BUCKTOOL 22-Inch Scroll Saw, 1/5 HP 1.3A",
+      "brand": "BUCKTOOL",
+      "model": "22 in",
+      "image": "https://m.media-amazon.com/images/I/71c5TtNXMjL._AC_SL1500_.jpg",
+      "price": 349.99,
+      "rating": 4.7,
+      "reviews_count": 71,
+      "specs": {
+        "throat": "22 in",
+        "speed": "360-1,550 spm",
+        "thickness": null,
+        "table": "27 x 13 in",
+        "extras": "Arm bevels 30° L / 45° R, lifting arm, pinless blades"
+      },
+      "features": {
+        "tool_free": true,
+        "light": false,
+        "arm_lift": true,
+        "large_throat": true
+      },
+      "verdict": "A 22-inch throat and 27 x 13-inch table for large panels, a lifting, tilting upper arm and 15 and 18 TPI pinless blades in the box, for well under half the JET's price.",
+      "best_for": "Large fretwork and signs on a budget.",
+      "skip_if": "You don't need 22 inches of reach.",
+      "pros": [
+        "22-in throat",
+        "27 x 13-in table",
+        "Lifting, tilting arm"
+      ],
+      "cons": [
+        "Small review base",
+        "No light listed"
+      ]
+    },
+    {
+      "asin": "B00IK8DIU8",
+      "name": "Delta Power Tools 40-694 20 In. Variable Speed Scroll Saw",
+      "brand": "Delta",
+      "model": "40-694",
+      "image": "https://m.media-amazon.com/images/I/51DqDPlVkXL._AC_SL1024_.jpg",
+      "price": 497.0,
+      "rating": 4.6,
+      "reviews_count": 591,
+      "specs": {
+        "throat": "20 in",
+        "speed": "400-1,750 spm",
+        "thickness": "2-1/8 in at 90°",
+        "table": "16 x 24 in",
+        "extras": "Lifting arm, tool-free tensioning"
+      },
+      "features": {
+        "tool_free": true,
+        "light": false,
+        "arm_lift": true,
+        "large_throat": true
+      },
+      "verdict": "A 20-inch saw with an upper arm that locks up for blade changes, single-lever tool-free tensioning, a 16 x 24-inch table and the fastest top speed here at 1,750 spm.",
+      "best_for": "Advanced scrollers who want a 20-inch saw.",
+      "skip_if": "You're starting out; a WEN is a quarter of the price.",
+      "pros": [
+        "20-in throat",
+        "Arm locks up",
+        "Tool-free tensioning"
+      ],
+      "cons": [
+        "$497.00",
+        "Listing showed only 1 left"
+      ]
+    },
+    {
+      "asin": "B01G4VTYAU",
+      "name": "JET 22-Inch Scroll Saw w/ Foot Switch, Variable Speed (JWSS-22B)",
+      "brand": "JET",
+      "model": "JWSS-22B",
+      "image": "https://m.media-amazon.com/images/I/71pZem3JwPS._AC_SL1500_.jpg",
+      "price": 899.99,
+      "rating": 4.4,
+      "reviews_count": 40,
+      "specs": {
+        "throat": "22 in",
+        "speed": "400-1,550 spm",
+        "thickness": null,
+        "table": "12-7/8 x 23 in cast iron",
+        "extras": "Foot switch, tilting arm, blade storage"
+      },
+      "features": {
+        "tool_free": true,
+        "light": false,
+        "arm_lift": false,
+        "large_throat": true
+      },
+      "verdict": "A 22-inch saw with a cast iron table, an arm that tilts 45° both ways so the table stays flat, a foot switch, and an upper blade change that clamps and tensions in one step.",
+      "best_for": "Professional scroll work with a foot switch.",
+      "skip_if": "Price matters; it's the most expensive here.",
+      "pros": [
+        "Cast iron table",
+        "Foot switch",
+        "Arm tilts both ways"
+      ],
+      "cons": [
+        "$899.99",
+        "40 reviews"
+      ]
+    },
+    {
+      "asin": "B000022313",
+      "premium": true,
+      "name": "DEWALT Scroll Saw, 20 in, Variable Speed (DW788)",
+      "brand": "DEWALT",
+      "model": "DW788",
+      "image": "https://m.media-amazon.com/images/I/51RzUg6UVJL._AC_SL1000_.jpg",
+      "price": 551.17,
+      "rating": 4.6,
+      "reviews_count": 1645,
+      "bought": "50+/mo",
+      "specs": {
+        "throat": "20 in",
+        "speed": "Variable",
+        "thickness": null,
+        "table": null,
+        "extras": "Double parallel-link arm"
+      },
+      "features": {
+        "tool_free": false,
+        "light": false,
+        "arm_lift": false,
+        "large_throat": true
+      },
+      "verdict": "The long-time pro standard: a 20-inch saw with DEWALT's double parallel-link arm for low vibration and square cuts, and 1,645 reviews behind it.",
+      "best_for": "Serious scrollers buying a saw for life.",
+      "skip_if": "You want specs on the page; the listing is one line.",
+      "pros": [
+        "Double parallel-link arm",
+        "20-in throat",
+        "1,645 reviews at 4.6 stars"
+      ],
+      "cons": [
+        "$551.17",
+        "Listing gives almost no specs"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B01IU77S2C",
+      "name": "RYOBI 1.2 AMP Corded 16 in. Scroll Saw (SC165VS)",
+      "brand": "RYOBI",
+      "model": "SC165VS",
+      "image": "https://m.media-amazon.com/images/I/61kqsSvSc-L._AC_SL1000_.jpg",
+      "price": 194.75,
+      "rating": 4.6,
+      "reviews_count": 169,
+      "flag": "Listing describes lawn parts; costs far more than equal saws",
+      "verdict": "A basic 16-inch saw on a listing that describes something else entirely, priced well above saws with the same specs. Buy the WEN 3921.",
+      "reasons": [
+        "The listing's only bullet describes Stens lawn-and-landscape replacement parts, not this scroll saw, so you get no description of what you're buying.",
+        "At $194.75 it costs about $76 more than the WEN 3921, a 16-inch variable-speed saw with a light, air pump and cast iron base.",
+        "The listing showed only 3 left and gives no warranty information."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What size scroll saw do I need?",
+      "a": "The throat (16, 20 or 22 inches) is the distance from the blade to the back of the arm, which limits how wide a piece you can turn. 16 inches handles most hobby work; 20-22 inches suits large fretwork, signs and panels."
+    },
+    {
+      "q": "Pinned or pinless blades?",
+      "a": "Pinless blades are thinner and thread through tiny starter holes for fine inside cuts. Pinned blades are easier to change but need bigger holes. Most saws here take pinless blades; some take both."
+    },
+    {
+      "q": "Why does a lifting arm matter?",
+      "a": "For inside cuts you drill a hole, thread the blade through, and reattach it. An upper arm that lifts and locks makes that quick, which matters on pieces with dozens of cutouts."
+    },
+    {
+      "q": "Tilting table or tilting arm?",
+      "a": "Most saws tilt the table for bevel cuts. Pro saws like the BUCKTOOL and JET tilt the arm instead, so the workpiece stays flat and easier to control."
+    },
+    {
+      "q": "What speed should I use?",
+      "a": "Slower speeds for thin wood, plastic and metal (to avoid melting and burning); faster speeds for thick hardwood. Variable speed lets you dial it in."
+    }
+  ]
+}

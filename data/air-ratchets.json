@@ -1,0 +1,466 @@
+{
+  "slug": "air-ratchets",
+  "title": "The 10 Best Air Ratchets",
+  "subtitle": "1/4, 3/8 and 1/2-inch pneumatic ratchets for engine bays and fast fastener run-down, ranked from live Amazon data.",
+  "intro": "An air ratchet spins nuts and bolts on and off far faster than a hand ratchet once they're broken loose, and it fits where an impact gun won't. We ranked 10 best-sellers on rating, review volume and features (70+ ft-lbs of torque, a variable-speed throttle, a 360-degree exhaust and a weight of 2.6 lbs or less). Most are 3/8-inch drive; 1/4-inch palm ratchets get under dashboards, and 1/2-inch drives suit bigger fasteners. They run from about $31 for Dynamic Power's 3/8-inch to $191 for Ingersoll Rand's 109XPA.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 45,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "high_torque": 0.3,
+    "variable": 0.25,
+    "exhaust_360": 0.2,
+    "light": 0.25
+  },
+  "reviews_ceiling": 1500,
+  "spec_fields": [
+    {
+      "key": "drive",
+      "label": "Drive"
+    },
+    {
+      "key": "torque",
+      "label": "Max torque"
+    },
+    {
+      "key": "speed",
+      "label": "Free speed"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "drive",
+      "label": "Drive"
+    },
+    {
+      "key": "torque",
+      "label": "Torque"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "variable",
+      "label": "Variable speed",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B000UVR4W6", "force_overall": true,
+      "name": "Ingersoll Rand 170G 3/8\" Drive Air Ratchet Wrench",
+      "brand": "Ingersoll Rand",
+      "model": "170G",
+      "image": "https://m.media-amazon.com/images/I/614SL-JmdQL._AC_SL1500_.jpg",
+      "price": 94.08,
+      "rating": 4.6,
+      "reviews_count": 1019,
+      "bought": "50+/mo",
+      "specs": {
+        "drive": "3/8 in",
+        "torque": "55 ft-lb",
+        "speed": "170 rpm",
+        "weight": "2.65 lb",
+        "extras": "Heat-treated head"
+      },
+      "features": {
+        "high_torque": false,
+        "variable": false,
+        "exhaust_360": false,
+        "light": false
+      },
+      "verdict": "The most-reviewed air ratchet here: Ingersoll Rand's general-purpose 3/8-inch with a heat-treated head, 55 ft-lbs and 170 rpm.",
+      "best_for": "Engine repair and general garage use.",
+      "skip_if": "You want variable speed control; the 107XPA has a lever throttle.",
+      "pros": [
+        "1,019 reviews at 4.6 stars",
+        "Heat-treated head",
+        "55 ft-lb, 170 rpm"
+      ],
+      "cons": [
+        "No 360° exhaust listed",
+        "No variable throttle listed"
+      ]
+    },
+    {
+      "asin": "B0000AXBNT",
+      "name": "Ingersoll Rand 107XPA 3/8\" Air Ratchet Wrench, 54 ft lbs, Variable Speed Lever Throttle",
+      "brand": "Ingersoll Rand",
+      "model": "107XPA",
+      "image": "https://m.media-amazon.com/images/I/51s+8jOSFGL._AC_SL1500_.jpg",
+      "price": 107.4,
+      "rating": 4.7,
+      "reviews_count": 532,
+      "specs": {
+        "drive": "3/8 in",
+        "torque": "54 ft-lb",
+        "speed": null,
+        "weight": "2.76 lb",
+        "extras": "360° exhaust, lever throttle"
+      },
+      "features": {
+        "high_torque": false,
+        "variable": true,
+        "exhaust_360": true,
+        "light": false
+      },
+      "verdict": "The shop-standard 3/8-inch with a variable-speed lever throttle, a 360° adjustable exhaust and a reinforced head.",
+      "best_for": "Daily mechanic use.",
+      "skip_if": "You need more torque; 54 ft-lbs is typical, not high.",
+      "pros": [
+        "4.7 stars",
+        "Variable-speed lever",
+        "360° exhaust"
+      ],
+      "cons": [
+        "$107.40",
+        "54 ft-lb"
+      ]
+    },
+    {
+      "asin": "B000E60TR4",
+      "name": "Ingersoll Rand 1077XPA 1/2\" Air Ratchet Wrench, 54 ft-lb, 160 RPM",
+      "brand": "Ingersoll Rand",
+      "model": "1077XPA",
+      "image": "https://m.media-amazon.com/images/I/61v4wlqDdWL._AC_SL1500_.jpg",
+      "price": 94.27,
+      "rating": 4.7,
+      "reviews_count": 532,
+      "specs": {
+        "drive": "1/2 in",
+        "torque": "54 ft-lb",
+        "speed": "160 rpm",
+        "weight": "2.76 lb",
+        "extras": "360° exhaust, power regulator"
+      },
+      "features": {
+        "high_torque": false,
+        "variable": true,
+        "exhaust_360": true,
+        "light": false
+      },
+      "verdict": "The 107XPA in 1/2-inch drive, with a power regulator, 360° exhaust and lever throttle, for when your sockets are 1/2-inch.",
+      "best_for": "Running 1/2-inch sockets without adapters.",
+      "skip_if": "Your sockets are 3/8-inch; the 107XPA fits tighter spaces.",
+      "pros": [
+        "1/2-in drive",
+        "Power regulator and lever throttle",
+        "4.7 stars"
+      ],
+      "cons": [
+        "54 ft-lb",
+        "Bigger head than 3/8-in ratchets"
+      ]
+    },
+    {
+      "asin": "B07785XTVH",
+      "force_budget": true,
+      "name": "DYNAMIC POWER 3/8 inch Professional Air Ratchet",
+      "brand": "Dynamic Power",
+      "model": "43237-2",
+      "image": "https://m.media-amazon.com/images/I/61Tz8YVkpOL._AC_SL1500_.jpg",
+      "price": 30.99,
+      "rating": 4.5,
+      "reviews_count": 919,
+      "bought": "50+/mo",
+      "specs": {
+        "drive": "3/8 in",
+        "torque": "45-50 ft-lb (listing gives both)",
+        "speed": null,
+        "weight": "2.6 lb",
+        "extras": "Reversible"
+      },
+      "features": {
+        "high_torque": false,
+        "variable": false,
+        "exhaust_360": false,
+        "light": true
+      },
+      "verdict": "The cheapest ratchet here and one of the most reviewed: a basic reversible 3/8-inch for about $31.",
+      "best_for": "Occasional use on a budget.",
+      "skip_if": "You use it daily; Ingersoll Rand lasts longer.",
+      "pros": [
+        "$30.99",
+        "919 reviews at 4.5 stars",
+        "2.6 lbs"
+      ],
+      "cons": [
+        "Title says 45 ft-lb, spec table says 50",
+        "Few features listed"
+      ]
+    },
+    {
+      "asin": "B082995Z16",
+      "name": "CRAFTSMAN 3/8-in Air Ratchet Wrench, 50 ft-lbs, Insulated Handle, 4.4 SCFM at 90 PSI",
+      "brand": "CRAFTSMAN",
+      "model": "CMXPTSG1007NB",
+      "image": "https://m.media-amazon.com/images/I/61dBMH67VQL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.5,
+      "reviews_count": 250,
+      "specs": {
+        "drive": "3/8 in",
+        "torque": "50 ft-lb",
+        "speed": null,
+        "weight": "2.5 lb",
+        "extras": "Insulated handle, 4.4 SCFM"
+      },
+      "features": {
+        "high_torque": false,
+        "variable": false,
+        "exhaust_360": false,
+        "light": true
+      },
+      "verdict": "A 2.5 lb ratchet with an insulated handle that stops cold hands in winter, a contoured trigger and an easy-reach direction switch.",
+      "best_for": "Cold garages and long sessions.",
+      "skip_if": "You want variable speed listed.",
+      "pros": [
+        "Insulated handle",
+        "2.5 lbs",
+        "Lists 4.4 SCFM air use"
+      ],
+      "cons": [
+        "50 ft-lb",
+        "Smaller review base"
+      ]
+    },
+    {
+      "asin": "B0BZ3NRD2C",
+      "name": "AEROPRO TOOLS 3/8\" Professional Air Ratchet Wrench Set, 50 Ft-Lbs Torque (AP17411)",
+      "brand": "AEROPRO",
+      "model": "AP17411",
+      "image": "https://m.media-amazon.com/images/I/41WqdX+3GFL._AC_SL1000_.jpg",
+      "price": 42.99,
+      "rating": 4.3,
+      "reviews_count": 183,
+      "bought": "100+/mo",
+      "specs": {
+        "drive": "3/8 in",
+        "torque": "50 ft-lb",
+        "speed": "160 rpm",
+        "weight": "2.6 lb",
+        "extras": "360° exhaust, composite body"
+      },
+      "features": {
+        "high_torque": false,
+        "variable": false,
+        "exhaust_360": true,
+        "light": true
+      },
+      "verdict": "A budget set with a 360° adjustable exhaust, orbital trigger and a slim 2.6 lb composite body.",
+      "best_for": "A budget ratchet with a 360° exhaust.",
+      "skip_if": "Rating matters; it's 4.3 stars.",
+      "pros": [
+        "360° exhaust",
+        "2.6 lbs",
+        "100+ sold last month"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Smaller review base"
+      ]
+    },
+    {
+      "asin": "B01JBNM9NC",
+      "name": "Astro Pneumatic Tool 1111A ONYX 1/4\" Palm Ratchet Wrench",
+      "brand": "Astro Pneumatic",
+      "model": "1111A",
+      "image": "https://m.media-amazon.com/images/I/710uTH3KOnL._AC_SL1500_.jpg",
+      "price": 47.8,
+      "rating": 4.5,
+      "reviews_count": 238,
+      "specs": {
+        "drive": "1/4 in",
+        "torque": null,
+        "speed": null,
+        "weight": "1.1 lb",
+        "extras": "Palm size, needle bearings, silenced exhaust"
+      },
+      "features": {
+        "high_torque": false,
+        "variable": false,
+        "exhaust_360": false,
+        "light": true
+      },
+      "verdict": "A 1.1 lb palm ratchet for under-dash and other cramped work, with needle bearings and a silenced rear exhaust.",
+      "best_for": "Dashboards, interiors and small fasteners.",
+      "skip_if": "You need torque; it's for small bolts.",
+      "pros": [
+        "1.1 lbs, palm size",
+        "Needle bearings",
+        "Quiet rear exhaust"
+      ],
+      "cons": [
+        "Torque not listed",
+        "1/4-in drive only"
+      ]
+    },
+    {
+      "asin": "B002ZZPY2W",
+      "name": "Ingersoll Rand 105-D2 1/4\" Drive Air Ratchet Wrench",
+      "brand": "Ingersoll Rand",
+      "model": "105-D2",
+      "image": "https://m.media-amazon.com/images/I/710eKINrkIL._AC_SL1500_.jpg",
+      "price": 124.64,
+      "rating": 4.7,
+      "reviews_count": 406,
+      "specs": {
+        "drive": "1/4 in",
+        "torque": "25 ft-lb",
+        "speed": "250 rpm",
+        "weight": "1.4 lb",
+        "extras": "Aluminum housing, ball-detent anvil"
+      },
+      "features": {
+        "high_torque": false,
+        "variable": false,
+        "exhaust_360": false,
+        "light": true
+      },
+      "verdict": "Ingersoll Rand's mini 1/4-inch: 25 ft-lbs at a fast 250 rpm, an aluminum housing and a ball-detent anvil that holds sockets securely.",
+      "best_for": "Small fasteners in tight spots, fast.",
+      "skip_if": "You don't work on small fasteners; a 3/8-in does more.",
+      "pros": [
+        "250 rpm",
+        "1.4 lbs",
+        "4.7 stars"
+      ],
+      "cons": [
+        "$124.64",
+        "25 ft-lb"
+      ]
+    },
+    {
+      "asin": "B00UB1YHVG",
+      "name": "AIRCAT 805-HT 3/8\" High Torque Ratchet Wrench, 180 RPM",
+      "brand": "AIRCAT",
+      "model": "805-HT",
+      "image": "https://m.media-amazon.com/images/I/51GE0fIw6kL._AC_SL1500_.jpg",
+      "price": 178.32,
+      "rating": 4.7,
+      "reviews_count": 731,
+      "specs": {
+        "drive": "3/8 in",
+        "torque": "130 ft-lb",
+        "speed": "180 rpm",
+        "weight": "3.2 lb",
+        "extras": "84 dBA silencing exhaust, variable trigger"
+      },
+      "features": {
+        "high_torque": true,
+        "variable": true,
+        "exhaust_360": false,
+        "light": false
+      },
+      "verdict": "The most torque here at 130 ft-lbs, more than twice a standard ratchet, with a variable-speed trigger and a silenced exhaust rated at 84 dBA.",
+      "best_for": "Breaking smaller fasteners loose without switching tools.",
+      "skip_if": "You don't need the torque; it's heavier and costs more.",
+      "pros": [
+        "130 ft-lb, the most here",
+        "84 dBA, quieter",
+        "4.7 stars"
+      ],
+      "cons": [
+        "$178.32",
+        "3.2 lbs"
+      ]
+    },
+    {
+      "asin": "B00004XOSY",
+      "premium": true,
+      "name": "Ingersoll Rand 109XPA 3/8\" Drive Air Ratchet Wrench",
+      "brand": "Ingersoll Rand",
+      "model": "109XPA",
+      "image": "https://m.media-amazon.com/images/I/51mHNj0P+4L._AC_SL1500_.jpg",
+      "price": 191.18,
+      "rating": 4.6,
+      "reviews_count": 626,
+      "specs": {
+        "drive": "3/8 in",
+        "torque": "76 ft-lb",
+        "speed": null,
+        "weight": "3.1 lb",
+        "extras": "Twin Pawl Plus head, extended reach"
+      },
+      "features": {
+        "high_torque": true,
+        "variable": false,
+        "exhaust_360": false,
+        "light": false
+      },
+      "verdict": "Ingersoll Rand's high-torque 3/8-inch with the Twin Pawl Plus head for durability, extended reach into deep spots and a wide low-profile reverse control.",
+      "best_for": "Heavy professional use where reach matters.",
+      "skip_if": "You want the most torque per dollar; the AIRCAT has more for less.",
+      "pros": [
+        "76 ft-lb",
+        "Twin Pawl Plus head",
+        "Extended reach"
+      ],
+      "cons": [
+        "$191.18",
+        "3.1 lbs"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B08FRHP993",
+      "name": "QWORK 1/2\" Air Ratchet Wrench 65ft-lbs 160RPM (WD3807)",
+      "brand": "QWORK",
+      "model": "WD3807",
+      "image": "https://m.media-amazon.com/images/I/61Ebb6mwz6L._AC_SL1500_.jpg",
+      "price": 30.97,
+      "rating": 3.9,
+      "reviews_count": 409,
+      "flag": "Lowest rating; torque claim above Ingersoll Rand's",
+      "verdict": "A $31 ratchet claiming more torque than the brand-name ones and rating worst. For the same money, the Dynamic Power has 919 reviews at 4.5 stars.",
+      "reasons": [
+        "At 3.9 stars it's the lowest-rated ratchet we compared.",
+        "It claims 65 ft-lbs, more than Ingersoll Rand's 1/2-inch 1077XPA at 54 ft-lbs, for about a third of the price.",
+        "The spec table lists its length as 12.5 millimeters (half an inch), so the listing's details can't be trusted."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Air ratchet or impact wrench?",
+      "a": "An impact wrench hammers tight bolts loose; an air ratchet spins loose fasteners in and out quickly and fits in tighter spaces. Mechanics use both: break it loose with the impact or a breaker bar, run it out with the ratchet."
+    },
+    {
+      "q": "Which drive size?",
+      "a": "3/8-inch covers most engine work. 1/4-inch palm ratchets fit under dashboards and handle small fasteners. 1/2-inch suits larger bolts if you already own 1/2-inch sockets."
+    },
+    {
+      "q": "How much air does an air ratchet use?",
+      "a": "Usually 3 to 5 CFM at 90 PSI. Ratchets run in short bursts, so a mid-size compressor keeps up easily."
+    },
+    {
+      "q": "Can I break bolts loose with an air ratchet?",
+      "a": "Not tight ones. Most ratchets are rated 25 to 75 ft-lbs. Forcing them past that wears the head out fast. Use a breaker bar or impact wrench first."
+    },
+    {
+      "q": "Do air ratchets need oil?",
+      "a": "Yes. A few drops of air tool oil in the inlet before each use keeps the motor and head working smoothly."
+    }
+  ]
+}

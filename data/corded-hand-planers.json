@@ -1,0 +1,472 @@
+{
+  "slug": "corded-hand-planers",
+  "title": "The 10 Best Electric Hand Planers",
+  "subtitle": "Corded power planers for trimming doors, flattening boards and chamfering edges, ranked from live Amazon data.",
+  "intro": "An electric hand planer shaves wood down fast: trim a sticking door, flatten a cupped board, or take a beam down to size. We ranked 10 corded best-sellers on rating, review volume and features (a cut depth of 1/8 inch or more, a rabbeting guide, dust ejection to either side and a kickstand that protects the blades). Most cut 3-1/4 inches wide; WEN also sells a narrow 2-3/8-inch model and a wide 4-3/8-inch one for 2x4s. They run from about $31 for WEN's 6528 to $209 for Makita's KP0800K kit.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 45,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "deep_cut": 0.25,
+    "rabbet": 0.25,
+    "dual_dust": 0.25,
+    "kickstand": 0.25
+  },
+  "reviews_ceiling": 8000,
+  "spec_fields": [
+    {
+      "key": "width",
+      "label": "Cut width"
+    },
+    {
+      "key": "depth",
+      "label": "Max depth"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "width",
+      "label": "Width"
+    },
+    {
+      "key": "depth",
+      "label": "Depth"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "kickstand",
+      "label": "Kickstand",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00OW5AJTG",
+      "name": "WEN 6530 6-Amp Electric Hand Planer, 3-1/4-Inch",
+      "brand": "WEN",
+      "model": "6530",
+      "image": "https://m.media-amazon.com/images/I/81yVPNRsGrL._AC_SL1500_.jpg",
+      "price": 42.88,
+      "rating": 4.5,
+      "reviews_count": 7979,
+      "bought": "1K+/mo",
+      "specs": {
+        "width": "3-1/4 in",
+        "depth": "1/8 in (16 stops)",
+        "motor": "6 A",
+        "speed": "34,000 cuts/min",
+        "weight": "6 lb"
+      },
+      "features": {
+        "deep_cut": true,
+        "rabbet": true,
+        "dual_dust": false,
+        "kickstand": true
+      },
+      "verdict": "The best-selling and most-reviewed planer here: a 6A, 3-1/4-inch planer with 16 depth stops to 1/8 inch, a rabbeting guide for rabbets up to 1 inch, a kickstand, a dust bag and a 2-year warranty, for about $43.",
+      "best_for": "Doors, trim and general DIY planing.",
+      "skip_if": "You plane wide 2x4 faces; the 6534 cuts 4-3/8 inches.",
+      "pros": [
+        "7,979 reviews at 4.5 stars",
+        "1/8-in depth, 16 stops",
+        "Kickstand, rabbet guide, 2-year warranty"
+      ],
+      "cons": [
+        "Dust ejects one side",
+        "6 lbs"
+      ]
+    },
+    {
+      "asin": "B079FBDPF4",
+      "force_budget": true,
+      "name": "WEN 6528 3.8-Amp Electric Hand Planer, 2-3/8-Inch",
+      "brand": "WEN",
+      "model": "6528",
+      "image": "https://m.media-amazon.com/images/I/81A60NBnmCL._AC_SL1500_.jpg",
+      "price": 31.35,
+      "rating": 4.5,
+      "reviews_count": 2268,
+      "bought": "400+/mo",
+      "specs": {
+        "width": "2-3/8 in",
+        "depth": "1/16 in (9 stops)",
+        "motor": "3.8 A",
+        "speed": "32,000 cuts/min",
+        "weight": "4.3 lb"
+      },
+      "features": {
+        "deep_cut": false,
+        "rabbet": false,
+        "dual_dust": false,
+        "kickstand": true
+      },
+      "verdict": "The cheapest and lightest planer here: a 4.3 lb, 2-3/8-inch planer for edges, doors and small trim, with a kickstand and onboard wrench storage.",
+      "best_for": "Light edge work and one-handed control.",
+      "skip_if": "You need to remove a lot of wood; it cuts 1/16 inch per pass.",
+      "pros": [
+        "$31.35",
+        "4.3 lbs",
+        "2-year warranty"
+      ],
+      "cons": [
+        "2-3/8-in width",
+        "1/16-in depth"
+      ]
+    },
+    {
+      "asin": "B079FH788Z",
+      "name": "WEN 6534 8-Amp Electric Hand Planer, 4-3/8-Inch",
+      "brand": "WEN",
+      "model": "6534",
+      "image": "https://m.media-amazon.com/images/I/81Bpnzl8FZL._AC_SL1500_.jpg",
+      "price": 56.44,
+      "rating": 4.5,
+      "reviews_count": 2697,
+      "bought": "400+/mo",
+      "specs": {
+        "width": "4-3/8 in",
+        "depth": "1/8 in (16 stops)",
+        "motor": "8 A",
+        "speed": "32,000 cuts/min",
+        "weight": "9.5 lb"
+      },
+      "features": {
+        "deep_cut": true,
+        "rabbet": true,
+        "dual_dust": true,
+        "kickstand": false
+      },
+      "verdict": "A wide 4-3/8-inch planer that covers a 2x4 or 4x4 face in one pass, with an 8A motor, two-way dust port, reversible HSS blades, chamfer grooves and a rabbeting guide.",
+      "best_for": "Timber, beams and wide boards.",
+      "skip_if": "You trim doors; it's 9.5 lbs.",
+      "pros": [
+        "4-3/8-in width",
+        "8A motor",
+        "Two-way dust port"
+      ],
+      "cons": [
+        "9.5 lbs",
+        "No kickstand listed"
+      ]
+    },
+    {
+      "asin": "B00PSPUWV4",
+      "name": "PORTER-CABLE Hand Planer, 6-Amp, 5/64-Inch (PC60THP)",
+      "brand": "PORTER-CABLE",
+      "model": "PC60THP",
+      "image": "https://m.media-amazon.com/images/I/51rFaZOtYVL._AC_SL1000_.jpg",
+      "price": 99.99,
+      "rating": 4.6,
+      "reviews_count": 2469,
+      "specs": {
+        "width": "3-1/4 in",
+        "depth": "5/64 in (10 stops)",
+        "motor": "6 A",
+        "speed": "16,500 rpm",
+        "weight": "8.2 lb"
+      },
+      "features": {
+        "deep_cut": false,
+        "rabbet": false,
+        "dual_dust": true,
+        "kickstand": false
+      },
+      "verdict": "A well-reviewed brand-name planer with carbide blades, a 10-step overmolded depth knob, three chamfer grooves and a dust bag that mounts on either side. 3-year warranty.",
+      "best_for": "Regular carpentry use with carbide blades.",
+      "skip_if": "You want deep cuts; it takes 5/64 inch per pass.",
+      "pros": [
+        "4.6 stars across 2,469 reviews",
+        "Carbide blades",
+        "3-year warranty"
+      ],
+      "cons": [
+        "8.2 lbs",
+        "5/64-in max depth"
+      ]
+    },
+    {
+      "asin": "B086ZDQGXM",
+      "name": "SKIL 6.5 AMP Electric 3-1/4 Inch Corded Planer (PL201201)",
+      "brand": "SKIL",
+      "model": "PL2012-00",
+      "image": "https://m.media-amazon.com/images/I/71OMNRkKx1L._AC_SL1500_.jpg",
+      "price": 84.5,
+      "rating": 4.6,
+      "reviews_count": 657,
+      "bought": "100+/mo",
+      "specs": {
+        "width": "3-1/4 in",
+        "depth": null,
+        "motor": "6.5 A",
+        "speed": null,
+        "weight": "6 lb"
+      },
+      "features": {
+        "deep_cut": false,
+        "rabbet": true,
+        "dual_dust": true,
+        "kickstand": true
+      },
+      "verdict": "A 6.5A planer with dual chip exhaust that keeps sightlines clear, a kickstand, wrench storage, a lock-off switch, and a parallel guide and rebate fence in the box.",
+      "best_for": "A brand-name planer with everything included.",
+      "skip_if": "You want depth specs; the listing doesn't give them.",
+      "pros": [
+        "Dual chip exhaust",
+        "Rebate fence and parallel guide",
+        "Lock-off switch"
+      ],
+      "cons": [
+        "Depth not listed",
+        "1-year warranty"
+      ]
+    },
+    {
+      "asin": "B0CGX5Q7X9",
+      "name": "VEVOR Electric Hand Planer, 3-1/4-Inch Cut Width, 16500 RPM (2822C)",
+      "brand": "VEVOR",
+      "model": "2822C",
+      "image": "https://m.media-amazon.com/images/I/71vAhTWjFxL._AC_SL1500_.jpg",
+      "price": 49.41,
+      "rating": 4.5,
+      "reviews_count": 278,
+      "bought": "50+/mo",
+      "specs": {
+        "width": "3-1/4 in",
+        "depth": "0.08 in",
+        "motor": "6 A, 710 W",
+        "speed": "16,500 rpm",
+        "weight": "6.6 lb"
+      },
+      "features": {
+        "deep_cut": false,
+        "rabbet": false,
+        "dual_dust": false,
+        "kickstand": false
+      },
+      "verdict": "A 6A copper-motor planer with W18Cr4V high-speed steel blades, a large dust bag and an adjustable depth knob.",
+      "best_for": "A budget alternative to the WEN 6530.",
+      "skip_if": "The WEN 6530 is in stock; it's cheaper with deeper cuts.",
+      "pros": [
+        "HSS blades",
+        "Large dust bag",
+        "4.5 stars"
+      ],
+      "cons": [
+        "0.08-in depth",
+        "No kickstand listed"
+      ]
+    },
+    {
+      "asin": "B07Y4867BB",
+      "name": "CRAFTSMAN Hand Planer, 6-Amp, 5/64-Inch (CMEW300)",
+      "brand": "CRAFTSMAN",
+      "model": "CMEW300",
+      "image": "https://m.media-amazon.com/images/I/71d1o2rnknL._AC_SL1500_.jpg",
+      "price": 104.0,
+      "rating": 4.4,
+      "reviews_count": 790,
+      "specs": {
+        "width": "3-1/4 in",
+        "depth": "5/64 in (10 stops)",
+        "motor": "6 A",
+        "speed": "16,500 rpm",
+        "weight": "7.3 lb"
+      },
+      "features": {
+        "deep_cut": false,
+        "rabbet": false,
+        "dual_dust": true,
+        "kickstand": false
+      },
+      "verdict": "A 6A planer with an 11.5-inch cast aluminum shoe for steadier, flatter cuts, dual-side dust extraction and a 10-step depth knob.",
+      "best_for": "Long, flat passes on doors and boards.",
+      "skip_if": "The Porter-Cable has the same specs for less and more reviews.",
+      "pros": [
+        "11.5-in cast aluminum shoe",
+        "Dual-side extraction",
+        "10 depth steps"
+      ],
+      "cons": [
+        "$104.00",
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B00UVXYU84",
+      "name": "Bosch PL1632 6.5 Amp Hand Planer, 3-1/4\"",
+      "brand": "Bosch",
+      "model": "PL1632",
+      "image": "https://m.media-amazon.com/images/I/51W4wtcDMkL._AC_SL1000_.jpg",
+      "price": 153.94,
+      "rating": 4.5,
+      "reviews_count": 968,
+      "bought": "50+/mo",
+      "specs": {
+        "width": "3-1/4 in",
+        "depth": null,
+        "motor": "6.5 A",
+        "speed": "16,500 rpm",
+        "weight": "6.3 lb"
+      },
+      "features": {
+        "deep_cut": false,
+        "rabbet": false,
+        "dual_dust": false,
+        "kickstand": true
+      },
+      "verdict": "A carpenter's door planer: a spring-loaded stand, a dual-mount fence with a plastic overshoe that won't mar door faces, and separate inch and metric depth scales.",
+      "best_for": "Fitting doors.",
+      "skip_if": "Budget matters; the WEN 6530 does most of this for under a third of the price.",
+      "pros": [
+        "Door-friendly fence with overshoe",
+        "Spring-loaded stand",
+        "6.3 lbs"
+      ],
+      "cons": [
+        "$153.94",
+        "Depth not listed"
+      ]
+    },
+    {
+      "asin": "B0DXK4R82T",
+      "name": "WOODSTARTER Corded Electric Hand Planer, 7.7 AMP 15000 RPM, Edge Guide and Dust Bag (HP15K)",
+      "brand": "WOODSTARTER",
+      "model": "HP15K",
+      "image": "https://m.media-amazon.com/images/I/61LKMnljrUL._AC_SL1500_.jpg",
+      "price": 45.99,
+      "rating": 4.2,
+      "reviews_count": 52,
+      "bought": "50+/mo",
+      "specs": {
+        "width": "3-1/4 in",
+        "depth": "5/32 in (20 stops)",
+        "motor": "7.7 A",
+        "speed": "15,000 rpm",
+        "weight": "7.9 lb"
+      },
+      "features": {
+        "deep_cut": true,
+        "rabbet": true,
+        "dual_dust": false,
+        "kickstand": false
+      },
+      "verdict": "The deepest cut here at 5/32 inch with 20 depth settings, a 7.7A motor, three chamfer grooves and 1-inch rabbeting.",
+      "best_for": "Removing a lot of wood per pass on a budget.",
+      "skip_if": "You want a track record; it has 52 reviews.",
+      "pros": [
+        "5/32-in depth, 20 stops",
+        "7.7A",
+        "1-in rabbeting"
+      ],
+      "cons": [
+        "4.2 stars, 52 reviews",
+        "7.9 lbs"
+      ]
+    },
+    {
+      "asin": "B0033WSK5O",
+      "premium": true,
+      "name": "Makita KP0800K 3-1/4\" Planer, with Tool Case",
+      "brand": "Makita",
+      "model": "KP0800K",
+      "image": "https://m.media-amazon.com/images/I/61QoaWCr9DL._AC_SL1500_.jpg",
+      "price": 209.0,
+      "rating": 4.7,
+      "reviews_count": 819,
+      "bought": "50+/mo",
+      "specs": {
+        "width": "3-1/4 in",
+        "depth": "3/32 in",
+        "motor": "6.5 A",
+        "speed": "17,000 rpm",
+        "weight": "10.1 lb (with case)"
+      },
+      "features": {
+        "deep_cut": false,
+        "rabbet": false,
+        "dual_dust": false,
+        "kickstand": true
+      },
+      "verdict": "The highest-rated planer here: a 17,000 rpm two-blade cutter head, a spring-loaded stand, an easy blade-setting system, a guide rule and a tool case.",
+      "best_for": "Finish carpenters who want the smoothest cut.",
+      "skip_if": "You plane occasionally; the WEN 6530 is a fifth of the price.",
+      "pros": [
+        "4.7 stars",
+        "17,000 rpm, fast blade setting",
+        "Tool case and guide"
+      ],
+      "cons": [
+        "$209.00",
+        "1-year warranty"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0G3FNMLG2",
+      "name": "Masitke 3-1/4 Inch Electric Hand Planer, 16000RPM, 0-2mm Cutting Depth",
+      "brand": "Masitke",
+      "model": "191",
+      "image": "https://m.media-amazon.com/images/I/710TiISxHvL._AC_SL1500_.jpg",
+      "price": 64.99,
+      "rating": 3.7,
+      "reviews_count": 47,
+      "bought": "100+/mo",
+      "flag": "Width spec contradicts title; lowest rating",
+      "verdict": "A $65 planer that costs more than the WEN 6530 and can't agree on its own size. Buy the WEN.",
+      "reasons": [
+        "The title says 3-1/4-inch planing width; the spec table says 8.25 inches. A handheld planer's width is its most basic spec.",
+        "It lists no motor amperage or warranty, and costs about $22 more than the WEN 6530, which states both.",
+        "At 3.7 stars it's the lowest-rated planer we compared."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What can an electric hand planer do?",
+      "a": "Trim the edge of a sticking door, flatten and size boards, take down high spots in floor joists or studs, chamfer edges with the V-groove, and cut rabbets with a fence. It's faster than a hand plane but leaves a rougher finish than a benchtop planer."
+    },
+    {
+      "q": "How deep should it cut?",
+      "a": "Most cut 5/64 to 1/8 inch per pass. Deeper cuts remove wood faster but leave a rougher surface; take several shallow passes for a smooth finish."
+    },
+    {
+      "q": "Why does a kickstand matter?",
+      "a": "A spring-loaded kickstand lifts the spinning blades off the bench or workpiece when you set the planer down, protecting both."
+    },
+    {
+      "q": "HSS or carbide blades?",
+      "a": "High-speed steel blades are sharp and cheap to replace. Carbide blades stay sharp much longer, which matters on hardwood and painted or old lumber."
+    },
+    {
+      "q": "Can I plane painted or reclaimed wood?",
+      "a": "Check for nails and screws first; metal destroys blades. Old paint can contain lead, so don't plane it without proper dust collection and a respirator."
+    }
+  ]
+}

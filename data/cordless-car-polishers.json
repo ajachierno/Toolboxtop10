@@ -1,0 +1,474 @@
+{
+  "slug": "cordless-car-polishers",
+  "title": "The 10 Best Cordless Car Polishers",
+  "subtitle": "Battery-powered dual-action and rotary polishers for waxing and swirl removal without a cord on the paint, ranked from live Amazon data.",
+  "intro": "A cordless polisher does the same waxing and swirl removal as a corded one without a cord dragging across the paint. We ranked 10 best-sellers on rating, review volume and features (dual-action motion, batteries in the box, a brushless motor and a tool battery platform). Budget kits come with two batteries, a charger and pads; DEWALT and Milwaukee sell pro tools bare for their platforms. They run from about $40 for Avhrit's 6-inch kit to $244 for Milwaukee's M18 FUEL random orbital.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 45,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "dual_action": 0.3,
+    "kit": 0.25,
+    "brushless": 0.25,
+    "platform": 0.2
+  },
+  "reviews_ceiling": 3000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "pad",
+      "label": "Pad / plate"
+    },
+    {
+      "key": "in_box",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "dual_action",
+      "label": "Dual action",
+      "type": "bool"
+    },
+    {
+      "key": "kit",
+      "label": "Batteries incl.",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08SJXDZBZ", "force_overall": true,
+      "name": "BATOCA S3 Cordless Car Polisher, DA Orbital Polishing Machine",
+      "brand": "BATOCA",
+      "model": "S3 (B02PO37)",
+      "image": "https://m.media-amazon.com/images/I/81FYZOigIaL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.4,
+      "reviews_count": 2093,
+      "bought": "100+/mo",
+      "specs": {
+        "type": "Dual action, 5 mm throw",
+        "battery": "2 x 2.0Ah (included)",
+        "speed": "6 speeds",
+        "pad": "6 in",
+        "in_box": "2 batteries, fast charger, pads, tool bag"
+      },
+      "features": {
+        "dual_action": true,
+        "kit": true,
+        "brushless": false,
+        "platform": false
+      },
+      "verdict": "One of the most-reviewed cordless polishers here: a 3 lb dual-action kit with two batteries, a fast charger, a battery-level indicator and a tool bag.",
+      "best_for": "Waxing and light swirl removal without a cord.",
+      "skip_if": "You need heavy correction; a 5 mm throw cuts slowly.",
+      "pros": [
+        "2,093 reviews",
+        "3 lbs",
+        "Two batteries and charger"
+      ],
+      "cons": [
+        "5 mm throw",
+        "Batteries only fit BATOCA"
+      ]
+    },
+    {
+      "asin": "B0FH6CPT28",
+      "name": "Niusken Cordless Car Buffer Polisher Kit, DA Polisher with 2 x 21V Batteries (PGJ-21V)",
+      "brand": "Niusken",
+      "model": "PGJ-21V",
+      "image": "https://m.media-amazon.com/images/I/81EYfO9o1aL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.4,
+      "reviews_count": 1110,
+      "bought": "5K+/mo",
+      "specs": {
+        "type": "Random orbital",
+        "battery": "2 x 21V 2.0Ah (included)",
+        "speed": "6 speeds, 2,800-5,800 rpm",
+        "pad": "5-in backing plate",
+        "in_box": "2 batteries, fast charger, 5 and 6-in pads"
+      },
+      "features": {
+        "dual_action": true,
+        "kit": true,
+        "brushless": false,
+        "platform": false
+      },
+      "verdict": "The best-selling cordless polisher here: a 3.3 lb random orbital kit with an LED speed display, two batteries, a fast charger and pads in two sizes.",
+      "best_for": "A complete beginner kit.",
+      "skip_if": "You want a known brand.",
+      "pros": [
+        "5,000+ sold last month",
+        "LED speed display",
+        "3.3 lbs"
+      ],
+      "cons": [
+        "Brushed motor",
+        "Warranty not listed"
+      ]
+    },
+    {
+      "asin": "B0F8Z1CMXY",
+      "force_budget": true,
+      "name": "Protmex Cordless Car Buffer Polisher with 2 x 2000mAh 21V Batteries",
+      "brand": "Protmex",
+      "model": "21V polisher",
+      "image": "https://m.media-amazon.com/images/I/71BotjzrHSL._AC_SL1500_.jpg",
+      "price": 41.76,
+      "rating": 4.3,
+      "reviews_count": 3110,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "Eccentric (orbital)",
+        "battery": "2 x 21V 2.0Ah (included)",
+        "speed": "6 speeds, 2,800-5,500 rpm",
+        "pad": "6 in",
+        "in_box": "2 batteries, 8+ pads"
+      },
+      "features": {
+        "dual_action": true,
+        "kit": true,
+        "brushless": false,
+        "platform": false
+      },
+      "verdict": "A budget orbital kit with temperature protection, six speeds, two batteries and sponge, wave and wool pads, with a 2-year warranty.",
+      "best_for": "Waxing on a budget.",
+      "skip_if": "You want brushless; it's a brushed copper motor.",
+      "pros": [
+        "$41.76",
+        "3,110 reviews",
+        "2-year warranty"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Brushed motor"
+      ]
+    },
+    {
+      "asin": "B0BBQXFRP1",
+      "name": "Avhrit 6 Inch Cordless Car Buffer Polisher Kit with 2 x 2000mAh 21V Batteries",
+      "brand": "Avhrit",
+      "model": "ZHP0052MG",
+      "image": "https://m.media-amazon.com/images/I/712ZI9a7FeL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.3,
+      "reviews_count": 1183,
+      "bought": "400+/mo",
+      "specs": {
+        "type": "Polisher (motion not stated)",
+        "battery": "2 x 21V 2.0Ah (included)",
+        "speed": "6 speeds, 2,500-6,000 rpm",
+        "pad": "6 in",
+        "in_box": "2 batteries, fast charger"
+      },
+      "features": {
+        "dual_action": false,
+        "kit": true,
+        "brushless": false,
+        "platform": false
+      },
+      "verdict": "The cheapest kit here: a 3 lb, 300 W polisher with six speeds, two batteries and a fast charger, with a 1-year warranty.",
+      "best_for": "Waxing on the tightest budget.",
+      "skip_if": "You need dual action confirmed; the listing doesn't say.",
+      "pros": [
+        "$39.99",
+        "3 lbs",
+        "1-year warranty"
+      ],
+      "cons": [
+        "Motion type not stated",
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B09QPQN84R",
+      "name": "SPTA Cordless Car Buffer Polisher, 12V Brushless, 2 Batteries, Variable Speed (LD601US-MIX)",
+      "brand": "SPTA",
+      "model": "LD601US-MIX",
+      "image": "https://m.media-amazon.com/images/I/81upkAlYDiL._AC_SL1500_.jpg",
+      "price": 76.49,
+      "rating": 4.4,
+      "reviews_count": 649,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "Dual action, 8 mm throw",
+        "battery": "2 x 12V 2.0Ah (included)",
+        "speed": "6 speeds, 2,500-5,000 rpm",
+        "pad": "5 and 6-in plates",
+        "in_box": "2 batteries, foam and microfiber pads, both plates"
+      },
+      "features": {
+        "dual_action": true,
+        "kit": true,
+        "brushless": true,
+        "platform": false
+      },
+      "verdict": "A brushless 8 mm dual-action kit with 5- and 6-inch backing plates, foam and microfiber pads and two batteries, from the maker of the corded SPTA DA kit we also rank.",
+      "best_for": "Swirl removal with a cordless kit.",
+      "skip_if": "You want a long battery life; 12V packs run shorter.",
+      "pros": [
+        "Brushless, 8 mm throw",
+        "5 and 6-in plates",
+        "Pads included"
+      ],
+      "cons": [
+        "12V batteries",
+        "$76.49"
+      ]
+    },
+    {
+      "asin": "B0DB5K1PXG",
+      "name": "BATOCA S5 Cordless Mini Car Polisher Buffer, Rotary & Dual Action",
+      "brand": "BATOCA",
+      "model": "S5 (B02PO62)",
+      "image": "https://m.media-amazon.com/images/I/81D5iN9IXsL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.4,
+      "reviews_count": 591,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "Mini rotary and dual action (swappable)",
+        "battery": "2 x 12V 2.0Ah (included)",
+        "speed": "6 speeds, 2,000-5,500 rpm",
+        "pad": "Small detail pads",
+        "in_box": "2 batteries, 38 pieces"
+      },
+      "features": {
+        "dual_action": true,
+        "kit": true,
+        "brushless": false,
+        "platform": false
+      },
+      "verdict": "A mini detail polisher with a 5-second quick-change head that switches between rotary and dual action, for bumpers, mirrors, pillars and other tight areas.",
+      "best_for": "Detail areas a 6-inch pad can't reach.",
+      "skip_if": "You're polishing whole panels; it's a detail tool.",
+      "pros": [
+        "Rotary and DA in one",
+        "Quick-change head",
+        "38-piece kit"
+      ],
+      "cons": [
+        "20-30 minutes per battery",
+        "Small pads only"
+      ]
+    },
+    {
+      "asin": "B0DC69VJJL",
+      "name": "VERVEWAVE Cordless Buffer Polisher for Dewalt 20V Battery, 6-Inch Orbital, 1800-5500 RPM (WT8633)",
+      "brand": "VERVEWAVE",
+      "model": "WT8633",
+      "image": "https://m.media-amazon.com/images/I/71U7GpcWgcL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.6,
+      "reviews_count": 477,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "Orbital",
+        "battery": "Takes DEWALT 20V packs",
+        "speed": "6 speeds, 1,800-5,500 rpm",
+        "pad": "6 in",
+        "in_box": "17-piece pad kit"
+      },
+      "features": {
+        "dual_action": true,
+        "kit": false,
+        "brushless": true,
+        "platform": false
+      },
+      "verdict": "A third-party brushless orbital polisher that runs on DEWALT 20V batteries, with a 17-piece pad kit and a lock switch. DEWALT doesn't make or warrant it.",
+      "best_for": "DEWALT battery owners who want an orbital polisher.",
+      "skip_if": "You want DEWALT's own tool; its DCM849B is a rotary.",
+      "pros": [
+        "4.6 stars",
+        "Brushless",
+        "17-piece pad kit"
+      ],
+      "cons": [
+        "Third-party tool on DEWALT batteries",
+        "Tool only"
+      ]
+    },
+    {
+      "asin": "B07YQJLYNR",
+      "name": "DEWALT 20V MAX XR Cordless Polisher, Rotary, Variable Speed, 7-Inch, Tool Only (DCM849B)",
+      "brand": "DEWALT",
+      "model": "DCM849B",
+      "image": "https://m.media-amazon.com/images/I/51TaNc5IQhL._AC_SL1000_.jpg",
+      "price": 234.98,
+      "rating": 4.5,
+      "reviews_count": 1992,
+      "bought": "400+/mo",
+      "specs": {
+        "type": "Rotary",
+        "battery": "DEWALT 20V MAX",
+        "speed": "800-2,200 rpm, variable",
+        "pad": "7-in backing plate",
+        "in_box": "Backing plate, side and bail handles"
+      },
+      "features": {
+        "dual_action": false,
+        "kit": false,
+        "brushless": true,
+        "platform": true
+      },
+      "verdict": "A brushless cordless rotary for pros: 800-2,200 rpm with trigger and dial control, a 7-inch plate, side and bail handles, and a rubber overmold that won't mar paint.",
+      "best_for": "Detailers on DEWALT 20V doing correction work.",
+      "skip_if": "You're a beginner; rotaries can burn paint.",
+      "pros": [
+        "Brushless",
+        "Trigger and dial speed control",
+        "1,992 reviews"
+      ],
+      "cons": [
+        "$234.98 bare tool",
+        "Rotary takes practice"
+      ]
+    },
+    {
+      "asin": "B01N909O6H",
+      "name": "Milwaukee 2738-20 M18 FUEL Brushless Cordless 7 inch Variable Speed Polisher, Tool Only",
+      "brand": "Milwaukee",
+      "model": "2738-20",
+      "image": "https://m.media-amazon.com/images/I/51QzQ5R7vvL._AC_SL1000_.jpg",
+      "price": 209.49,
+      "rating": 4.5,
+      "reviews_count": 1678,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "Rotary",
+        "battery": "Milwaukee M18",
+        "speed": "Variable",
+        "pad": "7 in",
+        "in_box": "Polisher"
+      },
+      "features": {
+        "dual_action": false,
+        "kit": false,
+        "brushless": true,
+        "platform": true
+      },
+      "verdict": "Milwaukee's M18 FUEL 7-inch rotary polisher, promising corded performance on a battery. The listing is thin; check Milwaukee's specs before buying.",
+      "best_for": "M18 owners doing heavy correction and boats.",
+      "skip_if": "You want a dual action; this is a rotary.",
+      "pros": [
+        "M18 FUEL brushless",
+        "500+ sold last month",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Listing has one bullet",
+        "Tool only"
+      ]
+    },
+    {
+      "asin": "B0B59RPC6T",
+      "premium": true,
+      "name": "Milwaukee M18 FUEL 15mm Random Orbital Polisher, Bare Tool (2684-20)",
+      "brand": "Milwaukee",
+      "model": "2684-20",
+      "image": "https://m.media-amazon.com/images/I/419Bt-MqA6L._AC_SL1379_.jpg",
+      "price": 243.79,
+      "rating": 4.5,
+      "reviews_count": 364,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "Random orbital, 15 mm throw",
+        "battery": "Milwaukee M18",
+        "speed": "8 speeds, 2,650-5,100 rpm",
+        "pad": null,
+        "in_box": "Bare tool"
+      },
+      "features": {
+        "dual_action": true,
+        "kit": false,
+        "brushless": true,
+        "platform": true
+      },
+      "verdict": "A pro-grade 15 mm long-throw random orbital: an 8-speed dial plus variable trigger, electronic feedback that holds speed under load, and a lock-on switch for long sessions.",
+      "best_for": "Serious detailers who want cordless DA correction.",
+      "skip_if": "You wax twice a year; a $60 kit does it.",
+      "pros": [
+        "15 mm throw corrects faster",
+        "Holds speed under load",
+        "8 speeds plus variable trigger"
+      ],
+      "cons": [
+        "$243.79 bare tool",
+        "Listing showed only 4 left"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GD6MWFNJ",
+      "name": "Eioehtl Cordless Car Buffer Polisher Kit, 6\" Dual Action, 6 Variable Speed, 2 x 21V Batteries",
+      "brand": "Eioehtl",
+      "model": "Listed as 'tesla charger-2026'",
+      "image": "https://m.media-amazon.com/images/I/71LAo56ZVeL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.0,
+      "reviews_count": 256,
+      "flag": "Model listed as a Tesla charger; lowest rating",
+      "verdict": "A generic kit whose listing doesn't even name the right product. The Avhrit kit is the same price with more reviews and a stated 1-year warranty.",
+      "reasons": [
+        "The spec table lists its model number as 'tesla charger-2026', so the listing can't be relied on to describe what ships.",
+        "At 4.0 stars it's the lowest-rated cordless polisher we compared.",
+        "It lists no warranty and no weight."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Is a cordless polisher as good as a corded one?",
+      "a": "For waxing and light correction, yes, and there's no cord to drag across the paint. Heavy correction drains batteries fast, so pros often keep a corded polisher for that and a cordless one for touch-ups."
+    },
+    {
+      "q": "Dual action or rotary?",
+      "a": "Dual-action polishers are forgiving and won't burn paint, ideal for beginners. Rotaries cut faster but can burn through clear coat if held still."
+    },
+    {
+      "q": "What does throw mean?",
+      "a": "Throw is how far the pad orbits off-center. 5-8 mm throws are easy to control; 15 mm long-throw polishers like Milwaukee's correct faster on flat panels."
+    },
+    {
+      "q": "How long do the batteries last?",
+      "a": "Budget kits run about 20-40 minutes per 2.0Ah battery, so two batteries cover a waxing session. Tool-platform batteries (4-6Ah) last longer."
+    },
+    {
+      "q": "Do I need special pads?",
+      "a": "Use cutting pads with compound for swirls, polishing pads with polish to refine, and finishing pads for wax. Match pad size to the backing plate."
+    }
+  ]
+}

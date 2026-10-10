@@ -1,0 +1,475 @@
+{
+  "slug": "corded-car-polishers",
+  "title": "The 10 Best Corded Car Polishers",
+  "subtitle": "Dual-action and rotary buffers for waxing, swirl removal and paint correction, ranked from live Amazon data.",
+  "intro": "A car polisher spreads wax in minutes and, with the right pads and compound, removes swirls and light scratches that hand polishing can't. We ranked 10 best-sellers on rating, review volume and features (dual-action motion, variable speed, a soft start and a 2-year-plus warranty). The type matters most: dual-action (random orbital) polishers are hard to damage paint with and suit beginners; rotary buffers cut faster but can burn paint in inexperienced hands. Simple orbital waxers just apply and buff wax. They run from about $27 for WEN's 6-inch waxer to $220 for Chemical Guys' TORQX kit.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 35,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "dual_action": 0.3,
+    "variable": 0.3,
+    "warranty_2yr": 0.2,
+    "soft_start": 0.2
+  },
+  "reviews_ceiling": 10000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "pad",
+      "label": "Pad size"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "power",
+      "label": "Motor"
+    },
+    {
+      "key": "in_box",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "pad",
+      "label": "Pad"
+    },
+    {
+      "key": "variable",
+      "label": "Variable speed",
+      "type": "bool"
+    },
+    {
+      "key": "dual_action",
+      "label": "Dual action",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B004W1WGIC",
+      "name": "DEWALT Buffer Polisher, 7-in-9-in, 12 amp, Variable Speed Dial 0-3,500 RPM, Soft Start (DWP849X)",
+      "brand": "DEWALT",
+      "model": "DWP849X",
+      "image": "https://m.media-amazon.com/images/I/71LzxJmhL5L._AC_SL1500_.jpg",
+      "price": 154.99,
+      "rating": 4.7,
+      "reviews_count": 6917,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Rotary",
+        "pad": "7 to 9 in",
+        "speed": "0-3,500 rpm",
+        "power": "12 A",
+        "in_box": "Polisher"
+      },
+      "features": {
+        "dual_action": false,
+        "variable": true,
+        "warranty_2yr": true,
+        "soft_start": true
+      },
+      "verdict": "The pro's rotary buffer: a 12A motor on ball bearings and precision-cut steel gears, a speed dial plus variable trigger, soft start, a wool ingestion shield and a 3-year warranty.",
+      "best_for": "Experienced detailers doing heavy paint correction and boats.",
+      "skip_if": "You're new to polishing; a dual-action polisher won't burn the paint.",
+      "pros": [
+        "6,917 reviews at 4.7 stars",
+        "Ball bearings, steel gears, soft start",
+        "3-year warranty"
+      ],
+      "cons": [
+        "Rotary takes practice",
+        "No pads in the box"
+      ]
+    },
+    {
+      "asin": "B089N83CWF", "force_overall": true,
+      "name": "SPTA 5-Inch 125mm Dual Action Random Orbital Car Polisher, Detailing Kit (DAPSET-US)",
+      "brand": "SPTA",
+      "model": "DAPSET-US",
+      "image": "https://m.media-amazon.com/images/I/61LsoCW4n+L._AC_SL1000_.jpg",
+      "price": 107.84,
+      "rating": 4.7,
+      "reviews_count": 1875,
+      "bought": "600+/mo",
+      "specs": {
+        "type": "Dual action",
+        "pad": "5 and 6 in pads",
+        "speed": "6 speeds, to 5,200 rpm",
+        "power": "6.5 A",
+        "in_box": "8 pads, coarse and fine compound, apron, bag"
+      },
+      "features": {
+        "dual_action": true,
+        "variable": true,
+        "warranty_2yr": false,
+        "soft_start": true
+      },
+      "verdict": "A complete beginner-friendly correction kit: a 6.5A dual-action polisher with electronic speed control and smooth start, eight pads in two sizes, coarse and fine compound, and a bag.",
+      "best_for": "A first paint-correction setup in one box.",
+      "skip_if": "You only want to apply wax; a waxer is cheaper.",
+      "pros": [
+        "Dual action, hard to damage paint",
+        "8 pads plus compounds",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Warranty not listed",
+        "$107.84"
+      ]
+    },
+    {
+      "asin": "B0BM5VMBHC",
+      "name": "AOBEN Car Buffer Polisher, 6 inch Dual Action, 6 Variable Speed 1000-4500rpm (At-35001)",
+      "brand": "AOBEN",
+      "model": "At-35001",
+      "image": "https://m.media-amazon.com/images/I/71KuMTrF4ML._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.5,
+      "reviews_count": 1711,
+      "bought": "2K+/mo",
+      "specs": {
+        "type": "Dual action",
+        "pad": "6 in",
+        "speed": "6 speeds, 1,000-4,500 rpm",
+        "power": "700 W",
+        "in_box": "4 pads, wrench"
+      },
+      "features": {
+        "dual_action": true,
+        "variable": true,
+        "warranty_2yr": false,
+        "soft_start": false
+      },
+      "verdict": "The best-selling polisher here: a 6-inch dual-action machine with six speeds, a detachable side or top handle and four pads, for about $50.",
+      "best_for": "Swirl removal and waxing on a budget.",
+      "skip_if": "You want a long warranty; it's 12 months.",
+      "pros": [
+        "2,000+ sold last month",
+        "Dual action, 6 speeds",
+        "4 pads included"
+      ],
+      "cons": [
+        "12-month warranty",
+        "No soft start listed"
+      ]
+    },
+    {
+      "asin": "B0000AXOHT",
+      "force_budget": true,
+      "name": "WEN 6010 6-Inch Waxer/Polisher",
+      "brand": "WEN",
+      "model": "6010",
+      "image": "https://m.media-amazon.com/images/I/713JAFgTCWL._AC_SL1500_.jpg",
+      "price": 26.94,
+      "rating": 4.4,
+      "reviews_count": 7527,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Orbital waxer",
+        "pad": "6 in",
+        "speed": "3,500 rpm",
+        "power": "0.5 A",
+        "in_box": "Applicator and terry bonnets"
+      },
+      "features": {
+        "dual_action": false,
+        "variable": false,
+        "warranty_2yr": false,
+        "soft_start": false
+      },
+      "verdict": "The cheapest way to wax a car: a light one- or two-hand waxer with applicator and terry bonnets.",
+      "best_for": "Applying and buffing off wax.",
+      "skip_if": "You want to remove swirls; a 0.5A waxer can't correct paint.",
+      "pros": [
+        "$26.94",
+        "7,527 reviews",
+        "Light, palm-size"
+      ],
+      "cons": [
+        "Single speed",
+        "Won't remove scratches"
+      ]
+    },
+    {
+      "asin": "B0092K1F2Q",
+      "name": "WEN 10PMC 10-Inch Waxer/Polisher in Case with Extra Bonnets",
+      "brand": "WEN",
+      "model": "10PMC",
+      "image": "https://m.media-amazon.com/images/I/91ng2uy9qFL._AC_SL1500_.jpg",
+      "price": 31.5,
+      "rating": 4.5,
+      "reviews_count": 3435,
+      "bought": "600+/mo",
+      "specs": {
+        "type": "Orbital waxer",
+        "pad": "10 in",
+        "speed": "3,200 opm",
+        "power": "0.75 A",
+        "in_box": "3 bonnets, wash mitt, case"
+      },
+      "features": {
+        "dual_action": false,
+        "variable": false,
+        "warranty_2yr": false,
+        "soft_start": false
+      },
+      "verdict": "A 10-inch waxer that covers big panels quickly, with three bonnets, a wash mitt and a storage case.",
+      "best_for": "Waxing SUVs and trucks fast.",
+      "skip_if": "You want paint correction.",
+      "pros": [
+        "10-in pad covers more",
+        "Case and 3 bonnets",
+        "$31.50"
+      ],
+      "cons": [
+        "Single speed",
+        "Waxing only"
+      ]
+    },
+    {
+      "asin": "B000077CPT",
+      "name": "BLACK+DECKER 6\" Buffer Polisher, Orbital Car Polisher with Wool and Foam Bonnets (WP900)",
+      "brand": "BLACK+DECKER",
+      "model": "WP900",
+      "image": "https://m.media-amazon.com/images/I/71wleH+W8kL._AC_SL1500_.jpg",
+      "price": 71.99,
+      "rating": 4.4,
+      "reviews_count": 10619,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Random orbit waxer",
+        "pad": "6 in",
+        "speed": null,
+        "power": null,
+        "in_box": "Foam applicator, 2 bonnets"
+      },
+      "features": {
+        "dual_action": true,
+        "variable": false,
+        "warranty_2yr": true,
+        "soft_start": false
+      },
+      "verdict": "The most-reviewed polisher here: a two-handled random-orbit waxer with a 10-foot cord, foam applicator and two bonnets, and a 2-year warranty.",
+      "best_for": "Even wax coats with less fatigue.",
+      "skip_if": "Price matters; the WEN 6010 waxes for $45 less.",
+      "pros": [
+        "10,619 reviews",
+        "Random orbit, two handles",
+        "2-year warranty"
+      ],
+      "cons": [
+        "Single speed",
+        "$71.99 for a waxer"
+      ]
+    },
+    {
+      "asin": "B0B5MMPQWX",
+      "name": "LDHTHOPI Dual Action Polisher, 980W 5/6 Inch, 9mm Random Orbital, 2800-5800 RPM",
+      "brand": "LDHTHOPI",
+      "model": "980W DA",
+      "image": "https://m.media-amazon.com/images/I/81gfgzXD86L._AC_SL1500_.jpg",
+      "price": 59.84,
+      "rating": 4.3,
+      "reviews_count": 479,
+      "bought": "100+/mo",
+      "specs": {
+        "type": "Dual action, 9 mm throw",
+        "pad": "5 and 6 in",
+        "speed": "6 speeds, 2,800-5,800 rpm",
+        "power": "980 W",
+        "in_box": "8 pads, D-handle, side handle"
+      },
+      "features": {
+        "dual_action": true,
+        "variable": true,
+        "warranty_2yr": false,
+        "soft_start": false
+      },
+      "verdict": "A 9 mm-throw dual-action polisher with six speeds, D and side handles, and eight pads for 5- and 6-inch backing plates.",
+      "best_for": "A budget DA with lots of pads.",
+      "skip_if": "Rating matters; it's 4.3 stars.",
+      "pros": [
+        "9 mm orbit",
+        "8 pads",
+        "Two handle options"
+      ],
+      "cons": [
+        "4.3 stars",
+        "No warranty listed"
+      ]
+    },
+    {
+      "asin": "B0DKHDHNF5",
+      "name": "AVID POWER Car Rotary Buffer Polisher Waxer 1200W 6 Speeds, 4 x 6\" Polish Pads",
+      "brand": "AVID POWER",
+      "model": "Rotary 1200W",
+      "image": "https://m.media-amazon.com/images/I/61UnxHonIiL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.4,
+      "reviews_count": 887,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Rotary",
+        "pad": "6 in",
+        "speed": "6 speeds, to 3,500 rpm",
+        "power": "10 A, 1,200 W",
+        "in_box": "10+ pads and sanding papers"
+      },
+      "features": {
+        "dual_action": false,
+        "variable": true,
+        "warranty_2yr": false,
+        "soft_start": false
+      },
+      "verdict": "A budget rotary with a 10A copper motor, six speeds, three grip positions and pads plus sanding papers.",
+      "best_for": "Learning rotary polishing on a budget, and furniture or boats.",
+      "skip_if": "You're a beginner on car paint; a DA is safer.",
+      "pros": [
+        "10A rotary, 6 speeds",
+        "3 grip options",
+        "Accessories included"
+      ],
+      "cons": [
+        "Rotary can burn paint",
+        "5.2 lbs"
+      ]
+    },
+    {
+      "asin": "B0B4V9K7WV",
+      "name": "LDHTHOPI Buffer Polisher, 1600W 7 Inch/6 Inch Rotary, 7 Variable Speed 1000-3500 RPM",
+      "brand": "LDHTHOPI",
+      "model": "1600W rotary",
+      "image": "https://m.media-amazon.com/images/I/81M6oTzRByL._AC_SL1500_.jpg",
+      "price": 54.99,
+      "rating": 4.2,
+      "reviews_count": 3230,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Rotary",
+        "pad": "6 and 7 in",
+        "speed": "7 speeds, 1,000-3,500 rpm",
+        "power": "1,600 W (claimed)",
+        "in_box": "7 pad types, D-handle"
+      },
+      "features": {
+        "dual_action": false,
+        "variable": true,
+        "warranty_2yr": false,
+        "soft_start": false
+      },
+      "verdict": "A popular budget rotary with seven speeds, three grip options and seven kinds of pads for compounding, polishing and waxing.",
+      "best_for": "Boats, furniture and heavy oxidation.",
+      "skip_if": "You're new to rotary polishing on car paint.",
+      "pros": [
+        "1,000+ sold last month",
+        "7 speeds",
+        "7 kinds of pads"
+      ],
+      "cons": [
+        "4.2 stars",
+        "1,600 W at 120 V would draw over 13 A; amperage not listed"
+      ]
+    },
+    {
+      "asin": "B01BKT63XM",
+      "premium": true,
+      "name": "Chemical Guys TORQX Random Orbital Polisher Kit, 9-Piece (BUF503X)",
+      "brand": "Chemical Guys",
+      "model": "BUF503X",
+      "image": "https://m.media-amazon.com/images/I/81A44gY0cwL._SL1500_.jpg",
+      "price": 219.99,
+      "rating": 4.6,
+      "reviews_count": 6417,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "Dual action, 8 mm throw",
+        "pad": null,
+        "speed": null,
+        "power": "700 W",
+        "in_box": "Polisher, pads, polishes, compounds"
+      },
+      "features": {
+        "dual_action": true,
+        "variable": true,
+        "warranty_2yr": false,
+        "soft_start": false
+      },
+      "verdict": "A complete detailing kit: the TORQX 8 mm dual-action polisher plus the pads, polishes and compounds for compounding, polishing and finishing.",
+      "best_for": "Car enthusiasts who want a full kit from a detailing brand.",
+      "skip_if": "You already own pads and compound; the SPTA kit is half the price.",
+      "pros": [
+        "Complete 9-piece kit",
+        "8 mm dual action",
+        "6,417 reviews"
+      ],
+      "cons": [
+        "$219.99",
+        "30-day warranty through Amazon, per the listing"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FDJVTTNT",
+      "name": "ZOTA Buffer Polisher, 1600W 7 Inch/6 Inch Car Buffers and Polishers Kit, 7 Variable Speeds (P702)",
+      "brand": "ZOTA",
+      "model": "P702",
+      "image": "https://m.media-amazon.com/images/I/61nEPvjjz2L._AC_SL1250_.jpg",
+      "price": 49.99,
+      "rating": 4.1,
+      "reviews_count": 209,
+      "bought": "100+/mo",
+      "flag": "13.3 A draw; calls itself rotary and dual action",
+      "verdict": "A budget buffer that can't decide what kind of polisher it is. For the same $50, the AOBEN is a real dual-action polisher with 1,711 reviews at 4.5 stars.",
+      "reasons": [
+        "It lists a 13.3 A draw. A standard 15 A household circuit is meant to carry about 12 A continuously, so a long polishing session on a shared garage circuit can trip the breaker. DEWALT's pro rotary draws 12 A.",
+        "The listing calls it a 'dual action polisher' while it's sold as a 1,000-3,500 rpm rotary buffer. The difference decides whether it's safe for a beginner on car paint.",
+        "At 4.1 stars it's the lowest-rated polisher we compared."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Dual-action or rotary?",
+      "a": "Dual-action (random orbital) polishers oscillate as they spin, so they don't build heat in one spot and are very hard to burn paint with. Rotary buffers spin in a fixed circle, cut faster and remove deeper defects, but they can burn through clear coat in seconds if you hold them still. Beginners should start with a DA."
+    },
+    {
+      "q": "Waxer or polisher?",
+      "a": "A simple orbital waxer applies and buffs off wax. It won't remove swirls or scratches. For paint correction you need a DA or rotary with cutting pads and compound."
+    },
+    {
+      "q": "What speed should I polish at?",
+      "a": "Spread product on low speed, then compound at medium-high and finish at medium. Variable speed lets you match the pad and product."
+    },
+    {
+      "q": "Which pads do I need?",
+      "a": "A cutting pad (wool or firm foam) with compound for swirls, a polishing pad with polish to refine, and a soft finishing pad for wax or sealant."
+    },
+    {
+      "q": "Can I use a polisher on headlights and boats?",
+      "a": "Yes. Polishers restore cloudy headlights with the right compound, and rotary buffers are common for oxidized gelcoat on boats."
+    }
+  ]
+}

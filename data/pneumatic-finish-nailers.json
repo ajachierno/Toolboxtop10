@@ -1,0 +1,471 @@
+{
+  "slug": "pneumatic-finish-nailers",
+  "title": "The 10 Best Pneumatic Finish Nailers",
+  "subtitle": "15- and 16-gauge air finish nailers for baseboard, casing, crown and cabinets, ranked from live Amazon data.",
+  "intro": "A finish nailer drives 15- or 16-gauge nails up to 2-1/2 inches, long enough to hold door casing, baseboard and crown into framing, where an 18-gauge brad nailer is too light. We ranked 10 best-sellers on rating, review volume and features (switchable sequential and bump fire, a 5-year-plus warranty, a weight under 4.5 lbs and a carrying case). 16-gauge nailers use straight strips; 15-gauge angled nailers hold heavier nails and reach into corners. They run from about $48 for 3PLUS's 16-gauge to $204 for BOSTITCH's 15-gauge kit. Each needs an air compressor.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 60,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "selective": 0.3,
+    "long_warranty": 0.3,
+    "light": 0.2,
+    "case": 0.2
+  },
+  "reviews_ceiling": 3000,
+  "spec_fields": [
+    {
+      "key": "gauge",
+      "label": "Gauge"
+    },
+    {
+      "key": "nails",
+      "label": "Nail lengths"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "modes",
+      "label": "Firing modes"
+    },
+    {
+      "key": "warranty",
+      "label": "Warranty"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "gauge",
+      "label": "Gauge"
+    },
+    {
+      "key": "nails",
+      "label": "Nails"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "selective",
+      "label": "Bump + sequential",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07MDDT2LV",
+      "name": "Metabo HPT 16 Gauge Finish Nailer, Lightweight 1-2.5in, NT65M2S",
+      "brand": "Metabo HPT",
+      "model": "NT65M2S",
+      "image": "https://m.media-amazon.com/images/I/61OTYfALT8L._AC_SL1500_.jpg",
+      "price": 129.0,
+      "rating": 4.7,
+      "reviews_count": 1941,
+      "bought": "1K+/mo",
+      "specs": {
+        "gauge": "16, straight",
+        "nails": "1 to 2-1/2 in",
+        "weight": "3.7 lb",
+        "modes": "Sequential or bump",
+        "warranty": "5 years"
+      },
+      "features": {
+        "selective": true,
+        "long_warranty": true,
+        "light": true,
+        "case": true
+      },
+      "verdict": "The best-selling finish nailer here: a 3.7 lb 16-gauge with a sequential/bump switch, tool-free depth, a no-mar tip and case, and a 5-year warranty. Builder and Developer magazine has named it its Pro Preferred nailer 12 years running.",
+      "best_for": "Baseboard, casing and most trim work.",
+      "skip_if": "You're hanging heavy crown or jambs; a 15-gauge angled nailer holds better.",
+      "pros": [
+        "1,000+ sold last month; 4.7 stars",
+        "3.7 lbs, the lightest here",
+        "5-year warranty, case included"
+      ],
+      "cons": [
+        "Straight 16-gauge only",
+        "Needs a compressor"
+      ]
+    },
+    {
+      "asin": "B07M62L77L",
+      "name": "Metabo HPT 15 Gauge Angled Finish Nailer, Selective Actuation, NT65MA4",
+      "brand": "Metabo HPT",
+      "model": "NT65MA4",
+      "image": "https://m.media-amazon.com/images/I/61DfwzEIUbL._AC_SL1500_.jpg",
+      "price": 137.09,
+      "rating": 4.7,
+      "reviews_count": 2286,
+      "bought": "600+/mo",
+      "specs": {
+        "gauge": "15, angled (DA)",
+        "nails": "1-1/4 to 2-1/2 in",
+        "weight": "4.2 lb",
+        "modes": "Sequential or contact",
+        "warranty": "5 years"
+      },
+      "features": {
+        "selective": true,
+        "long_warranty": true,
+        "light": true,
+        "case": true
+      },
+      "verdict": "The most-reviewed finish nailer here: a 15-gauge angled nailer for crown, door and window casing and chair rail, with an angled magazine that reaches into corners, a 360° exhaust and a 5-year warranty.",
+      "best_for": "Crown molding, door jambs and heavier trim.",
+      "skip_if": "You want smaller holes to fill; 16-gauge nails leave less to putty.",
+      "pros": [
+        "2,286 reviews at 4.7 stars",
+        "Angled magazine reaches corners",
+        "5-year warranty, case included"
+      ],
+      "cons": [
+        "15-gauge DA nails cost more",
+        "Bigger holes than 16-gauge"
+      ]
+    },
+    {
+      "asin": "B015ODI46E",
+      "force_budget": true,
+      "name": "3PLUS HT64SP 16 Gauge Pneumatic Straight Finish Nailer",
+      "brand": "3PLUS",
+      "model": "HT64SP",
+      "image": "https://m.media-amazon.com/images/I/61bAATTlv9L._AC_SL1500_.jpg",
+      "price": 47.88,
+      "rating": 4.5,
+      "reviews_count": 326,
+      "bought": "50+/mo",
+      "specs": {
+        "gauge": "16, straight",
+        "nails": "3/4 to 2-1/2 in",
+        "weight": null,
+        "modes": "Sequential or bump (swap trigger)",
+        "warranty": null
+      },
+      "features": {
+        "selective": true,
+        "long_warranty": false,
+        "light": false,
+        "case": false
+      },
+      "verdict": "The cheapest finish nailer here, with tool-free depth, a 360° exhaust, quick jam release and interchangeable triggers for single or bump fire.",
+      "best_for": "A one-room trim job on a budget.",
+      "skip_if": "You'll use it often; Metabo's 5-year warranty is worth the extra.",
+      "pros": [
+        "$47.88",
+        "Takes 3/4 to 2-1/2-in nails",
+        "Tool-free depth and jam release"
+      ],
+      "cons": [
+        "No warranty term listed",
+        "Trigger swap, not a switch"
+      ]
+    },
+    {
+      "asin": "B015O5Q27U",
+      "name": "3PLUS HDA1564SP 15 Gauge Angled Finish Nailer",
+      "brand": "3PLUS",
+      "model": "HDA1564SP",
+      "image": "https://m.media-amazon.com/images/I/61aX1EUPE0L._AC_SL1500_.jpg",
+      "price": 66.88,
+      "rating": 4.6,
+      "reviews_count": 652,
+      "bought": "100+/mo",
+      "specs": {
+        "gauge": "15, angled (DA)",
+        "nails": "1-1/4 to 2-1/2 in",
+        "weight": null,
+        "modes": "Single or bump (swap trigger)",
+        "warranty": null
+      },
+      "features": {
+        "selective": true,
+        "long_warranty": false,
+        "light": false,
+        "case": false
+      },
+      "verdict": "A budget 15-gauge angled nailer for about half the Metabo's price, with tool-free depth, a no-mar tip and a 360° exhaust.",
+      "best_for": "Crown and casing on a budget.",
+      "skip_if": "You want a long warranty.",
+      "pros": [
+        "About half the Metabo NT65MA4's price",
+        "4.6 stars",
+        "No-mar tip, 360° exhaust"
+      ],
+      "cons": [
+        "No warranty term listed",
+        "Trigger swap for bump fire"
+      ]
+    },
+    {
+      "asin": "B07ZWXHN38",
+      "name": "HBT HBT64P 16 Gauge Finish Nailer with Magnesium Housing and Carrying Case",
+      "brand": "HBT",
+      "model": "HBT64P",
+      "image": "https://m.media-amazon.com/images/I/71W5ti1HbtL._AC_SL1500_.jpg",
+      "price": 57.88,
+      "rating": 4.5,
+      "reviews_count": 336,
+      "bought": "50+/mo",
+      "specs": {
+        "gauge": "16, straight",
+        "nails": "1 to 2-1/2 in",
+        "weight": null,
+        "modes": "Sequential or bump (switch)",
+        "warranty": null
+      },
+      "features": {
+        "selective": true,
+        "long_warranty": false,
+        "light": false,
+        "case": true
+      },
+      "verdict": "A magnesium-housed 16-gauge with a flip switch between bump and sequential fire, tool-free depth and jam release, a spare no-mar tip and a case, for under $60.",
+      "best_for": "A budget 16-gauge with a real mode switch.",
+      "skip_if": "You want a warranty term; none is listed.",
+      "pros": [
+        "Magnesium housing",
+        "Flip switch for firing mode",
+        "Case and spare tip"
+      ],
+      "cons": [
+        "No warranty term listed",
+        "Smaller review base"
+      ]
+    },
+    {
+      "asin": "B00JTYO2C0",
+      "name": "BOSTITCH Finish Nailer Kit, 16GA, Smart Point, Pneumatic (BTFP71917)",
+      "brand": "BOSTITCH",
+      "model": "BTFP71917",
+      "image": "https://m.media-amazon.com/images/I/51tqG6ExHKL._AC_SL1000_.jpg",
+      "price": 169.0,
+      "rating": 4.6,
+      "reviews_count": 566,
+      "bought": "50+/mo",
+      "specs": {
+        "gauge": "16, straight",
+        "nails": "1-1/4 to 2-1/2 in",
+        "weight": null,
+        "modes": "Sequential or contact",
+        "warranty": "7 years"
+      },
+      "features": {
+        "selective": true,
+        "long_warranty": true,
+        "light": false,
+        "case": true
+      },
+      "verdict": "A pro 16-gauge with Bostitch's Smart Point nose for accurate placement, oil-free operation that won't stain trim, Dial-A-Depth, and a 7-year warranty.",
+      "best_for": "Painted or stained trim where oil spots matter.",
+      "skip_if": "Budget matters; the Metabo NT65M2S is $40 less with a strong record.",
+      "pros": [
+        "Oil-free, won't stain trim",
+        "Smart Point narrow nose",
+        "7-year warranty"
+      ],
+      "cons": [
+        "$169.00",
+        "Smaller review base"
+      ]
+    },
+    {
+      "asin": "B09TDDGH3C",
+      "name": "DOTOOL Finish Nailer 16GA 1-inch to 2-1/2-inch Finish Nails Pneumatic Nail Gun (T64C)",
+      "brand": "DOTOOL",
+      "model": "T64C",
+      "image": "https://m.media-amazon.com/images/I/71pyi3hHtwL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.1,
+      "reviews_count": 148,
+      "specs": {
+        "gauge": "16, straight",
+        "nails": "1 to 2-1/2 in",
+        "weight": "4.9 lb",
+        "modes": "Sequential",
+        "warranty": null
+      },
+      "features": {
+        "selective": false,
+        "long_warranty": false,
+        "light": false,
+        "case": false
+      },
+      "verdict": "A budget aluminum 16-gauge with tool-free depth and jam release and a 360° exhaust. The listing's claim that it handles subfloors, roof decking and sheathing is wrong for a 16-gauge finish nailer.",
+      "best_for": "Occasional trim if the cheaper picks are out of stock.",
+      "skip_if": "You need bump fire; only sequential is listed.",
+      "pros": [
+        "Tool-free depth and jam release",
+        "360° exhaust",
+        "Under $60"
+      ],
+      "cons": [
+        "4.1 stars",
+        "Lists framing jobs a finish nailer can't do"
+      ]
+    },
+    {
+      "asin": "B0F3CLRKG6",
+      "name": "meite T64A 16 Gauge Pneumatic Finish Nailer for 1-1/4 to 2-1/2 Inch Nails",
+      "brand": "meite",
+      "model": "T64A",
+      "image": "https://m.media-amazon.com/images/I/71iV0uq8+BL._AC_SL1500_.jpg",
+      "price": 72.99,
+      "rating": 4.3,
+      "reviews_count": 17,
+      "bought": "50+/mo",
+      "specs": {
+        "gauge": "16, straight",
+        "nails": "1-1/4 to 2-1/2 in",
+        "weight": "3.86 lb",
+        "modes": null,
+        "warranty": null
+      },
+      "features": {
+        "selective": false,
+        "long_warranty": false,
+        "light": true,
+        "case": false
+      },
+      "verdict": "A 3.86 lb aluminum 16-gauge with a quick-release nose for jams, tool-free depth and a 360° exhaust.",
+      "best_for": "A light budget 16-gauge.",
+      "skip_if": "You want a track record; it has 17 reviews.",
+      "pros": [
+        "3.86 lbs",
+        "Quick-release nose",
+        "Tool-free depth"
+      ],
+      "cons": [
+        "17 reviews",
+        "Firing modes and warranty not listed"
+      ]
+    },
+    {
+      "asin": "B00VSO3AFO",
+      "name": "DEWALT Finish Nailer with Precision Point, 16GA (DWFP71917)",
+      "brand": "DEWALT",
+      "model": "DWFP71917",
+      "image": "https://m.media-amazon.com/images/I/61cJrTTS1UL._AC_SL1000_.jpg",
+      "price": 199.0,
+      "rating": 4.6,
+      "reviews_count": 273,
+      "specs": {
+        "gauge": "16, straight",
+        "nails": null,
+        "weight": null,
+        "modes": null,
+        "warranty": null
+      },
+      "features": {
+        "selective": false,
+        "long_warranty": false,
+        "light": false,
+        "case": false
+      },
+      "verdict": "DEWALT's 16-gauge Precision Point kit, rated 4.6 stars. The Amazon listing repeats the product name five times instead of listing specs, so check DEWALT's site for details.",
+      "best_for": "DEWALT loyalists.",
+      "skip_if": "You want specs before buying; the listing has none.",
+      "pros": [
+        "4.6 stars",
+        "Precision Point nose",
+        "Kit"
+      ],
+      "cons": [
+        "$199.00",
+        "Listing gives no specs"
+      ]
+    },
+    {
+      "asin": "B00JTYO2AW",
+      "premium": true,
+      "name": "BOSTITCH BTFP72156 Smart Point 15GA FN Style Angle Finish Nailer Kit",
+      "brand": "BOSTITCH",
+      "model": "BTFP72156",
+      "image": "https://m.media-amazon.com/images/I/61HBsc26D6L._AC_SL1000_.jpg",
+      "price": 203.99,
+      "rating": 4.6,
+      "reviews_count": 331,
+      "specs": {
+        "gauge": "15, angled (FN)",
+        "nails": "1-1/4 to 2-1/2 in",
+        "weight": "4.3 lb",
+        "modes": null,
+        "warranty": "7 years"
+      },
+      "features": {
+        "selective": false,
+        "long_warranty": true,
+        "light": true,
+        "case": true
+      },
+      "verdict": "A pro 15-gauge kit with an integrated air blower to clear dust before you nail, a flip-out 16-inch on-center gauge for wall trim, Smart Point nose, Dial-A-Depth and a 7-year warranty.",
+      "best_for": "Trim carpenters doing doors, jambs and crown all day.",
+      "skip_if": "You trim one room; the Metabo NT65MA4 is $67 less.",
+      "pros": [
+        "Built-in air blower",
+        "16-in on-center gauge",
+        "7-year warranty, 4.3 lbs"
+      ],
+      "cons": [
+        "$203.99",
+        "FN-style nails, not DA"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B01JZ0NZX4",
+      "name": "NuMax Pneumatic 3-in-1 Nail Gun, 16 GA & 18 GA Finish Nailer, Brad Nailer, Stapler (SL31)",
+      "brand": "NuMax",
+      "model": "SL31",
+      "image": "https://m.media-amazon.com/images/I/71JVZMlXiuL._AC_SL1500_.jpg",
+      "price": 47.69,
+      "rating": 4.1,
+      "reviews_count": 1266,
+      "bought": "100+/mo",
+      "flag": "16-gauge nails only to 2 in; one gun for three fasteners",
+      "verdict": "A do-everything gun that's short on the one thing a finish nailer is for. For about the same money, the 3PLUS HT64SP drives 16-gauge nails to 2-1/2 inches.",
+      "reasons": [
+        "It only takes 16-gauge nails up to 2 inches. Dedicated finish nailers here drive 2-1/2-inch nails, the length you need to reach framing through casing and jambs.",
+        "One driver and magazine handle 16-gauge nails, 18-gauge brads and staples. The narrower brads and staples run in a channel sized for the thicker 16-gauge nail, a compromise no dedicated nailer has to make.",
+        "At 4.1 stars it's tied for the lowest rating here, with a 1-year warranty and 30 days on wear parts."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "15-gauge or 16-gauge?",
+      "a": "16-gauge nails are thinner and leave smaller holes, fine for baseboard, casing and most trim. 15-gauge nails are thicker and hold better in heavy crown, door jambs and hardwood, and angled 15-gauge magazines fit into corners."
+    },
+    {
+      "q": "Finish nailer or brad nailer?",
+      "a": "Brad nailers shoot thin 18-gauge brads for light trim, small moldings and crafts. Finish nailers drive heavier 15 or 16-gauge nails up to 2-1/2 inches, long enough to hold casing and baseboard into the studs."
+    },
+    {
+      "q": "What size compressor do I need?",
+      "a": "Finish nailers use little air. A small pancake or hot-dog compressor that holds 90 PSI keeps up with one nailer easily."
+    },
+    {
+      "q": "What are DA and FN nails?",
+      "a": "Angled 15-gauge nailers use either DA (34°) or FN (25°) style nails, and they aren't interchangeable. Check which your nailer takes before buying nails."
+    },
+    {
+      "q": "Bump fire or sequential?",
+      "a": "Sequential fires one nail per trigger pull for precise placement. Bump fire shoots each time the nose is pressed while the trigger is held, which is faster on long runs. A switch lets you choose."
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "slug": "hot-glue-guns",
+  "title": "The 10 Best Hot Glue Guns",
+  "subtitle": "Mini and full-size, dual-temp and cordless hot glue guns for crafts, repairs and woodworking, ranked from live Amazon data.",
+  "intro": "A hot glue gun bonds wood, fabric, foam, plastic and paper in under a minute. We ranked 10 best-sellers on rating, review volume and features (dual or adjustable temperature, full-size sticks, cordless use and sticks in the box). Mini guns take 0.27-inch (7 mm) sticks for crafts; full-size guns take 0.43-0.44-inch (11 mm) sticks and push more glue for repairs and woodworking. They run from about $10 for SHJADE's mini kit to $45 for AdTech's 200 W professional gun.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 12,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "dual_temp": 0.3,
+    "full_size": 0.25,
+    "cordless": 0.2,
+    "sticks": 0.25
+  },
+  "reviews_ceiling": 25000,
+  "spec_fields": [
+    {
+      "key": "size",
+      "label": "Stick size"
+    },
+    {
+      "key": "watts",
+      "label": "Power"
+    },
+    {
+      "key": "temp",
+      "label": "Temperature"
+    },
+    {
+      "key": "source",
+      "label": "Power source"
+    },
+    {
+      "key": "in_box",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "watts",
+      "label": "Watts"
+    },
+    {
+      "key": "dual_temp",
+      "label": "Temp control",
+      "type": "bool"
+    },
+    {
+      "key": "cordless",
+      "label": "Cordless",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07K791YRP",
+      "name": "Gorilla Mini Hot Glue Gun Kit, Dual Temp, Includes 30 Sticks",
+      "brand": "Gorilla",
+      "model": "Mini Dual Temp",
+      "image": "https://m.media-amazon.com/images/I/71Ln5PDEFnL._AC_SL1500_.jpg",
+      "price": 20.99,
+      "rating": 4.7,
+      "reviews_count": 27425,
+      "bought": "10K+/mo",
+      "specs": {
+        "size": "Mini, 0.27 in",
+        "watts": null,
+        "temp": "Low and high",
+        "source": "Corded",
+        "in_box": "Gun, 30 Gorilla weather-resistant sticks"
+      },
+      "features": {
+        "dual_temp": true,
+        "full_size": false,
+        "cordless": false,
+        "sticks": true
+      },
+      "verdict": "The most-reviewed glue gun here: a mini gun with a low setting for foam, fabric and floral work, a high setting for wood and plastic, a safety fuse, a built-in stand, and 30 of Gorilla's weather-resistant sticks.",
+      "best_for": "Crafts and household fixes.",
+      "skip_if": "You glue big pieces; a full-size gun pushes more glue.",
+      "pros": [
+        "27,425 reviews at 4.7 stars",
+        "Low and high temperature",
+        "30 weather-resistant sticks"
+      ],
+      "cons": [
+        "Mini sticks only",
+        "No warranty listed"
+      ]
+    },
+    {
+      "asin": "B087418ZDN",
+      "name": "Gorilla Dual Temp Full Size Hot Glue Gun, Precision Nozzle",
+      "brand": "Gorilla",
+      "model": "Full Size Dual Temp",
+      "image": "https://m.media-amazon.com/images/I/81rfABCMBOL._AC_SL1500_.jpg",
+      "price": 16.74,
+      "rating": 4.6,
+      "reviews_count": 5963,
+      "bought": "1K+/mo",
+      "specs": {
+        "size": "Full size",
+        "watts": null,
+        "temp": "Low and high",
+        "source": "Corded",
+        "in_box": "Gun only"
+      },
+      "features": {
+        "dual_temp": true,
+        "full_size": true,
+        "cordless": false,
+        "sticks": false
+      },
+      "verdict": "The full-size version of Gorilla's dual-temp gun with a precision nozzle, for bigger repairs and woodworking.",
+      "best_for": "Home repairs and larger craft projects.",
+      "skip_if": "You need sticks in the box; it's gun only.",
+      "pros": [
+        "Dual temp, full size",
+        "Precision nozzle",
+        "$16.74"
+      ],
+      "cons": [
+        "No sticks included",
+        "No warranty listed"
+      ]
+    },
+    {
+      "asin": "B09MRNT9WY",
+      "name": "ROMECH 60/100W Dual Temp Hot Glue Gun and Sticks Set, Full Size with Case",
+      "brand": "ROMECH",
+      "model": "60/100W",
+      "image": "https://m.media-amazon.com/images/I/715RwZx0MJL._AC_SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.8,
+      "reviews_count": 4747,
+      "bought": "2K+/mo",
+      "specs": {
+        "size": "Full size, 7/16 in",
+        "watts": "60 / 100 W",
+        "temp": "300°F low / high",
+        "source": "Corded",
+        "in_box": "21 sticks, Oxford case"
+      },
+      "features": {
+        "dual_temp": true,
+        "full_size": true,
+        "cordless": false,
+        "sticks": true
+      },
+      "verdict": "The highest-rated glue gun here: a full-size 60/100 W dual-temp gun with a no-drip copper nozzle, 21 high-viscosity sticks and a carrying case.",
+      "best_for": "A full-size gun kit that's ready to go.",
+      "skip_if": "You only do small crafts; a mini gun is easier to steer.",
+      "pros": [
+        "4.8 stars",
+        "Copper no-drip nozzle",
+        "Case and 21 sticks"
+      ],
+      "cons": [
+        "Warranty not listed",
+        "Heavier than mini guns"
+      ]
+    },
+    {
+      "asin": "B0DSK5PHZ7",
+      "force_budget": true,
+      "name": "SHJADE Hot Glue Gun with 30 Glue Sticks, 20W Mini Hot Melt Gun Kit",
+      "brand": "SHJADE",
+      "model": "LFT-A601",
+      "image": "https://m.media-amazon.com/images/I/71YvjXY6-HL._AC_SL1500_.jpg",
+      "price": 9.99,
+      "rating": 4.6,
+      "reviews_count": 6175,
+      "bought": "10K+/mo",
+      "specs": {
+        "size": "Mini, 0.27 in",
+        "watts": "20 W",
+        "temp": "Single",
+        "source": "Corded",
+        "in_box": "30 sticks"
+      },
+      "features": {
+        "dual_temp": false,
+        "full_size": false,
+        "cordless": false,
+        "sticks": true
+      },
+      "verdict": "A $10 mini gun and 30 sticks that sells over 10,000 a month, with a fold-up stand and a 1-3 minute warm-up.",
+      "best_for": "Kids' crafts and a cheap backup gun.",
+      "skip_if": "You need heat control or heavier bonds.",
+      "pros": [
+        "$9.99 with 30 sticks",
+        "10,000+ sold last month",
+        "Fold-up stand"
+      ],
+      "cons": [
+        "Single temperature",
+        "20 W"
+      ]
+    },
+    {
+      "asin": "B0BC878ZRG",
+      "name": "Krightlink Mini Hot Glue Gun Kit with 30 Glue Sticks, 20W Fast Preheating",
+      "brand": "Krightlink",
+      "model": "21",
+      "image": "https://m.media-amazon.com/images/I/61u3j+oaMoL._AC_SL1500_.jpg",
+      "price": 12.46,
+      "rating": 4.6,
+      "reviews_count": 4829,
+      "bought": "10K+/mo",
+      "specs": {
+        "size": "Mini",
+        "watts": "20 W",
+        "temp": "Single",
+        "source": "Corded",
+        "in_box": "30 sticks"
+      },
+      "features": {
+        "dual_temp": false,
+        "full_size": false,
+        "cordless": false,
+        "sticks": true
+      },
+      "verdict": "A mini gun with a PTC ceramic heater that warms up in about a minute, an anti-drip precision nozzle and 30 sticks.",
+      "best_for": "Precise craft work on a budget.",
+      "skip_if": "You need a high-heat setting.",
+      "pros": [
+        "1-minute warm-up",
+        "Anti-drip nozzle",
+        "30 sticks"
+      ],
+      "cons": [
+        "Single temperature",
+        "20 W"
+      ]
+    },
+    {
+      "asin": "B001AH5EXK",
+      "name": "Surebonder Cordless Hot Glue Gun, High Temperature, Full Size, 60W",
+      "brand": "Surebonder",
+      "model": "Cordless 60W",
+      "image": "https://m.media-amazon.com/images/I/61kqj0HVXWL._AC_SL1254_.jpg",
+      "price": 19.12,
+      "rating": 4.4,
+      "reviews_count": 14959,
+      "bought": "7K+/mo",
+      "specs": {
+        "size": "Full size",
+        "watts": "60 W",
+        "temp": "High, to 380°F",
+        "source": "Corded, or 3 min off the heating base",
+        "in_box": "Heating base, glue pad"
+      },
+      "features": {
+        "dual_temp": false,
+        "full_size": true,
+        "cordless": true,
+        "sticks": false
+      },
+      "verdict": "A full-size 60 W high-temp gun that lifts off its heating base for about 3 minutes of cordless gluing, hot enough to bond metal, wood, ceramics and leather.",
+      "best_for": "Repairs on heavier materials.",
+      "skip_if": "You want long cordless runs; it's 3 minutes off the base.",
+      "pros": [
+        "380°F high temp",
+        "Cordless for short bursts",
+        "14,959 reviews"
+      ],
+      "cons": [
+        "90-day warranty",
+        "No sticks included"
+      ]
+    },
+    {
+      "asin": "B07PGDLHBQ",
+      "name": "BOSWELL 150W Full Size Hot Glue Gun with 6 Copper Nozzles",
+      "brand": "BOSWELL",
+      "model": "150W",
+      "image": "https://m.media-amazon.com/images/I/71pOQFYtmLL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.5,
+      "reviews_count": 3120,
+      "bought": "900+/mo",
+      "specs": {
+        "size": "Full size",
+        "watts": "150 W",
+        "temp": "Adjustable 284-428°F",
+        "source": "Corded",
+        "in_box": "6 copper nozzles, stand"
+      },
+      "features": {
+        "dual_temp": true,
+        "full_size": true,
+        "cordless": false,
+        "sticks": false
+      },
+      "verdict": "A 150 W full-size gun with a temperature dial from 284 to 428°F and six interchangeable copper nozzles for different bead sizes.",
+      "best_for": "Heavy gluing that needs exact heat control.",
+      "skip_if": "You do occasional crafts; it's more gun than you need.",
+      "pros": [
+        "Adjustable temperature dial",
+        "6 copper nozzles",
+        "150 W"
+      ],
+      "cons": [
+        "$39.99",
+        "No sticks included"
+      ]
+    },
+    {
+      "asin": "B0FXQZLVMC",
+      "name": "Tilswall Cordless Hot Glue Gun W106s with Rechargeable 2Ah Battery",
+      "brand": "Tilswall",
+      "model": "W106s",
+      "image": "https://m.media-amazon.com/images/I/612p11alVuL._AC_SL1500_.jpg",
+      "price": 19.99,
+      "rating": 4.3,
+      "reviews_count": 2096,
+      "bought": "1K+/mo",
+      "specs": {
+        "size": "Mini",
+        "watts": null,
+        "temp": "Single",
+        "source": "Built-in 2,000 mAh, USB-C",
+        "in_box": "20 sticks, USB-C cable"
+      },
+      "features": {
+        "dual_temp": false,
+        "full_size": false,
+        "cordless": true,
+        "sticks": true
+      },
+      "verdict": "A truly cordless mini gun with a built-in 2,000 mAh battery, a 90-second preheat and USB-C charging.",
+      "best_for": "Gluing away from an outlet.",
+      "skip_if": "You glue for hours; the battery limits session length.",
+      "pros": [
+        "Fully cordless, USB-C",
+        "90-second preheat",
+        "5.6 oz"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Mini sticks only"
+      ]
+    },
+    {
+      "asin": "B0CBPJK2VZ",
+      "name": "MAXDONE 100W Cordless Hot Glue Gun for DeWalt 20V MAX Battery, Tool Only (NL-237US)",
+      "brand": "MAXDONE",
+      "model": "NL-237US",
+      "image": "https://m.media-amazon.com/images/I/71SINNHDtkL._AC_SL1500_.jpg",
+      "price": 22.99,
+      "rating": 4.5,
+      "reviews_count": 5604,
+      "bought": "200+/mo",
+      "specs": {
+        "size": "Full size, 0.43 in",
+        "watts": "100 W",
+        "temp": "Single",
+        "source": "DEWALT 20V battery",
+        "in_box": "12 sticks"
+      },
+      "features": {
+        "dual_temp": false,
+        "full_size": true,
+        "cordless": true,
+        "sticks": true
+      },
+      "verdict": "A full-size 100 W gun that runs on DEWALT 20V batteries, so you can glue on a ladder or job site with no cord. Third-party, so DEWALT doesn't warrant it.",
+      "best_for": "DEWALT battery owners gluing away from outlets.",
+      "skip_if": "You don't own DEWALT batteries.",
+      "pros": [
+        "Full size, cordless",
+        "Runs on DEWALT 20V",
+        "5,604 reviews"
+      ],
+      "cons": [
+        "3-5 minute warm-up",
+        "Third-party tool"
+      ]
+    },
+    {
+      "asin": "B002KVB0EM",
+      "premium": true,
+      "name": "AdTech Pro200 Industrial Strength Full Size High-Output Hot Melt Glue Gun, 200 W",
+      "brand": "AdTech",
+      "model": "Pro200 (0189)",
+      "image": "https://m.media-amazon.com/images/I/71H+PiK3iEL._AC_SL1500_.jpg",
+      "price": 44.99,
+      "rating": 4.6,
+      "reviews_count": 1215,
+      "bought": "200+/mo",
+      "specs": {
+        "size": "Full size",
+        "watts": "200 W",
+        "temp": "410°F",
+        "source": "Corded",
+        "in_box": "Gun"
+      },
+      "features": {
+        "dual_temp": false,
+        "full_size": true,
+        "cordless": false,
+        "sticks": false
+      },
+      "verdict": "A professional high-output gun with a 200 W PTC heater at 410°F and a light-pull trigger, for carpentry, remodeling and long production runs.",
+      "best_for": "Carpentry, upholstery and heavy production gluing.",
+      "skip_if": "You do crafts; it runs too hot for foam and fabric.",
+      "pros": [
+        "200 W, the most here",
+        "410°F",
+        "Light trigger pull"
+      ],
+      "cons": [
+        "$44.99",
+        "Single high temperature"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B09FYWQ44L",
+      "name": "Assark 30W Mini Hot Glue Gun Kit with 30 Glue Sticks",
+      "brand": "Assark",
+      "model": "HL-E 20W",
+      "image": "https://m.media-amazon.com/images/I/61LZY2IHBIL._AC_SL1300_.jpg",
+      "price": 10.99,
+      "rating": 4.2,
+      "reviews_count": 6317,
+      "bought": "8K+/mo",
+      "flag": "Sold as 30 W; model number says 20 W",
+      "verdict": "A mini gun sold on a wattage its own model number contradicts. The SHJADE is a dollar cheaper, rated higher and honest about being 20 W.",
+      "reasons": [
+        "The title and bullets sell it as 30 W and claim it heats faster than 20 W guns, but the model number in the spec table is 'HL-E 20W'.",
+        "At 4.2 stars it's the lowest-rated glue gun we compared.",
+        "It lists no warranty."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Mini or full-size glue gun?",
+      "a": "Mini guns (0.27-inch sticks) are light and precise for crafts, cards and small repairs. Full-size guns (about 0.44-inch sticks) push much more glue, which you need for wood, larger repairs and long beads."
+    },
+    {
+      "q": "Why does dual temperature matter?",
+      "a": "Low heat protects foam, fabric, ribbon and fingers. High heat bonds stronger to wood, plastic and metal. Dual-temp guns cover both."
+    },
+    {
+      "q": "How many watts do I need?",
+      "a": "20 W mini guns handle crafts. 60-100 W full-size guns keep up with steady gluing. 150-200 W guns are for production work and heavy repairs."
+    },
+    {
+      "q": "Are cordless glue guns worth it?",
+      "a": "For gluing on ladders, outdoors or around a room, yes. Base-heated guns stay hot only a few minutes off the stand; battery guns run longer."
+    },
+    {
+      "q": "How do I avoid burns and strings?",
+      "a": "Use the stand, keep fingers clear of the nozzle, and try low temperature for delicate work. Drip-free copper nozzles cut down on strings."
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "slug": "staple-guns",
+  "title": "The 10 Best Staple Guns",
+  "subtitle": "Manual heavy-duty and light-duty staple guns for upholstery, insulation, wire and crafts, ranked from live Amazon data.",
+  "intro": "A manual staple gun fastens fabric, screen, insulation, wire and house wrap with no battery or hose. We ranked 10 best-sellers on rating, review volume and features (adjustable driving power, the ability to drive brad nails, staples in the box and a long warranty). Check the staple type: heavy-duty guns take T50 staples (Arrow's standard, also sold by others) up to 9/16 inch, while light-duty guns take smaller JT21 staples for crafts and fabric. They run from about $8 for HAUSHOF's light-duty gun to $42 for DEWALT's carbon fiber tacker.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 15,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "power_adjust": 0.25,
+    "brads": 0.25,
+    "staples": 0.25,
+    "long_warranty": 0.25
+  },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    {
+      "key": "staples",
+      "label": "Staple type"
+    },
+    {
+      "key": "sizes",
+      "label": "Sizes"
+    },
+    {
+      "key": "body",
+      "label": "Body"
+    },
+    {
+      "key": "in_box",
+      "label": "In the box"
+    },
+    {
+      "key": "warranty",
+      "label": "Warranty"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "staples",
+      "label": "Staples"
+    },
+    {
+      "key": "sizes",
+      "label": "Sizes"
+    },
+    {
+      "key": "brads",
+      "label": "Brads too",
+      "type": "bool"
+    },
+    {
+      "key": "power_adjust",
+      "label": "Power adjust",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00002ND61",
+      "force_overall": true,
+      "name": "Arrow T50 Heavy-Duty Staple Gun, Manual Stapler",
+      "brand": "Arrow",
+      "model": "T50",
+      "image": "https://m.media-amazon.com/images/I/612ZmPITX9L._AC_SL1500_.jpg",
+      "price": 19.95,
+      "rating": 4.5,
+      "reviews_count": 5215,
+      "bought": "2K+/mo",
+      "specs": {
+        "staples": "T50",
+        "sizes": "1/4 to 9/16 in",
+        "body": "Chromed steel",
+        "in_box": "Gun",
+        "warranty": "90 days"
+      },
+      "features": {
+        "power_adjust": false,
+        "brads": false,
+        "staples": false,
+        "long_warranty": false
+      },
+      "verdict": "The staple gun that set the standard: an all-chromed-steel body, a high-leverage handle, a jam-resistant rear-load magazine and a staple-view window. T50 staples are sold everywhere.",
+      "best_for": "Insulation, house wrap, upholstery and general fastening.",
+      "skip_if": "You want staples in the box; the T50 kit includes 3,750.",
+      "pros": [
+        "5,215 reviews; 2,000+ sold last month",
+        "All-steel, high-leverage handle",
+        "Takes T50 staples to 9/16 in"
+      ],
+      "cons": [
+        "No staples included",
+        "90-day warranty"
+      ]
+    },
+    {
+      "asin": "B099NLPH1T",
+      "name": "Arrow T50 Heavy Duty Staple Gun Kit with 3750 Pieces T50 Staples",
+      "brand": "Arrow",
+      "model": "T50 kit",
+      "image": "https://m.media-amazon.com/images/I/71m9qQMPgFL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.6,
+      "reviews_count": 1643,
+      "bought": "3K+/mo",
+      "specs": {
+        "staples": "T50",
+        "sizes": "1/4 to 9/16 in",
+        "body": "Chromed steel",
+        "in_box": "3,750 staples (1/4, 3/8, 1/2 in)",
+        "warranty": null
+      },
+      "features": {
+        "power_adjust": false,
+        "brads": false,
+        "staples": true,
+        "long_warranty": false
+      },
+      "verdict": "The Arrow T50 with 1,250 staples each in 1/4, 3/8 and 1/2 inch, so you're ready for most jobs.",
+      "best_for": "Buying a T50 once and not needing staples for years.",
+      "skip_if": "You already have T50 staples.",
+      "pros": [
+        "3,000+ sold last month",
+        "3,750 staples in 3 sizes",
+        "4.6 stars"
+      ],
+      "cons": [
+        "$10 more than the bare T50",
+        "Warranty not listed"
+      ]
+    },
+    {
+      "asin": "B082R1PJTD",
+      "name": "YEAHOME 4-in-1 Heavy Duty Upholstery Staple Gun with 4000 Staples (ST12)",
+      "brand": "YEAHOME",
+      "model": "ST12",
+      "image": "https://m.media-amazon.com/images/I/71bhwXviszL._AC_SL1500_.jpg",
+      "price": 16.99,
+      "rating": 4.3,
+      "reviews_count": 15700,
+      "bought": "9K+/mo",
+      "specs": {
+        "staples": "D, U and T-shaped, plus pins",
+        "sizes": null,
+        "body": "Chromed steel",
+        "in_box": "4,000 staples and pins",
+        "warranty": null
+      },
+      "features": {
+        "power_adjust": true,
+        "brads": true,
+        "staples": true,
+        "long_warranty": false
+      },
+      "verdict": "The most-reviewed staple gun here: a steel gun with adjustable power that takes four fastener types, including small brad-style pins, with 4,000 in the box.",
+      "best_for": "Upholstery and DIY on a budget.",
+      "skip_if": "You want a brand-name tool and warranty.",
+      "pros": [
+        "15,700 reviews; 9,000+ sold last month",
+        "Adjustable power",
+        "4 fastener types, 4,000 included"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Warranty not listed"
+      ]
+    },
+    {
+      "asin": "B087BP39S5",
+      "name": "WORKPRO 6-in-1 Staple Gun, Manual Brad Nailer with 4000 Staples (W023035)",
+      "brand": "WORKPRO",
+      "model": "W023035",
+      "image": "https://m.media-amazon.com/images/I/71iguheJeZL._AC_SL1500_.jpg",
+      "price": 26.99,
+      "rating": 4.5,
+      "reviews_count": 6895,
+      "bought": "300+/mo",
+      "specs": {
+        "staples": "6 types including T50",
+        "sizes": null,
+        "body": "Steel",
+        "in_box": "4,000 staples and nails",
+        "warranty": null
+      },
+      "features": {
+        "power_adjust": true,
+        "brads": true,
+        "staples": true,
+        "long_warranty": false
+      },
+      "verdict": "A 6-in-1 gun that takes T50 staples and five other fastener types with no adjustment, a high/low power lever and a handle lock for storage.",
+      "best_for": "One stapler that takes almost any fastener.",
+      "skip_if": "You only use T50 staples; the Arrow is simpler.",
+      "pros": [
+        "6 fastener types including T50",
+        "High/low power lever",
+        "6,895 reviews at 4.5 stars"
+      ],
+      "cons": [
+        "$26.99",
+        "Warranty not listed"
+      ]
+    },
+    {
+      "asin": "B017ROH41Y",
+      "name": "DEWALT DWHTTR510 5-in-1 Multi-Tacker",
+      "brand": "DEWALT",
+      "model": "DWHTTR510",
+      "image": "https://m.media-amazon.com/images/I/51epJwfN+ZL._AC_SL1000_.jpg",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviews_count": 1396,
+      "bought": "500+/mo",
+      "specs": {
+        "staples": "DEWALT/Arrow T50, Stanley TRA700, 18-ga brads",
+        "sizes": null,
+        "body": "Die-cast aluminum",
+        "in_box": "Protective case",
+        "warranty": "3 years"
+      },
+      "features": {
+        "power_adjust": false,
+        "brads": true,
+        "staples": false,
+        "long_warranty": true
+      },
+      "verdict": "A die-cast aluminum multi-tacker with easy-squeeze action and an anti-jam magazine that takes T50 and TRA700 staples plus 18-gauge brads, with a 3-year warranty.",
+      "best_for": "Brand-name quality that takes staples and brads.",
+      "skip_if": "You want staples included; it ships with a case only.",
+      "pros": [
+        "Takes T50, TRA700 and 18-ga brads",
+        "Easy-squeeze, anti-jam",
+        "3-year warranty"
+      ],
+      "cons": [
+        "No staples included",
+        "$29.99"
+      ]
+    },
+    {
+      "asin": "B0895MZFXL",
+      "name": "NEU MASTER Staple Gun with Staple Remover, Upholstery Staple Gun (NHT0050)",
+      "brand": "NEU MASTER",
+      "model": "NHT0050",
+      "image": "https://m.media-amazon.com/images/I/71QfLD21IwL._AC_SL1500_.jpg",
+      "price": 17.99,
+      "rating": 4.4,
+      "reviews_count": 4003,
+      "bought": "2K+/mo",
+      "specs": {
+        "staples": "3 staple types",
+        "sizes": "5/16, 3/8, 1/2 in",
+        "body": "Chrome-plated steel",
+        "in_box": "2,000 staples, remover",
+        "warranty": "Replacement service"
+      },
+      "features": {
+        "power_adjust": true,
+        "brads": false,
+        "staples": true,
+        "long_warranty": false
+      },
+      "verdict": "An all-steel gun with a top-mounted power knob, bottom loading, a built-in jam clear and 2,000 staples plus a remover.",
+      "best_for": "Upholstery jobs where you'll pull staples too.",
+      "skip_if": "You need brads; it's staples only.",
+      "pros": [
+        "Adjustable power knob",
+        "Staple remover included",
+        "2,000 staples"
+      ],
+      "cons": [
+        "No brads",
+        "Warranty terms vague"
+      ]
+    },
+    {
+      "asin": "B089SQYPMC",
+      "name": "Spec Ops Tools Heavy Duty Staple Gun for Construction & Roofing, 1/4\" to 9/16\" Staples and 18-Gauge Brads",
+      "brand": "Spec Ops",
+      "model": "Heavy duty",
+      "image": "https://m.media-amazon.com/images/I/51bIqIyajhL._SL1100_.jpg",
+      "price": 31.99,
+      "rating": 4.4,
+      "reviews_count": 1099,
+      "bought": "200+/mo",
+      "specs": {
+        "staples": "1/4-9/16 in staples, 18-ga brads",
+        "sizes": "1/4 to 9/16 in",
+        "body": "Composite",
+        "in_box": "Gun",
+        "warranty": null
+      },
+      "features": {
+        "power_adjust": false,
+        "brads": true,
+        "staples": false,
+        "long_warranty": false
+      },
+      "verdict": "A jobsite gun with a patented torsion spring that's up to 50% easier to squeeze, a flip-out wire guide for stapling over cable, a composite body and a metal belt hook.",
+      "best_for": "Roofing, insulation and low-voltage wiring.",
+      "skip_if": "You want staples included.",
+      "pros": [
+        "Up to 50% easier squeeze",
+        "Wire guide for cables",
+        "Belt hook"
+      ],
+      "cons": [
+        "$31.99",
+        "No staples included"
+      ]
+    },
+    {
+      "asin": "B0B5VVNZCW",
+      "force_budget": true,
+      "name": "CRAFTSMAN Heavy Duty Reverse Squeeze Stapler (CMHT82643)",
+      "brand": "CRAFTSMAN",
+      "model": "CMHT82643",
+      "image": "https://m.media-amazon.com/images/I/718vxUaslBL._AC_SL1500_.jpg",
+      "price": 14.99,
+      "rating": 4.4,
+      "reviews_count": 1302,
+      "bought": "1K+/mo",
+      "specs": {
+        "staples": "Heavy duty",
+        "sizes": null,
+        "body": "Composite",
+        "in_box": "Stapler",
+        "warranty": null
+      },
+      "features": {
+        "power_adjust": false,
+        "brads": false,
+        "staples": false,
+        "long_warranty": false
+      },
+      "verdict": "A reverse-squeeze heavy-duty stapler: PUSHFIRE puts the leverage over the staple for less kickback and more control, with a pinch-latch bottom load and a lock for storage.",
+      "best_for": "Controlled stapling in tight spots.",
+      "skip_if": "You need staple-size details; the listing doesn't give them.",
+      "pros": [
+        "Less kickback",
+        "Bottom load, locks closed",
+        "$14.99"
+      ],
+      "cons": [
+        "Staple sizes not listed",
+        "Composite body"
+      ]
+    },
+    {
+      "asin": "B0F5W651XJ",
+      "name": "HAUSHOF Light Duty Staple Gun with 800 JT21 Staples and Remover (HH25006)",
+      "brand": "HAUSHOF",
+      "model": "HH25006",
+      "image": "https://m.media-amazon.com/images/I/71sh3OfS1NL._AC_SL1500_.jpg",
+      "price": 8.49,
+      "rating": 4.5,
+      "reviews_count": 7327,
+      "bought": "400+/mo",
+      "specs": {
+        "staples": "JT21 (light duty)",
+        "sizes": "1/4, 5/16, 3/8 in",
+        "body": "Plastic and rubber",
+        "in_box": "800 staples, remover",
+        "warranty": null
+      },
+      "features": {
+        "power_adjust": false,
+        "brads": false,
+        "staples": true,
+        "long_warranty": false
+      },
+      "verdict": "The cheapest gun here: a light-duty JT21 stapler with an ergonomic rubber grip, quick-release bottom loading, 800 staples and a remover.",
+      "best_for": "Crafts, fabric, screens and shelf lining.",
+      "skip_if": "You're stapling into hardwood; it's light duty.",
+      "pros": [
+        "$8.49",
+        "7,327 reviews at 4.5 stars",
+        "Staples and remover included"
+      ],
+      "cons": [
+        "Light duty only",
+        "Plastic body"
+      ]
+    },
+    {
+      "asin": "B077Y9NSQF",
+      "premium": true,
+      "name": "DEWALT Staple Gun, Carbon Fiber Body, 2-in-1 Tacker (DWHT80276)",
+      "brand": "DEWALT",
+      "model": "DWHT80276",
+      "image": "https://m.media-amazon.com/images/I/61SW+saKIqL._AC_SL1000_.jpg",
+      "price": 41.99,
+      "rating": 4.7,
+      "reviews_count": 1897,
+      "bought": "300+/mo",
+      "specs": {
+        "staples": "Staples and brads (2-in-1)",
+        "sizes": null,
+        "body": "Carbon fiber",
+        "in_box": "Tacker",
+        "warranty": null
+      },
+      "features": {
+        "power_adjust": false,
+        "brads": true,
+        "staples": false,
+        "long_warranty": false
+      },
+      "verdict": "The highest-rated staple gun here: DEWALT's carbon fiber 2-in-1 tacker for staples and brads.",
+      "best_for": "Pros who staple all day.",
+      "skip_if": "You want details; the listing has one bullet.",
+      "pros": [
+        "4.7 stars",
+        "Carbon fiber body",
+        "Staples and brads"
+      ],
+      "cons": [
+        "$41.99",
+        "Listing gives almost no specs"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B08D3YNTSF",
+      "name": "PHITRIC 4-in-1 Heavy Duty Upholstery Staple Gun with 1200 Staples (PTHT-010)",
+      "brand": "PHITRIC",
+      "model": "PTHT-010",
+      "image": "https://m.media-amazon.com/images/I/71DA+MP3v2L._AC_SL1436_.jpg",
+      "price": 14.99,
+      "rating": 4.3,
+      "reviews_count": 3247,
+      "bought": "800+/mo",
+      "flag": "Listing contradicts itself on staple count",
+      "verdict": "A 4-in-1 kit that can't say how many staples you get. The YEAHOME 4-in-1 is $2 more with 4,000 staples and nearly five times the reviews.",
+      "reasons": [
+        "The title promises 1,200 staples, a bullet says 300 of each type, and the spec table says 6,000 fasteners.",
+        "The spec table gives its warranty as just '1' and its size as 14.65 x 8.07 inches, so the listing's details can't be trusted.",
+        "It's tied for the lowest rating among the staple guns we compared."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "T50 or JT21 staples?",
+      "a": "T50 is the heavy-duty standard (Arrow's design, made by many brands) in 1/4 to 9/16 inch, for insulation, wrap, upholstery and wood. JT21 is a lighter staple for crafts, fabric and screens. Buy the gun for the staples you'll use."
+    },
+    {
+      "q": "Do I need a multi-fastener staple gun?",
+      "a": "Guns that also drive brads or narrow staples are handy for trim and furniture repair. If you only staple insulation or fabric, a plain T50 is simpler and lasts longer."
+    },
+    {
+      "q": "What does power adjustment do?",
+      "a": "It sets how hard the staple drives. Turn it down for soft materials and fabric so staples don't punch through; up for hardwood."
+    },
+    {
+      "q": "Manual or electric?",
+      "a": "Manual staplers are cheap, reliable and need no power, fine for a project or two. For hundreds of staples a day, an electric or pneumatic stapler saves your hand."
+    },
+    {
+      "q": "How do I staple over cables safely?",
+      "a": "Use a gun with a wire guide and staples sized for the cable, and never pierce the cable jacket. Low-voltage wire only; follow code for electrical wiring."
+    }
+  ]
+}

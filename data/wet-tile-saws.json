@@ -1,0 +1,468 @@
+{
+  "slug": "wet-tile-saws",
+  "title": "The 10 Best Wet Tile Saws",
+  "subtitle": "7-inch tabletop, 10-inch sliding and handheld wet saws for ceramic, porcelain and stone, ranked from live Amazon data.",
+  "intro": "A wet tile saw cuts ceramic, porcelain and stone cleanly with a water-cooled diamond blade that keeps dust down and the blade from overheating. We ranked 10 best-sellers on rating, review volume and features (a sliding cutting cart, capacity for 18-inch tile or larger, water containment and a stand). 7-inch tabletop saws handle backsplashes and bathroom floors; 10-inch sliding saws cut large-format porcelain and planks dead straight. They run from about $101 for VEVOR's 7-inch to $1,379 for DEWALT's D36000S.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 105,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "sliding": 0.3,
+    "large_tile": 0.3,
+    "water_control": 0.2,
+    "stand": 0.2
+  },
+  "reviews_ceiling": 7000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "blade",
+      "label": "Blade"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "sliding",
+      "label": "Sliding cart",
+      "type": "bool"
+    },
+    {
+      "key": "stand",
+      "label": "Stand",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B003HIWR08",
+      "force_overall": true,
+      "name": "SKIL 7-Inch Wet Tile Saw (3540-02)",
+      "brand": "SKIL",
+      "model": "3540-02",
+      "image": "https://m.media-amazon.com/images/I/51lYs+jVLvL._AC_SL1000_.jpg",
+      "price": 109.0,
+      "rating": 4.4,
+      "reviews_count": 6506,
+      "specs": {
+        "type": "7 in tabletop",
+        "blade": "7 in",
+        "capacity": "12 x 12 in tile; 7.75 in crosscut",
+        "motor": null,
+        "extras": "Stainless steel top, rip fence, miter gauge, bevels 45°"
+      },
+      "features": {
+        "sliding": false,
+        "large_tile": false,
+        "water_control": false,
+        "stand": false
+      },
+      "verdict": "The most-reviewed tile saw here by a wide margin: a 7-inch tabletop with a corrosion-resistant stainless steel top, a rip fence and miter gauge, a water reservoir and 0-45° bevels, for about $109.",
+      "best_for": "Bathrooms, backsplashes and 12-inch floor tile.",
+      "skip_if": "You're cutting large-format tile over 12 inches.",
+      "pros": [
+        "6,506 reviews at 4.4 stars",
+        "Stainless steel top",
+        "Rip fence, miter gauge, 45° bevel"
+      ],
+      "cons": [
+        "12 x 12-in tile max",
+        "Water splashes without containment"
+      ]
+    },
+    {
+      "asin": "B0HGC6L2CD",
+      "force_budget": true,
+      "name": "VEVOR Wet Tile Saw 7 Inch, 3600 RPM (TC180)",
+      "brand": "VEVOR",
+      "model": "TC180",
+      "image": "https://m.media-amazon.com/images/I/71WPLEGeu0L._AC_SL1500_.jpg",
+      "price": 100.99,
+      "rating": 4.2,
+      "reviews_count": 104,
+      "specs": {
+        "type": "7 in tabletop",
+        "blade": "7 in, 65Mn steel",
+        "capacity": "1.2 in depth at 90°",
+        "motor": "3,600 rpm",
+        "extras": "Galvanized table, detachable reservoir, reset switch"
+      },
+      "features": {
+        "sliding": false,
+        "large_tile": false,
+        "water_control": false,
+        "stand": false
+      },
+      "verdict": "The cheapest tabletop here: a 7-inch with a galvanized table, a detachable water reservoir, 0-45° angle cuts and a reset switch that stops it restarting after a power cut.",
+      "best_for": "One small tiling job on a budget.",
+      "skip_if": "You want the SKIL's track record for $8 more.",
+      "pros": [
+        "$100.99",
+        "Detachable reservoir",
+        "Reset safety switch"
+      ],
+      "cons": [
+        "104 reviews",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B00J21SL6S",
+      "name": "Skil 3550-02 7-Inch Wet Tile Saw with HydroLock Water Containment System",
+      "brand": "SKIL",
+      "model": "3550-02",
+      "image": "https://m.media-amazon.com/images/I/61wGASYvbIL._AC_SL1500_.jpg",
+      "price": 169.0,
+      "rating": 4.2,
+      "reviews_count": 1858,
+      "specs": {
+        "type": "7 in tabletop",
+        "blade": "7 in",
+        "capacity": "18 x 18 in tile (with extension)",
+        "motor": null,
+        "extras": "HydroLock water containment, aluminum top, sliding side extension"
+      },
+      "features": {
+        "sliding": false,
+        "large_tile": true,
+        "water_control": true,
+        "stand": false
+      },
+      "verdict": "SKIL's upgraded 7-inch: HydroLock keeps water near the blade instead of across your floor, and a sliding side extension supports 18-inch tile.",
+      "best_for": "Indoor cutting where splash matters, and 18-inch tile.",
+      "skip_if": "You cut only small tile; the 3540-02 is $60 less.",
+      "pros": [
+        "HydroLock water containment",
+        "Supports 18 x 18-in tile",
+        "Bevels at 0, 22.5 and 45°"
+      ],
+      "cons": [
+        "4.2 stars",
+        "$169.00"
+      ]
+    },
+    {
+      "asin": "B07C21VL9J",
+      "name": "Leegol Electric 7in. Wet Tile Saw",
+      "brand": "Leegol Electric",
+      "model": "Wet tile saw 1",
+      "image": "https://m.media-amazon.com/images/I/61MOyIPJPmS._AC_SL1500_.jpg",
+      "price": 109.99,
+      "rating": 4.1,
+      "reviews_count": 1050,
+      "specs": {
+        "type": "7 in tabletop",
+        "blade": "7 in",
+        "capacity": null,
+        "motor": "Induction, 3,550 rpm",
+        "extras": "Rip fence, miter gauge, bevels 45°"
+      },
+      "features": {
+        "sliding": false,
+        "large_tile": false,
+        "water_control": false,
+        "stand": false
+      },
+      "verdict": "A 7-inch tabletop with an induction motor, a rip fence, a miter gauge and 0-45° bevels.",
+      "best_for": "An alternative when the SKIL is out of stock.",
+      "skip_if": "The SKIL 3540-02 is in stock; it's rated higher for a dollar less.",
+      "pros": [
+        "Induction motor",
+        "Rip fence and miter gauge",
+        "1,050 reviews"
+      ],
+      "cons": [
+        "4.1 stars, lowest here",
+        "Capacity not listed"
+      ]
+    },
+    {
+      "asin": "B078J22VN5",
+      "name": "PORTER-CABLE Tile Saw, Wet Saw with 7-inch Cutting Capacity and On-Board Cutting Guide (PCE980)",
+      "brand": "PORTER-CABLE",
+      "model": "PCE980",
+      "image": "https://m.media-amazon.com/images/I/51bg66VBrVL._AC_SL1000_.jpg",
+      "price": 259.0,
+      "rating": 4.4,
+      "reviews_count": 1591,
+      "specs": {
+        "type": "7 in sliding tabletop",
+        "blade": "7 in",
+        "capacity": null,
+        "motor": "2,850 rpm",
+        "extras": "Cutting cart, onboard miter square, roll cage, splash guard, drain plug"
+      },
+      "features": {
+        "sliding": true,
+        "large_tile": false,
+        "water_control": true,
+        "stand": false
+      },
+      "verdict": "A step up to a sliding cutting cart for straighter cuts, with an onboard miter square, a stainless deck, a splash guard, a drain plug and a protective roll cage.",
+      "best_for": "Straighter cuts and jobsite toughness on a mid budget.",
+      "skip_if": "You need 18-inch-plus tile; it's a 7-inch saw.",
+      "pros": [
+        "Sliding cutting cart",
+        "Splash guard and drain plug",
+        "Roll cage"
+      ],
+      "cons": [
+        "$259.00",
+        "Capacity not listed"
+      ]
+    },
+    {
+      "asin": "B003BVW5NU",
+      "name": "DEWALT Wet Tile Saw, Masonry, 4-3/8-Inch (DWC860W)",
+      "brand": "DEWALT",
+      "model": "DWC860W",
+      "image": "https://m.media-amazon.com/images/I/81fwgUWhsVL._AC_SL1500_.jpg",
+      "price": 169.99,
+      "rating": 4.2,
+      "reviews_count": 1287,
+      "specs": {
+        "type": "Handheld wet/dry",
+        "blade": "4-3/8 in diamond",
+        "capacity": "1-3/8 in depth",
+        "motor": "10.8 A, 1,300 W, 13,000 rpm",
+        "extras": "Bevels 45°, 6.6 lbs"
+      },
+      "features": {
+        "sliding": false,
+        "large_tile": true,
+        "water_control": false,
+        "stand": false
+      },
+      "verdict": "A handheld wet/dry saw that goes to the tile instead of the other way round: cut installed tile, countertops, granite and pavers up to 1-3/8 inches deep.",
+      "best_for": "Notches, installed tile, granite and countertops.",
+      "skip_if": "You want clean straight cuts on loose tile; a tabletop is easier.",
+      "pros": [
+        "Cuts tile in place",
+        "10.8A, 13,000 rpm",
+        "6.6 lbs"
+      ],
+      "cons": [
+        "Freehand cuts take practice",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B09FCW88FH",
+      "name": "Makita XCC01Z 18V LXT Brushless Cordless 5\" Wet/Dry Masonry Saw, Tool Only",
+      "brand": "Makita",
+      "model": "XCC01Z",
+      "image": "https://m.media-amazon.com/images/I/61899DtSUlL._AC_SL1500_.jpg",
+      "price": 282.98,
+      "rating": 4.4,
+      "reviews_count": 167,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Cordless handheld wet/dry",
+        "blade": "5 in",
+        "capacity": "1-9/16 in depth at 90°",
+        "motor": "Brushless, 18V LXT",
+        "extras": "Water feed, electric brake, AWS capable"
+      },
+      "features": {
+        "sliding": false,
+        "large_tile": true,
+        "water_control": true,
+        "stand": false
+      },
+      "verdict": "A cordless brushless masonry saw with a built-in adjustable water feed for OSHA Table 1 dust compliance, automatic speed change and an electric brake.",
+      "best_for": "Pros cutting masonry and tile with no cord or hose to the wall.",
+      "skip_if": "You don't own Makita LXT batteries.",
+      "pros": [
+        "Cordless, brushless",
+        "Integrated water feed",
+        "1-9/16-in depth, electric brake"
+      ],
+      "cons": [
+        "Tool only",
+        "$282.98"
+      ]
+    },
+    {
+      "asin": "B0HGWV7CRN",
+      "name": "VEVOR Wet Tile Saw with Stand 10 Inch, 15 Amp, 4500 RPM",
+      "brand": "VEVOR",
+      "model": "10 in with stand",
+      "image": "https://m.media-amazon.com/images/I/71evieKtP0L._AC_SL1500_.jpg",
+      "price": 829.9,
+      "rating": 4.2,
+      "reviews_count": 104,
+      "specs": {
+        "type": "10 in sliding with stand",
+        "blade": "10 in",
+        "capacity": null,
+        "motor": "15 A, 4,500 rpm",
+        "extras": "Infrared guide line, water pump, wheels, bevels 0/22.5/45°"
+      },
+      "features": {
+        "sliding": true,
+        "large_tile": true,
+        "water_control": false,
+        "stand": true
+      },
+      "verdict": "A 10-inch sliding saw on a wheeled stand with a 15A motor, a water pump, an infrared cut line and bevel stops.",
+      "best_for": "A 10-inch sliding saw if you won't pay for DEWALT.",
+      "skip_if": "The DEWALT D24000S is about $31 less with a 4.7 rating.",
+      "pros": [
+        "15A, infrared guide",
+        "Stand with wheels",
+        "10-in blade"
+      ],
+      "cons": [
+        "Costs more than the DEWALT D24000S",
+        "116 lbs"
+      ]
+    },
+    {
+      "asin": "B000J0BG7W",
+      "name": "DEWALT Wet Tile Saw with Stand, 10-Inch, Corded (D24000S)",
+      "brand": "DEWALT",
+      "model": "D24000S",
+      "image": "https://m.media-amazon.com/images/I/712Y+tj9gLL._AC_SL1500_.jpg",
+      "price": 799.0,
+      "rating": 4.7,
+      "reviews_count": 826,
+      "bought": "100+/mo",
+      "specs": {
+        "type": "10 in sliding with stand",
+        "blade": "10 in XP4 porcelain blade",
+        "capacity": "18 x 18 in diagonal; 3-1/8 in depth",
+        "motor": "1.5 peak HP",
+        "extras": "Stainless rollers, cutline indicator, submersible pump"
+      },
+      "features": {
+        "sliding": true,
+        "large_tile": true,
+        "water_control": true,
+        "stand": true
+      },
+      "verdict": "The highest-rated tile saw here and the pro standard: a 10-inch sliding saw on a stand that cuts within 1/32 inch over 18 inches, with a porcelain blade and submersible pump included.",
+      "best_for": "Tile setters and serious remodels.",
+      "skip_if": "You're tiling one bathroom; a $109 SKIL handles it.",
+      "pros": [
+        "4.7 stars",
+        "Accurate to 1/32 in over 18 in",
+        "Stand, blade and pump included"
+      ],
+      "cons": [
+        "$799.00",
+        "69 lbs"
+      ]
+    },
+    {
+      "asin": "B08526D2PK",
+      "premium": true,
+      "name": "DEWALT Wet Tile Saw with Stand, 10 Inch, 15-Amp (D36000S)",
+      "brand": "DEWALT",
+      "model": "D36000S",
+      "image": "https://m.media-amazon.com/images/I/61Z4Ys6KjdL._AC_SL1000_.jpg",
+      "price": 1379.0,
+      "rating": 4.6,
+      "reviews_count": 439,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "10 in large-format sliding with stand",
+        "blade": "10 in",
+        "capacity": "37 in rip (41 with plunge); 8-1/2 in crosscut",
+        "motor": "15 A",
+        "extras": "Fits through a 30-in door, 91 lbs"
+      },
+      "features": {
+        "sliding": true,
+        "large_tile": true,
+        "water_control": true,
+        "stand": true
+      },
+      "verdict": "Built for large-format porcelain: a 37-inch rip that handles 36 x 36-inch tile, an 8-1/2-inch crosscut for 8 x 48-inch planks, accurate to 1/32 inch over 30 inches, and still narrow enough to fit through a 30-inch door.",
+      "best_for": "Large-format tile and planks.",
+      "skip_if": "Your tile is 24 inches or smaller; the D24000S handles it.",
+      "pros": [
+        "37-in rip, 36 x 36-in tile",
+        "Accurate over 30 in",
+        "Fits through a 30-in door"
+      ],
+      "cons": [
+        "$1,379.00",
+        "91 lbs"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0CCJNQVLY",
+      "name": "Hoteche 8-Inch Wet Tile Saw, 8A Benchtop Masonry Cutting Tool with Stand",
+      "brand": "Hoteche",
+      "model": "8 in with stand",
+      "image": "https://m.media-amazon.com/images/I/513JVdH7ayL._AC_SL1000_.jpg",
+      "price": 309.99,
+      "rating": 1.9,
+      "reviews_count": 20,
+      "flag": "Rated 1.9; listing recommends it for wood",
+      "verdict": "A $310 tile saw rated 1.9 stars whose listing can't decide what it cuts. The PORTER-CABLE PCE980 costs $51 less with a sliding cart and 4.4 stars.",
+      "reasons": [
+        "It's rated 1.9 stars, far below every tile saw we compared.",
+        "The spec table lists its recommended surface as 'Wood' and its blade as high speed steel, for a wet saw meant for tile and stone.",
+        "It describes a 'saw body tilting range of 45-90°' while competing saws bevel 0-45°, so the listing's details don't hold together."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "7-inch tabletop or 10-inch sliding saw?",
+      "a": "7-inch tabletop saws cut 12-inch tile and smaller and suit backsplashes and bathrooms. 10-inch sliding saws carry the tile on a cart past the blade, which gives straighter cuts on large-format porcelain and planks."
+    },
+    {
+      "q": "Do I need a handheld wet saw?",
+      "a": "Handheld wet saws cut tile that's already installed, notches, countertops and stone. Most tilers use one alongside a tabletop or sliding saw."
+    },
+    {
+      "q": "Which blade do I need?",
+      "a": "Use a continuous-rim diamond blade for clean porcelain and ceramic cuts. Porcelain is hard and brittle, so a porcelain-specific blade chips less."
+    },
+    {
+      "q": "How do I reduce chipping?",
+      "a": "Feed slowly, keep the water flowing, support the whole tile and cut with the glazed face up. A fresh, sharp blade helps most."
+    },
+    {
+      "q": "Can I use a wet saw indoors?",
+      "a": "Yes, with a splash guard or containment like SKIL's HydroLock and a drop cloth. Wet cutting keeps silica dust down, which matters for your lungs."
+    }
+  ]
+}
