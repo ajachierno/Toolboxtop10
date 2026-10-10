@@ -1100,7 +1100,7 @@ def render_pick_card(p, cat, site, label=None, price_note="", tags=""):
       </article>"""
 
 
-TOOLS_FIRST = {"wireless": 0, "wired": 1, "hand": 2, "garage": 3, "storage": 4}
+TOOLS_FIRST = {"wireless": 0, "wired": 1, "hand": 2, "measure": 3, "garage": 4, "air": 5, "storage": 6}
 
 
 def _grouped(site, by_slug, pick, order=None):
@@ -1177,10 +1177,13 @@ def build_gift_page(site, cfg, by_slug):
             return ""
         chosen.append((cat, p))
         note = f"price on {esc(cat_date(cat, site))}"
+        # Air tools are useless without a compressor; say so on the card.
+        air = ('<span class="tag">Needs an air compressor</span>'
+               if power.get(cat["slug"]) == "air" and cat["slug"] != "air-compressors" else "")
         if premium:
             return render_pick_card(p, cat, site, "Money No Object", note,
-                                    premium_tags(p, cat, power.get(cat["slug"]) == "wireless"))
-        return render_pick_card(p, cat, site, price_note=note)
+                                    premium_tags(p, cat, power.get(cat["slug"]) == "wireless") + air)
+        return render_pick_card(p, cat, site, price_note=note, tags=air)
 
     groups = _grouped(site, by_slug, pick, TOOLS_FIRST if premium else None)
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""

@@ -1,110 +1,142 @@
 {
-  "_readme": "Seasonal hub pages built by build.py from the category data (picks update automatically whenever a category does). Gift pages pick the best-scoring product per category inside the price band (ready-to-use kits only where a category has them). Set \"enabled\": false to drop a page from the build and sitemap after the season. \"link_from\" (YYYY-MM-DD) keeps a page live and in the sitemap (so search engines index it) but hides every on-site link to it until that date; a tiny script reveals the links on the day, no rebuild needed. Set \"noindex\": true to keep a page built and linked but out of Google and the sitemap.",
-  "black_friday": {
-    "enabled": true,
-    "link_from": "2026-11-15",
-    "slug": "black-friday-tool-deals",
-    "year": 2026,
-    "black_friday": "2026-11-27",
-    "cyber_monday": "2026-11-30",
-    "title": "Black Friday Tool Deals 2026: The Picks Worth Waiting For",
-    "subtitle": "Our Best Overall and Best Budget in every category, with the price we last saw — so you can tell a real Black Friday deal from a fake one.",
-    "intro": "Black Friday falls on November 27, 2026, and Cyber Monday on November 30. Tool prices on Amazon usually start sliding the week before. The trick is knowing what a tool normally costs, so below is every one of our top picks with the regular price we captured. If the Black Friday price is lower, it's a real deal. If it isn't, wait or buy something else.",
-    "faq": [
-      {
-        "q": "When is Black Friday 2026?",
-        "a": "Black Friday is Friday, November 27, 2026, the day after Thanksgiving. Cyber Monday is November 30, 2026. Amazon typically starts early Black Friday pricing on tools in the week before."
-      },
-      {
-        "q": "Are Black Friday tool deals actually good?",
-        "a": "Some are, many aren't. Cordless kits from the big brands (DEWALT, Milwaukee, RYOBI, Makita) often get real cuts or free-battery bundles. But some \"deals\" are special-edition kits that never sold at the crossed-out price. Compare against the regular price we list here before you buy."
-      },
-      {
-        "q": "Should I buy a bare tool or a kit on Black Friday?",
-        "a": "If you don't already own batteries for that brand, buy a kit. The batteries and charger are the expensive part, and Black Friday kit bundles are where the biggest savings usually are. If you're already on a battery platform, bare tools are the cheaper way to add to it."
-      },
-      {
-        "q": "Is it better to buy tools on Black Friday or Cyber Monday?",
-        "a": "For tools, Black Friday week usually has the widest selection of discounts. Cyber Monday often repeats the same prices and sometimes adds a few new ones. If your pick hits a price you're happy with before either day, buy it — popular kits can sell out."
-      }
-    ]
-  },
-  "gifts": [
-    {
-      "enabled": true,
-      "slug": "tool-gifts-under-50",
-      "noindex": true,
-      "min_price": 0,
-      "max_price": 50,
-      "title": "Best Tool Gifts Under $50 (2026)",
-      "subtitle": "The highest-rated tool in each category that costs $50 or less, ready to use straight out of the box.",
-      "intro": "Every gift here is the top-scoring product under $50 in one of our ranked categories. We score every tool on star rating, number of reviews, and the features that matter for the job. Where a category sells both bare tools and kits, we only picked kits, so nobody unwraps a drill with no battery.",
-      "faq": [
-        {
-          "q": "What is a good tool gift under $50?",
-          "a": "For someone just starting out, a quality screwdriver set, a 25-foot tape measure, or a set of pliers gets used every week. For someone who already has the basics, a corded power tool under $50, like a random orbital sander or heat gun, is a real upgrade."
-        },
-        {
-          "q": "Are cheap power tools a good gift?",
-          "a": "Corded power tools are the best value under $50, because there's no battery to pay for. Under $50, cordless tools are usually bare tools or very basic kits, so we only list cordless picks here that come ready to use."
-        },
-        {
-          "q": "What if they already have the tool?",
-          "a": "Every gift links to Amazon, where you can add a gift receipt at checkout. Tape measures, pliers, and screwdrivers are hard to own too many of, and those make safe picks."
-        }
-      ]
-    },
-    {
-      "enabled": true,
-      "slug": "tool-gifts-under-100",
-      "noindex": true,
-      "min_price": 50.01,
-      "max_price": 100,
-      "title": "Best Tool Gifts Under $100 (2026)",
-      "subtitle": "The highest-rated tool between $50 and $100 in each category — the sweet spot for a gift that feels like a real upgrade.",
-      "intro": "Between $50 and $100 is where tool gifts get serious: complete cordless kits with a battery and charger, full socket sets, and corded power tools that will last for years. Every pick is the top-scoring product in that price range in one of our ranked categories. Where a category has kits, we picked a kit, so it works the day it's opened.",
-      "faq": [
-        {
-          "q": "What is the best tool gift under $100?",
-          "a": "For most people, a cordless drill kit with a battery and charger. It's the tool that gets used most around the house. If they already own one, a cordless impact driver on the same battery platform, or a big mechanics socket set, is the next step up."
-        },
-        {
-          "q": "Should I buy a cordless tool from the brand they already own?",
-          "a": "Yes, if you know it. Batteries only fit tools from the same brand (and usually the same voltage line). A tool from their brand means they can share batteries, and the kits here come with their own battery, so any pick works if you're not sure."
-        },
-        {
-          "q": "Where are the gifts under $50?",
-          "a": "They're on our Tool Gifts Under $50 page. This page only lists picks between $50 and $100, so the two pages don't repeat each other."
-        }
-      ]
-    },
-    {
-      "enabled": true,
-      "kind": "premium",
-      "slug": "money-no-object-tool-gifts",
-      "noindex": true,
-      "label": "Money No Object Gifts",
-      "title": "Money No Object Tool Gifts (2026): The Best When Price Doesn't Matter",
-      "subtitle": "Our Money No Object pick from every category: the tool to buy when you want the best one, not the best deal.",
-      "intro": "Every ranked list on this site names a Money No Object pick: the one we'd buy if price didn't matter. This page collects all of them. They're usually pro-grade tools from brands like DEWALT, Milwaukee, Klein Tools, and KNIPEX, and they make the kind of gift that gets used for decades. Money No Object doesn't always mean expensive: in hand tools, the premium pick is often still under $50.",
-      "faq": [
-        {
-          "q": "What does Money No Object mean?",
-          "a": "It's our pick in each category for the tool to buy when price isn't a concern: usually the pro-grade option with the best build, power, or warranty. It isn't always the highest score on our list, because our score also rewards value and review volume. For the best all-round buy, see each list's Best Overall pick."
-        },
-        {
-          "q": "Why are some Money No Object picks under $50?",
-          "a": "Premium hand tools are still affordable. A KNIPEX plier or a Klein Tools tape measure costs more than the budget options but is still a modest gift, and it's the kind of tool people keep for life."
-        },
-        {
-          "q": "Some of these say \"bare tool\". Is that a good gift?",
-          "a": "Only if the person already owns batteries for that brand. Pro cordless tools are often sold tool-only, without a battery or charger. Each card shows the battery platform (for example DEWALT 20V MAX or Milwaukee M18). If you're not sure what they own, pick one marked as a kit, or a corded or hand tool."
-        },
-        {
-          "q": "Where are the cheaper gift ideas?",
-          "a": "See our Tool Gifts Under $50 and Tool Gifts Under $100 pages. They list the best-scoring pick in each category at those prices."
-        }
-      ]
-    }
+ "_readme": "Seasonal hub pages built by build.py from the category data (picks update automatically whenever a category does). Gift pages pick the best-scoring product per category inside the price band (ready-to-use kits only where a category has them). Set \"enabled\": false to drop a page from the build and sitemap after the season. \"link_from\" (YYYY-MM-DD) keeps a page live and in the sitemap (so search engines index it) but hides every on-site link to it until that date; a tiny script reveals the links on the day, no rebuild needed. Set \"noindex\": true to keep a page built and linked but out of Google and the sitemap.",
+ "black_friday": {
+  "enabled": true,
+  "link_from": "2026-11-15",
+  "slug": "black-friday-tool-deals",
+  "year": 2026,
+  "black_friday": "2026-11-27",
+  "cyber_monday": "2026-11-30",
+  "title": "Black Friday Tool Deals 2026: The Picks Worth Waiting For",
+  "subtitle": "Our Best Overall and Best Budget in every category, with the price we last saw — so you can tell a real Black Friday deal from a fake one.",
+  "intro": "Black Friday falls on November 27, 2026, and Cyber Monday on November 30. Tool prices on Amazon usually start sliding the week before. The trick is knowing what a tool normally costs, so below is every one of our top picks with the regular price we captured. If the Black Friday price is lower, it's a real deal. If it isn't, wait or buy something else.",
+  "faq": [
+   {
+    "q": "When is Black Friday 2026?",
+    "a": "Black Friday is Friday, November 27, 2026, the day after Thanksgiving. Cyber Monday is November 30, 2026. Amazon typically starts early Black Friday pricing on tools in the week before."
+   },
+   {
+    "q": "Are Black Friday tool deals actually good?",
+    "a": "Some are, many aren't. Cordless kits from the big brands (DEWALT, Milwaukee, RYOBI, Makita) often get real cuts or free-battery bundles. But some \"deals\" are special-edition kits that never sold at the crossed-out price. Compare against the regular price we list here before you buy."
+   },
+   {
+    "q": "Should I buy a bare tool or a kit on Black Friday?",
+    "a": "If you don't already own batteries for that brand, buy a kit. The batteries and charger are the expensive part, and Black Friday kit bundles are where the biggest savings usually are. If you're already on a battery platform, bare tools are the cheaper way to add to it."
+   },
+   {
+    "q": "Is it better to buy tools on Black Friday or Cyber Monday?",
+    "a": "For tools, Black Friday week usually has the widest selection of discounts. Cyber Monday often repeats the same prices and sometimes adds a few new ones. If your pick hits a price you're happy with before either day, buy it — popular kits can sell out."
+   }
   ]
+ },
+ "gifts": [
+  {
+   "enabled": true,
+   "slug": "tool-gifts-under-50",
+   "noindex": true,
+   "min_price": 0,
+   "max_price": 50,
+   "title": "Best Tool Gifts Under $50 (2026)",
+   "subtitle": "The highest-rated tool in each category that costs $50 or less, ready to use straight out of the box.",
+   "intro": "Every gift here is the top-scoring product under $50 in one of our ranked categories: power tools, hand tools, measuring and testing tools, car and garage gear, and air tools. We score every tool on star rating, number of reviews, and the features that matter for the job. Where a category sells both bare tools and kits, we only picked kits, so nobody unwraps a drill with no battery.",
+   "faq": [
+    {
+     "q": "What is a good tool gift under $50?",
+     "a": "For someone just starting out, a quality screwdriver set, a 25-foot tape measure, or a set of pliers gets used every week. For someone who already has the basics, a corded power tool under $50, like a random orbital sander or heat gun, is a real upgrade."
+    },
+    {
+     "q": "Are cheap power tools a good gift?",
+     "a": "Corded power tools are the best value under $50, because there's no battery to pay for. Under $50, cordless tools are usually bare tools or very basic kits, so we only list cordless picks here that come ready to use."
+    },
+    {
+     "q": "What's a good tool gift under $50 for someone who has everything?",
+     "a": "Measuring and testing tools. A digital caliper, a multimeter, a stud finder, a laser level or a click torque wrench are small, genuinely useful, and often missing from an otherwise full toolbox. Each has a pick under $50 on this page."
+    },
+    {
+     "q": "What are good car gifts under $50?",
+     "a": "An OBD2 scanner that explains the check engine light, a cordless tire inflator for the trunk, or a pair of jack stands for someone who works on their own car. All three categories have a pick on this page."
+    },
+    {
+     "q": "Do the air tools here need anything else?",
+     "a": "Yes. Air nailers, impact wrenches and ratchets run on compressed air, so they're only a good gift for someone who already owns an air compressor. Those cards are marked \"Needs an air compressor\"."
+    },
+    {
+     "q": "What if they already have the tool?",
+     "a": "Every gift links to Amazon, where you can add a gift receipt at checkout. Tape measures, pliers, and screwdrivers are hard to own too many of, and those make safe picks."
+    }
+   ]
+  },
+  {
+   "enabled": true,
+   "slug": "tool-gifts-under-100",
+   "noindex": true,
+   "min_price": 50.01,
+   "max_price": 100,
+   "title": "Best Tool Gifts Under $100 (2026)",
+   "subtitle": "The highest-rated tool between $50 and $100 in each category — the sweet spot for a gift that feels like a real upgrade.",
+   "intro": "Between $50 and $100 is where tool gifts get serious: complete cordless kits with a battery and charger, benchtop shop tools, car gear like jump starters and OBD2 scanners, and corded power tools that will last for years. Every pick is the top-scoring product in that price range in one of our ranked categories. Where a category has kits, we picked a kit, so it works the day it's opened.",
+   "faq": [
+    {
+     "q": "What is the best tool gift under $100?",
+     "a": "For most people, a cordless drill kit with a battery and charger. It's the tool that gets used most around the house. If they already own one, a cordless impact driver on the same battery platform, or a big mechanics socket set, is the next step up."
+    },
+    {
+     "q": "Should I buy a cordless tool from the brand they already own?",
+     "a": "Yes, if you know it. Batteries only fit tools from the same brand (and usually the same voltage line). A tool from their brand means they can share batteries, and the kits here come with their own battery, so any pick works if you're not sure."
+    },
+    {
+     "q": "What's a good tool gift under $100 for a car lover?",
+     "a": "A lithium jump starter, an OBD2 scanner with live data, a cordless tire inflator, a dual-action car polisher or a 3-ton floor jack. The garage section of this page has a pick for each."
+    },
+    {
+     "q": "What about a woodworker?",
+     "a": "Look at the shop tools: a benchtop drill press, an oscillating spindle sander, a Dremel rotary tool kit, a compact router or a set of parallel clamps. Clamps are the one tool woodworkers never have enough of."
+    },
+    {
+     "q": "Some picks need an air compressor. Are they still good gifts?",
+     "a": "Only if the person already has a compressor. Those cards are marked \"Needs an air compressor\". If you're not sure, choose a corded or battery tool instead."
+    },
+    {
+     "q": "Where are the gifts under $50?",
+     "a": "They're on our Tool Gifts Under $50 page. This page only lists picks between $50 and $100, so the two pages don't repeat each other."
+    }
+   ]
+  },
+  {
+   "enabled": true,
+   "kind": "premium",
+   "slug": "money-no-object-tool-gifts",
+   "noindex": true,
+   "label": "Money No Object Gifts",
+   "title": "Money No Object Tool Gifts (2026): The Best When Price Doesn't Matter",
+   "subtitle": "Our Money No Object pick from every category: the tool to buy when you want the best one, not the best deal.",
+   "intro": "Every ranked list on this site names a Money No Object pick: the one we'd buy if price didn't matter. This page collects all of them. They're usually pro-grade tools from brands like DEWALT, Milwaukee, Makita, Klein Tools, KNIPEX, Fluke, Ingersoll Rand and JET, and they make the kind of gift that gets used for decades. Money No Object doesn't always mean expensive: in hand tools and measuring tools, the premium pick is often still under $50.",
+   "faq": [
+    {
+     "q": "What does Money No Object mean?",
+     "a": "It's our pick in each category for the tool to buy when price isn't a concern: usually the pro-grade option with the best build, power, or warranty. It isn't always the highest score on our list, because our score also rewards value and review volume. For the best all-round buy, see each list's Best Overall pick."
+    },
+    {
+     "q": "Why are some Money No Object picks under $50?",
+     "a": "Premium hand tools are still affordable. A KNIPEX plier or a Klein Tools tape measure costs more than the budget options but is still a modest gift, and it's the kind of tool people keep for life."
+    },
+    {
+     "q": "Some of these say \"bare tool\". Is that a good gift?",
+     "a": "Only if the person already owns batteries for that brand. Pro cordless tools are often sold tool-only, without a battery or charger. Each card shows the battery platform (for example DEWALT 20V MAX or Milwaukee M18). If you're not sure what they own, pick one marked as a kit, or a corded or hand tool."
+    },
+    {
+     "q": "Some picks are big shop machines. Do those make good gifts?",
+     "a": "Only for someone with the space and a real need: a band saw, tile saw, car lift or wheel balancer is a project purchase, not a surprise. For something to wrap, look at the cordless, hand tool and measuring sections, where most premium picks are under $200."
+    },
+    {
+     "q": "Do the air tools need a compressor?",
+     "a": "Yes. Air nailers, impact wrenches and ratchets run on compressed air, and their cards are marked \"Needs an air compressor\". Our Money No Object air compressor is on this page too."
+    },
+    {
+     "q": "Where are the cheaper gift ideas?",
+     "a": "See our Tool Gifts Under $50 and Tool Gifts Under $100 pages. They list the best-scoring pick in each category at those prices."
+    }
+   ]
+  }
+ ]
 }
