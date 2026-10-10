@@ -1,0 +1,195 @@
+{
+  "slug": "rolling-tool-carts",
+  "title": "The 10 Best Rolling Tool Carts",
+  "subtitle": "Service carts, mechanic carts and power-tool carts for the garage and shop, ranked from live Amazon data.",
+  "intro": "A tool cart is an open, rolling shelf unit you push to the job: plastic service carts with deep trays, steel mechanic carts with a locking drawer, and a few specialty carts. If you want a stack of drawers instead, see our rolling tool chests. We ranked 10 best-sellers on rating, review volume and features (locking casters, a lockable drawer, a rust-proof body, storage in the handle and places to hang tools). They run from about $50 for a steel 3-tier cart to $194 for a Rubbermaid commercial cart.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 60,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "locking_casters": 0.25, "drawer": 0.2, "rust_proof": 0.2, "handle_storage": 0.15, "tool_holders": 0.2 },
+  "reviews_ceiling": 7000,
+  "spec_fields": [
+    { "key": "type", "label": "Type" },
+    { "key": "shelves", "label": "Shelves" },
+    { "key": "capacity", "label": "Load capacity" },
+    { "key": "size", "label": "Size (L x W x H)" },
+    { "key": "material", "label": "Material" },
+    { "key": "casters", "label": "Casters" },
+    { "key": "weight", "label": "Cart weight" }
+  ],
+  "table_columns": [
+    { "key": "capacity", "label": "Capacity" },
+    { "key": "material", "label": "Material" },
+    { "key": "locking_casters", "label": "Locking casters", "type": "bool" },
+    { "key": "drawer", "label": "Drawer", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B00H1V4EB2",
+      "name": "WEN Service Utility Cart, 500-Pound Capacity, 40 x 17-Inch (73002)",
+      "brand": "WEN", "model": "73002",
+      "image": "https://m.media-amazon.com/images/I/81hyrIgAHvL._AC_SL1500_.jpg",
+      "price": 93.18, "rating": 4.7, "reviews_count": 4473, "bought": "300+/mo",
+      "specs": { "type": "Service cart", "shelves": "2 trays, 4 in deep", "capacity": "500 lbs", "size": "40 x 17 x 33.5 in", "material": "Polypropylene", "casters": "5 in non-marring swivel", "weight": "30 lbs" },
+      "features": { "locking_casters": false, "drawer": false, "rust_proof": true, "handle_storage": true, "tool_holders": false },
+      "verdict": "The classic garage service cart: two 4-inch-deep trays rated for 500 lbs together, a handle with small compartments and a cup holder, and 5-inch casters that won't scuff floors. Nearly 4,500 reviews at 4.7 stars.",
+      "best_for": "Most garages: a proven 500 lb service cart that won't rust or dent.",
+      "skip_if": "You need to lock tools away; it's open trays only.",
+      "pros": ["4,473 reviews at 4.7 stars", "Two deep trays, 500 lb total", "Compartments and a cup holder in the handle", "Polypropylene won't rust, chip or dent"],
+      "cons": ["No caster brakes listed", "1-year limited warranty"]
+    },
+    {
+      "asin": "B07CK3DPPN",
+      "name": "MaxWorks Heavy Duty 2-Shelf Service Cart, 500 lb Capacity (80855)",
+      "brand": "MaxWorks", "model": "80855",
+      "image": "https://m.media-amazon.com/images/I/71UBJU7sVKL._AC_SL1500_.jpg",
+      "price": 79.99, "rating": 4.7, "reviews_count": 2662, "bought": "2K+/mo",
+      "specs": { "type": "Service cart", "shelves": "2 deep trays", "capacity": "500 lbs", "size": "40 x 17 x 30 in", "material": "Polypropylene", "casters": "5 in non-marring swivel", "weight": "30 lbs" },
+      "features": { "locking_casters": false, "drawer": false, "rust_proof": true, "handle_storage": true, "tool_holders": false },
+      "verdict": "The best-selling cart on the page by a wide margin, with 2,000+ sold last month. The same two-tray, 500 lb polypropylene design as the WEN, with tool storage built into the handle, for about $13 less.",
+      "best_for": "The WEN-style service cart for a little less money.",
+      "skip_if": "You want a longer warranty; MaxWorks lists 90 days.",
+      "pros": ["2,000+ bought in the past month", "500 lb capacity, deep trays", "Built-in tool storage in the handle"],
+      "cons": ["90-day warranty", "No caster brakes listed"]
+    },
+    {
+      "asin": "B0199R9WH6",
+      "name": "WEN 500-Pound Capacity 46 By 25.5-Inch Extra Wide Service Utility Cart (73004)",
+      "brand": "WEN", "model": "73004",
+      "image": "https://m.media-amazon.com/images/I/8180dAiSIYL._AC_SL1500_.jpg",
+      "price": 141.99, "rating": 4.6, "reviews_count": 2570, "bought": "700+/mo",
+      "specs": { "type": "Service cart, extra wide", "shelves": "2 trays, 36 x 24 x 4 in", "capacity": "500 lbs", "size": "46 x 25.5 x 33.5 in", "material": "Polypropylene", "casters": "5 in non-marring swivel", "weight": "45.3 lbs" },
+      "features": { "locking_casters": false, "drawer": false, "rust_proof": true, "handle_storage": true, "tool_holders": false },
+      "verdict": "WEN's wide cart, with 36 x 24 inch trays that hold a toolbox, a compressor or a full case of parts side by side. A 2-year warranty, double the smaller WEN's.",
+      "best_for": "Big loads: trays wide enough for a toolbox and parts side by side.",
+      "skip_if": "You're short on space; it's 25.5 in wide.",
+      "pros": ["36 x 24 in trays, the biggest here", "2-year warranty", "700+ bought in the past month"],
+      "cons": ["45 lbs and 25.5 in wide", "No caster brakes listed"]
+    },
+    {
+      "asin": "B00M0V5PWA",
+      "name": "Olympia Tools 85-188 Pack-N-Roll Folding Collapsible Service Cart, 150LB Capacity",
+      "brand": "Olympia Tools", "model": "85-188",
+      "image": "https://m.media-amazon.com/images/I/71zhxJbvZNL._AC_SL1500_.jpg",
+      "price": 89.99, "rating": 4.6, "reviews_count": 6975, "bought": "1K+/mo",
+      "specs": { "type": "Folding service cart", "shelves": "3 collapsible", "capacity": "150 lbs", "size": "26 x 15 x 34 in", "material": "Aluminum frame, plastic shelves", "casters": "Swivel", "weight": "4.4 lbs (listed)" },
+      "features": { "locking_casters": false, "drawer": false, "rust_proof": false, "handle_storage": false, "tool_holders": false },
+      "verdict": "The most-reviewed cart on the page: three shelves that fold down to 8 inches so it hangs on a wall or rides in a trunk. Rated for 150 lbs, so it's for light tools and supplies.",
+      "best_for": "Small garages and mobile work, where the cart folds flat to 8 inches.",
+      "skip_if": "You haul heavy tools; it's rated for 150 lbs.",
+      "pros": ["6,975 reviews, the most here", "Folds to 8 in deep for storage", "Locking mechanism keeps it from collapsing"],
+      "cons": ["150 lb capacity, the lowest here", "Shallow shelves compared with the tray carts"]
+    },
+    {
+      "asin": "B0D948DG53",
+      "name": "VEVOR Utility Service Cart, 2 Shelf 550LBS Heavy Duty Plastic Rolling Cart, Lipped Shelf",
+      "brand": "VEVOR", "model": "2-shelf 550 lb",
+      "image": "https://m.media-amazon.com/images/I/71beUIObXSL._AC_SL1500_.jpg",
+      "price": 77.90, "rating": 4.6, "reviews_count": 557, "bought": "1K+/mo",
+      "specs": { "type": "Service cart", "shelves": "2 lipped trays, 4.4 in deep", "capacity": "550 lbs (275 per shelf)", "size": "40.6 x 17.7 x 33.5 in", "material": "Polypropylene", "casters": "5 in, 2 swivel + 2 fixed", "weight": "32.6 lbs" },
+      "features": { "locking_casters": true, "drawer": false, "rust_proof": true, "handle_storage": true, "tool_holders": true },
+      "verdict": "A two-tray polypropylene cart with locking casters, a storage handle and side holes for tool hooks, rated for 550 lbs. It has more features than the WEN and MaxWorks for less money, with fewer reviews behind it.",
+      "best_for": "A service cart with locking wheels and hooks for under $80.",
+      "skip_if": "You want a long review history.",
+      "pros": ["Locking casters", "550 lbs, 275 per shelf", "Side holes for hooks and small tools"],
+      "cons": ["Two of the four casters are fixed, so it doesn't spin in place", "The listing doesn't state a warranty"]
+    },
+    {
+      "asin": "B09XB5Z5QT",
+      "name": "ELAFROS 2-Tier Utility Rolling Cart, 34 x 17 in, 5\" Swivel Wheels, 550lb (UDT252-2)",
+      "brand": "ELAFROS", "model": "UDT252-2",
+      "image": "https://m.media-amazon.com/images/I/71x7X35pbTL._AC_SL1500_.jpg",
+      "price": 109.99, "rating": 4.8, "reviews_count": 1057, "bought": "700+/mo",
+      "specs": { "type": "Service cart, tub shelves", "shelves": "2 trays, 2.4 in deep", "capacity": "550 lbs", "size": "34.4 x 16.7 x 32.5 in", "material": "Polypropylene", "casters": "5 in swivel, 2 locking", "weight": "28 lbs" },
+      "features": { "locking_casters": true, "drawer": false, "rust_proof": true, "handle_storage": true, "tool_holders": false },
+      "verdict": "The best-rated cart here at 4.8 stars: a 550 lb polypropylene cart with four swivel casters (two lock), rubber-wrapped wheels and a storage compartment in the handle.",
+      "best_for": "Tight spaces: four swivel casters, two with locks, in a 34-inch cart.",
+      "skip_if": "You carry tall loads; the trays are 2.4 in deep.",
+      "pros": ["4.8 stars, the best rating here", "All four casters swivel; two lock", "Rubber-wrapped wheels for quiet rolling"],
+      "cons": ["Shallow 2.4 in trays", "The listing doesn't state a warranty"]
+    },
+    {
+      "asin": "B0F2MPLZFF",
+      "name": "VEVOR 4-Tier Tool Cart with Wheels, 350 lbs, Lockable Drawer & Pegboard (T271401)",
+      "brand": "VEVOR", "model": "T271401",
+      "image": "https://m.media-amazon.com/images/I/61gxqRXOPmL._AC_SL1500_.jpg",
+      "price": 72.18, "rating": 4.1, "reviews_count": 286, "bought": "400+/mo",
+      "specs": { "type": "Mechanic cart", "shelves": "3 trays + lockable drawer", "capacity": "350 lbs (100 per tray, 33 in drawer)", "size": "32.7 x 13.8 x 32.5 in", "material": "Carbon steel", "casters": "2 swivel + 2 fixed, 2 braking", "weight": "29.1 lbs" },
+      "features": { "locking_casters": true, "drawer": true, "rust_proof": false, "handle_storage": false, "tool_holders": true },
+      "verdict": "A steel mechanic cart with three trays, a lockable drawer lined with EVA foam, and pegboard sides with hooks, for about $72.",
+      "best_for": "Mechanics who want a lockable drawer and pegboard on a steel cart.",
+      "skip_if": "You want the best-rated steel cart; this one is 4.1 stars.",
+      "pros": ["Lockable drawer with EVA liner", "Pegboard sides with hooks", "Two braking casters"],
+      "cons": ["4.1 stars, the lowest here", "Steel can rust if the coating chips"]
+    },
+    {
+      "asin": "B0D1QVKWGH",
+      "name": "JUNNUJ Power Tool Organizer Cart with Charging Station, 8 Outlets, 6 FT Cord (FY-GJC006)",
+      "brand": "JUNNUJ", "model": "FY-GJC006",
+      "image": "https://m.media-amazon.com/images/I/71wzWIa+KWL._AC_SL1500_.jpg",
+      "price": 69.99, "rating": 4.6, "reviews_count": 820, "bought": "1K+/mo",
+      "specs": { "type": "Power-tool cart", "shelves": "3 shelves + drill rack for 8", "capacity": null, "size": "34.3 x 17.7 x 11.8 in", "material": "Iron, canvas side pockets", "casters": "Swivel", "weight": null },
+      "features": { "locking_casters": false, "drawer": false, "rust_proof": false, "handle_storage": false, "tool_holders": true },
+      "verdict": "A rolling rack for cordless tools: a holder for 8 drills, side pockets, and an 8-outlet power strip with a circuit breaker for charging batteries in one spot.",
+      "best_for": "Cordless tool owners who want drills and chargers on one rolling rack.",
+      "skip_if": "You need a published load rating; the listing has none.",
+      "pros": ["8-outlet power strip with a circuit breaker", "Holds up to 8 drills", "1,000+ bought in the past month"],
+      "cons": ["No load capacity published", "No caster brakes listed"]
+    },
+    {
+      "asin": "B00FZ318KS", "premium": true,
+      "name": "Rubbermaid Commercial Products Medium 2-Shelf Utility Cart, 500lb, Ergo Handle (FG452089BLA)",
+      "brand": "Rubbermaid Commercial", "model": "FG452089BLA",
+      "image": "https://m.media-amazon.com/images/I/7171J2GL1iL._AC_SL1500_.jpg",
+      "price": 194.00, "rating": 4.7, "reviews_count": 1219, "bought": "1K+/mo",
+      "specs": { "type": "Commercial service cart", "shelves": "2 lipped shelves", "capacity": "500 lbs", "size": "42.25 x 25.6 x 32.5 in", "material": "Structural foam", "casters": "5 in non-marking swivel", "weight": "39 lbs" },
+      "features": { "locking_casters": false, "drawer": false, "rust_proof": true, "handle_storage": true, "tool_holders": true },
+      "verdict": "The commercial-grade cart you see in warehouses and schools: structural-foam shelves, molded-in holsters, hooks and a pipe-cutting V-notch, and replacement casters sold as parts. Made in Virginia.",
+      "best_for": "Heavy daily use, with replaceable parts and molded-in tool holsters.",
+      "skip_if": "You want value; the WEN does the same job for about half the price.",
+      "pros": ["Structural foam won't rust, dent, chip or peel", "Molded holsters, hooks and a V-notch for pipe", "Replacement casters available; made in the USA"],
+      "cons": ["$194, the most expensive here", "1-year warranty", "No caster brakes listed"]
+    },
+    {
+      "asin": "B0CS39GL1D",
+      "name": "Pelnuies 3 Tier Rolling Tool Cart with Drawers, 400 LBS, Pegboard, Matte Black",
+      "brand": "Pelnuies", "model": "3-tier with drawer",
+      "image": "https://m.media-amazon.com/images/I/615H1X4yAFL._AC_SL1500_.jpg",
+      "price": 49.99, "rating": 4.3, "reviews_count": 167, "bought": "100+/mo",
+      "specs": { "type": "Mechanic cart", "shelves": "3 trays + lockable drawer", "capacity": "400 lbs", "size": "32.9 x 13.9 x 30 in", "material": "Cold-rolled steel", "casters": "Swivel, 2 braking", "weight": "30.9 lbs" },
+      "features": { "locking_casters": true, "drawer": true, "rust_proof": false, "handle_storage": false, "tool_holders": true },
+      "verdict": "The cheapest cart on the page: a cold-rolled steel 3-tier cart with a lockable sliding drawer, side hanging holes and two braking wheels, rated for 400 lbs.",
+      "best_for": "A steel cart with a locking drawer for about $50.",
+      "skip_if": "You want a known brand behind it.",
+      "pros": ["Lowest price here", "Lockable drawer and side hanging holes", "400 lb rating, two braking wheels"],
+      "cons": ["Partial assembly required", "Smaller review count than the plastic carts"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0HFBSJFWF",
+      "name": "XCX 3-Tier Heavy Duty Metal Rolling Tool Cart with Drawers, Blue Black",
+      "brand": "XCX", "model": "XR-814176C-LAN",
+      "image": "https://m.media-amazon.com/images/I/810MMvCLvSL._AC_SL1500_.jpg",
+      "price": 129.99, "rating": 3.5, "reviews_count": 3,
+      "flag": "Sold \"with Drawers\"; the listing describes none",
+      "verdict": "A steel 3-tier cart that costs $58 more than the VEVOR 4-tier, which has a real lockable drawer. The title promises drawers the description never mentions.",
+      "reasons": [
+        "The title says \"with Drawers.\" The bullet points describe three open levels and a pegboard, and never mention a drawer.",
+        "It claims 660 lbs, more than the Rubbermaid commercial cart (500 lbs), from a 40.8 lb steel cart, with no per-shelf rating.",
+        "At $129.99 it costs more than every steel cart on this page. The VEVOR 4-tier ($72.18) and Pelnuies ($49.99) both have a lockable drawer."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Tool cart or tool chest?", "a": "A cart is open shelves you push to the job, so everything is in reach while you work. A chest is a stack of drawers that keeps tools organized and locked away. Many shops have both: a chest for storage and a cart for the job in front of them." },
+    { "q": "Plastic or steel?", "a": "Polypropylene and structural-foam carts don't rust, dent or chip, and they're quieter. Steel carts usually add a lockable drawer and pegboard sides, but the paint can chip and the steel can rust in a damp garage." },
+    { "q": "How much weight do I need?", "a": "Most service carts here are rated for 500 to 550 lbs total, which covers tools, parts and a small compressor. Check whether the rating is per shelf or total, and load the bottom shelf heaviest so the cart doesn't tip." },
+    { "q": "Do locking casters matter?", "a": "If you work on a sloped garage floor or lean on the cart, yes. A cart without brakes can roll away while you're working. Several carts here list braking casters; the WEN and MaxWorks don't." },
+    { "q": "What size casters should I get?", "a": "Five-inch casters roll over cords, cracks and expansion joints much more easily than small 3-inch wheels. Non-marring or rubber-wrapped wheels are quieter and won't scuff floors." }
+  ]
+}
