@@ -1,0 +1,196 @@
+{
+  "slug": "corded-hammer-drills",
+  "title": "The 10 Best Corded Hammer Drills",
+  "subtitle": "Plug-in 1/2-inch hammer drills for brick, block and the odd concrete anchor, ranked from live Amazon data.",
+  "intro": "A hammer drill is a regular drill with a hammer mode that rattles the bit forward while it spins, so it can bore into brick, block and concrete as well as wood and metal. We ranked 10 corded best-sellers on rating, review volume and features (a two-speed gearbox, bits or a case in the box, a depth gauge, a slip clutch and a metal gear housing). They run from about $39 for a 5-amp kit to $189 for a 10-amp DEWALT. For drilling a lot of concrete, see our rotary hammer list instead.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 60,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "two_speed": 0.3, "kit": 0.25, "depth_gauge": 0.15, "slip_clutch": 0.15, "metal_gear_case": 0.15 },
+  "reviews_ceiling": 3000,
+  "spec_fields": [
+    { "key": "amps", "label": "Motor" },
+    { "key": "max_rpm", "label": "Max speed" },
+    { "key": "bpm", "label": "Blows per minute" },
+    { "key": "chuck", "label": "Chuck" },
+    { "key": "gears", "label": "Gearbox" },
+    { "key": "weight", "label": "Weight" }
+  ],
+  "table_columns": [
+    { "key": "amps", "label": "Motor" },
+    { "key": "max_rpm", "label": "Max speed" },
+    { "key": "chuck", "label": "Chuck" },
+    { "key": "kit", "label": "Bits/case", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B000HLISSI", "force_overall": true,
+      "name": "SKIL 7.5 Amp 1/2-in Corded Hammer Drill with 100pcs Drill Bit Set (HD182002)",
+      "brand": "SKIL", "model": "HD182002",
+      "image": "https://m.media-amazon.com/images/I/61+kNoGz5JL._AC_SL1000_.jpg",
+      "price": 99.99, "rating": 4.6, "reviews_count": 1439, "bought": "50+/mo",
+      "specs": { "amps": "7.5 A", "max_rpm": 3000, "bpm": null, "chuck": "1/2 in keyed", "gears": "Single, variable speed", "weight": null },
+      "features": { "two_speed": false, "kit": true, "depth_gauge": false, "slip_clutch": false, "metal_gear_case": false },
+      "verdict": "SKIL's 7.5-amp hammer drill sold with a 100-piece bit set, and the best-rated hammer drill on the page with a real review count behind it: 4.6 stars from more than 1,400 buyers. It drills wood, metal and masonry out of the box.",
+      "best_for": "Most homeowners: one hammer drill and a full bit set in one purchase.",
+      "skip_if": "You already own bits; the bare HD182001 is the same drill for less.",
+      "pros": ["100-piece bit set included", "4.6 stars across 1,439 reviews", "7.5-amp motor, 300 in-lb of torque per the listing", "Lock-on button for long drilling runs"],
+      "cons": ["Keyed chuck, so keep track of the key", "1-year warranty"]
+    },
+    {
+      "asin": "B086D1MDPD",
+      "name": "SKIL 7.5-Amp 1/2-Inch Corded Hammer Drill (HD182001)",
+      "brand": "SKIL", "model": "HD182001",
+      "image": "https://m.media-amazon.com/images/I/610fiU6jcXL._AC_SL1000_.jpg",
+      "price": 64.99, "rating": 4.3, "reviews_count": 902, "bought": "100+/mo",
+      "specs": { "amps": "7.5 A", "max_rpm": 3000, "bpm": null, "chuck": "1/2 in keyed", "gears": "Single, variable speed", "weight": "5.2 lb" },
+      "features": { "two_speed": false, "kit": false, "depth_gauge": true, "slip_clutch": false, "metal_gear_case": false },
+      "verdict": "The same SKIL hammer drill without the bit set. A side handle and depth gauge come in the box, and it's the best seller of the SKIL pair.",
+      "best_for": "Owners of a bit set who want a 7.5-amp hammer drill from a known brand.",
+      "skip_if": "You need bits; the HD182002 bundle includes 100 of them.",
+      "pros": ["7.5-amp motor and a 1/2 in keyed chuck", "Side handle and depth gauge included", "100+ bought in the past month"],
+      "cons": ["4.3 stars, lower than the bit-set version", "No case or bits", "1-year warranty"]
+    },
+    {
+      "asin": "B0008ELQ0G",
+      "name": "DEWALT Hammer Drill, 1/2-Inch, 7.8-Amp (DW511)",
+      "brand": "DEWALT", "model": "DW511",
+      "image": "https://m.media-amazon.com/images/I/51S4dkdd4kL._AC_SL1000_.jpg",
+      "price": 126.88, "rating": 4.4, "reviews_count": 718, "bought": "100+/mo",
+      "specs": { "amps": "7.8 A", "max_rpm": 2700, "bpm": null, "chuck": "1/2 in keyed", "gears": "Single, variable speed", "weight": "4.3 lb" },
+      "features": { "two_speed": false, "kit": false, "depth_gauge": true, "slip_clutch": false, "metal_gear_case": false },
+      "verdict": "A light 4.3 lb DEWALT with a 7.8-amp motor, overload protection and a 360-degree side handle with a depth rod. A good pick for overhead anchor holes where weight matters.",
+      "best_for": "Overhead anchor holes, where a light 4.3 lb body saves your arms.",
+      "skip_if": "You want bits or a case in the box.",
+      "pros": ["4.3 lb, among the lightest here", "7.8-amp motor with overload protection", "360-degree side handle and depth rod"],
+      "cons": ["Single speed range", "No case or bits included", "The listing's spec table gives 6.7 amps and 300 watts, which don't match its own 7.8-amp title"]
+    },
+    {
+      "asin": "B07GKWQJV2",
+      "name": "BLACK+DECKER Hammer Drill, 6.5-Amp, 1/2-Inch (BEHD201)",
+      "brand": "BLACK+DECKER", "model": "BEHD201",
+      "image": "https://m.media-amazon.com/images/I/51qPLS9jjiS._AC_SL1000_.jpg",
+      "price": 54.00, "rating": 4.3, "reviews_count": 2306, "bought": "100+/mo",
+      "specs": { "amps": "6.5 A", "max_rpm": 2800, "bpm": "48,000 bpm", "chuck": "1/2 in single-sleeve", "gears": "Single", "weight": null },
+      "features": { "two_speed": false, "kit": false, "depth_gauge": false, "slip_clutch": false, "metal_gear_case": false },
+      "verdict": "The most-reviewed hammer drill on the page and the cheapest name brand. A 6.5-amp motor at 48,000 blows per minute and a single-sleeve chuck that changes bits by hand.",
+      "best_for": "A few masonry holes a year from a name brand, for about $54.",
+      "skip_if": "You drill concrete often; 6.5 amps is modest.",
+      "pros": ["2,306 reviews, the most on the page", "Single-sleeve chuck, no key to lose", "3-position side handle"],
+      "cons": ["Smallest name-brand motor here at 6.5 amps", "No depth gauge or bits", "Single speed range"]
+    },
+    {
+      "asin": "B07KKHNPWZ",
+      "name": "CRAFTSMAN 1/2-in Hammer Drill, 7 Amp (CMED741)",
+      "brand": "CRAFTSMAN", "model": "CMED741",
+      "image": "https://m.media-amazon.com/images/I/71q2tU6i0xL._AC_SL1500_.jpg",
+      "price": 79.00, "rating": 4.4, "reviews_count": 753, "bought": "50+/mo",
+      "specs": { "amps": "7 A", "max_rpm": 3100, "bpm": "52,700 bpm", "chuck": "1/2 in keyed", "gears": "Single, variable speed", "weight": "5.2 lb" },
+      "features": { "two_speed": false, "kit": false, "depth_gauge": false, "slip_clutch": false, "metal_gear_case": false },
+      "verdict": "A 7-amp CRAFTSMAN with the highest published blow rate on the page, 52,700 per minute, and a lock-on trigger for long runs. A solid mid-price pick.",
+      "best_for": "Masonry work where a fast 52,700 blows per minute speeds things up.",
+      "skip_if": "You want a depth gauge or bits included.",
+      "pros": ["52,700 bpm and 3,100 rpm", "Lock-on trigger", "Chuck key holder on the cord"],
+      "cons": ["No depth gauge listed", "No case or bits"]
+    },
+    {
+      "asin": "B01AX4AEGM",
+      "name": "BOSCH HD18-2 Two-Speed Hammer Drill, 1/2 Inch, 8.5 Amp",
+      "brand": "Bosch", "model": "HD18-2",
+      "image": "https://m.media-amazon.com/images/I/51s43C40WPL._AC_SL1000_.jpg",
+      "price": 169.00, "rating": 4.5, "reviews_count": 446,
+      "specs": { "amps": "8.5 A", "max_rpm": null, "bpm": null, "chuck": "1/2 in 3-jaw", "gears": "2-speed", "weight": "8 lb" },
+      "features": { "two_speed": true, "kit": false, "depth_gauge": true, "slip_clutch": true, "metal_gear_case": true },
+      "verdict": "A pro-grade 8.5-amp Bosch with a two-speed gearbox, a metal gear housing and a slip clutch that lets go if the bit binds. The listing's spec table gives only 1,200 rpm, so check the speed before buying for fast wood drilling.",
+      "best_for": "Big holes and hard use, with a slip clutch that protects your wrist.",
+      "skip_if": "You want a light drill; it's 8 lb.",
+      "pros": ["8.5-amp motor and a two-speed gearbox", "Integral slip clutch disengages on a bind", "Metal gear housing; depth gauge on the side handle"],
+      "cons": ["8 lb, the heaviest here", "Listing shows only 2 left in stock", "1-year warranty on the listing"]
+    },
+    {
+      "asin": "B000VZJGAO",
+      "name": "Bosch 1191VSRK 120-Volt 1/2-Inch Single-Speed Hammer Drill",
+      "brand": "Bosch", "model": "1191VSRK",
+      "image": "https://m.media-amazon.com/images/I/51r8N7ZM1dL._AC_SL1000_.jpg",
+      "price": 132.00, "rating": 4.4, "reviews_count": 702,
+      "specs": { "amps": "7 A", "max_rpm": null, "bpm": null, "chuck": "1/2 in keyed", "gears": "Single", "weight": "4.1 lb" },
+      "features": { "two_speed": false, "kit": true, "depth_gauge": true, "slip_clutch": false, "metal_gear_case": false },
+      "verdict": "A compact 4.1 lb Bosch for small-diameter holes, sold with a carrying case, a 360-degree side handle and a quick-release depth gauge.",
+      "best_for": "Small anchor holes with a light drill that comes in a case.",
+      "skip_if": "You drill large holes; Bosch pitches it at small-diameter work.",
+      "pros": ["4.1 lb, the lightest here", "Carrying case, side handle and depth gauge included", "30-day money-back guarantee on the listing"],
+      "cons": ["The listing gives both 480 rpm and 3,000 rpm as its speed", "Single speed range"]
+    },
+    {
+      "asin": "B002IAW0DA",
+      "premium": true,
+      "name": "DEWALT Hammer Drill Kit, 1/2-Inch, 10-Amp, Pistol Grip (DWD520K)",
+      "brand": "DEWALT", "model": "DWD520K",
+      "image": "https://m.media-amazon.com/images/I/51EYjPKzvfL._AC_SL1200_.jpg",
+      "price": 189.00, "rating": 4.7, "reviews_count": 440, "bought": "50+/mo",
+      "specs": { "amps": "10 A", "max_rpm": 3500, "bpm": null, "chuck": "1/2 in keyed", "gears": "2-speed", "weight": null },
+      "features": { "two_speed": true, "kit": true, "depth_gauge": false, "slip_clutch": false, "metal_gear_case": true },
+      "verdict": "The most powerful hammer drill here: a 10-amp DEWALT with a two-speed gearbox and a metal gear housing, sold as a kit with a case. It also has the top rating at 4.7 stars.",
+      "best_for": "Frequent masonry and large holes, with the most motor on the page.",
+      "skip_if": "You drill a few anchor holes a year; it's the priciest here.",
+      "pros": ["10-amp motor, the strongest here", "Two-speed gearbox for high speed or high torque", "Metal gear housing; kit with a case", "4.7 stars, the best rating on the page"],
+      "cons": ["$189, the most expensive here", "No depth gauge listed"]
+    },
+    {
+      "asin": "B0DL5N42M9",
+      "name": "DOVAMAN 7.5A Corded Hammer Drill, 1/2'' with 15 Bits and Case (PHD03B)",
+      "brand": "DOVAMAN", "model": "PHD03B",
+      "image": "https://m.media-amazon.com/images/I/71ylVcCmH9L._AC_SL1254_.jpg",
+      "price": 56.97, "rating": 4.4, "reviews_count": 244, "bought": "100+/mo",
+      "specs": { "amps": "7.5 A", "max_rpm": 3000, "bpm": null, "chuck": "1/2 in keyed metal", "gears": "Single, variable speed", "weight": "4.6 lb" },
+      "features": { "two_speed": false, "kit": true, "depth_gauge": true, "slip_clutch": false, "metal_gear_case": false },
+      "verdict": "A 7.5-amp hammer drill sold with 15 bits (twist, masonry, hole saws, spade and tile), a metal depth gauge and a carrying case, for under $60.",
+      "best_for": "A complete starter kit with bits, depth gauge and case for under $60.",
+      "skip_if": "You want a long-standing brand behind the tool.",
+      "pros": ["15 bits including hole saws, plus a case", "Metal depth gauge and 360-degree side handle", "4.6 lb"],
+      "cons": ["Smaller review count than the name brands", "The listing doesn't state a warranty term"]
+    },
+    {
+      "asin": "B07Z1BTGK8",
+      "name": "GALAX PRO 5Amp 1/2-inch Hammer Drill with 105pcs Accessories",
+      "brand": "GALAX PRO", "model": "5A kit",
+      "image": "https://m.media-amazon.com/images/I/71sVIT7KDEL._AC_SL1500_.jpg",
+      "price": 38.94, "rating": 4.4, "reviews_count": 988, "bought": "200+/mo",
+      "specs": { "amps": "5 A", "max_rpm": 3000, "bpm": null, "chuck": "1/2 in keyed metal", "gears": "Single, speed dial + trigger", "weight": null },
+      "features": { "two_speed": false, "kit": true, "depth_gauge": true, "slip_clutch": false, "metal_gear_case": false },
+      "verdict": "The cheapest hammer drill on the page and the best seller this month: a 5-amp drill with a speed-setting dial, 105 accessories (bits, anchors and screws) and a case for under $40.",
+      "best_for": "Light home jobs like wall anchors, with everything in the box for under $40.",
+      "skip_if": "You drill concrete regularly; 5 amps is the smallest motor here.",
+      "pros": ["Under $40 with 105 accessories and a case", "200+ bought in the past month", "Speed-setting dial plus variable trigger"],
+      "cons": ["5-amp motor, the weakest here", "Off-brand support"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0D88T1L8N",
+      "name": "Victeche 1/2\" Corded Impact Hammer Drill, 9 AMP 1050W, 0-3000 RPM & 0-4500 BPM",
+      "brand": "Victeche", "model": "PAD0019A",
+      "image": "https://m.media-amazon.com/images/I/71dcB16fT2L._AC_SL1500_.jpg",
+      "price": 34.99, "rating": 3.3, "reviews_count": 31,
+      "flag": "Listing contradicts itself on speed; 4,500 bpm hammer rate",
+      "verdict": "A no-name hammer drill whose listing can't agree with itself on how fast it spins, and whose hammer rate is a tenth of the real hammer drills on this page. The GALAX PRO kit costs a few dollars more and comes with 105 accessories.",
+      "reasons": [
+        "The title says 0-3000 RPM; the bullet points say 0-2700 RPM.",
+        "It claims 0-4,500 blows per minute. The BLACK+DECKER BEHD201 lists 48,000 and the CRAFTSMAN CMED741 lists 52,700. At a tenth of that rate, hammer mode will crawl through concrete.",
+        "The cord is 52 inches long, according to the listing, so you'll need an extension cord for almost every job.",
+        "It's rated 3.3 stars, the lowest of any hammer drill we looked at."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Hammer drill or rotary hammer?", "a": "A hammer drill uses ridged clutch plates to rattle the bit forward. That's fine for anchor holes in brick, block and the occasional concrete hole up to about 1/2 inch. A rotary hammer uses a piston and SDS bits, and drills concrete several times faster. If you're drilling more than a handful of concrete holes, look at our rotary hammer list." },
+    { "q": "Do I need special bits?", "a": "Yes, for masonry. Use carbide-tipped masonry bits in hammer mode. Regular twist bits are for wood and metal in drill-only mode; hammering them into concrete dulls them fast. Several kits here include masonry bits." },
+    { "q": "What do amps tell me?", "a": "Amps measure how much current the motor draws, which is a rough guide to power. The drills here run from 5 amps for light home use to 10 amps for frequent masonry work. For a few anchor holes a year, 6.5 to 7.5 amps is plenty." },
+    { "q": "Is a two-speed gearbox worth it?", "a": "A two-speed drill has a low gear for big bits and hole saws, where you need torque, and a high gear for small holes. If you only drill small anchor holes, one speed range with a variable trigger does the job." },
+    { "q": "What's a slip clutch for?", "a": "When a bit jams in rebar or a knot, the drill body tries to spin instead of the bit. A slip clutch disengages the drive so the handle doesn't wrench your wrist. Only the Bosch HD18-2 here lists one." }
+  ]
+}
