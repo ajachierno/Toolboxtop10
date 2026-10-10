@@ -1,0 +1,196 @@
+{
+  "slug": "cordless-hammer-drills",
+  "title": "The 10 Best Cordless Hammer Drills",
+  "subtitle": "Battery-powered 1/2-inch hammer drills for wood, metal and masonry, ranked from live Amazon data.",
+  "intro": "A cordless hammer drill is a drill/driver with a hammer mode for brick, block and concrete anchor holes. Most of the best sellers are sold as bare tools for people who already own the batteries, so check whether a pick is a kit before you buy. We ranked 10 best-sellers on rating, review volume and features (brushless motor, battery included, a two-speed gearbox and an LED). They run from about $63 for a complete kit to $207 for DEWALT's flagship bare tool.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 80,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "brushless": 0.3, "kit": 0.3, "two_speed": 0.2, "led": 0.2 },
+  "reviews_ceiling": 8000,
+  "spec_fields": [
+    { "key": "battery", "label": "Battery platform" },
+    { "key": "torque", "label": "Max torque" },
+    { "key": "max_rpm", "label": "Max speed" },
+    { "key": "bpm", "label": "Blows per minute" },
+    { "key": "chuck", "label": "Chuck" },
+    { "key": "in_box", "label": "In the box" },
+    { "key": "weight", "label": "Weight" }
+  ],
+  "table_columns": [
+    { "key": "battery", "label": "Platform" },
+    { "key": "torque", "label": "Torque" },
+    { "key": "brushless", "label": "Brushless", "type": "bool" },
+    { "key": "kit", "label": "Battery incl.", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07KK7RBBZ", "force_overall": true,
+      "name": "CRAFTSMAN V20 Cordless Hammer Drill Kit, 1/2 inch, 2 Batteries and Charger Included (CMCD711C2)",
+      "brand": "CRAFTSMAN", "model": "CMCD711C2",
+      "image": "https://m.media-amazon.com/images/I/71Hps5W7WRL._AC_SL1500_.jpg",
+      "price": 115.45, "rating": 4.6, "reviews_count": 1172, "bought": "300+/mo",
+      "specs": { "battery": "CRAFTSMAN V20", "torque": "280 UWO", "max_rpm": 1500, "bpm": "25,500 bpm", "chuck": "1/2 in ratcheting", "in_box": "2 x 1.3Ah batteries, charger", "weight": null },
+      "features": { "brushless": false, "kit": true, "two_speed": true, "led": false },
+      "verdict": "The best-rated name-brand kit on the page: a V20 hammer drill with two batteries and a charger, a two-speed gearbox and a ratcheting chuck. The pick if you don't own a battery platform yet.",
+      "best_for": "Starting fresh: a name-brand hammer drill with two batteries in the box.",
+      "skip_if": "You want brushless runtime; this one is brushed.",
+      "pros": ["Two V20 batteries and a charger included", "Two-speed gearbox, 25,500 bpm", "1,172 reviews at 4.6 stars"],
+      "cons": ["Brushed motor", "1.3Ah batteries are small for long masonry runs"]
+    },
+    {
+      "asin": "B01DR90MM6", "premium": true,
+      "name": "DEWALT 20V MAX XR Cordless Hammer Drill Driver, Brushless, 1/2\", 3-Speed, Tool Only (DCD996B)",
+      "brand": "DEWALT", "model": "DCD996B",
+      "image": "https://m.media-amazon.com/images/I/716BQJbSk8L._AC_SL1500_.jpg",
+      "price": 207.00, "rating": 4.7, "reviews_count": 7234, "bought": "600+/mo",
+      "specs": { "battery": "DEWALT 20V MAX", "torque": null, "max_rpm": null, "bpm": null, "chuck": "1/2 in ratcheting metal, carbide inserts", "in_box": "Tool only, side handle", "weight": "4 lb" },
+      "features": { "brushless": true, "kit": false, "two_speed": true, "led": true },
+      "verdict": "DEWALT's flagship 20V hammer drill and the best seller here by review count: brushless, three speeds, a carbide-insert ratcheting chuck and a three-mode LED. Bare tool with a 3-year warranty.",
+      "best_for": "DEWALT 20V MAX owners who want the most capable hammer drill in the line.",
+      "skip_if": "You don't own DEWALT batteries; it's $207 for the bare tool.",
+      "pros": ["7,234 reviews at 4.7 stars, the most on the page", "Brushless, 3-speed transmission", "Carbide-insert chuck and a 3-mode LED", "3-year limited warranty"],
+      "cons": ["Most expensive tool here, and it's tool only", "The listing doesn't publish torque or blow rate"]
+    },
+    {
+      "asin": "B0BB854SJ8",
+      "name": "Milwaukee M18 FUEL 1/2\" Hammer Drill/Driver, Tool Only (2904-20)",
+      "brand": "Milwaukee", "model": "2904-20",
+      "image": "https://m.media-amazon.com/images/I/51Bl8lDvqCL._AC_SL1000_.jpg",
+      "price": 169.00, "rating": 4.5, "reviews_count": 1390, "bought": "900+/mo",
+      "specs": { "battery": "Milwaukee M18", "torque": "1,400 in-lb", "max_rpm": null, "bpm": null, "chuck": "1/2 in all-metal, carbide teeth", "in_box": "Tool only", "weight": "4.3 lb" },
+      "features": { "brushless": false, "kit": false, "two_speed": true, "led": false },
+      "verdict": "Milwaukee's M18 FUEL hammer drill, the best seller on the page last month, with 1,400 in-lb of torque, an all-metal carbide-tooth chuck and a mechanical clutch. Bare tool for M18 owners.",
+      "best_for": "Milwaukee M18 owners who want the most torque listed on the page.",
+      "skip_if": "You aren't on M18 batteries.",
+      "pros": ["1,400 in-lb listed, the most here", "900+ bought in the past month", "All-metal chuck with carbide teeth; mechanical clutch"],
+      "cons": ["Tool only", "The listing's bullets don't mention the motor type or LED", "Listing showed only 6 left in stock"]
+    },
+    {
+      "asin": "B0BY184ZY2",
+      "name": "DEWALT DCD799B 20V MAX ATOMIC COMPACT SERIES Brushless 1/2 in. Cordless Hammer Drill (Tool Only)",
+      "brand": "DEWALT", "model": "DCD799B",
+      "image": "https://m.media-amazon.com/images/I/51RIdUo8EFL._AC_SL1000_.jpg",
+      "price": 94.00, "rating": 4.6, "reviews_count": 727, "bought": "400+/mo",
+      "specs": { "battery": "DEWALT 20V MAX", "torque": "552 UWO", "max_rpm": 1650, "bpm": "28,050 bpm", "chuck": "1/2 in ratcheting", "in_box": "Tool only", "weight": "2.5 lb" },
+      "features": { "brushless": true, "kit": false, "two_speed": false, "led": true },
+      "verdict": "DEWALT's shortest 20V hammer drill, 6.49 inches head length, for tight spots between studs and joists. Brushless, with an LED and 28,050 bpm.",
+      "best_for": "Tight spaces on DEWALT 20V MAX, with a short brushless body.",
+      "skip_if": "You drill big holes; a full-size drill has more torque.",
+      "pros": ["6.49 in head length, DEWALT's shortest 20V hammer drill", "Brushless, 552 UWO", "LED work light"],
+      "cons": ["Tool only", "Single speed range listed", "Listing showed only 6 left in stock"]
+    },
+    {
+      "asin": "B0BY19V6S3",
+      "name": "DEWALT DCD798B 20V MAX Brushless 1/2 in. Cordless Hammer Drill Driver (Tool Only)",
+      "brand": "DEWALT", "model": "DCD798B",
+      "image": "https://m.media-amazon.com/images/I/5160sV9AWdL._AC_SL1000_.jpg",
+      "price": 102.99, "rating": 4.6, "reviews_count": 302, "bought": "800+/mo",
+      "specs": { "battery": "DEWALT 20V MAX", "torque": "531 in-lb", "max_rpm": null, "bpm": null, "chuck": "1/2 in", "in_box": "Tool only", "weight": "2.7 lb" },
+      "features": { "brushless": true, "kit": false, "two_speed": false, "led": false },
+      "verdict": "A brushless DEWALT hammer drill/driver at about half the DCD996's price, and the second-best seller here last month. The listing is thin: one bullet and a spec table with errors.",
+      "best_for": "DEWALT 20V MAX owners who want brushless for about $100.",
+      "skip_if": "You want the full spec sheet before buying; the listing barely has one.",
+      "pros": ["Brushless, 531 in-lb", "800+ bought in the past month", "About half the price of the DCD996B"],
+      "cons": ["Tool only", "The listing has one bullet and gives its speed as \"0.01 feet per second\"", "Listing showed only 8 left in stock"]
+    },
+    {
+      "asin": "B0CB9P53DS",
+      "name": "Makita XPH16Z 18V LXT Compact Brushless Cordless 1/2\" Hammer Driver-Drill, Tool Only",
+      "brand": "Makita", "model": "XPH16Z",
+      "image": "https://m.media-amazon.com/images/I/71Ium3WqAIL._AC_SL1500_.jpg",
+      "price": 122.40, "rating": 4.4, "reviews_count": 306, "bought": "400+/mo",
+      "specs": { "battery": "Makita 18V LXT", "torque": "970 in-lb", "max_rpm": 1800, "bpm": "27,000 bpm", "chuck": "1/2 in", "in_box": "Tool only", "weight": null },
+      "features": { "brushless": true, "kit": false, "two_speed": true, "led": false },
+      "verdict": "A compact brushless Makita with 970 in-lb of torque and two speed ranges, for anyone on 18V LXT batteries. 3-year limited warranty.",
+      "best_for": "Makita 18V LXT owners who want a compact brushless hammer drill.",
+      "skip_if": "You don't own Makita batteries.",
+      "pros": ["970 in-lb from a compact brushless body", "Two speeds: 0-550 and 0-1,800 rpm", "3-year limited warranty"],
+      "cons": ["Tool only", "4.4 stars, lower than the DEWALTs"]
+    },
+    {
+      "asin": "B0BB4531KC",
+      "name": "RYOBI ONE+ 18V Cordless 1/2 in. Hammer Drill, 515 in-lbs, Tool Only (PCL220B)",
+      "brand": "RYOBI", "model": "PCL220B",
+      "image": "https://m.media-amazon.com/images/I/51qyFo3U5ML._AC_SL1042_.jpg",
+      "price": 79.00, "rating": 4.4, "reviews_count": 171, "bought": "50+/mo",
+      "specs": { "battery": "RYOBI 18V ONE+", "torque": "515 in-lb", "max_rpm": 1750, "bpm": null, "chuck": "1/2 in", "in_box": "Tool only", "weight": null },
+      "features": { "brushless": false, "kit": false, "two_speed": true, "led": false },
+      "verdict": "The RYOBI ONE+ hammer drill, with 515 in-lb and two speeds. RYOBI sells mainly through Home Depot, and this Amazon listing comes from a third-party seller.",
+      "best_for": "RYOBI ONE+ owners who want a cheap hammer drill.",
+      "skip_if": "You want a full warranty; the listing states 30 days.",
+      "pros": ["515 in-lb, two speeds", "Runs on any RYOBI ONE+ 18V battery", "$79 for the bare tool"],
+      "cons": ["Third-party listing with a 30-day limited warranty", "The listing's only bullet is about lawn-mower parts, so check the details with the seller", "Brushed motor"]
+    },
+    {
+      "asin": "B09ZYHHTMK",
+      "name": "DCK 20V Brushless Hammer Drill Kit, 531 in.lbs, 36000 BPM, 4.0Ah Battery (KDJZ05-13)",
+      "brand": "DCK", "model": "KDJZ05-13",
+      "image": "https://m.media-amazon.com/images/I/81sK4KAcc7L._AC_SL1500_.jpg",
+      "price": 79.99, "rating": 4.6, "reviews_count": 827, "bought": "100+/mo",
+      "specs": { "battery": "DCK 20V", "torque": "531 in-lb", "max_rpm": 2200, "bpm": "36,000 bpm", "chuck": "1/2 in keyless all-metal", "in_box": "4.0Ah battery, charger, bits, bag", "weight": null },
+      "features": { "brushless": true, "kit": true, "two_speed": true, "led": true },
+      "verdict": "A complete brushless kit with a 4.0Ah battery, a charger, bits and a bag for under $80, and the highest blow rate on the page at 36,000 bpm.",
+      "best_for": "A brushless kit with a big 4.0Ah battery and no platform to buy into.",
+      "skip_if": "You want batteries that run brand-name tools.",
+      "pros": ["4.0Ah battery, charger, bits and bag included", "Brushless, two speeds, 36,000 bpm", "2-year warranty on the drill"],
+      "cons": ["DCK batteries only fit DCK tools", "Listing gives 2,000 rpm in its spec table and 2,200 in its bullets"]
+    },
+    {
+      "asin": "B0CWQPPJKX",
+      "name": "Dong Cheng 20V Brushless Hammer Drill, 443 in-lbs, 27000 IPM, 2 Battery Kit (DCJZ2050i)",
+      "brand": "Dong Cheng", "model": "DCJZ2050i",
+      "image": "https://m.media-amazon.com/images/I/71UnpyMikVL._AC_SL1500_.jpg",
+      "price": 69.99, "rating": 4.6, "reviews_count": 450, "bought": "300+/mo",
+      "specs": { "battery": "Dong Cheng 20V", "torque": "443 in-lb", "max_rpm": 1800, "bpm": "27,000 bpm", "chuck": "1/2 in ratcheting metal", "in_box": "2 x 2.0Ah batteries, charger", "weight": "2 lb" },
+      "features": { "brushless": true, "kit": true, "two_speed": true, "led": false },
+      "verdict": "A light brushless kit with two batteries and a charger for about $70, from a brand that also makes the budget rotary hammers on our site.",
+      "best_for": "A light two-battery kit for home jobs at about $70.",
+      "skip_if": "You want batteries that run brand-name tools.",
+      "pros": ["Two batteries and a charger included", "Brushless, two speeds, ratcheting metal chuck", "2 lb tool body"],
+      "cons": ["443 in-lb, the least torque here", "Dong Cheng batteries only fit Dong Cheng tools"]
+    },
+    {
+      "asin": "B0F1F6WD1P",
+      "name": "DCA 20V Brushless Cordless Hammer Drill, 492 in-lb, 2.0Ah Battery & Charger (ADJZ2055i)",
+      "brand": "DCA", "model": "ADJZ2055i",
+      "image": "https://m.media-amazon.com/images/I/81ZaZe++KQL._AC_SL1500_.jpg",
+      "price": 62.99, "rating": 4.5, "reviews_count": 230, "bought": "400+/mo",
+      "specs": { "battery": "DCA 20V", "torque": "492 in-lb", "max_rpm": 1800, "bpm": "27,000 bpm", "chuck": "1/2 in keyless all-metal", "in_box": "2.0Ah battery, charger, 28 bits, bag", "weight": "2.9 lb" },
+      "features": { "brushless": true, "kit": true, "two_speed": true, "led": true },
+      "verdict": "The cheapest kit on the page: a brushless hammer drill with a 2.0Ah battery, a charger, 28 bits, a flexible shaft and a bag, and a 2-year warranty.",
+      "best_for": "The cheapest complete kit, with bits and a bag in the box.",
+      "skip_if": "You want batteries that run brand-name tools.",
+      "pros": ["Lowest price here with battery, charger and 28 bits", "Brushless, two speeds, LED", "2-year warranty"],
+      "cons": ["One 2.0Ah battery", "DCA batteries only fit DCA tools"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GV42NW1K",
+      "name": "GoYwato 1239In-lbs 21V Brushless Cordless Power Hammer Drill Set with Case",
+      "brand": "GoYwato", "model": "ID01",
+      "image": "https://m.media-amazon.com/images/I/71MsrbsIEZL._AC_SL1500_.jpg",
+      "price": 69.99, "rating": 4.0, "reviews_count": 30,
+      "flag": "\"21V\" drill that runs on Makita 18V packs; capacity claims that don't fit a 1/2 in chuck",
+      "verdict": "A no-name kit whose headline numbers don't add up. The Dong Cheng kit costs the same, comes with two batteries, and is rated 4.6.",
+      "reasons": [
+        "It's sold as a 21V drill, but the listing's own fine print says it runs on Makita 18V batteries. \"21V\" is the peak voltage of an 18V pack, a marketing number, not a more powerful tool.",
+        "It claims 1,239 in-lb of torque, more than the brushless Makita XPH16Z (970 in-lb) and close to the Milwaukee M18 FUEL (1,400 in-lb), with no brand or test behind the figure.",
+        "The spec table lists a 25 mm metal drilling capacity and a 10 cm wood capacity on a drill with a 13 mm (1/2 in) chuck.",
+        "It's a third-party body on another brand's battery, so Makita doesn't warrant it."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Do I need a hammer drill or a regular drill?", "a": "A hammer drill does everything a drill/driver does, plus a hammer mode for brick, block and the odd concrete anchor hole. If you ever hang things on masonry, it's worth the small price difference. For lots of concrete, look at a rotary hammer instead." },
+    { "q": "Kit or bare tool?", "a": "If you already own batteries for a platform, buy the bare tool and save the cost of a battery and charger. If you don't, a kit is cheaper than buying the pieces separately, and the platform you choose decides which tools you'll buy later." },
+    { "q": "Is brushless worth paying for?", "a": "Brushless motors run cooler, get more work from each charge and last longer, because there are no carbon brushes to wear out. For occasional home use a brushed drill is fine; for regular masonry work, brushless is worth it." },
+    { "q": "What do torque and BPM mean?", "a": "Torque (in-lb or UWO) is twisting force, which matters for big bits and long screws. BPM is blows per minute in hammer mode, which matters for how fast it drills masonry. Brands measure torque differently, so compare within a brand rather than across them." },
+    { "q": "Can a cordless hammer drill handle concrete?", "a": "It can drill anchor holes up to about 1/2 inch in concrete, slowly. If you're drilling more than a few holes, or larger ones, a rotary hammer with SDS-Plus bits will be much faster and easier on your wrist." }
+  ]
+}
