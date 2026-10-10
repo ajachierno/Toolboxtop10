@@ -1,0 +1,475 @@
+{
+  "slug": "obd2-scanners",
+  "title": "The 10 Best OBD2 Scanners",
+  "subtitle": "Code readers, Bluetooth adapters and ABS/SRS scan tools for 1996-and-newer vehicles, ranked from live Amazon data.",
+  "intro": "An OBD2 scanner plugs into the port under your dash and tells you why the check engine light is on, before you pay a shop to tell you. We ranked 10 best-sellers on rating, review volume and features (live data, ABS and airbag codes, Bluetooth to a phone app, and bidirectional tests). Basic code readers cover the engine and emissions; full scan tools also read brakes, airbags and the transmission. They run from about $23 for MOTOPOWER's code reader to $350 for Innova's bidirectional 5610.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 30,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "live_data": 0.3,
+    "abs_srs": 0.35,
+    "bluetooth": 0.15,
+    "bidirectional": 0.2
+  },
+  "reviews_ceiling": 60000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "systems",
+      "label": "Systems"
+    },
+    {
+      "key": "display",
+      "label": "Display"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    },
+    {
+      "key": "warranty",
+      "label": "Warranty / updates"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "systems",
+      "label": "Systems"
+    },
+    {
+      "key": "live_data",
+      "label": "Live data",
+      "type": "bool"
+    },
+    {
+      "key": "abs_srs",
+      "label": "ABS/SRS",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00652G4TS",
+      "force_overall": true,
+      "name": "BlueDriver OBD2 Scanner Bluetooth, No Subscription, ABS SRS TPMS",
+      "brand": "BlueDriver",
+      "model": "Pro (LSB2)",
+      "image": "https://m.media-amazon.com/images/I/71BlnDh-fPL._AC_SL1500_.jpg",
+      "price": 139.95,
+      "rating": 4.5,
+      "reviews_count": 62430,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Bluetooth adapter + app",
+        "systems": "Engine, ABS, SRS/airbag, TPMS, transmission",
+        "display": "Your phone",
+        "extras": "Technician-verified repair reports by VIN",
+        "warranty": "No subscription; free app updates"
+      },
+      "features": {
+        "live_data": true,
+        "abs_srs": true,
+        "bluetooth": true,
+        "bidirectional": false
+      },
+      "verdict": "The most complete scanner for most drivers: a Bluetooth adapter and app that read engine, ABS, airbag, TPMS and transmission codes, show live data, and give unlimited repair reports matched to your VIN, with no subscription.",
+      "best_for": "Drivers who want to know what's wrong and what usually fixes it.",
+      "skip_if": "You only need to read a check engine light; a $30 reader does that.",
+      "pros": [
+        "Engine, ABS, SRS, TPMS and transmission codes",
+        "VIN-matched repair reports",
+        "62,430 reviews; no subscription"
+      ],
+      "cons": [
+        "$139.95",
+        "Needs a phone"
+      ]
+    },
+    {
+      "asin": "B01G5EA74I",
+      "name": "ANCEL AD310 Classic Enhanced Universal OBD II Scanner Car Engine Fault Code Reader",
+      "brand": "ANCEL",
+      "model": "AD310",
+      "image": "https://m.media-amazon.com/images/I/61KElcCN4BL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.6,
+      "reviews_count": 67067,
+      "bought": "30K+/mo",
+      "specs": {
+        "type": "Handheld code reader",
+        "systems": "Engine / emissions",
+        "display": "LCD",
+        "extras": "2.5-ft cable, all OBD2 protocols",
+        "warranty": null
+      },
+      "features": {
+        "live_data": false,
+        "abs_srs": false,
+        "bluetooth": false,
+        "bidirectional": false
+      },
+      "verdict": "The best-selling scanner here by a mile (30,000+ a month): a plug-in reader that reads and clears check engine codes on any 1996-or-newer OBD2 car, with a thick 2.5-foot cable.",
+      "best_for": "Finding out why the check engine light is on.",
+      "skip_if": "You have an ABS or airbag light; it reads emissions codes only.",
+      "pros": [
+        "67,067 reviews; 30,000+ sold last month",
+        "Supports all five OBD2 protocols",
+        "No batteries or app needed"
+      ],
+      "cons": [
+        "Engine and emissions codes only",
+        "Live data not listed"
+      ]
+    },
+    {
+      "asin": "B07Z3HB7DR",
+      "name": "MOTOPOWER MP69033 Car OBD2 Scanner Code Reader Engine Fault Scanner",
+      "brand": "MOTOPOWER",
+      "model": "MP69033",
+      "image": "https://m.media-amazon.com/images/I/61ybpjOSa1L._AC_SL1500_.jpg",
+      "price": 22.99,
+      "rating": 4.6,
+      "reviews_count": 52419,
+      "bought": "9K+/mo",
+      "specs": {
+        "type": "Handheld code reader",
+        "systems": "Engine / emissions",
+        "display": "2.8-in backlit LCD",
+        "extras": "Built-in code library, 6 languages",
+        "warranty": null
+      },
+      "features": {
+        "live_data": false,
+        "abs_srs": false,
+        "bluetooth": false,
+        "bidirectional": false
+      },
+      "verdict": "The cheapest scanner here: reads and clears engine codes, looks them up in a built-in library and shows freeze frame data on a 2.8-inch backlit screen, powered by the car.",
+      "best_for": "A glovebox code reader for under $25.",
+      "skip_if": "You need ABS or airbag codes; the listing says plainly it can't read them.",
+      "pros": [
+        "$22.99",
+        "52,419 reviews at 4.6 stars",
+        "Built-in code definitions"
+      ],
+      "cons": [
+        "No ABS/airbag codes",
+        "Basic functions only"
+      ]
+    },
+    {
+      "asin": "B007XE8C74",
+      "name": "Autel AL319 Professional OBD2 Scanner, Enhanced Check Engine Code Reader",
+      "brand": "Autel",
+      "model": "AL319",
+      "image": "https://m.media-amazon.com/images/I/71W7xwOF9oL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.6,
+      "reviews_count": 26172,
+      "bought": "2K+/mo",
+      "specs": {
+        "type": "Handheld code reader",
+        "systems": "Engine / emissions",
+        "display": "Color TFT",
+        "extras": "One-click I/M readiness, speaker, LED indicator",
+        "warranty": "12 months; lifetime free updates"
+      },
+      "features": {
+        "live_data": true,
+        "abs_srs": false,
+        "bluetooth": false,
+        "bidirectional": false
+      },
+      "verdict": "A $30 reader from a pro-tool brand that adds live data, a color screen and a one-click smog readiness check with LED and speaker, plus a 12-month warranty.",
+      "best_for": "Checking smog readiness before an emissions test.",
+      "skip_if": "You need brake or airbag codes.",
+      "pros": [
+        "Live data and freeze frame",
+        "One-click I/M readiness",
+        "12-month warranty, free updates"
+      ],
+      "cons": [
+        "Engine and emissions only",
+        "Small screen"
+      ]
+    },
+    {
+      "asin": "B00UJV3E12",
+      "name": "FOXWELL NT301 OBD2 Scanner Live Data Professional Mechanic OBDII Diagnostic Code Reader",
+      "brand": "FOXWELL",
+      "model": "NT301",
+      "image": "https://m.media-amazon.com/images/I/71JQBkvIl7L._AC_SL1500_.jpg",
+      "price": 55.95,
+      "rating": 4.5,
+      "reviews_count": 30256,
+      "bought": "5K+/mo",
+      "specs": {
+        "type": "Handheld scanner",
+        "systems": "Engine / emissions",
+        "display": "Color screen with graphs",
+        "extras": "I/M hotkey with red-yellow-green LEDs, O2 sensor and EVAP tests",
+        "warranty": null
+      },
+      "features": {
+        "live_data": true,
+        "abs_srs": false,
+        "bluetooth": false,
+        "bidirectional": false
+      },
+      "verdict": "A step up from basic readers: graphs and logs live sensor data, runs O2 sensor and EVAP tests, and shows smog readiness with red-yellow-green lights.",
+      "best_for": "DIYers who want to watch fuel trims and O2 sensors, not just read codes.",
+      "skip_if": "You need ABS or airbag codes.",
+      "pros": [
+        "Live data graphing and logging",
+        "O2 and EVAP tests",
+        "30,256 reviews"
+      ],
+      "cons": [
+        "Engine and emissions only",
+        "About $26 more than the Autel AL319"
+      ]
+    },
+    {
+      "asin": "B071FSNL73",
+      "name": "ANCEL AD410 Enhanced OBD2 Scanner, Vehicle Code Reader for Check Engine Light",
+      "brand": "ANCEL",
+      "model": "AD410",
+      "image": "https://m.media-amazon.com/images/I/81S0XgJq1iL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.5,
+      "reviews_count": 15772,
+      "bought": "4K+/mo",
+      "specs": {
+        "type": "Handheld code reader",
+        "systems": "Engine / emissions",
+        "display": "LCD",
+        "extras": "Code definitions, I/M readiness",
+        "warranty": null
+      },
+      "features": {
+        "live_data": true,
+        "abs_srs": false,
+        "bluetooth": false,
+        "bidirectional": false
+      },
+      "verdict": "ANCEL's step up from the AD310: live data such as RPM, coolant temperature, fuel trim and O2 readings, freeze frame and smog readiness, for $10 more.",
+      "best_for": "Live data on a budget.",
+      "skip_if": "The Autel AL319 does the same for $10 less.",
+      "pros": [
+        "Live data and freeze frame",
+        "I/M readiness",
+        "15,772 reviews"
+      ],
+      "cons": [
+        "Engine and emissions only",
+        "$10 more than the AL319"
+      ]
+    },
+    {
+      "asin": "B073XKQQQW",
+      "name": "Veepeak OBDCheck BLE Bluetooth OBD II Scanner for iOS & Android",
+      "brand": "Veepeak",
+      "model": "OBDCheck BLE",
+      "image": "https://m.media-amazon.com/images/I/6101XWzbnCL._AC_SL1500_.jpg",
+      "price": 31.99,
+      "rating": 4.5,
+      "reviews_count": 24267,
+      "bought": "6K+/mo",
+      "specs": {
+        "type": "Bluetooth adapter",
+        "systems": "Engine / emissions (more with some apps)",
+        "display": "Your phone",
+        "extras": "Works with Car Scanner, Torque, OBD Fusion, BimmerCode",
+        "warranty": null
+      },
+      "features": {
+        "live_data": true,
+        "abs_srs": false,
+        "bluetooth": true,
+        "bidirectional": false
+      },
+      "verdict": "A small Bluetooth LE adapter that turns your phone into a scanner through third-party apps, including vehicle-specific apps like BimmerCode.",
+      "best_for": "Phone users who want live data and app flexibility for about $32.",
+      "skip_if": "You don't want to pick and pay for a third-party app.",
+      "pros": [
+        "Works with many apps",
+        "Bluetooth LE for iPhone and Android",
+        "24,267 reviews"
+      ],
+      "cons": [
+        "Needs a third-party app",
+        "Not a full-system scanner"
+      ]
+    },
+    {
+      "asin": "B07JFRFJG6",
+      "name": "OBDLink MX+ OBD2 Bluetooth Scanner for iPhone, Android, and Windows",
+      "brand": "OBDLink",
+      "model": "MX+",
+      "image": "https://m.media-amazon.com/images/I/61x3FlaBUDL._AC_SL1200_.jpg",
+      "price": 139.95,
+      "rating": 4.6,
+      "reviews_count": 15598,
+      "bought": "5K+/mo",
+      "specs": {
+        "type": "Bluetooth adapter",
+        "systems": "Engine plus ABS, SRS, TPMS parameters",
+        "display": "Phone or PC",
+        "extras": "Enhanced OEM support; FORScan, Torque, BimmerCode",
+        "warranty": "Firmware updates included"
+      },
+      "features": {
+        "live_data": true,
+        "abs_srs": true,
+        "bluetooth": true,
+        "bidirectional": false
+      },
+      "verdict": "The enthusiast's adapter: works with iPhone, Android and Windows, is the recommended adapter for FORScan and BimmerCode, adds enhanced OEM data for major brands, and has battery-drain protection.",
+      "best_for": "Ford, GM and BMW owners who code and tune with apps.",
+      "skip_if": "You want everything in one app with repair reports; BlueDriver costs the same.",
+      "pros": [
+        "Recommended adapter for FORScan and BimmerCode",
+        "ABS, SRS, TPMS parameters",
+        "Battery drain protection"
+      ],
+      "cons": [
+        "$139.95",
+        "Capability depends on the app"
+      ]
+    },
+    {
+      "asin": "B08PFJMTY3",
+      "name": "FOXWELL NT604 Elite OBD2 Scanner ABS SRS Transmission",
+      "brand": "FOXWELL",
+      "model": "NT604 Elite",
+      "image": "https://m.media-amazon.com/images/I/71FhW3BdPNL._AC_SL1500_.jpg",
+      "price": 135.99,
+      "rating": 4.4,
+      "reviews_count": 5205,
+      "bought": "2K+/mo",
+      "specs": {
+        "type": "Handheld scan tool",
+        "systems": "Engine, ABS, SRS, transmission",
+        "display": "Color screen",
+        "extras": "AutoVIN, hard case",
+        "warranty": "Lifetime updates"
+      },
+      "features": {
+        "live_data": true,
+        "abs_srs": true,
+        "bluetooth": false,
+        "bidirectional": false
+      },
+      "verdict": "A handheld that reads engine, ABS, airbag and transmission codes with AutoVIN, a hard case and lifetime updates, for people who'd rather not use a phone.",
+      "best_for": "ABS and airbag lights without a phone app.",
+      "skip_if": "You'd rather have repair reports; BlueDriver includes them.",
+      "pros": [
+        "Engine, ABS, SRS and transmission",
+        "AutoVIN",
+        "Hard case, lifetime updates"
+      ],
+      "cons": [
+        "4.4 stars",
+        "No TPMS listed"
+      ]
+    },
+    {
+      "asin": "B07Z481NJM",
+      "premium": true,
+      "name": "Innova 5610 OBD2 Bidirectional Scan Tool",
+      "brand": "Innova",
+      "model": "5610",
+      "image": "https://m.media-amazon.com/images/I/719NEo7qfiL._AC_SL1500_.jpg",
+      "price": 349.99,
+      "rating": 4.4,
+      "reviews_count": 4158,
+      "bought": "3K+/mo",
+      "specs": {
+        "type": "Handheld bidirectional scan tool",
+        "systems": "Engine, ABS, SRS, transmission",
+        "display": "Color screen",
+        "extras": "Bidirectional tests, special resets, RepairSolutions2 app",
+        "warranty": "Free updates; ASE-certified support"
+      },
+      "features": {
+        "live_data": true,
+        "abs_srs": true,
+        "bluetooth": true,
+        "bidirectional": true
+      },
+      "verdict": "The only bidirectional tool here: it sends commands to the car to test parts like the fuel pump or retract an electronic parking brake, reads enhanced data from ABS, SRS and transmission, and does special resets.",
+      "best_for": "Serious DIYers doing brakes, batteries and component tests.",
+      "skip_if": "You just read codes; this is more tool than you need.",
+      "pros": [
+        "Bidirectional component tests",
+        "Enhanced ABS, SRS and transmission data",
+        "US-based ASE-certified support"
+      ],
+      "cons": [
+        "$349.99",
+        "Listing says coverage to 2023 models, 2024 coming"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DWSK445J",
+      "name": "OnRetul V100 OBD2 Diagnostic Tool, Code Reader, Engine Light Diagnostic Tool, Battery Voltage Tester",
+      "brand": "OnRetul",
+      "model": "V100 / V310",
+      "image": "https://m.media-amazon.com/images/I/61Jj3nY8ArL._AC_SL1254_.jpg",
+      "price": 9.34,
+      "rating": 4.0,
+      "reviews_count": 151,
+      "bought": "200+/mo",
+      "flag": "Model number doesn't match; overstated battery testing",
+      "verdict": "A $9 reader whose listing can't agree on which model it is. For about $14 more, the MOTOPOWER is a known reader with 52,419 reviews.",
+      "reasons": [
+        "The title calls it a V100, but the spec table lists model V310 and an operating system of Windows 10 for a plug-in handheld. You can't be sure which device arrives.",
+        "It claims to 'monitor vehicle battery health and charging system status', but the bullet describes only a voltage reading. Voltage alone can't tell you a battery's health.",
+        "It's rated 4.0 stars, below every scanner we rank, and it lists no warranty."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Will an OBD2 scanner work on my car?",
+      "a": "Every car and light truck sold in the U.S. since 1996 has an OBD2 port, usually under the dashboard near the steering column. Basic engine codes work on all of them; ABS, airbag and other system coverage varies by brand and year."
+    },
+    {
+      "q": "Code reader or scan tool?",
+      "a": "A code reader reads and clears check engine codes. A scan tool adds live sensor data, and the better ones read ABS, airbag, transmission and TPMS codes. If you've had a brake or airbag light, you need a scan tool."
+    },
+    {
+      "q": "Handheld or Bluetooth?",
+      "a": "Handhelds plug in and work with no phone or account. Bluetooth adapters are smaller and use your phone's screen and an app, which can add repair reports, logging and vehicle-specific features."
+    },
+    {
+      "q": "Should I clear the check engine light?",
+      "a": "Only after fixing the problem. Clearing the code turns off the light, but it also resets the emissions monitors, and the car may fail an inspection until they're ready again."
+    },
+    {
+      "q": "What does bidirectional mean?",
+      "a": "A bidirectional tool can send commands to the car, such as turning on the fuel pump, cycling ABS valves or retracting an electronic parking brake. It's useful for testing parts, not just reading what's wrong."
+    }
+  ]
+}

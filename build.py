@@ -1452,7 +1452,8 @@ HOME_GROUPS = [
     ("Wired tools", "Corded &mdash; full unlimited power for the least money, never a dead battery.", "wired"),
     ("Air tools", "Compressors and the pneumatic nailers they drive &mdash; light tools, steady power.", "air"),
     ("Hand tools", "No batteries, no cords &mdash; the essentials every toolbox needs.", "hand"),
-    ("Garage & auto shop", "Shop equipment for working on your own vehicles &mdash; lifting, tires, and inspection.", "garage"),
+    ("Measuring & layout", "Levels, stud finders, and tape measures &mdash; mark it right before you cut.", "measure"),
+    ("Garage & auto shop", "Shop equipment for working on your own vehicles &mdash; lifting, tires, diagnostics, and inspection.", "garage"),
 ]
 
 

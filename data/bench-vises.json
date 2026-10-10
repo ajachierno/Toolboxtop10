@@ -1,0 +1,475 @@
+{
+  "slug": "bench-vises",
+  "title": "The 10 Best Bench Vises",
+  "subtitle": "4-1/2-inch to 8-inch bench vises with swivel bases, pipe jaws and anvils, ranked from live Amazon data.",
+  "intro": "A bench vise holds metal, pipe and wood rock-steady while you cut, file, drill or hammer. We ranked 10 best-sellers on rating, review volume and features (ductile iron, a full 360-degree swivel, built-in pipe jaws and a lifetime warranty). Material matters most: ductile iron (around 60,000 psi) takes hammering that can crack gray cast iron. Jaw width sets the size class: 4-1/2 inches for home benches, 5 to 6-1/2 inches for metalwork, 8 inches for heavy shop use. They run from about $29 for AV Steel's 4-1/2-inch to $739 for Wilton's 8-inch Mechanics Pro.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 35,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "ductile": 0.35,
+    "swivel_360": 0.2,
+    "pipe_jaws": 0.15,
+    "lifetime": 0.3
+  },
+  "reviews_ceiling": 10000,
+  "spec_fields": [
+    {
+      "key": "jaw",
+      "label": "Jaw width"
+    },
+    {
+      "key": "opening",
+      "label": "Jaw opening"
+    },
+    {
+      "key": "throat",
+      "label": "Throat depth"
+    },
+    {
+      "key": "material",
+      "label": "Material"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "jaw",
+      "label": "Jaw"
+    },
+    {
+      "key": "material",
+      "label": "Material"
+    },
+    {
+      "key": "swivel_360",
+      "label": "360° swivel",
+      "type": "bool"
+    },
+    {
+      "key": "lifetime",
+      "label": "Lifetime warranty",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BVRBP127",
+      "name": "VEVOR Bench Vise, 6-inch Jaw Width, 5.9-inch Jaw Opening, 360-Degree Swivel Locking Base, Ductile Iron",
+      "brand": "VEVOR",
+      "model": "6 in bench vise",
+      "image": "https://m.media-amazon.com/images/I/61tU3Wm3ZqL._AC_SL1500_.jpg",
+      "price": 71.9,
+      "rating": 4.7,
+      "reviews_count": 1557,
+      "bought": "1K+/mo",
+      "specs": {
+        "jaw": "6 in",
+        "opening": "5.9 in",
+        "throat": "3.5 in",
+        "material": "Ductile iron (60,000 psi)",
+        "weight": "25 lb"
+      },
+      "features": {
+        "ductile": true,
+        "swivel_360": true,
+        "pipe_jaws": true,
+        "lifetime": false
+      },
+      "verdict": "The best-selling vise here: a 6-inch ductile iron vise with a 360-degree swivel base, pipe jaws for 0.6 to 2.9-inch tube, a 2.9 x 3-inch anvil, and magnetic jaw pads and mounting bolts in the box.",
+      "best_for": "A first real metalworking vise at a fair price.",
+      "skip_if": "You want a lifetime warranty; none is listed.",
+      "pros": [
+        "Ductile iron, 6-in jaws",
+        "360° swivel and pipe jaws",
+        "Mounting hardware and jaw pads included"
+      ],
+      "cons": [
+        "No warranty term listed",
+        "25 lbs"
+      ]
+    },
+    {
+      "asin": "B085RH87VZ",
+      "name": "Forward CR40A 4.5 Inch Bench Vise Heavy Duty with Anvil and 210° Swivel Base",
+      "brand": "Forward",
+      "model": "CR40A",
+      "image": "https://m.media-amazon.com/images/I/81ETFOgQ4TL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.8,
+      "reviews_count": 1441,
+      "bought": "100+/mo",
+      "specs": {
+        "jaw": "4.5 in",
+        "opening": "5 in",
+        "throat": "2.6 in",
+        "material": "Ductile iron (60,000 psi)",
+        "weight": null
+      },
+      "features": {
+        "ductile": true,
+        "swivel_360": false,
+        "pipe_jaws": true,
+        "lifetime": false
+      },
+      "verdict": "A compact all-ductile-iron vise that opens 5 inches, wider than most 4-1/2-inch vises, with replaceable flat and slotted jaws and pipe jaws from 1/2 to 3-1/2 inches.",
+      "best_for": "A tough small vise for a home bench.",
+      "skip_if": "You need full 360° rotation; the base swivels 210°.",
+      "pros": [
+        "All ductile iron",
+        "5-in opening",
+        "4.8 stars"
+      ],
+      "cons": [
+        "210° swivel",
+        "Weight not listed"
+      ]
+    },
+    {
+      "asin": "B07G58RDHV",
+      "name": "Forward DT08125A 5 Inch Heavy Duty Bench Vise with 360° Swivel Base and Head",
+      "brand": "Forward",
+      "model": "DT08125A",
+      "image": "https://m.media-amazon.com/images/I/615gXoMxXhL._AC_SL1001_.jpg",
+      "price": 125.99,
+      "rating": 4.8,
+      "reviews_count": 1950,
+      "bought": "100+/mo",
+      "specs": {
+        "jaw": "5 in",
+        "opening": "5 in",
+        "throat": "2.6 in",
+        "material": "Ductile iron (60,000 psi)",
+        "weight": "33 lb"
+      },
+      "features": {
+        "ductile": true,
+        "swivel_360": true,
+        "pipe_jaws": true,
+        "lifetime": false
+      },
+      "verdict": "A ductile iron vise whose head rotates 360 degrees as well as the base, so you can clamp work at any angle, with three jaw sets (microgroove, pipe and V-jaws) and at least 5,500 lbs of clamping force.",
+      "best_for": "Angled work: the rotating head clamps parts at any angle.",
+      "skip_if": "You only need straight-on clamping; the CR40A costs less.",
+      "pros": [
+        "Rotating head and base",
+        "3 jaw sets including V-jaws",
+        "4.8 stars across 1,950 reviews"
+      ],
+      "cons": [
+        "$125.99",
+        "33 lbs"
+      ]
+    },
+    {
+      "asin": "B07G595JQ7",
+      "name": "Forward CR60A 6.5 Inch Bench Vise Heavy Duty with Anvil and 210° Swivel Base",
+      "brand": "Forward",
+      "model": "CR60A",
+      "image": "https://m.media-amazon.com/images/I/81ETFOgQ4TL._AC_SL1500_.jpg",
+      "price": 127.49,
+      "rating": 4.8,
+      "reviews_count": 1441,
+      "bought": "100+/mo",
+      "specs": {
+        "jaw": "6.5 in",
+        "opening": "6 in",
+        "throat": "3.8 in",
+        "material": "Ductile iron (60,000 psi)",
+        "weight": "40.6 lb"
+      },
+      "features": {
+        "ductile": true,
+        "swivel_360": false,
+        "pipe_jaws": true,
+        "lifetime": false
+      },
+      "verdict": "The big brother of the CR40A: 6.5-inch ductile iron jaws, a 6-inch opening and a 3.8-inch throat, with a 3.1 x 2.9-inch anvil.",
+      "best_for": "Metal fabrication and large parts.",
+      "skip_if": "Your bench is light; at 40 lbs it needs a solid mount.",
+      "pros": [
+        "6.5-in jaws, 6-in opening",
+        "3.8-in throat",
+        "All ductile iron"
+      ],
+      "cons": [
+        "210° swivel",
+        "40.6 lbs"
+      ]
+    },
+    {
+      "asin": "B00YS401X0",
+      "force_budget": true,
+      "name": "Yost Vises LV-4 Homeowner's Vise, 4.5 Inch Jaw Width, 3 Inch Jaw Opening, Swivel Base",
+      "brand": "Yost",
+      "model": "LV-4",
+      "image": "https://m.media-amazon.com/images/I/71a+6k0lA7L._AC_SL1500_.jpg",
+      "price": 31.95,
+      "rating": 4.5,
+      "reviews_count": 10798,
+      "bought": "500+/mo",
+      "specs": {
+        "jaw": "4.5 in",
+        "opening": "3 in",
+        "throat": "2.6 in",
+        "material": "Gray iron (30,000 psi)",
+        "weight": "9 lb"
+      },
+      "features": {
+        "ductile": false,
+        "swivel_360": false,
+        "pipe_jaws": true,
+        "lifetime": false
+      },
+      "verdict": "The most-reviewed vise here: a light homeowner's vise in 30,000 psi gray iron with a 240° swivel, a 3.5 x 2.7-inch anvil and pipe capacity up to 1.85 inches.",
+      "best_for": "Light household jobs on a budget.",
+      "skip_if": "You'll hammer on it; gray iron is less forgiving than ductile.",
+      "pros": [
+        "10,798 reviews",
+        "$31.95, 9 lbs",
+        "Pipe jaws and anvil"
+      ],
+      "cons": [
+        "3-in opening",
+        "Mounting hardware not included"
+      ]
+    },
+    {
+      "asin": "B0FJRR9RGC",
+      "name": "AV Steel 4-1/2\" Bench Vise with 240° Swivel Locking Base and Anvil (AV-800100)",
+      "brand": "AV Steel",
+      "model": "AV-800100",
+      "image": "https://m.media-amazon.com/images/I/71Fc3WqoDgL._AC_SL1500_.jpg",
+      "price": 29.49,
+      "rating": 4.6,
+      "reviews_count": 130,
+      "bought": "200+/mo",
+      "specs": {
+        "jaw": "4.5 in",
+        "opening": "3-3/4 in",
+        "throat": "2-11/32 in",
+        "material": "Cast iron",
+        "weight": "10.1 lb"
+      },
+      "features": {
+        "ductile": false,
+        "swivel_360": false,
+        "pipe_jaws": true,
+        "lifetime": true
+      },
+      "verdict": "The cheapest vise here, with a wider 3-3/4-inch opening than the Yost, pipe jaws, a 3-1/4-inch anvil and a lifetime warranty.",
+      "best_for": "A cheap home vise with a lifetime warranty.",
+      "skip_if": "You want a long track record; it has 130 reviews.",
+      "pros": [
+        "$29.49",
+        "Lifetime warranty",
+        "3-3/4-in opening"
+      ],
+      "cons": [
+        "Cast iron, not ductile",
+        "New listing"
+      ]
+    },
+    {
+      "asin": "B08G89S7QL",
+      "name": "WORKPRO Bench Vise, 4-1/2\" Multi-Jaw Vice for Workbench (W033010AC)",
+      "brand": "WORKPRO",
+      "model": "W033010AC",
+      "image": "https://m.media-amazon.com/images/I/71gCSPcy6jL._AC_SL1500_.jpg",
+      "price": 43.69,
+      "rating": 4.5,
+      "reviews_count": 1638,
+      "bought": "500+/mo",
+      "specs": {
+        "jaw": "4.5 in",
+        "opening": "4-1/4 in",
+        "throat": "2-11/32 in",
+        "material": "Gray iron",
+        "weight": "10.6 lb"
+      },
+      "features": {
+        "ductile": false,
+        "swivel_360": false,
+        "pipe_jaws": true,
+        "lifetime": false
+      },
+      "verdict": "A 4-1/2-inch gray iron vise with multi-jaws that hold flat stock and pipe, a 240° swivel and a 4-1/4-inch opening.",
+      "best_for": "Home benches that hold both pipe and flat stock.",
+      "skip_if": "You'll do heavy hammering.",
+      "pros": [
+        "4-1/4-in opening",
+        "Multi-jaw for pipe and flat",
+        "1,638 reviews"
+      ],
+      "cons": [
+        "Gray iron",
+        "240° swivel"
+      ]
+    },
+    {
+      "asin": "B09XM36H9L",
+      "name": "PONY 5 Inch Heavy Duty Bench Vise with 360-Degree Swivel Base and Head (29055A)",
+      "brand": "PONY",
+      "model": "29055A",
+      "image": "https://m.media-amazon.com/images/I/71LJy8SvH6L._AC_SL1500_.jpg",
+      "price": 110.39,
+      "rating": 4.6,
+      "reviews_count": 303,
+      "bought": "50+/mo",
+      "specs": {
+        "jaw": "5 in",
+        "opening": "5 in",
+        "throat": "2-5/8 in",
+        "material": "Ductile iron base, steel channel",
+        "weight": null
+      },
+      "features": {
+        "ductile": true,
+        "swivel_360": true,
+        "pipe_jaws": true,
+        "lifetime": false
+      },
+      "verdict": "A rotating-head vise with steel channel beams over the screw, permanent pipe jaws, dual lock nuts and up to 5,512 lbs of clamping force.",
+      "best_for": "A rotating-head vise with a protected screw.",
+      "skip_if": "The Forward DT08125A is in stock; it's rated higher.",
+      "pros": [
+        "Rotating head and base",
+        "Steel channel protects the screw",
+        "Jaw pads included"
+      ],
+      "cons": [
+        "Weight and warranty not listed",
+        "Smaller review base"
+      ]
+    },
+    {
+      "asin": "B07V7YFRJK",
+      "name": "Wilton Utility Bench Vise, 4-1/2\" Jaw Width, 4\" Jaw Opening, 2-5/8\" Throat (Model 674U)",
+      "brand": "Wilton",
+      "model": "674U",
+      "image": "https://m.media-amazon.com/images/I/614rKmSfLwL._AC_SL1500_.jpg",
+      "price": 149.99,
+      "rating": 4.7,
+      "reviews_count": 203,
+      "bought": "50+/mo",
+      "specs": {
+        "jaw": "4.5 in",
+        "opening": "4 in",
+        "throat": "2-5/8 in",
+        "material": "Cast and ductile iron",
+        "weight": "16.5 lb"
+      },
+      "features": {
+        "ductile": true,
+        "swivel_360": true,
+        "pipe_jaws": true,
+        "lifetime": true
+      },
+      "verdict": "Wilton's utility vise: dual lockdowns on a 360° swivel, built-in pipe jaws, replaceable hardened serrated jaws and Wilton's lifetime warranty.",
+      "best_for": "A brand-name vise to hand down.",
+      "skip_if": "Price matters; the Forward CR40A is about half the cost.",
+      "pros": [
+        "Lifetime warranty",
+        "360° swivel with dual lockdowns",
+        "4.7 stars"
+      ],
+      "cons": [
+        "$149.99 for a 4-1/2-in vise",
+        "Smaller review base"
+      ]
+    },
+    {
+      "asin": "B07FPCCHVC",
+      "premium": true,
+      "name": "Wilton Mechanics Pro Bench Vise, 8\" Jaw Width, 8-1/2\" Jaw Opening, 4-1/2\" Throat (Model 880M)",
+      "brand": "Wilton",
+      "model": "880M",
+      "image": "https://m.media-amazon.com/images/I/619ifDcliwL._AC_SL1500_.jpg",
+      "price": 739.49,
+      "rating": 4.7,
+      "reviews_count": 304,
+      "bought": "100+/mo",
+      "specs": {
+        "jaw": "8 in",
+        "opening": "8-1/2 in",
+        "throat": "4-1/2 in",
+        "material": "60,000 psi ductile iron, steel",
+        "weight": "83.1 lb"
+      },
+      "features": {
+        "ductile": true,
+        "swivel_360": true,
+        "pipe_jaws": false,
+        "lifetime": true
+      },
+      "verdict": "A shop vise built for life: a precision-machined slide bar that keeps the jaw from wobbling at any opening, an enclosed spindle, a needle roller thrust bearing for more force with less effort, and an 8-1/2-inch opening.",
+      "best_for": "Fabrication shops and heavy metalwork.",
+      "skip_if": "You're a homeowner; it's $739 and 83 lbs.",
+      "pros": [
+        "8-1/2-in opening, 4-1/2-in throat",
+        "Machined slide bar and thrust bearing",
+        "Lifetime warranty"
+      ],
+      "cons": [
+        "$739.49",
+        "83.1 lbs"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DG1GGL97",
+      "name": "Nakkaa 6 Inch Heavy Duty Cast Iron Bench Vise, 360° Swivel Lock Base",
+      "brand": "Nakkaa",
+      "model": "NA-250746",
+      "image": "https://m.media-amazon.com/images/I/612mFT8cS4L._AC_SL1500_.jpg",
+      "price": 52.36,
+      "rating": 4.1,
+      "reviews_count": 114,
+      "bought": "50+/mo",
+      "flag": "Title says cast iron, bullets say ductile; shallow throat",
+      "verdict": "A 6-inch vise that doesn't say clearly what it's made of. For about $20 more, the VEVOR 6-inch is clearly ductile iron with a deeper throat, pipe jaws and better ratings.",
+      "reasons": [
+        "The title says cast iron; the bullets say ductile iron. That's the most important spec on a vise, since cast iron can crack under hammering and ductile iron is chosen to resist it.",
+        "Its 2.16-inch throat depth is shallow for a 6-inch vise. The VEVOR 6-inch has a 3.5-inch throat and the Forward CR60A 3.8 inches, so this one can't hold as much material below the jaws.",
+        "At 4.1 stars it's the lowest-rated vise we compared."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What size bench vise do I need?",
+      "a": "4-1/2-inch jaws handle most home jobs. 5 to 6-1/2-inch vises suit regular metalwork and larger parts. Also check the jaw opening (how wide it can open) and throat depth (how far material can sit below the jaws)."
+    },
+    {
+      "q": "Cast iron or ductile iron?",
+      "a": "Gray cast iron is cheaper and fine for light work, but it's brittle and can crack if you hammer on the vise or overtighten it. Ductile iron (around 60,000 psi) bends before it breaks, which is why serious vises use it."
+    },
+    {
+      "q": "Do I need a swivel base?",
+      "a": "A swivel lets you turn the work toward you without unclamping it. 240° swivels cover most needs; 360° bases and rotating heads help with angled work."
+    },
+    {
+      "q": "How should I mount a bench vise?",
+      "a": "Bolt it through the bench with grade 5 or better bolts, washers and lock nuts, placed over a leg if you can. Mount it so the fixed jaw sits just past the bench edge, so long work can hang down clear of the bench."
+    },
+    {
+      "q": "Can I hammer on the anvil?",
+      "a": "Light hammering, bending and riveting, yes. A vise anvil isn't a blacksmith's anvil; heavy blows can crack cast iron vises and loosen the mounting."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "slug": "jack-stands",
+  "title": "The 10 Best Jack Stands",
+  "subtitle": "2-ton to 10-ton jack stands with ratchet and double-pin locks for cars, SUVs and trucks, ranked from live Amazon data.",
+  "intro": "Jack stands are what actually hold the car while you're under it; the floor jack only lifts it. We ranked 10 best-selling pairs on rating, review volume and features (a second locking pin, a stated ASME or ANSI safety standard, 3-ton or higher capacity, and a tall reach for trucks). Most stands use a ratchet bar that locks as you raise it; double-locking stands add a pin through the bar as a backup. They run from about $30 a pair to $215 for Sunex's 10-ton pin stands.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 35,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "double_lock": 0.35, "standard": 0.3, "three_ton": 0.2, "tall": 0.15 },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    { "key": "capacity", "label": "Capacity (pair)" },
+    { "key": "range", "label": "Height range" },
+    { "key": "lock", "label": "Lock" },
+    { "key": "standard", "label": "Standard" },
+    { "key": "warranty", "label": "Warranty" }
+  ],
+  "table_columns": [
+    { "key": "capacity", "label": "Capacity" },
+    { "key": "range", "label": "Height" },
+    { "key": "double_lock", "label": "Locking pin", "type": "bool" },
+    { "key": "standard", "label": "ASME/ANSI", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B0753MMRN7",
+      "name": "Amazon Basics Steel Jack Auto Stands, 3 Ton (6,000 lb), Adjustable Height, 1 Pair",
+      "brand": "Amazon Basics", "model": "SW-STJK03",
+      "image": "https://m.media-amazon.com/images/I/61L0mYeQEgL._AC_SL1500_.jpg",
+      "price": 37.78, "rating": 4.7, "reviews_count": 13703, "bought": "6K+/mo",
+      "specs": { "capacity": "3 ton (6,000 lb)", "range": null, "lock": "Self-locking ratchet", "standard": "ASME PASE-2014", "warranty": "1 year" },
+      "features": { "double_lock": false, "standard": true, "three_ton": true, "tall": false },
+      "verdict": "The best-selling and most-reviewed jack stands on this page: a 3-ton pair with a self-locking ratchet, a rustproof coated steel frame and the ASME PASE-2014 safety standard.",
+      "best_for": "Sedans and small SUVs: the default pair for a home garage.",
+      "skip_if": "You want a backup locking pin; these use the ratchet only.",
+      "pros": ["6,000+ sold last month; 13,703 reviews at 4.7 stars", "Meets ASME PASE-2014", "1-year warranty"],
+      "cons": ["No secondary locking pin", "Height range not listed"]
+    },
+    {
+      "asin": "B000CO86BY",
+      "name": "BIG RED T43202 Torin Heavy Duty Steel Jack Stands, 3 Ton (6,000 lb), 1 Pair",
+      "brand": "BIG RED", "model": "T43202",
+      "image": "https://m.media-amazon.com/images/I/81y9P8S7IVL._AC_SL1500_.jpg",
+      "price": 44.32, "rating": 4.7, "reviews_count": 12570, "bought": "500+/mo",
+      "specs": { "capacity": "3 ton (6,000 lb)", "range": "11-1/4 to 16-3/4 in", "lock": "Ratchet with double-locking pawl", "standard": "ASME", "warranty": null },
+      "features": { "double_lock": false, "standard": true, "three_ton": true, "tall": false },
+      "verdict": "A classic forged-steel 3-ton pair with a wide pyramid base, a large saddle and a double-locking pawl and tooth design, tested to ASME standards.",
+      "best_for": "Cars and small trucks; a proven name with 12,570 reviews.",
+      "skip_if": "You want a separate pin lock; BIG RED's T43002A adds one for less.",
+      "pros": ["12,570 reviews at 4.7 stars", "Meets ASME standards", "11-1/4 to 16-3/4-in range"],
+      "cons": ["No secondary pin", "The listing says not for SUVs and trucks"]
+    },
+    {
+      "asin": "B00026Z3E0",
+      "name": "BIG RED T43002A Torin Steel Jack Stands: Double Locking, 3 Ton (6,000 lb), 1 Pair",
+      "brand": "BIG RED", "model": "T43002A",
+      "image": "https://m.media-amazon.com/images/I/713GTMJywoL._AC_SL1500_.jpg",
+      "price": 39.99, "rating": 4.7, "reviews_count": 3058, "bought": "500+/mo",
+      "specs": { "capacity": "3 ton (6,000 lb)", "range": "11-1/4 to 16-3/4 in", "lock": "Ratchet plus removable pin", "standard": null, "warranty": "1 year" },
+      "features": { "double_lock": true, "standard": false, "three_ton": true, "tall": false },
+      "verdict": "BIG RED's stand with a removable locking pin through the ratchet bar as a backup, a 7.5 x 6.7-inch base and a 3.35-inch saddle, for less than the T43202.",
+      "best_for": "A backup pin lock at a budget price.",
+      "skip_if": "You have a big pickup or lifted SUV; the listing says it's not for them.",
+      "pros": ["Ratchet plus locking pin", "4.7 stars", "1-year warranty"],
+      "cons": ["Safety standard not stated", "Not for large trucks"]
+    },
+    {
+      "asin": "B09TPXRHF8", "force_overall": true,
+      "name": "Pro-LifT PL3300 Heavy Duty Jack Stands, 3 Ton Pair with Double Pins, Handle Lock and Mobility Pin",
+      "brand": "Pro-LifT", "model": "PL3300",
+      "image": "https://m.media-amazon.com/images/I/61NTGfB4ygL._AC_SL1500_.jpg",
+      "price": 39.74, "rating": 4.7, "reviews_count": 7682, "bought": "100+/mo",
+      "specs": { "capacity": "3 ton (6,000 lb)", "range": "11-1/4 to 16-3/4 in", "lock": "Handle lock plus pin", "standard": "ANSI/PALD", "warranty": null },
+      "features": { "double_lock": true, "standard": true, "three_ton": true, "tall": false },
+      "verdict": "Double locking and a stated safety standard for about $40: a handle lock and a mobility pin, a cast ductile iron ratchet bar and testing to meet or exceed ANSI/PALD.",
+      "best_for": "The most safety features per dollar.",
+      "skip_if": "You need more than 16-3/4 inches of height.",
+      "pros": ["Pin lock plus handle lock", "Meets ANSI/PALD", "7,682 reviews at 4.7 stars"],
+      "cons": ["16-3/4-in maximum, not for tall trucks", "Warranty term not shown on the listing"]
+    },
+    {
+      "asin": "B0CC51CN9H",
+      "name": "YELLOW JACKET Car Jack Stands 3 Ton with Double Locking and Large Foot Base, 6600 lb, 1 Pair",
+      "brand": "YELLOW JACKET", "model": "AS43001C",
+      "image": "https://m.media-amazon.com/images/I/71WEPu6hVoL._AC_SL1500_.jpg",
+      "price": 44.99, "rating": 4.7, "reviews_count": 609, "bought": "800+/mo",
+      "specs": { "capacity": "3 ton (6,600 lb)", "range": "10-7/8 to 16-9/16 in", "lock": "Ratchet plus metal pins", "standard": null, "warranty": "1 year" },
+      "features": { "double_lock": true, "standard": false, "three_ton": true, "tall": false },
+      "verdict": "A double-locking 3-ton pair with a one-piece forged ductile iron ratchet bar, metal safety pins and a large pyramid base.",
+      "best_for": "SUVs and cars with a pin-locked backup.",
+      "skip_if": "You want the safety standard named; the listing just says 'US safety standards'.",
+      "pros": ["Ratchet plus pins", "One-piece forged ratchet bar", "800+ sold last month"],
+      "cons": ["Standard not named", "Smaller review base"]
+    },
+    {
+      "asin": "B0928W86YB", "force_budget": true,
+      "name": "Jack Boss Jack Stands Low Profile 2 Ton (4000 LBs), 2 Pack (AS42002X)",
+      "brand": "Jack Boss", "model": "AS42002X",
+      "image": "https://m.media-amazon.com/images/I/71p7nyj31ZS._AC_SL1500_.jpg",
+      "price": 29.99, "rating": 4.6, "reviews_count": 1939, "bought": "1K+/mo",
+      "specs": { "capacity": "2 ton (4,000 lb) each", "range": "9.8 to 15 in", "lock": "Self-locking ratchet", "standard": null, "warranty": "1 year" },
+      "features": { "double_lock": false, "standard": false, "three_ton": false, "tall": false },
+      "verdict": "The cheapest pair here: 2-ton low-profile stands that start at 9.8 inches for small and low cars, with a concave saddle and a ductile iron ratchet bar.",
+      "best_for": "Small and lowered cars.",
+      "skip_if": "You have a pickup or large SUV; the listing says they're not for them.",
+      "pros": ["$29.99 a pair", "9.8-in minimum height", "1-year warranty"],
+      "cons": ["2-ton rating", "15-in maximum"]
+    },
+    {
+      "asin": "B0CW2ZWHJG",
+      "name": "TONDA Jack Stands 3 Ton, Extra Tall, 13.39-21.06 in, 1 Pair (T210107)",
+      "brand": "TONDA", "model": "T210107",
+      "image": "https://m.media-amazon.com/images/I/610Vx3rrPVL._AC_SL1500_.jpg",
+      "price": 39.99, "rating": 4.6, "reviews_count": 528, "bought": "400+/mo",
+      "specs": { "capacity": "3 ton (6,000 lb)", "range": "13.39 to 21.06 in", "lock": "Self-locking ratchet", "standard": null, "warranty": null },
+      "features": { "double_lock": false, "standard": false, "three_ton": true, "tall": true },
+      "verdict": "Extra-tall 3-ton stands that reach 21 inches for trucks and SUVs, with a wide 7.2 x 8.86-inch base, for the same price as standard-height pairs.",
+      "best_for": "Pickups and SUVs that need taller stands.",
+      "skip_if": "You have a car; the 13.4-inch minimum may not fit under it.",
+      "pros": ["Up to 21.06 in", "Wide base", "$39.99 a pair"],
+      "cons": ["No secondary pin", "No standard or warranty listed"]
+    },
+    {
+      "asin": "B0C8B5QRJS",
+      "name": "VEVOR Jack Stands 6 Ton Capacity, Double Locking, 2 pcs (HM6)",
+      "brand": "VEVOR", "model": "HM6",
+      "image": "https://m.media-amazon.com/images/I/71vk12hbi9L._AC_SL1500_.jpg",
+      "price": 50.90, "rating": 4.6, "reviews_count": 1682, "bought": "900+/mo",
+      "specs": { "capacity": "6 ton", "range": null, "lock": "Ratchet plus metal pins", "standard": "CE", "warranty": null },
+      "features": { "double_lock": true, "standard": false, "three_ton": true, "tall": false },
+      "verdict": "A 6-ton double-locking pair for pickups, SUVs and UTVs at about $51, with a wider pyramid base and a notched saddle that grips pinch welds.",
+      "best_for": "Pickups and heavier SUVs on a budget.",
+      "skip_if": "You want the height range before buying; it isn't listed.",
+      "pros": ["6-ton rating", "Ratchet plus pins", "900+ sold last month"],
+      "cons": ["Height range not listed", "CE only; no ASME/ANSI claim"]
+    },
+    {
+      "asin": "B074R17GL4",
+      "name": "Pro-Lift T-6906D Double Pin Jack Stand, 6 Ton",
+      "brand": "Pro-LifT", "model": "T-6906D",
+      "image": "https://m.media-amazon.com/images/I/811jJTAAmVL._AC_SL1500_.jpg",
+      "price": 83.99, "rating": 4.8, "reviews_count": 6699, "bought": "200+/mo",
+      "specs": { "capacity": "6 ton", "range": "16 to 23-1/2 in", "lock": "Handle lock plus pin", "standard": "ANSI/PALD", "warranty": null },
+      "features": { "double_lock": true, "standard": true, "three_ton": true, "tall": true },
+      "verdict": "The highest-rated stands here: 6-ton, 16 to 23-1/2-inch stands with a handle lock, a mobility pin and counterweighted pawls, meeting ANSI/PALD.",
+      "best_for": "Full-size trucks and lifted SUVs.",
+      "skip_if": "You have a car; the 16-inch minimum is too tall.",
+      "pros": ["4.8 stars across 6,699 reviews", "16 to 23-1/2-in range", "Pin lock, ANSI/PALD"],
+      "cons": ["$83.99", "Listing showed only 1 left in stock"]
+    },
+    {
+      "asin": "B0093NBQNA", "premium": true,
+      "name": "Sunex 1310 10-Ton Medium Height Pin Type Jack Stands, Pair",
+      "brand": "Sunex", "model": "1310",
+      "image": "https://m.media-amazon.com/images/I/61biKqVsnwL._AC_SL1500_.jpg",
+      "price": 215.19, "rating": 4.7, "reviews_count": 323,
+      "specs": { "capacity": "10 ton", "range": "6 pin positions", "lock": "Pin type", "standard": null, "warranty": "1 year" },
+      "features": { "double_lock": false, "standard": false, "three_ton": true, "tall": false },
+      "verdict": "Shop-grade 10-ton pin stands: a four-leg steel base, a schedule-pipe support tube, six pin heights with an attached pin, and a saddle with locating lugs for frames.",
+      "best_for": "Heavy trucks, tractors and shop use.",
+      "skip_if": "You work on cars; a $40 pair does the job.",
+      "pros": ["10-ton pair", "Pin can't be lost; 6 heights", "Four-leg base"],
+      "cons": ["$215.19, 87 lbs", "Listing showed only 3 left in stock"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B00GJJZ5NI",
+      "name": "Powerbuilt 3 Ton, Bottle Jack and Jack Stands in One, Heavy Duty Vehicle Unijack (620471)",
+      "brand": "Powerbuilt", "model": "620471",
+      "image": "https://m.media-amazon.com/images/I/71TIOc1FQKL._AC_SL1500_.jpg",
+      "price": 99.99, "rating": 4.5, "reviews_count": 3194, "bought": "600+/mo",
+      "flag": "Capacity stated as both 6,000 and 3,000 lb",
+      "verdict": "A jack-and-stand combo whose listing can't agree on how much it holds, sold as one unit for the price of two or three pairs of real stands. Buy a floor jack and a pair of Amazon Basics stands instead.",
+      "reasons": [
+        "The title says 3 tons and 6,000 lb, but the bullets say '3,000-pound capacity.' On something you lie under, the rated load has to be unambiguous.",
+        "The title says 'Jack Stands', but you get one unit. Supporting a car properly takes at least two stands, so you'd need two of these at about $200.",
+        "It holds the vehicle on a hydraulic bottle jack with a ratchet bar backup. A dedicated mechanical stand doesn't depend on a hydraulic seal at all."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "What capacity jack stands do I need?", "a": "Ratings are usually per pair. A 3-ton pair covers most cars and small SUVs, since each end of a car carries only part of its weight. Pickups and large SUVs are better on 6-ton stands with a taller range." },
+    { "q": "Ratchet or pin-type?", "a": "Ratchet stands adjust quickly in small steps and lock as you raise them. Pin-type stands lock with a steel pin through the post, which is simple and strong but has fewer heights. Double-locking stands combine both." },
+    { "q": "Where do I put jack stands?", "a": "On the manufacturer's support points (check the owner's manual), usually the pinch welds or frame rails, on hard level ground. Never on suspension arms, the oil pan or asphalt on a hot day." },
+    { "q": "How do I know the stands are set safely?", "a": "Lower the car onto both stands, then push firmly on the car before getting under it. Leave the floor jack lightly raised under a solid point as a backup, and chock the wheels still on the ground." },
+    { "q": "Do jack stands need a safety standard?", "a": "In the U.S., ASME PASE (and the older ANSI/PALD) covers portable automotive lifting and support equipment. A stated standard means the design was tested to it." }
+  ]
+}

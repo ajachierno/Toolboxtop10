@@ -1,0 +1,193 @@
+{
+  "slug": "stud-finders",
+  "title": "The 10 Best Stud Finders",
+  "subtitle": "Multi-sensor, single-sensor and magnetic stud finders for TVs, shelves and cabinets, ranked from live Amazon data.",
+  "intro": "A stud finder tells you where to drive the screw so a TV or shelf stays on the wall. We ranked 10 best-sellers on rating, review volume and features (multiple sensors that show the full stud width, live wire detection, scanning 1.5 inches deep or more, and no calibration). There are three types: multi-sensor finders show the whole stud at once, single-sensor scanners find edges as you slide, and magnets find the screws in the stud. They run from about $10 for a magnet or a CRAFTSMAN scanner to $119 for Franklin's deep-scanning MAX.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 15,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "multi_sensor": 0.3, "live_wire": 0.25, "deep": 0.25, "no_calibration": 0.2 },
+  "reviews_ceiling": 20000,
+  "spec_fields": [
+    { "key": "type", "label": "Type" },
+    { "key": "depth", "label": "Depth" },
+    { "key": "wire", "label": "Live wire" },
+    { "key": "power", "label": "Power" },
+    { "key": "extras", "label": "Extras" }
+  ],
+  "table_columns": [
+    { "key": "type", "label": "Type" },
+    { "key": "depth", "label": "Depth" },
+    { "key": "live_wire", "label": "Live wire", "type": "bool" },
+    { "key": "no_calibration", "label": "No calibration", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B0917VXLDK",
+      "name": "Franklin Sensors ProSensor M210 13-Sensor Stud Finder, Live Wire Detection",
+      "brand": "Franklin Sensors", "model": "ProSensor M210",
+      "image": "https://m.media-amazon.com/images/I/61edrHfaFlL._AC_SL1500_.jpg",
+      "price": 59.97, "rating": 4.6, "reviews_count": 6523, "bought": "10K+/mo",
+      "specs": { "type": "13-sensor", "depth": "1.7 in", "wire": "Yes", "power": "2 AA (not included)", "extras": "Bubble level, pencil caddy" },
+      "features": { "multi_sensor": true, "live_wire": true, "deep": true, "no_calibration": true },
+      "verdict": "The best-selling stud finder here: 13 sensors light up the full width of every stud under it at once, including double studs, with no calibration, a 1.7-inch depth, live wire detection, a bubble level and a pencil caddy.",
+      "best_for": "Anyone mounting a TV, cabinets or shelves who wants to see the whole stud.",
+      "skip_if": "You hang a picture once a year; a $10 magnet does that.",
+      "pros": ["10,000+ sold last month; 4.6 stars", "Shows full stud width, no calibration", "Live wire detection, bubble level, 1.7-in depth"],
+      "cons": ["$59.97", "Batteries not included"]
+    },
+    {
+      "asin": "B0917TH83L",
+      "name": "Franklin Sensors ProSensor M150/X990 9-Sensor Stud Finder, AC Wire Warning",
+      "brand": "Franklin Sensors", "model": "ProSensor M150",
+      "image": "https://m.media-amazon.com/images/I/71jScNanGFL._SL1500_.jpg",
+      "price": 39.97, "rating": 4.4, "reviews_count": 4369, "bought": "7K+/mo",
+      "specs": { "type": "9-sensor", "depth": "1.5 in", "wire": "Yes", "power": "2 AAA (not included)", "extras": null },
+      "features": { "multi_sensor": true, "live_wire": true, "deep": true, "no_calibration": true },
+      "verdict": "The same full-width display in a smaller 9-sensor body, with live wire detection and 1.5-inch depth, for $20 less than the M210.",
+      "best_for": "Franklin's full-stud view with wire detection for under $40.",
+      "skip_if": "You want a bubble level or rechargeable batteries; it has no level and doesn't take rechargeables.",
+      "pros": ["Full stud width, no calibration", "Live wire detection", "7,000+ sold last month"],
+      "cons": ["Not compatible with rechargeable batteries", "No bubble level"]
+    },
+    {
+      "asin": "B07DPT6HSY",
+      "name": "Franklin Sensors ProSensor M90 9-Sensor Stud Finder Wall Scanner",
+      "brand": "Franklin Sensors", "model": "ProSensor M90",
+      "image": "https://m.media-amazon.com/images/I/51IwgOuTCOL._AC_SL1500_.jpg",
+      "price": 29.79, "rating": 4.4, "reviews_count": 2750, "bought": "1K+/mo",
+      "specs": { "type": "9-sensor", "depth": "1.5 in", "wire": "No", "power": "2 AAA (not included)", "extras": null },
+      "features": { "multi_sensor": true, "live_wire": false, "deep": true, "no_calibration": true },
+      "verdict": "Franklin's cheapest multi-sensor finder: the same 9-sensor full-width display and 1.5-inch depth as the M150, without wire detection, for about $10 less.",
+      "best_for": "Finding studs fast when you don't need wire warnings.",
+      "skip_if": "You're drilling near outlets or switches; get the M150 with wire detection.",
+      "pros": ["9 sensors, full stud width", "1.5-in depth, wood and metal", "$29.79"],
+      "cons": ["No live wire detection", "No rechargeable batteries"]
+    },
+    {
+      "asin": "B00E4690X4", "force_budget": true,
+      "name": "The Original StudBuddy Magnetic Stud Finder, Made in the USA, No Batteries Required",
+      "brand": "StudBuddy", "model": "001",
+      "image": "https://m.media-amazon.com/images/I/416uD8KlXXL._AC_SL1420_.jpg",
+      "price": 9.97, "rating": 4.5, "reviews_count": 16090, "bought": "4K+/mo",
+      "specs": { "type": "Magnetic", "depth": "Finds drywall screws and nails", "wire": "No", "power": "None needed", "extras": "Made in USA" },
+      "features": { "multi_sensor": false, "live_wire": false, "deep": false, "no_calibration": true },
+      "verdict": "The cheapest stud finder here: neodymium magnets stick to the wall where a drywall screw is, and the screw is in a stud. No batteries, no calibration, no false readings from wall density.",
+      "best_for": "Drywall homes and a drawer you'll forget it in for a year.",
+      "skip_if": "You have lath and plaster walls; the maker says it's not for them.",
+      "pros": ["16,090 reviews at 4.5 stars", "No batteries, sticks to the wall", "$9.97, made in the USA"],
+      "cons": ["Finds screws, not the stud edges", "Not for lath and plaster"]
+    },
+    {
+      "asin": "B08DY3MKXQ",
+      "name": "CH Hanson Magnetic Stud Finder, Battery-Free with Rare Earth Magnets and Built-In Level (03040A)",
+      "brand": "CH Hanson", "model": "03040A",
+      "image": "https://m.media-amazon.com/images/I/61-Zh++TnZL._AC_SL1500_.jpg",
+      "price": 15.17, "rating": 4.7, "reviews_count": 570, "bought": "2K+/mo",
+      "specs": { "type": "Magnetic", "depth": "Finds screws and nails", "wire": "No", "power": "None needed", "extras": "Rotating level" },
+      "features": { "multi_sensor": false, "live_wire": false, "deep": false, "no_calibration": true },
+      "verdict": "The highest-rated stud finder here: a rare-earth magnet locator with a rotating built-in level for marking level and plumb lines, and a limited lifetime warranty.",
+      "best_for": "A magnet finder that also marks level lines.",
+      "skip_if": "You want to see the full width of the stud.",
+      "pros": ["4.7 stars", "Built-in rotating level", "Lifetime warranty, no batteries"],
+      "cons": ["Finds fasteners, not stud edges", "Small review base"]
+    },
+    {
+      "asin": "B07QJD6VLL",
+      "name": "CRAFTSMAN Stud Finder, 3/4-Inch Depth (CMHT77633)",
+      "brand": "CRAFTSMAN", "model": "CMHT77633",
+      "image": "https://m.media-amazon.com/images/I/61i-v5lf4TL._AC_SL1500_.jpg",
+      "price": 9.98, "rating": 4.2, "reviews_count": 23886, "bought": "6K+/mo",
+      "specs": { "type": "Single-sensor edge finder", "depth": "3/4 in", "wire": "No", "power": null, "extras": "Works over wallpaper and fabric" },
+      "features": { "multi_sensor": false, "live_wire": false, "deep": false, "no_calibration": false },
+      "verdict": "The most-reviewed stud finder here: a basic $10 edge finder for wood and metal studs through 3/4 inch, with a full lifetime warranty.",
+      "best_for": "A cheap electronic finder for standard 1/2-inch drywall.",
+      "skip_if": "You want center-finding or wire detection.",
+      "pros": ["23,886 reviews", "$9.98 with a lifetime warranty", "Works over wallpaper and fabric"],
+      "cons": ["3/4-in depth only", "4.2 stars; finds edges only"]
+    },
+    {
+      "asin": "B07GLCS7YY",
+      "name": "DEWALT Stud Finder, 3/4\", LED Arrows, Wood and Metal, AAA Batteries Included (DW0100)",
+      "brand": "DEWALT", "model": "DW0100",
+      "image": "https://m.media-amazon.com/images/I/81TEd7k7YJL._AC_SL1500_.jpg",
+      "price": 14.99, "rating": 4.1, "reviews_count": 5576, "bought": "3K+/mo",
+      "specs": { "type": "Single-sensor center finder", "depth": "3/4 in", "wire": "Yes", "power": "AAA (included)", "extras": "Center marking channel" },
+      "features": { "multi_sensor": false, "live_wire": true, "deep": false, "no_calibration": true },
+      "verdict": "A $15 center finder with live wire detection, constant auto-calibration, LED arrows that point toward the stud, and a channel for marking the center.",
+      "best_for": "Center-finding and wire detection for under $15.",
+      "skip_if": "You have thick walls; it only reads 3/4 inch deep.",
+      "pros": ["Finds stud centers, not just edges", "Live wire detection", "Auto-calibration; batteries included"],
+      "cons": ["4.1 stars", "3/4-in depth"]
+    },
+    {
+      "asin": "B09CVCZD1W",
+      "name": "Zircon MultiScanner A200 Stud Finder with Metal & Live Wire Detection (72298)",
+      "brand": "Zircon", "model": "A200",
+      "image": "https://m.media-amazon.com/images/I/71cXGoPNzxL._AC_SL1500_.jpg",
+      "price": 49.99, "rating": 4.4, "reviews_count": 824, "bought": "1K+/mo",
+      "specs": { "type": "Single-sensor scanner", "depth": "3/4 in; 1-1/2 in DeepScan", "wire": "Yes, to 2 in", "power": "9V (not included)", "extras": "Metal Scan mode, SpotLite pointer, LCD" },
+      "features": { "multi_sensor": false, "live_wire": true, "deep": true, "no_calibration": false },
+      "verdict": "Zircon's three-mode scanner: StudScan for edges and centers, DeepScan to 1-1/2 inches, and Metal Scan for pipes and rebar, plus live wire warnings and an LCD.",
+      "best_for": "Finding metal (pipes, straps) as well as studs.",
+      "skip_if": "You don't want to calibrate before each scan.",
+      "pros": ["Stud, deep and metal modes", "Wire warning to 2 in", "LCD and SpotLite pointer"],
+      "cons": ["Calibrate before every scan", "9V battery not included"]
+    },
+    {
+      "asin": "B09C5LWZRQ",
+      "name": "Mecurate 5-in-1 Stud Finder Wall Scanner for Studs, Metal & Live AC Wires (MSF60A)",
+      "brand": "Mecurate", "model": "MSF60A",
+      "image": "https://m.media-amazon.com/images/I/61wdzwwre2L._AC_SL1500_.jpg",
+      "price": 25.99, "rating": 4.2, "reviews_count": 6609, "bought": "2K+/mo",
+      "specs": { "type": "Single-sensor scanner", "depth": "3/4 in; 1-1/2 in deep; metal 2-3/8 in", "wire": "Yes, to 2 in", "power": "9V (included)", "extras": "LCD, carrying pouch" },
+      "features": { "multi_sensor": false, "live_wire": true, "deep": true, "no_calibration": false },
+      "verdict": "A budget LCD scanner with standard, deep, metal and AC modes, a battery and a pouch, covering the same jobs as the Zircon A200 for about half the price.",
+      "best_for": "Metal and wire detection on a budget.",
+      "skip_if": "Your walls aren't single-layer drywall; the maker says that's where it works best.",
+      "pros": ["Stud, deep, metal and AC modes", "Battery and pouch included", "6,609 reviews"],
+      "cons": ["4.2 stars", "Calibrate before each use"]
+    },
+    {
+      "asin": "B0D3MDJWVC", "premium": true,
+      "name": "Franklin Sensors ProSensor MAX 13-Sensor Stud Finder, 2.5-in Deep Detection (MAX12)",
+      "brand": "Franklin Sensors", "model": "ProSensor MAX",
+      "image": "https://m.media-amazon.com/images/I/71wxpBnXBML._AC_SL1500_.jpg",
+      "price": 119.00, "rating": 4.5, "reviews_count": 620, "bought": "1K+/mo",
+      "specs": { "type": "13-sensor (large)", "depth": "2.5 in", "wire": "Not listed", "power": null, "extras": "Normal and deep modes" },
+      "features": { "multi_sensor": true, "live_wire": false, "deep": true, "no_calibration": true },
+      "verdict": "Franklin's deep scanner: 13 larger sensors read through two layers of drywall, plaster, OSB, plywood, MDF and large tile to 2.5 inches, the deepest here.",
+      "best_for": "Old plaster walls, double drywall and tiled walls where other finders fail.",
+      "skip_if": "You have ordinary 1/2-inch drywall; the M210 is half the price.",
+      "pros": ["2.5-in depth, the deepest here", "Reads through plaster, OSB and tile", "Full stud width, no calibration"],
+      "cons": ["$119.00", "Wire detection not listed"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DJPZ9CM9",
+      "name": "Klein Tools ESF150LL Laser Level Stud Finder, Bubble Level, Laser Class 3R",
+      "brand": "Klein Tools", "model": "ESF150LL",
+      "image": "https://m.media-amazon.com/images/I/51YTSkDLXcL._AC_SL1000_.jpg",
+      "price": 63.99, "rating": 3.9, "reviews_count": 165, "bought": "100+/mo",
+      "flag": "Class 3R laser on a handheld; lowest rating we found",
+      "verdict": "A stud finder with a stronger laser than it needs and the weakest rating we found. For about $4 less, the Franklin M210 shows the full stud width and adds wire detection and a bubble level.",
+      "reasons": [
+        "Its laser is Class 3R (up to 5 mW). Class 2 lasers, the usual choice for consumer line lasers, are limited to 1 mW, and 3R is the class where accidental direct eye exposure becomes a real hazard. That's a poor fit for a tool you hold and sweep across walls at head height.",
+        "At 3.9 stars it's the lowest-rated stud finder of the 15 we compared.",
+        "It costs more than the Franklin M210, which is rated 4.6 stars, scans deeper (1.7 in vs 1.5 in) and detects live wires; this listing doesn't mention wire detection."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Which type of stud finder should I buy?", "a": "Multi-sensor finders (Franklin) show the full stud width the moment you press the button. Single-sensor finders find an edge as you slide and need calibrating on an empty spot. Magnets don't find the stud at all: they find the screws or nails holding drywall to it, which is reliable and never needs batteries." },
+    { "q": "Do I need live wire detection?", "a": "It's a useful warning before drilling near outlets and switches, but it only senses live, unshielded AC wiring. It won't find dead wires, low-voltage cable or plastic pipe. Turn the circuit off when in doubt." },
+    { "q": "How deep does a stud finder need to read?", "a": "Standard drywall is 1/2 inch, so 3/4 inch is enough for most homes. Double drywall, plaster or tile over drywall need 1.5 inches or more." },
+    { "q": "Do stud finders work on plaster walls?", "a": "Electronic finders struggle with lath and plaster because the lath strips read like studs. A deep multi-sensor finder like the Franklin MAX handles it better; a strong magnet finding the lath nails also works." },
+    { "q": "How do I confirm I've found a stud?", "a": "Studs are usually 16 inches apart on center. Find two, check the spacing, and drill a small test hole or drive a thin nail where the mount will cover it." }
+  ]
+}

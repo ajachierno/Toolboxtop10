@@ -1,0 +1,193 @@
+{
+  "slug": "torque-wrenches",
+  "title": "The 10 Best Torque Wrenches",
+  "subtitle": "Click, micrometer and digital torque wrenches for lug nuts, spark plugs, bikes and engine work, ranked from live Amazon data.",
+  "intro": "A torque wrench tightens a bolt to a set spec and tells you when to stop, so wheels stay on and threads don't strip. We ranked 10 best-sellers on rating, review volume and features (accuracy of ±3% or better, measuring in both directions, a calibration certificate and a storage case). Pick the drive size by the job: 1/4-inch in inch-pounds for bikes and small fasteners, 3/8-inch for spark plugs and engine work, 1/2-inch for lug nuts and suspension. They run from about $28 for Hairich's 1/2-inch to $110 for TEKTON's micrometer wrench.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 30,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "accuracy_3": 0.35, "dual_direction": 0.25, "certificate": 0.2, "case": 0.2 },
+  "reviews_ceiling": 20000,
+  "spec_fields": [
+    { "key": "drive", "label": "Drive" },
+    { "key": "range", "label": "Range" },
+    { "key": "accuracy", "label": "Accuracy" },
+    { "key": "length", "label": "Length" },
+    { "key": "in_box", "label": "In the box" }
+  ],
+  "table_columns": [
+    { "key": "drive", "label": "Drive" },
+    { "key": "range", "label": "Range" },
+    { "key": "accuracy", "label": "Accuracy" },
+    { "key": "dual_direction", "label": "Both directions", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07MP1Q3W8", "force_overall": true,
+      "name": "LEXIVON Torque Wrench 1/2-Inch Drive Click 10~150 Ft-Lb/13.6~203.5 Nm (LX-183)",
+      "brand": "LEXIVON", "model": "LX-183",
+      "image": "https://m.media-amazon.com/images/I/81CfTqHkt6L._AC_SL1500_.jpg",
+      "price": 44.97, "rating": 4.7, "reviews_count": 12169, "bought": "4K+/mo",
+      "specs": { "drive": "1/2 in", "range": "10-150 ft-lb", "accuracy": "±4%", "length": "17 in", "in_box": "Wrench, calibration certificate" },
+      "features": { "accuracy_3": false, "dual_direction": false, "certificate": true, "case": false },
+      "verdict": "The best-selling torque wrench here: a Taiwan-made 1/2-inch click wrench with a calibration certificate, a high-contrast dual scale that reads in low light, and a corrosion-resistant black finish.",
+      "best_for": "Lug nuts, suspension and most car work.",
+      "skip_if": "You need to torque left-hand threads; it measures clockwise only.",
+      "pros": ["4,000+ sold last month; 12,169 reviews at 4.7 stars", "Calibration certificate with serial number", "Easy-to-read yellow-on-black scale"],
+      "cons": ["±4%, not ±3%", "Clockwise only; no case listed"]
+    },
+    {
+      "asin": "B01M1D17AW",
+      "name": "EPAuto 1/2-inch Drive Click Torque Wrench, 10-150 ft/lb, 13.6-203.5 N/m",
+      "brand": "EPAuto", "model": "ST-010-1",
+      "image": "https://m.media-amazon.com/images/I/81aHYhNRfAL._AC_SL1500_.jpg",
+      "price": 36.87, "rating": 4.6, "reviews_count": 23723, "bought": "3K+/mo",
+      "specs": { "drive": "1/2 in", "range": "10-150 ft-lb", "accuracy": "±4%", "length": "16.25 in", "in_box": "Wrench, 5-in extension, plastic case" },
+      "features": { "accuracy_3": false, "dual_direction": false, "certificate": false, "case": true },
+      "verdict": "The most-reviewed torque wrench here: the same 10-150 ft-lb range as the LEXIVON for about $8 less, with a case and a 5-inch extension in the box. Made in Taiwan.",
+      "best_for": "Rotating tires and doing brakes on a budget.",
+      "skip_if": "You want a calibration certificate; none is listed.",
+      "pros": ["23,723 reviews at 4.6 stars", "Case and 5-inch extension included", "About $8 less than the LEXIVON LX-183"],
+      "cons": ["±4%", "No calibration certificate listed"]
+    },
+    {
+      "asin": "B07M68G49R",
+      "name": "LEXIVON 3/8-Inch Drive Click Torque Wrench 10~80 Ft-Lb/13.6~108.5 Nm (LX-182)",
+      "brand": "LEXIVON", "model": "LX-182",
+      "image": "https://m.media-amazon.com/images/I/81nx6hqW6AL._AC_SL1500_.jpg",
+      "price": 39.97, "rating": 4.5, "reviews_count": 7829, "bought": "3K+/mo",
+      "specs": { "drive": "3/8 in", "range": "10-80 ft-lb", "accuracy": "±4%", "length": "14.76 in", "in_box": "Wrench, calibration certificate" },
+      "features": { "accuracy_3": false, "dual_direction": false, "certificate": true, "case": false },
+      "verdict": "LEXIVON's 3/8-inch wrench for the mid-range jobs a 1/2-inch can't read accurately: spark plugs, valve covers, intake bolts and small suspension parts.",
+      "best_for": "Engine bay work from 10 to 80 ft-lb.",
+      "skip_if": "You mainly do lug nuts; get the 1/2-inch LX-183.",
+      "pros": ["3,000+ sold last month", "Calibration certificate", "14.76 in, fits in engine bays"],
+      "cons": ["±4%", "Clockwise only"]
+    },
+    {
+      "asin": "B0C9BLJYMH", "force_budget": true,
+      "name": "Hairich Torque Wrench 1/2, 10-170ft.lb/13.6-230Nm, ±3% High Precision (6CVB)",
+      "brand": "Hairich", "model": "6CVB",
+      "image": "https://m.media-amazon.com/images/I/716WZzlJZrL._AC_SL1500_.jpg",
+      "price": 27.54, "rating": 4.6, "reviews_count": 1577, "bought": "1K+/mo",
+      "specs": { "drive": "1/2 in", "range": "10-170 ft-lb", "accuracy": "±3%", "length": "16.93 in", "in_box": "Wrench, storage box, calibration certificate" },
+      "features": { "accuracy_3": true, "dual_direction": true, "certificate": true, "case": true },
+      "verdict": "The cheapest wrench here, and on paper one of the best equipped: ±3%, measures in both directions, a 72-tooth ratchet, a calibration certificate and a storage box.",
+      "best_for": "A 1/2-inch wrench on a tight budget, including left-hand threads.",
+      "skip_if": "You want a long-established brand behind it.",
+      "pros": ["$27.54", "±3%, clicks in both directions", "72-tooth ratchet, certificate and box"],
+      "cons": ["Smaller review base than LEXIVON or EPAuto", "Click is quiet under 5 Nm, per the listing"]
+    },
+    {
+      "asin": "B07MKSJ4SG",
+      "name": "LEXIVON 1/2-Inch Drive Click Torque Wrench 25-250 Ft-Lb/33.9-338.9 Nm (LX-184)",
+      "brand": "LEXIVON", "model": "LX-184",
+      "image": "https://m.media-amazon.com/images/I/81dPdAPmPTL._AC_SL1500_.jpg",
+      "price": 69.97, "rating": 4.7, "reviews_count": 8936, "bought": "1K+/mo",
+      "specs": { "drive": "1/2 in", "range": "25-250 ft-lb", "accuracy": "±4%", "length": "24.84 in", "in_box": "Wrench, calibration certificate" },
+      "features": { "accuracy_3": false, "dual_direction": false, "certificate": true, "case": false },
+      "verdict": "The long one: almost 25 inches and up to 250 ft-lb, for truck lug nuts, axle nuts and crank bolts that a 150 ft-lb wrench can't reach.",
+      "best_for": "Trucks, axle nuts and anything over 150 ft-lb.",
+      "skip_if": "Your specs top out at 150 ft-lb; it's less accurate at the low end.",
+      "pros": ["Up to 250 ft-lb", "4.7 stars across 8,936 reviews", "Calibration certificate"],
+      "cons": ["6.4 lbs and 24.84 in long", "25 ft-lb minimum"]
+    },
+    {
+      "asin": "B07M68FY3X",
+      "name": "LEXIVON Inch Pound Torque Wrench 1/4-Inch Drive, 20~200 in-lb/2.26~22.6 Nm (LX-181)",
+      "brand": "LEXIVON", "model": "LX-181",
+      "image": "https://m.media-amazon.com/images/I/81+90yssc9L._AC_SL1500_.jpg",
+      "price": 37.97, "rating": 4.5, "reviews_count": 7760, "bought": "1K+/mo",
+      "specs": { "drive": "1/4 in", "range": "20-200 in-lb", "accuracy": "±4%", "length": "10.75 in", "in_box": "Wrench, calibration certificate" },
+      "features": { "accuracy_3": false, "dual_direction": false, "certificate": true, "case": false },
+      "verdict": "An inch-pound wrench for small fasteners: bike stems and seatposts, carburetor and small engine bolts, and anything specced under 17 ft-lb.",
+      "best_for": "Bicycles, small engines and other low-torque work.",
+      "skip_if": "You work on car parts; most need ft-lb.",
+      "pros": ["20-200 in-lb", "Calibration certificate", "10.75 in, 1.8 lbs"],
+      "cons": ["±4%", "Clockwise only"]
+    },
+    {
+      "asin": "B0F8VRQXRV",
+      "name": "DISEN 9PC Click Torque Wrench Set 1/4\" 3/8\" 1/2\" ±3% Accuracy Storage Box",
+      "brand": "DISEN", "model": "NLJL-9PCS",
+      "image": "https://m.media-amazon.com/images/I/71kJRaU2k+L._AC_SL1500_.jpg",
+      "price": 65.99, "rating": 4.7, "reviews_count": 607, "bought": "1K+/mo",
+      "specs": { "drive": "1/4, 3/8 and 1/2 in", "range": "10-220 in-lb; 5-45 ft-lb; 10-170 ft-lb", "accuracy": "±3%", "length": null, "in_box": "3 wrenches, 6 adapters, case, certificate" },
+      "features": { "accuracy_3": true, "dual_direction": false, "certificate": true, "case": true },
+      "verdict": "All three drive sizes in one case, each ±3% with a certificate, plus extensions, a universal joint and drive adapters. About $66 for what costs over $120 bought as three LEXIVONs.",
+      "best_for": "Covering bikes, engines and wheels in one purchase.",
+      "skip_if": "You only need one size.",
+      "pros": ["1/4, 3/8 and 1/2-inch wrenches", "±3% with certificate", "6 adapters and a case"],
+      "cons": ["3/8-inch tops out at 45 ft-lb", "Smaller review base"]
+    },
+    {
+      "asin": "B07VZZDFL9",
+      "name": "CRAFTSMAN Torque Wrench, 3/8\" Drive Micrometer (CMMT99433)",
+      "brand": "CRAFTSMAN", "model": "CMMT99433",
+      "image": "https://m.media-amazon.com/images/I/51l6H4XLiZL._AC_SL1500_.jpg",
+      "price": 59.98, "rating": 4.6, "reviews_count": 1749, "bought": "400+/mo",
+      "specs": { "drive": "3/8 in", "range": "Up to 100 ft-lb", "accuracy": null, "length": "17.2 in", "in_box": "Wrench, case" },
+      "features": { "accuracy_3": false, "dual_direction": false, "certificate": false, "case": true },
+      "verdict": "A brand-name 3/8-inch micrometer wrench that meets ASME specs, with scales stamped into the housing, a quick lock and a case.",
+      "best_for": "A brand-name 3/8-inch wrench from a store you can walk into.",
+      "skip_if": "You want the accuracy and range spelled out; the listing gives neither.",
+      "pros": ["Meets or exceeds ASME specs", "Stamped scales won't wear off", "Case included"],
+      "cons": ["Accuracy and minimum torque not listed", "No certificate listed"]
+    },
+    {
+      "asin": "B0DJSW28XT",
+      "name": "coobeast 3/8 Drive Digital Torque Wrench (1.5-99.5 Ft-lbs./2-135Nm)",
+      "brand": "coobeast", "model": "3-135NM",
+      "image": "https://m.media-amazon.com/images/I/61YE04b9BvL._AC_SL1500_.jpg",
+      "price": 85.99, "rating": 4.5, "reviews_count": 168, "bought": "600+/mo",
+      "specs": { "drive": "3/8 in", "range": "1.5-99.5 ft-lb", "accuracy": "±2% (clockwise)", "length": "16 in", "in_box": "Wrench" },
+      "features": { "accuracy_3": true, "dual_direction": false, "certificate": false, "case": false },
+      "verdict": "A digital wrench with the tightest accuracy here (±2% clockwise), a backlit color screen, 9 presets, peak and track modes, 5 units, and a buzzer, vibration and lights that warn you as you approach the setting.",
+      "best_for": "Precise work across a wide range, and people who hate reading scales.",
+      "skip_if": "You want a wrench that works without batteries.",
+      "pros": ["±2% clockwise", "1.5 to 99.5 ft-lb in one wrench", "Buzzer, vibration and LED warnings; 1-year warranty"],
+      "cons": ["Needs batteries", "Small review base"]
+    },
+    {
+      "asin": "B0FYHB7XBQ", "premium": true,
+      "name": "TEKTON 3/8 Inch Drive Micrometer Torque Wrench, 10-100 ft-lb, Dual-Direction (TRQ51402)",
+      "brand": "TEKTON", "model": "TRQ51402",
+      "image": "https://m.media-amazon.com/images/I/51RdFMfD8VL._AC_SL1500_.jpg",
+      "price": 110.00, "rating": 4.7, "reviews_count": 89, "bought": "700+/mo",
+      "specs": { "drive": "3/8 in", "range": "10-100 ft-lb", "accuracy": "±3%, both directions", "length": null, "in_box": "Wrench, serialized certificate" },
+      "features": { "accuracy_3": true, "dual_direction": true, "certificate": true, "case": false },
+      "verdict": "Calibrated across the full range to the ISO standard, ±3% in both directions, with a serialized certificate listing the actual test results and a 90-tooth head that keeps 9 teeth engaged so it won't skip.",
+      "best_for": "Engine builders and anyone who wants documented accuracy both ways.",
+      "skip_if": "You torque lug nuts twice a year; a $45 wrench does it.",
+      "pros": ["ISO full-range calibration, ±3% both directions", "Certificate with real test results", "90-tooth head, 4-degree swing"],
+      "cons": ["$110.00", "New listing with 89 reviews"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FTVHQ3WZ",
+      "name": "INGJER Torque Wrench, Mini 20-240in.lb, 1/4 Torque Wrench",
+      "brand": "INGJER", "model": "Mini 1/4 in",
+      "image": "https://m.media-amazon.com/images/I/71YV+6UJHZL._AC_SL1500_.jpg",
+      "price": 16.99, "rating": 4.4, "reviews_count": 570,
+      "flag": "Listing contradicts itself on scale and size",
+      "verdict": "A $17 inch-pound wrench whose listing can't keep its own specs straight. If you need inch-pounds, the LEXIVON LX-181 is $21 more and comes with a calibration certificate from a brand with 7,760 reviews on it.",
+      "reasons": [
+        "It's rated 20-240 inch-pounds, but the listing says it has dual ft-lb and Nm scales. The scale is the one thing you read on a torque wrench, and the listing gives two different answers.",
+        "The spec table lists the wrench as 3.9 inches long, shorter than a 1/4-inch ratchet head plus handle can be. Either the number is wrong or you're getting something other than what's pictured.",
+        "There's no model number anywhere on the listing, so there's no way to match the calibration report to a product line."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Which drive size do I need?", "a": "1/2-inch for lug nuts, suspension and anything over about 80 ft-lb. 3/8-inch for spark plugs and most engine bolts. 1/4-inch, rated in inch-pounds, for bikes and small fasteners. A torque wrench is least accurate at the bottom fifth of its range, so pick one where your spec sits in the middle." },
+    { "q": "Click, micrometer or digital?", "a": "Click wrenches (most of this list) break over with a click when you hit the setting. Micrometer wrenches are click wrenches with a finer, locking scale. Digital wrenches read out the torque on a screen and warn you as you approach it; they're more precise but need batteries." },
+    { "q": "What does ±4% accuracy mean?", "a": "At a 100 ft-lb setting, the wrench may click anywhere from 96 to 104 ft-lb. That's within the ASME standard for click wrenches and fine for wheels and most car work. ±3% or ±2% matters more on engine internals." },
+    { "q": "Do I need a wrench that measures both directions?", "a": "Only for left-hand threads, such as some bike pedals, axle nuts and fan clutches. Most wrenches ratchet both ways but only measure clockwise." },
+    { "q": "How do I keep a torque wrench accurate?", "a": "Wind it back to the lowest setting after use, never use it to break bolts loose, and don't drop it. Have it checked or recalibrated every year or so if you use it often." }
+  ]
+}

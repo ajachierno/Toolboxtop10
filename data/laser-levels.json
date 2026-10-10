@@ -1,0 +1,193 @@
+{
+  "slug": "laser-levels",
+  "title": "The 10 Best Laser Levels",
+  "subtitle": "Self-leveling cross-line and 360-degree laser levels for hanging pictures, cabinets, tile and ceilings, ranked from live Amazon data.",
+  "intro": "A self-leveling laser projects a level (and plumb) line across a wall or a whole room, so you can hang a row of cabinets or tile a backsplash without a 4-foot level and a pencil. We ranked 10 best-sellers on rating, review volume and features (a green beam, full 360-degree lines, a rechargeable battery, a pulse mode for outdoor detectors and a tripod in the box). Cross-line lasers cover one wall at a time; 3x360 lasers wrap the whole room. They run from about $35 to $499 for DEWALT's 3x360 green kit.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 40,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "green": 0.25, "plane_360": 0.25, "rechargeable": 0.2, "pulse": 0.15, "tripod": 0.15 },
+  "reviews_ceiling": 10000,
+  "spec_fields": [
+    { "key": "lines", "label": "Lines" },
+    { "key": "beam", "label": "Beam" },
+    { "key": "accuracy", "label": "Accuracy" },
+    { "key": "power", "label": "Power" },
+    { "key": "in_box", "label": "In the box" }
+  ],
+  "table_columns": [
+    { "key": "lines", "label": "Lines" },
+    { "key": "beam", "label": "Beam" },
+    { "key": "accuracy", "label": "Accuracy" },
+    { "key": "tripod", "label": "Tripod", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B009O94W3E", "force_overall": true,
+      "name": "DEWALT Line Laser, Self-Leveling, Cross Line, Red Beam (DW088K)",
+      "brand": "DEWALT", "model": "DW088K",
+      "image": "https://m.media-amazon.com/images/I/81NzHSh+UsL._AC_SL1500_.jpg",
+      "price": 136.57, "rating": 4.7, "reviews_count": 9127, "bought": "600+/mo",
+      "specs": { "lines": "Cross line", "beam": "Red", "accuracy": "About 1/8 in at 30 ft", "power": null, "in_box": "Laser, magnetic bracket, case" },
+      "features": { "green": false, "plane_360": false, "rechargeable": false, "pulse": true, "tripod": false },
+      "verdict": "The highest-rated and most-reviewed laser here: a tough cross-line laser with a 1-meter drop rating, IP54 sealing, a built-in magnetic bracket, 1/8-inch accuracy at 30 feet and a 3-year warranty. Works with a detector out to 165 feet.",
+      "best_for": "Cabinets, tile and trim where a laser has to survive a jobsite.",
+      "skip_if": "You work in bright rooms; green beams are easier to see.",
+      "pros": ["9,127 reviews at 4.7 stars", "1-meter drop rating, IP54", "3-year warranty; detector range to 165 ft"],
+      "cons": ["Red beam", "Tripod sold separately"]
+    },
+    {
+      "asin": "B0FL7BCX8Z",
+      "name": "Lusweimi Laser Level with 50\" Tripod, Self Leveling Green Cross Line Laser, 4 AA Batteries & Pouch",
+      "brand": "Lusweimi", "model": "Green cross line",
+      "image": "https://m.media-amazon.com/images/I/718J2l8cAcL._AC_SL1500_.jpg",
+      "price": 34.99, "rating": 4.4, "reviews_count": 4648, "bought": "2K+/mo",
+      "specs": { "lines": "Cross line", "beam": "Green", "accuracy": "±1/9 in at 33 ft", "power": "2 AA (4 included)", "in_box": "50-in tripod, 4 AA batteries, pouch" },
+      "features": { "green": true, "plane_360": false, "rechargeable": false, "pulse": false, "tripod": true },
+      "verdict": "The cheapest laser here, and it still has a green beam, ±1/9-inch accuracy at 33 feet, a tilt alarm and a 50-inch tripod.",
+      "best_for": "Hanging pictures and shelves for under $35.",
+      "skip_if": "You need to work outdoors; no pulse mode is listed.",
+      "pros": ["$34.99 with a 50-inch tripod", "Green beam, ±1/9 in at 33 ft", "Spare batteries included"],
+      "cons": ["No pulse mode", "Model number not listed"]
+    },
+    {
+      "asin": "B0GTNZBMFH",
+      "name": "RockSeed Cross Line Laser Level, Self-Leveling, Rotatable 360 Degree, 40 Inch Tripod (LV1GT)",
+      "brand": "RockSeed", "model": "LV1GT",
+      "image": "https://m.media-amazon.com/images/I/61ID7mjX2NL._AC_SL1500_.jpg",
+      "price": 35.99, "rating": 4.4, "reviews_count": 6167, "bought": "3K+/mo",
+      "specs": { "lines": "Cross line, 110° fan", "beam": "Red", "accuracy": "±1/8 in at 30 ft", "power": "Battery included", "in_box": "40-in tripod, battery, pouch" },
+      "features": { "green": false, "plane_360": false, "rechargeable": false, "pulse": false, "tripod": true },
+      "verdict": "A best-selling budget cross-line laser with a 40-inch tripod, a rotating base, IP54 sealing and a 2-year service promise.",
+      "best_for": "Indoor DIY at the lowest price.",
+      "skip_if": "You want a green beam; the Lusweimi has one for a dollar less.",
+      "pros": ["6,167 reviews; 3,000+ sold last month", "±1/8 in at 30 ft", "IP54, tripod included"],
+      "cons": ["Red beam", "No pulse mode"]
+    },
+    {
+      "asin": "B0CFF83CWW",
+      "name": "Fanttik D2 Pocket Green Laser Level for Picture Hanging and Home DIY",
+      "brand": "Fanttik", "model": "D2",
+      "image": "https://m.media-amazon.com/images/I/71ZyOY348mL._AC_SL1500_.jpg",
+      "price": 49.97, "rating": 4.5, "reviews_count": 1273, "bought": "5K+/mo",
+      "specs": { "lines": "Cross line", "beam": "Green", "accuracy": null, "power": "2,200 mAh USB-C, about 10 hr", "in_box": "Magnetic bracket, USB-C cable, pouch" },
+      "features": { "green": true, "plane_360": false, "rechargeable": true, "pulse": true, "tripod": false },
+      "verdict": "A pocket-size 0.56 lb green laser that charges by USB-C and runs about 10 hours, with a magnetic bracket and a pulse mode that reaches 164 feet with a receiver.",
+      "best_for": "Homeowners who want a small, rechargeable green laser.",
+      "skip_if": "You need a tripod; it comes with a magnetic bracket only.",
+      "pros": ["USB-C rechargeable, about 10 hours", "Green beam with pulse mode", "5,000+ sold last month"],
+      "cons": ["Accuracy not listed", "No tripod"]
+    },
+    {
+      "asin": "B0DX1T6D1M",
+      "name": "Motovera Self Leveling Laser Level 100ft, Green Cross Line with Tripod, Pulse Function, IP54 (LL-T2)",
+      "brand": "Motovera", "model": "LL-T2",
+      "image": "https://m.media-amazon.com/images/I/716Z-edOB8L._AC_SL1500_.jpg",
+      "price": 37.99, "rating": 4.2, "reviews_count": 4162, "bought": "6K+/mo",
+      "specs": { "lines": "Cross line", "beam": "Green", "accuracy": null, "power": "2 AA (included)", "in_box": "Tripod, 2 AA batteries, carry bag" },
+      "features": { "green": true, "plane_360": false, "rechargeable": false, "pulse": true, "tripod": true },
+      "verdict": "The best-selling laser here: a green cross-line with four brightness settings, a pulse mode, IP54 sealing, a 30-inch drop rating, a tripod and a 24-month warranty.",
+      "best_for": "A green laser with tripod and pulse mode under $40.",
+      "skip_if": "Rating matters most; at 4.2 stars it's the lowest-rated pick.",
+      "pros": ["6,000+ sold last month", "Green beam, pulse mode, 4 brightness levels", "Tripod and 24-month warranty"],
+      "cons": ["4.2 stars", "Accuracy figure not shown on the listing"]
+    },
+    {
+      "asin": "B09SKJSXRC",
+      "name": "IKOVWUK Laser Level with 12 Green Lines, 3x360°, Built-in 5200 mAh Li-ion Battery",
+      "brand": "IKOVWUK", "model": "3x360",
+      "image": "https://m.media-amazon.com/images/I/81-UzcxrrBL._AC_SL1500_.jpg",
+      "price": 69.99, "rating": 4.6, "reviews_count": 2087, "bought": "500+/mo",
+      "specs": { "lines": "3 x 360° (12 lines)", "beam": "Green", "accuracy": null, "power": "5,200 mAh, about 8 hr", "in_box": "Battery, charger, remote" },
+      "features": { "green": true, "plane_360": true, "rechargeable": true, "pulse": true, "tripod": false },
+      "verdict": "The best-rated budget 3x360: one horizontal and two vertical 360-degree green planes that wrap the room, a remote, pulse mode, a 5,200 mAh battery and an 18-month warranty.",
+      "best_for": "Whole-room layout (ceilings, chair rails, wall-to-wall tile) on a budget.",
+      "skip_if": "You only hang things on one wall; a cross-line laser is simpler.",
+      "pros": ["3x360 green lines", "4.6 stars across 2,087 reviews", "Remote, pulse mode, 18-month warranty"],
+      "cons": ["Accuracy not listed", "No tripod"]
+    },
+    {
+      "asin": "B0F626NYWM",
+      "name": "Alloyman Laser Level with Tripod, 4x360° Self Leveling, 16 Green Lines (ALT16-20)",
+      "brand": "Alloyman", "model": "ALT16-20",
+      "image": "https://m.media-amazon.com/images/I/71NtcqqedYL._AC_SL1500_.jpg",
+      "price": 69.99, "rating": 4.3, "reviews_count": 851, "bought": "2K+/mo",
+      "specs": { "lines": "4 x 360° (16 lines)", "beam": "Green", "accuracy": null, "power": "2 x 4V Li-ion, up to 12 hr", "in_box": "Tripod, 2 batteries, charger, remote, magnetic stand, target plate" },
+      "features": { "green": true, "plane_360": true, "rechargeable": true, "pulse": true, "tripod": true },
+      "verdict": "The most complete kit here: 4x360 green lines (including a floor plane), two rechargeable batteries, a tripod, a magnetic swivel stand, a remote and a target plate, for the same price as the IKOVWUK.",
+      "best_for": "Floor and ceiling layout with everything in the box.",
+      "skip_if": "You want a stronger track record; it's 4.3 stars.",
+      "pros": ["4x360 lines with floor plane", "Tripod, magnetic stand and remote", "Two batteries, up to 12 hours"],
+      "cons": ["4.3 stars", "12-month warranty"]
+    },
+    {
+      "asin": "B0CKKK3CK1",
+      "name": "BOSCH GLL50-20G 50 Ft Green-Beam Self-Leveling Cross-Line Laser Level",
+      "brand": "BOSCH", "model": "GLL50-20G",
+      "image": "https://m.media-amazon.com/images/I/51rnhxCaq9L._AC_SL1000_.jpg",
+      "price": 83.59, "rating": 4.4, "reviews_count": 398, "bought": "1K+/mo",
+      "specs": { "lines": "Cross line", "beam": "Green", "accuracy": "5/16 in at 30 ft", "power": "2 AA or Bosch 3.7V battery", "in_box": "Magnetic mount, 2 AA batteries, pouch" },
+      "features": { "green": true, "plane_360": false, "rechargeable": false, "pulse": false, "tripod": false },
+      "verdict": "A brand-name green cross-line laser with IP55 sealing, a magnetic mount and Bosch's pendulum that blinks when out of level and locks for transport. Runs on AAs or an optional Bosch battery.",
+      "best_for": "A compact brand-name green laser for interior work.",
+      "skip_if": "Accuracy matters; 5/16 in at 30 ft is the loosest figure listed here.",
+      "pros": ["IP55, the best sealing after DEWALT's IP65", "Green beam", "AA or rechargeable Bosch battery"],
+      "cons": ["5/16 in at 30 ft accuracy", "50 ft range"]
+    },
+    {
+      "asin": "B0CMDHC899",
+      "name": "Klein Tools 93CPLG Compact Self-Leveling Laser Level, 100-Foot",
+      "brand": "Klein Tools", "model": "93CPLG",
+      "image": "https://m.media-amazon.com/images/I/71vqhO0IznL._AC_SL1500_.jpg",
+      "price": 199.98, "rating": 4.5, "reviews_count": 456, "bought": "700+/mo",
+      "specs": { "lines": "3 x 360°", "beam": "Green", "accuracy": null, "power": "Built-in rechargeable, 6+ hr", "in_box": "Laser" },
+      "features": { "green": true, "plane_360": true, "rechargeable": true, "pulse": false, "tripod": false },
+      "verdict": "A compact brand-name 3x360 green laser from Klein with a 100-foot range, a built-in rechargeable battery and a tilt mode for angled lines.",
+      "best_for": "Electricians and remodelers who want a brand-name 3x360 for well under DEWALT's price.",
+      "skip_if": "You'd rather swap batteries; this one is built in.",
+      "pros": ["3x360 green planes", "100-ft range", "Tilt mode"],
+      "cons": ["Non-removable battery", "Accuracy and warranty not listed"]
+    },
+    {
+      "asin": "B017LTFSSG", "premium": true,
+      "name": "DEWALT Laser Level 360 Self Leveling, 3 Way Green, 12V MAX with 2.0Ah Battery, Charger and Case (DW089LG)",
+      "brand": "DEWALT", "model": "DW089LG",
+      "image": "https://m.media-amazon.com/images/I/818lY0I1TdL._AC_SL1500_.jpg",
+      "price": 499.00, "rating": 4.6, "reviews_count": 3666, "bought": "1K+/mo",
+      "specs": { "lines": "3 x 360°", "beam": "Green", "accuracy": "±3 mm at 10 m (about 1/8 in at 33 ft)", "power": "DEWALT 12V MAX 2.0Ah (included)", "in_box": "Battery, charger, case" },
+      "features": { "green": true, "plane_360": true, "rechargeable": true, "pulse": true, "tripod": false },
+      "verdict": "The pro's 3x360: green planes, ±3 mm at 10 m, IP65 sealing, a locking pendulum, full-time pulse mode for a detector, a magnetic bracket with two thread sizes and a 3-year warranty. Runs on DEWALT 12V batteries.",
+      "best_for": "Contractors laying out whole rooms every day.",
+      "skip_if": "You're a homeowner; a $70 3x360 covers occasional jobs.",
+      "pros": ["±3 mm at 10 m with 3x360 green planes", "IP65 and locking pendulum", "12V MAX battery and charger; 3-year warranty"],
+      "cons": ["$499.00", "Detector sold separately"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B07WP4165D",
+      "name": "AikTryee Laser Level Line Tool, Cross Line Laser Leveler Beam Tool with 8ft Tape",
+      "brand": "AikTryee", "model": "Laser line tool",
+      "image": "https://m.media-amazon.com/images/I/71HOVTfoB4L._AC_SL1500_.jpg",
+      "price": 9.95, "rating": 4.3, "reviews_count": 16135, "bought": "7K+/mo",
+      "flag": "Not self-leveling; you level it by eye",
+      "verdict": "A $10 laser pointer with bubble vials, sold as a laser level. For $25 more, the Lusweimi actually levels itself and lists its accuracy.",
+      "reasons": [
+        "It isn't self-leveling. You line up a bubble vial by eye while it's stuck to the wall, so the line is only as level as your read of the bubble, which is exactly the error a laser level is supposed to remove.",
+        "The listing gives no accuracy figure at all, even though it's sold for cabinets and tile, the jobs where 1/8 inch matters.",
+        "It projects the line from where it's mounted on the wall, so it can't throw a level line across a room or onto an opposite wall like the self-leveling lasers above."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Cross-line or 360-degree?", "a": "A cross-line laser projects one horizontal and one vertical line on the wall in front of it, which covers pictures, shelves and a run of cabinets. A 3x360 laser wraps level and plumb lines around the whole room, which helps with ceilings, wall-to-wall tile and framing." },
+    { "q": "Green or red beam?", "a": "Green beams look about 2 to 4 times brighter to the eye, so they're easier to see in lit rooms and at distance. Red lasers cost less and run longer on batteries." },
+    { "q": "What does self-leveling mean?", "a": "A pendulum inside swings the laser level by itself within about 3-4 degrees. If you set it on an uneven surface beyond that, it blinks to warn you. Lock the pendulum before moving it." },
+    { "q": "What is pulse mode?", "a": "Outdoors or in bright sun you often can't see the beam. Pulse mode makes the laser flash at a rate a laser detector (sold separately) can pick up, extending the range to 150 feet or more." },
+    { "q": "How accurate does a laser level need to be?", "a": "About 1/8 inch at 30 feet is the common standard and fine for cabinets and tile. Many budget lasers don't publish an accuracy figure at all; check one against a known level line before relying on it." }
+  ]
+}

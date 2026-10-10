@@ -23,7 +23,13 @@
       "count": 10,
       "power": "wireless"
     },
-    {"slug": "cordless-hammer-drills", "title": "Cordless Hammer Drills", "blurb": "10 best battery-powered 1/2-inch hammer drills for wood, metal and masonry anchor holes.", "count": 10, "power": "wireless"},
+    {
+      "slug": "cordless-hammer-drills",
+      "title": "Cordless Hammer Drills",
+      "blurb": "10 best battery-powered 1/2-inch hammer drills for wood, metal and masonry anchor holes.",
+      "count": 10,
+      "power": "wireless"
+    },
     {
       "slug": "cordless-impact-drivers",
       "title": "Cordless Impact Drivers",
@@ -31,7 +37,13 @@
       "count": 10,
       "power": "wireless"
     },
-    {"slug": "cordless-screwdrivers", "title": "Cordless Screwdrivers", "blurb": "10 best rechargeable power screwdrivers for furniture, hardware and small repairs.", "count": 10, "power": "wireless"},
+    {
+      "slug": "cordless-screwdrivers",
+      "title": "Cordless Screwdrivers",
+      "blurb": "10 best rechargeable power screwdrivers for furniture, hardware and small repairs.",
+      "count": 10,
+      "power": "wireless"
+    },
     {
       "slug": "cordless-circular-saws",
       "title": "Cordless Circular Saws",
@@ -46,7 +58,13 @@
       "count": 10,
       "power": "wired"
     },
-    {"slug": "corded-hammer-drills", "title": "Corded Hammer Drills", "blurb": "10 best plug-in 1/2-inch hammer drills for brick, block and concrete anchor holes.", "count": 10, "power": "wired"},
+    {
+      "slug": "corded-hammer-drills",
+      "title": "Corded Hammer Drills",
+      "blurb": "10 best plug-in 1/2-inch hammer drills for brick, block and concrete anchor holes.",
+      "count": 10,
+      "power": "wired"
+    },
     {
       "slug": "corded-impact-wrenches",
       "title": "Corded Impact Wrenches",
@@ -96,8 +114,20 @@
       "count": 10,
       "power": "storage"
     },
-    {"slug": "rolling-tool-carts", "title": "Rolling Tool Carts", "blurb": "10 best service carts, mechanic carts and power-tool carts for the garage and shop.", "count": 10, "power": "storage"},
-    {"slug": "tool-cabinets", "title": "Tool Cabinets", "blurb": "10 best locking metal garage cabinets with shelves, drawers and pegboard.", "count": 10, "power": "storage"},
+    {
+      "slug": "rolling-tool-carts",
+      "title": "Rolling Tool Carts",
+      "blurb": "10 best service carts, mechanic carts and power-tool carts for the garage and shop.",
+      "count": 10,
+      "power": "storage"
+    },
+    {
+      "slug": "tool-cabinets",
+      "title": "Tool Cabinets",
+      "blurb": "10 best locking metal garage cabinets with shelves, drawers and pegboard.",
+      "count": 10,
+      "power": "storage"
+    },
     {
       "slug": "portable-tool-boxes",
       "title": "Portable Tool Boxes",
@@ -133,11 +163,42 @@
       "count": 10,
       "power": "wired"
     },
-    {"slug": "corded-belt-sanders", "title": "Corded Belt Sanders", "blurb": "10 best corded belt sanders, from light 3x18s to 4x24s for flattening big surfaces.", "count": 10, "power": "wired"},
-    {"slug": "corded-detail-sanders", "title": "Corded Detail Sanders", "blurb": "10 best mouse and detail sanders for corners, trim and furniture.", "count": 10, "power": "wired"},
-    {"slug": "bench-grinders", "title": "Bench Grinders", "blurb": "10 best 6- and 8-inch bench grinders for sharpening, shaping and wire-brushing.", "count": 10, "power": "wired"},
-    {"slug": "drill-presses", "title": "Drill Presses", "blurb": "10 best benchtop drill presses, 8-inch to 12-inch, for square, repeatable holes.", "count": 10, "power": "wired"},
-    {"slug": "corded-routers", "title": "Corded Routers", "blurb": "10 best corded routers: compact trim routers, fixed/plunge combo kits and full-size plunge routers.", "count": 10, "power": "wired"},
+    {
+      "slug": "corded-belt-sanders",
+      "title": "Corded Belt Sanders",
+      "blurb": "10 best corded belt sanders, from light 3x18s to 4x24s for flattening big surfaces.",
+      "count": 10,
+      "power": "wired"
+    },
+    {
+      "slug": "corded-detail-sanders",
+      "title": "Corded Detail Sanders",
+      "blurb": "10 best mouse and detail sanders for corners, trim and furniture.",
+      "count": 10,
+      "power": "wired"
+    },
+    {
+      "slug": "bench-grinders",
+      "title": "Bench Grinders",
+      "blurb": "10 best 6- and 8-inch bench grinders for sharpening, shaping and wire-brushing.",
+      "count": 10,
+      "power": "wired"
+    },
+    {
+      "slug": "drill-presses",
+      "title": "Drill Presses",
+      "blurb": "10 best benchtop drill presses, 8-inch to 12-inch, for square, repeatable holes.",
+      "count": 10,
+      "power": "wired"
+    },
+    {"slug": "corded-rotary-tools", "title": "Corded Rotary Tools", "blurb": "10 best corded rotary tools, from Dremel to budget kits with flex shafts.", "count": 10, "power": "wired"},
+    {
+      "slug": "corded-routers",
+      "title": "Corded Routers",
+      "blurb": "10 best corded routers: compact trim routers, fixed/plunge combo kits and full-size plunge routers.",
+      "count": 10,
+      "power": "wired"
+    },
     {
       "slug": "corded-jigsaws",
       "title": "Corded Jigsaws",
@@ -157,8 +218,10 @@
       "title": "Tape Measures",
       "blurb": "10 best retractable steel tape measures — long standout, magnetic hooks, auto-lock, and easy-read fractions.",
       "count": 10,
-      "power": "hand"
+      "power": "measure"
     },
+    {"slug": "laser-levels", "title": "Laser Levels", "blurb": "10 best self-leveling cross-line and 360-degree laser levels.", "count": 10, "power": "measure"},
+    {"slug": "stud-finders", "title": "Stud Finders", "blurb": "10 best multi-sensor, edge-finding and magnetic stud finders.", "count": 10, "power": "measure"},
     {
       "slug": "screwdrivers",
       "title": "Screwdriver Sets",
@@ -201,7 +264,15 @@
       "count": 10,
       "power": "wireless"
     },
-    {"slug": "cordless-routers", "title": "Cordless Routers", "blurb": "10 best battery-powered routers for edges, hinges and laminate, plus one cordless plunge router.", "count": 10, "power": "wireless"},
+    {
+      "slug": "cordless-routers",
+      "title": "Cordless Routers",
+      "blurb": "10 best battery-powered routers for edges, hinges and laminate, plus one cordless plunge router.",
+      "count": 10,
+      "power": "wireless"
+    },
+    {"slug": "cordless-rotary-tools", "title": "Cordless Rotary Tools", "blurb": "10 best cordless rotary tools, from 12V Dremels to USB pen-size tools.", "count": 10, "power": "wireless"},
+    {"slug": "cordless-ratchets", "title": "Cordless Ratchets", "blurb": "10 best 12V and 20V cordless ratchets for engine bays and tight spaces.", "count": 10, "power": "wireless"},
     {
       "slug": "socket-sets",
       "title": "Socket Sets",
@@ -209,6 +280,9 @@
       "count": 10,
       "power": "hand"
     },
+    {"slug": "torque-wrenches", "title": "Torque Wrenches", "blurb": "10 best click, micrometer and digital torque wrenches for wheels, engines and bikes.", "count": 10, "power": "hand"},
+    {"slug": "bench-vises", "title": "Bench Vises", "blurb": "10 best bench vises, from 4-1/2-inch home vises to 8-inch shop vises.", "count": 10, "power": "hand"},
+    {"slug": "bar-clamps", "title": "Bar Clamps", "blurb": "10 best quick-grip, F-style and parallel bar clamp sets for glue-ups and assembly.", "count": 10, "power": "hand"},
     {
       "slug": "cordless-impact-wrenches",
       "title": "Cordless Impact Wrenches",
@@ -356,8 +430,30 @@
       "count": 10,
       "power": "garage"
     },
-    {"slug": "air-compressors", "title": "Air Compressors", "blurb": "10 best pancake, portable and upright shop compressors for nailers, tires and air tools.", "count": 10, "power": "air"},
-    {"slug": "pneumatic-brad-nailers", "title": "Pneumatic Brad Nailers", "blurb": "10 best 18-gauge air brad nailers for trim, molding and furniture.", "count": 10, "power": "air"},
-    {"slug": "pneumatic-framing-nailers", "title": "Pneumatic Framing Nailers", "blurb": "10 best air framing nailers for studs, decks, sheathing and fencing.", "count": 10, "power": "air"}
+    {"slug": "floor-jacks", "title": "Floor Jacks", "blurb": "10 best 2- and 3-ton floor jacks, low-profile and high-lift.", "count": 10, "power": "garage"},
+    {"slug": "jack-stands", "title": "Jack Stands", "blurb": "10 best jack stands, from 2-ton pairs to 10-ton shop stands.", "count": 10, "power": "garage"},
+    {"slug": "obd2-scanners", "title": "OBD2 Scanners", "blurb": "10 best code readers, Bluetooth adapters and ABS/SRS scan tools.", "count": 10, "power": "garage"},
+    {"slug": "jump-starters", "title": "Jump Starters", "blurb": "10 best portable lithium and AGM jump starters for cars and trucks.", "count": 10, "power": "garage"},
+    {
+      "slug": "air-compressors",
+      "title": "Air Compressors",
+      "blurb": "10 best pancake, portable and upright shop compressors for nailers, tires and air tools.",
+      "count": 10,
+      "power": "air"
+    },
+    {
+      "slug": "pneumatic-brad-nailers",
+      "title": "Pneumatic Brad Nailers",
+      "blurb": "10 best 18-gauge air brad nailers for trim, molding and furniture.",
+      "count": 10,
+      "power": "air"
+    },
+    {
+      "slug": "pneumatic-framing-nailers",
+      "title": "Pneumatic Framing Nailers",
+      "blurb": "10 best air framing nailers for studs, decks, sheathing and fencing.",
+      "count": 10,
+      "power": "air"
+    }
   ]
 }
