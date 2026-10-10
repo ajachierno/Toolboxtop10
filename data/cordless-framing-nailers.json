@@ -1,0 +1,458 @@
+{
+  "slug": "cordless-framing-nailers",
+  "title": "The 10 Best Cordless Framing Nailers",
+  "subtitle": "Battery-powered framing nailers for decks, sheds and remodels, ranked from live Amazon data.",
+  "intro": "Cordless framing nailers drive 2 to 3-1/2 inch nails without a compressor, hose or gas cartridge. We ranked 10 best-sellers from DEWALT, Milwaukee, Makita, Metabo HPT and CRAFTSMAN on rating, review volume and features (a battery in the box, a light tool body and a warranty of three years or more). The first decision is the nail angle: 21° nailers take plastic-strip nails, 30° nailers take paper-tape nails.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 300,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "kit": 0.4,
+    "light": 0.3,
+    "long_warranty": 0.3
+  },
+  "reviews_ceiling": 400,
+  "spec_fields": [
+    {
+      "key": "angle",
+      "label": "Nail angle"
+    },
+    {
+      "key": "nails",
+      "label": "Nail range"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "platform",
+      "label": "Battery platform"
+    },
+    {
+      "key": "included",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "angle",
+      "label": "Angle"
+    },
+    {
+      "key": "platform",
+      "label": "Platform"
+    },
+    {
+      "key": "kit",
+      "label": "Battery included",
+      "type": "bool"
+    },
+    {
+      "key": "long_warranty",
+      "label": "3+ yr warranty",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0D45VCFCS",
+      "name": "DEWALT 20V MAX 30-Degree Cordless Framing Nailer, Tool Only (DCN930B)",
+      "brand": "DEWALT",
+      "model": "DCN930B",
+      "image": "https://m.media-amazon.com/images/I/51t9dnRiUeL._AC_SL1000_.jpg",
+      "price": 362.42,
+      "rating": 4.4,
+      "reviews_count": 158,
+      "bought": "600+/mo",
+      "specs": {
+        "angle": "30°",
+        "nails": null,
+        "weight": "9.9 lb",
+        "platform": "DEWALT 20V MAX",
+        "included": "Nailer only"
+      },
+      "features": {
+        "kit": false,
+        "light": false,
+        "long_warranty": false
+      },
+      "verdict": "The best seller here: DEWALT's current 30-degree framing nailer as a bare tool for 20V MAX owners. The listing itself says almost nothing beyond the model and weight.",
+      "best_for": "DEWALT 20V MAX owners who frame with 30-degree paper-tape nails.",
+      "skip_if": "You need a battery; this is the bare tool.",
+      "pros": [
+        "600+ sold last month, the most here",
+        "Uses 30° paper-tape nails, common at lumber yards",
+        "9.9 lb"
+      ],
+      "cons": [
+        "Bare tool",
+        "Listing gives no nail range or features"
+      ]
+    },
+    {
+      "asin": "B0D45SJFKK",
+      "name": "DEWALT 20V MAX 21-Degree Cordless Framing Nailer, Tool Only (DCN920B)",
+      "brand": "DEWALT",
+      "model": "DCN920B",
+      "image": "https://m.media-amazon.com/images/I/51djtDhbRML._AC_SL1000_.jpg",
+      "price": 361.19,
+      "rating": 4.1,
+      "reviews_count": 85,
+      "bought": "400+/mo",
+      "specs": {
+        "angle": "21°",
+        "nails": null,
+        "weight": "10.05 lb",
+        "platform": "DEWALT 20V MAX",
+        "included": "Nailer only"
+      },
+      "features": {
+        "kit": false,
+        "light": false,
+        "long_warranty": false
+      },
+      "verdict": "The 21-degree version of DEWALT's framing nailer, for plastic-collated full round head nails. It sells well but rates lower than the 30-degree model.",
+      "best_for": "DEWALT owners whose local codes or habits call for full round head 21° nails.",
+      "skip_if": "You want the best-rated DEWALT; the 30° DCN930B rates higher.",
+      "pros": [
+        "400+ sold last month",
+        "Takes 21° plastic-strip nails",
+        "DEWALT 20V MAX battery"
+      ],
+      "cons": [
+        "4.1 stars, lowest of the DEWALTs here",
+        "Bare tool",
+        "10.05 lb"
+      ]
+    },
+    {
+      "asin": "B0B9T45MH8",
+      "name": "CRAFTSMAN V20 Cordless Framing Nailer, 21 Degree, up to 3-1/4 inch Nails, Tool Only (CMCN621PLB)",
+      "brand": "CRAFTSMAN",
+      "model": "CMCN621PLB",
+      "image": "https://m.media-amazon.com/images/I/61PV5icSuRL._AC_SL1500_.jpg",
+      "price": 299.0,
+      "rating": 4.5,
+      "reviews_count": 170,
+      "bought": "50+/mo",
+      "specs": {
+        "angle": "21°",
+        "nails": "Up to 3-1/4 in",
+        "weight": "10.75 lb",
+        "platform": "CRAFTSMAN V20",
+        "included": "Nailer only"
+      },
+      "features": {
+        "kit": false,
+        "light": false,
+        "long_warranty": true
+      },
+      "verdict": "A 21-degree framing nailer for CRAFTSMAN V20 owners that the listing says will drive 3-1/4 inch round head nails into LVL. It has tool-free depth adjustment, a rafter hook and a 3-year warranty.",
+      "best_for": "CRAFTSMAN V20 owners building decks, sheds and additions.",
+      "skip_if": "You need 3-1/2 inch nails; it tops out at 3-1/4.",
+      "pros": [
+        "Drives up to 3-1/4 in nails into LVL",
+        "Tool-free depth adjustment",
+        "3-year limited warranty"
+      ],
+      "cons": [
+        "Heaviest here at 10.75 lb",
+        "Bare tool"
+      ]
+    },
+    {
+      "asin": "B0DV6M6Y6F",
+      "name": "Metabo HPT 18V MultiVolt Cordless 21° Framing Nailer Kit (NR1890DRA)",
+      "brand": "Metabo HPT",
+      "model": "NR1890DRA",
+      "image": "https://m.media-amazon.com/images/I/714zXA-dD-L._AC_SL1500_.jpg",
+      "price": 459.0,
+      "rating": 4.2,
+      "reviews_count": 90,
+      "bought": "100+/mo",
+      "specs": {
+        "angle": "21°",
+        "nails": "Up to 3-1/2 in",
+        "weight": "8.4 lb",
+        "platform": "Metabo HPT 18V/MultiVolt",
+        "included": "4.0Ah battery, charger, bag"
+      },
+      "features": {
+        "kit": true,
+        "light": true,
+        "long_warranty": true
+      },
+      "verdict": "A complete kit with a 4.0Ah battery and charger. The listing quotes 120 joules of driving power, about 500 nails per charge and 8.4 lb without the battery, and Metabo HPT covers the tool body for life.",
+      "best_for": "Framers buying into a cordless nailer from scratch who want the lightest tool here.",
+      "skip_if": "You already own another brand's batteries; this runs on Metabo HPT 18V/MultiVolt.",
+      "pros": [
+        "Battery and charger included",
+        "8.4 lb, among the lightest here",
+        "Lifetime tool warranty"
+      ],
+      "cons": [
+        "About 500 nails per charge on the included battery",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B08C5LCZLP",
+      "name": "Milwaukee M18 FUEL 30 Degree Framing Nailer, Tool Only (2745-20)",
+      "brand": "Milwaukee",
+      "model": "2745-20",
+      "image": "https://m.media-amazon.com/images/I/51M3wXHT5jL._AC_SX522_.jpg",
+      "price": 440.0,
+      "rating": 4.6,
+      "reviews_count": 396,
+      "specs": {
+        "angle": "30°",
+        "nails": null,
+        "weight": null,
+        "platform": "Milwaukee M18",
+        "included": "Nailer only"
+      },
+      "features": {
+        "kit": false,
+        "light": false,
+        "long_warranty": false
+      },
+      "verdict": "The most-reviewed cordless framing nailer here, sold under the Milwaukee brand. The listing is bare: the model number and not much else.",
+      "best_for": "Milwaukee M18 owners who frame with 30° nails.",
+      "skip_if": "You want specs on the listing before you buy; this one has almost none.",
+      "pros": [
+        "396 reviews, the most here",
+        "4.6 stars",
+        "M18 FUEL line"
+      ],
+      "cons": [
+        "Bare tool",
+        "Listing lists no weight or nail range"
+      ]
+    },
+    {
+      "asin": "B0FBXC9L4G",
+      "name": "CRAFTSMAN V20 Brushless Cordless 30° Framing Nailer, Tool Only (CMCN630PTB)",
+      "brand": "CRAFTSMAN",
+      "model": "CMCN630PTB",
+      "image": "https://m.media-amazon.com/images/I/71uwytIFAJL._AC_SL1500_.jpg",
+      "price": 299.0,
+      "rating": 4.4,
+      "reviews_count": 48,
+      "bought": "50+/mo",
+      "specs": {
+        "angle": "30°",
+        "nails": null,
+        "weight": "9.83 lb",
+        "platform": "CRAFTSMAN V20",
+        "included": "Nailer only"
+      },
+      "features": {
+        "kit": false,
+        "light": false,
+        "long_warranty": false
+      },
+      "verdict": "CRAFTSMAN's brushless 30-degree framing nailer, with tool-free depth adjustment, a rapid sequential firing mode and an adjustable rafter hook.",
+      "best_for": "CRAFTSMAN V20 owners who use 30° paper-tape nails.",
+      "skip_if": "You need 21° plastic-strip nails; get the CMCN621PLB instead.",
+      "pros": [
+        "Brushless motor",
+        "Tool-free depth adjustment",
+        "9.83 lb"
+      ],
+      "cons": [
+        "Bare tool",
+        "Fewer reviews than the 21° CRAFTSMAN"
+      ]
+    },
+    {
+      "asin": "B0DV6R1FVF",
+      "name": "Metabo HPT 18V Paper Tape Cordless Framing Nailer, 30° Kit (NR1890DCA)",
+      "brand": "Metabo HPT",
+      "model": "NR1890DCA",
+      "image": "https://m.media-amazon.com/images/I/71PWPwmSYjL._AC_SL1500_.jpg",
+      "price": 459.0,
+      "rating": 4.4,
+      "reviews_count": 50,
+      "bought": "100+/mo",
+      "specs": {
+        "angle": "30°",
+        "nails": "2 to 3-1/2 in",
+        "weight": "8.2 lb",
+        "platform": "Metabo HPT 18V/MultiVolt",
+        "included": "4.0Ah battery, charger, bag"
+      },
+      "features": {
+        "kit": true,
+        "light": true,
+        "long_warranty": true
+      },
+      "verdict": "The 30-degree twin of the NR1890DRA: brushless, 8.2 lb without the battery, up to 3 nails per second with no ramp-up time, and a battery, charger and lifetime tool warranty in the box.",
+      "best_for": "Framers who use 30° paper-tape nails and want a complete kit.",
+      "skip_if": "You're on DEWALT or Milwaukee batteries already.",
+      "pros": [
+        "Lightest here at 8.2 lb",
+        "Kit with 4.0Ah battery and charger",
+        "Lifetime tool warranty"
+      ],
+      "cons": [
+        "About 500 nails per charge",
+        "Only 50 reviews so far"
+      ]
+    },
+    {
+      "asin": "B0C17KV4MQ",
+      "name": "Metabo HPT 18V MultiVolt Cordless 21° Plastic Strip Framing Nailer Kit with 4.0Ah Battery (NR1890DRST)",
+      "brand": "Metabo HPT",
+      "model": "NR1890DRST",
+      "image": "https://m.media-amazon.com/images/I/71k1DEw4xkL._AC_SL1500_.jpg",
+      "price": 400.0,
+      "rating": 4.4,
+      "reviews_count": 155,
+      "specs": {
+        "angle": "21°",
+        "nails": "2 to 3-1/2 in",
+        "weight": "9.2 lb",
+        "platform": "Metabo HPT 18V/MultiVolt",
+        "included": "4.0Ah battery, charger"
+      },
+      "features": {
+        "kit": true,
+        "light": true,
+        "long_warranty": true
+      },
+      "verdict": "Metabo HPT's earlier 21-degree cordless framer, still sold as a kit with a 4.0Ah battery. The listing claims about 600 nails per charge and 2 nails per second, with a lifetime tool warranty.",
+      "best_for": "Buyers who want a battery-included 21° kit for less than the newer NR1890DRA.",
+      "skip_if": "Speed matters; the newer Metabo HPT models fire 3 nails per second.",
+      "pros": [
+        "Kit with battery and charger",
+        "About 600 nails per charge",
+        "Lifetime tool warranty"
+      ],
+      "cons": [
+        "2 nails per second, slower than the newer models",
+        "9.2 lb"
+      ]
+    },
+    {
+      "asin": "B0D45W8NJQ",
+      "name": "DEWALT 20V MAX 30-Degree Cordless Framing Nailer Kit (DCN930P1)",
+      "brand": "DEWALT",
+      "model": "DCN930P1",
+      "image": "https://m.media-amazon.com/images/I/51Hc8qRQp2L._AC_SL1000_.jpg",
+      "price": 449.99,
+      "rating": 4.3,
+      "reviews_count": 37,
+      "specs": {
+        "angle": "30°",
+        "nails": null,
+        "weight": "9.98 lb",
+        "platform": "DEWALT 20V MAX",
+        "included": "Battery, charger"
+      },
+      "features": {
+        "kit": true,
+        "light": false,
+        "long_warranty": false
+      },
+      "verdict": "The DCN930 sold as a kit with a battery and charger, for anyone who isn't on DEWALT 20V yet. Like the bare-tool listing, it gives almost no detail beyond the model.",
+      "best_for": "Starting on DEWALT 20V with a framing nailer.",
+      "skip_if": "You already own DEWALT batteries; the bare DCN930B costs much less.",
+      "pros": [
+        "Battery and charger included",
+        "Same nailer as the best-selling DCN930B"
+      ],
+      "cons": [
+        "Listing gives no nail range or battery size",
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B0G1NCXJQX",
+      "name": "Makita XNB07Z 18V LXT Brushless Cordless 30º Clipped Head 3-1/2\" Framing Nailer, Tool Only",
+      "brand": "Makita",
+      "model": "XNB07Z",
+      "image": "https://m.media-amazon.com/images/I/61zPaMeV4KL._AC_SL1500_.jpg",
+      "price": 399.0,
+      "rating": 4.6,
+      "reviews_count": 19,
+      "bought": "50+/mo",
+      "specs": {
+        "angle": "30°",
+        "nails": "Up to 3-1/2 in clipped head",
+        "weight": "11.9 lb with battery",
+        "platform": "Makita 18V LXT",
+        "included": "Nailer only"
+      },
+      "features": {
+        "kit": false,
+        "light": false,
+        "long_warranty": false
+      },
+      "verdict": "Makita's brushless 30-degree clipped-head framer for 18V LXT owners. The listing claims up to 1,000 nails per charge, a two-mode selector for sequential or bump fire, and tool-less depth adjustment.",
+      "best_for": "Makita 18V LXT owners framing with engineered lumber.",
+      "skip_if": "You use full round head nails; this takes clipped head.",
+      "pros": [
+        "Up to 1,000 nails per charge (claimed)",
+        "Brushless",
+        "Sequential or bump fire"
+      ],
+      "cons": [
+        "11.9 lb with a battery",
+        "Only 19 reviews so far"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B08VMYS879",
+      "name": "Milwauke M18 FUEL 21-Degree Framing Nailer (Tool Only) New",
+      "brand": "cakuuma",
+      "model": "2744-20",
+      "image": "https://m.media-amazon.com/images/I/71gGfklRf9L._AC_SL1500_.jpg",
+      "price": 449.0,
+      "rating": 4.7,
+      "reviews_count": 391,
+      "flag": "Third-party listing with a misspelled brand and no specs",
+      "verdict": "This listing sells a Milwaukee 2744-20 under the brand 'cakuuma' with the maker spelled 'Milwauke', and its bullets are generic company boilerplate with no specs. Buy a Milwaukee-branded listing instead.",
+      "reasons": [
+        "The brand field says 'cakuuma' and the title and manufacturer field both spell the maker 'Milwauke', so it's unclear who is selling it or whether Milwaukee's warranty applies.",
+        "None of the five bullets describe the nailer: they're generic praise for the company ('is dedicated to delivering a steady stream of advanced solutions') with the brand name missing.",
+        "It lists no nail range, angle details, modes or warranty, which you need to match a nailer to your nails."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "21-degree or 30-degree?",
+      "a": "It comes down to the nails you can buy locally and your building code. 21° nailers take plastic-strip full round head nails. 30° (and 30-34°) nailers take paper-tape nails, usually clipped head, and the magazine is shorter so it fits between studs more easily. Check that full round head nails aren't required where you build before going 30° with clipped heads."
+    },
+    {
+      "q": "Are cordless framing nailers as good as pneumatic?",
+      "a": "For decks, sheds, remodels and punch-out work, yes: no compressor, no hose, and the better ones fire 2 to 3 nails per second. Full-time production framers still tend to use pneumatic because the tools are lighter and never need charging."
+    },
+    {
+      "q": "Why are these so heavy?",
+      "a": "A cordless framer carries its own motor and drive system, so most weigh 8 to 11 lb before you add the battery. The Metabo HPT kits are the lightest here at 8.2 to 8.4 lb."
+    },
+    {
+      "q": "Should I buy the bare tool or a kit?",
+      "a": "If you already own batteries on the same platform, buy the bare tool and use your largest battery. If not, a kit is usually the cheaper way in than buying a bare tool, battery and charger separately."
+    },
+    {
+      "q": "How many nails per charge?",
+      "a": "The listings here claim about 500 to 1,100 per charge, depending on the battery. Use a 4.0Ah or larger battery for framing; small compact packs run out fast and can struggle to sink 3-1/2 inch nails."
+    }
+  ]
+}

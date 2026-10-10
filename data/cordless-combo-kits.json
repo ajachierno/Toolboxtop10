@@ -1,0 +1,470 @@
+{
+  "slug": "cordless-combo-kits",
+  "title": "The 10 Best Cordless Drill and Impact Driver Combo Kits",
+  "subtitle": "Two-tool drill and impact driver kits with batteries and charger, ranked from live Amazon data.",
+  "intro": "A combo kit pairs a drill/driver with an impact driver, two batteries and a charger, the starter set for most cordless tool owners. We ranked 10 best-sellers from DEWALT, Milwaukee, Makita, Bosch, CRAFTSMAN and Greenworks on rating, review volume and features (brushless motors, two batteries, a 1/2-inch drill chuck and a bag or case). Choose the battery platform first; it decides which tools you can add later.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 160,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "brushless": 0.35,
+    "two_batteries": 0.25,
+    "half_inch_chuck": 0.2,
+    "bag_or_case": 0.2
+  },
+  "reviews_ceiling": 60000,
+  "spec_fields": [
+    {
+      "key": "platform",
+      "label": "Platform"
+    },
+    {
+      "key": "tools",
+      "label": "Tools"
+    },
+    {
+      "key": "batteries",
+      "label": "Batteries"
+    },
+    {
+      "key": "torque",
+      "label": "Listed torque"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "platform",
+      "label": "Platform"
+    },
+    {
+      "key": "batteries",
+      "label": "Batteries"
+    },
+    {
+      "key": "brushless",
+      "label": "Brushless",
+      "type": "bool"
+    },
+    {
+      "key": "bag_or_case",
+      "label": "Bag/case",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00IJ0ALYS",
+      "force_overall": true,
+      "name": "DEWALT 20V MAX Cordless Drill and Impact Driver Combo Kit, 2 Batteries, Charger and Bag (DCK240C2)",
+      "brand": "DEWALT",
+      "model": "DCK240C2",
+      "image": "https://m.media-amazon.com/images/I/81XPDrUh9sL._AC_SL1500_.jpg",
+      "price": 149.0,
+      "rating": 4.7,
+      "reviews_count": 61088,
+      "bought": "10K+/mo",
+      "specs": {
+        "platform": "DEWALT 20V MAX",
+        "tools": "1/2 in drill/driver + 1/4 in impact driver",
+        "batteries": "2 (compact)",
+        "torque": null,
+        "extras": "Charger, bag; impact 5.55 in long, 2.8 lb"
+      },
+      "features": {
+        "brushless": false,
+        "two_batteries": true,
+        "half_inch_chuck": true,
+        "bag_or_case": true
+      },
+      "verdict": "The best-selling and most-reviewed kit here by a mile, with 61,088 reviews: DEWALT's compact drill and impact driver with two batteries, a charger and a bag.",
+      "best_for": "First-time buyers who want the most proven kit on the biggest battery platform.",
+      "skip_if": "You want brushless motors; the DCK277D2 or a FUEL kit has them.",
+      "pros": [
+        "61,088 reviews; 10,000+ sold last month",
+        "Two batteries, charger, bag",
+        "Compact and light"
+      ],
+      "cons": [
+        "Brushed motors",
+        "Small batteries"
+      ]
+    },
+    {
+      "asin": "B07K2KN7D7",
+      "name": "CRAFTSMAN V20 MAX Cordless Drill and Impact Driver Kit, 2 Batteries, Charger (CMCK200C2)",
+      "brand": "CRAFTSMAN",
+      "model": "CMCK200C2",
+      "image": "https://m.media-amazon.com/images/I/71cTPk6tJML._AC_SL1500_.jpg",
+      "price": 99.0,
+      "rating": 4.7,
+      "reviews_count": 9299,
+      "bought": "1K+/mo",
+      "specs": {
+        "platform": "CRAFTSMAN V20",
+        "tools": "Drill/driver (2-speed) + impact driver",
+        "batteries": "2",
+        "torque": "Impact 1,460 in-lb",
+        "extras": "Charger, storage bag, 2 bits"
+      },
+      "features": {
+        "brushless": false,
+        "two_batteries": true,
+        "half_inch_chuck": false,
+        "bag_or_case": true
+      },
+      "verdict": "A cheaper name-brand kit with a two-speed drill, a 1,460 in-lb impact driver, two batteries, a charger and a bag.",
+      "best_for": "Homeowners on a budget who want a brand with a big tool lineup.",
+      "skip_if": "You want brushless motors.",
+      "pros": [
+        "Low price for a name brand",
+        "Two batteries",
+        "9,299 reviews"
+      ],
+      "cons": [
+        "Brushed motors"
+      ]
+    },
+    {
+      "asin": "B0F91652KM",
+      "name": "Greenworks 24V Brushless Drill/Driver and Impact Driver Combo, 2 x 2.0Ah USB-C Batteries",
+      "brand": "Greenworks",
+      "model": "CK321",
+      "image": "https://m.media-amazon.com/images/I/81TNIf2gUHL._AC_SL1500_.jpg",
+      "price": 129.99,
+      "rating": 4.5,
+      "reviews_count": 1401,
+      "bought": "1K+/mo",
+      "specs": {
+        "platform": "Greenworks 24V",
+        "tools": "1/2 in drill/driver + 1/4 in impact driver",
+        "batteries": "2 x 2.0Ah (USB-C)",
+        "torque": "Drill 400 in-lb, impact 1,950 in-lb",
+        "extras": "Batteries double as USB-C power banks"
+      },
+      "features": {
+        "brushless": true,
+        "two_batteries": true,
+        "half_inch_chuck": true,
+        "bag_or_case": false
+      },
+      "verdict": "A brushless kit with a 400 in-lb drill and a 1,950 in-lb impact driver, plus two batteries that also work as USB-C power banks.",
+      "best_for": "Greenworks yard-tool owners and budget buyers who want brushless.",
+      "skip_if": "You want the biggest choice of add-on tools.",
+      "pros": [
+        "Brushless",
+        "Battery doubles as a power bank",
+        "Low price"
+      ],
+      "cons": [
+        "Smaller tool platform than DEWALT or Milwaukee"
+      ]
+    },
+    {
+      "asin": "B0BQ3WJ12K",
+      "name": "Milwaukee M12 FUEL 2-Tool Combo Kit (3404-20 Hammer Drill + Impact Driver)",
+      "brand": "Milwaukee",
+      "model": "3497-22",
+      "image": "https://m.media-amazon.com/images/I/51Zqnb7iy0L._AC_SL1000_.jpg",
+      "price": 219.0,
+      "rating": 4.8,
+      "reviews_count": 843,
+      "bought": "800+/mo",
+      "specs": {
+        "platform": "Milwaukee M12",
+        "tools": "3404-20 hammer drill/driver + impact driver",
+        "batteries": "2",
+        "torque": null,
+        "extras": "8.1 lb kit"
+      },
+      "features": {
+        "brushless": true,
+        "two_batteries": true,
+        "half_inch_chuck": false,
+        "bag_or_case": false
+      },
+      "verdict": "Milwaukee's top 12V kit: a FUEL hammer drill and impact driver that are small enough for cabinets and tight spaces, rated 4.8 stars.",
+      "best_for": "Remodelers, electricians and plumbers who value compact size.",
+      "skip_if": "You'll drill big holes in masonry; an 18V kit is stronger.",
+      "pros": [
+        "4.8 stars",
+        "Compact 12V FUEL tools",
+        "Hammer drill included"
+      ],
+      "cons": [
+        "12V power",
+        "Listing is thin on specs"
+      ]
+    },
+    {
+      "asin": "B0BB8FDVLQ",
+      "premium": true,
+      "name": "Milwaukee M18 FUEL 2-Tool Combo Kit (Hammer Drill + Impact Driver)",
+      "brand": "Milwaukee",
+      "model": "3697-22",
+      "image": "https://m.media-amazon.com/images/I/81n9HWPsiLL._AC_SL1500_.jpg",
+      "price": 359.0,
+      "rating": 4.8,
+      "reviews_count": 1073,
+      "bought": "900+/mo",
+      "specs": {
+        "platform": "Milwaukee M18",
+        "tools": "Hammer drill/driver + impact driver",
+        "batteries": "2",
+        "torque": null,
+        "extras": null
+      },
+      "features": {
+        "brushless": true,
+        "two_batteries": true,
+        "half_inch_chuck": false,
+        "bag_or_case": false
+      },
+      "verdict": "Milwaukee's flagship 18V pair: brushless FUEL hammer drill and impact driver for heavy daily use, rated 4.8 stars.",
+      "best_for": "Pros and serious DIYers who want top-end power.",
+      "skip_if": "You're on a budget; it's among the priciest here.",
+      "pros": [
+        "4.8 stars",
+        "FUEL brushless power",
+        "900+ sold last month"
+      ],
+      "cons": [
+        "Most expensive here",
+        "Listing gives few specs"
+      ]
+    },
+    {
+      "asin": "B089VL95CH",
+      "name": "Makita CT225SYX 18V LXT Compact Cordless 2-Pc Combo Kit (1.5Ah)",
+      "brand": "Makita",
+      "model": "CT225SYX",
+      "image": "https://m.media-amazon.com/images/I/61qluWJgScL._AC_SL1000_.jpg",
+      "price": 199.0,
+      "rating": 4.7,
+      "reviews_count": 1090,
+      "bought": "500+/mo",
+      "specs": {
+        "platform": "Makita 18V LXT",
+        "tools": "1/2 in drill (XFD10Z) + impact driver (XDT11Z)",
+        "batteries": "2 x 1.5Ah",
+        "torque": "Drill 480 in-lb",
+        "extras": "Charger; drill 7-1/4 in long, 3.3 lb"
+      },
+      "features": {
+        "brushless": false,
+        "two_batteries": true,
+        "half_inch_chuck": true,
+        "bag_or_case": false
+      },
+      "verdict": "Makita's compact kit: a 3.3 lb, 7-1/4-inch 1/2-inch drill with 480 in-lb, an impact driver, two batteries and a charger, for Makita's huge 18V LXT lineup.",
+      "best_for": "Anyone starting on Makita LXT.",
+      "skip_if": "You want brushless; the XT269T has it.",
+      "pros": [
+        "Light, compact drill",
+        "Huge LXT tool range",
+        "1,090 reviews"
+      ],
+      "cons": [
+        "Brushed motors",
+        "Small 1.5Ah batteries"
+      ]
+    },
+    {
+      "asin": "B0C3PQHGR7",
+      "name": "DEWALT 20V MAX Drill and Impact Driver Kit with 2 x 2.0Ah Batteries (DCK277D2)",
+      "brand": "DEWALT",
+      "model": "DCK277D2",
+      "image": "https://m.media-amazon.com/images/I/81u6kH7EgQL._AC_SL1500_.jpg",
+      "price": 184.99,
+      "rating": 4.8,
+      "reviews_count": 4767,
+      "bought": "1K+/mo",
+      "specs": {
+        "platform": "DEWALT 20V MAX",
+        "tools": "DCD777 drill/driver + DCF787 impact driver",
+        "batteries": "2 x 2.0Ah",
+        "torque": "1,500 in-lb (impact)",
+        "extras": "Charger, contractor bag, 3-year warranty"
+      },
+      "features": {
+        "brushless": false,
+        "two_batteries": true,
+        "half_inch_chuck": false,
+        "bag_or_case": true
+      },
+      "verdict": "A step up from the DCK240C2 with larger 2.0Ah batteries, the 1,500 in-lb DCF787 impact driver, a contractor bag and a 3-year warranty.",
+      "best_for": "DEWALT buyers who want more runtime than the entry kit.",
+      "skip_if": "You only need light-duty tools.",
+      "pros": [
+        "4.8 stars; 4,767 reviews",
+        "2.0Ah batteries",
+        "3-year warranty"
+      ],
+      "cons": [
+        "Pricier than the DCK240C2"
+      ]
+    },
+    {
+      "asin": "B005GT0IWK",
+      "name": "BOSCH 12V Max Cordless 2-Tool Combo Kit, PS31 Drill/Driver and PS41 Impact Driver",
+      "brand": "Bosch",
+      "model": "CLPK22-120",
+      "image": "https://m.media-amazon.com/images/I/61IQ5McF4EL._AC_SL1000_.jpg",
+      "price": 179.0,
+      "rating": 4.8,
+      "reviews_count": 5944,
+      "bought": "100+/mo",
+      "specs": {
+        "platform": "Bosch 12V Max",
+        "tools": "3/8 in drill/driver + impact driver",
+        "batteries": "2 x 2.0Ah",
+        "torque": null,
+        "extras": "30-minute charger, soft case, 3-year protection plan"
+      },
+      "features": {
+        "brushless": false,
+        "two_batteries": true,
+        "half_inch_chuck": false,
+        "bag_or_case": true
+      },
+      "verdict": "A compact Bosch 12V pair for overhead work and tight spaces, with a 30-minute charger, soft case and 4.8 stars on almost 6,000 reviews.",
+      "best_for": "Light-duty work in tight spaces.",
+      "skip_if": "You need a 1/2-inch chuck or 18V power.",
+      "pros": [
+        "4.8 stars; 5,944 reviews",
+        "Light for overhead work",
+        "30-min charger"
+      ],
+      "cons": [
+        "3/8 in chuck",
+        "12V power"
+      ]
+    },
+    {
+      "asin": "B07TYKLGZT",
+      "name": "DEWALT XTREME 12V MAX Brushless Cordless Drill and Impact Driver Combo Kit (DCK221F2)",
+      "brand": "DEWALT",
+      "model": "DCK221F2",
+      "image": "https://m.media-amazon.com/images/I/61TJA-Qsg9L._AC_SL1000_.jpg",
+      "price": 169.0,
+      "rating": 4.7,
+      "reviews_count": 2009,
+      "bought": "300+/mo",
+      "specs": {
+        "platform": "DEWALT 12V MAX",
+        "tools": "DCD701 3/8 in drill + DCF801 1/4 in impact driver",
+        "batteries": "2",
+        "torque": null,
+        "extras": "2-speed, 15 clutch settings"
+      },
+      "features": {
+        "brushless": true,
+        "two_batteries": true,
+        "half_inch_chuck": false,
+        "bag_or_case": false
+      },
+      "verdict": "DEWALT's compact brushless 12V pair: a 3/8-inch drill with 15 clutch settings and an impact driver DEWALT says is 20% shorter than before.",
+      "best_for": "Cabinet installers and tight-space work.",
+      "skip_if": "You want 20V power.",
+      "pros": [
+        "Brushless",
+        "Compact",
+        "4.7 stars"
+      ],
+      "cons": [
+        "3/8 in chuck",
+        "12V"
+      ]
+    },
+    {
+      "asin": "B07JND2WZ9",
+      "name": "Milwaukee 2892-22CT M18 Compact Brushless 2-Tool Combo Kit, Drill Driver/Impact Driver",
+      "brand": "Milwaukee",
+      "model": "2892-22CT",
+      "image": "https://m.media-amazon.com/images/I/61+8j8mW7wL._AC_SL1000_.jpg",
+      "price": 295.0,
+      "rating": 4.6,
+      "reviews_count": 1001,
+      "bought": "100+/mo",
+      "specs": {
+        "platform": "Milwaukee M18",
+        "tools": "Compact drill/driver + impact driver",
+        "batteries": "2",
+        "torque": "500 in-lb (listed)",
+        "extras": "Compact for overhead work"
+      },
+      "features": {
+        "brushless": true,
+        "two_batteries": true,
+        "half_inch_chuck": false,
+        "bag_or_case": false
+      },
+      "verdict": "A cheaper way onto Milwaukee M18 with brushless motors: a compact drill/driver and impact driver with two batteries.",
+      "best_for": "Buyers who want Milwaukee M18 without paying for FUEL.",
+      "skip_if": "You want the most power; the FUEL kit is stronger.",
+      "pros": [
+        "Brushless",
+        "M18 platform",
+        "1,001 reviews"
+      ],
+      "cons": [
+        "4.6 stars"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DZN2DPRK",
+      "name": "Cordless Impact Driver and Drill Combo Kit (Tool Only) Compatible with Dewalt 20V Max Battery, Up to 2300 In-lbs",
+      "brand": "MICWELL",
+      "model": "MW-XHDW-ZH",
+      "image": "https://m.media-amazon.com/images/I/71P8eE9jduL._AC_SL1500_.jpg",
+      "price": 75.99,
+      "rating": 4.5,
+      "reviews_count": 302,
+      "flag": "'Combo kit' with no battery or charger; torque claim beats DEWALT's own",
+      "verdict": "It's sold as a combo kit but includes no battery or charger, and claims more impact torque than DEWALT's own impact driver.",
+      "reasons": [
+        "The listing says in bold that it does 'NOT INCLUDE BATTERY AND CHARGER, TOOL ONLY', while the title calls it a 'Combo Kit', which on the DEWALT, Milwaukee and Makita kits here means batteries and charger in the box.",
+        "It claims up to 2,300 in-lbs from the impact driver, versus 1,500 in-lb for DEWALT's DCF787 in the DCK277D2, on the same DEWALT batteries.",
+        "DEWALT's own DCK240C2 kit, with two batteries, a charger and a bag, has 61,088 reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Why buy a combo kit?",
+      "a": "A drill and an impact driver cover nearly every drilling and driving job, and the kit price usually costs less than the two tools and batteries bought separately. More importantly, it puts you on a battery platform you'll use for future tools."
+    },
+    {
+      "q": "Which battery platform?",
+      "a": "Pick the one whose other tools you'll want. DEWALT 20V MAX, Milwaukee M18 and Makita 18V LXT have the widest ranges. CRAFTSMAN V20, RYOBI ONE+ and Greenworks 24V are cheaper with fewer pro tools."
+    },
+    {
+      "q": "12V or 18V/20V?",
+      "a": "12V tools are smaller and lighter, great for cabinets, electrical and overhead work. 18V/20V tools have more power for big holes, long screws and masonry."
+    },
+    {
+      "q": "Is brushless worth it?",
+      "a": "Yes if you use the tools often: brushless motors run cooler, last longer and get more work per charge. For occasional home use, a brushed kit like the DCK240C2 is fine."
+    },
+    {
+      "q": "What does a hammer drill add?",
+      "a": "A hammer mode pounds as it spins, for drilling small holes in brick and concrete. It's useful for anchors; for big masonry holes, use a rotary hammer."
+    }
+  ]
+}

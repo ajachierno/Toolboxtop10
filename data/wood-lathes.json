@@ -1,0 +1,441 @@
+{
+  "slug": "wood-lathes",
+  "title": "The 10 Best Wood Lathes",
+  "subtitle": "Mini, midi and full-size woodturning lathes for pens, bowls and spindles, ranked from live Amazon data.",
+  "intro": "A wood lathe spins the wood while you shape it with handheld tools, for bowls, pens, spindles and table legs. We ranked 10 best-sellers from JET, WEN, VEVOR and ArtyMaster on rating, review volume and features (electronic variable speed, cast iron construction and spindle indexing). Match the swing to what you'll turn, and check the slowest speed before buying for bowls.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 260,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "variable_speed": 0.4,
+    "cast_iron": 0.3,
+    "indexing": 0.3
+  },
+  "reviews_ceiling": 700,
+  "spec_fields": [
+    {
+      "key": "capacity",
+      "label": "Swing x between centers"
+    },
+    {
+      "key": "speed",
+      "label": "Speed range"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "speed",
+      "label": "Speeds"
+    },
+    {
+      "key": "variable_speed",
+      "label": "Variable speed",
+      "type": "bool"
+    },
+    {
+      "key": "cast_iron",
+      "label": "Cast iron",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00BGBVJCU",
+      "force_overall": true,
+      "name": "JET 12\" x 21\" Variable-Speed Woodworking Lathe, 1 HP, 115V (JWL-1221VS)",
+      "brand": "JET",
+      "model": "JWL-1221VS",
+      "image": "https://m.media-amazon.com/images/I/71ts63LXGqL._AC_SL1500_.jpg",
+      "price": 989.99,
+      "rating": 4.4,
+      "reviews_count": 665,
+      "specs": {
+        "capacity": "12 x 21 in",
+        "speed": "60-3,600 RPM in 3 ranges",
+        "motor": "1 HP",
+        "extras": "Forward/reverse, digital readout, 24 indexing positions, spindle lock"
+      },
+      "features": {
+        "variable_speed": true,
+        "cast_iron": true,
+        "indexing": true
+      },
+      "verdict": "The most-reviewed serious lathe here: 1 HP, electronic variable speed down to 60 RPM, smooth forward-to-reverse, a digital speed readout and 24 indexing positions.",
+      "best_for": "Bowl and spindle turners ready for a lathe they won't outgrow soon.",
+      "skip_if": "You're just trying turning; an under-$250 mini lathe is a cheaper test.",
+      "pros": [
+        "Speeds down to 60 RPM for big blanks",
+        "Forward and reverse",
+        "665 reviews"
+      ],
+      "cons": [
+        "Expensive",
+        "12 in swing"
+      ]
+    },
+    {
+      "asin": "B0CW5LLB2R",
+      "name": "VEVOR Wood Lathe, 14 x 40 in, 4 Speed 885-2425 RPM, 0.5 HP 370W, with Chisels and Faceplate",
+      "brand": "VEVOR",
+      "model": "MCS1000",
+      "image": "https://m.media-amazon.com/images/I/61iU0elGi7L._AC_SL1500_.jpg",
+      "price": 218.61,
+      "rating": 3.8,
+      "reviews_count": 587,
+      "specs": {
+        "capacity": "14 x 40 in",
+        "speed": "4 steps, 885-2,425 RPM",
+        "motor": "0.5 HP, 370 W",
+        "extras": "3 chisels, faceplate"
+      },
+      "features": {
+        "variable_speed": false,
+        "cast_iron": false,
+        "indexing": false
+      },
+      "verdict": "A cheap long-bed lathe for spindles and table legs, with three chisels and a faceplate included. Its slowest speed is 885 RPM, too fast for a blank anywhere near its 14-inch swing.",
+      "best_for": "Turning spindles, pens and table legs on a tight budget.",
+      "skip_if": "You want to turn big bowls; the lowest speed is too fast for wide blanks.",
+      "pros": [
+        "40 in between centers",
+        "Chisels and faceplate included",
+        "Lowest price here"
+      ],
+      "cons": [
+        "885 RPM minimum",
+        "Aluminum base",
+        "3.8 stars"
+      ]
+    },
+    {
+      "asin": "B0992RZXK9",
+      "name": "WEN 34035 6-Amp 14-Inch by 20-Inch Variable Speed Benchtop Wood Lathe",
+      "brand": "WEN",
+      "model": "34035",
+      "image": "https://m.media-amazon.com/images/I/81DPsyi8RUL._AC_SL1500_.jpg",
+      "price": 779.3,
+      "rating": 4.4,
+      "reviews_count": 110,
+      "specs": {
+        "capacity": "14 x 20 in",
+        "speed": "250-3,550 RPM variable",
+        "motor": "6 A",
+        "extras": "4 in faceplate, MT2 tapers, 1 in x 8 spindle"
+      },
+      "features": {
+        "variable_speed": true,
+        "cast_iron": false,
+        "indexing": false
+      },
+      "verdict": "A large-capacity benchtop lathe with a 14-inch swing and variable speed from 250 RPM, standard MT2 tapers and a 1-inch x 8 spindle that fits common chucks.",
+      "best_for": "Bowl turners who want more swing than a midi lathe for less than JET.",
+      "skip_if": "You want cast iron and indexing; the JET 1015VS has both.",
+      "pros": [
+        "14 in swing",
+        "250-3,550 RPM variable",
+        "Standard MT2 / 1 in x 8 spindle"
+      ],
+      "cons": [
+        "110 reviews",
+        "No indexing listed"
+      ]
+    },
+    {
+      "asin": "B0B6YDYVZD",
+      "name": "WEN LA3421 Mini Benchtop Wood Lathe, 8-Inch by 13-Inch, Variable Speed",
+      "brand": "WEN",
+      "model": "LA3421",
+      "image": "https://m.media-amazon.com/images/I/81pu2ApDwtL._AC_SL1500_.jpg",
+      "price": 244.87,
+      "rating": 4.2,
+      "reviews_count": 266,
+      "specs": {
+        "capacity": "8 x 13 in",
+        "speed": "750-3,200 RPM variable",
+        "motor": "3.2 A, soft start",
+        "extras": "Soft-start motor"
+      },
+      "features": {
+        "variable_speed": true,
+        "cast_iron": false,
+        "indexing": false
+      },
+      "verdict": "A small variable-speed lathe for pens, small bowls, cups and chess pieces, with a soft-start motor.",
+      "best_for": "Beginners turning pens and small projects.",
+      "skip_if": "You'll turn bowls wider than 8 inches.",
+      "pros": [
+        "Variable speed",
+        "Soft start",
+        "Low price"
+      ],
+      "cons": [
+        "8 in swing",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B00F2ZC48E",
+      "name": "JET 10\" x 15\" Variable Speed Wood Lathe, Cast Iron, 1/2 HP (JWL-1015VS)",
+      "brand": "JET",
+      "model": "JWL-1015VS",
+      "image": "https://m.media-amazon.com/images/I/610fK7cnfoS._AC_SL1500_.jpg",
+      "price": 714.99,
+      "rating": 4.7,
+      "reviews_count": 110,
+      "specs": {
+        "capacity": "10 x 15-1/2 in",
+        "speed": "200-3,600 RPM in 3 ranges",
+        "motor": "1/2 HP",
+        "extras": "Cast iron bed/head/tailstock, 24 indexing positions"
+      },
+      "features": {
+        "variable_speed": true,
+        "cast_iron": true,
+        "indexing": true
+      },
+      "verdict": "The highest-rated lathe here at 4.7 stars: cast iron throughout, electronic variable speed from 200 RPM and 24 indexing positions in a benchtop size.",
+      "best_for": "Pen, spindle and small-bowl turners who want quality in a small footprint.",
+      "skip_if": "You want to turn 12-inch bowls.",
+      "pros": [
+        "4.7 stars, highest here",
+        "All cast iron",
+        "24 indexing positions"
+      ],
+      "cons": [
+        "10 in swing",
+        "Only 110 reviews"
+      ]
+    },
+    {
+      "asin": "B07MQ2VM7Q",
+      "name": "WEN LA3424 4.5-Amp 12-Inch by 18-Inch 5-Speed Benchtop Wood Lathe",
+      "brand": "WEN",
+      "model": "LA3424",
+      "image": "https://m.media-amazon.com/images/I/81csitNIiRL._AC_SL1500_.jpg",
+      "price": 362.29,
+      "rating": 4.5,
+      "reviews_count": 298,
+      "specs": {
+        "capacity": "12 x 18 in",
+        "speed": "5 steps, 520-3,400 RPM",
+        "motor": "4.5 A, 0.5 HP",
+        "extras": "3-1/8 in faceplate, MT2 tapers"
+      },
+      "features": {
+        "variable_speed": false,
+        "cast_iron": false,
+        "indexing": false
+      },
+      "verdict": "A midi lathe with five belt speeds from 520 RPM, a 12-inch swing and a faceplate included, for less than the variable-speed models.",
+      "best_for": "Beginners who want more capacity than a mini lathe.",
+      "skip_if": "You hate changing belts; it has 5 fixed speeds.",
+      "pros": [
+        "12 in swing",
+        "520 RPM low speed",
+        "4.5 stars, 298 reviews"
+      ],
+      "cons": [
+        "Belt-change speeds",
+        "No indexing listed"
+      ]
+    },
+    {
+      "asin": "B0CPF111ZR",
+      "name": "ArtyMaster WM101A-Plus Mini Wood Lathe, 24VDC 96W, Variable Speed, with Turning Tools",
+      "brand": "ArtyMaster",
+      "model": "WM101A Plus",
+      "image": "https://m.media-amazon.com/images/I/715JHieIX9L._AC_SL1500_.jpg",
+      "price": 279.0,
+      "rating": 4.3,
+      "reviews_count": 99,
+      "bought": "50+/mo",
+      "specs": {
+        "capacity": "Mini",
+        "speed": "Variable",
+        "motor": "96 W, 24V DC",
+        "extras": "Turning tool set included"
+      },
+      "features": {
+        "variable_speed": true,
+        "cast_iron": false,
+        "indexing": false
+      },
+      "verdict": "A tabletop mini lathe with a 96 W DC motor, variable speed and a set of turning tools, for pens, beads and very small parts.",
+      "best_for": "Pen turners and hobbyists with no shop space.",
+      "skip_if": "You want to turn bowls or table legs.",
+      "pros": [
+        "Fits on a desk",
+        "Tools included",
+        "50+ sold last month"
+      ],
+      "cons": [
+        "96 W motor",
+        "Very small capacity"
+      ]
+    },
+    {
+      "asin": "B0FH45FQDB",
+      "name": "VEVOR Woodworking Lathe, 1 HP, 150-3800 RPM Variable Speed, 12 x 18\", Brushless DC Motor, Cast Iron",
+      "brand": "VEVOR",
+      "model": "WL1218V",
+      "image": "https://m.media-amazon.com/images/I/71WHIkIuK1L._AC_SL1500_.jpg",
+      "price": 389.9,
+      "rating": 3.8,
+      "reviews_count": 587,
+      "specs": {
+        "capacity": "12 x 18 in",
+        "speed": "150-3,800 RPM variable",
+        "motor": "1 HP, 750 W brushless DC",
+        "extras": "Cast iron body"
+      },
+      "features": {
+        "variable_speed": true,
+        "cast_iron": true,
+        "indexing": false
+      },
+      "verdict": "A 1 HP brushless lathe with variable speed from 150 RPM and a cast iron body, for much less than JET. It shares its 3.8-star rating with other VEVOR lathes.",
+      "best_for": "Turners who want JET-like specs on a budget.",
+      "skip_if": "You want a proven rating; the review pool is shared across VEVOR models.",
+      "pros": [
+        "1 HP brushless, no brushes to replace",
+        "150 RPM low speed",
+        "Cast iron"
+      ],
+      "cons": [
+        "3.8 stars (shared rating)",
+        "No indexing listed"
+      ]
+    },
+    {
+      "asin": "B00OC6WN9Y",
+      "name": "JET 14\" x 40\" Variable Speed Woodworking Lathe, 1 HP, 115/230V (JWL-1440VS)",
+      "brand": "JET",
+      "model": "JWL-1440VS",
+      "image": "https://m.media-amazon.com/images/I/61CfijBYZWS._AC_SL1500_.jpg",
+      "price": 1975.99,
+      "rating": 4.5,
+      "reviews_count": 38,
+      "specs": {
+        "capacity": "14 x 40 in",
+        "speed": "400-3,000 RPM variable",
+        "motor": "1 HP",
+        "extras": "Sliding, pivoting headstock; spindle index pin; 220 lb"
+      },
+      "features": {
+        "variable_speed": true,
+        "cast_iron": true,
+        "indexing": true
+      },
+      "verdict": "A full-size floor-capacity lathe with a 40-inch bed, a sliding headstock that pivots to seven positions for outboard bowl turning, and variable speed.",
+      "best_for": "Turners who do long spindles and big bowls.",
+      "skip_if": "You need it on a bench; it's 220 lb.",
+      "pros": [
+        "14 x 40 in capacity",
+        "Pivoting, sliding headstock",
+        "Variable speed"
+      ],
+      "cons": [
+        "400 RPM low speed",
+        "Only 38 reviews"
+      ]
+    },
+    {
+      "asin": "B01CYS58VQ",
+      "premium": true,
+      "name": "JET 16\" x 40\" EVS Variable Speed Woodworking Lathe, Reversible, 1-1/2 HP (JWL-1640EVS)",
+      "brand": "JET",
+      "model": "JWL-1640EVS",
+      "image": "https://m.media-amazon.com/images/I/71FkvfyB97S._AC_SL1500_.jpg",
+      "price": 3519.0,
+      "rating": 4.6,
+      "reviews_count": 91,
+      "specs": {
+        "capacity": "16 x 40 in",
+        "speed": "40-3,200 RPM variable",
+        "motor": "1-1/2 HP",
+        "extras": "Reversible, 36 indexing positions, 377 lb"
+      },
+      "features": {
+        "variable_speed": true,
+        "cast_iron": true,
+        "indexing": true
+      },
+      "verdict": "The biggest lathe here: a 377 lb, 1-1/2 HP machine with a 16-inch swing, speed down to 40 RPM, reverse and 36 indexing positions.",
+      "best_for": "Serious bowl turners who want one lathe for life.",
+      "skip_if": "You're not sure you'll stick with turning.",
+      "pros": [
+        "16 in swing, 40 RPM low speed",
+        "Reversible",
+        "36 indexing positions"
+      ],
+      "cons": [
+        "Most expensive here",
+        "377 lb"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0HHDTZRLY",
+      "name": "400W 4-Speed Benchtop Wood Lathe, 14 x 40 Wood Turning Lathe Machine",
+      "brand": "Jojoka",
+      "model": "akU-eQEh-WKxfwBQf-murQo9rb5bc",
+      "image": "https://m.media-amazon.com/images/I/61fvdc7tEbL._AC_SL1500_.jpg",
+      "price": 199.99,
+      "rating": 3.0,
+      "reviews_count": 5,
+      "flag": "1,040 RPM minimum on a 14 in swing; random-string model number",
+      "verdict": "It advertises a 14-inch swing, but its slowest speed is 1,040 RPM, far too fast for a blank that size. Rated 3.0 stars.",
+      "reasons": [
+        "Its four speeds start at 1,040 RPM. A common woodturning rule keeps diameter (inches) x RPM around 6,000 to 9,000; a 14-inch blank at 1,040 RPM is about 14,500, fast enough to be dangerous if the blank is out of balance.",
+        "The model number is a random string ('akU-eQEh-WKxfwBQf-murQo9rb5bc'), so finding a manual, replacement belt or parts later is a gamble.",
+        "It's rated 3.0 stars, the lowest of the lathes we looked at."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What do the two numbers mean?",
+      "a": "The first is swing: the largest diameter you can turn (twice the distance from the spindle to the bed). The second is the distance between centers: the longest spindle you can turn. A 12 x 18 lathe turns 12-inch bowls and 18-inch spindles."
+    },
+    {
+      "q": "Why does low speed matter?",
+      "a": "Large or unbalanced blanks need slow speeds. A common rule is diameter in inches x RPM between about 6,000 and 9,000, so a 12-inch bowl blank should start around 500 to 750 RPM. Lathes whose slowest speed is 800+ RPM are for spindles and small work."
+    },
+    {
+      "q": "Variable speed or belt steps?",
+      "a": "Electronic variable speed lets you dial speed up gradually as a blank comes into balance. Belt-step lathes are cheaper but you stop the lathe to move the belt. Many good lathes do both: belt ranges plus a dial."
+    },
+    {
+      "q": "Do I need reverse and indexing?",
+      "a": "Reverse helps when sanding bowls. Indexing locks the spindle at set positions so you can lay out flutes or drill evenly spaced holes. Neither is essential for a first lathe."
+    },
+    {
+      "q": "What else do I need?",
+      "a": "Turning tools (a spindle gouge, bowl gouge, skew and parting tool), a face shield, a sharpening setup and usually a 4-jaw chuck. Budget at least as much for accessories as for a cheap lathe."
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "slug": "mechanic-creepers",
+  "title": "The 10 Best Mechanic Creepers",
+  "subtitle": "Under-car creepers, Z creeper seats and topside creepers for home garages, ranked from live Amazon data.",
+  "intro": "A mechanic creeper lets you roll under a car on your back instead of dragging yourself across the floor. We ranked 10 best-sellers from Pro-LifT, M-AUTO, DNA MOTORING, Lisle, Traxion and others on rating, review volume and features (converting to a seat, a 330 lb or higher capacity, 3-inch casters and tool trays).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 45,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "converts_to_seat": 0.25,
+    "capacity_330": 0.25,
+    "big_casters": 0.25,
+    "tool_trays": 0.25
+  },
+  "reviews_ceiling": 5000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "casters",
+      "label": "Casters"
+    },
+    {
+      "key": "size",
+      "label": "Size / weight"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "converts_to_seat",
+      "label": "Converts to seat",
+      "type": "bool"
+    },
+    {
+      "key": "big_casters",
+      "label": "3 in casters",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07YBS1GJ9",
+      "name": "Pro-LifT Convertible Mechanic Creeper and Seat",
+      "brand": "Pro-LifT",
+      "model": "C-2036DG",
+      "image": "https://m.media-amazon.com/images/I/71-kjpVHxuL._AC_SL1500_.jpg",
+      "price": 47.9,
+      "rating": 4.5,
+      "reviews_count": 28418,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "Padded, converts to seat",
+        "capacity": "300 lb",
+        "casters": "6 swivel",
+        "size": null,
+        "extras": "Thick padded cushions, headrest"
+      },
+      "features": {
+        "converts_to_seat": true,
+        "capacity_330": false,
+        "big_casters": false,
+        "tool_trays": false
+      },
+      "verdict": "The most-reviewed creeper here by far, with 28,418 reviews: a padded steel creeper that folds into a rolling seat for brake and wheel work.",
+      "best_for": "Home mechanics who want a creeper and a low stool in one.",
+      "skip_if": "You need the lowest possible profile; a one-piece plastic creeper sits lower.",
+      "pros": [
+        "28,418 reviews",
+        "Converts to a seat",
+        "Padded"
+      ],
+      "cons": [
+        "300 lb capacity",
+        "Higher than plastic creepers"
+      ]
+    },
+    {
+      "asin": "B0BPSPKNMX",
+      "name": "M-AUTO Foldable Z Creeper 2-in-1 Rolling Creeper and Seat, 36\", 330 lb",
+      "brand": "M-AUTO",
+      "model": "A03-CP-003-36",
+      "image": "https://m.media-amazon.com/images/I/61SVBeOsr6L._AC_SL1500_.jpg",
+      "price": 38.75,
+      "rating": 4.2,
+      "reviews_count": 1987,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Z-fold, converts to seat",
+        "capacity": "330 lb",
+        "casters": "6 polyurethane swivel",
+        "size": "36 in, 10.7 lb",
+        "extras": "Steel frame, non-marring wheels"
+      },
+      "features": {
+        "converts_to_seat": true,
+        "capacity_330": true,
+        "big_casters": false,
+        "tool_trays": false
+      },
+      "verdict": "The best seller here: a Z-folding creeper that turns into a seat, with a 330 lb capacity and non-marring polyurethane casters.",
+      "best_for": "Small garages where a creeper needs to fold up.",
+      "skip_if": "You're over 6 ft; it's 36 inches long.",
+      "pros": [
+        "1,000+ sold last month",
+        "330 lb",
+        "Folds flat"
+      ],
+      "cons": [
+        "36 in long",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B0856T9M1M",
+      "name": "DNA MOTORING 40 Inch Blow Molded Low Profile Mechanic Creeper with Dual Tool Trays, 350 lb",
+      "brand": "DNA MOTORING",
+      "model": "TOOLS-00005",
+      "image": "https://m.media-amazon.com/images/I/61Vz8wKUeFL._AC_SL1500_.jpg",
+      "price": 41.88,
+      "rating": 4.4,
+      "reviews_count": 1432,
+      "bought": "300+/mo",
+      "specs": {
+        "type": "One-piece plastic, low profile",
+        "capacity": "350 lb",
+        "casters": "6 x 3 in swivel",
+        "size": "40 x 19 in, 13 lb",
+        "extras": "Padded headrest, shoulder recess, dual tool trays"
+      },
+      "features": {
+        "converts_to_seat": false,
+        "capacity_330": true,
+        "big_casters": true,
+        "tool_trays": true
+      },
+      "verdict": "A one-piece plastic creeper with a shoulder recess, padded headrest, two tool trays and big 3-inch casters that roll over cracks and cords.",
+      "best_for": "Getting under cars in a garage with an uneven floor.",
+      "skip_if": "You want padding; it's hard plastic with a padded headrest only.",
+      "pros": [
+        "350 lb, 3 in casters",
+        "Two tool trays",
+        "13 lb"
+      ],
+      "cons": [
+        "Hard plastic body"
+      ]
+    },
+    {
+      "asin": "B09SRJPWT1",
+      "name": "Pro-LifT Mechanic Plastic Creeper 40 Inch, Orange",
+      "brand": "Pro-LifT",
+      "model": "PL9400",
+      "image": "https://m.media-amazon.com/images/I/51IYfa-QoIL._AC_SL1500_.jpg",
+      "price": 63.77,
+      "rating": 4.7,
+      "reviews_count": 3467,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "One-piece plastic, low profile",
+        "capacity": "350 lb",
+        "casters": "6 x 3 in multi-terrain",
+        "size": "40 x 19 in, about 13 lb",
+        "extras": "Integrated carry handle"
+      },
+      "features": {
+        "converts_to_seat": false,
+        "capacity_330": true,
+        "big_casters": true,
+        "tool_trays": false
+      },
+      "verdict": "A blow-molded HDPE creeper with six 3-inch multi-terrain casters and a 350 lb capacity, rated 4.7 stars.",
+      "best_for": "Driveway and garage work where casters need to roll over rough concrete.",
+      "skip_if": "You want tool trays.",
+      "pros": [
+        "4.7 stars; 3,467 reviews",
+        "3 in multi-terrain casters",
+        "350 lb"
+      ],
+      "cons": [
+        "No tool trays listed"
+      ]
+    },
+    {
+      "asin": "B0D886C5LJ",
+      "name": "Auto Dynasty 40 in Low-Profile Under-Car Rolling Mechanic Creeper, Red",
+      "brand": "Auto Dynasty",
+      "model": "ADTOOLS00005",
+      "image": "https://m.media-amazon.com/images/I/71Ub5kXn6yL._AC_SL1500_.jpg",
+      "price": 42.88,
+      "rating": 4.4,
+      "reviews_count": 310,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "One-piece plastic, low profile",
+        "capacity": "350 lb",
+        "casters": "6 x 3 in multi-terrain",
+        "size": "40 in",
+        "extras": "HDPE body"
+      },
+      "features": {
+        "converts_to_seat": false,
+        "capacity_330": true,
+        "big_casters": true,
+        "tool_trays": false
+      },
+      "verdict": "A cheaper take on the one-piece plastic creeper with 3-inch casters and a 350 lb capacity.",
+      "best_for": "A cheap, light creeper for occasional oil changes.",
+      "skip_if": "You want a long track record; it has 310 reviews.",
+      "pros": [
+        "350 lb, 3 in casters",
+        "500+ sold last month"
+      ],
+      "cons": [
+        "310 reviews"
+      ]
+    },
+    {
+      "asin": "B0BZTW3XZK",
+      "name": "VEVOR 36\" Z Creeper Seat, 2-in-1 Mechanic Creeper, 300 lb",
+      "brand": "VEVOR",
+      "model": "36 in Z Creeper",
+      "image": "https://m.media-amazon.com/images/I/610cw76WUtL._AC_SL1500_.jpg",
+      "price": 42.9,
+      "rating": 4.3,
+      "reviews_count": 1574,
+      "bought": "400+/mo",
+      "specs": {
+        "type": "Z-fold, converts to stool",
+        "capacity": "300 lb",
+        "casters": "6 x 2.5 in ball-bearing",
+        "size": "36 in",
+        "extras": "Thick vinyl cushion and headrest"
+      },
+      "features": {
+        "converts_to_seat": true,
+        "capacity_330": false,
+        "big_casters": false,
+        "tool_trays": false
+      },
+      "verdict": "VEVOR's folding Z creeper converts to a stool and has a thick vinyl cushion, for a little more than the M-AUTO.",
+      "best_for": "Folding creeper-and-seat use in a small garage.",
+      "skip_if": "You need over 300 lb capacity.",
+      "pros": [
+        "Converts to a stool",
+        "Thick cushion",
+        "1,574 reviews"
+      ],
+      "cons": [
+        "300 lb",
+        "36 in long"
+      ]
+    },
+    {
+      "asin": "B0CNY5D9KJ",
+      "name": "MAXWORKS 50874 40 Inch Plastic Rolling Garage Creeper with Padded Headrest and Dual Tool Trays",
+      "brand": "MAXWORKS",
+      "model": "50874",
+      "image": "https://m.media-amazon.com/images/I/61DJTAiA2LL._AC_SL1500_.jpg",
+      "price": 40.99,
+      "rating": 4.6,
+      "reviews_count": 282,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "One-piece PVC, low profile",
+        "capacity": "300 lb",
+        "casters": "6 swivel",
+        "size": "40 in",
+        "extras": "Padded headrest, built-in tool storage, oil and solvent resistant"
+      },
+      "features": {
+        "converts_to_seat": false,
+        "capacity_330": false,
+        "big_casters": false,
+        "tool_trays": true
+      },
+      "verdict": "A low-profile one-piece creeper that won't rust, resists oil and solvents, and has built-in tool storage.",
+      "best_for": "Oil changes and undercar work on a budget.",
+      "skip_if": "You need over 300 lb.",
+      "pros": [
+        "Built-in tool storage",
+        "Won't rust",
+        "4.6 stars"
+      ],
+      "cons": [
+        "300 lb",
+        "Caster size not listed"
+      ]
+    },
+    {
+      "asin": "B0028JQZ5U",
+      "name": "BIG RED TR6452 Torin 40\" Padded Rolling Shop Creeper with Adjustable Headrest",
+      "brand": "BIG RED",
+      "model": "TR6452",
+      "image": "https://m.media-amazon.com/images/I/71yaWrTIZ6L._AC_SL1500_.jpg",
+      "price": 67.26,
+      "rating": 4.6,
+      "reviews_count": 1641,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "Padded steel frame",
+        "capacity": "250 lb",
+        "casters": "6 x 360° swivel",
+        "size": "40 in",
+        "extras": "Adjustable cushioned headrest"
+      },
+      "features": {
+        "converts_to_seat": false,
+        "capacity_330": false,
+        "big_casters": false,
+        "tool_trays": false
+      },
+      "verdict": "A traditional padded creeper on a tubular steel frame with an adjustable headrest, rated 4.6 stars on 1,641 reviews.",
+      "best_for": "Mechanics who prefer a padded bench to hard plastic.",
+      "skip_if": "You weigh over 250 lb.",
+      "pros": [
+        "Fully padded",
+        "Adjustable headrest",
+        "1,641 reviews"
+      ],
+      "cons": [
+        "250 lb capacity"
+      ]
+    },
+    {
+      "asin": "B01HZ6BRF8",
+      "premium": true,
+      "name": "Lisle 99102 Green Neon Low Profile Plastic Creeper",
+      "brand": "Lisle",
+      "model": "99102",
+      "image": "https://m.media-amazon.com/images/I/41ClWjc8lNL._AC_SL1080_.jpg",
+      "price": 105.55,
+      "rating": 4.8,
+      "reviews_count": 255,
+      "specs": {
+        "type": "One-piece plastic, ultra low profile",
+        "capacity": null,
+        "casters": "6 x 2 in ball-bearing, replaceable",
+        "size": "11.5 lb",
+        "extras": "7/8 in floor clearance, handles on 3 sides"
+      },
+      "features": {
+        "converts_to_seat": false,
+        "capacity_330": false,
+        "big_casters": false,
+        "tool_trays": false
+      },
+      "verdict": "A pro creeper that sits just 7/8 inch off the floor, with a body shaped on many body types and pop-in replaceable rollers. It's the best-rated creeper here.",
+      "best_for": "Getting under low cars where every inch matters.",
+      "skip_if": "Your floor is rough; small 2-inch rollers snag on cracks.",
+      "pros": [
+        "4.8 stars",
+        "7/8 in clearance",
+        "Replaceable rollers"
+      ],
+      "cons": [
+        "Expensive for a plastic creeper",
+        "2 in rollers"
+      ]
+    },
+    {
+      "asin": "B002Y090BY",
+      "name": "Traxion 3-100 Foldable Topside Automotive Engine Creeper",
+      "brand": "Traxion",
+      "model": "3-100",
+      "image": "https://m.media-amazon.com/images/I/71tXH6SjK3L._AC_SL1500_.jpg",
+      "price": 289.99,
+      "rating": 4.6,
+      "reviews_count": 1513,
+      "bought": "100+/mo",
+      "specs": {
+        "type": "Topside (over the engine)",
+        "capacity": null,
+        "casters": "4 swivel, 2 locking",
+        "size": "Folds compact",
+        "extras": "Adjustable height, padded deck"
+      },
+      "features": {
+        "converts_to_seat": false,
+        "capacity_330": false,
+        "big_casters": false,
+        "tool_trays": false
+      },
+      "verdict": "A different kind of creeper: a padded deck on a ladder frame that lets you lie over the engine bay of a truck or SUV instead of leaning on the fender.",
+      "best_for": "Engine work on lifted trucks and tall SUVs.",
+      "skip_if": "You work under cars; this is for working on top.",
+      "pros": [
+        "Reach into tall engine bays",
+        "Folds away",
+        "1,513 reviews"
+      ],
+      "cons": [
+        "Expensive",
+        "Not an under-car creeper"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FXLFM1YS",
+      "name": "Magic Rolling Creeper Mat Portable Mechanic Mat",
+      "brand": "YQCQWL",
+      "model": "Rolling Creeper Mechanic Mat 2026",
+      "image": "https://m.media-amazon.com/images/I/81ukoDJimsL._AC_SL1500_.jpg",
+      "price": 20.74,
+      "rating": 4.3,
+      "reviews_count": 140,
+      "flag": "Called a rolling creeper; it has no wheels",
+      "verdict": "It's titled a 'Rolling Creeper', but the listing itself says it has no wheels: you push yourself along on a mat.",
+      "reasons": [
+        "The first bullet says 'No wheels—you move by shifting your body', which contradicts 'Rolling Creeper' in the title.",
+        "Without casters you can't reposition under a car with a push of your feet, the reason creepers exist.",
+        "If space or ground clearance is the problem, the Lisle 99102 sits 7/8 inch off the floor on real rollers; a plain cardboard sheet does the mat's job for free."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Plastic or padded?",
+      "a": "One-piece plastic creepers are light, low and easy to clean; oil doesn't soak in. Padded steel creepers are more comfortable for long jobs but sit higher and the vinyl can tear."
+    },
+    {
+      "q": "Why do caster size and floor matter?",
+      "a": "Bigger casters (3 inches) roll over cracks, cords and expansion joints. Small casters sit lower but catch on everything. On a rough or gravel surface, nothing rolls well."
+    },
+    {
+      "q": "Do I want a Z creeper?",
+      "a": "Z creepers fold into a rolling seat, handy for brakes and wheels and for small garages. They're a little heavier and higher than a flat creeper."
+    },
+    {
+      "q": "How much ground clearance do I need?",
+      "a": "The lower the creeper, the more room between you and the car. Low-profile creepers like the Lisle sit under an inch off the floor; padded creepers sit a few inches up."
+    },
+    {
+      "q": "Is it safe under a jack?",
+      "a": "Never work under a car held only by a jack. Use jack stands on solid ground and chock the wheels."
+    }
+  ]
+}

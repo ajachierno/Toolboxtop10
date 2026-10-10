@@ -1,0 +1,452 @@
+{
+  "slug": "wire-strippers",
+  "title": "The 10 Best Wire Strippers",
+  "subtitle": "Manual and self-adjusting wire strippers for house wiring, car wiring and electronics, ranked from live Amazon data.",
+  "intro": "A wire stripper removes insulation without nicking the copper, which a knife can't do reliably. We ranked 10 best-sellers from Klein, KNIPEX, IRWIN and value brands on rating, review volume and features (self-adjusting jaws, a crimper, screw or bolt cutters and separate solid and stranded markings). Klein makes three of the ten picks.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 15,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "self_adjusting": 0.35,
+    "crimper": 0.25,
+    "screw_or_bolt_cutter": 0.2,
+    "stranded_marked": 0.2
+  },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "range",
+      "label": "Wire range"
+    },
+    {
+      "key": "length",
+      "label": "Length"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "self_adjusting",
+      "label": "Self-adjusting",
+      "type": "bool"
+    },
+    {
+      "key": "crimper",
+      "label": "Crimper",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00CXKOEQ6",
+      "name": "Klein Tools 11061 8-Inch Self-Adjusting Wire Stripper/Cutter",
+      "brand": "Klein Tools",
+      "model": "11061",
+      "image": "https://m.media-amazon.com/images/I/71tbmRuoO7L._AC_SL1500_.jpg",
+      "price": 22.96,
+      "rating": 4.6,
+      "reviews_count": 10541,
+      "bought": "2K+/mo",
+      "specs": {
+        "type": "Self-adjusting",
+        "range": "10-20 AWG solid, 12-22 AWG stranded, 12/2 and 14/3 Romex",
+        "length": "8 in",
+        "extras": "Strips Romex sheathing"
+      },
+      "features": {
+        "self_adjusting": true,
+        "crimper": false,
+        "screw_or_bolt_cutter": false,
+        "stranded_marked": true
+      },
+      "verdict": "Klein's self-adjusting stripper grabs and strips in one squeeze and handles 12/2 and 14/3 Romex sheathing, not just individual conductors.",
+      "best_for": "Electricians and remodelers stripping lots of house wire.",
+      "skip_if": "You need to crimp terminals too.",
+      "pros": [
+        "Self-adjusting",
+        "Strips Romex sheathing",
+        "10,541 reviews"
+      ],
+      "cons": [
+        "No crimper",
+        "4.6 stars"
+      ]
+    },
+    {
+      "asin": "B073YG65N2",
+      "name": "WGGE WG-015 Professional Wire Stripper, Wire Cutter and Wire Crimper, 8-inch",
+      "brand": "WGGE",
+      "model": "WG-015",
+      "image": "https://m.media-amazon.com/images/I/61OtPfu3CzL._AC_SL1500_.jpg",
+      "price": 8.69,
+      "rating": 4.6,
+      "reviews_count": 17090,
+      "bought": "10K+/mo",
+      "specs": {
+        "type": "Manual, gauge holes",
+        "range": "10-22 AWG solid",
+        "length": "8 in",
+        "extras": "Crimps insulated and non-insulated terminals"
+      },
+      "features": {
+        "self_adjusting": false,
+        "crimper": true,
+        "screw_or_bolt_cutter": false,
+        "stranded_marked": false
+      },
+      "verdict": "The best-selling stripper here by far: a cheap 8-inch manual stripper, cutter and crimper with gauge holes for 10-22 AWG solid wire.",
+      "best_for": "Occasional household and car wiring on a budget.",
+      "skip_if": "You strip all day; a self-adjusting tool is faster.",
+      "pros": [
+        "10,000+ sold last month; 17,090 reviews",
+        "Crimper built in",
+        "Under $10"
+      ],
+      "cons": [
+        "Manual gauge holes",
+        "Solid-wire markings only"
+      ]
+    },
+    {
+      "asin": "B00080DPNQ",
+      "name": "Klein Tools 11055EP Wire Cutter and Stripper, Made in USA, Solid and Stranded",
+      "brand": "Klein Tools",
+      "model": "11055",
+      "image": "https://m.media-amazon.com/images/I/51vtDdpy8vL._AC_SL1000_.jpg",
+      "price": 20.99,
+      "rating": 4.8,
+      "reviews_count": 9124,
+      "bought": "3K+/mo",
+      "specs": {
+        "type": "Manual, gauge holes",
+        "range": "10-18 AWG solid, 12-20 AWG stranded",
+        "length": null,
+        "extras": "Shears 6-32 and 8-32 screws, serrated nose, made in USA"
+      },
+      "features": {
+        "self_adjusting": false,
+        "crimper": false,
+        "screw_or_bolt_cutter": true,
+        "stranded_marked": true
+      },
+      "verdict": "The classic electrician's stripper: made in the USA, with precision-ground holes marked for solid and stranded wire, a serrated nose for bending loops, and screw shears for 6-32 and 8-32 screws.",
+      "best_for": "Electricians doing outlets, switches and fixtures.",
+      "skip_if": "You want automatic stripping.",
+      "pros": [
+        "4.8 stars; 9,124 reviews",
+        "Solid and stranded markings",
+        "Shears 6-32 and 8-32 screws"
+      ],
+      "cons": [
+        "Manual"
+      ]
+    },
+    {
+      "asin": "B00BC39YFQ",
+      "name": "Klein Tools 11063W 7-Inch Heavy-Duty Automatic Wire Cutter/Stripper",
+      "brand": "Klein Tools",
+      "model": "11063W",
+      "image": "https://m.media-amazon.com/images/I/713McL6YobL._AC_SL1500_.jpg",
+      "price": 30.97,
+      "rating": 4.8,
+      "reviews_count": 11189,
+      "bought": "2K+/mo",
+      "specs": {
+        "type": "Automatic",
+        "range": "8-20 AWG solid, 10-22 AWG stranded",
+        "length": "7 in",
+        "extras": "Cast alloy body"
+      },
+      "features": {
+        "self_adjusting": true,
+        "crimper": false,
+        "screw_or_bolt_cutter": false,
+        "stranded_marked": true
+      },
+      "verdict": "A heavy-duty automatic stripper with a cast alloy body that strips 8-20 AWG solid wire in one squeeze and rates 4.8 stars.",
+      "best_for": "Fast, repetitive stripping of individual conductors.",
+      "skip_if": "You need it for Romex sheathing; the 11061 does that.",
+      "pros": [
+        "4.8 stars; 11,189 reviews",
+        "Strips down to 8 AWG",
+        "Cast alloy body"
+      ],
+      "cons": [
+        "Bulkier than plier-style strippers"
+      ]
+    },
+    {
+      "asin": "B000JNNWQ2",
+      "name": "IRWIN VISE-GRIP Wire Stripping Tool / Wire Cutter, 8 inch, 10-22 AWG (2078309)",
+      "brand": "IRWIN",
+      "model": "2078309",
+      "image": "https://m.media-amazon.com/images/I/51lhMe8zrEL._AC_SL1000_.jpg",
+      "price": 13.99,
+      "rating": 4.7,
+      "reviews_count": 21322,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Manual, gauge holes",
+        "range": "10-22 AWG",
+        "length": "8 in",
+        "extras": "Bolt cutter, crimper, induction-hardened cutter"
+      },
+      "features": {
+        "self_adjusting": false,
+        "crimper": true,
+        "screw_or_bolt_cutter": true,
+        "stranded_marked": false
+      },
+      "verdict": "The most-reviewed stripper here, with 21,322 reviews: a VISE-GRIP manual stripper with an induction-hardened cutter, a bolt cutter that leaves clean threads, and a crimper.",
+      "best_for": "One affordable tool that strips, cuts, crimps and trims bolts.",
+      "skip_if": "You want automatic stripping.",
+      "pros": [
+        "21,322 reviews; 4.7 stars",
+        "Bolt cutter and crimper",
+        "Hardened cutting edge"
+      ],
+      "cons": [
+        "Manual"
+      ]
+    },
+    {
+      "asin": "B0B2NWK1QX",
+      "name": "haisstronica 3-in-1 Self-Adjusting Wire Stripper, Cutter and Crimper, AWG 24-10",
+      "brand": "haisstronica",
+      "model": "HX1519",
+      "image": "https://m.media-amazon.com/images/I/61YbPw4OfaL._AC_SL1500_.jpg",
+      "price": 13.99,
+      "rating": 4.6,
+      "reviews_count": 3982,
+      "bought": "3K+/mo",
+      "specs": {
+        "type": "Self-adjusting",
+        "range": "24-10 AWG",
+        "length": null,
+        "extras": "Crimper, adjustable strip length"
+      },
+      "features": {
+        "self_adjusting": true,
+        "crimper": true,
+        "screw_or_bolt_cutter": false,
+        "stranded_marked": false
+      },
+      "verdict": "A self-adjusting stripper with a built-in crimper and cutter for 24-10 AWG, for about $9 less than the Klein 11061.",
+      "best_for": "DIYers wiring cars, trailers and electronics who want auto stripping and crimping.",
+      "skip_if": "You strip Romex sheathing.",
+      "pros": [
+        "Self-adjusting plus crimper",
+        "3,000+ sold last month",
+        "24-10 AWG"
+      ],
+      "cons": [
+        "Unknown brand",
+        "4.6 stars"
+      ]
+    },
+    {
+      "asin": "B07TS6KCXD",
+      "name": "Amazon Basics Self-Adjusting Wire Stripper and Crimping Tool, 10-24 AWG",
+      "brand": "Amazon Basics",
+      "model": "DS-SWP",
+      "image": "https://m.media-amazon.com/images/I/71+eswDt8UL._AC_SL1500_.jpg",
+      "price": 10.49,
+      "rating": 4.2,
+      "reviews_count": 4949,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Self-adjusting",
+        "range": "10-24 AWG",
+        "length": null,
+        "extras": "Crimps 10-22 AWG terminals and 7-9 mm ignition terminals"
+      },
+      "features": {
+        "self_adjusting": true,
+        "crimper": true,
+        "screw_or_bolt_cutter": false,
+        "stranded_marked": false
+      },
+      "verdict": "A cheap self-adjusting stripper that also crimps insulated and non-insulated terminals and 7-9 mm ignition terminals.",
+      "best_for": "Car and trailer wiring on a budget.",
+      "skip_if": "You want the best-rated auto stripper; this one is 4.2 stars.",
+      "pros": [
+        "Self-adjusting plus crimper",
+        "Ignition terminal crimps",
+        "Low price"
+      ],
+      "cons": [
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B08G48R47N",
+      "name": "VCELINK Quick Strip Automatic Wire Stripper and Cutter, 14-24 AWG",
+      "brand": "VCELINK",
+      "model": "GJ702BL-1P",
+      "image": "https://m.media-amazon.com/images/I/61iU6TNlhUL._AC_SL1500_.jpg",
+      "price": 9.99,
+      "rating": 4.5,
+      "reviews_count": 4251,
+      "bought": "2K+/mo",
+      "specs": {
+        "type": "Automatic, spring-loaded",
+        "range": "14-24 AWG solid or stranded",
+        "length": null,
+        "extras": "Good for speaker and flat wire, 18-month warranty"
+      },
+      "features": {
+        "self_adjusting": true,
+        "crimper": false,
+        "screw_or_bolt_cutter": false,
+        "stranded_marked": false
+      },
+      "verdict": "A small spring-loaded automatic stripper for 14-24 AWG wire, handy for speaker wire, low-voltage and electronics.",
+      "best_for": "Speaker, doorbell and low-voltage wiring.",
+      "skip_if": "You strip 12 or 10 AWG house wire.",
+      "pros": [
+        "Automatic, one-handed",
+        "Under $10",
+        "18-month warranty"
+      ],
+      "cons": [
+        "Only down to 14 AWG"
+      ]
+    },
+    {
+      "asin": "B08L8D54FB",
+      "premium": true,
+      "name": "KNIPEX 13 72 8 Forged Wire Stripper, 8-Inch",
+      "brand": "KNIPEX",
+      "model": "13 72 8",
+      "image": "https://m.media-amazon.com/images/I/51UdpMcM3nL._AC_SL1500_.jpg",
+      "price": 59.51,
+      "rating": 4.8,
+      "reviews_count": 3808,
+      "bought": "2K+/mo",
+      "specs": {
+        "type": "Manual, gauge holes",
+        "range": "10-20 AWG solid and stranded",
+        "length": "8 in",
+        "extras": "Screw cutting 6-32 and 8-32, locating ridges"
+      },
+      "features": {
+        "self_adjusting": false,
+        "crimper": false,
+        "screw_or_bolt_cutter": true,
+        "stranded_marked": true
+      },
+      "verdict": "A premium forged KNIPEX stripper with locating ridges to find the right hole by feel, screw cutting and shear blades KNIPEX says cut 50% more than competitors.",
+      "best_for": "Pros who want the best-made manual stripper.",
+      "skip_if": "You're on a budget; the Klein 11055 does the same job for about a third of the price.",
+      "pros": [
+        "Forged, 4.8 stars",
+        "Locating ridges",
+        "Screw cutting"
+      ],
+      "cons": [
+        "Most expensive here"
+      ]
+    },
+    {
+      "asin": "B003B8WB5U",
+      "name": "KNIPEX 12 62 180 Automatic Wire Stripper, 10-24 AWG, 7.25 in",
+      "brand": "KNIPEX",
+      "model": "12 62 180",
+      "image": "https://m.media-amazon.com/images/I/51RUxvj2DtL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.5,
+      "reviews_count": 1870,
+      "bought": "700+/mo",
+      "specs": {
+        "type": "Automatic",
+        "range": "10-24 AWG",
+        "length": "7.25 in",
+        "extras": null
+      },
+      "features": {
+        "self_adjusting": true,
+        "crimper": false,
+        "screw_or_bolt_cutter": false,
+        "stranded_marked": false
+      },
+      "verdict": "KNIPEX's automatic stripper for 10-24 AWG. The listing bullets are generic marketing, but it's a widely used pro tool.",
+      "best_for": "Pros who want a KNIPEX auto stripper.",
+      "skip_if": "You want details on the listing; the bullets are generic.",
+      "pros": [
+        "Automatic, 10-24 AWG",
+        "KNIPEX quality"
+      ],
+      "cons": [
+        "4.5 stars",
+        "Generic listing bullets"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0F1FRHKZ1",
+      "name": "Wire Stripper, 3-rd Generation Wire Strippers or Crimping Tool, 5-IN-1 Wire Crimper or Cutter, 10-20 AWG Electric Wire",
+      "brand": "Htaexpu",
+      "model": "Wire Stripper",
+      "image": "https://m.media-amazon.com/images/I/61A-Mll88ZL._AC_SL1500_.jpg",
+      "price": 4.39,
+      "rating": 4.6,
+      "reviews_count": 611,
+      "flag": "Wire range listed two ways; brand spelled two ways",
+      "verdict": "A $4 stripper whose listing disagrees with itself on the wire sizes it handles and doesn't even spell its own brand consistently.",
+      "reasons": [
+        "The title says '10-20 AWG' but the bullets say 'a range of 10-22 AWG', so you can't tell whether it strips 22-gauge wire.",
+        "The brand field says 'Htaexpu' while the first bullet says 'The Htaxepu Advantage', and the model number is just 'Wire Stripper'.",
+        "The bullets explain what wire strippers do in general instead of describing this tool. The WGGE WG-015 is a few dollars more, clearly specified, and has 17,090 reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Manual or self-adjusting?",
+      "a": "Manual strippers have a hole for each wire gauge; you pick the hole, squeeze and pull. Self-adjusting (automatic) strippers grip and strip in one squeeze on any size in their range. Automatic is faster for repetitive work; manual is slimmer and more precise in tight boxes."
+    },
+    {
+      "q": "What's the difference between solid and stranded?",
+      "a": "House wiring is usually solid copper; extension cords, car wiring and speaker wire are stranded. Stranded wire of the same gauge is slightly thicker, so better strippers mark separate holes for each."
+    },
+    {
+      "q": "What gauge is house wiring?",
+      "a": "Most US outlets and lights use 14 AWG (15 A circuits) or 12 AWG (20 A circuits). Strippers rated 10-20 or 10-22 AWG cover both."
+    },
+    {
+      "q": "Do I need a crimper?",
+      "a": "If you work on cars, trailers or anything with spade and ring terminals, yes. For outlets and switches, no."
+    },
+    {
+      "q": "What are screw shears for?",
+      "a": "Holes for 6-32 and 8-32 screws let you cut outlet and switch screws to length without ruining the threads."
+    }
+  ]
+}

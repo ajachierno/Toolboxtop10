@@ -1,0 +1,453 @@
+{
+  "slug": "voltage-testers",
+  "title": "The 10 Best Non-Contact Voltage Testers",
+  "subtitle": "Non-contact voltage tester pens for outlets, switches and fixtures, ranked from live Amazon data.",
+  "intro": "A non-contact voltage tester beeps when it's near a live AC wire, the first safety check before you touch an outlet, switch or fixture. We ranked 10 best-sellers from Fluke, Klein, Santronics and value brands on rating, review volume and features (a CAT IV rating, a low-voltage mode, a self-check and a flashlight). Always confirm a tester on a known live outlet before you trust it.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 12,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "cat_iv": 0.3,
+    "dual_range": 0.25,
+    "self_check": 0.25,
+    "flashlight": 0.2
+  },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    {
+      "key": "range",
+      "label": "Detection range"
+    },
+    {
+      "key": "rating",
+      "label": "Safety rating"
+    },
+    {
+      "key": "alerts",
+      "label": "Alerts"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "rating",
+      "label": "Rating"
+    },
+    {
+      "key": "dual_range",
+      "label": "Low-voltage mode",
+      "type": "bool"
+    },
+    {
+      "key": "self_check",
+      "label": "Self-check",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B000EJ332O",
+      "force_overall": true,
+      "name": "Fluke 1AC II VoltAlert Non-Contact Voltage Tester, 90-1000V AC, CAT IV",
+      "brand": "Fluke",
+      "model": "1AC II",
+      "image": "https://m.media-amazon.com/images/I/61UvsXlpIaL._SL1500_.jpg",
+      "price": 36.23,
+      "rating": 4.7,
+      "reviews_count": 15523,
+      "bought": "6K+/mo",
+      "specs": {
+        "range": "90-1,000 V AC (200-1,000 V version also sold)",
+        "rating": "CAT IV",
+        "alerts": "Red tip, beeper",
+        "extras": "Continuous self-test"
+      },
+      "features": {
+        "cat_iv": true,
+        "dual_range": false,
+        "self_check": true,
+        "flashlight": false
+      },
+      "verdict": "The best-selling and most-reviewed voltage tester here: Fluke's pocket VoltAlert with a CAT IV rating and a continuous self-test so you know it's working before you trust it.",
+      "best_for": "Anyone who wants the tester electricians trust most.",
+      "skip_if": "You need to detect low-voltage wiring like thermostats; it starts at 90 V.",
+      "pros": [
+        "15,523 reviews; 4.7 stars",
+        "CAT IV",
+        "Continuous self-test"
+      ],
+      "cons": [
+        "No low-voltage mode",
+        "No flashlight"
+      ]
+    },
+    {
+      "asin": "B099SJ6469",
+      "name": "Klein Tools NCVT1P Non-Contact Voltage Tester Pen, 50 to 1000V AC",
+      "brand": "Klein Tools",
+      "model": "NCVT1P",
+      "image": "https://m.media-amazon.com/images/I/41InHNfIYlL._SL1000_.jpg",
+      "price": 15.98,
+      "rating": 4.6,
+      "reviews_count": 7460,
+      "bought": "5K+/mo",
+      "specs": {
+        "range": "50-1,000 V AC",
+        "rating": "CAT IV 1000V",
+        "alerts": "Red flash, beep",
+        "extras": "Green LED shows it's on and working"
+      },
+      "features": {
+        "cat_iv": true,
+        "dual_range": false,
+        "self_check": true,
+        "flashlight": false
+      },
+      "verdict": "Klein's basic voltage pen: CAT IV 1000V rated, 50-1,000 V AC, and a green light that shows it's on before you test.",
+      "best_for": "Homeowners checking outlets, switches and fixtures before work.",
+      "skip_if": "You want low-voltage detection; get the NCVT3P.",
+      "pros": [
+        "CAT IV 1000V",
+        "7,460 reviews",
+        "Low price for a name brand"
+      ],
+      "cons": [
+        "No low-voltage mode"
+      ]
+    },
+    {
+      "asin": "B08DQMX7YF",
+      "name": "Klein Tools NCVT3P Dual Range NCVT Pen, 12-1000V AC, with Flashlight",
+      "brand": "Klein Tools",
+      "model": "NCVT3P",
+      "image": "https://m.media-amazon.com/images/I/512ct7PKVFL._SL1000_.jpg",
+      "price": 24.98,
+      "rating": 4.7,
+      "reviews_count": 4689,
+      "bought": "3K+/mo",
+      "specs": {
+        "range": "12-1,000 V AC (dual range)",
+        "rating": null,
+        "alerts": "Red flash, beep",
+        "extras": "Flashlight, green ready light, auto power off"
+      },
+      "features": {
+        "cat_iv": false,
+        "dual_range": true,
+        "self_check": true,
+        "flashlight": true
+      },
+      "verdict": "Klein's dual-range pen also detects low voltage in security, entertainment and thermostat wiring, and adds a flashlight.",
+      "best_for": "Electricians and installers who work with low-voltage wiring too.",
+      "skip_if": "You only test household outlets; the NCVT1P is cheaper.",
+      "pros": [
+        "Detects down to 12 V",
+        "Flashlight",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Safety rating not in the bullets"
+      ]
+    },
+    {
+      "asin": "B01JYCVU2Q",
+      "name": "Neoteck Non-Contact Voltage Detector 12-1000V AC with Flashlight",
+      "brand": "Neoteck",
+      "model": "PM8908C",
+      "image": "https://m.media-amazon.com/images/I/61FvHgFpCNL._SL1500_.jpg",
+      "price": 9.99,
+      "rating": 4.5,
+      "reviews_count": 13795,
+      "bought": "5K+/mo",
+      "specs": {
+        "range": "12-1,000 V AC",
+        "rating": "CAT III 600V",
+        "alerts": "LED, beep",
+        "extras": "Flashlight, live/neutral identification"
+      },
+      "features": {
+        "cat_iv": false,
+        "dual_range": true,
+        "self_check": false,
+        "flashlight": true
+      },
+      "verdict": "A cheap tester with 12-1,000 V detection and a flashlight, rated CAT III 600V. It has 13,795 reviews.",
+      "best_for": "A cheap tester for the junk drawer.",
+      "skip_if": "You'll test service panels; it's rated CAT III, not CAT IV.",
+      "pros": [
+        "13,795 reviews",
+        "Very cheap",
+        "Flashlight"
+      ],
+      "cons": [
+        "CAT III 600V",
+        "No self-check"
+      ]
+    },
+    {
+      "asin": "B0C2CNC624",
+      "name": "KAIWEETS Non-Contact Voltage Tester with Signal Percentage, Dual Range 12V/70V-1000V",
+      "brand": "KAIWEETS",
+      "model": "HT100s",
+      "image": "https://m.media-amazon.com/images/I/71rfsv1OOIL._SL1500_.jpg",
+      "price": 11.99,
+      "rating": 4.6,
+      "reviews_count": 5746,
+      "bought": "4K+/mo",
+      "specs": {
+        "range": "12-1,000 / 70-1,000 V AC",
+        "rating": "CAT III 1000V, CAT IV 600V",
+        "alerts": "Sound, light, signal strength %",
+        "extras": "Flashlight, breakpoint finding"
+      },
+      "features": {
+        "cat_iv": true,
+        "dual_range": true,
+        "self_check": false,
+        "flashlight": true
+      },
+      "verdict": "A budget tester with dual ranges, a screen that shows signal strength as a percentage, a flashlight and a CAT IV 600V rating.",
+      "best_for": "Finding breaks in wires and testing outlets on a budget.",
+      "skip_if": "You want a name-brand tester.",
+      "pros": [
+        "CAT IV 600V",
+        "Signal strength readout",
+        "Under $12"
+      ],
+      "cons": [
+        "4.6 stars"
+      ]
+    },
+    {
+      "asin": "B004I9J4DI",
+      "name": "Fluke 2AC Alert Voltage Tester, 90-1000V AC",
+      "brand": "Fluke",
+      "model": "2AC",
+      "image": "https://m.media-amazon.com/images/I/41WcH27xItL._SL1125_.jpg",
+      "price": 34.75,
+      "rating": 4.6,
+      "reviews_count": 3048,
+      "bought": "1K+/mo",
+      "specs": {
+        "range": "90-1,000 V AC",
+        "rating": null,
+        "alerts": "Tip glows",
+        "extras": "VoltBeat continuous self-test"
+      },
+      "features": {
+        "cat_iv": false,
+        "dual_range": false,
+        "self_check": true,
+        "flashlight": false
+      },
+      "verdict": "Fluke's slimmer tester with VoltBeat continuous self-test and a tip that glows when it finds voltage.",
+      "best_for": "Fluke fans who want a slim pen.",
+      "skip_if": "You want a beeper; the listing mentions only the glowing tip.",
+      "pros": [
+        "Continuous self-test",
+        "Fluke quality",
+        "3,048 reviews"
+      ],
+      "cons": [
+        "No beeper listed",
+        "Rating not in the bullets"
+      ]
+    },
+    {
+      "asin": "B07SLFX6B2",
+      "premium": true,
+      "name": "Klein Tools NCVT-6 Non-Contact Volt Tester, 12-1000V AC, with Laser Distance Meter",
+      "brand": "Klein Tools",
+      "model": "NCVT6",
+      "image": "https://m.media-amazon.com/images/I/51SkPVzVwSL._SL1000_.jpg",
+      "price": 54.97,
+      "rating": 4.6,
+      "reviews_count": 2016,
+      "bought": "400+/mo",
+      "specs": {
+        "range": "12-1,000 V AC",
+        "rating": "CAT IV 1000V",
+        "alerts": "LED, beep",
+        "extras": "66 ft laser distance meter"
+      },
+      "features": {
+        "cat_iv": true,
+        "dual_range": true,
+        "self_check": false,
+        "flashlight": false
+      },
+      "verdict": "A Klein voltage pen with a 66-foot laser distance meter built in, CAT IV 1000V rated, for electricians who measure runs as they test.",
+      "best_for": "Electricians who want a tester and a quick distance measure in one pocket tool.",
+      "skip_if": "You only need a tester.",
+      "pros": [
+        "CAT IV 1000V",
+        "Built-in 66 ft laser measure",
+        "Detects down to 12 V"
+      ],
+      "cons": [
+        "Most expensive here"
+      ]
+    },
+    {
+      "asin": "B008M6YLF4",
+      "name": "Santronics 3000 Always-On Non-Contact Voltage Tester, 50-1000VAC, CAT IV, Made in USA",
+      "brand": "Santronics",
+      "model": "3000",
+      "image": "https://m.media-amazon.com/images/I/61K2AvWrSHL._AC_SL1500_.jpg",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviews_count": 519,
+      "bought": "200+/mo",
+      "specs": {
+        "range": "50-1,000 V AC",
+        "rating": "CAT IV",
+        "alerts": "High-intensity LED, loud beep",
+        "extras": "Always on, no switch; made in USA"
+      },
+      "features": {
+        "cat_iv": true,
+        "dual_range": false,
+        "self_check": true,
+        "flashlight": false
+      },
+      "verdict": "An always-on tester with no button to forget, made in the USA, CAT IV rated, and calibrated to tell hot from neutral.",
+      "best_for": "Anyone who's tested a dead circuit with a tester that was switched off.",
+      "skip_if": "You want low-voltage detection.",
+      "pros": [
+        "Always on, nothing to switch",
+        "CAT IV",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Only 519 reviews"
+      ]
+    },
+    {
+      "asin": "B0DCNWJKZX",
+      "name": "AstroAI VTS1000H Voltage Tester with Screwdriver, Dual Range 12V/70V-1000V",
+      "brand": "AstroAI",
+      "model": "VTS1000H",
+      "image": "https://m.media-amazon.com/images/I/61GNQCD9w+L._SL1500_.jpg",
+      "price": 9.99,
+      "rating": 4.7,
+      "reviews_count": 1011,
+      "bought": "400+/mo",
+      "specs": {
+        "range": "12-1,000 / 70-1,000 V AC",
+        "rating": "CAT IV 600V, CAT III 1000V",
+        "alerts": "Sound and light",
+        "extras": "Built-in screwdriver, backlit screen, flashlight"
+      },
+      "features": {
+        "cat_iv": true,
+        "dual_range": true,
+        "self_check": false,
+        "flashlight": true
+      },
+      "verdict": "A tester with a steel screwdriver in its tail, dual ranges, a backlit screen, a flashlight and a CAT IV 600V rating.",
+      "best_for": "Swapping outlets and switches with one tool in your pocket.",
+      "skip_if": "You want a long track record; it has about 1,000 reviews.",
+      "pros": [
+        "Built-in screwdriver",
+        "CAT IV 600V",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Newer, fewer reviews"
+      ]
+    },
+    {
+      "asin": "B09ZXY4HVK",
+      "name": "VENLAB Non-Contact Voltage Tester, Dual Range 12V-1000V/48V-1000V, with Flashlight",
+      "brand": "VENLAB",
+      "model": "VD-200",
+      "image": "https://m.media-amazon.com/images/I/71zEqC0V5QL._SL1500_.jpg",
+      "price": 9.99,
+      "rating": 4.5,
+      "reviews_count": 1997,
+      "bought": "1K+/mo",
+      "specs": {
+        "range": "12-1,000 / 48-1,000 V AC",
+        "rating": null,
+        "alerts": "Red/yellow light, beep pitch",
+        "extras": "Flashlight, LCD"
+      },
+      "features": {
+        "cat_iv": false,
+        "dual_range": true,
+        "self_check": false,
+        "flashlight": true
+      },
+      "verdict": "A budget dual-range tester that changes light color and beep pitch for high and low voltage, with a flashlight and LCD.",
+      "best_for": "A cheap second tester for the car or toolbag.",
+      "skip_if": "You need a stated safety rating.",
+      "pros": [
+        "Dual range",
+        "Flashlight",
+        "Under $10"
+      ],
+      "cons": [
+        "No CAT rating in the bullets"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B092LFYTG5",
+      "name": "Mr. Pen- Voltage Tester, Electrical Tester, Non Contact Voltage Tester",
+      "brand": "Mr. Pen",
+      "model": "NCD01",
+      "image": "https://m.media-amazon.com/images/I/71TQnacNghL._SL1500_.jpg",
+      "price": 7.85,
+      "rating": 4.5,
+      "reviews_count": 1774,
+      "flag": "No voltage range or CAT safety rating listed",
+      "verdict": "A safety tool sold with no voltage range and no CAT safety rating, from a listing that gets basic facts about how it works wrong.",
+      "reasons": [
+        "The listing never states the voltage range it detects, so you can't know whether it will pick up a 120 V outlet reliably.",
+        "It lists only 'CE, RoHS' under specifications, with no CAT safety rating; the Klein NCVT1P and Fluke 1AC II are CAT IV rated.",
+        "It says the tester detects 'the presence of magnetic field'. Non-contact voltage testers sense the electric field around a live conductor."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "How does a non-contact voltage tester work?",
+      "a": "It senses the electric field around a live AC wire through the insulation and beeps or lights up. It's a quick check before you touch a circuit, not a measurement."
+    },
+    {
+      "q": "Can I trust a tester completely?",
+      "a": "No. Test it on a known live outlet first, then test your circuit, then test the known live outlet again. Testers like the Fluke 1AC II and 2AC run a continuous self-test, which helps. For real numbers, use a multimeter."
+    },
+    {
+      "q": "What is CAT IV?",
+      "a": "CAT ratings say where a tester is safe to use. CAT III covers household wiring and panels; CAT IV covers the service entrance and outdoor lines. CAT IV-rated testers are built to survive bigger voltage spikes."
+    },
+    {
+      "q": "What does dual range mean?",
+      "a": "A low-voltage mode (around 12 V) picks up doorbell, thermostat and low-voltage lighting wires. The normal range ignores them, which avoids false alarms around household wiring."
+    },
+    {
+      "q": "Why doesn't it beep on a DC wire?",
+      "a": "These testers only detect AC. Car batteries, solar panels and DC circuits won't trigger them."
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "slug": "utility-knives",
+  "title": "The 10 Best Utility Knives",
+  "subtitle": "Retractable, folding and flip-open utility knives and box cutters, ranked from live Amazon data.",
+  "intro": "A utility knife takes cheap replaceable blades for cutting boxes, carpet, drywall and rope. We ranked 10 best-sellers from WORKPRO, Klein, Milwaukee, DEWALT, REXBETI and others on rating, review volume and features (quick blade changes, blade storage, spare blades and a metal body). They're inexpensive enough that many people keep one in every drawer and toolbox.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 12,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "quick_change": 0.3,
+    "blade_storage": 0.25,
+    "spare_blades": 0.2,
+    "metal_body": 0.25
+  },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "count",
+      "label": "Knives"
+    },
+    {
+      "key": "blades",
+      "label": "Blades included"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "style",
+      "label": "Style"
+    },
+    {
+      "key": "count",
+      "label": "Knives"
+    },
+    {
+      "key": "quick_change",
+      "label": "Quick change",
+      "type": "bool"
+    },
+    {
+      "key": "blade_storage",
+      "label": "Blade storage",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B097SXK3FG",
+      "force_overall": true,
+      "name": "WORKPRO Premium Utility Knife, Retractable All-Metal Heavy Duty Box Cutter, Quick Change, with 10 Extra Blades",
+      "brand": "WORKPRO",
+      "model": "W013053",
+      "image": "https://m.media-amazon.com/images/I/71vDElw8ywL._AC_SL1500_.jpg",
+      "price": 9.99,
+      "rating": 4.8,
+      "reviews_count": 11201,
+      "bought": "10K+/mo",
+      "specs": {
+        "style": "Retractable, 3 positions",
+        "count": "1",
+        "blades": "10 spares",
+        "extras": "Aluminum body"
+      },
+      "features": {
+        "quick_change": true,
+        "blade_storage": false,
+        "spare_blades": true,
+        "metal_body": true
+      },
+      "verdict": "The best-selling and among the best-rated knives here: an aluminum retractable knife with three blade positions, quick blade changes and 10 spare blades, for under $10.",
+      "best_for": "Anyone who needs one solid box cutter for packages, carpet and drywall.",
+      "skip_if": "You want a folding knife for your pocket.",
+      "pros": [
+        "10,000+ sold last month; 11,201 reviews",
+        "All-metal body",
+        "10 spare blades"
+      ],
+      "cons": [
+        "No onboard blade storage"
+      ]
+    },
+    {
+      "asin": "B09JYJLQXF",
+      "name": "M MEEPO 4-Pack Folding Utility Knife Box Cutters with 10 Blades",
+      "brand": "M MEEPO",
+      "model": "MM011",
+      "image": "https://m.media-amazon.com/images/I/713a-vXCinL._AC_SL1500_.jpg",
+      "price": 9.99,
+      "rating": 4.6,
+      "reviews_count": 4970,
+      "bought": "10K+/mo",
+      "specs": {
+        "style": "Folding, fixed blade",
+        "count": "4",
+        "blades": "10 spares",
+        "extras": "4 colors"
+      },
+      "features": {
+        "quick_change": false,
+        "blade_storage": false,
+        "spare_blades": true,
+        "metal_body": false
+      },
+      "verdict": "Four colorful folding box cutters and 10 spare blades for about the price of one knife, so there's one in every drawer and car.",
+      "best_for": "Households and warehouses that lose box cutters.",
+      "skip_if": "You want a premium knife that lasts years.",
+      "pros": [
+        "4 knives",
+        "10,000+ sold last month",
+        "Very cheap per knife"
+      ],
+      "cons": [
+        "No quick-change listed",
+        "4.6 stars"
+      ]
+    },
+    {
+      "asin": "B0F1C1LFD9",
+      "name": "Klein Tools 44306 FLICKBLADE 2-in-1 Folding Utility Knife and Scraper with Built-In Blade Storage",
+      "brand": "Klein Tools",
+      "model": "44306",
+      "image": "https://m.media-amazon.com/images/I/51fGrUqV+pL._AC_SL1050_.jpg",
+      "price": 17.98,
+      "rating": 4.8,
+      "reviews_count": 803,
+      "bought": "3K+/mo",
+      "specs": {
+        "style": "Folding, 2 lock positions",
+        "count": "1",
+        "blades": "3 triple-ground",
+        "extras": "Converts to a scraper, aluminum body"
+      },
+      "features": {
+        "quick_change": false,
+        "blade_storage": true,
+        "spare_blades": true,
+        "metal_body": true
+      },
+      "verdict": "A Klein folding knife that converts into a scraper, with two lock positions (angled and straight), an aluminum body and a slot that holds a spare blade.",
+      "best_for": "Electricians and remodelers who want a knife and scraper in one.",
+      "skip_if": "You want a cheaper basic box cutter.",
+      "pros": [
+        "Knife plus scraper",
+        "Built-in blade storage",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Pricier than basic knives"
+      ]
+    },
+    {
+      "asin": "B081GGRYQ3",
+      "name": "REXBETI Box Cutter 2-Pack, Utility Knife with Blade Storage, 18 Blades",
+      "brand": "REXBETI",
+      "model": "REX056",
+      "image": "https://m.media-amazon.com/images/I/81nydSWhNsL._AC_SL1500_.jpg",
+      "price": 13.99,
+      "rating": 4.6,
+      "reviews_count": 7721,
+      "bought": "2K+/mo",
+      "specs": {
+        "style": "1 retractable + 1 folding",
+        "count": "2",
+        "blades": "18 SK5",
+        "extras": "Blade storage in handle"
+      },
+      "features": {
+        "quick_change": true,
+        "blade_storage": true,
+        "spare_blades": true,
+        "metal_body": false
+      },
+      "verdict": "A two-knife set (one retractable, one folding) with built-in blade storage, quick blade changes and 18 blackened SK5 blades.",
+      "best_for": "Anyone who wants two styles and enough blades for a year.",
+      "skip_if": "You want a metal-bodied knife.",
+      "pros": [
+        "2 knives, 18 blades",
+        "Blade storage",
+        "7,721 reviews"
+      ],
+      "cons": [
+        "4.6 stars"
+      ]
+    },
+    {
+      "asin": "B00D0YR9A2",
+      "name": "Milwaukee Fastback Folding Utility Knife with Blade Storage (48-22-1502)",
+      "brand": "Milwaukee",
+      "model": "48-22-1502",
+      "image": "https://m.media-amazon.com/images/I/31egmoQS67L._AC_SX522_.jpg",
+      "price": 19.98,
+      "rating": 4.7,
+      "reviews_count": 1957,
+      "bought": "2K+/mo",
+      "specs": {
+        "style": "Flip open, one hand",
+        "count": "1",
+        "blades": null,
+        "extras": "Gut hook, wire stripper to 10 AWG, blade storage, belt clip"
+      },
+      "features": {
+        "quick_change": true,
+        "blade_storage": true,
+        "spare_blades": false,
+        "metal_body": false
+      },
+      "verdict": "Milwaukee's Fastback flips open with one hand and adds a gut hook for cutting string and a 10-gauge wire stripper, plus storage for spare blades and tool-free blade changes.",
+      "best_for": "Trades who want one-handed opening and extras built in.",
+      "skip_if": "You need spare blades in the box; the listing doesn't list any.",
+      "pros": [
+        "One-handed flip open",
+        "Gut hook and wire stripper",
+        "Blade storage"
+      ],
+      "cons": [
+        "Spec table lists model 48-22-1902, not 1502"
+      ]
+    },
+    {
+      "asin": "B07TBNH4ZT",
+      "name": "Amazon Basics Folding Utility Knife Box Cutter with Back-Lock, Aluminum Handle",
+      "brand": "Amazon Basics",
+      "model": "DS-CKAMZ019",
+      "image": "https://m.media-amazon.com/images/I/61EK10Pe0kL._AC_SL1500_.jpg",
+      "price": 7.97,
+      "rating": 4.4,
+      "reviews_count": 6565,
+      "bought": "3K+/mo",
+      "specs": {
+        "style": "Folding, lock-back",
+        "count": "1",
+        "blades": null,
+        "extras": "Stainless blade housing, aluminum handle"
+      },
+      "features": {
+        "quick_change": true,
+        "blade_storage": false,
+        "spare_blades": false,
+        "metal_body": true
+      },
+      "verdict": "The cheapest folding knife here: an aluminum lock-back knife that takes standard blades with quick changes.",
+      "best_for": "A cheap pocket knife for boxes and tape.",
+      "skip_if": "You want spare blades included.",
+      "pros": [
+        "Lowest price here",
+        "Aluminum handle",
+        "6,565 reviews"
+      ],
+      "cons": [
+        "4.4 stars",
+        "No spare blades listed"
+      ]
+    },
+    {
+      "asin": "B0D45SCBMQ",
+      "name": "DEWALT Push and Flip Folding Utility Knife (DWHT10995)",
+      "brand": "DEWALT",
+      "model": "DWHT10995",
+      "image": "https://m.media-amazon.com/images/I/51PgDlU3gkL._AC_SL1000_.jpg",
+      "price": 18.86,
+      "rating": 4.7,
+      "reviews_count": 424,
+      "bought": "600+/mo",
+      "specs": {
+        "style": "Push and flip, one hand",
+        "count": "1",
+        "blades": null,
+        "extras": "30% more compact, blade lock"
+      },
+      "features": {
+        "quick_change": true,
+        "blade_storage": false,
+        "spare_blades": false,
+        "metal_body": false
+      },
+      "verdict": "A DEWALT knife that opens one-handed with a push and flip, with a secure blade lock and a quick-change lever.",
+      "best_for": "DEWALT fans who want a compact, one-handed knife.",
+      "skip_if": "You want blade storage in the handle.",
+      "pros": [
+        "One-handed opening",
+        "Compact",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Only 424 reviews"
+      ]
+    },
+    {
+      "asin": "B01M27QHE2",
+      "name": "INTERNET'S BEST Premium Utility Knife Set, Retractable Box Cutter with Rubber Handle",
+      "brand": "Internet's Best",
+      "model": "10102",
+      "image": "https://m.media-amazon.com/images/I/71jitj8Rl5L._AC_SL1500_.jpg",
+      "price": 19.95,
+      "rating": 4.8,
+      "reviews_count": 14324,
+      "bought": "2K+/mo",
+      "specs": {
+        "style": "Retractable",
+        "count": "Set",
+        "blades": "5 spares in pouch",
+        "extras": "Rubber handle"
+      },
+      "features": {
+        "quick_change": true,
+        "blade_storage": false,
+        "spare_blades": true,
+        "metal_body": false
+      },
+      "verdict": "The most-reviewed knife set here, with 14,324 reviews: retractable knives with rubber grips, quick blade changes and a pouch of five spare blades.",
+      "best_for": "Homes and offices that want a few comfortable knives.",
+      "skip_if": "You want a metal body.",
+      "pros": [
+        "14,324 reviews; 4.8 stars",
+        "Quick-change blades",
+        "Rubber grip"
+      ],
+      "cons": [
+        "Plastic and rubber body"
+      ]
+    },
+    {
+      "asin": "B0CVYD2GXS",
+      "name": "Klein Tools 44304 Folding FLICKBLADE Utility Knife with Removable Impact Driver",
+      "brand": "Klein Tools",
+      "model": "44304",
+      "image": "https://m.media-amazon.com/images/I/71GSoBAWQ+L._AC_SL1500_.jpg",
+      "price": 20.98,
+      "rating": 4.7,
+      "reviews_count": 620,
+      "bought": "1K+/mo",
+      "specs": {
+        "style": "Folding, 135° or 180°",
+        "count": "1",
+        "blades": null,
+        "extras": "Removable impact-rated 1/4 in nut driver and #2 Phillips bit"
+      },
+      "features": {
+        "quick_change": false,
+        "blade_storage": false,
+        "spare_blades": false,
+        "metal_body": false
+      },
+      "verdict": "A Klein folding knife with a detachable impact-rated 1/4-inch nut driver and #2 Phillips bit, so you can cut and drive with one tool.",
+      "best_for": "Electricians and installers who want a driver bit on their knife.",
+      "skip_if": "You only need a knife.",
+      "pros": [
+        "Impact-rated driver and bit",
+        "Two lock positions",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Pricier than plain knives"
+      ]
+    },
+    {
+      "asin": "B082KL6HT3",
+      "name": "Milwaukee FASTBACK Compact Flip Utility Knife",
+      "brand": "Milwaukee",
+      "model": "4932471356",
+      "image": "https://m.media-amazon.com/images/I/41Nfu8LQ1PL._AC_SL1200_.jpg",
+      "price": 13.99,
+      "rating": 4.8,
+      "reviews_count": 1037,
+      "bought": "2K+/mo",
+      "specs": {
+        "style": "Flip open, compact",
+        "count": "1",
+        "blades": null,
+        "extras": null
+      },
+      "features": {
+        "quick_change": false,
+        "blade_storage": false,
+        "spare_blades": false,
+        "metal_body": false
+      },
+      "verdict": "A smaller Fastback that rates 4.8 stars and sells over 2,000 a month. The listing has no bullets, so check the photos for details.",
+      "best_for": "Anyone who wants a pocket-size Fastback.",
+      "skip_if": "You want features listed; this listing has none.",
+      "pros": [
+        "4.8 stars",
+        "2,000+ sold last month",
+        "Compact"
+      ],
+      "cons": [
+        "Listing has no feature bullets"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0BZYSTDVG",
+      "name": "Milwaukee FASTBACK Folding Utility Knife w/Blade Multifunctionality, Red-black",
+      "brand": "Milwaukee",
+      "model": "48-22-1540",
+      "image": "https://m.media-amazon.com/images/I/61MZA8OlrIL._AC_SL1500_.jpg",
+      "price": 29.75,
+      "rating": 4.7,
+      "reviews_count": 1407,
+      "flag": "Sold as a utility knife; bullets describe a pocket knife",
+      "verdict": "The title says utility knife, but the listing describes a folding pocket knife with a fixed tanto blade and screwdriver bits, not one that takes replaceable utility blades.",
+      "reasons": [
+        "The bullets describe a 'Stainless Steel Blade, partially Serrated' and a 'Stays Sharp Tanto Blade': a fixed pocket-knife blade, not the snap-in utility blades shoppers searching for a utility knife expect.",
+        "Nothing in the listing mentions blade changes or spare blades, so when it dulls you sharpen it rather than swap a blade.",
+        "If you want a Milwaukee utility knife, the Fastback 48-22-1502 has tool-free blade changes and blade storage for less."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Retractable, folding or fixed?",
+      "a": "Retractable knives slide the blade back into the handle and are safest in a toolbox. Folding knives close like a pocket knife and ride on a belt clip. Flip-open knives like Milwaukee's Fastback and DEWALT's push-and-flip open with one hand."
+    },
+    {
+      "q": "What blades do they take?",
+      "a": "Nearly all of these take the standard trapezoid utility blade sold everywhere. Buy blades in bulk; a sharp blade is safer because you push less."
+    },
+    {
+      "q": "Does blade storage matter?",
+      "a": "It saves hunting for a spare on a ladder. The Klein 44306, REXBETI set and Milwaukee 48-22-1502 store blades in the handle."
+    },
+    {
+      "q": "Metal or plastic body?",
+      "a": "Aluminum bodies like the WORKPRO and Amazon Basics folding knife survive drops and look better longer. Plastic knives are fine for a junk drawer."
+    },
+    {
+      "q": "Is a utility knife the same as a pocket knife?",
+      "a": "No. A utility knife takes cheap replaceable blades you swap when dull. A pocket knife has a fixed blade you sharpen. For boxes, carpet and drywall, a utility knife is easier to keep sharp."
+    }
+  ]
+}

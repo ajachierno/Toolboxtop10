@@ -1,0 +1,459 @@
+{
+  "slug": "jobsite-radios",
+  "title": "The 10 Best Jobsite Radios",
+  "subtitle": "Battery and plug-in jobsite radios and Bluetooth speakers for the garage, shop and jobsite, ranked from live Amazon data.",
+  "intro": "A jobsite radio is built to take drops and dust and to run on the same batteries as your tools. We ranked 10 best-sellers from DEWALT, Milwaukee, Bosch, Makita, RYOBI and Sangean on rating, review volume and features (Bluetooth, AC power, charging your tool batteries and a weather rating). Start with the battery platform you already own.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 100,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "bluetooth": 0.3,
+    "ac_power": 0.25,
+    "charges_batteries": 0.25,
+    "weather_rated": 0.2
+  },
+  "reviews_ceiling": 4500,
+  "spec_fields": [
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "bluetooth_range",
+      "label": "Bluetooth"
+    },
+    {
+      "key": "tuner",
+      "label": "Tuner"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "bluetooth",
+      "label": "Bluetooth",
+      "type": "bool"
+    },
+    {
+      "key": "ac_power",
+      "label": "Runs on AC",
+      "type": "bool"
+    },
+    {
+      "key": "charges_batteries",
+      "label": "Charges tool batteries",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B088XW3HND",
+      "name": "DEWALT 12V/20V MAX Portable Bluetooth Radio, Cordless, 100 ft Range, 3.5\" Subwoofers (DCR028B)",
+      "brand": "DEWALT",
+      "model": "DCR028B",
+      "image": "https://m.media-amazon.com/images/I/61FAv4QeAbL._AC_SL1000_.jpg",
+      "price": 161.0,
+      "rating": 4.7,
+      "reviews_count": 4231,
+      "bought": "800+/mo",
+      "specs": {
+        "power": "DEWALT 12V, 20V MAX, FLEXVOLT or AC cord",
+        "bluetooth_range": "Up to 100 ft",
+        "tuner": "AM/FM, 6 presets",
+        "extras": "Roll cage, USB charging port, aux input"
+      },
+      "features": {
+        "bluetooth": true,
+        "ac_power": true,
+        "charges_batteries": false,
+        "weather_rated": false
+      },
+      "verdict": "The best seller and the most-reviewed radio here. It runs on any DEWALT 12V, 20V MAX or FLEXVOLT battery or the included AC cord, with dual 3.5-inch woofers, Bluetooth and a roll cage.",
+      "best_for": "DEWALT owners who want a tough, good-sounding radio for the shop or jobsite.",
+      "skip_if": "You want it to charge your batteries; the DCR025 does that.",
+      "pros": [
+        "800+ sold last month; 4,231 reviews",
+        "Runs on 12V, 20V, FLEXVOLT or AC",
+        "Roll cage and USB charging port"
+      ],
+      "cons": [
+        "Doesn't charge tool batteries",
+        "No weather rating listed"
+      ]
+    },
+    {
+      "asin": "B0F2GPCFDR",
+      "name": "Milwaukee M18 Bluetooth Jobsite Radio, Bare Tool",
+      "brand": "Milwaukee",
+      "model": "2952-20",
+      "image": "https://m.media-amazon.com/images/I/51k5-6-WShL._AC_SL1206_.jpg",
+      "price": 129.0,
+      "rating": 4.6,
+      "reviews_count": 231,
+      "bought": "500+/mo",
+      "specs": {
+        "power": "Milwaukee M18 or AC adapter",
+        "bluetooth_range": "Up to 120 ft (Bluetooth 5.0)",
+        "tuner": null,
+        "extras": "Dual 3.5 in woofers, dual tweeters"
+      },
+      "features": {
+        "bluetooth": true,
+        "ac_power": true,
+        "charges_batteries": false,
+        "weather_rated": false
+      },
+      "verdict": "Milwaukee's current M18 radio, with dual 3.5-inch woofers, dual tweeters and Bluetooth 5.0 with up to 120 ft of range. It runs on any M18 battery or the included AC adapter.",
+      "best_for": "Milwaukee M18 owners who want a compact jobsite speaker and radio.",
+      "skip_if": "You want it to charge M18 packs; that's the PACKOUT radio.",
+      "pros": [
+        "500+ sold last month",
+        "Up to 120 ft Bluetooth range",
+        "Battery or AC adapter"
+      ],
+      "cons": [
+        "Doesn't charge batteries",
+        "Listing doesn't list the tuner"
+      ]
+    },
+    {
+      "asin": "B01H9BLN3K",
+      "name": "DEWALT 20V MAX Bluetooth Radio, 100 ft Range, Portable for Jobsites (DCR025)",
+      "brand": "DEWALT",
+      "model": "DCR025",
+      "image": "https://m.media-amazon.com/images/I/81TeKnMxn3L._AC_SL1500_.jpg",
+      "price": 264.61,
+      "rating": 4.5,
+      "reviews_count": 2514,
+      "bought": "100+/mo",
+      "specs": {
+        "power": "DEWALT 20V MAX, FLEXVOLT or AC",
+        "bluetooth_range": "Up to 100 ft",
+        "tuner": "AM/FM",
+        "extras": "Charges 20V/60V batteries at 3 A, 2 AC outlets, 20 W per channel"
+      },
+      "features": {
+        "bluetooth": true,
+        "ac_power": true,
+        "charges_batteries": true,
+        "weather_rated": false
+      },
+      "verdict": "A bigger DEWALT radio that doubles as a charger and power strip: plugged in, it charges 20V MAX and FLEXVOLT batteries at 3 amps and gives you two extra AC outlets.",
+      "best_for": "DEWALT crews who want one box that plays music, charges batteries and powers chargers or lights.",
+      "skip_if": "You need it small; it's a full-size jobsite radio.",
+      "pros": [
+        "Charges DEWALT batteries at 3 A on AC",
+        "2 extra AC outlets",
+        "2,514 reviews"
+      ],
+      "cons": [
+        "Bulky",
+        "Costs more than the DCR028B"
+      ]
+    },
+    {
+      "asin": "B08CL27W51",
+      "name": "Milwaukee 2951-20 M12 Lithium-Ion Cordless Radio + Charger (Tool Only)",
+      "brand": "Milwaukee",
+      "model": "2951-20",
+      "image": "https://m.media-amazon.com/images/I/41NFa-9n2yL._AC_SX425_.jpg",
+      "price": 149.09,
+      "rating": 4.7,
+      "reviews_count": 1367,
+      "bought": "100+/mo",
+      "specs": {
+        "power": "Milwaukee M12 or 12V DC port",
+        "bluetooth_range": "Bluetooth 4.2",
+        "tuner": "AM/FM",
+        "extras": "IP54, about 10 hr on an M12 2.0Ah pack, keyhole hanger"
+      },
+      "features": {
+        "bluetooth": true,
+        "ac_power": false,
+        "charges_batteries": true,
+        "weather_rated": true
+      },
+      "verdict": "A small M12 radio and charger that's rated IP54 against water and dust. The listing claims up to 10 hours on an M12 2.0Ah battery, and it hangs from a keyhole or its hollow handle.",
+      "best_for": "M12 owners who want a small, hangable radio for a van, garage or attic.",
+      "skip_if": "You want volume; the listing rates the speaker at 3 watts.",
+      "pros": [
+        "IP54 water and dust rating",
+        "About 10 hours on an M12 2.0Ah pack",
+        "4.7 stars"
+      ],
+      "cons": [
+        "3 W speaker",
+        "No AC cord listed, just a 12V DC port"
+      ]
+    },
+    {
+      "asin": "B07YVDLDLR",
+      "premium": true,
+      "name": "Milwaukee M18 PACKOUT Radio + Charger (2950-20)",
+      "brand": "Milwaukee",
+      "model": "2950-20",
+      "image": "https://m.media-amazon.com/images/I/61QvFs2psoL._AC_SL1500_.jpg",
+      "price": 315.0,
+      "rating": 4.4,
+      "reviews_count": 505,
+      "bought": "100+/mo",
+      "specs": {
+        "power": "Milwaukee M18 or AC",
+        "bluetooth_range": "Bluetooth",
+        "tuner": "AM/FM",
+        "extras": "Charges M18 batteries, PACKOUT-compatible"
+      },
+      "features": {
+        "bluetooth": true,
+        "ac_power": true,
+        "charges_batteries": true,
+        "weather_rated": true
+      },
+      "verdict": "Milwaukee's big radio-and-charger that locks into the PACKOUT storage system. The listing is short, but it plays Bluetooth and AM/FM, charges M18 batteries and lists a waterproof rating.",
+      "best_for": "Milwaukee crews already using PACKOUT boxes.",
+      "skip_if": "You don't use PACKOUT; it's built around that system and priced to match.",
+      "pros": [
+        "Charges M18 batteries",
+        "Locks into PACKOUT stacks",
+        "Water resistance listed"
+      ],
+      "cons": [
+        "The priciest radio here",
+        "Listing gives little detail"
+      ]
+    },
+    {
+      "asin": "B09FYP4GQ3",
+      "name": "BOSCH GPB18V-5CN 18V Jobsite Radio with Bluetooth 5.0 and Power Station",
+      "brand": "Bosch",
+      "model": "GPB18V-5CN",
+      "image": "https://m.media-amazon.com/images/I/61MJPuomvML._AC_SL1000_.jpg",
+      "price": 209.83,
+      "rating": 4.6,
+      "reviews_count": 393,
+      "specs": {
+        "power": "Bosch 18V or 120V AC cord",
+        "bluetooth_range": "Up to 100 ft (Bluetooth 5.0)",
+        "tuner": "AM/FM, 8 presets",
+        "extras": "Four 120V outlets, 2.1 A USB, 360-degree speakers"
+      },
+      "features": {
+        "bluetooth": true,
+        "ac_power": true,
+        "charges_batteries": false,
+        "weather_rated": false
+      },
+      "verdict": "A Bosch radio and power station with four 120V outlets, a 2.1-amp USB port and four-way speakers with a subwoofer that project in all directions.",
+      "best_for": "Bosch 18V users who want a radio that also powers lights and chargers.",
+      "skip_if": "You need it to charge batteries; the listing doesn't say it does.",
+      "pros": [
+        "Four 120V AC outlets",
+        "360-degree stereo sound",
+        "Battery or AC power"
+      ],
+      "cons": [
+        "Bosch 18V only",
+        "Large"
+      ]
+    },
+    {
+      "asin": "B0033WSDY2",
+      "name": "Sangean LB-100 Worksite AM/FM Utility Radio, Tough, Water Resistant",
+      "brand": "Sangean",
+      "model": "LB-100",
+      "image": "https://m.media-amazon.com/images/I/A1oWincsgiL._AC_SL1500_.jpg",
+      "price": 92.71,
+      "rating": 4.6,
+      "reviews_count": 2341,
+      "bought": "50+/mo",
+      "specs": {
+        "power": "AC cord",
+        "bluetooth_range": null,
+        "tuner": "AM/FM digital, 10 presets",
+        "extras": "5 in water-resistant speaker, backlit LCD"
+      },
+      "features": {
+        "bluetooth": false,
+        "ac_power": true,
+        "charges_batteries": false,
+        "weather_rated": true
+      },
+      "verdict": "A plain, rugged AM/FM radio that plugs into the wall. It's rain, dust and shock resistant with a 5-inch speaker and 10 presets, but no Bluetooth and no battery option on this listing.",
+      "best_for": "Anyone who just wants reliable AM/FM in a garage or shop, on any tool brand.",
+      "skip_if": "You stream music from your phone; there's no Bluetooth.",
+      "pros": [
+        "Works with no tool batteries at all",
+        "Water and dust resistant",
+        "2,341 reviews"
+      ],
+      "cons": [
+        "No Bluetooth",
+        "Corded power on this listing"
+      ]
+    },
+    {
+      "asin": "B091MXJGZ5",
+      "name": "BOSCH GPB18V-2CN 18V Cordless Jobsite Radio with Bluetooth 5.0 (Battery Not Included)",
+      "brand": "Bosch",
+      "model": "GPB18V-2CN",
+      "image": "https://m.media-amazon.com/images/I/515QWvWYejL._AC_SL1000_.jpg",
+      "price": 138.3,
+      "rating": 4.3,
+      "reviews_count": 294,
+      "specs": {
+        "power": "Bosch 18V or AC/DC adapter",
+        "bluetooth_range": "Up to 100 ft (Bluetooth 5.0)",
+        "tuner": "AM/FM, 12 presets",
+        "extras": "IP54, pairs with a second unit for stereo"
+      },
+      "features": {
+        "bluetooth": true,
+        "ac_power": true,
+        "charges_batteries": false,
+        "weather_rated": true
+      },
+      "verdict": "Bosch's smaller 18V radio, rated IP54, with Bluetooth 5.0, AM/FM and the option to pair two units for wider stereo sound.",
+      "best_for": "Bosch 18V owners who want a compact, weather-rated radio.",
+      "skip_if": "You want the best-rated pick; it's 4.3 stars.",
+      "pros": [
+        "IP54 rated",
+        "Battery or AC/DC adapter",
+        "Pairs two units for stereo"
+      ],
+      "cons": [
+        "4.3 stars",
+        "No outlets or battery charging"
+      ]
+    },
+    {
+      "asin": "B01J40QHFS",
+      "name": "Makita XRM06B 18V LXT Lithium-Ion Cordless Bluetooth Job Site Radio",
+      "brand": "Makita",
+      "model": "XRM06B",
+      "image": "https://m.media-amazon.com/images/I/61M-HkENBSL._AC_SL1000_.jpg",
+      "price": 179.98,
+      "rating": 4.5,
+      "reviews_count": 901,
+      "bought": "50+/mo",
+      "specs": {
+        "power": "Makita 7.2V to 18V LXT batteries",
+        "bluetooth_range": "Bluetooth",
+        "tuner": "FM",
+        "extras": "Up to 35 hr on a 5.0Ah pack, water resistant"
+      },
+      "features": {
+        "bluetooth": true,
+        "ac_power": false,
+        "charges_batteries": false,
+        "weather_rated": true
+      },
+      "verdict": "A Makita radio that runs on almost any Makita battery from 7.2V to 18V LXT. The listing claims up to 35 hours on an 18V 5.0Ah pack, with dust- and water-resistant construction.",
+      "best_for": "Makita owners who want long runtime from batteries they already have.",
+      "skip_if": "You want AM radio; the listing only mentions FM.",
+      "pros": [
+        "Up to 35 hours on a 5.0Ah battery",
+        "Runs on 7.2V to 18V Makita packs",
+        "901 reviews"
+      ],
+      "cons": [
+        "No AC power listed",
+        "FM only"
+      ]
+    },
+    {
+      "asin": "B0CMB5DQN2",
+      "name": "RYOBI 18V ONE+ Compact Bluetooth Radio",
+      "brand": "RYOBI",
+      "model": "PCL600B",
+      "image": "https://m.media-amazon.com/images/I/51daOtAAS0L._AC_SL1000_.jpg",
+      "price": 50.0,
+      "rating": 4.1,
+      "reviews_count": 145,
+      "bought": "100+/mo",
+      "specs": {
+        "power": "RYOBI 18V ONE+",
+        "bluetooth_range": "Over 175 ft",
+        "tuner": "FM",
+        "extras": "3 in 15 W speaker, USB charging"
+      },
+      "features": {
+        "bluetooth": true,
+        "ac_power": false,
+        "charges_batteries": false,
+        "weather_rated": false
+      },
+      "verdict": "The cheapest radio here by far: a compact RYOBI ONE+ unit with a 15-watt speaker, FM radio, USB charging and the longest Bluetooth range listed here.",
+      "best_for": "RYOBI owners who want music in the garage for little money.",
+      "skip_if": "You need it to survive rain; the listing says it isn't water resistant.",
+      "pros": [
+        "Lowest price here",
+        "Over 175 ft Bluetooth range",
+        "USB device charging"
+      ],
+      "cons": [
+        "Not water resistant",
+        "4.1 stars",
+        "Battery only, no AC"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0CH1HNQCT",
+      "name": "RIDGID 18V Hybrid JOBSITE Radio with Bluetooth Technology Tool ONLY R84089B",
+      "brand": "RIDGID",
+      "model": "R84089B",
+      "image": "https://m.media-amazon.com/images/I/71udVYRzcXL._AC_SL1500_.jpg",
+      "price": 114.95,
+      "rating": 4.4,
+      "reviews_count": 49,
+      "flag": "Listing's only bullet describes lawn-mower parts",
+      "verdict": "The radio may be fine, but this listing can't tell you anything about it: its only bullet is about Stens lawn and landscape replacement parts.",
+      "reasons": [
+        "The single product bullet reads 'Stens replacement parts have become a favorite among lawn and landscape professionals', which has nothing to do with a radio.",
+        "With no description, you can't confirm the tuner, Bluetooth range, runtime or what power cord comes in the box before buying.",
+        "The same 'Stens' bullet appears on other RIDGID and RYOBI listings we've reviewed, a sign the listing data was copied in wholesale rather than written for this product."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Do I need a radio that matches my tool batteries?",
+      "a": "If you own cordless tools, yes. A radio on the same platform runs all day on packs you already charge, and most also take an AC cord for the shop. If you don't own tool batteries, a plug-in radio like the Sangean LB-100 is simpler."
+    },
+    {
+      "q": "What does 'charges batteries' mean?",
+      "a": "Some radios, like the DEWALT DCR025 and Milwaukee's PACKOUT radio, charge your tool battery while plugged into the wall. That saves carrying a separate charger to the job."
+    },
+    {
+      "q": "Is Bluetooth range important?",
+      "a": "Not much on a jobsite. 100 feet is plenty if your phone is in your pocket. Range drops through walls and around metal."
+    },
+    {
+      "q": "What does IP54 mean?",
+      "a": "IP54 means protected against dust and splashing water from any direction. It's fine for light rain, not for leaving out in a storm."
+    },
+    {
+      "q": "How long will it run on a battery?",
+      "a": "Small radios run 10 hours or more on a 2.0Ah pack. Makita claims up to 35 hours on a 5.0Ah pack for the XRM06B. Volume and bass settings make a big difference."
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "slug": "moisture-meters",
+  "title": "The 10 Best Moisture Meters",
+  "subtitle": "Pin and pinless moisture meters for firewood, lumber, drywall and leak detection, ranked from live Amazon data.",
+  "intro": "A moisture meter tells you how wet wood, drywall or flooring is, to find leaks, check firewood or know when lumber is ready to use. We ranked 10 best-sellers from General Tools, Klein, Tramex, LASELION and others on rating, review volume and features (pinless scanning, pins, wood species settings and room temperature or humidity readings).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 30,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "pinless_mode": 0.3,
+    "pin_mode": 0.25,
+    "species_scales": 0.2,
+    "ambient_readings": 0.25
+  },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "depth",
+      "label": "Pinless depth"
+    },
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "pinless_mode",
+      "label": "Pinless",
+      "type": "bool"
+    },
+    {
+      "key": "pin_mode",
+      "label": "Pins",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00275F5O2",
+      "force_overall": true,
+      "name": "General Tools MMD4E Pin Moisture Meter for Wood, Walls and Water Leak Detection",
+      "brand": "General Tools",
+      "model": "MMD4E",
+      "image": "https://m.media-amazon.com/images/I/61+4TbrH9kL._AC_SL1500_.jpg",
+      "price": 39.98,
+      "rating": 4.5,
+      "reviews_count": 15230,
+      "bought": "8K+/mo",
+      "specs": {
+        "type": "Pin",
+        "depth": null,
+        "range": "5-50%",
+        "extras": "Backlit LCD, spare pins, cap doubles as calibration checker, 9V battery"
+      },
+      "features": {
+        "pinless_mode": false,
+        "pin_mode": true,
+        "species_scales": false,
+        "ambient_readings": false
+      },
+      "verdict": "The best-selling and most-reviewed moisture meter here: a pin meter with a backlit display, spare 8 mm pins and a cap that checks calibration.",
+      "best_for": "Checking firewood, lumber and drywall after a leak.",
+      "skip_if": "You can't put holes in the surface; use a pinless meter.",
+      "pros": [
+        "15,230 reviews; 8,000+ sold last month",
+        "Calibration-check cap",
+        "Spare pins"
+      ],
+      "cons": [
+        "Pins leave small holes",
+        "No species scales listed"
+      ]
+    },
+    {
+      "asin": "B07SZX8QXH",
+      "name": "Klein Tools ET140 Pinless Moisture Meter, Detects up to 3/4-Inch Deep",
+      "brand": "Klein Tools",
+      "model": "ET140",
+      "image": "https://m.media-amazon.com/images/I/5175CMtXLlL._AC_SL1000_.jpg",
+      "price": 49.14,
+      "rating": 4.5,
+      "reviews_count": 6266,
+      "bought": "5K+/mo",
+      "specs": {
+        "type": "Pinless",
+        "depth": "Up to 3/4 in",
+        "range": "Relative",
+        "extras": "EMF sensing"
+      },
+      "features": {
+        "pinless_mode": true,
+        "pin_mode": false,
+        "species_scales": false,
+        "ambient_readings": false
+      },
+      "verdict": "A pinless meter that scans up to 3/4 inch into drywall and building materials without making holes, for finding where a leak has spread.",
+      "best_for": "Homeowners and inspectors tracing leaks in finished walls and floors.",
+      "skip_if": "You need exact wood moisture percentages; it reads relative moisture.",
+      "pros": [
+        "No holes",
+        "3/4 in depth",
+        "5,000+ sold last month"
+      ],
+      "cons": [
+        "Relative readings",
+        "No wood species settings"
+      ]
+    },
+    {
+      "asin": "B00HARYVUQ",
+      "name": "General Tools MMD7NP Pinless Digital Moisture Meter",
+      "brand": "General Tools",
+      "model": "MMD7NP",
+      "image": "https://m.media-amazon.com/images/I/61cQ9+0e5PL._AC_SL1500_.jpg",
+      "price": 48.95,
+      "rating": 4.3,
+      "reviews_count": 4132,
+      "bought": "2K+/mo",
+      "specs": {
+        "type": "Pinless",
+        "depth": "Up to 3/4 in",
+        "range": "0-53% wood",
+        "extras": "Auto-calibrating, LED bar graph, hold, audible alert"
+      },
+      "features": {
+        "pinless_mode": true,
+        "pin_mode": false,
+        "species_scales": false,
+        "ambient_readings": false
+      },
+      "verdict": "General Tools' pinless meter reads up to 3/4 inch deep with a 0-53% wood range, an LED bar graph, hold button and audible alert.",
+      "best_for": "Scanning floors and walls without damage.",
+      "skip_if": "You want the best-rated pinless; it's 4.3 stars.",
+      "pros": [
+        "Pinless, 3/4 in",
+        "Audible alert",
+        "4,132 reviews"
+      ],
+      "cons": [
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B09BJJX1B8",
+      "name": "RDINSCOS Pinless Moisture Meter for Wood, Digital Wall Moisture Detector",
+      "brand": "RDINSCOS",
+      "model": "MT28",
+      "image": "https://m.media-amazon.com/images/I/7118wV-CMTL._AC_SL1500_.jpg",
+      "price": 24.63,
+      "rating": 4.5,
+      "reviews_count": 3996,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Pinless",
+        "depth": null,
+        "range": null,
+        "extras": "Built-in flashlight"
+      },
+      "features": {
+        "pinless_mode": true,
+        "pin_mode": false,
+        "species_scales": false,
+        "ambient_readings": false
+      },
+      "verdict": "A budget pinless meter with a built-in flashlight for crawl spaces, attics and under-sink cabinets.",
+      "best_for": "Home inspections on a budget.",
+      "skip_if": "You need a stated range and depth; the listing is vague.",
+      "pros": [
+        "Low price",
+        "Flashlight",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Range and depth not stated in the bullets"
+      ]
+    },
+    {
+      "asin": "B0DRVF2ZXQ",
+      "name": "LASELION MS03 2-in-1 Pin and Pinless Moisture Meter",
+      "brand": "LASELION",
+      "model": "MS03",
+      "image": "https://m.media-amazon.com/images/I/61qKBeOJwOL._SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.4,
+      "reviews_count": 545,
+      "bought": "700+/mo",
+      "specs": {
+        "type": "Pin + pinless",
+        "depth": null,
+        "range": null,
+        "extras": "Ambient temperature, hold"
+      },
+      "features": {
+        "pinless_mode": true,
+        "pin_mode": true,
+        "species_scales": false,
+        "ambient_readings": true
+      },
+      "verdict": "A cheap meter with both modes: pinless for finished surfaces and pins for exact readings in lumber and drywall, plus an ambient temperature readout.",
+      "best_for": "DIYers who want both meter types for about $30.",
+      "skip_if": "You want a long-proven brand.",
+      "pros": [
+        "Pin and pinless",
+        "Temperature readout",
+        "Low price"
+      ],
+      "cons": [
+        "545 reviews",
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B0BF9759C8",
+      "name": "TopTes TS-630 Pin Wood Moisture Meter, 2.25-inch LCD, Tricolor Backlight",
+      "brand": "TopTes",
+      "model": "TS-630",
+      "image": "https://m.media-amazon.com/images/I/71A+k8fhn9L._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.5,
+      "reviews_count": 1848,
+      "bought": "900+/mo",
+      "specs": {
+        "type": "Pin",
+        "depth": null,
+        "range": null,
+        "extras": "7 calibration scales, tricolor backlight"
+      },
+      "features": {
+        "pinless_mode": false,
+        "pin_mode": true,
+        "species_scales": true,
+        "ambient_readings": false
+      },
+      "verdict": "A pin meter with seven calibration scales for different wood groups and a backlight that turns green, orange or red for dry, moist or wet.",
+      "best_for": "Firewood and woodworking where species matters.",
+      "skip_if": "You can't make holes.",
+      "pros": [
+        "7 calibration scales",
+        "Color-coded backlight",
+        "1,848 reviews"
+      ],
+      "cons": [
+        "Pin only"
+      ]
+    },
+    {
+      "asin": "B01BLXVDFA",
+      "name": "General Tools MM8 Pinless Moisture Meter for Wood, Walls and Mold Detection",
+      "brand": "General Tools",
+      "model": "MM8",
+      "image": "https://m.media-amazon.com/images/I/71YeWu4f4XL._AC_SL1500_.jpg",
+      "price": 58.32,
+      "rating": 4.4,
+      "reviews_count": 900,
+      "bought": "600+/mo",
+      "specs": {
+        "type": "Pinless",
+        "depth": "Up to 3/4 in",
+        "range": "0-53% wood",
+        "extras": "2 in backlit digits, 3-color LED bar graph, auto-calibrating"
+      },
+      "features": {
+        "pinless_mode": true,
+        "pin_mode": false,
+        "species_scales": false,
+        "ambient_readings": false
+      },
+      "verdict": "A step up from the MMD7NP with large 2-inch backlit digits and a three-color bar graph, reading 3/4 inch into wood and construction materials.",
+      "best_for": "Contractors who want a big, easy-to-read pinless display.",
+      "skip_if": "You're on a budget; the MMD7NP is close for less.",
+      "pros": [
+        "Large 2 in digits",
+        "Pinless, 3/4 in",
+        "4.4 stars"
+      ],
+      "cons": [
+        "Pricier than the MMD7NP"
+      ]
+    },
+    {
+      "asin": "B00563TQFG",
+      "name": "General Tools MMH800 Pin/Pinless Moisture Meter with Temperature and Humidity",
+      "brand": "General Tools",
+      "model": "MMH800",
+      "image": "https://m.media-amazon.com/images/I/618gkm-K00L._AC_SL1500_.jpg",
+      "price": 104.96,
+      "rating": 4.0,
+      "reviews_count": 654,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "Pin + pinless",
+        "depth": null,
+        "range": null,
+        "extras": "Separate displays for moisture, temperature and relative humidity"
+      },
+      "features": {
+        "pinless_mode": true,
+        "pin_mode": true,
+        "species_scales": false,
+        "ambient_readings": true
+      },
+      "verdict": "An inspector-style combo meter with pin and pinless sensors and a second display for room temperature and relative humidity.",
+      "best_for": "Mold and water-damage inspections where room humidity matters.",
+      "skip_if": "You just check firewood.",
+      "pros": [
+        "Pin and pinless",
+        "Temperature and humidity",
+        "Dual display"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Expensive"
+      ]
+    },
+    {
+      "asin": "B0967ZP5B1",
+      "name": "RDINSCOS Replaceable Pins Moisture Meter",
+      "brand": "RDINSCOS",
+      "model": "MT19B",
+      "image": "https://m.media-amazon.com/images/I/71FU1kHEHSL._SL1500_.jpg",
+      "price": 19.22,
+      "rating": 4.4,
+      "reviews_count": 5661,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Pin",
+        "depth": null,
+        "range": null,
+        "extras": "Replaceable pins"
+      },
+      "features": {
+        "pinless_mode": false,
+        "pin_mode": true,
+        "species_scales": false,
+        "ambient_readings": false
+      },
+      "verdict": "The cheapest pin meter here, with replaceable pins, aimed at checking firewood and drywall after a leak.",
+      "best_for": "Checking firewood before burning.",
+      "skip_if": "You want calibration scales listed.",
+      "pros": [
+        "Lowest price here",
+        "Replaceable pins",
+        "5,661 reviews"
+      ],
+      "cons": [
+        "4.4 stars",
+        "Few specs in the listing"
+      ]
+    },
+    {
+      "asin": "B07YDYTYPT",
+      "premium": true,
+      "name": "Tramex Moisture Encounter ME5 Pinless Moisture Meter",
+      "brand": "Tramex",
+      "model": "ME5",
+      "image": "https://m.media-amazon.com/images/I/71Fxb5PhyWL._SL1500_.jpg",
+      "price": 630.0,
+      "rating": 4.5,
+      "reviews_count": 129,
+      "bought": "100+/mo",
+      "specs": {
+        "type": "Pinless, dual depth",
+        "depth": "0.4 in and 1.25 in",
+        "range": "5-30% wood; 0-100 relative",
+        "extras": "Wood density adjustment tables"
+      },
+      "features": {
+        "pinless_mode": true,
+        "pin_mode": false,
+        "species_scales": true,
+        "ambient_readings": false
+      },
+      "verdict": "A professional pinless meter that reads at two depths so you can compare surface and core moisture, with tables to adjust for wood density.",
+      "best_for": "Flooring installers and restoration pros.",
+      "skip_if": "You're a homeowner; it's priced for pros.",
+      "pros": [
+        "Two measuring depths",
+        "Wood density tables",
+        "Pro brand"
+      ],
+      "cons": [
+        "Most expensive here"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0C9M5NBSP",
+      "name": "Wood moisture meters and water leak detectors are suitable for the rapid determination of moisture content in various materials",
+      "brand": "coczow",
+      "model": "PM6811A",
+      "image": "https://m.media-amazon.com/images/I/71Nc4JEOH8L._SL1500_.jpg",
+      "price": 17.99,
+      "rating": 4.4,
+      "reviews_count": 2916,
+      "flag": "Names a different brand; claims 'no power supply required'",
+      "verdict": "A pin meter whose listing names two different brands and claims an electronic meter needs no power supply.",
+      "reasons": [
+        "The bullets call it a 'COCZOW moisture meter' and then say 'Get professional and accurate results with Peakmeter Wood Moisture Tester', a different brand.",
+        "It lists a backlit LCD with hold and auto-shutoff, then says 'no power supply required'. Every digital meter needs a battery.",
+        "The title is a sentence about moisture meters in general with no product name. The General Tools MMD4E is a clearly specified pin meter with 15,230 reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Pin or pinless?",
+      "a": "Pin meters push two pins into the material and read moisture between them; they're precise and good for lumber and firewood but leave tiny holes. Pinless meters scan up to about 3/4 inch deep with a flat pad, so they're better for finished floors, walls and furniture. Combo meters do both."
+    },
+    {
+      "q": "What reading is too wet?",
+      "a": "Firewood should be under about 20% before you burn it. Lumber for indoor furniture is usually dried to 6 to 8%. In drywall, compare a suspect spot to a dry area of the same wall; a big difference means water."
+    },
+    {
+      "q": "Why do species scales matter?",
+      "a": "Different woods conduct electricity differently, so a meter set for oak reads pine wrong. Meters with species or density settings give real moisture percentages for each wood."
+    },
+    {
+      "q": "Can a moisture meter find mold?",
+      "a": "Not directly. It finds the moisture mold needs. If a wall reads wet, open it up or call a pro."
+    },
+    {
+      "q": "Do I need temperature and humidity?",
+      "a": "For inspections, yes. High room humidity explains damp readings and helps you judge drying. For firewood, no."
+    }
+  ]
+}

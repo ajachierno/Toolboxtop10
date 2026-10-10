@@ -1,0 +1,471 @@
+{
+  "slug": "combination-wrench-sets",
+  "title": "The 10 Best Combination Wrench Sets",
+  "subtitle": "SAE and metric combination wrench sets for home, garage and auto work, ranked from live Amazon data.",
+  "intro": "A combination wrench has an open end on one side and a closed box end on the other, the basic tool for nuts and bolts a socket can't reach. We ranked 10 best-sellers from CRAFTSMAN, GEARWRENCH, TEKTON, NEIKO and value brands on rating, review volume and features (SAE and metric sizes, storage, a lifetime warranty and long-pattern bodies). Start with a set that has both SAE and metric.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 30,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "sae_metric": 0.3,
+    "storage": 0.25,
+    "lifetime_warranty": 0.25,
+    "long_pattern": 0.2
+  },
+  "reviews_ceiling": 6000,
+  "spec_fields": [
+    {
+      "key": "pieces",
+      "label": "Pieces"
+    },
+    {
+      "key": "sizes",
+      "label": "Sizes"
+    },
+    {
+      "key": "box_end",
+      "label": "Box end"
+    },
+    {
+      "key": "storage_type",
+      "label": "Storage"
+    },
+    {
+      "key": "finish",
+      "label": "Finish"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pieces",
+      "label": "Pieces"
+    },
+    {
+      "key": "sizes",
+      "label": "Sizes"
+    },
+    {
+      "key": "sae_metric",
+      "label": "SAE + metric",
+      "type": "bool"
+    },
+    {
+      "key": "lifetime_warranty",
+      "label": "Lifetime warranty",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0745LSPRD",
+      "force_overall": true,
+      "name": "EFFICERE 24-Piece Master Combination Wrench Set with Roll-up Pouch, SAE 1/4\" to 1\", Metric 8mm to 24mm",
+      "brand": "EFFICERE",
+      "model": "MA-24PC-MULTI-COMBO-ES",
+      "image": "https://m.media-amazon.com/images/I/61linL8MQ6L._AC_SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.6,
+      "reviews_count": 7367,
+      "bought": "1K+/mo",
+      "specs": {
+        "pieces": "24",
+        "sizes": "SAE 1/4-1 in, metric 8-24 mm",
+        "box_end": "12-point, 15° offset",
+        "storage_type": "Roll-up pouch",
+        "finish": "Chrome"
+      },
+      "features": {
+        "sae_metric": true,
+        "storage": true,
+        "lifetime_warranty": true,
+        "long_pattern": false
+      },
+      "verdict": "The best-selling and most-reviewed set here: 24 drop-forged chrome vanadium wrenches in SAE and metric, raised-panel bodies, a heavy-duty roll pouch and a lifetime guarantee, for very little money.",
+      "best_for": "A first wrench set for home, car and bike work.",
+      "skip_if": "You want a name-brand set you can get replaced at a hardware store.",
+      "pros": [
+        "7,367 reviews; 1,000+ sold last month",
+        "SAE and metric",
+        "Lifetime guarantee"
+      ],
+      "cons": [
+        "Not a known tool brand",
+        "Standard length"
+      ]
+    },
+    {
+      "asin": "B0D9VM25JD",
+      "name": "SEDY 30-Piece SAE and Metric Combination Wrench Set with Storage Rack, 12 Point",
+      "brand": "SEDY",
+      "model": "81061",
+      "image": "https://m.media-amazon.com/images/I/81q+2oPblCL._AC_SL1500_.jpg",
+      "price": 42.99,
+      "rating": 4.6,
+      "reviews_count": 268,
+      "bought": "800+/mo",
+      "specs": {
+        "pieces": "30",
+        "sizes": "SAE 1/4-1 in plus metric",
+        "box_end": "12-point, 15° offset",
+        "storage_type": "Folding storage rack",
+        "finish": "Powder coated, laser-etched sizes"
+      },
+      "features": {
+        "sae_metric": true,
+        "storage": true,
+        "lifetime_warranty": false,
+        "long_pattern": false
+      },
+      "verdict": "A 30-piece SAE and metric set with laser-etched sizes and a folding storage rack with grippers that hold each wrench in place.",
+      "best_for": "Garages that want every wrench on one rack.",
+      "skip_if": "You want a long track record; it has 268 reviews.",
+      "pros": [
+        "800+ sold last month",
+        "Storage rack",
+        "Laser-etched sizes"
+      ],
+      "cons": [
+        "268 reviews",
+        "No warranty listed"
+      ]
+    },
+    {
+      "asin": "B0GHBX2G91",
+      "name": "VEVOR 32-Piece SAE and Metric Combination Wrench Set, 12-Point Box End, Roll Up Pouch",
+      "brand": "VEVOR",
+      "model": "L0032BGY",
+      "image": "https://m.media-amazon.com/images/I/81545OoAEUL._AC_SL1500_.jpg",
+      "price": 45.9,
+      "rating": 4.7,
+      "reviews_count": 460,
+      "bought": "500+/mo",
+      "specs": {
+        "pieces": "32",
+        "sizes": "SAE 1/4-1 in, metric 7-22 mm",
+        "box_end": "12-point",
+        "storage_type": "Roll-up pouch",
+        "finish": "Polished carbon steel"
+      },
+      "features": {
+        "sae_metric": true,
+        "storage": true,
+        "lifetime_warranty": false,
+        "long_pattern": false
+      },
+      "verdict": "A 32-piece SAE and metric set in a labeled roll-up pouch, with 12-point box ends and 15-degree open ends.",
+      "best_for": "Covering most car and home sizes on a budget.",
+      "skip_if": "You want chrome vanadium; this set is carbon steel.",
+      "pros": [
+        "32 pieces",
+        "4.7 stars",
+        "Labeled pouch"
+      ],
+      "cons": [
+        "Carbon steel",
+        "No warranty listed"
+      ]
+    },
+    {
+      "asin": "B09D951XQ9",
+      "name": "CRAFTSMAN 7-Piece SAE Wrench Set in Pouch (CMMT21085)",
+      "brand": "CRAFTSMAN",
+      "model": "CMMT21085",
+      "image": "https://m.media-amazon.com/images/I/71zWnxocT9L._AC_SL1500_.jpg",
+      "price": 14.98,
+      "rating": 4.7,
+      "reviews_count": 866,
+      "bought": "700+/mo",
+      "specs": {
+        "pieces": "7",
+        "sizes": "SAE",
+        "box_end": "12-point, 15° offset",
+        "storage_type": "Pouch",
+        "finish": "Full polish chrome"
+      },
+      "features": {
+        "sae_metric": false,
+        "storage": true,
+        "lifetime_warranty": false,
+        "long_pattern": false
+      },
+      "verdict": "A small, cheap CRAFTSMAN SAE set with full polish chrome, 12-point box ends and a pouch, for a kitchen drawer or a bike bag.",
+      "best_for": "A starter or backup set of the common SAE sizes.",
+      "skip_if": "You work on metric cars or bikes; it's SAE only.",
+      "pros": [
+        "Lowest price here",
+        "Name brand",
+        "4.7 stars"
+      ],
+      "cons": [
+        "SAE only",
+        "Just 7 sizes"
+      ]
+    },
+    {
+      "asin": "B09BYWBHRT",
+      "name": "HORUSDY 26-Piece Combination Wrench Set with Roll-up Pouch, SAE 1/4\"-1\" and Metric",
+      "brand": "HORUSDY",
+      "model": "26-Piece",
+      "image": "https://m.media-amazon.com/images/I/71RfVNPyaUL._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.6,
+      "reviews_count": 1401,
+      "bought": "400+/mo",
+      "specs": {
+        "pieces": "26",
+        "sizes": "SAE 1/4-1 in, metric",
+        "box_end": "12-point offset",
+        "storage_type": "Roll-up pouch",
+        "finish": "Chrome vanadium"
+      },
+      "features": {
+        "sae_metric": true,
+        "storage": true,
+        "lifetime_warranty": false,
+        "long_pattern": false
+      },
+      "verdict": "A budget SAE and metric set in drop-forged, heat-treated chrome vanadium with a roll-up pouch, and 1,401 reviews behind it.",
+      "best_for": "Household and garage work on a budget.",
+      "skip_if": "You want a lifetime warranty in writing.",
+      "pros": [
+        "1,401 reviews",
+        "SAE and metric",
+        "Chrome vanadium"
+      ],
+      "cons": [
+        "No warranty listed"
+      ]
+    },
+    {
+      "asin": "B07KH6F8WL",
+      "name": "CRAFTSMAN 32-Piece SAE/Metric Combination Wrench Set (CMMT12080)",
+      "brand": "CRAFTSMAN",
+      "model": "CMMT12080",
+      "image": "https://m.media-amazon.com/images/I/71cIGjxWFFL._AC_SL1500_.jpg",
+      "price": 99.0,
+      "rating": 4.6,
+      "reviews_count": 676,
+      "bought": "100+/mo",
+      "specs": {
+        "pieces": "32",
+        "sizes": "SAE and metric",
+        "box_end": "12-point, 15° offset",
+        "storage_type": null,
+        "finish": "Full polish chrome"
+      },
+      "features": {
+        "sae_metric": true,
+        "storage": false,
+        "lifetime_warranty": true,
+        "long_pattern": false
+      },
+      "verdict": "A full 32-piece CRAFTSMAN SAE and metric set with full polish chrome, large size markings and CRAFTSMAN's full lifetime warranty.",
+      "best_for": "Anyone who wants a name-brand set with a lifetime warranty.",
+      "skip_if": "You want storage included; none is listed.",
+      "pros": [
+        "Full lifetime warranty",
+        "Name brand",
+        "Meets or exceeds ASME specs"
+      ],
+      "cons": [
+        "No storage listed"
+      ]
+    },
+    {
+      "asin": "B0013VBIXS",
+      "name": "Neiko 03574A Jumbo Combination Wrench Set, 16 Piece, SAE 1/4\" to 1-1/4\", Raised Panel",
+      "brand": "NEIKO",
+      "model": "03574A",
+      "image": "https://m.media-amazon.com/images/I/61hizqgZvwL._AC_SL1500_.jpg",
+      "price": 51.99,
+      "rating": 4.7,
+      "reviews_count": 1702,
+      "bought": "100+/mo",
+      "specs": {
+        "pieces": "16",
+        "sizes": "SAE 1/4-1-1/4 in",
+        "box_end": "12-point chamfered",
+        "storage_type": "Roll-up case",
+        "finish": "Black oxide"
+      },
+      "features": {
+        "sae_metric": false,
+        "storage": true,
+        "lifetime_warranty": false,
+        "long_pattern": false
+      },
+      "verdict": "A 'jumbo' SAE set that runs up to 1-1/4 inch, with raised-panel bodies and a black oxide finish, for big fasteners on trucks, tractors and equipment.",
+      "best_for": "Big SAE fasteners on trucks, trailers and farm equipment.",
+      "skip_if": "You need metric.",
+      "pros": [
+        "Sizes to 1-1/4 in",
+        "1,702 reviews; 4.7 stars",
+        "Roll-up case"
+      ],
+      "cons": [
+        "SAE only",
+        "Black oxide is less corrosion-resistant than chrome"
+      ]
+    },
+    {
+      "asin": "B00H2W7LVK",
+      "premium": true,
+      "name": "GEARWRENCH 44-Piece 12-Point Master Combination Wrench Set, Metric/SAE (81919)",
+      "brand": "GEARWRENCH",
+      "model": "81919",
+      "image": "https://m.media-amazon.com/images/I/81MVWpte06L._AC_SL1500_.jpg",
+      "price": 299.0,
+      "rating": 4.6,
+      "reviews_count": 1271,
+      "bought": "50+/mo",
+      "specs": {
+        "pieces": "44",
+        "sizes": "SAE and metric",
+        "box_end": "12-point, off-corner loading",
+        "storage_type": null,
+        "finish": "Chrome"
+      },
+      "features": {
+        "sae_metric": true,
+        "storage": false,
+        "lifetime_warranty": false,
+        "long_pattern": true
+      },
+      "verdict": "A pro master set with 44 long-pattern wrenches whose box ends grip the flats of the fastener (off-corner loading) to reduce rounding.",
+      "best_for": "Mechanics who want one complete pro-grade set.",
+      "skip_if": "You don't need 44 wrenches.",
+      "pros": [
+        "44 wrenches",
+        "Long pattern for leverage",
+        "Off-corner loading box ends"
+      ],
+      "cons": [
+        "Expensive",
+        "No storage listed"
+      ]
+    },
+    {
+      "asin": "B08FSGSNYQ",
+      "name": "TEKTON 19-Piece Metric Combination Wrench Set with Rack (WCB91202)",
+      "brand": "TEKTON",
+      "model": "WCB91202",
+      "image": "https://m.media-amazon.com/images/I/71ttCuOUwwL._AC_SL1500_.jpg",
+      "price": 115.0,
+      "rating": 4.8,
+      "reviews_count": 310,
+      "bought": "50+/mo",
+      "specs": {
+        "pieces": "19",
+        "sizes": "Metric 6-24 mm",
+        "box_end": "12-point",
+        "storage_type": "Wrench rack",
+        "finish": "Polished"
+      },
+      "features": {
+        "sae_metric": false,
+        "storage": true,
+        "lifetime_warranty": false,
+        "long_pattern": false
+      },
+      "verdict": "A full metric run from 6 to 24 mm, with no gaps, in a wrench rack, from a brand known for hand tools.",
+      "best_for": "Anyone working on metric cars, motorcycles and machines.",
+      "skip_if": "You need SAE sizes too.",
+      "pros": [
+        "Every metric size 6-24 mm",
+        "4.8 stars",
+        "Rack included"
+      ],
+      "cons": [
+        "Metric only",
+        "Pricey for 19 pieces"
+      ]
+    },
+    {
+      "asin": "B07Y7ZTDMM",
+      "name": "EFFICERE Max Torque 15-Piece Long Pattern Combination Wrench Set, Metric 8-22 mm",
+      "brand": "EFFICERE",
+      "model": "WR-009",
+      "image": "https://m.media-amazon.com/images/I/81-0XV2c40L._AC_SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.7,
+      "reviews_count": 4113,
+      "bought": "500+/mo",
+      "specs": {
+        "pieces": "15",
+        "sizes": "Metric 8-22 mm",
+        "box_end": "12-point, 15° offset",
+        "storage_type": "Folding rack",
+        "finish": "Mirror chrome"
+      },
+      "features": {
+        "sae_metric": false,
+        "storage": true,
+        "lifetime_warranty": false,
+        "long_pattern": true
+      },
+      "verdict": "A metric set with long-pattern bodies for more leverage and a V-cut open end that grips four flats of a nut, plus a folding storage rack.",
+      "best_for": "Metric work where leverage on stuck bolts matters.",
+      "skip_if": "You need SAE.",
+      "pros": [
+        "Long pattern",
+        "V-cut open end grips 4 flats",
+        "4,113 reviews"
+      ],
+      "cons": [
+        "Metric only"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GHBNBWFB",
+      "name": "VEVOR 44-Piece Combination Wrench Set, Metric 6 to 32mm, SAE 1/4\" to 1-1/4\"",
+      "brand": "VEVOR",
+      "model": "L0044BGY",
+      "image": "https://m.media-amazon.com/images/I/71DExYQtDwL._AC_SL1500_.jpg",
+      "price": 92.9,
+      "rating": 4.7,
+      "reviews_count": 460,
+      "flag": "Title says 44 pieces; the listing says 25",
+      "verdict": "You can't tell from the listing whether you're getting 44 wrenches or 25.",
+      "reasons": [
+        "The title says '44-Piece', but the first bullet says 'The 25-piece combined SAE and metric combination wrench set includes 6 to 32 mm and 1/4\" to 1-1/4\"'.",
+        "With the piece count contradicted, the rest of the listing (sizes, storage, what's in the box) can't be relied on either.",
+        "If you want a big set, the GEARWRENCH 81919 is a clearly described 44-piece set, and VEVOR's own 32-piece set lists its contents consistently."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "SAE, metric or both?",
+      "a": "Most cars, bikes, appliances and furniture built in the last 30 years use metric. Older American cars, trucks, trailers and farm gear use SAE. A set with both covers almost everything around a house."
+    },
+    {
+      "q": "12-point or 6-point?",
+      "a": "A 12-point box end grabs a bolt at twice as many angles, handy in tight spots. A 6-point end holds more of the bolt's flats and is less likely to round off a stubborn or rusty bolt. Most sets here are 12-point; GEARWRENCH also sells 6-point sets."
+    },
+    {
+      "q": "What's long pattern?",
+      "a": "Long-pattern wrenches have longer handles for more leverage on stuck bolts. They can be harder to swing in tight engine bays."
+    },
+    {
+      "q": "Do I need ratcheting wrenches?",
+      "a": "Not to start. Plain combination wrenches are cheaper, stronger and thinner. Add a ratcheting set later for repetitive work in tight spaces."
+    },
+    {
+      "q": "What about warranty?",
+      "a": "CRAFTSMAN lists a full lifetime warranty on the 32-piece set, and EFFICERE backs its 24-piece set with a lifetime guarantee. Hand tools rarely break, but a free replacement is nice if one does."
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "slug": "laser-distance-measures",
+  "title": "The 10 Best Laser Distance Measures",
+  "subtitle": "Laser measures for rooms, flooring, paint estimates and outdoor distances, ranked from live Amazon data.",
+  "intro": "A laser distance measure reads distance with a button press, then works out area, volume and height for you. We ranked 10 best-sellers from Bosch, Klein, MILESEEY, RockSeed, DTAPE and Fanttik on rating, review volume and features (±1/16 inch accuracy, 165 ft or more range, a green beam and angle or app functions). Even the cheap ones are accurate enough for most home projects.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 30,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "accuracy_1_16": 0.3,
+    "long_range": 0.25,
+    "green_beam": 0.2,
+    "angle_or_app": 0.25
+  },
+  "reviews_ceiling": 20000,
+  "spec_fields": [
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "accuracy",
+      "label": "Accuracy"
+    },
+    {
+      "key": "beam",
+      "label": "Beam"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "accuracy",
+      "label": "Accuracy"
+    },
+    {
+      "key": "green_beam",
+      "label": "Green beam",
+      "type": "bool"
+    },
+    {
+      "key": "angle_or_app",
+      "label": "Angle/app",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B076C3TB8P",
+      "force_overall": true,
+      "name": "Bosch GLM165-40 Blaze Pro 165 Ft. Laser Measure",
+      "brand": "Bosch",
+      "model": "GLM165-40",
+      "image": "https://m.media-amazon.com/images/I/51LXCjQR37L._AC_SL1000_.jpg",
+      "price": 59.84,
+      "rating": 4.7,
+      "reviews_count": 5878,
+      "bought": "2K+/mo",
+      "specs": {
+        "range": "165 ft",
+        "accuracy": "±1/16 in",
+        "beam": "Red",
+        "power": null,
+        "extras": "Real-time mode, backlit display, IP54, wrist strap"
+      },
+      "features": {
+        "accuracy_1_16": true,
+        "long_range": true,
+        "green_beam": false,
+        "angle_or_app": false
+      },
+      "verdict": "The best-rated laser measure here: pocket-size, 165 ft range, ±1/16 inch accuracy, a real-time mode that updates as you move and an IP54 rating against rain and dust.",
+      "best_for": "Contractors and DIYers who want a reliable everyday laser measure.",
+      "skip_if": "You measure outdoors in bright sun at long range; a green beam or camera helps there.",
+      "pros": [
+        "4.7 stars; 5,878 reviews",
+        "165 ft, ±1/16 in",
+        "IP54"
+      ],
+      "cons": [
+        "Red beam"
+      ]
+    },
+    {
+      "asin": "B0FPLD3LL7",
+      "name": "RockSeed S2 Digital Laser Distance Meter with 2 Bubble Levels, 165 ft",
+      "brand": "RockSeed",
+      "model": "S2",
+      "image": "https://m.media-amazon.com/images/I/61g53nDB+SL._AC_SL1477_.jpg",
+      "price": 23.99,
+      "rating": 4.4,
+      "reviews_count": 22552,
+      "bought": "7K+/mo",
+      "specs": {
+        "range": "165 ft",
+        "accuracy": "±1/16 in",
+        "beam": "Red",
+        "power": null,
+        "extras": "2 bubble levels, area/volume/Pythagorean, IP54, mute"
+      },
+      "features": {
+        "accuracy_1_16": true,
+        "long_range": true,
+        "green_beam": false,
+        "angle_or_app": false
+      },
+      "verdict": "Tied for the best seller and the most-reviewed laser measure here: 165 ft range, ±1/16 inch, two bubble levels, area and volume modes, IP54, for about $24.",
+      "best_for": "Homeowners measuring rooms for flooring and paint.",
+      "skip_if": "You want a name brand's warranty.",
+      "pros": [
+        "22,552 reviews; 7,000+ sold last month",
+        "165 ft, ±1/16 in",
+        "Low price"
+      ],
+      "cons": [
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B0C76CPGC7",
+      "name": "BOSCH GLM100-23 100 Ft Blaze Laser Distance Measure",
+      "brand": "Bosch",
+      "model": "GLM100-23",
+      "image": "https://m.media-amazon.com/images/I/518l-mjGtdL._AC_SL1000_.jpg",
+      "price": 62.99,
+      "rating": 4.6,
+      "reviews_count": 2727,
+      "bought": "7K+/mo",
+      "specs": {
+        "range": "100 ft",
+        "accuracy": "±1/16 in",
+        "beam": "Red",
+        "power": "2 AA (included)",
+        "extras": "Two-button operation"
+      },
+      "features": {
+        "accuracy_1_16": true,
+        "long_range": false,
+        "green_beam": false,
+        "angle_or_app": false
+      },
+      "verdict": "Bosch's simple two-button laser measure: 100 ft to within 1/16 inch, with nothing to learn.",
+      "best_for": "Anyone who wants the simplest name-brand laser measure.",
+      "skip_if": "You need area and volume math or more range.",
+      "pros": [
+        "7,000+ sold last month",
+        "Two-button simple",
+        "4.6 stars"
+      ],
+      "cons": [
+        "100 ft range"
+      ]
+    },
+    {
+      "asin": "B085NX87K3",
+      "name": "MILESEEY D5 Laser Measure with Angle Sensor, 229 ft",
+      "brand": "MILESEEY",
+      "model": "D5",
+      "image": "https://m.media-amazon.com/images/I/61F-JhbLC9L._AC_SL1500_.jpg",
+      "price": 27.54,
+      "rating": 4.5,
+      "reviews_count": 9717,
+      "bought": "2K+/mo",
+      "specs": {
+        "range": "229 ft (70 m)",
+        "accuracy": "±1/16 in (2 mm)",
+        "beam": "Red",
+        "power": null,
+        "extras": "Electronic level ±0.3°, angle sensor, IP54, 2-year assurance"
+      },
+      "features": {
+        "accuracy_1_16": true,
+        "long_range": true,
+        "green_beam": false,
+        "angle_or_app": true
+      },
+      "verdict": "A budget laser measure with an electronic angle sensor, 229 ft range and ±1/16 inch accuracy, rated IP54 with a 2-year assurance.",
+      "best_for": "DIYers who want angle and indirect height measurements cheaply.",
+      "skip_if": "You want a name brand.",
+      "pros": [
+        "Angle sensor",
+        "229 ft, ±1/16 in",
+        "9,717 reviews"
+      ],
+      "cons": [
+        "4.5 stars"
+      ]
+    },
+    {
+      "asin": "B09VJS94G3",
+      "name": "Klein Tools Laser Distance Measure, 100 ft (93LDM100C)",
+      "brand": "Klein Tools",
+      "model": "93LDM100C",
+      "image": "https://m.media-amazon.com/images/I/41+dwBZVqgL._AC_SL1000_.jpg",
+      "price": 39.98,
+      "rating": 4.5,
+      "reviews_count": 1152,
+      "bought": "900+/mo",
+      "specs": {
+        "range": "2 in to 100 ft",
+        "accuracy": "±1/16 in for the first 30 ft",
+        "beam": "Red",
+        "power": "2 AAA (included)",
+        "extras": "Reverse-contrast LCD, pocket clip"
+      },
+      "features": {
+        "accuracy_1_16": true,
+        "long_range": false,
+        "green_beam": false,
+        "angle_or_app": false
+      },
+      "verdict": "A pocket-clip laser measure from Klein with a reverse-contrast display that reads well in dim rooms, accurate to ±1/16 inch out to 30 ft.",
+      "best_for": "Electricians who want a pocket-size measure on their belt.",
+      "skip_if": "You need long range.",
+      "pros": [
+        "Pocket clip",
+        "Reverse-contrast LCD",
+        "4.5 stars"
+      ],
+      "cons": [
+        "100 ft range",
+        "±1/16 in only to 30 ft"
+      ]
+    },
+    {
+      "asin": "B0FL6B9LLC",
+      "name": "MILESEEY S50 Green Laser Distance Meter, 400 ft, P2P",
+      "brand": "MILESEEY",
+      "model": "S50",
+      "image": "https://m.media-amazon.com/images/I/6129sQqcnQL._AC_SL1500_.jpg",
+      "price": 129.99,
+      "rating": 4.5,
+      "reviews_count": 532,
+      "bought": "1K+/mo",
+      "specs": {
+        "range": "400 ft (120 m)",
+        "accuracy": null,
+        "beam": "Green",
+        "power": "AA NiMH (included), USB-C charging",
+        "extras": "Point-to-point, 18 modes, app with cloud sync, case"
+      },
+      "features": {
+        "accuracy_1_16": false,
+        "long_range": true,
+        "green_beam": true,
+        "angle_or_app": true
+      },
+      "verdict": "A feature-packed green-beam meter with 400 ft range, point-to-point measuring, 18 modes and an app, for less than half the price of Bosch's outdoor model.",
+      "best_for": "Pros measuring large spaces and outdoors.",
+      "skip_if": "You want simple; it has a learning curve.",
+      "pros": [
+        "400 ft green beam",
+        "Point-to-point and app",
+        "USB-C charging"
+      ],
+      "cons": [
+        "Accuracy not stated in the bullets",
+        "532 reviews"
+      ]
+    },
+    {
+      "asin": "B0931YY9LZ",
+      "name": "Bosch GLM165-25G Blaze Green-Beam 165 Ft. Laser Measure",
+      "brand": "Bosch",
+      "model": "GLM165-25G",
+      "image": "https://m.media-amazon.com/images/I/51v9CEdI3ZL._AC_SL1000_.jpg",
+      "price": 135.0,
+      "rating": 4.6,
+      "reviews_count": 1549,
+      "bought": "800+/mo",
+      "specs": {
+        "range": "165 ft",
+        "accuracy": "±1/16 in",
+        "beam": "Green",
+        "power": null,
+        "extras": "Real-time mode, area/volume/indirect"
+      },
+      "features": {
+        "accuracy_1_16": true,
+        "long_range": true,
+        "green_beam": true,
+        "angle_or_app": false
+      },
+      "verdict": "Bosch's green-beam version of its 165 ft measure: a dot up to 4 times brighter than red, easier to see in bright rooms and outdoors.",
+      "best_for": "Pros who measure in bright light.",
+      "skip_if": "You only measure indoors; the red GLM165-40 is cheaper.",
+      "pros": [
+        "Green beam",
+        "165 ft, ±1/16 in",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Pricey"
+      ]
+    },
+    {
+      "asin": "B07L8LWXZB",
+      "premium": true,
+      "name": "BOSCH PRO GLM400C BLAZE Outdoor 400 Ft. Connected Laser Measure",
+      "brand": "Bosch",
+      "model": "GLM400C",
+      "image": "https://m.media-amazon.com/images/I/51+E7xqQSLL._AC_SL1400_.jpg",
+      "price": 278.65,
+      "rating": 4.5,
+      "reviews_count": 585,
+      "bought": "200+/mo",
+      "specs": {
+        "range": "400 ft",
+        "accuracy": null,
+        "beam": "Red",
+        "power": null,
+        "extras": "5 MP zoom camera viewfinder, Bluetooth, 360° inclinometer"
+      },
+      "features": {
+        "accuracy_1_16": false,
+        "long_range": true,
+        "green_beam": false,
+        "angle_or_app": true
+      },
+      "verdict": "Bosch's outdoor meter uses a 5-megapixel zoom viewfinder to find the dot at 400 ft, with Bluetooth to send measurements to your phone and a 360-degree inclinometer.",
+      "best_for": "Surveying yards, lots and building exteriors.",
+      "skip_if": "You measure rooms; it's overkill indoors.",
+      "pros": [
+        "Camera viewfinder",
+        "400 ft range",
+        "Bluetooth and inclinometer"
+      ],
+      "cons": [
+        "Most expensive here",
+        "Accuracy not stated in the bullets"
+      ]
+    },
+    {
+      "asin": "B0D48DY5YJ",
+      "name": "DTAPE High-Accuracy Laser Measure, 2\" Backlit LCD, 330 ft",
+      "brand": "DTAPE",
+      "model": "S5V",
+      "image": "https://m.media-amazon.com/images/I/61gk-MeE-5L._AC_SL1500_.jpg",
+      "price": 23.99,
+      "rating": 4.5,
+      "reviews_count": 5188,
+      "bought": "400+/mo",
+      "specs": {
+        "range": "330 ft",
+        "accuracy": "±1/16 in",
+        "beam": "Red",
+        "power": null,
+        "extras": "IP54, front/rear reference, manual calibration"
+      },
+      "features": {
+        "accuracy_1_16": true,
+        "long_range": true,
+        "green_beam": false,
+        "angle_or_app": false
+      },
+      "verdict": "A budget meter that claims ±1/16 inch out to 330 ft, with IP54 sealing, a large backlit display and manual calibration.",
+      "best_for": "DIYers who want long range for little money.",
+      "skip_if": "You want a known brand.",
+      "pros": [
+        "330 ft claimed",
+        "IP54",
+        "5,188 reviews"
+      ],
+      "cons": [
+        "4.5 stars"
+      ]
+    },
+    {
+      "asin": "B0F8VQVS28",
+      "name": "Fanttik A10 Pro 2-in-1 Digital Laser Tape Measure, 165 ft",
+      "brand": "Fanttik",
+      "model": "A10 Pro",
+      "image": "https://m.media-amazon.com/images/I/61kRsNqlt7L._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.4,
+      "reviews_count": 567,
+      "bought": "2K+/mo",
+      "specs": {
+        "range": "165 ft laser + digital tape",
+        "accuracy": "±1/8 in laser, ±1/16 in tape",
+        "beam": "Red",
+        "power": "Rechargeable, USB-C",
+        "extras": "Color IPS display, dual-axis angle, 30 saved readings"
+      },
+      "features": {
+        "accuracy_1_16": false,
+        "long_range": true,
+        "green_beam": false,
+        "angle_or_app": true
+      },
+      "verdict": "A laser measure and digital tape in one, with a color screen, a ±1° angle readout and USB-C charging. The laser side is ±1/8 inch, less precise than most here.",
+      "best_for": "Gadget lovers who want a tape and a laser in one.",
+      "skip_if": "You need ±1/16 inch from the laser.",
+      "pros": [
+        "Laser plus digital tape",
+        "USB-C rechargeable",
+        "Color display"
+      ],
+      "cons": [
+        "±1/8 in laser accuracy",
+        "4.4 stars"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B08YRJGVKF",
+      "name": "ACEGMET S9 229ft/70m Laser Measuring Tool, LCD Backlit Display",
+      "brand": "ACEGMET",
+      "model": "229LMT-0902",
+      "image": "https://m.media-amazon.com/images/I/71kLqPQewrL._AC_SL1500_.jpg",
+      "price": 16.24,
+      "rating": 4.5,
+      "reviews_count": 1859,
+      "flag": "Title says 229 ft; listing says 393 ft",
+      "verdict": "The listing can't agree on how far the laser reaches, which is the main spec of a laser measure.",
+      "reasons": [
+        "The title says '229ft/70m', but the bullets say 'Its laser extends out to 393 feet'.",
+        "Range is the spec you compare laser measures on, and here you can't tell whether you're buying a 229 ft or a 393 ft tool.",
+        "For a few dollars more, the RockSeed S2 lists its range and accuracy consistently and has 22,552 reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "How accurate are laser measures?",
+      "a": "Most here are rated ±1/16 inch, as good as a careful tape measure, over their full range. Klein rates its 100 ft model ±1/16 inch to 30 ft. Accuracy drops on shiny, dark or angled surfaces; put a card or tape on glass."
+    },
+    {
+      "q": "How much range do I need?",
+      "a": "Indoors, 100 ft is plenty for almost any room. 165 ft covers big rooms and halls. 300 to 400 ft matters outdoors, where you'll need a target, a green beam or Bosch's camera viewfinder to see the dot."
+    },
+    {
+      "q": "Red or green beam?",
+      "a": "Green dots look up to 4 times brighter than red, so they're easier to see in sunlit rooms and outdoors. They cost more and use more battery."
+    },
+    {
+      "q": "Can it calculate square footage?",
+      "a": "Most here do area (two measurements multiplied), volume and Pythagorean height. That's handy for flooring and paint estimates."
+    },
+    {
+      "q": "Watch out for 'bidirectional' range",
+      "a": "Some dual-laser models advertise the two directions added together, so a '656 ft' meter reaches 328 ft each way. Check the single-direction range."
+    }
+  ]
+}

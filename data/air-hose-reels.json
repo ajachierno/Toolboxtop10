@@ -1,0 +1,466 @@
+{
+  "slug": "air-hose-reels",
+  "title": "The 10 Best Air Hose Reels",
+  "subtitle": "Retractable and manual air hose reels for garage and shop compressors, ranked from live Amazon data.",
+  "intro": "An air hose reel keeps your compressor hose off the floor and out from under your feet. We ranked 10 best-sellers from VEVOR, AIRZILLA, Giraffe Tools, Flexzilla, Goodyear, DEWALT, Lincoln and others on rating, review volume and features (a hose included, auto rewind, a steel reel and a guide arm or swivel bracket). Most people want a 50 ft retractable reel with the hose included.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 80,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "hose_included": 0.3,
+    "auto_rewind": 0.3,
+    "steel_reel": 0.2,
+    "guide_arm": 0.2
+  },
+  "reviews_ceiling": 3500,
+  "spec_fields": [
+    {
+      "key": "hose",
+      "label": "Hose"
+    },
+    {
+      "key": "rewind",
+      "label": "Rewind"
+    },
+    {
+      "key": "reel",
+      "label": "Reel body"
+    },
+    {
+      "key": "pressure",
+      "label": "Max pressure"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "hose",
+      "label": "Hose"
+    },
+    {
+      "key": "reel",
+      "label": "Reel"
+    },
+    {
+      "key": "auto_rewind",
+      "label": "Auto rewind",
+      "type": "bool"
+    },
+    {
+      "key": "hose_included",
+      "label": "Hose included",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0C37548K6",
+      "name": "VEVOR Retractable Air Hose Reel, 3/8 in x 50 ft Hybrid Hose, 300 PSI",
+      "brand": "VEVOR",
+      "model": "NT-A15",
+      "image": "https://m.media-amazon.com/images/I/71zY0+d46DL._AC_SL1500_.jpg",
+      "price": 75.21,
+      "rating": 4.5,
+      "reviews_count": 1348,
+      "bought": "1K+/mo",
+      "specs": {
+        "hose": "3/8 in x 50 ft hybrid",
+        "rewind": "Auto, locks at any length",
+        "reel": "Heavy-gauge steel",
+        "pressure": "300 PSI",
+        "extras": "180° swivel bracket, 1/4 in NPT, spring guard"
+      },
+      "features": {
+        "hose_included": true,
+        "auto_rewind": true,
+        "steel_reel": true,
+        "guide_arm": true
+      },
+      "verdict": "The best seller here: a steel auto-rewind reel with a 50 ft hybrid hose, a 180-degree swivel bracket and a spring guard at the hose exit, for about $75.",
+      "best_for": "Home garages that want a hose that winds itself up.",
+      "skip_if": "You need more than 50 feet of reach.",
+      "pros": [
+        "1,000+ sold last month",
+        "Hose included, auto rewind",
+        "Steel reel"
+      ],
+      "cons": [
+        "50 ft"
+      ]
+    },
+    {
+      "asin": "B0BW5KN9KP",
+      "name": "AIRZILLA Premium Steel Retractable Air Hose Reel with Dual Arm, 3/8 in x 65 ft Hybrid Hose",
+      "brand": "AIRZILLA",
+      "model": "ZA19-20-20",
+      "image": "https://m.media-amazon.com/images/I/81aPC+E54LL._AC_SL1500_.jpg",
+      "price": 139.98,
+      "rating": 4.6,
+      "reviews_count": 608,
+      "bought": "700+/mo",
+      "specs": {
+        "hose": "3/8 in x 65 ft hybrid (+5 ft lead-in)",
+        "rewind": "Auto",
+        "reel": "Heavy-gauge steel",
+        "pressure": "300 PSI",
+        "extras": "Adjustable dual arm with rollers"
+      },
+      "features": {
+        "hose_included": true,
+        "auto_rewind": true,
+        "steel_reel": true,
+        "guide_arm": true
+      },
+      "verdict": "A longer 65 ft hose on a heavy steel reel with an adjustable dual-arm roller guide that keeps the hose winding smoothly.",
+      "best_for": "Bigger garages and shops that need extra reach.",
+      "skip_if": "You're on a budget; the VEVOR is about half the price.",
+      "pros": [
+        "65 ft hose",
+        "Dual-arm roller guide",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Pricier"
+      ]
+    },
+    {
+      "asin": "B0CHB3GDSV",
+      "name": "Giraffe Tools Retractable Air Hose Reel 50 ft, 3/8 in, with Swivel Bracket",
+      "brand": "Giraffe Tools",
+      "model": "TA",
+      "image": "https://m.media-amazon.com/images/I/71GyNQ7S6kL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.4,
+      "reviews_count": 3130,
+      "bought": "500+/mo",
+      "specs": {
+        "hose": "3/8 in x 50 ft hybrid",
+        "rewind": "Auto",
+        "reel": "All-steel",
+        "pressure": null,
+        "extras": "180° swivel bracket"
+      },
+      "features": {
+        "hose_included": true,
+        "auto_rewind": true,
+        "steel_reel": true,
+        "guide_arm": true
+      },
+      "verdict": "The most-reviewed reel here, with 3,130 reviews: an all-steel auto-rewind reel with a 50 ft hybrid hose and swivel bracket.",
+      "best_for": "Anyone who wants a proven reel with lots of owner feedback.",
+      "skip_if": "You want the cheapest reel with a hose; VEVOR's is less.",
+      "pros": [
+        "3,130 reviews",
+        "All-steel",
+        "Swivel bracket"
+      ],
+      "cons": [
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B007QV1RLM",
+      "name": "Flexzilla Retractable Enclosed Plastic Air Hose Reel, 3/8 in x 50 ft (L8250FZ)",
+      "brand": "Flexzilla",
+      "model": "L8250FZ",
+      "image": "https://m.media-amazon.com/images/I/61UPf4QHIdL._AC_SL1200_.jpg",
+      "price": 99.98,
+      "rating": 4.4,
+      "reviews_count": 1650,
+      "bought": "300+/mo",
+      "specs": {
+        "hose": "3/8 in x 50 ft Flexzilla hybrid",
+        "rewind": "Auto, positive latching",
+        "reel": "UV-stabilized polypropylene, enclosed",
+        "pressure": null,
+        "extras": "Wall or ceiling mount, swivel bracket"
+      },
+      "features": {
+        "hose_included": true,
+        "auto_rewind": true,
+        "steel_reel": false,
+        "guide_arm": true
+      },
+      "verdict": "An enclosed plastic reel with Flexzilla's very flexible hose, light enough to mount on a ceiling, with a positive-latching retract.",
+      "best_for": "Garages where a light, enclosed reel keeps dust off the hose.",
+      "skip_if": "You want a steel reel.",
+      "pros": [
+        "Flexzilla hose",
+        "Enclosed, lightweight",
+        "1,650 reviews"
+      ],
+      "cons": [
+        "Plastic body"
+      ]
+    },
+    {
+      "asin": "B003O556QG",
+      "name": "Flexzilla Open Face Retractable Air Hose Reel, 3/8 in x 50 ft, Steel (L8611FZ)",
+      "brand": "Flexzilla",
+      "model": "L8611FZ",
+      "image": "https://m.media-amazon.com/images/I/61wMgeO-3wL._AC_SL1200_.jpg",
+      "price": 193.22,
+      "rating": 4.5,
+      "reviews_count": 316,
+      "bought": "200+/mo",
+      "specs": {
+        "hose": "3/8 in x 50 ft Flexzilla hybrid",
+        "rewind": "Auto, metal latching pawl",
+        "reel": "Heavy-duty steel, powder coat",
+        "pressure": null,
+        "extras": "Four-way rollers, multi-position guide arm, greased spring motor"
+      },
+      "features": {
+        "hose_included": true,
+        "auto_rewind": true,
+        "steel_reel": true,
+        "guide_arm": true
+      },
+      "verdict": "Flexzilla's steel open reel with four-way rollers, a multi-position guide arm for wall, tank or overhead mounting, and a grease-packed spring motor.",
+      "best_for": "Shops that want a heavy-duty reel with Flexzilla hose.",
+      "skip_if": "You're on a budget.",
+      "pros": [
+        "Steel reel with Flexzilla hose",
+        "Four-way rollers",
+        "Mount on wall, tank or ceiling"
+      ],
+      "cons": [
+        "Expensive"
+      ]
+    },
+    {
+      "asin": "B01GFA35N2",
+      "name": "Goodyear Retractable Air Hose Reel, 3/8 in x 50 ft SBR Rubber Hose, 300 PSI",
+      "brand": "Goodyear",
+      "model": "L815153G",
+      "image": "https://m.media-amazon.com/images/I/71drkf73fsL._AC_SL1500_.jpg",
+      "price": 133.99,
+      "rating": 4.6,
+      "reviews_count": 1379,
+      "bought": "100+/mo",
+      "specs": {
+        "hose": "3/8 in x 50 ft SBR rubber",
+        "rewind": "Auto, ratchet lock at any length",
+        "reel": "Heavy-gauge steel, powder coat",
+        "pressure": "300 PSI",
+        "extras": "Single-arm design; lead-in hose not included"
+      },
+      "features": {
+        "hose_included": true,
+        "auto_rewind": true,
+        "steel_reel": true,
+        "guide_arm": true
+      },
+      "verdict": "A steel reel with a rubber hose that lays flat and stays supple in cold, with a ratchet spring that locks at any length.",
+      "best_for": "Cold garages where hybrid hose stiffens.",
+      "skip_if": "You need a lead-in hose; it's not included.",
+      "pros": [
+        "Rubber hose",
+        "Steel reel",
+        "4.6 stars, 1,379 reviews"
+      ],
+      "cons": [
+        "Lead-in hose not included",
+        "Heavier hose"
+      ]
+    },
+    {
+      "asin": "B0B9NXLKXV",
+      "name": "DEWALT 3/8 in x 50 ft Enclosed Retractable Air Hose Reel (DXCM024-0434)",
+      "brand": "DEWALT",
+      "model": "DXCM024-0434",
+      "image": "https://m.media-amazon.com/images/I/61xjBXXKY+L._AC_SL1500_.jpg",
+      "price": 91.62,
+      "rating": 4.1,
+      "reviews_count": 303,
+      "bought": "100+/mo",
+      "specs": {
+        "hose": "3/8 in x 50 ft hybrid",
+        "rewind": "Auto, stop-anywhere lock, self-leveling",
+        "reel": "Enclosed",
+        "pressure": null,
+        "extras": "160° swivel bracket, brass fitting"
+      },
+      "features": {
+        "hose_included": true,
+        "auto_rewind": true,
+        "steel_reel": false,
+        "guide_arm": true
+      },
+      "verdict": "An enclosed DEWALT reel with a self-leveling guide that winds the hose evenly, stop-anywhere locking and a quick-release swivel bracket.",
+      "best_for": "DEWALT fans who want an enclosed reel.",
+      "skip_if": "You want the best-rated reel; it's 4.1 stars.",
+      "pros": [
+        "Self-leveling winding",
+        "Quick-release bracket",
+        "Brass fitting"
+      ],
+      "cons": [
+        "4.1 stars"
+      ]
+    },
+    {
+      "asin": "B01EGB7MT0",
+      "name": "Ironton Manual Air Hose Reel, Holds 3/8 in x 100 ft Hose, 300 PSI",
+      "brand": "Ironton",
+      "model": "3183092",
+      "image": "https://m.media-amazon.com/images/I/71pcRwXfWcL._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.5,
+      "reviews_count": 737,
+      "bought": "100+/mo",
+      "specs": {
+        "hose": "Not included (holds 3/8 in x 100 ft)",
+        "rewind": "Manual crank",
+        "reel": "18-gauge steel, powder coat",
+        "pressure": "300 PSI",
+        "extras": "1/4 in brass fittings"
+      },
+      "features": {
+        "hose_included": false,
+        "auto_rewind": false,
+        "steel_reel": true,
+        "guide_arm": false
+      },
+      "verdict": "A simple hand-crank steel reel that holds 100 ft of 3/8-inch hose, for people who already own hose and don't need a spring.",
+      "best_for": "Storing a long hose you already own, cheaply.",
+      "skip_if": "You want auto rewind.",
+      "pros": [
+        "Holds 100 ft",
+        "18-gauge steel",
+        "Cheap"
+      ],
+      "cons": [
+        "Hose not included",
+        "Manual crank"
+      ]
+    },
+    {
+      "asin": "B08J8HSCQN",
+      "name": "Primefit HRM38100 Manual Air Hose Reel, 100 ft Capacity for 3/8 in Hose",
+      "brand": "Primefit",
+      "model": "HRM38100",
+      "image": "https://m.media-amazon.com/images/I/71K8GHKpYVL._AC_SL1500_.jpg",
+      "price": 32.47,
+      "rating": 4.3,
+      "reviews_count": 714,
+      "bought": "100+/mo",
+      "specs": {
+        "hose": "Not included (holds 3/8 in x 100 ft)",
+        "rewind": "Manual crank",
+        "reel": "Thick steel",
+        "pressure": null,
+        "extras": "Wall mount, brass inlet"
+      },
+      "features": {
+        "hose_included": false,
+        "auto_rewind": false,
+        "steel_reel": true,
+        "guide_arm": false
+      },
+      "verdict": "The cheapest reel here: a wall-mounted hand-crank steel reel for 100 ft of 3/8-inch or 150 ft of 1/4-inch hose.",
+      "best_for": "Organizing an existing hose for very little money.",
+      "skip_if": "You want a hose included or auto rewind.",
+      "pros": [
+        "Lowest price here",
+        "Fits 1/4, 3/8 or 1/2 in hose"
+      ],
+      "cons": [
+        "Hose not included",
+        "Manual crank",
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B000OCHEOY",
+      "premium": true,
+      "name": "Lincoln 83753 Value Series Air/Water Retractable Hose Reel with 50 ft x 3/8 in Rubber Hose",
+      "brand": "Lincoln",
+      "model": "83753",
+      "image": "https://m.media-amazon.com/images/I/81gHtAXFNZL._AC_SL1500_.jpg",
+      "price": 219.98,
+      "rating": 4.5,
+      "reviews_count": 248,
+      "bought": "100+/mo",
+      "specs": {
+        "hose": "3/8 in x 50 ft rubber",
+        "rewind": "Auto",
+        "reel": "All steel",
+        "pressure": "300 PSI",
+        "extras": "5-position adjustable outlet arm, air or water use"
+      },
+      "features": {
+        "hose_included": true,
+        "auto_rewind": true,
+        "steel_reel": true,
+        "guide_arm": true
+      },
+      "verdict": "An industrial-style all-steel reel from Lincoln Industrial with a rubber hose, a five-position arm and a rating for air or water.",
+      "best_for": "Shops that want a commercial-grade reel.",
+      "skip_if": "You want light weight; it's all steel with rubber hose.",
+      "pros": [
+        "All-steel, commercial grade",
+        "Air or water",
+        "5-position arm"
+      ],
+      "cons": [
+        "Most expensive here"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B087RJK3GW",
+      "name": "Amazon Basics Retractable Air Hose Reel - Fits 3/8-Inch 50-Feet Air Compressor Hoses, Hoses Excluded",
+      "brand": "Amazon Basics",
+      "model": "Retractable Reel",
+      "image": "https://m.media-amazon.com/images/I/81K30uCzu7L._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.3,
+      "reviews_count": 831,
+      "flag": "Retractable reel with no hose; VEVOR's with hose costs about the same",
+      "verdict": "A spring-retract reel sold without a hose, for about the price of reels that include one.",
+      "reasons": [
+        "The title says 'Hoses Excluded'. You have to buy a 50 ft hose separately and wind it onto a tensioned spring reel yourself.",
+        "The VEVOR retractable reel with a 50 ft hybrid hose (B0C36SR3TM) costs about $3 more, so the bare reel saves almost nothing.",
+        "It's rated 4.3 stars, below every retractable reel we rank except DEWALT's."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Retractable or manual?",
+      "a": "Spring-retractable reels pull the hose back with a tug; they're the most convenient for a garage. Manual crank reels are cheaper, hold longer hoses, and suit people who already own hose."
+    },
+    {
+      "q": "What hose length do I need?",
+      "a": "Measure from the reel to the farthest point you'll work, then add 10 feet. 50 ft covers a two-car garage from a wall mount; 65 ft and up suits bigger shops or driveways."
+    },
+    {
+      "q": "Hybrid or rubber hose?",
+      "a": "Hybrid polymer hose is light and kink-resistant. Rubber hose is heavier but lays flat and stays supple in the cold. Flexzilla's hose is famously flexible."
+    },
+    {
+      "q": "Where should I mount it?",
+      "a": "On a wall or ceiling stud near the compressor, with a short lead-in hose from the compressor to the reel. Use the swivel bracket so the hose pays out in any direction."
+    },
+    {
+      "q": "Is 3/8-inch hose enough?",
+      "a": "Yes for nailers, impact wrenches and inflating tires. 1/2-inch hose is only worth it for long runs to high-demand tools."
+    }
+  ]
+}
