@@ -41,9 +41,13 @@ BOARDS = {
     "wired": "Best Corded Power Tools",
     "hand": "Hand Tool Essentials",
     "storage": "Tool Storage & Organization",
+    "air": "Air Tools & Compressors",
+    "measure": "Measuring & Layout Tools",
+    "garage": "Garage & Auto Shop Tools",
     "gifts": "Tool Gift Ideas (Holiday 2026)",
 }
-GROUP_NOUN = {"wireless": "Cordless Tool", "wired": "Corded Tool", "hand": "Hand Tool", "storage": "Tool Storage"}
+GROUP_NOUN = {"wireless": "Cordless Tool", "wired": "Corded Tool", "hand": "Hand Tool", "storage": "Tool Storage",
+              "air": "Air Tool", "measure": "Measuring Tool", "garage": "Garage & Car"}
 
 
 def font(weight, size):
@@ -254,7 +258,7 @@ def pin_gifts(site, group, picks, cfg):
     desc = (f"{noun} gift ideas {band.lower()}, picked by score from real Amazon reviews — "
             f"for dads, husbands, DIYers and new homeowners. "
             + "; ".join(f"{build.cat_name(c)}: {p['brand']} {p['model']}" for c, p in picks[:5])
-            + ". Ready to use out of the box.")
+            + (". Air tools need an air compressor." if group == "air" else ". Ready to use out of the box."))
     kw = [f"tool gifts {band.lower()}", "gifts for dad", "gifts for him", "diy gift ideas",
           "christmas gifts for men", f"{noun.lower()} gifts"]
     return img, title, desc, f"{cfg['slug']}.html", kw
@@ -309,7 +313,7 @@ def all_pins(site, year, cats, by_group):
     for cfg in build.SEASONAL.get("gifts", []):
         if not cfg.get("enabled") or cfg.get("kind") == "premium":  # price-band gift pins only
             continue
-        for group in ("wireless", "wired", "hand", "storage"):
+        for group in GROUP_NOUN:
             picks = [(cat, build.gift_pick(cat, cfg["min_price"], cfg["max_price"]))
                      for cat, _o, _b in by_group.get(group, [])]
             picks = sorted([(c, p) for c, p in picks if p], key=lambda cp: -cp[1]["score"])
@@ -339,9 +343,15 @@ def main():
     ap.add_argument("--per-day", type=int, default=5)
     ap.add_argument("--only", choices=["sample"], help="write one pin of each format, no CSV")
     ap.add_argument("--out", default=str(OUT))
+    ap.add_argument("--new-only", action="store_true",
+                    help="skip pins whose PNG already exists (they were posted in an earlier batch)")
+    ap.add_argument("--max-rows", type=int, default=90,
+                    help="rows per CSV; Pinterest caps scheduled pins at 100 per account")
     args = ap.parse_args()
     site, year, cats, by_group = collect()
     pins = all_pins(site, year, cats, by_group)
+    if args.new_only:
+        pins = [p for p in pins if not (Path(args.out) / f"{p[0]}.png").exists()]
     if args.only == "sample":
         want = ["gifts-50-wired", "black-friday-cheat-sheet", "top3-cordless-drills", "avoid-cordless-drills"]
         pins = [p for p in pins if p[0] in want]
@@ -362,12 +372,14 @@ def main():
     print(f"wrote {len(pins)} pin(s) to {out}")
     if args.only != "sample":
         CSV_DIR.mkdir(parents=True, exist_ok=True)
-        path = CSV_DIR / f"batch-{args.start}.csv"
-        with path.open("w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, fieldnames=list(rows[0]))
-            w.writeheader()
-            w.writerows(rows)
-        print(f"wrote {path} ({len(rows)} rows, {rows[0]['Publish date']} .. {rows[-1]['Publish date']})")
+        for n in range(0, len(rows), args.max_rows):
+            part = rows[n:n + args.max_rows]
+            path = CSV_DIR / f"batch-{part[0]['Publish date'][:10]}.csv"
+            with path.open("w", newline="", encoding="utf-8") as f:
+                w = csv.DictWriter(f, fieldnames=list(part[0]))
+                w.writeheader()
+                w.writerows(part)
+            print(f"wrote {path} ({len(part)} rows, {part[0]['Publish date']} .. {part[-1]['Publish date']})")
 
 
 if __name__ == "__main__":
