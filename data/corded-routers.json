@@ -1,0 +1,194 @@
+{
+  "slug": "corded-routers",
+  "title": "The 10 Best Corded Routers",
+  "subtitle": "Compact, fixed-base and plunge routers for edges, dados and joinery, ranked from live Amazon data.",
+  "intro": "A router spins a shaped bit at high speed to round over edges, cut grooves and dados, trim laminate and copy templates. Compact (palm) routers with 1/4-inch collets handle edge work; full-size 2+ HP routers with 1/2-inch collets drive big bits and live in router tables. We ranked 10 best-sellers on rating, review volume and features (variable speed, soft start, a plunge base, fine depth adjustment and bits or guides in the box). They run from about $50 for a WEN trim router to $230 for Bosch's plunge-and-fixed kit.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 70,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "variable_speed": 0.25, "soft_start": 0.2, "plunge_base": 0.2, "fine_depth": 0.2, "kit": 0.15 },
+  "reviews_ceiling": 5000,
+  "spec_fields": [
+    { "key": "type", "label": "Type" },
+    { "key": "power", "label": "Motor" },
+    { "key": "speed", "label": "Speed" },
+    { "key": "collets", "label": "Collets" },
+    { "key": "weight", "label": "Weight" },
+    { "key": "in_box", "label": "In the box" }
+  ],
+  "table_columns": [
+    { "key": "type", "label": "Type" },
+    { "key": "power", "label": "Motor" },
+    { "key": "variable_speed", "label": "Variable speed", "type": "bool" },
+    { "key": "plunge_base", "label": "Plunge base", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B00004TKHV", "force_overall": true,
+      "name": "Bosch 1617EVS 2.25 HP Electronic Fixed-Base Router",
+      "brand": "Bosch", "model": "1617EVS",
+      "image": "https://m.media-amazon.com/images/I/41woXvar2RL._AC_SL1000_.jpg",
+      "price": 169.00, "rating": 4.8, "reviews_count": 3554, "bought": "900+/mo",
+      "specs": { "type": "Full-size fixed base", "power": "12 A, 2.25 HP", "speed": "8,000-25,000 rpm", "collets": "1/4 and 1/2 in", "weight": null, "in_box": "Router, 2 collets, 2 wrenches" },
+      "features": { "variable_speed": true, "soft_start": true, "plunge_base": false, "fine_depth": true, "kit": false },
+      "verdict": "The full-size router woodworkers have bought for decades: 2.25 HP with constant-response speed control, microfine depth adjustment, hardwood handles and a three-hole base pattern for router tables. The best-rated router here, with 900+ sold last month.",
+      "best_for": "A first full-size router that can also go in a router table.",
+      "skip_if": "You only round over edges; a compact router is lighter and cheaper.",
+      "pros": ["4.8 stars, tied for the best here; 900+ sold last month", "2.25 HP with constant speed under load", "Microfine depth; mounts to router tables"],
+      "cons": ["Listing shows it ships in 8 to 14 days", "1-year warranty"]
+    },
+    {
+      "asin": "B00E7D3V4S",
+      "name": "Makita RT0701C 1-1/4 HP Compact Router, Fixed Base",
+      "brand": "Makita", "model": "RT0701C",
+      "image": "https://m.media-amazon.com/images/I/511ag05cuDL._AC_SL1000_.jpg",
+      "price": 159.00, "rating": 4.7, "reviews_count": 3934, "bought": "200+/mo",
+      "specs": { "type": "Compact fixed base", "power": "6.5 A, 1.25 HP", "speed": "10,000-30,000 rpm", "collets": "1/4 in", "weight": "3.9 lb", "in_box": "Router, fixed base" },
+      "features": { "variable_speed": true, "soft_start": true, "plunge_base": false, "fine_depth": true, "kit": false },
+      "verdict": "The compact router trim carpenters reach for: 1.25 HP in a slim aluminum body with electronic speed control, soft start and a rack-and-pinion depth adjuster. Takes standard template guides.",
+      "best_for": "Edge profiles, hinge mortises and laminate with a pro compact router.",
+      "skip_if": "You want 1/2 in bits; it takes 1/4 in shanks.",
+      "pros": ["3,934 reviews at 4.7 stars", "Electronic speed control and soft start", "Rack-and-pinion fine depth; aluminum motor housing"],
+      "cons": ["Only the fixed base included", "Listing showed only 7 left in stock"]
+    },
+    {
+      "asin": "B01M0J08MF",
+      "name": "BOSCH PR20EVS Colt 1.0 HP Variable-Speed Palm Router",
+      "brand": "Bosch", "model": "PR20EVS",
+      "image": "https://m.media-amazon.com/images/I/51xFP0cCcdL._AC_SL1000_.jpg",
+      "price": 113.54, "rating": 4.6, "reviews_count": 3504, "bought": "600+/mo",
+      "specs": { "type": "Compact palm", "power": "5.6 A, 1 HP", "speed": "16,000-35,000 rpm", "collets": "1/4 in", "weight": "3.3 lb", "in_box": "Router, edge guide" },
+      "features": { "variable_speed": true, "soft_start": false, "plunge_base": false, "fine_depth": true, "kit": false },
+      "verdict": "Bosch's Colt palm router: 1 HP, macro and micro depth adjustment, a quick-clamp motor that moves between bases and an edge guide in the box. Lighter and cheaper than the Makita.",
+      "best_for": "One-handed edge and laminate work with a light palm router.",
+      "skip_if": "You want soft start; it isn't listed.",
+      "pros": ["3.3 lbs, the lightest here", "Macro and micro depth adjustment", "Edge guide included"],
+      "cons": ["No soft start listed", "Listing showed 15 left in stock"]
+    },
+    {
+      "asin": "B082CLN8H5",
+      "name": "SKIL 10 Amp Fixed Base Corded Router (RT1323-00)",
+      "brand": "SKIL", "model": "RT1323-00",
+      "image": "https://m.media-amazon.com/images/I/615tcJemd5L._AC_SL1000_.jpg",
+      "price": 105.00, "rating": 4.8, "reviews_count": 1331, "bought": "100+/mo",
+      "specs": { "type": "Full-size fixed base", "power": "10 A, 2 HP", "speed": "Variable to 25,000 rpm", "collets": "1/4 and 1/2 in", "weight": "7.7 lb", "in_box": "Parallel guide, dust adaptor, 2 collets" },
+      "features": { "variable_speed": true, "soft_start": true, "plunge_base": false, "fine_depth": false, "kit": true },
+      "verdict": "A 2 HP full-size router for about $105, tied for the best rating here, with soft start, speed control, a live-tool light and a parallel guide and dust adaptor in the box.",
+      "best_for": "A full-size router with 1/2 in bits for around $100.",
+      "skip_if": "You need a plunge base; it's fixed only.",
+      "pros": ["4.8 stars, tied for the best here", "2 HP with soft start; 1/4 and 1/2 in collets", "Parallel guide and dust adaptor included"],
+      "cons": ["No fine depth adjuster listed", "1-year warranty"]
+    },
+    {
+      "asin": "B082CKWGXK",
+      "name": "SKIL 14 Amp Plunge and Fixed Base Router Combo (RT1322-00)",
+      "brand": "SKIL", "model": "RT1322-00",
+      "image": "https://m.media-amazon.com/images/I/51-t5QWMJiL._AC_SL1000_.jpg",
+      "price": 169.00, "rating": 4.7, "reviews_count": 1994, "bought": "200+/mo",
+      "specs": { "type": "Plunge + fixed combo", "power": "14 A, 2.5 HP", "speed": "Variable to 25,000 rpm", "collets": null, "weight": "14.3 lb", "in_box": "Motor, fixed and plunge bases" },
+      "features": { "variable_speed": true, "soft_start": true, "plunge_base": true, "fine_depth": false, "kit": false },
+      "verdict": "The most powerful router here at 14 amps, with both bases and an LCD that suggests a speed for your bit and material. Electronic feedback holds speed under load.",
+      "best_for": "Big bits and plunge cuts at a lower price than the Bosch combo.",
+      "skip_if": "You want a light router; the kit is 14.3 lbs.",
+      "pros": ["14 A, 2.5 HP, the most power here", "Plunge and fixed bases", "LCD speed guide by bit and material"],
+      "cons": ["14.3 lbs", "No fine depth adjuster listed"]
+    },
+    {
+      "asin": "B00005RHPD", "premium": true,
+      "name": "Bosch 1617EVSPK 2.25 HP Combination Plunge- and Fixed-Base Router",
+      "brand": "Bosch", "model": "1617EVSPK",
+      "image": "https://m.media-amazon.com/images/I/51zQNSnhx6L._AC_SL1000_.jpg",
+      "price": 230.15, "rating": 4.7, "reviews_count": 4991, "bought": "400+/mo",
+      "specs": { "type": "Plunge + fixed combo", "power": "12 A, 2.25 HP", "speed": "8,000-25,000 rpm", "collets": "1/4 and 1/2 in", "weight": "18.2 lb (kit)", "in_box": "Both bases, 2 collets, wrenches, case" },
+      "features": { "variable_speed": true, "soft_start": true, "plunge_base": true, "fine_depth": true, "kit": true },
+      "verdict": "The 1617EVS motor with both a fixed and a plunge base and a carrying case: the most-reviewed router here and the one to buy if you want a single router for everything.",
+      "best_for": "One router for everything: edges, plunge cuts, templates and a router table.",
+      "skip_if": "You only need edge work; it's the priciest here.",
+      "pros": ["4,991 reviews, the most here", "Fixed and plunge bases plus a case", "Constant-response speed control and microfine depth"],
+      "cons": ["$230, the most expensive here", "1-year warranty"]
+    },
+    {
+      "asin": "B00006JKX9",
+      "name": "DEWALT Router, Fixed Base, 1-3/4-HP, 11.0 Amp Motor (DW616)",
+      "brand": "DEWALT", "model": "DW616",
+      "image": "https://m.media-amazon.com/images/I/71auVRKKRLL._AC_SL1500_.jpg",
+      "price": 145.30, "rating": 4.6, "reviews_count": 2735, "bought": "100+/mo",
+      "specs": { "type": "Full-size fixed base", "power": "11 A, 1.75 HP", "speed": "Single speed", "collets": "1/4 and 1/2 in", "weight": "6.2 lb", "in_box": "Fixed base, 2 collets, concentricity gauge, wrenches" },
+      "features": { "variable_speed": false, "soft_start": false, "plunge_base": false, "fine_depth": true, "kit": false },
+      "verdict": "A single-speed DEWALT with micro-fine depth adjustment in 1/64-inch steps, a tool-free steel cam lock and a sub-base concentricity gauge for accurate bit centering.",
+      "best_for": "Straight bits and edge work where one speed is fine.",
+      "skip_if": "You use large bits; it has no speed control.",
+      "pros": ["Micro-fine depth in 1/64 in steps", "Steel cam lock and quick-release motor", "Concentricity gauge included"],
+      "cons": ["Single speed, so no slowing down for big bits", "Warranty listed as \"call vendor\""]
+    },
+    {
+      "asin": "B00006JKXB",
+      "name": "DEWALT Router, Fixed Base, 12-Amp, 24,000 RPM Variable Speed, 2-1/4 HP (DW618)",
+      "brand": "DEWALT", "model": "DW618",
+      "image": "https://m.media-amazon.com/images/I/6148CjmN3oL._AC_SL1000_.jpg",
+      "price": 152.99, "rating": 4.3, "reviews_count": 1369, "bought": "400+/mo",
+      "specs": { "type": "Full-size fixed base", "power": "12 A, 2.25 HP", "speed": "8,000-24,000 rpm", "collets": null, "weight": "9.6 lb", "in_box": "Router" },
+      "features": { "variable_speed": true, "soft_start": true, "plunge_base": false, "fine_depth": true, "kit": false },
+      "verdict": "The variable-speed DEWALT: 2.25 HP with full-feedback speed control, soft start, micro-fine depth and a 3-year warranty, for about $8 more than the single-speed DW616.",
+      "best_for": "DEWALT fans who want variable speed and a 3-year warranty.",
+      "skip_if": "You want the best-rated full-size router; the Bosch 1617EVS is rated higher.",
+      "pros": ["Variable speed with feedback control and soft start", "Micro-fine depth adjustment", "3-year limited warranty"],
+      "cons": ["4.3 stars, the lowest here", "Listing showed only 2 left in stock"]
+    },
+    {
+      "asin": "B07CQK4ZL4",
+      "name": "AVID POWER 6.5 Amp 1.25 HP Compact Router, Fixed Base, Trim Bits, Edge Guide, Roller Guide, Dust Hood",
+      "brand": "AVID POWER", "model": "Compact router kit",
+      "image": "https://m.media-amazon.com/images/I/71w-ZwhdI-L._AC_SL1500_.jpg",
+      "price": 67.99, "rating": 4.4, "reviews_count": 4266, "bought": "200+/mo",
+      "specs": { "type": "Compact fixed base", "power": "6.5 A, 1.25 HP", "speed": "10,000-32,000 rpm (6 settings)", "collets": "1/4 and 3/8 in", "weight": "4.4 lb", "in_box": "5 bits, edge guide, roller guide, dust hood, spare brushes" },
+      "features": { "variable_speed": true, "soft_start": false, "plunge_base": false, "fine_depth": true, "kit": true },
+      "verdict": "A complete compact-router starter kit for under $70: 1.25 HP, six speeds, rack-and-pinion depth, twin LEDs, five bits, edge and roller guides and a dust hood.",
+      "best_for": "A first router with bits and guides in the box for under $70.",
+      "skip_if": "You want a long-standing tool brand.",
+      "pros": ["Five bits, edge guide, roller guide and dust hood", "Rack-and-pinion depth; twin LEDs", "4,266 reviews"],
+      "cons": ["No soft start listed", "Its 3/8 in collet is an uncommon shank size in the US"]
+    },
+    {
+      "asin": "B0BK2Z9D69",
+      "name": "WEN RT1460 6-Amp Handheld 1/4-Inch Variable Speed Laminate Trim Router",
+      "brand": "WEN", "model": "RT1460",
+      "image": "https://m.media-amazon.com/images/I/71KN69u3lLL._AC_SL1500_.jpg",
+      "price": 49.67, "rating": 4.3, "reviews_count": 341, "bought": "100+/mo",
+      "specs": { "type": "Compact trim", "power": "6 A", "speed": "12,000-30,000 rpm", "collets": "1/4 in", "weight": null, "in_box": "Guide fence, trim guide" },
+      "features": { "variable_speed": true, "soft_start": true, "plunge_base": false, "fine_depth": false, "kit": true },
+      "verdict": "The cheapest router here: a 6-amp trim router with a soft-start motor, speed dial, a clear base with a depth scale, a guide fence and a trim guide, and a 2-year warranty.",
+      "best_for": "Laminate trimming and small edge work for about $50.",
+      "skip_if": "You want fine depth adjustment; it has a scale, not a micro adjuster.",
+      "pros": ["Lowest price here", "Soft start and variable speed", "Guide fence, trim guide and 2-year warranty"],
+      "cons": ["No fine depth adjuster", "4.3 stars"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B08RDTBZGX",
+      "name": "AKYPACH Wood Router, Electric Hand Trimmer, 110V 800W 30000R/MIN (Blue)",
+      "brand": "AKYPACH", "model": "woodblue7817D375AA",
+      "image": "https://m.media-amazon.com/images/I/71SnwcMGW+L._AC_SL1500_.jpg",
+      "price": 26.99, "rating": 4.1, "reviews_count": 262,
+      "flag": "Fixed 30,000 rpm, no speed control; listing doesn't say what's in the box",
+      "verdict": "A single-speed trim router that only runs flat out. The WEN RT1460 costs about $23 more and adds variable speed, soft start and a 2-year warranty.",
+      "reasons": [
+        "It runs at a fixed 30,000 rpm with no speed control. Larger profile bits need lower speeds to cut cleanly and safely, so this tool limits you to small bits.",
+        "The listing's \"Included Components\" field just says \"1\", and the bullets list accessories only as \"some accessories, such as wrenches\", so you can't tell what you're getting.",
+        "The model number is a random string (woodblue7817D375AA), so there's no model to look up for parts or support."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Compact router or full-size router?", "a": "A compact (palm or trim) router, about 1 to 1.25 HP with a 1/4-inch collet, handles edge profiles, laminate and hinge mortises one-handed. A full-size 2+ HP router with a 1/2-inch collet drives big bits, cuts deep dados, and goes in a router table. Many woodworkers own one of each." },
+    { "q": "Fixed base or plunge base?", "a": "A fixed base sets the bit depth before you start, ideal for edge work and router tables. A plunge base lets you lower the spinning bit into the middle of a board for mortises, stopped dados and inlays. Combo kits include both." },
+    { "q": "Why does variable speed matter?", "a": "Big bits move much faster at their edge, so they need lower rpm to cut cleanly without burning or vibrating. Variable speed lets you slow down for large panel and profile bits." },
+    { "q": "1/4-inch or 1/2-inch shank bits?", "a": "Half-inch shanks are stiffer, vibrate less and are safer for large bits. Quarter-inch bits are fine for compact routers and small profiles. Full-size routers usually include both collets." },
+    { "q": "Does soft start matter?", "a": "A big router twists in your hands when it starts. Soft start ramps the motor up gradually so the router doesn't jerk, which is safer and easier on the motor." }
+  ]
+}
