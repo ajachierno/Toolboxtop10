@@ -1,0 +1,475 @@
+{
+  "slug": "soldering-irons",
+  "title": "The 10 Best Soldering Irons",
+  "subtitle": "Soldering irons, stations and guns for electronics and wiring, ranked from live Amazon data.",
+  "intro": "We ranked 10 corded best-sellers, from $10 pencil-iron kits to Hakko and Weller stations, on rating, review volume and features (temperature control, a display, auto sleep, spare tips and a ready-to-use kit). Most picks are aimed at electronics; the Weller gun is for heavy wire and stained glass.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 15,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "temp_control": 0.3,
+    "digital_display": 0.2,
+    "auto_sleep": 0.2,
+    "extra_tips": 0.15,
+    "kit": 0.15
+  },
+  "reviews_ceiling": 10000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "wattage",
+      "label": "Power"
+    },
+    {
+      "key": "temp_range",
+      "label": "Temperature range"
+    },
+    {
+      "key": "included",
+      "label": "In the box"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "wattage",
+      "label": "Power"
+    },
+    {
+      "key": "temp_range",
+      "label": "Temp range"
+    },
+    {
+      "key": "digital_display",
+      "label": "Display",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B082F1WKP9",
+      "force_overall": true,
+      "name": "YIHUA 926 III 60W Digital Display Soldering Iron Station Kit with 2 Helping Hands, 6 Extra Tips, Lead-Free Solder",
+      "brand": "YIHUA",
+      "model": "926 III",
+      "image": "https://m.media-amazon.com/images/I/71yimJ+NaFL._AC_SL1500_.jpg",
+      "price": 48.99,
+      "rating": 4.4,
+      "reviews_count": 7253,
+      "bought": "3K+/mo",
+      "specs": {
+        "type": "Soldering station kit",
+        "wattage": "60 W",
+        "temp_range": "194-896°F",
+        "included": "Station, iron, 6 tips (900M series), 2 helping hands, lead-free solder, solder sucker, tweezers"
+      },
+      "features": {
+        "temp_control": true,
+        "digital_display": true,
+        "auto_sleep": true,
+        "extra_tips": true,
+        "kit": true
+      },
+      "verdict": "A compact digital station with a built-in iron holder, adjustable sleep mode (5, 10 or 30 minutes), temperature calibration and a full set of accessories including two helping hands.",
+      "best_for": "Hobbyists who solder often and want a proper station without spending $100+.",
+      "skip_if": "You need a portable iron; this one lives on the bench.",
+      "pros": [
+        "7,253 reviews; 3,000+ sold last month",
+        "Adjustable sleep mode and calibration",
+        "Helping hands and 6 tips included"
+      ],
+      "cons": [
+        "60 W is modest for heavy wire",
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B08PZBPXLZ",
+      "force_budget": true,
+      "name": "Liouhoum 80W LCD Digital Soldering Iron Kit, Adjustable Temperature, Fast Heat-Up",
+      "brand": "Liouhoum",
+      "model": "936H",
+      "image": "https://m.media-amazon.com/images/I/71NB0ncAkvL._AC_SL1500_.jpg",
+      "price": 9.98,
+      "rating": 4.5,
+      "reviews_count": 5241,
+      "bought": "9K+/mo",
+      "specs": {
+        "type": "Pencil iron kit",
+        "wattage": "80 W",
+        "temp_range": "356-896°F",
+        "included": "Iron, 5 tips, rosin-core solder, stand"
+      },
+      "features": {
+        "temp_control": true,
+        "digital_display": true,
+        "auto_sleep": true,
+        "extra_tips": true,
+        "kit": true
+      },
+      "verdict": "The best-selling iron in the search: an 80 W plug-in pencil iron with an LCD temperature readout, a 5-minute auto sleep on the stand and temperature memory, sold as a kit for about $10.",
+      "best_for": "First-time solderers and occasional repairs on a tight budget.",
+      "skip_if": "You solder every day; a station holds temperature better.",
+      "pros": [
+        "9,000+ sold last month",
+        "LCD display and auto sleep",
+        "About $10 with tips and solder"
+      ],
+      "cons": [
+        "Basic stand",
+        "Unknown brand"
+      ]
+    },
+    {
+      "asin": "B087767KNW",
+      "name": "Q-MING 60W Soldering Iron Kit with 5 Interchangeable Tips, 10-in-1 Adjustable Temperature",
+      "brand": "Q-MING",
+      "model": "60W kit",
+      "image": "https://m.media-amazon.com/images/I/71t5X8FgRrL._AC_SL1500_.jpg",
+      "price": 13.99,
+      "rating": 4.5,
+      "reviews_count": 9395,
+      "bought": "8K+/mo",
+      "specs": {
+        "type": "Pencil iron kit",
+        "wattage": "60 W",
+        "temp_range": "392-842°F",
+        "included": "Iron, stand, sponge, 5 tips, 0.6 mm solder, flux"
+      },
+      "features": {
+        "temp_control": true,
+        "digital_display": false,
+        "auto_sleep": false,
+        "extra_tips": true,
+        "kit": true
+      },
+      "verdict": "A simple 60 W pencil iron with a temperature dial and a ceramic heater, packed with five tips, fine 0.6 mm solder and flux.",
+      "best_for": "Beginners who want a no-frills kit with the basics.",
+      "skip_if": "You want a temperature readout; this has a dial only.",
+      "pros": [
+        "9,395 reviews; 8,000+ sold last month",
+        "Fine 0.6 mm solder included",
+        "Under $15"
+      ],
+      "cons": [
+        "No display",
+        "No auto sleep"
+      ]
+    },
+    {
+      "asin": "B06XFT1TPJ",
+      "name": "HANDSKIT 90W Soldering Iron Kit for Electronics, Adjustable Temp 180-480°C, 21-in-1",
+      "brand": "HANDSKIT",
+      "model": "F Series",
+      "image": "https://m.media-amazon.com/images/I/71qmt3v5I5L._AC_SL1500_.jpg",
+      "price": 23.99,
+      "rating": 4.6,
+      "reviews_count": 3033,
+      "bought": "100+/mo",
+      "specs": {
+        "type": "Pencil iron kit",
+        "wattage": "90 W",
+        "temp_range": "356-896°F",
+        "included": "Iron, 6 900M tips, stand, desoldering pump, magnifier, solder, tweezers, case"
+      },
+      "features": {
+        "temp_control": true,
+        "digital_display": true,
+        "auto_sleep": true,
+        "extra_tips": true,
+        "kit": true
+      },
+      "verdict": "A 90 W digital pencil iron with temperature calibration, 15-minute auto sleep, temperature memory and six 900M tips, packed in a case with a desoldering pump and magnifier.",
+      "best_for": "DIYers who want a full kit with a carrying case.",
+      "skip_if": "You want the cheapest kit; the Liouhoum is about $14 less.",
+      "pros": [
+        "4.6 stars; 3,033 reviews",
+        "Calibration and auto sleep",
+        "Carrying case and desoldering pump"
+      ],
+      "cons": [
+        "Only 100+ sold last month"
+      ]
+    },
+    {
+      "asin": "B07RVMZNYR",
+      "name": "YIHUA 939D+ Digital Soldering Station, 75W Equivalent, Built-in Transformer, ESD Safe",
+      "brand": "YIHUA",
+      "model": "939D+",
+      "image": "https://m.media-amazon.com/images/I/71CdRgy93hL._AC_SL1500_.jpg",
+      "price": 58.99,
+      "rating": 4.5,
+      "reviews_count": 4185,
+      "bought": "600+/mo",
+      "specs": {
+        "type": "Soldering station",
+        "wattage": "75 W equivalent",
+        "temp_range": "392-896°F",
+        "included": "Station, 907F detachable iron, 5 replacement tips"
+      },
+      "features": {
+        "temp_control": true,
+        "digital_display": true,
+        "auto_sleep": true,
+        "extra_tips": true,
+        "kit": true
+      },
+      "verdict": "A transformer-based station with a brushed aluminum panel, three temperature memories, sleep and auto shutdown, and a detachable 907F iron. YIHUA pitches it at people who solder regularly.",
+      "best_for": "Regular solderers who want a sturdier station than the 926 III.",
+      "skip_if": "You want helping hands in the box; the 926 III includes them.",
+      "pros": [
+        "4.5 stars; 4,185 reviews",
+        "Built-in transformer, ESD safe",
+        "3 temperature memories"
+      ],
+      "cons": [
+        "No helping hands",
+        "Costs $10 more than the 926 III"
+      ]
+    },
+    {
+      "asin": "B096X6SG13",
+      "name": "PINECIL Smart Mini Portable Soldering Iron",
+      "brand": "PINE64",
+      "model": "PINECIL-BB2",
+      "image": "https://m.media-amazon.com/images/I/61IX8eET+dL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.6,
+      "reviews_count": 2557,
+      "bought": "2K+/mo",
+      "specs": {
+        "type": "Smart USB-C iron",
+        "wattage": "Up to 65 W",
+        "temp_range": null,
+        "included": "Iron, B2 tip (power supply not included)"
+      },
+      "features": {
+        "temp_control": true,
+        "digital_display": true,
+        "auto_sleep": true,
+        "extra_tips": false,
+        "kit": false
+      },
+      "verdict": "A pocket-size smart iron with a RISC-V chip and a screen, powered by a USB-C PD/QC charger or a DC barrel jack. It reaches working temperature in 12 seconds and drops into standby when idle.",
+      "best_for": "Makers who want a small, fast iron for the bench or the road.",
+      "skip_if": "You don't own a USB-C PD charger; none is included.",
+      "pros": [
+        "4.6 stars; 2,557 reviews",
+        "12-second heat-up",
+        "USB-C or DC barrel power"
+      ],
+      "cons": [
+        "Power supply sold separately",
+        "One tip, no stand"
+      ]
+    },
+    {
+      "asin": "B077JDGY1J",
+      "name": "Weller 70 Watt Digital Soldering Station WE1010NA",
+      "brand": "Weller",
+      "model": "WE1010NA",
+      "image": "https://m.media-amazon.com/images/I/71otiYas-gL._AC_SL1500_.jpg",
+      "price": 115.0,
+      "rating": 4.6,
+      "reviews_count": 4691,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Soldering station",
+        "wattage": "70 W",
+        "temp_range": null,
+        "included": "Station, WEP70 iron, PH70 safety rest with sponge, ETA 1.6 mm screwdriver tip"
+      },
+      "features": {
+        "temp_control": true,
+        "digital_display": true,
+        "auto_sleep": true,
+        "extra_tips": false,
+        "kit": true
+      },
+      "verdict": "Weller's digital station holds temperature within plus or minus 4°F, with standby, auto setback, a temperature lock and password protection, and a silicone cable on the 70 W iron.",
+      "best_for": "Shops and classrooms that want a name-brand station with locked settings.",
+      "skip_if": "You want spare tips; it ships with one.",
+      "pros": [
+        "4.6 stars; 4,691 reviews",
+        "Temperature lock and password protection",
+        "Silicone iron cable"
+      ],
+      "cons": [
+        "One tip included",
+        "Low stock at capture"
+      ]
+    },
+    {
+      "asin": "B00FZPSX3G",
+      "name": "Hakko FX601-02 Adjustable Temperature Controlled Soldering Iron, 67 Watts",
+      "brand": "Hakko",
+      "model": "FX601-02",
+      "image": "https://m.media-amazon.com/images/I/41dDDYue88L._SL1024_.jpg",
+      "price": 84.0,
+      "rating": 4.6,
+      "reviews_count": 1783,
+      "bought": "600+/mo",
+      "specs": {
+        "type": "Pencil iron",
+        "wattage": "67 W",
+        "temp_range": "Up to 540°C (1004°F)",
+        "included": "Iron, T19-D5 tip, lock key"
+      },
+      "features": {
+        "temp_control": true,
+        "digital_display": false,
+        "auto_sleep": false,
+        "extra_tips": false,
+        "kit": false
+      },
+      "verdict": "A plug-in Hakko pencil iron with closed-loop temperature control: a sensor in the heater keeps the tip at the temperature you dial in, with a lock key to fix the setting.",
+      "best_for": "People who want Hakko-quality temperature control without a base station.",
+      "skip_if": "You need a stand; none is included.",
+      "pros": [
+        "4.6 stars; 1,783 reviews",
+        "Closed-loop temperature control",
+        "Up to 540°C"
+      ],
+      "cons": [
+        "No stand or extra tips",
+        "Dial only, no display"
+      ]
+    },
+    {
+      "asin": "B00002N7S1",
+      "name": "Weller 260W/200W Professional Soldering Gun Kit with Three Tips and Solder in Carrying Case",
+      "brand": "Weller",
+      "model": "D550PK",
+      "image": "https://m.media-amazon.com/images/I/71hXpEqPN6L._AC_SL1310_.jpg",
+      "price": 64.71,
+      "rating": 4.5,
+      "reviews_count": 5070,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "Soldering gun kit",
+        "wattage": "260 W / 200 W",
+        "temp_range": "900-1100°F",
+        "included": "Gun, 3 tips (incl. smoothing tip), solder, carrying case"
+      },
+      "features": {
+        "temp_control": false,
+        "digital_display": false,
+        "auto_sleep": false,
+        "extra_tips": true,
+        "kit": true
+      },
+      "verdict": "A heavy-duty dual-heat soldering gun that reaches 900-1100°F in 6 seconds, with the trigger selecting high or low power. It's for heavy wire, stained glass and sheet metal, not circuit boards.",
+      "best_for": "Heavy wire, cable lugs, stained glass and other jobs that soak up heat.",
+      "skip_if": "You work on circuit boards; it's far too hot and bulky.",
+      "pros": [
+        "4.5 stars; 5,070 reviews",
+        "6-second heat-up",
+        "Limited lifetime warranty"
+      ],
+      "cons": [
+        "No temperature control",
+        "Wrong tool for electronics"
+      ]
+    },
+    {
+      "asin": "B0D4DJW54S",
+      "premium": true,
+      "name": "Hakko FX888DX-010 Digital Soldering Station with Rotary Encoder",
+      "brand": "Hakko",
+      "model": "FX888DX-010",
+      "image": "https://m.media-amazon.com/images/I/61gBB5fbIML._AC_SL1500_.jpg",
+      "price": 122.15,
+      "rating": 4.8,
+      "reviews_count": 376,
+      "bought": "1K+/mo",
+      "specs": {
+        "type": "Soldering station",
+        "wattage": "65 W",
+        "temp_range": "50-480°C",
+        "included": "Station, iron, holder, sponge, tip cleaner, T18-D16 chisel tip"
+      },
+      "features": {
+        "temp_control": true,
+        "digital_display": true,
+        "auto_sleep": false,
+        "extra_tips": false,
+        "kit": true
+      },
+      "verdict": "Hakko's updated FX-888D with a rotary encoder for setting the temperature and a 50-480°C range. It's the best-rated station on this list at 4.8 stars.",
+      "best_for": "Serious hobbyists and pros who want a proven Hakko station.",
+      "skip_if": "You're price-sensitive; the YIHUA 926 III costs less than half as much.",
+      "pros": [
+        "4.8 stars",
+        "1,000+ sold last month",
+        "Rotary encoder temperature setting"
+      ],
+      "cons": [
+        "Most expensive here",
+        "One tip included",
+        "Listing says 'No Warranty'"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B09XHZJQBG",
+      "name": "300W High Power Soldering Iron Kit 110V, Industrial Grade External Heating Soldering Iron with Replacement Tip, Heating Core and Stand",
+      "brand": "GoGoPanda",
+      "model": "300WWT",
+      "image": "https://m.media-amazon.com/images/I/51BFk55YSxL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.4,
+      "reviews_count": 76,
+      "flag": "300 W, no temperature control, 480°F listed",
+      "verdict": "A 300 W iron with no temperature control, sold for circuit repair, with a spec table that rates it to only 480°F.",
+      "reasons": [
+        "The bullets list circuit repair among its uses, but nothing in the listing mentions adjustable or controlled temperature. An uncontrolled 300 W iron on a circuit board lifts pads and cooks components.",
+        "The spec table gives an upper temperature of 480°F, which contradicts the 'industrial grade' 300 W pitch and sits barely above the roughly 423°F melting point of common lead-free solder.",
+        "For heavy work, the Weller D550PK gun heats in 6 seconds and has a lifetime warranty; for electronics, any temperature-controlled iron on this list is the right tool."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Iron, station or gun?",
+      "a": "A pencil iron plugs straight into the wall and is fine for occasional repairs. A station puts the controls in a separate base, holds temperature better under load, and usually has a proper holder. A soldering gun is for heavy wire, lugs and stained glass, and is too hot for circuit boards."
+    },
+    {
+      "q": "How many watts do I need?",
+      "a": "For electronics, 60-80 W with temperature control is plenty. More watts mostly means faster recovery when the tip touches a big joint. High wattage without temperature control is a liability on boards."
+    },
+    {
+      "q": "What temperature should I solder at?",
+      "a": "Leaded 60/40 solder melts at about 370°F (188°C) and is usually worked around 600-650°F. Lead-free solder melts around 423°F (217°C) and usually needs 650-700°F. Go hotter only for large joints."
+    },
+    {
+      "q": "Does auto sleep matter?",
+      "a": "Yes, if you leave the iron on between jobs. Dropping the temperature when idle slows oxidation and makes tips last much longer, and it's a safety net if you forget to switch off."
+    },
+    {
+      "q": "What does the Pinecil need to run?",
+      "a": "A USB-C charger that supports PD or QC 3.0, or a DC barrel supply. None is in the box, and a weak phone charger won't give it full power."
+    },
+    {
+      "q": "Why do tip series matter?",
+      "a": "Spare tips fit only their own series (900M, T18, T19 and so on). Check what's included and what replacement tips cost before you buy, because tips wear out."
+    }
+  ]
+}
