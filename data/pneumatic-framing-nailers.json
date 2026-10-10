@@ -1,0 +1,193 @@
+{
+  "slug": "pneumatic-framing-nailers",
+  "title": "The 10 Best Pneumatic Framing Nailers",
+  "subtitle": "Air framing nailers for studs, decks, sheathing and fencing, ranked from live Amazon data.",
+  "intro": "A pneumatic framing nailer drives 2- to 3-1/2-inch nails for walls, decks, roof sheathing and fences. Most use 21-degree plastic-collated strips; some take 30-degree paper strips or 15-degree wire coils, and the angle decides which nails you can buy. We ranked 10 best-sellers on rating, review volume and features (selectable trigger, tool-free depth, dry-fire lockout and a rafter hook). They run from about $96 to $270. A framing nailer needs a compressor with around 2 to 4 CFM; see our air compressor list.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 110,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "selectable_trigger": 0.3, "depth_adjust": 0.25, "dry_fire_lockout": 0.2, "rafter_hook": 0.25 },
+  "reviews_ceiling": 7500,
+  "spec_fields": [
+    { "key": "collation", "label": "Nails" },
+    { "key": "length", "label": "Nail length" },
+    { "key": "trigger", "label": "Trigger" },
+    { "key": "weight", "label": "Weight" },
+    { "key": "warranty", "label": "Warranty" }
+  ],
+  "table_columns": [
+    { "key": "collation", "label": "Nails" },
+    { "key": "weight", "label": "Weight" },
+    { "key": "selectable_trigger", "label": "Bump fire", "type": "bool" },
+    { "key": "depth_adjust", "label": "Tool-free depth", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07LCG6TZ4", "force_overall": true,
+      "name": "Metabo HPT Framing Nailer, 21° Plastic Collated, 2 to 3-1/2 in (NR90AES1)",
+      "brand": "Metabo HPT", "model": "NR90AES1",
+      "image": "https://m.media-amazon.com/images/I/61jfFyysoRL._AC_SL1500_.jpg",
+      "price": 159.00, "rating": 4.7, "reviews_count": 2491, "bought": "1K+/mo",
+      "specs": { "collation": "21° plastic", "length": "2 to 3-1/2 in", "trigger": "Selectable sequential / contact", "weight": "7.5 lb", "warranty": "5 years" },
+      "features": { "selectable_trigger": true, "depth_adjust": true, "dry_fire_lockout": false, "rafter_hook": false },
+      "verdict": "The framing nailer most crews carry: a 7.5 lb Metabo HPT with a selectable trigger, tool-free depth and a 5-year warranty, the best-rated and best-selling nailer on the page.",
+      "best_for": "Most framing, decking and sheathing, from the pro-preferred nailer brand.",
+      "skip_if": "You frame once a year; the 3PLUS does it for about $60 less.",
+      "pros": ["4.7 stars and 1,000+ sold last month", "7.5 lbs, light for a stick nailer", "Selectable trigger, tool-free depth, 5-year warranty"],
+      "cons": ["No rafter hook listed", "No case included"]
+    },
+    {
+      "asin": "B07MMZBWYR",
+      "name": "Metabo HPT Framing Nailer, 30° Paper Collated (NR90ADS1)",
+      "brand": "Metabo HPT", "model": "NR90ADS1",
+      "image": "https://m.media-amazon.com/images/I/61f+2bVpnVL._AC_SL1500_.jpg",
+      "price": 159.00, "rating": 4.5, "reviews_count": 1359, "bought": "100+/mo",
+      "specs": { "collation": "30° paper (clipped / offset head)", "length": "2 to 3-1/2 in", "trigger": "Selectable sequential / contact", "weight": "7 lb", "warranty": "5 years" },
+      "features": { "selectable_trigger": true, "depth_adjust": true, "dry_fire_lockout": false, "rafter_hook": false },
+      "verdict": "The 30-degree version of the NR90: paper-collated strips and a steeper magazine angle that reaches tighter corners between studs. 7 lbs and a 5-year warranty.",
+      "best_for": "Tight corners and paper-collated nails that don't leave plastic shards.",
+      "skip_if": "Your area requires full round head nails; 30° strips use clipped or offset heads.",
+      "pros": ["30° magazine fits tight spaces", "7 lbs, the lightest here", "Paper strips leave no plastic debris"],
+      "cons": ["Clipped/offset heads aren't allowed by some building codes", "No rafter hook listed"]
+    },
+    {
+      "asin": "B0032JTDPO",
+      "name": "NuMax SFR2190 Pneumatic 21 Degree 3-1/2\" Framing Nailer",
+      "brand": "NuMax", "model": "SFR2190",
+      "image": "https://m.media-amazon.com/images/I/61dO1BwPxQL._AC_SL1300_.jpg",
+      "price": 129.99, "rating": 4.6, "reviews_count": 7387,
+      "specs": { "collation": "21° plastic, full round head", "length": "2 to 3-1/2 in", "trigger": "Dual mode", "weight": "8.6 lb", "warranty": "1 year" },
+      "features": { "selectable_trigger": true, "depth_adjust": true, "dry_fire_lockout": true, "rafter_hook": false },
+      "verdict": "The most-reviewed framing nailer on Amazon: a full-round-head 21° nailer with a dual-mode trigger, tool-free depth, anti-dry-fire mechanism and no-mar tip. Popular for decks, fences and pallets.",
+      "best_for": "Decks, fences and DIY framing with a proven, well-reviewed tool.",
+      "skip_if": "You want a long warranty; it's 1 year.",
+      "pros": ["7,387 reviews, the most here", "Dry-fire lockout and dual-mode trigger", "Tool-free depth, no-mar tip"],
+      "cons": ["1-year warranty", "8.6 lbs"]
+    },
+    {
+      "asin": "B002EVPO5E",
+      "name": "Freeman Pneumatic 21° 3-1/2\" Framing Nailer (PFR2190)",
+      "brand": "Freeman", "model": "PFR2190",
+      "image": "https://m.media-amazon.com/images/I/718nQvWuMAL._AC_SL1500_.jpg",
+      "price": 133.00, "rating": 4.6, "reviews_count": 826,
+      "specs": { "collation": "21° plastic, full round head", "length": "2 to 3-1/2 in", "trigger": "Dual mode", "weight": "8.8 lb", "warranty": "7 years" },
+      "features": { "selectable_trigger": true, "depth_adjust": true, "dry_fire_lockout": true, "rafter_hook": false },
+      "verdict": "The NuMax design with an anodized aluminum magazine and cylinder, a blow-molded case and a 7-year warranty, for about $3 more.",
+      "best_for": "The NuMax feature set with a 7-year warranty and a case.",
+      "skip_if": "You want the lightest nailer; it's 8.8 lbs.",
+      "pros": ["7-year warranty", "Anodized aluminum magazine and cylinder", "Dry-fire lockout; case included"],
+      "cons": ["8.8 lbs", "Listing showed only 18 left in stock"]
+    },
+    {
+      "asin": "B015W4OQUS",
+      "name": "3PLUS H2190SP 21 Degree Full Round Head Framing Nailer",
+      "brand": "3PLUS", "model": "H2190SP",
+      "image": "https://m.media-amazon.com/images/I/61Nnu42ryLL._AC_SL1500_.jpg",
+      "price": 95.80, "rating": 4.5, "reviews_count": 419, "bought": "50+/mo",
+      "specs": { "collation": "21° plastic, full round head", "length": "2 to 3-1/2 in", "trigger": "Selectable sequential / bump", "weight": "10.7 lb", "warranty": null },
+      "features": { "selectable_trigger": true, "depth_adjust": true, "dry_fire_lockout": true, "rafter_hook": false },
+      "verdict": "The cheapest framing nailer here, with the full feature list: selectable trigger, tool-free depth, dry-fire lockout and a hardened claw tip for toe-nailing.",
+      "best_for": "Occasional framing and decks for under $100.",
+      "skip_if": "You'll hold it all day; at 10.7 lbs it's the heaviest here.",
+      "pros": ["Lowest price here", "Selectable trigger, tool-free depth, dry-fire lockout", "Hardened claw tip for toe-nailing"],
+      "cons": ["10.7 lbs", "The listing doesn't state a warranty"]
+    },
+    {
+      "asin": "B09TD9WQFM",
+      "name": "DOTOOL 21 Degree Framing Nailer, 2-Inch to 3-1/2-Inch",
+      "brand": "DOTOOL", "model": "DOTOOL1",
+      "image": "https://m.media-amazon.com/images/I/71186SczVDL._AC_SL1500_.jpg",
+      "price": 109.99, "rating": 4.6, "reviews_count": 189, "bought": "100+/mo",
+      "specs": { "collation": "21° offset round head", "length": "2 to 3-1/2 in", "trigger": "Sequential", "weight": "8.9 lb", "warranty": null },
+      "features": { "selectable_trigger": false, "depth_adjust": true, "dry_fire_lockout": false, "rafter_hook": false },
+      "verdict": "An aluminum-body 21-degree nailer with tool-free depth and jam release, a no-mar tip and a rubber nose sleeve for toe-nailing.",
+      "best_for": "Careful, one-nail-at-a-time framing on a budget.",
+      "skip_if": "You want bump fire; it's sequential only.",
+      "pros": ["Tool-free depth and jam release", "Aluminum body; rubber nose sleeve", "4.6 stars"],
+      "cons": ["Sequential trigger only", "The listing doesn't state a warranty"]
+    },
+    {
+      "asin": "B07MYX99MM",
+      "name": "Metabo HPT Coil Framing Nailer, 15° Nails (NV90AGS)",
+      "brand": "Metabo HPT", "model": "NV90AGS",
+      "image": "https://m.media-amazon.com/images/I/619mRrTgCtL._AC_SL1500_.jpg",
+      "price": 239.98, "rating": 4.5, "reviews_count": 672, "bought": "100+/mo",
+      "specs": { "collation": "15° wire coil", "length": "1-3/4 to 3-1/2 in", "trigger": "Selectable sequential / contact", "weight": "7.7 lb", "warranty": "5 years" },
+      "features": { "selectable_trigger": true, "depth_adjust": true, "dry_fire_lockout": false, "rafter_hook": false },
+      "verdict": "A coil framing nailer: each coil holds far more nails than a stick, so you reload less on sheathing and subfloor. Selectable trigger, tool-free depth and a 5-year warranty at 7.7 lbs.",
+      "best_for": "Sheathing and subfloors, where a big coil means fewer reloads.",
+      "skip_if": "You frame walls in tight spaces; the round coil magazine is bulkier.",
+      "pros": ["Coil magazine holds more nails per load", "7.7 lbs with a steel head plate", "Selectable trigger, 5-year warranty"],
+      "cons": ["Coil nails cost more than plastic strips", "Bulky magazine in tight stud bays"]
+    },
+    {
+      "asin": "B07MSW2W1G", "premium": true,
+      "name": "Metabo HPT Framing Nailer, Pneumatic Selectable Trigger, 21° (NR83A5)",
+      "brand": "Metabo HPT", "model": "NR83A5",
+      "image": "https://m.media-amazon.com/images/I/610lOXzliyL._AC_SL1500_.jpg",
+      "price": 247.16, "rating": 4.5, "reviews_count": 1000, "bought": "500+/mo",
+      "specs": { "collation": "21° plastic", "length": null, "trigger": "Selectable sequential / contact", "weight": "8.8 lb", "warranty": "5 years" },
+      "features": { "selectable_trigger": true, "depth_adjust": false, "dry_fire_lockout": false, "rafter_hook": true },
+      "verdict": "Metabo HPT's long-running pro framer: a cylinder-valve drive for fast, powerful driving, a rafter hook that mounts on either side, a rear-loading magazine and an open nose for jams.",
+      "best_for": "Daily framing crews who want the proven pro workhorse.",
+      "skip_if": "You want tool-free depth; the listing doesn't mention it.",
+      "pros": ["Cylinder-valve drive for fast response", "Reversible rafter hook; rear-loading magazine", "5-year warranty"],
+      "cons": ["$247, about $90 more than the NR90AES1", "The listing doesn't give a nail length range"]
+    },
+    {
+      "asin": "B07H7SNSCK",
+      "name": "PneuTools SN2283H 21 Degree Framing Nailer with Rafter Hook",
+      "brand": "PneuTools", "model": "SN2283H",
+      "image": "https://m.media-amazon.com/images/I/71vvlfBfK0L._AC_SL1500_.jpg",
+      "price": 269.99, "rating": 4.6, "reviews_count": 397, "bought": "100+/mo",
+      "specs": { "collation": "21° plastic, full round head", "length": null, "trigger": "Single mode", "weight": "10.5 lb", "warranty": null },
+      "features": { "selectable_trigger": false, "depth_adjust": false, "dry_fire_lockout": false, "rafter_hook": true },
+      "verdict": "A heavy-duty framer the maker pitches on durability rather than features: one simple trigger, a one-piece safety, a hardened end cap and a rafter hook.",
+      "best_for": "Rough jobsites, where durability matters more than features.",
+      "skip_if": "You want a selectable trigger or depth adjustment.",
+      "pros": ["Built for durability: hardened end cap, one-piece safety", "Rafter hook", "4.6 stars"],
+      "cons": ["$269.99, the most expensive here", "Single-mode trigger; 10.5 lbs"]
+    },
+    {
+      "asin": "B084371YTT",
+      "name": "DEWALT 15 Degree Coil Framing Nailer (DWF83C)",
+      "brand": "DEWALT", "model": "DWF83C",
+      "image": "https://m.media-amazon.com/images/I/51tBzNvmC8L._SL1000_.jpg",
+      "price": 218.00, "rating": 4.2, "reviews_count": 63,
+      "specs": { "collation": "15° wire coil", "length": null, "trigger": null, "weight": "10.5 lb (shipping)", "warranty": null },
+      "features": { "selectable_trigger": false, "depth_adjust": false, "dry_fire_lockout": false, "rafter_hook": false },
+      "verdict": "DEWALT's coil framing nailer. The Amazon listing has no feature bullets at all, so check DEWALT's spec sheet for the trigger and depth details before you buy.",
+      "best_for": "DEWALT loyalists who want a coil framer.",
+      "skip_if": "You want to compare features; the listing publishes none.",
+      "pros": ["15° coil magazine", "DEWALT brand and parts network"],
+      "cons": ["The listing has no bullets or specs beyond weight", "4.2 stars from 63 reviews"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B09VSYYX1T",
+      "name": "AEROPRO TOOLS Pneumatic Framing Nailer, 21 Degree (RHF9021)",
+      "brand": "AEROPRO", "model": "RHF9021",
+      "image": "https://m.media-amazon.com/images/I/71s845A+tuL._AC_SL1500_.jpg",
+      "price": 139.95, "rating": 3.8, "reviews_count": 44,
+      "flag": "Weight contradicts itself; same body sold cheaper elsewhere",
+      "verdict": "A 21-degree nailer whose listing disagrees with itself on weight, sold for about $43 more than what appears to be the same tool under the VEVOR name. The 3PLUS and NuMax picks cost less and are rated higher.",
+      "reasons": [
+        "The bullets call it \"7.9 lbs lightweight\"; the spec table lists 11.97 lbs.",
+        "Its model number, RHF9021, matches the VEVOR framing nailer (RHF9021C), which sells for $96.90, so you'd pay about $43 extra for the AEROPRO label.",
+        "It's rated 3.8 stars, the lowest of the framing nailers we considered."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "21°, 30° or 15° coil: which should I buy?", "a": "The angle decides which nails fit. 21° plastic strips with full round heads are the most common and are accepted by building codes everywhere. 30° paper strips fit tighter corners but often use clipped or offset heads, which some codes don't allow. 15° coils hold the most nails and are popular for sheathing and subfloor." },
+    { "q": "What size compressor does a framing nailer need?", "a": "Plan on 2 to 4 CFM at 90 PSI for steady framing. A 6-gallon pancake handles one nailer at a casual pace; for fast framing or two guns, use a bigger tank with 4+ CFM. See our air compressor list." },
+    { "q": "Do I need bump fire?", "a": "Bump (contact) mode fires each time the nose hits with the trigger held, which is fast for sheathing and subfloor. Sequential mode is safer and more precise for framing members. A selectable trigger lets you choose." },
+    { "q": "What's a rafter hook for?", "a": "It's a metal hook that lets you hang the nailer on a joist, rafter or ladder rung instead of setting it down. Pros working at height use it constantly." },
+    { "q": "Pneumatic or cordless framing nailer?", "a": "Pneumatic nailers are lighter, cheaper and drive nails all day, but you drag a hose and run a compressor. Cordless framers are heavier and more expensive, but there's no setup. For lots of framing, pneumatic wins on cost and weight." }
+  ]
+}

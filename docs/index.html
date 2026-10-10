@@ -56,7 +56,7 @@
     <div class="quicknav-controls">
       <select id="qn-category" aria-label="Category">
         <option value="">Category&hellip;</option>
-        <option value="storage">Tool storage</option><option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="hand">Hand tools</option><option value="garage">Garage &amp; auto shop</option>
+        <option value="storage">Tool storage</option><option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="air">Air tools</option><option value="hand">Hand tools</option><option value="garage">Garage &amp; auto shop</option>
       </select>
       <select id="qn-subcategory" aria-label="Sub-category" disabled>
         <option value="">Sub-category&hellip;</option>
@@ -65,7 +65,7 @@
     </div>
     <script>
     (function(){
-      var cats = {"storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "rolling-tool-carts", "title": "Rolling Tool Carts"}, {"slug": "tool-cabinets", "title": "Tool Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}], "wireless": [{"slug": "cordless-jigsaws", "title": "Cordless Jigsaws"}, {"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-hammer-drills", "title": "Cordless Hammer Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-screwdrivers", "title": "Cordless Screwdrivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}, {"slug": "cordless-random-orbital-sanders", "title": "Cordless Random Orbital Sanders"}, {"slug": "cordless-impact-wrenches", "title": "Cordless Impact Wrenches"}, {"slug": "cordless-rotary-hammers", "title": "Cordless Rotary Hammers"}, {"slug": "cordless-miter-saws", "title": "Cordless Miter Saws"}, {"slug": "cordless-brad-nailers", "title": "Cordless Brad Nailers"}, {"slug": "cordless-shop-vacuums", "title": "Cordless Shop Vacuums"}, {"slug": "cordless-heat-guns", "title": "Cordless Heat Guns"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-hammer-drills", "title": "Corded Hammer Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}, {"slug": "corded-angle-grinders", "title": "Corded Angle Grinders"}, {"slug": "corded-random-orbital-sanders", "title": "Corded Random Orbital Sanders"}, {"slug": "corded-jigsaws", "title": "Corded Jigsaws"}, {"slug": "corded-heat-guns", "title": "Corded Heat Guns"}, {"slug": "corded-rotary-hammers", "title": "Corded Rotary Hammers"}, {"slug": "corded-table-saws", "title": "Corded Table Saws"}, {"slug": "corded-miter-saws", "title": "Corded Miter Saws"}, {"slug": "corded-shop-vacuums", "title": "Corded Shop Vacuums"}], "hand": [{"slug": "claw-hammers", "title": "Claw Hammers"}, {"slug": "tape-measures", "title": "Tape Measures"}, {"slug": "screwdrivers", "title": "Screwdriver Sets"}, {"slug": "allen-keys", "title": "Allen Key (Hex Key) Sets"}, {"slug": "pliers", "title": "Pliers Sets"}, {"slug": "needle-nose-pliers", "title": "Needle-Nose Pliers"}, {"slug": "adjustable-wrenches", "title": "Adjustable (Crescent) Wrenches"}, {"slug": "socket-sets", "title": "Socket Sets"}], "garage": [{"slug": "wheel-balancers", "title": "Wheel Balancers"}, {"slug": "tire-changers", "title": "Tire Changers"}, {"slug": "engine-hoists", "title": "Engine Hoists"}, {"slug": "transmission-jacks", "title": "Transmission Jacks"}, {"slug": "sewer-inspection-cameras", "title": "Sewer Inspection Cameras"}, {"slug": "engine-stands", "title": "Engine Stands"}, {"slug": "motorcycle-lifts", "title": "Motorcycle Lifts"}, {"slug": "car-lifts", "title": "Car Lifts"}, {"slug": "tire-bead-seaters", "title": "Tire Bead Seaters"}, {"slug": "gantry-cranes", "title": "Gantry Cranes"}]};
+      var cats = {"storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "rolling-tool-carts", "title": "Rolling Tool Carts"}, {"slug": "tool-cabinets", "title": "Tool Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}], "wireless": [{"slug": "cordless-jigsaws", "title": "Cordless Jigsaws"}, {"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-hammer-drills", "title": "Cordless Hammer Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-screwdrivers", "title": "Cordless Screwdrivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}, {"slug": "cordless-random-orbital-sanders", "title": "Cordless Random Orbital Sanders"}, {"slug": "cordless-impact-wrenches", "title": "Cordless Impact Wrenches"}, {"slug": "cordless-rotary-hammers", "title": "Cordless Rotary Hammers"}, {"slug": "cordless-miter-saws", "title": "Cordless Miter Saws"}, {"slug": "cordless-brad-nailers", "title": "Cordless Brad Nailers"}, {"slug": "cordless-shop-vacuums", "title": "Cordless Shop Vacuums"}, {"slug": "cordless-heat-guns", "title": "Cordless Heat Guns"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-hammer-drills", "title": "Corded Hammer Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}, {"slug": "corded-angle-grinders", "title": "Corded Angle Grinders"}, {"slug": "corded-random-orbital-sanders", "title": "Corded Random Orbital Sanders"}, {"slug": "corded-jigsaws", "title": "Corded Jigsaws"}, {"slug": "corded-heat-guns", "title": "Corded Heat Guns"}, {"slug": "corded-rotary-hammers", "title": "Corded Rotary Hammers"}, {"slug": "corded-table-saws", "title": "Corded Table Saws"}, {"slug": "corded-miter-saws", "title": "Corded Miter Saws"}, {"slug": "corded-shop-vacuums", "title": "Corded Shop Vacuums"}], "air": [{"slug": "air-compressors", "title": "Air Compressors"}, {"slug": "pneumatic-brad-nailers", "title": "Pneumatic Brad Nailers"}, {"slug": "pneumatic-framing-nailers", "title": "Pneumatic Framing Nailers"}], "hand": [{"slug": "claw-hammers", "title": "Claw Hammers"}, {"slug": "tape-measures", "title": "Tape Measures"}, {"slug": "screwdrivers", "title": "Screwdriver Sets"}, {"slug": "allen-keys", "title": "Allen Key (Hex Key) Sets"}, {"slug": "pliers", "title": "Pliers Sets"}, {"slug": "needle-nose-pliers", "title": "Needle-Nose Pliers"}, {"slug": "adjustable-wrenches", "title": "Adjustable (Crescent) Wrenches"}, {"slug": "socket-sets", "title": "Socket Sets"}], "garage": [{"slug": "wheel-balancers", "title": "Wheel Balancers"}, {"slug": "tire-changers", "title": "Tire Changers"}, {"slug": "engine-hoists", "title": "Engine Hoists"}, {"slug": "transmission-jacks", "title": "Transmission Jacks"}, {"slug": "sewer-inspection-cameras", "title": "Sewer Inspection Cameras"}, {"slug": "engine-stands", "title": "Engine Stands"}, {"slug": "motorcycle-lifts", "title": "Motorcycle Lifts"}, {"slug": "car-lifts", "title": "Car Lifts"}, {"slug": "tire-bead-seaters", "title": "Tire Bead Seaters"}, {"slug": "gantry-cranes", "title": "Gantry Cranes"}]};
       var catSel = document.getElementById('qn-category');
       var subSel = document.getElementById('qn-subcategory');
       var go = document.getElementById('qn-go');
@@ -426,6 +426,39 @@
       </a></div>
   </details>
   <details class="cats">
+    <summary><h2>Air tools</h2></summary>
+    <button type="button" class="cats-collapse" hidden>Collapse</button>
+    <p class="group-sub">Compressors and the pneumatic nailers they drive &mdash; light tools, steady power.</p>
+    <div class="cat-grid">
+      <a class="cat-card" href="air-compressors.html">
+        <h3>Air Compressors</h3>
+        <p>10 best pancake, portable and upright shop compressors for nailers, tires and air tools.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Metabo HPT EC914S</span>
+          <span><b>Best Budget:</b> VEVOR 4.8-gal 1.2 HP</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="pneumatic-brad-nailers.html">
+        <h3>Pneumatic Brad Nailers</h3>
+        <p>10 best 18-gauge air brad nailers for trim, molding and furniture.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> BOSTITCH BTFP12233</span>
+          <span><b>Best Budget:</b> NEU MASTER NPT5040</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="pneumatic-framing-nailers.html">
+        <h3>Pneumatic Framing Nailers</h3>
+        <p>10 best air framing nailers for studs, decks, sheathing and fencing.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Metabo HPT NR90AES1</span>
+          <span><b>Best Budget:</b> 3PLUS H2190SP</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a></div>
+  </details>
+  <details class="cats">
     <summary><h2>Hand tools</h2></summary>
     <button type="button" class="cats-collapse" hidden>Collapse</button>
     <p class="group-sub">No batteries, no cords &mdash; the essentials every toolbox needs.</p>
@@ -602,7 +635,7 @@
   
   <section class="deals">
     <h2>Deals on the major brands</h2>
-    <p>The same names turn up across these lists: DEWALT, CRAFTSMAN, Makita, Milwaukee, BLACK+DECKER, VEVOR, SKIL, WORKPRO, RYOBI, and Amazon Basics. Those brands run their
+    <p>The same names turn up across these lists: DEWALT, CRAFTSMAN, Makita, Milwaukee, VEVOR, BLACK+DECKER, WORKPRO, SKIL, RYOBI, and Amazon Basics. Those brands run their
     steepest Amazon markdowns around Prime Day and Black Friday, and cordless kits get
     bundled and discounted all year. The prices we show were captured
     between 2026-10-06 and 2026-10-10 (each list shows its own date) and drift over time, so every price button goes straight to the

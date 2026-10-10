@@ -1,0 +1,194 @@
+{
+  "slug": "air-compressors",
+  "title": "The 10 Best Air Compressors",
+  "subtitle": "Pancake, portable and upright shop compressors for nailers, tires and air tools, ranked from live Amazon data.",
+  "intro": "A shop air compressor stores air in a tank so it can run nail guns, inflate tires, blow off parts and power air tools. The number that matters most is airflow (CFM at 90 PSI): small pancakes run brad and finish nailers, and bigger tanks with more CFM keep up with framing nailers, impact wrenches and spray guns. We ranked 10 best-sellers on rating, review volume and features (4+ CFM, 150+ PSI, quiet operation, wheels and an accessory kit). They run from about $136 for a 4.8-gallon unit to $380 for a 29-gallon upright. Tire inflators are left out.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 160,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "high_cfm": 0.25, "high_psi": 0.2, "quiet": 0.2, "wheels": 0.15, "accessory_kit": 0.2 },
+  "reviews_ceiling": 2000,
+  "spec_fields": [
+    { "key": "tank", "label": "Tank" },
+    { "key": "cfm", "label": "Airflow" },
+    { "key": "psi", "label": "Max pressure" },
+    { "key": "hp", "label": "Motor" },
+    { "key": "noise", "label": "Noise" },
+    { "key": "weight", "label": "Weight" }
+  ],
+  "table_columns": [
+    { "key": "tank", "label": "Tank" },
+    { "key": "cfm", "label": "CFM @ 90 PSI" },
+    { "key": "psi", "label": "Max PSI" },
+    { "key": "wheels", "label": "Wheels", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B08DSCLXSC", "force_overall": true,
+      "name": "Metabo HPT Portable Pancake Air Compressor, 6 Gallon 200 PSI (EC914S)",
+      "brand": "Metabo HPT", "model": "EC914S",
+      "image": "https://m.media-amazon.com/images/I/61lqb4VBkBL._AC_SL1500_.jpg",
+      "price": 252.47, "rating": 4.5, "reviews_count": 1498, "bought": "1K+/mo",
+      "specs": { "tank": "6 gal pancake", "cfm": "4 CFM", "psi": "200 PSI", "hp": "1.3 HP", "noise": null, "weight": "42 lb" },
+      "features": { "high_cfm": true, "high_psi": true, "quiet": false, "wheels": false, "accessory_kit": false },
+      "verdict": "The pancake compressor pros use: 200 PSI and 4 CFM from a 6-gallon tank, enough to run two framing nailers or five brad nailers at once per Metabo HPT, at 42 lbs. The most-reviewed compressor on the page.",
+      "best_for": "Running framing and roofing nailers from a pancake you can carry.",
+      "skip_if": "You only inflate tires and run a brad nailer; a $160 pancake does that.",
+      "pros": ["200 PSI and 4 CFM at 90 PSI, the most of any pancake here", "Runs 2 framing or 5 brad nailers at once, per Metabo HPT", "1,498 reviews, the most here"],
+      "cons": ["Loud; Metabo HPT doesn't publish a noise rating", "No hose or accessories included", "1-year warranty"]
+    },
+    {
+      "asin": "B0DKFBFJGN",
+      "name": "CRAFTSMAN 6 Gallon 150 PSI Oil-Free Pancake Air Compressor (CMXECXA02106410)",
+      "brand": "CRAFTSMAN", "model": "CMXECXA02106410",
+      "image": "https://m.media-amazon.com/images/I/712SKIUCVxL._AC_SL1500_.jpg",
+      "price": 159.99, "rating": 4.6, "reviews_count": 249, "bought": "600+/mo",
+      "specs": { "tank": "6 gal pancake", "cfm": "2.6 SCFM", "psi": "150 PSI", "hp": "1 HP", "noise": null, "weight": "30.8 lb" },
+      "features": { "high_cfm": false, "high_psi": true, "quiet": false, "wheels": false, "accessory_kit": false },
+      "verdict": "A classic 6-gallon pancake from a name brand: 150 PSI, 2.6 SCFM, two quick couplers and a low-voltage start motor, at 30.8 lbs.",
+      "best_for": "Brad and finish nailers, tires and blow-off around the home shop.",
+      "skip_if": "You run framing nailers all day; 2.6 SCFM recovers slowly.",
+      "pros": ["150 PSI from a 6-gallon pancake", "Two quick couplers", "30.8 lbs with a carry handle"],
+      "cons": ["2.6 SCFM, modest for framing", "No hose or accessories included"]
+    },
+    {
+      "asin": "B0D7322DB2",
+      "name": "ECOMAX 6 Gallon 150 PSI Pancake Oil-Free Air Compressor with 10-Piece Accessory Kit",
+      "brand": "ECOMAX", "model": "0210673A",
+      "image": "https://m.media-amazon.com/images/I/61h1n0SuhVL._AC_SL1500_.jpg",
+      "price": 179.99, "rating": 4.7, "reviews_count": 328, "bought": "900+/mo",
+      "specs": { "tank": "6 gal pancake", "cfm": "3 CFM (listed as \"cubic inches\")", "psi": "150 PSI", "hp": "1.5 HP", "noise": null, "weight": "34.2 lb" },
+      "features": { "high_cfm": false, "high_psi": true, "quiet": false, "wheels": false, "accessory_kit": true },
+      "verdict": "The best-rated compressor here and the best-selling pancake: 150 PSI, a 6-gallon tank, dual couplers and a 25 ft hose with a blow gun, tire chuck and gauge in the box.",
+      "best_for": "Starting from nothing: a pancake with a 25 ft hose and fittings included.",
+      "skip_if": "You want a long-standing brand behind it.",
+      "pros": ["4.7 stars, the best rating here", "25 ft hose, blow gun, tire chuck and gauge included", "Dual gauges and couplers; cord wrap"],
+      "cons": ["The listing gives airflow as \"3 cubic inches\" per minute, an obvious unit error for 3 CFM", "No warranty term on the listing"]
+    },
+    {
+      "asin": "B0D95VWQB7",
+      "name": "Klutch 20-Gallon Air Compressor, 2 HP, 120V",
+      "brand": "Klutch", "model": "20-gal 2 HP",
+      "image": "https://m.media-amazon.com/images/I/61BDfEqoS3L._AC_SL1500_.jpg",
+      "price": 279.99, "rating": 4.5, "reviews_count": 762, "bought": "500+/mo",
+      "specs": { "tank": "20 gal portable", "cfm": "4.2 SCFM", "psi": "175 PSI", "hp": "2 HP", "noise": null, "weight": "90 lb" },
+      "features": { "high_cfm": true, "high_psi": true, "quiet": false, "wheels": true, "accessory_kit": false },
+      "verdict": "A 20-gallon garage compressor on big rubber wheels: 175 PSI and 4.2 SCFM for impact wrenches, framing nailers and longer air-tool runs, with a 2-year warranty.",
+      "best_for": "Garage air tools: impact wrenches, framing nailers and blow guns.",
+      "skip_if": "You need to carry it; it's 90 lbs.",
+      "pros": ["20-gallon tank, 175 PSI", "Large rubber wheels and handle", "2-year warranty"],
+      "cons": ["The bullets say 4.2 SCFM; the spec table says 5.2 CFM", "90 lbs"]
+    },
+    {
+      "asin": "B0DD36XCXB", "premium": true,
+      "name": "Klutch 29-Gallon Air Compressor, 2.5 HP, 120V, 175 PSI, 5.1 CFM at 90 PSI",
+      "brand": "Klutch", "model": "29-gal 2.5 HP",
+      "image": "https://m.media-amazon.com/images/I/71+MqWE828L._AC_SL1500_.jpg",
+      "price": 379.99, "rating": 4.5, "reviews_count": 762, "bought": "300+/mo",
+      "specs": { "tank": "29 gal upright", "cfm": "5.1 SCFM", "psi": "175 PSI", "hp": "2.5 HP", "noise": null, "weight": "127 lb" },
+      "features": { "high_cfm": true, "high_psi": true, "quiet": false, "wheels": true, "accessory_kit": false },
+      "verdict": "The biggest compressor here that still runs on a normal 120V outlet: 29 gallons, 5.1 SCFM and 175 PSI, on flat-free tires. It keeps up with continuous air-tool use and spray painting.",
+      "best_for": "Continuous air tools and spray painting on household 120V power.",
+      "skip_if": "You're short on floor space; it's 45 in tall and 127 lbs.",
+      "pros": ["29 gallons and 5.1 SCFM, the most here", "175 PSI on a standard 120V outlet", "Flat-free tires and a brass quick coupler"],
+      "cons": ["127 lbs", "$379.99, the most expensive here"]
+    },
+    {
+      "asin": "B0FB2T1NNF",
+      "name": "VEVOR 13-Gallon Air Compressor, 2HP, 4.6 SCFM@90PSI, Oil-Free, 66dB Quiet",
+      "brand": "VEVOR", "model": "DOF1500-50V-I",
+      "image": "https://m.media-amazon.com/images/I/714J+KhAZoL._AC_SL1500_.jpg",
+      "price": 235.90, "rating": 4.4, "reviews_count": 230, "bought": "200+/mo",
+      "specs": { "tank": "13 gal upright", "cfm": "4.6 SCFM", "psi": "125 PSI", "hp": "2 HP", "noise": "66 dB", "weight": "71 lb" },
+      "features": { "high_cfm": true, "high_psi": false, "quiet": true, "wheels": true, "accessory_kit": false },
+      "verdict": "A quiet 13-gallon compressor rated at 66 dB, with 4.6 SCFM and 7-inch wheels. Quiet enough for an attached garage or basement shop.",
+      "best_for": "Air tools in an attached garage, where 66 dB keeps the peace.",
+      "skip_if": "You need over 125 PSI.",
+      "pros": ["66 dB, the quietest here", "4.6 SCFM at 90 PSI", "7-inch rubber wheels"],
+      "cons": ["125 PSI max", "No hose included"]
+    },
+    {
+      "asin": "B0FM3JBX6Z",
+      "name": "Limodot Quiet Oil-Free Air Compressor, 68 dB, 2.8 CFM @ 90 PSI, 8 Gallon (LJ8120K)",
+      "brand": "Limodot", "model": "LJ8120K",
+      "image": "https://m.media-amazon.com/images/I/71+QUB4cKgL._AC_SL1500_.jpg",
+      "price": 189.99, "rating": 4.5, "reviews_count": 939, "bought": "100+/mo",
+      "specs": { "tank": "8 gal", "cfm": "2.8 CFM", "psi": null, "hp": "1.2 HP", "noise": "68 dB", "weight": null },
+      "features": { "high_cfm": false, "high_psi": false, "quiet": true, "wheels": true, "accessory_kit": true },
+      "verdict": "A quiet 8-gallon compressor with an induction motor rated at 68 dB, wheels, a 25 ft hose and an 11-piece accessory kit. Good for indoor nailing and inflation.",
+      "best_for": "Quiet indoor nailing and inflation, with a hose and fittings included.",
+      "skip_if": "You run framing nailers or impact wrenches; 2.8 CFM is modest.",
+      "pros": ["68 dB quiet induction motor", "25 ft hose and 11-piece kit", "Wheels kit"],
+      "cons": ["The listing doesn't state a maximum PSI", "Listing showed only 10 left in stock"]
+    },
+    {
+      "asin": "B0BV644LGX",
+      "name": "VEVOR 6.3 Gallon 2 HP Air Compressor, Max 116PSI, Oil Free",
+      "brand": "VEVOR", "model": "6.3-gal 2 HP",
+      "image": "https://m.media-amazon.com/images/I/71KMxFlpOWL._AC_SL1500_.jpg",
+      "price": 159.90, "rating": 4.3, "reviews_count": 676, "bought": "300+/mo",
+      "specs": { "tank": "6.3 gal", "cfm": "3.35 CFM", "psi": "116 PSI", "hp": "2 HP", "noise": null, "weight": "43 lb" },
+      "features": { "high_cfm": false, "high_psi": false, "quiet": false, "wheels": true, "accessory_kit": false },
+      "verdict": "A twin-cylinder 6.3-gallon compressor with 3.35 CFM, two cooling fans and casters, for about the same price as the CRAFTSMAN pancake.",
+      "best_for": "More airflow than a pancake at the same price, on casters.",
+      "skip_if": "You need over 116 PSI.",
+      "pros": ["3.35 CFM, more than the CRAFTSMAN pancake", "Two casters and a handle", "Overheat and pressure-relief protection"],
+      "cons": ["116 PSI max, the lowest here", "4.3 stars"]
+    },
+    {
+      "asin": "B0BV654FT9",
+      "name": "VEVOR 4.8 Gallon Air Compressor, 1.2HP, 2.2 CFM@90PSI, Oil Free, 70 dB",
+      "brand": "VEVOR", "model": "4.8-gal 1.2 HP",
+      "image": "https://m.media-amazon.com/images/I/7110zyShSJL._AC_SL1500_.jpg",
+      "price": 135.90, "rating": 4.5, "reviews_count": 470, "bought": "50+/mo",
+      "specs": { "tank": "4.8 gal", "cfm": "2.2 CFM", "psi": "116 PSI", "hp": "1.2 HP", "noise": "70 dB", "weight": "34 lb" },
+      "features": { "high_cfm": false, "high_psi": false, "quiet": true, "wheels": true, "accessory_kit": false },
+      "verdict": "The cheapest compressor here: a 4.8-gallon unit rated at 70 dB with casters, enough for a brad nailer, tires and an airbrush.",
+      "best_for": "Light, quiet duty: a brad nailer, tires and blow-off for under $140.",
+      "skip_if": "You run anything bigger than a finish nailer; 2.2 CFM is low.",
+      "pros": ["Lowest price here", "70 dB rating", "Casters and a handle"],
+      "cons": ["2.2 CFM, the lowest airflow here", "116 PSI max"]
+    },
+    {
+      "asin": "B0DLKSR6LD",
+      "name": "CRAFTSMAN 2 Gallon Portable Air Compressor, 1/3HP, Max 125 PSI, Oil-Free, 10-Piece Accessory Kit",
+      "brand": "CRAFTSMAN", "model": "CMXECXA0200244A",
+      "image": "https://m.media-amazon.com/images/I/71uBNzpLCzL._AC_SL1500_.jpg",
+      "price": 139.99, "rating": 4.0, "reviews_count": 226, "bought": "400+/mo",
+      "specs": { "tank": "2 gal hot dog", "cfm": null, "psi": "125 PSI", "hp": "1/3 HP", "noise": null, "weight": "19 lb" },
+      "features": { "high_cfm": false, "high_psi": false, "quiet": false, "wheels": false, "accessory_kit": true },
+      "verdict": "A 19 lb, 2-gallon hot-dog compressor with a hose and accessory kit, small enough to carry up a ladder for trim work or keep in the car.",
+      "best_for": "Carrying around: a 19 lb compressor for trim nailers and tires.",
+      "skip_if": "You want value; the VEVOR 4.8-gallon costs less with more tank.",
+      "pros": ["19 lbs, the lightest here", "Hose and 10-piece accessory kit", "Two quick couplers"],
+      "cons": ["1/3 HP and no published CFM", "4.0 stars, the lowest here"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FVS3DRFV",
+      "name": "MZB 13.2 Gallon Ultra Quiet Air Compressor, 115PSI, Oil Free",
+      "brand": "MZB", "model": "MZB-1100H-50-A",
+      "image": "https://m.media-amazon.com/images/I/717HNKvPg2L._AC_SL1500_.jpg",
+      "price": 219.99, "rating": 3.8, "reviews_count": 45,
+      "flag": "Claims 14.83 CFM and 3 HP from a 110V outlet",
+      "verdict": "A 13-gallon compressor sold on an airflow figure no 110V compressor can deliver. The VEVOR 13-gallon costs about $16 more, publishes a believable 4.6 SCFM, and is rated 66 dB.",
+      "reasons": [
+        "The spec table claims 14.83 CFM and 3 HP. The 2.5 HP, 29-gallon Klutch on this page delivers 5.1 SCFM on the same household power; a standard 120V circuit can't run a motor that makes three times that.",
+        "The bullet points promise \"high airflow\" but never give a CFM figure at 90 PSI, the number that tells you which tools it can run.",
+        "It's rated 3.8 stars, the lowest of any compressor we considered, and its 115 PSI maximum is lower than every pick here."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "What size compressor do I need?", "a": "Match airflow (CFM at 90 PSI) to your hungriest tool. Brad and finish nailers need under 1 CFM, so any pancake works. Framing nailers want 2 to 4 CFM; impact wrenches, sanders and spray guns want 4 CFM or more, and a bigger tank so the motor isn't running constantly." },
+    { "q": "What's the difference between a pancake, hot dog and upright?", "a": "Those describe the tank shape. Pancakes are flat and stable, hot dogs are small horizontal cylinders, and uprights stand vertically on wheels to save floor space. Shape matters less than tank size and CFM." },
+    { "q": "Does PSI matter?", "a": "Most air tools run at 90 PSI. A higher maximum (150 to 200 PSI) stores more air in the same tank, so you get more nails between motor cycles. It doesn't make tools more powerful." },
+    { "q": "Oil-free or oil-lubricated?", "a": "Every pick here is oil-free: no oil to check or change, and clean air for painting. Oil-lubricated compressors run quieter and last longer in daily shop use, but they cost more and need maintenance." },
+    { "q": "How loud are they?", "a": "Standard pancake compressors are loud, often 80 dB or more. Quiet models with induction motors run around 66 to 70 dB, about the level of a conversation, which matters in an attached garage or basement." }
+  ]
+}

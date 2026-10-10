@@ -1,0 +1,193 @@
+{
+  "slug": "pneumatic-brad-nailers",
+  "title": "The 10 Best Pneumatic Brad Nailers",
+  "subtitle": "18-gauge air brad nailers for trim, molding and furniture, ranked from live Amazon data.",
+  "intro": "A pneumatic brad nailer drives thin 18-gauge brads, 5/8 to 2 inches long, for trim, baseboard, casing and furniture. It needs an air compressor, but even a small pancake runs one, and it's lighter and much cheaper than a cordless model. We ranked 10 best-sellers on rating, review volume and features (tool-free depth adjustment, tool-free jam release, oil-free motor, selectable trigger and a case). They run from about $29 for a bare NuMax to $134 for Makita's aluminum AF506. See our air compressor list if you need one.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 45,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "depth_adjust": 0.2, "jam_release": 0.2, "oil_free": 0.2, "selectable_trigger": 0.2, "case": 0.2 },
+  "reviews_ceiling": 5000,
+  "spec_fields": [
+    { "key": "nails", "label": "Fasteners" },
+    { "key": "trigger", "label": "Trigger" },
+    { "key": "weight", "label": "Weight" },
+    { "key": "in_box", "label": "In the box" },
+    { "key": "warranty", "label": "Warranty" }
+  ],
+  "table_columns": [
+    { "key": "nails", "label": "Fasteners" },
+    { "key": "weight", "label": "Weight" },
+    { "key": "oil_free", "label": "Oil-free", "type": "bool" },
+    { "key": "selectable_trigger", "label": "Bump fire", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B00JTYO248",
+      "name": "BOSTITCH Brad Nailer Kit, 18GA, Smart Point, Pneumatic (BTFP12233)",
+      "brand": "BOSTITCH", "model": "BTFP12233",
+      "image": "https://m.media-amazon.com/images/I/51MMYI33XJL._AC_SL1000_.jpg",
+      "price": 123.94, "rating": 4.8, "reviews_count": 2629, "bought": "200+/mo",
+      "specs": { "nails": "18 ga brads, 5/8 to 2-1/8 in", "trigger": "Selectable sequential / contact", "weight": null, "in_box": "Case, air fitting, extra no-mar tips", "warranty": "7 years" },
+      "features": { "depth_adjust": true, "jam_release": true, "oil_free": true, "selectable_trigger": true, "case": true },
+      "verdict": "The best-rated brad nailer here at 4.8 stars, with every feature we score: a small Smart Point nose that fires without compressing a contact trip, oil-free operation, dial depth, tool-free jam release and a 7-year warranty.",
+      "best_for": "Trim carpenters who want precise placement and no oil stains.",
+      "skip_if": "You nail a few trim pieces a year; the Metabo HPT costs about half as much.",
+      "pros": ["4.8 stars, the best rating here", "Smart Point nose for easy placement", "Oil-free, selectable trigger, 7-year warranty"],
+      "cons": ["One of the priciest here", "The listing's 5.16 lb weight looks like the boxed kit, so check the tool weight elsewhere"]
+    },
+    {
+      "asin": "B07MK88Q33",
+      "name": "Metabo HPT Brad Nailer, Pneumatic, 18 Gauge, Adjustable Depth (NT50AE2)",
+      "brand": "Metabo HPT", "model": "NT50AE2",
+      "image": "https://m.media-amazon.com/images/I/61T322zrfmL._AC_SL1500_.jpg",
+      "price": 67.36, "rating": 4.6, "reviews_count": 3663, "bought": "900+/mo",
+      "specs": { "nails": "18 ga brads, 5/8 to 2 in", "trigger": "Selectable bump / sequential", "weight": "2.2 lb", "in_box": "Case, glasses, fitting, no-mar tip", "warranty": "5 years" },
+      "features": { "depth_adjust": true, "jam_release": true, "oil_free": false, "selectable_trigger": true, "case": true },
+      "verdict": "The best seller on the page: a 2.2 lb brad nailer with a selectable trigger, depth dial, low-nail indicator, 360-degree exhaust and a 5-year warranty, for about $67.",
+      "best_for": "Most people: a pro-brand brad nailer with a 5-year warranty for under $70.",
+      "skip_if": "You don't want to oil it; it isn't listed as oil-free.",
+      "pros": ["900+ bought in the past month", "2.2 lbs, the lightest here", "Selectable trigger and a low-nail indicator", "5-year warranty"],
+      "cons": ["Not listed as oil-free", "Plastic housing"]
+    },
+    {
+      "asin": "B00AK4CY7S",
+      "name": "DEWALT Brad Nailer Kit, 18GA, 5/8-Inch to 2-Inch, Pneumatic (DWFP12231)",
+      "brand": "DEWALT", "model": "DWFP12231",
+      "image": "https://m.media-amazon.com/images/I/61IXy-lpheL._AC_SL1000_.jpg",
+      "price": 102.35, "rating": 4.7, "reviews_count": 5022, "bought": "500+/mo",
+      "specs": { "nails": "18 ga brads, 5/8 to 2 in", "trigger": "Sequential", "weight": "2.65 lb", "in_box": "Case, 1/4 in fitting", "warranty": null },
+      "features": { "depth_adjust": true, "jam_release": true, "oil_free": true, "selectable_trigger": false, "case": true },
+      "verdict": "The most-reviewed brad nailer here: a maintenance-free (oil-free) DEWALT with tool-free depth and jam release, rear exhaust, a belt hook and a non-marring tip that stores on the tool.",
+      "best_for": "Finish work where oil spots on the wood aren't an option.",
+      "skip_if": "You want bump fire; it's sequential only.",
+      "pros": ["5,022 reviews, the most here", "Oil-free motor won't stain trim", "Tool-free depth and jam release; belt hook"],
+      "cons": ["Sequential trigger only", "The listing doesn't state a warranty term"]
+    },
+    {
+      "asin": "B07TGKYN2G", "premium": true,
+      "name": "Makita AF506 2\" Brad Nailer, 18 Gauge",
+      "brand": "Makita", "model": "AF506",
+      "image": "https://m.media-amazon.com/images/I/61yve8E7TkL._AC_SL1000_.jpg",
+      "price": 134.00, "rating": 4.7, "reviews_count": 3717, "bought": "50+/mo",
+      "specs": { "nails": "18 ga brads, 5/8 to 2 in", "trigger": null, "weight": "2.9 lb", "in_box": "Case, oil, 2 no-mar tips, fitting, glasses", "warranty": "3 years" },
+      "features": { "depth_adjust": true, "jam_release": false, "oil_free": false, "selectable_trigger": false, "case": true },
+      "verdict": "An aluminum-body Makita (body, magazine and cylinder) with a narrow nose for tight spots and a built-in air duster to blow sawdust off the line before you nail.",
+      "best_for": "Daily trim work where an aluminum body earns its price.",
+      "skip_if": "You want the most features; the BOSTITCH has more for less.",
+      "pros": ["Aluminum body, magazine and cylinder", "Narrow nose and built-in air duster", "3,717 reviews at 4.7 stars"],
+      "cons": ["$134, the most expensive here", "Needs oil; trigger type not listed"]
+    },
+    {
+      "asin": "B07KH7DRRM",
+      "name": "CRAFTSMAN Brad Nailer, 18GA, Pneumatic Nail Gun (CMPBN18K)",
+      "brand": "CRAFTSMAN", "model": "CMPBN18K",
+      "image": "https://m.media-amazon.com/images/I/613U9G8L97L._AC_SL1500_.jpg",
+      "price": 82.53, "rating": 4.7, "reviews_count": 209,
+      "specs": { "nails": "18 ga brads", "trigger": null, "weight": null, "in_box": "Case, 1/4 in fitting", "warranty": null },
+      "features": { "depth_adjust": true, "jam_release": true, "oil_free": true, "selectable_trigger": false, "case": true },
+      "verdict": "An oil-free CRAFTSMAN brad nailer with tool-free depth and jam release and a case, about $20 less than the DEWALT it closely matches.",
+      "best_for": "An oil-free brand-name nailer for less than the DEWALT.",
+      "skip_if": "You want a long review history; it has about 200.",
+      "pros": ["Oil-free, maintenance-free motor", "Tool-free depth and jam release", "4.7 stars"],
+      "cons": ["The listing gives no nail length range", "Fewer reviews than the other brand names"]
+    },
+    {
+      "asin": "B08CRQVXQ3",
+      "name": "NEU MASTER 2-in-1 Pneumatic Brad Nailer / Staple Gun, 18GA, 1000-Piece Kit (NPT5040)",
+      "brand": "NEU MASTER", "model": "NPT5040",
+      "image": "https://m.media-amazon.com/images/I/81JDHz6fLtL._AC_SL1500_.jpg",
+      "price": 39.99, "rating": 4.5, "reviews_count": 3899, "bought": "1K+/mo",
+      "specs": { "nails": "18 ga brads 5/8 to 2 in + 1/4 in crown staples", "trigger": "Sequential", "weight": null, "in_box": "800 brads, 200 staples, case, oil, glasses", "warranty": "2 years (replacement)" },
+      "features": { "depth_adjust": false, "jam_release": true, "oil_free": false, "selectable_trigger": false, "case": true },
+      "verdict": "The best-selling budget pick: a nailer that also fires 1/4-inch crown staples, sold with 1,000 fasteners and a case for about $40.",
+      "best_for": "A first air nailer that also staples, with 1,000 fasteners in the box.",
+      "skip_if": "You want depth adjustment; the listing doesn't mention it.",
+      "pros": ["Fires brads and narrow-crown staples", "1,000 fasteners and a case included", "1,000+ bought in the past month"],
+      "cons": ["No depth adjustment listed", "Sequential only; needs oil"]
+    },
+    {
+      "asin": "B0BFC2KGDR",
+      "name": "WEN 61722K 18-Gauge 2-in-1 Pneumatic Brad Nailer and 1/4-Inch Crown Stapler",
+      "brand": "WEN", "model": "61722K",
+      "image": "https://m.media-amazon.com/images/I/81SbppUShIL._AC_SL1500_.jpg",
+      "price": 41.79, "rating": 4.6, "reviews_count": 311, "bought": "100+/mo",
+      "specs": { "nails": "18 ga brads 5/8 to 2 in + 1/4 in crown staples", "trigger": null, "weight": null, "in_box": "Hard case", "warranty": null },
+      "features": { "depth_adjust": true, "jam_release": true, "oil_free": false, "selectable_trigger": false, "case": true },
+      "verdict": "WEN's brad nailer and stapler in one, with a depth wheel, fastener gauge, rotating exhaust and a nose latch for clearing jams.",
+      "best_for": "Brads and staples from one tool, with a depth wheel.",
+      "skip_if": "You want fasteners included; this kit has none.",
+      "pros": ["Brads and crown staples", "Depth wheel and quick-release 100-fastener magazine", "Hard case"],
+      "cons": ["No fasteners included", "Smaller review count"]
+    },
+    {
+      "asin": "B09JV7977X",
+      "name": "WEN 18-Gauge 3/8-Inch to 2-Inch Pneumatic Brad Nailer Kit with Case and 2,000 Nails (61723K)",
+      "brand": "WEN", "model": "61723K",
+      "image": "https://m.media-amazon.com/images/I/81wE8IpXRIL._AC_SL1500_.jpg",
+      "price": 39.16, "rating": 4.6, "reviews_count": 765, "bought": "50+/mo",
+      "specs": { "nails": "18 ga brads, 3/8 to 2 in", "trigger": null, "weight": null, "in_box": "2,000 brads in 4 lengths, case", "warranty": null },
+      "features": { "depth_adjust": true, "jam_release": true, "oil_free": false, "selectable_trigger": false, "case": true },
+      "verdict": "A brad-only WEN that takes nails as short as 3/8 inch, sold with 2,000 brads in four lengths and a case.",
+      "best_for": "Small craft and molding work with brads as short as 3/8 in.",
+      "skip_if": "You want to staple too; the 61722K does both.",
+      "pros": ["Takes brads down to 3/8 in", "2,000 brads in 4 lengths included", "Depth wheel, rotating exhaust, nose latch"],
+      "cons": ["Brads only", "Trigger type not listed"]
+    },
+    {
+      "asin": "B08TBM7RCS",
+      "name": "WORKPRO 2-in-1 Pneumatic Brad Nailer / Staple Gun, 18 GA (W181004A)",
+      "brand": "WORKPRO", "model": "W181004A",
+      "image": "https://m.media-amazon.com/images/I/71KzOnldhhS._AC_SL1500_.jpg",
+      "price": 42.99, "rating": 4.5, "reviews_count": 1720, "bought": "400+/mo",
+      "specs": { "nails": "18 ga brads 5/8 to 2 in + 18 ga staples", "trigger": null, "weight": null, "in_box": "400 brads, 300 staples, lubricant", "warranty": null },
+      "features": { "depth_adjust": true, "jam_release": true, "oil_free": false, "selectable_trigger": false, "case": false },
+      "verdict": "A 2-in-1 brad nailer and stapler with a depth wheel, tool-free jam clearing and 700 fasteners. Popular for upholstery as well as trim.",
+      "best_for": "Upholstery and trim with one tool and fasteners to start.",
+      "skip_if": "You want a case; none is listed.",
+      "pros": ["Brads and staples", "Depth wheel and tool-free jam clearing", "700 fasteners included"],
+      "cons": ["No case listed", "Needs regular oiling, per the listing"]
+    },
+    {
+      "asin": "B0032JTDPY",
+      "name": "NuMax SBR50 Pneumatic 18-Gauge 2\" Brad Nailer",
+      "brand": "NuMax", "model": "SBR50",
+      "image": "https://m.media-amazon.com/images/I/61P1GbLc+mL._AC_SL1500_.jpg",
+      "price": 29.49, "rating": 4.4, "reviews_count": 870,
+      "specs": { "nails": "18 ga brads, 5/8 to 2 in", "trigger": null, "weight": "2.6 lb", "in_box": "Oil, adjustment tools", "warranty": "1 year" },
+      "features": { "depth_adjust": false, "jam_release": false, "oil_free": false, "selectable_trigger": false, "case": false },
+      "verdict": "The cheapest brad nailer here: a die-cast aluminum NuMax with a hardened one-piece drive blade and a reload indicator, for under $30. Bare tool.",
+      "best_for": "A cheap brad nailer for occasional trim.",
+      "skip_if": "You want depth adjustment or a case.",
+      "pros": ["Lowest price here", "Die-cast aluminum body, hardened drive blade", "360-degree exhaust and reload indicator"],
+      "cons": ["No depth adjustment or jam release listed", "1-year warranty"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B01JZ0NZX4",
+      "name": "NuMax SL31 Pneumatic 3-in-1 Nail Gun, 16 GA & 18 GA Finish Nailer, Brad Nailer, Stapler",
+      "brand": "NuMax", "model": "SL31",
+      "image": "https://m.media-amazon.com/images/I/71JVZMlXiuL._AC_SL1500_.jpg",
+      "price": 47.69, "rating": 4.1, "reviews_count": 1266,
+      "flag": "One magazine for 16 ga nails, 18 ga brads and staples",
+      "verdict": "A 3-in-1 gun that tries to drive two nail gauges and staples through one nose. Buy a dedicated 18-gauge nailer here, or a separate 16-gauge finish nailer if you need one.",
+      "reasons": [
+        "It claims to fire 16-gauge finish nails, 18-gauge brads and 18-gauge staples. 16- and 18-gauge fasteners are different thicknesses; one drive blade and nose sized for both fit neither perfectly, which is how jams and bent nails happen.",
+        "It's rated 4.1 stars, the lowest of any brad nailer we considered with this many reviews.",
+        "For about $18 less, NuMax's own SBR50 does the 18-gauge job with a dedicated mechanism, and the $40 NEU MASTER 2-in-1 adds staples."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Brad nailer or finish nailer?", "a": "An 18-gauge brad nailer shoots thin nails that leave tiny holes, ideal for trim, casing and small molding. A 16-gauge finish nailer shoots thicker, longer nails for baseboard, door jambs and heavier trim. Most people start with a brad nailer." },
+    { "q": "What size compressor do I need?", "a": "Brad nailers use very little air, well under 1 CFM. Any pancake or small hot-dog compressor runs one easily. See our air compressor list." },
+    { "q": "Oil-free or oiled?", "a": "Oil-free nailers don't need a few drops of oil each day and won't spit oil onto finished wood. Oiled nailers are fine for paint-grade trim; keep a rag handy." },
+    { "q": "Sequential or bump fire?", "a": "Sequential (single) mode fires one nail per trigger pull with the nose pressed: safer and more precise. Bump (contact) mode fires each time the nose touches with the trigger held, which is faster for repetitive work. A selectable trigger gives you both." },
+    { "q": "Is a 2-in-1 nailer/stapler worth it?", "a": "If you'll staple upholstery, drawer bottoms or screen as well as nail trim, yes. Brads and 1/4-inch narrow crown staples share a magazine width, so the combo tools work well. Avoid tools that also claim 16-gauge nails." }
+  ]
+}
