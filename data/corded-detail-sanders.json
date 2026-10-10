@@ -1,0 +1,193 @@
+{
+  "slug": "corded-detail-sanders",
+  "title": "The 10 Best Corded Detail Sanders",
+  "subtitle": "Mouse and detail sanders with pointed pads for corners, trim, spindles and furniture, ranked from live Amazon data.",
+  "intro": "A detail sander (often called a mouse sander) has an iron-shaped pad that reaches into corners, along trim and between spindles where a round orbital pad can't. We ranked 10 corded best-sellers on rating, review volume and features (extra detail attachments, a vacuum port and hook-and-loop paper). Most run 12,000 to 16,000 orbits per minute, so the real differences are attachments, dust collection and the sheets in the box. They run from about $21 for WEN's 6301 to $59 for CRAFTSMAN's CMEW210.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 30,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "attachments": 0.35, "vac_port": 0.3, "hook_loop": 0.35 },
+  "reviews_ceiling": 20000,
+  "spec_fields": [
+    { "key": "opm", "label": "Orbits/min" },
+    { "key": "motor", "label": "Motor" },
+    { "key": "weight", "label": "Weight" },
+    { "key": "warranty", "label": "Warranty" },
+    { "key": "in_box", "label": "In the box" }
+  ],
+  "table_columns": [
+    { "key": "opm", "label": "Orbits/min" },
+    { "key": "motor", "label": "Motor" },
+    { "key": "attachments", "label": "Extra attachments", "type": "bool" },
+    { "key": "vac_port", "label": "Vac port", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B07FDL1TW5",
+      "name": "SKIL Corded Multi-Function Detail Sander with Micro-Filter Dust Box, 3 Attachments & 12pc Sanding Sheets (SR232301)",
+      "brand": "SKIL", "model": "SR232301",
+      "image": "https://m.media-amazon.com/images/I/61-CRtBzRkL._AC_SL1000_.jpg",
+      "price": 44.00, "rating": 4.5, "reviews_count": 7111, "bought": "6K+/mo",
+      "specs": { "opm": "13,500", "motor": "1.2 A", "weight": "2.6 lb", "warranty": "1 year", "in_box": "3 attachments, 12 sheets, dust box" },
+      "features": { "attachments": true, "vac_port": true, "hook_loop": true },
+      "verdict": "By far the best-selling detail sander: a 4-in-1 with three tool-free attachments for corners, edges and contours, a micro-filter dust box, a 1-1/4-inch vacuum port and 12 sheets in the box.",
+      "best_for": "Most people: one sander for flat panels, corners and curves.",
+      "skip_if": "You only sand corners; a plain mouse sander costs less.",
+      "pros": ["6,000+ sold last month; 7,111 reviews at 4.5 stars", "3 tool-free attachments", "Micro-filter box plus vacuum port"],
+      "cons": ["1-year warranty", "Listing gives 13,500 opm in the bullets and 14,500 in the specs"]
+    },
+    {
+      "asin": "B00OJWLNMO",
+      "name": "BLACK+DECKER Detail Sander, 1.2 Amp, 16,000 OPM, 3-Position Grip, Dust Collector (BDEMS600)",
+      "brand": "BLACK+DECKER", "model": "BDEMS600",
+      "image": "https://m.media-amazon.com/images/I/71P2GSRQ22L._AC_SL1500_.jpg",
+      "price": 50.51, "rating": 4.5, "reviews_count": 19087, "bought": "1K+/mo",
+      "specs": { "opm": "16,000", "motor": "1.2 A", "weight": null, "warranty": "2 years", "in_box": "Sander, detail finger attachment, dust canister" },
+      "features": { "attachments": true, "vac_port": false, "hook_loop": false },
+      "verdict": "The classic Mouse, with the most reviews of any detail sander by a wide margin. The fastest pad here at 16,000 opm, a detail finger for tight spots, a 3-position grip and a 2-year warranty.",
+      "best_for": "Furniture refinishing, where the detail finger gets between slats and spindles.",
+      "skip_if": "You want a vacuum port; it has a canister only.",
+      "pros": ["19,087 reviews at 4.5 stars", "16,000 opm, the fastest here", "Detail finger attachment; 2-year warranty"],
+      "cons": ["No vacuum port listed", "Weight not listed"]
+    },
+    {
+      "asin": "B000EUH4TG", "force_budget": true,
+      "name": "WEN 6301 Electric Detailing Palm Sander",
+      "brand": "WEN", "model": "6301",
+      "image": "https://m.media-amazon.com/images/I/91mfdZy1g5L._AC_SL1500_.jpg",
+      "price": 21.32, "rating": 4.6, "reviews_count": 5734, "bought": "1K+/mo",
+      "specs": { "opm": "13,500", "motor": "1 A", "weight": "2 lb", "warranty": "1 year", "in_box": "Sander" },
+      "features": { "attachments": false, "vac_port": true, "hook_loop": true },
+      "verdict": "The cheapest detail sander here and one of the best rated: a 2 lb sander with a 3.75 x 5.5-inch hook-and-loop pad, an angled tip and a dust port.",
+      "best_for": "Light detail work for about $21.",
+      "skip_if": "You want sandpaper in the box or extra attachments.",
+      "pros": ["$21.32", "4.6 stars across 5,734 reviews", "2 lbs"],
+      "cons": ["No sheets or attachments listed in the box", "Specs say 0.8 A and 12,000 rpm; the bullets say 1 A and 13,500 opm"]
+    },
+    {
+      "asin": "B07FCS4HVW",
+      "name": "SKIL Corded Detail Sander, Includes 3pcs Sanding Paper and Dust Box (SR250801)",
+      "brand": "SKIL", "model": "SR250801",
+      "image": "https://m.media-amazon.com/images/I/71Z4Swzx3LL._SL1500_.jpg",
+      "price": 32.99, "rating": 4.6, "reviews_count": 3236, "bought": "500+/mo",
+      "specs": { "opm": "12,000", "motor": "1 A", "weight": "2.3 lb", "warranty": "1 year", "in_box": "3 sheets, dust box" },
+      "features": { "attachments": false, "vac_port": true, "hook_loop": true },
+      "verdict": "SKIL's plain mouse sander: the same micro-filter box and vacuum port as the 4-in-1, without the extra attachments, for $11 less.",
+      "best_for": "Corners and edges with good dust control.",
+      "skip_if": "You need to sand curves; the SR232301's attachments handle them.",
+      "pros": ["4.6 stars across 3,236 reviews", "Micro-filter box and 1-1/4-inch vac port", "Counterweight balance cuts vibration"],
+      "cons": ["12,000 opm, at the low end", "Only 3 sheets included"]
+    },
+    {
+      "asin": "B08HQ59Q91",
+      "name": "HYCHIKA Detail Sander, 14,000 OPM, 12 Pcs Sandpapers, Dust Collection (MS200W)",
+      "brand": "HYCHIKA", "model": "MS200W",
+      "image": "https://m.media-amazon.com/images/I/71Igoe6reRL._AC_SL1500_.jpg",
+      "price": 29.99, "rating": 4.3, "reviews_count": 2070, "bought": "1K+/mo",
+      "specs": { "opm": "14,000", "motor": "1.6 A", "weight": "2.2 lb", "warranty": null, "in_box": "12 sheets (80/120/240), dust bag" },
+      "features": { "attachments": false, "vac_port": false, "hook_loop": true },
+      "verdict": "A 1.6A detail sander that sells over 1,000 a month, with a 6-hole dust system, a dust bag and 12 sheets in three grits.",
+      "best_for": "A cheap sander ready to go with three grits.",
+      "skip_if": "You want a brand warranty; none is listed.",
+      "pros": ["1.6A, 14,000 opm", "12 sheets in 3 grits", "2,070 reviews"],
+      "cons": ["4.3 stars", "No warranty term listed"]
+    },
+    {
+      "asin": "B0D4DS1RLB",
+      "name": "GALAX PRO 1.1A Detail Sander Corded 13000 OPM with 20Pcs Sandpapers",
+      "brand": "GALAX PRO", "model": "119",
+      "image": "https://m.media-amazon.com/images/I/71zY3yvvS0L._AC_SL1500_.jpg",
+      "price": 28.49, "rating": 4.5, "reviews_count": 255, "bought": "200+/mo",
+      "specs": { "opm": "13,000", "motor": "1.1 A", "weight": "2.5 lb", "warranty": null, "in_box": "20 sheets (60-120 grit), dust box" },
+      "features": { "attachments": false, "vac_port": false, "hook_loop": false },
+      "verdict": "The most sandpaper in the box here, 20 sheets in four grits, plus a dust box with a latch that keeps it from falling off mid-job.",
+      "best_for": "The most paper for the money.",
+      "skip_if": "You want fine grits; the sheets stop at 120.",
+      "pros": ["20 sheets included", "Locking dust box", "4.5 stars"],
+      "cons": ["1.1A motor", "No vacuum port listed"]
+    },
+    {
+      "asin": "B0B3J2N53F",
+      "name": "WORKPRO Detail Electric Sander with Dust Bag for Woodworking, 1.6 Amp",
+      "brand": "WORKPRO", "model": "W125171AE",
+      "image": "https://m.media-amazon.com/images/I/81ittC3EktL._AC_SL1500_.jpg",
+      "price": 35.99, "rating": 4.5, "reviews_count": 296, "bought": "200+/mo",
+      "specs": { "opm": "13,000", "motor": "1.6 A", "weight": "2.6 lb", "warranty": null, "in_box": "15 sheets (60-240 grit), dust box" },
+      "features": { "attachments": false, "vac_port": false, "hook_loop": true },
+      "verdict": "A 1.6A sander with 15 sheets across five grits from 60 to 240, and a soft rubber top that cuts vibration.",
+      "best_for": "A full grit range out of the box.",
+      "skip_if": "You want a vacuum port; the listing describes a dust box only.",
+      "pros": ["15 sheets, 60 to 240 grit", "1.6A motor", "4.5 stars"],
+      "cons": ["Weight given as 2.6 lbs in the bullets and 3.4 in the specs", "No warranty term listed"]
+    },
+    {
+      "asin": "B088BJCGNY",
+      "name": "BLACK+DECKER MOUSE 1.2 Amp Electric Detail Sander (BDEMS200C)",
+      "brand": "BLACK+DECKER", "model": "BDEMS200C",
+      "image": "https://m.media-amazon.com/images/I/71QbKQFXBIL._AC_SL1500_.jpg",
+      "price": 54.99, "rating": 4.6, "reviews_count": 282,
+      "specs": { "opm": "14,000", "motor": "1.2 A", "weight": null, "warranty": "2 years", "in_box": "Detail finger attachment, 3 sheets" },
+      "features": { "attachments": true, "vac_port": false, "hook_loop": false },
+      "verdict": "The other BLACK+DECKER Mouse: 14,000 opm, a detail finger, dust canister and 2-year warranty. Right now it costs more than the faster BDEMS600.",
+      "best_for": "A BLACK+DECKER Mouse if the BDEMS600 is out of stock.",
+      "skip_if": "The BDEMS600 is in stock; it's faster and cheaper.",
+      "pros": ["4.6 stars", "Detail finger attachment", "2-year warranty"],
+      "cons": ["About $4 more than the faster BDEMS600", "No vacuum port listed"]
+    },
+    {
+      "asin": "B0CZ3GP76F",
+      "name": "HYCHIKA Detail Sander, 140W, up to 13000 OPM, 1.2A, 12pcs Sandpapers (TX104)",
+      "brand": "HYCHIKA", "model": "TX104",
+      "image": "https://m.media-amazon.com/images/I/81nLar2pyEL._AC_SL1500_.jpg",
+      "price": 26.99, "rating": 4.4, "reviews_count": 305, "bought": "50+/mo",
+      "specs": { "opm": "13,000", "motor": "1.2 A", "weight": "2.5 lb", "warranty": null, "in_box": "12 sheets (80/120/240), dust bag" },
+      "features": { "attachments": false, "vac_port": false, "hook_loop": true },
+      "verdict": "HYCHIKA's smaller sander: 1.2A, 13,000 opm, a 6-hole pad with a dust bag and 12 sheets, for $3 less than the MS200W.",
+      "best_for": "A cheap backup sander with paper in the box.",
+      "skip_if": "You'd pay $3 more for the MS200W's bigger motor.",
+      "pros": ["$26.99 with 12 sheets", "Hook-and-loop pad", "2.5 lbs"],
+      "cons": ["1.2A, below the MS200W's 1.6A", "No warranty term listed"]
+    },
+    {
+      "asin": "B0C6V4C641",
+      "name": "CRAFTSMAN Detail Sander, Corded Mouse Sander, 2 Attachments, Sandpaper and Dust Bag (CMEW210)",
+      "brand": "CRAFTSMAN", "model": "CMEW210",
+      "image": "https://m.media-amazon.com/images/I/712lbhmA81L._AC_SL1500_.jpg",
+      "price": 59.00, "rating": 4.6, "reviews_count": 160, "bought": "50+/mo",
+      "specs": { "opm": "14,000", "motor": null, "weight": "2.8 lb", "warranty": null, "in_box": "2 detail attachments, 120 and 240 grit sheets, dust bag" },
+      "features": { "attachments": true, "vac_port": false, "hook_loop": false },
+      "verdict": "CRAFTSMAN's mouse sander with two detail attachments, a dust bag and a dust-sealed switch. The most expensive here.",
+      "best_for": "CRAFTSMAN fans who want two detail attachments.",
+      "skip_if": "Price matters; the SKIL 4-in-1 has more attachments for $15 less.",
+      "pros": ["2 detail attachments", "Dust-sealed switch", "4.6 stars"],
+      "cons": ["$59.00, the most expensive here", "Amp rating and warranty not listed"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GZWD9BQY",
+      "name": "DEKOPRO 1.5A Mouse Sander, Corded Palm Sander with Dust Collection & 15pc Sandpapers",
+      "brand": "DEKOPRO", "model": "DKPDDSA018C2",
+      "image": "https://m.media-amazon.com/images/I/71DcxPkiBxL._AC_SL1500_.jpg",
+      "price": 28.99, "rating": 3.8, "reviews_count": 44, "bought": "200+/mo",
+      "flag": "Lowest rating; dust claims walked back on the listing",
+      "verdict": "A budget mouse sander that sells well but rates worst. For 50 cents less, the GALAX has 4.5 stars and 20 sheets.",
+      "reasons": [
+        "It's rated 3.8 stars, the lowest of the 12 detail sanders we compared, while sanders within a few dollars of it are rated 4.3 to 4.5.",
+        "The listing advertises an '11-hole efficient dust collection system', then says in the same bullet that it 'cannot collect all the dust' and tells you to hook up a vacuum.",
+        "It lists no voltage, weight or warranty, and the spec table names sandpaper as the only included component even though the bullets add a dust collector."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "Detail sander or random orbital sander?", "a": "A random orbital sander is faster and leaves a better finish on flat panels. A detail sander's pointed pad gets into corners, along trim and between spindles. Many people own both." },
+    { "q": "Do I need the extra attachments?", "a": "Only for furniture and trim. A finger attachment gets between chair slats and spindles; a contour pad follows curves. For corners and edges, the standard pad is enough." },
+    { "q": "Does orbits per minute matter?", "a": "A little. Faster pads remove material quicker, but every sander here runs 12,000 to 16,000 opm. Dust collection and paper quality make more difference." },
+    { "q": "Can I use regular sandpaper?", "a": "Detail sanders use pre-cut hook-and-loop sheets shaped like the pad. Buy sheets that match the pad size and hole pattern so dust collection works." },
+    { "q": "Will a detail sander strip paint?", "a": "It will for small areas like window frames and trim, with 60 or 80 grit. For large painted surfaces a random orbital or belt sander is much faster. Test old paint for lead before sanding it." }
+  ]
+}

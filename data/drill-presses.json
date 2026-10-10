@@ -1,0 +1,194 @@
+{
+  "slug": "drill-presses",
+  "title": "The 10 Best Benchtop Drill Presses",
+  "subtitle": "8-inch to 12-inch benchtop drill presses for straight, repeatable holes in wood and metal, ranked from live Amazon data.",
+  "intro": "A drill press drills dead-square holes to a set depth, every time, which a handheld drill can't. We ranked 10 benchtop best-sellers on rating, review volume and features (variable speed without moving belts, a laser crosshair, a work light and a digital speed readout). The big split is size: 8-inch machines with 1/2-inch chucks for small parts and hobby work, and 12-inch machines with 5/8-inch chucks and over 3 inches of spindle travel for furniture and metal. They run from $84 for WEN's 8-inch to $737 for JET's 12-inch.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 110,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "variable_speed": 0.3, "laser": 0.25, "light": 0.25, "digital_readout": 0.2 },
+  "reviews_ceiling": 1000,
+  "spec_fields": [
+    { "key": "swing", "label": "Swing" },
+    { "key": "speed", "label": "Speed" },
+    { "key": "chuck", "label": "Chuck" },
+    { "key": "travel", "label": "Spindle travel" },
+    { "key": "motor", "label": "Motor" },
+    { "key": "weight", "label": "Weight" }
+  ],
+  "table_columns": [
+    { "key": "swing", "label": "Swing" },
+    { "key": "speed", "label": "Speed" },
+    { "key": "variable_speed", "label": "Variable speed", "type": "bool" },
+    { "key": "laser", "label": "Laser", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B0DQ9F3DX8", "force_overall": true,
+      "name": "WEN 12-Inch Benchtop Drill Press, 6.2-Amp Variable Speed, Laser and LED Work Light (DP1263V)",
+      "brand": "WEN", "model": "DP1263V",
+      "image": "https://m.media-amazon.com/images/I/715RIGooSGL._AC_SL1500_.jpg",
+      "price": 253.53, "rating": 4.5, "reviews_count": 99, "bought": "300+/mo",
+      "specs": { "swing": "12 in", "speed": "580-3,100 rpm, variable", "chuck": "5/8 in keyed", "travel": "3-1/8 in", "motor": "6.2 A induction", "weight": "85 lb" },
+      "features": { "variable_speed": true, "laser": true, "light": true, "digital_readout": true },
+      "verdict": "A full-featured 12-inch press for about a third of JET's price: speed changes with a lever instead of belts, a digital readout shows the rpm, and it has a laser, overhead light, depth stop, roller table extension and 3-1/8 inches of spindle travel.",
+      "best_for": "A first serious drill press for furniture, woodworking and light metal.",
+      "skip_if": "You only drill small parts; an 8-inch press does that for a third of the price.",
+      "pros": ["Variable speed 580-3,100 rpm with digital readout", "5/8-inch chuck and 3-1/8-inch spindle travel", "Laser, overhead light and roller table extension; 2-year warranty"],
+      "cons": ["85 lbs", "Listing showed only 6 left in stock"]
+    },
+    {
+      "asin": "B08ZVWRZR9", "force_budget": true,
+      "name": "WEN 2.3-Amp 8-Inch 5-Speed Cast Iron Benchtop Drill Press (4206T)",
+      "brand": "WEN", "model": "4206T",
+      "image": "https://m.media-amazon.com/images/I/710RNq2myxL._AC_SL1500_.jpg",
+      "price": 83.97, "rating": 4.6, "reviews_count": 802, "bought": "600+/mo",
+      "specs": { "swing": "8 in", "speed": "5 speeds, 750-3,200 rpm", "chuck": "1/2 in keyed", "travel": "2 in", "motor": "2.3 A induction", "weight": "32 lb" },
+      "features": { "variable_speed": false, "laser": false, "light": false, "digital_readout": false },
+      "verdict": "The best-selling and most-reviewed drill press here, and the cheapest. A plain 8-inch cast iron press with five belt speeds and a table that bevels 45 degrees each way.",
+      "best_for": "Small parts, hobby work and a first drill press under $85.",
+      "skip_if": "You need more than 2 inches of spindle travel or a light and laser.",
+      "pros": ["802 reviews at 4.6 stars; 600+ sold last month", "Cast iron, 32 lbs", "Table bevels 45 degrees both ways"],
+      "cons": ["Belt changes to switch speed", "No light or laser", "2-inch spindle travel"]
+    },
+    {
+      "asin": "B0DGG2MD57",
+      "name": "VEVOR 8 in Benchtop Drill Press, 2.5A Induction Motor, 5 Speeds, 0-45° Tilting Worktable, LED Work Light (DP8)",
+      "brand": "VEVOR", "model": "DP8",
+      "image": "https://m.media-amazon.com/images/I/61+IQgGEPGL._AC_SL1500_.jpg",
+      "price": 101.90, "rating": 4.6, "reviews_count": 166, "bought": "100+/mo",
+      "specs": { "swing": "8 in", "speed": "5 speeds, 750-3,200 rpm", "chuck": "1/2 in", "travel": "2 in", "motor": "2.5 A induction", "weight": "25.4 lb" },
+      "features": { "variable_speed": false, "laser": false, "light": true, "digital_readout": false },
+      "verdict": "An 8-inch press like the WEN 4206T with a slightly bigger 2.5A motor, an LED work light and an adjustable depth stop, for about $18 more.",
+      "best_for": "An 8-inch press with a work light.",
+      "skip_if": "You'd rather have the WEN 4206T's longer track record.",
+      "pros": ["LED work light", "Adjustable depth stop", "Table tilts to 45 degrees"],
+      "cons": ["Belt changes to switch speed", "25.4 lbs, lighter than cast-iron rivals"]
+    },
+    {
+      "asin": "B0BFQYZPQK",
+      "name": "SKIL 6.2 Amp 10 In. 5-Speed Benchtop Drill Press with Laser Alignment & Work Light (DP9505-00)",
+      "brand": "SKIL", "model": "DP9505-00",
+      "image": "https://m.media-amazon.com/images/I/51fnsGqVyBL._AC_SL1000_.jpg",
+      "price": 219.00, "rating": 4.3, "reviews_count": 525, "bought": "300+/mo",
+      "specs": { "swing": "10 in", "speed": "5 speeds, 610-2,800 rpm", "chuck": "1/2 in", "travel": null, "motor": "6.2 A induction", "weight": null },
+      "features": { "variable_speed": false, "laser": true, "light": true, "digital_readout": false },
+      "verdict": "A 10-inch press from a major brand with a laser, LED light, depth stop bump-off switch and a 3-year warranty.",
+      "best_for": "A brand-name 10-inch press with a laser and a 3-year warranty.",
+      "skip_if": "You want variable speed; this one changes speed on belts.",
+      "pros": ["Laser alignment and LED work light", "Bump-off safety switch", "3-year limited warranty"],
+      "cons": ["Belt-change speeds", "Spindle travel and weight aren't listed", "4.3 stars"]
+    },
+    {
+      "asin": "B0DQ9BTQVR",
+      "name": "WEN 10-Inch Benchtop Drill Press, 6.2-Amp Variable Speed Motor, Cast Iron, Laser (DP1062V)",
+      "brand": "WEN", "model": "DP1062V",
+      "image": "https://m.media-amazon.com/images/I/71z+meDEKPL._AC_SL1500_.jpg",
+      "price": 203.98, "rating": 4.5, "reviews_count": 45, "bought": "50+/mo",
+      "specs": { "swing": "10 in", "speed": "530-3,100 rpm, variable", "chuck": "1/2 in keyed", "travel": "2 in", "motor": "6.2 A induction", "weight": "57 lb" },
+      "features": { "variable_speed": true, "laser": true, "light": false, "digital_readout": true },
+      "verdict": "The 10-inch version of WEN's variable-speed press: a lever sets 530-3,100 rpm with a digital readout, plus a laser and depth stop, in a 57 lb package.",
+      "best_for": "Variable speed in a smaller footprint than a 12-inch press.",
+      "skip_if": "You want a work light or more than 2 inches of travel.",
+      "pros": ["Variable speed with digital readout", "Laser and depth stop", "2-year warranty"],
+      "cons": ["No work light listed", "1/2-inch chuck and 2-inch travel"]
+    },
+    {
+      "asin": "B0GGHJWRH9",
+      "name": "VEVOR 12-Inch Benchtop Drill Press, 6.2 Amp, 1 HP, 530 to 3140 RPM Variable Speed, Laser and LED Work Light (1216BVS)",
+      "brand": "VEVOR", "model": "1216BVS",
+      "image": "https://m.media-amazon.com/images/I/61ng7lgHw8L._AC_SL1500_.jpg",
+      "price": 319.90, "rating": 4.6, "reviews_count": 166, "bought": "50+/mo",
+      "specs": { "swing": "12 in", "speed": "530-3,140 rpm, variable", "chuck": "0.6 in", "travel": null, "motor": "6.2 A, 1 HP", "weight": "84.3 lb" },
+      "features": { "variable_speed": true, "laser": true, "light": true, "digital_readout": true },
+      "verdict": "A 12-inch variable-speed press with a digital readout, X-laser and LED light, much like the WEN DP1263V, but about $66 more and without a stated spindle travel.",
+      "best_for": "A 12-inch variable-speed press if the WEN is out of stock.",
+      "skip_if": "The WEN DP1263V is in stock; it's cheaper and lists more.",
+      "pros": ["Variable speed with digital readout", "X-laser and LED light", "4.6 stars"],
+      "cons": ["Spindle travel not listed", "About $66 more than the WEN DP1263V"]
+    },
+    {
+      "asin": "B0B76NLKNH",
+      "name": "BUCKTOOL 12-Inch Benchtop Drill Press, 580-3200 RPM, 6.2A 3/4 HP Motor (DP12VL)",
+      "brand": "BUCKTOOL", "model": "DP12VL",
+      "image": "https://m.media-amazon.com/images/I/61upjP-xCrL._AC_SL1500_.jpg",
+      "price": 301.29, "rating": 4.6, "reviews_count": 196,
+      "specs": { "swing": "12 in", "speed": "580-3,200 rpm, variable", "chuck": "1/32-5/8 in keyed", "travel": "2 in", "motor": "6.2 A, 3/4 HP", "weight": "86.5 lb" },
+      "features": { "variable_speed": true, "laser": true, "light": true, "digital_readout": true },
+      "verdict": "A 12-inch variable-speed press with a digital readout, laser, work light, emergency stop and a table that rotates 360 degrees and bevels 45.",
+      "best_for": "Metal and wood work that needs a rotating table and an emergency stop.",
+      "skip_if": "You need deep holes; spindle travel is 2 inches, against 3-1/8 on the WEN and JET 12-inch presses.",
+      "pros": ["Variable speed with digital readout", "Emergency stop and no-voltage release switch", "Table rotates 360 degrees"],
+      "cons": ["2-inch spindle travel for a 12-inch press", "86.5 lbs"]
+    },
+    {
+      "asin": "B01C9TW7LO", "premium": true,
+      "name": "JET 12\" Benchtop Drill Press, Variable Speed, Digital RPM Readout (JWDP-12)",
+      "brand": "JET", "model": "JWDP-12",
+      "image": "https://m.media-amazon.com/images/I/71uUnrXyL9L._AC_SL1500_.jpg",
+      "price": 736.99, "rating": 4.5, "reviews_count": 249, "bought": "50+/mo",
+      "specs": { "swing": "12 in", "speed": "530-3,100 rpm, variable", "chuck": "5/8 in keyed, MT2", "travel": "3-1/8 in", "motor": "1/2 HP, 5 A", "weight": "85 lb" },
+      "features": { "variable_speed": true, "laser": true, "light": true, "digital_readout": true },
+      "verdict": "JET's 12-inch press: change speed with a lever while it runs, read the actual spindle rpm, and work on a cast iron table that tilts 45 degrees under two crosshair lasers. MT2 spindle taper and a 5-year warranty.",
+      "best_for": "A cabinet or furniture shop that wants a press to last decades.",
+      "skip_if": "You're a hobbyist; the WEN DP1263V has the same headline specs for about a third of the price.",
+      "pros": ["Cast iron base and tilting table", "Twin crosshair lasers, LED light, MT2 taper", "5-year JET warranty (2 years commercial)"],
+      "cons": ["$736.99", "Must be bolted to a bench or stand; bolts not included"]
+    },
+    {
+      "asin": "B0DY7DR3XV",
+      "name": "VEVOR Benchtop Drill Press, 3.2 Amp, 5-Speed, 10 in Swing, Cast Iron Frame (DP1006L)",
+      "brand": "VEVOR", "model": "DP1006L",
+      "image": "https://m.media-amazon.com/images/I/61G98AIl-QL._AC_SL1500_.jpg",
+      "price": 127.71, "rating": 4.3, "reviews_count": 81, "bought": "200+/mo",
+      "specs": { "swing": "10 in", "speed": "5 speeds, 650-3,100 rpm", "chuck": "1/2 in", "travel": null, "motor": "3.2 A induction", "weight": "41.9 lb" },
+      "features": { "variable_speed": false, "laser": false, "light": false, "digital_readout": false },
+      "verdict": "The cheapest 10-inch press here: five belt speeds, a cast iron frame and a table that tilts 45 degrees. No light, laser or listed spindle travel.",
+      "best_for": "A 10-inch swing on a budget.",
+      "skip_if": "You want a light or laser; the SKIL adds both.",
+      "pros": ["10-inch swing for $127.71", "Cast iron frame", "Table tilts 0-45 degrees"],
+      "cons": ["3.2A motor, half the SKIL's 6.2A", "Spec table lists 2,800 rpm, the bullets 3,100", "No light or laser"]
+    },
+    {
+      "asin": "B0B81338B1",
+      "name": "WOODSKIL 8-Inch Benchtop Drill Press, 2.3 Amp 5-Speed with Laser Guide (DP-8)",
+      "brand": "WOODSKIL", "model": "DP-8",
+      "image": "https://m.media-amazon.com/images/I/61H3eVaVtAL._AC_SL1500_.jpg",
+      "price": 125.00, "rating": 4.2, "reviews_count": 102,
+      "specs": { "swing": "8 in", "speed": "5 speeds, 750-3,200 rpm", "chuck": "1/2 in keyed", "travel": "2 in", "motor": "2.3 A, 1/3 HP induction", "weight": null },
+      "features": { "variable_speed": false, "laser": true, "light": false, "digital_readout": false },
+      "verdict": "An 8-inch press with the same five speeds as the WEN 4206T, plus a laser guide and a cast iron table, for about $41 more.",
+      "best_for": "An 8-inch press with a laser.",
+      "skip_if": "You don't need the laser; the WEN 4206T is cheaper and better reviewed.",
+      "pros": ["Class IIIA laser guide", "Cast iron table bevels 45 degrees", "2-year warranty"],
+      "cons": ["About $41 more than the WEN 4206T", "4.2 stars"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B07ZBXD2MX",
+      "name": "BACHIN Bench Drill Stand 710W Mini Electric Bench Drilling Machine, 6-Speed, 0-2800RPM",
+      "brand": "BACHIN", "model": "Mini bench drill 710W",
+      "image": "https://m.media-amazon.com/images/I/511o4ahUAGL._AC_SL1024_.jpg",
+      "price": 89.99, "rating": 4.3, "reviews_count": 331, "bought": "50+/mo",
+      "flag": "Power and speed claims contradict each other",
+      "verdict": "A mini drill on a stand whose own numbers don't add up. For $6 less, the WEN 4206T is a real 8-inch cast iron press with a stated swing and spindle travel.",
+      "reasons": [
+        "It claims 710 watts but lists 3.23 amps at 110 volts. That's about 355 watts drawn from the wall, half the headline figure.",
+        "The listing calls it '6-speed' and '0-2800RPM variable' at the same time, and the spec table gives its dimensions as 1 x 1 x 1 inch.",
+        "It lists no swing, spindle travel, or warranty, the numbers you need to know what a drill press can actually drill."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "What does swing mean on a drill press?", "a": "Swing is twice the distance from the column to the center of the chuck. An 8-inch swing can drill the center of an 8-inch-wide board; a 12-inch swing handles 12 inches." },
+    { "q": "How much spindle travel do I need?", "a": "Spindle travel is how deep you can drill in one plunge. 2 inches covers most hobby and metal work. For deep holes in table legs or thick stock, look for 3 inches or more, like the WEN DP1263V or JET JWDP-12." },
+    { "q": "Variable speed or belt speeds?", "a": "Belt-speed presses work fine, but you open the top and move a belt to change speed. Variable-speed presses change with a lever or dial, which matters when you switch between small bits, Forstner bits and metal often." },
+    { "q": "What speed should I drill metal at?", "a": "Slower than wood, and slower still for bigger bits. Large bits in steel want the bottom of the range (500-700 rpm), so a low minimum speed matters more than a high maximum." },
+    { "q": "Should I bolt a benchtop drill press down?", "a": "Yes. They're top-heavy, and JET's listing says its press must be bolted down. Bolt it to a sturdy bench or stand before use." }
+  ]
+}
