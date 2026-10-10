@@ -3,3 +3,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 scrape-results/
+
+# Local-only marketing work (Search Console scripts, reports, storefront kit)
+marketing/gsc/
+marketing/amazon-storefront/
+marketing/*-review-*.md
+marketing/site-healthcheck-*.md
+marketing/seo-ranking-plan.md
