@@ -1,0 +1,442 @@
+{
+  "slug": "gantry-cranes",
+  "title": "The 10 Best Gantry Cranes for Garages",
+  "subtitle": "Portable adjustable gantry cranes for engines and heavy parts, ranked from live Amazon data.",
+  "intro": "A gantry crane straddles the work, so you can lift an engine, transmission, or machine and roll it across the shop without an engine hoist's legs in the way. Amazon's portable gantries run from about $700 for a 3-ton frame to $1,600 for a 10.5-foot-wide kit with hoist. We ranked 10 on star rating, review volume, and features (included trolley, included hoist, published load test, locking casters, and a minimum height that fits under an 8-foot ceiling).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 to avoid."
+    }
+  ],
+  "budget_cap": 750,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "trolley": 0.2,
+    "hoist": 0.25,
+    "load_tested": 0.2,
+    "locking_casters": 0.15,
+    "fits_8ft": 0.2
+  },
+  "reviews_ceiling": 300,
+  "spec_fields": [
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "height",
+      "label": "Height"
+    },
+    {
+      "key": "width",
+      "label": "Width"
+    },
+    {
+      "key": "included",
+      "label": "Included"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "height",
+      "label": "Height"
+    },
+    {
+      "key": "hoist",
+      "label": "Hoist incl.",
+      "type": "bool"
+    },
+    {
+      "key": "fits_8ft",
+      "label": "Fits 8 ft",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B073Y9KBMM",
+      "name": "JEGS Adjustable Height Gantry Crane, 1-Ton",
+      "brand": "JEGS",
+      "model": "1-Ton Gantry",
+      "image": "https://m.media-amazon.com/images/I/61Oi0wDnqAL._SL1500_.jpg",
+      "price": 695.0,
+      "rating": 4.5,
+      "reviews_count": 43,
+      "specs": {
+        "capacity": "2,000 lb",
+        "height": "7 ft 11 in. to 11 ft 9 in.",
+        "width": "Adjustable",
+        "included": "Frame only"
+      },
+      "features": {
+        "trolley": false,
+        "hoist": false,
+        "load_tested": false,
+        "locking_casters": true,
+        "fits_8ft": true
+      },
+      "verdict": "The most-reviewed gantry crane we found, from JEGS. A 1-ton frame with adjustable height and span that starts under 8 feet, so it rolls into a standard garage.",
+      "pros": [
+        "43 reviews at 4.5 stars, far more than any other gantry here",
+        "7 ft 11 in. minimum height fits under an 8 ft garage ceiling",
+        "Four 5 in. locking swivel casters"
+      ],
+      "cons": [
+        "1-ton capacity, the lowest here",
+        "Frame only: buy a trolley and chain hoist separately"
+      ]
+    },
+    {
+      "asin": "B0H7WQMJ97",
+      "name": "BSMTEK 3 Ton Portable Gantry Crane, 6,600 lb, 9.06 ft Width, 8.53 to 12.47 ft Height",
+      "brand": "BSMTEK",
+      "model": "KF620036US-04",
+      "image": "https://m.media-amazon.com/images/I/71LPa4XBQJL._SL1500_.jpg",
+      "price": 1099.99,
+      "rating": 4.6,
+      "reviews_count": 12,
+      "specs": {
+        "capacity": "6,600 lb",
+        "height": "8.53 to 12.47 ft",
+        "width": "9.06 ft fixed",
+        "included": "Frame"
+      },
+      "features": {
+        "trolley": false,
+        "hoist": false,
+        "load_tested": false,
+        "locking_casters": false,
+        "fits_8ft": false
+      },
+      "verdict": "Amazon's #1 seller in Gantry Cranes. A 3-ton I-beam frame with a triangular base, 9-foot span, and tool-free modular assembly.",
+      "pros": [
+        "#1 in Amazon's Gantry Cranes category",
+        "3-ton rating and a 9.06 ft span clears a truck bed or engine stand",
+        "Tool-free assembly; detachable legs"
+      ],
+      "cons": [
+        "8.53 ft minimum height won't fit under a standard 8 ft garage ceiling",
+        "Listing doesn't mention a trolley or caster locks"
+      ]
+    },
+    {
+      "asin": "B0GPW5Z2FJ",
+      "name": "BSMTEK 3 Ton Gantry Crane, 6,600 lb, Upgraded Trolley, 8.53 ft Width",
+      "brand": "BSMTEK",
+      "model": "3 Ton with Trolley",
+      "image": "https://m.media-amazon.com/images/I/71nk7dZbICL._SL1500_.jpg",
+      "price": 799.99,
+      "rating": 4.6,
+      "reviews_count": 12,
+      "specs": {
+        "capacity": "6,600 lb",
+        "height": "8.53 to 12.47 ft",
+        "width": "8.53 ft fixed",
+        "included": "Frame + trolley"
+      },
+      "features": {
+        "trolley": true,
+        "hoist": false,
+        "load_tested": false,
+        "locking_casters": false,
+        "fits_8ft": false
+      },
+      "verdict": "The same 3-ton BSMTEK frame on a narrower 8.53-foot span with an upgraded trolley, for $300 less than the 9-foot version.",
+      "pros": [
+        "Trolley included",
+        "About $300 less than the 9.06 ft BSMTEK",
+        "Triangular base; removable legs and wheels"
+      ],
+      "cons": [
+        "8.53 ft minimum height",
+        "No hoist; budget for a chain hoist"
+      ]
+    },
+    {
+      "asin": "B0DSHWQHBQ",
+      "name": "Dkenicor 3 Ton 6,600 lb Gantry Crane with 3 Ton Manual Trolley, 8.53 ft Width, Black",
+      "brand": "Dkenicor",
+      "model": "3 Ton with Trolley",
+      "image": "https://m.media-amazon.com/images/I/71PoMN+4MDL._SL1500_.jpg",
+      "price": 799.99,
+      "rating": 4.9,
+      "reviews_count": 11,
+      "specs": {
+        "capacity": "6,600 lb",
+        "height": "8.53 to 12.47 ft",
+        "width": "8.53 ft",
+        "included": "Frame + 3-ton trolley"
+      },
+      "features": {
+        "trolley": true,
+        "hoist": false,
+        "load_tested": false,
+        "locking_casters": false,
+        "fits_8ft": false
+      },
+      "verdict": "A 4.9-star 3-ton gantry with a matching 3-ton manual trolley in the box. A 404-pound welded steel frame on 360-degree wheels.",
+      "pros": [
+        "4.9 stars, tied for the best rating among gantries with 10+ reviews",
+        "3-ton manual trolley included",
+        "Seamless welds and thickened steel plates"
+      ],
+      "cons": [
+        "8.53 ft minimum height",
+        "Wheels aren't described as locking"
+      ]
+    },
+    {
+      "asin": "B0H94B9DHK",
+      "name": "Dkenicor 3 Ton 6,600 lb Gantry Crane, Steel I-Beam, Blue",
+      "brand": "Dkenicor",
+      "model": "3 Ton Frame",
+      "image": "https://m.media-amazon.com/images/I/71eH4WQn4iL._SL1500_.jpg",
+      "price": 699.99,
+      "rating": 4.9,
+      "reviews_count": 11,
+      "specs": {
+        "capacity": "6,600 lb",
+        "height": "8.53 to 12.47 ft",
+        "width": "8.53 ft",
+        "included": "Frame"
+      },
+      "features": {
+        "trolley": false,
+        "hoist": false,
+        "load_tested": false,
+        "locking_casters": false,
+        "fits_8ft": false
+      },
+      "verdict": "Dkenicor's frame-only 3-ton gantry at $700, the cheapest 3-ton crane we found with a review history.",
+      "pros": [
+        "About $700 for a 3-ton frame",
+        "4.9 stars",
+        "Same 404 lb welded frame as the trolley version"
+      ],
+      "cons": [
+        "No trolley mentioned; check before you order",
+        "8.53 ft minimum height"
+      ],
+      "force_budget": true
+    },
+    {
+      "asin": "B0GQZ8SLR4",
+      "name": "LDHTHOPI 3 Ton Gantry Crane, 6,600 lb, Manual Trolley, Hook and Shackles, 8.53 to 12.47 ft",
+      "brand": "LDHTHOPI",
+      "model": "KF620036US-01",
+      "image": "https://m.media-amazon.com/images/I/71JJ3S72ErL._SL1500_.jpg",
+      "price": 1199.99,
+      "rating": 5.0,
+      "reviews_count": 7,
+      "specs": {
+        "capacity": "6,600 lb",
+        "height": "8.53 to 12.47 ft",
+        "width": null,
+        "included": "Frame + trolley, hooks, shackles"
+      },
+      "features": {
+        "trolley": true,
+        "hoist": false,
+        "load_tested": false,
+        "locking_casters": true,
+        "fits_8ft": false
+      },
+      "verdict": "A 3-ton gantry with a manual trolley, hooks, and shackles in the box, plus swivel casters that lock. LDHTHOPI says one person can adjust the height.",
+      "pros": [
+        "Trolley, hooks, and shackles included",
+        "Locking swivel casters",
+        "One-person height adjustment"
+      ],
+      "cons": [
+        "The spec table lists the product as 9 x 4 x 9 inches, which is clearly the trolley, not the crane",
+        "8.53 ft minimum height"
+      ]
+    },
+    {
+      "asin": "B0DX21BCY5",
+      "name": "Yannivia Adjustable Gantry Crane with Trolley and Hoist, 2,000 lb, 7.65 to 10.91 ft",
+      "brand": "Yannivia",
+      "model": "2,000 lb Kit",
+      "image": "https://m.media-amazon.com/images/I/713OuM-Sm5L._SL1500_.jpg",
+      "price": 999.0,
+      "rating": 5.0,
+      "reviews_count": 2,
+      "specs": {
+        "capacity": "2,000 lb (tested to 3,300 lb)",
+        "height": "7.65 to 10.91 ft",
+        "width": "8.5 ft (92.5 in. inside)",
+        "included": "Frame, trolley, hoist, slings, straps"
+      },
+      "features": {
+        "trolley": true,
+        "hoist": true,
+        "load_tested": true,
+        "locking_casters": false,
+        "fits_8ft": true
+      },
+      "verdict": "A complete 1-ton lifting kit: frame, trolley, manual chain hoist, four slings, two ratchet straps, shackles, and hooks. It's statically tested at 1.5 times its rating and starts low enough for an 8-foot garage.",
+      "pros": [
+        "Everything included, down to the slings and shackles",
+        "Each unit static-tested at 3,300 lb (1.5x)",
+        "7.65 ft minimum height; 6 in. casters"
+      ],
+      "cons": [
+        "1-ton capacity",
+        "Only a couple of reviews so far"
+      ]
+    },
+    {
+      "asin": "B0DX22KV74",
+      "name": "Yannivia Adjustable Gantry Crane with Hoist and Trolley, 4,000 lb, 7.78 to 11.04 ft",
+      "brand": "Yannivia",
+      "model": "4,000 lb Kit",
+      "image": "https://m.media-amazon.com/images/I/71nJPhcZZaL._SL1500_.jpg",
+      "price": 1199.0,
+      "rating": 5.0,
+      "reviews_count": 3,
+      "specs": {
+        "capacity": "4,000 lb (tested to 6,600 lb)",
+        "height": "7.78 to 11.04 ft",
+        "width": null,
+        "included": "Frame, trolley, hoist, slings, straps"
+      },
+      "features": {
+        "trolley": true,
+        "hoist": true,
+        "load_tested": true,
+        "locking_casters": false,
+        "fits_8ft": true
+      },
+      "verdict": "The 2-ton version of the Yannivia kit, and the best fit for a home garage: it adjusts in 10 steps from 7.78 feet, so it fits under 8-foot ceilings, and ships with a hoist and rigging.",
+      "pros": [
+        "Designed to fit 8 ft ceilings, with 10 locking height positions",
+        "Static-tested at 6,600 lb (1.5x its rating)",
+        "Trolley, hoist, slings, straps, shackles, and hooks included"
+      ],
+      "cons": [
+        "The listing's first bullet is a list of other sellers it calls scammers; buy from Yannivia's own offer",
+        "Few reviews so far"
+      ]
+    },
+    {
+      "asin": "B0G4LR8713",
+      "name": "LYFOO 10.5 ft Wide Adjustable Gantry Crane, 4,000 lb, with Hoist and Rigging Kit",
+      "brand": "LYFOO",
+      "model": "10.5 ft 4,000 lb",
+      "image": "https://m.media-amazon.com/images/I/81h07Gv92IL._SL1500_.jpg",
+      "price": 1599.0,
+      "rating": 5.0,
+      "reviews_count": 4,
+      "specs": {
+        "capacity": "4,000 lb",
+        "height": "9.85 to 13.9 ft",
+        "width": "9 to 10.5 ft (115 in. inside)",
+        "included": "Frame, trolley, hoist, slings, engine lever"
+      },
+      "features": {
+        "trolley": true,
+        "hoist": true,
+        "load_tested": false,
+        "locking_casters": false,
+        "fits_8ft": false
+      },
+      "verdict": "The widest and tallest gantry here: up to 10.5 feet wide with 115 inches inside and up to 13.9 feet tall, with a hoist, trolley, slings, and an engine-leveling lever included.",
+      "pros": [
+        "115 in. inside clearance fits a full-size truck",
+        "Adjustable width (9 to 10.5 ft) and height (9.85 to 13.9 ft)",
+        "Includes an engine hoisting lever, 4 slings, and 8 shackles"
+      ],
+      "cons": [
+        "Needs a ceiling near 10 ft even at its lowest",
+        "$1,599 and 450 lb"
+      ],
+      "premium": true
+    },
+    {
+      "asin": "B0H46WZXV3",
+      "name": "VEVOR Adjustable Gantry Crane, 5,000 lb, Manual Trolley, Locking Wheels, 100.4 to 147.6 in.",
+      "brand": "VEVOR",
+      "model": "DW-AGCS-02",
+      "image": "https://m.media-amazon.com/images/I/61wxgzhuUhL._AC_SX425_.jpg",
+      "price": 1329.9,
+      "rating": 5.0,
+      "reviews_count": 2,
+      "specs": {
+        "capacity": "5,000 lb",
+        "height": "100.4 to 147.6 in. (8.4 to 12.3 ft)",
+        "width": null,
+        "included": "Frame + manual trolley"
+      },
+      "features": {
+        "trolley": true,
+        "hoist": false,
+        "load_tested": false,
+        "locking_casters": true,
+        "fits_8ft": false
+      },
+      "verdict": "VEVOR's 2.5-ton gantry with a manual trolley and locking wheels, on a triangular base with a baked rust-resistant finish.",
+      "pros": [
+        "Manual trolley and locking wheels included",
+        "5,000 lb capacity",
+        "Baked-on finish for outdoor use"
+      ],
+      "cons": [
+        "100.4 in. minimum height won't clear an 8 ft ceiling",
+        "Only a couple of reviews so far"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0F63LQSX6",
+      "name": "HUAGHEE Adjustable Gantry Crane, \"1 Ton (2500Lbs)\" Capacity, with Hoist and Trolley",
+      "brand": "HUAGHEE",
+      "model": "1 Ton Kit",
+      "image": "https://m.media-amazon.com/images/I/71637Tz0QHL._SL1500_.jpg",
+      "price": 999.0,
+      "rating": 4.3,
+      "reviews_count": 7,
+      "flag": "Three different capacity numbers",
+      "verdict": "It's a complete kit like the Yannivia, but the listing gives three different numbers for how much it can lift. The Yannivia 1-ton kit costs the same, states 2,000 lb, and backs it with a 1.5x load test.",
+      "reasons": [
+        "The title says \"1 Ton (2500Lbs)\". One ton is 2,000 lb, not 2,500.",
+        "The first bullet cites a 3,300 lb factory test, which is 1.5 times 2,200 lb, a third capacity that matches neither the 1 ton nor the 2,500 lb figure.",
+        "On a crane you stand next to, the rated load is the one number you need to trust, and this listing doesn't give a consistent one.",
+        "Only two of the six casters lock, per the listing."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Gantry crane or engine hoist?",
+      "a": "An engine hoist is cheaper ($170 to $300) and folds away, but its legs have to roll under the car and its boom loses capacity as it extends. A gantry crane straddles the car or bench, lifts straight up on a trolley, and holds its full rating across the beam. Gantries are better for repeated lifts, heavy diesels, and moving parts across the shop."
+    },
+    {
+      "q": "Will it fit in my garage?",
+      "a": "Check the minimum height first. Most 3-ton gantries here start at 8.53 ft, too tall for a standard 8 ft garage ceiling. The JEGS (7 ft 11 in.) and both Yannivia kits (7.65 and 7.78 ft) are built to fit under 8 ft. Remember the hoist and chain hang below the beam, so your lift height is less than the crane height."
+    },
+    {
+      "q": "Frame only or a complete kit?",
+      "a": "Frame-only gantries need a trolley (which rides the I-beam) and a chain hoist, bought separately. The Yannivia and LYFOO kits include both, plus slings and shackles. BSMTEK, Dkenicor, LDHTHOPI, and VEVOR include a trolley on some listings but not a hoist."
+    },
+    {
+      "q": "How much capacity do I need?",
+      "a": "A 1-ton (2,000 lb) gantry handles most car engines and transmissions. Diesels, truck engines with transmissions attached, and machine tools call for 2 to 3 tons. Keep the hoist and trolley ratings at or above the frame's rating; the system is only as strong as its weakest part."
+    },
+    {
+      "q": "Can I move it with a load on it?",
+      "a": "If the manual allows moving under load at all, keep it to short moves on smooth, level concrete with the load low and centered. Lock the casters before lifting, and never roll a loaded gantry over cracks, expansion joints, or slopes."
+    }
+  ]
+}

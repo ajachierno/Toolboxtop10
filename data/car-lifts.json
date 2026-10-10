@@ -1,0 +1,455 @@
+{
+  "slug": "car-lifts",
+  "title": "The 10 Best Car Lifts for Home Garages",
+  "subtitle": "Portable, mid-rise, 2-post, and 4-post car lifts, ranked from live Amazon data.",
+  "intro": "A car lift replaces jack stands and lets you work under the car in comfort. Amazon sells four kinds: portable low-rise frames ($1,050 to $2,100) that lift about 27 inches and store against a wall, mid-rise scissor lifts around 39 inches, and anchored 2-post and drive-on 4-post lifts ($1,950 to $3,300) that raise a car to standing height. We ranked 10 on star rating, review volume, and features (portable, standing-height lift, published load testing, 110V power, and a 3-year warranty).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 to avoid."
+    }
+  ],
+  "budget_cap": 1300,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "portable": 0.2,
+    "standing_height": 0.3,
+    "load_tested": 0.15,
+    "runs_110v": 0.2,
+    "long_warranty": 0.15
+  },
+  "reviews_ceiling": 1000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "height",
+      "label": "Max lift"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "install",
+      "label": "Install"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "height",
+      "label": "Max lift"
+    },
+    {
+      "key": "portable",
+      "label": "Portable",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0DL62S4ZH",
+      "name": "Albott 7,000 lb Portable Car Lift with Extension Plates",
+      "brand": "Albott",
+      "model": "7,000 lb Portable Lift",
+      "image": "https://m.media-amazon.com/images/I/7100sbzNDIL._AC_SX425_.jpg",
+      "price": 1299.99,
+      "rating": 4.1,
+      "reviews_count": 162,
+      "specs": {
+        "type": "Portable low-rise",
+        "capacity": "7,000 lb",
+        "height": "28 in.",
+        "power": null,
+        "install": "None, rolls on wheels"
+      },
+      "features": {
+        "portable": true,
+        "standing_height": false,
+        "load_tested": false,
+        "runs_110v": false,
+        "long_warranty": false
+      },
+      "verdict": "Amazon's #1 seller in Clearfloor Lifts. Two portable frames with height-adjustable posts and extension plates raise most cars and SUVs 28 inches, then fold and roll against a wall.",
+      "pros": [
+        "#1 in Amazon's Clearfloor Lifts; 160+ reviews",
+        "28 in. max height with extension plates for long wheelbases",
+        "Multiple locking levers; folds and rolls on four wheels"
+      ],
+      "cons": [
+        "28 in. means working on a creeper, not standing",
+        "Albott says any slope over 4° is unsafe, so you need a flat floor",
+        "Listing doesn't name the power unit's voltage"
+      ]
+    },
+    {
+      "asin": "B0D78XW11Z",
+      "name": "VEVOR Portable Car Lift, 7,000 lb, 26.8 in. Max Height, 120V Power Unit",
+      "brand": "VEVOR",
+      "model": "7,000 lb Portable Lift",
+      "image": "https://m.media-amazon.com/images/I/7186HxOSpvL._AC_SX425_.jpg",
+      "price": 1599.9,
+      "rating": 3.8,
+      "reviews_count": 199,
+      "specs": {
+        "type": "Portable low-rise",
+        "capacity": "7,000 lb",
+        "height": "26.8 in.",
+        "power": "120V power unit",
+        "install": "None, rolls on wheels"
+      },
+      "features": {
+        "portable": true,
+        "standing_height": false,
+        "load_tested": false,
+        "runs_110v": true,
+        "long_warranty": false
+      },
+      "verdict": "The most-reviewed portable lift we found. Same two-frame design as the Albott, with a 120V power unit, mechanical safety locks, and wall-hanging handles for storage.",
+      "pros": [
+        "Runs on a 120V household outlet",
+        "Adjustable columns (10.24 to 26.8 in. range) and 11 in. extension plates",
+        "Mechanical safety locks; folds and hangs on the wall"
+      ],
+      "cons": [
+        "3.8 stars, lower than the Albott",
+        "About $300 more than the Albott for a lower max height"
+      ]
+    },
+    {
+      "asin": "B0F5YBLLPQ",
+      "name": "QuickJack 6000TLX Portable Car Lift, 6,000 lb, 110V Power Unit",
+      "brand": "QuickJack",
+      "model": "6000TLX",
+      "image": "https://m.media-amazon.com/images/I/81GvIVylHiL._AC_SX425_.jpg",
+      "price": 2114.0,
+      "rating": 5.0,
+      "reviews_count": 5,
+      "specs": {
+        "type": "Portable low-rise",
+        "capacity": "6,000 lb",
+        "height": null,
+        "power": "110V power unit",
+        "install": "None, no bolts"
+      },
+      "features": {
+        "portable": true,
+        "standing_height": false,
+        "load_tested": false,
+        "runs_110v": true,
+        "long_warranty": false
+      },
+      "verdict": "The name-brand portable lift from BendPak. Extended-length frames for trucks and SUVs, automatic safety locks that engage as it rises, and setup in under a minute with no bolts.",
+      "pros": [
+        "Automatic safety locks engage as you lift",
+        "Extended frames fit longer wheelbases and wider stances",
+        "Open center for full underbody access; 296 lb total"
+      ],
+      "cons": [
+        "About $800 more than the Albott",
+        "Only a handful of Amazon reviews on this listing",
+        "Listing doesn't publish max lift height"
+      ]
+    },
+    {
+      "asin": "B07B7H5RL5",
+      "name": "APlusLift HW-10KOH-A 10,000 lb Two Post Overhead Car Lift, 3 Year Warranty",
+      "brand": "APlusLift",
+      "model": "HW-10KOH-A",
+      "image": "https://m.media-amazon.com/images/I/71BE6u+FioL._AC_SX425_.jpg",
+      "price": 2199.0,
+      "rating": 4.7,
+      "reviews_count": 355,
+      "specs": {
+        "type": "2-post overhead",
+        "capacity": "10,000 lb",
+        "height": "6 ft 9 in. (with truck adapters)",
+        "power": null,
+        "install": "Anchored to concrete"
+      },
+      "features": {
+        "portable": false,
+        "standing_height": true,
+        "load_tested": true,
+        "runs_110v": false,
+        "long_warranty": true
+      },
+      "verdict": "The best-rated full-height lift we found with a real review history: 4.7 stars across 355 reviews. A 10,000 lb overhead two-post with symmetric/asymmetric arms and a 3-year parts warranty.",
+      "pros": [
+        "4.7 stars across 355 reviews",
+        "Combo symmetric/asymmetric arms with screw pads; 4 in. truck adapters included",
+        "3-year parts replacement; CE tested to 115% dynamic and 150% static load"
+      ],
+      "cons": [
+        "Needs a tall ceiling for the overhead beam, plus anchoring in solid concrete",
+        "Listing doesn't state the motor voltage; check your circuit before ordering"
+      ]
+    },
+    {
+      "asin": "B07QG7JLT6",
+      "name": "APlusLift 8SXLT 8,000 lb Extra Tall Long Wide 4-Post Car Lift, 3 Year Warranty",
+      "brand": "APlusLift",
+      "model": "8SXLT",
+      "image": "https://m.media-amazon.com/images/I/61o+VUkYAIL._AC_SX425_.jpg",
+      "price": 3299.0,
+      "rating": 4.4,
+      "reviews_count": 99,
+      "specs": {
+        "type": "4-post",
+        "capacity": "8,000 lb",
+        "height": "82 in.",
+        "power": "110V, 1.5 HP",
+        "install": "Free-standing, caster kit included"
+      },
+      "features": {
+        "portable": false,
+        "standing_height": true,
+        "load_tested": true,
+        "runs_110v": true,
+        "long_warranty": true
+      },
+      "verdict": "A drive-on four-post that lifts 82 inches and runs on 110V. It doubles as parking storage, and the caster kit, jack tray, drip trays, and aluminum ramps are in the box.",
+      "pros": [
+        "82 in. lift height; 99 in. drive-through width",
+        "110V 1.5 HP power unit, no 220V circuit needed",
+        "Caster kit, jack tray, drip trays, ramps, and 3-year warranty included"
+      ],
+      "cons": [
+        "$3,299 and a footprint of 190 x 112 in.",
+        "Needs a 94 in. ceiling just to stand it up, more to lift a car"
+      ],
+      "premium": true
+    },
+    {
+      "asin": "B073GQGR9Y",
+      "name": "XK 2 Post Auto Car Lift, 10,000 lb, Clear Floor, 220V, L1000",
+      "brand": "XK",
+      "model": "L1000",
+      "image": "https://m.media-amazon.com/images/I/71W64muAspL._AC_SX425_.jpg",
+      "price": 1959.0,
+      "rating": 4.3,
+      "reviews_count": 130,
+      "specs": {
+        "type": "2-post clear floor",
+        "capacity": "10,000 lb",
+        "height": "70.87 in.",
+        "power": "220V, 3 HP",
+        "install": "Anchored to concrete"
+      },
+      "features": {
+        "portable": false,
+        "standing_height": true,
+        "load_tested": false,
+        "runs_110v": false,
+        "long_warranty": false
+      },
+      "verdict": "A clear-floor two-post with no crossbar on the floor, a double-point safety lock release, automatic arm locks, and truck adapters, for under $2,000.",
+      "pros": [
+        "Clear floor: nothing to trip over or roll a creeper across",
+        "Double-point lock release, automatic arm restraints, door guards",
+        "Truck adapters included; 130+ reviews"
+      ],
+      "cons": [
+        "Needs 220V and a 30 A breaker",
+        "You need a forklift or tractor to unload the delivery"
+      ]
+    },
+    {
+      "asin": "B0B17MLZM3",
+      "name": "KATOOL M110 11,000 lb 2 Post Car Lift, Clear Floor, Manual Safety Releases on Both Sides",
+      "brand": "KATOOL",
+      "model": "M110",
+      "image": "https://m.media-amazon.com/images/I/61M2HTQEJZL._AC_SX425_.jpg",
+      "price": 2048.0,
+      "rating": 4.4,
+      "reviews_count": 35,
+      "specs": {
+        "type": "2-post clear floor",
+        "capacity": "11,000 lb",
+        "height": "80 in.",
+        "power": "220V (110V optional)",
+        "install": "Anchored to concrete"
+      },
+      "features": {
+        "portable": false,
+        "standing_height": true,
+        "load_tested": true,
+        "runs_110v": false,
+        "long_warranty": false
+      },
+      "verdict": "An 11,000 lb clear-floor two-post that lifts to 80 inches, with dual chain-drive cylinders and safety releases on both columns. Amazon's #6 Clearfloor Lift.",
+      "pros": [
+        "80 in. max lift, the highest two-post here",
+        "Safety releases on both sides; tested to 115% dynamic and 150% static load",
+        "Optional 110V power unit"
+      ],
+      "cons": [
+        "The title says \"1100lbs\"; the spec table and bullets confirm it's 11,000 lb",
+        "Forklift needed to unload"
+      ]
+    },
+    {
+      "asin": "B0GYS1XXQ7",
+      "name": "KATOOL Portable Mid-Rise Scissor Car Lift, 7,000 lb, 39 in. Max Height, 110V",
+      "brand": "KATOOL",
+      "model": "Mid-Rise 7,000 lb",
+      "image": "https://m.media-amazon.com/images/I/61YmO-Eb5pL._AC_SX425_.jpg",
+      "price": 1898.0,
+      "rating": 4.6,
+      "reviews_count": 8,
+      "specs": {
+        "type": "Mid-rise scissor",
+        "capacity": "7,000 lb",
+        "height": "39 in. (4.3 in. min.)",
+        "power": "110V",
+        "install": "None, portable"
+      },
+      "features": {
+        "portable": true,
+        "standing_height": false,
+        "load_tested": false,
+        "runs_110v": true,
+        "long_warranty": false
+      },
+      "verdict": "A mid-rise scissor lift that starts at 4.3 inches, so it slides under lowered cars, and lifts to 39 inches, enough to work sitting on a stool.",
+      "pros": [
+        "4.3 in. minimum height fits low cars",
+        "39 in. max height is 11 in. more than the portable frame lifts",
+        "110V"
+      ],
+      "cons": [
+        "Few reviews so far",
+        "Ships in 6 to 7 days, and you need a forklift to unload"
+      ]
+    },
+    {
+      "asin": "B0GDWQTKXV",
+      "name": "Real Relax 7,000 lb Portable Car Lift with Extension Plates, Black",
+      "brand": "Real Relax",
+      "model": "7,000 lb Portable Lift",
+      "image": "https://m.media-amazon.com/images/I/71QNinbYCsL._AC_SX425_.jpg",
+      "price": 1259.99,
+      "rating": 4.2,
+      "reviews_count": 19,
+      "specs": {
+        "type": "Portable low-rise",
+        "capacity": "7,000 lb",
+        "height": "26.8 in.",
+        "power": null,
+        "install": "None, rolls on wheels"
+      },
+      "features": {
+        "portable": true,
+        "standing_height": false,
+        "load_tested": false,
+        "runs_110v": false,
+        "long_warranty": false
+      },
+      "verdict": "A lower-priced copy of the two-frame portable design: adjustable columns, 11-inch extension plates, safety locks, and wall-hanging handles for about $1,260.",
+      "pros": [
+        "About $340 less than the VEVOR with the same 10.24 to 26.8 in. range",
+        "Extension plates for long-wheelbase trucks and SUVs",
+        "4.2 stars"
+      ],
+      "cons": [
+        "Fewer than 20 reviews",
+        "You open the safety lock by hand before lowering"
+      ]
+    },
+    {
+      "asin": "B0CPJ4CYJ1",
+      "name": "KATOOL 8,500 lb 4-Post Portable Storage and Service Car Lift with Casters, 70.8 in.",
+      "brand": "KATOOL",
+      "model": "4-Post 8,500 lb",
+      "image": "https://m.media-amazon.com/images/I/61Ql7Z3ZlJL._AC_SX425_.jpg",
+      "price": 2888.0,
+      "rating": 4.1,
+      "reviews_count": 11,
+      "specs": {
+        "type": "4-post",
+        "capacity": "8,500 lb",
+        "height": "70.87 in.",
+        "power": "110V",
+        "install": "Free-standing, casters included"
+      },
+      "features": {
+        "portable": false,
+        "standing_height": true,
+        "load_tested": true,
+        "runs_110v": true,
+        "long_warranty": false
+      },
+      "verdict": "A four-post storage and service lift with casters included, so you can move it, and dual locks on every post. About $400 less than the APlusLift four-post.",
+      "pros": [
+        "Primary and secondary locks on all four posts",
+        "Casters included; runs on standard 110V",
+        "Load-tested to 13,000 lb"
+      ],
+      "cons": [
+        "70.87 in. max, lower than the APlusLift's 82 in.",
+        "Forklift needed to unload"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GS5DDKFJ",
+      "name": "EliteEdge 7,000 lb Portable Car Lift, Scissor Lift Jack with Safety Lock, 6.26 to 27 in.",
+      "brand": "EliteEdge",
+      "model": "7,000 lb Portable Lift",
+      "image": "https://m.media-amazon.com/images/I/71d-7KmpX6L._AC_SX425_.jpg",
+      "price": 1048.0,
+      "rating": 4.2,
+      "reviews_count": 15,
+      "flag": "Can't agree on its own capacity",
+      "verdict": "It's the cheapest two-frame portable lift here, but the listing contradicts itself on the one number that keeps a car off your chest. The Albott costs about $250 more and gives one consistent rating.",
+      "reasons": [
+        "The first bullet's heading says \"5000LBS Capacity\" and the same sentence says it \"supports 7000 lbs capacity\". On a lift you work under, a 2,000 lb disagreement isn't a typo you can shrug off.",
+        "The title gives the lift range as 6.26 to 27 in., while the bullets say the columns cover 11 to 27 in. and only the pads go down to 6.26 in.",
+        "It promises \"zero wobbling for ultimate safety\" with no load test, certification, or warranty term to back it up."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Portable lift, mid-rise, 2-post, or 4-post?",
+      "a": "Portable low-rise lifts (about 27 to 28 in.) need no installation and store on a wall, but you work lying on a creeper. Mid-rise scissor lifts (about 39 in.) let you sit on a stool. 2-post lifts raise the car to standing height and leave the wheels hanging for brake and suspension work, but they must be anchored in solid concrete. 4-post lifts are drive-on, double as parking storage, and don't need anchoring."
+    },
+    {
+      "q": "How high does my ceiling need to be?",
+      "a": "For a portable or mid-rise lift, a normal 8 ft garage is fine. For standing-height work, add the lift's max height, the car's roof height, and a few inches of clearance. The APlusLift 4-post is 94 in. tall before it lifts anything, and overhead 2-posts need room for the top beam. Most people need 11 to 12 ft for a 2-post or 4-post."
+    },
+    {
+      "q": "Can my garage floor take a 2-post lift?",
+      "a": "2-post lifts bolt into the slab, and most makers call for at least 4 in. of 3,000 psi concrete with no cracks or expansion joints under the posts. If you don't know your slab, drill a test hole first. Portable and 4-post lifts sit on the floor and don't need anchoring."
+    },
+    {
+      "q": "110V or 220V?",
+      "a": "The portable lifts and the APlusLift and KATOOL 4-posts here run on 110V. Many 2-post lifts, including the XK, need a 220V circuit and a 30 A breaker, which may mean paying an electrician."
+    },
+    {
+      "q": "How do I get it off the truck?",
+      "a": "Portable lifts ship by parcel or LTL to the curb. Full 2-post and 4-post lifts often weigh 1,000 to 1,800 lb crated, and several sellers here require you to unload with a forklift or tractor, or pick up at a freight terminal. APlusLift includes liftgate service on some models; check before you order."
+    }
+  ]
+}

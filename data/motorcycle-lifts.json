@@ -1,0 +1,434 @@
+{
+  "slug": "motorcycle-lifts",
+  "title": "The 10 Best Motorcycle Lifts",
+  "subtitle": "Scissor jacks, hydraulic lifts, and lift tables for motorcycles and ATVs, ranked from live Amazon data.",
+  "intro": "A motorcycle lift gets both wheels off the ground for tire, chain, and suspension work. Amazon sells three kinds: crank scissor jacks around $55 to $70, foot-pedal hydraulic jacks from $125 to $450, and full lift tables near $1,600 that raise the bike to standing height. We ranked 10 on star rating, review volume, and features (hydraulic lift, included tie-downs, casters, and a lift height of 15.5 inches or more).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 60,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "hydraulic": 0.35,
+    "tie_downs": 0.2,
+    "casters": 0.2,
+    "high_lift": 0.25
+  },
+  "reviews_ceiling": 5000,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "range",
+      "label": "Lift range"
+    },
+    {
+      "key": "operation",
+      "label": "Operation"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "range",
+      "label": "Lift range"
+    },
+    {
+      "key": "hydraulic",
+      "label": "Hydraulic",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B01M0AB7MJ",
+      "name": "OMT 1,100 lb Motorcycle Scissor Lift Jack, Wide Deck",
+      "brand": "Orion Motor Tech",
+      "model": "1,100 lb Scissor Jack",
+      "image": "https://m.media-amazon.com/images/I/81VBMEjz7zL._AC_SX425_.jpg",
+      "price": 69.99,
+      "rating": 4.5,
+      "reviews_count": 4705,
+      "bought": "400+/mo",
+      "specs": {
+        "type": "Scissor jack",
+        "capacity": "1,100 lb",
+        "range": "3.7 to 14.6 in.",
+        "operation": "T-handle or 3/8 in. ratchet"
+      },
+      "features": {
+        "hydraulic": false,
+        "tie_downs": false,
+        "casters": false,
+        "high_lift": false
+      },
+      "verdict": "The most-reviewed motorcycle lift we found, with 4,700+ ratings at 4.5 stars. A wide-deck scissor jack that cranks with the included T-handle or a 3/8-inch ratchet and locks with a safety bar in five positions.",
+      "pros": [
+        "4,700+ reviews at 4.5 stars",
+        "9.1 x 14.6 in. rubber-topped deck",
+        "Safety bar with 5 lock holes; comes with T-handle, socket, chain brush, and gloves"
+      ],
+      "cons": [
+        "Manual crank; OMT says not to use power tools on the screw",
+        "No straps; you'll want your own tie-downs for a tall bike"
+      ]
+    },
+    {
+      "asin": "B06X9CYNJF",
+      "name": "VIVOHOME 1,100 lb Motorcycle Lift Scissor Jack, Wide Deck Hoist Stand",
+      "brand": "VIVOHOME",
+      "model": "1,100 lb Scissor Jack",
+      "image": "https://m.media-amazon.com/images/I/81mz0ySr-vL._AC_SX425_.jpg",
+      "price": 55.98,
+      "rating": 4.6,
+      "reviews_count": 2589,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "Scissor jack",
+        "capacity": "1,100 lb",
+        "range": "3.5 to 14.5 in.",
+        "operation": "Crank handle"
+      },
+      "features": {
+        "hydraulic": false,
+        "tie_downs": false,
+        "casters": false,
+        "high_lift": false
+      },
+      "verdict": "A 4.6-star wide-deck scissor jack for about $56, with adjustable feet for uneven floors and a textured rubber pad.",
+      "pros": [
+        "4.6 stars across 2,500+ reviews; 500+ sold a month",
+        "Adjustable screw feet level it on uneven floors",
+        "14.6 x 9 in. rubber-padded deck"
+      ],
+      "cons": [
+        "Crank only",
+        "No safety-pin count published"
+      ]
+    },
+    {
+      "asin": "B0C4KQGQ92",
+      "name": "VEVOR Motorcycle Lift, 1,100 lb Scissor Lift Jack with Wide Deck and Safety Pin",
+      "brand": "VEVOR",
+      "model": "1,100 lb Scissor Jack",
+      "image": "https://m.media-amazon.com/images/I/71mceUKvnEL._AC_SX425_.jpg",
+      "price": 54.9,
+      "rating": 4.7,
+      "reviews_count": 1349,
+      "bought": "800+/mo",
+      "specs": {
+        "type": "Scissor jack",
+        "capacity": "1,100 lb",
+        "range": "3.7 to 13.8 in.",
+        "operation": "Crank handle"
+      },
+      "features": {
+        "hydraulic": false,
+        "tie_downs": false,
+        "casters": false,
+        "high_lift": false
+      },
+      "verdict": "The fastest seller of the lifts we checked and the highest rated at 4.7 stars. A wide-deck scissor jack with a six-position safety pin for under $55.",
+      "pros": [
+        "4.7 stars, the best rating on this list; 800+ sold a month",
+        "Six-position safety pin",
+        "Lowest price here"
+      ],
+      "cons": [
+        "13.8 in. max height, a little lower than the OMT and VIVOHOME",
+        "Crank only"
+      ]
+    },
+    {
+      "asin": "B0C4KQH4SC",
+      "name": "VEVOR Hydraulic Motorcycle Lift Jack, 1,500 lb, Foot-Operated, 4 Wheels",
+      "brand": "VEVOR",
+      "model": "1,500 lb Hydraulic Jack",
+      "image": "https://m.media-amazon.com/images/I/71yC1ItfiVL._AC_SX425_.jpg",
+      "price": 124.99,
+      "rating": 4.3,
+      "reviews_count": 2078,
+      "bought": "400+/mo",
+      "specs": {
+        "type": "Hydraulic jack",
+        "capacity": "1,500 lb",
+        "range": "4.7 to 15 in.",
+        "operation": "Foot pedal"
+      },
+      "features": {
+        "hydraulic": true,
+        "tie_downs": true,
+        "casters": true,
+        "high_lift": false
+      },
+      "verdict": "The best-selling hydraulic motorcycle jack: a foot pedal lifts 1,500 lb, it rolls under the bike on casters, and two ratchet straps come in the box.",
+      "pros": [
+        "Foot-pedal hydraulics, no cranking",
+        "Two ratchet straps included; three-position safety pin",
+        "#2 in Amazon's Motorcycle Lifts category"
+      ],
+      "cons": [
+        "4.3 stars, below the scissor jacks",
+        "Needs about 4.7 in. of clearance under the bike"
+      ]
+    },
+    {
+      "asin": "B0732WP8D9",
+      "name": "VIVOHOME 1,500 lb Hydraulic Motorcycle Lift Jack",
+      "brand": "VIVOHOME",
+      "model": "1,500 lb Hydraulic Jack",
+      "image": "https://m.media-amazon.com/images/I/71CxmsYEpPL._AC_SX425_.jpg",
+      "price": 144.99,
+      "rating": 4.3,
+      "reviews_count": 1889,
+      "bought": "300+/mo",
+      "specs": {
+        "type": "Hydraulic jack",
+        "capacity": "1,500 lb",
+        "range": "4.5 to 14.8 in.",
+        "operation": "Foot pedal"
+      },
+      "features": {
+        "hydraulic": true,
+        "tie_downs": true,
+        "casters": true,
+        "high_lift": false
+      },
+      "verdict": "VIVOHOME's hydraulic jack, with a published fitment note that's worth reading: it needs 4.5 inches of ground clearance and won't fit bikes with full lower fairings.",
+      "pros": [
+        "Foot-pedal hydraulic lift with a three-position lock",
+        "Two tie-down straps included",
+        "Clear compatibility notes: 4.5 in. min. clearance, no full lower fairings"
+      ],
+      "cons": [
+        "About $20 more than the VEVOR hydraulic",
+        "59.4 lb"
+      ]
+    },
+    {
+      "asin": "B0196PAZ1S",
+      "name": "Extreme Max 5001.5044 1,100 lb Motorcycle Scissors Jack, Wide",
+      "brand": "Extreme Max",
+      "model": "5001.5044",
+      "image": "https://m.media-amazon.com/images/I/81NoT0XA-tL._AC_SX425_.jpg",
+      "price": 105.82,
+      "rating": 4.6,
+      "reviews_count": 2713,
+      "specs": {
+        "type": "Scissor jack",
+        "capacity": "1,000 lb",
+        "range": "Up to 14 in.",
+        "operation": "7/8 in. socket or wrench"
+      },
+      "features": {
+        "hydraulic": false,
+        "tie_downs": false,
+        "casters": false,
+        "high_lift": false
+      },
+      "verdict": "A heavy-duty scissor jack from a powersports brand with 2,700 reviews. You drive it with a 7/8-inch socket or wrench.",
+      "pros": [
+        "4.6 stars across 2,700+ reviews",
+        "Heavy-duty steel frame with rubber deck",
+        "Lifts to 14 in."
+      ],
+      "cons": [
+        "The title says 1,100 lb but the bullets say 1,000 lb",
+        "No handle included: you need a 7/8 in. socket or wrench, and no power tools",
+        "Won't lift trikes"
+      ]
+    },
+    {
+      "asin": "B00NJ3GFPE",
+      "name": "Black Widow Hydraulic Steel Motorcycle and ATV Lift Jack Stand, 1,500 lb",
+      "brand": "Black Widow",
+      "model": "Hydraulic Lift Jack",
+      "image": "https://m.media-amazon.com/images/I/71HCp4rqMXL._AC_SX425_.jpg",
+      "price": 199.99,
+      "rating": 4.4,
+      "reviews_count": 257,
+      "specs": {
+        "type": "Hydraulic jack",
+        "capacity": "1,500 lb",
+        "range": "4.88 to 16 in.",
+        "operation": "Foot pedal"
+      },
+      "features": {
+        "hydraulic": true,
+        "tie_downs": false,
+        "casters": true,
+        "high_lift": true
+      },
+      "verdict": "A hydraulic jack that lifts a little higher than the imports (16 inches), with lock stops at 9.25, 12.5, and 15 inches and a 1-year warranty.",
+      "pros": [
+        "Lifts to 16 in., higher than the VEVOR and VIVOHOME",
+        "Published lock stops at 9.25, 12.5, and 15 in.",
+        "1-year warranty"
+      ],
+      "cons": [
+        "No straps in the box",
+        "About $75 more than the VEVOR hydraulic"
+      ]
+    },
+    {
+      "asin": "B000OCHCIW",
+      "name": "OTC 1545 Ultra Low Profile Motorcycle and ATV Lift, 1,500 lb",
+      "brand": "OTC",
+      "model": "1545",
+      "image": "https://m.media-amazon.com/images/I/51Eng7FKt+L._AC_SX425_.jpg",
+      "price": 451.64,
+      "rating": 4.5,
+      "reviews_count": 926,
+      "specs": {
+        "type": "Hydraulic jack",
+        "capacity": "1,500 lb",
+        "range": "3.5 to 16.75 in.",
+        "operation": "Foot pedal"
+      },
+      "features": {
+        "hydraulic": true,
+        "tie_downs": true,
+        "casters": true,
+        "high_lift": true
+      },
+      "verdict": "The shop-grade jack: it slides under at 3.5 inches, lifts to 16.75, and has 17-inch skids for the biggest touring bikes. It has an automatic safety lock, locking casters, and two ratchet straps.",
+      "pros": [
+        "3.5 in. low height fits lowered and low-clearance bikes",
+        "17 in. skids for wide cruisers and baggers",
+        "Automatic safety lock, locking rear casters, two ratchet straps"
+      ],
+      "cons": [
+        "About $450, three times the imports"
+      ]
+    },
+    {
+      "asin": "B075HTDCJQ",
+      "name": "APlusLift MT1500X 1,500 lb Air Operated 48 in. Wide Motorcycle ATV Lift Table",
+      "brand": "APlusLift",
+      "model": "MT1500X",
+      "image": "https://m.media-amazon.com/images/I/61M2bAqnbKL._AC_SX425_.jpg",
+      "price": 1589.0,
+      "rating": 4.6,
+      "reviews_count": 416,
+      "specs": {
+        "type": "Lift table",
+        "capacity": "1,500 lb",
+        "range": null,
+        "operation": "Shop air, foot pedal"
+      },
+      "features": {
+        "hydraulic": true,
+        "tie_downs": false,
+        "casters": false,
+        "high_lift": true
+      },
+      "verdict": "A full 48-inch-wide lift table that puts the bike at standing work height. It includes a service jack, traction tape, and residential liftgate delivery.",
+      "pros": [
+        "Raises the whole bike to standing height; 48 in. wide fits ATVs",
+        "Service jack and anti-slip tape included; liftgate delivery included",
+        "2-year parts replacement"
+      ],
+      "cons": [
+        "$1,589 and 550 lb; it takes up a whole bay",
+        "Needs an air compressor"
+      ],
+      "premium": true
+    },
+    {
+      "asin": "B0CQ2DMK86",
+      "name": "VEVOR Hydraulic Motorcycle Lift Table, 350 lb, Wide Deck, J-Hooks, 4 Wheels, for Dirt Bikes",
+      "brand": "VEVOR",
+      "model": "350 lb Dirt Bike Lift",
+      "image": "https://m.media-amazon.com/images/I/71AuZysWZ0L._AC_SX425_.jpg",
+      "price": 139.9,
+      "rating": 4.4,
+      "reviews_count": 1418,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "Dirt bike lift",
+        "capacity": "350 lb",
+        "range": "13.8 to 36 in.",
+        "operation": "Foot pedal"
+      },
+      "features": {
+        "hydraulic": true,
+        "tie_downs": false,
+        "casters": true,
+        "high_lift": true
+      },
+      "verdict": "The dirt-bike pick. It lifts a 350 lb off-road bike from 13.8 to 36 inches with a foot pedal, so you can work on it standing up.",
+      "pros": [
+        "Lifts to 36 in., the highest of any jack here",
+        "Foot pedal, J-hook, and lockable casters",
+        "500+ sold a month"
+      ],
+      "cons": [
+        "350 lb max: dirt bikes and small ATVs only",
+        "Starts at 13.8 in., too tall for street bikes and cruisers"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DCS4P8H7",
+      "name": "Goplus Motorcycle Lift, \"15000 LBS\" Hydraulic ATV Scissor Jack with Footplates, 4.7 to 15 in.",
+      "brand": "Goplus",
+      "model": "Hydraulic Jack",
+      "image": "https://m.media-amazon.com/images/I/71MWg1sfLSL._AC_SX425_.jpg",
+      "price": 134.99,
+      "rating": 4.1,
+      "reviews_count": 26,
+      "flag": "Title claims 10x its real capacity",
+      "verdict": "It's an ordinary 1,500 lb hydraulic jack sold under a 15,000 lb headline. The VEVOR hydraulic jack has the same lift range and real capacity, costs about $10 less, and has 80 times the reviews.",
+      "reasons": [
+        "The title says 15,000 lb. The spec table and the first bullet both say 1,500 lb. Anyone shopping by the headline number is comparing against a figure that's off by a factor of ten.",
+        "Its 4.7 to 15 in. range and 1,500 lb rating match the VEVOR hydraulic jack exactly, so there's nothing it does better for the extra money.",
+        "The rear wheels are directional only and the listing names no caster locks, so the jack relies on a hand knob to stay put."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Scissor jack or hydraulic jack?",
+      "a": "A scissor jack ($55 to $105 here) cranks up with a handle or socket, and it's cheap, light, and reliable. A hydraulic jack ($125 and up) lifts with a foot pedal, usually rolls on casters, and is much faster and easier with a heavy cruiser or bagger. Both get the wheels off the ground; neither puts the bike at standing height."
+    },
+    {
+      "q": "Will a jack fit under my bike?",
+      "a": "Check ground clearance under the frame. Scissor jacks here start at 3.5 to 3.7 in. Most hydraulic jacks need 4.5 to 4.9 in., and the OTC 1545 starts at 3.5 in. Bikes with full lower fairings or exhausts under the frame may need a jack with adapters or a lift table."
+    },
+    {
+      "q": "How high does it need to go?",
+      "a": "To pull a rear wheel you usually need the tire 2 to 4 in. off the ground, which most jacks here manage at 13 to 16 in. If you want to work standing up, you need a lift table like the APlusLift, or the VEVOR 350 lb lift for dirt bikes (up to 36 in.)."
+    },
+    {
+      "q": "Do I need tie-down straps?",
+      "a": "Yes. A bike on a center jack can tip sideways when you break loose an axle nut. The VEVOR and VIVOHOME hydraulic jacks and the OTC 1545 include ratchet straps; for the others, run straps from the handlebars to the floor or a wall anchor."
+    },
+    {
+      "q": "Is a 1,100 lb rating enough?",
+      "a": "For nearly every motorcycle, yes. Big touring bikes run around 900 lb wet. The 1,500 lb jacks give more margin for heavy baggers and ATVs."
+    }
+  ]
+}
