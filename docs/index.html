@@ -56,7 +56,7 @@
     <div class="quicknav-controls">
       <select id="qn-category" aria-label="Category">
         <option value="">Category&hellip;</option>
-        <option value="storage">Tool storage</option><option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="air">Air tools</option><option value="hand">Hand tools</option><option value="measure">Measuring &amp; layout</option><option value="garage">Garage &amp; auto shop</option>
+        <option value="storage">Tool storage</option><option value="wireless">Wireless tools</option><option value="wired">Wired tools</option><option value="air">Air tools</option><option value="hand">Hand tools</option><option value="measure">Measuring &amp; layout</option><option value="garage">Garage &amp; auto shop</option><option value="yard">Yard &amp; outdoor</option>
       </select>
       <select id="qn-subcategory" aria-label="Sub-category" disabled>
         <option value="">Sub-category&hellip;</option>
@@ -65,7 +65,7 @@
     </div>
     <script>
     (function(){
-      var cats = {"storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "rolling-tool-carts", "title": "Rolling Tool Carts"}, {"slug": "tool-cabinets", "title": "Tool Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}], "wireless": [{"slug": "cordless-jigsaws", "title": "Cordless Jigsaws"}, {"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-hammer-drills", "title": "Cordless Hammer Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-combo-kits", "title": "Drill & Impact Combo Kits"}, {"slug": "cordless-screwdrivers", "title": "Cordless Screwdrivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}, {"slug": "cordless-random-orbital-sanders", "title": "Cordless Random Orbital Sanders"}, {"slug": "cordless-routers", "title": "Cordless Routers"}, {"slug": "cordless-rotary-tools", "title": "Cordless Rotary Tools"}, {"slug": "cordless-ratchets", "title": "Cordless Ratchets"}, {"slug": "rechargeable-work-lights", "title": "Rechargeable Work Lights"}, {"slug": "cordless-impact-wrenches", "title": "Cordless Impact Wrenches"}, {"slug": "cordless-rotary-hammers", "title": "Cordless Rotary Hammers"}, {"slug": "cordless-miter-saws", "title": "Cordless Miter Saws"}, {"slug": "cordless-brad-nailers", "title": "Cordless Brad Nailers"}, {"slug": "cordless-finish-nailers", "title": "Cordless Finish Nailers"}, {"slug": "cordless-framing-nailers", "title": "Cordless Framing Nailers"}, {"slug": "jobsite-radios", "title": "Jobsite Radios"}, {"slug": "cordless-grease-guns", "title": "Cordless Grease Guns"}, {"slug": "cordless-caulking-guns", "title": "Cordless Caulking Guns"}, {"slug": "cordless-shop-vacuums", "title": "Cordless Shop Vacuums"}, {"slug": "cordless-heat-guns", "title": "Cordless Heat Guns"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-hammer-drills", "title": "Corded Hammer Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}, {"slug": "corded-angle-grinders", "title": "Corded Angle Grinders"}, {"slug": "corded-random-orbital-sanders", "title": "Corded Random Orbital Sanders"}, {"slug": "corded-belt-sanders", "title": "Corded Belt Sanders"}, {"slug": "corded-detail-sanders", "title": "Corded Detail Sanders"}, {"slug": "bench-grinders", "title": "Bench Grinders"}, {"slug": "drill-presses", "title": "Drill Presses"}, {"slug": "corded-rotary-tools", "title": "Corded Rotary Tools"}, {"slug": "corded-hand-planers", "title": "Electric Hand Planers"}, {"slug": "scroll-saws", "title": "Scroll Saws"}, {"slug": "band-saws", "title": "Band Saws"}, {"slug": "oscillating-spindle-sanders", "title": "Oscillating Spindle Sanders"}, {"slug": "wet-tile-saws", "title": "Wet Tile Saws"}, {"slug": "corded-work-lights", "title": "Corded LED Work Lights"}, {"slug": "hot-glue-guns", "title": "Hot Glue Guns"}, {"slug": "corded-routers", "title": "Corded Routers"}, {"slug": "corded-jigsaws", "title": "Corded Jigsaws"}, {"slug": "corded-heat-guns", "title": "Corded Heat Guns"}, {"slug": "corded-rotary-hammers", "title": "Corded Rotary Hammers"}, {"slug": "corded-table-saws", "title": "Corded Table Saws"}, {"slug": "corded-miter-saws", "title": "Corded Miter Saws"}, {"slug": "corded-shop-vacuums", "title": "Corded Shop Vacuums"}, {"slug": "electric-pressure-washers", "title": "Electric Pressure Washers"}, {"slug": "thickness-planers", "title": "Benchtop Thickness Planers"}, {"slug": "wood-lathes", "title": "Wood Lathes"}, {"slug": "demolition-hammers", "title": "Electric Demolition Hammers"}, {"slug": "hvlp-paint-sprayers", "title": "HVLP Paint Sprayers"}, {"slug": "soldering-irons", "title": "Soldering Irons"}], "air": [{"slug": "air-compressors", "title": "Air Compressors"}, {"slug": "air-hose-reels", "title": "Air Hose Reels"}, {"slug": "pneumatic-brad-nailers", "title": "Pneumatic Brad Nailers"}, {"slug": "pneumatic-finish-nailers", "title": "Pneumatic Finish Nailers"}, {"slug": "pin-nailers", "title": "23-Gauge Pin Nailers"}, {"slug": "air-impact-wrenches", "title": "Air Impact Wrenches"}, {"slug": "air-ratchets", "title": "Air Ratchets"}, {"slug": "pneumatic-framing-nailers", "title": "Pneumatic Framing Nailers"}], "hand": [{"slug": "claw-hammers", "title": "Claw Hammers"}, {"slug": "screwdrivers", "title": "Screwdriver Sets"}, {"slug": "allen-keys", "title": "Allen Key (Hex Key) Sets"}, {"slug": "pliers", "title": "Pliers Sets"}, {"slug": "needle-nose-pliers", "title": "Needle-Nose Pliers"}, {"slug": "adjustable-wrenches", "title": "Adjustable (Crescent) Wrenches"}, {"slug": "socket-sets", "title": "Socket Sets"}, {"slug": "combination-wrench-sets", "title": "Combination Wrench Sets"}, {"slug": "utility-knives", "title": "Utility Knives"}, {"slug": "multitools", "title": "Multi-Tools"}, {"slug": "wire-strippers", "title": "Wire Strippers"}, {"slug": "tin-snips", "title": "Tin Snips"}, {"slug": "torque-wrenches", "title": "Torque Wrenches"}, {"slug": "bench-vises", "title": "Bench Vises"}, {"slug": "bar-clamps", "title": "Bar Clamps"}, {"slug": "staple-guns", "title": "Staple Guns"}], "measure": [{"slug": "tape-measures", "title": "Tape Measures"}, {"slug": "laser-levels", "title": "Laser Levels"}, {"slug": "laser-distance-measures", "title": "Laser Distance Measures"}, {"slug": "moisture-meters", "title": "Moisture Meters"}, {"slug": "stud-finders", "title": "Stud Finders"}, {"slug": "digital-calipers", "title": "Digital Calipers"}, {"slug": "multimeters", "title": "Digital Multimeters"}, {"slug": "voltage-testers", "title": "Non-Contact Voltage Testers"}], "garage": [{"slug": "wheel-balancers", "title": "Wheel Balancers"}, {"slug": "tire-changers", "title": "Tire Changers"}, {"slug": "engine-hoists", "title": "Engine Hoists"}, {"slug": "transmission-jacks", "title": "Transmission Jacks"}, {"slug": "sewer-inspection-cameras", "title": "Sewer Inspection Cameras"}, {"slug": "engine-stands", "title": "Engine Stands"}, {"slug": "motorcycle-lifts", "title": "Motorcycle Lifts"}, {"slug": "car-lifts", "title": "Car Lifts"}, {"slug": "tire-bead-seaters", "title": "Tire Bead Seaters"}, {"slug": "gantry-cranes", "title": "Gantry Cranes"}, {"slug": "floor-jacks", "title": "Floor Jacks"}, {"slug": "jack-stands", "title": "Jack Stands"}, {"slug": "obd2-scanners", "title": "OBD2 Scanners"}, {"slug": "jump-starters", "title": "Jump Starters"}, {"slug": "battery-chargers", "title": "Car Battery Chargers"}, {"slug": "mig-welders", "title": "MIG Welders"}, {"slug": "mechanic-creepers", "title": "Mechanic Creepers"}, {"slug": "cordless-tire-inflators", "title": "Cordless Tire Inflators"}, {"slug": "corded-car-polishers", "title": "Corded Car Polishers"}, {"slug": "cordless-car-polishers", "title": "Cordless Car Polishers"}]};
+      var cats = {"storage": [{"slug": "rolling-tool-chests", "title": "Rolling Tool Chests & Cabinets"}, {"slug": "rolling-tool-carts", "title": "Rolling Tool Carts"}, {"slug": "tool-cabinets", "title": "Tool Cabinets"}, {"slug": "portable-tool-boxes", "title": "Portable Tool Boxes"}, {"slug": "tool-bags", "title": "Tool Bags"}], "wireless": [{"slug": "cordless-jigsaws", "title": "Cordless Jigsaws"}, {"slug": "cordless-drills", "title": "Cordless Drills"}, {"slug": "cordless-hammer-drills", "title": "Cordless Hammer Drills"}, {"slug": "cordless-right-angle-drills", "title": "Cordless Right Angle Drills"}, {"slug": "cordless-impact-drivers", "title": "Cordless Impact Drivers"}, {"slug": "cordless-combo-kits", "title": "Drill & Impact Combo Kits"}, {"slug": "cordless-screwdrivers", "title": "Cordless Screwdrivers"}, {"slug": "cordless-circular-saws", "title": "Cordless Circular Saws"}, {"slug": "cordless-oscillating-tools", "title": "Cordless Oscillating Tools"}, {"slug": "cordless-reciprocating-saws", "title": "Cordless Reciprocating Saws"}, {"slug": "cordless-portable-band-saws", "title": "Cordless Portable Band Saws"}, {"slug": "cordless-angle-grinders", "title": "Cordless Angle Grinders"}, {"slug": "cordless-die-grinders", "title": "Cordless Die Grinders"}, {"slug": "cordless-random-orbital-sanders", "title": "Cordless Random Orbital Sanders"}, {"slug": "cordless-routers", "title": "Cordless Routers"}, {"slug": "cordless-rotary-tools", "title": "Cordless Rotary Tools"}, {"slug": "cordless-ratchets", "title": "Cordless Ratchets"}, {"slug": "rechargeable-work-lights", "title": "Rechargeable Work Lights"}, {"slug": "cordless-jobsite-fans", "title": "Cordless Jobsite Fans"}, {"slug": "drywall-screw-guns", "title": "Drywall Screw Guns"}, {"slug": "cordless-impact-wrenches", "title": "Cordless Impact Wrenches"}, {"slug": "cordless-rotary-hammers", "title": "Cordless Rotary Hammers"}, {"slug": "cordless-miter-saws", "title": "Cordless Miter Saws"}, {"slug": "cordless-brad-nailers", "title": "Cordless Brad Nailers"}, {"slug": "cordless-finish-nailers", "title": "Cordless Finish Nailers"}, {"slug": "cordless-framing-nailers", "title": "Cordless Framing Nailers"}, {"slug": "jobsite-radios", "title": "Jobsite Radios"}, {"slug": "cordless-grease-guns", "title": "Cordless Grease Guns"}, {"slug": "cordless-caulking-guns", "title": "Cordless Caulking Guns"}, {"slug": "cordless-shop-vacuums", "title": "Cordless Shop Vacuums"}, {"slug": "cordless-heat-guns", "title": "Cordless Heat Guns"}], "wired": [{"slug": "corded-drills", "title": "Corded Drills"}, {"slug": "corded-hammer-drills", "title": "Corded Hammer Drills"}, {"slug": "corded-impact-wrenches", "title": "Corded Impact Wrenches"}, {"slug": "corded-circular-saws", "title": "Corded Circular Saws"}, {"slug": "track-saws", "title": "Track Saws"}, {"slug": "biscuit-joiners", "title": "Biscuit Joiners"}, {"slug": "corded-oscillating-tools", "title": "Corded Oscillating Tools"}, {"slug": "corded-reciprocating-saws", "title": "Corded Reciprocating Saws"}, {"slug": "corded-angle-grinders", "title": "Corded Angle Grinders"}, {"slug": "corded-random-orbital-sanders", "title": "Corded Random Orbital Sanders"}, {"slug": "corded-belt-sanders", "title": "Corded Belt Sanders"}, {"slug": "corded-detail-sanders", "title": "Corded Detail Sanders"}, {"slug": "bench-grinders", "title": "Bench Grinders"}, {"slug": "drill-presses", "title": "Drill Presses"}, {"slug": "corded-rotary-tools", "title": "Corded Rotary Tools"}, {"slug": "corded-hand-planers", "title": "Electric Hand Planers"}, {"slug": "scroll-saws", "title": "Scroll Saws"}, {"slug": "band-saws", "title": "Band Saws"}, {"slug": "oscillating-spindle-sanders", "title": "Oscillating Spindle Sanders"}, {"slug": "wet-tile-saws", "title": "Wet Tile Saws"}, {"slug": "corded-work-lights", "title": "Corded LED Work Lights"}, {"slug": "hot-glue-guns", "title": "Hot Glue Guns"}, {"slug": "corded-routers", "title": "Corded Routers"}, {"slug": "corded-jigsaws", "title": "Corded Jigsaws"}, {"slug": "corded-heat-guns", "title": "Corded Heat Guns"}, {"slug": "corded-rotary-hammers", "title": "Corded Rotary Hammers"}, {"slug": "corded-table-saws", "title": "Corded Table Saws"}, {"slug": "corded-miter-saws", "title": "Corded Miter Saws"}, {"slug": "corded-shop-vacuums", "title": "Corded Shop Vacuums"}, {"slug": "electric-pressure-washers", "title": "Electric Pressure Washers"}, {"slug": "thickness-planers", "title": "Benchtop Thickness Planers"}, {"slug": "benchtop-jointers", "title": "Benchtop Jointers"}, {"slug": "wood-lathes", "title": "Wood Lathes"}, {"slug": "demolition-hammers", "title": "Electric Demolition Hammers"}, {"slug": "hvlp-paint-sprayers", "title": "HVLP Paint Sprayers"}, {"slug": "soldering-irons", "title": "Soldering Irons"}], "air": [{"slug": "air-compressors", "title": "Air Compressors"}, {"slug": "air-hose-reels", "title": "Air Hose Reels"}, {"slug": "air-compressor-hoses", "title": "Air Compressor Hoses"}, {"slug": "air-blow-guns", "title": "Air Blow Guns"}, {"slug": "pneumatic-brad-nailers", "title": "Pneumatic Brad Nailers"}, {"slug": "pneumatic-finish-nailers", "title": "Pneumatic Finish Nailers"}, {"slug": "pin-nailers", "title": "23-Gauge Pin Nailers"}, {"slug": "narrow-crown-staplers", "title": "Narrow Crown Staplers"}, {"slug": "air-impact-wrenches", "title": "Air Impact Wrenches"}, {"slug": "air-ratchets", "title": "Air Ratchets"}, {"slug": "pneumatic-framing-nailers", "title": "Pneumatic Framing Nailers"}, {"slug": "roofing-nailers", "title": "Roofing Nailers"}, {"slug": "hvlp-air-spray-guns", "title": "HVLP Spray Guns"}], "hand": [{"slug": "claw-hammers", "title": "Claw Hammers"}, {"slug": "screwdrivers", "title": "Screwdriver Sets"}, {"slug": "allen-keys", "title": "Allen Key (Hex Key) Sets"}, {"slug": "pliers", "title": "Pliers Sets"}, {"slug": "needle-nose-pliers", "title": "Needle-Nose Pliers"}, {"slug": "locking-pliers", "title": "Locking Pliers"}, {"slug": "adjustable-wrenches", "title": "Adjustable (Crescent) Wrenches"}, {"slug": "pipe-wrenches", "title": "Pipe Wrenches"}, {"slug": "bolt-cutters", "title": "Bolt Cutters"}, {"slug": "wood-chisel-sets", "title": "Wood Chisel Sets"}, {"slug": "hacksaws", "title": "Hacksaws"}, {"slug": "tap-and-die-sets", "title": "Tap and Die Sets"}, {"slug": "socket-sets", "title": "Socket Sets"}, {"slug": "combination-wrench-sets", "title": "Combination Wrench Sets"}, {"slug": "ratcheting-wrench-sets", "title": "Ratcheting Wrench Sets"}, {"slug": "utility-knives", "title": "Utility Knives"}, {"slug": "multitools", "title": "Multi-Tools"}, {"slug": "wire-strippers", "title": "Wire Strippers"}, {"slug": "tin-snips", "title": "Tin Snips"}, {"slug": "torque-wrenches", "title": "Torque Wrenches"}, {"slug": "bench-vises", "title": "Bench Vises"}, {"slug": "bar-clamps", "title": "Bar Clamps"}, {"slug": "staple-guns", "title": "Staple Guns"}], "measure": [{"slug": "tape-measures", "title": "Tape Measures"}, {"slug": "laser-levels", "title": "Laser Levels"}, {"slug": "spirit-levels", "title": "Spirit Levels"}, {"slug": "speed-squares", "title": "Speed Squares"}, {"slug": "laser-distance-measures", "title": "Laser Distance Measures"}, {"slug": "moisture-meters", "title": "Moisture Meters"}, {"slug": "infrared-thermometers", "title": "Infrared Thermometers"}, {"slug": "stud-finders", "title": "Stud Finders"}, {"slug": "digital-calipers", "title": "Digital Calipers"}, {"slug": "multimeters", "title": "Digital Multimeters"}, {"slug": "voltage-testers", "title": "Non-Contact Voltage Testers"}, {"slug": "outlet-testers", "title": "Outlet Testers"}], "garage": [{"slug": "wheel-balancers", "title": "Wheel Balancers"}, {"slug": "tire-changers", "title": "Tire Changers"}, {"slug": "engine-hoists", "title": "Engine Hoists"}, {"slug": "transmission-jacks", "title": "Transmission Jacks"}, {"slug": "sewer-inspection-cameras", "title": "Sewer Inspection Cameras"}, {"slug": "engine-stands", "title": "Engine Stands"}, {"slug": "motorcycle-lifts", "title": "Motorcycle Lifts"}, {"slug": "car-lifts", "title": "Car Lifts"}, {"slug": "tire-bead-seaters", "title": "Tire Bead Seaters"}, {"slug": "gantry-cranes", "title": "Gantry Cranes"}, {"slug": "floor-jacks", "title": "Floor Jacks"}, {"slug": "jack-stands", "title": "Jack Stands"}, {"slug": "car-ramps", "title": "Car Ramps"}, {"slug": "oil-drain-pans", "title": "Oil Drain Pans"}, {"slug": "impact-socket-sets", "title": "Impact Socket Sets"}, {"slug": "obd2-scanners", "title": "OBD2 Scanners"}, {"slug": "jump-starters", "title": "Jump Starters"}, {"slug": "battery-chargers", "title": "Car Battery Chargers"}, {"slug": "mig-welders", "title": "MIG Welders"}, {"slug": "mechanic-creepers", "title": "Mechanic Creepers"}, {"slug": "mechanic-stools", "title": "Mechanic Stools"}, {"slug": "cordless-tire-inflators", "title": "Cordless Tire Inflators"}, {"slug": "tire-pressure-gauges", "title": "Tire Pressure Gauges"}, {"slug": "corded-car-polishers", "title": "Corded Car Polishers"}, {"slug": "cordless-car-polishers", "title": "Cordless Car Polishers"}], "yard": [{"slug": "cordless-leaf-blowers", "title": "Cordless Leaf Blowers"}, {"slug": "cordless-string-trimmers", "title": "Cordless String Trimmers"}, {"slug": "cordless-chainsaws", "title": "Cordless Chainsaws"}, {"slug": "mini-chainsaws", "title": "Mini Chainsaws"}, {"slug": "cordless-hedge-trimmers", "title": "Cordless Hedge Trimmers"}, {"slug": "cordless-pole-saws", "title": "Cordless Pole Saws"}, {"slug": "cordless-lawn-mowers", "title": "Cordless Lawn Mowers"}]};
       var catSel = document.getElementById('qn-category');
       var subSel = document.getElementById('qn-subcategory');
       var go = document.getElementById('qn-go');
@@ -175,6 +175,15 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
+      <a class="cat-card" href="cordless-right-angle-drills.html">
+        <h3>Cordless Right Angle Drills</h3>
+        <p>10 best right-angle drills for drilling and driving between studs and in cabinets.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> RYOBI PSBRA02B</span>
+          <span><b>Best Budget:</b> VEVOR DJZO5030-10</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
       <a class="cat-card" href="cordless-impact-drivers.html">
         <h3>Cordless Impact Drivers</h3>
         <p>10 best cordless impact drivers, from bare-tool pro picks to ready-to-use budget kits.</p>
@@ -229,12 +238,30 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
+      <a class="cat-card" href="cordless-portable-band-saws.html">
+        <h3>Cordless Portable Band Saws</h3>
+        <p>10 best battery band saws for clean, cool cuts in conduit, pipe and strut.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> DEWALT DCS374B</span>
+          <span><b>Best Budget:</b> ONEMANA bw2110</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
       <a class="cat-card" href="cordless-angle-grinders.html">
         <h3>Cordless Angle Grinders</h3>
         <p>10 best battery-powered angle grinders — cut, grind, and polish anywhere, no cord.</p>
         <div class="cat-picks">
           <span><b>Best Overall:</b> DEWALT DCG413B</span>
           <span><b>Best Budget:</b> AOBEN AT-102D</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="cordless-die-grinders.html">
+        <h3>Cordless Die Grinders</h3>
+        <p>10 best battery die grinders for grinding, porting and weld cleanup, no air hose.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> DEWALT DCG426B</span>
+          <span><b>Best Budget:</b> SEESII DG21 Pro</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
@@ -280,6 +307,24 @@
         <div class="cat-picks">
           <span><b>Best Overall:</b> DEWALT DCL050</span>
           <span><b>Best Budget:</b> Coquimbo 2-pack</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="cordless-jobsite-fans.html">
+        <h3>Cordless Jobsite Fans</h3>
+        <p>10 best battery and hybrid fans for garages, attics and jobsites.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> DEWALT DCE512B</span>
+          <span><b>Best Budget:</b> CRAFTSMAN CMCE010B</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="drywall-screw-guns.html">
+        <h3>Drywall Screw Guns</h3>
+        <p>10 best cordless and corded drywall screw guns for hanging sheetrock.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> DEWALT DCF630B</span>
+          <span><b>Best Budget:</b> DEWALT DW255</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
@@ -421,6 +466,24 @@
         <div class="cat-picks">
           <span><b>Best Overall:</b> DEWALT DWE575SB</span>
           <span><b>Best Budget:</b> SKIL 5080-01</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="track-saws.html">
+        <h3>Track Saws</h3>
+        <p>10 best plunge track saws for straight, splinter-free cuts in plywood and doors.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Makita SP6000J1</span>
+          <span><b>Best Budget:</b> WEN CT1065</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="biscuit-joiners.html">
+        <h3>Biscuit Joiners</h3>
+        <p>10 best biscuit and plate joiners for tabletops, cabinets and frames.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> DEWALT DW682K</span>
+          <span><b>Best Budget:</b> AOBEN 3705</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
@@ -649,6 +712,15 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
+      <a class="cat-card" href="benchtop-jointers.html">
+        <h3>Benchtop Jointers</h3>
+        <p>10 best benchtop jointers for flattening and squaring boards.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Cutech 40180HI</span>
+          <span><b>Best Budget:</b> WEN JT630H</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
       <a class="cat-card" href="wood-lathes.html">
         <h3>Wood Lathes</h3>
         <p>10 best woodturning lathes, from desktop pen lathes to full-size bowl lathes.</p>
@@ -709,6 +781,24 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
+      <a class="cat-card" href="air-compressor-hoses.html">
+        <h3>Air Compressor Hoses</h3>
+        <p>10 best hybrid and polyurethane air compressor hoses, 1/4 and 3/8 inch.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> YOTOO 3/8 x 50 coupler</span>
+          <span><b>Best Budget:</b> JOROY 3/8 x 50</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="air-blow-guns.html">
+        <h3>Air Blow Guns</h3>
+        <p>10 best air compressor blow guns for blowoff, drying and cleaning.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> JASTIND JTABG103A</span>
+          <span><b>Best Budget:</b> Milton S-148</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
       <a class="cat-card" href="pneumatic-brad-nailers.html">
         <h3>Pneumatic Brad Nailers</h3>
         <p>10 best 18-gauge air brad nailers for trim, molding and furniture.</p>
@@ -736,6 +826,15 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
+      <a class="cat-card" href="narrow-crown-staplers.html">
+        <h3>Narrow Crown Staplers</h3>
+        <p>10 best 18-gauge pneumatic and cordless narrow crown staplers.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> BOSTITCH SX1838K</span>
+          <span><b>Best Budget:</b> 3PLUS H9040SP</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
       <a class="cat-card" href="air-impact-wrenches.html">
         <h3>Air Impact Wrenches</h3>
         <p>10 best 1/2-inch pneumatic impact guns for lug nuts and seized bolts.</p>
@@ -760,6 +859,24 @@
         <div class="cat-picks">
           <span><b>Best Overall:</b> Metabo HPT NR90AES1</span>
           <span><b>Best Budget:</b> 3PLUS H2190SP</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="roofing-nailers.html">
+        <h3>Roofing Nailers</h3>
+        <p>10 best pneumatic and cordless coil roofing nailers.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> BOSTITCH RN46-1</span>
+          <span><b>Best Budget:</b> 3PLUS HCN45SP</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="hvlp-air-spray-guns.html">
+        <h3>HVLP Spray Guns</h3>
+        <p>10 best gravity-feed HVLP and LVLP air spray guns.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> AEROPRO R500/A610</span>
+          <span><b>Best Budget:</b> ENDOZER H827</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a></div>
@@ -814,12 +931,66 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
+      <a class="cat-card" href="locking-pliers.html">
+        <h3>Locking Pliers</h3>
+        <p>10 best locking pliers sets: curved jaw, long nose and C-clamp.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> IRWIN 36</span>
+          <span><b>Best Budget:</b> Crescent CLP5SETN-08</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
       <a class="cat-card" href="adjustable-wrenches.html">
         <h3>Adjustable (Crescent) Wrenches</h3>
         <p>10 best adjustable wrenches — wide-jaw singles and sets with SAE/metric scales, from budget to pro.</p>
         <div class="cat-picks">
           <span><b>Best Overall:</b> CRAFTSMAN CMMT12001</span>
           <span><b>Best Budget:</b> Olympia Tools 10-Inch</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="pipe-wrenches.html">
+        <h3>Pipe Wrenches</h3>
+        <p>10 best aluminum and cast iron pipe wrenches and sets.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> RIDGID 31100</span>
+          <span><b>Best Budget:</b> HORUSDY 97653</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="bolt-cutters.html">
+        <h3>Bolt Cutters</h3>
+        <p>10 best bolt cutters, from pocket-size compact cutters to 30-inch.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> KNIPEX 71 01 200</span>
+          <span><b>Best Budget:</b> WORKPRO W017004A</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="wood-chisel-sets.html">
+        <h3>Wood Chisel Sets</h3>
+        <p>10 best bevel-edge wood chisel sets for woodworking and carpentry.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Amazon Basics DS-CHAMZ004</span>
+          <span><b>Best Budget:</b> HURRICANE HK-BBPR-ZWV0</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="hacksaws.html">
+        <h3>Hacksaws</h3>
+        <p>10 best high-tension, compact and mini hacksaws for metal and PVC.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> CRAFTSMAN CMHT20138</span>
+          <span><b>Best Budget:</b> HAUTMEC HT0398</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="tap-and-die-sets.html">
+        <h3>Tap and Die Sets</h3>
+        <p>10 best SAE and metric tap and die sets for cutting and repairing threads.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> GEARWRENCH 3887</span>
+          <span><b>Best Budget:</b> EFFICERE 60-piece</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
@@ -838,6 +1009,15 @@
         <div class="cat-picks">
           <span><b>Best Overall:</b> EFFICERE MA-24PC-MULTI-COMBO-ES</span>
           <span><b>Best Budget:</b> EFFICERE WR-009</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="ratcheting-wrench-sets.html">
+        <h3>Ratcheting Wrench Sets</h3>
+        <p>10 best metric and SAE ratcheting wrench sets, fixed and flex head.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> CRAFTSMAN CMMT87220</span>
+          <span><b>Best Budget:</b> DISEN 22-piece</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
@@ -937,6 +1117,24 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
+      <a class="cat-card" href="spirit-levels.html">
+        <h3>Spirit Levels</h3>
+        <p>10 best torpedo, 24-inch and long spirit levels and level sets.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Amazon Basics DS-SLAMZ003</span>
+          <span><b>Best Budget:</b> Amazon Basics DS-SLAMZ003</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="speed-squares.html">
+        <h3>Speed Squares</h3>
+        <p>10 best speed squares and rafter squares for framing and woodworking.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Swanson S0101</span>
+          <span><b>Best Budget:</b> Swanson T0118</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
       <a class="cat-card" href="laser-distance-measures.html">
         <h3>Laser Distance Measures</h3>
         <p>10 best laser measures for rooms, flooring and paint estimates: one click, no tape.</p>
@@ -952,6 +1150,15 @@
         <div class="cat-picks">
           <span><b>Best Overall:</b> General Tools MMD4E</span>
           <span><b>Best Budget:</b> LASELION MS03</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="infrared-thermometers.html">
+        <h3>Infrared Thermometers</h3>
+        <p>10 best infrared thermometer guns for HVAC, electrical, automotive and cooking.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Etekcity Lasergrip 1080</span>
+          <span><b>Best Budget:</b> Etekcity Lasergrip 774</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
@@ -988,6 +1195,15 @@
         <div class="cat-picks">
           <span><b>Best Overall:</b> Fluke 1AC II</span>
           <span><b>Best Budget:</b> KAIWEETS HT100s</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="outlet-testers.html">
+        <h3>Outlet Testers</h3>
+        <p>10 best plug-in GFCI and receptacle outlet testers.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Klein Tools RT250</span>
+          <span><b>Best Budget:</b> Klein Tools RT110</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a></div>
@@ -1105,6 +1321,33 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
+      <a class="cat-card" href="car-ramps.html">
+        <h3>Car Ramps</h3>
+        <p>10 best plastic car ramps for oil changes and under-car work.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Ironton 3469234</span>
+          <span><b>Best Budget:</b> ROBLOCK RBTS265</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="oil-drain-pans.html">
+        <h3>Oil Drain Pans</h3>
+        <p>10 best oil drain pans and sealed drain containers for oil changes.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> NEIKO 20762A</span>
+          <span><b>Best Budget:</b> Funnel King 32950</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="impact-socket-sets.html">
+        <h3>Impact Socket Sets</h3>
+        <p>10 best 1/2-inch and 3/8-inch drive impact socket sets.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> NEIKO 02448A</span>
+          <span><b>Best Budget:</b> SEDY 84018</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
       <a class="cat-card" href="obd2-scanners.html">
         <h3>OBD2 Scanners</h3>
         <p>10 best code readers, Bluetooth adapters and ABS/SRS scan tools.</p>
@@ -1150,12 +1393,30 @@
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
+      <a class="cat-card" href="mechanic-stools.html">
+        <h3>Mechanic Stools</h3>
+        <p>10 best pneumatic and low rolling mechanic stools and creeper seats.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Pro-LifT PL9300H</span>
+          <span><b>Best Budget:</b> VEVOR creeper seat</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
       <a class="cat-card" href="cordless-tire-inflators.html">
         <h3>Cordless Tire Inflators</h3>
         <p>10 best battery tire inflators with auto shut-off.</p>
         <div class="cat-picks">
           <span><b>Best Overall:</b> AstroAI Cordless 160 PSI</span>
           <span><b>Best Budget:</b> AstroAI L7</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="tire-pressure-gauges.html">
+        <h3>Tire Pressure Gauges</h3>
+        <p>10 best digital, dial and pencil tire pressure gauges.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> ETENWOLF G200</span>
+          <span><b>Best Budget:</b> AstroAI GL-0801A</span>
         </div>
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a>
@@ -1178,10 +1439,79 @@
         <span class="btn ghost">See the top 10 &rarr;</span>
       </a></div>
   </details>
+  <details class="cats">
+    <summary><h2>Yard &amp; outdoor</h2></summary>
+    <button type="button" class="cats-collapse" hidden>Collapse</button>
+    <p class="group-sub">Battery-powered yard tools &mdash; blow, trim, cut, and mow without gas or a pull cord.</p>
+    <div class="cat-grid">
+      <a class="cat-card" href="cordless-leaf-blowers.html">
+        <h3>Cordless Leaf Blowers</h3>
+        <p>10 best battery leaf blowers: clear leaves and driveways with no gas or pull cord.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> EGO LB6151</span>
+          <span><b>Best Budget:</b> MZK ET1613</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="cordless-string-trimmers.html">
+        <h3>Cordless String Trimmers</h3>
+        <p>10 best battery string trimmers and trimmer-edgers for lawns and weeds.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> WORX WG163</span>
+          <span><b>Best Budget:</b> BLACK+DECKER LST300</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="cordless-chainsaws.html">
+        <h3>Cordless Chainsaws</h3>
+        <p>10 best battery chainsaws for storm cleanup, pruning and firewood.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Greenworks 20312</span>
+          <span><b>Best Budget:</b> SEESII M12 Studio</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="mini-chainsaws.html">
+        <h3>Mini Chainsaws</h3>
+        <p>10 best cordless mini chainsaws for pruning and small limbs, one hand.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> SEESII M8 Boost</span>
+          <span><b>Best Budget:</b> SEESII M6 Lite</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="cordless-hedge-trimmers.html">
+        <h3>Cordless Hedge Trimmers</h3>
+        <p>10 best battery hedge trimmers for shrubs and hedges.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> BLACK+DECKER LHT2220</span>
+          <span><b>Best Budget:</b> KOMASTY kom-GYHT</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="cordless-pole-saws.html">
+        <h3>Cordless Pole Saws</h3>
+        <p>10 best battery pole saws for trimming high branches without a ladder.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> CRAFTSMAN CMCCSP20M1</span>
+          <span><b>Best Budget:</b> SEESII P6 Ace</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a>
+      <a class="cat-card" href="cordless-lawn-mowers.html">
+        <h3>Cordless Lawn Mowers</h3>
+        <p>10 best battery push and self-propelled mowers: no gas, no oil, push-button start.</p>
+        <div class="cat-picks">
+          <span><b>Best Overall:</b> Greenworks MO60L424</span>
+          <span><b>Best Budget:</b> MZK ET2602</span>
+        </div>
+        <span class="btn ghost">See the top 10 &rarr;</span>
+      </a></div>
+  </details>
   
   <section class="deals">
     <h2>Deals on the major brands</h2>
-    <p>The same names turn up across these lists: DEWALT, CRAFTSMAN, Makita, VEVOR, Milwaukee, WEN, SKIL, WORKPRO, RYOBI, and Metabo HPT. Those brands run their
+    <p>The same names turn up across these lists: DEWALT, CRAFTSMAN, Milwaukee, Makita, VEVOR, WEN, WORKPRO, Klein Tools, RYOBI, and SKIL. Those brands run their
     steepest Amazon markdowns around Prime Day and Black Friday, and cordless kits get
     bundled and discounted all year. The prices we show were captured
     between 2026-10-06 and 2026-10-10 (each list shows its own date) and drift over time, so every price button goes straight to the

@@ -1,0 +1,479 @@
+{
+  "slug": "cordless-chainsaws",
+  "title": "The 10 Best Cordless Chainsaws",
+  "subtitle": "Battery-powered chainsaws for pruning, storm cleanup and firewood, ranked from live Amazon data.",
+  "intro": "A cordless chainsaw starts with a trigger, needs no gas or pull cord, and is quiet enough for the neighbors. We ranked 10 best-sellers from EGO, Greenworks, DEWALT, CRAFTSMAN, WORX, BLACK+DECKER, Husqvarna and SEESII on rating, review volume and features (a 14-inch or longer bar, a battery in the box, a brushless motor, tool-free tensioning and auto oiling). For mini pruning saws, see our mini chainsaw page.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 100,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "bar_14_plus": 0.25,
+    "battery_included": 0.25,
+    "brushless": 0.2,
+    "tool_free_tension": 0.15,
+    "auto_oil": 0.15
+  },
+  "reviews_ceiling": 7000,
+  "spec_fields": [
+    {
+      "key": "bar",
+      "label": "Bar"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "power",
+      "label": "Listed power"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "bar",
+      "label": "Bar"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "brushless",
+      "label": "Brushless",
+      "type": "bool"
+    },
+    {
+      "key": "tool_free_tension",
+      "label": "Tool-free tension",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B09X26ZHPV",
+      "name": "EGO POWER+ 16\" Cordless Chainsaw with 56V 2.5Ah Battery and Charger (CS1611)",
+      "brand": "EGO",
+      "model": "CS1611",
+      "image": "https://m.media-amazon.com/images/I/71WxFjcT4rL._AC_SL1500_.jpg",
+      "price": 249.0,
+      "rating": 4.6,
+      "reviews_count": 652,
+      "bought": "900+/mo",
+      "specs": {
+        "bar": "16 in",
+        "battery": "56V 2.5Ah, included",
+        "power": "40cc gas equivalent (EGO's claim)",
+        "weight": "9 lb",
+        "extras": "Up to 130 cuts on a 4x4, tool-free tension, auto oiling, low-kickback chain"
+      },
+      "features": {
+        "bar_14_plus": true,
+        "battery_included": true,
+        "brushless": false,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "A 16-inch EGO that the maker rates as equal to a 40cc gas saw, with tool-free chain tensioning, automatic oiling and up to 130 cuts on a 4x4 per charge.",
+      "best_for": "Homeowners replacing a small gas saw for storm cleanup and firewood.",
+      "skip_if": "You'll cut all day; get the 4.0Ah CS1613 or a spare battery.",
+      "pros": [
+        "16 in bar",
+        "Tool-free tension, auto oil",
+        "900+ sold last month"
+      ],
+      "cons": [
+        "2.5Ah battery",
+        "9 lb"
+      ]
+    },
+    {
+      "asin": "B09SBX1MW6",
+      "name": "EGO POWER+ 16\" Brushless Cordless Chainsaw with 56V 4.0Ah Battery (CS1613)",
+      "brand": "EGO",
+      "model": "CS1613",
+      "image": "https://m.media-amazon.com/images/I/71sfkUi3kaL._AC_SL1500_.jpg",
+      "price": 299.0,
+      "rating": 4.6,
+      "reviews_count": 988,
+      "bought": "300+/mo",
+      "specs": {
+        "bar": "16 in",
+        "battery": "56V 4.0Ah, included",
+        "power": "40cc gas equivalent (EGO's claim)",
+        "weight": null,
+        "extras": "3/8 in pitch, .043 in chain"
+      },
+      "features": {
+        "bar_14_plus": true,
+        "battery_included": true,
+        "brushless": true,
+        "tool_free_tension": false,
+        "auto_oil": false
+      },
+      "verdict": "The same EGO 16-inch saw with a bigger 4.0Ah battery and a brushless motor, for longer sessions.",
+      "best_for": "Bigger cleanup jobs on one charge.",
+      "skip_if": "You only prune; it's more saw than needed.",
+      "pros": [
+        "4.0Ah battery",
+        "Brushless",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Pricier than the CS1611"
+      ]
+    },
+    {
+      "asin": "B0FJF9NVYB",
+      "force_budget": true,
+      "name": "SEESII 12-Inch Brushless Cordless Chainsaw with Two 4.0Ah Batteries (M12 Studio)",
+      "brand": "SEESII",
+      "model": "M12 Studio",
+      "image": "https://m.media-amazon.com/images/I/71L1ypvLjrL._AC_SL1500_.jpg",
+      "price": 88.98,
+      "rating": 4.5,
+      "reviews_count": 16840,
+      "bought": "900+/mo",
+      "specs": {
+        "bar": "12 in",
+        "battery": "Two 4.0Ah, included",
+        "power": "1,200 W (claimed)",
+        "weight": null,
+        "extras": null
+      },
+      "features": {
+        "bar_14_plus": false,
+        "battery_included": true,
+        "brushless": true,
+        "tool_free_tension": false,
+        "auto_oil": false
+      },
+      "verdict": "A budget 12-inch brushless saw with two 4.0Ah batteries, the cheapest full-size kit here. Its 16,840 reviews are shared across SEESII's chainsaw listings, mostly its mini saws.",
+      "best_for": "Light storm cleanup and limbing on a budget.",
+      "skip_if": "You want reviews for this exact saw; the count is shared with SEESII's mini chainsaws.",
+      "pros": [
+        "Two batteries",
+        "Brushless",
+        "Low price"
+      ],
+      "cons": [
+        "Review count shared with other SEESII saws",
+        "12 in bar"
+      ]
+    },
+    {
+      "asin": "B0H9S39MHZ",
+      "name": "SEESII 40V 16-Inch Brushless Cordless Chainsaw with Two 4.0Ah Batteries (M16 Ace)",
+      "brand": "SEESII",
+      "model": "M16 Ace",
+      "image": "https://m.media-amazon.com/images/I/71+jDrksz5L._AC_SL1500_.jpg",
+      "price": 159.99,
+      "rating": 4.6,
+      "reviews_count": 1417,
+      "bought": "200+/mo",
+      "specs": {
+        "bar": "16 in",
+        "battery": "Two 40V 4.0Ah, included",
+        "power": "2,000 W (claimed)",
+        "weight": null,
+        "extras": "Up to 90 min runtime (claimed)"
+      },
+      "features": {
+        "bar_14_plus": true,
+        "battery_included": true,
+        "brushless": true,
+        "tool_free_tension": false,
+        "auto_oil": false
+      },
+      "verdict": "A 16-inch 40V brushless saw with two 4.0Ah batteries and its own 1,417 reviews, for well under EGO's price.",
+      "best_for": "Firewood and storm cleanup on a budget.",
+      "skip_if": "You want an established brand's dealer support.",
+      "pros": [
+        "16 in bar",
+        "Two 40V batteries",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Power claim not independently verified"
+      ]
+    },
+    {
+      "asin": "B00DRBBRU6",
+      "name": "Greenworks 40V 16\" Brushless Cordless Chainsaw, 4.0Ah Battery and Charger (20312)",
+      "brand": "Greenworks",
+      "model": "20312",
+      "image": "https://m.media-amazon.com/images/I/71xC0MreX7L._AC_SL1500_.jpg",
+      "price": 249.99,
+      "rating": 4.4,
+      "reviews_count": 6097,
+      "specs": {
+        "bar": "16 in",
+        "battery": "40V 4.0Ah, included",
+        "power": "1.5 kW brushless",
+        "weight": null,
+        "extras": "Auto oiler, chain brake, low-kickback"
+      },
+      "features": {
+        "bar_14_plus": true,
+        "battery_included": true,
+        "brushless": true,
+        "tool_free_tension": false,
+        "auto_oil": true
+      },
+      "verdict": "The most-reviewed saw here with its own review count (6,097): a 16-inch brushless Greenworks with a 4.0Ah battery and automatic oiler.",
+      "best_for": "Greenworks 40V owners and anyone wanting a proven 16-inch saw.",
+      "skip_if": "You want tool-free chain tensioning; it isn't listed.",
+      "pros": [
+        "6,097 reviews",
+        "Brushless, 4.0Ah battery",
+        "Auto oiler"
+      ],
+      "cons": [
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B0DVJ3F6J5",
+      "name": "DEWALT 20V MAX 12 in. Cordless Chainsaw, Tool Only (DCCS621B)",
+      "brand": "DEWALT",
+      "model": "DCCS621B",
+      "image": "https://m.media-amazon.com/images/I/61tXXhwyWyL._AC_SL1500_.jpg",
+      "price": 194.99,
+      "rating": 4.5,
+      "reviews_count": 518,
+      "bought": "1K+/mo",
+      "specs": {
+        "bar": "12 in",
+        "battery": "Not included",
+        "power": null,
+        "weight": null,
+        "extras": null
+      },
+      "features": {
+        "bar_14_plus": false,
+        "battery_included": false,
+        "brushless": false,
+        "tool_free_tension": false,
+        "auto_oil": false
+      },
+      "verdict": "DEWALT's 12-inch 20V chainsaw, the best seller among the brand-name saws here. The listing is a single line, so check DEWALT's site for specs.",
+      "best_for": "DEWALT 20V owners who want a light saw for limbs and cleanup.",
+      "skip_if": "You want details on the listing; it has almost none.",
+      "pros": [
+        "1,000+ sold last month",
+        "Uses DEWALT 20V batteries",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Bare tool",
+        "Listing has no specs"
+      ]
+    },
+    {
+      "asin": "B07KKC6RHH",
+      "name": "CRAFTSMAN V20 12-Inch Cordless Chainsaw with 4.0Ah Battery and Charger (CMCCS620M1)",
+      "brand": "CRAFTSMAN",
+      "model": "CMCCS620M1",
+      "image": "https://m.media-amazon.com/images/I/61+6KfPCfZL._AC_SL1500_.jpg",
+      "price": 199.99,
+      "rating": 4.6,
+      "reviews_count": 1145,
+      "bought": "50+/mo",
+      "specs": {
+        "bar": "12 in",
+        "battery": "V20 4.0Ah, included",
+        "power": null,
+        "weight": null,
+        "extras": "Bubble level, auto oiling, tool-free tensioning"
+      },
+      "features": {
+        "bar_14_plus": false,
+        "battery_included": true,
+        "brushless": false,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "A CRAFTSMAN kit with a 4.0Ah battery, auto oiling, tool-free tensioning and a bubble level for straight cuts.",
+      "best_for": "CRAFTSMAN V20 owners doing light yard work.",
+      "skip_if": "You need a longer bar.",
+      "pros": [
+        "4.0Ah battery included",
+        "Auto oil, tool-free tension",
+        "4.6 stars"
+      ],
+      "cons": [
+        "12 in bar"
+      ]
+    },
+    {
+      "asin": "B075MYLPQS",
+      "name": "WORX 20V 10\" Cordless Chainsaw with Auto-Tension (WG322)",
+      "brand": "WORX",
+      "model": "WG322",
+      "image": "https://m.media-amazon.com/images/I/51-+lEZMBSL._AC_SL1000_.jpg",
+      "price": 113.99,
+      "rating": 4.4,
+      "reviews_count": 3915,
+      "bought": "300+/mo",
+      "specs": {
+        "bar": "10 in",
+        "battery": "WORX 20V Power Share",
+        "power": null,
+        "weight": "6.2 lb",
+        "extras": "Automatic chain tension, oil level indicator"
+      },
+      "features": {
+        "bar_14_plus": false,
+        "battery_included": false,
+        "brushless": false,
+        "tool_free_tension": true,
+        "auto_oil": false
+      },
+      "verdict": "A light 6.2 lb WORX saw with automatic chain tensioning, on the Power Share battery that runs WORX's 75+ tools.",
+      "best_for": "Light pruning and small limbs for WORX owners.",
+      "skip_if": "You'll cut firewood; a 10-inch bar is small.",
+      "pros": [
+        "Auto chain tension",
+        "6.2 lb",
+        "3,915 reviews"
+      ],
+      "cons": [
+        "10 in bar"
+      ]
+    },
+    {
+      "asin": "B00SSLE0QS",
+      "name": "BLACK+DECKER 20V MAX 10-Inch Cordless Chainsaw, Tool Only (LCS1020B)",
+      "brand": "BLACK+DECKER",
+      "model": "LCS1020B",
+      "image": "https://m.media-amazon.com/images/I/71P2fsmmZaL._AC_SL1500_.jpg",
+      "price": 108.01,
+      "rating": 4.5,
+      "reviews_count": 2839,
+      "bought": "100+/mo",
+      "specs": {
+        "bar": "10 in (8 in cut capacity)",
+        "battery": "Not included",
+        "power": null,
+        "weight": null,
+        "extras": "Tool-free tensioning, oiling system, scabbard"
+      },
+      "features": {
+        "bar_14_plus": false,
+        "battery_included": false,
+        "brushless": false,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "A cheap 10-inch saw for BLACK+DECKER 20V owners, with tool-free tensioning and a scabbard. It cuts up to 8 inches.",
+      "best_for": "Pruning and small limbs around the yard.",
+      "skip_if": "You need to cut logs over 8 inches.",
+      "pros": [
+        "Tool-free tensioning",
+        "2,839 reviews",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Bare tool",
+        "8 in cut capacity"
+      ]
+    },
+    {
+      "asin": "B0CFBJPPQ5",
+      "premium": true,
+      "name": "Husqvarna Power Axe 350i 18\" Cordless Chainsaw with Battery and Charger (970601202)",
+      "brand": "Husqvarna",
+      "model": "Power Axe 350i",
+      "image": "https://m.media-amazon.com/images/I/51tTL2Kax5L._AC_SL1080_.jpg",
+      "price": 436.21,
+      "rating": 4.3,
+      "reviews_count": 409,
+      "bought": "100+/mo",
+      "specs": {
+        "bar": "18 in",
+        "battery": "Included",
+        "power": "1.9 hp listed",
+        "weight": "7.7 lb",
+        "extras": "X-Cut chain, tool-less tensioning, brushless"
+      },
+      "features": {
+        "bar_14_plus": true,
+        "battery_included": true,
+        "brushless": true,
+        "tool_free_tension": true,
+        "auto_oil": false
+      },
+      "verdict": "Husqvarna's 18-inch battery saw with an X-Cut chain, tool-less tensioning and a brushless motor, which Husqvarna says out-cuts similar gas saws.",
+      "best_for": "Serious firewood cutting from a chainsaw brand.",
+      "skip_if": "You're on a budget; it's the priciest here.",
+      "pros": [
+        "18 in bar",
+        "Brushless, X-Cut chain",
+        "Chainsaw specialist brand"
+      ],
+      "cons": [
+        "Most expensive here",
+        "4.3 stars"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GX5BQLC1",
+      "name": "10 Inch Cordless Chainsaw for DEWALT 20V MAX Battery, 1000W Brushless Handheld Chainsaw with 4.0Ah Battery",
+      "brand": "DOOYUTOOL",
+      "model": "DW-11",
+      "image": "https://m.media-amazon.com/images/I/61jxpVfgPdL._AC_SL1280_.jpg",
+      "price": 99.99,
+      "rating": 4.4,
+      "reviews_count": 44,
+      "flag": "Sold 'for DEWALT' with an unbranded battery; 1,000 W claim",
+      "verdict": "A 10-inch saw marketed for DEWALT 20V batteries that ships with its own unbranded 4.0 battery and makes a power claim the listing doesn't support.",
+      "reasons": [
+        "The title says it's for DEWALT 20V MAX batteries, but the box contents list '4.0 Battery *1, Charger *1' with no brand, so you can't tell what you're getting or whether it's safe on a DEWALT charger.",
+        "The bullets call it a 'mini cordless chainsaw' while the title calls it a 10-inch chainsaw, a sign the copy was reused from another product.",
+        "It claims 1,000 W from a 20V pack and gives no runtime or cuts-per-charge figure. DEWALT's own DCCS621B uses the same batteries with DEWALT's warranty."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What bar length do I need?",
+      "a": "10 to 12 inches handles pruning and limbs up to about 8 inches thick. 14 to 16 inches is the sweet spot for storm cleanup and firewood. 18 inches and up is for bigger trees."
+    },
+    {
+      "q": "Can a battery saw replace gas?",
+      "a": "For most homeowners, yes. EGO rates its 16-inch saws as equal to a 40cc gas saw. Big logs all day still favor gas or a second battery."
+    },
+    {
+      "q": "How many cuts per charge?",
+      "a": "EGO lists up to 130 cuts through a 4x4 on its 2.5Ah battery, Greenworks about 50 on 2.0Ah. Bigger batteries cut longer; buy a spare for firewood days."
+    },
+    {
+      "q": "What maintenance does it need?",
+      "a": "Keep bar oil topped up (most oil automatically), keep the chain sharp and correctly tensioned. Tool-free tensioning makes adjustments easy."
+    },
+    {
+      "q": "What safety gear do I need?",
+      "a": "Eye and ear protection, cut-resistant chaps, gloves and boots. Never cut above shoulder height, and watch the tip of the bar to avoid kickback."
+    }
+  ]
+}

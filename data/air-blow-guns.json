@@ -1,0 +1,451 @@
+{
+  "slug": "air-blow-guns",
+  "title": "The 10 Best Air Blow Guns",
+  "subtitle": "Air compressor blow guns for blowoff, drying and cleaning, ranked from live Amazon data.",
+  "intro": "A blow gun turns your compressor into a fast way to clear dust, chips and water from parts and tools. We ranked 10 best-sellers from Milton, Flexzilla, JASTIND, Capri Tools, Astro Pneumatic and NEIKO on rating, review volume and features (an OSHA safety nozzle, stated flow or pressure ratings, a metal body and extra nozzles).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 11,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "safety_nozzle": 0.3,
+    "specs_stated": 0.25,
+    "metal_body": 0.25,
+    "extra_nozzles": 0.2
+  },
+  "reviews_ceiling": 12000,
+  "spec_fields": [
+    {
+      "key": "body",
+      "label": "Body"
+    },
+    {
+      "key": "nozzle",
+      "label": "Nozzle"
+    },
+    {
+      "key": "rating",
+      "label": "Rating"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "body",
+      "label": "Body"
+    },
+    {
+      "key": "nozzle",
+      "label": "Nozzle"
+    },
+    {
+      "key": "safety_nozzle",
+      "label": "OSHA safety nozzle",
+      "type": "bool"
+    },
+    {
+      "key": "metal_body",
+      "label": "Metal body",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07GJQJJMQ",
+      "name": "JASTIND Industrial Air Blow Gun with Brass Adjustable Air Flow Nozzle Kit (JTABG103A)",
+      "brand": "JASTIND",
+      "model": "JTABG103A",
+      "image": "https://m.media-amazon.com/images/I/71TpwhpB72L._AC_SL1500_.jpg",
+      "price": 11.99,
+      "rating": 4.6,
+      "reviews_count": 12443,
+      "bought": "6K+/mo",
+      "specs": {
+        "body": "Chromed zinc alloy",
+        "nozzle": "Adjustable brass, plus 2 extensions",
+        "rating": null,
+        "extras": "Copper alloy valve and quick coupler"
+      },
+      "features": {
+        "safety_nozzle": false,
+        "specs_stated": false,
+        "metal_body": true,
+        "extra_nozzles": true
+      },
+      "verdict": "The best-selling and most-reviewed blow gun here: an all-metal gun with an adjustable brass nozzle and two extensions, rated 4.6 stars on 12,443 reviews.",
+      "best_for": "Shop cleanup, blowing out parts and drying.",
+      "skip_if": "You need an OSHA-compliant safety nozzle for work use.",
+      "pros": [
+        "12,443 reviews; 6,000+ sold last month",
+        "Adjustable flow",
+        "All metal"
+      ],
+      "cons": [
+        "No safety nozzle",
+        "Pressure and flow not listed"
+      ]
+    },
+    {
+      "asin": "B002Z32OLI",
+      "premium": true,
+      "name": "Flexzilla X1 Blow Gun with Xtreme-Flo Safety Nozzle (AG1502FZ)",
+      "brand": "Flexzilla",
+      "model": "AG1502FZ",
+      "image": "https://m.media-amazon.com/images/I/71MaWmrLU9L._AC_SL1500_.jpg",
+      "price": 18.99,
+      "rating": 4.6,
+      "reviews_count": 797,
+      "bought": "200+/mo",
+      "specs": {
+        "body": "Aircraft aluminum",
+        "nozzle": "Xtreme-Flo safety nozzle",
+        "rating": "Meets or exceeds OSHA standards",
+        "extras": "Modular extensions and tips"
+      },
+      "features": {
+        "safety_nozzle": true,
+        "specs_stated": false,
+        "metal_body": true,
+        "extra_nozzles": true
+      },
+      "verdict": "An aluminum blow gun with a high-flow safety nozzle that meets OSHA standards and modular extensions and tips.",
+      "best_for": "Pro shops that need OSHA-compliant blowoff.",
+      "skip_if": "You want the cheapest gun.",
+      "pros": [
+        "OSHA safety nozzle",
+        "Aluminum body",
+        "Modular tips"
+      ],
+      "cons": [
+        "Flow not quantified"
+      ]
+    },
+    {
+      "asin": "B001XBI1E2",
+      "force_budget": true,
+      "name": "Milton S-148 1/4-Inch NPT Lever Blow Gun with Rubber and Safety Tip Nozzles",
+      "brand": "Milton",
+      "model": "S-148",
+      "image": "https://m.media-amazon.com/images/I/51N82SIciqL._AC_SL1500_.jpg",
+      "price": 10.5,
+      "rating": 4.5,
+      "reviews_count": 1353,
+      "bought": "100+/mo",
+      "specs": {
+        "body": null,
+        "nozzle": "Rubber tip and safety tip",
+        "rating": "150 PSI max; 12.9 SCFM (rubber) / 11.7 SCFM (safety) at 100 PSI",
+        "extras": "Mar-resistant rubber tip"
+      },
+      "features": {
+        "safety_nozzle": true,
+        "specs_stated": true,
+        "metal_body": false,
+        "extra_nozzles": true
+      },
+      "verdict": "A lever blow gun with both a mar-resistant rubber tip and a safety tip, and actual flow ratings for each, for about $10.",
+      "best_for": "Car detailing and painted surfaces, plus safe general blowoff.",
+      "skip_if": "You want an all-metal gun.",
+      "pros": [
+        "Safety tip included",
+        "Flow rated",
+        "About $10"
+      ],
+      "cons": [
+        "4.5 stars"
+      ]
+    },
+    {
+      "asin": "B0002SRL0C",
+      "name": "Milton S-153 Lever-Style Industrial Air Blow Gun with Rubber Tip, Made in USA",
+      "brand": "Milton",
+      "model": "S-153",
+      "image": "https://m.media-amazon.com/images/I/51XpDIok8UL._AC_SL1500_.jpg",
+      "price": 15.26,
+      "rating": 4.7,
+      "reviews_count": 1197,
+      "bought": "300+/mo",
+      "specs": {
+        "body": null,
+        "nozzle": "Rubber tip",
+        "rating": "150 PSI max; 11.4 SCFM at 100 PSI",
+        "extras": "Made in USA"
+      },
+      "features": {
+        "safety_nozzle": false,
+        "specs_stated": true,
+        "metal_body": false,
+        "extra_nozzles": false
+      },
+      "verdict": "Milton's American-made lever blow gun with a rubber tip and a stated 11.4 SCFM flow, rated 4.7 stars.",
+      "best_for": "Buyers who want a USA-made gun.",
+      "skip_if": "You need a safety nozzle.",
+      "pros": [
+        "Made in USA",
+        "Flow rated",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Rubber tip only"
+      ]
+    },
+    {
+      "asin": "B09VB8MW12",
+      "name": "Capri Tools 5-Inch and 12-Inch Air Blow Gun Kit with Rubber Tips",
+      "brand": "Capri Tools",
+      "model": "CP21072-SET",
+      "image": "https://m.media-amazon.com/images/I/51RKfkzVCwL._AC_SL1500_.jpg",
+      "price": 19.99,
+      "rating": 4.7,
+      "reviews_count": 1730,
+      "bought": "600+/mo",
+      "specs": {
+        "body": null,
+        "nozzle": "5 in and 12 in with rubber tips",
+        "rating": null,
+        "extras": "Two guns"
+      },
+      "features": {
+        "safety_nozzle": false,
+        "specs_stated": false,
+        "metal_body": false,
+        "extra_nozzles": true
+      },
+      "verdict": "A short and a 12-inch blow gun with rubber tips, so you can reach into engine bays and wheel wells.",
+      "best_for": "Mechanics who want a short gun and a long reach.",
+      "skip_if": "You need flow ratings.",
+      "pros": [
+        "Two guns",
+        "12 in reach",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Reviews shared with the single Capri gun"
+      ]
+    },
+    {
+      "asin": "B07DQJDZNR",
+      "name": "JASTIND High Volume Industrial Air Blow Gun, 17-26 Inch Extensible Steel Nozzle (JABG-01C)",
+      "brand": "JASTIND",
+      "model": "JABG-01C",
+      "image": "https://m.media-amazon.com/images/I/512xU6nT47L._AC_SL1500_.jpg",
+      "price": 12.99,
+      "rating": 4.6,
+      "reviews_count": 6218,
+      "bought": "1K+/mo",
+      "specs": {
+        "body": "Chromed zinc alloy",
+        "nozzle": "Stainless, extends 14-21 in (26 in overall)",
+        "rating": null,
+        "extras": "Copper alloy adjusting nut"
+      },
+      "features": {
+        "safety_nozzle": false,
+        "specs_stated": false,
+        "metal_body": true,
+        "extra_nozzles": true
+      },
+      "verdict": "An all-metal gun with a telescoping stainless nozzle that reaches 26 inches overall, for blowing out deep slots and under machines.",
+      "best_for": "Blowing out long cavities, radiators and machine beds.",
+      "skip_if": "You need a safety nozzle.",
+      "pros": [
+        "Reaches 26 in",
+        "All metal",
+        "6,218 reviews"
+      ],
+      "cons": [
+        "No safety nozzle"
+      ]
+    },
+    {
+      "asin": "B01JBJZJJC",
+      "name": "Astro Pneumatic 1717A Deluxe 4-Inch Air Blow Gun with 1/2-Inch Removable Tip",
+      "brand": "Astro Pneumatic",
+      "model": "1717A",
+      "image": "https://m.media-amazon.com/images/I/71uUumA7hRL._AC_SL1500_.jpg",
+      "price": 12.83,
+      "rating": 4.6,
+      "reviews_count": 1474,
+      "bought": "300+/mo",
+      "specs": {
+        "body": "High-impact plastic",
+        "nozzle": "4 in with removable tip",
+        "rating": null,
+        "extras": "Insulated handle, hanger slot"
+      },
+      "features": {
+        "safety_nozzle": false,
+        "specs_stated": false,
+        "metal_body": false,
+        "extra_nozzles": false
+      },
+      "verdict": "A simple 4-inch blow gun with an insulated handle and a hanger slot, rated 4.6 stars.",
+      "best_for": "Everyday blowoff at a compressor.",
+      "skip_if": "You need flow ratings or a safety nozzle.",
+      "pros": [
+        "Insulated handle",
+        "Hanger slot"
+      ],
+      "cons": [
+        "Plastic body",
+        "Thin listing"
+      ]
+    },
+    {
+      "asin": "B07KY1TQYG",
+      "name": "NEIKO 31121A High Flow Air Blow Gun with 3 Nozzles",
+      "brand": "NEIKO",
+      "model": "31121A",
+      "image": "https://m.media-amazon.com/images/I/61j6bKlJzhL._AC_SL1500_.jpg",
+      "price": 14.29,
+      "rating": 4.6,
+      "reviews_count": 1015,
+      "bought": "500+/mo",
+      "specs": {
+        "body": null,
+        "nozzle": "3 pieces incl. long needle nozzle",
+        "rating": "90 PSI working, 232 PSI max (stated)",
+        "extras": "Oversized thumb trigger, palm size"
+      },
+      "features": {
+        "safety_nozzle": false,
+        "specs_stated": true,
+        "metal_body": false,
+        "extra_nozzles": true
+      },
+      "verdict": "A palm-size gun with a thumb trigger and three nozzles, including a long needle for tight spots.",
+      "best_for": "Quick one-handed blowoff and tight spots.",
+      "skip_if": "You need a safety nozzle.",
+      "pros": [
+        "Three nozzles",
+        "Thumb trigger"
+      ],
+      "cons": [
+        "Plastic",
+        "4.6 stars"
+      ]
+    },
+    {
+      "asin": "B07FNP6V7Q",
+      "name": "JASTIND High Volume Air Blow Gun with Aluminum Rubber-Guard Nozzle (JABG-01D)",
+      "brand": "JASTIND",
+      "model": "JABG-01D",
+      "image": "https://m.media-amazon.com/images/I/61ToADStwqL._AC_SL1200_.jpg",
+      "price": 9.99,
+      "rating": 4.5,
+      "reviews_count": 2295,
+      "bought": "1K+/mo",
+      "specs": {
+        "body": "Chromed zinc alloy",
+        "nozzle": "Extended aluminum with rubber guard",
+        "rating": null,
+        "extras": "Copper alloy valve"
+      },
+      "features": {
+        "safety_nozzle": false,
+        "specs_stated": false,
+        "metal_body": true,
+        "extra_nozzles": false
+      },
+      "verdict": "A metal gun with an extended aluminum nozzle and a rubber guard that won't scratch paint, for about $10.",
+      "best_for": "Detailing and painted parts.",
+      "skip_if": "You need a safety nozzle.",
+      "pros": [
+        "Rubber guard",
+        "Metal body",
+        "About $10"
+      ],
+      "cons": [
+        "4.5 stars"
+      ]
+    },
+    {
+      "asin": "B0CF22QKFS",
+      "name": "SARDVISA High-Volume Air Blow Gun with Angled Rubber-Tip Nozzle (49B002)",
+      "brand": "SARDVISA",
+      "model": "49B002",
+      "image": "https://m.media-amazon.com/images/I/71W6qU-JqZL._AC_SL1500_.jpg",
+      "price": 9.59,
+      "rating": 4.6,
+      "reviews_count": 512,
+      "bought": "600+/mo",
+      "specs": {
+        "body": "Engineering plastic",
+        "nozzle": "Curved with rubber guard",
+        "rating": null,
+        "extras": "Chrome-plated 1/4 in NPT inlet"
+      },
+      "features": {
+        "safety_nozzle": false,
+        "specs_stated": false,
+        "metal_body": false,
+        "extra_nozzles": false
+      },
+      "verdict": "A plastic gun with a curved rubber-tipped nozzle for reaching around corners, the cheapest here.",
+      "best_for": "Reaching around obstacles on a budget.",
+      "skip_if": "You want a metal body.",
+      "pros": [
+        "Curved nozzle",
+        "Under $10"
+      ],
+      "cons": [
+        "Plastic body",
+        "Only 512 reviews"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0CSJNX1YX",
+      "name": "PNTGREEN Air Blow Gun, 4-Inch Air Nozzle (DG10S-1-NEW)",
+      "brand": "PNTGREEN",
+      "model": "DG10S-1-NEW",
+      "image": "https://m.media-amazon.com/images/I/51t4wKRGlfL._AC_SL1500_.jpg",
+      "price": 7.99,
+      "rating": 4.2,
+      "reviews_count": 89,
+      "flag": "Listing text copied from other brands; no ratings",
+      "verdict": "A 4-inch blow gun whose description is lifted from other brands' listings, with no pressure, flow or safety information of its own.",
+      "reasons": [
+        "Its bullets repeat the Astro Pneumatic 1717A's 'high-impact plastic body' with a 'built-in hook slot' and 'Female ¼” Npt for All Types of Air Fittings', and Capri Tools' 'Handle is designed with excellent grip for an ergonomic feel'.",
+        "It gives no maximum pressure, flow rating or safety-tip information.",
+        "It's rated 4.2 stars on 89 reviews. The Astro 1717A it borrows from costs a few dollars more with 1,474 reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What's an OSHA safety nozzle?",
+      "a": "OSHA limits compressed air used for cleaning to under 30 PSI if the nozzle is blocked against skin. Safety nozzles vent air sideways so they can't build that pressure. Required at work, smart at home."
+    },
+    {
+      "q": "Rubber tip or metal?",
+      "a": "Rubber tips won't scratch paint or chrome and seal against holes for blowing out passages. Metal tips are more durable."
+    },
+    {
+      "q": "Extensions",
+      "a": "Long nozzles reach into engine bays, radiators and machine beds without getting your hand in the way."
+    },
+    {
+      "q": "What fitting?",
+      "a": "Almost all blow guns use a 1/4-inch NPT inlet. Add the plug that matches your hose coupler (industrial, automotive or ARO)."
+    },
+    {
+      "q": "Safety",
+      "a": "Wear eye protection, never point a blow gun at anyone, and never use it to clean dust off your skin or clothes."
+    }
+  ]
+}

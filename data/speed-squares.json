@@ -1,0 +1,452 @@
+{
+  "slug": "speed-squares",
+  "title": "The 10 Best Speed Squares",
+  "subtitle": "Speed squares, rafter squares and layout squares for framing and woodworking, ranked from live Amazon data.",
+  "intro": "A speed square marks square and angled cuts, guides your circular saw and lays out rafters. We ranked 10 best-sellers from Swanson, Johnson Level, Klein Tools, Milwaukee and value brands on rating, review volume and features (aluminum construction, scribe notches, rafter guides and multi-square packs).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 10,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "aluminum": 0.3,
+    "scribe_notches": 0.25,
+    "rafter_guide": 0.25,
+    "multi_pack": 0.2
+  },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "material",
+      "label": "Material"
+    },
+    {
+      "key": "markings",
+      "label": "Markings"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "material",
+      "label": "Material"
+    },
+    {
+      "key": "scribe_notches",
+      "label": "Scribe notches",
+      "type": "bool"
+    },
+    {
+      "key": "rafter_guide",
+      "label": "Rafter guide",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00002255O",
+      "force_overall": true,
+      "name": "Swanson Speed Square, 7-Inch Aluminum Layout Square with Blue Book (S0101)",
+      "brand": "Swanson",
+      "model": "S0101",
+      "image": "https://m.media-amazon.com/images/I/71FU38cyOdL._SL1500_.jpg",
+      "price": 9.98,
+      "rating": 4.8,
+      "reviews_count": 17328,
+      "bought": "2K+/mo",
+      "specs": {
+        "size": "7 in",
+        "material": "Die-cast aluminum",
+        "markings": "Rafter scales, CNC-machined 45° and 90°",
+        "extras": "Blue Book rafter guide, matte finish, made in USA"
+      },
+      "features": {
+        "aluminum": true,
+        "scribe_notches": false,
+        "rafter_guide": true,
+        "multi_pack": false
+      },
+      "verdict": "The original Speed Square and the most-reviewed square here, at 17,328 reviews and 4.8 stars: die-cast aluminum, machined true at 45 and 90 degrees, made in the USA, with Swanson's Blue Book of rafter tables.",
+      "best_for": "Every carpenter, framer and DIYer.",
+      "skip_if": "You want scribe notches called out; the listing doesn't mention them.",
+      "pros": [
+        "17,328 reviews; 4.8 stars",
+        "Made in USA",
+        "Blue Book included"
+      ],
+      "cons": [
+        "7 in only"
+      ]
+    },
+    {
+      "asin": "B01CI4UBN6",
+      "name": "Swanson SW1201K Value Pack: 7-Inch Speed Square and Big 12 Speed Square with Blue Book",
+      "brand": "Swanson",
+      "model": "SW1201K",
+      "image": "https://m.media-amazon.com/images/I/81KCyfZGRUL._SL1500_.jpg",
+      "price": 16.5,
+      "rating": 4.8,
+      "reviews_count": 10290,
+      "bought": "3K+/mo",
+      "specs": {
+        "size": "7 in and 12 in",
+        "material": "Aluminum",
+        "markings": "Common, hip, valley and jack rafter scales",
+        "extras": "Blue Book"
+      },
+      "features": {
+        "aluminum": true,
+        "scribe_notches": false,
+        "rafter_guide": true,
+        "multi_pack": true
+      },
+      "verdict": "Swanson's 7-inch Speed Square plus the 12-inch Big 12 for wider stock and stair stringers, with the Blue Book, and 3,000+ sold last month.",
+      "best_for": "Framers and roofers who cut rafters and stair stringers.",
+      "skip_if": "You only need the 7 inch.",
+      "pros": [
+        "Two squares",
+        "3,000+ sold last month",
+        "Rafter scales"
+      ],
+      "cons": [
+        "Big 12 has no layout bar"
+      ]
+    },
+    {
+      "asin": "B00SOVRPXW",
+      "name": "Swanson S0101CB Value Pack: 7-Inch Speed Square, 6-Inch Combination Square and Blue Book",
+      "brand": "Swanson",
+      "model": "S0101CB",
+      "image": "https://m.media-amazon.com/images/I/81LeIwTnybL._SL1500_.jpg",
+      "price": 16.59,
+      "rating": 4.8,
+      "reviews_count": 8755,
+      "bought": "100+/mo",
+      "specs": {
+        "size": "7 in speed square, 6 in combination square",
+        "material": "Aluminum speed square, die-cast zinc combination head",
+        "markings": "Rafter scales",
+        "extras": "Combination square with level vial, Blue Book"
+      },
+      "features": {
+        "aluminum": true,
+        "scribe_notches": false,
+        "rafter_guide": true,
+        "multi_pack": true
+      },
+      "verdict": "The aluminum Speed Square paired with a 6-inch combination square that has a level vial, for marking depths and trim.",
+      "best_for": "Woodworkers who need both a layout square and a combination square.",
+      "skip_if": "You already own a combination square.",
+      "pros": [
+        "Two squares",
+        "Combination square with vial",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Combo square is 6 in"
+      ]
+    },
+    {
+      "asin": "B0F9JT2BN7",
+      "premium": true,
+      "name": "Johnson Level 1904-0700V 7-1/4-Inch Johnny Square MACH-1 Smart Mark Rafter Square with Level Vial",
+      "brand": "Johnson Level",
+      "model": "1904-0700V",
+      "image": "https://m.media-amazon.com/images/I/61L50ab8z4L._SL1000_.jpg",
+      "price": 34.7,
+      "rating": 4.7,
+      "reviews_count": 267,
+      "bought": "1K+/mo",
+      "specs": {
+        "size": "7-1/4 in",
+        "material": null,
+        "markings": "Stud, joist and LVL layout cutouts; 22.5°, 30°, 45° and 60° slots",
+        "extras": "Level vial with 320° visibility, reads roof pitch"
+      },
+      "features": {
+        "aluminum": false,
+        "scribe_notches": true,
+        "rafter_guide": true,
+        "multi_pack": false
+      },
+      "verdict": "A layout square with cutouts at stud, joist and LVL widths, angle slots, and a level vial that reads roof pitch on existing framing.",
+      "best_for": "Framers who want layout and a level in one tool.",
+      "skip_if": "You're on a budget; it costs more than three times a Speed Square.",
+      "pros": [
+        "Built-in level vial",
+        "Layout cutouts",
+        "Angle slots"
+      ],
+      "cons": [
+        "Expensive",
+        "Only 267 reviews"
+      ]
+    },
+    {
+      "asin": "B0BQ3Z1MWJ",
+      "name": "THORVALD 6-in-1 Carpenter Square, 7-Inch, 1/16-Inch Precision",
+      "brand": "THORVALD",
+      "model": "51gd5",
+      "image": "https://m.media-amazon.com/images/I/81dHoqWYlVL._SL1500_.jpg",
+      "price": 22.97,
+      "rating": 4.8,
+      "reviews_count": 2095,
+      "bought": "900+/mo",
+      "specs": {
+        "size": "7 in",
+        "material": "Aluminum, 4 mm thick",
+        "markings": "Laser-engraved, 1/16 in",
+        "extras": "Square, two protractors, marking gauge, drill gauge, wrench"
+      },
+      "features": {
+        "aluminum": true,
+        "scribe_notches": true,
+        "rafter_guide": false,
+        "multi_pack": false
+      },
+      "verdict": "A 4 mm aluminum square with protractors, marking gauges and a drill gauge built in, rated 4.8 stars on 2,095 reviews.",
+      "best_for": "Woodworkers who want marking gauges in a pocket square.",
+      "skip_if": "You cut rafters; there are no rafter tables.",
+      "pros": [
+        "Marking gauge built in",
+        "4.8 stars",
+        "4 mm aluminum"
+      ],
+      "cons": [
+        "No rafter scales"
+      ]
+    },
+    {
+      "asin": "B0DWTDLY69",
+      "name": "Klein Tools 9357SSQ Rafter Square, 7-Inch, Double Laser Etched Aluminum",
+      "brand": "Klein Tools",
+      "model": "9357SSQ",
+      "image": "https://m.media-amazon.com/images/I/51-Mjht-5sL._SL1000_.jpg",
+      "price": 14.98,
+      "rating": 4.8,
+      "reviews_count": 286,
+      "bought": "500+/mo",
+      "specs": {
+        "size": "7 in",
+        "material": "Aluminum",
+        "markings": "Double laser-etched",
+        "extras": "1/4 in scribe notches, pipe prop"
+      },
+      "features": {
+        "aluminum": true,
+        "scribe_notches": true,
+        "rafter_guide": true,
+        "multi_pack": false
+      },
+      "verdict": "Klein's 7-inch rafter square with 1/4-inch scribe notches and a prop that holds pipe steady for marking and cutting.",
+      "best_for": "Electricians and plumbers who mark conduit and pipe.",
+      "skip_if": "You want die-cast markings; these are laser-etched.",
+      "pros": [
+        "Pipe prop",
+        "Scribe notches",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Only 286 reviews"
+      ]
+    },
+    {
+      "asin": "B09F8FWD37",
+      "name": "Swanson Speed Square Pro, 7-Inch (S0100-A)",
+      "brand": "Swanson",
+      "model": "S0100-A",
+      "image": "https://m.media-amazon.com/images/I/61Qjyecc6iL._SL1246_.jpg",
+      "price": 14.98,
+      "rating": 4.8,
+      "reviews_count": 1334,
+      "bought": "700+/mo",
+      "specs": {
+        "size": "7 in",
+        "material": null,
+        "markings": "Double stud wall layout, 22-1/2° pitch guide",
+        "extras": "3/8, 1/2, 3/4 and 1-1/2 in marking guides in the walls"
+      },
+      "features": {
+        "aluminum": false,
+        "scribe_notches": true,
+        "rafter_guide": true,
+        "multi_pack": false
+      },
+      "verdict": "A Speed Square with marking guides cut into the walls at common widths and a 22-1/2-degree guide for octagons and 5-pitch rafters.",
+      "best_for": "Framers laying out stud walls fast.",
+      "skip_if": "You want the Blue Book; it isn't listed.",
+      "pros": [
+        "Marking guides",
+        "Stud wall layout",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Thin listing"
+      ]
+    },
+    {
+      "asin": "B09922V3QX",
+      "name": "Mecurate 7-Inch Die-Cast Aluminum Triangle Rafter Square (MDSS)",
+      "brand": "Mecurate",
+      "model": "MDSS",
+      "image": "https://m.media-amazon.com/images/I/61ZyRbuaeKL._SL1500_.jpg",
+      "price": 9.99,
+      "rating": 4.7,
+      "reviews_count": 1474,
+      "bought": "500+/mo",
+      "specs": {
+        "size": "7 in",
+        "material": "Die-cast aluminum",
+        "markings": "Laser-engraved",
+        "extras": "Hanging hole"
+      },
+      "features": {
+        "aluminum": true,
+        "scribe_notches": false,
+        "rafter_guide": false,
+        "multi_pack": false
+      },
+      "verdict": "A die-cast aluminum rafter square for about $10.",
+      "best_for": "A cheap spare square.",
+      "skip_if": "You want Swanson's markings and Blue Book for the same price.",
+      "pros": [
+        "Die-cast aluminum",
+        "About $10"
+      ],
+      "cons": [
+        "Generic markings"
+      ]
+    },
+    {
+      "asin": "B0002YS7JU",
+      "force_budget": true,
+      "name": "Swanson T0118 8-Inch Composite Speedlite Speed Square",
+      "brand": "Swanson",
+      "model": "T0118",
+      "image": "https://m.media-amazon.com/images/I/51aBK2sUghL._SL1500_.jpg",
+      "price": 4.99,
+      "rating": 4.8,
+      "reviews_count": 4920,
+      "bought": "500+/mo",
+      "specs": {
+        "size": "8 in",
+        "material": "High-impact polystyrene",
+        "markings": "Center line guide",
+        "extras": "1/8 in scribe notches, beveled edge"
+      },
+      "features": {
+        "aluminum": false,
+        "scribe_notches": true,
+        "rafter_guide": false,
+        "multi_pack": false
+      },
+      "verdict": "A light 8-inch composite Speed Square with scribe notches and a center-line guide, for about $5.",
+      "best_for": "Siding installers and anyone who keeps losing squares.",
+      "skip_if": "You want aluminum durability.",
+      "pros": [
+        "About $5",
+        "Scribe notches",
+        "4,920 reviews"
+      ],
+      "cons": [
+        "Plastic"
+      ]
+    },
+    {
+      "asin": "B08N62RRVP",
+      "name": "Milwaukee 7-Inch Rafter Square and 4-1/2-Inch Trim Square Set (MLSQ070P)",
+      "brand": "Milwaukee",
+      "model": "MLSQ070P",
+      "image": "https://m.media-amazon.com/images/I/61v-kLJxeCL._SL1000_.jpg",
+      "price": 33.86,
+      "rating": 4.6,
+      "reviews_count": 237,
+      "bought": "50+/mo",
+      "specs": {
+        "size": "7 in and 4-1/2 in",
+        "material": null,
+        "markings": "Laser-etched",
+        "extras": "Scribe notches 1 to 6 in, 1 in pipe prop cutout"
+      },
+      "features": {
+        "aluminum": false,
+        "scribe_notches": true,
+        "rafter_guide": false,
+        "multi_pack": true
+      },
+      "verdict": "A 7-inch rafter square and a compact 4-1/2-inch trim square for tight trim work.",
+      "best_for": "Trim carpenters and Milwaukee fans.",
+      "skip_if": "You want a value set; Swanson's pack costs half as much.",
+      "pros": [
+        "Two squares",
+        "Compact trim square",
+        "Pipe prop"
+      ],
+      "cons": [
+        "Expensive",
+        "4.6 stars"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FGCTFG48",
+      "name": "ALLWIN 7-Inch Aluminum Rafter Square, Double-Sided Engraved Scales (AL-SJC25)",
+      "brand": "ALLWIN",
+      "model": "AL-SJC25",
+      "image": "https://m.media-amazon.com/images/I/61dExpaTJWL._SL1500_.jpg",
+      "price": 5.99,
+      "rating": 4.5,
+      "reviews_count": 368,
+      "flag": "Claims it works as a level, with no vial",
+      "verdict": "A cheap rafter square that claims it replaces a level and lasts three times longer, with no vial or test behind either claim.",
+      "reasons": [
+        "It says it 'acts as a level', but nothing in the listing describes a level vial. The Johnson square that does work as a level has one.",
+        "It claims '0.1mm precision' and a '3X longer lifespan than stamped squares' without a standard or test.",
+        "It's rated 4.5 stars on 368 reviews. The Swanson T0118 costs less, and the Swanson S0101 costs a few dollars more with 17,328 reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What's a speed square for?",
+      "a": "Marking square and 45-degree lines on boards, guiding a circular saw for square cuts, and laying out rafter angles. It's the most-used layout tool on a framing job."
+    },
+    {
+      "q": "7 or 12 inch?",
+      "a": "The 7-inch fits a tool belt and covers 2x lumber. A 12-inch square spans wider boards and is better for stair stringers and wide rafters."
+    },
+    {
+      "q": "Die-cast or laser-etched?",
+      "a": "Die-cast markings are molded into the square and can't wear off. Laser-etched markings are crisp but can fade with heavy use."
+    },
+    {
+      "q": "What are scribe notches?",
+      "a": "Notches at set intervals let you hold a pencil in place and slide the square along a board to draw a line parallel to the edge."
+    },
+    {
+      "q": "Do I need the Blue Book?",
+      "a": "Only for rafters. It explains how to use the degree and pitch scales to mark common, hip, valley and jack rafters."
+    }
+  ]
+}

@@ -1100,7 +1100,7 @@ def render_pick_card(p, cat, site, label=None, price_note="", tags=""):
       </article>"""
 
 
-TOOLS_FIRST = {"wireless": 0, "wired": 1, "hand": 2, "measure": 3, "garage": 4, "air": 5, "storage": 6}
+TOOLS_FIRST = {"wireless": 0, "wired": 1, "hand": 2, "measure": 3, "garage": 4, "yard": 5, "air": 6, "storage": 7}
 
 
 def _grouped(site, by_slug, pick, order=None):
@@ -1457,6 +1457,7 @@ HOME_GROUPS = [
     ("Hand tools", "No batteries, no cords &mdash; the essentials every toolbox needs.", "hand"),
     ("Measuring & layout", "Levels, stud finders, and tape measures &mdash; mark it right before you cut.", "measure"),
     ("Garage & auto shop", "Shop equipment for working on your own vehicles &mdash; lifting, tires, diagnostics, and inspection.", "garage"),
+    ("Yard & outdoor", "Battery-powered yard tools &mdash; blow, trim, cut, and mow without gas or a pull cord.", "yard"),
 ]
 
 

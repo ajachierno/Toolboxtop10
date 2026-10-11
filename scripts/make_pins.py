@@ -44,10 +44,12 @@ BOARDS = {
     "air": "Air Tools & Compressors",
     "measure": "Measuring & Layout Tools",
     "garage": "Garage & Auto Shop Tools",
+    "yard": "Cordless Yard Tools",
     "gifts": "Tool Gift Ideas (Holiday 2026)",
 }
 GROUP_NOUN = {"wireless": "Cordless Tool", "wired": "Corded Tool", "hand": "Hand Tool", "storage": "Tool Storage",
-              "air": "Air Tool", "measure": "Measuring Tool", "garage": "Garage & Car"}
+              "air": "Air Tool", "measure": "Measuring Tool", "garage": "Garage & Car",
+              "yard": "Yard Tool"}
 
 
 def font(weight, size):

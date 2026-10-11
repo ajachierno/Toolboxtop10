@@ -1,0 +1,450 @@
+{
+  "slug": "drywall-screw-guns",
+  "title": "The 10 Best Drywall Screw Guns",
+  "subtitle": "Cordless and corded drywall screw guns for hanging sheetrock, ranked from live Amazon data.",
+  "intro": "A drywall screw gun sets every screw at the same depth so you don't tear the paper or leave screws proud. We ranked 10 best-sellers from DEWALT, Milwaukee, RYOBI and a budget brand on rating, review volume and features (a brushless motor, cordless power, push or auto start and a battery in the box).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 100,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "brushless": 0.35,
+    "cordless": 0.25,
+    "auto_start": 0.25,
+    "battery_included": 0.15
+  },
+  "reviews_ceiling": 2500,
+  "spec_fields": [
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "brushless",
+      "label": "Brushless",
+      "type": "bool"
+    },
+    {
+      "key": "auto_start",
+      "label": "Push/auto start",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BPY8L57P",
+      "force_overall": true,
+      "name": "DEWALT 20V MAX XR Brushless Drywall Screwgun, Tool Only (DCF630B)",
+      "brand": "DEWALT",
+      "model": "DCF630B",
+      "image": "https://m.media-amazon.com/images/I/51FsCRlKaBL._AC_SL1000_.jpg",
+      "price": 132.0,
+      "rating": 4.5,
+      "reviews_count": 2203,
+      "bought": "1K+/mo",
+      "specs": {
+        "power": "DEWALT 20V MAX (not included)",
+        "speed": "4,400 RPM",
+        "weight": "2.6 lb",
+        "extras": "4 modes incl. PushStart and lock-on, adjustable nosecone, belt clip"
+      },
+      "features": {
+        "brushless": true,
+        "cordless": true,
+        "auto_start": true,
+        "battery_included": false
+      },
+      "verdict": "The best-selling and most-reviewed drywall screw gun here: brushless, 2.6 lb, with four modes including PushStart, where the motor only spins when the screw meets the board.",
+      "best_for": "DEWALT owners hanging drywall, from one room to a whole house.",
+      "skip_if": "You don't own DEWALT batteries.",
+      "pros": [
+        "2,203 reviews; 1,000+ sold last month",
+        "PushStart and lock-on modes",
+        "2.6 lb"
+      ],
+      "cons": [
+        "Bare tool"
+      ]
+    },
+    {
+      "asin": "B00004W5PY",
+      "name": "DEWALT Drywall Screw Gun, 6.0-Amp (DW255)",
+      "brand": "DEWALT",
+      "model": "DW255",
+      "image": "https://m.media-amazon.com/images/I/51yfxaxvMqL._AC_SL1000_.jpg",
+      "price": 92.2,
+      "rating": 4.3,
+      "reviews_count": 641,
+      "bought": "300+/mo",
+      "specs": {
+        "power": "Corded, 6.0 A",
+        "speed": "5,300 RPM",
+        "weight": "4.2 lb",
+        "extras": "Depth-sensitive nosepiece, two-finger trigger"
+      },
+      "features": {
+        "brushless": false,
+        "cordless": false,
+        "auto_start": false,
+        "battery_included": false
+      },
+      "verdict": "DEWALT's classic corded drywall gun: 5,300 RPM for fast production hanging and a set-and-forget nosepiece for consistent screw depth.",
+      "best_for": "Drywall hangers who want a cheap, proven corded gun.",
+      "skip_if": "You hate dragging a cord across the room.",
+      "pros": [
+        "Lowest price of the brand-name guns",
+        "5,300 RPM",
+        "Set-and-forget depth"
+      ],
+      "cons": [
+        "Corded",
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B01M1UQ7NJ",
+      "name": "Milwaukee M18 FUEL Drywall Screw Gun, Tool Only (2866-20)",
+      "brand": "Milwaukee",
+      "model": "2866-20",
+      "image": "https://m.media-amazon.com/images/I/61xZaUEWsPL._AC_SL1500_.jpg",
+      "price": 164.0,
+      "rating": 4.6,
+      "reviews_count": 1451,
+      "bought": "100+/mo",
+      "specs": {
+        "power": "Milwaukee M18 (not included)",
+        "speed": "4,500 RPM",
+        "weight": "2.5 lb",
+        "extras": "Auto Start mode, LED on the foot, up to 64 sheets per XC5.0 charge"
+      },
+      "features": {
+        "brushless": true,
+        "cordless": true,
+        "auto_start": true,
+        "battery_included": false
+      },
+      "verdict": "Milwaukee's M18 FUEL screw gun with an Auto Start mode that keeps the motor off until the screw touches the board, which Milwaukee says triples runtime.",
+      "best_for": "Milwaukee M18 crews.",
+      "skip_if": "You don't own M18 batteries.",
+      "pros": [
+        "Auto Start mode",
+        "4.6 stars; 1,451 reviews",
+        "Up to 64 sheets per charge (XC5.0)"
+      ],
+      "cons": [
+        "Bare tool"
+      ]
+    },
+    {
+      "asin": "B07MHML6K9",
+      "name": "RYOBI ONE+ 18V Cordless Brushless Drywall Screw Gun, Tool Only (P225)",
+      "brand": "RYOBI",
+      "model": "P225",
+      "image": "https://m.media-amazon.com/images/I/616+REoZMnL._AC_SL1000_.jpg",
+      "price": 111.39,
+      "rating": 4.4,
+      "reviews_count": 364,
+      "bought": "50+/mo",
+      "specs": {
+        "power": "RYOBI 18V ONE+ (not included)",
+        "speed": "4,700 RPM",
+        "weight": "2.7 lb",
+        "extras": null
+      },
+      "features": {
+        "brushless": true,
+        "cordless": true,
+        "auto_start": false,
+        "battery_included": false
+      },
+      "verdict": "A brushless RYOBI screw gun at 4,700 RPM for ONE+ owners. The listing is thin, with only the title as a description.",
+      "best_for": "RYOBI owners doing a room or two.",
+      "skip_if": "You want a listing that describes the tool; this one doesn't.",
+      "pros": [
+        "Brushless",
+        "4,700 RPM",
+        "Cheaper than the DEWALT and Milwaukee cordless guns"
+      ],
+      "cons": [
+        "Thin listing",
+        "Bare tool"
+      ]
+    },
+    {
+      "asin": "B0BZ3VDDBL",
+      "premium": true,
+      "name": "DEWALT 20V MAX XR Brushless Drywall Screw Gun and Cut-Out Tool Combo Kit (DCK265D2)",
+      "brand": "DEWALT",
+      "model": "DCK265D2",
+      "image": "https://m.media-amazon.com/images/I/61jmxmIvalL._AC_SL1000_.jpg",
+      "price": 377.6,
+      "rating": 4.4,
+      "reviews_count": 409,
+      "bought": "100+/mo",
+      "specs": {
+        "power": "DEWALT 20V MAX, two 2.0Ah batteries and charger included",
+        "speed": "Cut-out tool 26,000 RPM",
+        "weight": null,
+        "extras": "Screw gun with 4 modes plus a brushless cut-out tool"
+      },
+      "features": {
+        "brushless": true,
+        "cordless": true,
+        "auto_start": true,
+        "battery_included": true
+      },
+      "verdict": "A full drywall kit: DEWALT's brushless screw gun plus a 26,000 RPM cut-out tool for outlet and window openings, with two batteries and a charger.",
+      "best_for": "Anyone starting from scratch who wants both drywall tools.",
+      "skip_if": "You already own DEWALT batteries; buy the bare tools.",
+      "pros": [
+        "Screw gun and cut-out tool",
+        "Batteries and charger included"
+      ],
+      "cons": [
+        "Most expensive here",
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B0BVXQJW1L",
+      "name": "DEWALT 20V MAX Drywall Screw Gun Kit with Battery and Charger (DCF630E1)",
+      "brand": "DEWALT",
+      "model": "DCF630E1",
+      "image": "https://m.media-amazon.com/images/I/51TezVzAN+L._AC_SL1000_.jpg",
+      "price": 210.0,
+      "rating": 4.6,
+      "reviews_count": 67,
+      "specs": {
+        "power": "DEWALT 20V MAX, battery and charger included",
+        "speed": null,
+        "weight": null,
+        "extras": "4 modes incl. PushStart, adjustable nosecone"
+      },
+      "features": {
+        "brushless": true,
+        "cordless": true,
+        "auto_start": true,
+        "battery_included": true
+      },
+      "verdict": "The DCF630 screw gun sold as a kit with a battery and charger, for people new to DEWALT.",
+      "best_for": "First-time DEWALT buyers.",
+      "skip_if": "You already have DEWALT batteries.",
+      "pros": [
+        "Battery and charger included",
+        "PushStart mode",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Only 67 reviews",
+        "Costs more than the bare tool"
+      ]
+    },
+    {
+      "asin": "B00004RH3X",
+      "name": "DEWALT Drywall Screw Gun, Variable Speed Reversible, 6.5-Amp (DW276)",
+      "brand": "DEWALT",
+      "model": "DW276",
+      "image": "https://m.media-amazon.com/images/I/51tPMdx-FyL._AC_SL1000_.jpg",
+      "price": 183.99,
+      "rating": 4.5,
+      "reviews_count": 161,
+      "specs": {
+        "power": "Corded, 6.5 A",
+        "speed": "2,500 RPM",
+        "weight": "4.5 lb",
+        "extras": "Metal gear housing, depth-sensitive nosepiece"
+      },
+      "features": {
+        "brushless": false,
+        "cordless": false,
+        "auto_start": false,
+        "battery_included": false
+      },
+      "verdict": "A slower, higher-torque corded screw gun for decks and heavy-gauge steel studs as well as drywall, with a metal gear housing.",
+      "best_for": "Framers driving into steel studs and decking.",
+      "skip_if": "You hang regular drywall; the faster DW255 suits it better.",
+      "pros": [
+        "Higher torque",
+        "Metal gear housing",
+        "4.5 stars"
+      ],
+      "cons": [
+        "2,500 RPM",
+        "Corded"
+      ]
+    },
+    {
+      "asin": "B0000224J5",
+      "name": "DEWALT VSR Versa-Clutch Screw Gun, 6.5-Amp (DW268)",
+      "brand": "DEWALT",
+      "model": "DW268",
+      "image": "https://m.media-amazon.com/images/I/71zDxzM7fzL._AC_SL1500_.jpg",
+      "price": 200.15,
+      "rating": 4.6,
+      "reviews_count": 178,
+      "specs": {
+        "power": "Corded, 6.5 A",
+        "speed": "2,500 RPM",
+        "weight": "4.3 lb",
+        "extras": "Versa-Clutch torque adjustment, metal nose and gear case"
+      },
+      "features": {
+        "brushless": false,
+        "cordless": false,
+        "auto_start": false,
+        "battery_included": false
+      },
+      "verdict": "A corded screw gun with DEWALT's Versa-Clutch, which sets torque instead of depth, for metal fastening.",
+      "best_for": "Metal roofing, siding and steel framing.",
+      "skip_if": "You hang drywall; it has a clutch, not a depth nosepiece.",
+      "pros": [
+        "Adjustable clutch",
+        "Metal nose and gear case",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Not a depth-setting drywall gun",
+        "Corded"
+      ]
+    },
+    {
+      "asin": "B00002233W",
+      "name": "DEWALT Drywall Screw Gun, 6.2-Amp (DW257)",
+      "brand": "DEWALT",
+      "model": "DW257",
+      "image": "https://m.media-amazon.com/images/I/51T1WZmQCXL._AC_SL1000_.jpg",
+      "price": 114.36,
+      "rating": 4.2,
+      "reviews_count": 92,
+      "specs": {
+        "power": "Corded, 6.2 A",
+        "speed": "2,500 RPM",
+        "weight": "4.2 lb",
+        "extras": "Depth-sensitive nosepiece"
+      },
+      "features": {
+        "brushless": false,
+        "cordless": false,
+        "auto_start": false,
+        "battery_included": false
+      },
+      "verdict": "An all-purpose corded screw gun for drywall, decking and heavy-gauge steel studs, with a set-and-forget nosepiece.",
+      "best_for": "Mixed drywall and decking work.",
+      "skip_if": "You want speed for drywall; the DW255 is faster and cheaper.",
+      "pros": [
+        "Depth-sensitive nosepiece",
+        "High torque"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Corded"
+      ]
+    },
+    {
+      "asin": "B0D69LP496",
+      "name": "Hoteche 4.5-Amp Drywall Screw Gun, Variable Speed 0-4500 RPM, 1/4\" Chuck",
+      "brand": "Hoteche",
+      "model": "P800206A",
+      "image": "https://m.media-amazon.com/images/I/51dNEAbvQUL._AC_SL1000_.jpg",
+      "price": 39.99,
+      "rating": 3.8,
+      "reviews_count": 41,
+      "specs": {
+        "power": "Corded, 4.5 A",
+        "speed": "0-4,500 RPM",
+        "weight": "3.5 lb",
+        "extras": "Spare carbon brushes, bit holder"
+      },
+      "features": {
+        "brushless": false,
+        "cordless": false,
+        "auto_start": false,
+        "battery_included": false
+      },
+      "verdict": "The cheapest screw gun here, a corded 4.5-amp gun for about $40 with spare brushes in the box.",
+      "best_for": "One small drywall patch or project.",
+      "skip_if": "You hang drywall often; it's rated 3.8 stars.",
+      "pros": [
+        "About $40",
+        "Spare brushes"
+      ],
+      "cons": [
+        "3.8 stars",
+        "Only 41 reviews"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DKXD29PH",
+      "name": "MAXXT 20V Brushless Drywall Screw Gun (Tool Only), 2-in-1 Screwdriver and Router",
+      "brand": "MAXXT",
+      "model": "8504+1901",
+      "image": "https://m.media-amazon.com/images/I/71Ku42R1ucL._AC_SL1500_.jpg",
+      "price": 128.99,
+      "rating": 2.8,
+      "reviews_count": 12,
+      "flag": "Contradictory listing; 2.8 stars",
+      "verdict": "A 2-in-1 screw gun and router whose listing contradicts itself on what's in the box, with the lowest rating of the guns we looked at.",
+      "reasons": [
+        "The title says 'Tool Only', but the spec table lists 'Batteries' as the included component.",
+        "The model number is two part numbers joined with a plus sign, and the spec table gives the 'maximum chuck size' as 5.7 centimeters, which is the longest screw it sets, not a chuck size.",
+        "It's rated 2.8 stars. The RYOBI P225 is brushless, cheaper, and rated 4.4."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Why not just use a drill?",
+      "a": "A drywall screw gun has a depth-setting nosecone that sinks each screw just below the paper without tearing it, and a clutch that disengages when the screw is set. It's faster and gives a cleaner finish than a drill."
+    },
+    {
+      "q": "Corded or cordless?",
+      "a": "Corded guns are cheap and run all day. Cordless guns are lighter and free you from the cord on ladders and ceilings, and modern brushless ones get through dozens of sheets per charge."
+    },
+    {
+      "q": "What are PushStart and Auto Start?",
+      "a": "The trigger stays locked on, but the motor only spins when you press a screw into the board. It's quieter and saves battery."
+    },
+    {
+      "q": "High RPM or high torque?",
+      "a": "Around 4,000 to 5,300 RPM suits drywall. Slower, 2,500 RPM guns like the DW276 and DW257 have more torque for decking and heavy-gauge steel."
+    },
+    {
+      "q": "Do I need a collated attachment?",
+      "a": "For whole houses, a collated (strip-fed) attachment speeds up hanging a lot. For a room or two, loose screws are fine."
+    }
+  ]
+}

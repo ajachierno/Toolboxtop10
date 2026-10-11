@@ -1,0 +1,466 @@
+{
+  "slug": "hvlp-air-spray-guns",
+  "title": "The 10 Best HVLP and LVLP Spray Guns",
+  "subtitle": "Gravity-feed HVLP and LVLP air spray guns for auto paint, furniture and cabinets, ranked from live Amazon data.",
+  "intro": "A gravity-feed spray gun atomizes paint finely for a smooth finish on cars, cabinets and furniture. We ranked 10 best-sellers from AEROPRO, InoKraft, TCP Global, REFINE, NEIKO and value brands on rating, review volume and features (multiple nozzles, an included regulator, stated air use and two-gun sets).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 36,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "multi_nozzle": 0.3,
+    "regulator": 0.25,
+    "air_specs": 0.25,
+    "two_guns": 0.2
+  },
+  "reviews_ceiling": 2500,
+  "spec_fields": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "nozzles",
+      "label": "Nozzles"
+    },
+    {
+      "key": "cup",
+      "label": "Cup"
+    },
+    {
+      "key": "air",
+      "label": "Air use"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "nozzles",
+      "label": "Nozzles"
+    },
+    {
+      "key": "regulator",
+      "label": "Regulator included",
+      "type": "bool"
+    },
+    {
+      "key": "multi_nozzle",
+      "label": "Multiple nozzles",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0BMNWDL3X",
+      "force_overall": true,
+      "name": "AEROPRO R500 LVLP Air Spray Gun, Automotive Paint Sprayer (A610)",
+      "brand": "AEROPRO",
+      "model": "R500/A610",
+      "image": "https://m.media-amazon.com/images/I/612I4Rr6pnL._AC_SL1500_.jpg",
+      "price": 70.0,
+      "rating": 4.5,
+      "reviews_count": 1176,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "LVLP, gravity feed",
+        "nozzles": "1.3, 1.5 and 1.7 mm",
+        "cup": "600 cc",
+        "air": "3.0-3.9 CFM at 2.0-3.5 bar",
+        "extras": "Two-stage trigger, Teflon-coated body, air regulator"
+      },
+      "features": {
+        "multi_nozzle": true,
+        "regulator": true,
+        "air_specs": true,
+        "two_guns": false
+      },
+      "verdict": "An LVLP gun that runs on 3.0 to 3.9 CFM, so it works on smaller compressors, with three nozzles for basecoat, primer and high-build coatings, rated 4.5 stars.",
+      "best_for": "Car and furniture painters with a small or mid-size compressor.",
+      "skip_if": "You want a two-gun set for primer and detail work.",
+      "pros": [
+        "Low air use",
+        "Three nozzles",
+        "Regulator included"
+      ],
+      "cons": [
+        "One gun"
+      ]
+    },
+    {
+      "asin": "B0CD1RNPWK",
+      "premium": true,
+      "name": "InoKraft D1 Drizzle LVLP Air Spray Gun Premium Kit",
+      "brand": "InoKraft",
+      "model": "D1",
+      "image": "https://m.media-amazon.com/images/I/61A1OmE-iUL._AC_SL1500_.jpg",
+      "price": 119.99,
+      "rating": 4.6,
+      "reviews_count": 1238,
+      "bought": "800+/mo",
+      "specs": {
+        "type": "LVLP",
+        "nozzles": "Common sizes included",
+        "cup": null,
+        "air": null,
+        "extras": "Pressure regulators, oil-water separators, forged aluminum Teflon-coated body, marked scales"
+      },
+      "features": {
+        "multi_nozzle": true,
+        "regulator": true,
+        "air_specs": false,
+        "two_guns": false
+      },
+      "verdict": "The best-selling gun here and tied for the best rating: an LVLP kit with regulators, oil-water separators and spare nozzles, plus marked scales and videos for first-time painters.",
+      "best_for": "Beginners who want everything to start spraying.",
+      "skip_if": "You're on a budget; it's the most expensive here.",
+      "pros": [
+        "4.6 stars; 800+ sold last month",
+        "Complete starter kit",
+        "Forged aluminum body"
+      ],
+      "cons": [
+        "Most expensive here",
+        "Nozzle sizes not listed"
+      ]
+    },
+    {
+      "asin": "B002PK2TD4",
+      "name": "TCP Global Professional HVLP Spray Gun, 2.0 mm, Gravity Feed (G6600-20)",
+      "brand": "TCP Global",
+      "model": "G6600-20",
+      "image": "https://m.media-amazon.com/images/I/71qHgm7RfzS._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.4,
+      "reviews_count": 2299,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "HVLP, gravity feed",
+        "nozzles": "2.0 mm",
+        "cup": "1 L aluminum",
+        "air": null,
+        "extras": "Full baffle head, pattern, fluid and air knobs, regulator"
+      },
+      "features": {
+        "multi_nozzle": false,
+        "regulator": true,
+        "air_specs": false,
+        "two_guns": false
+      },
+      "verdict": "The most-reviewed gun here: a 2.0 mm HVLP gun with a 1-liter cup and full adjustment, suited to primer and single-stage paint.",
+      "best_for": "Primer and single-stage paint on car panels.",
+      "skip_if": "You need a smaller tip for clearcoat; buy a 1.3-1.5 mm gun.",
+      "pros": [
+        "2,299 reviews",
+        "1 L cup",
+        "Full adjustment"
+      ],
+      "cons": [
+        "One nozzle",
+        "Reviews shared with the 2.5 mm version"
+      ]
+    },
+    {
+      "asin": "B0C77G52JM",
+      "name": "REFINE HVLP Air Spray Gun Set, 2 Guns, 1.0/1.4/1.7 mm Nozzles and Regulator (RF601AG/RF602AG)",
+      "brand": "REFINE",
+      "model": "RF601AG/RF602AG",
+      "image": "https://m.media-amazon.com/images/I/710y8q7mi9L._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.6,
+      "reviews_count": 236,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "HVLP, two guns",
+        "nozzles": "1.0, 1.4 and 1.7 mm",
+        "cup": null,
+        "air": null,
+        "extras": "Die-cast aluminum bodies, brass air caps, 360° adjustable nozzle, regulator"
+      },
+      "features": {
+        "multi_nozzle": true,
+        "regulator": true,
+        "air_specs": false,
+        "two_guns": true
+      },
+      "verdict": "Two die-cast aluminum HVLP guns with brass air caps, three nozzles and a regulator, rated 4.6 stars.",
+      "best_for": "Painters who want a detail gun and a full-size gun.",
+      "skip_if": "You only need one gun.",
+      "pros": [
+        "Two guns",
+        "Three nozzles",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Only 236 reviews"
+      ]
+    },
+    {
+      "asin": "B08JGGDLYN",
+      "name": "Hotorda HVLP Air Gravity Spray Gun Set, 2 Guns, 0.8 mm 150 ml and 1.4 mm 600 ml, with Regulator",
+      "brand": "Hotorda",
+      "model": "H-2000/H-827",
+      "image": "https://m.media-amazon.com/images/I/71fGdq8YlWL._AC_SL1500_.jpg",
+      "price": 34.99,
+      "rating": 4.4,
+      "reviews_count": 1242,
+      "bought": "200+/mo",
+      "specs": {
+        "type": "HVLP, two guns",
+        "nozzles": "0.8 mm and 1.4 mm",
+        "cup": "150 ml and 600 ml",
+        "air": null,
+        "extras": "Locking air pressure regulator gauge, 2 wrenches"
+      },
+      "features": {
+        "multi_nozzle": true,
+        "regulator": true,
+        "air_specs": false,
+        "two_guns": true
+      },
+      "verdict": "A full-size 1.4 mm gun and a small 0.8 mm touch-up gun with a locking regulator, for about $35.",
+      "best_for": "Touch-ups and small panels on a budget.",
+      "skip_if": "You want a proven brand.",
+      "pros": [
+        "Two guns",
+        "Regulator",
+        "About $35"
+      ],
+      "cons": [
+        "Reviews shared with a similar Hotorda set"
+      ]
+    },
+    {
+      "asin": "B0C72GFK66",
+      "force_budget": true,
+      "name": "ENDOZER Professional HVLP Spray Gun Set, Gravity Feed, 1.4/1.7/2.0 mm (H827)",
+      "brand": "ENDOZER",
+      "model": "H827",
+      "image": "https://m.media-amazon.com/images/I/61BAllHDQ2L._AC_SL1500_.jpg",
+      "price": 29.99,
+      "rating": 4.4,
+      "reviews_count": 722,
+      "bought": "500+/mo",
+      "specs": {
+        "type": "HVLP, gravity feed",
+        "nozzles": "1.4, 1.7 and 2.0 mm stainless",
+        "cup": "600 ml",
+        "air": null,
+        "extras": "Brass air cap, 15-hole design"
+      },
+      "features": {
+        "multi_nozzle": true,
+        "regulator": false,
+        "air_specs": false,
+        "two_guns": false
+      },
+      "verdict": "An HVLP gun with three stainless nozzle and needle sets and a brass air cap, for about $30.",
+      "best_for": "Budget painters and first projects.",
+      "skip_if": "You want a regulator in the box.",
+      "pros": [
+        "About $30",
+        "Three nozzles",
+        "Brass air cap"
+      ],
+      "cons": [
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B07YS54VBD",
+      "name": "BANG4BUCK High Performance HVLP Gravity Feed Spray Gun, 1.4/1.7/2.5 mm, 1000 cc Aluminum Cup",
+      "brand": "BANG4BUCK",
+      "model": "HVLP gravity",
+      "image": "https://m.media-amazon.com/images/I/71LmgA3TV1L._AC_SL1500_.jpg",
+      "price": 35.99,
+      "rating": 4.3,
+      "reviews_count": 1721,
+      "bought": "300+/mo",
+      "specs": {
+        "type": "HVLP, gravity feed",
+        "nozzles": "1.4, 1.7 and 2.5 mm",
+        "cup": "1000 cc aluminum",
+        "air": null,
+        "extras": "Pattern, fluid and air knobs"
+      },
+      "features": {
+        "multi_nozzle": true,
+        "regulator": false,
+        "air_specs": false,
+        "two_guns": false
+      },
+      "verdict": "An HVLP gun with three nozzles from clearcoat to primer and a 1-liter aluminum cup, with 1,721 reviews.",
+      "best_for": "DIY auto painters who want a big cup.",
+      "skip_if": "You want a regulator included.",
+      "pros": [
+        "Three nozzles",
+        "1 L aluminum cup",
+        "1,721 reviews"
+      ],
+      "cons": [
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B0CPL2QX9L",
+      "name": "Zeinlenx HVLP Gravity Feed Spray Gun Kit, 1.4/1.7/2.0/2.5 mm Nozzles",
+      "brand": "Zeinlenx",
+      "model": "827-4 nozzle",
+      "image": "https://m.media-amazon.com/images/I/71yXv1BpcJL._AC_SL1280_.jpg",
+      "price": 43.99,
+      "rating": 4.3,
+      "reviews_count": 175,
+      "specs": {
+        "type": "HVLP, gravity feed",
+        "nozzles": "1.4, 1.7, 2.0 and 2.5 mm",
+        "cup": "1000 cc aluminum",
+        "air": null,
+        "extras": "Aluminum alloy body"
+      },
+      "features": {
+        "multi_nozzle": true,
+        "regulator": false,
+        "air_specs": false,
+        "two_guns": false
+      },
+      "verdict": "An HVLP gun with four nozzles and a 1-liter aluminum cup.",
+      "best_for": "Painters who want every common tip size.",
+      "skip_if": "You want a proven product; it has 175 reviews.",
+      "pros": [
+        "Four nozzles",
+        "1 L cup"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Only 175 reviews"
+      ]
+    },
+    {
+      "asin": "B000UVHM3W",
+      "name": "NEIKO 31216A HVLP Gravity Feed Air Spray Gun, 2.0 mm, 600 cc",
+      "brand": "NEIKO",
+      "model": "31216A",
+      "image": "https://m.media-amazon.com/images/I/51vqU+v1-QL._AC_SL1234_.jpg",
+      "price": 43.99,
+      "rating": 4.2,
+      "reviews_count": 875,
+      "specs": {
+        "type": "HVLP, gravity feed",
+        "nozzles": "2.0 mm",
+        "cup": "600 cc",
+        "air": null,
+        "extras": "All-steel body, stainless nozzle, brass cap"
+      },
+      "features": {
+        "multi_nozzle": false,
+        "regulator": false,
+        "air_specs": false,
+        "two_guns": false
+      },
+      "verdict": "A simple all-steel HVLP gun with a 2.0 mm nozzle for primer, clearcoat and household projects.",
+      "best_for": "Occasional household and shop painting.",
+      "skip_if": "You want multiple tips.",
+      "pros": [
+        "All-steel body",
+        "Brass cap"
+      ],
+      "cons": [
+        "4.2 stars",
+        "One nozzle"
+      ]
+    },
+    {
+      "asin": "B0GVSSFZKC",
+      "name": "KCNKCN HVLP Air Spray Gun Kit with 5 Nozzles, 1000 cc Cup and Regulator (H827)",
+      "brand": "KCNKCN",
+      "model": "H827",
+      "image": "https://m.media-amazon.com/images/I/71M-OBCLl5L._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.0,
+      "reviews_count": 24,
+      "bought": "50+/mo",
+      "specs": {
+        "type": "HVLP, gravity feed",
+        "nozzles": "1.4, 1.7, 2.0, 2.5 and 3.0 mm",
+        "cup": "1000 cc aluminum",
+        "air": "275 L/min at 2.5-3.5 bar",
+        "extras": "2-in-1 regulator and filter, cleaning kit"
+      },
+      "features": {
+        "multi_nozzle": true,
+        "regulator": true,
+        "air_specs": true,
+        "two_guns": false
+      },
+      "verdict": "A kit with five nozzles up to 3.0 mm, a 1-liter cup, a regulator with filter and a cleaning kit, and a stated air use.",
+      "best_for": "Thick primers and high-build coatings.",
+      "skip_if": "You want a proven kit; it has 24 reviews and 4.0 stars.",
+      "pros": [
+        "Five nozzles",
+        "Regulator and filter",
+        "Air use stated"
+      ],
+      "cons": [
+        "4.0 stars",
+        "Only 24 reviews"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FWJSKZ5R",
+      "name": "SRQLNTT 819 HVLP Air Spray Gun Kit, 1.3/1.7/2.0 mm Nozzles, with Regulator",
+      "brand": "SRQLNTT",
+      "model": "SRQ-001",
+      "image": "https://m.media-amazon.com/images/I/71J9t0JhXxL._AC_SL1500_.jpg",
+      "price": 30.99,
+      "rating": 4.4,
+      "reviews_count": 96,
+      "flag": "Sold as HVLP with LVLP air specs copied from another brand",
+      "verdict": "A gun sold as HVLP whose air specs say 'low air volume' and match another brand's LVLP gun word for word.",
+      "reasons": [
+        "It calls itself 'HVLP (High Volume Low Pressure)', but lists 'low air volume (3.0-3.9 cfm)' at 2.0 to 3.5 bar, the exact figures AEROPRO gives for its LVLP R500.",
+        "The model number field reads 'Gravity Feed Air Paint Gun', a description rather than a model.",
+        "It's rated 4.4 stars on 96 reviews. If you want a low-air gun, the AEROPRO R500 is a real LVLP gun with a regulator and 1,176 reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "HVLP or LVLP?",
+      "a": "HVLP guns use lots of air at low pressure for good transfer efficiency, so they need a bigger compressor. LVLP guns use less air and run on smaller compressors with similar finish quality."
+    },
+    {
+      "q": "Which nozzle size?",
+      "a": "1.3 to 1.5 mm for basecoat and clearcoat, 1.7 to 2.0 mm for primer and single-stage paint, 2.5 mm and up for high-build primer. Sets with several nozzles cover a whole job."
+    },
+    {
+      "q": "Do I need a regulator?",
+      "a": "Yes. A regulator at the gun lets you set the exact pressure the gun is designed for. A water separator keeps moisture out of the paint."
+    },
+    {
+      "q": "Compressor size",
+      "a": "Check the gun's CFM rating and buy a compressor that delivers more than that continuously. Undersized compressors cause sputtering and poor atomization."
+    },
+    {
+      "q": "Clean it right away",
+      "a": "Run the right solvent through the gun after every use and take apart the nozzle and needle. Dried paint ruins spray patterns."
+    }
+  ]
+}

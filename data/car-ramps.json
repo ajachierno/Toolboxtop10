@@ -1,0 +1,477 @@
+{
+  "slug": "car-ramps",
+  "title": "The 10 Best Car Ramps",
+  "subtitle": "Plastic car ramps for oil changes and under-car maintenance, ranked from live Amazon data.",
+  "intro": "Car ramps lift the front of your car in seconds so you can change the oil or inspect underneath without a jack. We ranked 10 best-sellers from Ironton, MaxxHaul, ROBLOCK, TOWKING and others on rating, review volume and features (6 inches or more of lift, a gentle incline, rubber feet, stackable storage and a matched pair).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 35,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "lift_6": 0.3,
+    "gentle_incline": 0.2,
+    "rubber_feet": 0.2,
+    "stackable": 0.15,
+    "pair": 0.15
+  },
+  "reviews_ceiling": 2000,
+  "spec_fields": [
+    {
+      "key": "lift",
+      "label": "Lift height"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "incline",
+      "label": "Incline"
+    },
+    {
+      "key": "material",
+      "label": "Material"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "lift",
+      "label": "Lift"
+    },
+    {
+      "key": "capacity",
+      "label": "Capacity"
+    },
+    {
+      "key": "gentle_incline",
+      "label": "Low-car friendly",
+      "type": "bool"
+    },
+    {
+      "key": "stackable",
+      "label": "Stackable",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07N8GNGBT",
+      "force_overall": true,
+      "name": "Ironton Poly Car Ramp Set, 2-Piece",
+      "brand": "Ironton",
+      "model": "3469234",
+      "image": "https://m.media-amazon.com/images/I/61CYkfuJEEL._AC_SL1500_.jpg",
+      "price": 58.99,
+      "rating": 4.7,
+      "reviews_count": 985,
+      "bought": "2K+/mo",
+      "specs": {
+        "lift": null,
+        "capacity": "6,000 lb per ramp, 12,000 lb per pair",
+        "incline": null,
+        "material": "High-impact poly, honeycomb",
+        "extras": "Rubber feet, non-skid tread, 20.6 lb per pair"
+      },
+      "features": {
+        "lift_6": false,
+        "gentle_incline": false,
+        "rubber_feet": true,
+        "stackable": false,
+        "pair": true
+      },
+      "verdict": "The best-selling ramp set here: high-impact poly ramps rated 6,000 lb each with rubber feet and a non-skid tread, rated 4.7 stars, and light at 20.6 lb for the pair.",
+      "best_for": "Oil changes and under-car work on cars, SUVs and light trucks.",
+      "skip_if": "You need the lift height listed; it isn't.",
+      "pros": [
+        "4.7 stars; 2,000+ sold last month",
+        "12,000 lb per pair",
+        "Rubber feet"
+      ],
+      "cons": [
+        "Lift height not listed"
+      ]
+    },
+    {
+      "asin": "B08KFNP8MS",
+      "name": "MaxxHaul 50515 Car Ramps, 6.25-Inch Lift, 2-Pack, 6,500 lb GVW",
+      "brand": "MaxxHaul",
+      "model": "50515",
+      "image": "https://m.media-amazon.com/images/I/61O0-sgAKRL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.6,
+      "reviews_count": 1025,
+      "bought": "1K+/mo",
+      "specs": {
+        "lift": "6.25 in",
+        "capacity": "3,250 lb per ramp, 6,500 lb per pair",
+        "incline": null,
+        "material": "Heavy-duty plastic",
+        "extras": "Rubber stops, deep-grooved surface"
+      },
+      "features": {
+        "lift_6": true,
+        "gentle_incline": false,
+        "rubber_feet": true,
+        "stackable": false,
+        "pair": true
+      },
+      "verdict": "A 6.25-inch plastic ramp pair with rubber stops on the base and deep grooves for the tires, with 1,025 reviews.",
+      "best_for": "Oil changes on cars and small SUVs.",
+      "skip_if": "Your vehicle is heavy; it's rated 6,500 lb per pair.",
+      "pros": [
+        "6.25 in lift",
+        "Rubber stops",
+        "1,000+ sold last month"
+      ],
+      "cons": [
+        "Lower capacity than Ironton"
+      ]
+    },
+    {
+      "asin": "B0D2K59HHT",
+      "name": "MaxxHaul 50947 Stackable Car Ramps, 6.7-Inch Lift, 6,500 lb per Pair",
+      "brand": "MaxxHaul",
+      "model": "50947",
+      "image": "https://m.media-amazon.com/images/I/61X1ut2X+IL._AC_SL1500_.jpg",
+      "price": 68.99,
+      "rating": 4.4,
+      "reviews_count": 302,
+      "bought": "600+/mo",
+      "specs": {
+        "lift": "6.7 in",
+        "capacity": "3,250 lb per ramp, 6,500 lb per pair",
+        "incline": null,
+        "material": "Polypropylene",
+        "extras": "Patented stackable design, 35.63 x 12 x 8.5 in"
+      },
+      "features": {
+        "lift_6": true,
+        "gentle_incline": false,
+        "rubber_feet": false,
+        "stackable": true,
+        "pair": true
+      },
+      "verdict": "MaxxHaul's stackable ramps nest together for storage and give 6.7 inches of lift.",
+      "best_for": "Small garages where storage space matters.",
+      "skip_if": "Your vehicle is over 6,500 lb.",
+      "pros": [
+        "Stackable",
+        "6.7 in lift"
+      ],
+      "cons": [
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B0BP5C3749",
+      "premium": true,
+      "name": "MaxxHaul 50709 Detachable Extendable Car Ramps, 6,500 lb, 2-Pack",
+      "brand": "MaxxHaul",
+      "model": "50709",
+      "image": "https://m.media-amazon.com/images/I/717gqbSD2FL._AC_SL1500_.jpg",
+      "price": 132.99,
+      "rating": 4.6,
+      "reviews_count": 305,
+      "bought": "300+/mo",
+      "specs": {
+        "lift": "6-1/2 in",
+        "capacity": "3,250 lb per ramp, 6,500 lb per pair",
+        "incline": "9.5°",
+        "material": "Industrial-grade PP",
+        "extras": "Detachable front section, 15 in max tire width, extensions sold separately"
+      },
+      "features": {
+        "lift_6": true,
+        "gentle_incline": true,
+        "rubber_feet": false,
+        "stackable": false,
+        "pair": true
+      },
+      "verdict": "Long, gentle ramps with a 9.5-degree incline for low cars, and a front section that detaches once you're up to free space under the car.",
+      "best_for": "Low sports cars that scrape on steeper ramps.",
+      "skip_if": "You're on a budget; they're the most expensive here.",
+      "pros": [
+        "9.5° incline",
+        "Detachable front",
+        "15 in tire width"
+      ],
+      "cons": [
+        "Most expensive here",
+        "52.5 in long"
+      ]
+    },
+    {
+      "asin": "B0GTTWGPLY",
+      "name": "TOWKING Stackable Heavy Duty Car Ramps, 7.3-Inch Lift, 16,000 lb (TK-CR992004)",
+      "brand": "TOWKING",
+      "model": "TK-CR992004",
+      "image": "https://m.media-amazon.com/images/I/81u9ZsrEyWL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.4,
+      "reviews_count": 43,
+      "bought": "200+/mo",
+      "specs": {
+        "lift": "7.3 in",
+        "capacity": "16,000 lb per pair (stated)",
+        "incline": "17°",
+        "material": "High-impact polypropylene",
+        "extras": "Stackable, 18 rubber feet per ramp"
+      },
+      "features": {
+        "lift_6": true,
+        "gentle_incline": true,
+        "rubber_feet": true,
+        "stackable": true,
+        "pair": true
+      },
+      "verdict": "Stackable ramps with the most lift here at 7.3 inches, a 17-degree incline and 18 rubber feet per ramp.",
+      "best_for": "Trucks and SUVs that need more clearance.",
+      "skip_if": "You want a proven set; it has 43 reviews.",
+      "pros": [
+        "7.3 in lift",
+        "18 rubber feet per ramp",
+        "Stackable"
+      ],
+      "cons": [
+        "Only 43 reviews"
+      ]
+    },
+    {
+      "asin": "B0FW4VX2MW",
+      "name": "TOWKING Car Ramps for Oil Changes, 7.1-Inch Lift, 11.1-Inch Wide, 16,000 lb (CR992003)",
+      "brand": "TOWKING",
+      "model": "CR992003",
+      "image": "https://m.media-amazon.com/images/I/71O6f1uvosL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 4.5,
+      "reviews_count": 76,
+      "bought": "400+/mo",
+      "specs": {
+        "lift": "7.1 in",
+        "capacity": "16,000 lb per pair (stated)",
+        "incline": "17°",
+        "material": "Impact-resistant PP",
+        "extras": "Wide ramp surface for larger tires"
+      },
+      "features": {
+        "lift_6": true,
+        "gentle_incline": true,
+        "rubber_feet": false,
+        "stackable": false,
+        "pair": true
+      },
+      "verdict": "Wide ramps with 7.1 inches of lift and a 17-degree incline, built for SUV and truck tires.",
+      "best_for": "SUV and pickup owners.",
+      "skip_if": "You want stackable storage.",
+      "pros": [
+        "7.1 in lift",
+        "Wide surface",
+        "4.5 stars"
+      ],
+      "cons": [
+        "Only 76 reviews"
+      ]
+    },
+    {
+      "asin": "B0C5T2XLJK",
+      "name": "ROBLOCK Heavy Duty Low Profile Car Ramps, 6.1-Inch Lift, 13,000 lb GVW (RBTS295AU)",
+      "brand": "ROBLOCK",
+      "model": "RBTS295AU",
+      "image": "https://m.media-amazon.com/images/I/61zhTcImbEL._AC_SL1500_.jpg",
+      "price": 98.99,
+      "rating": 4.4,
+      "reviews_count": 1103,
+      "bought": "200+/mo",
+      "specs": {
+        "lift": "6.1 in",
+        "capacity": "13,000 lb GVW",
+        "incline": null,
+        "material": "Impact-resistant plastic, honeycomb",
+        "extras": "12 in wide, drainage grooves"
+      },
+      "features": {
+        "lift_6": true,
+        "gentle_incline": false,
+        "rubber_feet": false,
+        "stackable": false,
+        "pair": true
+      },
+      "verdict": "Wide 12-inch ramps with 6.1 inches of lift and a honeycomb structure, rated 13,000 lb GVW.",
+      "best_for": "Oil changes on cars with wider tires.",
+      "skip_if": "You want the best-rated set; these are 4.4 stars.",
+      "pros": [
+        "12 in wide",
+        "6.1 in lift",
+        "13,000 lb GVW"
+      ],
+      "cons": [
+        "Reviews shared with the ROBLOCK low-profile ramps"
+      ]
+    },
+    {
+      "asin": "B0F8B8GNGQ",
+      "name": "WINMAX 2-Pack Car Ramps, 6.7-Inch Lift, 8,000 lb per Pair (WT04J1290)",
+      "brand": "WINMAX",
+      "model": "WT04J1290",
+      "image": "https://m.media-amazon.com/images/I/71tP8OrqJKL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.2,
+      "reviews_count": 45,
+      "bought": "100+/mo",
+      "specs": {
+        "lift": "6.7 in",
+        "capacity": "4,000 lb per ramp, 8,000 lb per pair (16,000 lb GVW)",
+        "incline": "20°",
+        "material": "Hardened plastic, honeycomb",
+        "extras": "12 in wide, bumper strips"
+      },
+      "features": {
+        "lift_6": true,
+        "gentle_incline": false,
+        "rubber_feet": false,
+        "stackable": false,
+        "pair": true
+      },
+      "verdict": "12-inch-wide ramps with 6.7 inches of lift and bumper strips at the top, rated 8,000 lb per pair.",
+      "best_for": "SUVs and light trucks.",
+      "skip_if": "You have a low car; the 20-degree incline is steep.",
+      "pros": [
+        "8,000 lb per pair",
+        "6.7 in lift",
+        "Bumper strips"
+      ],
+      "cons": [
+        "20° incline",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B0BVBQ2BMM",
+      "force_budget": true,
+      "name": "ROBLOCK Low Profile Car Ramps, 2.6-Inch Lift, for Low-Chassis Cars (RBTS265)",
+      "brand": "ROBLOCK",
+      "model": "RBTS265",
+      "image": "https://m.media-amazon.com/images/I/61e7M+Tc5eL._AC_SL1500_.jpg",
+      "price": 30.99,
+      "rating": 4.4,
+      "reviews_count": 1103,
+      "bought": "1K+/mo",
+      "specs": {
+        "lift": "2.6 in",
+        "capacity": null,
+        "incline": "17°",
+        "material": "Impact-resistant PP, honeycomb",
+        "extras": "10 in wide, shortened length to fit a jack"
+      },
+      "features": {
+        "lift_6": false,
+        "gentle_incline": true,
+        "rubber_feet": false,
+        "stackable": false,
+        "pair": true
+      },
+      "verdict": "Short 2.6-inch ramps that lift a low car just enough to slide a floor jack under it.",
+      "best_for": "Sports cars and lowered cars that can't fit a jack.",
+      "skip_if": "You want to work under the car on the ramps; use them to get a jack in.",
+      "pros": [
+        "Fits a jack under low cars",
+        "About $31",
+        "1,000+ sold last month"
+      ],
+      "cons": [
+        "Only 2.6 in lift"
+      ]
+    },
+    {
+      "asin": "B0GYK3Q6LM",
+      "name": "Florety Heavy Duty Car Ramp, 1-Pack, 5.5-Inch Lift, 20,000 lb",
+      "brand": "Florety",
+      "model": "HONGZIEN12",
+      "image": "https://m.media-amazon.com/images/I/51gtuTnCyVL._AC_SL1500_.jpg",
+      "price": 34.99,
+      "rating": 4.3,
+      "reviews_count": 35,
+      "bought": "50+/mo",
+      "specs": {
+        "lift": "5.5 in",
+        "capacity": "20,000 lb (stated)",
+        "incline": null,
+        "material": "PP",
+        "extras": "Built-in handle, 24 x 8.5 x 5.5 in"
+      },
+      "features": {
+        "lift_6": false,
+        "gentle_incline": false,
+        "rubber_feet": false,
+        "stackable": false,
+        "pair": false
+      },
+      "verdict": "A single short ramp with a handle, for leveling a trailer or RV or lifting one wheel.",
+      "best_for": "Leveling RVs and campers, or lifting one corner.",
+      "skip_if": "You need a pair for oil changes.",
+      "pros": [
+        "Built-in handle",
+        "Compact"
+      ],
+      "cons": [
+        "Sold singly",
+        "Only 35 reviews"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0FTZWYW5Y",
+      "name": "VEVOR Car Ramps, 2 PCS, 13,000 lb GVW, 6.3-Inch Lift (TS295DT)",
+      "brand": "VEVOR",
+      "model": "TS295DT",
+      "image": "https://m.media-amazon.com/images/I/71EeWojYw4L._AC_SL1500_.jpg",
+      "price": 101.07,
+      "rating": 4.3,
+      "reviews_count": 103,
+      "flag": "Listing contradicts itself on capacity and lift",
+      "verdict": "A ramp set whose listing gives two different lift heights and a capacity that doesn't add up, on a product you'll lie under.",
+      "reasons": [
+        "The title says 6.3-inch lift, but the bullets say 6.7 inches, and the part number field reads 'Car ramps,6.3 in lift', a description rather than a part number.",
+        "The title says 13,000 lb GVW, but the bullets say 4,000 lb per ramp and 8,000 lb per pair, which works out to 16,000 lb GVW on other brands' math.",
+        "It's rated 4.3 stars and costs over $100. The Ironton set is about $59, rated 4.7, and states 6,000 lb per ramp plainly."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "How much capacity do I need?",
+      "a": "Check your vehicle's curb weight. Ramps hold one end, so a pair rated at your curb weight or more covers it. Ratings are given per ramp, per pair or as GVW; read which one the number means."
+    },
+    {
+      "q": "How much lift?",
+      "a": "6 to 7 inches is enough for an oil change on most cars. Trucks and SUVs benefit from 7 inches or more."
+    },
+    {
+      "q": "My car scrapes on ramps",
+      "a": "Look for a gentle incline (17 degrees or less) or long ramps like the MaxxHaul 50709. Very low cars can use short jack-assist ramps to get a floor jack under them."
+    },
+    {
+      "q": "Are plastic ramps safe?",
+      "a": "Good polypropylene honeycomb ramps are rated for heavy loads and won't rust. Use them on flat, hard ground, set the parking brake and chock the rear wheels."
+    },
+    {
+      "q": "Ramps or jack stands?",
+      "a": "Ramps are faster for oil changes. Jack stands are needed when the wheels must come off or hang free."
+    }
+  ]
+}

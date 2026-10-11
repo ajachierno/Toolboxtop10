@@ -1,0 +1,470 @@
+{
+  "slug": "cordless-leaf-blowers",
+  "title": "The 10 Best Cordless Leaf Blowers",
+  "subtitle": "Battery-powered leaf blowers and sweepers for yards, driveways and decks, ranked from live Amazon data.",
+  "intro": "A cordless leaf blower clears leaves, clippings and debris without gas, oil or a pull cord. We ranked 10 best-sellers from EGO, DEWALT, Greenworks, BLACK+DECKER and budget brands on rating, review volume and features (450 CFM or more, a battery in the box, variable speed and a turbo boost). Compare CFM and MPH, not motor RPM.",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 60,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "high_cfm": 0.3,
+    "battery_included": 0.25,
+    "variable_speed": 0.25,
+    "turbo": 0.2
+  },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    {
+      "key": "cfm",
+      "label": "Airflow"
+    },
+    {
+      "key": "mph",
+      "label": "Air speed"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "runtime",
+      "label": "Runtime (listed)"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "cfm",
+      "label": "CFM"
+    },
+    {
+      "key": "mph",
+      "label": "MPH"
+    },
+    {
+      "key": "battery",
+      "label": "Battery"
+    },
+    {
+      "key": "variable_speed",
+      "label": "Variable speed",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08VRZ172R",
+      "force_overall": true,
+      "name": "EGO POWER+ 615 CFM Cordless Leaf Blower with 2.5Ah Battery (LB6151)",
+      "brand": "EGO",
+      "model": "LB6151",
+      "image": "https://m.media-amazon.com/images/I/61NzovTQ6vL._AC_SL1500_.jpg",
+      "price": 179.0,
+      "rating": 4.5,
+      "reviews_count": 1463,
+      "bought": "2K+/mo",
+      "specs": {
+        "cfm": "Up to 615 (turbo)",
+        "mph": "Up to 170",
+        "battery": "56V 2.5Ah, included",
+        "runtime": "Up to 75 min",
+        "extras": "Speed dial 200-480 CFM with lock-on button"
+      },
+      "features": {
+        "high_cfm": true,
+        "battery_included": true,
+        "variable_speed": true,
+        "turbo": true
+      },
+      "verdict": "The best-value EGO: 615 CFM on turbo, a speed dial with cruise lock and up to 75 minutes on the included 2.5Ah battery.",
+      "best_for": "Most suburban yards: leaves, grass clippings and driveways.",
+      "skip_if": "You have a big lot with wet leaves; the 765 or 880 CFM EGOs move more.",
+      "pros": [
+        "615 CFM turbo",
+        "Battery and charger included",
+        "Cruise-control speed lock"
+      ],
+      "cons": [
+        "Joins the EGO 56V system only"
+      ]
+    },
+    {
+      "asin": "B06Y52TZB2",
+      "name": "EGO POWER+ 530 CFM Cordless Leaf Blower with 2.5Ah Battery (LB5302)",
+      "brand": "EGO",
+      "model": "LB5302",
+      "image": "https://m.media-amazon.com/images/I/51xzcYzlgRL._AC_SL1000_.jpg",
+      "price": 199.0,
+      "rating": 4.5,
+      "reviews_count": 6692,
+      "bought": "2K+/mo",
+      "specs": {
+        "cfm": "Up to 530 (turbo)",
+        "mph": "Up to 110",
+        "battery": "56V 2.5Ah, included",
+        "runtime": "Up to 75 min",
+        "extras": "Speed dial 250-400 CFM"
+      },
+      "features": {
+        "high_cfm": true,
+        "battery_included": true,
+        "variable_speed": true,
+        "turbo": true
+      },
+      "verdict": "EGO's long-running blower, with 6,692 reviews: 530 CFM on turbo, a variable speed dial and the same 2.5Ah battery as the LB6151.",
+      "best_for": "Homeowners who want a proven EGO for a typical lot.",
+      "skip_if": "The LB6151 is the same price or less with more airflow; check both.",
+      "pros": [
+        "6,692 reviews",
+        "Battery included",
+        "Variable speed"
+      ],
+      "cons": [
+        "Lower air speed than newer EGOs"
+      ]
+    },
+    {
+      "asin": "B0DSFB2WBB",
+      "premium": true,
+      "name": "EGO POWER+ 880 CFM Cordless Leaf Blower with Two 4.0Ah Batteries (LB8803-2)",
+      "brand": "EGO",
+      "model": "LB8803-2",
+      "image": "https://m.media-amazon.com/images/I/61gSsK-WOXL._AC_SL1500_.jpg",
+      "price": 379.0,
+      "rating": 4.6,
+      "reviews_count": 591,
+      "bought": "1K+/mo",
+      "specs": {
+        "cfm": "Up to 880 (turbo)",
+        "mph": "Up to 200",
+        "battery": "Two 56V 4.0Ah, included",
+        "runtime": "Up to 90 min",
+        "extras": "Digital display, cruise lock"
+      },
+      "features": {
+        "high_cfm": true,
+        "battery_included": true,
+        "variable_speed": true,
+        "turbo": true
+      },
+      "verdict": "EGO's most powerful handheld here: 880 CFM and 200 mph on turbo, a digital display and two 4.0Ah batteries for up to 90 minutes.",
+      "best_for": "Large properties and wet, matted leaves where gas used to be the only option.",
+      "skip_if": "You have a small yard; it's far more than you need.",
+      "pros": [
+        "880 CFM, 200 mph",
+        "Two 4.0Ah batteries",
+        "Digital display"
+      ],
+      "cons": [
+        "Most expensive here",
+        "Heavier with two packs"
+      ]
+    },
+    {
+      "asin": "B09RNDQCV3",
+      "name": "EGO POWER+ 765 CFM Cordless Leaf Blower with 5.0Ah Battery (LB7654)",
+      "brand": "EGO",
+      "model": "LB7654",
+      "image": "https://m.media-amazon.com/images/I/61EJo-RIhLL._AC_SL1500_.jpg",
+      "price": 299.0,
+      "rating": 4.4,
+      "reviews_count": 3558,
+      "bought": "1K+/mo",
+      "specs": {
+        "cfm": "Up to 765 (turbo)",
+        "mph": "Up to 200",
+        "battery": "56V 5.0Ah, included",
+        "runtime": "Up to 90 min",
+        "extras": "Cruise-control speed dial 260-580 CFM"
+      },
+      "features": {
+        "high_cfm": true,
+        "battery_included": true,
+        "variable_speed": true,
+        "turbo": true
+      },
+      "verdict": "A step below the 880 with 765 CFM and a 5.0Ah battery for up to 90 minutes, for half-acre-plus yards.",
+      "best_for": "Bigger yards and fall cleanups.",
+      "skip_if": "You only clear a patio.",
+      "pros": [
+        "765 CFM",
+        "5.0Ah battery",
+        "3,558 reviews"
+      ],
+      "cons": [
+        "4.4 stars",
+        "Pricey"
+      ]
+    },
+    {
+      "asin": "B016NZGL9O",
+      "name": "DEWALT 20V MAX Compact Blower, 100 CFM, Variable Speed, Tool Only (DCE100B)",
+      "brand": "DEWALT",
+      "model": "DCE100B",
+      "image": "https://m.media-amazon.com/images/I/51vRkTpbgRL._AC_SL1200_.jpg",
+      "price": 98.0,
+      "rating": 4.4,
+      "reviews_count": 15700,
+      "bought": "5K+/mo",
+      "specs": {
+        "cfm": "100",
+        "mph": null,
+        "battery": "DEWALT 20V MAX, not included",
+        "runtime": null,
+        "extras": "3-speed switch, variable trigger, trigger lock"
+      },
+      "features": {
+        "high_cfm": false,
+        "battery_included": false,
+        "variable_speed": true,
+        "turbo": false
+      },
+      "verdict": "Not a leaf blower so much as a jobsite and shop blower: 100 CFM for blowing out joints, benches, cars and garages on a DEWALT battery. It's the best seller here.",
+      "best_for": "DEWALT owners clearing sawdust, workbenches and car interiors.",
+      "skip_if": "You need to clear a yard of leaves; 100 CFM is too little.",
+      "pros": [
+        "5,000+ sold last month; 15,700 reviews",
+        "Compact",
+        "Variable speed"
+      ],
+      "cons": [
+        "100 CFM",
+        "Bare tool"
+      ]
+    },
+    {
+      "asin": "B00AW72V4O",
+      "name": "Greenworks 40V Cordless Leaf Blower, 135 CFM, 2.0Ah Battery and Charger",
+      "brand": "Greenworks",
+      "model": "40V Sweeper",
+      "image": "https://m.media-amazon.com/images/I/71IB-6Jk4tL._AC_SL1500_.jpg",
+      "price": 74.99,
+      "rating": 4.2,
+      "reviews_count": 12996,
+      "bought": "1K+/mo",
+      "specs": {
+        "cfm": "135",
+        "mph": "150",
+        "battery": "40V 2.0Ah, included",
+        "runtime": null,
+        "extras": "Variable speed dial, concentrator nozzle, 3-year warranty"
+      },
+      "features": {
+        "high_cfm": false,
+        "battery_included": true,
+        "variable_speed": true,
+        "turbo": false
+      },
+      "verdict": "A light 40V sweeper for patios, decks, porches and garage floors, with a variable speed dial and a 3-year warranty, for under $80.",
+      "best_for": "Hard surfaces and light leaves around the house.",
+      "skip_if": "You have a full yard of leaves.",
+      "pros": [
+        "Battery included, low price",
+        "12,996 reviews",
+        "3-year warranty"
+      ],
+      "cons": [
+        "135 CFM",
+        "4.2 stars"
+      ]
+    },
+    {
+      "asin": "B01BNMP6CU",
+      "name": "BLACK+DECKER 20V MAX Cordless Sweeper Blower with Battery and Charger (LSW221)",
+      "brand": "BLACK+DECKER",
+      "model": "LSW221",
+      "image": "https://m.media-amazon.com/images/I/51jXRI48OyL._AC_SL1500_.jpg",
+      "price": 78.99,
+      "rating": 4.1,
+      "reviews_count": 18533,
+      "bought": "900+/mo",
+      "specs": {
+        "cfm": "100",
+        "mph": "Up to 130",
+        "battery": "20V MAX, included",
+        "runtime": null,
+        "extras": "3.7 lb, low noise"
+      },
+      "features": {
+        "high_cfm": false,
+        "battery_included": true,
+        "variable_speed": false,
+        "turbo": false
+      },
+      "verdict": "The most-reviewed blower here: a 3.7 lb sweeper for driveways, decks and garages, with a battery and charger in the box.",
+      "best_for": "Quick cleanups of hard surfaces.",
+      "skip_if": "You need real leaf-moving power.",
+      "pros": [
+        "18,533 reviews",
+        "Just 3.7 lb",
+        "Battery included"
+      ],
+      "cons": [
+        "100 CFM",
+        "4.1 stars"
+      ]
+    },
+    {
+      "asin": "B0HJYXCVDZ",
+      "force_budget": true,
+      "name": "MZK 20V Cordless Leaf Blower, Lightweight (ET1613)",
+      "brand": "MZK",
+      "model": "ET1613",
+      "image": "https://m.media-amazon.com/images/I/71vGLtmrcwL._AC_SL1500_.jpg",
+      "price": 49.99,
+      "rating": 4.3,
+      "reviews_count": 5814,
+      "specs": {
+        "cfm": "Up to 600 (claimed)",
+        "mph": "Up to 200 (claimed)",
+        "battery": "20V, included",
+        "runtime": "Up to 90 min (claimed)",
+        "extras": null
+      },
+      "features": {
+        "high_cfm": true,
+        "battery_included": true,
+        "variable_speed": false,
+        "turbo": false
+      },
+      "verdict": "A budget 20V blower that claims 600 CFM and 200 mph with a battery in the box, for about $50.",
+      "best_for": "Budget buyers who don't own a battery platform.",
+      "skip_if": "You want verified numbers; budget blowers' CFM claims run high.",
+      "pros": [
+        "Very low price",
+        "Battery included",
+        "5,814 reviews"
+      ],
+      "cons": [
+        "CFM claim not independently verified",
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B0HKN2STZZ",
+      "name": "WOLFMEN Cordless Leaf Blower, 450 CFM, 2 Batteries and Charger, 2 Speeds (LB-8197)",
+      "brand": "WOLFMEN",
+      "model": "LB-8197",
+      "image": "https://m.media-amazon.com/images/I/71bBV1DXvdL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.3,
+      "reviews_count": 3608,
+      "specs": {
+        "cfm": "Up to 450",
+        "mph": "Up to 150",
+        "battery": "Two 20V, included",
+        "runtime": null,
+        "extras": "Axial turbofan, 2 speeds"
+      },
+      "features": {
+        "high_cfm": true,
+        "battery_included": true,
+        "variable_speed": true,
+        "turbo": false
+      },
+      "verdict": "A budget blower with two batteries and an axial fan rated 450 CFM and 150 mph, more believable than the six-figure-RPM claims around it.",
+      "best_for": "Small yards on a budget, with a spare battery.",
+      "skip_if": "You want a known brand's warranty.",
+      "pros": [
+        "Two batteries",
+        "450 CFM",
+        "3,608 reviews"
+      ],
+      "cons": [
+        "4.3 stars",
+        "Only 2 speeds"
+      ]
+    },
+    {
+      "asin": "B0FLX45THX",
+      "name": "YOOVL Cordless Leaf Blower, 650 CFM, 2 x 5.2Ah Batteries, 3 Speeds (LB-8184)",
+      "brand": "YOOVL",
+      "model": "LB-8184",
+      "image": "https://m.media-amazon.com/images/I/71m1Do9cgcL._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.3,
+      "reviews_count": 1267,
+      "bought": "4K+/mo",
+      "specs": {
+        "cfm": "650 (claimed)",
+        "mph": null,
+        "battery": "Two 20V 5.2Ah, included",
+        "runtime": null,
+        "extras": "3 speeds, shoulder strap"
+      },
+      "features": {
+        "high_cfm": true,
+        "battery_included": true,
+        "variable_speed": true,
+        "turbo": false
+      },
+      "verdict": "A budget kit with two 5.2Ah batteries, three speeds and a shoulder strap, and one of the best sellers here.",
+      "best_for": "Budget buyers who want long runtime from two big packs.",
+      "skip_if": "You want verified airflow.",
+      "pros": [
+        "Two 5.2Ah batteries",
+        "4,000+ sold last month",
+        "Shoulder strap"
+      ],
+      "cons": [
+        "CFM claim not independently verified",
+        "4.3 stars"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GX4T18J1",
+      "name": "990,000 RPM Cordless Leaf Blower with 2 Batteries and Charger, Electric Handheld Blower",
+      "brand": "FAOGO",
+      "model": "RL-008",
+      "image": "https://m.media-amazon.com/images/I/71eeden--1L._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.8,
+      "reviews_count": 284,
+      "flag": "Claims 990,000 RPM; gives no CFM or air speed",
+      "verdict": "A tiny handheld blower sold on a '990,000 RPM' motor claim, with no airflow or air-speed figure anywhere in the listing.",
+      "reasons": [
+        "990,000 RPM is a meaningless number for a blower; what moves leaves is airflow (CFM) and air speed (MPH), and the listing gives neither.",
+        "It lists '26+ mins total runtime' from two batteries combined, about 13 minutes per battery.",
+        "The 4.8-star rating sits on 284 reviews. For about the same money, the MZK and WOLFMEN blowers state their airflow, and EGO's LB6151 is rated at 615 CFM."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "CFM or MPH: which matters?",
+      "a": "CFM (cubic feet per minute) is how much air moves; MPH is how fast. CFM moves piles of leaves; MPH lifts wet, stuck debris. Look at both. A blower with high MPH and low CFM is fine for patios, not for a lawn full of leaves."
+    },
+    {
+      "q": "How much CFM do I need?",
+      "a": "100 to 200 CFM clears patios, decks and garages. 400 to 600 CFM handles most suburban yards. 700 CFM and up competes with gas blowers for big properties and wet leaves."
+    },
+    {
+      "q": "What about the 'RPM' claims?",
+      "a": "Budget listings advertise motors at 800,000 to 990,000 RPM. RPM tells you nothing about airflow. Skip blowers that don't list CFM and MPH."
+    },
+    {
+      "q": "Battery platform or standalone?",
+      "a": "If you'll add a trimmer, mower or chainsaw, buy into one platform (EGO, Greenworks, DEWALT, BLACK+DECKER) so batteries swap between tools. Budget kits' batteries usually fit nothing else."
+    },
+    {
+      "q": "How long will the battery last?",
+      "a": "On turbo, minutes, not hours. EGO lists up to 75 to 90 minutes at low speed. Use the lowest setting that works and save turbo for stubborn spots."
+    }
+  ]
+}

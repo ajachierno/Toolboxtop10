@@ -1,0 +1,467 @@
+{
+  "slug": "track-saws",
+  "title": "The 10 Best Track Saws",
+  "subtitle": "Corded and cordless plunge track saws for plywood, doors and sheet goods, ranked from live Amazon data.",
+  "intro": "A track saw is a plunge circular saw that rides a guide rail for straight, splinter-free cuts, the easiest way to cut plywood without a table saw. We ranked 10 best-sellers from WEN, DEWALT, Makita, Milwaukee, Festool and Evolution on rating, review volume and features (a track in the box, variable speed, cordless power and 2 inches or more of depth).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 140,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "track_included": 0.3,
+    "variable_speed": 0.25,
+    "cordless": 0.2,
+    "depth_2": 0.25
+  },
+  "reviews_ceiling": 1500,
+  "spec_fields": [
+    {
+      "key": "blade",
+      "label": "Blade"
+    },
+    {
+      "key": "depth",
+      "label": "Depth at 90°/45°"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "track",
+      "label": "Track"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "blade",
+      "label": "Blade"
+    },
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "track_included",
+      "label": "Track included",
+      "type": "bool"
+    },
+    {
+      "key": "variable_speed",
+      "label": "Variable speed",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07VFXFTVP",
+      "name": "WEN CT1065 10-Amp 6.5-Inch Plunge Cut Sidewinder Track Saw",
+      "brand": "WEN",
+      "model": "CT1065",
+      "image": "https://m.media-amazon.com/images/I/81QEOpYZrUL._AC_SL1500_.jpg",
+      "price": 99.9,
+      "rating": 4.4,
+      "reviews_count": 1585,
+      "bought": "500+/mo",
+      "specs": {
+        "blade": "6.5 in",
+        "depth": "2-1/3 in / 1-5/8 in",
+        "power": "Corded, 10 A",
+        "track": "Sold separately",
+        "extras": "24T blade included"
+      },
+      "features": {
+        "track_included": false,
+        "variable_speed": false,
+        "cordless": false,
+        "depth_2": true
+      },
+      "verdict": "The best-selling and most-reviewed track saw here, at a fraction of pro prices: a 10-amp plunge saw that rips boards up to 2-1/3 inches thick. Tracks are sold separately.",
+      "best_for": "DIYers breaking down plywood without a table saw.",
+      "skip_if": "You want a kit with track included.",
+      "pros": [
+        "1,585 reviews; 500+ sold last month",
+        "About $100",
+        "2-1/3 in depth"
+      ],
+      "cons": [
+        "Track sold separately",
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B001J69QAO",
+      "name": "DEWALT 6-1/2-Inch TrackSaw Kit (DWS520K)",
+      "brand": "DEWALT",
+      "model": "DWS520K",
+      "image": "https://m.media-amazon.com/images/I/61b0qgjzpOL._AC_SL1000_.jpg",
+      "price": 506.77,
+      "rating": 4.7,
+      "reviews_count": 1131,
+      "bought": "100+/mo",
+      "specs": {
+        "blade": "6-1/2 in",
+        "depth": "2-1/8 in / 1-5/8 in on track",
+        "power": "Corded",
+        "track": "Sold separately",
+        "extras": "Zero-clearance cutting system, dual-edged track compatible"
+      },
+      "features": {
+        "track_included": false,
+        "variable_speed": false,
+        "cordless": false,
+        "depth_2": true
+      },
+      "verdict": "DEWALT's corded track saw with a zero-clearance system for splinter-free cuts and dual-edged tracks that cut in both directions.",
+      "best_for": "Cabinet and furniture makers who want a pro track saw.",
+      "skip_if": "You expect a track in the box; it's sold separately.",
+      "pros": [
+        "4.7 stars; 1,131 reviews",
+        "Splinter-free cuts",
+        "Cuts both directions on dual-edge track"
+      ],
+      "cons": [
+        "Track sold separately",
+        "Expensive"
+      ]
+    },
+    {
+      "asin": "B00CHN6L74",
+      "force_overall": true,
+      "name": "Makita SP6000J1 6-1/2\" Plunge Track Saw Kit with 55\" Guide Rail and Case",
+      "brand": "Makita",
+      "model": "SP6000J1",
+      "image": "https://m.media-amazon.com/images/I/61bsi+UcrnL._AC_SL1000_.jpg",
+      "price": 589.0,
+      "rating": 4.6,
+      "reviews_count": 1287,
+      "bought": "100+/mo",
+      "specs": {
+        "blade": "6-1/2 in",
+        "depth": "2-3/16 in / 1-9/16 in",
+        "power": "Corded, 12 A",
+        "track": "55 in guide rail included",
+        "extras": "Variable speed 2,000-5,200 RPM, bevel -1 to 48°, stackable case"
+      },
+      "features": {
+        "track_included": true,
+        "variable_speed": true,
+        "cordless": false,
+        "depth_2": true
+      },
+      "verdict": "A complete pro kit: Makita's 12-amp plunge saw with variable speed, a 55-inch guide rail and a stackable case, so you can start cutting out of the box.",
+      "best_for": "Woodworkers who want a complete pro track saw kit.",
+      "skip_if": "You only need a track saw now and then; the WEN is far cheaper.",
+      "pros": [
+        "55 in rail included",
+        "Variable speed",
+        "Bevel -1 to 48°"
+      ],
+      "cons": [
+        "Expensive"
+      ]
+    },
+    {
+      "asin": "B00CHN6LCE",
+      "name": "Makita SP6000J 6-1/2-Inch Plunge Circular Saw",
+      "brand": "Makita",
+      "model": "SP6000J",
+      "image": "https://m.media-amazon.com/images/I/51u0x8cA6uL._AC_SL1000_.jpg",
+      "price": 519.0,
+      "rating": 4.7,
+      "reviews_count": 702,
+      "bought": "100+/mo",
+      "specs": {
+        "blade": "6-1/2 in",
+        "depth": "2-3/16 in / 1-9/16 in",
+        "power": "Corded, 12 A",
+        "track": "Sold separately",
+        "extras": "Electronic speed control"
+      },
+      "features": {
+        "track_included": false,
+        "variable_speed": true,
+        "cordless": false,
+        "depth_2": true
+      },
+      "verdict": "The same Makita plunge saw without the rail, for people who already own guide rails.",
+      "best_for": "Makita or Festool rail owners.",
+      "skip_if": "You need a rail; the SP6000J1 kit includes one.",
+      "pros": [
+        "4.7 stars",
+        "Electronic speed control"
+      ],
+      "cons": [
+        "No rail"
+      ]
+    },
+    {
+      "asin": "B01IVTAO8Y",
+      "name": "Makita XPS01PTJ 36V (18V X2) LXT Brushless Cordless 6-1/2\" Plunge Saw Kit, 5.0Ah",
+      "brand": "Makita",
+      "model": "XPS01PTJ",
+      "image": "https://m.media-amazon.com/images/I/61NVTeTO6rL._AC_SL1000_.jpg",
+      "price": 699.0,
+      "rating": 4.8,
+      "reviews_count": 722,
+      "bought": "100+/mo",
+      "specs": {
+        "blade": "6-1/2 in",
+        "depth": null,
+        "power": "Cordless, two 18V LXT 5.0Ah (included)",
+        "track": "39 in rail sold separately",
+        "extras": "Brushless, 6,300 RPM, automatic speed change"
+      },
+      "features": {
+        "track_included": false,
+        "variable_speed": true,
+        "cordless": true,
+        "depth_2": false
+      },
+      "verdict": "Makita's cordless 36V plunge saw kit with two 5.0Ah batteries, a brushless motor and automatic speed change, rated 4.8 stars.",
+      "best_for": "Pros who want cordless track-saw cuts on site.",
+      "skip_if": "You're on a budget.",
+      "pros": [
+        "Cordless, batteries included",
+        "4.8 stars",
+        "Brushless"
+      ],
+      "cons": [
+        "Rail sold separately",
+        "Expensive"
+      ]
+    },
+    {
+      "asin": "B0F3NZ7H52",
+      "name": "Milwaukee M18 FUEL 6-1/2\" Plunge Track Saw, Tool Only (2831-20)",
+      "brand": "Milwaukee",
+      "model": "2831-20",
+      "image": "https://m.media-amazon.com/images/I/51j2u-kDHCL._AC_SL1024_.jpg",
+      "price": 411.99,
+      "rating": 4.7,
+      "reviews_count": 45,
+      "bought": "50+/mo",
+      "specs": {
+        "blade": "6-1/2 in",
+        "depth": null,
+        "power": "Cordless, Milwaukee M18 (not included)",
+        "track": "Sold separately",
+        "extras": "Variable speed, riving knife, adjustable track cam, vac port"
+      },
+      "features": {
+        "track_included": false,
+        "variable_speed": true,
+        "cordless": true,
+        "depth_2": false
+      },
+      "verdict": "Milwaukee's M18 FUEL track saw with variable speed, a riving knife and a cam to dial in track fit for straight cuts.",
+      "best_for": "Milwaukee M18 crews.",
+      "skip_if": "You don't own M18 batteries.",
+      "pros": [
+        "Brushless FUEL",
+        "Riving knife",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Only 45 reviews",
+        "Bare tool"
+      ]
+    },
+    {
+      "asin": "B0BR8LCVC8",
+      "name": "WEN 20691 Cordless 6.5-Inch Brushless Track Saw with Two 20V 4.0Ah Batteries",
+      "brand": "WEN",
+      "model": "20691",
+      "image": "https://m.media-amazon.com/images/I/71XDRnC5DWL._AC_SL1500_.jpg",
+      "price": 186.0,
+      "rating": 4.4,
+      "reviews_count": 99,
+      "bought": "50+/mo",
+      "specs": {
+        "blade": "6.5 in",
+        "depth": "2.25 in / 1.65 in",
+        "power": "Cordless, two 20V 4.0Ah (included)",
+        "track": "Sold separately (fits WEN CT9502/CT9110)",
+        "extras": "Brushless, variable speed"
+      },
+      "features": {
+        "track_included": false,
+        "variable_speed": true,
+        "cordless": true,
+        "depth_2": true
+      },
+      "verdict": "A budget cordless track saw kit with two 4.0Ah batteries, a brushless motor and variable speed.",
+      "best_for": "DIYers who want cordless on a budget.",
+      "skip_if": "You want a pro brand.",
+      "pros": [
+        "Batteries included",
+        "Brushless, variable speed",
+        "Low price for cordless"
+      ],
+      "cons": [
+        "Track sold separately",
+        "Only 99 reviews"
+      ]
+    },
+    {
+      "asin": "B0C8LD15YD",
+      "name": "WEN CT1274 7.25-Inch Variable Speed Track Saw",
+      "brand": "WEN",
+      "model": "CT1274",
+      "image": "https://m.media-amazon.com/images/I/71ukMtyFlZL._AC_SL1500_.jpg",
+      "price": 161.99,
+      "rating": 4.4,
+      "reviews_count": 286,
+      "bought": "100+/mo",
+      "specs": {
+        "blade": "7-1/4 in",
+        "depth": "2.6 in / 1.85 in",
+        "power": "Corded",
+        "track": "Sold separately",
+        "extras": "Variable speed 2,000-6,000 RPM, takes standard 7-1/4 in blades"
+      },
+      "features": {
+        "track_included": false,
+        "variable_speed": true,
+        "cordless": false,
+        "depth_2": true
+      },
+      "verdict": "A track saw that takes standard 7-1/4-inch circular saw blades and cuts 2.6 inches deep, the deepest here.",
+      "best_for": "Cutting thicker stock and using cheap, common blades.",
+      "skip_if": "You want a compact saw.",
+      "pros": [
+        "2.6 in depth",
+        "Standard 7-1/4 in blades",
+        "Variable speed"
+      ],
+      "cons": [
+        "Track sold separately"
+      ]
+    },
+    {
+      "asin": "B0897YPSF8",
+      "premium": true,
+      "name": "Festool TS 55 FEQ-F-Plus-FS Plunge-Cut Track Saw with 55\" Guide Rail",
+      "brand": "Festool",
+      "model": "TS 55 FEQ",
+      "image": "https://m.media-amazon.com/images/I/612phFvTDoL._AC_SL1500_.jpg",
+      "price": 818.0,
+      "rating": 4.7,
+      "reviews_count": 476,
+      "specs": {
+        "blade": "160 mm",
+        "depth": null,
+        "power": "Corded",
+        "track": "55 in rail included",
+        "extras": "Splinter guard, cut edge stays true from 90 to 47°"
+      },
+      "features": {
+        "track_included": true,
+        "variable_speed": false,
+        "cordless": false,
+        "depth_2": false
+      },
+      "verdict": "The track saw others are measured against: Festool's TS 55 with a 55-inch rail and a splinter guard for clean edges on both sides.",
+      "best_for": "Professional cabinetmakers who want the best.",
+      "skip_if": "You're price-sensitive; it's the most expensive here.",
+      "pros": [
+        "Rail included",
+        "Splinter guard",
+        "Festool system"
+      ],
+      "cons": [
+        "Most expensive here"
+      ]
+    },
+    {
+      "asin": "B07T4CZP31",
+      "name": "Evolution R185CCSX Multi-Material Track Saw Kit with 40\" Track, 7-1/4\"",
+      "brand": "Evolution",
+      "model": "R185CCSX",
+      "image": "https://m.media-amazon.com/images/I/71qsYu6g4wL._AC_SL1500_.jpg",
+      "price": 132.3,
+      "rating": 4.2,
+      "reviews_count": 323,
+      "bought": "50+/mo",
+      "specs": {
+        "blade": "7-1/4 in TCT multi-material",
+        "depth": "Up to 2-1/2 in",
+        "power": "Corded, 15 A",
+        "track": "40 in track included",
+        "extras": "Cuts wood, plastic and metal with one blade"
+      },
+      "features": {
+        "track_included": true,
+        "variable_speed": false,
+        "cordless": false,
+        "depth_2": true
+      },
+      "verdict": "A budget kit with a 40-inch track and a multi-material blade that cuts wood, plastic and metal without a blade change.",
+      "best_for": "Mixed-material cuts on a budget.",
+      "skip_if": "You want fine woodworking cuts.",
+      "pros": [
+        "Track included",
+        "Cuts metal too",
+        "Low price"
+      ],
+      "cons": [
+        "4.2 stars"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GKJBJ3RS",
+      "name": "VEVOR 6-1/2-Inch Track Saw, Plunge-Cut Circular Saw Kit with 48-Tooth Blade",
+      "brand": "VEVOR",
+      "model": "M1Y-4ZTH-160",
+      "image": "https://m.media-amazon.com/images/I/61biSWKYqpL._AC_SL1500_.jpg",
+      "price": 99.9,
+      "rating": 3.5,
+      "reviews_count": 25,
+      "flag": "Sold as a 'track saw kit' with no track; 3.5 stars",
+      "verdict": "It's called a track saw kit, but the listing tells you to buy VEVOR's track separately, and it's rated 3.5 stars.",
+      "reasons": [
+        "The title says 'Track Saw ... Kit', yet the bullets say 'we recommend pairing it with our track' to lock 45° cuts, and no track appears in the box contents.",
+        "The manufacturer part number is a German product description ('Tauchsäge, 165,1 mm'), not a part number.",
+        "It's rated 3.5 stars. The WEN CT1065 costs the same with 1,585 reviews, and the Evolution R185CCSX includes a 40-inch track."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Why a track saw?",
+      "a": "A track saw rides on a straight rail for long, splinter-free cuts in plywood and doors, without hauling sheets onto a table saw. It's the best tool for breaking down sheet goods in a small shop."
+    },
+    {
+      "q": "Is the track included?",
+      "a": "Often not. Check the box contents: Makita's SP6000J1, Festool's TS 55 kit and the Evolution include a track; most others sell it separately. Rails add to the total cost."
+    },
+    {
+      "q": "Corded or cordless?",
+      "a": "Corded saws are cheaper and never run out. Cordless saws from Makita, Milwaukee and WEN go anywhere, which pros value on site."
+    },
+    {
+      "q": "Will other brands' tracks fit?",
+      "a": "Makita and Festool rails are largely interchangeable. DEWALT and WEN use their own. Buy the track that matches your saw."
+    },
+    {
+      "q": "What blade?",
+      "a": "A 48-tooth blade or finer gives clean plywood edges. Use fewer teeth for fast rips in solid wood."
+    }
+  ]
+}

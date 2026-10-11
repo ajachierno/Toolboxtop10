@@ -1,0 +1,457 @@
+{
+  "slug": "biscuit-joiners",
+  "title": "The 10 Best Biscuit Joiners",
+  "subtitle": "Corded and cordless biscuit (plate) joiners for tabletops, cabinets and frames, ranked from live Amazon data.",
+  "intro": "A biscuit joiner cuts slots for glued wooden biscuits that align and strengthen joints in tabletops, cabinets and frames. We ranked 10 best-sellers from DEWALT, Makita, PORTER-CABLE, WEN and budget brands on rating, review volume and features (a rack-and-pinion fence, an angle fence, dust collection, cordless power and biscuits in the box).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 80,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "rack_pinion": 0.3,
+    "angle_fence": 0.2,
+    "dust_collection": 0.2,
+    "cordless": 0.15,
+    "biscuits_included": 0.15
+  },
+  "reviews_ceiling": 3000,
+  "spec_fields": [
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "fence",
+      "label": "Fence"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "power",
+      "label": "Power"
+    },
+    {
+      "key": "fence",
+      "label": "Fence"
+    },
+    {
+      "key": "rack_pinion",
+      "label": "Rack-and-pinion",
+      "type": "bool"
+    },
+    {
+      "key": "dust_collection",
+      "label": "Dust bag/port",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00002232S",
+      "force_overall": true,
+      "name": "DEWALT 6.5 Amp Biscuit Joiner Kit with Retractable 45° Notch (DW682K)",
+      "brand": "DEWALT",
+      "model": "DW682K",
+      "image": "https://m.media-amazon.com/images/I/61K-DG8esxL._AC_SL1000_.jpg",
+      "price": 229.99,
+      "rating": 4.7,
+      "reviews_count": 2839,
+      "bought": "100+/mo",
+      "specs": {
+        "power": "Corded, 6.5 A",
+        "speed": "10,000 RPM",
+        "fence": "One-piece, tilts 0-90°, dual rack and pinion",
+        "extras": "Retractable 45° notch"
+      },
+      "features": {
+        "rack_pinion": true,
+        "angle_fence": true,
+        "dust_collection": false,
+        "cordless": false,
+        "biscuits_included": false
+      },
+      "verdict": "The classic biscuit joiner and the most-reviewed here, with 2,839 reviews: a dual rack-and-pinion fence that stays parallel to the blade for accurate slots every time.",
+      "best_for": "Furniture and cabinet makers who want the proven standard.",
+      "skip_if": "You want cordless; the DCW682B is the same design on 20V.",
+      "pros": [
+        "2,839 reviews; 4.7 stars",
+        "Dual rack-and-pinion fence",
+        "Tilting fence 0-90°"
+      ],
+      "cons": [
+        "Corded"
+      ]
+    },
+    {
+      "asin": "B0B39NZFRX",
+      "name": "DEWALT 20V MAX XR Brushless Biscuit Joiner, Tool Only (DCW682B)",
+      "brand": "DEWALT",
+      "model": "DCW682B",
+      "image": "https://m.media-amazon.com/images/I/5153mb29nsL._AC_SL1000_.jpg",
+      "price": 239.0,
+      "rating": 4.8,
+      "reviews_count": 433,
+      "bought": "200+/mo",
+      "specs": {
+        "power": "Cordless, DEWALT 20V MAX (not included)",
+        "speed": null,
+        "fence": "Dual rack and pinion, tool-free depth/height/bevel",
+        "extras": "Brushless, depth knob for #0/#10/#20"
+      },
+      "features": {
+        "rack_pinion": true,
+        "angle_fence": true,
+        "dust_collection": false,
+        "cordless": true,
+        "biscuits_included": false
+      },
+      "verdict": "The cordless version of DEWALT's joiner with a brushless motor and tool-free fence adjustments, rated 4.8 stars.",
+      "best_for": "DEWALT owners who want to cut slots anywhere.",
+      "skip_if": "You don't own DEWALT batteries.",
+      "pros": [
+        "Brushless, cordless",
+        "Tool-free adjustments",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Bare tool"
+      ]
+    },
+    {
+      "asin": "B00608ZTD4",
+      "name": "Makita PJ7000 Plate Joiner",
+      "brand": "Makita",
+      "model": "PJ7000",
+      "image": "https://m.media-amazon.com/images/I/51rgezPG5CL._AC_SL1000_.jpg",
+      "price": 259.0,
+      "rating": 4.7,
+      "reviews_count": 1011,
+      "specs": {
+        "power": "Corded, 5.6 A",
+        "speed": "11,000 RPM",
+        "fence": "Cast aluminum pivot, stops at 0°, 45°, 90°",
+        "extras": "Six depth settings"
+      },
+      "features": {
+        "rack_pinion": false,
+        "angle_fence": true,
+        "dust_collection": false,
+        "cordless": false,
+        "biscuits_included": false
+      },
+      "verdict": "Makita's corded plate joiner with a cast aluminum pivot fence and six one-touch depth stops, rated 4.7 stars on 1,011 reviews.",
+      "best_for": "Woodworkers who want a Makita in the shop.",
+      "skip_if": "You want rack-and-pinion fence adjustment.",
+      "pros": [
+        "4.7 stars; 1,011 reviews",
+        "Six depth stops",
+        "Cast aluminum fence"
+      ],
+      "cons": [
+        "5.6 A motor"
+      ]
+    },
+    {
+      "asin": "B00Z04WRXY",
+      "name": "Makita XJP03Z 18V LXT Cordless Plate Joiner, Tool Only",
+      "brand": "Makita",
+      "model": "XJP03Z",
+      "image": "https://m.media-amazon.com/images/I/7128-JfyJWL._AC_SL1500_.jpg",
+      "price": 319.0,
+      "rating": 4.8,
+      "reviews_count": 379,
+      "bought": "50+/mo",
+      "specs": {
+        "power": "Cordless, Makita 18V LXT (not included)",
+        "speed": null,
+        "fence": "Rack-and-pinion vertical, pivot stops at 0°, 45°, 90°",
+        "extras": "Six depth settings"
+      },
+      "features": {
+        "rack_pinion": true,
+        "angle_fence": true,
+        "dust_collection": false,
+        "cordless": true,
+        "biscuits_included": false
+      },
+      "verdict": "Makita's cordless joiner with a rack-and-pinion fence and six depth stops, rated 4.8 stars.",
+      "best_for": "Makita 18V owners.",
+      "skip_if": "You're on a budget; it's the priciest cordless joiner here.",
+      "pros": [
+        "Cordless",
+        "Rack-and-pinion fence",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Bare tool",
+        "Expensive"
+      ]
+    },
+    {
+      "asin": "B00004YKUO",
+      "premium": true,
+      "name": "PORTER-CABLE 7-Amp Plate Joiner Kit (557)",
+      "brand": "PORTER-CABLE",
+      "model": "557",
+      "image": "https://m.media-amazon.com/images/I/61t13-Wd89L._AC_SL1500_.jpg",
+      "price": 304.99,
+      "rating": 4.7,
+      "reviews_count": 714,
+      "specs": {
+        "power": "Corded, 7 A",
+        "speed": "10,000 RPM",
+        "fence": "Tilts 0-135° with positive stop at 90°",
+        "extras": "1 in dust port"
+      },
+      "features": {
+        "rack_pinion": false,
+        "angle_fence": true,
+        "dust_collection": true,
+        "cordless": false,
+        "biscuits_included": false
+      },
+      "verdict": "A pro favorite with a fence that tilts all the way to 135 degrees and a dust port that takes a bag or a vacuum.",
+      "best_for": "Shops that cut many angled and mitered joints.",
+      "skip_if": "You're price-sensitive; it's one of the priciest here.",
+      "pros": [
+        "Fence tilts 0-135°",
+        "7 A motor",
+        "Dust port"
+      ],
+      "cons": [
+        "Most expensive here"
+      ]
+    },
+    {
+      "asin": "B0D3D13976",
+      "force_budget": true,
+      "name": "AOBEN 8.5 Amp Biscuit Joiner with #0, #10, #20 Biscuits (3705)",
+      "brand": "AOBEN",
+      "model": "3705",
+      "image": "https://m.media-amazon.com/images/I/71Fkbb3xUAL._AC_SL1500_.jpg",
+      "price": 76.99,
+      "rating": 4.5,
+      "reviews_count": 1215,
+      "bought": "100+/mo",
+      "specs": {
+        "power": "Corded, 8.5 A",
+        "speed": "11,000 RPM",
+        "fence": "Adjustable",
+        "extras": "Dust bag, 110 biscuits included, 7.6 lb"
+      },
+      "features": {
+        "rack_pinion": false,
+        "angle_fence": false,
+        "dust_collection": true,
+        "cordless": false,
+        "biscuits_included": true
+      },
+      "verdict": "A budget joiner kit with an 8.5-amp motor, a dust bag and 110 biscuits in three sizes, rated 4.5 stars on 1,215 reviews.",
+      "best_for": "Beginners who want everything in one box.",
+      "skip_if": "You want the precision of a rack-and-pinion fence.",
+      "pros": [
+        "Biscuits included",
+        "1,215 reviews",
+        "Low price"
+      ],
+      "cons": [
+        "Fence details vague"
+      ]
+    },
+    {
+      "asin": "B0C1Q8TVF8",
+      "name": "WEN 20648 Cordless Plate and Biscuit Joiner Kit with 20V 4.0Ah Battery",
+      "brand": "WEN",
+      "model": "20648",
+      "image": "https://m.media-amazon.com/images/I/716nZHBRdPL._AC_SL1500_.jpg",
+      "price": 120.5,
+      "rating": 4.3,
+      "reviews_count": 50,
+      "specs": {
+        "power": "Cordless, WEN 20V 4.0Ah (included)",
+        "speed": null,
+        "fence": "Adjustable height and angle",
+        "extras": "Six preset stops for #0/#10/#20"
+      },
+      "features": {
+        "rack_pinion": false,
+        "angle_fence": true,
+        "dust_collection": false,
+        "cordless": true,
+        "biscuits_included": false
+      },
+      "verdict": "A budget cordless kit with a 4.0Ah battery and charger and six preset depth stops.",
+      "best_for": "Cordless on a budget.",
+      "skip_if": "You want lots of reviews; it has 50.",
+      "pros": [
+        "Cordless kit, battery included",
+        "Six depth stops"
+      ],
+      "cons": [
+        "4.3 stars"
+      ]
+    },
+    {
+      "asin": "B0FKFYSMCM",
+      "name": "VEVOR 5.9A Biscuit Plate Joiner Kit, 760 W, with Biscuits and Dust Bag",
+      "brand": "VEVOR",
+      "model": "M1K-ZK5-100",
+      "image": "https://m.media-amazon.com/images/I/61soZg5tWFL._AC_SL1500_.jpg",
+      "price": 52.11,
+      "rating": 4.2,
+      "reviews_count": 34,
+      "bought": "100+/mo",
+      "specs": {
+        "power": "Corded, 5.9 A, 760 W",
+        "speed": "11,600 RPM",
+        "fence": "0-90° angle adjustment",
+        "extras": "Six depths for #0, #10, #20, S, D, MAX; biscuits and dust bag"
+      },
+      "features": {
+        "rack_pinion": false,
+        "angle_fence": true,
+        "dust_collection": true,
+        "cordless": false,
+        "biscuits_included": true
+      },
+      "verdict": "A cheap joiner kit with six depth settings, a 0-90 degree fence, biscuits and a dust bag.",
+      "best_for": "One-off projects on a tight budget.",
+      "skip_if": "You want a proven tool; it has 34 reviews.",
+      "pros": [
+        "Very low price",
+        "Biscuits included",
+        "Six depths"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Only 34 reviews"
+      ]
+    },
+    {
+      "asin": "B0CBY3NJMQ",
+      "name": "Steel Force BJ760 Electric Biscuit Plate Joiner, 4\", 760 W",
+      "brand": "Steel Force",
+      "model": "BJ760",
+      "image": "https://m.media-amazon.com/images/I/71fnfvbow1L._AC_SL1500_.jpg",
+      "price": 99.95,
+      "rating": 4.8,
+      "reviews_count": 30,
+      "specs": {
+        "power": "Corded, 760 W",
+        "speed": "11,600 RPM",
+        "fence": null,
+        "extras": "Dust bag"
+      },
+      "features": {
+        "rack_pinion": false,
+        "angle_fence": false,
+        "dust_collection": true,
+        "cordless": false,
+        "biscuits_included": false
+      },
+      "verdict": "A lightweight budget joiner with an 11,600 RPM motor and a dust bag, rated 4.8 stars on 30 reviews.",
+      "best_for": "Light hobby use.",
+      "skip_if": "You want fence details; the listing is vague.",
+      "pros": [
+        "4.8 stars",
+        "Dust bag"
+      ],
+      "cons": [
+        "Only 30 reviews"
+      ]
+    },
+    {
+      "asin": "B0DXK8J5CJ",
+      "name": "WOODSTARTER 8.5 Amp Biscuit Joiner with Dust Bag and 100 Biscuits",
+      "brand": "WOODSTARTER",
+      "model": "458618261",
+      "image": "https://m.media-amazon.com/images/I/713pVhby73L._AC_SL1500_.jpg",
+      "price": 59.99,
+      "rating": 4.5,
+      "reviews_count": 17,
+      "specs": {
+        "power": "Corded, 8.5 A",
+        "speed": "12,000 RPM",
+        "fence": "0-90°",
+        "extras": "100 biscuits, dust bag, 1-year warranty"
+      },
+      "features": {
+        "rack_pinion": false,
+        "angle_fence": true,
+        "dust_collection": true,
+        "cordless": false,
+        "biscuits_included": true
+      },
+      "verdict": "A budget kit with an 8.5-amp motor, a 0-90 degree fence, a dust bag and 100 biscuits.",
+      "best_for": "Beginners on a budget.",
+      "skip_if": "You want a proven tool; it has 17 reviews.",
+      "pros": [
+        "Biscuits and dust bag",
+        "1-year warranty"
+      ],
+      "cons": [
+        "Only 17 reviews",
+        "Spec table lists 'Mortiser Body'"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GTMCJS4Q",
+      "name": "Ecarke Cordless Biscuit Joiner Compatible with DeWalt 20V Battery",
+      "brand": "Ecarke",
+      "model": "SKU16003",
+      "image": "https://m.media-amazon.com/images/I/71ocB2yr7nL._AC_SL1500_.jpg",
+      "price": 95.99,
+      "rating": 3.6,
+      "reviews_count": 42,
+      "flag": "Fixed fence; 3.6 stars",
+      "verdict": "A DEWALT-battery joiner with a fixed fence, which makes centering slots on boards of different thickness harder, and the lowest rating of the joiners we looked at.",
+      "reasons": [
+        "The listing describes a 'sturdy fixed baffle' and an 'auxiliary module' to change the blade offset, rather than a fence you can raise and lower; the joiners we rank adjust height on a fence or rack-and-pinion.",
+        "It's rated 3.6 stars on 42 reviews, the lowest of the joiners we looked at.",
+        "DEWALT owners can buy the DCW682B, which uses the same batteries with a dual rack-and-pinion fence and 4.8 stars."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What does a biscuit joiner do?",
+      "a": "It cuts matching crescent slots in two boards. You glue in a compressed wooden biscuit, which swells and locks the joint and keeps edges aligned. It's fast for tabletops, cabinet carcasses and face frames."
+    },
+    {
+      "q": "Which biscuit sizes?",
+      "a": "#0, #10 and #20 cover most work; use the largest that fits the board. Most joiners have preset stops for all three."
+    },
+    {
+      "q": "Why does the fence matter?",
+      "a": "The fence sets how far the slot is from the face. A rack-and-pinion fence stays parallel to the blade, so slots line up on both boards. A tilting fence handles mitered corners."
+    },
+    {
+      "q": "Corded or cordless?",
+      "a": "Corded is cheaper and has unlimited runtime. Cordless DEWALT and Makita joiners are handy for site work and assembly in place."
+    },
+    {
+      "q": "Biscuits or dowels or dominos?",
+      "a": "Biscuits are quickest and forgiving for alignment. Dowels and Festool Domino tenons are stronger for chairs and frames under heavy load."
+    }
+  ]
+}

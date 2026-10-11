@@ -1,0 +1,467 @@
+{
+  "slug": "cordless-right-angle-drills",
+  "title": "The 10 Best Cordless Right Angle Drills",
+  "subtitle": "Compact and heavy-duty right-angle drills for tight spaces, ranked from live Amazon data.",
+  "intro": "A right-angle drill puts the chuck at 90 degrees so you can drill and drive between studs, inside cabinets and under sinks. We ranked 10 best-sellers from Milwaukee, RYOBI, Bosch, Makita and value brands on rating, review volume and features (a brushless motor, 300 in-lb or more of torque, a clutch and a battery in the box).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 95,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "brushless": 0.35,
+    "battery_included": 0.2,
+    "torque_300": 0.25,
+    "clutch": 0.2
+  },
+  "reviews_ceiling": 2000,
+  "spec_fields": [
+    {
+      "key": "chuck",
+      "label": "Chuck"
+    },
+    {
+      "key": "torque",
+      "label": "Max torque"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "platform",
+      "label": "Battery"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "chuck",
+      "label": "Chuck"
+    },
+    {
+      "key": "torque",
+      "label": "Torque"
+    },
+    {
+      "key": "brushless",
+      "label": "Brushless",
+      "type": "bool"
+    },
+    {
+      "key": "battery_included",
+      "label": "Battery included",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B002SQK996",
+      "name": "Milwaukee M12 3/8\" Cordless Right Angle Drill, Tool Only (2415-20)",
+      "brand": "Milwaukee",
+      "model": "2415-20",
+      "image": "https://m.media-amazon.com/images/I/51FSsTrLKVL._AC_SL1500_.jpg",
+      "price": 90.99,
+      "rating": 4.7,
+      "reviews_count": 1809,
+      "bought": "700+/mo",
+      "specs": {
+        "chuck": "3/8 in",
+        "torque": null,
+        "speed": null,
+        "platform": "Milwaukee M12, not included",
+        "extras": null
+      },
+      "features": {
+        "brushless": false,
+        "battery_included": false,
+        "torque_300": false,
+        "clutch": false
+      },
+      "verdict": "The best-selling and most-reviewed right-angle drill here: Milwaukee's compact M12 for drilling and driving between joists and inside cabinets. The listing's bullets are filler, but it's rated 4.7 stars on 1,809 reviews.",
+      "best_for": "Electricians, plumbers and cabinet installers with M12 batteries.",
+      "skip_if": "You need to bore big holes through studs; get a HOLE HAWG.",
+      "pros": [
+        "4.7 stars; 1,809 reviews",
+        "Compact M12",
+        "700+ sold last month"
+      ],
+      "cons": [
+        "Bare tool",
+        "Listing gives no specs"
+      ]
+    },
+    {
+      "asin": "B08XF7BWQ4",
+      "name": "RYOBI ONE+ HP 18V Brushless Compact 3/8\" Right Angle Drill, Tool Only (PSBRA02B)",
+      "brand": "RYOBI",
+      "model": "PSBRA02B",
+      "image": "https://m.media-amazon.com/images/I/61mZNQ+Xw0L._AC_SL1500_.jpg",
+      "price": 118.0,
+      "rating": 4.7,
+      "reviews_count": 652,
+      "bought": "50+/mo",
+      "specs": {
+        "chuck": "3/8 in",
+        "torque": "350 in-lb",
+        "speed": null,
+        "platform": "RYOBI 18V ONE+, not included",
+        "extras": "2x the torque of the previous model"
+      },
+      "features": {
+        "brushless": true,
+        "battery_included": false,
+        "torque_300": true,
+        "clutch": false
+      },
+      "verdict": "A brushless RYOBI right-angle drill with 350 in-lb of torque, rated 4.7 stars, for RYOBI ONE+ owners.",
+      "best_for": "RYOBI owners who need to drill in tight spots.",
+      "skip_if": "You're not on RYOBI batteries.",
+      "pros": [
+        "Brushless, 350 in-lb",
+        "4.7 stars",
+        "Good price"
+      ],
+      "cons": [
+        "Bare tool"
+      ]
+    },
+    {
+      "asin": "B00BD5G3UC",
+      "name": "BOSCH PS11-102 12V Max 3/8\" Right Angle Drill/Driver Kit with 2.0Ah Battery",
+      "brand": "Bosch",
+      "model": "PS11-102",
+      "image": "https://m.media-amazon.com/images/I/51hYLPLQGtL._AC_SL1000_.jpg",
+      "price": 153.0,
+      "rating": 4.5,
+      "reviews_count": 1028,
+      "bought": "50+/mo",
+      "specs": {
+        "chuck": "3/8 in auto-lock",
+        "torque": "115 in-lb",
+        "speed": "1,300 RPM",
+        "platform": "Bosch 12V, battery included",
+        "extras": "5-position pivoting head (90 to 180 degrees), 2.75 lb"
+      },
+      "features": {
+        "brushless": false,
+        "battery_included": true,
+        "torque_300": false,
+        "clutch": false
+      },
+      "verdict": "A light 2.75 lb Bosch kit with a head that pivots through 5 positions from 90 to 180 degrees, for driving screws where a straight drill won't fit.",
+      "best_for": "Light drilling and driving in cabinets and tight frames.",
+      "skip_if": "You need torque; it's rated 115 in-lb.",
+      "pros": [
+        "Pivoting head",
+        "Battery included",
+        "2.75 lb"
+      ],
+      "cons": [
+        "115 in-lb"
+      ]
+    },
+    {
+      "asin": "B08FF459QJ",
+      "name": "Milwaukee M18 FUEL HOLE HAWG 1/2\" Right Angle Drill, Tool Only (2807-20)",
+      "brand": "Milwaukee",
+      "model": "2807-20",
+      "image": "https://m.media-amazon.com/images/I/51DVvsBDUvL._AC_SL1000_.jpg",
+      "price": 205.47,
+      "rating": 4.5,
+      "reviews_count": 549,
+      "bought": "300+/mo",
+      "specs": {
+        "chuck": "1/2 in",
+        "torque": null,
+        "speed": null,
+        "platform": "Milwaukee M18, not included",
+        "extras": "Brushless FUEL"
+      },
+      "features": {
+        "brushless": true,
+        "battery_included": false,
+        "torque_300": false,
+        "clutch": false
+      },
+      "verdict": "The tool electricians and plumbers use to bore big holes through studs and joists: Milwaukee's brushless M18 FUEL HOLE HAWG with a 1/2-inch chuck.",
+      "best_for": "Pros running wire and pipe through framing.",
+      "skip_if": "You only need a compact drill for cabinets.",
+      "pros": [
+        "Heavy-duty 1/2 in chuck",
+        "Brushless FUEL",
+        "549 reviews"
+      ],
+      "cons": [
+        "Bare tool",
+        "Big and heavy for small jobs"
+      ]
+    },
+    {
+      "asin": "B08FVH5D13",
+      "name": "Milwaukee M18 FUEL HOLE HAWG Right Angle Drill with 7/16\" QUIK-LOK, Tool Only (2808-20)",
+      "brand": "Milwaukee",
+      "model": "2808-20",
+      "image": "https://m.media-amazon.com/images/I/61kPo56hX4L._AC_SL1500_.jpg",
+      "price": 219.0,
+      "rating": 4.6,
+      "reviews_count": 291,
+      "bought": "200+/mo",
+      "specs": {
+        "chuck": "7/16 in QUIK-LOK",
+        "torque": null,
+        "speed": null,
+        "platform": "Milwaukee M18, not included",
+        "extras": "Brushless FUEL"
+      },
+      "features": {
+        "brushless": true,
+        "battery_included": false,
+        "torque_300": false,
+        "clutch": false
+      },
+      "verdict": "The HOLE HAWG with a QUIK-LOK chuck for fast bit changes with self-feed and auger bits.",
+      "best_for": "Pros who change bits constantly.",
+      "skip_if": "Your bits have round shanks; QUIK-LOK takes 7/16 in hex.",
+      "pros": [
+        "QUIK-LOK chuck",
+        "Brushless FUEL",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Bare tool",
+        "Most expensive Milwaukee here"
+      ]
+    },
+    {
+      "asin": "B00K194TQQ",
+      "premium": true,
+      "name": "Makita XAD01Z 18V LXT 3/8\" Angle Drill, Tool Only",
+      "brand": "Makita",
+      "model": "XAD01Z",
+      "image": "https://m.media-amazon.com/images/I/61arExv9g3L._AC_SL1500_.jpg",
+      "price": 244.0,
+      "rating": 4.4,
+      "reviews_count": 144,
+      "specs": {
+        "chuck": "3/8 in",
+        "torque": "121 in-lb",
+        "speed": "0-1,800 RPM",
+        "platform": "Makita 18V LXT, not included",
+        "extras": "2-5/8 in head height"
+      },
+      "features": {
+        "brushless": false,
+        "battery_included": false,
+        "torque_300": false,
+        "clutch": false
+      },
+      "verdict": "Makita's 18V angle drill with a short 2-5/8-inch head for close quarters and variable speed to 1,800 RPM.",
+      "best_for": "Makita owners drilling in tight spots.",
+      "skip_if": "You want brushless power.",
+      "pros": [
+        "Short head",
+        "Variable speed"
+      ],
+      "cons": [
+        "Priciest compact here",
+        "121 in-lb"
+      ]
+    },
+    {
+      "asin": "B005S38V3C",
+      "name": "Milwaukee M18 Cordless Right Angle Drill Driver, Tool Only (C18RAD-0)",
+      "brand": "Milwaukee",
+      "model": "C18RAD-0",
+      "image": "https://m.media-amazon.com/images/I/51eEqLqk0wL._AC_SL1500_.jpg",
+      "price": 168.88,
+      "rating": 4.5,
+      "reviews_count": 325,
+      "bought": "100+/mo",
+      "specs": {
+        "chuck": "3/8 in",
+        "torque": null,
+        "speed": "Variable",
+        "platform": "Milwaukee M18, not included",
+        "extras": "Electronic clutch with indicator light, multi-position switch"
+      },
+      "features": {
+        "brushless": false,
+        "battery_included": false,
+        "torque_300": false,
+        "clutch": true
+      },
+      "verdict": "An M18 right-angle drill/driver with an electronic clutch, so you can drive screws without stripping them. The model number (C18RAD-0) is Milwaukee's international version.",
+      "best_for": "M18 owners who drive screws in tight spaces.",
+      "skip_if": "You want a US-model warranty match; check the seller.",
+      "pros": [
+        "Electronic clutch",
+        "Variable speed"
+      ],
+      "cons": [
+        "International model number",
+        "Bare tool"
+      ]
+    },
+    {
+      "asin": "B0FP8XTTDD",
+      "force_budget": true,
+      "name": "VEVOR Brushless 3/8\" Cordless Right Angle Drill with Battery and Charger (DJZO5030-10)",
+      "brand": "VEVOR",
+      "model": "DJZO5030-10",
+      "image": "https://m.media-amazon.com/images/I/61i8kB623RL._AC_SL1500_.jpg",
+      "price": 67.9,
+      "rating": 4.2,
+      "reviews_count": 71,
+      "specs": {
+        "chuck": "3/8 in",
+        "torque": "45 N-m (about 400 in-lb)",
+        "speed": null,
+        "platform": "2.0Ah, included",
+        "extras": "Belt clip"
+      },
+      "features": {
+        "brushless": true,
+        "battery_included": true,
+        "torque_300": true,
+        "clutch": false
+      },
+      "verdict": "A budget brushless kit with a battery, charger and 45 N-m of torque, for less than a bare Milwaukee.",
+      "best_for": "Occasional use on a budget.",
+      "skip_if": "You want a proven tool; it has 71 reviews.",
+      "pros": [
+        "Brushless kit",
+        "Low price",
+        "High listed torque"
+      ],
+      "cons": [
+        "4.2 stars",
+        "Only 71 reviews"
+      ]
+    },
+    {
+      "asin": "B0GF7RLJ23",
+      "name": "ADOTOCAM Brushless Right Angle Drill for DEWALT 20V Battery, Tool Only (ZJ-001Z)",
+      "brand": "ADOTOCAM",
+      "model": "ZJ-001Z",
+      "image": "https://m.media-amazon.com/images/I/71f9LtNM3NL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.7,
+      "reviews_count": 68,
+      "bought": "300+/mo",
+      "specs": {
+        "chuck": "3/8 in ratchet",
+        "torque": "Up to 400 in-lb (claimed)",
+        "speed": null,
+        "platform": "DEWALT 20V, not included",
+        "extras": null
+      },
+      "features": {
+        "brushless": true,
+        "battery_included": false,
+        "torque_300": true,
+        "clutch": false
+      },
+      "verdict": "A DEWALT-battery right-angle drill with a brushless motor and a claimed 400 in-lb, rated 4.7 stars on 68 reviews.",
+      "best_for": "DEWALT owners who want a cheap right-angle drill.",
+      "skip_if": "You want DEWALT's warranty.",
+      "pros": [
+        "Uses DEWALT batteries",
+        "Brushless",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Third-party tool",
+        "Only 68 reviews"
+      ]
+    },
+    {
+      "asin": "B0GWCN1TY7",
+      "name": "Alloyman 20V Brushless 3/8\" Right Angle Drill with 2 x 2.0Ah Batteries (AM-HS-ZJ-DQ)",
+      "brand": "Alloyman",
+      "model": "AM-HS-ZJ-DQ",
+      "image": "https://m.media-amazon.com/images/I/71EJ17xaqSL._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.6,
+      "reviews_count": 22,
+      "bought": "50+/mo",
+      "specs": {
+        "chuck": "3/8 in ratchet",
+        "torque": "Up to 400 in-lb (claimed)",
+        "speed": "Two speeds, 0-500 / 0-1,900 RPM",
+        "platform": "Two 2.0Ah, included",
+        "extras": null
+      },
+      "features": {
+        "brushless": true,
+        "battery_included": true,
+        "torque_300": true,
+        "clutch": false
+      },
+      "verdict": "A budget brushless kit with two batteries and two speeds.",
+      "best_for": "Budget buyers who want a complete kit.",
+      "skip_if": "You want a long track record; it has 22 reviews.",
+      "pros": [
+        "Two batteries",
+        "Two speeds",
+        "4.6 stars"
+      ],
+      "cons": [
+        "Only 22 reviews"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0H145DHPC",
+      "name": "ALLOYPOWER 20V Brushless Right Angle Drill with 2 x 2.0Ah Battery and Charger",
+      "brand": "ALLOY POWER",
+      "model": "AP-ZJDZ-001",
+      "image": "https://m.media-amazon.com/images/I/7181rCdzGVL._AC_SL1500_.jpg",
+      "price": 99.99,
+      "rating": 3.9,
+      "reviews_count": 13,
+      "flag": "Same listing copy as the Alloyman kit; costs $10 more; 3.9 stars",
+      "verdict": "Its bullets match the Alloyman kit word for word, it costs about $10 more, and it's rated 3.9 stars.",
+      "reasons": [
+        "The motor, chuck and dual-speed bullets are the same text as the Alloyman AM-HS-ZJ-DQ listing, down to 'up to 400 in-lb', so you appear to pay more for the same tool under another name.",
+        "It's rated 3.9 stars on 13 reviews, below the Alloyman's 4.6.",
+        "If you want this design, the Alloyman listing is cheaper; if you want proven, the Milwaukee 2415-20 has 1,809 reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What's a right-angle drill for?",
+      "a": "Drilling and driving where a normal drill won't fit: between studs and joists, inside cabinets, under sinks and in engine bays."
+    },
+    {
+      "q": "Compact or HOLE HAWG?",
+      "a": "Compact 3/8-inch angle drills drive screws and drill small holes in tight spots. HOLE HAWG-style 1/2-inch drills bore large holes through framing for wire and pipe with self-feed and auger bits."
+    },
+    {
+      "q": "Does torque matter?",
+      "a": "For screws and small holes, 115 to 150 in-lb is plenty. For bigger bits and lag screws, look for 300 in-lb or more, or a HOLE HAWG."
+    },
+    {
+      "q": "Is an attachment good enough?",
+      "a": "A right-angle attachment for your regular drill works for occasional use. A dedicated angle drill is shorter, lighter and much easier in tight spaces."
+    },
+    {
+      "q": "Brushless worth it?",
+      "a": "Yes for regular use: brushless motors run cooler and get more done per charge."
+    }
+  ]
+}

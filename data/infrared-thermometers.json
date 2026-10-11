@@ -1,0 +1,455 @@
+{
+  "slug": "infrared-thermometers",
+  "title": "The 10 Best Infrared Thermometers",
+  "subtitle": "Infrared temperature guns for HVAC, electrical, automotive and cooking, ranked from live Amazon data.",
+  "intro": "An infrared thermometer reads surface temperature instantly from a distance, for anything from a breaker panel to a pizza stone. We ranked 10 best-sellers from Fluke, Klein Tools, Etekcity, TempPro and value brands on rating, review volume and features (adjustable emissivity, 12:1 or better distance-to-spot, a range over 1,000°F and max/min readings).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 20,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "adj_emissivity": 0.3,
+    "ds_12": 0.25,
+    "wide_range": 0.25,
+    "max_min": 0.2
+  },
+  "reviews_ceiling": 50000,
+  "spec_fields": [
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "ds",
+      "label": "Distance-to-spot"
+    },
+    {
+      "key": "emissivity",
+      "label": "Emissivity"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "range",
+      "label": "Range"
+    },
+    {
+      "key": "ds",
+      "label": "D:S"
+    },
+    {
+      "key": "adj_emissivity",
+      "label": "Adjustable emissivity",
+      "type": "bool"
+    },
+    {
+      "key": "max_min",
+      "label": "Max/min",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B0B71HFH9K",
+      "force_budget": true,
+      "name": "Etekcity Lasergrip 774 Infrared Thermometer",
+      "brand": "Etekcity",
+      "model": "Lasergrip 774",
+      "image": "https://m.media-amazon.com/images/I/61zQDIcb0FL._AC_SL1500_.jpg",
+      "price": 18.99,
+      "rating": 4.6,
+      "reviews_count": 51414,
+      "bought": "10K+/mo",
+      "specs": {
+        "range": "-58 to 842°F",
+        "ds": "12:1",
+        "emissivity": null,
+        "extras": "Backlit LCD, batteries included"
+      },
+      "features": {
+        "adj_emissivity": false,
+        "ds_12": true,
+        "wide_range": false,
+        "max_min": false
+      },
+      "verdict": "The best-selling and most-reviewed thermometer here: 12:1 distance-to-spot, -58 to 842°F and a backlit screen, for under $20.",
+      "best_for": "Checking griddles, ovens, AC vents and engines at home.",
+      "skip_if": "You measure shiny metal; emissivity isn't adjustable.",
+      "pros": [
+        "51,414 reviews; 10,000+ sold last month",
+        "Under $20",
+        "12:1"
+      ],
+      "cons": [
+        "Fixed emissivity",
+        "Tops out at 842°F"
+      ]
+    },
+    {
+      "asin": "B00DMI632G",
+      "force_overall": true,
+      "name": "Etekcity Lasergrip 1080 Infrared Thermometer, -58 to 1130°F",
+      "brand": "Etekcity",
+      "model": "Lasergrip 1080",
+      "image": "https://m.media-amazon.com/images/I/71ccLL6stNL._AC_SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.6,
+      "reviews_count": 45525,
+      "bought": "2K+/mo",
+      "specs": {
+        "range": "-58 to 1130°F",
+        "ds": "12:1",
+        "emissivity": "Adjustable 0.1-1.0",
+        "extras": "Max temperature display, 0.5 s reading"
+      },
+      "features": {
+        "adj_emissivity": true,
+        "ds_12": true,
+        "wide_range": true,
+        "max_min": true
+      },
+      "verdict": "Etekcity's step up: adjustable emissivity for accurate readings on different surfaces, a range to 1130°F for pizza ovens, and a max-temperature display.",
+      "best_for": "Cooks, mechanics and HVAC DIYers who want accurate readings on any surface.",
+      "skip_if": "You only check room-temperature surfaces; the 774 is cheaper.",
+      "pros": [
+        "Adjustable emissivity",
+        "Up to 1130°F",
+        "45,525 reviews"
+      ],
+      "cons": [
+        "Reviews shared with the Lasergrip 800"
+      ]
+    },
+    {
+      "asin": "B07VTPJXH9",
+      "name": "TempPro TempScan Infrared Thermometer Gun (TP30)",
+      "brand": "TempPro",
+      "model": "TP-30",
+      "image": "https://m.media-amazon.com/images/I/71Xo8Fi3ZFL._AC_SL1500_.jpg",
+      "price": 21.99,
+      "rating": 4.6,
+      "reviews_count": 9768,
+      "bought": "6K+/mo",
+      "specs": {
+        "range": "-58 to 1022°F",
+        "ds": "12:1",
+        "emissivity": "Adjustable 0.1-1.0",
+        "extras": "MAX/MIN/AVG, ±1.5% accuracy, under 0.5 s response"
+      },
+      "features": {
+        "adj_emissivity": true,
+        "ds_12": true,
+        "wide_range": true,
+        "max_min": true
+      },
+      "verdict": "Adjustable emissivity, MAX/MIN/AVG readings, a stated ±1.5% accuracy and a range to 1022°F, with 9,768 reviews.",
+      "best_for": "Pizza oven and griddle cooks who also check HVAC vents.",
+      "skip_if": "You need over 1,022°F.",
+      "pros": [
+        "Adjustable emissivity",
+        "MAX/MIN/AVG",
+        "±1.5% accuracy"
+      ],
+      "cons": [
+        "4.6 stars"
+      ]
+    },
+    {
+      "asin": "B0873T6SGR",
+      "name": "Klein Tools IR1 Infrared Thermometer with Targeting Laser",
+      "brand": "Klein Tools",
+      "model": "IR1",
+      "image": "https://m.media-amazon.com/images/I/51EaG80fqdL._SL1000_.jpg",
+      "price": 29.98,
+      "rating": 4.6,
+      "reviews_count": 3628,
+      "bought": "6K+/mo",
+      "specs": {
+        "range": "-4 to 752°F",
+        "ds": "10:1",
+        "emissivity": "Fixed 0.95",
+        "extras": "Laser targeting, backlit display, auto power off"
+      },
+      "features": {
+        "adj_emissivity": false,
+        "ds_12": false,
+        "wide_range": false,
+        "max_min": false
+      },
+      "verdict": "Klein's basic IR thermometer for electricians and HVAC techs: 10:1, -4 to 752°F, and a fixed 0.95 emissivity that suits most non-shiny surfaces.",
+      "best_for": "Electricians checking breakers, connections and motors.",
+      "skip_if": "You cook with it; the range stops at 752°F.",
+      "pros": [
+        "Klein build",
+        "6,000+ sold last month",
+        "Simple to use"
+      ],
+      "cons": [
+        "10:1",
+        "Fixed emissivity"
+      ]
+    },
+    {
+      "asin": "B0BN317X6Z",
+      "name": "Soonkoda GM50 Digital Infrared Thermometer, -58 to 932°F",
+      "brand": "Soonkoda",
+      "model": "GM50",
+      "image": "https://m.media-amazon.com/images/I/61w0Tef0rCL._SL1500_.jpg",
+      "price": 8.98,
+      "rating": 4.6,
+      "reviews_count": 6549,
+      "bought": "7K+/mo",
+      "specs": {
+        "range": "-58 to 932°F",
+        "ds": null,
+        "emissivity": "Fixed 0.95",
+        "extras": "Backlight, data hold, 0.1° resolution"
+      },
+      "features": {
+        "adj_emissivity": false,
+        "ds_12": false,
+        "wide_range": false,
+        "max_min": false
+      },
+      "verdict": "A basic IR thermometer with a backlight and data hold for under $10, with 6,549 reviews.",
+      "best_for": "Occasional kitchen or garage checks on a tight budget.",
+      "skip_if": "You want the distance-to-spot ratio stated.",
+      "pros": [
+        "Under $10",
+        "7,000+ sold last month",
+        "Data hold"
+      ],
+      "cons": [
+        "D:S not listed",
+        "Fixed emissivity"
+      ]
+    },
+    {
+      "asin": "B0DK51CTZX",
+      "name": "KNINE OUTDOORS Infrared Thermometer Gun, -58 to 1112°F (TG-2024-OG)",
+      "brand": "KNINE OUTDOORS",
+      "model": "TG-2024-OG",
+      "image": "https://m.media-amazon.com/images/I/71si8Fa70IL._SL1500_.jpg",
+      "price": 17.97,
+      "rating": 4.6,
+      "reviews_count": 2327,
+      "bought": "6K+/mo",
+      "specs": {
+        "range": "-58 to 1112°F",
+        "ds": "12:1",
+        "emissivity": null,
+        "extras": "Single laser, eye-protect LCD"
+      },
+      "features": {
+        "adj_emissivity": false,
+        "ds_12": true,
+        "wide_range": true,
+        "max_min": false
+      },
+      "verdict": "A 12:1 thermometer that reads up to 1112°F, high enough for pizza ovens, for under $20.",
+      "best_for": "Pizza oven cooks on a budget.",
+      "skip_if": "You need adjustable emissivity.",
+      "pros": [
+        "Up to 1112°F",
+        "12:1",
+        "Under $20"
+      ],
+      "cons": [
+        "Emissivity not adjustable"
+      ]
+    },
+    {
+      "asin": "B099WXX9DL",
+      "name": "TempPro TempScan PLUS TP450 Infrared Thermometer with 2 Lasers",
+      "brand": "TempPro",
+      "model": "TP450",
+      "image": "https://m.media-amazon.com/images/I/615QxY5eX-L._AC_SL1500_.jpg",
+      "price": 32.99,
+      "rating": 4.6,
+      "reviews_count": 1229,
+      "bought": "1K+/mo",
+      "specs": {
+        "range": "Up to 1022°F",
+        "ds": "16:1",
+        "emissivity": "Adjustable 0.1-1.0",
+        "extras": "Dual lasers, MAX/MIN/AVG, ±1.5%"
+      },
+      "features": {
+        "adj_emissivity": true,
+        "ds_12": true,
+        "wide_range": true,
+        "max_min": true
+      },
+      "verdict": "TempPro's upgraded gun with dual lasers that frame the spot, a tighter 16:1 ratio, adjustable emissivity and MAX/MIN/AVG.",
+      "best_for": "Grill and pizza oven cooks who want a tighter spot.",
+      "skip_if": "You're fine with 12:1; the TP30 is cheaper.",
+      "pros": [
+        "16:1 ratio",
+        "Dual lasers",
+        "Adjustable emissivity"
+      ],
+      "cons": [
+        "4.6 stars"
+      ]
+    },
+    {
+      "asin": "B01DR066WU",
+      "name": "Klein Tools IR5 Infrared Thermometer with Dual Targeting Laser, 12:1",
+      "brand": "Klein Tools",
+      "model": "IR5",
+      "image": "https://m.media-amazon.com/images/I/61lFUAGbN2L._SL1000_.jpg",
+      "price": 68.38,
+      "rating": 4.6,
+      "reviews_count": 1308,
+      "bought": "400+/mo",
+      "specs": {
+        "range": "-22 to 752°F",
+        "ds": "12:1",
+        "emissivity": "Adjustable 0.1-1.0",
+        "extras": "Dual lasers, auto scan, max/min/avg/diff, high/low alarm"
+      },
+      "features": {
+        "adj_emissivity": true,
+        "ds_12": true,
+        "wide_range": false,
+        "max_min": true
+      },
+      "verdict": "A pro Klein with dual lasers, adjustable emissivity, max/min/avg/difference readings and high and low alarms.",
+      "best_for": "HVAC and electrical techs who want alarms and statistics.",
+      "skip_if": "You cook with it; the range stops at 752°F.",
+      "pros": [
+        "High/low alarm",
+        "Adjustable emissivity",
+        "Dual lasers"
+      ],
+      "cons": [
+        "752°F max"
+      ]
+    },
+    {
+      "asin": "B07K1JB9TQ",
+      "name": "Klein Tools IR10 Infrared Thermometer with Dual Targeting Laser, 20:1, K-Type Probe",
+      "brand": "Klein Tools",
+      "model": "IR10",
+      "image": "https://m.media-amazon.com/images/I/61xEHGCLoHL._SL1000_.jpg",
+      "price": 114.99,
+      "rating": 4.7,
+      "reviews_count": 367,
+      "bought": "100+/mo",
+      "specs": {
+        "range": "-40 to 1200°F (IR and probe)",
+        "ds": "20:1",
+        "emissivity": "Adjustable 0.1-1.0",
+        "extras": "K-type probe for air, gas and liquid; alarms; max/min/avg/diff"
+      },
+      "features": {
+        "adj_emissivity": true,
+        "ds_12": true,
+        "wide_range": true,
+        "max_min": true
+      },
+      "verdict": "Klein's top model: 20:1 for small or distant targets, a range to 1200°F, and a K-type probe for measuring air, gas and liquid that IR can't read.",
+      "best_for": "HVAC techs measuring duct air and refrigerant lines.",
+      "skip_if": "You only need surface readings.",
+      "pros": [
+        "20:1 ratio",
+        "K-type probe",
+        "Up to 1200°F"
+      ],
+      "cons": [
+        "Only 367 reviews"
+      ]
+    },
+    {
+      "asin": "B008EW837S",
+      "premium": true,
+      "name": "Fluke 62 Max Industrial Infrared Thermometer, -22 to 932°F, IP54",
+      "brand": "Fluke",
+      "model": "62 Max",
+      "image": "https://m.media-amazon.com/images/I/61WUkyQkjwL._SL1500_.jpg",
+      "price": 122.93,
+      "rating": 4.7,
+      "reviews_count": 2099,
+      "bought": "1K+/mo",
+      "specs": {
+        "range": "-22 to 932°F",
+        "ds": "10:1",
+        "emissivity": null,
+        "extras": "IP54, ±1.5°C or ±1.5% accuracy, max/min/avg/diff, 3-year warranty"
+      },
+      "features": {
+        "adj_emissivity": false,
+        "ds_12": false,
+        "wide_range": false,
+        "max_min": true
+      },
+      "verdict": "Fluke's industrial thermometer: IP54 dust and water resistance, a stated ±1.5% accuracy, and a 3-year warranty, rated 4.7 stars.",
+      "best_for": "Maintenance techs who need a thermometer that survives the job.",
+      "skip_if": "You cook with it or need 12:1 or better.",
+      "pros": [
+        "IP54",
+        "Fluke accuracy and warranty",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Most expensive here",
+        "10:1"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0CCYRWHB4",
+      "name": "SURPEER Infrared Thermometer Temperature Gun, -58 to 1796°F, 50:1",
+      "brand": "SURPEER",
+      "model": "IR-1796",
+      "image": "https://m.media-amazon.com/images/I/61bj0-Vb7DL._SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.7,
+      "reviews_count": 141,
+      "flag": "Claims 50:1 for $40",
+      "verdict": "A $40 thermometer claiming a 50:1 distance-to-spot ratio, two and a half times Klein's $115 IR10 and five times Fluke's 62 Max.",
+      "reasons": [
+        "It claims '50:1 distance-to-spot ratio'. Klein's top IR10 is 20:1 and Fluke's industrial 62 Max is 10:1.",
+        "No accuracy figure is given to back the 50:1 or the 1796°F range.",
+        "The model number is written in decorative bold Unicode characters and the part number is a random string, so the exact product is hard to identify. The TempPro TP450 lists a 16:1 ratio and ±1.5% accuracy for less."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What is distance-to-spot?",
+      "a": "D:S tells you how big the measured spot is at a distance. At 12:1, from 12 inches away you read a 1-inch circle. Higher ratios read smaller or farther targets."
+    },
+    {
+      "q": "Why does emissivity matter?",
+      "a": "IR thermometers assume a surface emits heat like a matte object (about 0.95). Shiny metal like stainless or aluminum reads low. Adjustable emissivity, or a piece of tape on the surface, fixes that."
+    },
+    {
+      "q": "Can it read air or liquid temperature?",
+      "a": "No. IR reads surfaces only. For air in a duct or liquid in a pot, use a probe; Klein's IR10 includes one."
+    },
+    {
+      "q": "What range do I need?",
+      "a": "752°F covers electrical, HVAC and engines. Pizza ovens and forges need 900°F to 1,100°F or more."
+    },
+    {
+      "q": "Not for people",
+      "a": "These are surface thermometers for objects. They aren't calibrated for body temperature."
+    }
+  ]
+}

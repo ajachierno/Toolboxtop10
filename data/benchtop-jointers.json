@@ -1,0 +1,462 @@
+{
+  "slug": "benchtop-jointers",
+  "title": "The 10 Best Benchtop Jointers",
+  "subtitle": "Benchtop and compact jointers for flattening and squaring boards, ranked from live Amazon data.",
+  "intro": "A jointer flattens a board's face and squares its edge so it can be planed and glued up straight. We ranked 10 best-sellers from WEN, Cutech, Wahuda, CRAFTSMAN and JET on rating, review volume and features (a spiral cutterhead, cast iron tables, 8-inch or wider capacity and carbide inserts).",
+  "data_captured": "2026-10-10",
+  "audited": "2026-10-10",
+  "changelog": [
+    {
+      "date": "2026-10-10",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 300,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "helical": 0.35,
+    "cast_iron": 0.25,
+    "width_8": 0.2,
+    "carbide": 0.2
+  },
+  "reviews_ceiling": 1200,
+  "spec_fields": [
+    {
+      "key": "width",
+      "label": "Width"
+    },
+    {
+      "key": "cutterhead",
+      "label": "Cutterhead"
+    },
+    {
+      "key": "table",
+      "label": "Table"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "width",
+      "label": "Width"
+    },
+    {
+      "key": "cutterhead",
+      "label": "Cutterhead"
+    },
+    {
+      "key": "helical",
+      "label": "Helical",
+      "type": "bool"
+    },
+    {
+      "key": "cast_iron",
+      "label": "Cast iron tables",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08M6KQ5LX",
+      "force_budget": true,
+      "name": "WEN JT630H 10-Amp 6-Inch Spiral Benchtop Jointer",
+      "brand": "WEN",
+      "model": "JT630H",
+      "image": "https://m.media-amazon.com/images/I/712OeY8RPBL._AC_SL1500_.jpg",
+      "price": 273.83,
+      "rating": 4.6,
+      "reviews_count": 1073,
+      "bought": "100+/mo",
+      "specs": {
+        "width": "6 in",
+        "cutterhead": "Spiral, 12 HSS inserts",
+        "table": "30 x 6 in",
+        "motor": "10 A",
+        "extras": "Up to 1/8 in per pass"
+      },
+      "features": {
+        "helical": true,
+        "cast_iron": false,
+        "width_8": false,
+        "carbide": false
+      },
+      "verdict": "The best-selling and most-reviewed jointer here: a 6-inch benchtop with a spiral head for a fine finish, for under $300.",
+      "best_for": "Hobby shops flattening and edging boards on a budget.",
+      "skip_if": "You joint long boards; a 30-inch table is short.",
+      "pros": [
+        "1,073 reviews; 4.6 stars",
+        "Spiral cutterhead",
+        "Low price for spiral"
+      ],
+      "cons": [
+        "6 in width",
+        "HSS inserts"
+      ]
+    },
+    {
+      "asin": "B0BTMVCQ4Z",
+      "force_overall": true,
+      "name": "Cutech 40180HI 8-Inch Spiral Benchtop Jointer with Cast Iron Tables and Carbide Inserts",
+      "brand": "Cutech",
+      "model": "40180HI",
+      "image": "https://m.media-amazon.com/images/I/6126z3twGHL._AC_SL1500_.jpg",
+      "price": 549.99,
+      "rating": 4.5,
+      "reviews_count": 78,
+      "bought": "50+/mo",
+      "specs": {
+        "width": "8 in",
+        "cutterhead": "Spiral, 16 two-sided carbide inserts",
+        "table": "Cast iron",
+        "motor": null,
+        "extras": "24 in aluminum fence with 90°/135° stops"
+      },
+      "features": {
+        "helical": true,
+        "cast_iron": true,
+        "width_8": true,
+        "carbide": true
+      },
+      "verdict": "An 8-inch benchtop jointer with carbide inserts and cast iron tables, the kind of features usually found on floor-standing machines.",
+      "best_for": "Serious hobbyists who want 8-inch capacity in a benchtop.",
+      "skip_if": "You need it cheap.",
+      "pros": [
+        "8 in width",
+        "Carbide inserts",
+        "Cast iron tables"
+      ],
+      "cons": [
+        "Only 78 reviews"
+      ]
+    },
+    {
+      "asin": "B0DTM4DYTX",
+      "name": "Cutech 401120HI-IF 12-Inch Spiral Benchtop Jointer with Cast Iron Tables and Fence",
+      "brand": "Cutech",
+      "model": "401120HI-IF",
+      "image": "https://m.media-amazon.com/images/I/61CNnXDkY+L._AC_SL1500_.jpg",
+      "price": 849.99,
+      "rating": 4.7,
+      "reviews_count": 53,
+      "bought": "50+/mo",
+      "specs": {
+        "width": "12 in",
+        "cutterhead": "Spiral, 24 carbide inserts",
+        "table": "Cast iron",
+        "motor": "12 A",
+        "extras": "24 x 6 in cast iron fence"
+      },
+      "features": {
+        "helical": true,
+        "cast_iron": true,
+        "width_8": true,
+        "carbide": true
+      },
+      "verdict": "A 12-inch benchtop jointer with carbide inserts, cast iron tables and a cast iron fence, wide enough to flatten most furniture boards in one pass.",
+      "best_for": "Woodworkers who mill wide boards in a small shop.",
+      "skip_if": "You're on a budget; it's one of the priciest here.",
+      "pros": [
+        "12 in width",
+        "Carbide, cast iron",
+        "4.7 stars"
+      ],
+      "cons": [
+        "Expensive",
+        "Only 53 reviews"
+      ]
+    },
+    {
+      "asin": "B0BRNG51X3",
+      "name": "Cutech 40160HB 6-Inch Spiral Benchtop Jointer with Carbide Inserts (401HCB)",
+      "brand": "Cutech",
+      "model": "401HCB",
+      "image": "https://m.media-amazon.com/images/I/71810d4U+PL._AC_SL1500_.jpg",
+      "price": 319.99,
+      "rating": 4.8,
+      "reviews_count": 59,
+      "specs": {
+        "width": "6 in",
+        "cutterhead": "Spiral, 12 carbide inserts",
+        "table": "Teflon-coated aluminum",
+        "motor": "10 A",
+        "extras": "19-5/8 in fence, depth pointer"
+      },
+      "features": {
+        "helical": true,
+        "cast_iron": false,
+        "width_8": false,
+        "carbide": true
+      },
+      "verdict": "Cutech's 6-inch jointer with carbide inserts, tied for the best rating here at 4.8 stars.",
+      "best_for": "Small shops that want carbide on a budget.",
+      "skip_if": "You want cast iron tables.",
+      "pros": [
+        "Carbide inserts",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Aluminum tables",
+        "Only 59 reviews"
+      ]
+    },
+    {
+      "asin": "B07Y476PHF",
+      "name": "CRAFTSMAN 10 Amp Benchtop Jointer, Variable Speed (CMEW020)",
+      "brand": "CRAFTSMAN",
+      "model": "CMEW020",
+      "image": "https://m.media-amazon.com/images/I/71vHDq0QaiL._AC_SL1500_.jpg",
+      "price": 329.0,
+      "rating": 4.4,
+      "reviews_count": 676,
+      "specs": {
+        "width": "6 in",
+        "cutterhead": "2 knives, jackscrew leveling",
+        "table": null,
+        "motor": "10 A, 6,000-11,000 RPM variable",
+        "extras": "Center-mounted fence"
+      },
+      "features": {
+        "helical": false,
+        "cast_iron": false,
+        "width_8": false,
+        "carbide": false
+      },
+      "verdict": "A brand-name benchtop jointer with variable speed and a center-mounted fence, using straight knives.",
+      "best_for": "Occasional jointing with a brand you can find parts for.",
+      "skip_if": "You want a smoother spiral finish.",
+      "pros": [
+        "Variable speed",
+        "676 reviews"
+      ],
+      "cons": [
+        "Straight knives",
+        "4.4 stars"
+      ]
+    },
+    {
+      "asin": "B0C9NT3BXN",
+      "name": "Cutech 401100HI 10-Inch Spiral Benchtop Jointer with Cast Iron Tables",
+      "brand": "Cutech",
+      "model": "401100HI",
+      "image": "https://m.media-amazon.com/images/I/61Tu2ctX-3L._AC_SL1500_.jpg",
+      "price": 649.99,
+      "rating": 4.8,
+      "reviews_count": 50,
+      "specs": {
+        "width": "10 in",
+        "cutterhead": "Spiral, 20 carbide inserts",
+        "table": "Cast iron",
+        "motor": "12 A",
+        "extras": "24 in fence"
+      },
+      "features": {
+        "helical": true,
+        "cast_iron": true,
+        "width_8": true,
+        "carbide": true
+      },
+      "verdict": "A 10-inch Cutech with carbide inserts and cast iron tables, rated 4.8 stars.",
+      "best_for": "Woodworkers who want wider than 8 inches without a floor machine.",
+      "skip_if": "You only joint edges.",
+      "pros": [
+        "10 in width",
+        "Carbide, cast iron",
+        "4.8 stars"
+      ],
+      "cons": [
+        "Only 50 reviews"
+      ]
+    },
+    {
+      "asin": "B08KSFKVB6",
+      "name": "WEN JT833H 10-Amp 8-Inch Spiral Benchtop Jointer with Extendable Table",
+      "brand": "WEN",
+      "model": "JT833H",
+      "image": "https://m.media-amazon.com/images/I/71jeFWQO9sL._AC_SL1500_.jpg",
+      "price": 463.79,
+      "rating": 4.4,
+      "reviews_count": 443,
+      "specs": {
+        "width": "8 in",
+        "cutterhead": "Spiral, 16 HSS inserts",
+        "table": "33 x 8 in, extends to 51 in",
+        "motor": "10 A",
+        "extras": null
+      },
+      "features": {
+        "helical": true,
+        "cast_iron": false,
+        "width_8": true,
+        "carbide": false
+      },
+      "verdict": "WEN's 8-inch spiral jointer with support arms that extend the table to 51 inches for longer boards.",
+      "best_for": "Budget buyers who want 8-inch capacity.",
+      "skip_if": "You want carbide inserts.",
+      "pros": [
+        "8 in width",
+        "Extends to 51 in",
+        "443 reviews"
+      ],
+      "cons": [
+        "4.4 stars",
+        "HSS inserts"
+      ]
+    },
+    {
+      "asin": "B08B1RBSD1",
+      "name": "Wahuda Tools 10-inch Spiral Benchtop Jointer, Cast Iron Tables, 4-Sided Carbide",
+      "brand": "Wahuda Tools",
+      "model": "50110CC-WHD",
+      "image": "https://m.media-amazon.com/images/I/71g0rkWWYyL._AC_SL1500_.jpg",
+      "price": 699.99,
+      "rating": 4.4,
+      "reviews_count": 522,
+      "specs": {
+        "width": "10 in",
+        "cutterhead": "Spiral, 4-sided carbide inserts",
+        "table": "Cast iron with pull-out extensions",
+        "motor": "Fixed 12,000 RPM",
+        "extras": null
+      },
+      "features": {
+        "helical": true,
+        "cast_iron": true,
+        "width_8": true,
+        "carbide": true
+      },
+      "verdict": "A 10-inch jointer with four-sided carbide inserts (four fresh edges per insert) and cast iron tables with pull-out extensions.",
+      "best_for": "Woodworkers who want long insert life.",
+      "skip_if": "You need it cheap.",
+      "pros": [
+        "4-sided carbide",
+        "Cast iron",
+        "10 in width"
+      ],
+      "cons": [
+        "4.4 stars",
+        "Reviews shared with the 8 in model"
+      ]
+    },
+    {
+      "asin": "B09T3X81H3",
+      "name": "WEN JT3062 10-Amp 6-Inch 2-Blade Benchtop Jointer",
+      "brand": "WEN",
+      "model": "JT3062",
+      "image": "https://m.media-amazon.com/images/I/712OeY8RPBL._AC_SL1500_.jpg",
+      "price": 314.99,
+      "rating": 4.7,
+      "reviews_count": 221,
+      "specs": {
+        "width": "6 in",
+        "cutterhead": "2 knives",
+        "table": "30 x 6-3/16 in",
+        "motor": "10 A",
+        "extras": "Up to 22,000 cuts per minute, depth scale"
+      },
+      "features": {
+        "helical": false,
+        "cast_iron": false,
+        "width_8": false,
+        "carbide": false
+      },
+      "verdict": "A basic two-knife WEN jointer rated 4.7 stars.",
+      "best_for": "Occasional jointing on a budget.",
+      "skip_if": "You want a spiral head.",
+      "pros": [
+        "4.7 stars",
+        "Depth scale"
+      ],
+      "cons": [
+        "Straight knives"
+      ]
+    },
+    {
+      "asin": "B000BHNAJA",
+      "premium": true,
+      "name": "JET 6-Inch Long Bed Jointer, 1 HP (JJ-6CSDX)",
+      "brand": "JET",
+      "model": "JJ-6CSDX",
+      "image": "https://m.media-amazon.com/images/I/71sdzqPKjUL._AC_SL1500_.jpg",
+      "price": 1399.0,
+      "rating": 4.4,
+      "reviews_count": 89,
+      "specs": {
+        "width": "6 in",
+        "cutterhead": "3 HSS knives, quick-change",
+        "table": "Long bed",
+        "motor": "1 HP, 115/230V",
+        "extras": "1/2 in rabbeting ledge, center-mounted fence"
+      },
+      "features": {
+        "helical": false,
+        "cast_iron": false,
+        "width_8": false,
+        "carbide": false
+      },
+      "verdict": "A floor-standing long-bed jointer for straightening long boards, with a 1 HP motor and a rabbeting ledge.",
+      "best_for": "Shops that joint long boards and want a full-size machine.",
+      "skip_if": "You need a benchtop.",
+      "pros": [
+        "Long bed",
+        "1 HP",
+        "Rabbeting ledge"
+      ],
+      "cons": [
+        "Most expensive here",
+        "Straight knives"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0H4T162VN",
+      "name": "6-Inch Benchtop Jointer, 15-Amp 13000 RPM Pure Copper Motor",
+      "brand": "WOODERS",
+      "model": "WDS-BJ-6",
+      "image": "https://m.media-amazon.com/images/I/61-CU5xb4cL._AC_SL1500_.jpg",
+      "price": 159.99,
+      "rating": 2.4,
+      "reviews_count": 4,
+      "flag": "Claims a 15 A motor; 2.4 stars",
+      "verdict": "A 6-inch benchtop jointer claiming a 15-amp motor, more than any benchtop here, with a short aluminum table and a 2.4-star rating.",
+      "reasons": [
+        "It claims a '15A' motor, while Cutech calls its 12-amp benchtop motors the most powerful available and the WEN jointers run 10 amps.",
+        "Its 22.8-inch table is shorter than the 30-inch tables on WEN's 6-inch jointers, and shorter tables make straightening boards harder.",
+        "It's rated 2.4 stars. The WEN JT630H costs more but has a spiral head and 1,073 reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Jointer or planer?",
+      "a": "A jointer flattens one face and squares one edge. A planer then makes the opposite face parallel at a set thickness. For rough lumber you need both, or a planer sled."
+    },
+    {
+      "q": "How wide?",
+      "a": "6 inches handles edges and narrow boards. 8 to 12 inches lets you flatten wider boards for tabletops without ripping them first."
+    },
+    {
+      "q": "Spiral or straight knives?",
+      "a": "Spiral (helical) heads cut with a shearing action, so they're quieter and tear out less on figured wood. Carbide inserts last much longer than HSS."
+    },
+    {
+      "q": "Why table length matters?",
+      "a": "Longer tables straighten longer boards. Benchtop jointers work best on boards up to about twice the table length."
+    },
+    {
+      "q": "Safety",
+      "a": "Always use push blocks, never joint pieces shorter than about 12 inches, and keep the guard in place."
+    }
+  ]
+}
