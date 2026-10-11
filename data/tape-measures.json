@@ -3,9 +3,10 @@
   "title": "The 10 Best Tape Measures",
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
   "intro": "We pulled the best-selling retractable steel tape measures on Amazon — jobsite workhorses, value classics, and a few clever niche designs — then scored each one on a single 100-point scale built from its star rating, review volume, value, and the features that actually matter: blade standout, an auto-lock or thumb lock, a magnetic hook, easy-read fractions, and double-sided printing. Soft sewing tapes and laser gadgets are a different tool; this list is the metal tape that lives in your pocket.",
-  "data_captured": "2026-10-06",
-  "audited": "2026-09-19",
+  "data_captured": "2026-10-11",
+  "audited": "2026-10-11",
   "changelog": [
+    {"date": "2026-10-11", "note": "Replaced the DEWALT Atomic 25 ft (DWHT38125S), which Amazon now only sells used, with the DEWALT Atomic 30 ft (DWHT38130S) at $16.49. Prices rose on three picks: the WORKPRO 25 ft from $9.49 to $11.99, the Komelon SL2825 from $7.99 to $9.99, and the DURATECH 25 ft Magnetic from $12.30 to $13.99."},
     {"date": "2026-10-06", "note": "New tool to avoid: a YesBes 5-pack sold as 'about' 25 feet, replacing a laser tape that's now unavailable. Prices re-checked on all 10 picks; the Komelon SL2825 dropped from $9.99 to $7.99. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
     {"date": "2026-09-19", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
   ],
@@ -42,10 +43,10 @@
       "brand": "Komelon",
       "model": "SL2825",
       "image": "https://m.media-amazon.com/images/I/71rFNWKLIAL._AC_SX522_.jpg",
-      "price": 7.99,
+      "price": 9.99,
       "rating": 4.7,
-      "reviews_count": 18977,
-      "bought": "2K+/mo",
+      "reviews_count": 18981,
+      "bought": "3K+/mo",
       "specs": {
         "length": "25 ft",
         "standout": null,
@@ -59,7 +60,7 @@
         "double_sided": false
       },
       "verdict": "The best all-rounder, and it's ten bucks. The self-locking blade stays out until you press the button to retract it — no thumb-holding — and the nylon-coated high-carbon blade shrugs off jobsite abuse. Nearly 19,000 ratings say it just works.",
-      "best_for": "Most people: a self-locking 25 ft tape for about $8.",
+      "best_for": "Most people: a self-locking 25 ft tape for about $10.",
       "skip_if": "You measure alone on steel studs; it has no magnetic hook.",
       "pros": [
         "Automatic blade lock — no thumb needed to hold a measurement",
@@ -79,9 +80,9 @@
       "brand": "DURATECH",
       "model": "25 ft Magnetic",
       "image": "https://m.media-amazon.com/images/I/71oPIm-55TL._AC_SX522_.jpg",
-      "price": 12.30,
+      "price": 13.99,
       "rating": 4.6,
-      "reviews_count": 2329,
+      "reviews_count": 2336,
       "bought": "1K+/mo",
       "specs": {
         "length": "25 ft",
@@ -119,7 +120,7 @@
       "image": "https://m.media-amazon.com/images/I/61zqF532w8L._AC_SX522_.jpg",
       "price": 29.98,
       "rating": 4.6,
-      "reviews_count": 5146,
+      "reviews_count": 5150,
       "bought": "1K+/mo",
       "specs": {
         "length": "25 ft",
@@ -149,20 +150,20 @@
       ]
     },
     {
-      "asin": "B0C1LM45PQ",
-      "name": "DEWALT Atomic Compact Series 25 ft. Tape Measure (DWHT38125S)",
+      "asin": "B0C1LXSVSH",
+      "name": "DEWALT Atomic Compact Series 30 ft. Tape Measure (DWHT38130S)",
       "brand": "DEWALT",
-      "model": "DWHT38125S",
-      "image": "https://m.media-amazon.com/images/I/611KrXDyztL._AC_SX522_.jpg",
-      "price": 19.45,
+      "model": "DWHT38130S",
+      "image": "https://m.media-amazon.com/images/I/61rVZELUc9L._SL1440_.jpg",
+      "price": 16.49,
       "rating": 4.8,
-      "reviews_count": 1671,
-      "bought": "2K+/mo",
+      "reviews_count": 2955,
+      "bought": "9K+/mo",
       "specs": {
-        "length": "25 ft",
+        "length": "30 ft",
         "standout": "13 ft",
         "blade": "Coated steel",
-        "lock": "Manual (finger brake)"
+        "lock": "Manual (slide + finger brake)"
       },
       "features": {
         "auto_lock": false,
@@ -170,19 +171,19 @@
         "fractions": true,
         "double_sided": false
       },
-      "verdict": "The compact pro pick. DeWalt's Atomic series packs a stiff 13-foot standout and fractional blade graphics into a body 20% smaller than a standard tape, so it disappears into a pocket. A favorite for tradespeople who hate a brick on their belt.",
-      "best_for": "A 13 ft standout in a body that fits a pocket.",
-      "skip_if": "You want a magnetic hook.",
+      "verdict": "The compact pro pick, now in the 30-foot size. DEWALT's Atomic series puts a 13-foot max reach and fractional blade graphics in a grip DEWALT says is 20% more compact, and the extra 5 feet of blade costs less than the 25-foot version did. Rated accurate to 1/16 inch.",
+      "best_for": "Long runs up to 30 ft from a tape that still fits a pocket.",
+      "skip_if": "You want a magnetic hook or a self-locking blade.",
       "pros": [
-        "13-foot standout in a compact body",
-        "20% smaller grip for better control",
+        "30 feet of blade with a 13-foot max reach",
+        "20% more compact grip for better control",
         "Fractional blade graphics for fast reading",
-        "Integrated finger brake for blade control"
+        "Integrated finger brake and a coated blade"
       ],
       "cons": [
         "No magnetic hook",
-        "Fewer reviews than the value classics",
-        "Costs more than a basic 25-footer"
+        "Manual slide lock only",
+        "Heavier than the 16-foot tapes at 16 ounces"
       ]
     },
     {
@@ -191,9 +192,9 @@
       "brand": "WORKPRO",
       "model": "25 ft",
       "image": "https://m.media-amazon.com/images/I/715cM5fDSnL._AC_SX522_.jpg",
-      "price": 9.49,
+      "price": 11.99,
       "rating": 4.8,
-      "reviews_count": 1576,
+      "reviews_count": 1598,
       "bought": "5K+/mo",
       "specs": {
         "length": "25 ft",
@@ -208,7 +209,7 @@
         "double_sided": false
       },
       "verdict": "The value magnetic pick. A 1-inch nylon-coated blade with a magnetic hook, 1/8-inch fractions, and a 7.2-foot standout, all wrapped in a rubber case — most of what the pricier tapes offer for around twelve dollars.",
-      "best_for": "A magnetic hook and fractions for under $10.",
+      "best_for": "A magnetic hook and fractions for about $12.",
       "skip_if": "You need long standout; it's 7.2 ft.",
       "pros": [
         "Magnetic hook for solo measuring",
@@ -230,7 +231,7 @@
       "image": "https://m.media-amazon.com/images/I/71kKEeNZe+L._AC_SX522_.jpg",
       "price": 12.98,
       "rating": 4.7,
-      "reviews_count": 2611,
+      "reviews_count": 2621,
       "bought": "10K+/mo",
       "specs": {
         "length": "25 ft",
@@ -267,8 +268,8 @@
       "image": "https://m.media-amazon.com/images/I/619v1FvVNAL._AC_SX522_.jpg",
       "price": 8.99,
       "rating": 4.7,
-      "reviews_count": 8748,
-      "bought": "3K+/mo",
+      "reviews_count": 8761,
+      "bought": "4K+/mo",
       "specs": {
         "length": "16 ft",
         "standout": null,
@@ -302,10 +303,10 @@
       "brand": "Mr. Pen",
       "model": "25 ft",
       "image": "https://m.media-amazon.com/images/I/71iihXrTA4L._AC_SX522_.jpg",
-      "price": 7.15,
+      "price": 7.25,
       "rating": 4.7,
-      "reviews_count": 3653,
-      "bought": "6K+/mo",
+      "reviews_count": 3667,
+      "bought": "5K+/mo",
       "specs": {
         "length": "25 ft",
         "standout": null,
@@ -318,11 +319,11 @@
         "fractions": true,
         "double_sided": false
       },
-      "verdict": "The cheap everyday tape. A rubberized 25-footer with both imperial and metric markings and printed fractions, for under seven dollars. Nothing fancy, but it's accurate, reads easily, and it's a fraction of the price of a pro tape.",
+      "verdict": "The cheap everyday tape. A rubberized 25-footer with both imperial and metric markings and printed fractions, for about seven dollars. Nothing fancy, but it's accurate, reads easily, and it's a fraction of the price of a pro tape.",
       "best_for": "A cheap everyday 25 ft tape with metric and imperial scales.",
       "skip_if": "You use it on a jobsite daily; the blade is uncoated.",
       "pros": [
-        "Under $7 for a full 25 feet",
+        "About $7 for a full 25 feet",
         "Both imperial and metric scales plus fractions",
         "Shock-absorbing rubberized casing",
         "Belt clip and nail-slot hook"
@@ -339,9 +340,9 @@
       "brand": "STANLEY",
       "model": "33-158",
       "image": "https://m.media-amazon.com/images/I/61gB0lO7UzL._AC_SX522_.jpg",
-      "price": 15.94,
+      "price": 15.90,
       "rating": 4.6,
-      "reviews_count": 7533,
+      "reviews_count": 7537,
       "bought": "900+/mo",
       "specs": {
         "length": "16 ft",
@@ -379,8 +380,8 @@
       "image": "https://m.media-amazon.com/images/I/71vHM1jZWQL._AC_SX522_.jpg",
       "price": 5.84,
       "rating": 4.8,
-      "reviews_count": 8063,
-      "bought": "6K+/mo",
+      "reviews_count": 8098,
+      "bought": "4K+/mo",
       "specs": {
         "length": "16 ft",
         "standout": null,
@@ -441,9 +442,9 @@
       "name": "YesBes Tape Measure 25 ft, 5 Pack Bulk, Self-Locking, 1-Inch Wide",
       "brand": "YesBes", "model": "25 ft 5-pack",
       "image": "https://m.media-amazon.com/images/I/81W6vJFNLnL._SL1500_.jpg",
-      "price": 19.85, "rating": 4.5, "reviews_count": 299,
+      "price": 21.99, "rating": 4.5, "reviews_count": 304,
       "flag": "\"About\" 25 ft: the listing's own 7.5 m is 24.6 ft",
-      "verdict": "Five tapes for under $20 sounds like a deal, but the listing hedges on the one number a tape measure has to get right. The Komelon SL2825 on this page is a real 25-footer for $7.99, and the Amazon Basics 16-foot tape is $5.84.",
+      "verdict": "Five tapes for under $20 sounds like a deal, but the listing hedges on the one number a tape measure has to get right. The Komelon SL2825 on this page is a real 25-footer for $9.99, and the Amazon Basics 16-foot tape is $5.84.",
       "reasons": [
         "The listing calls the blade 'about 25ft/7.5m.' 7.5 m is 24.6 ft, about 5 inches short of 25 feet, and the word 'about' is the seller's, not ours.",
         "Accuracy is given as '+/- 0.03\"' with no length it applies to and no standard behind it. Tapes like the Firecore 25-footer in the same search state ANSI Class II.",
