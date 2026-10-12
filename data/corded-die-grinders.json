@@ -1,0 +1,462 @@
+{
+  "slug": "corded-die-grinders",
+  "title": "The 10 Best Corded Die Grinders",
+  "subtitle": "Plug-in straight die grinders for porting, deburring and weld cleanup, ranked from live Amazon data.",
+  "intro": "A corded die grinder spins 1/4 in burrs and stones at 25,000 to 33,000 rpm for as long as you need. We ranked 10 best-sellers from DEWALT, Makita, Metabo HPT and three value brands on rating, review volume and features (variable speed, a paddle switch that stops when released, and a name brand behind it). The main split is switch type: paddle for safety, slide or rocker for comfort on long jobs.",
+  "data_captured": "2026-10-12",
+  "audited": "2026-10-12",
+  "changelog": [
+    {
+      "date": "2026-10-12",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 70,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "variable_speed": 0.35,
+    "paddle_switch": 0.35,
+    "name_brand": 0.3
+  },
+  "reviews_ceiling": 1200,
+  "spec_fields": [
+    {
+      "key": "power",
+      "label": "Motor"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "switch",
+      "label": "Switch"
+    },
+    {
+      "key": "collet",
+      "label": "Collet"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "power",
+      "label": "Motor"
+    },
+    {
+      "key": "speed",
+      "label": "Speed"
+    },
+    {
+      "key": "switch",
+      "label": "Switch"
+    },
+    {
+      "key": "variable_speed",
+      "label": "Variable speed",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00P888CCM",
+      "force_overall": true,
+      "name": "DEWALT Die Grinder, Corded, 1-1/2-Inch, 4.2-Amp, 25,000 RPM, AC/DC Capacity (DWE4887)",
+      "brand": "DEWALT",
+      "model": "DWE4887",
+      "image": "https://m.media-amazon.com/images/I/51TQyPOXPcL._AC_SL1500_.jpg",
+      "price": 158.0,
+      "rating": 4.7,
+      "reviews_count": 960,
+      "bought": "200+/mo",
+      "specs": {
+        "power": "4.2 A",
+        "speed": "25,000 rpm",
+        "switch": "Paddle with lock-on",
+        "collet": "1/4 in (1/8 in sleeve sold separately)",
+        "extras": "AC/DC, runs off welders and generators; 2 wrenches"
+      },
+      "features": {
+        "variable_speed": false,
+        "paddle_switch": true,
+        "name_brand": true
+      },
+      "verdict": "The best-selling corded die grinder here. A 4.2 A motor turns 25,000 rpm, the paddle switch has a lock-on button, and AC/DC capability lets it run off a welder or generator.",
+      "best_for": "Fabricators and mechanics who want a proven straight grinder for weld cleanup and porting.",
+      "skip_if": "Your shop bans lock-on switches; the DWE4887N is the same tool without one.",
+      "pros": [
+        "4.7 stars; 960 reviews",
+        "200+ sold last month",
+        "Runs on AC or DC power"
+      ],
+      "cons": [
+        "Single speed",
+        "1/8 in reducing sleeve not included"
+      ]
+    },
+    {
+      "asin": "B00SHAW3VY",
+      "name": "DEWALT DWE4887N 1-1/2-Inch Die Grinder, No Lock-On Paddle Switch",
+      "brand": "DEWALT",
+      "model": "DWE4887N",
+      "image": "https://m.media-amazon.com/images/I/519swhtcB7L._AC_SL1000_.jpg",
+      "price": 159.0,
+      "rating": 4.7,
+      "reviews_count": 82,
+      "specs": {
+        "power": "4.2 A",
+        "speed": "25,000 rpm",
+        "switch": "Paddle, no lock-on",
+        "collet": "1/4 in (1/8 in sleeve sold separately)",
+        "extras": "AC/DC; 3-year limited warranty"
+      },
+      "features": {
+        "variable_speed": false,
+        "paddle_switch": true,
+        "name_brand": true
+      },
+      "verdict": "The DWE4887 with a paddle that can't be locked on, so the motor stops the moment you let go. Same 4.2 A motor, same 25,000 rpm, same AC/DC capability.",
+      "best_for": "Jobsites and shops whose safety rules require a no-lock-on switch.",
+      "skip_if": "You run long passes and want to lock the switch on; buy the DWE4887.",
+      "pros": [
+        "4.7 stars",
+        "Stops when released",
+        "3-year limited warranty"
+      ],
+      "cons": [
+        "82 reviews, far fewer than the lock-on model",
+        "Single speed"
+      ]
+    },
+    {
+      "asin": "B086XLM6BP",
+      "premium": true,
+      "name": "DEWALT Die Grinder, Brushless, Variable Speed, Paddle Switch With Lock-On, 2-Inch (DWE4997VS)",
+      "brand": "DEWALT",
+      "model": "DWE4997VS",
+      "image": "https://m.media-amazon.com/images/I/41mGk+nbzjL._AC_SL1000_.jpg",
+      "price": 252.99,
+      "rating": 4.4,
+      "reviews_count": 22,
+      "specs": {
+        "power": "13 A (per description), brushless",
+        "speed": "7,500 to 25,000 rpm",
+        "switch": "Variable-speed paddle with lock-on",
+        "collet": "1/4 in, 1/8 in sleeve included",
+        "extras": "Spindle lock, AC/DC"
+      },
+      "features": {
+        "variable_speed": true,
+        "paddle_switch": true,
+        "name_brand": true
+      },
+      "verdict": "DEWALT's top corded die grinder: a brushless motor, a variable-speed paddle from 7,500 to 25,000 rpm, a spindle lock for one-wrench accessory changes, and a 1/8 in reducing sleeve in the box.",
+      "best_for": "Daily users who need low speeds for polishing and full speed for carbide burrs.",
+      "skip_if": "You grind occasionally; it costs about $95 more than the DWE4887.",
+      "pros": [
+        "Brushless, no brushes to replace",
+        "Variable speed 7,500 to 25,000 rpm",
+        "1/8 in sleeve included"
+      ],
+      "cons": [
+        "Most expensive here",
+        "22 reviews",
+        "5.8 lb, the heaviest here"
+      ]
+    },
+    {
+      "asin": "B001ASC73E",
+      "name": "Makita GD0601 1/4\" Die Grinder, with AC/DC Switch",
+      "brand": "Makita",
+      "model": "GD0601",
+      "image": "https://m.media-amazon.com/images/I/41vvw-XyYYL._AC_SL1000_.jpg",
+      "price": 154.43,
+      "rating": 4.6,
+      "reviews_count": 1143,
+      "bought": "50+/mo",
+      "specs": {
+        "power": "3.5 A",
+        "speed": "25,000 rpm",
+        "switch": "Slide with lock-on",
+        "collet": "1/4 in",
+        "extras": "AC/DC switch, 73 dB(A), rubberized grip"
+      },
+      "features": {
+        "variable_speed": false,
+        "paddle_switch": false,
+        "name_brand": true
+      },
+      "verdict": "Makita's long-running straight die grinder and the most-reviewed tool here. A 3.5 A motor runs 25,000 rpm at a quoted 73 dB(A), the barrel is slim, and vents push exhaust air away from your face.",
+      "best_for": "Anyone who wants a quiet, slim grinder they can lock on for long porting or deburring jobs.",
+      "skip_if": "You prefer a paddle switch; the GD0600 is the paddle version.",
+      "pros": [
+        "4.6 stars; 1,143 reviews",
+        "73 dB(A) noise rating",
+        "AC/DC switch"
+      ],
+      "cons": [
+        "Single speed",
+        "Slide switch doesn't stop the tool if you drop it"
+      ]
+    },
+    {
+      "asin": "B000I6PIQ2",
+      "name": "Makita GD0600 1/4\" Paddle Switch Die Grinder, with AC/DC Switch",
+      "brand": "Makita",
+      "model": "GD0600",
+      "image": "https://m.media-amazon.com/images/I/61cpUTbGU8L._AC_SL1500_.jpg",
+      "price": 196.99,
+      "rating": 4.4,
+      "reviews_count": 993,
+      "specs": {
+        "power": "3.5 A",
+        "speed": "25,000 rpm",
+        "switch": "Paddle",
+        "collet": "1/4 in",
+        "extras": "AC/DC switch, 73 dB(A)"
+      },
+      "features": {
+        "variable_speed": false,
+        "paddle_switch": true,
+        "name_brand": true
+      },
+      "verdict": "The paddle-switch version of the GD0601, with the same 3.5 A motor, 25,000 rpm, 73 dB(A) rating and AC/DC switch.",
+      "best_for": "Makita fans who want the tool to stop when they let go.",
+      "skip_if": "Price matters; it costs about $40 more than the GD0601.",
+      "pros": [
+        "Paddle switch",
+        "993 reviews",
+        "AC/DC switch"
+      ],
+      "cons": [
+        "4.4 stars, lowest of the Makitas",
+        "Single speed"
+      ]
+    },
+    {
+      "asin": "B01C3WPX6I",
+      "name": "Makita GD0603 1/4\" Compact Die Grinder",
+      "brand": "Makita",
+      "model": "GD0603",
+      "image": "https://m.media-amazon.com/images/I/41IVOUe3iuL._AC_SL1000_.jpg",
+      "price": 119.99,
+      "rating": 4.5,
+      "reviews_count": 322,
+      "bought": "50+/mo",
+      "specs": {
+        "power": "2.2 A",
+        "speed": "25,000 rpm (one bullet says 28,000)",
+        "switch": "Rocker with lock-on",
+        "collet": "1/4 in",
+        "extras": "2.1 lb, 2-1/2 in barrel, contoured neck grip"
+      },
+      "features": {
+        "variable_speed": false,
+        "paddle_switch": false,
+        "name_brand": true
+      },
+      "verdict": "The lightest name-brand grinder here at 2.1 lb, with a 2-1/2 in barrel and a contoured neck grip for a second hand position. The 2.2 A motor suits small burrs and detail work more than heavy stock removal.",
+      "best_for": "Detail work, porting and long sessions where weight matters more than power.",
+      "skip_if": "You run large burrs or cutoff wheels; 2.2 A is the smallest motor here.",
+      "pros": [
+        "2.1 lb",
+        "4.5 stars; 322 reviews",
+        "Cheapest name brand here"
+      ],
+      "cons": [
+        "2.2 A motor",
+        "Listing gives both 25,000 and 28,000 rpm"
+      ]
+    },
+    {
+      "asin": "B0FZM26YXQ",
+      "name": "Metabo HPT GP 400 Paddle Switch Die Grinder (646053420)",
+      "brand": "Metabo HPT",
+      "model": "GP 400",
+      "image": "https://m.media-amazon.com/images/I/619S2SjjpvL._AC_SL1500_.jpg",
+      "price": 179.0,
+      "rating": 5.0,
+      "reviews_count": 1,
+      "specs": {
+        "power": "400 W",
+        "speed": "30,000 rpm per description (spec table says 12,400)",
+        "switch": "Paddle",
+        "collet": null,
+        "extras": "Extended spindle, precision collar, removable rubber nose cap"
+      },
+      "features": {
+        "variable_speed": false,
+        "paddle_switch": true,
+        "name_brand": true
+      },
+      "verdict": "A new paddle-switch die grinder from Metabo HPT with an extended spindle for recessed work and a precision collar for mounting it in a stand. It carries a 3-year warranty.",
+      "best_for": "Users who want a name-brand paddle grinder with a long nose for tight spots.",
+      "skip_if": "You want a track record; it has 1 review so far.",
+      "pros": [
+        "Paddle switch",
+        "Extended spindle",
+        "3-year warranty"
+      ],
+      "cons": [
+        "1 review",
+        "Listing gives two different speeds"
+      ]
+    },
+    {
+      "asin": "B0FS6WQH18",
+      "name": "SENCAN 6\" Extra Long Extension Electric Die Grinder, 1/4\" Variable Speed, 10000-33000 RPM",
+      "brand": "SENCAN",
+      "model": "SC-702517L",
+      "image": "https://m.media-amazon.com/images/I/51gRFHIjQsL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 4.2,
+      "reviews_count": 33,
+      "bought": "50+/mo",
+      "specs": {
+        "power": "5.5 A / 600 W",
+        "speed": "10,000 to 33,000 rpm, 6 speeds",
+        "switch": "Slide",
+        "collet": "1/4 in",
+        "extras": "6 in extended nose, 2 wrenches"
+      },
+      "features": {
+        "variable_speed": true,
+        "paddle_switch": false,
+        "name_brand": false
+      },
+      "verdict": "A budget grinder with a 6 in extended nose for reaching into engine bays and castings, a 5.5 A motor and a six-position speed dial from 10,000 to 33,000 rpm.",
+      "best_for": "Reaching into deep or recessed spots on a budget.",
+      "skip_if": "You want a paddle switch or a brand with a parts network.",
+      "pros": [
+        "6 in extended reach",
+        "6 speeds",
+        "5.5 A / 600 W"
+      ],
+      "cons": [
+        "33 reviews",
+        "Slide switch only"
+      ]
+    },
+    {
+      "asin": "B0GKZPL1JY",
+      "name": "AOBEN Power Die Grinder with 6 Speed Control, Max 30000RPM, 1/4\" Collet (AT3504C)",
+      "brand": "AOBEN",
+      "model": "AT3504C",
+      "image": "https://m.media-amazon.com/images/I/614AMjLgUEL._AC_SL1500_.jpg",
+      "price": 63.99,
+      "rating": 4.0,
+      "reviews_count": 117,
+      "specs": {
+        "power": null,
+        "speed": "Up to 30,000 rpm, 6 speeds",
+        "switch": "Slide",
+        "collet": "1/4 in",
+        "extras": "Metal gear housing, rubber grip"
+      },
+      "features": {
+        "variable_speed": true,
+        "paddle_switch": false,
+        "name_brand": false
+      },
+      "verdict": "A variable-speed straight grinder with a six-position dial up to 30,000 rpm, a metal gear housing and a rubber-covered grip. Bits are not included.",
+      "best_for": "Hobby metalwork where low speeds for polishing matter more than brand.",
+      "skip_if": "You need to know amperage; the listing doesn't give it.",
+      "pros": [
+        "6 speeds",
+        "117 reviews",
+        "Metal gear housing"
+      ],
+      "cons": [
+        "4.0 stars",
+        "No amps or watts listed"
+      ]
+    },
+    {
+      "asin": "B0D69N49QN",
+      "name": "Hoteche 1/4-Inch Electric Die Grinder 6-Amp Heavy Duty Compact High-Speed (PG801210A)",
+      "brand": "Hoteche",
+      "model": "PG801210A",
+      "image": "https://m.media-amazon.com/images/I/51nD6MhEtyL._AC_SL1000_.jpg",
+      "price": 54.66,
+      "rating": 4.1,
+      "reviews_count": 55,
+      "specs": {
+        "power": "6 A",
+        "speed": "30,000 rpm",
+        "switch": null,
+        "collet": "1/4 in",
+        "extras": "6.6 ft cord with UL plug"
+      },
+      "features": {
+        "variable_speed": false,
+        "paddle_switch": false,
+        "name_brand": false
+      },
+      "verdict": "The cheapest grinder here: a single-speed 6 A motor at 30,000 rpm with a 1/4 in collet and a 6.6 ft cord.",
+      "best_for": "Occasional deburring and rust removal on a tight budget.",
+      "skip_if": "You use one daily; reviewers report vibration and one received it without a collet.",
+      "pros": [
+        "Lowest price here",
+        "6 A motor",
+        "6.6 ft cord"
+      ],
+      "cons": [
+        "Single speed",
+        "4.1 stars; some reviews report heavy vibration"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DYV2P54S",
+      "name": "VEVOR Die Grinder, 1/4\", Heavy-Duty Electric, Adjustable Speed (10000-28000RPM), with 1/4\" & 1/8\" Collets",
+      "brand": "VEVOR",
+      "model": "Die Grinder, 1/4\"",
+      "image": "https://m.media-amazon.com/images/I/61C--NUOUXL._AC_SL1500_.jpg",
+      "price": 56.9,
+      "rating": 4.0,
+      "reviews_count": 140,
+      "flag": "Title, bullets and spec table give different speeds and power",
+      "verdict": "A listing that can't agree with itself on speed or power, sold under a SKU instead of a model number. The SENCAN, for about $13 more, publishes one consistent set of figures.",
+      "reasons": [
+        "The title says 10,000 to 28,000 rpm, the first bullet says 7,000 to 30,000 rpm, and the spec table caps it at 28,000 rpm. Burrs and mounted stones carry a maximum rpm rating, so you need to know the real top speed.",
+        "The spec table lists 225 watts and 1.1 hp side by side. 1.1 hp is about 820 W, nearly four times 225 W, and no amp rating is given.",
+        "The model number is a 19-character SKU (MJMCYSKDKDS70KHZOV1), which gives you nothing to search for a manual or parts.",
+        "It rates 4.0 stars."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What is a die grinder for?",
+      "a": "Small, fast work with 1/4 in shank accessories: carbide burrs for porting and shaping metal, mounted stones for deburring, sanding rolls, and small cutoff wheels for weld cleanup. It spins far faster than an angle grinder but removes less material per pass."
+    },
+    {
+      "q": "Paddle switch or slide switch?",
+      "a": "A paddle switch stops the motor the moment you let go, which matters on a tool that can grab and pull if a burr catches. A slide or rocker switch is easier on the hand during long porting jobs. Some shops require no-lock-on paddles, which is why DEWALT sells the DWE4887N."
+    },
+    {
+      "q": "Do I need variable speed?",
+      "a": "Carbide burrs work best at full speed, but polishing, sanding rolls and plastics need lower speeds to avoid burning. If you only deburr steel, a single-speed grinder is fine. For mixed work, the DWE4997VS, SENCAN and AOBEN all adjust speed."
+    },
+    {
+      "q": "Corded, air or cordless?",
+      "a": "Air die grinders are cheap and light but need a compressor that can keep up. Cordless models are handy away from power but cost more once you add batteries. A corded grinder runs all day at full power with nothing else to buy."
+    },
+    {
+      "q": "What does AC/DC capability mean?",
+      "a": "The DEWALT and Makita AC/DC models can run off the DC output of a welder or a generator, so a welder can grind on site from the same machine."
+    },
+    {
+      "q": "How do I match accessories to the grinder?",
+      "a": "Every burr, stone and wheel has a maximum safe rpm printed on it or its package. It must be at or above the grinder's top speed, which is why a listing that gives conflicting speeds is a problem."
+    }
+  ]
+}
