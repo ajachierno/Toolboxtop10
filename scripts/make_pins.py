@@ -368,8 +368,12 @@ def main():
         img.quantize(256, dither=Image.Dither.NONE).save(out / f"{pid}.png", optimize=True)
         day, slot = divmod(i, args.per_day)
         when = datetime.datetime.combine(start + datetime.timedelta(days=day), datetime.time(hours[slot]))
+        # Pinterest rejects two pins with the same link (top-3 and avoid pins share a page),
+        # so every pin gets its own utm_content. The query goes before any #fragment.
+        page_path, _, frag = path.partition("#")
+        link = f"{base}/{page_path}?utm_source=pinterest&utm_medium=social&utm_content={pid}" + (f"#{frag}" if frag else "")
         rows.append({"Title": title[:100], "Media URL": f"{base}/pins/{pid}.png", "Pinterest board": board,
-                     "Thumbnail": "", "Description": build.meta_desc(desc, 499), "Link": f"{base}/{path}",
+                     "Thumbnail": "", "Description": build.meta_desc(desc, 499), "Link": link,
                      "Publish date": when.strftime("%Y-%m-%dT%H:%M:%S"), "Keywords": ", ".join(kw)})
     print(f"wrote {len(pins)} pin(s) to {out}")
     if args.only != "sample":
