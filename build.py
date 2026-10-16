@@ -295,7 +295,7 @@ def render_table(ranked, avoid, site, columns):
 
 def render_table_filters(ranked):
     """Brand filter chips for the comparison table (wired up by TABLE_JS)."""
-    brands = sorted(set(p["brand"] for p in ranked), key=str.lower)
+    brands = sorted(set(p["brand"] for p in ranked), key=lambda b: (b.lower(), b))
     if len(brands) < 2:
         return ""
     chips = "".join(f'<button type="button" data-brand="{esc(b)}">{esc(b)}</button>' for b in brands)
