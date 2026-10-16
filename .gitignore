@@ -10,3 +10,8 @@ marketing/amazon-storefront/
 marketing/*-review-*.md
 marketing/site-healthcheck-*.md
 marketing/seo-ranking-plan.md
+
+# Local-only Pinterest tooling and batches
+marketing/pins/*.py
+marketing/pins/boards.json
+marketing/pins/batch-*.csv
