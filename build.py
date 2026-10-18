@@ -537,7 +537,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
   <p class="footlinks"><a href="about.html">About &amp; how we rank</a> &middot; <a href="mailto:{esc(site.get('contact_email', ''))}">Contact</a>{storefront_link}</p>
   <p class="muted">{home_link} &nbsp; Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
-{REVEAL_JS + chr(10) if 'data-show-from' in body else ''}</body>
+{REVEAL_JS + chr(10) if 'data-show-from' in body or 'data-hide-from' in body else ''}</body>
 </html>"""
 
 
@@ -1034,28 +1034,39 @@ SEASONAL = load_seasonal()
 
 
 def seasonal_pages():
-    """[(slug, label, link_from)] of enabled seasonal pages, for cross-links, the home strip
-    and sitemap. link_from: on-site links stay hidden until this date (see reveal_attr)."""
-    out = [(g["slug"], g.get("label") or g["title"].split(" (")[0], g.get("link_from"))
+    """[(slug, label, (link_from, link_until))] of enabled seasonal pages, for cross-links,
+    the home strip and sitemap. On-site links show only from link_from up to (not including)
+    link_until; see reveal_attr. The page itself stays live and indexed either way."""
+    out = [(g["slug"], g.get("label") or g["title"].split(" (")[0], (g.get("link_from"), g.get("link_until")))
            for g in SEASONAL.get("gifts", []) if g.get("enabled")]
     bf = SEASONAL.get("black_friday")
     if bf and bf.get("enabled"):
-        out.append((bf["slug"], f"Black Friday Tool Deals {bf['year']}", bf.get("link_from")))
+        out.append((bf["slug"], f"Black Friday Tool Deals {bf['year']}", (bf.get("link_from"), bf.get("link_until"))))
     return out
 
 
-def reveal_attr(link_from):
-    """Hide a link until link_from (YYYY-MM-DD). The page itself stays live and in the
-    sitemap, so search engines index it; REVEAL_JS un-hides the link on the day, and any
-    build after that date renders it plainly."""
-    if not link_from or datetime.date.today() >= datetime.date.fromisoformat(link_from):
-        return ""
-    return f' hidden data-show-from="{esc(link_from)}"'
+def reveal_attr(window):
+    """Show a link only inside its (link_from, link_until) window (YYYY-MM-DD, either may be
+    None). The page itself stays live and in the sitemap, so search engines index it;
+    REVEAL_JS shows/hides the link on the day, and any build after that renders it plainly."""
+    link_from, link_until = window if isinstance(window, tuple) else (window, None)
+    today = datetime.date.today()
+    if link_until and today >= datetime.date.fromisoformat(link_until):
+        return " hidden"
+    out = ""
+    if link_from and today < datetime.date.fromisoformat(link_from):
+        out += f' hidden data-show-from="{esc(link_from)}"'
+    if link_until:
+        out += f' data-hide-from="{esc(link_until)}"'
+    return out
 
 
-REVEAL_JS = ("<script>document.querySelectorAll('[data-show-from]').forEach(function(e){"
-             "var p=e.getAttribute('data-show-from').split('-');"
-             "if(new Date()>=new Date(+p[0],p[1]-1,+p[2]))e.hidden=false;});</script>")
+REVEAL_JS = ("<script>function d(s){var p=s.split('-');return new Date(+p[0],p[1]-1,+p[2]);}"
+             "var n=new Date();"
+             "document.querySelectorAll('[data-show-from]').forEach(function(e){"
+             "if(n>=d(e.getAttribute('data-show-from')))e.hidden=false;});"
+             "document.querySelectorAll('[data-hide-from]').forEach(function(e){"
+             "if(n>=d(e.getAttribute('data-hide-from')))e.hidden=true;});</script>")
 
 
 def gift_pick(cat, lo, hi):

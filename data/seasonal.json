@@ -1,8 +1,9 @@
 {
- "_readme": "Seasonal hub pages built by build.py from the category data (picks update automatically whenever a category does). Gift pages pick the best-scoring product per category inside the price band (ready-to-use kits only where a category has them). Set \"enabled\": false to drop a page from the build and sitemap after the season. \"link_from\" (YYYY-MM-DD) keeps a page live and in the sitemap (so search engines index it) but hides every on-site link to it until that date; a tiny script reveals the links on the day, no rebuild needed. Set \"noindex\": true to keep a page built and linked but out of Google and the sitemap.",
+ "_readme": "Seasonal hub pages built by build.py from the category data (picks update automatically whenever a category does). Gift pages pick the best-scoring product per category inside the price band (ready-to-use kits only where a category has them). Set \"enabled\": false to drop a page from the build and sitemap after the season. \"link_from\" (YYYY-MM-DD) keeps a page live and in the sitemap (so search engines index it) but hides every on-site link to it until that date; a tiny script reveals the links on the day, no rebuild needed. \"link_until\" (YYYY-MM-DD) hides the links again from that date on, while the page stays live and indexed (holiday pages: show 7 days before the holiday, hide after the weekend that follows it). Set \"noindex\": true to keep a page built and linked but out of Google and the sitemap.",
  "black_friday": {
   "enabled": true,
-  "link_from": "2026-11-15",
+  "link_from": "2026-11-20",
+  "link_until": "2026-12-01",
   "slug": "black-friday-tool-deals",
   "year": 2026,
   "black_friday": "2026-11-27",
