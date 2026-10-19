@@ -1039,9 +1039,23 @@ def seasonal_pages():
     link_until; see reveal_attr. The page itself stays live and indexed either way."""
     out = [(g["slug"], g.get("label") or g["title"].split(" (")[0], (g.get("link_from"), g.get("link_until")))
            for g in SEASONAL.get("gifts", []) if g.get("enabled")]
+    out += [(h["slug"], h["label"], (h.get("link_from"), h.get("link_until"))) for h in holiday_configs()]
+    return out
+
+
+def holiday_configs():
+    """Every enabled holiday deal page, normalized: the black_friday block (kept under its own
+    key because make_pins.py reads it) plus each entry of the holidays list. Each config has
+    slug, label, key_dates [{label, date}], dates_note, deal_name and faq_heading."""
+    out = []
     bf = SEASONAL.get("black_friday")
     if bf and bf.get("enabled"):
-        out.append((bf["slug"], f"Black Friday Tool Deals {bf['year']}", (bf.get("link_from"), bf.get("link_until"))))
+        out.append({**bf, "label": f"Black Friday Tool Deals {bf['year']}",
+                    "key_dates": [{"label": "Black Friday", "date": bf["black_friday"]},
+                                  {"label": "Cyber Monday", "date": bf["cyber_monday"]}],
+                    "dates_note": "Early deals usually start the week before.",
+                    "deal_name": "Black Friday", "faq_heading": "Black Friday tool questions"})
+    out += [h for h in SEASONAL.get("holidays", []) if h.get("enabled")]
     return out
 
 
@@ -1221,7 +1235,7 @@ def _long_date(iso):
     return f"{d:%A, %B} {d.day}, {d.year}"
 
 
-def build_black_friday(site, cfg, by_slug):
+def build_holiday(site, cfg, by_slug):
     rows, dates = [], []
 
     def pick(entry):
@@ -1240,8 +1254,7 @@ def build_black_friday(site, cfg, by_slug):
         f'<td>{esc(_short(o))}</td><td>{money(o["price"])}</td>'
         f'<td>{esc(_short(b)) if b else "&mdash;"}</td><td>{money(b["price"]) if b else "&mdash;"}</td></tr>'
         for cat, o, b in rows)
-    bf = cfg["black_friday"]
-    cm = cfg["cyber_monday"]
+    key_dates = " ".join(f"<b>{esc(k['label'])}:</b> {_long_date(k['date'])}." for k in cfg["key_dates"])
     body = f"""
   {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
   <section class="lead">
@@ -1251,8 +1264,8 @@ def build_black_friday(site, cfg, by_slug):
   </section>
   <section class="deals">
     <h2>Key dates</h2>
-    <p><b>Black Friday:</b> {_long_date(bf)}. <b>Cyber Monday:</b> {_long_date(cm)}. Early deals usually
-    start the week before. Every button below opens the live Amazon listing, so you see
+    <p>{key_dates} {esc(cfg.get('dates_note', ''))}
+    Every button below opens the live Amazon listing, so you see
     today's price next to the regular price we recorded.</p>
   </section>
   <section class="compare" id="price-to-beat">
@@ -1261,10 +1274,10 @@ def build_black_friday(site, cfg, by_slug):
     <div class="tablewrap"><table class="bf-table"><tr><th>Category</th><th>Best Overall</th><th>Regular</th>
       <th>Best Budget</th><th>Regular</th></tr>{table_rows}</table></div>
     <p class="tiny muted">"Regular" = the Amazon price when we last checked each category
-    ({esc(min(dates))} to {esc(max(dates))}). If the Black Friday price is at or above it, it isn't a deal.</p>
+    ({esc(min(dates))} to {esc(max(dates))}). If the {esc(cfg['deal_name'])} price is at or above it, it isn't a deal.</p>
   </section>
   {groups}
-  <section class="guide"><h2>Black Friday tool questions</h2>{render_guide(cfg.get('faq', []))}</section>
+  <section class="guide"><h2>{esc(cfg['faq_heading'])}</h2>{render_guide(cfg.get('faq', []))}</section>
   {_seasonal_related(cfg['slug'])}"""
     return _write_hub(site, cfg, body, dates)
 
@@ -1279,11 +1292,10 @@ def build_seasonal(site, cats):
             lastmod = build_gift_page(site, g, {s: v[0] for s, v in by_slug.items()})
             if not g.get("noindex"):
                 built.append((g["slug"], lastmod))
-    bf = SEASONAL.get("black_friday")
-    if bf and bf.get("enabled"):
-        lastmod = build_black_friday(site, bf, by_slug)
-        if not bf.get("noindex"):
-            built.append((bf["slug"], lastmod))
+    for h in holiday_configs():
+        lastmod = build_holiday(site, h, by_slug)
+        if not h.get("noindex"):
+            built.append((h["slug"], lastmod))
     return built
 
 
