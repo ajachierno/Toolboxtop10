@@ -1,0 +1,480 @@
+{
+ "slug": "cordless-hot-glue-guns",
+ "title": "The 10 Best Cordless Hot Glue Guns",
+ "subtitle": "Battery-powered glue guns, from USB-C mini guns for crafts to 100 W full-size guns that run on DeWalt and Ryobi packs, ranked from live Amazon data.",
+ "intro": "A cordless glue gun goes where an extension cord won't: up a ladder, out to the garage, or around a classroom table. They come in two kinds. Mini guns have a built-in battery, charge over USB-C and take 0.27-0.28 inch sticks for crafts. Full-size guns take 0.43 inch sticks, push far more glue, and usually run on a tool battery you already own. We ranked 10 best-sellers on rating, review volume and features (temperature control, full-size sticks, a battery in the box and sticks included). Prices run from about $26 to $60.",
+ "data_captured": "2026-10-19",
+ "audited": "2026-10-19",
+ "changelog": [
+  {
+   "date": "2026-10-19",
+   "note": "Page published with 10 ranked picks and 1 tool to avoid."
+  }
+ ],
+ "budget_cap": 30,
+ "weights": {
+  "rating": 0.45,
+  "reviews": 0.35,
+  "features": 0.2
+ },
+ "feature_weights": {
+  "temp_control": 0.3,
+  "full_size": 0.25,
+  "kit": 0.25,
+  "sticks": 0.2
+ },
+ "reviews_ceiling": 6000,
+ "spec_fields": [
+  {
+   "key": "size",
+   "label": "Stick size"
+  },
+  {
+   "key": "watts",
+   "label": "Power"
+  },
+  {
+   "key": "source",
+   "label": "Battery"
+  },
+  {
+   "key": "temp",
+   "label": "Temperature"
+  },
+  {
+   "key": "in_box",
+   "label": "In the box"
+  }
+ ],
+ "table_columns": [
+  {
+   "key": "size",
+   "label": "Size"
+  },
+  {
+   "key": "watts",
+   "label": "Watts"
+  },
+  {
+   "key": "temp_control",
+   "label": "Temp control",
+   "type": "bool"
+  },
+  {
+   "key": "kit",
+   "label": "Battery included",
+   "type": "bool"
+  }
+ ],
+ "products": [
+  {
+   "asin": "B0BZS2BY8T",
+   "name": "THINKWORK 20V Cordless Hot Glue Gun with 2Ah Battery, Charger and 30 Full-Size Sticks",
+   "brand": "THINKWORK",
+   "model": "W6117",
+   "image": "https://m.media-amazon.com/images/I/716SSydvJnL._AC_SL1500_.jpg",
+   "price": 59.99,
+   "rating": 4.7,
+   "reviews_count": 370,
+   "bought": "100+/mo",
+   "specs": {
+    "size": "Full size, 0.43 in",
+    "watts": "100 W",
+    "source": "20V 2Ah pack + charger (included)",
+    "temp": null,
+    "in_box": "Gun, 2Ah battery, charger, 30 sticks, 2 sealing wax sticks, drip mat, bag"
+   },
+   "features": {
+    "temp_control": false,
+    "full_size": true,
+    "kit": true,
+    "sticks": true
+   },
+   "verdict": "A full-size 100 W gun that ships with everything: a 2Ah slide-on battery, a charger, 30 full-size sticks, a drip mat and a storage bag. THINKWORK rates it at up to 60 minutes per charge and 0.7 oz of glue a minute, the highest output listed by any gun here.",
+   "best_for": "Repairs and woodworking away from an outlet, with nothing else to buy.",
+   "skip_if": "You only do small crafts; a mini gun is lighter and half the price.",
+   "pros": [
+    "370 reviews at 4.7 stars",
+    "Battery and charger included, so it works out of the box",
+    "Rated 0.7 oz/min glue output"
+   ],
+   "cons": [
+    "Most expensive gun on the list",
+    "Battery is THINKWORK's own pack, not a major tool brand's"
+   ],
+   "force_overall": true
+  },
+  {
+   "asin": "B09KXGV2JX",
+   "name": "Mellif Cordless Hot Glue Gun for DeWalt 20V MAX Battery, 100W, 20 Full-Size Sticks (Tool Only)",
+   "brand": "Mellif",
+   "model": "Glue Gun-DW",
+   "image": "https://m.media-amazon.com/images/I/61uC10MPkBL._AC_SL1500_.jpg",
+   "price": 29.99,
+   "rating": 4.7,
+   "reviews_count": 3713,
+   "bought": "400+/mo",
+   "specs": {
+    "size": "Full size, 0.43 in",
+    "watts": "100 W",
+    "source": "DeWalt 20V MAX battery (not included)",
+    "temp": null,
+    "in_box": "Gun, 20 full-size sticks"
+   },
+   "features": {
+    "temp_control": false,
+    "full_size": true,
+    "kit": false,
+    "sticks": true
+   },
+   "verdict": "The best-rated bare-tool gun for DeWalt 20V owners: 100 W, full-size sticks, a red-to-green ready light and a copper nozzle rated at 0.63 oz of glue a minute. It stands upright on the battery and cuts out below 14.4 V to protect the pack. Mellif backs it with a 5-year warranty.",
+   "best_for": "DeWalt 20V owners who want a full-size gun for repairs.",
+   "skip_if": "You don't own DeWalt 20V batteries; the battery and charger aren't included.",
+   "pros": [
+    "3,713 reviews at 4.7 stars",
+    "5-year warranty",
+    "Low-voltage cutoff protects your battery"
+   ],
+   "cons": [
+    "Battery and charger sold separately",
+    "3 to 5 minutes to heat up",
+    "One fixed temperature"
+   ]
+  },
+  {
+   "asin": "B0DS7BRFX5",
+   "name": "Liumai 100W Cordless Glue Gun for DeWalt 20V MAX Battery, Digital Temperature Control, 20 Full-Size Sticks (Tool Only)",
+   "brand": "Liumai",
+   "model": "SY-01",
+   "image": "https://m.media-amazon.com/images/I/71crA9YFlwL._AC_SL1500_.jpg",
+   "price": 31.31,
+   "rating": 4.6,
+   "reviews_count": 3674,
+   "bought": "50+/mo",
+   "specs": {
+    "size": "Full size, 0.43 in",
+    "watts": "100 W",
+    "source": "DeWalt 20V MAX battery (not included)",
+    "temp": "Adjustable 212-392°F, digital display",
+    "in_box": "Gun, 20 full-size sticks, nozzle cap, storage bag"
+   },
+   "features": {
+    "temp_control": true,
+    "full_size": true,
+    "kit": false,
+    "sticks": true
+   },
+   "verdict": "A DeWalt-battery gun with a digital display and a temperature dial from 212 to 392°F, so you can run low for foam and fabric or high for wood. It comes with 20 full-size sticks, an anti-drip nozzle cap and a storage bag.",
+   "best_for": "DeWalt 20V owners who glue different materials and want to set the heat.",
+   "skip_if": "You want a battery in the box; this is tool only.",
+   "pros": [
+    "3,674 reviews at 4.6 stars",
+    "Adjustable temperature with a digital readout",
+    "Storage bag and nozzle cap included"
+   ],
+   "cons": [
+    "Battery and charger sold separately",
+    "Its spec table lists the power source as 'corded electric or battery', but it runs on the battery only"
+   ]
+  },
+  {
+   "asin": "B0D7TDPH6Y",
+   "name": "MONVICT 100W Cordless Glue Gun for DeWalt 20V Battery, Digital Temperature Control, 10 Full-Size Sticks (Tool Only)",
+   "brand": "MONVICT",
+   "model": "SD-840",
+   "image": "https://m.media-amazon.com/images/I/61kp3SOJsOL._AC_SL1500_.jpg",
+   "price": 33.99,
+   "rating": 4.4,
+   "reviews_count": 628,
+   "bought": "500+/mo",
+   "specs": {
+    "size": "Full size, 0.43 in",
+    "watts": "100 W",
+    "source": "DeWalt 20V MAX battery (not included)",
+    "temp": "Adjustable, digital display",
+    "in_box": "Gun, 10 full-size sticks"
+   },
+   "features": {
+    "temp_control": true,
+    "full_size": true,
+    "kit": false,
+    "sticks": true
+   },
+   "verdict": "Another 100 W DeWalt-battery gun with a digital display and adjustable temperature, plus a replaceable copper nozzle and a guard against accidental switching. MONVICT says it reaches temperature in about 3 minutes. The same gun is sold for Milwaukee 18V packs.",
+   "best_for": "DeWalt 20V owners who want adjustable heat and a big trigger.",
+   "skip_if": "You need lots of sticks; only 10 come in the box.",
+   "pros": [
+    "Adjustable temperature with a digital readout",
+    "Replaceable copper nozzle",
+    "Large trigger for long sessions"
+   ],
+   "cons": [
+    "Battery and charger sold separately",
+    "Only 10 sticks included",
+    "45-day refund policy, no warranty term listed"
+   ]
+  },
+  {
+   "asin": "B0CF5HMR69",
+   "name": "GoGonova Cordless Hot Glue Gun Kit, 2Ah Built-in Battery, USB-C, 25 Mini Sticks",
+   "brand": "GoGonova",
+   "model": "GGU4-Li",
+   "image": "https://m.media-amazon.com/images/I/7115BLJ7StL._AC_SL1280_.jpg",
+   "price": 29.99,
+   "rating": 4.2,
+   "reviews_count": 5674,
+   "bought": "1K+/mo",
+   "specs": {
+    "size": "Mini, 0.275 in",
+    "watts": null,
+    "source": "Built-in 2Ah battery, USB-C",
+    "temp": null,
+    "in_box": "Gun, 25 mini sticks"
+   },
+   "features": {
+    "temp_control": false,
+    "full_size": false,
+    "kit": true,
+    "sticks": true
+   },
+   "verdict": "The most-reviewed cordless gun we found and a 1,000+ a month seller. It's a mini gun with a built-in 2Ah battery that charges over USB-C in about 1.5 hours, heats in 15 seconds by GoGonova's figure, and shuts itself off after 5 idle minutes. LEDs on top show the charge left.",
+   "best_for": "Crafts and quick fixes with no batteries or cords to manage.",
+   "skip_if": "You glue wood or big pieces; it takes mini sticks only.",
+   "pros": [
+    "5,674 reviews, the most on this list",
+    "15-second heat-up and 5-minute auto shut-off",
+    "USB-C charging with a battery gauge"
+   ],
+   "cons": [
+    "4.2 stars, near the bottom of the list",
+    "Mini sticks only",
+    "Built-in battery can't be swapped"
+   ]
+  },
+  {
+   "asin": "B0FD3C1JHH",
+   "name": "MONVICT Smart Power-Off Cordless Mini Hot Glue Gun Kit, 2.2Ah Battery, Magnetic Base, 40 Sticks",
+   "brand": "MONVICT",
+   "model": "SD-830",
+   "image": "https://m.media-amazon.com/images/I/7143Fw98WwL._AC_SL1500_.jpg",
+   "price": 25.99,
+   "rating": 4.4,
+   "reviews_count": 2700,
+   "bought": "600+/mo",
+   "specs": {
+    "size": "Mini, 0.28 in",
+    "watts": "25 W",
+    "source": "Built-in 2.2Ah battery, USB-C",
+    "temp": null,
+    "in_box": "Gun, 40 mini sticks, 10 craft sticks, magnetic base, carry case"
+   },
+   "features": {
+    "temp_control": false,
+    "full_size": false,
+    "kit": true,
+    "sticks": true
+   },
+   "verdict": "The cheapest complete kit here: a mini gun with a 2.2Ah built-in battery (rated up to 100 minutes), a magnetic base to park it on, 40 sticks, 10 craft sticks and a carry case. It charges over USB-C in about 1.25 hours and turns off after 5 idle minutes.",
+   "best_for": "Crafters who want the most in the box for the least money.",
+   "skip_if": "You need a fast start; MONVICT quotes a 90-second preheat.",
+   "pros": [
+    "2,700 reviews at 4.4 stars",
+    "40 sticks, craft sticks, magnetic base and a case included",
+    "Rated up to 100 minutes per charge"
+   ],
+   "cons": [
+    "Mini sticks only",
+    "90-second preheat, slower than the GoGonova and HOTO"
+   ]
+  },
+  {
+   "asin": "B0DL9MPB8R",
+   "name": "WORKPRO 7.2V Cordless Hot Glue Gun, Dual Temperature, 2600mAh Battery, 50 Sticks, Storage Bag",
+   "brand": "WORKPRO",
+   "model": "W125330AC",
+   "image": "https://m.media-amazon.com/images/I/71wkaR2grcL._AC_SL1500_.jpg",
+   "price": 39.99,
+   "rating": 4.5,
+   "reviews_count": 294,
+   "bought": "1K+/mo",
+   "specs": {
+    "size": null,
+    "watts": null,
+    "source": "Built-in 2600mAh 7.2V battery, USB-C",
+    "temp": "Dual: 115°C / 165°C",
+    "in_box": "Gun, 50 sticks, USB-C cable, storage bag"
+   },
+   "features": {
+    "temp_control": true,
+    "full_size": false,
+    "kit": true,
+    "sticks": true
+   },
+   "verdict": "The only built-in-battery gun here with a temperature switch: 115°C for delicate materials and 165°C for wood, metal and plastic. WORKPRO rates the 2600mAh battery at up to 45 minutes, quotes a 30-second heat-up, and includes 50 sticks and a storage bag. It carries a 1-year warranty.",
+   "best_for": "Crafters who glue both delicate and hard materials.",
+   "skip_if": "You want long runtime; it's rated at 45 minutes per charge.",
+   "pros": [
+    "Two temperature settings",
+    "30-second heat-up",
+    "1-year warranty and a storage bag"
+   ],
+   "cons": [
+    "Listing doesn't state the stick size",
+    "Rated at 45 minutes per charge, the shortest figure quoted here"
+   ]
+  },
+  {
+   "asin": "B09MR82F8M",
+   "name": "HOTO Cordless Mini Hot Glue Gun, USB-C Rechargeable, 10 Sticks",
+   "brand": "HOTO",
+   "model": "QWRJQ001",
+   "image": "https://m.media-amazon.com/images/I/51CrIXl1ltL._AC_SL1500_.jpg",
+   "price": 26.99,
+   "rating": 4.0,
+   "reviews_count": 1769,
+   "bought": "2K+/mo",
+   "specs": {
+    "size": "Mini, 0.28 in",
+    "watts": "8 W",
+    "source": "Built-in 2000mAh battery, USB-C",
+    "temp": "Low temperature",
+    "in_box": "Gun, 10 mini sticks"
+   },
+   "features": {
+    "temp_control": false,
+    "full_size": false,
+    "kit": true,
+    "sticks": true
+   },
+   "verdict": "The best-seller of the group at 2,000+ a month, and it weighs 0.37 lb. It's a low-temperature mini gun built for paper, felt, balloons and fabric, with a silicone-sleeved brass nozzle, a 30-second heat-up and a 5-minute auto shut-off.",
+   "best_for": "Kids' projects, classrooms and delicate craft materials.",
+   "skip_if": "You need a strong bond on wood or plastic; it runs low-temp only.",
+   "pros": [
+    "2,000+ bought last month",
+    "Weighs 0.37 lb",
+    "Low temperature is safer for kids and delicate materials"
+   ],
+   "cons": [
+    "4.0 stars, the lowest rating on the list",
+    "Only 10 sticks included",
+    "Low-temp glue is too weak for heavier repairs"
+   ]
+  },
+  {
+   "asin": "B016J05NN8",
+   "name": "Surebonder PRO2-60 Fully Cordless Hot Glue Gun for Ryobi 18V Batteries, 60W, Full Size (Tool Only)",
+   "brand": "Surebonder",
+   "model": "PRO2-60",
+   "image": "https://m.media-amazon.com/images/I/71aGUUofsCL._AC_SL1500_.jpg",
+   "price": 28.99,
+   "rating": 4.6,
+   "reviews_count": 505,
+   "bought": "100+/mo",
+   "specs": {
+    "size": "Full size, 0.43 in",
+    "watts": "60 W",
+    "source": "Ryobi 18V ONE+ battery (not included)",
+    "temp": "380°F",
+    "in_box": "Gun only"
+   },
+   "features": {
+    "temp_control": false,
+    "full_size": true,
+    "kit": false,
+    "sticks": false
+   },
+   "verdict": "A full-size gun from a long-running glue brand that runs on Ryobi 18V packs. The 60 W heater reaches 380°F in 5 to 6 minutes, and Surebonder rates it at up to 1.5 hours on a 2.0Ah battery. It's sold by Amazon.",
+   "best_for": "Ryobi 18V owners who want a cheap full-size gun.",
+   "skip_if": "You want it ready fast; it takes 5 to 6 minutes to heat.",
+   "pros": [
+    "505 reviews at 4.6 stars",
+    "Up to 1.5 hours on a 2.0Ah Ryobi battery",
+    "Takes standard full-size sticks"
+   ],
+   "cons": [
+    "No sticks, battery or charger in the box",
+    "90-day warranty",
+    "Slowest heat-up here"
+   ]
+  },
+  {
+   "asin": "B09MDLTYFX",
+   "name": "RYOBI ONE+ 18V Cordless Dual Temperature Glue Gun (Tool Only) with Tips",
+   "brand": "RYOBI",
+   "model": "P307",
+   "image": "https://m.media-amazon.com/images/I/61c4c6xiIxL._AC_SL1276_.jpg",
+   "price": 58.6,
+   "rating": 4.7,
+   "reviews_count": 246,
+   "bought": "200+/mo",
+   "specs": {
+    "size": null,
+    "watts": "25 W",
+    "source": "Ryobi 18V ONE+ battery (not included)",
+    "temp": "Dual temperature",
+    "in_box": "Gun, tips"
+   },
+   "features": {
+    "temp_control": true,
+    "full_size": false,
+    "kit": false,
+    "sticks": false
+   },
+   "verdict": "RYOBI's own glue gun for its ONE+ 18V platform, with high and low temperature settings and interchangeable tips. It ties for the top rating here at 4.7 stars. The Amazon listing is thin on specs, and this offer costs about twice what the Surebonder does.",
+   "best_for": "RYOBI ONE+ owners who want the brand's own dual-temp gun.",
+   "skip_if": "You're price-shopping; the Surebonder runs on the same batteries for half the money.",
+   "pros": [
+    "246 reviews at 4.7 stars",
+    "Dual temperature from the battery-platform maker",
+    "Runs on any RYOBI ONE+ 18V pack"
+   ],
+   "cons": [
+    "Battery, charger and sticks sold separately",
+    "Listing doesn't state the stick size",
+    "Low stock at our check"
+   ]
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0CQ251ZM2",
+   "name": "WORKPRO 12V Cordless Full-Size Hot Melt Glue Gun, Fast Preheating",
+   "brand": "WORKPRO",
+   "model": "W125259AE",
+   "image": "https://m.media-amazon.com/images/I/61CutX-xoOL._AC_SL1500_.jpg",
+   "price": 34.19,
+   "rating": 3.9,
+   "reviews_count": 435,
+   "bought": "200+/mo",
+   "flag": "Glue-output claim the competition beats",
+   "verdict": "It's sold on being faster than other full-size guns, but two full-size guns on this list are rated for more glue per minute, and it's the lowest-rated battery gun we compared.",
+   "reasons": [
+    "The listing says its 0.43 oz/min output is \"much faster than other full size hot glue guns that only dispense 0.07 oz/2g per minute.\" The Mellif (0.63 oz/min) and THINKWORK (0.7 oz/min) are full-size battery guns rated well above it.",
+    "At 3.9 stars it rates below every gun in our top 10.",
+    "The battery is built in and rated at 45 minutes, so a full-size gun meant for bigger jobs stops when the cell runs down. The THINKWORK kit uses a swappable 2Ah pack rated at 60 minutes."
+   ]
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "Mini or full-size cordless glue gun?",
+   "a": "Mini guns take 0.27-0.28 inch sticks, weigh less and suit paper, fabric, foam and craft work. Full-size guns take 0.43 inch sticks and put out several times more glue, which you want for wood, furniture fixes and anything large. The two stick sizes aren't interchangeable."
+  },
+  {
+   "q": "Built-in battery or tool battery?",
+   "a": "Built-in battery guns charge over USB-C and come ready to use, but when the battery wears out the gun is done. Tool-battery guns (DeWalt 20V, Milwaukee 18V, Ryobi 18V) are sold without a battery, cost less if you already own the packs, and a bigger pack runs them longer."
+  },
+  {
+   "q": "How long does a cordless glue gun take to heat up?",
+   "a": "Small USB-C mini guns quote 15 to 90 seconds. 100 W full-size guns on tool batteries quote about 2 to 5 minutes, and the 60 W Surebonder quotes 5 to 6. Check the figure on the listing if you glue in short bursts."
+  },
+  {
+   "q": "Do I need temperature control?",
+   "a": "Only if you glue a mix of materials. Low heat is gentler on foam, fabric and balloons; high heat bonds wood, metal and plastic better. The WORKPRO, Liumai, MONVICT DeWalt and RYOBI guns on this list let you choose; the rest run at one temperature."
+  },
+  {
+   "q": "Will a 'compatible with DeWalt' glue gun damage my battery?",
+   "a": "Most of the tool-battery guns here are made by third parties to fit DeWalt or Ryobi packs, and none of those is made or backed by the tool brand. Some, like the Mellif, add a low-voltage cutoff that stops the gun before it over-drains the pack. Look for that on the listing."
+  }
+ ]
+}
