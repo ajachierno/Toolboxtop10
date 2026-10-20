@@ -1,0 +1,194 @@
+{
+  "slug": "cordless-detail-sanders",
+  "title": "The 10 Best Cordless Detail Sanders",
+  "subtitle": "Battery-powered mouse and detail sanders for corners, trim and furniture, ranked from live Amazon data.",
+  "intro": "A cordless detail sander has the same pointed, iron-shaped pad as a corded mouse sander, so it reaches into corners and along trim where a round pad can't, but there's no cord to drag over the finish. We ranked 10 current best-sellers on rating, review volume and features: brushless motor, variable speed, a shop-vac port, and whether a battery and charger come in the box. Most run at about 12,000 orbits per minute, so the bigger choices are battery platform and kit versus bare tool. Prices run from $40.84 for the GALAX PRO kit to $92.74 for the WORX WX822L kit.",
+  "data_captured": "2026-10-20",
+  "audited": "2026-10-20",
+  "changelog": [
+    {"date": "2026-10-20", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 50,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.2 },
+  "feature_weights": { "kit": 0.3, "brushless": 0.25, "variable_speed": 0.2, "vac_port": 0.25 },
+  "reviews_ceiling": 2500,
+  "spec_fields": [
+    { "key": "voltage", "label": "Battery" },
+    { "key": "opm", "label": "Orbits/min" },
+    { "key": "dust", "label": "Dust collection" },
+    { "key": "weight", "label": "Weight" },
+    { "key": "in_box", "label": "In the box" }
+  ],
+  "table_columns": [
+    { "key": "voltage", "label": "Battery" },
+    { "key": "opm", "label": "Orbits/min" },
+    { "key": "kit", "label": "Kit", "type": "bool" },
+    { "key": "brushless", "label": "Brushless", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B06WLJH9TB",
+      "name": "BLACK+DECKER 20V MAX Mouse Detail Sander Kit with 1.5Ah Battery and Charger (BDCMS20C)",
+      "brand": "BLACK+DECKER", "model": "BDCMS20C",
+      "image": "https://m.media-amazon.com/images/I/71gnRBriZRL._AC_SL1500_.jpg",
+      "price": 74.99, "rating": 4.6, "reviews_count": 2480, "bought": "50+/mo",
+      "specs": { "voltage": "BLACK+DECKER 20V MAX (1.5Ah included)", "opm": "12,000", "dust": "Dust bag", "weight": null, "in_box": "Sander, 1.5Ah battery, charger, detail finger, sandpaper" },
+      "features": { "kit": true, "brushless": false, "variable_speed": false, "vac_port": false },
+      "verdict": "The most-reviewed cordless detail sander, sold as a complete kit with a 1.5Ah battery and charger. It runs at 12,000 opm, has a 2-position grip, and includes a detail finger attachment for slats and tight gaps.",
+      "best_for": "Anyone who wants a proven mouse sander that works out of the box.",
+      "skip_if": "You already own BLACK+DECKER 20V batteries; the BDCMS20B bare tool is the same sander.",
+      "pros": ["2,480 reviews at 4.6 stars, the most on this page", "Battery, charger and detail finger included", "Battery fits other BLACK+DECKER 20V MAX tools"],
+      "cons": ["Small 1.5Ah battery", "Single speed, dust bag only"]
+    },
+    {
+      "asin": "B09X2C6VP3",
+      "name": "CRAFTSMAN 20V MAX Cordless Detail Sander, Tool Only (CMCW221B)",
+      "brand": "CRAFTSMAN", "model": "CMCW221B",
+      "image": "https://m.media-amazon.com/images/I/61ef87Ie8VL._AC_SL1500_.jpg",
+      "price": 79.00, "rating": 4.6, "reviews_count": 464, "bought": "100+/mo",
+      "specs": { "voltage": "CRAFTSMAN 20V MAX (not included)", "opm": "9,000–12,000 (variable)", "dust": "Dust bag + 1-1/4\" vacuum port", "weight": null, "in_box": "Tool only" },
+      "features": { "kit": false, "brushless": false, "variable_speed": true, "vac_port": true },
+      "verdict": "The only sander here with variable speed (9,000 to 12,000 opm) and a 1-1/4-inch shop-vac connection. A D-handle grip helps when sanding walls and other vertical surfaces.",
+      "best_for": "CRAFTSMAN V20 owners who want speed control and a vacuum hookup.",
+      "skip_if": "You don't own CRAFTSMAN 20V batteries; this is $79 for the bare tool.",
+      "pros": ["Variable speed, 9,000 to 12,000 opm", "Dust bag or 1-1/4\" vacuum connection", "Dust-sealed switch"],
+      "cons": ["Tool only: battery and charger sold separately", "Most expensive bare tool on this page"]
+    },
+    {
+      "asin": "B07798Q9G5",
+      "name": "BLACK+DECKER 20V MAX Mouse Sander, Tool Only (BDCMS20B)",
+      "brand": "BLACK+DECKER", "model": "BDCMS20B",
+      "image": "https://m.media-amazon.com/images/I/61wD4PVNNrL._AC_SL1000_.jpg",
+      "price": 69.99, "rating": 4.6, "reviews_count": 498, "bought": "100+/mo",
+      "specs": { "voltage": "BLACK+DECKER 20V MAX (not included)", "opm": "12,000", "dust": "Dust collection", "weight": null, "in_box": "Sander, detail finger attachment" },
+      "features": { "kit": false, "brushless": false, "variable_speed": false, "vac_port": false },
+      "verdict": "The bare-tool version of the BDCMS20 mouse sander, with the same detail finger attachment and hook-and-loop pad. It only makes sense if you already have BLACK+DECKER 20V MAX batteries.",
+      "best_for": "BLACK+DECKER 20V owners who already have a spare battery.",
+      "skip_if": "You need a battery; the BDCMS20C kit is only $5 more.",
+      "pros": ["Same sander as the kit, 4.6 stars across 498 reviews", "Detail finger attachment included", "2-year limited warranty"],
+      "cons": ["Battery and charger sold separately", "Only $5 less than the kit with a battery"]
+    },
+    {
+      "asin": "B08DY85PD9",
+      "name": "WORX 20V Cordless Detail Sander, Finger Sander, Tool Only (WX822L.9)",
+      "brand": "WORX", "model": "WX822L.9",
+      "image": "https://m.media-amazon.com/images/I/71yr7gXErDL._AC_SL1500_.jpg",
+      "price": 49.98, "rating": 4.5, "reviews_count": 508, "bought": null,
+      "specs": { "voltage": "WORX 20V Power Share (not included)", "opm": "13,000", "dust": "Dust canister + dust bag", "weight": "1.8 lb (tool only)", "in_box": "Finger attachment, 6 sanding sheets, dust bag" },
+      "features": { "kit": false, "brushless": false, "variable_speed": false, "vac_port": false },
+      "verdict": "WORX's finger sander as a bare tool for under $50. It weighs 1.8 lb without a battery and runs on the same 20V Power Share packs as WORX's yard and power tools.",
+      "best_for": "WORX Power Share owners who want a cheap, light detail sander.",
+      "skip_if": "You have no WORX batteries; the WX822L kit includes one.",
+      "pros": ["$49.98, the cheapest brand-name bare tool here", "1.8 lb without battery", "Finger attachment and 6 sheets included"],
+      "cons": ["Battery and charger sold separately", "Listing says 13,000 opm and 3/32\" orbit, while the kit listing says 12,000 opm and 5/64\""]
+    },
+    {
+      "asin": "B087RB82VN",
+      "name": "WORX 20V Cordless Detail Sander, Finger Sander Kit with 2.0Ah Battery and Charger (WX822L)",
+      "brand": "WORX", "model": "WX822L",
+      "image": "https://m.media-amazon.com/images/I/51sVmTdPsRL._AC_SL1000_.jpg",
+      "price": 92.74, "rating": 4.5, "reviews_count": 287, "bought": null,
+      "specs": { "voltage": "WORX 20V Power Share (2.0Ah included)", "opm": "12,000", "dust": "Dust canister + dust bag", "weight": "1.8 lb (tool only)", "in_box": "Sander, 2.0Ah battery, charger, finger attachment, 6 sheets, dust bag" },
+      "features": { "kit": true, "brushless": false, "variable_speed": false, "vac_port": false },
+      "verdict": "The kit version of the WORX finger sander, with a 2.0Ah battery and charger. The battery also runs WORX's 75+ Power Share tools, so it's a reasonable way into that platform.",
+      "best_for": "Starting on WORX Power Share with a larger 2.0Ah battery.",
+      "skip_if": "Price matters most; it's the most expensive pick here at $92.74.",
+      "pros": ["2.0Ah battery and charger included", "Battery shared across 75+ WORX tools", "Finger attachment for tight spots"],
+      "cons": ["$92.74, the priciest sander on this page", "Single speed, no vacuum port"]
+    },
+    {
+      "asin": "B07Z3M9BWD",
+      "name": "GALAX PRO 20V Cordless Detail Sander with 1.3Ah Battery, Charger and 20 Sandpapers",
+      "brand": "GALAX PRO", "model": "20V Detail Sander",
+      "image": "https://m.media-amazon.com/images/I/81ej3m6P5TL._AC_SL1500_.jpg",
+      "price": 40.84, "rating": 4.2, "reviews_count": 545, "bought": "100+/mo",
+      "specs": { "voltage": "GALAX PRO 20V (1.3Ah included)", "opm": "12,000", "dust": "Dust bag", "weight": null, "in_box": "Sander, 1.3Ah battery, charger, 20 sandpapers, dust bag" },
+      "features": { "kit": true, "brushless": false, "variable_speed": false, "vac_port": false },
+      "verdict": "The cheapest complete kit here: sander, 1.3Ah battery, charger and 20 sheets (60 to 120 grit) for $40.84. Fine for occasional furniture and trim work.",
+      "best_for": "Occasional sanding jobs on a tight budget.",
+      "skip_if": "You want a battery that runs other brand-name tools.",
+      "pros": ["$40.84 with battery and charger", "20 sandpapers across 4 grits", "545 reviews, 100+ bought last month"],
+      "cons": ["Small 1.3Ah battery", "Lowest rating among the kits here at 4.2 stars"]
+    },
+    {
+      "asin": "B0D1Y3K7HB",
+      "name": "THINKLEARN 20V Cordless Detail Sander with 2.0Ah Battery, Charger, 22 Sandpapers and Tool Bag",
+      "brand": "THINKLEARN", "model": "20V Detail Sander",
+      "image": "https://m.media-amazon.com/images/I/81LykDJZSWL._AC_SL1500_.jpg",
+      "price": 69.99, "rating": 4.4, "reviews_count": 179, "bought": null,
+      "specs": { "voltage": "THINKLEARN 20V (2.0Ah included)", "opm": "12,000", "dust": "Dust bag", "weight": "2.63 lb", "in_box": "Sander, 2.0Ah battery, quick charger, 22 sandpapers, dust bag, tool bag" },
+      "features": { "kit": true, "brushless": false, "variable_speed": false, "vac_port": false },
+      "verdict": "A complete kit with a larger 2.0Ah battery, a quick charger, 22 sheets and a tool bag. The dust outlet has an O-ring seal to stop the bag leaking.",
+      "best_for": "Off-brand buyers who want a bigger battery and a bag to store it all.",
+      "skip_if": "You'd rather pay $5 more for the BLACK+DECKER kit and its wider battery platform.",
+      "pros": ["2.0Ah battery, larger than most kits here", "22 sandpapers plus tool bag", "4.4 stars across 179 reviews"],
+      "cons": ["Heaviest listed weight here at 2.63 lb", "Battery doesn't fit a major tool platform"]
+    },
+    {
+      "asin": "B0FMNDM8X5",
+      "name": "Mellif Brushless Cordless Detail Sander for DeWalt 20V MAX Battery, Tool Only",
+      "brand": "Mellif", "model": "Detail Sander (DeWalt 20V)",
+      "image": "https://m.media-amazon.com/images/I/71TO-olNHCL._AC_SL1500_.jpg",
+      "price": 45.99, "rating": 4.4, "reviews_count": 119, "bought": "400+/mo",
+      "specs": { "voltage": "DeWalt 20V MAX (not included)", "opm": "Up to 12,000", "dust": "Dust box", "weight": "1.76 lb", "in_box": "Sander, 10 sanding sheets, dust box" },
+      "features": { "kit": false, "brushless": true, "variable_speed": false, "vac_port": false },
+      "verdict": "A third-party brushless detail sander built for DeWalt 20V MAX batteries. DeWalt doesn't sell a mouse sander, so this fills that gap for DeWalt owners. Mellif says it is not affiliated with DeWalt.",
+      "best_for": "DeWalt 20V owners who want a detail sander on the batteries they have.",
+      "skip_if": "You don't own DeWalt 20V batteries and a charger.",
+      "pros": ["Only brushless sander on this page", "400+ bought last month, the most here", "Low-voltage cutoff at 14.4V and 5-year warranty"],
+      "cons": ["Tool only: no battery or charger", "Off-brand tool with a short track record"]
+    },
+    {
+      "asin": "B0DM4KNR5S",
+      "name": "TRONYAN Cordless Detail Sander for DeWalt 20V Max Battery, Tool Only, 12,000 OPM",
+      "brand": "TRONYAN", "model": "Detail Sander (DeWalt 20V)",
+      "image": "https://m.media-amazon.com/images/I/71tTPOHYEUL._AC_SL1500_.jpg",
+      "price": 42.99, "rating": 4.1, "reviews_count": 155, "bought": "50+/mo",
+      "specs": { "voltage": "DeWalt 20V MAX (not included)", "opm": "12,000", "dust": "Dust bag", "weight": null, "in_box": "Sander, 10 sandpapers (60 to 220 grit), dust bag" },
+      "features": { "kit": false, "brushless": false, "variable_speed": false, "vac_port": false },
+      "verdict": "A cheaper, brushed alternative to the Mellif for DeWalt 20V owners. It runs at 12,000 opm and ships with 10 sheets from 60 to 220 grit.",
+      "best_for": "DeWalt 20V owners who want the lowest price.",
+      "skip_if": "You'd pay $3 more for the brushless Mellif.",
+      "pros": ["$42.99, the cheapest DeWalt-battery option here", "10 sheets from 60 to 220 grit", "Uses standard-size sandpaper"],
+      "cons": ["Tool only: no battery or charger", "Brushed motor; 4.1 stars is the lowest rating on this page"]
+    },
+    {
+      "asin": "B0H2M5TXW6",
+      "name": "GALAX PRO 20V Cordless Detail Sander with Sealed Switch, 1.3Ah Battery, Charger and 20 Sandpapers",
+      "brand": "GALAX PRO", "model": "20V Detail Sander (sealed switch)",
+      "image": "https://m.media-amazon.com/images/I/71fRoFoMMeL._AC_SL1500_.jpg",
+      "price": 52.99, "rating": 4.7, "reviews_count": 14, "bought": "100+/mo",
+      "specs": { "voltage": "GALAX PRO 20V (1.3Ah included)", "opm": "12,000", "dust": "Dust bag", "weight": null, "in_box": "Sander, 1.3Ah battery, charger, 20 sandpapers, dust bag" },
+      "features": { "kit": true, "brushless": false, "variable_speed": false, "vac_port": false },
+      "verdict": "A newer GALAX PRO kit with a dust-sealed power switch and vented housing to keep fine dust out of the electronics. The battery, charger and 20-sheet set match the cheaper GALAX PRO kit.",
+      "best_for": "Buyers who want the GALAX PRO kit with better dust sealing.",
+      "skip_if": "You want a battery that runs other brands; GALAX PRO says it doesn't.",
+      "pros": ["Dust-sealed switch", "Battery, charger and 20 sheets included", "4.7 stars, 100+ bought last month"],
+      "cons": ["$12 more than the older GALAX PRO kit", "Small 1.3Ah battery"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0DSBNLPLP",
+      "name": "DEKOPRO Cordless Multi-Function Mouse Detail Sander with 3 Attachments and 12 Sandpapers",
+      "brand": "DEKOPRO", "model": "Cordless Detail Sander",
+      "image": "https://m.media-amazon.com/images/I/81TDNJNTypL._AC_SL1500_.jpg",
+      "price": 37.99, "rating": 4.0, "reviews_count": 109,
+      "flag": "Listing contradicts itself on what's in the box",
+      "verdict": "You can't tell from the listing whether it can run when it arrives. The package list includes a charger but no battery, while the product details list a battery pack but no charger.",
+      "reasons": [
+        "The \"What You Would Get\" bullet lists the sander, 3 attachments, 12 sandpapers, a dust collector, a manual and a charger, with no battery. The \"Included Components\" field lists a battery pack and no charger. One of them is wrong.",
+        "It only says \"20V lithium ion\" and never names a battery platform or capacity, so if a part is missing you don't know what to buy.",
+        "It calls its dust collector a \"built-in vacuum attachment\" but never gives a hose size, unlike the CRAFTSMAN CMCW221B, which states 1-1/4 inch.",
+        "For $2.85 more, the GALAX PRO kit clearly lists a 1.3Ah battery, a charger and 20 sandpapers."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "What's the difference between a detail sander and a random orbital sander?", "a": "A detail (mouse) sander has a pointed, iron-shaped pad that reaches into corners and along trim. A random orbital sander has a round 5-inch pad that removes material faster on flat surfaces but can't get into a 90-degree corner. Many people own both." },
+    { "q": "Should I buy a kit or a bare tool?", "a": "If you already own batteries for BLACK+DECKER, CRAFTSMAN, WORX or DeWalt, buy the bare tool and use what you have. If you don't, a kit is cheaper than buying the tool, battery and charger separately. On this page, the BLACK+DECKER kit is only $5 more than its bare tool." },
+    { "q": "Is there a DeWalt, Milwaukee or Makita cordless mouse sander?", "a": "DeWalt doesn't sell a mouse sander. Milwaukee's M12 FUEL orbital detail sander exists, but Amazon had no seller for it when we checked. For DeWalt 20V batteries, third-party tools like the Mellif and TRONYAN on this page fill the gap. They aren't made or backed by DeWalt." },
+    { "q": "Does battery size matter on a detail sander?", "a": "It sets runtime. A 1.3Ah or 1.5Ah pack is fine for a few doors or a chair; a 2.0Ah pack lasts longer between charges. If you plan to sand a whole room of trim, get a spare battery or a kit with a 2.0Ah pack." },
+    { "q": "Do I need a vacuum port?", "a": "For small jobs the dust bag is enough. For long sessions indoors, a shop-vac connection pulls far more dust off the work. On this page only the CRAFTSMAN CMCW221B lists a 1-1/4-inch vacuum connection." }
+  ]
+}
