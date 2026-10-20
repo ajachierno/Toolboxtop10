@@ -124,6 +124,8 @@ th[aria-sort=descending] .sortbtn::after{content:" \25BC";opacity:1}
 .footlinks{margin:6px 0}
 .lowprice.best{color:var(--overall);font-weight:700}
 .card-buy .btn{margin:8px 0 6px}
+.also-at{margin:0 0 6px}
+.also-at a{color:var(--brand-ink);font-weight:700}
 .verdict{margin:18px 0 14px;font-size:1.02rem}
 .specs{display:grid;grid-template-columns:repeat(4,1fr);gap:10px 18px;margin:0 0 16px;
   padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}

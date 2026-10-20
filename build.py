@@ -11,6 +11,7 @@ import json
 import math
 import re
 import html
+import urllib.parse
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -68,6 +69,41 @@ def price_note(p):
 def amazon_url(asin, tag, domain):
     base = f"https://{domain}/dp/{asin}"
     return f"{base}?tag={tag}&linkCode=ll1" if tag else base
+
+
+def live_retailers(site):
+    """Non-Amazon retailers from site.json `retailers` that are switched on and have a
+    link template. Stays empty until a program approves us, so nothing renders."""
+    return [(key, r) for key, r in site.get("retailers", {}).items()
+            if not key.startswith("_") and r.get("enabled") and r.get("link_template")]
+
+
+def retailer_url(template, product_url):
+    # Impact and CJ deep links wrap the plain product URL, URL-encoded, in a tracking link.
+    return template.replace("{url}", urllib.parse.quote(product_url, safe=""))
+
+
+def render_also_at(p, site):
+    """'Also at Walmart · Lowe's' under a buy button, from the product's optional
+    `retailers` field ({"walmart": "https://www.walmart.com/ip/..."})."""
+    links = []
+    for key, r in live_retailers(site):
+        product_url = (p.get("retailers") or {}).get(key)
+        if product_url:
+            links.append(f'<a href="{esc(retailer_url(r["link_template"], product_url))}" target="_blank" '
+                         f'rel="sponsored nofollow noopener">{esc(r["name"])}</a>')
+    return f'<div class="also-at tiny">Also at {" &middot; ".join(links)}</div>' if links else ""
+
+
+def retailer_names(site):
+    return ["Amazon"] + [r["name"] for _, r in live_retailers(site)]
+
+
+def commission_phrase(site):
+    names = [esc(n) for n in retailer_names(site)]
+    if len(names) == 1:
+        return "an Amazon Associates commission"
+    return f"a commission from {', '.join(names[:-1])} or {names[-1]}"
 
 
 # --------------------------------------------------------------------------- scoring
@@ -238,7 +274,7 @@ def render_card(p, site, spec_fields, cat=None):
         <div class="card-buy">
           <div class="price">{money(p['price'])}</div>
           {price_note(p)}
-          <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+          <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>{render_also_at(p, site)}
           <div class="tiny muted">{esc(p.get('bought',''))}</div>
         </div>
       </div>
@@ -531,10 +567,10 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
 </main>
 <footer>
   <p class="disclosure"><b>Affiliate disclosure.</b> {esc(site['brand'])} is reader-supported.
-  When you buy through links on this site we may earn an Amazon Associates commission, at no
+  When you buy through links on this site we may earn {commission_phrase(site)}, at no
   extra cost to you. Prices and ratings are pulled from Amazon and change over time; the figures
   here were captured on the date shown and are not guaranteed to be current.</p>
-  <p class="footlinks"><a href="about.html">About &amp; how we rank</a> &middot; <a href="mailto:{esc(site.get('contact_email', ''))}">Contact</a>{storefront_link}</p>
+  <p class="footlinks"><a href="about.html">About &amp; how we rank</a> &middot; <a href="disclosure.html">Affiliate disclosure</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="mailto:{esc(site.get('contact_email', ''))}">Contact</a>{storefront_link}</p>
   <p class="muted">{home_link} &nbsp; Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
 {REVEAL_JS + chr(10) if 'data-show-from' in body or 'data-hide-from' in body else ''}</body>
@@ -1116,7 +1152,7 @@ def render_pick_card(p, cat, site, label=None, price_note="", tags=""):
           </div>
           <div class="card-buy">
             <div class="price">{money(p['price'])}</div>
-            <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>{render_also_at(p, site)}
             <div class="tiny muted">{price_note}</div>
           </div>
         </div>
@@ -1382,7 +1418,7 @@ def render_brand_card(p, cat, site, cfg, others, cordless):
           </div>
           <div class="card-buy">
             <div class="price">{money(p['price'])}</div>
-            <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>
+            <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>{render_also_at(p, site)}
             <div class="tiny muted">price on {esc(cat_date(cat, site))}</div>
           </div>
         </div>
@@ -1751,10 +1787,11 @@ def build_about(site, cats):
     </ul>
 
     <h2>How the site makes money</h2>
-    <p>Links to Amazon are affiliate links. If you buy through one, {esc(site['brand'])} may earn a
-    commission at no extra cost to you. Amazon pays a percentage of the sale, so a pricier tool earns
-    more, but the score never looks at price or commission. Rankings come only from the rating, review
-    count and features described above.</p>{storefront_para}
+    <p>Links to {oxford(retailer_names(site))} are affiliate links. If you buy through one,
+    {esc(site['brand'])} may earn a commission at no extra cost to you. Retailers pay a percentage of
+    the sale, so a pricier tool earns more, but the score never looks at price or commission. Rankings
+    come only from the rating, review count and features described above. Full details are on our
+    <a href="disclosure.html">affiliate disclosure</a> page.</p>{storefront_para}
 
     <h2>Corrections and contact</h2>
     <p>Spotted a wrong spec, a dead link or a price that's way off? Email
@@ -1775,6 +1812,121 @@ def build_about(site, cats):
                          f"is built, how picks to avoid are chosen, and how to report a correction.",
              canonical=canonical, structured_data=sd, updated=newest), encoding="utf-8")
     return newest
+
+
+# Bump when the wording of the disclosure or privacy page changes (it's their sitemap lastmod).
+POLICY_UPDATED = "2026-10-19"
+
+
+def _policy_date():
+    d = datetime.date.fromisoformat(POLICY_UPDATED)
+    return f"{d:%B} {d.day}, {d.year}"
+
+
+def _policy_page(site, slug, title, description, body):
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    canonical = f"{base}/{slug}.html" if base else ""
+    body = f"""
+  {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
+  <section class="lead about"><h1>{esc(title)}</h1></section>
+  <section class="about-body">{body}
+  </section>"""
+    sd = jsonld({"@context": "https://schema.org", "@type": "WebPage", "name": title,
+                 "url": canonical or None, "dateModified": POLICY_UPDATED,
+                 "publisher": {"@type": "Organization", "name": site["brand"], "url": f"{base}/"}})
+    (OUT / f"{slug}.html").write_text(
+        page(site, f"{title} | {site['brand']}", body, description=description, canonical=canonical,
+             structured_data=sd, updated=POLICY_UPDATED), encoding="utf-8")
+
+
+def build_disclosure(site):
+    brand, email = esc(site["brand"]), esc(site.get("contact_email", ""))
+    others = live_retailers(site)
+    other_para = ""
+    if others:
+        items = "".join(f"<li><b>{esc(r['name'])}</b>, through the {esc(r.get('network', ''))} "
+                        f"affiliate network.</li>" for _, r in others)
+        other_para = f"""
+    <p>Some products also link to other retailers. Those links are affiliate links too:</p>
+    <ul>{items}</ul>"""
+    _policy_page(site, "disclosure", "Affiliate disclosure",
+                 f"How {site['brand']} makes money: which retailer links are affiliate links and how "
+                 f"commissions do and don't affect the rankings.", f"""
+    <p>{brand} is reader-supported. Most links to products on this site are affiliate links. If you
+    click one and buy something, the retailer pays {brand} a small commission. The price you pay is
+    the same either way.</p>
+
+    <h2>Amazon</h2>
+    <p>As an Amazon Associate, {brand} earns from qualifying purchases. Every "Check price" and "View on
+    Amazon" button is an Amazon affiliate link, and so are the lists on our Amazon storefront.</p>
+    {other_para}
+
+    <h2>What commissions don't change</h2>
+    <p>Rankings come from each product's star rating, number of reviews and listed features. The score
+    never looks at price, commission rate or which retailer sells the product. No brand or retailer pays
+    to be listed, ranked, badged or left off the "avoid" list. The full method is on the
+    <a href="about.html">About &amp; how we rank</a> page.</p>
+
+    <h2>How the links are marked</h2>
+    <p>Affiliate links carry <code>rel="sponsored"</code>, the label search engines use for paid links,
+    and open in a new tab.</p>
+
+    <h2>Questions</h2>
+    <p>Email <a href="mailto:{email}">{email}</a>.</p>
+    <p class="muted">Last updated {_policy_date()}.</p>""")
+
+
+def build_privacy(site):
+    brand, email = esc(site["brand"]), esc(site.get("contact_email", ""))
+    names = oxford(retailer_names(site))
+    analytics = ""
+    if TRACKING.get("cloudflare_beacon_token"):
+        analytics += """
+    <p>We use Cloudflare Web Analytics to count page views. It doesn't set cookies, doesn't use
+    fingerprinting and doesn't track you across other sites. We see totals such as page views, referring
+    sites and country, not individual visitors.</p>"""
+    if TRACKING.get("ga4_measurement_id"):
+        analytics += """
+    <p>We use Google Analytics, which sets cookies to measure how visitors use the site. Google's
+    privacy policy covers how it handles that data, and you can opt out with Google's browser add-on.</p>"""
+    _policy_page(site, "privacy", "Privacy policy",
+                 f"What {site['brand']} collects (very little), what the analytics and retailer links do, "
+                 f"and how to contact us.", f"""
+    <p>{brand} is a static website. There are no accounts, no sign-up forms, no comments and no
+    newsletter, so we never ask for your name, email or payment details.</p>
+
+    <h2>Analytics</h2>{analytics or '''
+    <p>We don't run any analytics on this site.</p>'''}
+
+    <h2>Hosting</h2>
+    <p>The site is hosted on GitHub Pages. Like any web host, GitHub records technical details of each
+    request, including IP addresses, for security and operations. GitHub's privacy statement covers that
+    data; we don't get access to it.</p>
+
+    <h2>Retailer links</h2>
+    <p>When you click a link to {names}, you leave this site. The retailer may set its own cookies,
+    including affiliate cookies that tell it the visit came from {brand} so it can pay us a commission.
+    That data is handled under the retailer's privacy policy. We see sales totals, never who bought what.
+    See our <a href="disclosure.html">affiliate disclosure</a>.</p>
+
+    <h2>Product images</h2>
+    <p>Product images load from Amazon's image servers, which receive the request like any other web
+    request.</p>
+
+    <h2>Email</h2>
+    <p>If you email us, we use your address and message only to reply. We don't add you to any list or
+    share it with anyone.</p>
+
+    <h2>Selling or sharing data</h2>
+    <p>We don't sell or share personal information, and we don't have any to sell.</p>
+
+    <h2>Children</h2>
+    <p>The site isn't aimed at children under 13 and doesn't knowingly collect anything from them.</p>
+
+    <h2>Changes and contact</h2>
+    <p>If this policy changes, the date below changes with it. Questions go to
+    <a href="mailto:{email}">{email}</a>.</p>
+    <p class="muted">Last updated {_policy_date()}.</p>""")
 
 
 def build_redirects(site):
@@ -1814,6 +1966,8 @@ def main():
     build_home(site, cats)
     seasonal = build_seasonal(site, cats) + build_brands(site, cats)
     about_date = build_about(site, cats)
+    build_disclosure(site)
+    build_privacy(site)
     # sitemap.xml + robots.txt (SEO / Search Console)
     if site.get("custom_domain"):
         base = f"https://{site['custom_domain']}"
@@ -1826,7 +1980,8 @@ def main():
                 + [(f"{base}/{compare_filename(slug)}", "0.6", d) for slug, d in cat_dates
                    if slug in COMPARE and not COMPARE_NOINDEX]
                 + [(f"{base}/{slug}.html", "0.7", d) for slug, d in seasonal]
-                + [(f"{base}/about.html", "0.5", about_date)])
+                + [(f"{base}/about.html", "0.5", about_date)]
+                + [(f"{base}/{slug}.html", "0.3", POLICY_UPDATED) for slug in ("disclosure", "privacy")])
         entries = "\n".join(
             f"  <url><loc>{u}</loc><lastmod>{lastmod}</lastmod>"
             f"<changefreq>weekly</changefreq><priority>{pr}</priority></url>" for u, pr, lastmod in urls)
@@ -1973,6 +2128,8 @@ th[aria-sort=descending] .sortbtn::after{content:" \25BC";opacity:1}
 .footlinks{margin:6px 0}
 .lowprice.best{color:var(--overall);font-weight:700}
 .card-buy .btn{margin:8px 0 6px}
+.also-at{margin:0 0 6px}
+.also-at a{color:var(--brand-ink);font-weight:700}
 .verdict{margin:18px 0 14px;font-size:1.02rem}
 .specs{display:grid;grid-template-columns:repeat(4,1fr);gap:10px 18px;margin:0 0 16px;
   padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}

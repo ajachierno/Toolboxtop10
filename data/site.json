@@ -7,6 +7,12 @@
   "custom_domain": "toolboxtop10.com",
   "contact_email": "admin@toolboxtop10.com",
   "storefront_url": "https://www.amazon.com/shop/toolboxtop10",
+  "retailers": {
+    "_readme": "Non-Amazon affiliate programs. Nothing renders until enabled is true AND link_template is set. link_template is the network's deep-link pattern with {url} where the URL-encoded product page goes. Per product, add \"retailers\": {\"walmart\": \"https://www.walmart.com/ip/...\"} in the category JSON.",
+    "walmart": {"name": "Walmart", "network": "Impact", "enabled": false, "link_template": ""},
+    "lowes": {"name": "Lowe's", "network": "CJ", "enabled": false, "link_template": ""},
+    "homedepot": {"name": "Home Depot", "network": "Impact", "enabled": false, "link_template": ""}
+  },
   "updated": "2026-10-19",
   "categories": [
     {
