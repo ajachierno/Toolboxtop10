@@ -1516,7 +1516,7 @@ HOME_GROUPS = [
     ("Hand tools", "No batteries, no cords &mdash; the essentials every toolbox needs.", "hand"),
     ("Measuring & layout", "Levels, stud finders, and tape measures &mdash; mark it right before you cut.", "measure"),
     ("Garage & auto shop", "Shop equipment for working on your own vehicles &mdash; lifting, tires, diagnostics, and inspection.", "garage"),
-    ("Yard & outdoor", "Battery-powered yard tools &mdash; blow, trim, cut, and mow without gas or a pull cord.", "yard"),
+    ("Yard & outdoor", "Battery-powered yard tools &mdash; blow, trim, cut, mow and clear snow without gas or a pull cord.", "yard"),
 ]
 
 
