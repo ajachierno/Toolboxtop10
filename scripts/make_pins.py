@@ -266,10 +266,31 @@ def pin_gifts(site, group, picks, cfg):
     return img, title, desc, f"{cfg['slug']}.html", kw
 
 
-def pin_black_friday(site, rows, cfg):
+POPULAR = ["cordless-drills", "cordless-impact-drivers", "cordless-circular-saws",
+           "cordless-reciprocating-saws", "cordless-oscillating-tools",
+           "cordless-random-orbital-sanders", "cordless-impact-wrenches",
+           "socket-sets", "rolling-tool-chests", "cordless-angle-grinders"]
+
+
+def _day(iso):
+    d = datetime.date.fromisoformat(iso)
+    return f"{d:%b} {d.day}, {d.year}"
+
+
+def _captured(rows):
+    """'Oct 2026' or 'Sept-Oct 2026': when the prices on a holiday pin were read off Amazon."""
+    ds = sorted(datetime.date.fromisoformat(str(c["data_captured"])) for c, _o in rows)
+    a, b = ds[0], ds[-1]
+    return f"{a:%b %Y}" if (a.year, a.month) == (b.year, b.month) else f"{a:%b}-{b:%b %Y}"
+
+
+def pin_holiday_cheatsheet(site, rows, cfg):
+    """Dated price-to-beat sheet for one holiday deal page. Prices are allowed here (and only
+    here) because the pin names the month they were captured."""
+    deal, first = cfg["deal_name"], cfg["key_dates"][0]
     img, d = canvas()
-    y = header(d, "BLACK FRIDAY · NOV 27, 2026", "Tool Price Cheat Sheet")
-    d.text((PAD, y), "Our #1 pick — and its regular price. Beat it or skip it.",
+    y = header(d, f"{deal.upper()} · {_day(first['date']).upper()}", "Tool Price Cheat Sheet")
+    d.text((PAD, y), "Our #1 pick and its regular price. Beat it or skip it.",
            font=font(400, 30), fill=MUTED)
     y += 64
     rf, pf, cf = font(700, 30), font(900, 32), font(400, 22)
@@ -282,16 +303,54 @@ def pin_black_friday(site, rows, cfg):
         pr = build.money(o["price"])
         d.text((W - PAD - 28 - d.textlength(pr, font=pf), y + 22), pr, font=pf, fill=BRAND)
         y += row_h
-    d.text((PAD, y + 6), "Regular Amazon prices captured Sept 2026. Prices change.",
+    d.text((PAD, y + 6), f"Regular Amazon prices captured {_captured(rows)}. Prices change.",
            font=font(400, 24), fill=MUTED)
     footer(d, "Full price-to-beat list")
-    title = "Black Friday 2026 Tool Deals: Price Cheat Sheet"
-    desc = ("Is that Black Friday tool deal real? Our top-ranked cordless drills, impact drivers, "
-            "saws, sanders and more with the regular price we recorded — beat it or skip it. "
-            "Black Friday is Nov 27, 2026; Cyber Monday is Nov 30.")
-    kw = ["black friday tool deals", "black friday 2026", "cyber monday tool deals",
-          "power tool deals", "gifts for dad"]
+    when = "; ".join(f"{k['label']} is {_day(k['date'])}" for k in cfg["key_dates"])
+    title = f"{deal} {cfg['year']} Tool Deals: Price Cheat Sheet"
+    desc = (f"Is that {deal} tool deal real? Our top-ranked cordless drills, impact drivers, "
+            f"saws, sanders and more with the regular price we recorded. Beat it or skip it. {when}.")
+    kw = [f"{deal.lower()} tool deals", f"{deal.lower()} {cfg['year']}", "power tool deals",
+          "tool sale", "gifts for dad"]
     return img, title, desc, f"{cfg['slug']}.html", kw
+
+
+def pin_holiday_picks(site, rows, cfg):
+    """Top-rated picks for a holiday page: the four highest-scoring Best Overall picks among
+    the popular categories. No prices, so it stays accurate after the sale."""
+    deal = cfg["deal_name"]
+    picks = sorted(rows, key=lambda r: -r[1]["score"])[:4]
+    img, d = canvas()
+    y = header(d, f"{deal.upper()} {cfg['year']}", "Top-Rated Tools Worth Watching")
+    product_rows(d, y, [(build.cat_name(c), OVERALL, o) for c, o in picks], H - 230)
+    footer(d, f"See every {deal} pick")
+    title = f"{deal} {cfg['year']}: Top-Rated Tools to Watch for Deals"
+    desc = (f"The tools worth buying this {deal}, ranked from real Amazon ratings and reviews: "
+            + "; ".join(f"{build.cat_name(c)}: {o['brand']} {o['model']}" for c, o in picks)
+            + ". See Best Overall and Best Budget in every category, with the price to beat.")
+    kw = [f"{deal.lower()} tool deals", f"best tools {cfg['year']}", "power tools",
+          "gifts for dad", "diy tools"]
+    return img, title, desc, f"{cfg['slug']}.html", kw
+
+
+def holiday_pins(site, cats, today=None):
+    """[(id, board, publish datetime, hide date, pin)] for every holiday page whose link
+    window hasn't closed. The cheat sheet posts the morning the page goes live (link_from,
+    14:00 UTC), the picks pin that evening (22:00 UTC)."""
+    today = today or datetime.date.today()
+    rows = [(cat, o) for _g, cat, o, _b in cats if cat["slug"] in POPULAR]
+    rows.sort(key=lambda r: POPULAR.index(r[0]["slug"]))
+    out = []
+    for cfg in build.holiday_configs():
+        until = datetime.date.fromisoformat(cfg["link_until"]) if cfg.get("link_until") else None
+        if until and until <= today:
+            continue
+        start = datetime.date.fromisoformat(cfg["link_from"])
+        for kind, fn, hour in (("cheatsheet", pin_holiday_cheatsheet, 14), ("picks", pin_holiday_picks, 22)):
+            out.append((f"holiday-{cfg['slug']}-{kind}", BOARDS["gifts"],
+                        datetime.datetime.combine(start, datetime.time(hour)), cfg.get("link_until") or "",
+                        fn(site, rows, cfg)))
+    return out
 
 
 # ------------------------------------------------------------------------ driver
@@ -309,8 +368,9 @@ def collect():
 
 
 def all_pins(site, year, cats, by_group):
-    """[(id, board, (img, title, desc, path, kw))] in posting order: gifts and
-    Black Friday first (the season is now), then top-3 and avoid pins interleaved."""
+    """[(id, board, (img, title, desc, path, kw))] in posting order: gifts first (the season
+    is now), then top-3 and avoid pins interleaved. Holiday deal pins are separate
+    (holiday_pins, --holidays) because they post on a fixed date."""
     pins = []
     for cfg in build.SEASONAL.get("gifts", []):
         if not cfg.get("enabled") or cfg.get("kind") == "premium":  # price-band gift pins only
@@ -322,15 +382,6 @@ def all_pins(site, year, cats, by_group):
             if len(picks) >= 2:
                 pins.append((f"gifts-{cfg['max_price']}-{group}", BOARDS["gifts"],
                              pin_gifts(site, group, picks, cfg)))
-    bf = build.SEASONAL.get("black_friday")
-    if bf and bf.get("enabled"):
-        popular = ["cordless-drills", "cordless-impact-drivers", "cordless-circular-saws",
-                   "cordless-reciprocating-saws", "cordless-oscillating-tools",
-                   "cordless-random-orbital-sanders", "cordless-impact-wrenches",
-                   "socket-sets", "rolling-tool-chests", "cordless-angle-grinders"]
-        rows = [(cat, o) for g, cat, o, _b in cats if cat["slug"] in popular]
-        rows.sort(key=lambda r: popular.index(r[0]["slug"]))
-        pins.append(("black-friday-cheat-sheet", BOARDS["gifts"], pin_black_friday(site, rows, bf)))
     top3 = [(f"top3-{cat['slug']}", BOARDS[g], pin_top3(site, cat, o, b, year)) for g, cat, o, b in cats]
     avoid = [(f"avoid-{cat['slug']}", BOARDS[g], pin_avoid(site, cat, o, b, year))
              for g, cat, o, b in cats if cat.get("avoid")]
@@ -347,15 +398,21 @@ def main():
     ap.add_argument("--out", default=str(OUT))
     ap.add_argument("--new-only", action="store_true",
                     help="skip pins whose PNG already exists (they were posted in an earlier batch)")
+    ap.add_argument("--holidays", action="store_true",
+                    help="only the holiday deal pins: rewrite their PNGs and merge them into "
+                         "marketing/pins/holiday-queue.csv with fixed publish dates (topup.py posts "
+                         "them on the day each page goes live)")
     ap.add_argument("--max-rows", type=int, default=90,
                     help="rows per CSV; Pinterest caps scheduled pins at 100 per account")
     args = ap.parse_args()
     site, year, cats, by_group = collect()
+    if args.holidays:
+        return write_holidays(site, cats, Path(args.out))
     pins = all_pins(site, year, cats, by_group)
     if args.new_only:
         pins = [p for p in pins if not (Path(args.out) / f"{p[0]}.png").exists()]
     if args.only == "sample":
-        want = ["gifts-50-wired", "black-friday-cheat-sheet", "top3-cordless-drills", "avoid-cordless-drills"]
+        want = ["gifts-50-wired", "top3-cordless-drills", "avoid-cordless-drills"]
         pins = [p for p in pins if p[0] in want]
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -368,13 +425,7 @@ def main():
         img.quantize(256, dither=Image.Dither.NONE).save(out / f"{pid}.png", optimize=True)
         day, slot = divmod(i, args.per_day)
         when = datetime.datetime.combine(start + datetime.timedelta(days=day), datetime.time(hours[slot]))
-        # Pinterest rejects two pins with the same link (top-3 and avoid pins share a page),
-        # so every pin gets its own utm_content. The query goes before any #fragment.
-        page_path, _, frag = path.partition("#")
-        link = f"{base}/{page_path}?utm_source=pinterest&utm_medium=social&utm_content={pid}" + (f"#{frag}" if frag else "")
-        rows.append({"Title": title[:100], "Media URL": f"{base}/pins/{pid}.png", "Pinterest board": board,
-                     "Thumbnail": "", "Description": build.meta_desc(desc, 499), "Link": link,
-                     "Publish date": when.strftime("%Y-%m-%dT%H:%M:%S"), "Keywords": ", ".join(kw)})
+        rows.append(pin_row(base, pid, board, when, (img, title, desc, path, kw)))
     print(f"wrote {len(pins)} pin(s) to {out}")
     if args.only != "sample":
         CSV_DIR.mkdir(parents=True, exist_ok=True)
@@ -386,6 +437,49 @@ def main():
                 w.writeheader()
                 w.writerows(part)
             print(f"wrote {path} ({len(part)} rows, {part[0]['Publish date']} .. {part[-1]['Publish date']})")
+
+
+def pin_row(base, pid, board, when, pin):
+    img, title, desc, path, kw = pin
+    # Pinterest rejects two pins with the same link, so every pin gets its own utm_content.
+    # The query goes before any #fragment.
+    page_path, _, frag = path.partition("#")
+    link = f"{base}/{page_path}?utm_source=pinterest&utm_medium=social&utm_content={pid}" + (f"#{frag}" if frag else "")
+    return {"Title": title[:100], "Media URL": f"{base}/pins/{pid}.png", "Pinterest board": board,
+            "Thumbnail": "", "Description": build.meta_desc(desc, 499), "Link": link,
+            "Publish date": when.strftime("%Y-%m-%dT%H:%M:%S"), "Keywords": ", ".join(kw)}
+
+
+def write_holidays(site, cats, out):
+    """Holiday pins always get rewritten so their prices match the latest data. Rows already
+    uploaded (holiday-sent.csv) are left alone; everything else in holiday-queue.csv is
+    replaced. 'Hide date' is the page's link_until: topup.py drops a pin it can no longer
+    post before then. It's stripped from the CSV Pinterest sees."""
+    out.mkdir(parents=True, exist_ok=True)
+    base = f"https://{site['custom_domain']}"
+    qf, sf = CSV_DIR / "holiday-queue.csv", CSV_DIR / "holiday-sent.csv"
+    sent = {r["Media URL"] for r in csv.DictReader(open(sf, encoding="utf-8"))} if sf.exists() else set()
+    old = list(csv.DictReader(open(qf, encoding="utf-8"))) if qf.exists() else []
+    rows, n = [], 0
+    for pid, board, when, hide, pin in holiday_pins(site, cats):
+        row = pin_row(base, pid, board, when, pin)
+        if row["Media URL"] in sent:
+            continue
+        pin[0].quantize(256, dither=Image.Dither.NONE).save(out / f"{pid}.png", optimize=True)
+        rows.append({**row, "Hide date": hide})
+        n += 1
+    keep = [r for r in old if r["Media URL"] not in {x["Media URL"] for x in rows}
+            and r["Media URL"] not in sent and r.get("Hide date", "9999") > str(datetime.date.today())]
+    rows = sorted(keep + rows, key=lambda r: r["Publish date"])
+    CSV_DIR.mkdir(parents=True, exist_ok=True)
+    with qf.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]) if rows else ["Title", "Media URL", "Pinterest board", "Thumbnail",
+                           "Description", "Link", "Publish date", "Keywords", "Hide date"])
+        w.writeheader()
+        w.writerows(rows)
+    print(f"wrote {n} holiday pin(s) to {out}; {qf} now holds {len(rows)}")
+    for r in rows:
+        print(f"  {r['Publish date']}  {r['Media URL'].rsplit('/', 1)[-1]}")
 
 
 if __name__ == "__main__":
