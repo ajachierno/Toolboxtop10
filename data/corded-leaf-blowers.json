@@ -1,0 +1,191 @@
+{
+  "slug": "corded-leaf-blowers",
+  "title": "The 10 Best Corded Leaf Blowers",
+  "subtitle": "Plug-in leaf blowers and 3-in-1 blower vacuums for yards, decks and driveways, ranked from live Amazon data.",
+  "intro": "A corded leaf blower runs as long as the outlet does, weighs less than a battery model with the same airflow, and costs less. We ranked 10 best-sellers from WORX, BLACK+DECKER, Sun Joe and CRAFTSMAN on rating, review volume and features (400 CFM or more, a speed control, and a vacuum/mulcher mode). Compare CFM first: it says how much air moves, while MPH only says how fast. None of them comes with the outdoor extension cord you'll need.",
+  "data_captured": "2026-10-24",
+  "audited": "2026-10-24",
+  "changelog": [
+    {"date": "2026-10-24", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
+  ],
+  "budget_cap": 45,
+  "weights": { "rating": 0.45, "reviews": 0.35, "features": 0.20 },
+  "feature_weights": { "high_cfm": 0.35, "variable_speed": 0.35, "vac_mulch": 0.30 },
+  "reviews_ceiling": 30000,
+  "spec_fields": [
+    { "key": "cfm", "label": "Airflow" }, { "key": "mph", "label": "Air speed" },
+    { "key": "amps", "label": "Motor" }, { "key": "weight", "label": "Weight" },
+    { "key": "extras", "label": "Extras" }
+  ],
+  "table_columns": [
+    { "key": "cfm", "label": "CFM" }, { "key": "mph", "label": "MPH" },
+    { "key": "amps", "label": "Motor" },
+    { "key": "vac_mulch", "label": "Vac/mulch", "type": "bool" }
+  ],
+  "products": [
+    {
+      "asin": "B01B79BD6C", "force_overall": true,
+      "name": "WORX 12 Amp Turbine Electric Leaf Blower (WG520)",
+      "brand": "WORX", "model": "WG520",
+      "image": "https://m.media-amazon.com/images/I/61AARuDM15L._AC_SL1424_.jpg",
+      "price": 75.27, "rating": 4.7, "reviews_count": 12682, "bought": "1K+/mo",
+      "specs": { "cfm": "600 CFM", "mph": "110 mph", "amps": "12 A", "weight": "6.4 lb", "extras": "Turbine fan, variable speed" },
+      "features": { "high_cfm": true, "variable_speed": true, "vac_mulch": false },
+      "verdict": "A 12-amp turbine blower that moves 600 CFM, tied for the most air on this list, at 6.4 lb. It is rated 4.7 stars across 12,600+ reviews, the best combination of airflow and track record on the page.",
+      "best_for": "Clearing a whole lawn or long driveway of leaves in one pass.",
+      "skip_if": "You want to vacuum and bag leaves; it only blows.",
+      "pros": ["600 CFM, tied for the most airflow on this list", "Variable speed control", "4.7 stars on 12,600+ reviews", "6.4 lb for a full-size blower"],
+      "cons": ["110 mph is lower than the 3-in-1 models, so wet, matted leaves take longer", "No vacuum or mulch mode"]
+    },
+    {
+      "asin": "B01HIGWCQI",
+      "name": "BLACK+DECKER 7-Amp Corded Handheld Leaf Blower (LB700)",
+      "brand": "BLACK+DECKER", "model": "LB700",
+      "image": "https://m.media-amazon.com/images/I/61EDm2plHWL._AC_SL1500_.jpg",
+      "price": 42.00, "rating": 4.6, "reviews_count": 30529, "bought": "5K+/mo",
+      "specs": { "cfm": "180 CFM", "mph": "180 mph", "amps": "7 A", "weight": "4.4 lb", "extras": "Cord retention, 2-year warranty" },
+      "features": { "high_cfm": false, "variable_speed": false, "vac_mulch": false },
+      "verdict": "The best-selling corded blower on Amazon, with 30,500+ reviews and 5,000+ bought last month. At 4.4 lb with 180 CFM it suits decks, patios, garages and short walks more than a leaf-covered lawn.",
+      "best_for": "Quick cleanups of decks, porches, garages and walkways.",
+      "skip_if": "You have a big lawn to clear; 180 CFM is the lowest airflow here.",
+      "pros": ["Most-bought corded blower on Amazon (5K+ last month)", "4.4 lb, easy one-handed use", "Built-in cord retention", "2-year limited warranty"],
+      "cons": ["180 CFM, the least airflow on this list", "Single speed"]
+    },
+    {
+      "asin": "B07JL9PZH2",
+      "name": "BLACK+DECKER Axial Corded Leaf Blower, 450 CFM (BEBL750)",
+      "brand": "BLACK+DECKER", "model": "BEBL750",
+      "image": "https://m.media-amazon.com/images/I/61EmWvEdZUL._AC_SL1500_.jpg",
+      "price": 69.00, "rating": 4.7, "reviews_count": 2435, "bought": "300+/mo",
+      "specs": { "cfm": "450 CFM", "mph": "140 mph", "amps": null, "weight": "7 lb", "extras": "2-speed, built-in scraper, cord retention" },
+      "features": { "high_cfm": true, "variable_speed": true, "vac_mulch": false },
+      "verdict": "An axial blower with 450 CFM and two speeds, plus a scraper built into the nozzle for leaves stuck to concrete. It ties the WORX WG520 for the top rating here at 4.7 stars.",
+      "best_for": "Lawns and driveways where you want more air than a compact blower without a 3-in-1's weight.",
+      "skip_if": "You want the most airflow for the money; the WORX WG520 moves 600 CFM.",
+      "pros": ["450 CFM and 140 mph", "2-speed control", "Built-in scraper for stuck leaves", "4.7 stars"],
+      "cons": ["Listing doesn't state the motor amperage", "7 lb, heavier than the WORX WG520 that moves more air"]
+    },
+    {
+      "asin": "B076CM5PGZ", "force_budget": true,
+      "name": "Sun Joe 6-Amp Corded Electric Leaf Blower (SBJ597E)",
+      "brand": "Sun Joe", "model": "SBJ597E",
+      "image": "https://m.media-amazon.com/images/I/61a8V6nwSHL._AC_SL1500_.jpg",
+      "price": 29.67, "rating": 4.6, "reviews_count": 32317, "bought": null,
+      "specs": { "cfm": "260 CFM", "mph": "155 mph", "amps": "6 A", "weight": "3.9 lb", "extras": "Slim body for closet storage" },
+      "features": { "high_cfm": false, "variable_speed": false, "vac_mulch": false },
+      "verdict": "The cheapest blower on this list and the most reviewed, with 32,300+ ratings at 4.6 stars. It moves 260 CFM, more than the BLACK+DECKER LB700, at 3.9 lb.",
+      "best_for": "Patios, steps, sidewalks and small yards on a tight budget.",
+      "skip_if": "You need to move deep leaf piles; it has one speed and 260 CFM.",
+      "pros": ["Lowest price here at $29.67", "32,300+ reviews at 4.6 stars", "3.9 lb", "More airflow than the LB700 for less money"],
+      "cons": ["Single speed", "6-amp motor, the smallest on this list"]
+    },
+    {
+      "asin": "B00MN4YCKK",
+      "name": "WORX Trivac 3-in-1 Leaf Blower/Vacuum/Mulcher (WG509)",
+      "brand": "WORX", "model": "WG509",
+      "image": "https://m.media-amazon.com/images/I/61XUJaesZDL._AC_SL1500_.jpg",
+      "price": 79.99, "rating": 4.2, "reviews_count": 12034, "bought": "2K+/mo",
+      "specs": { "cfm": "350 CFM", "mph": "210 mph", "amps": "12 A", "weight": "9.3 lb", "extras": "42 L bag, 18:1 mulch ratio, flip-lever mode switch" },
+      "features": { "high_cfm": false, "variable_speed": true, "vac_mulch": true },
+      "verdict": "A 12-amp blower, vacuum and mulcher that switches modes with a lever instead of swapping tubes. Its 18:1 mulch ratio is the highest listed here, so 18 bags of leaves shrink to one.",
+      "best_for": "Blowing leaves into a pile, then vacuuming and mulching them with one tool.",
+      "skip_if": "You only need to blow; the WG520 moves more air for less weight.",
+      "pros": ["Lever switches between blow and vacuum, no tools", "18:1 mulch ratio and a 42 L bag", "Variable speed", "2,000+ bought last month"],
+      "cons": ["9.3 lb", "350 CFM in blower mode is below the dedicated blowers", "4.2 stars"]
+    },
+    {
+      "asin": "B07PGX4SXW", "premium": true,
+      "name": "WORX Trivac 3-in-1 Leaf Blower/Vacuum/Mulcher, 600 CFM (WG512)",
+      "brand": "WORX", "model": "WG512",
+      "image": "https://m.media-amazon.com/images/I/51dpXvnyHtL._AC_SL1000_.jpg",
+      "price": 87.39, "rating": 4.2, "reviews_count": 7292, "bought": null,
+      "specs": { "cfm": "600 CFM", "mph": "70-75 mph", "amps": "12 A", "weight": "9.1 lb", "extras": "50 L bag, 16:1 mulch ratio, flip-lever mode switch" },
+      "features": { "high_cfm": true, "variable_speed": true, "vac_mulch": true },
+      "verdict": "The highest-airflow 3-in-1 here: 600 CFM, a 50 L bag and a 16:1 mulch ratio. It trades air speed for volume, so it pushes big dry piles well but is slower on wet, stuck leaves.",
+      "best_for": "Big lots where you blow, vacuum and mulch heavy leaf fall every week of autumn.",
+      "skip_if": "Your leaves are often wet and matted; 70-75 mph is the slowest air here.",
+      "pros": ["600 CFM, tied for the most airflow on this list", "Largest bag here at 50 L", "Variable speed with lever mode switch", "16:1 mulch ratio"],
+      "cons": ["70-75 mph air speed, the lowest on this list", "Listing gives both 70 and 75 mph", "Most expensive pick at $87.39"]
+    },
+    {
+      "asin": "B00FREQC10",
+      "name": "BLACK+DECKER 3-in-1 Leaf Blower, Vacuum and Mulcher (BV6000)",
+      "brand": "BLACK+DECKER", "model": "BV6000",
+      "image": "https://m.media-amazon.com/images/I/61Hd9qx1-TL._AC_SL1500_.jpg",
+      "price": 79.00, "rating": 4.2, "reviews_count": 6162, "bought": null,
+      "specs": { "cfm": "400 CFM", "mph": "250 mph", "amps": "12 A", "weight": "8.1 lb", "extras": "Metal fan, 16:1 mulch, reusable + 2 disposable bags" },
+      "features": { "high_cfm": true, "variable_speed": true, "vac_mulch": true },
+      "verdict": "A 12-amp 3-in-1 with a metal fan that resists clogging when mulching, 250 mph air speed and two speeds. It ships with a reusable bag and two disposable bags you can tie off and throw away.",
+      "best_for": "Wet or matted leaves that need fast air, then mulching without the fan clogging.",
+      "skip_if": "You'd rather not use disposable bags; the WORX models use one reusable bag.",
+      "pros": ["250 mph, tied for the fastest air on this list", "Metal impeller for mulching", "2 speeds", "Reusable bag plus 2 disposable bags", "2-year limited warranty"],
+      "cons": ["Converting to vacuum means swapping tubes", "4.2 stars"]
+    },
+    {
+      "asin": "B07253C39S",
+      "name": "BLACK+DECKER 3-in-1 Backpack Leaf Blower, Vacuum and Mulcher (BEBL7000)",
+      "brand": "BLACK+DECKER", "model": "BEBL7000",
+      "image": "https://m.media-amazon.com/images/I/71wQ-LD3zPL._AC_SL1500_.jpg",
+      "price": 69.00, "rating": 4.1, "reviews_count": 6505, "bought": "1K+/mo",
+      "specs": { "cfm": "400 CFM", "mph": "250 mph", "amps": "12 A", "weight": "11.1 lb", "extras": "Backpack bag, POWERBOOST button, flexible vac tube" },
+      "features": { "high_cfm": true, "variable_speed": true, "vac_mulch": true },
+      "verdict": "A 12-amp 3-in-1 that carries collected leaves in a backpack bag instead of hanging them off the tool. A POWERBOOST button gives 250 mph and 400 CFM on demand, and it has a 3-year warranty.",
+      "best_for": "Vacuuming a lot of leaves without the bag weight dragging on your arm.",
+      "skip_if": "You mostly blow; at 11.1 lb it's a heavy blower.",
+      "pros": ["Backpack bag carries the load on your back", "400 CFM / 250 mph with POWERBOOST", "Flexible vacuum tube", "3-year limited warranty, the longest here"],
+      "cons": ["11.1 lb", "4.1 stars, the lowest rating on this list"]
+    },
+    {
+      "asin": "B07D9H8WXW",
+      "name": "CRAFTSMAN 3-in-1 Backpack Leaf Blower, Vacuum and Mulcher (CMEBL700)",
+      "brand": "CRAFTSMAN", "model": "CMEBL700",
+      "image": "https://m.media-amazon.com/images/I/51+ykWwiJDL._AC_SL1500_.jpg",
+      "price": 69.79, "rating": 4.3, "reviews_count": 1584, "bought": "50+/mo",
+      "specs": { "cfm": "385 CFM", "mph": "230 mph", "amps": "12 A", "weight": "12.5 lb", "extras": "55 L backpack bag, tool-free mode change" },
+      "features": { "high_cfm": false, "variable_speed": false, "vac_mulch": true },
+      "verdict": "CRAFTSMAN's 12-amp 3-in-1 with a 55 L backpack bag and a wide-mouth opening for emptying. It rates a little higher than the similar BLACK+DECKER BEBL7000 but weighs more.",
+      "best_for": "Vacuuming leaves into the biggest bag on this list.",
+      "skip_if": "You want speed control; the listing doesn't mention one.",
+      "pros": ["55 L backpack bag with a wide-mouth opening", "385 CFM / 230 mph", "Tool-free change between blow and vacuum"],
+      "cons": ["12.5 lb, the heaviest pick here", "No speed control listed", "Only 2 left in stock when we checked"]
+    },
+    {
+      "asin": "B01BJ2YRPQ",
+      "name": "Sun Joe 10-Amp 2-Speed Electric All-Purpose Blower (SBJ601E)",
+      "brand": "Sun Joe", "model": "SBJ601E",
+      "image": "https://m.media-amazon.com/images/I/61nzI1a6UXL._AC_SL1500_.jpg",
+      "price": 41.37, "rating": 4.4, "reviews_count": 3247, "bought": null,
+      "specs": { "cfm": "240 CFM", "mph": "155-215 mph", "amps": "10 A", "weight": "4.4 lb", "extras": "Concentrator nozzle, 2-speed" },
+      "features": { "high_cfm": false, "variable_speed": true, "vac_mulch": false },
+      "verdict": "A light 10-amp blower with two speeds and a concentrator nozzle, for under $42. It's the cheapest pick here with a speed control.",
+      "best_for": "Small yards and driveways where you want a low setting near flower beds.",
+      "skip_if": "You need real lawn airflow; 240 CFM is near the bottom of this list.",
+      "pros": ["2 speeds for under $42", "Concentrator nozzle included", "4.4 lb", "2-year warranty"],
+      "cons": ["240 CFM", "Listing gives both 155 and 215 mph for air speed"]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0CHYNF5F4",
+      "name": "Leaf Blower, 3000W High Power Turbine Handheld Electric Leaf Blower with 82 ft Cord",
+      "brand": "Generic", "model": "3000W turbine",
+      "image": "https://m.media-amazon.com/images/I/61qFlYSXdJL._AC_SL1500_.jpg",
+      "price": 99.99, "rating": 4.3, "reviews_count": 165,
+      "flag": "Claims 3000W from a 110V plug, which a home outlet can't supply",
+      "verdict": "A no-name corded blower that claims 3,000 watts. A standard 15-amp, 120-volt household outlet tops out around 1,800 watts, so the headline number can't be true, and the listing also describes a lithium-ion battery on a corded tool.",
+      "reasons": [
+        "3,000 watts is more than a standard 15-amp household circuit can deliver (about 1,800 W), so the power claim is false on its face.",
+        "The cord bullet talks about 'Lithium Ion battery standards' on a plug-in blower, a sign the copy wasn't written for this product.",
+        "The 82 ft cord is fixed to the tool and adds 3.4 lb, for a 10 lb total that's heavier than the 600 CFM WORX WG520.",
+        "At $99.99 it costs more than every pick on this page, including the WORX WG520 ($75.27) with 600 CFM and 12,600+ reviews."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    { "q": "CFM or MPH: which number matters?", "a": "CFM (cubic feet per minute) is how much air the blower moves, so it decides how big a pile you can push. MPH is how fast that air leaves the nozzle, which helps lift wet or stuck leaves. For lawns, compare CFM first. For hard surfaces and matted leaves, a higher MPH helps." },
+    { "q": "Should I get a 3-in-1 blower vacuum?", "a": "If you bag leaves, yes. A 3-in-1 blows leaves into a pile, then vacuums and shreds them so 10 to 18 bags of leaves fit in one. The trade-off is weight (8 to 12.5 lb here against 4 to 7 lb for blower-only models) and less airflow in blower mode on most of them." },
+    { "q": "What extension cord do I need?", "a": "None of these include one. Use an outdoor-rated cord, and go heavier the longer it gets: 16 gauge is fine up to about 50 ft for a 12-amp blower, and 14 or 12 gauge is the safer choice for 100 ft. Most of these blowers have a cord retainer to stop the plug pulling loose." },
+    { "q": "Corded or cordless?", "a": "Corded blowers cost less, weigh less for the same airflow and never stop for a battery. Cordless wins if your yard is far from an outlet or you'd rather not drag a cord around trees and beds. See our cordless leaf blowers page for battery models." },
+    { "q": "Is a backpack bag worth it?", "a": "Only on 3-in-1 models you use to vacuum a lot. A backpack bag moves the weight of collected leaves off the tool and onto your back, which is easier on your arm, but the whole setup is heavier: 11 to 12.5 lb on the two backpack picks here." }
+  ]
+}
