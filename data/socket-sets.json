@@ -3,9 +3,10 @@
   "title": "The 10 Best Socket Sets",
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
   "intro": "We pulled the best-selling socket sets on Amazon, from $25 starter kits to 230-piece mechanics sets and dedicated impact sets, and scored each on one 100-point scale built from its star rating, review volume and the features that matter: both SAE and metric sizes, more than one drive size, impact-rated sockets, and a lifetime warranty. Hex bit socket sets and nut driver sets are different tools and aren't ranked here.",
-  "data_captured": "2026-10-06",
-  "audited": "2026-09-22",
+  "data_captured": "2026-10-25",
+  "audited": "2026-10-25",
   "changelog": [
+    {"date": "2026-10-25", "note": "Replaced the Amazon Basics 123-piece set, which dropped out of Amazon's socket set best-sellers, with the 201-piece version of the same set ($69.50), now the top seller. Price moves: the DEWALT 192-piece rose from $156 to $169.99, the NEIKO 02448A from $126.94 to $142.04, and the CASOMAN CS041 from $31.98 to $35.97."},
     {"date": "2026-10-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DWMT73801 dropped from $79.97 to $65.99; the NEIKO 02448A dropped from $149.36 to $126.94; the CASOMAN CS041 dropped from $35.97 to $31.98. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
     {"date": "2026-09-22", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
   ],
@@ -67,10 +68,10 @@
       "brand": "DEWALT",
       "model": "DWMT75049",
       "image": "https://m.media-amazon.com/images/I/81XYDGRrRXL._AC_SL1500_.jpg",
-      "price": 156.00,
+      "price": 169.99,
       "rating": 4.8,
-      "reviews_count": 8030,
-      "bought": "1K+/mo",
+      "reviews_count": 8048,
+      "bought": "2K+/mo",
       "specs": {
         "drive": "1/4, 3/8, 1/2 in",
         "pieces": "192",
@@ -100,18 +101,18 @@
       "force_overall": true
     },
     {
-      "asin": "B074MFY7BM",
-      "name": "Amazon Basics Mechanic's Tool Socket Set With Case, 123-Piece (AMZ1703)",
+      "asin": "B074MFYGSF",
+      "name": "Amazon Basics 201-Piece Mechanic's Socket Tool Set With Case, SAE and Metric (AMZ1702)",
       "brand": "Amazon Basics",
-      "model": "AMZ1703",
-      "image": "https://m.media-amazon.com/images/I/8133lS1c2jL._AC_SL1500_.jpg",
-      "price": 56.69,
+      "model": "AMZ1702",
+      "image": "https://m.media-amazon.com/images/I/9154f8zK31L._AC_SL1500_.jpg",
+      "price": 69.5,
       "rating": 4.7,
-      "reviews_count": 13187,
-      "bought": "500+/mo",
+      "reviews_count": 13221,
+      "bought": "2K+/mo",
       "specs": {
         "drive": "1/4, 3/8, 1/2 in",
-        "pieces": "123",
+        "pieces": "201",
         "standards": "SAE & Metric",
         "finish": "Polished chrome"
       },
@@ -121,18 +122,19 @@
         "impact_rated": false,
         "lifetime_warranty": false
       },
-      "verdict": "The most-reviewed set on this list and the cheapest way into all three drive sizes. Chrome-vanadium sockets, hex keys and screwdriver bits in a carry case, for about a third of the DEWALT's price.",
-      "best_for": "All three drive sizes for under $60.",
+      "verdict": "The most-reviewed set on this list and the cheapest way into all three drive sizes with 201 pieces. Chrome-vanadium sockets, hex keys and screwdriver bits in a carry case, for well under half the DEWALT 192-piece's price.",
+      "best_for": "A big three-drive set for under $70.",
       "skip_if": "You want combination wrenches or a lifetime warranty.",
       "pros": [
-        "All three drive sizes for under $60",
+        "All three drive sizes for under $70",
         "SAE and metric sockets, hex keys and bits",
         "13,000+ reviews at 4.7 stars",
         "Chrome-vanadium, polished for corrosion resistance"
       ],
       "cons": [
         "No lifetime warranty listed",
-        "The listing's bullets say 145 pieces while the title says 123, so check the contents list",
+        "Shares one review pool with the 123- and 145-piece versions, so the rating covers all three",
+        "Some buyers say the sockets don't snap securely into the case",
         "Mostly sockets and bits, no combination wrenches"
       ]
     },
@@ -144,8 +146,8 @@
       "image": "https://m.media-amazon.com/images/I/81qJzb4m3bL._AC_SL1500_.jpg",
       "price": 129.00,
       "rating": 4.7,
-      "reviews_count": 3045,
-      "bought": "3K+/mo",
+      "reviews_count": 3097,
+      "bought": "2K+/mo",
       "specs": {
         "drive": "1/4, 3/8, 1/2 in",
         "pieces": "230",
@@ -179,9 +181,9 @@
       "brand": "DEWALT",
       "model": "DWMT73801",
       "image": "https://m.media-amazon.com/images/I/71mPvINiSKL._SL1500_.jpg",
-      "price": 65.99,
+      "price": 72.99,
       "rating": 4.8,
-      "reviews_count": 7559,
+      "reviews_count": 7574,
       "bought": "1K+/mo",
       "specs": {
         "drive": "1/4, 3/8 in",
@@ -218,7 +220,7 @@
       "image": "https://m.media-amazon.com/images/I/71j7st1PmDL._AC_SL1500_.jpg",
       "price": 65.99,
       "rating": 4.8,
-      "reviews_count": 9333,
+      "reviews_count": 9343,
       "bought": "1K+/mo",
       "specs": {
         "drive": "1/2 in",
@@ -255,7 +257,7 @@
       "image": "https://m.media-amazon.com/images/I/91F6d6mJw9L._AC_SL1500_.jpg",
       "price": 29.97,
       "rating": 4.6,
-      "reviews_count": 12996,
+      "reviews_count": 13008,
       "bought": "1K+/mo",
       "specs": {
         "drive": "1/4, 3/8 in",
@@ -291,10 +293,10 @@
       "brand": "WORKPRO",
       "model": "W003067",
       "image": "https://m.media-amazon.com/images/I/81iMpMAF41L._AC_SL1500_.jpg",
-      "price": 21.99,
+      "price": 24.59,
       "rating": 4.6,
-      "reviews_count": 5333,
-      "bought": "1K+/mo",
+      "reviews_count": 5361,
+      "bought": "2K+/mo",
       "specs": {
         "drive": "1/4, 3/8 in",
         "pieces": "39",
@@ -328,9 +330,9 @@
       "brand": "CASOMAN",
       "model": "CS041",
       "image": "https://m.media-amazon.com/images/I/81kY0QjVeTL._AC_SL1500_.jpg",
-      "price": 31.98,
+      "price": 35.97,
       "rating": 4.7,
-      "reviews_count": 5808,
+      "reviews_count": 5833,
       "bought": "1K+/mo",
       "specs": {
         "drive": "3/8 in",
@@ -367,8 +369,8 @@
       "image": "https://m.media-amazon.com/images/I/71CqL9iV3GL._AC_SL1500_.jpg",
       "price": 186.66,
       "rating": 4.8,
-      "reviews_count": 1681,
-      "bought": "200+/mo",
+      "reviews_count": 1685,
+      "bought": "100+/mo",
       "specs": {
         "drive": "3/8 in",
         "pieces": "73",
@@ -403,9 +405,9 @@
       "brand": "NEIKO",
       "model": "02448A",
       "image": "https://m.media-amazon.com/images/I/71MNutfFhXL._AC_SL1500_.jpg",
-      "price": 126.94,
+      "price": 142.04,
       "rating": 4.8,
-      "reviews_count": 10367,
+      "reviews_count": 10375,
       "bought": "700+/mo",
       "specs": {
         "drive": "1/2 in",
@@ -444,14 +446,14 @@
       "image": "https://m.media-amazon.com/images/I/71Qk6nSd9vL._AC_SL1500_.jpg",
       "price": 9.99,
       "rating": 3.6,
-      "reviews_count": 252,
+      "reviews_count": 296,
       "flag": "Carbon steel, 24-tooth ratchet, metric only",
       "verdict": "The one to skip. It sells itself as a professional set, but the listing's own specs describe carbon-steel sockets and a coarse 24-tooth ratchet, and at 3.6 stars it's the lowest-rated socket set in Amazon's top results.",
       "reasons": [
         "The sockets are carbon steel. Every set on this list uses chrome-vanadium, the baseline for sockets that don't crack or spread under load.",
         "The ratchet has 24 teeth, so it needs a 15-degree swing to catch the next tooth. The 72-tooth ratchets on this list need 5 degrees, which matters in a crowded engine bay.",
         "Metric only, 4 to 14 mm. Most American cars, mowers and appliances still have SAE fasteners somewhere.",
-        "The WORKPRO and EPAuto sets cost $12 to $20 more, rate 4.6, and fix every problem above."
+        "The WORKPRO and EPAuto sets cost about $15 to $20 more, rate 4.6, and fix every problem above."
       ]
     }
   ],
