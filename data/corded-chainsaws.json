@@ -1,0 +1,465 @@
+{
+  "slug": "corded-chainsaws",
+  "title": "The 10 Best Corded Chainsaws",
+  "subtitle": "Plug-in electric chainsaws for firewood, limbs and storm cleanup, ranked from live Amazon data.",
+  "intro": "A corded chainsaw starts with a trigger, never needs a charge or a gas mix, and costs less than a battery saw of the same size. We ranked 10 best-sellers from Oregon, CRAFTSMAN, BLACK+DECKER, WEN, SENIX and Makita on rating, review volume and features (an 18-inch bar, a 15 A motor, tool-free chain tensioning and automatic oiling). For battery saws, see our cordless chainsaw page.",
+  "data_captured": "2026-10-25",
+  "audited": "2026-10-25",
+  "changelog": [
+    {
+      "date": "2026-10-25",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 80,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "bar_18": 0.2,
+    "amp_15": 0.3,
+    "tool_free_tension": 0.25,
+    "auto_oil": 0.25
+  },
+  "reviews_ceiling": 9000,
+  "spec_fields": [
+    {
+      "key": "bar",
+      "label": "Bar"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "bar",
+      "label": "Bar"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "tool_free_tension",
+      "label": "Tool-free tension",
+      "type": "bool"
+    },
+    {
+      "key": "auto_oil",
+      "label": "Auto oil",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B00OIZ1XHW",
+      "name": "Oregon CS1500 Self-Sharpening Electric Chain Saw, 18-Inch Bar, 15 Amp",
+      "brand": "Oregon",
+      "model": "CS1500",
+      "image": "https://m.media-amazon.com/images/I/51LAy85XDbS._AC_SL1000_.jpg",
+      "price": 133.87,
+      "rating": 4.4,
+      "reviews_count": 9399,
+      "bought": "500+/mo",
+      "specs": {
+        "bar": "18 in",
+        "motor": "15 A",
+        "weight": "12.6 lb",
+        "extras": "PowerSharp self-sharpening, chain brake, 2-yr warranty"
+      },
+      "features": {
+        "bar_18": true,
+        "amp_15": true,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "The most-reviewed saw on this page and the only one that sharpens its own chain. Pull the PowerSharp lever for 3 to 5 seconds and the chain is back in shape without a file.",
+      "best_for": "Homeowners who cut firewood every fall and don't want to learn to file a chain.",
+      "skip_if": "You want a light saw for overhead pruning; it weighs 12.6 lb.",
+      "pros": [
+        "Built-in PowerSharp chain sharpening",
+        "18 in bar and 15 A motor",
+        "9,000+ reviews at 4.4 stars"
+      ],
+      "cons": [
+        "Needs Oregon PowerSharp replacement chains",
+        "Heaviest 18 in saw here"
+      ],
+      "force_overall": true
+    },
+    {
+      "asin": "B07KLG3X6G",
+      "name": "CRAFTSMAN Electric Chainsaw, 16 Inch, 12 Amp Corded Chain Saw (CMECS600)",
+      "brand": "CRAFTSMAN",
+      "model": "CMECS600",
+      "image": "https://m.media-amazon.com/images/I/61Q0fMphxyL._AC_SL1500_.jpg",
+      "price": 89.0,
+      "rating": 4.4,
+      "reviews_count": 2571,
+      "bought": "1K+/mo",
+      "specs": {
+        "bar": "16 in",
+        "motor": "12 A",
+        "weight": "6.2 lb (listed)",
+        "extras": "Low-kickback bar and chain, oil window, 3-yr warranty"
+      },
+      "features": {
+        "bar_18": false,
+        "amp_15": false,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "The top result in Amazon's corded chainsaw search, with 1K+ sold last month. A 12 A, 16-inch saw with tool-free tensioning, automatic oiling and a 3-year warranty.",
+      "best_for": "Limbs, storm cleanup and small firewood rounds close to an outlet.",
+      "skip_if": "You regularly cut big rounds; get an 18 in, 15 A saw.",
+      "pros": [
+        "1K+ sold last month",
+        "Tool-free tension and auto oiling",
+        "3-year limited warranty"
+      ],
+      "cons": [
+        "12 A motor, not 15 A",
+        "Listed weight of 6.2 lb looks low next to similar saws"
+      ]
+    },
+    {
+      "asin": "B07GQ7T31Z",
+      "name": "Oregon 2400W Corded Electric Chainsaw with 16\" Guide Bar & Saw Chain",
+      "brand": "Oregon",
+      "model": "603348",
+      "image": "https://m.media-amazon.com/images/I/61gJjkhqJIL._AC_SL1500_.jpg",
+      "price": 118.99,
+      "rating": 4.4,
+      "reviews_count": 1484,
+      "bought": "200+/mo",
+      "specs": {
+        "bar": "16 in",
+        "motor": "15 A",
+        "weight": null,
+        "extras": "Lubri-Tec oiling, ControlCut chain, 3-yr warranty"
+      },
+      "features": {
+        "bar_18": false,
+        "amp_15": true,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "Oregon's standard-chain saw: a 15 A motor on a 16-inch bar with Lubri-Tec automatic oiling and tool-free tensioning. It skips the self-sharpener, so it takes ordinary chains.",
+      "best_for": "Buyers who want a 15 A Oregon and are happy to sharpen or swap chains themselves.",
+      "skip_if": "You want self-sharpening; the CS1500 costs about $15 more.",
+      "pros": [
+        "15 A motor on a 16 in bar",
+        "3-year warranty, longer than the CS1500's 2",
+        "Takes standard chains"
+      ],
+      "cons": [
+        "No self-sharpening",
+        "Listing doesn't give a weight"
+      ]
+    },
+    {
+      "asin": "B00TJ3FBHG",
+      "name": "BLACK+DECKER Electric Chainsaw Corded, 18-Inch, 15-Amp with Automatic Oiler (CS1518)",
+      "brand": "BLACK+DECKER",
+      "model": "CS1518",
+      "image": "https://m.media-amazon.com/images/I/51ic5dVvsXL._AC_SL1000_.jpg",
+      "price": 99.0,
+      "rating": 4.4,
+      "reviews_count": 1912,
+      "bought": "100+/mo",
+      "specs": {
+        "bar": "18 in",
+        "motor": "15 A",
+        "weight": "12.5 lb",
+        "extras": "Push-button start, cord retainer, scabbard, 2-yr warranty"
+      },
+      "features": {
+        "bar_18": true,
+        "amp_15": true,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "An 18-inch, 15 A saw for under $100 with tool-free tensioning, auto oiling, an oil-level window and a cord retainer that keeps the extension cord from pulling out.",
+      "best_for": "Bigger firewood rounds on a mid-range budget.",
+      "skip_if": "You want a lighter 16 in saw for pruning.",
+      "pros": [
+        "18 in bar and 15 A for $99",
+        "Extension cord retainer",
+        "Scabbard included"
+      ],
+      "cons": [
+        "12.5 lb",
+        "Low stock at capture time (4 left)"
+      ]
+    },
+    {
+      "asin": "B01ENBNVNE",
+      "name": "WEN CP1216 Electric Chainsaw, Corded, 12-Amp, 16-Inch",
+      "brand": "WEN",
+      "model": "CP1216",
+      "image": "https://m.media-amazon.com/images/I/61Pek6tafBL._AC_SL1500_.jpg",
+      "price": 74.99,
+      "rating": 4.3,
+      "reviews_count": 4365,
+      "specs": {
+        "bar": "16 in",
+        "motor": "12 A",
+        "weight": "10 lb",
+        "extras": "41 ft/s chain speed, kickback brake, sheath, 2-yr warranty"
+      },
+      "features": {
+        "bar_18": false,
+        "amp_15": false,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "The cheapest saw here with a big review base: 4,300+ ratings for a 12 A, 16-inch saw with tool-free tensioning, auto oiling and a kickback brake.",
+      "best_for": "A first chainsaw for occasional yard cleanup.",
+      "skip_if": "You cut thick hardwood often; a 15 A saw will bog down less.",
+      "pros": [
+        "Under $75",
+        "4,300+ reviews",
+        "Kickback brake and sheath included"
+      ],
+      "cons": [
+        "12 A motor",
+        "2-year warranty"
+      ],
+      "force_budget": true
+    },
+    {
+      "asin": "B0FCZRMWYF",
+      "name": "WEN Electric Chainsaw, Corded, 15-Amp, 18-Inch (CP1518)",
+      "brand": "WEN",
+      "model": "CP1518",
+      "image": "https://m.media-amazon.com/images/I/61moBnZ39PL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.0,
+      "reviews_count": 129,
+      "bought": "100+/mo",
+      "specs": {
+        "bar": "18 in",
+        "motor": "15 A",
+        "weight": null,
+        "extras": "41 ft/s chain speed, kickback brake, sheath, 2-yr warranty"
+      },
+      "features": {
+        "bar_18": true,
+        "amp_15": true,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "The WEN CP1216's bigger sibling: an 18-inch bar and a 15 A motor with the same tensioning, oiling and kickback brake, for $5 more.",
+      "best_for": "Firewood cutters who want the most bar and motor for under $80.",
+      "skip_if": "You want a long track record; this listing is newer and rates 4.0.",
+      "pros": [
+        "18 in bar and 15 A under $80",
+        "Tool-free tension, auto oil, kickback brake",
+        "Replacement parts stocked by WEN"
+      ],
+      "cons": [
+        "4.0 stars so far",
+        "Listing doesn't give a weight"
+      ]
+    },
+    {
+      "asin": "B00TJ3FBOY",
+      "name": "BLACK+DECKER 12 Amp 16 in. Electric Chainsaw (CS1216)",
+      "brand": "BLACK+DECKER",
+      "model": "CS1216",
+      "image": "https://m.media-amazon.com/images/I/61q-8rYsymL._AC_SL1500_.jpg",
+      "price": 89.0,
+      "rating": 4.4,
+      "reviews_count": 651,
+      "specs": {
+        "bar": "16 in",
+        "motor": "12 A",
+        "weight": "10 lb",
+        "extras": "Low-kickback bar and chain, oil window, scabbard"
+      },
+      "features": {
+        "bar_18": false,
+        "amp_15": false,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "BLACK+DECKER's 16-inch, 12 A saw with tool-free tensioning, automatic oiling and a clear oil window. It costs the same as the CRAFTSMAN CMECS600.",
+      "best_for": "Pruning and light cleanup with a brand that's easy to find parts for.",
+      "skip_if": "You can get the 18 in CS1518 for $10 more.",
+      "pros": [
+        "Tool-free tension and auto oil",
+        "Scabbard included",
+        "10 lb"
+      ],
+      "cons": [
+        "Same price as the better-selling CRAFTSMAN",
+        "12 A motor"
+      ]
+    },
+    {
+      "asin": "B0BQ3TW8ST",
+      "name": "SENIX Electric Chainsaw, 18\" Corded, 15 Amp (CSE15-M)",
+      "brand": "SENIX",
+      "model": "CSE15-M",
+      "image": "https://m.media-amazon.com/images/I/71x2ilmHobL._AC_SL1500_.jpg",
+      "price": 69.0,
+      "rating": 4.2,
+      "reviews_count": 108,
+      "bought": "50+/mo",
+      "specs": {
+        "bar": "18 in",
+        "motor": "15 A",
+        "weight": "11.2 lb",
+        "extras": "5.8 oz oil tank, tool-less tension"
+      },
+      "features": {
+        "bar_18": true,
+        "amp_15": true,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "The cheapest 18-inch, 15 A saw on this list at $69, with tool-less tensioning and a 5.8 oz auto-oiling tank.",
+      "best_for": "Tight budgets that still need an 18 in bar.",
+      "skip_if": "You want an established brand with local service.",
+      "pros": [
+        "$69 for 18 in and 15 A",
+        "11.2 lb",
+        "Tool-less tension"
+      ],
+      "cons": [
+        "Smaller review base",
+        "Spec table lists 0.73 hp, which doesn't square with the 15 A claim"
+      ]
+    },
+    {
+      "asin": "B07H9RWHKG",
+      "name": "SENIX Electric Chainsaw, 16\" Corded Chain Saw, 12 Amp (CSE12-M)",
+      "brand": "SENIX",
+      "model": "CSE12-M",
+      "image": "https://m.media-amazon.com/images/I/613joKTN7-L._AC_SL1500_.jpg",
+      "price": 48.0,
+      "rating": 4.0,
+      "reviews_count": 127,
+      "bought": "100+/mo",
+      "specs": {
+        "bar": "16 in",
+        "motor": "12 A",
+        "weight": "13 lb",
+        "extras": "Trigger lockout, kickback brake, 3-yr warranty"
+      },
+      "features": {
+        "bar_18": false,
+        "amp_15": false,
+        "tool_free_tension": true,
+        "auto_oil": true
+      },
+      "verdict": "The cheapest saw on the page at $48: a 12 A, 16-inch saw with a kickback brake, trigger lockout and a 3-year warranty.",
+      "best_for": "Occasional cleanup when price matters most.",
+      "skip_if": "You'll use it often; spend $27 more on the WEN CP1216.",
+      "pros": [
+        "$48",
+        "3-year warranty",
+        "Kickback brake and trigger lockout"
+      ],
+      "cons": [
+        "13 lb listed, heavy for a 12 A saw",
+        "Spec table claims 3.5 hp, more than a 12 A plug-in motor can draw",
+        "Low stock at capture time"
+      ]
+    },
+    {
+      "asin": "B00YFTA84U",
+      "name": "Makita UC4051A Electric Chain Saw, 16 in. Bar",
+      "brand": "Makita",
+      "model": "UC4051A",
+      "image": "https://m.media-amazon.com/images/I/513T9EGsdYL._AC_SL1500_.jpg",
+      "price": 335.27,
+      "rating": 4.6,
+      "reviews_count": 860,
+      "specs": {
+        "bar": "16 in",
+        "motor": null,
+        "weight": "14 lb",
+        "extras": "Soft start, current limiter, large oil reservoir"
+      },
+      "features": {
+        "bar_18": false,
+        "amp_15": false,
+        "tool_free_tension": true,
+        "auto_oil": false
+      },
+      "verdict": "The highest-rated saw here at 4.6 stars. Makita adds a soft-start trigger and a current limiter that cuts power before the motor burns out under load.",
+      "best_for": "Heavy users who want a corded saw built to take abuse.",
+      "skip_if": "You're cutting a few limbs a year; the $89 saws do that fine.",
+      "pros": [
+        "4.6 stars, best on the page",
+        "Soft start and overload protection",
+        "Tool-less chain adjustment"
+      ],
+      "cons": [
+        "About 2.5 times the price of the CS1500",
+        "Listing doesn't state amperage or an automatic oiler",
+        "Only 1 left in stock at capture time"
+      ],
+      "premium": true
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0G133VCDW",
+      "name": "KAKEI 16-Inch 15-Amp Electric Chainsaw, 2200W Peak Power Corded Chain Saw with 3 German Steel Chains",
+      "brand": "KAKEI",
+      "model": "KR-405AZ",
+      "image": "https://m.media-amazon.com/images/I/61PdyHQuKEL._AC_SL1500_.jpg",
+      "price": 84.49,
+      "rating": 3.7,
+      "reviews_count": 34,
+      "flag": "Wrench-only tensioning; power figures don't agree",
+      "verdict": "A 16-inch saw that sells wrench-only chain tensioning as an upgrade and lists power ratings that don't agree, for more money than an 18-inch WEN with tool-free tensioning.",
+      "reasons": [
+        "Chain tension needs a wrench on two hex nuts. The listing calls tool-free knobs 'fragile', but every saw on this page has tool-free or tool-less tensioning.",
+        "The title says 15 A and '2200W peak', and the spec table says 2.8 hp. A 15 A motor on a 120 V outlet draws at most 1,800 W, so the peak and horsepower figures don't describe what the motor can sustain.",
+        "The bullets say it cuts logs up to 14 inches, less than the 16-inch bar suggests.",
+        "At $84.49 it costs $4.50 more than the WEN CP1518, which has an 18 in bar, a 15 A motor and tool-free tensioning."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Corded or battery chainsaw?",
+      "a": "A corded saw never runs out of charge and costs far less than a battery saw with a big battery. The trade is the cord: you need an outdoor extension cord and you stay within reach of an outlet. For cutting near the house or garage, corded is the cheaper choice. For the back of a large lot, see our cordless chainsaw page."
+    },
+    {
+      "q": "What bar length do I need?",
+      "a": "A 16 in bar handles limbs and most firewood. An 18 in bar gets through bigger rounds in one pass but adds weight. Plan on cutting wood a couple of inches thinner than the bar length."
+    },
+    {
+      "q": "12 amp or 15 amp?",
+      "a": "Amps are the most useful power number on a corded saw because every 120 V tool shares the same outlet limit. A 15 A saw holds its chain speed better in thick hardwood. A 12 A saw costs less and is fine for limbs and softwood."
+    },
+    {
+      "q": "What extension cord should I use?",
+      "a": "Use an outdoor-rated cord. A thin or very long cord drops voltage and makes the motor work harder, so use the heaviest gauge your saw's manual calls for at the length you need."
+    },
+    {
+      "q": "What maintenance does a corded chainsaw need?",
+      "a": "Keep the bar oil topped up, check chain tension before each use, and sharpen or replace the chain when it starts throwing dust instead of chips. The Oregon CS1500 sharpens its own chain."
+    },
+    {
+      "q": "Why don't we compare horsepower or watts?",
+      "a": "Several listings print horsepower or 'peak watts' figures that a household outlet can't deliver, and they vary widely between similar saws. We show the amp rating, bar length and features instead."
+    }
+  ]
+}
