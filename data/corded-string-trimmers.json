@@ -1,0 +1,491 @@
+{
+  "slug": "corded-string-trimmers",
+  "title": "The 10 Best Corded String Trimmers",
+  "subtitle": "Plug-in electric string trimmers and trimmer-edgers for lawns and weeds, ranked from live Amazon data.",
+  "intro": "A corded string trimmer never needs a charge or a gas mix, and it costs less than a battery model of the same size. We ranked 10 best-sellers from BLACK+DECKER, WORX, CRAFTSMAN, Sun Joe and WEN on rating, review volume and features (a 5-amp or bigger motor, a 14-inch or wider swath, automatic or push-button line feed and an edger mode). All of them need an outdoor extension cord, sold separately. For battery trimmers, see our cordless string trimmer page.",
+  "data_captured": "2026-10-26",
+  "audited": "2026-10-26",
+  "changelog": [
+    {
+      "date": "2026-10-26",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 45,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "auto_feed": 0.25,
+    "edger": 0.2,
+    "strong_motor": 0.3,
+    "wide_swath": 0.25
+  },
+  "reviews_ceiling": 16000,
+  "spec_fields": [
+    {
+      "key": "swath",
+      "label": "Cutting swath"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "line",
+      "label": "Line feed"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "swath",
+      "label": "Swath"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "auto_feed",
+      "label": "Auto/easy feed",
+      "type": "bool"
+    },
+    {
+      "key": "edger",
+      "label": "Edger mode",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B077Z78YQX",
+      "force_overall": true,
+      "name": "BLACK+DECKER 14-Inch 2-in-1 Corded String Trimmer and Edger with Auto Feed, 6.5 Amp (BESTA510)",
+      "brand": "BLACK+DECKER",
+      "model": "BESTA510",
+      "image": "https://m.media-amazon.com/images/I/51M51iZpjRL._AC_SL1500_.jpg",
+      "price": 52.99,
+      "rating": 4.4,
+      "reviews_count": 16306,
+      "bought": "1K+/mo",
+      "specs": {
+        "swath": "14 in",
+        "motor": "6.5 A",
+        "line": "Automatic feed spool",
+        "weight": "6.3 lb",
+        "extras": "Rotates to a wheeled edger"
+      },
+      "features": {
+        "auto_feed": true,
+        "edger": true,
+        "strong_motor": true,
+        "wide_swath": true
+      },
+      "verdict": "The best seller and the most-reviewed corded trimmer on Amazon, with 16,306 reviews at 4.4 stars. A 6.5-amp motor, a 14-inch swath, automatic line feed and a wheeled edge guide cost $52.99.",
+      "best_for": "Most yards within reach of an outlet that need trimming and edging.",
+      "skip_if": "You need to work far from an outlet; a battery trimmer suits that better.",
+      "pros": [
+        "16,306 reviews at 4.4 stars; 1,000+ sold last month",
+        "6.5-amp motor and 14-inch swath",
+        "Automatic line feed, no bumping",
+        "Rotates into a wheeled edger"
+      ],
+      "cons": [
+        "6.3 lb, heavier than the 4 lb compact models",
+        "Extension cord not included"
+      ]
+    },
+    {
+      "asin": "B01MUDO55B",
+      "name": "BLACK+DECKER 13-Inch Corded String Trimmer/Edger, 5 Amp (ST8600)",
+      "brand": "BLACK+DECKER",
+      "model": "ST8600",
+      "image": "https://m.media-amazon.com/images/I/41ZaK1N2LNL._AC_SL1000_.jpg",
+      "price": 59.0,
+      "rating": 4.4,
+      "reviews_count": 5127,
+      "bought": "100+/mo",
+      "specs": {
+        "swath": "13 in",
+        "motor": "5 A",
+        "line": "Automatic feed spool",
+        "weight": "5.4 lb",
+        "extras": "Rotates to a wheeled edger"
+      },
+      "features": {
+        "auto_feed": true,
+        "edger": true,
+        "strong_motor": true,
+        "wide_swath": false
+      },
+      "verdict": "A 5-amp trimmer-edger with 5,127 reviews at 4.4 stars, the same rating as the BESTA510. It is about a pound lighter but has a smaller motor and a 13-inch swath, and at $59.00 it costs $6 more.",
+      "best_for": "Buyers who want a lighter BLACK+DECKER trimmer-edger.",
+      "skip_if": "You want the most power for the money; the BESTA510 is cheaper with a bigger motor.",
+      "pros": [
+        "5,127 reviews at 4.4 stars",
+        "Automatic line feed",
+        "Converts to a wheeled edger",
+        "5.4 lb"
+      ],
+      "cons": [
+        "5 amps vs 6.5 on the BESTA510",
+        "Costs more than the BESTA510"
+      ]
+    },
+    {
+      "asin": "B078YYPWLY",
+      "premium": true,
+      "name": "BLACK+DECKER 3-in-1 Corded String Trimmer, Edger and Mower Combo, 12-Inch, 6.5 Amp (BESTA512CM)",
+      "brand": "BLACK+DECKER",
+      "model": "BESTA512CM",
+      "image": "https://m.media-amazon.com/images/I/615-2sQCWBL._AC_SL1500_.jpg",
+      "price": 89.0,
+      "rating": 4.1,
+      "reviews_count": 9741,
+      "bought": "400+/mo",
+      "specs": {
+        "swath": "12 in",
+        "motor": "6.5 A",
+        "line": "Automatic feed spool",
+        "weight": "9.9 lb with deck",
+        "extras": "Detachable mower deck; edger"
+      },
+      "features": {
+        "auto_feed": true,
+        "edger": true,
+        "strong_motor": true,
+        "wide_swath": false
+      },
+      "verdict": "A 6.5-amp trimmer that clips into a 12-inch mower deck, so one tool trims, edges and mows a very small lawn. It has 9,741 reviews at 4.1 stars and costs $89.00.",
+      "best_for": "Small lawns, patios and townhouse yards where a full mower is overkill.",
+      "skip_if": "Your lawn needs a real mower; a 12-inch deck is slow on anything bigger than a small patch.",
+      "pros": [
+        "Trims, edges and mows",
+        "9,741 reviews; 400+ sold last month",
+        "Automatic line feed",
+        "6.5-amp motor"
+      ],
+      "cons": [
+        "12-inch cut is narrow for mowing",
+        "9.9 lb with the deck attached"
+      ]
+    },
+    {
+      "asin": "B08BHMM8V3",
+      "name": "BLACK+DECKER 14-Inch Corded String Trimmer with EASYFEED, 6.5 Amp (BESTE620)",
+      "brand": "BLACK+DECKER",
+      "model": "BESTE620",
+      "image": "https://m.media-amazon.com/images/I/41iPsm-gcuL._AC_SL1000_.jpg",
+      "price": 59.0,
+      "rating": 4.2,
+      "reviews_count": 1175,
+      "bought": "200+/mo",
+      "specs": {
+        "swath": "14 in",
+        "motor": "6.5 A",
+        "line": "Push-button EASYFEED",
+        "weight": "5.3 lb",
+        "extras": "Rotates to a wheeled edger"
+      },
+      "features": {
+        "auto_feed": true,
+        "edger": true,
+        "strong_motor": true,
+        "wide_swath": true
+      },
+      "verdict": "The push-button version of the BESTA510: the same 6.5-amp motor and 14-inch swath, but you press a button to advance line instead of relying on an automatic spool. It is a pound lighter at 5.3 lb and costs $59.00.",
+      "best_for": "People who want to control when line feeds out.",
+      "skip_if": "You'd rather never think about line; the BESTA510 feeds itself for less money.",
+      "pros": [
+        "6.5-amp motor, 14-inch swath",
+        "5.3 lb",
+        "Push-button line feed",
+        "Converts to a wheeled edger"
+      ],
+      "cons": [
+        "$6 more than the BESTA510",
+        "4.2 stars on 1,175 reviews"
+      ]
+    },
+    {
+      "asin": "B08W2BKMX6",
+      "force_budget": true,
+      "name": "BLACK+DECKER 13-Inch Corded String Trimmer, 4 Amp (BEST935)",
+      "brand": "BLACK+DECKER",
+      "model": "BEST935",
+      "image": "https://m.media-amazon.com/images/I/51n1tWt7DvL._AC_SL1500_.jpg",
+      "price": 39.0,
+      "rating": 4.3,
+      "reviews_count": 743,
+      "bought": "100+/mo",
+      "specs": {
+        "swath": "13 in",
+        "motor": "4 A",
+        "line": "Automatic feed spool",
+        "weight": "2.7 kg (listed)",
+        "extras": "Auxiliary handle"
+      },
+      "features": {
+        "auto_feed": true,
+        "edger": false,
+        "strong_motor": false,
+        "wide_swath": false
+      },
+      "verdict": "The cheapest BLACK+DECKER corded trimmer here at $39.00, with a 4-amp motor, a 13-inch swath and automatic line feed. It rates 4.3 stars on 743 reviews.",
+      "best_for": "Light trimming around a small lawn on a tight budget.",
+      "skip_if": "You need a wheeled edger or power for thick weeds.",
+      "pros": [
+        "$39.00 with automatic line feed",
+        "13-inch swath",
+        "4.3 stars",
+        "Sold and shipped by Amazon"
+      ],
+      "cons": [
+        "4-amp motor",
+        "No rotating head or edge guide listed",
+        "Low stock at capture"
+      ]
+    },
+    {
+      "asin": "B00GRL9UTS",
+      "name": "WORX 15-Inch 2-in-1 Corded String Trimmer and Lawn Edger, 5.5 Amp (WG119)",
+      "brand": "WORX",
+      "model": "WG119",
+      "image": "https://m.media-amazon.com/images/I/51E2jp4G5rL._AC_SL1200_.jpg",
+      "price": 49.99,
+      "rating": 4.0,
+      "reviews_count": 986,
+      "bought": null,
+      "specs": {
+        "swath": "15 in",
+        "motor": "5.5 A",
+        "line": "Dual-line auto feed",
+        "weight": "6 lb",
+        "extras": "90° pivoting head, telescoping shaft, flower guard"
+      },
+      "features": {
+        "auto_feed": true,
+        "edger": true,
+        "strong_motor": true,
+        "wide_swath": true
+      },
+      "verdict": "The widest swath here at 15 inches, with dual-line auto feed, a head that pivots 90 degrees for slopes and a telescoping shaft. It costs $49.99 and rates 4.0 stars on 986 reviews.",
+      "best_for": "Larger yards and slopes where a wide cut saves passes.",
+      "skip_if": "You want the strongest reviews; it sits at 4.0 stars.",
+      "pros": [
+        "15-inch swath, the widest here",
+        "Dual-line auto feed",
+        "Pivoting head and telescoping shaft",
+        "Flower guard"
+      ],
+      "cons": [
+        "4.0 stars",
+        "6 lb"
+      ]
+    },
+    {
+      "asin": "B083WPHY59",
+      "name": "CRAFTSMAN WEEDWACKER 14-Inch Corded String Trimmer/Edger, 6.5 Amp (CMEST913)",
+      "brand": "CRAFTSMAN",
+      "model": "CMEST913",
+      "image": "https://m.media-amazon.com/images/I/6139tK6NpPS._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.0,
+      "reviews_count": 510,
+      "bought": "50+/mo",
+      "specs": {
+        "swath": "14 in",
+        "motor": "6.5 A",
+        "line": "Push-button feed, .065 in line",
+        "weight": "5.7 lb",
+        "extras": "Adjustable-length pole, edging, VERSATRACK hook"
+      },
+      "features": {
+        "auto_feed": true,
+        "edger": true,
+        "strong_motor": true,
+        "wide_swath": true
+      },
+      "verdict": "CRAFTSMAN's 6.5-amp, 14-inch trimmer with push-button feed, an edging mode and an adjustable-length pole. At $79.99 it costs $27 more than the BESTA510, which has the same motor rating and swath.",
+      "best_for": "CRAFTSMAN owners and taller users who want an adjustable pole.",
+      "skip_if": "You want value; the BESTA510 matches its motor and swath for $52.99.",
+      "pros": [
+        "6.5-amp motor, 14-inch swath",
+        "Adjustable-length pole",
+        "Push-button feed",
+        "Hangs on VERSATRACK"
+      ],
+      "cons": [
+        "$79.99",
+        "4.0 stars on 510 reviews"
+      ]
+    },
+    {
+      "asin": "B017D4TNOY",
+      "name": "Sun Joe 13-Inch Corded Electric Grass Trimmer and Edger with Telescoping Pole, 4 Amp (TRJ13STE)",
+      "brand": "Sun Joe",
+      "model": "TRJ13STE",
+      "image": "https://m.media-amazon.com/images/I/61EtyHV-PgL._AC_SL1500_.jpg",
+      "price": 44.98,
+      "rating": 4.0,
+      "reviews_count": 2136,
+      "bought": null,
+      "specs": {
+        "swath": "13 in",
+        "motor": "4 A",
+        "line": "Automatic feed",
+        "weight": "5 lb",
+        "extras": "Telescoping pole 41-50 in, flower guard, 0-45° head"
+      },
+      "features": {
+        "auto_feed": true,
+        "edger": true,
+        "strong_motor": false,
+        "wide_swath": false
+      },
+      "verdict": "A 4-amp trimmer-edger with a pole that telescopes from 41 to 50 inches, a flower guard and a head that rotates in 15-degree steps for edging. It has 2,136 reviews at 4.0 stars.",
+      "best_for": "Tall users and gardens with beds to protect.",
+      "skip_if": "You cut thick weeds; 4 amps is light duty.",
+      "pros": [
+        "Telescoping pole, 41-50 in",
+        "Flower guard",
+        "Rotates for edging",
+        "2,136 reviews"
+      ],
+      "cons": [
+        "4-amp motor",
+        "Listing sold by a third-party store (Spreetail)"
+      ]
+    },
+    {
+      "asin": "B000YJ9LFC",
+      "name": "BLACK+DECKER 12-Inch Corded String Trimmer/Edger, 3.5 Amp (ST4500)",
+      "brand": "BLACK+DECKER",
+      "model": "ST4500",
+      "image": "https://m.media-amazon.com/images/I/51jsNxliH1L._AC_SL1000_.jpg",
+      "price": 54.2,
+      "rating": 4.4,
+      "reviews_count": 1276,
+      "bought": null,
+      "specs": {
+        "swath": "12 in",
+        "motor": "3.5 A",
+        "line": "Bump feed",
+        "weight": "4 lb",
+        "extras": "Head spins 180° for edging"
+      },
+      "features": {
+        "auto_feed": false,
+        "edger": true,
+        "strong_motor": false,
+        "wide_swath": false
+      },
+      "verdict": "A light 4 lb trimmer with a 3.5-amp motor and a 12-inch swath, rated 4.4 stars on 1,276 reviews. It uses bump feed, and at $54.20 it costs more than the bigger BESTA510.",
+      "best_for": "Post-mow touch-ups where light weight matters most.",
+      "skip_if": "You want auto feed or more power; the BESTA510 has both for less.",
+      "pros": [
+        "4 lb",
+        "4.4 stars on 1,276 reviews",
+        "Head spins for edging"
+      ],
+      "cons": [
+        "Bump feed, not automatic",
+        "3.5-amp motor, 12-inch swath",
+        "Sold by a third-party store at $54.20"
+      ]
+    },
+    {
+      "asin": "B0FCZ4VWHN",
+      "name": "WEN Compact Corded String Trimmer, 10-Inch, 3 Amp (ET1003)",
+      "brand": "WEN",
+      "model": "ET1003",
+      "image": "https://m.media-amazon.com/images/I/51FWzF8cKeL._AC_SL1500_.jpg",
+      "price": 31.94,
+      "rating": 3.8,
+      "reviews_count": 108,
+      "bought": "50+/mo",
+      "specs": {
+        "swath": "10 in",
+        "motor": "3 A",
+        "line": "Automatic feed",
+        "weight": "4 lb",
+        "extras": "37.5 in long; uses WEN ET-400 spool"
+      },
+      "features": {
+        "auto_feed": true,
+        "edger": false,
+        "strong_motor": false,
+        "wide_swath": false
+      },
+      "verdict": "The cheapest trimmer here at $31.94: a 4 lb, 37.5-inch compact model with automatic feed and a 10-inch swath. WEN sizes it for shorter users and small jobs.",
+      "best_for": "Shorter users and small patios or fence lines.",
+      "skip_if": "You have a full lawn to trim; 10 inches and 3 amps are small.",
+      "pros": [
+        "$31.94",
+        "4 lb and 37.5 in long",
+        "Automatic feed",
+        "Two-year warranty"
+      ],
+      "cons": [
+        "10-inch swath",
+        "3.8 stars on 108 reviews"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0GX9LCTHR",
+      "name": "DEKOPRO 2.2A Corded String Trimmer Lawn Edger, 9-Inch",
+      "brand": "DEKOPRO",
+      "model": "DKPGGTB025C1-K1UL-GGAZ",
+      "image": "https://m.media-amazon.com/images/I/6191wBFO+OL._AC_SL1500_.jpg",
+      "price": 69.99,
+      "rating": 3.4,
+      "reviews_count": 38,
+      "flag": "2.2 A and 9 in for $69.99",
+      "verdict": "The weakest motor and narrowest swath in the search, sold as \"powerful\" for $69.99, $17 more than a 6.5-amp, 14-inch BLACK+DECKER.",
+      "reasons": [
+        "Its 2.2-amp motor is a third of the BESTA510's 6.5 amps, and its 9-inch swath is 5 inches narrower, yet it costs $69.99 vs $52.99.",
+        "The title calls it \"Powerful\"; 11,000 rpm on a 2.2-amp motor is a no-load speed, not cutting power.",
+        "The listing says it pays out about half an inch of line every time you pull the trigger, so stop-start trimming uses up line fast.",
+        "The cheapest pick here, the $31.94 WEN, has a wider 10-inch swath."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Corded or cordless string trimmer?",
+      "a": "Corded trimmers cost less, weigh less and run as long as you like, but you drag a cord and stay within reach of an outlet. They suit small and medium yards. If your fence line is 150 feet from the house, a battery trimmer is easier."
+    },
+    {
+      "q": "How many amps do I need?",
+      "a": "For a normal lawn, 5 to 6.5 amps handles grass and ordinary weeds. The 3 to 4 amp models are fine for edging and touch-ups after mowing but slow down in thick growth."
+    },
+    {
+      "q": "What swath width should I get?",
+      "a": "The swath is the diameter the line cuts. 13 to 15 inches covers ground faster on a full yard; 10 to 12 inches is lighter and easier to steer around beds and posts."
+    },
+    {
+      "q": "Auto feed, push-button or bump feed?",
+      "a": "Auto feed lets out line on its own, push-button feeds when you press a button, and bump feed needs you to tap the spinning head on the ground. Auto and push-button are easier for most people."
+    },
+    {
+      "q": "What extension cord should I use?",
+      "a": "None of these include one. Use an outdoor-rated cord: 16-gauge is fine up to about 50 feet, and 14- or 12-gauge is the safer choice at 100 feet so the motor gets full power. Most of these trimmers have a cord-retention hook so the plug doesn't pull apart."
+    },
+    {
+      "q": "What does edger mode do?",
+      "a": "On a trimmer-edger the head rotates 90 degrees so the line cuts vertically along a sidewalk or bed. Models with a wheel or wire edge guide hold a straighter line than freehand edging."
+    }
+  ]
+}
