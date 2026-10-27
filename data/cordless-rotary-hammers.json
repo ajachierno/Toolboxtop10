@@ -2,10 +2,11 @@
   "slug": "cordless-rotary-hammers",
   "title": "The 10 Best Cordless Rotary Hammers",
   "subtitle": "Battery-powered SDS-Plus rotary hammers for concrete and masonry, ranked from live Amazon data.",
-  "intro": "We ranked 10 cordless SDS-Plus best-sellers on rating, review volume, and features (vibration control, a clutch or bind-up sensor, and a battery in the box). Most name-brand hammers are sold as bare tools for people who already own the batteries. The list runs from a $77 bare tool for DEWALT packs to a $279 Milwaukee M18 FUEL, and includes two complete kits under $120.",
+  "intro": "We ranked 10 cordless SDS-Plus best-sellers on rating, review volume, and features (vibration control, a clutch or bind-up sensor, and a battery in the box). Most name-brand hammers are sold as bare tools for people who already own the batteries. The list runs from a $77 bare tool for DEWALT packs to a $335 Milwaukee M18, and includes two complete kits under $120.",
   "data_captured": "2026-10-27",
-  "audited": "2026-09-26",
+  "audited": "2026-10-27",
   "changelog": [
+    {"date": "2026-10-27", "note": "Full audit. Replaced the Milwaukee 2613-20, which no longer has a featured seller on Amazon, with the Milwaukee 2712-20 ($335, 4.8 stars on 1,027 reviews). All other picks kept."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the DEWALT DCH133B rose from $177.99 to $249; the Dong Cheng DCZC22 rose from $63.99 to $84.99; the ONEAND HP #P223 rose from $165 to $199."},
     {"date": "2026-10-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Dong Cheng DCZC22 dropped from $79.99 to $63.99. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
     {"date": "2026-09-26", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
@@ -130,7 +131,7 @@
         "safety_clutch": false,
         "kit": false
       },
-      "verdict": "More hitting power than the DCH273B (2.6 J against 2.1 J) in a lighter D-handle body, for about $80 less. It's tied for the highest rating on the page and sold by Amazon.",
+      "verdict": "More hitting power than the DCH273B (2.6 J against 2.1 J) in a lighter D-handle body, for about $17 less. It's tied for the highest rating on the page and sold by Amazon.",
       "best_for": "More hitting power in a lighter body, for less than the DCH273B.",
       "skip_if": "You want vibration control.",
       "pros": [
@@ -221,40 +222,40 @@
       ]
     },
     {
-      "asin": "B0C7D35F6S",
-      "name": "Milwaukee M18 Brushless 1\" SDS Plus D-Handle Rotary Hammer (2613-20)",
+      "asin": "B00NOL9BNE",
+      "name": "Milwaukee M18 1\" SDS Plus Rotary Hammer (2712-20)",
       "brand": "Milwaukee",
-      "model": "2613-20",
-      "image": "https://m.media-amazon.com/images/I/41ceszr7KkL._AC_SL1000_.jpg",
-      "price": 208.00,
+      "model": "2712-20",
+      "image": "https://m.media-amazon.com/images/I/81yPBvme1jL._AC_SL1000_.jpg",
+      "price": 335.00,
       "rating": 4.8,
-      "reviews_count": 197,
-      "bought": "200+/mo",
+      "reviews_count": 1027,
+      "bought": "50+/mo",
       "specs": {
         "platform": "Milwaukee M18",
         "impact": null,
         "capacity": "1\"",
         "modes": null,
-        "weight": "5.3 lb",
-        "warranty": null
+        "weight": "6.9 lb",
+        "warranty": "5 years"
       },
       "features": {
-        "vibration_control": true,
+        "vibration_control": false,
         "safety_clutch": false,
         "kit": false
       },
-      "verdict": "The cheaper Milwaukee: a brushless (non-FUEL) 1\" D-handle hammer with the AVS anti-vibration system. The listing says it drills 3/8\" x 2\" holes faster than corded 1\" D-handle hammers, up to 100 per XC5.0 charge.",
-      "best_for": "M18 owners who want low vibration for less than the FUEL model.",
-      "skip_if": "You want published impact energy or a warranty term.",
+      "verdict": "Milwaukee's M18 1\" SDS Plus hammer, rated 4.8 stars on 1,027 reviews with a 5-year tool warranty. The listing is thin: it gives no impact energy and doesn't mention anti-vibration or a clutch, and at $335 from a third-party seller it's the most expensive hammer on the page.",
+      "best_for": "M18 owners who want a well-reviewed 1\" hammer and don't mind paying for it.",
+      "skip_if": "You want published impact energy or the best price; the 2912-20 FUEL costs less.",
       "pros": [
-        "AVS anti-vibration system",
-        "5.3 lb bare tool",
-        "Up to 100 3/8\" x 2\" holes per XC5.0 charge (listing claim)"
+        "4.8 stars on 1,027 reviews",
+        "5-year tool warranty per the listing",
+        "Runs on M18 batteries"
       ],
       "cons": [
-        "No impact energy, modes, or warranty term on the listing",
-        "Bare tool only",
-        "Sold by a third-party seller (My Goods Dept.), shipped by Amazon"
+        "$335, the priciest hammer here",
+        "No impact energy, modes, vibration control or clutch listed",
+        "Bare tool only, sold by a third-party seller (MARK'S DEALS)"
       ]
     },
     {
@@ -392,11 +393,11 @@
         "safety_clutch": false,
         "kit": true
       },
-      "verdict": "The cheapest way to own a real cordless SDS-Plus hammer: a brushless 2.1 J tool with a 4.0Ah battery, charger, and four bits for about $64. Fine for a weekend of anchor holes.",
-      "best_for": "A weekend of anchor holes with a complete kit for under $70.",
+      "verdict": "The cheapest way to own a real cordless SDS-Plus hammer: a brushless 2.1 J tool with a 4.0Ah battery, charger, and four bits for about $85. Fine for a weekend of anchor holes.",
+      "best_for": "A weekend of anchor holes with a complete kit for under $90.",
       "skip_if": "You need two batteries or a clutch.",
       "pros": [
-        "Full kit for about $64: battery, charger, and 1/4\" to 1/2\" bits",
+        "Full kit for about $85: battery, charger, and 1/4\" to 1/2\" bits",
         "2.1 J, the same as the DCH273B",
         "Four modes including chisel",
         "Anti-vibration side handle and vibration-reduction mechanism"
@@ -430,7 +431,7 @@
         "safety_clutch": true,
         "kit": false
       },
-      "verdict": "A bare tool that runs on DEWALT 20V MAX batteries, for DEWALT owners who drill concrete a few times a year and don't want to pay $180 for the yellow one.",
+      "verdict": "A bare tool that runs on DEWALT 20V MAX batteries, for DEWALT owners who drill concrete a few times a year and don't want to pay $166 for the yellow one.",
       "best_for": "DEWALT battery owners who drill concrete a few times a year.",
       "skip_if": "You want a DEWALT warranty; it's a third-party tool.",
       "pros": [

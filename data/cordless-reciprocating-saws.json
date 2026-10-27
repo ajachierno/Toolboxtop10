@@ -4,8 +4,9 @@
   "subtitle": "Battery-powered demo saws ranked from live Amazon data — cut, prune, and tear out anywhere.",
   "intro": "A reciprocating saw (the tool everyone calls a Sawzall) pushes a long blade back and forth to rip through wood, metal, nail-embedded lumber, PVC, and tree branches. It's the demolition and rough-cut workhorse. Cordless models let you use it up a ladder, in a crawlspace, or out in the yard with no cord. Most of the best sell as a bare tool, so check whether a pick is a bare tool or a ready-to-use kit, and which battery platform it rides. Need maximum sustained power for the least money? See the corded list.",
   "data_captured": "2026-10-27",
-  "audited": "2026-09-27",
+  "audited": "2026-10-27",
   "changelog": [
+    {"date": "2026-10-27", "note": "Full audit. Replaced the BLACK+DECKER BDCR20C kit, which Amazon now offers only used, with the DEWALT DCS380B ($99, Amazon's #1 seller in power reciprocating saws), which takes Best Overall. Replaced the WORX WX550L, which no longer has a seller, with the Milwaukee 2719-20 HACKZALL ($147.59)."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Biggest price moves: the CRAFTSMAN CMCS300B rose from $85 to $95.54; the DEWALT DCS367B rose from $179 to $199; the SEESII Recip Kit rose from $56.99 to $62.99."},
     {"date": "2026-10-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMCS300B rose from $73.99 to $85. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
     {"date": "2026-08-11", "note": "Page published."},
@@ -26,18 +27,18 @@
   ],
   "products": [
     {
-      "asin": "B076HPKK19", "force_overall": true,
-      "name": "BLACK+DECKER BDCR20C 20V MAX Reciprocating Saw Kit",
-      "brand": "BLACK+DECKER", "model": "BDCR20C",
-      "image": "https://m.media-amazon.com/images/I/51sb0fqfVeL._AC_SX425_.jpg",
-      "price": 79.00, "rating": 4.6, "reviews_count": 10090, "bought": "500+/mo",
-      "specs": { "type": "Cordless", "power": "20V MAX", "max_rpm": "0-3,000 SPM", "stroke": "7/8 in", "blade_change": "Tool-free" },
-      "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
-      "verdict": "The best pick for most people — a complete kit (battery and charger included) with 10,000 reviews at 4.6 stars, ready to cut out of the box for under $80. Tool-free blade change and enough power for pruning and demolition.",
-      "best_for": "Most homeowners: a complete recip kit for pruning and demo under $80.",
-      "skip_if": "You do heavy demolition; a brushless pro saw has more power.",
-      "pros": ["10,000 reviews at 4.6 stars", "Battery and charger included — ready to use", "Tool-free blade change, variable speed"],
-      "cons": ["Not brushless", "Less power than a pro 18/20V brushless saw"]
+      "asin": "B007NVSTCK", "force_overall": true,
+      "name": "DEWALT DCS380B 20V MAX Reciprocating Saw (tool only)",
+      "brand": "DEWALT", "model": "DCS380B",
+      "image": "https://m.media-amazon.com/images/I/61aJg9UdXdL._AC_SX425_.jpg",
+      "price": 99.00, "rating": 4.7, "reviews_count": 8596, "bought": "600+/mo",
+      "specs": { "type": "Cordless", "power": "20V MAX", "max_rpm": "0-3,000 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
+      "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
+      "verdict": "Amazon's #1 seller in power reciprocating saws: DEWALT's standard 20V MAX recip with a 1-1/8 in stroke, a 4-position blade clamp, and a 3-year warranty, at $99 sold by Amazon. It's a bare tool, so it makes the most sense if you already own a DEWALT 20V MAX battery.",
+      "best_for": "DEWALT 20V MAX owners who want a full-size demo and pruning saw.",
+      "skip_if": "You own no DEWALT batteries; it ships without a battery or charger.",
+      "pros": ["8,596 reviews at 4.7 stars", "1-1/8 in stroke, longer than the compact saws here", "4-position blade clamp for flush cuts, tool-free blade change", "3-year limited warranty, sold by Amazon"],
+      "cons": ["Tool only: no battery or charger", "The listing doesn't claim a brushless motor in its title or feature list"]
     },
     {
       "asin": "B0B88R7HWB",
@@ -91,23 +92,23 @@
       "features": { "kit": false, "brushless": true, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The pro's SAWZALL — Milwaukee invented the reciprocating saw, and the M18 FUEL is a brushless demolition monster with a huge 1-1/4\" stroke. The pick if you're on the M18 platform.",
       "best_for": "Milwaukee M18 owners doing heavy demolition with a long 1-1/4 in stroke.",
-      "skip_if": "You don't own M18 batteries; it's the priciest saw here.",
+      "skip_if": "You don't own M18 batteries; only the DEWALT DCS367B costs more here.",
       "pros": ["Brushless, aggressive 1-1/4\" stroke", "The original SAWZALL name, 4.7 stars", "Milwaukee M18 platform"],
-      "cons": ["Tool only — no battery or charger", "Priciest saw here"]
+      "cons": ["Tool only — no battery or charger", "Second-priciest saw here, behind the DEWALT DCS367B"]
     },
     {
-      "asin": "B01LW6OEMU",
-      "name": "WORX 20V 2-in-1 Reciprocating Saw + Jigsaw",
-      "brand": "WORX", "model": "WX550L",
-      "image": "https://m.media-amazon.com/images/I/61BeoXTQocL._AC_SX425_.jpg",
-      "price": 69.31, "rating": 4.6, "reviews_count": 4011, "bought": "500+/mo",
-      "specs": { "type": "Cordless", "power": "20V", "max_rpm": null, "stroke": "3/4 in", "blade_change": "Tool-free" },
-      "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
-      "verdict": "Two tools in one — flip it to use as a reciprocating saw or a jigsaw. Clever, light, and well-reviewed (4,000 ratings) on the WORX Power Share platform. Great for a homeowner who wants both.",
-      "best_for": "Homeowners who want a recip saw and a jigsaw in one light tool.",
-      "skip_if": "You do real demolition; the 3/4 in stroke is short.",
-      "pros": ["Reciprocating saw and jigsaw in one", "4,000 reviews at 4.6 stars", "Light and easy to handle"],
-      "cons": ["Shorter 3/4\" stroke than a dedicated demo saw", "Jack-of-two-trades vs a pro recip"]
+      "asin": "B076JHJKR8",
+      "name": "Milwaukee 2719-20 M18 FUEL HACKZALL (tool only)",
+      "brand": "Milwaukee", "model": "2719-20",
+      "image": "https://m.media-amazon.com/images/I/71w3cIOcy9L._AC_SX425_.jpg",
+      "price": 147.59, "rating": 4.8, "reviews_count": 6589, "bought": "1K+/mo",
+      "specs": { "type": "Cordless", "power": "18V M18", "max_rpm": null, "stroke": "7/8 in", "blade_change": null },
+      "features": { "kit": false, "brushless": true, "variable_speed": false, "tool_free": false, "orbital": false },
+      "verdict": "A one-handed brushless recip saw for M18 owners: shorter and lighter than a full SAWZALL, with a 7/8 in stroke and a pivoting shoe. Rated 4.8 stars on 6,589 reviews. Good for cutting overhead, in cabinets, and between studs.",
+      "best_for": "Milwaukee M18 owners who want a one-handed saw for tight spots and overhead cuts.",
+      "skip_if": "You want a full-size demo saw or don't own M18 batteries.",
+      "pros": ["One-handed design, 1.8 kg per the listing", "POWERSTATE brushless motor", "4.8 stars on 6,589 reviews", "Pivoting shoe for steadier cuts"],
+      "cons": ["Tool only: no battery or charger", "Sold by a third-party seller (JBTools), not Amazon", "The listing doesn't state a stroke rate"]
     },
     {
       "asin": "B00IP27DFA", "force_budget": true,
@@ -119,7 +120,7 @@
       "features": { "kit": false, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
       "verdict": "The cheapest name-brand saw here at $59: the bare-tool version of the popular BLACK+DECKER recip. Grab it if you already own 20V POWERCONNECT batteries. 4,099 reviews and tool-free blade change.",
       "best_for": "BLACK+DECKER 20V MAX owners who want the cheapest name-brand saw.",
-      "skip_if": "You need a battery; buy the BDCR20C kit.",
+      "skip_if": "You need a battery; the SEESII kit ships with two.",
       "pros": ["Cheapest name-brand saw here", "4,099 reviews at 4.6 stars", "Tool-free blade change, variable speed", "Sold and shipped by Amazon"],
       "cons": ["Tool only — no battery or charger", "7/8\" stroke, light-duty demo"]
     },
@@ -159,8 +160,8 @@
       "price": 62.99, "rating": 4.4, "reviews_count": 749, "bought": "1K+/mo",
       "specs": { "type": "Cordless", "power": "21V", "max_rpm": "0-3,000 SPM", "stroke": null, "blade_change": "Tool-free" },
       "features": { "kit": true, "brushless": false, "variable_speed": true, "tool_free": true, "orbital": false },
-      "verdict": "A loaded budget kit — two 4.0Ah batteries, charger, and blades for under $60. No brand pedigree, but a lot of runtime and everything you need to start cutting out of the box.",
-      "best_for": "A kit with two 4.0Ah batteries for long cutting sessions under $60.",
+      "verdict": "A loaded budget kit — two 4.0Ah batteries, charger, and blades for about $63. No brand pedigree, but a lot of runtime and everything you need to start cutting out of the box.",
+      "best_for": "A kit with two 4.0Ah batteries for long cutting sessions for about $63.",
       "skip_if": "You want batteries that run other brand-name tools.",
       "pros": ["Two 4.0Ah batteries and charger included", "Tool-free blade change, variable speed", "Ready to use, no platform needed"],
       "cons": ["Off-brand batteries, no ecosystem", "Not brushless"]
@@ -187,7 +188,7 @@
     { "q": "What's a reciprocating saw for?", "a": "It pushes a blade back and forth to make fast, rough cuts through almost anything — wood, metal, PVC, drywall, and nail-embedded lumber — plus pruning branches. It's the demolition and remodeling saw; not for fine, straight cuts (that's a circular saw)." },
     { "q": "Bare tool or kit?", "a": "A bare tool ships with no battery or charger — great if you own the brand's packs, useless out of the box if you don't. A kit includes a battery, charger, and often blades. Each pick above says which." },
     { "q": "Does stroke length matter?", "a": "Yes. A longer stroke (around 1-1/8 to 1-1/4 inch) uses more of the blade and cuts faster and more aggressively — better for demolition. Shorter strokes (7/8 inch) are gentler and easier one-handed, fine for pruning and light cuts." },
-    { "q": "Brushless or brushed?", "a": "Brushless motors run cooler, last longer, and hold power under load — worth it for heavy demolition. For occasional pruning and the odd cut, a brushed saw like the BLACK+DECKER kit is plenty." },
-    { "q": "Which battery platform?", "a": "Buy on the same platform as tools you already own (DEWALT 20V MAX, Milwaukee M18, RYOBI ONE+, CRAFTSMAN V20). If you own nothing yet, a self-contained kit like the BLACK+DECKER or SEESII avoids the platform lock-in." }
+    { "q": "Brushless or brushed?", "a": "Brushless motors run cooler, last longer, and hold power under load — worth it for heavy demolition. For occasional pruning and the odd cut, a brushed saw like the BLACK+DECKER BDCR20B is plenty." },
+    { "q": "Which battery platform?", "a": "Buy on the same platform as tools you already own (DEWALT 20V MAX, Milwaukee M18, RYOBI ONE+, CRAFTSMAN V20). If you own nothing yet, a self-contained kit like the SEESII avoids the platform lock-in." }
   ]
 }

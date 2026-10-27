@@ -4,8 +4,9 @@
   "subtitle": "Plug-in miter saws from 10 to 12 inches, sliding and fixed, ranked from live Amazon data.",
   "intro": "We ranked 10 corded miter saws from Amazon's power miter saw best-sellers on rating, review volume, and three features: sliding rails, dual bevel, and a laser or LED cut guide. They run from $139 for the Metabo HPT C10FCG2 to $799 for the Makita LS1019L. Cordless saws and metal-cutting chop saws are left out.",
   "data_captured": "2026-10-27",
-  "audited": "2026-09-28",
+  "audited": "2026-10-27",
   "changelog": [
+    {"date": "2026-10-27", "note": "Full audit. Replaced the BOSCH CM10GD, which no longer has a featured seller on Amazon, with the VEVOR 10-inch compound saw ($146.17). The DEWALT DWS780 dropped from $649 to $449."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the DEWALT DWS780 dropped from $649 to $449; the Metabo HPT C10FCG2 rose from $111.95 to $139; the DOVAMAN DMS01A rose from $161.45 to $189.99."},
     {"date": "2026-10-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Metabo HPT C10FCG2 dropped from $139 to $111.95; the DOVAMAN DMS01A dropped from $189.99 to $161.45; the DEWALT DWS715 dropped from $344.75 to $299.99. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
     {"date": "2026-09-28", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
@@ -319,44 +320,42 @@
       "force_budget": true
     },
     {
-      "asin": "B00G5R4E9A",
-      "name": "BOSCH 15.0 Amp CM10GD 10 In. Dual-Bevel Glide Miter Saw",
-      "brand": "BOSCH",
-      "model": "CM10GD",
-      "image": "https://m.media-amazon.com/images/I/61MVnjqBKbL._AC_SL1000_.jpg",
-      "price": 629.00,
-      "rating": 4.7,
-      "reviews_count": 688,
-      "bought": "50+/mo",
+      "asin": "B0F558MYPM",
+      "name": "VEVOR 10-Inch Compound Miter Saw, 15 Amp, Single Bevel, LED Guide",
+      "brand": "VEVOR",
+      "model": "J1G-ZP32-255",
+      "image": "https://m.media-amazon.com/images/I/61fduzs-nnL._AC_SL1000_.jpg",
+      "price": 146.17,
+      "rating": 4.4,
+      "reviews_count": 172,
+      "bought": null,
       "specs": {
         "blade": "10\"",
         "power": "15 A",
-        "type": "Axial-glide compound",
-        "bevel": "Dual, 47° L/R",
-        "crosscut": "12\" wide",
-        "speed": "4800 rpm",
-        "guide": "None",
-        "weight": "64 lb"
+        "type": "Compound",
+        "bevel": "Single, 0-45° L",
+        "crosscut": null,
+        "speed": "5000 rpm",
+        "guide": "LED",
+        "weight": "24.3 lb"
       },
       "features": {
-        "sliding": true,
-        "dual_bevel": true,
-        "cut_guide": false
+        "sliding": false,
+        "dual_bevel": false,
+        "cut_guide": true
       },
-      "verdict": "Bosch's articulated-arm glide saw. It gets a 12-inch crosscut from a 10-inch blade and needs up to 10 inches less depth than a rail slider, which suits a saw pushed against a wall.",
-      "best_for": "A saw pushed against a wall, where rails won't fit.",
-      "skip_if": "You move it often; it's 64 lb.",
+      "verdict": "A 10-inch, 15-amp chop saw with an LED cut line and a 60-tooth blade, sold by Amazon for about $146. It weighs 24.3 lb on an aluminum base, so it's easy to carry to a job.",
+      "best_for": "A light 10-inch chop saw with a cut-line guide for trim and DIY work.",
+      "skip_if": "You want a name-brand warranty; the Metabo HPT costs about $7 less.",
       "pros": [
-        "Glide arm needs up to 10\" less depth than rail sliders",
-        "12\" horizontal crosscut, 5-1/2\" base and 6\" crown against the fence",
-        "Bevel lock and range selector are up front",
-        "Bosch rates dust collection at 90% with a vacuum"
+        "LED cut-line guide",
+        "24.3 lb with an aluminum base",
+        "60-tooth blade included, sold by Amazon"
       ],
       "cons": [
-        "64 lb, the heaviest saw here",
-        "No laser or shadow line",
-        "Amazon quoted Oct 9-20 delivery when we checked",
-        "The spec table lists a 1-year warranty"
+        "Single bevel, left only, and no sliding rails",
+        "The listing claims 2,800-3,000 W, more than a 15-amp, 120 V motor can draw",
+        "No crosscut capacity on the listing"
       ]
     },
     {
@@ -493,7 +492,7 @@
       "rating": 4.5,
       "reviews_count": 324,
       "flag": "Sold \"for Metal\" with a 36T wood blade at 5,000 rpm; listing contradicts itself on bevel and miter",
-      "verdict": "The title sells it as a saw for metal, but it spins a 36-tooth blade at 5,000 rpm, and the listing can't agree with itself on which way it bevels or miters. The Metabo HPT C10FCG2 costs about $14 less and has none of these problems.",
+      "verdict": "The title sells it as a saw for metal, but it spins a 36-tooth blade at 5,000 rpm, and the listing can't agree with itself on which way it bevels or miters. For about $13 more, the Metabo HPT C10FCG2 has none of these problems.",
       "reasons": [
         "The title says \"Power Saw for Metal\", yet it ships with a 36-tooth blade running at 5,000 rpm. Saws that actually cut metal slow down for it (the DOVAMAN here drops to 3,200 rpm) and use a blade made for metal. The bullets quietly narrow the claim to \"soft metal\".",
         "The title says single bevel 0-45°. A bullet says the base adjusts \"on both sides\" for bevels, and the same bullet says miters go left only. The brand's own comparison chart says the bevel is left only. You can't tell from the listing what the saw does.",
