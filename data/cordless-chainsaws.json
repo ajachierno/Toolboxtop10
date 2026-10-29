@@ -3,9 +3,10 @@
   "title": "The 10 Best Cordless Chainsaws",
   "subtitle": "Battery-powered chainsaws for pruning, storm cleanup and firewood, ranked from live Amazon data.",
   "intro": "A cordless chainsaw starts with a trigger, needs no gas or pull cord, and is quiet enough for the neighbors. We ranked 10 best-sellers from EGO, Greenworks, DEWALT, CRAFTSMAN, WORX, BLACK+DECKER, Husqvarna and SEESII on rating, review volume and features (a 14-inch or longer bar, a battery in the box, a brushless motor, tool-free tensioning and auto oiling). For mini pruning saws, see our mini chainsaw page.",
-  "data_captured": "2026-10-10",
+  "data_captured": "2026-10-29",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-10-29", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMCCS620M1 dropped from $199.99 to $169.99; the Husqvarna Power Axe 350i rose from $436.21 to $479.99."},
     {
       "date": "2026-10-10",
       "note": "Page published with 10 ranked picks and 1 tool to avoid."
@@ -74,9 +75,9 @@
       "brand": "EGO",
       "model": "CS1611",
       "image": "https://m.media-amazon.com/images/I/71WxFjcT4rL._AC_SL1500_.jpg",
-      "price": 249.0,
+      "price": 249.00,
       "rating": 4.6,
-      "reviews_count": 652,
+      "reviews_count": 670,
       "bought": "900+/mo",
       "specs": {
         "bar": "16 in",
@@ -111,10 +112,10 @@
       "brand": "EGO",
       "model": "CS1613",
       "image": "https://m.media-amazon.com/images/I/71sfkUi3kaL._AC_SL1500_.jpg",
-      "price": 299.0,
-      "rating": 4.6,
-      "reviews_count": 988,
-      "bought": "300+/mo",
+      "price": 299.00,
+      "rating": 4.7,
+      "reviews_count": 1001,
+      "bought": "400+/mo",
       "specs": {
         "bar": "16 in",
         "battery": "56V 4.0Ah, included",
@@ -135,7 +136,7 @@
       "pros": [
         "4.0Ah battery",
         "Brushless",
-        "4.6 stars"
+        "4.7 stars"
       ],
       "cons": [
         "Pricier than the CS1611"
@@ -148,10 +149,10 @@
       "brand": "SEESII",
       "model": "M12 Studio",
       "image": "https://m.media-amazon.com/images/I/71L1ypvLjrL._AC_SL1500_.jpg",
-      "price": 88.98,
+      "price": 88.99,
       "rating": 4.5,
-      "reviews_count": 16840,
-      "bought": "900+/mo",
+      "reviews_count": 17237,
+      "bought": "700+/mo",
       "specs": {
         "bar": "12 in",
         "battery": "Two 4.0Ah, included",
@@ -166,7 +167,7 @@
         "tool_free_tension": false,
         "auto_oil": false
       },
-      "verdict": "A budget 12-inch brushless saw with two 4.0Ah batteries, the cheapest full-size kit here. Its 16,840 reviews are shared across SEESII's chainsaw listings, mostly its mini saws.",
+      "verdict": "A budget 12-inch brushless saw with two 4.0Ah batteries, the cheapest full-size kit here. Its 17,237 reviews are shared across SEESII's chainsaw listings, mostly its mini saws.",
       "best_for": "Light storm cleanup and limbing on a budget.",
       "skip_if": "You want reviews for this exact saw; the count is shared with SEESII's mini chainsaws.",
       "pros": [
@@ -187,8 +188,8 @@
       "image": "https://m.media-amazon.com/images/I/71+jDrksz5L._AC_SL1500_.jpg",
       "price": 159.99,
       "rating": 4.6,
-      "reviews_count": 1417,
-      "bought": "200+/mo",
+      "reviews_count": 1466,
+      "bought": "800+/mo",
       "specs": {
         "bar": "16 in",
         "battery": "Two 40V 4.0Ah, included",
@@ -203,7 +204,7 @@
         "tool_free_tension": false,
         "auto_oil": false
       },
-      "verdict": "A 16-inch 40V brushless saw with two 4.0Ah batteries and its own 1,417 reviews, for well under EGO's price.",
+      "verdict": "A 16-inch 40V brushless saw with two 4.0Ah batteries and its own 1,466 reviews, for well under EGO's price.",
       "best_for": "Firewood and storm cleanup on a budget.",
       "skip_if": "You want an established brand's dealer support.",
       "pros": [
@@ -223,7 +224,7 @@
       "image": "https://m.media-amazon.com/images/I/71xC0MreX7L._AC_SL1500_.jpg",
       "price": 249.99,
       "rating": 4.4,
-      "reviews_count": 6097,
+      "reviews_count": 6105,
       "specs": {
         "bar": "16 in",
         "battery": "40V 4.0Ah, included",
@@ -238,11 +239,11 @@
         "tool_free_tension": false,
         "auto_oil": true
       },
-      "verdict": "The most-reviewed saw here with its own review count (6,097): a 16-inch brushless Greenworks with a 4.0Ah battery and automatic oiler.",
+      "verdict": "The most-reviewed saw here with its own review count (6,105): a 16-inch brushless Greenworks with a 4.0Ah battery and automatic oiler.",
       "best_for": "Greenworks 40V owners and anyone wanting a proven 16-inch saw.",
       "skip_if": "You want tool-free chain tensioning; it isn't listed.",
       "pros": [
-        "6,097 reviews",
+        "6,105 reviews",
         "Brushless, 4.0Ah battery",
         "Auto oiler"
       ],
@@ -256,10 +257,10 @@
       "brand": "DEWALT",
       "model": "DCCS621B",
       "image": "https://m.media-amazon.com/images/I/61tXXhwyWyL._AC_SL1500_.jpg",
-      "price": 194.99,
-      "rating": 4.5,
-      "reviews_count": 518,
-      "bought": "1K+/mo",
+      "price": 179.99,
+      "rating": 4.4,
+      "reviews_count": 529,
+      "bought": "700+/mo",
       "specs": {
         "bar": "12 in",
         "battery": "Not included",
@@ -280,7 +281,7 @@
       "pros": [
         "1,000+ sold last month",
         "Uses DEWALT 20V batteries",
-        "4.5 stars"
+        "4.4 stars"
       ],
       "cons": [
         "Bare tool",
@@ -293,10 +294,10 @@
       "brand": "CRAFTSMAN",
       "model": "CMCCS620M1",
       "image": "https://m.media-amazon.com/images/I/61+6KfPCfZL._AC_SL1500_.jpg",
-      "price": 199.99,
+      "price": 169.99,
       "rating": 4.6,
-      "reviews_count": 1145,
-      "bought": "50+/mo",
+      "reviews_count": 1147,
+      "bought": "100+/mo",
       "specs": {
         "bar": "12 in",
         "battery": "V20 4.0Ah, included",
@@ -331,7 +332,7 @@
       "image": "https://m.media-amazon.com/images/I/51-+lEZMBSL._AC_SL1000_.jpg",
       "price": 113.99,
       "rating": 4.4,
-      "reviews_count": 3915,
+      "reviews_count": 3927,
       "bought": "300+/mo",
       "specs": {
         "bar": "10 in",
@@ -353,7 +354,7 @@
       "pros": [
         "Auto chain tension",
         "6.2 lb",
-        "3,915 reviews"
+        "3,927 reviews"
       ],
       "cons": [
         "10 in bar"
@@ -367,7 +368,7 @@
       "image": "https://m.media-amazon.com/images/I/71P2fsmmZaL._AC_SL1500_.jpg",
       "price": 108.01,
       "rating": 4.5,
-      "reviews_count": 2839,
+      "reviews_count": 2840,
       "bought": "100+/mo",
       "specs": {
         "bar": "10 in (8 in cut capacity)",
@@ -388,7 +389,7 @@
       "skip_if": "You need to cut logs over 8 inches.",
       "pros": [
         "Tool-free tensioning",
-        "2,839 reviews",
+        "2,840 reviews",
         "4.5 stars"
       ],
       "cons": [
@@ -403,10 +404,10 @@
       "brand": "Husqvarna",
       "model": "Power Axe 350i",
       "image": "https://m.media-amazon.com/images/I/51tTL2Kax5L._AC_SL1080_.jpg",
-      "price": 436.21,
+      "price": 479.99,
       "rating": 4.3,
-      "reviews_count": 409,
-      "bought": "100+/mo",
+      "reviews_count": 412,
+      "bought": "200+/mo",
       "specs": {
         "bar": "18 in",
         "battery": "Included",
@@ -444,7 +445,7 @@
       "image": "https://m.media-amazon.com/images/I/61jxpVfgPdL._AC_SL1280_.jpg",
       "price": 99.99,
       "rating": 4.4,
-      "reviews_count": 44,
+      "reviews_count": 52,
       "flag": "Sold 'for DEWALT' with an unbranded battery; 1,000 W claim",
       "verdict": "A 10-inch saw marketed for DEWALT 20V batteries that ships with its own unbranded 4.0 battery and makes a power claim the listing doesn't support.",
       "reasons": [
