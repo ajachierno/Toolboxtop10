@@ -1,0 +1,478 @@
+{
+  "slug": "corded-hedge-trimmers",
+  "title": "The 10 Best Corded Hedge Trimmers",
+  "subtitle": "Plug-in electric hedge trimmers and pole trimmers for shrubs and hedges, ranked from live Amazon data.",
+  "intro": "A corded hedge trimmer runs as long as you like and costs less than a battery model with the same blade. We ranked 10 best-sellers from BLACK+DECKER, Sun Joe, SENIX and GARCARE on rating, review volume and features (a 22-inch or longer blade, 3/4-inch or bigger cut capacity, cord retention and a rotating handle or pivoting head). Three are pole trimmers for tall hedges. All of them need an outdoor extension cord, sold separately. For battery trimmers, see our cordless hedge trimmer page.",
+  "data_captured": "2026-10-29",
+  "audited": "2026-10-29",
+  "changelog": [
+    {
+      "date": "2026-10-29",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 45,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "blade_22_plus": 0.3,
+    "cut_3_4": 0.3,
+    "cord_retention": 0.2,
+    "adjustable_angle": 0.2
+  },
+  "reviews_ceiling": 15000,
+  "spec_fields": [
+    {
+      "key": "blade",
+      "label": "Blade"
+    },
+    {
+      "key": "capacity",
+      "label": "Cut capacity"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "weight",
+      "label": "Weight"
+    },
+    {
+      "key": "extras",
+      "label": "Extras"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "blade",
+      "label": "Blade"
+    },
+    {
+      "key": "capacity",
+      "label": "Cuts up to"
+    },
+    {
+      "key": "motor",
+      "label": "Motor"
+    },
+    {
+      "key": "cord_retention",
+      "label": "Cord retention",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B07CBYR1DN",
+      "force_overall": true,
+      "name": "BLACK+DECKER 22\" Electric Hedge Trimmer, 4.0 Amp Corded Dual Action (BEHT350FF)",
+      "brand": "BLACK+DECKER",
+      "model": "BEHT350FF",
+      "image": "https://m.media-amazon.com/images/I/41OHdQhjj0S._AC_SL1001_.jpg",
+      "price": 59.00,
+      "rating": 4.6,
+      "reviews_count": 4123,
+      "bought": "1K+/mo",
+      "specs": {
+        "blade": "22 in dual-action",
+        "capacity": "3/4 in",
+        "motor": "4.0 A",
+        "weight": "2.8 kg",
+        "extras": "Full wraparound front handle, cord retainer, 4-year limited warranty"
+      },
+      "features": {
+        "blade_22_plus": true,
+        "cut_3_4": true,
+        "cord_retention": true,
+        "adjustable_angle": false
+      },
+      "verdict": "The corded hedge trimmer most homeowners should buy: a 22-inch dual-action blade, 3/4-inch branch capacity and a 4.0 A motor for $59, with 4.6 stars on 4,123 reviews.",
+      "best_for": "Average yards with long hedge runs and branches up to 3/4 inch.",
+      "skip_if": "Your hedges are taller than you can reach from the ground.",
+      "pros": [
+        "22 in blade covers a hedge in fewer passes",
+        "Cuts branches up to 3/4 in",
+        "4-year limited warranty, longer than the other BLACK+DECKER models here",
+        "1,000+ sold last month"
+      ],
+      "cons": [
+        "Fixed rear handle; no rotating grip for vertical cuts",
+        "Needs an outdoor extension cord, sold separately"
+      ]
+    },
+    {
+      "asin": "B00GLI10C2",
+      "force_budget": true,
+      "name": "BLACK+DECKER Electric Hedge Trimmer, 17-Inch Corded 3.2 Amp, Dual Action (BEHT150)",
+      "brand": "BLACK+DECKER",
+      "model": "BEHT150",
+      "image": "https://m.media-amazon.com/images/I/51NK-BlfByL._AC_SL1500_.jpg",
+      "price": 44.10,
+      "rating": 4.6,
+      "reviews_count": 15430,
+      "bought": "1K+/mo",
+      "specs": {
+        "blade": "17 in dual-action",
+        "capacity": "5/8 in",
+        "motor": "3.2 A",
+        "weight": "3.9 lb",
+        "extras": "Cord retention, T-handle, 2-year limited warranty"
+      },
+      "features": {
+        "blade_22_plus": false,
+        "cut_3_4": false,
+        "cord_retention": true,
+        "adjustable_angle": false
+      },
+      "verdict": "The best-selling corded hedge trimmer on Amazon: 15,430 reviews at 4.6 stars and 2,000+ sold last month. The 17-inch blade and 3.9 lb weight suit small shrubs and foundation plantings.",
+      "best_for": "Small yards with a few shrubs and a tight budget.",
+      "skip_if": "You trim long hedges; the 17 in blade means more passes than a 22 in model.",
+      "pros": [
+        "Most-reviewed corded hedge trimmer on Amazon",
+        "3.9 lb, easy to hold overhead",
+        "Cord retention keeps the plug from pulling out"
+      ],
+      "cons": [
+        "5/8 in cut capacity, smaller than the 22 in models",
+        "17 in blade is short for long hedges"
+      ]
+    },
+    {
+      "asin": "B077Z9KM29",
+      "name": "BLACK+DECKER Electric Hedge Trimmer, 16-Inch 3.0 Amp Compact Corded (BEHT100)",
+      "brand": "BLACK+DECKER",
+      "model": "BEHT100",
+      "image": "https://m.media-amazon.com/images/I/61MgG3dgy3L._AC_SL1500_.jpg",
+      "price": 37.99,
+      "rating": 4.6,
+      "reviews_count": 9806,
+      "bought": "500+/mo",
+      "specs": {
+        "blade": "16 in dual-action",
+        "capacity": "5/8 in",
+        "motor": "3.0 A",
+        "weight": "2.1 kg",
+        "extras": "Cord retention, T-handle, 2-year limited warranty"
+      },
+      "features": {
+        "blade_22_plus": false,
+        "cut_3_4": false,
+        "cord_retention": true,
+        "adjustable_angle": false
+      },
+      "verdict": "The cheapest name-brand pick at $37.99: a 16-inch blade, 3.0 A motor and 5/8-inch capacity for light shaping work, rated 4.6 stars on 9,806 reviews.",
+      "best_for": "Touch-ups on small shrubs and boxwoods.",
+      "skip_if": "You need it this week; Amazon lists it as shipping in 1 to 4 weeks.",
+      "pros": [
+        "Lowest price here",
+        "4.6 stars on 9,806 reviews",
+        "Compact for tight beds"
+      ],
+      "cons": [
+        "Shortest blade on the page (16 in)",
+        "Amazon shows a 1 to 4 week ship time"
+      ]
+    },
+    {
+      "asin": "B077ZC3NGZ",
+      "name": "BLACK+DECKER Hedge Trimmer with Saw, 20-Inch, Full Wraparound Handle, Corded (BEHTS300)",
+      "brand": "BLACK+DECKER",
+      "model": "BEHTS300",
+      "image": "https://m.media-amazon.com/images/I/61RgKtamIXL._AC_SL1500_.jpg",
+      "price": 59.00,
+      "rating": 4.5,
+      "reviews_count": 1566,
+      "bought": "200+/mo",
+      "specs": {
+        "blade": "20 in dual-action + saw tip",
+        "capacity": "3/4 in (1.5 in with saw)",
+        "motor": "3.8 A",
+        "weight": "5.5 lb",
+        "extras": "Built-in saw blade, full wraparound handle, cord retention"
+      },
+      "features": {
+        "blade_22_plus": false,
+        "cut_3_4": true,
+        "cord_retention": true,
+        "adjustable_angle": false
+      },
+      "verdict": "A 20-inch hedge trimmer with a small saw blade on the end that cuts branches up to 1.5 inches, so you don't need loppers for the odd thick stem.",
+      "best_for": "Overgrown shrubs with a few thick woody branches.",
+      "skip_if": "Your hedges are already in shape; the 22 in BEHT350FF costs the same.",
+      "pros": [
+        "Saw blade handles branches up to 1.5 in",
+        "3/4 in capacity on the main blade",
+        "Full wraparound handle"
+      ],
+      "cons": [
+        "3.8 A motor, a little less than the BEHT350FF's 4.0 A",
+        "Same $59 as the longer 22 in BEHT350FF"
+      ]
+    },
+    {
+      "asin": "B0BPYNBQKP",
+      "name": "SENIX HTE3.8-L 21-Inch 120V Electric Hedge Trimmer, 3/4\" Cut",
+      "brand": "SENIX",
+      "model": "HTE3.8-L",
+      "image": "https://m.media-amazon.com/images/I/61NIiek9yzL._AC_SL1500_.jpg",
+      "price": 39.99,
+      "rating": 4.4,
+      "reviews_count": 70,
+      "bought": "50+/mo",
+      "specs": {
+        "blade": "21 in dual-action",
+        "capacity": "3/4 in",
+        "motor": "3.8 A",
+        "weight": "5.3 lb",
+        "extras": "Cord retention, blade cover, 3-year limited warranty"
+      },
+      "features": {
+        "blade_22_plus": false,
+        "cut_3_4": true,
+        "cord_retention": true,
+        "adjustable_angle": false
+      },
+      "verdict": "A 21-inch, 3/4-inch-capacity trimmer for $39.99, about the price of BLACK+DECKER's 16-inch model, with a 3-year warranty.",
+      "best_for": "Buyers who want a longer blade and bigger cut capacity for under $40.",
+      "skip_if": "You want the longest track record; it has far fewer reviews than the BLACK+DECKER models.",
+      "pros": [
+        "21 in blade and 3/4 in capacity for $39.99",
+        "3-year limited warranty",
+        "Blade cover included"
+      ],
+      "cons": [
+        "5.3 lb, heavier than the BEHT150",
+        "Fixed rear handle"
+      ]
+    },
+    {
+      "asin": "B01GJBTWB6",
+      "name": "GARCARE Corded Electric Hedge Trimmer 4.8A, 24\" (610mm) Laser-Cut Blade (GHT08)",
+      "brand": "GARCARE",
+      "model": "GHT08",
+      "image": "https://m.media-amazon.com/images/I/61enSogHgtL._AC_SL1500_.jpg",
+      "price": 89.99,
+      "rating": 4.5,
+      "reviews_count": 446,
+      "bought": null,
+      "specs": {
+        "blade": "24 in dual-action, laser-cut",
+        "capacity": "0.7 in (18 mm)",
+        "motor": "4.8 A",
+        "weight": "3.2 kg",
+        "extras": "Rotating rear handle, D-shaped front handle"
+      },
+      "features": {
+        "blade_22_plus": true,
+        "cut_3_4": false,
+        "cord_retention": false,
+        "adjustable_angle": true
+      },
+      "verdict": "The longest blade and strongest motor among the handheld picks: 24 inches and 4.8 A, with a rear handle that rotates for cutting the sides of a hedge.",
+      "best_for": "Long, wide hedges where a 24 in blade saves passes.",
+      "skip_if": "You want cord retention; the listing doesn't mention a cord retainer.",
+      "pros": [
+        "24 in blade, longest handheld here",
+        "4.8 A motor",
+        "Rotating rear handle for vertical cuts"
+      ],
+      "cons": [
+        "$89.99, about $30 more than the 22 in BLACK+DECKER",
+        "3.2 kg (about 7 lb), heaviest handheld here",
+        "0.7 in capacity, just under 3/4 in"
+      ]
+    },
+    {
+      "asin": "B0DX71V2Q6",
+      "name": "GARCARE Electric Hedge Trimmer Corded 4.5Amp 24-Inch, Rotary Handle (GHT25)",
+      "brand": "GARCARE",
+      "model": "GHT25",
+      "image": "https://m.media-amazon.com/images/I/51x3BIflUTL._AC_SL1500_.jpg",
+      "price": 79.99,
+      "rating": 4.4,
+      "reviews_count": 233,
+      "bought": null,
+      "specs": {
+        "blade": "24 in dual-action",
+        "capacity": "0.7 in",
+        "motor": "4.5 A",
+        "weight": "6.6 lb",
+        "extras": "Rear handle rotates 90 degrees each way, cord retainer, 3,200 SPM"
+      },
+      "features": {
+        "blade_22_plus": true,
+        "cut_3_4": false,
+        "cord_retention": true,
+        "adjustable_angle": true
+      },
+      "verdict": "A 24-inch trimmer with a rear handle that turns 90 degrees either way and a cord retainer, for $10 less than GARCARE's GHT08.",
+      "best_for": "Shaping tall hedge sides without twisting your wrist.",
+      "skip_if": "You want the most power; GARCARE's GHT08 has a 4.8 A motor.",
+      "pros": [
+        "Rotating rear handle",
+        "Cord retainer and dual safety switches",
+        "24 in blade"
+      ],
+      "cons": [
+        "6.6 lb, heavier than the BLACK+DECKER handhelds",
+        "0.7 in capacity"
+      ]
+    },
+    {
+      "asin": "B01DTID2J0",
+      "premium": true,
+      "name": "Sun Joe SJH902E 21-inch, 4-Amp, Multi-Angle Electric Telescoping Pole Hedge Trimmer",
+      "brand": "Sun Joe",
+      "model": "SJH902E",
+      "image": "https://m.media-amazon.com/images/I/61GcyiQCf7L._AC_SL1500_.jpg",
+      "price": 147.23,
+      "rating": 4.3,
+      "reviews_count": 5368,
+      "bought": null,
+      "specs": {
+        "blade": "21 in dual-action, pole",
+        "capacity": "0.7 in",
+        "motor": "4 A",
+        "weight": "8.8 lb",
+        "extras": "Pole extends to 7.9 ft (up to 14 ft overhead reach), pivoting head"
+      },
+      "features": {
+        "blade_22_plus": false,
+        "cut_3_4": false,
+        "cord_retention": false,
+        "adjustable_angle": true
+      },
+      "verdict": "The pole trimmer to get for hedges you can't reach from the ground: a telescoping pole gives up to 14 feet of overhead reach and the head pivots to cut tops flat. 5,368 reviews.",
+      "best_for": "Tall privacy hedges and the tops of wide shrubs.",
+      "skip_if": "Your hedges are under 6 ft; a handheld is lighter and cheaper.",
+      "pros": [
+        "Up to 14 ft overhead reach",
+        "Pivoting head for hedge tops",
+        "Most-reviewed pole model here"
+      ],
+      "cons": [
+        "8.8 lb at the end of a pole is tiring",
+        "Most expensive pick",
+        "Amazon shows low stock"
+      ]
+    },
+    {
+      "asin": "B01GJCHG2W",
+      "name": "GARCARE Electric Pole Hedge Trimmer with 18 inch Dual-Action Laser Cut Blade (GPHT07)",
+      "brand": "GARCARE",
+      "model": "GPHT07",
+      "image": "https://m.media-amazon.com/images/I/51nz9fIB6yL._AC_SL1500_.jpg",
+      "price": 129.99,
+      "rating": 4.1,
+      "reviews_count": 1181,
+      "bought": null,
+      "specs": {
+        "blade": "18 in dual-action, pole",
+        "capacity": "0.63 in (16 mm)",
+        "motor": "600 W",
+        "weight": "7.5 lb",
+        "extras": "Pole extends 6.4 to 8.2 ft, shoulder strap, two-switch start"
+      },
+      "features": {
+        "blade_22_plus": false,
+        "cut_3_4": false,
+        "cord_retention": false,
+        "adjustable_angle": false
+      },
+      "verdict": "A corded pole hedge trimmer that extends from 6.4 to 8.2 feet, about $17 cheaper than the Sun Joe pole model and 1.3 lb lighter.",
+      "best_for": "Reaching hedge tops for less than the Sun Joe pole trimmer.",
+      "skip_if": "You need to angle the head; the listing doesn't describe a pivoting head.",
+      "pros": [
+        "Pole extends to 8.2 ft",
+        "Shoulder strap included",
+        "Two-switch start guards against accidental starts"
+      ],
+      "cons": [
+        "18 in blade, 0.63 in capacity",
+        "4.1 stars, lowest rating among the picks"
+      ]
+    },
+    {
+      "asin": "B08JTZNCMB",
+      "name": "GARCARE 2 in 1 Electric Hedge Trimmer Corded with 18 Inch Laser Cut Blade and Extension Pole (GPHT06)",
+      "brand": "GARCARE",
+      "model": "GPHT06",
+      "image": "https://m.media-amazon.com/images/I/61ENxBGwDLL._AC_SL1500_.jpg",
+      "price": 95.99,
+      "rating": 3.9,
+      "reviews_count": 136,
+      "bought": null,
+      "specs": {
+        "blade": "18 in dual-action, pole",
+        "capacity": "5/8 in",
+        "motor": "4.8 A",
+        "weight": "8.9 lb",
+        "extras": "Pole 6.8 to 8.2 ft, 5-position rear handle, 6-position pivoting head, shoulder strap"
+      },
+      "features": {
+        "blade_22_plus": false,
+        "cut_3_4": false,
+        "cord_retention": false,
+        "adjustable_angle": true
+      },
+      "verdict": "The cheapest pole trimmer here with a pivoting head (6 positions) and a 5-position rear handle, which the GPHT07 lacks.",
+      "best_for": "Cutting hedge tops at an angle for under $100.",
+      "skip_if": "You want a proven model; 3.9 stars is the lowest on the page.",
+      "pros": [
+        "6-position pivoting head",
+        "4.8 A motor",
+        "$51 less than the Sun Joe pole trimmer"
+      ],
+      "cons": [
+        "8.9 lb, heaviest pick",
+        "3.9 stars",
+        "5/8 in capacity"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0H11GY76S",
+      "name": "Grasstigon 24\" Electric Hedge Trimmer Corded 5A with 180 Degree Rotating Handle",
+      "brand": "GRASSTIGON",
+      "model": "Gt-24c-4.5a",
+      "image": "https://m.media-amazon.com/images/I/51T-LUMeuxL._AC_SL1500_.jpg",
+      "price": 62.77,
+      "rating": 4.3,
+      "reviews_count": 15,
+      "flag": "Listing contradicts itself on motor size and cut width",
+      "verdict": "The listing can't agree on its own motor: the title and bullets say 5 A, the part number says 4.5 A, and the spec table gives a 6.38-inch cutting width for a 24-inch blade.",
+      "reasons": [
+        "The title and bullets advertise a 5A motor, but the manufacturer part number is Gt-24c-4.5a.",
+        "The spec table lists a cutting width of 6.38 inches for a 24 in blade.",
+        "It never states the thickest branch it can cut, only a 0.94 in blade gap. The BLACK+DECKER BEHT350FF states 3/4 in for $59."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Corded or cordless hedge trimmer?",
+      "a": "Corded trimmers cost less, never need charging and are usually lighter than a battery model with the same blade. You give up range: you have to stay within an extension cord's reach of an outlet. For hedges along the house or a small yard, corded is the cheaper choice."
+    },
+    {
+      "q": "What blade length do I need?",
+      "a": "16 to 18 inches is enough for shrubs and foundation plantings. For hedges longer than about 10 feet, a 22 to 24 inch blade covers more in each pass. Longer blades weigh more, which you notice when trimming above shoulder height."
+    },
+    {
+      "q": "What does cut capacity mean?",
+      "a": "It's the thickest branch the blade gap will take, usually 5/8 to 3/4 inch on corded trimmers. Anything thicker needs loppers or a pruning saw. The BLACK+DECKER BEHTS300 adds a saw tip rated for branches up to 1.5 inches."
+    },
+    {
+      "q": "Do I need a pole hedge trimmer?",
+      "a": "Only if your hedges are taller than you can reach comfortably from the ground, roughly 6 feet. Pole models weigh 7.5 to 8.9 lb here, against about 3.9 to 7 lb for the handhelds, and the weight sits at the far end of the pole."
+    },
+    {
+      "q": "What extension cord should I use?",
+      "a": "An outdoor-rated cord. For a 3 to 5 amp trimmer, a 16-gauge cord is fine up to 100 feet. Most trimmers here have a cord retainer; loop the cord through it so it doesn't pull out of the trimmer mid-cut, and keep the cord behind you, away from the blade."
+    }
+  ]
+}
