@@ -2,10 +2,11 @@
   "slug": "tire-changers",
   "title": "The 10 Best Tire Changers",
   "subtitle": "Manual, air-assisted, and shop tire changers for the home garage, ranked from live Amazon data.",
-  "intro": "A tire changer pays for itself fast if you swap your own tires, run a trailer, or keep a second set of wheels. Amazon's range runs from $60 manual stands for wheels up to 16 inches, to air-assisted portable changers around $400, to 500-pound shop machines near $1,100 that handle 24-inch rims. We ranked 10 on star rating, review volume, and features (bead breaker, powered operation, rim protection, and a bead blaster).",
-  "data_captured": "2026-10-27",
-  "audited": "2026-10-07",
+  "intro": "A tire changer pays for itself fast if you swap your own tires, run a trailer, or keep a second set of wheels. Amazon's range runs from $60 manual stands for wheels up to 16 inches, to air-assisted portable changers around $400, to 500-pound shop machines from about $1,050 that handle 24-inch rims. We ranked 10 on star rating, review volume, and features (bead breaker, powered operation, rim protection, and a bead blaster).",
+  "data_captured": "2026-10-29",
+  "audited": "2026-10-29",
   "changelog": [
+    {"date": "2026-10-29", "note": "Replaced the KATOOL KT-1030P, which Amazon lists as currently unavailable, with the KATOOL KT-T830 + KT-B700 tire changer and wheel balancer combo ($2,098). Other prices and ratings re-checked; changes were under 8%."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the EASYBERG FY0781 rose from $82.99 to $94.99; the KATOOL KT-T810 rose from $1,129 to $1,259; the VEVOR Manual Tire Changer rose from $62.91 to $69.90."},
     {
       "date": "2026-10-07",
@@ -72,7 +73,7 @@
       "image": "https://m.media-amazon.com/images/I/51B-qjWzURL._AC_SX425_.jpg",
       "price": 60.79,
       "rating": 4.4,
-      "reviews_count": 512,
+      "reviews_count": 513,
       "bought": "200+/mo",
       "specs": {
         "type": "Manual stand",
@@ -109,7 +110,7 @@
       "image": "https://m.media-amazon.com/images/I/713SRTurLfL._AC_SX425_.jpg",
       "price": 69.90,
       "rating": 4.0,
-      "reviews_count": 684,
+      "reviews_count": 685,
       "bought": "500+/mo",
       "specs": {
         "type": "Manual stand",
@@ -241,38 +242,39 @@
       ]
     },
     {
-      "asin": "B0FM2KYBDS",
-      "name": "KATOOL Mini Tire Changer Machine KT-1030P, 39 in. Max Wheel Diameter",
+      "asin": "B0CFF3QVH8",
+      "name": "KATOOL KT-T830 + KT-B700 Tire Changer and Wheel Balancer Combo with Bead Blaster, 12 to 26 in. Rims",
       "brand": "KATOOL",
-      "model": "KT-1030P",
-      "image": "https://m.media-amazon.com/images/I/61urOexDBhL._AC_SX425_.jpg",
-      "price": 365.0,
-      "rating": 4.1,
-      "reviews_count": 17,
+      "model": "KT-T830 + KT-B700",
+      "image": "https://m.media-amazon.com/images/I/61x+wsZSDyL._AC_SX425_.jpg",
+      "price": 2098.00,
+      "rating": 4.5,
+      "reviews_count": 47,
+      "bought": "50+/mo",
       "specs": {
-        "type": "Mini machine",
-        "range": "10 to 21 in. rims, 39 in. max wheel",
-        "power": "Shop air (per buyers)",
-        "weight": "110 lb"
+        "type": "Shop machine + wheel balancer",
+        "range": "Outside clamp 12 to 24 in., inside 14 to 26 in.",
+        "power": "2.0 HP motor",
+        "weight": "583 lb"
       },
       "features": {
         "bead_breaker": true,
         "powered": true,
-        "rim_protection": false,
-        "bead_blaster": false
+        "rim_protection": true,
+        "bead_blaster": true
       },
-      "verdict": "A compact machine that takes 10 to 21 inch rims and wheels up to 39 inches, at 110 pounds. It fills the gap between a manual stand and a full shop machine.",
-      "best_for": "17 to 21 in car and truck wheels in a compact 110 lb machine.",
-      "skip_if": "You don't own an air compressor.",
+      "verdict": "A shop-grade tire machine with a bead blaster, sold together with a wheel balancer. It's the #2 organic result for tire changers on Amazon, and the only pick here that covers mounting and balancing in one purchase.",
+      "best_for": "A home or small shop that wants to mount and balance tires itself.",
+      "skip_if": "You already own a balancer or only change a few tires a year.",
       "pros": [
-        "Handles 17 to 21 in. car and truck wheels that manual stands can't",
-        "39 in. max wheel diameter covers most light-truck and off-road tires",
-        "110 lb and compact enough for a van or small garage"
+        "Outside and inside clamping covers 12 to 26 in. rims",
+        "Wheel balancer included in the price",
+        "Plastic mount-head cover and soft jaw covers for alloy rims"
       ],
       "cons": [
-        "Needs an air compressor; buyers say the listing doesn't mention it",
-        "Listing has no rim-protection details",
-        "Ships in 6 to 7 days"
+        "$2,098, the most expensive pick on the page",
+        "The spec table lists model 530Z+600 while the title says KT-T830 + KT-B700",
+        "583 lb shipped; needs floor space and shop air"
       ]
     },
     {
@@ -281,9 +283,9 @@
       "brand": "LCTX",
       "model": "JYM009",
       "image": "https://m.media-amazon.com/images/I/61nhsHekcbL._AC_SX425_.jpg",
-      "price": 399.99,
-      "rating": 3.3,
-      "reviews_count": 10,
+      "price": 429.99,
+      "rating": 3.5,
+      "reviews_count": 11,
       "specs": {
         "type": "Air-assisted stand",
         "range": "12 to 21 in. rims, 39 in. max tire",
@@ -440,11 +442,11 @@
   "buyers_guide": [
     {
       "q": "Will a manual tire changer handle my car's wheels?",
-      "a": "Check your rim size first. The classic manual stands here (TUFFIOM, VEVOR, Olympia) stop at 16 in., and EASYBERG and MOTOOS at 16.5 in. Most cars sold in the last decade ride on 17 in. or larger wheels, which need a changer rated to 21 in. or more, like the LCTX, the KATOOL KT-1030P, or a full shop machine."
+      "a": "Check your rim size first. The classic manual stands here (TUFFIOM, VEVOR, Olympia) stop at 16 in., and EASYBERG and MOTOOS at 16.5 in. Most cars sold in the last decade ride on 17 in. or larger wheels, which need a changer rated to 21 in. or more, like the LCTX or a full shop machine."
     },
     {
       "q": "Do I need an air compressor?",
-      "a": "Manual stands don't. The LCTX, KATOOL KT-1030P, and both KATOOL shop machines use compressed air for the bead breaker or clamps, and the shop machines want 116 to 145 psi. A small pancake compressor won't keep up; plan on a tank of 20 gallons or more."
+      "a": "Manual stands don't. The LCTX and the KATOOL shop machines use compressed air for the bead breaker or clamps, and the KATOOL ME-T500 and KT-T810 want 116 to 145 psi. A small pancake compressor won't keep up; plan on a tank of 20 gallons or more."
     },
     {
       "q": "What is a bead blaster?",

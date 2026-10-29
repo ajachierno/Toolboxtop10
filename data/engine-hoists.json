@@ -3,9 +3,10 @@
   "title": "The 10 Best Engine Hoists",
   "subtitle": "Folding 2-ton cherry pickers and shop cranes for engine swaps at home, ranked from live Amazon data.",
   "intro": "An engine hoist (also called a cherry picker or shop crane) lifts an engine or transmission out of the bay and rolls it to a stand. Almost every best-seller is a folding 2-ton hoist with an 8-ton ram and a four-position boom, priced from about $170 to $290, with a name-brand Sunex around $800. We ranked 10 on star rating, review volume, and features (an included load leveler, a published lift height, a dual-piston pump, and low-profile legs).",
-  "data_captured": "2026-10-27",
-  "audited": "2026-10-07",
+  "data_captured": "2026-10-29",
+  "audited": "2026-10-29",
   "changelog": [
+    {"date": "2026-10-29", "note": "Replaced the Garvee 2-Ton Hoist, which Amazon lists as currently unavailable, with the best-selling Garvee 2-Ton Hoist with Leveler ($225.99), and the DEXSO hoist with leveler, which dropped out of the best-seller results, with the DEXSO 2-Ton yellow hoist ($189.99). The VEVOR 2-Ton Hoist with Leveler rose from $291.28 to $326.29."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Goplus 2-Ton Folding Hoist rose from $183.99 to $229.99."},
     {
       "date": "2026-10-07",
@@ -74,7 +75,7 @@
       "brand": "VEVOR",
       "model": "2-Ton Hoist with Leveler",
       "image": "https://m.media-amazon.com/images/I/61hI+YdL+TL._SL1500_.jpg",
-      "price": 291.28,
+      "price": 326.29,
       "rating": 3.7,
       "reviews_count": 172,
       "specs": {
@@ -319,14 +320,50 @@
       ]
     },
     {
-      "asin": "B0GWPXQMPQ",
-      "name": "DEXSO 2 Ton Hydraulic Engine Hoist Cherry Picker with Leveler, 4,400 lb",
+      "asin": "B0H265WT26",
+      "name": "DEXSO 2 Ton Hydraulic Engine Hoist Cherry Picker, 4,400 lb, Yellow",
       "brand": "DEXSO",
-      "model": "2-Ton Hoist with Leveler",
-      "image": "https://m.media-amazon.com/images/I/613MKzK66xL._AC_SX425_.jpg",
-      "price": 239.99,
-      "rating": 4.1,
-      "reviews_count": 43,
+      "model": "2-Ton Hoist (yellow)",
+      "image": "https://m.media-amazon.com/images/I/61a4-JsSWIL._AC_SX425_.jpg",
+      "price": 189.99,
+      "rating": 4.7,
+      "reviews_count": 28,
+      "specs": {
+        "capacity": "4,400 lb",
+        "boom": "4 positions, 0.5 to 2 ton",
+        "leveler": "No",
+        "max_height": null,
+        "weight": "142 lb"
+      },
+      "features": {
+        "leveler": false,
+        "dual_pump": false,
+        "low_profile_legs": false,
+        "published_height": false
+      },
+      "verdict": "A plain 2-ton folding crane with metal 360-degree casters and a corrosion-resistant coat. At 4.7 stars it has one of the highest averages on the page.",
+      "best_for": "A 2-ton hoist under $190 with a 4.7-star average.",
+      "skip_if": "You want a leveler included.",
+      "pros": [
+        "4.7-star average",
+        "Metal casters that swivel 360 degrees",
+        "Folding arm and stand for storage"
+      ],
+      "cons": [
+        "No leveler",
+        "No published lift height"
+      ]
+    },
+    {
+      "asin": "B0H699LTM3",
+      "name": "Garvee 2 Ton Engine Hoist with Leveler, Hydraulic Cherry Picker Engine Crane, Folding, 6 Casters, Red",
+      "brand": "Garvee",
+      "model": "2-Ton Hoist with Leveler (6 casters)",
+      "image": "https://m.media-amazon.com/images/I/61Gk-tGdjeL._AC_SX425_.jpg",
+      "price": 225.99,
+      "rating": 4.2,
+      "reviews_count": 25,
+      "bought": "100+/mo",
       "specs": {
         "capacity": "4,400 lb",
         "boom": "4 positions, 0.5 to 2 ton",
@@ -340,53 +377,17 @@
         "low_profile_legs": false,
         "published_height": false
       },
-      "verdict": "A 2-in-1 hoist and leveler with retractable outriggers and an 8-ton pump. It's rated 4.1 stars, a notch above most of the field.",
-      "best_for": "A hoist and leveler with retractable outriggers.",
+      "verdict": "The top organic result for engine hoists on Amazon right now and #6 in Engine Hoists & Stands. A 2-ton folding crane with an 8-ton pump, a leveler and six casters.",
+      "best_for": "A best-selling 2-ton hoist with a leveler in the box.",
       "skip_if": "You need a published lift height.",
       "pros": [
+        "100+ sold a month",
         "Leveler included",
-        "Retractable outriggers and a folding frame",
-        "4.1-star average"
+        "Retractable outriggers; folds for storage"
       ],
       "cons": [
-        "Its own bullets say \"under 4000 lbs\" despite the 4,400 lb rating",
-        "No published lift height"
-      ]
-    },
-    {
-      "asin": "B0HBX22Y8Y",
-      "name": "Garvee 2 Ton Engine Hoist, Hydraulic Cherry Picker Engine Crane, Red",
-      "brand": "Garvee",
-      "model": "2-Ton Hoist",
-      "image": "https://m.media-amazon.com/images/I/61a9qIUddHL._AC_SX425_.jpg",
-      "price": 199.99,
-      "rating": 4.0,
-      "reviews_count": 36,
-      "bought": "50+/mo",
-      "specs": {
-        "capacity": "4,400 lb",
-        "boom": "4 positions, 0.5 to 2 ton",
-        "leveler": "No",
-        "max_height": null,
-        "weight": "130 lb"
-      },
-      "features": {
-        "leveler": false,
-        "dual_pump": false,
-        "low_profile_legs": false,
-        "published_height": false
-      },
-      "verdict": "One of the best-selling hoists on Amazon right now. A straightforward 2-ton folding crane with an 8-ton pump and retractable outriggers.",
-      "best_for": "A straightforward 2-ton hoist that sells well right now.",
-      "skip_if": "You need a leveler.",
-      "pros": [
-        "50+ sold a month; one of the top sellers in Engine Hoists & Stands",
-        "Retractable outriggers; folds for storage",
-        "Four boom positions"
-      ],
-      "cons": [
-        "No leveler",
-        "Fewer reviews than the older listings"
+        "No published lift height",
+        "Listing gives no boom reach"
       ]
     },
     {
@@ -443,7 +444,7 @@
         "It advertises \"stable rolling on concrete, gravel and uneven ground to avoid wobble under full load during engine removal.\" A loaded cherry picker belongs on smooth, level concrete; small casters on gravel are how a hoist tips with an engine hanging from it.",
         "It says the hoist folds small enough to store \"in car trunks\". The listing's own weight is 141 lb, the same as hoists that fold to about 51 x 11 x 10 in.",
         "The listed product dimensions are 64 x 40 x 58 in., which contradicts the \"shrinks to narrow size\" folding claim.",
-        "At $235 it costs more than the GarveeTech and Garvee hoists that include a leveler, and it lists no lift height or per-position boom capacities."
+        "At $246 it costs more than the GarveeTech and Garvee hoists that include a leveler, and it lists no lift height or per-position boom capacities."
       ]
     }
   ],
