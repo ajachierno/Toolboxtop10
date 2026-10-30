@@ -86,6 +86,8 @@
         "push_button": false
       },
       "verdict": "The best-selling bead seater we found. A 5-gallon aluminum tank with a liquid-damped gauge, a safety valve that vents above 135 to 145 psi, and a long duck-bill barrel.",
+      "best_for": "Tires up to 24.5 in., with a lighter aluminum tank.",
+      "skip_if": "You want a push-button trigger.",
       "pros": [
         "600+ sold a month; #2 in Tire Bead Breakers",
         "Aluminum alloy tank (2.8 mm) is lighter than steel at 19 lb",
@@ -119,6 +121,8 @@
         "push_button": true
       },
       "verdict": "A handheld bead blaster with a push-button trigger: you hold it like a rifle and aim the duck-bill barrel between bead and rim. Good for car and light-truck tires.",
+      "best_for": "Car and light-truck tires, aimed one-handed with a push button.",
+      "skip_if": "You seat big truck or tractor tires.",
       "pros": [
         "Push-button trigger and non-slip grip, easier to aim one-handed",
         "Safety valve vents above 115 to 120 psi",
@@ -152,6 +156,8 @@
         "push_button": false
       },
       "verdict": "The highest-rated bead seater with a big review count: 4.7 stars across nearly 1,200 reviews. A 5-gallon powder-coated steel tank with a lipped barrel and a large quick-release valve.",
+      "best_for": "The best-rated tank here, for tires from cars to tractors.",
+      "skip_if": "You want a safety valve listed.",
       "pros": [
         "4.7 stars across 1,100+ reviews, the best on this list",
         "Lipped barrel holds the right angle between tire and rim",
@@ -185,6 +191,8 @@
         "push_button": true
       },
       "verdict": "A larger handheld blaster: 12 liters with a push-button trigger and a long neck that keeps your hands away from the rim.",
+      "best_for": "A push-button handheld with more air than the 2.1 gal models.",
+      "skip_if": "You want a better-rated seater; it scores 4.2 stars.",
       "pros": [
         "More air than the 2.1 gal handhelds",
         "Push-button trigger; long neck for distance",
@@ -218,6 +226,8 @@
         "push_button": false
       },
       "verdict": "A CE-approved steel tank with an automatic safety valve and a lipped metal barrel, rated 4.6 stars across nearly 900 reviews.",
+      "best_for": "A CE-approved tank with an automatic safety valve.",
+      "skip_if": "You want a push-button trigger.",
       "pros": [
         "CE-approved steel tank",
         "Automatic safety valve pops off above operating pressure",
@@ -251,6 +261,8 @@
         "push_button": false
       },
       "verdict": "A plain 5-gallon steel bead seater with 1,100+ reviews at about $68. It's the same lipped-barrel design as the TOOLUXE without the CE mark or safety-valve claim.",
+      "best_for": "A plain 5-gallon steel seater with a long review history.",
+      "skip_if": "You want a safety valve or a listed max pressure.",
       "pros": [
         "1,100+ reviews at 4.4 stars",
         "Lipped metal barrel and gauge",
@@ -283,6 +295,8 @@
         "push_button": false
       },
       "verdict": "A 5-gallon steel seater whose safety valve vents at 116 psi, the top of the normal operating range, so you can't overfill it.",
+      "best_for": "Anyone who wants a valve that stops overfilling at 116 psi.",
+      "skip_if": "You need tire fit listed by rim size, not \"12R and under.\"",
       "pros": [
         "Safety valve vents at 0.8 MPa (116 psi)",
         "4.5 stars across 548 reviews",
@@ -315,6 +329,8 @@
         "push_button": false
       },
       "verdict": "A CE-certified 5-gallon tank rated to 150 psi that covers everything from 4-inch mower tires to 24.5-inch truck tires.",
+      "best_for": "The widest tire range here, from 4 to 24.5 in.",
+      "skip_if": "You want a listed operating pressure.",
       "pros": [
         "CE-certified steel tank, 150 psi max",
         "Widest published tire range here (4 to 24.5 in.)",
@@ -348,6 +364,8 @@
         "push_button": false
       },
       "verdict": "The Cheetah is the bead seater tire shops have used for years. A 5-gallon ASME-certified steel tank, and nothing else to go wrong.",
+      "best_for": "Shops that want the long-running ASME-certified pro design.",
+      "skip_if": "You want a gauge or safety valve on the tank.",
       "pros": [
         "ASME-certified pressure tank",
         "Long-running pro design; 4.6 stars across 342 reviews",
@@ -380,6 +398,8 @@
         "push_button": true
       },
       "verdict": "A pro-grade handheld bead seater from Gaither Tool Co. of Jacksonville, Illinois, with a rapid-release valve and an anti-corrosion coating inside the tank.",
+      "best_for": "Tire shops seating awkward wheels every day.",
+      "skip_if": "You want published pressure ratings.",
       "pros": [
         "Handheld design reaches awkward wheels",
         "Internal anti-corrosion coating; built for daily shop use",
