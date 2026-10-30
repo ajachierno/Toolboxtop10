@@ -2,10 +2,11 @@
   "slug": "biscuit-joiners",
   "title": "The 10 Best Biscuit Joiners",
   "subtitle": "Corded and cordless biscuit (plate) joiners for tabletops, cabinets and frames, ranked from live Amazon data.",
-  "intro": "A biscuit joiner cuts slots for glued wooden biscuits that align and strengthen joints in tabletops, cabinets and frames. We ranked 10 best-sellers from DEWALT, Makita, PORTER-CABLE, WEN and budget brands on rating, review volume and features (a rack-and-pinion fence, an angle fence, dust collection, cordless power and biscuits in the box).",
-  "data_captured": "2026-10-28",
-  "audited": "2026-10-10",
+  "intro": "A biscuit joiner cuts slots for glued wooden biscuits that align and strengthen joints in tabletops, cabinets and frames. We ranked 10 best-sellers from DEWALT, Makita, Lamello, WEN and budget brands on rating, review volume and features (a rack-and-pinion fence, an angle fence, dust collection, cordless power and biscuits in the box).",
+  "data_captured": "2026-10-30",
+  "audited": "2026-10-30",
   "changelog": [
+    {"date": "2026-10-30", "note": "Replaced the PORTER-CABLE 557, which no longer has a seller on Amazon, with the Lamello Zeta P2 ($2,175), which takes the Money No Object badge. The Ecarke DEWALT-battery joiner we warned against is no longer sold; the new pick to avoid is Ecarke's Makita-battery version. Prices and ratings re-checked."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Biggest price moves: the VEVOR M1K-ZK5-100 rose from $52.11 to $69.90; the WOODSTARTER 458618261 rose from $59.99 to $64.99."},
     {
       "date": "2026-10-10",
@@ -107,7 +108,7 @@
       "brand": "DEWALT",
       "model": "DCW682B",
       "image": "https://m.media-amazon.com/images/I/5153mb29nsL._AC_SL1000_.jpg",
-      "price": 238.96,
+      "price": 239.00,
       "rating": 4.8,
       "reviews_count": 436,
       "bought": "200+/mo",
@@ -207,38 +208,39 @@
       ]
     },
     {
-      "asin": "B00004YKUO",
+      "asin": "B07QWB3N9Q",
       "premium": true,
-      "name": "PORTER-CABLE 7-Amp Plate Joiner Kit (557)",
-      "brand": "PORTER-CABLE",
-      "model": "557",
-      "image": "https://m.media-amazon.com/images/I/61t13-Wd89L._AC_SL1500_.jpg",
-      "price": 304.99,
-      "rating": 4.7,
-      "reviews_count": 714,
+      "name": "Lamello Zeta P2 Biscuit Joiner with Diamond Cutter, Drill Jig & Systainer Case (101402DS)",
+      "brand": "Lamello",
+      "model": "Zeta P2",
+      "image": "https://m.media-amazon.com/images/I/61Op61fIlLL._AC_SL1181_.jpg",
+      "price": 2175.0,
+      "rating": 5.0,
+      "reviews_count": 16,
       "specs": {
-        "power": "Corded, 7 A",
-        "speed": "10,000 RPM",
-        "fence": "Tilts 0-135° with positive stop at 90°",
-        "extras": "1 in dust port"
+        "power": "Corded",
+        "speed": null,
+        "fence": null,
+        "extras": "Diamond P-System cutter, drill jig, Systainer case; 5 cutting depths"
       },
       "features": {
         "rack_pinion": false,
-        "angle_fence": true,
+        "angle_fence": false,
         "dust_collection": true,
         "cordless": false,
         "biscuits_included": false
       },
-      "verdict": "A pro favorite with a fence that tilts all the way to 135 degrees and a dust port that takes a bag or a vacuum.",
-      "best_for": "Shops that cut many angled and mitered joints.",
-      "skip_if": "You're price-sensitive; it's one of the priciest here.",
+      "verdict": "Lamello's P-System joiner. It cuts standard biscuit slots and the profiled slots for Lamello's Clamex and Tenso connectors, which pull joints tight or let cabinets knock down and reassemble.",
+      "best_for": "Cabinet and furniture shops that want knock-down connectors as well as biscuits.",
+      "skip_if": "You only glue biscuits; the DEWALT DW682K does that for about a tenth of the price.",
       "pros": [
-        "Fence tilts 0-135°",
-        "7 A motor",
-        "Dust port"
+        "Cuts P-System slots as well as biscuits",
+        "Diamond cutter",
+        "Drill jig and Systainer case included"
       ],
       "cons": [
-        "Most expensive here"
+        "$2,175, the most expensive here",
+        "P-System connectors cost extra"
       ]
     },
     {
@@ -317,8 +319,8 @@
       "model": "M1K-ZK5-100",
       "image": "https://m.media-amazon.com/images/I/61soZg5tWFL._AC_SL1500_.jpg",
       "price": 69.90,
-      "rating": 4.2,
-      "reviews_count": 37,
+      "rating": 4.3,
+      "reviews_count": 38,
       "bought": "100+/mo",
       "specs": {
         "power": "Corded, 5.9 A, 760 W",
@@ -342,8 +344,8 @@
         "Six depths"
       ],
       "cons": [
-        "4.2 stars",
-        "Only 37 reviews"
+        "4.3 stars",
+        "Only 38 reviews"
       ]
     },
     {
@@ -416,20 +418,22 @@
   ],
   "avoid": [
     {
-      "asin": "B0GTMCJS4Q",
-      "name": "Ecarke Cordless Biscuit Joiner Compatible with DeWalt 20V Battery",
+      "asin": "B0FJXLTR85",
+      "name": "Ecarke Cordless Biscuit Joiner Compatible with Makita 18V Battery, Tool Only",
       "brand": "Ecarke",
-      "model": "SKU16003",
-      "image": "https://m.media-amazon.com/images/I/71ocB2yr7nL._AC_SL1500_.jpg",
-      "price": 95.99,
-      "rating": 3.6,
-      "reviews_count": 42,
-      "flag": "Fixed fence; 3.6 stars",
-      "verdict": "A DEWALT-battery joiner with a fixed fence, which makes centering slots on boards of different thickness harder, and the lowest rating of the joiners we looked at.",
+      "model": "FPCAG 001",
+      "image": "https://m.media-amazon.com/images/I/71I129qQAnL._AC_SL1500_.jpg",
+      "price": 93.99,
+      "rating": 3.7,
+      "reviews_count": 52,
+      "bought": "50+/mo",
+      "flag": "Claims 0-90° cutting with a fixed fence",
+      "verdict": "A Makita-battery joiner whose listing contradicts itself on the fence, and it has the lowest rating of the joiners we looked at.",
       "reasons": [
-        "The listing describes a 'sturdy fixed baffle' and an 'auxiliary module' to change the blade offset, rather than a fence you can raise and lower; the joiners we rank adjust height on a fence or rack-and-pinion.",
-        "It's rated 3.6 stars on 42 reviews, the lowest of the joiners we looked at.",
-        "DEWALT owners can buy the DCW682B, which uses the same batteries with a dual rack-and-pinion fence and 4.8 stars."
+        "The title and bullets promise 0-90° cutting, but another bullet describes a fixed fence ('fixed baffle') with an auxiliary module for offset, so it's unclear what actually adjusts.",
+        "The listing gives two different model numbers (part number BGSZ011T0A1, model number FPCAG 001).",
+        "It's a third-party body on Makita batteries, so Makita doesn't warrant it. Makita owners can buy the XJP03Z, with a rack-and-pinion fence and 4.8 stars.",
+        "It's rated 3.7 stars, the lowest of the joiners we looked at."
       ]
     }
   ],
