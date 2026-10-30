@@ -1,0 +1,568 @@
+{
+ "site": "ToolboxTop10",
+ "page_url": "https://toolboxtop10.com/cordless-drills.html",
+ "json_url": "https://toolboxtop10.com/cordless-drills.json",
+ "slug": "cordless-drills",
+ "title": "The 10 Best Cordless Drills",
+ "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
+ "intro": "We pulled the best-selling cordless drills on Amazon, then scored each one on a single 100-point scale built from its star rating, how many people have reviewed it, its value for the price, and its feature set. Two batteries or one, brushless or brushed, heavy-duty or grab-and-go — here is where each lands.",
+ "data_captured": "2026-10-27",
+ "audited": "2026-09-29",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.35,
+   "features": 0.2
+  },
+  "feature_weights": {
+   "brushless": 0.35,
+   "two_speed": 0.2,
+   "led": 0.15,
+   "dual_battery": 0.15,
+   "kit": 0.15
+  },
+  "reviews_ceiling": 60000,
+  "budget_cap_usd": 60,
+  "method_url": "https://toolboxtop10.com/about.html"
+ },
+ "picks": {
+  "best_overall": "B00ET5VMTU",
+  "best_budget": "B07CR1GPBQ",
+  "money_no_object": "B0C3TGRLLM"
+ },
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B00ET5VMTU",
+   "name": "DEWALT DCD771C2 20V MAX Cordless Drill/Driver Kit",
+   "brand": "DEWALT",
+   "model": "DCD771C2",
+   "price": 129.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 49952,
+   "score": 88,
+   "award": "Best Overall",
+   "best_for": "Most homeowners: a proven drill with two batteries in the box.",
+   "bought_last_month": "8K+/mo",
+   "verdict": "The safe default. Nearly 50,000 reviews at 4.8 stars, two batteries in the box, and enough power for almost any home job.",
+   "pros": [
+    "Most-reviewed drill here by a mile — 49,952 ratings at 4.8 stars",
+    "Two speeds (0-450 / 1500 rpm) cover both driving and drilling",
+    "Ships with two 1.3Ah batteries, so one is always charging",
+    "1/2 in ratcheting chuck grips bits tightly"
+   ],
+   "cons": [
+    "Brushed motor — less efficient and shorter-lived than brushless",
+    "No built-in LED work light",
+    "1.3Ah packs are small; heavy use means frequent recharges"
+   ],
+   "specs": {
+    "voltage": "20V MAX",
+    "chuck": "1/2 in ratcheting",
+    "max_rpm": 1500,
+    "speeds": "2-speed (0-450 / 0-1500 rpm)",
+    "torque": "300 UWO",
+    "clutch": null,
+    "battery": "2 x 1.3Ah Li-ion",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "two_speed": true,
+    "led": false,
+    "dual_battery": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81dmm7FomNL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00ET5VMTU?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B00ET5VMTU"
+  },
+  {
+   "rank": 2,
+   "asin": "B0C3TGRLLM",
+   "name": "DEWALT DCD777D1 20V MAX Brushless Drill/Driver",
+   "brand": "DEWALT",
+   "model": "DCD777D1",
+   "price": 138.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 2476,
+   "score": 85,
+   "award": "Money No Object",
+   "best_for": "Buyers who want brushless runtime and an LED on DEWALT 20V MAX.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The upgrade pick. Brushless motor, LED, and a bigger 2.0Ah battery on the same DEWALT platform — worth it if you want longer runtime and tool life.",
+   "pros": [
+    "Brushless motor runs cooler and lasts longer",
+    "Larger 2.0Ah battery plus a built-in LED",
+    "Same 20V MAX battery platform as the rest of DEWALT's line"
+   ],
+   "cons": [
+    "One battery in the box, where the DCD771 ships with two",
+    "The price moves a lot ($106 to $138 between our last two checks), so check it before you buy",
+    "Only ~2,400 reviews vs the DCD771's 49K",
+    "Heavier than a compact 12V drill"
+   ],
+   "specs": {
+    "voltage": "20V MAX",
+    "chuck": "1/2 in",
+    "max_rpm": 1500,
+    "speeds": "2-speed",
+    "torque": null,
+    "clutch": null,
+    "battery": "2.0Ah Li-ion",
+    "weight": null
+   },
+   "features": {
+    "brushless": true,
+    "two_speed": true,
+    "led": true,
+    "dual_battery": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/715+r4lU6mL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C3TGRLLM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B0C3TGRLLM"
+  },
+  {
+   "rank": 3,
+   "asin": "B07CR1GPBQ",
+   "name": "AVID POWER 20V Cordless Drill Set (22 accessories)",
+   "brand": "AVID POWER",
+   "model": "ACD305",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 23667,
+   "score": 79,
+   "award": "Best Budget",
+   "best_for": "Light jobs at home: furniture, shelves, picture hooks, under $50.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The value champ. 23,000+ reviews at 4.6 stars for under $50, light in the hand, and it comes ready to work with a 22-piece bit set.",
+   "pros": [
+    "23,667 reviews at 4.6 stars — enormous trust for the price",
+    "Only 2.5 lb with a rubber grip and LED light",
+    "15+1 clutch plus a 22-piece bit set, ready out of the box",
+    "Battery has a real-time charge-level display"
+   ],
+   "cons": [
+    "Single-speed (0-550 rpm) — slower for drilling",
+    "280 in-lbs is light-duty torque",
+    "Only accepts AVID POWER's own batteries",
+    "Not rated for masonry"
+   ],
+   "specs": {
+    "voltage": "20V",
+    "chuck": "3/8 in keyless",
+    "max_rpm": 550,
+    "speeds": "1-speed (0-550 rpm)",
+    "torque": "280 in-lbs",
+    "clutch": "15+1",
+    "battery": "20V Li-ion (level display)",
+    "weight": "2.5 lb"
+   },
+   "features": {
+    "brushless": false,
+    "two_speed": false,
+    "led": true,
+    "dual_battery": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71EZfS7MHCL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07CR1GPBQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B07CR1GPBQ"
+  },
+  {
+   "rank": 4,
+   "asin": "B08YJTYDD4",
+   "name": "COMOWARE 20V Cordless Drill (34-pc bit set)",
+   "brand": "COMOWARE",
+   "model": "20V",
+   "price": 31.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 9118,
+   "score": 79,
+   "award": null,
+   "best_for": "Occasional DIY on the tightest budget, with a big bit set included.",
+   "bought_last_month": "6K+/mo",
+   "verdict": "A lot of drill for about $27 — two speeds, a 25+1 clutch, and a 34-piece bit set. Fine for occasional DIY.",
+   "pros": [
+    "Two variable speeds up to 1300 rpm",
+    "266 in-lbs torque with a 25+1 clutch",
+    "LED light plus a 34-piece bit set included",
+    "9,118 reviews"
+   ],
+   "cons": [
+    "One battery and charger only",
+    "Off-brand warranty and support",
+    "Brushed motor"
+   ],
+   "specs": {
+    "voltage": "20V",
+    "chuck": "3/8 in keyless",
+    "max_rpm": 1300,
+    "speeds": "2-speed",
+    "torque": "266 in-lbs",
+    "clutch": "25+1",
+    "battery": "1.5Ah Li-ion",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "two_speed": true,
+    "led": true,
+    "dual_battery": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81ZQbw9N27L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08YJTYDD4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B08YJTYDD4"
+  },
+  {
+   "rank": 5,
+   "asin": "B0DFXLWYQ9",
+   "name": "PULITUO 20V Cordless Drill/Driver (2 batteries)",
+   "brand": "PULITUO",
+   "model": "20V",
+   "price": 35.97,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1930,
+   "score": 78,
+   "award": null,
+   "best_for": "Budget buyers who want two batteries so one is always charged.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "Two batteries in the box for under $40, plus two speeds and an LED. Basic build, but a lot of kit for the money.",
+   "pros": [
+    "Ships with two batteries",
+    "Two speeds up to 1500 rpm, 30 Nm, 21+1 clutch",
+    "LED light and 4.5-star rating"
+   ],
+   "cons": [
+    "Only ~1,800 reviews",
+    "Light-duty for tough materials",
+    "Generic brand support"
+   ],
+   "specs": {
+    "voltage": "20V",
+    "chuck": "3/8 in keyless",
+    "max_rpm": 1500,
+    "speeds": "2-speed",
+    "torque": "30 Nm (~266 in-lbs)",
+    "clutch": "21+1",
+    "battery": "2 x Li-ion",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "two_speed": true,
+    "led": true,
+    "dual_battery": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71z5BWWiTKL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DFXLWYQ9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B0DFXLWYQ9"
+  },
+  {
+   "rank": 6,
+   "asin": "B07KKGXFF5",
+   "name": "CRAFTSMAN V20 CMCD700C1 Cordless Drill/Driver Kit",
+   "brand": "CRAFTSMAN",
+   "model": "CMCD700C1",
+   "price": 99.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 6051,
+   "score": 76,
+   "award": null,
+   "best_for": "Starting on CRAFTSMAN V20 with a 1/2 in chuck for larger bits.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A name-brand middle option on the V20 platform, with an LED and a 1/2 in chuck. Solid, if not exciting.",
+   "pros": [
+    "CRAFTSMAN V20 battery platform",
+    "1/2 in chuck and 1500 rpm",
+    "Built-in LED, 6,051 reviews at 4.7 stars"
+   ],
+   "cons": [
+    "Single-speed transmission",
+    "Brushed motor",
+    "Comes with one 1.3Ah battery"
+   ],
+   "specs": {
+    "voltage": "20V MAX",
+    "chuck": "1/2 in",
+    "max_rpm": 1500,
+    "speeds": "1-speed",
+    "torque": null,
+    "clutch": null,
+    "battery": "1.3Ah Li-ion",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "two_speed": false,
+    "led": true,
+    "dual_battery": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71nCcV+GBAL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07KKGXFF5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B07KKGXFF5"
+  },
+  {
+   "rank": 7,
+   "asin": "B0111N8L7I",
+   "name": "BLACK+DECKER BDCDD12C 12V MAX Drill/Driver",
+   "brand": "BLACK+DECKER",
+   "model": "BDCDD12C",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 7722,
+   "score": 73,
+   "award": null,
+   "best_for": "Overhead and in-cabinet work where a 2.18 lb drill saves your wrist.",
+   "bought_last_month": "700+/mo",
+   "verdict": "The featherweight. At 2.18 lb it's the easiest to hold overhead or in a cabinet — just keep the jobs light.",
+   "pros": [
+    "Only 2.18 lb — lightest drill on the list",
+    "11-position clutch and an LED",
+    "Trusted BLACK+DECKER name, 7,722 reviews",
+    "Inexpensive"
+   ],
+   "cons": [
+    "12V / 550 rpm is strictly light-duty",
+    "Small 1.5Ah battery",
+    "No second gear"
+   ],
+   "specs": {
+    "voltage": "12V MAX",
+    "chuck": "3/8 in",
+    "max_rpm": 550,
+    "speeds": "1-speed",
+    "torque": null,
+    "clutch": "11-position",
+    "battery": "1.5Ah Li-ion",
+    "weight": "2.18 lb"
+   },
+   "features": {
+    "brushless": false,
+    "two_speed": false,
+    "led": true,
+    "dual_battery": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61vJaKuqa6L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0111N8L7I?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B0111N8L7I"
+  },
+  {
+   "rank": 8,
+   "asin": "B0079IRIG0",
+   "name": "BLACK+DECKER 20V MAX Drill + 100-piece Kit",
+   "brand": "BLACK+DECKER",
+   "model": "BDC120VA100",
+   "price": 64.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 5649,
+   "score": 72,
+   "award": null,
+   "best_for": "A first toolbox: drill plus a 100-piece bit and socket set.",
+   "bought_last_month": "4K+/mo",
+   "verdict": "Buy it for the 100-piece bit and socket kit as much as the drill. A complete starter set for a first home toolbox.",
+   "pros": [
+    "100-piece bit and socket set included — instant starter kit",
+    "20V MAX battery platform",
+    "5,649 reviews at 4.6 stars"
+   ],
+   "cons": [
+    "650 rpm single-speed is low on power",
+    "No LED light",
+    "Kit accessories are budget-grade"
+   ],
+   "specs": {
+    "voltage": "20V MAX",
+    "chuck": "3/8 in",
+    "max_rpm": 650,
+    "speeds": "1-speed",
+    "torque": null,
+    "clutch": null,
+    "battery": "1.5Ah Li-ion",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "two_speed": false,
+    "led": false,
+    "dual_battery": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71d8QMcVgYL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0079IRIG0?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B0079IRIG0"
+  },
+  {
+   "rank": 9,
+   "asin": "B0CC1RHJY1",
+   "name": "DEKOPRO 20V Cordless Drill Set",
+   "brand": "DEKOPRO",
+   "model": "20V",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 7867,
+   "score": 71,
+   "award": null,
+   "best_for": "A 20V drill under $30 with an 18+1 clutch.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "Among the cheapest 20V drills here, and it sells hard — 4,000+ bought a month. Bare-bones but gets light jobs done.",
+   "pros": [
+    "Under $30 for a 20V drill",
+    "18+1 clutch, 1350 rpm, only 2.5 lb",
+    "7,867 reviews; noted for battery life"
+   ],
+   "cons": [
+    "No LED work light",
+    "Single-speed only",
+    "Generic brand and warranty"
+   ],
+   "specs": {
+    "voltage": "20V",
+    "chuck": "3/8 in",
+    "max_rpm": 1350,
+    "speeds": "1-speed",
+    "torque": null,
+    "clutch": "18+1",
+    "battery": "1.5Ah Li-ion",
+    "weight": "2.5 lb"
+   },
+   "features": {
+    "brushless": false,
+    "two_speed": false,
+    "led": false,
+    "dual_battery": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/810mhyjBI7L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CC1RHJY1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B0CC1RHJY1"
+  },
+  {
+   "rank": 10,
+   "asin": "B0C4L88ZFW",
+   "name": "FADAKWALT 12V Cordless Drill Set",
+   "brand": "FADAKWALT",
+   "model": "12V",
+   "price": 23.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1889,
+   "score": 71,
+   "award": null,
+   "best_for": "Flat-pack furniture and hanging shelves for under $25.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "The budget floor. Lowest price on the list, with an LED and a bit set — fine for hanging shelves and flat-pack furniture.",
+   "pros": [
+    "Cheapest drill here",
+    "3/8 in keyless chuck, 21+1 clutch, LED",
+    "4.5-star rating"
+   ],
+   "cons": [
+    "12V / 650 rpm — light-duty only",
+    "Only ~1,800 reviews",
+    "Generic support"
+   ],
+   "specs": {
+    "voltage": "12V",
+    "chuck": "3/8 in keyless",
+    "max_rpm": 650,
+    "speeds": "1-speed",
+    "torque": "180 in-lbs",
+    "clutch": "21+1",
+    "battery": "1.3Ah Li-ion",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "two_speed": false,
+    "led": true,
+    "dual_battery": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71QM7L2KvJL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C4L88ZFW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#B0C4L88ZFW"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0G4QS4RK4",
+   "name": "JH Steady 21V Cordless Drill Driver Kit",
+   "brand": "JH Steady",
+   "model": "21V Kit",
+   "price": 35.99,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 102,
+   "flag": "Listing contradicts itself on core specs",
+   "verdict": "The lowest-ranked drill we found — and the listing itself is the reason. Skip it.",
+   "reasons": [
+    "The spec sheet claims a 30,000 rpm max speed while the description says 1,500 rpm. A drill does not spin at 30,000 rpm — that is a rotary-tool number. When a listing contradicts itself on the headline spec, you can't trust anything else on the page.",
+    "\"JH Steady\" is a no-name brand with no service record, and the battery is a proprietary 21V pack. When it dies you are buying a whole new drill, not a replacement battery.",
+    "The page sells several different \"kit options\" under one listing, so its ratings may not even be for this exact drill — you can't tell what the stars are actually rating.",
+    "\"21V\" is marketing inflation. Serious drills run 18V or 20V MAX; padding the number to 21 is a spec game, not extra power."
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/71JN1AUjs4L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G4QS4RK4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-drills.html#avoid-B0G4QS4RK4"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "Voltage: 12V or 20V?",
+   "a": "12V drills are lighter and cheaper and handle furniture, shelves, and small jobs. 20V drills have the torque for drilling into hardwood, driving long screws, and general home projects. If you only own one drill, buy 20V."
+  },
+  {
+   "q": "Brushless or brushed?",
+   "a": "Brushless motors run cooler, last longer, and squeeze more runtime from a battery. They cost more. For occasional DIY, a brushed drill like the DCD771 is fine; if you'll use it weekly, pay up for brushless."
+  },
+  {
+   "q": "How much torque do I need?",
+   "a": "Torque is twisting power. Under ~300 in-lbs (or ~35 Nm) is light-duty — screws and small bits. Name-brand 20V drills push well past that for drilling into wood and metal. None of these are rated for concrete or masonry."
+  },
+  {
+   "q": "One battery or two?",
+   "a": "Two batteries mean you never stop to charge. Kits like the DCD771 and PULITUO include a spare; most budget drills ship with one, so factor a second battery into the price."
+  },
+  {
+   "q": "What does chuck size mean?",
+   "a": "The chuck holds the bit. A 3/8 in chuck fits most home bits; a 1/2 in chuck accepts larger bits and grips better for heavy drilling. Keyless chucks let you swap bits by hand."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-27",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DCD777D1 rose from $106 to $138; the COMOWARE 20V rose from $27.19 to $31.99; the PULITUO 20V dropped from $39.99 to $35.97."
+  },
+  {
+   "date": "2026-10-06",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the AVID POWER ACD305 dropped from $46.99 to $39.99; the COMOWARE 20V dropped from $30.99 to $27.19; the PULITUO 20V rose from $35.98 to $39.99. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."
+  },
+  {
+   "date": "2026-08-09",
+   "note": "Page published."
+  },
+  {
+   "date": "2026-09-29",
+   "note": "All 10 picks kept. The DEWALT DCD777D1 dropped from $179 to $107.99 (a 40%-off markdown) and the PULITUO 20V from $49.99 to $35.98."
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ToolboxTop10's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

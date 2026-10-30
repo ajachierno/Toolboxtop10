@@ -1,0 +1,495 @@
+{
+ "site": "ToolboxTop10",
+ "page_url": "https://toolboxtop10.com/bench-grinders.html",
+ "json_url": "https://toolboxtop10.com/bench-grinders.json",
+ "slug": "bench-grinders",
+ "title": "The 10 Best Bench Grinders",
+ "subtitle": "6-inch and 8-inch bench grinders for sharpening, shaping and cleaning up metal, ranked from live Amazon data.",
+ "intro": "A bench grinder spins two abrasive wheels for sharpening mower blades, chisels and drill bits, shaping metal and cleaning rust with a wire wheel. We ranked 10 best-sellers on rating, review volume and features (a cast iron base or body, a work light, and a slow speed for sharpening without burning the edge). Standard grinders run about 3,450 rpm; low-speed 1,750 rpm models are made for woodworking tools. They run from about $49 for WEN's 6-inch to $470 for JET's 8-inch with a wire wheel.",
+ "data_captured": "2026-10-30",
+ "audited": "2026-10-30",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.35,
+   "features": 0.2
+  },
+  "feature_weights": {
+   "cast_iron": 0.35,
+   "light": 0.3,
+   "slow_speed": 0.35
+  },
+  "reviews_ceiling": 3000,
+  "budget_cap_usd": 70,
+  "method_url": "https://toolboxtop10.com/about.html"
+ },
+ "picks": {
+  "best_overall": "B0000224J4",
+  "best_budget": "B0FM87ZKTT",
+  "money_no_object": "B07FP5WKK7"
+ },
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B086JYS1Y3",
+   "name": "BUCKTOOL 8\" 3/4HP Low Speed Bench Grinder fit CBN Wheel, Wobble Free Wheels (TDS-200C4HL)",
+   "brand": "BUCKTOOL",
+   "model": "TDS-200C4HL",
+   "price": 196.46,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 327,
+   "score": 87,
+   "award": null,
+   "best_for": "Woodturners and carvers sharpening gouges, or anyone moving to CBN wheels.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A low-speed 8-inch grinder built for woodturners: a 1-1/2-inch-wide wheel that also fits CBN wheels, a 3/4 HP motor, LED light, magnifying eye shield and cast iron base.",
+   "pros": [
+    "1-1/2-inch wheel takes CBN wheels",
+    "3/4 HP at 1,750 rpm",
+    "LED light, magnifier, keyed safety switch"
+   ],
+   "cons": [
+    "$196.46",
+    "Low speed only"
+   ],
+   "specs": {
+    "wheels": "8 in, 80 grit (1 in) and 120 grit (1-1/2 in)",
+    "speed": "1,750 rpm",
+    "motor": "3/4 HP, 4.8 A induction",
+    "weight": "37 lb",
+    "in_box": "2 wheels, LED light, spark deflectors, tool rests, wheel dresser"
+   },
+   "features": {
+    "cast_iron": true,
+    "light": true,
+    "slow_speed": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71wq2TpAKWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B086JYS1Y3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B086JYS1Y3"
+  },
+  {
+   "rank": 2,
+   "asin": "B0000224J4",
+   "name": "DEWALT DW758 8-Inch Bench Grinder",
+   "brand": "DEWALT",
+   "model": "DW758",
+   "price": 139.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2667,
+   "score": 83,
+   "award": "Best Overall",
+   "best_for": "A garage or shop grinder that will outlast you.",
+   "bought_last_month": "400+/mo",
+   "verdict": "The most-reviewed bench grinder here: a 3/4 HP induction motor in a cast iron base and housing, machined aluminum tool rests, and 12-1/2 inches between the wheels for long workpieces.",
+   "pros": [
+    "2,667 reviews at 4.6 stars",
+    "Cast iron base and motor housing",
+    "12-1/2 inches between wheels"
+   ],
+   "cons": [
+    "No work light",
+    "Amazon's listed weight (0.22 kg) is clearly wrong"
+   ],
+   "specs": {
+    "wheels": "8 in, 36 and 60 grit",
+    "speed": "3,600 rpm",
+    "motor": "3/4 HP induction",
+    "weight": null,
+    "in_box": "2 wheels, eye shields, spark deflectors, tool rests"
+   },
+   "features": {
+    "cast_iron": true,
+    "light": false,
+    "slow_speed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/617KDCd1u9L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0000224J4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B0000224J4"
+  },
+  {
+   "rank": 3,
+   "asin": "B07T3L1T8S",
+   "name": "BUCKTOOL 8\" 1/2HP Dual Speed Bench Grinder Buffer Combo with Cast Iron Base (TDS-200DS)",
+   "brand": "BUCKTOOL",
+   "model": "TDS-200DS",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 464,
+   "score": 82,
+   "award": null,
+   "best_for": "One grinder for both sharpening and metal work.",
+   "bought_last_month": null,
+   "verdict": "Two speeds on one 8-inch grinder: 1,725 rpm for sharpening woodworking tools and 3,450 rpm for metal, with white aluminum oxide wheels that run cooler and a buffing wheel.",
+   "pros": [
+    "Low and high speed",
+    "Cast iron base with mounting holes",
+    "Buffing wheel and 3x magnifier included"
+   ],
+   "cons": [
+    "45 lbs",
+    "1/2 HP for 8-inch wheels"
+   ],
+   "specs": {
+    "wheels": "8 in, 80 and 120 grit, plus buffing wheel",
+    "speed": "1,725 / 3,450 rpm",
+    "motor": "1/2 HP induction",
+    "weight": "45 lb",
+    "in_box": "2 wheels, buffing wheel, tool rests, 3x magnifier"
+   },
+   "features": {
+    "cast_iron": true,
+    "light": false,
+    "slow_speed": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81YbqGKLoTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07T3L1T8S?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B07T3L1T8S"
+  },
+  {
+   "rank": 4,
+   "asin": "B09T3XHS56",
+   "name": "WEN BG625V 2.5-Amp 6-Inch Variable Speed Bench Grinder with Flexible Work Light",
+   "brand": "WEN",
+   "model": "BG625V",
+   "price": 123.25,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 171,
+   "score": 76,
+   "award": null,
+   "best_for": "Mixed sharpening and grinding on a 6-inch grinder.",
+   "bought_last_month": "50+/mo",
+   "verdict": "WEN's variable-speed 6-inch grinder: dial it down to 2,000 rpm for sharpening or up to 3,400 for grinding, with a flexible work light.",
+   "pros": [
+    "Variable 2,000-3,400 rpm",
+    "Flexible work light",
+    "2-year warranty"
+   ],
+   "cons": [
+    "About $67 more than WEN's single-speed BG4260",
+    "Listing showed only 10 left in stock"
+   ],
+   "specs": {
+    "wheels": "6 in, 36 and 80 grit",
+    "speed": "2,000-3,400 rpm, variable",
+    "motor": "2.5 A",
+    "weight": null,
+    "in_box": "2 wheels, pivoting tool rests, eye guards"
+   },
+   "features": {
+    "cast_iron": false,
+    "light": true,
+    "slow_speed": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71doJCEo8oL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09T3XHS56?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B09T3XHS56"
+  },
+  {
+   "rank": 5,
+   "asin": "B0FM87ZKTT",
+   "name": "VEVOR 6-inch Single Speed Bench Grinder, 3450RPM, 250W 2.1A 1/3Hp Induction Motor, LED Work Light (MD150)",
+   "brand": "VEVOR",
+   "model": "MD150",
+   "price": 67.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 127,
+   "score": 76,
+   "award": "Best Budget",
+   "best_for": "A heavier 6-inch grinder with a light.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A 6-inch grinder with a cast iron body, an LED work light and tool-free rests, for about $12 more than the WEN BG4260.",
+   "pros": [
+    "Cast iron body, steel base, rubber feet",
+    "LED work light",
+    "Tool-free tool rest adjustment"
+   ],
+   "cons": [
+    "No warranty term listed",
+    "Listing showed only 1 left in stock"
+   ],
+   "specs": {
+    "wheels": "6 in, 36 and 60 grit",
+    "speed": "3,450 rpm",
+    "motor": "2.1 A, 1/3 HP induction",
+    "weight": "18.7 lb",
+    "in_box": "2 wheels, eye shields, 2 work rests"
+   },
+   "features": {
+    "cast_iron": true,
+    "light": true,
+    "slow_speed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61EoimtPsSL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FM87ZKTT?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B0FM87ZKTT"
+  },
+  {
+   "rank": 6,
+   "asin": "B091GRDLKQ",
+   "name": "BUCKTOOL 6\" 1/3HP Low Speed Bench Grinder, Wobble Free Wheels (TLG-150S)",
+   "brand": "BUCKTOOL",
+   "model": "TLG-150S",
+   "price": 84.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 263,
+   "score": 74,
+   "award": null,
+   "best_for": "Sharpening chisels, plane irons and turning tools.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The highest-rated grinder here: a 1,750 rpm low-speed grinder for sharpening woodworking tools without bluing the edge, on a rubber-footed cast aluminum base.",
+   "pros": [
+    "4.7 stars, the best rating here",
+    "1,750 rpm runs cooler on edges",
+    "2-year warranty"
+   ],
+   "cons": [
+    "Cast aluminum base, not cast iron",
+    "No work light"
+   ],
+   "specs": {
+    "wheels": "6 in, 60 and 80 grit",
+    "speed": "1,750 rpm",
+    "motor": "1/3 HP",
+    "weight": "22.4 lb",
+    "in_box": "2 wheels, 2 eye shields, 2 tool rests"
+   },
+   "features": {
+    "cast_iron": false,
+    "light": false,
+    "slow_speed": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71vibkKxZNL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B091GRDLKQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B091GRDLKQ"
+  },
+  {
+   "rank": 7,
+   "asin": "B07FP5WKK7",
+   "name": "JET 8-Inch Bench Grinder with Wire Wheel, 3450 RPM, 1 HP, 115V 1Ph (JBG-8W)",
+   "brand": "JET",
+   "model": "JBG-8W",
+   "price": 469.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 167,
+   "score": 71,
+   "award": "Money No Object",
+   "best_for": "Metal shops that grind and wire-brush all day.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A 1 HP, 54 lb shop grinder with cast iron wheel guards and dust chutes, sealed ball bearings and a wire wheel in place of a second stone. UL listed, 2-year warranty.",
+   "pros": [
+    "1 HP, the most power here",
+    "Cast iron wheel guards with dust chutes",
+    "Wire wheel included"
+   ],
+   "cons": [
+    "$469.99",
+    "Only one grinding wheel; no light"
+   ],
+   "specs": {
+    "wheels": "8 in, 36 grit plus crimped wire wheel",
+    "speed": "3,450 rpm",
+    "motor": "1 HP",
+    "weight": "54 lb",
+    "in_box": "36-grit wheel, wire wheel, spark guards, tool rests, eye shields"
+   },
+   "features": {
+    "cast_iron": true,
+    "light": false,
+    "slow_speed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51oxGPYhn1L._AC_SL1100_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07FP5WKK7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B07FP5WKK7"
+  },
+  {
+   "rank": 8,
+   "asin": "B08ZVTFSHK",
+   "name": "WEN BG4260 2.1-Amp 6-Inch Single Speed Bench Grinder",
+   "brand": "WEN",
+   "model": "BG4260",
+   "price": 56.06,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 732,
+   "score": 68,
+   "award": null,
+   "best_for": "Sharpening mower blades, knives and drill bits on a budget.",
+   "bought_last_month": "100+/mo",
+   "verdict": "WEN's basic 6-inch grinder: 36- and 60-grit wheels, pivoting tool rests, eye guards and a 2-year warranty. It's the cheapest grinder here.",
+   "pros": [
+    "Pivoting tool rests",
+    "2-year warranty",
+    "14 lbs"
+   ],
+   "cons": [
+    "Costs more than WEN's own model with a light",
+    "4.4 stars"
+   ],
+   "specs": {
+    "wheels": "6 in, 36 and 60 grit",
+    "speed": "3,450 rpm",
+    "motor": "2.1 A",
+    "weight": "14 lb",
+    "in_box": "2 wheels, tool rests, eye guards"
+   },
+   "features": {
+    "cast_iron": false,
+    "light": false,
+    "slow_speed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/816RVj+KyaL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08ZVTFSHK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B08ZVTFSHK"
+  },
+  {
+   "rank": 9,
+   "asin": "B07FP5WNG1",
+   "name": "JET 6-Inch Bench Grinder w/ Wire Wheel, 3450 RPM, 115V 1Ph (JBG-6W)",
+   "brand": "JET",
+   "model": "JBG-6W",
+   "price": 339.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 108,
+   "score": 66,
+   "award": null,
+   "best_for": "A cast iron 6-inch for wire-brushing and grinding in a metal shop.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The 6-inch version of JET's shop grinder: cast iron body, wheel guards and dust ports, sealed ball bearings and a wire wheel in place of a second stone. 2-year warranty.",
+   "pros": [
+    "Cast iron body and wheel guards",
+    "Wire wheel included",
+    "Pre-drilled base for a stand or bench"
+   ],
+   "cons": [
+    "$339.99 for a 6-inch",
+    "Only one grinding wheel; no light"
+   ],
+   "specs": {
+    "wheels": "6 in, 36 grit plus crimped wire wheel",
+    "speed": "3,450 rpm",
+    "motor": "1/2 HP",
+    "weight": "31 lb",
+    "in_box": "36-grit wheel, wire wheel, spark guards, tool rests, eye shields"
+   },
+   "features": {
+    "cast_iron": true,
+    "light": false,
+    "slow_speed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51w5lT+uF6L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07FP5WNG1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B07FP5WNG1"
+  },
+  {
+   "rank": 10,
+   "asin": "B09YQZ4WHR",
+   "name": "Woodskil 6\" 1/2HP High Speed Bench Grinder, CSA Listed (TDS-150CL-A)",
+   "brand": "Woodskil",
+   "model": "TDS-150CL-A",
+   "price": 99.49,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 217,
+   "score": 65,
+   "award": null,
+   "best_for": "A 6-inch grinder with more motor.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A 6-inch grinder with a bigger 1/2 HP, 2.8A motor than the 2.1A WENs, a pre-drilled steel base and CSA certification.",
+   "pros": [
+    "1/2 HP, 2.8A motor",
+    "CSA certified",
+    "2-year warranty"
+   ],
+   "cons": [
+    "No work light",
+    "About $43 more than the WEN BG4260"
+   ],
+   "specs": {
+    "wheels": "6 in, 36 and 60 grit",
+    "speed": "3,450 rpm",
+    "motor": "1/2 HP, 2.8 A",
+    "weight": "17 lb",
+    "in_box": "2 wheels, eye shield, spark arrestor"
+   },
+   "features": {
+    "cast_iron": false,
+    "light": false,
+    "slow_speed": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71OSjBzw1BL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09YQZ4WHR?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#B09YQZ4WHR"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0GG2W5HWG",
+   "name": "Ecarke 3\" Mini Bench Grinder Compatible with Dewalt 20V (Tool Only), 2000-10000 RPM, AC Adapter",
+   "brand": "Ecarke",
+   "model": "MDQW011D",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 72,
+   "flag": "No eye shields or tool rests listed; 3-in wheels",
+   "verdict": "A 3-inch hobby grinder sold for jobs it isn't built for. For about $16 more, the WEN BG4260 has 6-inch wheels, eye guards, tool rests and a 2-year warranty.",
+   "reasons": [
+    "The box list is the grinder, an AC adapter, rubber feet and a towel. It doesn't list eye shields, spark guards or tool rests, the basic safety parts a bench grinder should come with.",
+    "It's marketed for axes and bush hooks, but a 3-inch wheel is a hobby size. Heavy blades want a 6- or 8-inch grinder with proper tool rests.",
+    "It's a third-party body on DEWALT batteries, so DEWALT doesn't warrant it, and the listing names no warranty of its own."
+   ],
+   "bought_last_month": "100+/mo",
+   "image": "https://m.media-amazon.com/images/I/717n-+Y1jHL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GG2W5HWG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bench-grinders.html#avoid-B0GG2W5HWG"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "6-inch or 8-inch?",
+   "a": "6-inch grinders cover blades, knives and drill bits in a home garage. 8-inch wheels last longer, run at a higher surface speed and give more room between the wheels for bigger parts."
+  },
+  {
+   "q": "What is a low-speed grinder for?",
+   "a": "Low-speed grinders run about 1,750 rpm instead of 3,450. The slower wheel heats the edge less, so chisels, plane irons and turning tools don't lose their temper. For metal work, standard speed is faster."
+  },
+  {
+   "q": "Which grit wheels do I need?",
+   "a": "A coarse wheel (36 grit) for shaping and removing metal, and a finer wheel (60 to 120 grit) for sharpening. White aluminum oxide wheels run cooler than the gray ones and suit tool steel."
+  },
+  {
+   "q": "Do I need to bolt a bench grinder down?",
+   "a": "Yes. Bolt it to a bench or stand so it can't walk or tip, and set the tool rests within 1/8 inch of the wheel so work can't get pulled in."
+  },
+  {
+   "q": "Can I put a wire wheel on a bench grinder?",
+   "a": "Yes, on most models, as long as the wheel's arbor size and maximum rpm match the grinder. A wire wheel strips rust and paint and cleans up welds."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-30",
+   "note": "Replaced the WEN BG4276, which no longer has a seller on Amazon, with the JET JBG-6W ($339.99). The VEVOR MD150 is now our Best Budget pick, and the WEN BG4260 is the cheapest grinder here. Every other pick kept; prices and ratings re-checked."
+  },
+  {
+   "date": "2026-10-28",
+   "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the DEWALT DW758 dropped from $159 to $139."
+  },
+  {
+   "date": "2026-10-10",
+   "note": "Page published with 10 ranked picks and 1 tool to avoid."
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ToolboxTop10's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

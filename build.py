@@ -205,7 +205,7 @@ def spec_rows(specs, fields):
 def render_hero_card(p, site, cat):
     url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
     return f"""
-    <a class="hero-card {esc(p['badge_kind'])}"
+    <a class="hero-card {esc(p['badge_kind'])}" {data_attrs(p, award=p['badge'])}
        href="{url}" target="_blank" rel="sponsored nofollow noopener">
       <span class="hero-tag">{esc(p['badge'])}</span>
       <img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy">
@@ -257,7 +257,7 @@ def render_card(p, site, spec_fields, cat=None):
     pros = "\n".join(f"<li>{esc(x)}</li>" for x in p["pros"])
     cons = "\n".join(f"<li>{esc(x)}</li>" for x in p["cons"])
     return f"""
-    <article class="card" id="{esc(p['asin'])}">
+    <article class="card" id="{esc(p['asin'])}" {data_attrs(p, award=p['badge'])}>
       <div class="rank">#{p['rank']}</div>
       <div class="card-head">
         <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
@@ -411,7 +411,7 @@ def render_avoid(avoid, site):
         url = amazon_url(a["asin"], site["affiliate_tag"], site["amazon_domain"])
         reasons = "\n".join(f"<li>{esc(r)}</li>" for r in a["reasons"])
         cards.append(f"""
-      <article class="avoid-card" id="avoid-{esc(a['asin'])}">
+      <article class="avoid-card" id="avoid-{esc(a['asin'])}" {data_attrs(a, avoid="true")}>
         <span class="avoid-flag">&#10005; Avoid</span>
         <div class="avoid-head">
           <div class="card-img"><img src="{esc(a['image'])}" alt="{esc(a['name'])}" loading="lazy"></div>
@@ -451,6 +451,155 @@ def meta_desc(text, limit=157):
         return text
     cut = text[:limit].rsplit(" ", 1)[0].rstrip(",.;:—- ")
     return cut + "…"
+
+
+# ------------------------------------------------------------- agent-readable layer
+# Everything in this block is additive and invisible to people: data-* attributes on
+# product cards, Product + WebPage nodes in the JSON-LD, a JSON twin of every ranking
+# page (<slug>.json), a site index (index.json), llms.txt and explicit robots.txt
+# allows for AI crawlers. No CSS or JS reads any of it. Regenerated on every build.
+AI_CRAWLERS = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User",
+               "anthropic-ai", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot-Extended",
+               "Amazonbot", "meta-externalagent", "DuckAssistBot", "CCBot", "cohere-ai", "YouBot", "MistralAI-User"]
+
+
+def data_attrs(p, **extra):
+    """Invisible data-* attributes for a product card so DOM-reading agents and browser
+    extensions can pull the numbers without parsing text."""
+    vals = {"asin": p.get("asin"), "brand": p.get("brand"), "model": p.get("model"), "rank": p.get("rank"),
+            "price": p.get("price"), "rating": p.get("rating"), "reviews": p.get("reviews_count"),
+            "score": p.get("score")}
+    vals.update(extra)
+    return " ".join(f'data-{k}="{esc(v)}"' for k, v in vals.items() if v not in (None, ""))
+
+
+def product_ld(p, site):
+    """schema.org Product for one pick. Amazon's star rating is deliberately not emitted as
+    aggregateRating (those are Amazon's ratings, not ours); it stays in the visible text,
+    the data-* attributes and the JSON twin."""
+    url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
+    out = {"@type": "Product", "name": p["name"], "brand": {"@type": "Brand", "name": p["brand"]},
+           "model": p["model"], "sku": p["asin"], "image": p["image"], "url": url}
+    if p.get("verdict"):
+        out["description"] = p["verdict"]
+    if isinstance(p.get("price"), (int, float)):
+        out["offers"] = {"@type": "Offer", "price": f"{p['price']:.2f}", "priceCurrency": "USD", "url": url}
+    return out
+
+
+def webpage_ld(site, canonical, title, cat, main_id):
+    """WebPage node carrying the dates agents weight most: when the data was captured and
+    when the page first went up."""
+    base = f"https://{site['custom_domain']}"
+    out = {"@context": "https://schema.org", "@type": "WebPage", "@id": canonical, "url": canonical,
+           "name": title, "dateModified": cat_date(cat, site),
+           "isPartOf": {"@type": "WebSite", "name": site["brand"], "url": f"{base}/"},
+           "publisher": {"@type": "Organization", "name": site["brand"], "url": f"{base}/"},
+           "mainEntity": {"@id": main_id}}
+    first = min((c["date"] for c in cat.get("changelog", []) if c.get("date")), default=None)
+    if first:
+        out["datePublished"] = first
+    return out
+
+
+def _agent_product(p, site, canonical):
+    return {"rank": p.get("rank"), "asin": p["asin"], "name": p["name"], "brand": p["brand"], "model": p["model"],
+            "price": p.get("price"), "currency": "USD", "rating": p.get("rating"),
+            "reviews_count": p.get("reviews_count"), "score": p.get("score"), "award": p.get("badge"),
+            "best_for": p.get("best_for"), "bought_last_month": p.get("bought"), "verdict": p.get("verdict"),
+            "pros": p.get("pros", []), "cons": p.get("cons", []), "specs": p.get("specs", {}),
+            "features": p.get("features", {}), "image": p.get("image"),
+            "amazon_url": amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"]),
+            "page_url": f"{canonical}#{p['asin']}"}
+
+
+def write_page_json(site, cat, ranked, avoid, overall, budget, premium, canonical):
+    """<slug>.json: the data behind the page, so an agent gets the ranking in one fetch
+    instead of parsing HTML. Returns the summary row used by index.json and llms.txt."""
+    base = f"https://{site['custom_domain']}"
+    json_url = f"{base}/{cat['slug']}.json"
+    data = {
+        "site": site["brand"], "page_url": canonical, "json_url": json_url, "slug": cat["slug"],
+        "title": cat["title"], "subtitle": cat.get("subtitle"), "intro": cat.get("intro"),
+        "data_captured": cat_date(cat, site), "audited": cat.get("audited"),
+        "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review "
+                       "counts change daily; check the listing before relying on a number.",
+        "scoring": {"scale": "0-100", "weights": cat["weights"], "feature_weights": cat.get("feature_weights", {}),
+                    "reviews_ceiling": cat.get("reviews_ceiling", 60000), "budget_cap_usd": cat.get("budget_cap"),
+                    "method_url": f"{base}/about.html"},
+        "picks": {"best_overall": overall["asin"] if overall else None,
+                  "best_budget": budget["asin"] if budget else None,
+                  "money_no_object": premium["asin"] if premium else None},
+        "products": [_agent_product(p, site, canonical) for p in ranked],
+        "avoid": [{"asin": a["asin"], "name": a["name"], "brand": a["brand"], "model": a["model"],
+                   "price": a.get("price"), "currency": "USD", "rating": a.get("rating"),
+                   "reviews_count": a.get("reviews_count"), "flag": a.get("flag"), "verdict": a.get("verdict"),
+                   "reasons": a.get("reasons", []), "bought_last_month": a.get("bought"), "image": a.get("image"),
+                   "amazon_url": amazon_url(a["asin"], site["affiliate_tag"], site["amazon_domain"]),
+                   "page_url": f"{canonical}#avoid-{a['asin']}"} for a in avoid],
+        "buyers_guide": cat.get("buyers_guide", []),
+        "changelog": cat.get("changelog", []),
+        "affiliate_disclosure": f"Amazon links carry {site['brand']}'s Associates tag; a purchase may earn "
+                                "a commission at no extra cost to the buyer.",
+    }
+    (OUT / f"{cat['slug']}.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n",
+                                             encoding="utf-8")
+
+    def pick(p):
+        return {"asin": p["asin"], "name": f"{p['brand']} {p['model']}", "price": p.get("price")} if p else None
+    return {"slug": cat["slug"], "title": cat["title"], "url": canonical, "json": json_url,
+            "data_captured": cat_date(cat, site), "audited": cat.get("audited"), "products": len(ranked),
+            "best_overall": pick(overall), "best_budget": pick(budget), "money_no_object": pick(premium)}
+
+
+def write_robots(base):
+    groups = "".join(f"User-agent: {b}\nAllow: /\n\n" for b in AI_CRAWLERS)
+    (OUT / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\n\n"
+        "# AI assistants and answer engines are welcome. Machine-readable copies of the\n"
+        f"# rankings: {base}/llms.txt (index) and <page>.json beside every <page>.html.\n\n"
+        f"{groups}Sitemap: {base}/sitemap.xml\n", encoding="utf-8")
+
+
+def write_agent_index(site, rows, other_pages):
+    """index.json + llms.txt (llmstxt.org layout): one line per ranking page with its picks."""
+    base = f"https://{site['custom_domain']}"
+    rows = sorted(rows, key=lambda r: r["title"].lower())
+    newest = max(r["data_captured"] for r in rows) if rows else site["updated"]
+    index = {"site": site["brand"], "url": f"{base}/", "description": site["description"],
+             "llms_txt": f"{base}/llms.txt", "sitemap": f"{base}/sitemap.xml", "updated": newest,
+             "data_source": "Amazon product listings; each page carries its own data_captured date.",
+             "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
+             "page_count": len(rows), "pages": rows, "other_pages": other_pages}
+    (OUT / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+    def pick(p):
+        if not p:
+            return "none"
+        return f"{p['name']} ({money(p['price'])})" if isinstance(p.get("price"), (int, float)) else p["name"]
+    lines = [f"# {site['brand']}", "",
+             f"> {site['description']} Every price, star rating and review count comes from the product's "
+             "live Amazon listing on the date shown for that page; nothing is estimated. Each ranking page "
+             "scores its products 0-100 on published weights and names a Best Overall and a Best Budget pick, "
+             "plus one listing to avoid.", "",
+             "Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place "
+             "of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and "
+             f"the capture date). The site index is {base}/index.json. Each page links its twin with "
+             '`<link rel="alternate" type="application/json">`. Links to Amazon carry our Associates tag; a '
+             "purchase may earn us a commission at no extra cost to the buyer.", "",
+             f"## Rankings ({len(rows)} pages)", ""]
+    for r in rows:
+        lines.append(f"- [{r['title']}]({r['url']}): Best Overall {pick(r['best_overall'])}; Best Budget "
+                     f"{pick(r['best_budget'])}. Data captured {r['data_captured']}. JSON: {r['json']}")
+    lines += ["", "## Site", "",
+              f"- [About and how we rank]({base}/about.html): where the numbers come from and the score formula",
+              f"- [Affiliate disclosure]({base}/disclosure.html)",
+              f"- [Privacy]({base}/privacy.html)",
+              f"- [Site index, JSON]({base}/index.json)",
+              f"- [Sitemap]({base}/sitemap.xml)"]
+    if other_pages:
+        lines += ["", "## Optional", ""] + [f"- [{p['title']}]({p['url']})" for p in other_pages]
+    (OUT / "llms.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def jsonld(*objs):
@@ -517,7 +666,7 @@ TRACKING = load_tracking()
 
 
 def page(site, title, body, is_home=False, description=None, canonical=None,
-         image=None, structured_data="", updated=None, noindex=False):
+         image=None, structured_data="", updated=None, noindex=False, alternate=None):
     tag_state = ("" if site["affiliate_tag"] else
                  '<div class="notice">Preview build &mdash; affiliate links are '
                  'untagged until the Amazon Associates account is approved.</div>')
@@ -530,6 +679,8 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
     canonical_url = canonical if canonical else (f"{base}/" if base else "")
     og_image = image or (f"{base}/assets/logo.png" if base else "assets/logo.png")
     canonical_tag = f'\n<link rel="canonical" href="{esc(canonical_url)}">' if canonical_url else ""
+    alt_tag = (f'\n<link rel="alternate" type="application/json" href="{esc(alternate)}" '
+               f'title="{esc(site["brand"])} data for this page">' if alternate else "")
     og_url = f'\n<meta property="og:url" content="{esc(canonical_url)}">' if canonical_url else ""
     social = (
         f'\n<meta property="og:type" content="{"website" if is_home else "article"}">'
@@ -549,7 +700,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
-<meta name="robots" content="{"noindex, follow" if noindex else "index, follow, max-image-preview:large, max-snippet:-1"}">{canonical_tag}
+<meta name="robots" content="{"noindex, follow" if noindex else "index, follow, max-image-preview:large, max-snippet:-1"}">{canonical_tag}{alt_tag}
 <meta name="theme-color" content="#000000">
 <link rel="icon" href="assets/logo.png">{social}{tracking_head(TRACKING, is_home)}
 {site.get('head_extra', '')}
@@ -820,19 +971,25 @@ def build_category(site, filename):
     breadcrumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": site["brand"], "item": f"{base}/"},
         {"@type": "ListItem", "position": 2, "name": cat["title"], "item": canonical}]} if base else None
-    itemlist = {"@context": "https://schema.org", "@type": "ItemList", "name": cat["title"],
+    itemlist = {"@context": "https://schema.org", "@type": "ItemList", "@id": f"{canonical}#ranking",
+                "name": cat["title"],
                 "numberOfItems": len(ranked), "itemListOrder": "https://schema.org/ItemListOrderDescending",
                 "itemListElement": [
                     {"@type": "ListItem", "position": p["rank"], "name": f"{p['brand']} {p['model']}",
-                     "url": f"{canonical}#{p['asin']}" if canonical else None} for p in ranked]}
+                     "url": f"{canonical}#{p['asin']}" if canonical else None,
+                     "item": product_ld(p, site)} for p in ranked]}
+    webpage = webpage_ld(site, canonical, title, cat, itemlist["@id"]) if base else None
     faq = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
         {"@type": "Question", "name": q["q"],
          "acceptedAnswer": {"@type": "Answer", "text": q["a"]}} for q in cat.get("buyers_guide", [])]}
-    sd = jsonld(breadcrumb, itemlist) + jsonld(faq)
+    sd = jsonld(breadcrumb, itemlist, webpage) + jsonld(faq)
     (OUT / f"{cat['slug']}.html").write_text(
         page(site, title, body, description=description, canonical=canonical,
              image=overall["image"] if overall else None,
-             structured_data=sd, updated=cat_date(cat, site)), encoding="utf-8")
+             structured_data=sd, updated=cat_date(cat, site),
+             alternate=f"{cat['slug']}.json" if base else None), encoding="utf-8")
+    if base:
+        cat["_agent"] = write_page_json(site, cat, ranked, avoid, overall, budget, premium, canonical)
     return cat, overall, budget
 
 
@@ -1989,8 +2146,14 @@ def main():
             '<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
             f"{entries}\n</urlset>\n", encoding="utf-8")
-        (OUT / "robots.txt").write_text(
-            f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+        write_robots(base)
+        # Agent-readable index of the same public pages the sitemap lists.
+        brand_slugs = {b["slug"] for b in BRANDS}
+        other = ([{"title": f"{b['brand']} tools", "url": f"{base}/{b['slug']}.html"}
+                  for b in BRANDS if not b.get("noindex")]
+                 + [{"title": slug.replace("-", " ").capitalize(), "url": f"{base}/{slug}.html"}
+                    for slug, _d in seasonal if slug not in brand_slugs])
+        write_agent_index(site, [cat["_agent"] for cat, _, _ in cats if cat.get("_agent")], other)
     build_redirects(site)
     # IndexNow ownership key (Bing/Yandex/Seznam/Naver); pinged by .github/workflows/indexnow.yml
     if TRACKING.get("indexnow_key"):

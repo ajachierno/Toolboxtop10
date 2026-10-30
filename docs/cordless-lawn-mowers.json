@@ -1,0 +1,495 @@
+{
+ "site": "ToolboxTop10",
+ "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html",
+ "json_url": "https://toolboxtop10.com/cordless-lawn-mowers.json",
+ "slug": "cordless-lawn-mowers",
+ "title": "The 10 Best Cordless Lawn Mowers",
+ "subtitle": "Battery-powered push and self-propelled lawn mowers, ranked from live Amazon data.",
+ "intro": "A cordless lawn mower starts with a button, needs no gas or oil changes and is much quieter than a gas mower. We ranked 10 best-sellers from Greenworks, EGO, WORX and MZK on rating, review volume and features (a 21-inch deck, self-propelled drive, a brushless motor and two batteries). Size the deck and battery to your lawn.",
+ "data_captured": "2026-10-29",
+ "audited": "2026-10-10",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.35,
+   "features": 0.2
+  },
+  "feature_weights": {
+   "wide_deck": 0.3,
+   "self_propelled": 0.25,
+   "brushless": 0.25,
+   "two_batteries": 0.2
+  },
+  "reviews_ceiling": 12000,
+  "budget_cap_usd": 200,
+  "method_url": "https://toolboxtop10.com/about.html"
+ },
+ "picks": {
+  "best_overall": "B09SY912MK",
+  "best_budget": "B0HKJ9J57N",
+  "money_no_object": "B0CVSG63DG"
+ },
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B09SY912MK",
+   "name": "Greenworks 60V 21\" Brushless Self-Propelled Lawn Mower, Two 4.0Ah Batteries (MO60L424)",
+   "brand": "Greenworks",
+   "model": "MO60L424",
+   "price": 449.98,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 663,
+   "score": 84,
+   "award": "Best Overall",
+   "best_for": "Larger lawns and slopes on a reasonable budget.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A full-size 21-inch self-propelled mower with a brushless motor, rear-wheel drive and two 4.0Ah batteries, for well under EGO's self-propelled price.",
+   "pros": [
+    "Self-propelled, 21 in",
+    "Two batteries",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Heavier than push mowers"
+   ],
+   "specs": {
+    "deck": "21 in",
+    "battery": "Two 60V 4.0Ah, included",
+    "coverage": null,
+    "heights": null,
+    "extras": "Rear-wheel drive, variable speed"
+   },
+   "features": {
+    "wide_deck": true,
+    "self_propelled": true,
+    "brushless": true,
+    "two_batteries": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ti74xp+lL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09SY912MK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B09SY912MK"
+  },
+  {
+   "rank": 2,
+   "asin": "B0CLSC6B2T",
+   "name": "Greenworks 80V 21\" Brushless Self-Propelled Lawn Mower, 4.0Ah Battery (MO80L416)",
+   "brand": "Greenworks",
+   "model": "MO80L416",
+   "price": 519.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 765,
+   "score": 80,
+   "award": null,
+   "best_for": "Half-acre lawns and slopes.",
+   "bought_last_month": "400+/mo",
+   "verdict": "An 80V self-propelled steel-deck mower that cuts up to 1/2 acre per charge, on Greenworks' pro 80V platform.",
+   "pros": [
+    "Up to 1/2 acre",
+    "Self-propelled, brushless",
+    "Steel deck"
+   ],
+   "cons": [
+    "4.4 stars"
+   ],
+   "specs": {
+    "deck": "21 in steel",
+    "battery": "80V 4.0Ah, included",
+    "coverage": "Up to 1/2 acre",
+    "heights": null,
+    "extras": "Rear-wheel drive, variable speed"
+   },
+   "features": {
+    "wide_deck": true,
+    "self_propelled": true,
+    "brushless": true,
+    "two_batteries": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71SKDKouJWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CLSC6B2T?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B0CLSC6B2T"
+  },
+  {
+   "rank": 3,
+   "asin": "B0CVSG63DG",
+   "name": "EGO POWER+ 21\" Self-Propelled Lawn Mower with Two 6.0Ah Batteries (LM2134SP-2)",
+   "brand": "EGO",
+   "model": "LM2134SP-2",
+   "price": 879.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 394,
+   "score": 77,
+   "award": "Money No Object",
+   "best_for": "Large lawns that used to need a gas mower.",
+   "bought_last_month": "900+/mo",
+   "verdict": "EGO's 800 Series self-propelled mower with two 6.0Ah batteries for up to 100 minutes of mowing and Touch Drive speed control.",
+   "pros": [
+    "Up to 100 min",
+    "Self-propelled",
+    "Two 6.0Ah batteries"
+   ],
+   "cons": [
+    "Most expensive here"
+   ],
+   "specs": {
+    "deck": "21 in",
+    "battery": "Two 56V 6.0Ah, included",
+    "coverage": "Up to 100 min",
+    "heights": null,
+    "extras": "Touch Drive self-propel, up to 7.0 ft-lbs torque (EGO's claim)"
+   },
+   "features": {
+    "wide_deck": true,
+    "self_propelled": true,
+    "brushless": false,
+    "two_batteries": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71-tC2Ogk2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CVSG63DG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B0CVSG63DG"
+  },
+  {
+   "rank": 4,
+   "asin": "B0BLT8L937",
+   "name": "EGO POWER+ 21\" Cordless Push Lawn Mower with 6.0Ah Battery (LM2114)",
+   "brand": "EGO",
+   "model": "LM2114",
+   "price": 499.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 2225,
+   "score": 75,
+   "award": null,
+   "best_for": "Medium lawns with a push mower budget.",
+   "bought_last_month": "600+/mo",
+   "verdict": "A 21-inch EGO push mower with a 6.0Ah battery for up to 55 minutes, seven cutting heights and fast charging.",
+   "pros": [
+    "21 in deck",
+    "Up to 55 min",
+    "4.5 stars"
+   ],
+   "cons": [
+    "Push only"
+   ],
+   "specs": {
+    "deck": "21 in",
+    "battery": "56V 6.0Ah, included",
+    "coverage": "Up to 55 min",
+    "heights": "7 positions, 1.25 to 4 in",
+    "extras": "Up to 6.0 ft-lbs torque (EGO's claim)"
+   },
+   "features": {
+    "wide_deck": true,
+    "self_propelled": false,
+    "brushless": false,
+    "two_batteries": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71MuqlXmfdL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BLT8L937?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B0BLT8L937"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CTY6GC5G",
+   "name": "EGO POWER+ Cordless Push Lawn Mower with 56V 4.0Ah Battery (LM2112)",
+   "brand": "EGO",
+   "model": "LM2112",
+   "price": 479.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 2213,
+   "score": 74,
+   "award": null,
+   "best_for": "EGO owners with medium lawns.",
+   "bought_last_month": "500+/mo",
+   "verdict": "An EGO push mower with a brushless motor that EGO says delivers more cutting torque than gas mowers, and up to 35 minutes on its 4.0Ah battery.",
+   "pros": [
+    "Brushless",
+    "EGO platform",
+    "4.5 stars"
+   ],
+   "cons": [
+    "35 min runtime",
+    "Deck size not stated in bullets"
+   ],
+   "specs": {
+    "deck": null,
+    "battery": "56V 4.0Ah, included",
+    "coverage": "Up to 35 min",
+    "heights": "Starts at 1.25 in",
+    "extras": "Up to 6.0 ft-lbs torque (EGO's claim)"
+   },
+   "features": {
+    "wide_deck": false,
+    "self_propelled": false,
+    "brushless": true,
+    "two_batteries": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71KQQBxPihL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CTY6GC5G?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B0CTY6GC5G"
+  },
+  {
+   "rank": 6,
+   "asin": "B00BBQVL5U",
+   "name": "Greenworks 40V 16\" Cordless Push Lawn Mower, 4.0Ah Battery and Charger (25322)",
+   "brand": "Greenworks",
+   "model": "25322",
+   "price": 237.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 12344,
+   "score": 73,
+   "award": null,
+   "best_for": "Small to medium lawns where light weight and price matter most.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The best-selling and most-reviewed cordless mower here: a light 16-inch Greenworks that cuts up to 1/3 acre per charge, mulches or bags, and carries a 3-year warranty.",
+   "pros": [
+    "4,000+ sold last month; 12,344 reviews",
+    "Up to 1/3 acre per charge",
+    "3-year warranty"
+   ],
+   "cons": [
+    "16 in deck",
+    "4.2 stars"
+   ],
+   "specs": {
+    "deck": "16 in poly",
+    "battery": "40V 4.0Ah, included",
+    "coverage": "Up to 1/3 acre",
+    "heights": "5 positions",
+    "extras": "Mulch and bag, 3-year warranty, 35% lighter than steel decks"
+   },
+   "features": {
+    "wide_deck": false,
+    "self_propelled": false,
+    "brushless": false,
+    "two_batteries": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Dk911xhbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00BBQVL5U?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B00BBQVL5U"
+  },
+  {
+   "rank": 7,
+   "asin": "B086K59Q79",
+   "name": "Greenworks 48V (24V x 2) 17\" Cordless Push Lawn Mower, Two 4.0Ah Batteries (MO48B01)",
+   "brand": "Greenworks",
+   "model": "MO48B01",
+   "price": 239.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 2512,
+   "score": 70,
+   "award": null,
+   "best_for": "Greenworks 24V owners with small lawns.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A 17-inch mower that runs on two 24V batteries you can also use in Greenworks' 24V hand tools.",
+   "pros": [
+    "Two batteries",
+    "Batteries fit 24V tools",
+    "Light poly deck"
+   ],
+   "cons": [
+    "4.1 stars"
+   ],
+   "specs": {
+    "deck": "17 in poly",
+    "battery": "Two 24V 4.0Ah, included",
+    "coverage": "Up to 45 min",
+    "heights": "5 positions, 1-3/8 to 3-3/4 in",
+    "extras": "Mulch and bag"
+   },
+   "features": {
+    "wide_deck": false,
+    "self_propelled": false,
+    "brushless": false,
+    "two_batteries": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71wkcQmcgML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B086K59Q79?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B086K59Q79"
+  },
+  {
+   "rank": 8,
+   "asin": "B0C2ZPBHC7",
+   "name": "Greenworks 60V 21\" Push Lawn Mower with Steel Deck, 5.0Ah Battery (MO60L516)",
+   "brand": "Greenworks",
+   "model": "MO60L516",
+   "price": 599.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 587,
+   "score": 70,
+   "award": null,
+   "best_for": "Medium lawns where a steel deck and long warranty matter.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A 21-inch steel-deck push mower that Greenworks says matches a 150cc gas mower, with self-sharpening dual blades, an IPX4 rating and a 4-year warranty.",
+   "pros": [
+    "Steel deck",
+    "4-in-1 modes",
+    "4-year warranty"
+   ],
+   "cons": [
+    "Push only",
+    "Pricey for a push mower"
+   ],
+   "specs": {
+    "deck": "21 in steel",
+    "battery": "60V 5.0Ah, included",
+    "coverage": null,
+    "heights": null,
+    "extras": "4-in-1 (mulch, bag, side discharge, leaf mode), IPX4, 4-year warranty"
+   },
+   "features": {
+    "wide_deck": true,
+    "self_propelled": false,
+    "brushless": false,
+    "two_batteries": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71pWjOD8lcL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C2ZPBHC7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B0C2ZPBHC7"
+  },
+  {
+   "rank": 9,
+   "asin": "B0DT143V9J",
+   "name": "WORX 40V (2 x 20V) 17\" Brushless Cordless Lawn Mower for 1/4 Acre (WG745)",
+   "brand": "WORX",
+   "model": "WG745",
+   "price": 279.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 191,
+   "score": 67,
+   "award": null,
+   "best_for": "WORX owners with small to mid yards.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A WORX brushless mower running on two Power Share batteries, rated for about a quarter acre.",
+   "pros": [
+    "Brushless",
+    "Two batteries",
+    "Power Share platform"
+   ],
+   "cons": [
+    "Only 191 reviews"
+   ],
+   "specs": {
+    "deck": "17 in",
+    "battery": "Two 20V 4.0Ah, included",
+    "coverage": "About 1/4 acre",
+    "heights": null,
+    "extras": "Mulch or bag"
+   },
+   "features": {
+    "wide_deck": false,
+    "self_propelled": false,
+    "brushless": true,
+    "two_batteries": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71O5v-GBQLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DT143V9J?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B0DT143V9J"
+  },
+  {
+   "rank": 10,
+   "asin": "B0HKJ9J57N",
+   "name": "MZK 40V (2 x 20V) 16\" Brushless Cordless Lawn Mower (ET2602)",
+   "brand": "MZK",
+   "model": "ET2602",
+   "price": 159.98,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 224,
+   "score": 63,
+   "award": "Best Budget",
+   "best_for": "Small lawns on a tight budget.",
+   "bought_last_month": null,
+   "verdict": "A budget brushless 16-inch mower with two 20V 4.0Ah batteries and a 40 L bag. Its 224 reviews are shared with MZK's 13-inch mower.",
+   "pros": [
+    "Brushless",
+    "Two batteries",
+    "3.8 stars"
+   ],
+   "cons": [
+    "Reviews shared with another MZK mower"
+   ],
+   "specs": {
+    "deck": "16 in",
+    "battery": "Two 20V 4.0Ah, included",
+    "coverage": "Up to 45 min",
+    "heights": null,
+    "extras": "40 L bag, 2-in-1"
+   },
+   "features": {
+    "wide_deck": false,
+    "self_propelled": false,
+    "brushless": true,
+    "two_batteries": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71HpVb27deL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HKJ9J57N?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#B0HKJ9J57N"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0CXJ2XFP5",
+   "name": "Litheli Electric Lawn Mower Cordless, 13 in Cutting Width, for 1300 Sq. Ft.",
+   "brand": "Litheli",
+   "model": "EGT010172",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 3.7,
+   "reviews_count": 982,
+   "flag": "Rated for 1,300 sq ft per charge",
+   "verdict": "The listing itself says it mows about 1,300 sq ft per charge, a tiny fraction of what the mowers we rank cover, and it's rated 3.7 stars.",
+   "reasons": [
+    "It 'can mow up to 1,300 sq. ft.' on a full charge, about 1/33 of an acre. The Greenworks 25322 is rated for up to 1/3 acre (about 14,500 sq ft).",
+    "Its model number (EGT010172) and part number (U20LM00-0A110) don't match, which makes parts and blades harder to find.",
+    "It's rated 3.7 stars on 982 reviews, the lowest of the mowers we looked at with more than a few dozen reviews."
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/71F4dRK5UoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CXJ2XFP5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-lawn-mowers.html#avoid-B0CXJ2XFP5"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "What deck size do I need?",
+   "a": "16 to 17 inches suits small lawns and tight spaces. 21 inches is the standard for medium and large lawns and cuts the job down by about a quarter."
+  },
+  {
+   "q": "How much lawn per charge?",
+   "a": "Makers quote coverage on flat, dry grass. Greenworks rates its 16-inch 40V model at 1/3 acre and its 80V self-propelled at 1/2 acre. Thick or wet grass cuts that a lot; a second battery helps."
+  },
+  {
+   "q": "Do I need self-propelled?",
+   "a": "On slopes or lawns over about 1/4 acre, yes. Self-propelled mowers drive the wheels so you only steer."
+  },
+  {
+   "q": "Brushless worth it?",
+   "a": "Brushless motors run cooler and get more mowing from each charge. They're standard on the 60V and 80V Greenworks and EGO mowers here."
+  },
+  {
+   "q": "Battery platform matters",
+   "a": "Mower batteries are expensive. Pick a platform (EGO, Greenworks, WORX) whose trimmers and blowers you'll also use, so one charger and set of packs runs everything."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-29",
+   "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Litheli EGT010172 rose from $94.99 to $109.99; the WORX WG745 rose from $244.99 to $279.99; the Greenworks MO80L416 rose from $479.99 to $519.99."
+  },
+  {
+   "date": "2026-10-10",
+   "note": "Page published with 10 ranked picks and 1 tool to avoid."
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ToolboxTop10's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

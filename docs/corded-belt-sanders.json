@@ -1,0 +1,513 @@
+{
+ "site": "ToolboxTop10",
+ "page_url": "https://toolboxtop10.com/corded-belt-sanders.html",
+ "json_url": "https://toolboxtop10.com/corded-belt-sanders.json",
+ "slug": "corded-belt-sanders",
+ "title": "The 10 Best Corded Belt Sanders",
+ "subtitle": "3x18, 3x21 and 4x24-inch belt sanders for fast stock removal, ranked from live Amazon data.",
+ "intro": "A belt sander is the fastest way to flatten boards, strip finishes and level doors and decks. We ranked 10 corded best-sellers on rating, review volume and features (variable speed, auto-tracking belts, a vacuum port, bench mounting and spare belts in the box). Belt size sets the class: 3x18 and 3x21 for general work, 4x24 for flattening big surfaces. They run from about $46 for SKIL's 3x18 to $419 for Makita's 4x24.",
+ "data_captured": "2026-10-28",
+ "audited": "2026-10-10",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.35,
+   "features": 0.2
+  },
+  "feature_weights": {
+   "variable_speed": 0.3,
+   "auto_tracking": 0.2,
+   "vac_port": 0.2,
+   "bench_mount": 0.15,
+   "extra_belts": 0.15
+  },
+  "reviews_ceiling": 5000,
+  "budget_cap_usd": 60,
+  "method_url": "https://toolboxtop10.com/about.html"
+ },
+ "picks": {
+  "best_overall": "B000056NOC",
+  "best_budget": "B007A9TD3E",
+  "money_no_object": "B0000223IY"
+ },
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B08FCDS3VR",
+   "name": "Jellas 7Amp Handheld Belt Sander, 3 x 21 Inch with Dust Bag",
+   "brand": "Jellas",
+   "model": "S1T-SW02A-76",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1036,
+   "score": 84,
+   "award": null,
+   "best_for": "A belt sander kit with a long cord.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The most-reviewed of the bench-mount kits: 10 belts, two C-clamps for bench use, a two-size vacuum adapter and a 10-foot cord.",
+   "pros": [
+    "1,036 reviews at 4.4 stars",
+    "10 belts and 2 C-clamps",
+    "10-foot cord"
+   ],
+   "cons": [
+    "Speed listed as 120-400 'rpm', not belt speed",
+    "Weight not listed"
+   ],
+   "specs": {
+    "belt": "3 x 21 in",
+    "motor": "7 A",
+    "speed": "6 settings",
+    "weight": null,
+    "in_box": "10 belts (40-180 grit), dust bag, vacuum adapter, 2 C-clamps"
+   },
+   "features": {
+    "variable_speed": true,
+    "auto_tracking": false,
+    "vac_port": true,
+    "bench_mount": true,
+    "extra_belts": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71j5AC1Z4GL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08FCDS3VR?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B08FCDS3VR"
+  },
+  {
+   "rank": 2,
+   "asin": "B007A9TD3E",
+   "name": "SKIL 6 Amp 3\"x18\" Belt Sander with Pressure Control (7510-01)",
+   "brand": "SKIL",
+   "model": "7510-01",
+   "price": 59.98,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 4563,
+   "score": 82,
+   "award": "Best Budget",
+   "best_for": "Occasional sanding on a budget, and first-timers who need the pressure warning.",
+   "bought_last_month": "500+/mo",
+   "verdict": "The best-selling, most-reviewed and cheapest belt sander here. A light 3x18 with auto-tracking, micro-filter dust collection, a vacuum port and a pressure light that warns you when you're pushing too hard.",
+   "pros": [
+    "4,563 reviews; 600+ sold last month",
+    "Pressure-control warning light",
+    "Auto-tracking belt and 1-1/4-inch vac port"
+   ],
+   "cons": [
+    "Single speed",
+    "6A, the smallest motor here"
+   ],
+   "specs": {
+    "belt": "3 x 18 in",
+    "motor": "6 A",
+    "speed": null,
+    "weight": "5.5 lb",
+    "in_box": "Sander"
+   },
+   "features": {
+    "variable_speed": false,
+    "auto_tracking": true,
+    "vac_port": true,
+    "bench_mount": false,
+    "extra_belts": false
+   },
+   "image": "https://m.media-amazon.com/images/I/610zb-jDyyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B007A9TD3E?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B007A9TD3E"
+  },
+  {
+   "rank": 3,
+   "asin": "B000056NOC",
+   "name": "Makita 9903 3\" x 21\" Belt Sander",
+   "brand": "Makita",
+   "model": "9903",
+   "price": 263.8,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 946,
+   "score": 80,
+   "award": "Best Overall",
+   "best_for": "Regular sanding where the belt staying put and the tool lasting matter.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The pro's 3x21: an 8.8A motor with a variable speed dial, an auto-tracking belt you never adjust, and a body that sands flush to a wall on the nose and side. Rated at only 85 dB.",
+   "pros": [
+    "8.8A with 690-1,440 ft/min variable speed",
+    "Auto-tracking belt",
+    "Sands flush to walls; 85 dB"
+   ],
+   "cons": [
+    "$263.80",
+    "One belt in the box"
+   ],
+   "specs": {
+    "belt": "3 x 21 in",
+    "motor": "8.8 A",
+    "speed": "690-1,440 ft/min, variable",
+    "weight": "9.5 lb",
+    "in_box": "1 belt, dust bag"
+   },
+   "features": {
+    "variable_speed": true,
+    "auto_tracking": true,
+    "vac_port": false,
+    "bench_mount": false,
+    "extra_belts": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51M4incnVTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000056NOC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B000056NOC"
+  },
+  {
+   "rank": 4,
+   "asin": "B000056NOA",
+   "name": "Makita 9404 4\" x 24\" Belt Sander, with Variable Speed",
+   "brand": "Makita",
+   "model": "9404",
+   "price": 411.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 901,
+   "score": 79,
+   "award": null,
+   "best_for": "Pros who need a 4x24 with variable speed.",
+   "bought_last_month": null,
+   "verdict": "Makita's variable-speed 4x24: auto-tracking, 84 dB, flush sanding on the nose and side, and a 16.4-foot cord.",
+   "pros": [
+    "Variable speed on a 4x24",
+    "Auto-tracking belt",
+    "16.4-foot cord"
+   ],
+   "cons": [
+    "$411.99",
+    "Listing showed only 2 left in stock"
+   ],
+   "specs": {
+    "belt": "4 x 24 in",
+    "motor": "8.8 A",
+    "speed": "Variable",
+    "weight": "10.3 lb",
+    "in_box": "Sander, manual"
+   },
+   "features": {
+    "variable_speed": true,
+    "auto_tracking": true,
+    "vac_port": false,
+    "bench_mount": false,
+    "extra_belts": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51Hsr+8xHuL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000056NOA?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B000056NOA"
+  },
+  {
+   "rank": 5,
+   "asin": "B0H9DJPGDS",
+   "name": "VEVOR 7A Belt Sander 3\" x 21\", 6 Speeds 630-1200 FPM, 2-in-1 Handheld & Benchtop (9926)",
+   "brand": "VEVOR",
+   "model": "9926",
+   "price": 56.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 197,
+   "score": 79,
+   "award": null,
+   "best_for": "Getting every grit and a bench-sander setup in one box.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A complete kit: 10 belts from 40 to 180 grit, two dust bags, a vacuum adapter and two clamps that turn it into a bench sander.",
+   "pros": [
+    "10 belts in 5 grits included",
+    "Clamps to a bench upside down",
+    "4.6 stars"
+   ],
+   "cons": [
+    "No warranty term listed",
+    "8.8 lbs"
+   ],
+   "specs": {
+    "belt": "3 x 21 in",
+    "motor": "7 A",
+    "speed": "630-1,200 ft/min, 6 speeds",
+    "weight": "8.8 lb",
+    "in_box": "10 belts (40-180 grit), 2 dust bags, vacuum adapter, 2 clamps"
+   },
+   "features": {
+    "variable_speed": true,
+    "auto_tracking": false,
+    "vac_port": true,
+    "bench_mount": true,
+    "extra_belts": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71frqNyXDOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H9DJPGDS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B0H9DJPGDS"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CKDCHNF9",
+   "name": "WEN 10-Amp 4-by-24-Inch Variable Speed Handheld and Benchtop Belt Sander (HB424V)",
+   "brand": "WEN",
+   "model": "HB424V",
+   "price": 82.32,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 219,
+   "score": 78,
+   "award": null,
+   "best_for": "Flattening tabletops and doors on a budget.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A 4x24 for less than a third of Makita's: 10 amps, variable speed, and a rubber pad and clamps to mount it on the bench.",
+   "pros": [
+    "4x24 belt and 10A motor",
+    "660-1,310 ft/min variable speed",
+    "Bench-mount kit and 2-year warranty"
+   ],
+   "cons": [
+    "Weight not listed",
+    "No auto-tracking listed"
+   ],
+   "specs": {
+    "belt": "4 x 24 in",
+    "motor": "10 A",
+    "speed": "660-1,310 ft/min, variable",
+    "weight": null,
+    "in_box": "2 belts, dust bag, mounting pad, 2 clamps"
+   },
+   "features": {
+    "variable_speed": true,
+    "auto_tracking": false,
+    "vac_port": true,
+    "bench_mount": true,
+    "extra_belts": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71HseXZ5HVL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CKDCHNF9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B0CKDCHNF9"
+  },
+  {
+   "rank": 7,
+   "asin": "B0000223IY",
+   "name": "Makita 9403 4\" x 24\" Belt Sander, Corded Electric",
+   "brand": "Makita",
+   "model": "9403",
+   "price": 419.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2912,
+   "score": 75,
+   "award": "Money No Object",
+   "best_for": "Flattening big surfaces fast, all day.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The highest-rated belt sander here and the floor-and-tabletop flattening standard: an 11A motor drives a 4-inch belt at 1,640 ft/min, with a labyrinth seal that keeps dust out of the motor and bearings.",
+   "pros": [
+    "4.7 stars across 2,912 reviews",
+    "11A, 1,640 ft/min, the fastest here",
+    "Labyrinth-sealed motor and bearings; 84 dB"
+   ],
+   "cons": [
+    "$419.00",
+    "13 lbs, single speed"
+   ],
+   "specs": {
+    "belt": "4 x 24 in",
+    "motor": "11 A",
+    "speed": "1,640 ft/min",
+    "weight": "13 lb",
+    "in_box": "80-grit belt, dust bag"
+   },
+   "features": {
+    "variable_speed": false,
+    "auto_tracking": false,
+    "vac_port": false,
+    "bench_mount": false,
+    "extra_belts": false
+   },
+   "image": "https://m.media-amazon.com/images/I/612ESUu8G7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0000223IY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B0000223IY"
+  },
+  {
+   "rank": 8,
+   "asin": "B0CYCSVMC1",
+   "name": "WEN 7.5-Amp 3-by-21-Inch Variable Speed Handheld Belt Sander (HB321V)",
+   "brand": "WEN",
+   "model": "HB321V",
+   "price": 46.48,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 223,
+   "score": 72,
+   "award": null,
+   "best_for": "A cheap 3x21 with variable speed.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A variable-speed 3x21 for 50 cents more than the SKIL, with a quick-release tension lever, lock-on switch, dust bag and 2-year warranty.",
+   "pros": [
+    "620-1,200 ft/min variable speed",
+    "Quick-release belt lever",
+    "2-year warranty"
+   ],
+   "cons": [
+    "One belt included",
+    "Small review base"
+   ],
+   "specs": {
+    "belt": "3 x 21 in",
+    "motor": "7.5 A",
+    "speed": "620-1,200 ft/min, variable",
+    "weight": "6.4 lb",
+    "in_box": "80-grit belt, dust bag"
+   },
+   "features": {
+    "variable_speed": true,
+    "auto_tracking": false,
+    "vac_port": true,
+    "bench_mount": false,
+    "extra_belts": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71cy9kRVGaL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CYCSVMC1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B0CYCSVMC1"
+  },
+  {
+   "rank": 9,
+   "asin": "B07KKH1LTZ",
+   "name": "CRAFTSMAN Electric 7 Amp Belt Sander, 3-in. x 21-in., Corded (CMEW213)",
+   "brand": "CRAFTSMAN",
+   "model": "CMEW213",
+   "price": 89.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1694,
+   "score": 70,
+   "award": null,
+   "best_for": "Sanding up close to an adjoining surface.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A single-speed 3x21 with an angled belt that sands closer to walls, tool-free belt changes and a 3-position handle.",
+   "pros": [
+    "1,694 reviews",
+    "Angled design sands closer to walls",
+    "3-position handle"
+   ],
+   "cons": [
+    "Single speed, 800 ft/min top speed",
+    "Twice the WEN HB321V's price"
+   ],
+   "specs": {
+    "belt": "3 x 21 in",
+    "motor": "7 A",
+    "speed": "800 ft/min",
+    "weight": "6.6 lb",
+    "in_box": "1 belt, dust bag"
+   },
+   "features": {
+    "variable_speed": false,
+    "auto_tracking": false,
+    "vac_port": false,
+    "bench_mount": false,
+    "extra_belts": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71PZgw5FDBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07KKH1LTZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B07KKH1LTZ"
+  },
+  {
+   "rank": 10,
+   "asin": "B07MG8LDZG",
+   "name": "Metabo HPT Belt Sander, 3 x 21 Inch, Variable Speed, 9.0 Amp Motor (SB8V2)",
+   "brand": "Metabo HPT",
+   "model": "SB8V2",
+   "price": 149.0,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 983,
+   "score": 70,
+   "award": null,
+   "best_for": "A strong 3x21 with the longest warranty here.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The most powerful 3x21 here at 9 amps, with variable speed, a clear front cover so you can see the edge, and a 5-year warranty.",
+   "pros": [
+    "9A, 1,020-watt motor",
+    "Clear front cover",
+    "5-year warranty"
+   ],
+   "cons": [
+    "4.0 stars",
+    "Belt speed not listed"
+   ],
+   "specs": {
+    "belt": "3 x 21 in",
+    "motor": "9 A",
+    "speed": "Variable",
+    "weight": "9.5 lb",
+    "in_box": "1 belt, dust bag"
+   },
+   "features": {
+    "variable_speed": true,
+    "auto_tracking": false,
+    "vac_port": false,
+    "bench_mount": false,
+    "extra_belts": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51L3UCR+ofS._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07MG8LDZG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B07MG8LDZG"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0GRZM15WP",
+   "name": "DEKOPRO 8.4A Belt Sander Handheld with Dust Bag & 2 Metal C Clamps, 1010W 3x21-Inch",
+   "brand": "DEKOPRO",
+   "model": "DKPBDSB101C1",
+   "price": 55.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 67,
+   "flag": "No belt speed; listing contradicts itself on what's in the box",
+   "verdict": "A bench-mount belt sander kit with too little on the listing to judge. The VEVOR 9926 costs 91 cents more, comes with the same 10-belt kit, and states its belt speed and weight.",
+   "reasons": [
+    "The only speed it gives is '120-400rpm'. Belt sanders are rated in belt feet per minute, so there's no way to compare it with anything on this page.",
+    "The bullets promise 10 belts and two C-clamps, but the spec table lists the dust bag as the only included component.",
+    "It lists no voltage, weight or warranty."
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/71QJIH4OhUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GRZM15WP?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#avoid-B0GRZM15WP"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "3x21 or 4x24?",
+   "a": "3x21 is the all-rounder: light enough to hold on doors and edges. A 4x24 removes material faster and stays flatter on wide surfaces like tabletops and floors, but it weighs 10 to 13 lbs. 3x18 sanders are lighter still and fine for small jobs."
+  },
+  {
+   "q": "What belt speed do I need?",
+   "a": "Higher belt speed removes material faster. Variable speed lets you slow down for finishes, softwoods and paint that would otherwise gum up the belt. Look for a range listed in feet per minute."
+  },
+  {
+   "q": "What is auto-tracking?",
+   "a": "Tracking keeps the belt centered on the rollers. Auto-tracking sanders do it on their own; others have a knob you adjust when you change belts."
+  },
+  {
+   "q": "Which grit should I start with?",
+   "a": "40 or 60 grit to strip finishes or level uneven boards, 80 to 100 for general smoothing, 120 to 150 before finish sanding with an orbital sander."
+  },
+  {
+   "q": "Can I use a belt sander as a bench sander?",
+   "a": "Some can be clamped upside down to a bench for shaping small parts. The VEVOR, Jellas and WEN HB424V include clamps for it."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-28",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the SKIL 7510-01 rose from $45.98 to $59.98; the CRAFTSMAN CMEW213 dropped from $98.49 to $89; the Makita 9404 rose from $380.39 to $411.99."
+  },
+  {
+   "date": "2026-10-10",
+   "note": "Page published with 10 ranked picks and 1 tool to avoid."
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ToolboxTop10's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

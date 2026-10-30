@@ -1,0 +1,488 @@
+{
+ "site": "ToolboxTop10",
+ "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html",
+ "json_url": "https://toolboxtop10.com/cordless-jobsite-fans.json",
+ "slug": "cordless-jobsite-fans",
+ "title": "The 10 Best Cordless Jobsite Fans",
+ "subtitle": "Battery and hybrid fans for garages, attics and jobsites, ranked from live Amazon data.",
+ "intro": "A cordless jobsite fan runs on the same batteries as your tools, so you can cool an attic, garage or job without an outlet. We ranked 10 best-sellers from DEWALT, FLEX, RIDGID, CRAFTSMAN, Milwaukee, RYOBI and value brands on rating, review volume and features (600 CFM or more, speed control, AC power and a weather rating).",
+ "data_captured": "2026-10-29",
+ "audited": "2026-10-10",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.35,
+   "features": 0.2
+  },
+  "feature_weights": {
+   "cfm_600": 0.3,
+   "variable_speed": 0.25,
+   "ac_power": 0.25,
+   "weather_rated": 0.2
+  },
+  "reviews_ceiling": 9000,
+  "budget_cap_usd": 35,
+  "method_url": "https://toolboxtop10.com/about.html"
+ },
+ "picks": {
+  "best_overall": "B0989YML7R",
+  "best_budget": "B0BCHBRPZR",
+  "money_no_object": "B0DR3914W7"
+ },
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B0989YML7R",
+   "name": "DEWALT 20V MAX Cordless Jobsite Fan, 650 CFM, Variable Speed, Tool Only (DCE512B)",
+   "brand": "DEWALT",
+   "model": "DCE512B",
+   "price": 99.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 8481,
+   "score": 93,
+   "award": "Best Overall",
+   "best_for": "DEWALT owners cooling a garage, attic or jobsite.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The best-selling and most-reviewed jobsite fan here: up to 650 CFM, a variable speed dial, IP54 dust and water resistance and up to 4.5 hours on a battery, rated 4.8 stars.",
+   "pros": [
+    "4.8 stars; 8,481 reviews",
+    "650 CFM, variable speed",
+    "IP54"
+   ],
+   "cons": [
+    "Bare tool",
+    "Battery only"
+   ],
+   "specs": {
+    "size": "Floor/jobsite fan",
+    "airflow": "Up to 650 CFM",
+    "power": "DEWALT 20V MAX",
+    "extras": "IP54, up to 4.5 hr runtime, axial 3-blade design"
+   },
+   "features": {
+    "cfm_600": true,
+    "variable_speed": true,
+    "ac_power": false,
+    "weather_rated": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71axgOKVIQL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0989YML7R?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0989YML7R"
+  },
+  {
+   "rank": 2,
+   "asin": "B07Y46YNMG",
+   "name": "CRAFTSMAN 20V MAX Cordless Fan with AC Power (CMCE001B)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCE001B",
+   "price": 78.5,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1602,
+   "score": 80,
+   "award": null,
+   "best_for": "Garages and workshops with an outlet nearby most of the time.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A CRAFTSMAN fan that runs on battery or AC, with three speeds and up to 8 hours on high.",
+   "pros": [
+    "Battery or AC",
+    "Up to 8 hr on high",
+    "1,602 reviews"
+   ],
+   "cons": [
+    "Airflow not listed"
+   ],
+   "specs": {
+    "size": "Jobsite fan",
+    "airflow": null,
+    "power": "CRAFTSMAN 20V or AC",
+    "extras": "3 speeds; up to 8 hr on high, 24+ hr on low"
+   },
+   "features": {
+    "cfm_600": false,
+    "variable_speed": true,
+    "ac_power": true,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61er3Iu1SDL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07Y46YNMG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B07Y46YNMG"
+  },
+  {
+   "rank": 3,
+   "asin": "B0H14XSGSL",
+   "name": "Paxwrenx 11.5\" Jobsite Fan, 800 CFM, for Milwaukee M18, Hybrid Power (DDTI-F12-003)",
+   "brand": "Paxwrenx",
+   "model": "DDTI-F12-003",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 83,
+   "score": 74,
+   "award": null,
+   "best_for": "M18 owners who want a cheaper fan than Milwaukee's.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A third-party hybrid fan for Milwaukee M18 batteries or AC, claiming 800 CFM with variable speed.",
+   "pros": [
+    "Battery or AC",
+    "Variable speed",
+    "Cheaper than Milwaukee's"
+   ],
+   "cons": [
+    "Only 83 reviews",
+    "Third-party"
+   ],
+   "specs": {
+    "size": "11.5 in jobsite fan",
+    "airflow": "800 CFM (claimed)",
+    "power": "Milwaukee M18 or AC (hybrid)",
+    "extras": "Variable speed"
+   },
+   "features": {
+    "cfm_600": true,
+    "variable_speed": true,
+    "ac_power": true,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71psZuB5x1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H14XSGSL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0H14XSGSL"
+  },
+  {
+   "rank": 4,
+   "asin": "B0BCHBRPZR",
+   "name": "CRAFTSMAN V20 Cordless Personal Fan, Compact and Collapsible, Tool Only (CMCE010B)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCE010B",
+   "price": 24.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 613,
+   "score": 72,
+   "award": "Best Budget",
+   "best_for": "Personal cooling at a workbench or in a vehicle.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A small collapsible personal fan with variable speed up to 200 CFM, for about $25.",
+   "pros": [
+    "Cheap",
+    "Collapsible",
+    "4.7 stars"
+   ],
+   "cons": [
+    "200 CFM"
+   ],
+   "specs": {
+    "size": "Personal fan",
+    "airflow": "Up to 200 CFM",
+    "power": "CRAFTSMAN V20",
+    "extras": "Collapsible"
+   },
+   "features": {
+    "cfm_600": false,
+    "variable_speed": true,
+    "ac_power": false,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61b-hQuVS0L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BCHBRPZR?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0BCHBRPZR"
+  },
+  {
+   "rank": 5,
+   "asin": "B0B28Y87J4",
+   "name": "ohyes 5\" Jobsite Fan for DEWALT 20V Max Battery (DW-08)",
+   "brand": "ohyes",
+   "model": "DW-08",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1343,
+   "score": 71,
+   "award": null,
+   "best_for": "DEWALT owners who want a cheap personal fan.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A tiny fan that runs on DEWALT 20V batteries for about $30.",
+   "pros": [
+    "Cheap",
+    "Uses DEWALT batteries",
+    "1,343 reviews"
+   ],
+   "cons": [
+    "5 in",
+    "4.3 stars"
+   ],
+   "specs": {
+    "size": "5 in personal fan",
+    "airflow": null,
+    "power": "DEWALT 20V MAX",
+    "extras": "3 speeds"
+   },
+   "features": {
+    "cfm_600": false,
+    "variable_speed": true,
+    "ac_power": false,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51XI7KeOu8L._AC_SX569_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B28Y87J4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0B28Y87J4"
+  },
+  {
+   "rank": 6,
+   "asin": "B09QQLTMHM",
+   "name": "RYOBI 18V ONE+ Cordless Clamp Fan, Tool Only (RCF18-0)",
+   "brand": "RYOBI",
+   "model": "RCF18-0",
+   "price": 30.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1172,
+   "score": 69,
+   "award": null,
+   "best_for": "RYOBI owners who want a fan they can clamp anywhere.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A small RYOBI clamp fan that grips a ladder, shelf or pipe and points wherever you need it.",
+   "pros": [
+    "Clamps on",
+    "Cheap",
+    "1,000+ sold last month"
+   ],
+   "cons": [
+    "Small fan",
+    "International model listing"
+   ],
+   "specs": {
+    "size": "10 cm clamp fan",
+    "airflow": null,
+    "power": "RYOBI 18V ONE+",
+    "extras": "Clamps to edges or pipes up to 38 mm, rotating head"
+   },
+   "features": {
+    "cfm_600": false,
+    "variable_speed": false,
+    "ac_power": false,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71TbXZtTHfL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09QQLTMHM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B09QQLTMHM"
+  },
+  {
+   "rank": 7,
+   "asin": "B0GHF5LL2R",
+   "name": "Ecarke 8\" Cordless Jobsite Fan for Makita 18V, 2-Speed, Tool Only",
+   "brand": "Ecarke",
+   "model": "SKU067800008-US-FBA-5",
+   "price": 41.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 614,
+   "score": 69,
+   "award": null,
+   "best_for": "Makita owners.",
+   "bought_last_month": "50+/mo",
+   "verdict": "An 8-inch fan for Makita 18V owners that also charges your phone through USB and USB-C ports.",
+   "pros": [
+    "USB charging ports",
+    "Cheap"
+   ],
+   "cons": [
+    "4.4 stars",
+    "Third-party"
+   ],
+   "specs": {
+    "size": "8 in fan",
+    "airflow": null,
+    "power": "Makita 18V",
+    "extras": "USB and USB-C charging ports, 50 W brushless"
+   },
+   "features": {
+    "cfm_600": false,
+    "variable_speed": true,
+    "ac_power": false,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Ug6gXOaJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GHF5LL2R?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0GHF5LL2R"
+  },
+  {
+   "rank": 8,
+   "asin": "B0CT17X4BF",
+   "name": "FLEX 24V Brushless Cordless Jobsite Fan, 1,100 CFM, Tool Only (FX5471-Z)",
+   "brand": "FLEX",
+   "model": "FX5471-Z",
+   "price": 119.0,
+   "currency": "USD",
+   "rating": 4.9,
+   "reviews_count": 88,
+   "score": 67,
+   "award": null,
+   "best_for": "FLEX 24V owners who want the most airflow.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The strongest battery fan here from a tool brand: up to 1,100 CFM from a brushless motor, rated 4.9 stars.",
+   "pros": [
+    "1,100 CFM",
+    "Brushless",
+    "4.9 stars"
+   ],
+   "cons": [
+    "Only 88 reviews",
+    "Bare tool"
+   ],
+   "specs": {
+    "size": "Jobsite fan",
+    "airflow": "Up to 1,100 CFM, 19 mph",
+    "power": "FLEX 24V",
+    "extras": "Brushless, attaches to FLEX Stack Pack storage"
+   },
+   "features": {
+    "cfm_600": true,
+    "variable_speed": false,
+    "ac_power": false,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61X+j+Vd81L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CT17X4BF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0CT17X4BF"
+  },
+  {
+   "rank": 9,
+   "asin": "B0G7L4XM1J",
+   "name": "RIDGID 18V Cordless Hybrid Jobsite Fan, Tool Only (R860721B)",
+   "brand": "RIDGID",
+   "model": "R860721B",
+   "price": 77.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 39,
+   "score": 66,
+   "award": null,
+   "best_for": "RIDGID owners who want a fan that also plugs in.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A hybrid fan that runs on RIDGID 18V batteries or AC, moving 670 CFM at under 50 dBA.",
+   "pros": [
+    "Battery or AC",
+    "670 CFM",
+    "Quiet"
+   ],
+   "cons": [
+    "Only 39 reviews"
+   ],
+   "specs": {
+    "size": "Jobsite fan",
+    "airflow": "670 CFM, 1,070 FPM",
+    "power": "RIDGID 18V or AC (hybrid)",
+    "extras": "Under 50 dBA, 40% more power than R860720"
+   },
+   "features": {
+    "cfm_600": true,
+    "variable_speed": false,
+    "ac_power": true,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51ai1TlU5EL._AC_SX569_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G7L4XM1J?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0G7L4XM1J"
+  },
+  {
+   "rank": 10,
+   "asin": "B0DR3914W7",
+   "name": "Milwaukee M18 Brushless PACKOUT Fan, Tool Only (0818-20)",
+   "brand": "Milwaukee",
+   "model": "0818-20",
+   "price": 149.9,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 153,
+   "score": 63,
+   "award": "Money No Object",
+   "best_for": "Milwaukee crews using PACKOUT.",
+   "bought_last_month": "200+/mo",
+   "verdict": "Milwaukee's brushless M18 fan that locks into PACKOUT storage, rated 4.8 stars. The listing gives almost no specs.",
+   "pros": [
+    "4.8 stars",
+    "PACKOUT-compatible",
+    "Brushless"
+   ],
+   "cons": [
+    "Most expensive here",
+    "Listing gives no airflow"
+   ],
+   "specs": {
+    "size": "PACKOUT-compatible fan",
+    "airflow": null,
+    "power": "Milwaukee M18",
+    "extras": "Brushless"
+   },
+   "features": {
+    "cfm_600": false,
+    "variable_speed": false,
+    "ac_power": false,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/4188apINsFL._AC_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DR3914W7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0DR3914W7"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0DRG4GW49",
+   "name": "12\" Battery Powered Cordless Floor Fan, Compatible with Dewalt 20V",
+   "brand": "T-SUNiceM",
+   "model": "TS-F6410",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 122,
+   "flag": "Claims 1,500 CFM from a 12-inch battery fan",
+   "verdict": "A 12-inch DEWALT-battery fan that claims more airflow than DEWALT's and FLEX's own jobsite fans.",
+   "reasons": [
+    "It claims 'up to 1500CFM' from a 12-inch fan, more than double DEWALT's 650 CFM DCE512B and well above FLEX's 1,100 CFM brushless fan.",
+    "No test standard or air speed is given to back the number.",
+    "It's rated 4.2 stars on 122 reviews; DEWALT's own fan is rated 4.8 on 8,409."
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/81FSuUBgUlL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DRG4GW49?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#avoid-B0DRG4GW49"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "How much airflow do I need?",
+   "a": "200 CFM is personal cooling at a bench. 600 to 1,000 CFM moves air through a garage or jobsite room. Box fans that plug in move more, but battery fans go anywhere."
+  },
+  {
+   "q": "Battery only or hybrid?",
+   "a": "Hybrid fans (like the RIDGID, CRAFTSMAN CMCE001B and Paxwrenx) run on battery or AC, so you save the battery when an outlet's close."
+  },
+  {
+   "q": "How long will a battery last?",
+   "a": "Small fans run for hours on low. DEWALT lists up to 4.5 hours for the DCE512B and CRAFTSMAN up to 8 hours on high for the CMCE001B, depending on the battery."
+  },
+  {
+   "q": "Why IP54?",
+   "a": "An IP54 rating means it handles dust and splashes, useful in a dusty jobsite or damp garage."
+  },
+  {
+   "q": "Are the big CFM claims real?",
+   "a": "Tool-brand ratings are the most reliable. Treat no-name claims that beat DEWALT and FLEX by a wide margin with suspicion."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-29",
+   "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Ecarke SKU067800008-US-FBA-5 rose from $29.99 to $41.99; the Milwaukee 0818-20 dropped from $164 to $149.90."
+  },
+  {
+   "date": "2026-10-10",
+   "note": "Page published with 10 ranked picks and 1 tool to avoid."
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ToolboxTop10's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

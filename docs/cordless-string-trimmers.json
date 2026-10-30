@@ -1,0 +1,487 @@
+{
+ "site": "ToolboxTop10",
+ "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html",
+ "json_url": "https://toolboxtop10.com/cordless-string-trimmers.json",
+ "slug": "cordless-string-trimmers",
+ "title": "The 10 Best Cordless String Trimmers",
+ "subtitle": "Battery-powered string trimmers and trimmer-edgers for lawns and weeds, ranked from live Amazon data.",
+ "intro": "A cordless string trimmer handles edges, fences and weeds without gas or a pull cord. We ranked 10 best-sellers from WORX, BLACK+DECKER, EGO, Greenworks and CRAFTSMAN on rating, review volume and features (a 13-inch or wider swath, auto or push-button line feed, an edger mode and a battery in the box).",
+ "data_captured": "2026-10-30",
+ "audited": "2026-10-10",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.35,
+   "features": 0.2
+  },
+  "feature_weights": {
+   "auto_feed": 0.25,
+   "edger": 0.2,
+   "battery_included": 0.25,
+   "wide_swath": 0.3
+  },
+  "reviews_ceiling": 30000,
+  "budget_cap_usd": 90,
+  "method_url": "https://toolboxtop10.com/about.html"
+ },
+ "picks": {
+  "best_overall": "B018S68U40",
+  "best_budget": "B00HH4K4HQ",
+  "money_no_object": "B09RND55QM"
+ },
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B00I2F51SG",
+   "name": "BLACK+DECKER 40V MAX 13\" String Trimmer/Edger with Telescoping Pole (LST136)",
+   "brand": "BLACK+DECKER",
+   "model": "LST136",
+   "price": 159.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 8401,
+   "score": 90,
+   "award": null,
+   "best_for": "Medium yards and tall users.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A 40V trimmer with a dial that trades power for runtime, auto feed and a telescoping pole that suits taller users.",
+   "pros": [
+    "40V with power/runtime dial",
+    "Auto feed",
+    "8,401 reviews"
+   ],
+   "cons": [
+    "Heavier than 20V models"
+   ],
+   "specs": {
+    "swath": "13 in",
+    "line": "Automatic Feed Spool",
+    "battery": "40V MAX, included",
+    "extras": "PowerCommand dial (power or runtime), telescoping pole"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": true,
+    "battery_included": true,
+    "wide_swath": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61uENNdZRlL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00I2F51SG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B00I2F51SG"
+  },
+  {
+   "rank": 2,
+   "asin": "B018S68U40",
+   "name": "WORX 20V 12\" 2-in-1 Cordless String Trimmer and Edger (WG163)",
+   "brand": "WORX",
+   "model": "WG163",
+   "price": 105.1,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 28680,
+   "score": 88,
+   "award": "Best Overall",
+   "best_for": "Small and medium yards that need trimming and edging.",
+   "bought_last_month": "4K+/mo",
+   "verdict": "The best seller and most-reviewed trimmer here, with 28,680 reviews: a light 20V trimmer that converts to an edger, with a push-button line feed and a head that tilts for slopes.",
+   "pros": [
+    "28,680 reviews; 6,000+ sold last month",
+    "Trimmer and edger",
+    "Push-button line feed"
+   ],
+   "cons": [
+    "12 in swath",
+    "4.3 stars"
+   ],
+   "specs": {
+    "swath": "12 in",
+    "line": "Push-button command feed",
+    "battery": "20V, included",
+    "extras": "Head tilts 90°, converts to edger"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": true,
+    "battery_included": true,
+    "wide_swath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61XJalfNcTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B018S68U40?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B018S68U40"
+  },
+  {
+   "rank": 3,
+   "asin": "B00HH4K4HQ",
+   "name": "BLACK+DECKER 20V MAX 12\" String Trimmer and Edger with Auto Feed (LST300)",
+   "brand": "BLACK+DECKER",
+   "model": "LST300",
+   "price": 79.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 9736,
+   "score": 85,
+   "award": "Best Budget",
+   "best_for": "Small yards on a budget.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A cheap, popular trimmer-edger with BLACK+DECKER's automatic feed spool, so you never bump for line, and a 2-year warranty.",
+   "pros": [
+    "Auto feed, no bumping",
+    "Converts to edger",
+    "9,736 reviews"
+   ],
+   "cons": [
+    "12 in swath",
+    "Small battery"
+   ],
+   "specs": {
+    "swath": "12 in",
+    "line": "Automatic Feed Spool",
+    "battery": "20V MAX, included",
+    "extras": "6,200 RPM PowerDrive, 2-year warranty"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": true,
+    "battery_included": true,
+    "wide_swath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51HGj4v8VCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00HH4K4HQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B00HH4K4HQ"
+  },
+  {
+   "rank": 4,
+   "asin": "B07FKVBXT6",
+   "name": "WORX 20V 12\" 3-in-1 Cordless String Trimmer, Edger and Mini Mower (WG170)",
+   "brand": "WORX",
+   "model": "WG170",
+   "price": 110.81,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 6422,
+   "score": 83,
+   "award": null,
+   "best_for": "Tiny yards and strips where a mower is overkill.",
+   "bought_last_month": "600+/mo",
+   "verdict": "WORX's 3-in-1 that also works as a small wheeled mower for patches too small to drag a mower to, with lots of handle and head adjustments.",
+   "pros": [
+    "3-in-1",
+    "Very adjustable",
+    "4.4 stars"
+   ],
+   "cons": [
+    "5-hour charge time"
+   ],
+   "specs": {
+    "swath": "12 in",
+    "line": "Command feed",
+    "battery": "20V, included",
+    "extras": "Converts to edger and wheeled mini mower; 7 handle and 6 head positions"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": true,
+    "battery_included": true,
+    "wide_swath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51wKQ85XTML._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07FKVBXT6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B07FKVBXT6"
+  },
+  {
+   "rank": 5,
+   "asin": "B00KXBT51Q",
+   "name": "WORX 20V 10\" 2-in-1 Cordless String Trimmer and Edger (WG154)",
+   "brand": "WORX",
+   "model": "WG154",
+   "price": 79.73,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 6091,
+   "score": 83,
+   "award": null,
+   "best_for": "Small yards and anyone who wants the lightest trimmer.",
+   "bought_last_month": "500+/mo",
+   "verdict": "WORX's smallest trimmer at 4.2 lb, with auto feed and edging, for townhouse yards and borders.",
+   "pros": [
+    "4.2 lb",
+    "Auto feed",
+    "Low price"
+   ],
+   "cons": [
+    "10 in swath"
+   ],
+   "specs": {
+    "swath": "10 in",
+    "line": "Auto feed",
+    "battery": "20V, included",
+    "extras": "4.2 lb"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": true,
+    "battery_included": true,
+    "wide_swath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51O71mSnGxL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00KXBT51Q?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B00KXBT51Q"
+  },
+  {
+   "rank": 6,
+   "asin": "B09RND55QM",
+   "name": "EGO POWER+ 16\" Cordless String Trimmer with LINE IQ and Carbon Fiber Shaft (ST1623T)",
+   "brand": "EGO",
+   "model": "ST1623T",
+   "price": 359.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2305,
+   "score": 82,
+   "award": "Money No Object",
+   "best_for": "Large properties that want gas-trimmer performance without gas.",
+   "bought_last_month": "400+/mo",
+   "verdict": "EGO's top trimmer: a 16-inch swath, LINE IQ that feeds line automatically as it senses wear, POWERLOAD winding and a carbon fiber shaft.",
+   "pros": [
+    "16 in swath",
+    "Auto-sensing line feed",
+    "Carbon fiber shaft"
+   ],
+   "cons": [
+    "Most expensive here"
+   ],
+   "specs": {
+    "swath": "16 in",
+    "line": "LINE IQ auto-sensing feed, POWERLOAD",
+    "battery": "56V, included",
+    "extras": "Telescopic carbon fiber shaft"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": false,
+    "battery_included": true,
+    "wide_swath": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61nWWXdbuCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09RND55QM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B09RND55QM"
+  },
+  {
+   "rank": 7,
+   "asin": "B08VRVVFHJ",
+   "name": "EGO POWER+ 15\" Cordless String Trimmer with POWERLOAD (ST1511T)",
+   "brand": "EGO",
+   "model": "ST1511T",
+   "price": 219.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2067,
+   "score": 82,
+   "award": null,
+   "best_for": "Anyone who hates restringing.",
+   "bought_last_month": "200+/mo",
+   "verdict": "Adds EGO's POWERLOAD head, which winds new line at the push of a button, plus a telescopic shaft.",
+   "pros": [
+    "Push-button line winding",
+    "15 in swath",
+    "Telescopic shaft"
+   ],
+   "cons": [
+    "Pricey",
+    "Shipping can take 1-3 weeks"
+   ],
+   "specs": {
+    "swath": "15 in",
+    "line": ".095 in, POWERLOAD auto-wind",
+    "battery": "56V, included",
+    "extras": "Telescopic aluminum shaft"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": false,
+    "battery_included": true,
+    "wide_swath": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61AhFKBup8L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08VRVVFHJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B08VRVVFHJ"
+  },
+  {
+   "rank": 8,
+   "asin": "B07RHVS77W",
+   "name": "EGO POWER+ 15\" Cordless String Trimmer with Battery and Charger (ST1502SA)",
+   "brand": "EGO",
+   "model": "ST1502SA",
+   "price": 199.0,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 3331,
+   "score": 81,
+   "award": null,
+   "best_for": "Bigger yards with thick weeds and long grass.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "EGO's 15-inch trimmer uses thick .095 in pro line and a Rapid Reload head for weeds that stall smaller trimmers.",
+   "pros": [
+    "15 in swath, .095 in line",
+    "56V power",
+    "3,331 reviews"
+   ],
+   "cons": [
+    "4.2 stars",
+    "Pricier"
+   ],
+   "specs": {
+    "swath": "15 in",
+    "line": ".095 in, Rapid Reload head",
+    "battery": "56V, included",
+    "extras": "Up to 45 min runtime"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": false,
+    "battery_included": true,
+    "wide_swath": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61fpoVKhM4L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07RHVS77W?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B07RHVS77W"
+  },
+  {
+   "rank": 9,
+   "asin": "B01GEW1AJC",
+   "name": "Greenworks 40V 12\" Cordless String Trimmer, 2.0Ah Battery and Charger",
+   "brand": "Greenworks",
+   "model": "2101602",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 3993,
+   "score": 77,
+   "award": null,
+   "best_for": "Greenworks 40V owners and medium yards.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A 40V trimmer with dual .065 in line, auto feed and a variable speed trigger, on Greenworks' 40V platform.",
+   "pros": [
+    "40V power",
+    "Dual-line auto feed",
+    "Variable speed"
+   ],
+   "cons": [
+    "4.3 stars",
+    "12 in swath"
+   ],
+   "specs": {
+    "swath": "12 in",
+    "line": ".065 in dual line, auto feed",
+    "battery": "40V 2.0Ah, included",
+    "extras": "Variable speed trigger"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": false,
+    "battery_included": true,
+    "wide_swath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61ey+oorXnL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01GEW1AJC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B01GEW1AJC"
+  },
+  {
+   "rank": 10,
+   "asin": "B0GFYJ2WYD",
+   "name": "CRAFTSMAN V20 13\" String Trimmer and Edger Kit with 4Ah Battery (CMCST901)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCST901M1",
+   "price": 99.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 218,
+   "score": 75,
+   "award": null,
+   "best_for": "CRAFTSMAN V20 owners and anyone wanting long runtime for the money.",
+   "bought_last_month": "700+/mo",
+   "verdict": "A CRAFTSMAN kit with a big 4.0Ah battery for up to 63 minutes, a 13-inch swath and an edger mode, rated 4.6 stars.",
+   "pros": [
+    "4.0Ah battery included",
+    "Up to 63 min",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 218 reviews"
+   ],
+   "specs": {
+    "swath": "13 in",
+    "line": ".065 in",
+    "battery": "V20 4.0Ah, included",
+    "extras": "Up to 63 min runtime, adjustable height"
+   },
+   "features": {
+    "auto_feed": false,
+    "edger": true,
+    "battery_included": true,
+    "wide_swath": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61hulkUiBzL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GFYJ2WYD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#B0GFYJ2WYD"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0HCNKSC7X",
+   "name": "Cordless Weed Wacker Compatible with DEWALT 20V Max Battery, Tool Only",
+   "brand": "Houselife",
+   "model": "HL-DST30A-0DB",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 675,
+   "flag": "Thin .055 in line; sold as 'professional-grade'",
+   "verdict": "A DEWALT-battery knockoff sold as a 'professional-grade' 3-in-1 that runs thinner line than anything we rank and feeds line every time you start it.",
+   "reasons": [
+    "It uses 0.055 in trimmer line, thinner than the .065 to .095 in line on the trimmers we rank; thin line snaps quickly on weeds.",
+    "Its auto-feed 'releases 0.4\" of line every time you start the tool', which burns through line on short jobs.",
+    "DEWALT owners can buy a DEWALT-made trimmer; for budget buyers, the WORX WG154 and BLACK+DECKER kits include a battery and have thousands of reviews."
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/6131-nlbAVL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HCNKSC7X?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-string-trimmers.html#avoid-B0HCNKSC7X"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "How wide a swath do I need?",
+   "a": "10 to 12 inches suits small yards and edges. 13 to 16 inches finishes bigger properties faster and handles thicker growth."
+  },
+  {
+   "q": "What does line thickness change?",
+   "a": "Thicker line (.080 to .095 in) cuts weeds and tough grass without snapping. Thin line (.065 in and below) is fine for grass edges and small yards."
+  },
+  {
+   "q": "Auto feed or bump feed?",
+   "a": "Auto feed advances line without tapping the head on the ground. EGO's POWERLOAD winds new line at the push of a button. Both save time over refilling spools by hand."
+  },
+  {
+   "q": "Do I need an edger mode?",
+   "a": "If you want clean lines along sidewalks and driveways, yes. 2-in-1 trimmers rotate the head and add a wheel for edging."
+  },
+  {
+   "q": "20V, 40V or 56V?",
+   "a": "20V is light and fine for small yards. 40V and EGO's 56V run longer and cut thicker growth. Pick the platform you'll use for other yard tools."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-30",
+   "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the WORX WG154 rose from $59.99 to $79.73; the WORX WG163 dropped from $137.34 to $105.10."
+  },
+  {
+   "date": "2026-10-10",
+   "note": "Page published with 10 ranked picks and 1 tool to avoid."
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ToolboxTop10's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

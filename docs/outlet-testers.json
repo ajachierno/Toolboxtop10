@@ -1,0 +1,488 @@
+{
+ "site": "ToolboxTop10",
+ "page_url": "https://toolboxtop10.com/outlet-testers.html",
+ "json_url": "https://toolboxtop10.com/outlet-testers.json",
+ "slug": "outlet-testers",
+ "title": "The 10 Best Outlet Testers",
+ "subtitle": "Plug-in GFCI and receptacle testers for checking outlet wiring, ranked from live Amazon data.",
+ "intro": "An outlet tester plugs into a receptacle and shows in seconds whether it's wired correctly and whether a GFCI trips. We ranked 10 best-sellers from Klein Tools, Fluke, Southwire, Sperry, Ideal and value brands on rating, review volume and features (a GFCI test, a voltage readout, open-fault detection, a safety listing and extra functions).",
+ "data_captured": "2026-10-10",
+ "audited": "2026-10-10",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.35,
+   "features": 0.2
+  },
+  "feature_weights": {
+   "gfci_test": 0.25,
+   "lcd_voltage": 0.25,
+   "open_fault_detect": 0.2,
+   "certified": 0.15,
+   "extra_function": 0.15
+  },
+  "reviews_ceiling": 10000,
+  "budget_cap_usd": 10,
+  "method_url": "https://toolboxtop10.com/about.html"
+ },
+ "picks": {
+  "best_overall": "B08QW7K1JJ",
+  "best_budget": "B01AKX3AYE",
+  "money_no_object": "B07PMDRHXB"
+ },
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B08QW7K1JJ",
+   "name": "Klein Tools RT250 GFCI Outlet Tester with LCD Display",
+   "brand": "Klein Tools",
+   "model": "RT250",
+   "price": 16.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 11532,
+   "score": 92,
+   "award": "Best Overall",
+   "best_for": "Homeowners and electricians who want a clear readout instead of light codes.",
+   "bought_last_month": "9K+/mo",
+   "verdict": "The best-selling and most-reviewed outlet tester here: a backlit LCD that shows voltage, wiring faults and how long a GFCI takes to trip, rated 4.8 stars on 11,532 reviews.",
+   "pros": [
+    "11,532 reviews; 4.8 stars",
+    "Shows voltage",
+    "GFCI trip time"
+   ],
+   "cons": [
+    "Costs more than Klein's light-only testers"
+   ],
+   "specs": {
+    "display": "Backlit LCD",
+    "tests": "Common wiring faults, open neutral and open ground, GFCI",
+    "rating": null,
+    "extras": "Shows voltage and GFCI trip time"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": true,
+    "open_fault_detect": true,
+    "certified": false,
+    "extra_function": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61HibJa1brL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08QW7K1JJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B08QW7K1JJ"
+  },
+  {
+   "rank": 2,
+   "asin": "B01AKX8L0M",
+   "name": "Klein Tools RT210 GFCI Outlet Tester",
+   "brand": "Klein Tools",
+   "model": "RT210",
+   "price": 10.98,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 8973,
+   "score": 83,
+   "award": null,
+   "best_for": "Checking outlets and GFCIs when you buy or remodel a house.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Klein's standard light-code tester with a GFCI test button, rated 4.8 stars on 8,973 reviews.",
+   "pros": [
+    "4.8 stars; 8,973 reviews",
+    "GFCI test",
+    "Survives a 6.6 ft drop"
+   ],
+   "cons": [
+    "No voltage readout"
+   ],
+   "specs": {
+    "display": "Lights",
+    "tests": "Common wiring faults, GFCI",
+    "rating": null,
+    "extras": "6.6 ft drop rated"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": false,
+    "open_fault_detect": false,
+    "certified": false,
+    "extra_function": false
+   },
+   "image": "https://m.media-amazon.com/images/I/5143f577xkL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01AKX8L0M?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B01AKX8L0M"
+  },
+  {
+   "rank": 3,
+   "asin": "B07PMDRHXB",
+   "name": "Klein Tools RT310 AFCI and GFCI Outlet Tester",
+   "brand": "Klein Tools",
+   "model": "RT310",
+   "price": 44.52,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1834,
+   "score": 82,
+   "award": "Money No Object",
+   "best_for": "Electricians and inspectors testing AFCI circuits in newer homes.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Klein's top tester adds AFCI testing, simulating arc faults to check arc-fault breakers, plus dual-open fault detection.",
+   "pros": [
+    "Tests AFCI breakers",
+    "Dual-open detection",
+    "1,834 reviews"
+   ],
+   "cons": [
+    "Most expensive here"
+   ],
+   "specs": {
+    "display": "LCD",
+    "tests": "Wiring faults, dual-open detection, AFCI, GFCI",
+    "rating": null,
+    "extras": "Simulates arc faults to test AFCI breakers"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": false,
+    "open_fault_detect": true,
+    "certified": false,
+    "extra_function": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51woGkFZHOL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07PMDRHXB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B07PMDRHXB"
+  },
+  {
+   "rank": 4,
+   "asin": "B0B3VCZ4XK",
+   "name": "Fluke ST120+ GFCI Socket Tester with Audible Beeper",
+   "brand": "Fluke",
+   "model": "ST120+",
+   "price": 21.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1719,
+   "score": 80,
+   "award": null,
+   "best_for": "Anyone hunting for which breaker feeds an outlet.",
+   "bought_last_month": "800+/mo",
+   "verdict": "Fluke's GFCI tester with a beeper that sounds while the outlet is live, so you can flip breakers until it goes quiet without a helper.",
+   "pros": [
+    "Beeper finds the breaker",
+    "Fluke build",
+    "4.8 stars"
+   ],
+   "cons": [
+    "No voltage readout"
+   ],
+   "specs": {
+    "display": "LEDs plus beeper",
+    "tests": "Wiring faults, GFCI",
+    "rating": null,
+    "extras": "Beeps when power is on, so you can find the breaker alone"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": false,
+    "open_fault_detect": false,
+    "certified": false,
+    "extra_function": true
+   },
+   "image": "https://m.media-amazon.com/images/I/816n049-GKL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B3VCZ4XK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B0B3VCZ4XK"
+  },
+  {
+   "rank": 5,
+   "asin": "B0152U89DC",
+   "name": "Sperry Instruments VD7504GFI DualCheck 2-in-1 Non-Contact Voltage Detector and GFCI Outlet Tester",
+   "brand": "Sperry",
+   "model": "VD7504GFI",
+   "price": 22.49,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 2745,
+   "score": 79,
+   "award": null,
+   "best_for": "DIYers who want one tool for outlets and wires.",
+   "bought_last_month": "300+/mo",
+   "verdict": "Two testers in one: a GFCI outlet analyzer on one end and a non-contact voltage detector on the other.",
+   "pros": [
+    "Outlet tester plus voltage detector",
+    "2,745 reviews"
+   ],
+   "cons": [
+    "4.5 stars"
+   ],
+   "specs": {
+    "display": "Lights and beeper",
+    "tests": "GFCI outlet analysis; non-contact voltage 50-600V AC",
+    "rating": null,
+    "extras": "Non-contact voltage detector on the other end"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": false,
+    "open_fault_detect": false,
+    "certified": false,
+    "extra_function": true
+   },
+   "image": "https://m.media-amazon.com/images/I/614iTwDA-xL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0152U89DC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B0152U89DC"
+  },
+  {
+   "rank": 6,
+   "asin": "B00170KUPC",
+   "name": "Gardner Bender GFI-3501 GFCI Outlet Tester and Circuit Analyzer",
+   "brand": "Gardner Bender",
+   "model": "GFI-3501",
+   "price": 12.39,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 3238,
+   "score": 78,
+   "award": null,
+   "best_for": "Checking outlets and extension cords around the house.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A GFCI tester that states its 6-9 mA trip current and also checks extension cords.",
+   "pros": [
+    "Stated trip current",
+    "Tests extension cords",
+    "3,238 reviews"
+   ],
+   "cons": [
+    "No voltage readout"
+   ],
+   "specs": {
+    "display": "Lights",
+    "tests": "Standard and GFCI outlets, extension cords",
+    "rating": null,
+    "extras": "Trips at 6-9 mA"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": false,
+    "open_fault_detect": false,
+    "certified": false,
+    "extra_function": false
+   },
+   "image": "https://m.media-amazon.com/images/I/811MU-KljeL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00170KUPC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B00170KUPC"
+  },
+  {
+   "rank": 7,
+   "asin": "B0FDLG18Y6",
+   "name": "KAIWEETS GFCI Outlet Tester with LCD Display and Voltage Test (KT301T)",
+   "brand": "KAIWEETS",
+   "model": "KT301T",
+   "price": 17.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 472,
+   "score": 78,
+   "award": null,
+   "best_for": "Homeowners who want a color LCD and auto hold.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A color-LCD tester that shows voltage and seven wiring faults and holds the reading so you can check outlets behind furniture.",
+   "pros": [
+    "Color LCD with voltage",
+    "Auto hold",
+    "CAT II 300V"
+   ],
+   "cons": [
+    "Only 472 reviews"
+   ],
+   "specs": {
+    "display": "Color LCD plus indicators",
+    "tests": "Voltage, 7 wiring faults, GFCI",
+    "rating": "CAT II 300V",
+    "extras": "Auto hold for outlets behind furniture"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": true,
+    "open_fault_detect": false,
+    "certified": true,
+    "extra_function": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71ahZbLOt3L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FDLG18Y6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B0FDLG18Y6"
+  },
+  {
+   "rank": 8,
+   "asin": "B01AKX3AYE",
+   "name": "Klein Tools RT110 Outlet Tester",
+   "brand": "Klein Tools",
+   "model": "RT110",
+   "price": 9.97,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 3599,
+   "score": 77,
+   "award": "Best Budget",
+   "best_for": "A quick wiring check on standard outlets.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Klein's basic plug-in tester: a light sequence shows whether an outlet is wired correctly, for under $10.",
+   "pros": [
+    "Under $10",
+    "UL 1436 certified",
+    "4.8 stars"
+   ],
+   "cons": [
+    "No GFCI test"
+   ],
+   "specs": {
+    "display": "Lights",
+    "tests": "Common wiring faults",
+    "rating": "UL 1436, CSA C22.2 #160",
+    "extras": "6.6 ft drop rated"
+   },
+   "features": {
+    "gfci_test": false,
+    "lcd_voltage": false,
+    "open_fault_detect": false,
+    "certified": true,
+    "extra_function": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41qnzgdirPL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01AKX3AYE?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B01AKX3AYE"
+  },
+  {
+   "rank": 9,
+   "asin": "B07HB2J3ZG",
+   "name": "Southwire GFCI Receptacle Tester, 7 Test Functions (40022S)",
+   "brand": "Southwire",
+   "model": "40022S",
+   "price": 7.98,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1974,
+   "score": 76,
+   "award": null,
+   "best_for": "A spare tester for the junk drawer or truck.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A compact GFCI tester with a push-button trip test, the cheapest brand-name tester here at about $8.",
+   "pros": [
+    "About $8",
+    "GFCI test",
+    "4.7 stars"
+   ],
+   "cons": [
+    "Thin listing"
+   ],
+   "specs": {
+    "display": "Lights",
+    "tests": "7 test modes including GFCI",
+    "rating": null,
+    "extras": "Compact"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": false,
+    "open_fault_detect": false,
+    "certified": false,
+    "extra_function": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61QlBsK05hL._SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07HB2J3ZG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B07HB2J3ZG"
+  },
+  {
+   "rank": 10,
+   "asin": "B0C6FQQCN3",
+   "name": "Ideal 61-502 120V AC GFCI Receptacle Tester",
+   "brand": "Ideal",
+   "model": "61-502",
+   "price": 11.48,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 39,
+   "score": 63,
+   "award": null,
+   "best_for": "Electricians who want a listed tester.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A certified GFCI tester from Ideal with a two-year warranty.",
+   "pros": [
+    "cULus listed",
+    "2-year warranty",
+    "GFCI test"
+   ],
+   "cons": [
+    "Only 39 reviews"
+   ],
+   "specs": {
+    "display": "Lights",
+    "tests": "Common wiring faults, GFCI",
+    "rating": "cULus listed (UL 1436, CSA C22.2 #160)",
+    "extras": "2-year warranty"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": false,
+    "open_fault_detect": false,
+    "certified": true,
+    "extra_function": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71PYy93CfzL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C6FQQCN3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B0C6FQQCN3"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0DHWS19ZZ",
+   "name": "Sahanula Outlet Tester with GFCI Check, Grounding and Receptacle Circuit Tester (SA051)",
+   "brand": "Sahanula",
+   "model": "SA051",
+   "price": 9.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 192,
+   "flag": "No listing for safety standards; model field is a database ID",
+   "verdict": "A plug-in tester whose listing never says which wiring faults it detects or what standard it meets, for a tool you trust to tell you a circuit is safe.",
+   "reasons": [
+    "The bullets promise it 'accurately' checks wiring but never list the faults it detects, the GFCI trip current, or any UL or CSA listing.",
+    "The model number field is a random database string (a UUID), not a model number, and the bullets misspell the brand as 'shahanula'.",
+    "For the same price, Klein's RT110 is UL 1436 and CSA certified with 3,599 reviews."
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/51dgRDwI2rL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DHWS19ZZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#avoid-B0DHWS19ZZ"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "What does an outlet tester show?",
+   "a": "Plug it in and the lights or screen show whether the outlet is wired correctly or has an open ground, open neutral, open hot, or reversed hot and neutral."
+  },
+  {
+   "q": "Do I need a GFCI test button?",
+   "a": "Yes for kitchens, bathrooms, garages and outdoors. The button leaks a small current to ground so you can confirm the GFCI actually trips."
+  },
+  {
+   "q": "What can't it detect?",
+   "a": "Basic testers can miss a hot-ground reverse combined with an open ground, and they can't judge connection quality. They're a quick check, not a full inspection."
+  },
+  {
+   "q": "LCD or lights?",
+   "a": "Light codes are cheap and fine for a yes/no. An LCD shows actual voltage, which helps spot low-voltage problems and makes faults easier to read."
+  },
+  {
+   "q": "What about AFCI?",
+   "a": "Newer homes use arc-fault breakers in bedrooms and living areas. Only testers like the Klein RT310 can simulate an arc fault to check them."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-10",
+   "note": "Page published with 10 ranked picks and 1 tool to avoid."
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ToolboxTop10's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}

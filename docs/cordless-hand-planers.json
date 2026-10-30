@@ -1,0 +1,503 @@
+{
+ "site": "ToolboxTop10",
+ "page_url": "https://toolboxtop10.com/cordless-hand-planers.html",
+ "json_url": "https://toolboxtop10.com/cordless-hand-planers.json",
+ "slug": "cordless-hand-planers",
+ "title": "The 10 Best Cordless Hand Planers",
+ "subtitle": "Battery hand planers for doors, scribes and edge work, ranked from live Amazon data.",
+ "intro": "A cordless hand planer trims doors, scribes cabinets and cleans up edges with no cord to drag around. We ranked 10 best-sellers from DEWALT, Makita, Milwaukee, Bosch, CRAFTSMAN, WEN and three battery-compatible brands on rating, review volume and features (brushless motor, full 3-1/4 in width, a name brand behind it, and whether a battery is included). Most are sold as bare tools, so the right pick usually depends on which batteries you already own.",
+ "data_captured": "2026-10-11",
+ "audited": "2026-10-11",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.35,
+   "features": 0.2
+  },
+  "feature_weights": {
+   "brushless": 0.35,
+   "full_width": 0.25,
+   "name_brand": 0.25,
+   "kit": 0.15
+  },
+  "reviews_ceiling": 5000,
+  "budget_cap_usd": 70,
+  "method_url": "https://toolboxtop10.com/about.html"
+ },
+ "picks": {
+  "best_overall": "B01FHOWQQO",
+  "best_budget": "B0F2N4YGTM",
+  "money_no_object": "B00NOVNV76"
+ },
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B01FHOWQQO",
+   "name": "DEWALT 20V MAX Brushless Planer, 30,000 Cuts Per Minute, 2 mm Cut Depth, Bare Tool (DCP580B)",
+   "brand": "DEWALT",
+   "model": "DCP580B",
+   "price": 167.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 4615,
+   "score": 94,
+   "award": "Best Overall",
+   "best_for": "Anyone already on DEWALT 20V batteries who trims doors, scribes cabinets or cleans up framing.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The best-seller of this group: 1,000+ sold last month, ten times any other planer here. A brushless motor drives 30,000 cuts per minute, the depth knob is calibrated in steps of about 0.01 mm, and a kickstand keeps the blades off the work between passes.",
+   "pros": [
+    "4,615 reviews; 1,000+ sold last month",
+    "Brushless, 30,000 cuts per minute",
+    "Kickstand protects blades and work"
+   ],
+   "cons": [
+    "Battery and charger sold separately",
+    "7.4 lb, heavier than the 12V planers"
+   ],
+   "specs": {
+    "battery": "DEWALT 20V MAX (not included)",
+    "width": "3-1/4 in",
+    "depth": "5/64 in (2 mm)",
+    "speed": "30,000 cuts/min",
+    "extras": "Kickstand, aluminum front and rear shoes"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": true,
+    "name_brand": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61MjlEQNimL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01FHOWQQO?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B01FHOWQQO"
+  },
+  {
+   "rank": 2,
+   "asin": "B00NOVNV76",
+   "name": "Makita XPK01Z 18V LXT Lithium-Ion Cordless 3-1/4-Inch Planer, Tool Only",
+   "brand": "Makita",
+   "model": "XPK01Z",
+   "price": 198.07,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1343,
+   "score": 83,
+   "award": "Money No Object",
+   "best_for": "Makita 18V owners who want a proven planer with carbide blades.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Makita's long-running 18V planer and tied for the highest rating here. A two-blade head with double-edge carbide blades gives a clean finish, and the click depth knob reads from 0 to 5/64 in.",
+   "pros": [
+    "4.8 stars; 1,343 reviews",
+    "Double-edge carbide blades",
+    "3-year limited warranty"
+   ],
+   "cons": [
+    "Brushed motor",
+    "Costs about $30 more than the DEWALT"
+   ],
+   "specs": {
+    "battery": "Makita 18V LXT (not included)",
+    "width": "3-1/4 in",
+    "depth": "5/64 in",
+    "speed": "14,000 rpm",
+    "extras": "2-blade head with double-edge carbide blades, click depth knob"
+   },
+   "features": {
+    "brushless": false,
+    "full_width": true,
+    "name_brand": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61LpELDiuuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00NOVNV76?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B00NOVNV76"
+  },
+  {
+   "rank": 3,
+   "asin": "B07B6JPYFT",
+   "name": "Bosch GHO12V-08N 12V Max EC Brushless Planer (Bare Tool)",
+   "brand": "Bosch",
+   "model": "GHO12V-08N",
+   "price": 219.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 330,
+   "score": 78,
+   "award": null,
+   "best_for": "Installers who carry a planer for doors and want the lightest tool here.",
+   "bought_last_month": null,
+   "verdict": "Bosch calls this the first 12V Max planer. At 3.3 lb and just over 10 in long, it's about the size of a block plane. It planes 2.2 in wide, enough for most door edges, and Bosch rates it at up to 33 ft of hardwood planing per battery amp-hour at 0.04 in depth.",
+   "pros": [
+    "3.3 lb bare tool",
+    "Rabbets up to 0.7 in",
+    "4.7 stars; 330 reviews"
+   ],
+   "cons": [
+    "Most expensive here",
+    "2.2 in width"
+   ],
+   "specs": {
+    "battery": "Bosch 12V Max (not included)",
+    "width": "2.2 in",
+    "depth": "0.08 in",
+    "speed": "14,500 rpm",
+    "extras": "Rabbets up to 0.7 in deep"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": false,
+    "name_brand": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/518h36orbsL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07B6JPYFT?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B07B6JPYFT"
+  },
+  {
+   "rank": 4,
+   "asin": "B0D2YYCYB2",
+   "name": "Bosch GHO18V-26N 18V Brushless 3-1/4 in. Planer, Bare Tool",
+   "brand": "Bosch",
+   "model": "GHO18V-26N",
+   "price": 189.05,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 79,
+   "score": 76,
+   "award": null,
+   "best_for": "Bosch 18V users who take off a lot of stock.",
+   "bought_last_month": null,
+   "verdict": "Cuts up to 3/32 in (2.6 mm) per pass on a full 3-1/4 in width, deeper than every other bare tool here. It has a 28-position depth knob, an aluminum base plate, dual chip exhaust ports and blade changes that need no realignment.",
+   "pros": [
+    "2.6 mm depth per pass",
+    "Dual exhaust ports",
+    "Brushless"
+   ],
+   "cons": [
+    "79 reviews",
+    "Battery sold separately"
+   ],
+   "specs": {
+    "battery": "Bosch 18V (not included)",
+    "width": "3-1/4 in",
+    "depth": "3/32 in (2.6 mm)",
+    "speed": "13,600 rpm",
+    "extras": "28-position depth knob, dual exhaust ports"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": true,
+    "name_brand": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61ryONoJqgL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D2YYCYB2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0D2YYCYB2"
+  },
+  {
+   "rank": 5,
+   "asin": "B0F2N4YGTM",
+   "name": "MtiolHig Brushless Cordless Planer for DeWalt 20V Battery, 3-1/4 Inch, Tool Only",
+   "brand": "MtiolHig",
+   "model": "20V Brushless Planer",
+   "price": 66.49,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 279,
+   "score": 74,
+   "award": "Best Budget",
+   "best_for": "DEWALT battery owners who plane a few times a year and want to spend less.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The most-reviewed third-party planer here: a brushless 3-1/4 in planer that runs on DEWALT 20V batteries, for well under half the DCP580B's price. It has a dual-switch safety start and a 0 to 2 mm depth knob.",
+   "pros": [
+    "279 reviews; 100+ sold last month",
+    "Runs on DEWALT 20V batteries",
+    "About $100 less than the DCP580B"
+   ],
+   "cons": [
+    "Unknown brand, warranty unclear",
+    "4.3 stars"
+   ],
+   "specs": {
+    "battery": "Fits DEWALT 20V (not included)",
+    "width": "3-1/4 in",
+    "depth": "0.08 in (2 mm)",
+    "speed": "15,000 rpm",
+    "extras": "Parallel guide, blade gauge, T-handle wrench"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": true,
+    "name_brand": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71KQrfRZNYL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F2N4YGTM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0F2N4YGTM"
+  },
+  {
+   "rank": 6,
+   "asin": "B0CR5WW1MF",
+   "name": "Milwaukee M12 Brushless 2 in. Planer, Tool Only (2524-20)",
+   "brand": "Milwaukee",
+   "model": "2524-20",
+   "price": 204.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 124,
+   "score": 74,
+   "award": null,
+   "best_for": "M12 owners who mostly plane door edges and small trim.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A small brushless planer on Milwaukee's 12V battery. At 4.4 lb it's light enough to use one-handed on door edges and scribes. Reviewers praise its power for the size, its onboard tool holder and the spare blades.",
+   "pros": [
+    "4.7 stars",
+    "4.4 lb, compact",
+    "Brushless"
+   ],
+   "cons": [
+    "2 in width",
+    "Listing gives no depth or speed figures"
+   ],
+   "specs": {
+    "battery": "Milwaukee M12 (not included)",
+    "width": "2 in",
+    "depth": null,
+    "speed": null,
+    "extras": "Tool only, no battery or charger"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": false,
+    "name_brand": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51k5LKpNTsL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CR5WW1MF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0CR5WW1MF"
+  },
+  {
+   "rank": 7,
+   "asin": "B09MJQ37GY",
+   "name": "WEN 20653 20V Max Brushless Cordless 3-1/4-Inch Planer with 4.0 Ah Battery and Charger",
+   "brand": "WEN",
+   "model": "20653",
+   "price": 97.8,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 30,
+   "score": 72,
+   "award": null,
+   "best_for": "Buyers with no battery platform who want everything in one box.",
+   "bought_last_month": null,
+   "verdict": "The only ready-to-use kit from a known tool brand here: a brushless planer with a 4.0 Ah battery, a charger, a dust bag, a kickstand and a rabbeting guide. Depth adjusts to 1/8 in in 16 positive stops.",
+   "pros": [
+    "Battery and charger included",
+    "1/8 in max depth, 16 detents",
+    "Two-year warranty"
+   ],
+   "cons": [
+    "4.2 stars on 30 reviews",
+    "WEN 20V platform is smaller"
+   ],
+   "specs": {
+    "battery": "WEN 20V Max (4.0 Ah included)",
+    "width": "3-1/4 in",
+    "depth": "1/8 in",
+    "speed": "26,000 cuts/min",
+    "extras": "Battery, charger, dust bag, kickstand, fence, rabbeting guide"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": true,
+    "name_brand": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71QKJ6fh5DL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09MJQ37GY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B09MJQ37GY"
+  },
+  {
+   "rank": 8,
+   "asin": "B0GT6P7LHH",
+   "name": "CRAFTSMAN V20 Cordless Brushless Hand Planer, 3-1/4 In., with Dust Bag, Tool Only (CMCW350B)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCW350B",
+   "price": 119.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 9,
+   "score": 70,
+   "award": null,
+   "best_for": "CRAFTSMAN V20 owners who want a name-brand planer for less than DEWALT or Makita.",
+   "bought_last_month": "50+/mo",
+   "verdict": "CRAFTSMAN's new brushless V20 planer, rated at up to 30 passes per charge. It comes with a dust bag, a parallel guide and a vacuum adapter, and the chip exhaust can be switched to either side.",
+   "pros": [
+    "Dust bag, guide and vac adapter included",
+    "Brushless, 30,000 cuts per minute",
+    "4.8 stars"
+   ],
+   "cons": [
+    "Only 9 reviews",
+    "Battery sold separately"
+   ],
+   "specs": {
+    "battery": "CRAFTSMAN V20 (not included)",
+    "width": "3-1/4 in",
+    "depth": "5/64 in",
+    "speed": "15,000 rpm / 30,000 cuts/min",
+    "extras": "Dust bag, parallel guide, vacuum adapter, wrench"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": true,
+    "name_brand": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71hqVMWnzuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GT6P7LHH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0GT6P7LHH"
+  },
+  {
+   "rank": 9,
+   "asin": "B0DM8Z259W",
+   "name": "Heimerdinger 3-1/4-Inch Brushless Cordless Hand Planer for Makita 18V Battery, Tool Only",
+   "brand": "Heimerdinger",
+   "model": "LB294N",
+   "price": 61.79,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 61,
+   "score": 68,
+   "award": null,
+   "best_for": "Makita 18V owners who need a planer for occasional jobs.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A budget brushless planer for Makita 18V batteries, with a 3-1/4 in width and a 0 to 2 mm depth knob. It costs well under a third of the XPK01Z.",
+   "pros": [
+    "Runs on Makita 18V batteries",
+    "About $62",
+    "Brushless"
+   ],
+   "cons": [
+    "4.3 stars on 61 reviews",
+    "12,000 rpm, the slowest here"
+   ],
+   "specs": {
+    "battery": "Fits Makita 18V (not included)",
+    "width": "3-1/4 in",
+    "depth": "5/64 in (2 mm)",
+    "speed": "12,000 rpm",
+    "extras": "Dual-switch safety start"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": true,
+    "name_brand": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61rOk-wlIbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DM8Z259W?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0DM8Z259W"
+  },
+  {
+   "rank": 10,
+   "asin": "B0FR4FN9VB",
+   "name": "TengXcel Brushless Cordless Planer for DeWalt 20V Battery, 3-1/4 in, 2 mm Depth, Tool Only (EPT698S)",
+   "brand": "TengXcel",
+   "model": "EPT698S",
+   "price": 73.14,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 55,
+   "score": 68,
+   "award": null,
+   "best_for": "DEWALT 20V or 60V Flex owners who want a V-groove for chamfers.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A brushless DEWALT-battery planer with matched front and rear shoes and a V-groove in the front shoe for chamfering. TengXcel also sells the same EPT698S for Milwaukee 18V batteries.",
+   "pros": [
+    "Works with 20V MAX and 60V Flex packs",
+    "V-groove for chamfers",
+    "4.4 stars"
+   ],
+   "cons": [
+    "55 reviews",
+    "Unknown brand"
+   ],
+   "specs": {
+    "battery": "Fits DEWALT 20V MAX / 60V Flex (not included)",
+    "width": "3-1/4 in",
+    "depth": "5/64 in (2 mm)",
+    "speed": "30,000 cuts/min",
+    "extras": "V-groove front shoe"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": true,
+    "name_brand": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61Hefe8nsKL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FR4FN9VB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0FR4FN9VB"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0H5NYNPT1",
+   "name": "JEXUGK Cordless Planer, 3-1/4\" Electric Planer with 2 x 4.0Ah Batteries (JEX-DB01)",
+   "brand": "JEXUGK",
+   "model": "JEX-DB01",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 3.0,
+   "reviews_count": 2,
+   "flag": "Off-brand '21V' battery; parts list names a router stand",
+   "verdict": "A kit on an unbranded battery that nothing else you own will use, and a listing that reads like it was pasted together from other products. The WEN 20653 kit costs about $28 more and comes from a brand with parts and a warranty.",
+   "reasons": [
+    "It runs on its own '21V' 4.0 Ah packs. They don't fit DEWALT, Makita, Milwaukee or any other tool line, so when a pack dies you're shopping for a part that may not exist.",
+    "'21V' is the fully charged reading of an ordinary 18V or 20V-class pack, a number some sellers use to look stronger than 18V and 20V tools.",
+    "The included-parts list starts with '1 x electric router stand' and ends with 'customized logo', and the bullets switch to Spanish product names mid-sentence. It isn't clear what actually ships in the box.",
+    "It rates 3.0 stars."
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/71R0lugB95L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H5NYNPT1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#avoid-B0H5NYNPT1"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "What is a cordless hand planer for?",
+   "a": "Taking a little wood off a narrow edge, fast: trimming a sticking door, scribing a cabinet to a wavy wall, easing a deck board, or straightening a stud. It isn't a thickness planer. It won't make a wide board flat or bring it to an exact thickness."
+  },
+  {
+   "q": "3-1/4 in or a compact 2 in planer?",
+   "a": "Most cordless planers cut 3-1/4 in wide, which covers a 2x4 edge and any door edge in one pass. The 12V Milwaukee (2 in) and Bosch (2.2 in) are lighter and easier to hold one-handed, but they need two passes on anything wider than a door."
+  },
+  {
+   "q": "Bare tool or kit?",
+   "a": "Nearly every cordless planer is sold bare. If you already own DEWALT, Makita, Milwaukee, Bosch or CRAFTSMAN batteries, buy the bare tool for that platform. If you own none, a kit like the WEN 20653 is cheaper than buying a name-brand tool plus a battery and charger."
+  },
+  {
+   "q": "Are third-party planers that fit DEWALT or Makita batteries any good?",
+   "a": "For occasional use, the better ones (MtiolHig, TengXcel) rate 4.3 to 4.4 stars. They have fewer reviews, no clear warranty and no parts network, so a daily user should buy the name brand."
+  },
+  {
+   "q": "How deep should each pass be?",
+   "a": "Most models top out at 5/64 in (2 mm); the Bosch 18V goes to 3/32 in and the WEN to 1/8 in. Deep passes drain the battery and tear out more. Take several light passes on hardwood and finish with the shallowest setting."
+  },
+  {
+   "q": "Does brushless matter on a planer?",
+   "a": "A brushless motor gets more runtime from the same battery and needs no brush changes. Every planer here is brushless except the Makita XPK01Z, which makes up for it with carbide blades and a long record."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-11",
+   "note": "Page published with 10 ranked picks and 1 tool to avoid."
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ToolboxTop10's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}
