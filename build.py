@@ -555,7 +555,9 @@ def write_page_json(site, cat, ranked, avoid, overall, budget, premium, canonica
 def write_robots(base):
     groups = "".join(f"User-agent: {b}\nAllow: /\n\n" for b in AI_CRAWLERS)
     (OUT / "robots.txt").write_text(
-        "User-agent: *\nAllow: /\n\n"
+        "User-agent: *\nAllow: /\n"
+        "# Content signals (contentsignals.org): fine for search, AI answers and AI training.\n"
+        "Content-Signal: search=yes, ai-input=yes, ai-train=yes\n\n"
         "# AI assistants and answer engines are welcome. Machine-readable copies of the\n"
         f"# rankings: {base}/llms.txt (index) and <page>.json beside every <page>.html.\n\n"
         f"{groups}Sitemap: {base}/sitemap.xml\n", encoding="utf-8")
@@ -1860,6 +1862,10 @@ def build_home(site, cats):
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
     org = {"@context": "https://schema.org", "@type": "Organization", "name": site["brand"],
            "url": f"{base}/" if base else "", "logo": f"{base}/assets/logo.png" if base else ""}
+    if site.get("same_as"):
+        org["sameAs"] = site["same_as"]
+    if site.get("contact_email"):
+        org["email"] = site["contact_email"]
     website = {"@context": "https://schema.org", "@type": "WebSite", "name": site["brand"],
                "url": f"{base}/" if base else "", "description": site["description"]}
     (OUT / "index.html").write_text(
