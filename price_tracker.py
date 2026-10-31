@@ -39,6 +39,8 @@ CSS = r"""
 .pt td.n,.pt th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .pt .sub{color:var(--muted);font-size:.78rem;white-space:normal}
 .pt td.name{white-space:normal;min-width:180px}
+.pt td.name a{display:inline-block;padding:3px 0;line-height:1.25}
+.pt td.name .sub a{padding:4px 0}
 .pt-change{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;flex-wrap:wrap;max-width:150px}
 .pt-bar{display:inline-block;height:8px;border-radius:4px;min-width:2px}
 .pt-down{color:#31a56a}.pt-down .pt-bar{background:#31a56a}
@@ -288,6 +290,7 @@ def build(site, meta, history, ctx):
     latest, first = dates[-1], dates[0]
     checks = sum(len(r["series"]) for r in rows.values())
     cats = {r["cat_slug"] for r in rows.values()}
+    n_pages = ctx.get("page_count") or len(cats)
     days = WINDOW_DAYS
     moves = recent_moves(rows, latest, days)
     for alt in (14, 7):
@@ -318,7 +321,7 @@ def build(site, meta, history, ctx):
   {ctx["nav"]}
   <section class="lead">
     <h1>{esc(ctx["brand"])} price tracker</h1>
-    <p class="sub">{len(rows):,} Amazon {nouns} across {len(cats)} {ctx["category_label_plural"]}, re-checked on a rotation since {_long(first)}.</p>
+    <p class="sub">{len(rows):,} Amazon {nouns} across {n_pages} {ctx["category_label_plural"]}, re-checked on a rotation since {_long(first)}.</p>
     <p class="intro">Every time we refresh a page we log each {noun}'s Amazon price under that day's date. This page reads that log:
     which {nouns} moved most in the last {days} days, which are sitting at the lowest price we have ever recorded, and how each
     {ctx["category_label"].lower()} is trending. Prices are what Amazon showed on the dates listed; they change daily, so check the listing before you buy.
@@ -356,7 +359,8 @@ def build(site, meta, history, ctx):
     <h2 id="how-this-is-measured">How this is measured</h2>
     <p>A check is the price Amazon showed for a listing on the day one of our pages was refreshed. Each page is re-priced about weekly,
     so most {nouns} have one check per week. The {days}-day change compares the latest check with the last check taken at least
-    {days} days earlier; {nouns} without a check that old are left out rather than guessed. Moves under {MIN_MOVE_PCT:.0f}% or
+    {days} days before the site's newest capture; a {noun} counts only if its own latest check is within {MAX_STALE_DAYS} days of
+    that capture, and {nouns} without a check that old are left out rather than guessed. Moves under {MIN_MOVE_PCT:.0f}% or
     under {money(MIN_MOVE_USD)} are treated as noise. A monthly report compares each {noun}'s last check before the month with its last
     check inside it. We only track {nouns} currently ranked on the site; when one is removed, its history stops.</p>
     <h2>Download the data</h2>
@@ -368,7 +372,7 @@ def build(site, meta, history, ctx):
   {ctx["to_top"]}"""
     slug = "price-tracker"
     title = f"{ctx['brand']} price tracker: {len(rows):,} Amazon {nouns}, re-checked weekly"
-    desc = (f"Tracked Amazon prices for {len(rows):,} {nouns} across {len(cats)} {ctx['category_label_plural']}: the biggest drops and rises of the "
+    desc = (f"Tracked Amazon prices for {len(rows):,} {nouns} across {n_pages} {ctx['category_label_plural']}: the biggest drops and rises of the "
             f"last {days} days, {nouns} at their lowest recorded price, and the full dataset to download.")
     sd = {"@context": "https://schema.org", "@type": "Dataset", "name": f"{ctx['brand']} Amazon price history",
           "description": desc, "url": f"{base}/{slug}.html", "license": f"{base}/{slug}.html#how-this-is-measured",

@@ -340,6 +340,8 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
 .pt td.n,.pt th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .pt .sub{color:var(--muted);font-size:.78rem;white-space:normal}
 .pt td.name{white-space:normal;min-width:180px}
+.pt td.name a{display:inline-block;padding:3px 0;line-height:1.25}
+.pt td.name .sub a{padding:4px 0}
 .pt-change{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;flex-wrap:wrap;max-width:150px}
 .pt-bar{display:inline-block;height:8px;border-radius:4px;min-width:2px}
 .pt-down{color:#31a56a}.pt-down .pt-bar{background:#31a56a}

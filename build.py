@@ -170,7 +170,7 @@ def money(v):
 
 def stars(rating):
     pct = round(rating / 5 * 100)
-    return (f'<span class="stars" style="--pct:{pct}%" '
+    return (f'<span class="stars" role="img" style="--pct:{pct}%" '
             f'aria-label="{rating} out of 5 stars"></span>')
 
 
@@ -1018,7 +1018,7 @@ def build_price_tracker(site, cats):
     ctx = {"esc": esc, "money": money, "base": base, "brand": site["brand"], "out": OUT, "write": write,
            "nav": render_quicknav(nav_groups_from_site(site), compact=True, back_home=True),
            "table_js": TABLE_JS, "to_top": TO_TOP, "noun": "tool", "nouns": "tools",
-           "category_label": "Category", "category_label_plural": "categories",
+           "category_label": "Category", "category_label_plural": "categories", "page_count": len(cats),
            "extra_note": "Amazon links on this site carry our Associates tag; the dataset itself contains no affiliate links.",
            "caveat": ""}
     return price_tracker.build(site, meta, PRICE_HISTORY, ctx)
@@ -1255,6 +1255,20 @@ def load_seasonal():
 
 
 SEASONAL = load_seasonal()
+# data/holiday-prices.json: {asin: {price, rating, reviews_count, checked}} written by
+# scripts/holiday_picks.py apply (a daily re-read of just the award listings while a holiday
+# page is visible). Overlaid on the holiday pages only; category pages keep their own numbers.
+HOLIDAY_PRICES = (json.loads((DATA / "holiday-prices.json").read_text(encoding="utf-8"))
+                  if (DATA / "holiday-prices.json").exists() else {})
+
+
+def holiday_price(p, cat, site):
+    """(pick, date): the pick with holiday-prices numbers when that check is newer than the
+    category's own capture, else the pick as ranked and the category's capture date."""
+    hp = HOLIDAY_PRICES.get(p["asin"]) if p else None
+    if not hp or hp["checked"] <= cat_date(cat, site):
+        return p, cat_date(cat, site)
+    return {**p, "price": hp["price"], "rating": hp["rating"], "reviews_count": hp["reviews_count"]}, hp["checked"]
 
 
 def seasonal_pages():
@@ -1464,12 +1478,13 @@ def build_holiday(site, cfg, by_slug):
 
     def pick(entry):
         cat, overall, budget = entry
-        dates.append(cat_date(cat, site))
+        overall, d_o = holiday_price(overall, cat, site)
+        budget, d_b = holiday_price(budget, cat, site) if budget else (budget, d_o)
+        dates.extend([d_o, d_b])
         rows.append((cat, overall, budget))
-        note = f"regular price on {esc(cat_date(cat, site))}"
-        cards = render_pick_card(overall, cat, site, "Best Overall", note)
-        if budget and budget is not overall:
-            cards += render_pick_card(budget, cat, site, "Best Budget", note)
+        cards = render_pick_card(overall, cat, site, "Best Overall", f"regular price on {esc(d_o)}")
+        if budget and budget["asin"] != overall["asin"]:
+            cards += render_pick_card(budget, cat, site, "Best Budget", f"regular price on {esc(d_b)}")
         return cards
 
     groups = _grouped(site, by_slug, pick)

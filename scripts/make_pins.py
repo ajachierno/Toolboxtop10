@@ -338,7 +338,11 @@ def holiday_pins(site, cats, today=None):
     window hasn't closed. The cheat sheet posts the morning the page goes live (link_from,
     14:00 UTC), the picks pin that evening (22:00 UTC)."""
     today = today or datetime.date.today()
-    rows = [(cat, o) for _g, cat, o, _b in cats if cat["slug"] in POPULAR]
+    rows = []
+    for _g, cat, o, _b in cats:
+        if cat["slug"] in POPULAR:
+            o2, when = build.holiday_price(o, cat, site)  # same numbers and date the page shows
+            rows.append(({**cat, "data_captured": when}, o2))
     rows.sort(key=lambda r: POPULAR.index(r[0]["slug"]))
     out = []
     for cfg in build.holiday_configs():
