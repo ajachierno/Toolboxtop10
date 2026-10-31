@@ -64,9 +64,9 @@ async def main():
                             problems.append(f"{tag} FATAL {info['fatal']}")
                         if info.get("scrollW", 0) > info.get("W", 0) + 1:
                             problems.append(f"{tag} OVERFLOW {info['scrollW']}>{info['W']}")
-                        problems += [f"{tag} JS {e}" for e in errs]
-                        problems += [f"{tag} REQ {f}" for f in fails]
-                        problems += [f"{tag} IMG {i}" for i in info.get("imgs", [])]
+                        problems.extend(f"{tag} JS {e}" for e in errs)
+                        problems.extend(f"{tag} REQ {f}" for f in fails)
+                        problems.extend(f"{tag} IMG {i}" for i in info.get("imgs", []))
                         await pg.close()
 
                 await asyncio.gather(*(one(f.name) for f in sorted(DOCS.glob("*.html"))))
