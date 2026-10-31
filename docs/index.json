@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 165,
@@ -14,23 +14,23 @@
    "title": "The 10 Best 23-Gauge Pin Nailers",
    "url": "https://toolboxtop10.com/pin-nailers.html",
    "json": "https://toolboxtop10.com/pin-nailers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07K4YTZ4K",
     "name": "DEWALT DWFP2350K",
-    "price": 159.99
+    "price": 165.0
    },
    "best_budget": {
     "asin": "B00MBVFQFK",
     "name": "Arrow PT23G",
-    "price": 49.98
+    "price": 54.97
    },
    "money_no_object": {
     "asin": "B0CRNKLMPW",
     "name": "GREX P635L",
-    "price": 224.99
+    "price": 223.31
    }
   },
   {
@@ -2186,7 +2186,7 @@
    "title": "The 10 Best Digital Multimeters",
    "url": "https://toolboxtop10.com/multimeters.html",
    "json": "https://toolboxtop10.com/multimeters.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2202,7 +2202,7 @@
    "money_no_object": {
     "asin": "B0779621KZ",
     "name": "Fluke 17B+",
-    "price": 144.18
+    "price": 144.08
    }
   },
   {
@@ -2666,7 +2666,7 @@
    "title": "The 10 Best Locking Pliers Sets",
    "url": "https://toolboxtop10.com/locking-pliers.html",
    "json": "https://toolboxtop10.com/locking-pliers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2690,18 +2690,18 @@
    "title": "The 10 Best Mechanic Creepers",
    "url": "https://toolboxtop10.com/mechanic-creepers.html",
    "json": "https://toolboxtop10.com/mechanic-creepers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B09SRJPWT1",
     "name": "Pro-LifT PL9400",
-    "price": 63.77
+    "price": 98.73
    },
    "best_budget": {
     "asin": "B0856T9M1M",
     "name": "DNA MOTORING TOOLS-00005",
-    "price": 41.88
+    "price": 40.57
    },
    "money_no_object": {
     "asin": "B01HZ6BRF8",
@@ -2714,7 +2714,7 @@
    "title": "The 10 Best Mechanic Stools",
    "url": "https://toolboxtop10.com/mechanic-stools.html",
    "json": "https://toolboxtop10.com/mechanic-stools.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2738,7 +2738,7 @@
    "title": "The 10 Best MIG Welders",
    "url": "https://toolboxtop10.com/mig-welders.html",
    "json": "https://toolboxtop10.com/mig-welders.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2754,7 +2754,7 @@
    "money_no_object": {
     "asin": "B0DKHCFZXV",
     "name": "ARCCAPTAIN MIG250",
-    "price": 499.99
+    "price": 624.99
    }
   },
   {
@@ -2762,23 +2762,23 @@
    "title": "The 10 Best Mini Chainsaws",
    "url": "https://toolboxtop10.com/mini-chainsaws.html",
    "json": "https://toolboxtop10.com/mini-chainsaws.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0FJS7GG29",
     "name": "SEESII M8 Boost",
-    "price": 68.39
+    "price": 99.99
    },
    "best_budget": {
-    "asin": "B0B3LVT3CD",
-    "name": "SEESII M6 Lite",
-    "price": 33.29
+    "asin": "B0C1Z9V6N1",
+    "name": "Tietoc MNCS-118",
+    "price": 31.99
    },
    "money_no_object": {
     "asin": "B0C2R4H6YK",
     "name": "DEWALT DCCS623B",
-    "price": 152.99
+    "price": 140.06
    }
   },
   {
@@ -2786,7 +2786,7 @@
    "title": "The 10 Best Moisture Meters",
    "url": "https://toolboxtop10.com/moisture-meters.html",
    "json": "https://toolboxtop10.com/moisture-meters.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2810,18 +2810,18 @@
    "title": "The 10 Best Motorcycle Lifts",
    "url": "https://toolboxtop10.com/motorcycle-lifts.html",
    "json": "https://toolboxtop10.com/motorcycle-lifts.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B000OCHCIW",
     "name": "OTC 1545",
-    "price": 451.64
+    "price": 478.28
    },
    "best_budget": {
-    "asin": "B06X9CYNJF",
-    "name": "VIVOHOME 1,100 lb Scissor Jack",
-    "price": 55.98
+    "asin": "B0C4KQGQ92",
+    "name": "VEVOR 1,100 lb Scissor Jack",
+    "price": 54.9
    },
    "money_no_object": {
     "asin": "B075HTDCJQ",
@@ -2834,7 +2834,7 @@
    "title": "The 10 Best Multi-Tools",
    "url": "https://toolboxtop10.com/multitools.html",
    "json": "https://toolboxtop10.com/multitools.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2845,12 +2845,12 @@
    "best_budget": {
     "asin": "B082VBWGTZ",
     "name": "WETOLS WE-182",
-    "price": 23.97
+    "price": 23.96
    },
    "money_no_object": {
     "asin": "B079MJ6MLV",
     "name": "Leatherman Wave+ (832533)",
-    "price": 129.95
+    "price": 103.95
    }
   },
   {
@@ -2858,13 +2858,13 @@
    "title": "The 10 Best Narrow Crown Staplers",
    "url": "https://toolboxtop10.com/narrow-crown-staplers.html",
    "json": "https://toolboxtop10.com/narrow-crown-staplers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B001QFYD2E",
     "name": "BOSTITCH SX1838K",
-    "price": 116.14
+    "price": 115.19
    },
    "best_budget": {
     "asin": "B015W10UAG",
@@ -2874,7 +2874,7 @@
    "money_no_object": {
     "asin": "B09NC1KX2R",
     "name": "CRAFTSMAN CMCN618NB",
-    "price": 189.0
+    "price": 129.0
    }
   },
   {
@@ -2930,7 +2930,7 @@
    "title": "The 10 Best OBD2 Scanners",
    "url": "https://toolboxtop10.com/obd2-scanners.html",
    "json": "https://toolboxtop10.com/obd2-scanners.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2954,13 +2954,13 @@
    "title": "The 10 Best Oil Drain Pans",
    "url": "https://toolboxtop10.com/oil-drain-pans.html",
    "json": "https://toolboxtop10.com/oil-drain-pans.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B00JJ63MDS",
     "name": "NEIKO 20762A",
-    "price": 29.98
+    "price": 23.93
    },
    "best_budget": {
     "asin": "B007RXBU52",
@@ -2978,7 +2978,7 @@
    "title": "The 10 Best Oscillating Spindle Sanders",
    "url": "https://toolboxtop10.com/oscillating-spindle-sanders.html",
    "json": "https://toolboxtop10.com/oscillating-spindle-sanders.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3002,7 +3002,7 @@
    "title": "The 10 Best Outlet Testers",
    "url": "https://toolboxtop10.com/outlet-testers.html",
    "json": "https://toolboxtop10.com/outlet-testers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3026,18 +3026,18 @@
    "title": "The 10 Best Pipe Wrenches",
    "url": "https://toolboxtop10.com/pipe-wrenches.html",
    "json": "https://toolboxtop10.com/pipe-wrenches.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0000224JF",
     "name": "RIDGID 31100",
-    "price": 79.99
+    "price": 79.97
    },
    "best_budget": {
     "asin": "B093KNGSK9",
     "name": "HORUSDY 97653",
-    "price": 28.49
+    "price": 24.19
    },
    "money_no_object": {
     "asin": "B0000224JG",
@@ -3074,13 +3074,13 @@
    "title": "The 10 Best Pneumatic Brad Nailers",
    "url": "https://toolboxtop10.com/pneumatic-brad-nailers.html",
    "json": "https://toolboxtop10.com/pneumatic-brad-nailers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B00JTYO248",
     "name": "BOSTITCH BTFP12233",
-    "price": 123.94
+    "price": 129.0
    },
    "best_budget": {
     "asin": "B08CRQVXQ3",
@@ -3098,13 +3098,13 @@
    "title": "The 10 Best Pneumatic Finish Nailers",
    "url": "https://toolboxtop10.com/pneumatic-finish-nailers.html",
    "json": "https://toolboxtop10.com/pneumatic-finish-nailers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07M62L77L",
     "name": "Metabo HPT NT65MA4",
-    "price": 137.09
+    "price": 139.0
    },
    "best_budget": {
     "asin": "B015ODI46E",
@@ -3114,7 +3114,7 @@
    "money_no_object": {
     "asin": "B00JTYO2AW",
     "name": "BOSTITCH BTFP72156",
-    "price": 203.99
+    "price": 205.64
    }
   },
   {
@@ -3122,7 +3122,7 @@
    "title": "The 10 Best Pneumatic Framing Nailers",
    "url": "https://toolboxtop10.com/pneumatic-framing-nailers.html",
    "json": "https://toolboxtop10.com/pneumatic-framing-nailers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3133,12 +3133,12 @@
    "best_budget": {
     "asin": "B015W4OQUS",
     "name": "3PLUS H2190SP",
-    "price": 95.8
+    "price": 91.01
    },
    "money_no_object": {
     "asin": "B07MSW2W1G",
     "name": "Metabo HPT NR83A5",
-    "price": 247.16
+    "price": 311.99
    }
   },
   {
@@ -3170,23 +3170,23 @@
    "title": "The 10 Best Ratcheting Wrench Sets",
    "url": "https://toolboxtop10.com/ratcheting-wrench-sets.html",
    "json": "https://toolboxtop10.com/ratcheting-wrench-sets.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0DPGJVJZV",
     "name": "CRAFTSMAN CMMT87220",
-    "price": 109.0
+    "price": 102.99
    },
    "best_budget": {
     "asin": "B08T6KW58N",
     "name": "DISEN 22-piece",
-    "price": 41.88
+    "price": 44.24
    },
    "money_no_object": {
     "asin": "B09CHJ5XZQ",
     "name": "GEARWRENCH 86702",
-    "price": 213.28
+    "price": 242.82
    }
   },
   {
@@ -3194,18 +3194,18 @@
    "title": "The 10 Best Rechargeable Work Lights",
    "url": "https://toolboxtop10.com/rechargeable-work-lights.html",
    "json": "https://toolboxtop10.com/rechargeable-work-lights.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B00KWRM78E",
     "name": "DEWALT DCL050",
-    "price": 45.0
+    "price": 42.0
    },
    "best_budget": {
     "asin": "B07G9X19G1",
     "name": "Coquimbo 2-pack",
-    "price": 9.99
+    "price": 13.99
    },
    "money_no_object": {
     "asin": "B0DSQ5DYBR",
@@ -3242,7 +3242,7 @@
    "title": "The 10 Best Rolling Tool Carts",
    "url": "https://toolboxtop10.com/rolling-tool-carts.html",
    "json": "https://toolboxtop10.com/rolling-tool-carts.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3290,13 +3290,13 @@
    "title": "The 10 Best Roofing Nailers",
    "url": "https://toolboxtop10.com/roofing-nailers.html",
    "json": "https://toolboxtop10.com/roofing-nailers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0000AMK5F",
     "name": "BOSTITCH RN46-1",
-    "price": 199.0
+    "price": 210.12
    },
    "best_budget": {
     "asin": "B015O3W47E",
@@ -3306,7 +3306,7 @@
    "money_no_object": {
     "asin": "B088Y413MP",
     "name": "DEWALT DCN45RND1",
-    "price": 329.97
+    "price": 389.95
    }
   },
   {
@@ -3382,13 +3382,13 @@
    "title": "The 10 Best Socket Sets",
    "url": "https://toolboxtop10.com/socket-sets.html",
    "json": "https://toolboxtop10.com/socket-sets.json",
-   "data_captured": "2026-10-25",
+   "data_captured": "2026-10-31",
    "audited": "2026-10-25",
    "products": 10,
    "best_overall": {
     "asin": "B01BHJE0J4",
     "name": "DEWALT DWMT75049",
-    "price": 169.99
+    "price": 152.99
    },
    "best_budget": {
     "asin": "B01LZEMYOD",
