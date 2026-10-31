@@ -14,6 +14,8 @@ import html
 import urllib.parse
 from pathlib import Path
 
+import price_tracker  # price-tracker hub, monthly reports and data downloads (same folder)
+
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 OUT = ROOT / "docs"
@@ -723,7 +725,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
   When you buy through links on this site we may earn {commission_phrase(site)}, at no
   extra cost to you. Prices and ratings are pulled from Amazon and change over time; the figures
   here were captured on the date shown and are not guaranteed to be current.</p>
-  <p class="footlinks"><a href="about.html">About &amp; how we rank</a> &middot; <a href="disclosure.html">Affiliate disclosure</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="mailto:{esc(site.get('contact_email', ''))}">Contact</a>{storefront_link}</p>
+  <p class="footlinks"><a href="about.html">About &amp; how we rank</a> &middot; <a href="disclosure.html">Affiliate disclosure</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="price-tracker.html">Price tracker</a> &middot; <a href="mailto:{esc(site.get('contact_email', ''))}">Contact</a>{storefront_link}</p>
   <p class="muted">{home_link} &nbsp; Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
 {REVEAL_JS + chr(10) if 'data-show-from' in body or 'data-hide-from' in body else ''}</body>
@@ -993,6 +995,33 @@ def build_category(site, filename):
     if base:
         cat["_agent"] = write_page_json(site, cat, ranked, avoid, overall, budget, premium, canonical)
     return cat, overall, budget
+
+
+def build_price_tracker(site, cats):
+    """Hub + monthly reports + CSV/JSON from data/price-history.json (see price_tracker.py).
+    Only listings on the site today are tracked, so every row links to its ranking."""
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    if not base:
+        return []
+    meta = {}
+    for cat, _o, _b in cats:
+        for p in cat["products"] + cat.get("avoid", []):
+            anchor = f"{cat['slug']}.html#{'avoid-' if p in cat.get('avoid', []) else ''}{p['asin']}"
+            meta[p["asin"]] = {"name": p["name"], "brand": p["brand"], "model": p["model"],
+                               "cat_slug": cat["slug"], "cat_title": cat["title"], "cat_url": f"{cat['slug']}.html",
+                               "url": anchor, "abs_url": f"{base}/{anchor}"}
+
+    def write(slug, title, body, desc, sd, lastmod):
+        (OUT / f"{slug}.html").write_text(
+            page(site, title, body, description=desc, canonical=f"{base}/{slug}.html",
+                 structured_data=jsonld(sd), updated=lastmod), encoding="utf-8")
+    ctx = {"esc": esc, "money": money, "base": base, "brand": site["brand"], "out": OUT, "write": write,
+           "nav": render_quicknav(nav_groups_from_site(site), compact=True, back_home=True),
+           "table_js": TABLE_JS, "to_top": TO_TOP, "noun": "tool", "nouns": "tools",
+           "category_label": "Category", "category_label_plural": "categories",
+           "extra_note": "Amazon links on this site carry our Associates tag; the dataset itself contains no affiliate links.",
+           "caveat": ""}
+    return price_tracker.build(site, meta, PRICE_HISTORY, ctx)
 
 
 # ------------------------------------------------------------------ comparison pages
@@ -2119,7 +2148,7 @@ def main():
     site = load("site.json")
     OUT.mkdir(exist_ok=True)
     ASSETS.mkdir(exist_ok=True)
-    (ASSETS / "styles.css").write_text(CSS, encoding="utf-8")
+    (ASSETS / "styles.css").write_text(CSS + price_tracker.CSS, encoding="utf-8")
     # GitHub Pages: custom-domain file + disable Jekyll processing
     if site.get("custom_domain"):
         (OUT / "CNAME").write_text(site["custom_domain"], encoding="utf-8")
@@ -2131,6 +2160,7 @@ def main():
     about_date = build_about(site, cats)
     build_disclosure(site)
     build_privacy(site)
+    tracker = build_price_tracker(site, cats)
     # sitemap.xml + robots.txt (SEO / Search Console)
     if site.get("custom_domain"):
         base = f"https://{site['custom_domain']}"
@@ -2143,6 +2173,7 @@ def main():
                 + [(f"{base}/{compare_filename(slug)}", "0.6", d) for slug, d in cat_dates
                    if slug in COMPARE and not COMPARE_NOINDEX]
                 + [(f"{base}/{slug}.html", "0.7", d) for slug, d in seasonal]
+                + [(f"{base}/{slug}.html", "0.7" if slug == "price-tracker" else "0.6", d) for slug, d in tracker]
                 + [(f"{base}/about.html", "0.5", about_date)]
                 + [(f"{base}/{slug}.html", "0.3", POLICY_UPDATED) for slug in ("disclosure", "privacy")])
         entries = "\n".join(
@@ -2158,7 +2189,11 @@ def main():
         other = ([{"title": f"{b['brand']} tools", "url": f"{base}/{b['slug']}.html"}
                   for b in BRANDS if not b.get("noindex")]
                  + [{"title": slug.replace("-", " ").capitalize(), "url": f"{base}/{slug}.html"}
-                    for slug, _d in seasonal if slug not in brand_slugs])
+                    for slug, _d in seasonal if slug not in brand_slugs]
+                 + [{"title": "Price tracker: tracked Amazon prices, biggest drops and rises, dataset download",
+                     "url": f"{base}/price-tracker.html"}]
+                 + [{"title": f"Price report {slug[-7:]}", "url": f"{base}/{slug}.html"} for slug, _d in tracker if slug != "price-tracker"]
+                 + [{"title": "Price history dataset (CSV)", "url": f"{base}/price-history.csv"}])
         write_agent_index(site, [cat["_agent"] for cat, _, _ in cats if cat.get("_agent")], other)
     build_redirects(site)
     # IndexNow ownership key (Bing/Yandex/Seznam/Naver); pinged by .github/workflows/indexnow.yml
