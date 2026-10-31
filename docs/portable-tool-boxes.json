@@ -6,8 +6,8 @@
  "title": "The 10 Best Portable Tool Boxes",
  "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
  "intro": "We pulled the best-selling hand-carry tool boxes on Amazon — classic cantilever trays, stackable modular cases, small portable drawer boxes, and totes — then scored each one on a single 100-point scale built from its star rating, review volume, value, and the features that matter when a box has to travel. Here is where each lands.",
- "data_captured": "2026-10-28",
- "audited": "2026-10-07",
+ "data_captured": "2026-10-31",
+ "audited": "2026-10-31",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B00CBY2EIO",
-  "best_budget": "B00BF4VUKO",
+  "best_budget": "B00B6K4V80",
   "money_no_object": "B08189NW5C"
  },
  "products": [
@@ -42,7 +42,7 @@
    "price": 29.98,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 12912,
+   "reviews_count": 12923,
    "score": 94,
    "award": "Best Overall",
    "best_for": "A deep, stackable box for a full hand-tool loadout.",
@@ -80,35 +80,35 @@
   },
   {
    "rank": 2,
-   "asin": "B00BF4VUKO",
-   "name": "DEWALT TSTAK III Tool Organizer, Single Deep Drawer (DWST17803)",
+   "asin": "B00B6K4V80",
+   "name": "DEWALT Tool Box TSTAK II, 13 In. Flat Top Tool Storage Case, Stackable Organizer Hard Case (DWST17807)",
    "brand": "DEWALT",
-   "model": "DWST17803",
-   "price": 35.91,
+   "model": "DWST17807",
+   "price": 19.97,
    "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 2992,
-   "score": 84,
+   "rating": 4.7,
+   "reviews_count": 12040,
+   "score": 88,
    "award": "Best Budget",
-   "best_for": "Taller parts and bits in one deep ball-bearing drawer that stacks with TSTAK.",
-   "bought_last_month": "800+/mo",
-   "verdict": "One deep drawer on ball-bearing slides, with removable covered cups for bits and fasteners, in a unit that latches into the TSTAK stack. Pick this over the 2-drawer DWST17804 if your parts are taller than a shallow drawer allows.",
+   "best_for": "Starting a TSTAK stack, or a slim case for a drill and a few hand tools.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The shallow, flat-top TSTAK case: one open compartment, metal side latches, and a top that takes another TSTAK unit. At $19.97 it's the cheapest way into the TSTAK system and one of the best-selling boxes on Amazon.",
    "pros": [
-    "Deep drawer on ball-bearing slides",
-    "Removable covered cups keep small parts from mixing",
-    "4.8 stars across 2,992 reviews, metal side latches"
+    "$19.97, the cheapest TSTAK unit here",
+    "4.7 stars across 12,040 reviews; 2K+ bought last month",
+    "Metal side latches, limited lifetime warranty"
    ],
    "cons": [
-    "Listing gives 15 lbs capacity and a 20 lb maximum",
+    "No tray or dividers",
     "Listed as not water resistant"
    ],
    "specs": {
-    "type": "Stackable drawer unit",
-    "size": "16.7 in",
+    "type": "Stackable case",
+    "size": "17.3 in",
     "material": null,
-    "capacity": "15 lbs (20 lbs max listed)",
-    "organizers": "1 deep drawer, removable covered cups",
-    "weight": null
+    "capacity": "66 lbs (30 kg max listed)",
+    "organizers": null,
+    "weight": "1.7 kg (3.8 lb)"
    },
    "features": {
     "stackable": true,
@@ -117,9 +117,9 @@
     "water_resistant": false,
     "removable_tray": false
    },
-   "image": "https://m.media-amazon.com/images/I/51tN3h5oMwL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00BF4VUKO?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B00BF4VUKO"
+   "image": "https://m.media-amazon.com/images/I/714dvNVi2DL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00B6K4V80?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B00B6K4V80"
   },
   {
    "rank": 3,
@@ -130,7 +130,7 @@
    "price": 18.98,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 2880,
+   "reviews_count": 2888,
    "score": 82,
    "award": null,
    "best_for": "A basic lockable hand box with a lift-out tray for under $20.",
@@ -139,7 +139,7 @@
    "pros": [
     "Under $20 with a metal latch and padlock eye",
     "Lift-out tray for small hand tools",
-    "2,880 reviews at 4.5 stars"
+    "2,888 reviews at 4.5 stars"
    ],
    "cons": [
     "Listed as not water resistant",
@@ -173,7 +173,7 @@
    "price": 32.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 2536,
+   "reviews_count": 2539,
    "score": 82,
    "award": null,
    "best_for": "Carrying a compact drill and bits at the top of a TSTAK stack.",
@@ -217,7 +217,7 @@
    "price": 34.97,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 4128,
+   "reviews_count": 4129,
    "score": 81,
    "award": null,
    "best_for": "Sorting screws and bits in two drawers that stack with TSTAK.",
@@ -226,7 +226,7 @@
    "pros": [
     "Ball-bearing drawer slides",
     "Stacks and latches with other TSTAK boxes",
-    "4,128 reviews at 4.7 stars, limited lifetime warranty"
+    "4,129 reviews at 4.7 stars, limited lifetime warranty"
    ],
    "cons": [
     "16.5 lb load limit",
@@ -260,16 +260,16 @@
    "price": 18.89,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 3533,
+   "reviews_count": 3534,
    "score": 79,
    "award": null,
    "best_for": "A cheap, light box for a basic household tool kit.",
-   "bought_last_month": "800+/mo",
+   "bought_last_month": "900+/mo",
    "verdict": "One of the cheapest boxes here and one of the best rated: a 3 lb, 16-inch plastic box with a lift-out tray and two small removable organizers. Fine for a kitchen-drawer tool kit.",
    "pros": [
     "About $13",
     "Lift-out tray plus 2 removable organizers",
-    "3,533 reviews at 4.7 stars"
+    "3,534 reviews at 4.7 stars"
    ],
    "cons": [
     "11 lb load limit",
@@ -303,7 +303,7 @@
    "price": 11.87,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 1064,
+   "reviews_count": 1066,
    "score": 78,
    "award": null,
    "best_for": "A car-trunk or kitchen-drawer tool kit for about $12.",
@@ -351,7 +351,7 @@
    "score": 74,
    "award": null,
    "best_for": "Long tools like levels and handsaws that need 28 inches.",
-   "bought_last_month": "600+/mo",
+   "bought_last_month": "700+/mo",
    "verdict": "The long box on this list: 28 inches, so a level, a handsaw or a pry bar fits flat. Structural foam walls and a water-resistant rating. Amazon's listing has no feature bullets, so we can't confirm the latch or tray details.",
    "pros": [
     "28-inch length fits long hand tools",
@@ -430,7 +430,7 @@
    "name": "P.I.T. Mini Tool Box, Small Metal Toolbox Organizer with 5 Drawers, White",
    "brand": "P.I.T.",
    "model": "E-STC02-09WH",
-   "price": 47.99,
+   "price": 53.99,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 2098,
@@ -477,8 +477,8 @@
    "model": "TBD-2003SSBK",
    "price": 61.9,
    "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 433,
+   "rating": 4.3,
+   "reviews_count": 438,
    "flag": "Lists two load ratings: 61.6 lbs and 15 lbs",
    "verdict": "A steel drawer box whose listing can't agree with itself on how much it holds, and that weighs almost 18 lbs before you put a tool in it. The DEWALT TSTAK 2-drawer unit on this page costs about half as much.",
    "reasons": [
@@ -516,6 +516,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-10-31",
+   "note": "Replaced the DEWALT TSTAK DWST17803 single-drawer unit, which no longer has an Amazon buy box, with the TSTAK II flat-top case DWST17807 ($19.97). The other 9 picks stay; the P.I.T. mini drawer box rose from $47.99 to $53.99."
+  },
   {
    "date": "2026-10-28",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Plano 452-006 rose from $13.39 to $18.89; the P.I.T. E-STC02-09WH rose from $40.79 to $47.99."
