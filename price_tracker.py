@@ -21,6 +21,7 @@ import statistics
 WINDOW_DAYS = 30        # the "recent" window on the hub page
 MIN_MOVE_PCT = 3.0      # a move smaller than this is noise (Amazon pennies)
 MIN_MOVE_USD = 2.0
+MAX_STALE_DAYS = 10     # a listing's latest check must be this fresh to count as "now"
 TOP_N = 12
 LOW_N = 20
 
@@ -136,8 +137,11 @@ def analyse(meta, history):
 def recent_moves(rows, latest, days=WINDOW_DAYS):
     """(then, now) per listing with a check at least `days` before the latest capture."""
     cutoff = (_d(latest) - datetime.timedelta(days=days)).isoformat()
+    fresh = (_d(latest) - datetime.timedelta(days=MAX_STALE_DAYS)).isoformat()
     out = []
     for asin, r in rows.items():
+        if r["last"][0] < fresh:
+            continue  # not re-checked lately; its "now" would be stale
         then = _point_on_or_before(r["series"], cutoff)
         if not then or then == r["last"]:
             continue
@@ -156,6 +160,13 @@ def month_moves(rows, ym):
         if before and inside:
             out.append((asin, before[-1], inside[-1]))
     return out
+
+
+def is_new_low(r):
+    """Latest check is the lowest of 3+ checks and sits a real amount below the high."""
+    return (len(r["series"]) >= 3 and r["last"][1] <= r["low"][1]
+            and r["high"][1] - r["last"][1] >= MIN_MOVE_USD
+            and abs(_pct(r["high"][1], r["last"][1])) >= MIN_MOVE_PCT)
 
 
 def summarise(moves):
@@ -194,7 +205,7 @@ def _lowest_table(ctx, rows, latest):
     esc, money = ctx["esc"], ctx["money"]
     cands = []
     for asin, r in rows.items():
-        if len(r["series"]) >= 3 and r["last"][1] <= r["low"][1] and r["high"][1] > r["last"][1]:
+        if is_new_low(r):
             cands.append((asin, _pct(r["high"][1], r["last"][1])))
     cands.sort(key=lambda t: t[1])
     if not cands:
@@ -220,24 +231,25 @@ def _category_table(ctx, rows, moves, days=WINDOW_DAYS):
         by_cat.setdefault(r["cat_slug"], {"title": r["cat_title"], "url": r["cat_url"], "n": 0, "pcts": [], "low": 0, "best": None})
         c = by_cat[r["cat_slug"]]
         c["n"] += 1
-        if len(r["series"]) >= 3 and r["last"][1] <= r["low"][1] and r["high"][1] > r["last"][1]:
+        if is_new_low(r):
             c["low"] += 1
     for asin, then, now in moves:
         c = by_cat[rows[asin]["cat_slug"]]
         pct = _pct(then[1], now[1])
         c["pcts"].append(pct)
-        if pct < 0 and (c["best"] is None or pct < c["best"][1]):
+        real = abs(pct) >= MIN_MOVE_PCT and abs(now[1] - then[1]) >= MIN_MOVE_USD
+        if pct < 0 and real and (c["best"] is None or pct < c["best"][1]):
             c["best"] = (asin, pct)
     body = []
     for slug, c in sorted(by_cat.items(), key=lambda kv: kv[1]["title"].lower()):
         med = statistics.median(c["pcts"]) if c["pcts"] else None
         med_cell = ("—" if med is None else
                     f'<span class="{"pt-down" if med < -0.05 else "pt-up" if med > 0.05 else "pt-flat"}">'
-                    f'{"−" if med < -0.05 else "+" if med > 0.05 else ""}{abs(med):.1f}%</span>')
+                    f'{"-" if med < -0.05 else "+" if med > 0.05 else ""}{abs(med):.1f}%</span>')
         best = ""
         if c["best"]:
             r = rows[c["best"][0]]
-            best = f'<a href="{esc(r["url"])}">{esc(r["brand"])} {esc(r["model"])}</a> <span class="pt-down">−{abs(c["best"][1]):.0f}%</span>'
+            best = f'<a href="{esc(r["url"])}">{esc(r["brand"])} {esc(r["model"])}</a> <span class="pt-down">-{abs(c["best"][1]):.0f}%</span>'
         body.append(f'<tr><td class="name"><a href="{esc(c["url"])}">{esc(c["title"])}</a></td><td class="c">{c["n"]}</td>'
                     f'<td class="c">{len(c["pcts"])}</td><td class="c">{med_cell}</td><td class="c">{c["low"]}</td><td class="name">{best}</td></tr>')
     return (f'<div class="tablewrap pt"><table><tr><th>{esc(ctx["category_label"])}</th><th>Tracked</th><th>With {days}-day data</th>'
@@ -284,13 +296,16 @@ def build(site, meta, history, ctx):
         days = alt
         moves = recent_moves(rows, latest, days)
     s = summarise(moves)
-    low_now = sum(1 for r in rows.values() if len(r["series"]) >= 3 and r["last"][1] <= r["low"][1] and r["high"][1] > r["last"][1])
+    low_now = sum(1 for r in rows.values() if is_new_low(r))
     months = sorted({d[:7] for d in dates})
     reports = []
     for ym in months:
         mm = month_moves(rows, ym)
-        if len(mm) >= 10:
+        if len(mm) >= (10 if ym == latest[:7] else 1):
             reports.append((ym, mm))
+    for stale in ctx["out"].glob("price-report-*.html"):
+        if stale.stem[len("price-report-"):] not in {ym for ym, _ in reports}:
+            stale.unlink()
     _write_downloads(ctx, rows)
 
     noun, nouns = ctx["noun"], ctx["nouns"]
@@ -335,10 +350,10 @@ def build(site, meta, history, ctx):
   </section>
   <section>
     <h2>Monthly price reports</h2>
-    <ul class="pt-reports">{report_links or "<li>First report arrives once a month has ten or more comparable checks.</li>"}</ul>
+    <ul class="pt-reports">{report_links or "<li>The first report arrives once a month has ten or more comparable checks.</li>"}</ul>
   </section>
   <section class="about-body">
-    <h2>How this is measured</h2>
+    <h2 id="how-this-is-measured">How this is measured</h2>
     <p>A check is the price Amazon showed for a listing on the day one of our pages was refreshed. Each page is re-priced about weekly,
     so most {nouns} have one check per week. The {days}-day change compares the latest check with the last check taken at least
     {days} days earlier; {nouns} without a check that old are left out rather than guessed. Moves under {MIN_MOVE_PCT:.0f}% or
@@ -420,8 +435,9 @@ def _report(site, ctx, rows, ym, mm, latest, reports):
   {ctx["to_top"]}"""
     slug = f"price-report-{ym}"
     title = f"{ctx['brand']} price report: {name}, Amazon {noun} prices"
-    desc = (f"{s['n']:,} Amazon {nouns} compared across {name}: median change {abs(s['median']):.1f}% "
-            f"{'down' if s['median'] < 0 else 'up'}, {len(s['down'])} fell and {len(s['up'])} rose {MIN_MOVE_PCT:.0f}% or more. Biggest moves by {noun} and {ctx['category_label'].lower()}.")
+    med_word = "flat" if abs(s["median"]) < 0.05 else ("down" if s["median"] < 0 else "up")
+    med_desc = "median change flat" if med_word == "flat" else f"median change {abs(s['median']):.1f}% {med_word}"
+    desc = (f"{s['n']:,} Amazon {nouns} compared across {name}: {med_desc}, {len(s['down'])} fell and {len(s['up'])} rose {MIN_MOVE_PCT:.0f}% or more. Biggest moves by {noun} and {ctx['category_label'].lower()}.")
     sd = {"@context": "https://schema.org", "@type": "Article", "headline": title, "datePublished": month_dates[0], "dateModified": lastmod,
           "author": {"@type": "Organization", "name": ctx["brand"], "url": f"{base}/"},
           "publisher": {"@type": "Organization", "name": ctx["brand"], "url": f"{base}/"},

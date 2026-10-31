@@ -709,7 +709,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
 <link rel="icon" href="assets/logo.png">{social}{tracking_head(TRACKING, is_home)}
 {site.get('head_extra', '')}
 {structured_data}
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css?v={CSS_VERSION}">
 </head>
 <body>
 <header class="site">
@@ -2148,7 +2148,7 @@ def main():
     site = load("site.json")
     OUT.mkdir(exist_ok=True)
     ASSETS.mkdir(exist_ok=True)
-    (ASSETS / "styles.css").write_text(CSS + price_tracker.CSS, encoding="utf-8")
+    (ASSETS / "styles.css").write_text(CSS_TEXT, encoding="utf-8")
     # GitHub Pages: custom-domain file + disable Jekyll processing
     if site.get("custom_domain"):
         (OUT / "CNAME").write_text(site["custom_domain"], encoding="utf-8")
@@ -2538,6 +2538,9 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
   .to-top.show{opacity:1;pointer-events:auto}
 }
 """
+
+CSS_TEXT = CSS + price_tracker.CSS
+CSS_VERSION = __import__("hashlib").md5(CSS_TEXT.encode("utf-8")).hexdigest()[:8]  # stylesheet cache-buster
 
 if __name__ == "__main__":
     main()
