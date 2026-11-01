@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 165,
@@ -374,7 +374,7 @@
    "title": "The 10 Best Benchtop Thickness Planers",
    "url": "https://toolboxtop10.com/thickness-planers.html",
    "json": "https://toolboxtop10.com/thickness-planers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -383,9 +383,9 @@
     "price": 659.0
    },
    "best_budget": {
-    "asin": "B07Y47LFH5",
-    "name": "CRAFTSMAN CMEW320",
-    "price": 299.0
+    "asin": "B09486BBLJ",
+    "name": "WEN PL1252",
+    "price": 296.12
    },
    "money_no_object": {
     "asin": "B07QSCZR6D",
@@ -706,23 +706,23 @@
    "title": "The 10 Best Corded Die Grinders",
    "url": "https://toolboxtop10.com/corded-die-grinders.html",
    "json": "https://toolboxtop10.com/corded-die-grinders.json",
-   "data_captured": "2026-10-12",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-12",
    "products": 10,
    "best_overall": {
     "asin": "B00P888CCM",
     "name": "DEWALT DWE4887",
-    "price": 158.0
+    "price": 159.33
    },
    "best_budget": {
-    "asin": "B0GKZPL1JY",
-    "name": "AOBEN AT3504C",
-    "price": 63.99
+    "asin": "B0FS6WQH18",
+    "name": "SENCAN SC-702517L",
+    "price": 69.99
    },
    "money_no_object": {
     "asin": "B086XLM6BP",
     "name": "DEWALT DWE4997VS",
-    "price": 252.99
+    "price": 339.99
    }
   },
   {
@@ -1498,23 +1498,23 @@
    "title": "The 10 Best Cordless Hand Planers",
    "url": "https://toolboxtop10.com/cordless-hand-planers.html",
    "json": "https://toolboxtop10.com/cordless-hand-planers.json",
-   "data_captured": "2026-10-11",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-11",
    "products": 10,
    "best_overall": {
     "asin": "B01FHOWQQO",
     "name": "DEWALT DCP580B",
-    "price": 167.99
+    "price": 160.99
    },
    "best_budget": {
     "asin": "B0F2N4YGTM",
     "name": "MtiolHig 20V Brushless Planer",
-    "price": 66.49
+    "price": 69.99
    },
    "money_no_object": {
     "asin": "B00NOVNV76",
     "name": "Makita XPK01Z",
-    "price": 198.07
+    "price": 228.96
    }
   },
   {
@@ -2906,7 +2906,7 @@
    "title": "The 10 Best Non-Contact Voltage Testers",
    "url": "https://toolboxtop10.com/voltage-testers.html",
    "json": "https://toolboxtop10.com/voltage-testers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2915,14 +2915,14 @@
     "price": 36.23
    },
    "best_budget": {
-    "asin": "B0C2CNC624",
-    "name": "KAIWEETS HT100s",
-    "price": 11.99
+    "asin": "B01JYCVU2Q",
+    "name": "Neoteck PM8908C",
+    "price": 9.99
    },
    "money_no_object": {
     "asin": "B07SLFX6B2",
     "name": "Klein Tools NCVT6",
-    "price": 54.97
+    "price": 54.95
    }
   },
   {
@@ -3314,7 +3314,7 @@
    "title": "The 10 Best Screwdriver Sets",
    "url": "https://toolboxtop10.com/screwdrivers.html",
    "json": "https://toolboxtop10.com/screwdrivers.json",
-   "data_captured": "2026-10-12",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-12",
    "products": 10,
    "best_overall": {
@@ -3338,7 +3338,7 @@
    "title": "The 10 Best Scroll Saws",
    "url": "https://toolboxtop10.com/scroll-saws.html",
    "json": "https://toolboxtop10.com/scroll-saws.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3354,7 +3354,7 @@
    "money_no_object": {
     "asin": "B000022313",
     "name": "DEWALT DW788",
-    "price": 551.17
+    "price": 499.0
    }
   },
   {
@@ -3406,7 +3406,7 @@
    "title": "The 10 Best Soldering Irons",
    "url": "https://toolboxtop10.com/soldering-irons.html",
    "json": "https://toolboxtop10.com/soldering-irons.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3422,7 +3422,7 @@
    "money_no_object": {
     "asin": "B0D4DJW54S",
     "name": "Hakko FX888DX-010",
-    "price": 122.15
+    "price": 121.47
    }
   },
   {
@@ -3430,7 +3430,7 @@
    "title": "The 10 Best Speed Squares",
    "url": "https://toolboxtop10.com/speed-squares.html",
    "json": "https://toolboxtop10.com/speed-squares.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3446,7 +3446,7 @@
    "money_no_object": {
     "asin": "B0F9JT2BN7",
     "name": "Johnson Level 1904-0700V",
-    "price": 34.7
+    "price": 34.96
    }
   },
   {
@@ -3454,7 +3454,7 @@
    "title": "The 10 Best Spirit Levels",
    "url": "https://toolboxtop10.com/spirit-levels.html",
    "json": "https://toolboxtop10.com/spirit-levels.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3470,7 +3470,7 @@
    "money_no_object": {
     "asin": "B0DF2KGF7K",
     "name": "ARROW AHT06007",
-    "price": 62.99
+    "price": 59.49
    }
   },
   {
@@ -3478,7 +3478,7 @@
    "title": "The 10 Best Staple Guns",
    "url": "https://toolboxtop10.com/staple-guns.html",
    "json": "https://toolboxtop10.com/staple-guns.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3502,7 +3502,7 @@
    "title": "The 10 Best Stud Finders",
    "url": "https://toolboxtop10.com/stud-finders.html",
    "json": "https://toolboxtop10.com/stud-finders.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3526,13 +3526,13 @@
    "title": "The 10 Best Tap and Die Sets",
    "url": "https://toolboxtop10.com/tap-and-die-sets.html",
    "json": "https://toolboxtop10.com/tap-and-die-sets.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B000HBDW48",
     "name": "GEARWRENCH 3887",
-    "price": 129.99
+    "price": 130.46
    },
    "best_budget": {
     "asin": "B07TYXR42R",
@@ -3550,7 +3550,7 @@
    "title": "The 10 Best Tape Measures",
    "url": "https://toolboxtop10.com/tape-measures.html",
    "json": "https://toolboxtop10.com/tape-measures.json",
-   "data_captured": "2026-10-11",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-11",
    "products": 10,
    "best_overall": {
@@ -3566,7 +3566,7 @@
    "money_no_object": {
     "asin": "B07WF9TKNN",
     "name": "Klein Tools 9225",
-    "price": 29.98
+    "price": 29.97
    }
   },
   {
@@ -3574,13 +3574,13 @@
    "title": "The 10 Best Tin Snips",
    "url": "https://toolboxtop10.com/tin-snips.html",
    "json": "https://toolboxtop10.com/tin-snips.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B00002N5KQ",
     "name": "Crescent Wiss M3R",
-    "price": 16.97
+    "price": 12.97
    },
    "best_budget": {
     "asin": "B07RWV14KP",
@@ -3598,7 +3598,7 @@
    "title": "The 10 Best Tire Bead Seaters",
    "url": "https://toolboxtop10.com/tire-bead-seaters.html",
    "json": "https://toolboxtop10.com/tire-bead-seaters.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3642,7 +3642,7 @@
    "title": "The 10 Best Tire Pressure Gauges",
    "url": "https://toolboxtop10.com/tire-pressure-gauges.html",
    "json": "https://toolboxtop10.com/tire-pressure-gauges.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3653,7 +3653,7 @@
    "best_budget": {
     "asin": "B01J8DLGU2",
     "name": "AstroAI GL-0801A",
-    "price": 6.99
+    "price": 6.58
    },
    "money_no_object": {
     "asin": "B07VV78RZ1",
@@ -3690,13 +3690,13 @@
    "title": "The 10 Best Tool Cabinets",
    "url": "https://toolboxtop10.com/tool-cabinets.html",
    "json": "https://toolboxtop10.com/tool-cabinets.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0B3MB5F56",
     "name": "Yizosh XGG-BLACK-1",
-    "price": 144.99
+    "price": 130.49
    },
    "best_budget": {
     "asin": "B0H8D8K9L3",
@@ -3714,7 +3714,7 @@
    "title": "The 10 Best Torque Wrenches",
    "url": "https://toolboxtop10.com/torque-wrenches.html",
    "json": "https://toolboxtop10.com/torque-wrenches.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3725,7 +3725,7 @@
    "best_budget": {
     "asin": "B0C9BLJYMH",
     "name": "Hairich 6CVB",
-    "price": 27.54
+    "price": 29.99
    },
    "money_no_object": {
     "asin": "B0FYHB7XBQ",
@@ -3738,7 +3738,7 @@
    "title": "The 10 Best Track Saws",
    "url": "https://toolboxtop10.com/track-saws.html",
    "json": "https://toolboxtop10.com/track-saws.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3786,13 +3786,13 @@
    "title": "The 10 Best Utility Knives",
    "url": "https://toolboxtop10.com/utility-knives.html",
    "json": "https://toolboxtop10.com/utility-knives.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B097SXK3FG",
     "name": "WORKPRO W013053",
-    "price": 9.99
+    "price": 11.99
    },
    "best_budget": {
     "asin": "B07TBNH4ZT",
@@ -3806,7 +3806,7 @@
    "title": "The 10 Best Wet Tile Saws",
    "url": "https://toolboxtop10.com/wet-tile-saws.html",
    "json": "https://toolboxtop10.com/wet-tile-saws.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3854,7 +3854,7 @@
    "title": "The 10 Best Wire Strippers",
    "url": "https://toolboxtop10.com/wire-strippers.html",
    "json": "https://toolboxtop10.com/wire-strippers.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3865,7 +3865,7 @@
    "best_budget": {
     "asin": "B000JNNWQ2",
     "name": "IRWIN 2078309",
-    "price": 13.99
+    "price": 12.99
    },
    "money_no_object": {
     "asin": "B08L8D54FB",
@@ -3878,23 +3878,23 @@
    "title": "The 10 Best Wood Chisel Sets",
    "url": "https://toolboxtop10.com/wood-chisel-sets.html",
    "json": "https://toolboxtop10.com/wood-chisel-sets.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07V8X5W5R",
     "name": "Amazon Basics DS-CHAMZ004",
-    "price": 33.26
+    "price": 29.17
    },
    "best_budget": {
     "asin": "B07GGYNHSQ",
     "name": "HURRICANE HK-BBPR-ZWV0",
-    "price": 13.39
+    "price": 13.89
    },
    "money_no_object": {
     "asin": "B0165WKKY2",
     "name": "Narex 853053",
-    "price": 111.96
+    "price": 110.99
    }
   },
   {
@@ -3902,7 +3902,7 @@
    "title": "The 10 Best Wood Lathes",
    "url": "https://toolboxtop10.com/wood-lathes.html",
    "json": "https://toolboxtop10.com/wood-lathes.json",
-   "data_captured": "2026-10-10",
+   "data_captured": "2026-11-01",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3974,6 +3974,10 @@
   {
    "title": "Price report 2026-10",
    "url": "https://toolboxtop10.com/price-report-2026-10.html"
+  },
+  {
+   "title": "Price report 2026-11",
+   "url": "https://toolboxtop10.com/price-report-2026-11.html"
   },
   {
    "title": "Price history dataset (CSV)",
