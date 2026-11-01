@@ -5,9 +5,9 @@
  "slug": "outlet-testers",
  "title": "The 10 Best Outlet Testers",
  "subtitle": "Plug-in GFCI and receptacle testers for checking outlet wiring, ranked from live Amazon data.",
- "intro": "An outlet tester plugs into a receptacle and shows in seconds whether it's wired correctly and whether a GFCI trips. We ranked 10 best-sellers from Klein Tools, Fluke, Southwire, Sperry, Ideal and value brands on rating, review volume and features (a GFCI test, a voltage readout, open-fault detection, a safety listing and extra functions).",
- "data_captured": "2026-10-31",
- "audited": "2026-10-10",
+ "intro": "An outlet tester plugs into a receptacle and shows in seconds whether it's wired correctly and whether a GFCI trips. We ranked 10 best-sellers from Klein Tools, Fluke, Southwire, Sperry, Gardner Bender and value brands on rating, review volume and features (a GFCI test, a voltage readout, open-fault detection, a safety listing and extra functions).",
+ "data_captured": "2026-11-01",
+ "audited": "2026-11-01",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -30,7 +30,7 @@
  "picks": {
   "best_overall": "B08QW7K1JJ",
   "best_budget": "B01AKX3AYE",
-  "money_no_object": "B07PMDRHXB"
+  "money_no_object": "B0BT87LJRL"
  },
  "products": [
   {
@@ -42,14 +42,14 @@
    "price": 16.0,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 11599,
+   "reviews_count": 11603,
    "score": 92,
    "award": "Best Overall",
    "best_for": "Homeowners and electricians who want a clear readout instead of light codes.",
    "bought_last_month": "10K+/mo",
-   "verdict": "The best-selling and most-reviewed outlet tester here: a backlit LCD that shows voltage, wiring faults and how long a GFCI takes to trip, rated 4.8 stars on 11,599 reviews.",
+   "verdict": "The best-selling and most-reviewed outlet tester here: a backlit LCD that shows voltage, wiring faults and how long a GFCI takes to trip, rated 4.8 stars on 11,603 reviews.",
    "pros": [
-    "11,599 reviews; 4.8 stars",
+    "11,603 reviews; 4.8 stars",
     "Shows voltage",
     "GFCI trip time"
    ],
@@ -75,6 +75,47 @@
   },
   {
    "rank": 2,
+   "asin": "B0BT87LJRL",
+   "name": "Klein Tools RT390 Circuit Analyzer with Large LCD, AFCI and GFCI Tester",
+   "brand": "Klein Tools",
+   "model": "RT390",
+   "price": 159.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 316,
+   "score": 85,
+   "award": "Money No Object",
+   "best_for": "Electricians and inspectors who need to document AFCI/GFCI trip times and voltage drop.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A full circuit analyzer: it checks wiring faults, trips AFCI and GFCI devices while timing them, and load-tests the circuit at 12, 15 and 20 amps to show voltage drop.",
+   "pros": [
+    "AFCI and GFCI trip-time readout",
+    "Load test with voltage drop",
+    "4.8 stars from 316 reviews"
+   ],
+   "cons": [
+    "Most expensive here by far",
+    "Runs on 3 AAA batteries"
+   ],
+   "specs": {
+    "display": "Color LCD",
+    "tests": "Wiring faults, dual-open detection, AFCI, GFCI trip time and trip current, voltage drop",
+    "rating": "CAT III 135V, UL",
+    "extras": "12A, 15A and 20A load tests"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": true,
+    "open_fault_detect": true,
+    "certified": true,
+    "extra_function": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51n2Tv4OxkL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BT87LJRL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B0BT87LJRL"
+  },
+  {
+   "rank": 3,
    "asin": "B01AKX8L0M",
    "name": "Klein Tools RT210 GFCI Outlet Tester",
    "brand": "Klein Tools",
@@ -114,46 +155,6 @@
    "page_url": "https://toolboxtop10.com/outlet-testers.html#B01AKX8L0M"
   },
   {
-   "rank": 3,
-   "asin": "B07PMDRHXB",
-   "name": "Klein Tools RT310 AFCI and GFCI Outlet Tester",
-   "brand": "Klein Tools",
-   "model": "RT310",
-   "price": 44.52,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1834,
-   "score": 82,
-   "award": "Money No Object",
-   "best_for": "Electricians and inspectors testing AFCI circuits in newer homes.",
-   "bought_last_month": "100+/mo",
-   "verdict": "Klein's top tester adds AFCI testing, simulating arc faults to check arc-fault breakers, plus dual-open fault detection.",
-   "pros": [
-    "Tests AFCI breakers",
-    "Dual-open detection",
-    "1,834 reviews"
-   ],
-   "cons": [
-    "Most expensive here"
-   ],
-   "specs": {
-    "display": "LCD",
-    "tests": "Wiring faults, dual-open detection, AFCI, GFCI",
-    "rating": null,
-    "extras": "Simulates arc faults to test AFCI breakers"
-   },
-   "features": {
-    "gfci_test": true,
-    "lcd_voltage": false,
-    "open_fault_detect": true,
-    "certified": false,
-    "extra_function": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51woGkFZHOL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07PMDRHXB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/outlet-testers.html#B07PMDRHXB"
-  },
-  {
    "rank": 4,
    "asin": "B0B3VCZ4XK",
    "name": "Fluke ST120+ GFCI Socket Tester with Audible Beeper",
@@ -162,7 +163,7 @@
    "price": 21.0,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 1729,
+   "reviews_count": 1730,
    "score": 80,
    "award": null,
    "best_for": "Anyone hunting for which breaker feeds an outlet.",
@@ -199,7 +200,7 @@
    "name": "Sperry Instruments VD7504GFI DualCheck 2-in-1 Non-Contact Voltage Detector and GFCI Outlet Tester",
    "brand": "Sperry",
    "model": "VD7504GFI",
-   "price": 22.04,
+   "price": 21.99,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2745,
@@ -241,16 +242,16 @@
    "price": 6.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 3250,
+   "reviews_count": 3251,
    "score": 78,
    "award": null,
    "best_for": "Checking outlets and extension cords around the house.",
-   "bought_last_month": "400+/mo",
+   "bought_last_month": "500+/mo",
    "verdict": "A GFCI tester that states its 6-9 mA trip current and also checks extension cords.",
    "pros": [
     "Stated trip current",
     "Tests extension cords",
-    "3,250 reviews"
+    "3,251 reviews"
    ],
    "cons": [
     "No voltage readout"
@@ -281,7 +282,7 @@
    "price": 17.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 498,
+   "reviews_count": 499,
    "score": 78,
    "award": null,
    "best_for": "Homeowners who want a color LCD and auto hold.",
@@ -293,7 +294,7 @@
     "CAT II 300V"
    ],
    "cons": [
-    "Only 498 reviews"
+    "Only 499 reviews"
    ],
    "specs": {
     "display": "Color LCD plus indicators",
@@ -321,7 +322,7 @@
    "price": 9.97,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 3632,
+   "reviews_count": 3631,
    "score": 77,
    "award": "Best Budget",
    "best_for": "A quick wiring check on standard outlets.",
@@ -394,43 +395,44 @@
   },
   {
    "rank": 10,
-   "asin": "B0C6FQQCN3",
-   "name": "Ideal 61-502 120V AC GFCI Receptacle Tester",
-   "brand": "Ideal",
-   "model": "61-502",
-   "price": 12.25,
+   "asin": "B000NBDTQI",
+   "name": "Gardner Bender GRT-3500 Outlet Receptacle Tester & Circuit Analyzer, Indicates 5 Wiring Errors, 120 VAC",
+   "brand": "Gardner Bender",
+   "model": "GRT-3500",
+   "price": 7.59,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 39,
-   "score": 63,
+   "reviews_count": 1114,
+   "score": 71,
    "award": null,
-   "best_for": "Electricians who want a listed tester.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A certified GFCI tester from Ideal with a two-year warranty.",
+   "best_for": "Quick wiring checks on standard outlets and extension cords.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A basic three-light plug-in tester that reads five common wiring errors on standard outlets and extension cords.",
    "pros": [
-    "cULus listed",
-    "2-year warranty",
-    "GFCI test"
+    "Reads 5 wiring errors",
+    "ETL approved",
+    "Under $8"
    ],
    "cons": [
-    "Only 39 reviews"
+    "No GFCI test button",
+    "No voltage readout"
    ],
    "specs": {
     "display": "Lights",
-    "tests": "Common wiring faults, GFCI",
-    "rating": "cULus listed (UL 1436, CSA C22.2 #160)",
-    "extras": "2-year warranty"
+    "tests": "Open ground, open neutral, open hot, hot/ground reverse, hot/neutral reverse",
+    "rating": "ETL approved",
+    "extras": "Tests extension cords; 1-year warranty"
    },
    "features": {
-    "gfci_test": true,
+    "gfci_test": false,
     "lcd_voltage": false,
     "open_fault_detect": false,
     "certified": true,
     "extra_function": false
    },
-   "image": "https://m.media-amazon.com/images/I/71PYy93CfzL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C6FQQCN3?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/outlet-testers.html#B0C6FQQCN3"
+   "image": "https://m.media-amazon.com/images/I/61uvkjHKLvL._AC_SL1427_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000NBDTQI?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B000NBDTQI"
   }
  ],
  "avoid": [
@@ -442,7 +444,7 @@
    "price": 9.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 194,
+   "reviews_count": 195,
    "flag": "No listing for safety standards; model field is a database ID",
    "verdict": "A plug-in tester whose listing never says which wiring faults it detects or what standard it meets, for a tool you trust to tell you a circuit is safe.",
    "reasons": [
@@ -475,10 +477,14 @@
   },
   {
    "q": "What about AFCI?",
-   "a": "Newer homes use arc-fault breakers in bedrooms and living areas. Only testers like the Klein RT310 can simulate an arc fault to check them."
+   "a": "Newer homes use arc-fault breakers in bedrooms and living areas. Only testers with an AFCI function, like the Klein RT390, can simulate an arc fault to check them."
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-01",
+   "note": "Replaced the Klein Tools RT310, which Amazon now sells only used, with the Klein Tools RT390 circuit analyzer ($159.99), which takes the Money No Object pick. Replaced the Ideal 61-502, no longer a best-seller, with the Gardner Bender GRT-3500 ($7.59). Prices and ratings re-checked on the rest."
+  },
   {
    "date": "2026-10-31",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Gardner Bender GFI-3501 dropped from $12.39 to $6.99."

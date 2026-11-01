@@ -3,9 +3,10 @@
   "title": "The 10 Best Cordless Portable Band Saws",
   "subtitle": "Battery-powered deep-cut and compact band saws for conduit, pipe and strut, ranked from live Amazon data.",
   "intro": "A portable band saw cuts metal cleanly and quietly with almost no sparks, which is why electricians and plumbers carry them. We ranked 10 best-sellers from DEWALT, Milwaukee, Makita, FLEX and value brands on rating, review volume and features (a deep cut capacity, a brushless motor, variable speed and a work light).",
-  "data_captured": "2026-10-29",
-  "audited": "2026-10-10",
+  "data_captured": "2026-11-01",
+  "audited": "2026-11-01",
   "changelog": [
+    {"date": "2026-11-01", "note": "Replaced the ONEMANA bw2110, whose Amazon listing is gone, with the VEVOR BW2111, a 20V brushless 5-inch deep-cut saw sold with a 4.0Ah battery ($209.90). The other nine picks are still best-sellers; prices and ratings re-checked. Best Budget moves to the WORKPRO W125293AE ($109.99)."},
     {"date": "2026-10-29", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the FLEX FX2331-Z rose from $178.99 to $198.89."},
     {
       "date": "2026-10-10",
@@ -71,7 +72,7 @@
       "brand": "DEWALT",
       "model": "DCS374B",
       "image": "https://m.media-amazon.com/images/I/615-LtWbWpL._AC_SL1000_.jpg",
-      "price": 272.71,
+      "price": 279.99,
       "rating": 4.8,
       "reviews_count": 1771,
       "bought": "700+/mo",
@@ -105,7 +106,7 @@
       "brand": "DEWALT",
       "model": "DCS378B",
       "image": "https://m.media-amazon.com/images/I/51tsEDtPbqL._AC_SL1000_.jpg",
-      "price": 325.52,
+      "price": 347.99,
       "rating": 4.8,
       "reviews_count": 283,
       "bought": "200+/mo",
@@ -140,9 +141,9 @@
       "brand": "Milwaukee",
       "model": "2929-20",
       "image": "https://m.media-amazon.com/images/I/712yqTn-dPL._AC_SL1500_.jpg",
-      "price": 317.00,
+      "price": 314.89,
       "rating": 4.7,
-      "reviews_count": 90,
+      "reviews_count": 92,
       "bought": "300+/mo",
       "specs": {
         "capacity": "5 x 5 in",
@@ -166,7 +167,7 @@
       ],
       "cons": [
         "Bare tool",
-        "Only 90 reviews"
+        "Only 92 reviews"
       ]
     },
     {
@@ -175,10 +176,10 @@
       "brand": "Milwaukee",
       "model": "2529-20",
       "image": "https://m.media-amazon.com/images/I/51s6Tdbep5L._SL1080_.jpg",
-      "price": 229.00,
+      "price": 227.90,
       "rating": 4.7,
-      "reviews_count": 275,
-      "bought": "200+/mo",
+      "reviews_count": 278,
+      "bought": "300+/mo",
       "specs": {
         "capacity": "2.5 in",
         "speed": "Electronic speed control",
@@ -210,9 +211,9 @@
       "brand": "Milwaukee",
       "model": "2829-20",
       "image": "https://m.media-amazon.com/images/I/51lRsDOvkoL._AC_SL1000_.jpg",
-      "price": 291.79,
+      "price": 290.00,
       "rating": 4.6,
-      "reviews_count": 1043,
+      "reviews_count": 1044,
       "bought": "400+/mo",
       "specs": {
         "capacity": null,
@@ -226,11 +227,11 @@
         "variable_speed": false,
         "work_light": false
       },
-      "verdict": "Milwaukee's compact M18 FUEL band saw, which the listing says is over 20% lighter than the original. The listing is thin, but it has 1,043 reviews.",
+      "verdict": "Milwaukee's compact M18 FUEL band saw, which the listing says is over 20% lighter than the original. The listing is thin, but it has 1,044 reviews.",
       "best_for": "M18 owners who want a lighter band saw.",
       "skip_if": "You want the capacity on the listing; it isn't stated.",
       "pros": [
-        "1,043 reviews",
+        "1,044 reviews",
         "Lighter design",
         "Brushless FUEL"
       ],
@@ -309,36 +310,37 @@
       ]
     },
     {
-      "asin": "B0CN8JB4C1",
-      "name": "ONEMANA 20V Brushless Cordless Band Saw, 2.5\" Deep Cut, 6 Speeds, with Battery (bw2110)",
-      "brand": "ONEMANA",
-      "model": "bw2110",
-      "image": "https://m.media-amazon.com/images/I/71m6Cq4AqKL._AC_SL1500_.jpg",
-      "price": 139.99,
-      "rating": 4.6,
-      "reviews_count": 53,
+      "asin": "B0FCBRS9GC",
+      "name": "VEVOR 20V Portable Band Saw Kit, 360W Brushless, 5 in. Deep Cut, Variable Speed, with 4.0Ah Battery (BW2111)",
+      "brand": "VEVOR",
+      "model": "BW2111",
+      "image": "https://m.media-amazon.com/images/I/71zPxzqvc4L._AC_SL1500_.jpg",
+      "price": 209.9,
+      "rating": 4.4,
+      "reviews_count": 14,
       "specs": {
-        "capacity": "2.5 in",
-        "speed": "6 speeds",
-        "platform": "20V, battery included",
-        "extras": "LED work light"
+        "capacity": "5 in",
+        "speed": "Variable, 0-120 m/min",
+        "platform": "20V, 4.0Ah battery included",
+        "extras": "LED sight light, hang hook"
       },
       "features": {
-        "deep_cut": false,
+        "deep_cut": true,
         "brushless": true,
         "variable_speed": true,
         "work_light": true
       },
-      "verdict": "A budget brushless compact band saw with six speeds and an LED, sold with a battery.",
-      "best_for": "DIYers who cut metal now and then.",
-      "skip_if": "You want a known brand.",
+      "verdict": "A brushless 20V deep-cut band saw sold with a 4.0Ah battery, for about $70 less than a DEWALT DCS374B bare tool.",
+      "best_for": "Occasional metal cutting at full 5-inch depth without buying into a pro battery platform.",
+      "skip_if": "You already own DEWALT or Milwaukee batteries; their bare tools fit what you have.",
       "pros": [
-        "Brushless, 6 speeds",
+        "5-in deep cut, brushless",
         "Battery included",
-        "4.6 stars"
+        "Stepless speed dial and LED"
       ],
       "cons": [
-        "Only 53 reviews"
+        "15.1 lbs",
+        "Listing is unclear on whether a charger is included"
       ]
     },
     {
@@ -416,7 +418,7 @@
       "brand": "RYOBI",
       "model": "P590",
       "image": "https://m.media-amazon.com/images/I/51-0KfZpNBL._AC_SL1000_.jpg",
-      "price": 169.00,
+      "price": 168.90,
       "rating": 4.7,
       "reviews_count": 652,
       "flag": "Listing's only bullet is about lawn-mower parts",
