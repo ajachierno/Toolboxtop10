@@ -4,7 +4,7 @@
 
 Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and the capture date). The site index is https://toolboxtop10.com/index.json. Each page links its twin with `<link rel="alternate" type="application/json">`. Links to Amazon carry our Associates tag; a purchase may earn us a commission at no extra cost to the buyer.
 
-## Rankings (165 pages)
+## Rankings (166 pages)
 
 - [The 10 Best 23-Gauge Pin Nailers](https://toolboxtop10.com/pin-nailers.html): Best Overall DEWALT DWFP2350K ($165); Best Budget Arrow PT23G ($54.97). Data captured 2026-10-31. JSON: https://toolboxtop10.com/pin-nailers.json
 - [The 10 Best Adjustable (Crescent) Wrenches](https://toolboxtop10.com/adjustable-wrenches.html): Best Overall CRAFTSMAN CMMT12001 ($19.99); Best Budget Amazon Basics 6-Inch ($9.40). Data captured 2026-11-02. JSON: https://toolboxtop10.com/adjustable-wrenches.json
@@ -99,6 +99,7 @@ Machine-readable data: every ranking page has a JSON twin at the same path with 
 - [The 10 Best Cordless Tire Inflators](https://toolboxtop10.com/cordless-tire-inflators.html): Best Overall AstroAI Cordless 160 PSI ($54.99); Best Budget AstroAI L7 ($25.99). Data captured 2026-10-30. JSON: https://toolboxtop10.com/cordless-tire-inflators.json
 - [The 10 Best Digital Calipers](https://toolboxtop10.com/digital-calipers.html): Best Overall iGaging IP54 0-6 in ($37.99); Best Budget Adoric 0-6 in ($8.99). Data captured 2026-10-30. JSON: https://toolboxtop10.com/digital-calipers.json
 - [The 10 Best Digital Multimeters](https://toolboxtop10.com/multimeters.html): Best Overall Klein Tools MM325 ($29.98); Best Budget KAIWEETS Basic DMM ($13.99). Data captured 2026-10-31. JSON: https://toolboxtop10.com/multimeters.json
+- [The 10 Best Drill Bit Sets](https://toolboxtop10.com/drill-bit-sets.html): Best Overall DEWALT DW1361 ($26.98); Best Budget COMOWARE TGHEXSHANK ($9.99). Data captured 2026-11-02. JSON: https://toolboxtop10.com/drill-bit-sets.json
 - [The 10 Best Drywall Screw Guns](https://toolboxtop10.com/drywall-screw-guns.html): Best Overall DEWALT DCF630B ($129.95); Best Budget RYOBI P225 ($97.11). Data captured 2026-10-30. JSON: https://toolboxtop10.com/drywall-screw-guns.json
 - [The 10 Best Electric Demolition Hammers](https://toolboxtop10.com/demolition-hammers.html): Best Overall Berserker 65H ($199.79); Best Budget VEVOR 1400W 2900 BPM ($70.46). Data captured 2026-10-30. JSON: https://toolboxtop10.com/demolition-hammers.json
 - [The 10 Best Electric Hand Planers](https://toolboxtop10.com/corded-hand-planers.html): Best Overall WEN 6530 ($42.88); Best Budget WEN 6528 ($31.35). Data captured 2026-10-29. JSON: https://toolboxtop10.com/corded-hand-planers.json
