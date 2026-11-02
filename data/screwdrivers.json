@@ -3,9 +3,10 @@
   "title": "The 10 Best Screwdriver Sets",
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
   "intro": "We pulled the best-selling manual screwdriver sets on Amazon — fixed-handle sets, multi-bit and ratcheting drivers, magnetic-tip budget kits, and a precision set for electronics — then scored each on a single 100-point scale built from its star rating, review volume, value, and the features that matter: magnetic tips, a ratcheting mechanism, a nut driver, and a storage case. Cordless power screwdrivers are a separate tool and aren't on this list.",
-  "data_captured": "2026-11-01",
-  "audited": "2026-10-12",
+  "data_captured": "2026-11-02",
+  "audited": "2026-11-02",
   "changelog": [
+    {"date": "2026-11-02", "note": "Replaced the Klein Tools 32305 15-in-1 ratcheting driver, which Amazon no longer sells directly (no buy box), with the CRAFTSMAN CMHT65075N 8-piece set ($24.98, 4.8 stars on 2,050 reviews). The other 9 picks kept; prices, ratings and review counts re-checked."},
     {"date": "2026-11-01", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the No-name 415-Piece Kit dropped from $109.99 to $99.99."},
     {"date": "2026-10-12", "note": "All 10 picks kept: every listing is still sold and still ranks among Amazon's best-selling screwdriver sets. Prices, ratings and review counts re-checked. Biggest price moves: the No-name 415-Piece Kit rose from $78.99 to $109.99; the JOREST Precision Set rose from $8.49 to $9.99; the ROTATION 6-Piece Magnetic rose from $8.99 to $9.99."},
     {"date": "2026-10-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the No-name 415-Piece Kit dropped from $92.99 to $78.99; the JOREST Precision Set dropped from $9.99 to $8.49; the ROTATION 6-Piece Magnetic dropped from $9.99 to $8.99. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
@@ -76,40 +77,40 @@
       ]
     },
     {
-      "asin": "B08KFMHQCP",
-      "name": "Klein Tools 32305 15-in-1 Ratcheting Multi-Bit Screwdriver",
-      "brand": "Klein Tools",
-      "model": "32305",
-      "image": "https://m.media-amazon.com/images/I/51yPaWMYdZL._AC_SX522_.jpg",
-      "price": 19.98,
-      "rating": 4.7,
-      "reviews_count": 8903,
-      "bought": "3K+/mo",
+      "asin": "B0B39PHCVZ",
+      "name": "CRAFTSMAN Screwdriver Set, Bi-Material, 8 Piece Set (CMHT65075N)",
+      "brand": "CRAFTSMAN",
+      "model": "CMHT65075N",
+      "image": "https://m.media-amazon.com/images/I/71nNFMGb7+L._AC_SL1500_.jpg",
+      "price": 24.98,
+      "rating": 4.8,
+      "reviews_count": 2050,
+      "bought": "2K+/mo",
       "specs": {
-        "pieces": "15-in-1",
-        "types": "Phillips, Slotted, Square, Torx + 1/4 in nut driver",
-        "handle": "Cushion grip",
-        "style": "Ratcheting multi-bit"
+        "pieces": "8",
+        "types": "Phillips #1-#3, Slotted 3/16 to 5/16 in",
+        "handle": "Bi-material, textured torque zone",
+        "style": "Fixed-handle set"
       },
       "features": {
         "magnetic": false,
-        "ratcheting": true,
-        "nut_driver": true,
+        "ratcheting": false,
+        "nut_driver": false,
         "case": false
       },
-      "verdict": "The ratcheting upgrade to the 11-in-1. A three-position ratchet drives screws far faster than a fixed driver without lifting the bit, and it still packs a stack of bits plus a nut driver into one handle. The pick if you drive a lot of fasteners.",
-      "best_for": "Driving lots of screws, where a ratchet saves re-gripping.",
-      "skip_if": "You want the most compact driver.",
+      "verdict": "A plain eight-driver set of four Phillips and four slotted screwdrivers, including stubby 1-1/2 inch sizes for tight spots and a 6-inch #3 for big screws. Black oxide tips and a handle with a textured torque zone. It's one of the best-selling screwdriver sets on Amazon right now.",
+      "best_for": "Stocking a first toolbox with the common Phillips and slotted sizes.",
+      "skip_if": "You need Torx or square bits; it's Phillips and slotted only.",
       "pros": [
-        "Ratchet drives screws quickly without re-gripping",
-        "14 bit tips plus a 1/4-inch nut driver",
-        "Bits store in the handle",
-        "Klein build quality and a big review base"
+        "4.8 stars on 2,050 reviews",
+        "Two stubby drivers for cramped spaces",
+        "Black oxide tips grip screw heads",
+        "$24.98 for eight full-size drivers"
       ],
       "cons": [
-        "Ratchet adds a little length and bulk",
-        "Not magnetic",
-        "Costs more than a plain multi-bit driver"
+        "Phillips and slotted only",
+        "Listing doesn't say the tips are magnetic",
+        "No case or rack"
       ]
     },
     {
@@ -122,7 +123,7 @@
       "price": 49.97,
       "rating": 4.8,
       "reviews_count": 1475,
-      "bought": "700+/mo",
+      "bought": "800+/mo",
       "specs": {
         "pieces": "7",
         "types": "Slotted, Phillips (Tip-Ident)",
@@ -233,7 +234,7 @@
       "image": "https://m.media-amazon.com/images/I/81dk0oW4hvL._AC_SX522_.jpg",
       "price": 9.99,
       "rating": 4.6,
-      "reviews_count": 13177,
+      "reviews_count": 13176,
       "bought": "6K+/mo",
       "specs": {
         "pieces": "10",
@@ -270,7 +271,7 @@
       "image": "https://m.media-amazon.com/images/I/61tap4eproL._AC_SX522_.jpg",
       "price": 9.99,
       "rating": 4.6,
-      "reviews_count": 6803,
+      "reviews_count": 6806,
       "bought": "4K+/mo",
       "specs": {
         "pieces": "6",
@@ -344,7 +345,7 @@
       "image": "https://m.media-amazon.com/images/I/81YdkcvdCLL._AC_SX522_.jpg",
       "price": 9.99,
       "rating": 4.7,
-      "reviews_count": 27652,
+      "reviews_count": 27662,
       "bought": "10K+/mo",
       "specs": {
         "pieces": "Precision kit",
