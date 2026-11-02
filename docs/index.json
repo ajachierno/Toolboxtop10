@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 165,
@@ -38,18 +38,18 @@
    "title": "The 10 Best Adjustable (Crescent) Wrenches",
    "url": "https://toolboxtop10.com/adjustable-wrenches.html",
    "json": "https://toolboxtop10.com/adjustable-wrenches.json",
-   "data_captured": "2026-10-16",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-16",
    "products": 10,
    "best_overall": {
     "asin": "B07QQ8P5K6",
     "name": "CRAFTSMAN CMMT12001",
-    "price": 33.99
+    "price": 19.99
    },
    "best_budget": {
     "asin": "B08L6WJ5SM",
     "name": "Amazon Basics 6-Inch",
-    "price": 9.44
+    "price": 9.4
    },
    "money_no_object": {
     "asin": "B0CYHLQ7FW",
@@ -206,18 +206,18 @@
    "title": "The 10 Best Allen Key (Hex Key) Sets",
    "url": "https://toolboxtop10.com/allen-keys.html",
    "json": "https://toolboxtop10.com/allen-keys.json",
-   "data_captured": "2026-10-13",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-13",
    "products": 10,
    "best_overall": {
     "asin": "B07V844YR8",
     "name": "Amazon Basics 36-Piece",
-    "price": 10.49
+    "price": 12.99
    },
    "best_budget": {
     "asin": "B08GKHLJWR",
     "name": "EFFICERE 30-Piece",
-    "price": 12.99
+    "price": 10.9
    },
    "money_no_object": {
     "asin": "B0CYQY5QLS",
@@ -566,18 +566,18 @@
    "title": "The 10 Best Corded Angle Grinders",
    "url": "https://toolboxtop10.com/corded-angle-grinders.html",
    "json": "https://toolboxtop10.com/corded-angle-grinders.json",
-   "data_captured": "2026-10-18",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-18",
    "products": 10,
    "best_overall": {
     "asin": "B009ELXH1K",
     "name": "DEWALT DWE4011",
-    "price": 75.46
+    "price": 83.96
    },
    "best_budget": {
     "asin": "B07P5D6M4V",
     "name": "AVID POWER AG589",
-    "price": 39.99
+    "price": 42.99
    },
    "money_no_object": {
     "asin": "B0010DHFTK",
@@ -638,7 +638,7 @@
    "title": "The 10 Best Corded Chainsaws",
    "url": "https://toolboxtop10.com/corded-chainsaws.html",
    "json": "https://toolboxtop10.com/corded-chainsaws.json",
-   "data_captured": "2026-10-25",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-25",
    "products": 10,
    "best_overall": {
@@ -649,7 +649,7 @@
    "best_budget": {
     "asin": "B01ENBNVNE",
     "name": "WEN CP1216",
-    "price": 74.99
+    "price": 64.99
    },
    "money_no_object": {
     "asin": "B00YFTA84U",
@@ -662,13 +662,13 @@
    "title": "The 10 Best Corded Circular Saws",
    "url": "https://toolboxtop10.com/corded-circular-saws.html",
    "json": "https://toolboxtop10.com/corded-circular-saws.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-02",
    "audited": "2026-09-24",
    "products": 10,
    "best_overall": {
     "asin": "B007QUZ16A",
     "name": "DEWALT DWE575SB",
-    "price": 135.99
+    "price": 142.48
    },
    "best_budget": {
     "asin": "B01BD81BLO",
@@ -730,7 +730,7 @@
    "title": "The 10 Best Corded Drills",
    "url": "https://toolboxtop10.com/corded-drills.html",
    "json": "https://toolboxtop10.com/corded-drills.json",
-   "data_captured": "2026-10-24",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-24",
    "products": 10,
    "best_overall": {
@@ -741,7 +741,7 @@
    "best_budget": {
     "asin": "B00T2VJ93C",
     "name": "BLACK+DECKER DR260C",
-    "price": 42.95
+    "price": 44.68
    },
    "money_no_object": {
     "asin": "B002IAW0DA",
@@ -778,7 +778,7 @@
    "title": "The 10 Best Corded Heat Guns",
    "url": "https://toolboxtop10.com/corded-heat-guns.html",
    "json": "https://toolboxtop10.com/corded-heat-guns.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-02",
    "audited": "2026-09-24",
    "products": 10,
    "best_overall": {
@@ -826,7 +826,7 @@
    "title": "The 10 Best Corded Impact Wrenches",
    "url": "https://toolboxtop10.com/corded-impact-wrenches.html",
    "json": "https://toolboxtop10.com/corded-impact-wrenches.json",
-   "data_captured": "2026-10-26",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-26",
    "products": 10,
    "best_overall": {
@@ -846,13 +846,13 @@
    "title": "The 10 Best Corded Jigsaws",
    "url": "https://toolboxtop10.com/corded-jigsaws.html",
    "json": "https://toolboxtop10.com/corded-jigsaws.json",
-   "data_captured": "2026-10-23",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-23",
    "products": 10,
    "best_overall": {
     "asin": "B004323NQY",
     "name": "Bosch JS260",
-    "price": 119.0
+    "price": 99.0
    },
    "best_budget": {
     "asin": "B07FD341YS",
@@ -862,7 +862,7 @@
    "money_no_object": {
     "asin": "B004323NPK",
     "name": "Bosch JS470E",
-    "price": 199.0
+    "price": 179.0
    }
   },
   {
@@ -870,7 +870,7 @@
    "title": "The 10 Best Corded Leaf Blowers",
    "url": "https://toolboxtop10.com/corded-leaf-blowers.html",
    "json": "https://toolboxtop10.com/corded-leaf-blowers.json",
-   "data_captured": "2026-10-24",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-24",
    "products": 10,
    "best_overall": {
@@ -886,7 +886,7 @@
    "money_no_object": {
     "asin": "B07PGX4SXW",
     "name": "WORX WG512",
-    "price": 87.39
+    "price": 117.32
    }
   },
   {
@@ -962,13 +962,13 @@
    "title": "The 10 Best Corded Random Orbital Sanders",
    "url": "https://toolboxtop10.com/corded-random-orbital-sanders.html",
    "json": "https://toolboxtop10.com/corded-random-orbital-sanders.json",
-   "data_captured": "2026-10-19",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-19",
    "products": 10,
    "best_overall": {
     "asin": "B00ZWJDPTC",
     "name": "DEWALT DWE6421K",
-    "price": 94.0
+    "price": 64.89
    },
    "best_budget": {
     "asin": "B07FKBDNNQ",
@@ -1106,18 +1106,18 @@
    "title": "The 10 Best Corded Snow Blowers",
    "url": "https://toolboxtop10.com/corded-snow-blowers.html",
    "json": "https://toolboxtop10.com/corded-snow-blowers.json",
-   "data_captured": "2026-10-23",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-23",
    "products": 10,
    "best_overall": {
     "asin": "B0D67Z7KZF",
     "name": "Westinghouse WSnow20",
-    "price": 179.99
+    "price": 179.98
    },
    "best_budget": {
-    "asin": "B0FNM1776Q",
-    "name": "DEKOPRO DKPGSRA020C1-K1UL-GEAZ",
-    "price": 139.99
+    "asin": "B008U2LRDY",
+    "name": "Snow Joe 324E",
+    "price": 124.99
    },
    "money_no_object": {
     "asin": "B0D686D5JS",
@@ -1130,7 +1130,7 @@
    "title": "The 10 Best Corded String Trimmers",
    "url": "https://toolboxtop10.com/corded-string-trimmers.html",
    "json": "https://toolboxtop10.com/corded-string-trimmers.json",
-   "data_captured": "2026-10-26",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-26",
    "products": 10,
    "best_overall": {
@@ -1294,7 +1294,7 @@
    "title": "The 10 Best Cordless Circular Saws",
    "url": "https://toolboxtop10.com/cordless-circular-saws.html",
    "json": "https://toolboxtop10.com/cordless-circular-saws.json",
-   "data_captured": "2026-10-22",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-22",
    "products": 10,
    "best_overall": {
@@ -1305,12 +1305,12 @@
    "best_budget": {
     "asin": "B01GUM6YQU",
     "name": "RYOBI P505",
-    "price": 48.99
+    "price": 47.99
    },
    "money_no_object": {
     "asin": "B0DDDW9GWK",
     "name": "DEWALT DCS590B",
-    "price": 178.0
+    "price": 190.0
    }
   },
   {
@@ -1318,18 +1318,18 @@
    "title": "The 10 Best Cordless Detail Sanders",
    "url": "https://toolboxtop10.com/cordless-detail-sanders.html",
    "json": "https://toolboxtop10.com/cordless-detail-sanders.json",
-   "data_captured": "2026-10-20",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-20",
    "products": 10,
    "best_overall": {
     "asin": "B06WLJH9TB",
     "name": "BLACK+DECKER BDCMS20C",
-    "price": 74.99
+    "price": 69.99
    },
    "best_budget": {
     "asin": "B07Z3M9BWD",
     "name": "GALAX PRO 20V Detail Sander",
-    "price": 40.84
+    "price": 45.68
    },
    "money_no_object": null
   },
@@ -1570,13 +1570,13 @@
    "title": "The 10 Best Cordless Hot Glue Guns",
    "url": "https://toolboxtop10.com/cordless-hot-glue-guns.html",
    "json": "https://toolboxtop10.com/cordless-hot-glue-guns.json",
-   "data_captured": "2026-10-19",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-19",
    "products": 10,
    "best_overall": {
     "asin": "B0BZS2BY8T",
     "name": "THINKWORK W6117",
-    "price": 59.99
+    "price": 49.99
    },
    "best_budget": {
     "asin": "B0CF5HMR69",
@@ -1590,13 +1590,13 @@
    "title": "The 10 Best Cordless Impact Drivers",
    "url": "https://toolboxtop10.com/cordless-impact-drivers.html",
    "json": "https://toolboxtop10.com/cordless-impact-drivers.json",
-   "data_captured": "2026-10-17",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-17",
    "products": 10,
    "best_overall": {
     "asin": "B0BV17VLYG",
     "name": "DEWALT DCF787D1",
-    "price": 148.76
+    "price": 99.0
    },
    "best_budget": {
     "asin": "B0FQNW74FL",
@@ -1606,7 +1606,7 @@
    "money_no_object": {
     "asin": "B0DQYPZLMR",
     "name": "DEWALT DCF870B",
-    "price": 172.99
+    "price": 182.98
    }
   },
   {
@@ -1638,23 +1638,23 @@
    "title": "The 10 Best Cordless Jigsaws",
    "url": "https://toolboxtop10.com/cordless-jigsaws.html",
    "json": "https://toolboxtop10.com/cordless-jigsaws.json",
-   "data_captured": "2026-10-21",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-21",
    "products": 10,
    "best_overall": {
     "asin": "B07JPFHQKG",
     "name": "DEWALT DCS334B",
-    "price": 129.0
+    "price": 128.99
    },
    "best_budget": {
     "asin": "B078C5S3NC",
     "name": "BLACK+DECKER BDCJS20C",
-    "price": 84.97
+    "price": 86.0
    },
    "money_no_object": {
     "asin": "B0BDGQKRLS",
     "name": "Makita XVJ04Z",
-    "price": 171.49
+    "price": 179.0
    }
   },
   {
@@ -1782,7 +1782,7 @@
    "title": "The 10 Best Cordless Paint Sprayers",
    "url": "https://toolboxtop10.com/cordless-paint-sprayers.html",
    "json": "https://toolboxtop10.com/cordless-paint-sprayers.json",
-   "data_captured": "2026-10-18",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-18",
    "products": 10,
    "best_overall": {
@@ -1798,7 +1798,7 @@
    "money_no_object": {
     "asin": "B072C4HZ9B",
     "name": "Graco 17M367",
-    "price": 1079.99
+    "price": 1049.99
    }
   },
   {
@@ -1854,13 +1854,13 @@
    "title": "The 10 Best Cordless Pressure Washers",
    "url": "https://toolboxtop10.com/cordless-pressure-washers.html",
    "json": "https://toolboxtop10.com/cordless-pressure-washers.json",
-   "data_captured": "2026-10-21",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-21",
    "products": 10,
    "best_overall": {
     "asin": "B089F8LZ57",
     "name": "WORX WG620",
-    "price": 139.99
+    "price": 128.03
    },
    "best_budget": {
     "asin": "B0F32NWV8F",
@@ -1870,7 +1870,7 @@
    "money_no_object": {
     "asin": "B0CTJ7V9D5",
     "name": "EGO HPW3204-2",
-    "price": 879.0
+    "price": 849.99
    }
   },
   {
@@ -1878,7 +1878,7 @@
    "title": "The 10 Best Cordless Random Orbital Sanders",
    "url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html",
    "json": "https://toolboxtop10.com/cordless-random-orbital-sanders.json",
-   "data_captured": "2026-10-20",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-20",
    "products": 10,
    "best_overall": {
@@ -1889,7 +1889,7 @@
    "best_budget": {
     "asin": "B0D17S7D1B",
     "name": "AVID POWER 20V ROS",
-    "price": 64.99
+    "price": 49.99
    },
    "money_no_object": null
   },
@@ -2090,7 +2090,7 @@
    "title": "The 10 Best Cordless Snow Blowers",
    "url": "https://toolboxtop10.com/cordless-snow-blowers.html",
    "json": "https://toolboxtop10.com/cordless-snow-blowers.json",
-   "data_captured": "2026-10-22",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-22",
    "products": 10,
    "best_overall": {
@@ -2101,7 +2101,7 @@
    "best_budget": {
     "asin": "B0B1TXSFMK",
     "name": "VOLTASK SS-20B",
-    "price": 149.99
+    "price": 129.31
    },
    "money_no_object": {
     "asin": "B0CHLRYPK1",
@@ -2882,7 +2882,7 @@
    "title": "The 10 Best Needle-Nose Pliers",
    "url": "https://toolboxtop10.com/needle-nose-pliers.html",
    "json": "https://toolboxtop10.com/needle-nose-pliers.json",
-   "data_captured": "2026-10-15",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-15",
    "products": 10,
    "best_overall": {
@@ -2893,7 +2893,7 @@
    "best_budget": {
     "asin": "B0733NWRCS",
     "name": "Dykes 6-Inch",
-    "price": 5.99
+    "price": 4.99
    },
    "money_no_object": {
     "asin": "B000I1LMDU",
@@ -3050,7 +3050,7 @@
    "title": "The 10 Best Pliers Sets",
    "url": "https://toolboxtop10.com/pliers.html",
    "json": "https://toolboxtop10.com/pliers.json",
-   "data_captured": "2026-10-14",
+   "data_captured": "2026-11-02",
    "audited": "2026-10-14",
    "products": 10,
    "best_overall": {
@@ -3061,12 +3061,12 @@
    "best_budget": {
     "asin": "B015X2NHOK",
     "name": "Amazon Basics 4-Piece",
-    "price": 15.28
+    "price": 13.48
    },
    "money_no_object": {
     "asin": "B000X4KNTG",
     "name": "KNIPEX 00 20 06 US1",
-    "price": 118.09
+    "price": 113.48
    }
   },
   {
