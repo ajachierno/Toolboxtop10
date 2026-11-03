@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 166,
@@ -62,7 +62,7 @@
    "title": "The 10 Best Air Blow Guns",
    "url": "https://toolboxtop10.com/air-blow-guns.html",
    "json": "https://toolboxtop10.com/air-blow-guns.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -86,7 +86,7 @@
    "title": "The 10 Best Air Compressor Hoses",
    "url": "https://toolboxtop10.com/air-compressor-hoses.html",
    "json": "https://toolboxtop10.com/air-compressor-hoses.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -102,7 +102,7 @@
    "money_no_object": {
     "asin": "B001C6NC7O",
     "name": "Flexzilla 3/8 x 50",
-    "price": 38.85
+    "price": 38.88
    }
   },
   {
@@ -110,7 +110,7 @@
    "title": "The 10 Best Air Compressors",
    "url": "https://toolboxtop10.com/air-compressors.html",
    "json": "https://toolboxtop10.com/air-compressors.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -121,7 +121,7 @@
    "best_budget": {
     "asin": "B0BV654FT9",
     "name": "VEVOR 4.8-gal 1.2 HP",
-    "price": 112.99
+    "price": 114.9
    },
    "money_no_object": {
     "asin": "B0DD36XCXB",
@@ -134,23 +134,23 @@
    "title": "The 10 Best Air Hose Reels",
    "url": "https://toolboxtop10.com/air-hose-reels.html",
    "json": "https://toolboxtop10.com/air-hose-reels.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0CHB3GDSV",
     "name": "Giraffe Tools TA",
-    "price": 84.99
+    "price": 109.99
    },
    "best_budget": {
     "asin": "B0C37548K6",
     "name": "VEVOR NT-A15",
-    "price": 79.9
+    "price": 73.9
    },
    "money_no_object": {
     "asin": "B000OCHEOY",
     "name": "Lincoln 83753",
-    "price": 220.59
+    "price": 220.82
    }
   },
   {
@@ -158,7 +158,7 @@
    "title": "The 10 Best Air Impact Wrenches",
    "url": "https://toolboxtop10.com/air-impact-wrenches.html",
    "json": "https://toolboxtop10.com/air-impact-wrenches.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -169,12 +169,12 @@
    "best_budget": {
     "asin": "B0BTP57RHQ",
     "name": "BESWELL BW-112BN",
-    "price": 37.99
+    "price": 39.99
    },
    "money_no_object": {
     "asin": "B00LV9Y1FE",
     "name": "Ingersoll Rand 2235TiMAX",
-    "price": 270.0
+    "price": 254.99
    }
   },
   {
@@ -182,13 +182,13 @@
    "title": "The 10 Best Air Ratchets",
    "url": "https://toolboxtop10.com/air-ratchets.html",
    "json": "https://toolboxtop10.com/air-ratchets.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B000UVR4W6",
     "name": "Ingersoll Rand 170G",
-    "price": 94.08
+    "price": 94.14
    },
    "best_budget": {
     "asin": "B07785XTVH",
@@ -254,7 +254,7 @@
    "title": "The 10 Best Bar Clamps",
    "url": "https://toolboxtop10.com/bar-clamps.html",
    "json": "https://toolboxtop10.com/bar-clamps.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -265,12 +265,12 @@
    "best_budget": {
     "asin": "B0875RW1Y6",
     "name": "WORKPRO W001413AR",
-    "price": 24.16
+    "price": 24.03
    },
    "money_no_object": {
     "asin": "B07HNRQF2Z",
     "name": "Bora 571550",
-    "price": 189.99
+    "price": 239.99
    }
   },
   {
@@ -446,7 +446,7 @@
    "title": "The 10 Best Car Battery Chargers and Maintainers",
    "url": "https://toolboxtop10.com/battery-chargers.html",
    "json": "https://toolboxtop10.com/battery-chargers.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -462,7 +462,7 @@
    "money_no_object": {
     "asin": "B00CD44RQO",
     "name": "CTEK MXS 5.0",
-    "price": 94.38
+    "price": 96.58
    }
   },
   {
@@ -914,7 +914,7 @@
    "title": "The 10 Best Corded Miter Saws",
    "url": "https://toolboxtop10.com/corded-miter-saws.html",
    "json": "https://toolboxtop10.com/corded-miter-saws.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-27",
    "products": 10,
    "best_overall": {
@@ -938,7 +938,7 @@
    "title": "The 10 Best Corded Oscillating Tools",
    "url": "https://toolboxtop10.com/corded-oscillating-tools.html",
    "json": "https://toolboxtop10.com/corded-oscillating-tools.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-09-26",
    "products": 10,
    "best_overall": {
@@ -986,7 +986,7 @@
    "title": "The 10 Best Corded Reciprocating Saws",
    "url": "https://toolboxtop10.com/corded-reciprocating-saws.html",
    "json": "https://toolboxtop10.com/corded-reciprocating-saws.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-09-28",
    "products": 10,
    "best_overall": {
@@ -1002,7 +1002,7 @@
    "money_no_object": {
     "asin": "B00N5FLVM8",
     "name": "DEWALT DWE305",
-    "price": 129.0
+    "price": 130.62
    }
   },
   {
@@ -1010,7 +1010,7 @@
    "title": "The 10 Best Corded Rotary Hammers",
    "url": "https://toolboxtop10.com/corded-rotary-hammers.html",
    "json": "https://toolboxtop10.com/corded-rotary-hammers.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-09-25",
    "products": 10,
    "best_overall": {
@@ -1082,7 +1082,7 @@
    "title": "The 10 Best Corded Shop Vacuums",
    "url": "https://toolboxtop10.com/corded-shop-vacuums.html",
    "json": "https://toolboxtop10.com/corded-shop-vacuums.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-09-30",
    "products": 10,
    "best_overall": {
@@ -1098,7 +1098,7 @@
    "money_no_object": {
     "asin": "B07BYGDFKB",
     "name": "DEWALT DXV12P",
-    "price": 139.0
+    "price": 119.0
    }
   },
   {
@@ -1154,7 +1154,7 @@
    "title": "The 10 Best Corded Table Saws",
    "url": "https://toolboxtop10.com/corded-table-saws.html",
    "json": "https://toolboxtop10.com/corded-table-saws.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-09-27",
    "products": 10,
    "best_overall": {
@@ -1165,12 +1165,12 @@
    "best_budget": {
     "asin": "B0DHS4RHR8",
     "name": "SKIL TS6308-00",
-    "price": 249.0
+    "price": 229.0
    },
    "money_no_object": {
     "asin": "B0CKS6G6TC",
     "name": "BOSCH GTS15-10",
-    "price": 649.0
+    "price": 549.0
    }
   },
   {
@@ -1202,13 +1202,13 @@
    "title": "The 10 Best Cordless Brad Nailers",
    "url": "https://toolboxtop10.com/cordless-brad-nailers.html",
    "json": "https://toolboxtop10.com/cordless-brad-nailers.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-07",
    "products": 10,
    "best_overall": {
     "asin": "B06XF8KV58",
     "name": "DEWALT DCN680D1",
-    "price": 364.95
+    "price": 354.99
    },
    "best_budget": {
     "asin": "B0CH3R5G59",
@@ -1382,13 +1382,13 @@
    "title": "The 10 Best Cordless Drills",
    "url": "https://toolboxtop10.com/cordless-drills.html",
    "json": "https://toolboxtop10.com/cordless-drills.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-09-29",
    "products": 10,
    "best_overall": {
     "asin": "B00ET5VMTU",
     "name": "DEWALT DCD771C2",
-    "price": 129.0
+    "price": 99.99
    },
    "best_budget": {
     "asin": "B07CR1GPBQ",
@@ -1398,7 +1398,7 @@
    "money_no_object": {
     "asin": "B0C3TGRLLM",
     "name": "DEWALT DCD777D1",
-    "price": 138.0
+    "price": 99.0
    }
   },
   {
@@ -1734,7 +1734,7 @@
    "title": "The 10 Best Cordless Miter Saws",
    "url": "https://toolboxtop10.com/cordless-miter-saws.html",
    "json": "https://toolboxtop10.com/cordless-miter-saws.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-09-29",
    "products": 10,
    "best_overall": {
@@ -1758,13 +1758,13 @@
    "title": "The 10 Best Cordless Oscillating Tools",
    "url": "https://toolboxtop10.com/cordless-oscillating-tools.html",
    "json": "https://toolboxtop10.com/cordless-oscillating-tools.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-09-25",
    "products": 10,
    "best_overall": {
     "asin": "B07VBB55X5",
     "name": "DEWALT DCS356B",
-    "price": 99.95
+    "price": 98.25
    },
    "best_budget": {
     "asin": "B0CZP39W53",
@@ -1922,7 +1922,7 @@
    "title": "The 10 Best Cordless Reciprocating Saws",
    "url": "https://toolboxtop10.com/cordless-reciprocating-saws.html",
    "json": "https://toolboxtop10.com/cordless-reciprocating-saws.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-27",
    "products": 10,
    "best_overall": {
@@ -1933,7 +1933,7 @@
    "best_budget": {
     "asin": "B00IP27DFA",
     "name": "BLACK+DECKER BDCR20B",
-    "price": 59.0
+    "price": 76.99
    },
    "money_no_object": {
     "asin": "B01M69K91R",
@@ -1970,13 +1970,13 @@
    "title": "The 10 Best Cordless Rotary Hammers",
    "url": "https://toolboxtop10.com/cordless-rotary-hammers.html",
    "json": "https://toolboxtop10.com/cordless-rotary-hammers.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-27",
    "products": 10,
    "best_overall": {
     "asin": "B00YDZI9BA",
     "name": "DEWALT DCH273B",
-    "price": 266.31
+    "price": 259.99
    },
    "best_budget": {
     "asin": "B0B24YTVHT",
@@ -1986,7 +1986,7 @@
    "money_no_object": {
     "asin": "B09PMSKXRV",
     "name": "Milwaukee 2912-20",
-    "price": 292.94
+    "price": 288.87
    }
   },
   {
@@ -2066,7 +2066,7 @@
    "title": "The 10 Best Cordless Shop Vacuums",
    "url": "https://toolboxtop10.com/cordless-shop-vacuums.html",
    "json": "https://toolboxtop10.com/cordless-shop-vacuums.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-08",
    "products": 10,
    "best_overall": {
@@ -2075,9 +2075,9 @@
     "price": 109.99
    },
    "best_budget": {
-    "asin": "B0CLS6VPYH",
-    "name": "ReliaRoads RCSV-20",
-    "price": 71.97
+    "asin": "B07MHZJVM4",
+    "name": "CRAFTSMAN CMCV002B",
+    "price": 99.0
    },
    "money_no_object": {
     "asin": "B0CMT9ML47",
@@ -3382,13 +3382,13 @@
    "title": "The 10 Best Sewer Inspection Cameras",
    "url": "https://toolboxtop10.com/sewer-inspection-cameras.html",
    "json": "https://toolboxtop10.com/sewer-inspection-cameras.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-07",
    "products": 10,
    "best_overall": {
-    "asin": "B0DPFF56XL",
-    "name": "Sanyipace 100 ft with Locator",
-    "price": 1099.88
+    "asin": "B0D5M8PB92",
+    "name": "Anysun 165 ft with Locator",
+    "price": 1110.99
    },
    "best_budget": {
     "asin": "B0FPBZ2R5N",
@@ -3686,7 +3686,7 @@
    "title": "The 10 Best Tool Bags",
    "url": "https://toolboxtop10.com/tool-bags.html",
    "json": "https://toolboxtop10.com/tool-bags.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-08",
    "products": 10,
    "best_overall": {
@@ -3850,7 +3850,7 @@
    "title": "The 10 Best Wheel Balancers",
    "url": "https://toolboxtop10.com/wheel-balancers.html",
    "json": "https://toolboxtop10.com/wheel-balancers.json",
-   "data_captured": "2026-10-27",
+   "data_captured": "2026-11-03",
    "audited": "2026-10-07",
    "products": 10,
    "best_overall": {
