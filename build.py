@@ -475,12 +475,42 @@ def data_attrs(p, **extra):
     return " ".join(f'data-{k}="{esc(v)}"' for k, v in vals.items() if v not in (None, ""))
 
 
+# Google's merchant listing rich results flag a Product "name" over 150 characters
+# (Search Console: "Invalid string length in field 'name'"). Amazon titles often run longer,
+# so the JSON-LD gets a trimmed copy and the build lists every name it had to trim.
+LD_NAME_MAX = 150
+LONG_NAMES = {}
+
+
+def ld_name(p):
+    """Product name for JSON-LD, cut at a clause or word break to fit LD_NAME_MAX."""
+    name = p["name"].strip()
+    if len(name) <= LD_NAME_MAX:
+        return name
+    LONG_NAMES[p.get("asin") or name] = name
+    head = name[:LD_NAME_MAX + 1]
+    cut = max(head.rfind(sep) for sep in (", ", " - ", " | ", "; ", " – ", " — "))
+    if cut < LD_NAME_MAX // 2:
+        cut = head.rfind(" ")
+    return name[:cut if cut > 0 else LD_NAME_MAX].rstrip(" ,;:|-–—")
+
+
+def warn_long_names():
+    if LONG_NAMES:
+        print(f"WARNING: {len(LONG_NAMES)} product name(s) over {LD_NAME_MAX} characters, trimmed in "
+              f"the JSON-LD; shorten them in the data:")
+        for asin, name in list(LONG_NAMES.items())[:10]:
+            print(f"  {asin} ({len(name)}): {name[:90]}...")
+        if len(LONG_NAMES) > 10:
+            print(f"  ... and {len(LONG_NAMES) - 10} more")
+
+
 def product_ld(p, site):
     """schema.org Product for one pick. Amazon's star rating is deliberately not emitted as
     aggregateRating (those are Amazon's ratings, not ours); it stays in the visible text,
     the data-* attributes and the JSON twin."""
     url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
-    out = {"@type": "Product", "name": p["name"], "brand": {"@type": "Brand", "name": p["brand"]},
+    out = {"@type": "Product", "name": ld_name(p), "brand": {"@type": "Brand", "name": p["brand"]},
            "model": p["model"], "sku": p["asin"], "image": p["image"], "url": url}
     if p.get("verdict"):
         out["description"] = p["verdict"]
@@ -2215,6 +2245,7 @@ def main():
     if TRACKING.get("indexnow_key"):
         (OUT / f"{TRACKING['indexnow_key']}.txt").write_text(TRACKING["indexnow_key"], encoding="utf-8")
     print(f"Built {len(cats)} category page(s) + home into {OUT}")
+    warn_long_names()
     for cat, overall, budget in cats:
         print(f"  {cat['slug']}: Best Overall = {overall['brand']} {overall['model']} "
               f"(score {overall['score']}); Best Budget = {budget['brand']} {budget['model']} "
