@@ -4,7 +4,7 @@
 
 Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and the capture date). The site index is https://toolboxtop10.com/index.json. Each page links its twin with `<link rel="alternate" type="application/json">`. Links to Amazon carry our Associates tag; a purchase may earn us a commission at no extra cost to the buyer.
 
-## Rankings (166 pages)
+## Rankings (167 pages)
 
 - [The 10 Best 23-Gauge Pin Nailers](https://toolboxtop10.com/pin-nailers.html): Best Overall DEWALT DWFP2350K ($165); Best Budget Arrow PT23G ($54.97). Data captured 2026-10-31. JSON: https://toolboxtop10.com/pin-nailers.json
 - [The 10 Best Adjustable (Crescent) Wrenches](https://toolboxtop10.com/adjustable-wrenches.html): Best Overall CRAFTSMAN CMMT12001 ($19.99); Best Budget Amazon Basics 6-Inch ($9.40). Data captured 2026-11-02. JSON: https://toolboxtop10.com/adjustable-wrenches.json
@@ -109,6 +109,7 @@ Machine-readable data: every ranking page has a JSON twin at the same path with 
 - [The 10 Best Floor Jacks](https://toolboxtop10.com/floor-jacks.html): Best Overall AV Steel AV-300102F ($169.99); Best Budget DNA Motoring TOOLS-00234 ($53.99). Data captured 2026-10-30. JSON: https://toolboxtop10.com/floor-jacks.json
 - [The 10 Best Gantry Cranes for Garages](https://toolboxtop10.com/gantry-cranes.html): Best Overall JEGS 1-Ton Gantry ($695); Best Budget Dkenicor 3 Ton Frame ($799.99). Data captured 2026-10-30. JSON: https://toolboxtop10.com/gantry-cranes.json
 - [The 10 Best Hacksaws](https://toolboxtop10.com/hacksaws.html): Best Overall CRAFTSMAN CMHT20138 ($9.99); Best Budget HAUTMEC HT0398 ($9.89). Data captured 2026-10-30. JSON: https://toolboxtop10.com/hacksaws.json
+- [The 10 Best Hole Saw Kits](https://toolboxtop10.com/hole-saw-kits.html): Best Overall HYCHIKA 17-piece ($35.49); Best Budget KATA 25-piece ($21.69). Data captured 2026-11-04. JSON: https://toolboxtop10.com/hole-saw-kits.json
 - [The 10 Best Hot Glue Guns](https://toolboxtop10.com/hot-glue-guns.html): Best Overall ROMECH 60/100W ($24.99); Best Budget SHJADE LFT-A601 ($12.99). Data captured 2026-10-30. JSON: https://toolboxtop10.com/hot-glue-guns.json
 - [The 10 Best HVLP and LVLP Spray Guns](https://toolboxtop10.com/hvlp-air-spray-guns.html): Best Overall AEROPRO R500/A610 ($69.99); Best Budget ENDOZER H827 ($29.99). Data captured 2026-10-30. JSON: https://toolboxtop10.com/hvlp-air-spray-guns.json
 - [The 10 Best HVLP Paint Sprayers](https://toolboxtop10.com/hvlp-paint-sprayers.html): Best Overall HomeRight C800971 ($57); Best Budget VONFORN VF803-Y ($59.99). Data captured 2026-10-30. JSON: https://toolboxtop10.com/hvlp-paint-sprayers.json

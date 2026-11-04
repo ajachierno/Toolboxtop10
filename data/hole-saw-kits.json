@@ -1,0 +1,472 @@
+{
+  "slug": "hole-saw-kits",
+  "title": "The 10 Best Hole Saw Kits",
+  "subtitle": "Hole saw sets for wood, drywall and metal, ranked from live Amazon data.",
+  "intro": "A hole saw kit cuts clean round holes for door locks, recessed lights, pipes and wiring. We ranked 10 best-selling kits from Diablo, Milwaukee, Lenox, Bosch, Amazon Basics and value brands on rating, review volume and features: bi-metal or carbide teeth that can cut metal, sizes up to 4 in or more, a quick-change arbor, and a case. Carbon steel kits are cheap and cover big sizes but only cut wood, drywall and plastic. Prices run from $21.69 for KATA's 25-piece kit to $169 for Milwaukee's 28-piece contractor kit.",
+  "data_captured": "2026-11-04",
+  "audited": "2026-11-04",
+  "changelog": [
+    {
+      "date": "2026-11-04",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 30,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "metal_rated": 0.35,
+    "wide_range": 0.2,
+    "quick_change": 0.2,
+    "case": 0.25
+  },
+  "reviews_ceiling": 3500,
+  "spec_fields": [
+    {
+      "key": "pieces",
+      "label": "Pieces"
+    },
+    {
+      "key": "sizes",
+      "label": "Sizes"
+    },
+    {
+      "key": "material",
+      "label": "Material"
+    },
+    {
+      "key": "cut_depth",
+      "label": "Cutting depth"
+    },
+    {
+      "key": "arbor",
+      "label": "Arbor"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "pieces",
+      "label": "Pieces"
+    },
+    {
+      "key": "material",
+      "label": "Material"
+    },
+    {
+      "key": "metal_rated",
+      "label": "Cuts metal",
+      "type": "bool"
+    },
+    {
+      "key": "quick_change",
+      "label": "Quick-change arbor",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B01NCMMTQY",
+      "name": "Diablo General Purpose Bi-Metal Hole Saw Set, 14 Piece, 7/8 in to 2-9/16 in Dia., 2-3/8 in Cutting Depth (DHS14SGP)",
+      "brand": "Diablo",
+      "model": "DHS14SGP",
+      "image": "https://m.media-amazon.com/images/I/61FPcPJdpuL._SL1000_.jpg",
+      "price": 101.99,
+      "rating": 4.8,
+      "reviews_count": 1035,
+      "bought": "300+/mo",
+      "specs": {
+        "pieces": "14",
+        "sizes": "7/8 to 2-9/16 in",
+        "material": "Bi-metal",
+        "cut_depth": "2-3/8 in",
+        "arbor": "Snap-Lock Plus mandrel"
+      },
+      "features": {
+        "metal_rated": true,
+        "wide_range": false,
+        "quick_change": true,
+        "case": false
+      },
+      "verdict": "The highest-rated set we found: 14 pieces with a 2-3/8 in cutting depth, about 40% deeper than a standard hole saw, so it gets through a 2x stud in one pass. Saws swap on Diablo's Snap-Lock Plus mandrel without tools.",
+      "best_for": "Plumbers and electricians boring through studs and joists.",
+      "skip_if": "You need holes over 2-9/16 in.",
+      "pros": [
+        "4.8 stars on 1,035 reviews",
+        "2-3/8 in cutting depth",
+        "Snap-Lock Plus quick-change mandrel and tool-free plug ejection"
+      ],
+      "cons": [
+        "The priciest set here except Milwaukee's 28-piece kit",
+        "Tops out at 2-9/16 in"
+      ]
+    },
+    {
+      "asin": "B0017WOBLE",
+      "name": "Milwaukee 49-22-4185 All Purpose Professional Ice Hardened Hole Saw Kit, 28 Piece",
+      "brand": "Milwaukee",
+      "model": "49-22-4185",
+      "image": "https://m.media-amazon.com/images/I/61wTZnNXkhL._AC_SL1125_.jpg",
+      "price": 169.0,
+      "rating": 4.6,
+      "reviews_count": 887,
+      "bought": "200+/mo",
+      "specs": {
+        "pieces": "28",
+        "sizes": "3/4 to 4-3/4 in",
+        "material": "Bi-metal, Ice Hardened",
+        "cut_depth": null,
+        "arbor": "3 arbors"
+      },
+      "features": {
+        "metal_rated": true,
+        "wide_range": true,
+        "quick_change": false,
+        "case": false
+      },
+      "verdict": "The big contractor kit: 22 bi-metal hole saws from 3/4 to 4-3/4 in plus three arbors, with Milwaukee's Ice Hardened teeth. It covers almost every hole a plumber or electrician cuts.",
+      "best_for": "Trades who want one kit that covers 3/4 to 4-3/4 in.",
+      "skip_if": "You only cut a few hole sizes; a smaller set costs far less.",
+      "pros": [
+        "22 hole saws from 3/4 to 4-3/4 in",
+        "Three arbors included",
+        "Ice Hardened, Matrix II bi-metal teeth"
+      ],
+      "cons": [
+        "$169, the most expensive set here",
+        "Cutting depth not stated on the listing"
+      ]
+    },
+    {
+      "asin": "B0045CSOIY",
+      "name": "Milwaukee 49-22-4025 13-Piece General Purpose Hole Dozer Hole Saw Kit",
+      "brand": "Milwaukee",
+      "model": "49-22-4025",
+      "image": "https://m.media-amazon.com/images/I/61rMSRpMnKL._AC_SL1125_.jpg",
+      "price": 94.9,
+      "rating": 4.6,
+      "reviews_count": 530,
+      "bought": "100+/mo",
+      "specs": {
+        "pieces": "13",
+        "sizes": null,
+        "material": "Bi-metal, 8% cobalt",
+        "cut_depth": null,
+        "arbor": "Quick-release arbor"
+      },
+      "features": {
+        "metal_rated": true,
+        "wide_range": false,
+        "quick_change": true,
+        "case": false
+      },
+      "verdict": "Milwaukee's general-purpose Hole Dozer kit: 13 pieces of cryogenically treated bi-metal with 8% cobalt, wide offset slots for prying out plugs, and a quick-release arbor.",
+      "best_for": "Mixed wood and metal work from a trade brand.",
+      "skip_if": "You want the sizes listed before you buy; this listing doesn't name them.",
+      "pros": [
+        "8% cobalt bi-metal, Ice Hardened",
+        "Quick-release arbor",
+        "Wide, angled slots for plug removal"
+      ],
+      "cons": [
+        "Saw sizes not listed",
+        "Cutting depth not stated"
+      ]
+    },
+    {
+      "asin": "B004YKD68K",
+      "name": "Lenox Hole Saw Kit, Bi-Metal, T3 Electricians/Plumbers Kit, 13 Piece (1786647)",
+      "brand": "Lenox",
+      "model": "1786647",
+      "image": "https://m.media-amazon.com/images/I/41JyKNx69WL._AC_SL1000_.jpg",
+      "price": 89.98,
+      "rating": 4.6,
+      "reviews_count": 256,
+      "bought": "100+/mo",
+      "specs": {
+        "pieces": "13",
+        "sizes": null,
+        "material": "Bi-metal T3",
+        "cut_depth": null,
+        "arbor": "2 arbors"
+      },
+      "features": {
+        "metal_rated": true,
+        "wide_range": false,
+        "quick_change": false,
+        "case": false
+      },
+      "verdict": "An electrician's and plumber's kit from Lenox: nine T3 bi-metal hole saws, two arbors and two pilot bits, with Speed Slot plug removal.",
+      "best_for": "Electricians and plumbers who cut wood and metal.",
+      "skip_if": "You want a quick-change arbor; this kit uses standard arbors.",
+      "pros": [
+        "9 hole saws, 2 arbors, 2 pilot bits",
+        "T3 bi-metal for wood and metal",
+        "Speed Slot plug removal"
+      ],
+      "cons": [
+        "Saw sizes not listed on the listing",
+        "No quick-change system"
+      ]
+    },
+    {
+      "asin": "B086SQWZK5",
+      "name": "HYCHIKA Bi-Metal Hole Saw Kit, 17 Pcs, 3/4 in to 2-1/2 in, High Speed Steel, in Case with Mandrels",
+      "brand": "HYCHIKA",
+      "model": "17-piece",
+      "image": "https://m.media-amazon.com/images/I/81KYHPjaxqL._SL1500_.jpg",
+      "price": 35.49,
+      "rating": 4.5,
+      "reviews_count": 1567,
+      "bought": "800+/mo",
+      "specs": {
+        "pieces": "17",
+        "sizes": "3/4 to 2-11/16 in (19-68 mm)",
+        "material": "Bi-metal HSS",
+        "cut_depth": "1-9/16 in (40 mm)",
+        "arbor": "Mandrels included"
+      },
+      "features": {
+        "metal_rated": true,
+        "wide_range": false,
+        "quick_change": false,
+        "case": true
+      },
+      "verdict": "The best-rated budget bi-metal set: 11 hole saws from 19 to 68 mm with a 40 mm cutting depth, mandrels and a case, rated for soft metal, wood and PVC.",
+      "best_for": "Cutting holes in thin sheet metal, wood and PVC on a budget.",
+      "skip_if": "You cut stainless or thick steel; get carbide.",
+      "pros": [
+        "4.5 stars on 1,567 reviews",
+        "11 bi-metal saws plus mandrels in a case",
+        "40 mm cutting depth"
+      ],
+      "cons": [
+        "Largest saw is 68 mm (2-11/16 in), although the title says 2-1/2 in",
+        "Soft metal only, per the listing"
+      ]
+    },
+    {
+      "asin": "B08NTW1613",
+      "name": "BOSCH HSBIM9 9-Piece Bi-Metal Hole Saw Kit with SpinLOCK Universal Arbor and Carrying Case",
+      "brand": "Bosch",
+      "model": "HSBIM9",
+      "image": "https://m.media-amazon.com/images/I/61WehyYmfWL._SL1000_.jpg",
+      "price": 37.49,
+      "rating": 4.4,
+      "reviews_count": 739,
+      "bought": "300+/mo",
+      "specs": {
+        "pieces": "9",
+        "sizes": null,
+        "material": "Bi-metal, 8% cobalt",
+        "cut_depth": null,
+        "arbor": "2 SpinLOCK arbors"
+      },
+      "features": {
+        "metal_rated": true,
+        "wide_range": false,
+        "quick_change": true,
+        "case": true
+      },
+      "verdict": "A compact name-brand starter kit: six 8% cobalt bi-metal hole saws, two SpinLOCK universal arbors that fit any brand's saws, a pilot bit and a case.",
+      "best_for": "A first bi-metal set with a quick-change arbor.",
+      "skip_if": "You need many sizes; it has six saws.",
+      "pros": [
+        "Two SpinLOCK arbors fit other brands' hole saws too",
+        "8% cobalt bi-metal",
+        "Carrying case"
+      ],
+      "cons": [
+        "Only 6 hole saws",
+        "Sizes not listed on the listing"
+      ]
+    },
+    {
+      "asin": "B0B7RQ48JX",
+      "name": "GSTK Heavy Duty Carbide Hole Saw Kit, 14 Pcs, TCT Hole Cutter for Metal and Stainless Steel, with 2 Extra Pilot Drills",
+      "brand": "GSTK",
+      "model": "14-piece carbide",
+      "image": "https://m.media-amazon.com/images/I/81ZQ3MZT7WL._SL1500_.jpg",
+      "price": 51.99,
+      "rating": 4.4,
+      "reviews_count": 583,
+      "bought": "300+/mo",
+      "specs": {
+        "pieces": "14",
+        "sizes": "9/16 to 2-1/8 in",
+        "material": "Carbide-tipped (TCT)",
+        "cut_depth": null,
+        "arbor": null
+      },
+      "features": {
+        "metal_rated": true,
+        "wide_range": false,
+        "quick_change": false,
+        "case": false
+      },
+      "verdict": "The set for hard metal: 12 carbide-tipped cutters from 9/16 to 2-1/8 in, made for stainless steel, iron and aluminum, plus two spare pilot drills.",
+      "best_for": "Drilling stainless steel, steel boxes and sheet metal.",
+      "skip_if": "You mostly cut wood; bi-metal is cheaper for that.",
+      "pros": [
+        "Tungsten carbide tipped teeth for stainless steel",
+        "12 sizes from 9/16 to 2-1/8 in",
+        "2 extra pilot drills"
+      ],
+      "cons": [
+        "Tops out at 2-1/8 in",
+        "Cutting depth not stated"
+      ]
+    },
+    {
+      "asin": "B08YGFGRBX",
+      "name": "Amazon Basics 9-Piece Bi-Metal High Speed Steel Hole Saw Kit with Carrying Case, 25/32 in to 2-11/16 in",
+      "brand": "Amazon Basics",
+      "model": "9-piece",
+      "image": "https://m.media-amazon.com/images/I/71Bo0I85cQS._AC_SL1500_.jpg",
+      "price": 24.45,
+      "rating": 4.4,
+      "reviews_count": 564,
+      "bought": "300+/mo",
+      "specs": {
+        "pieces": "9",
+        "sizes": "25/32 to 2-11/16 in",
+        "material": "Bi-metal HSS M3",
+        "cut_depth": null,
+        "arbor": "1/4 in hex arbor"
+      },
+      "features": {
+        "metal_rated": true,
+        "wide_range": false,
+        "quick_change": false,
+        "case": true
+      },
+      "verdict": "The cheapest bi-metal set here: six HSS-M3 hole saws from 25/32 to 2-11/16 in on a 1/4 in hex arbor, rated for mild steel, aluminum, plastic and drywall, in a case.",
+      "best_for": "Occasional holes in mild steel, aluminum or drywall.",
+      "skip_if": "You need holes over 2-11/16 in.",
+      "pros": [
+        "Bi-metal at a budget price",
+        "1/4 in hex arbor fits impact drivers and quick-change chucks",
+        "Carrying case"
+      ],
+      "cons": [
+        "Only 6 hole saws",
+        "No quick-change arbor"
+      ]
+    },
+    {
+      "asin": "B08JCHY2DM",
+      "name": "KATA 25 Piece Hole Saw Kit with 3/4 in to 6 in for Wood, Drywall, PVC and Plastic",
+      "brand": "KATA",
+      "model": "25-piece",
+      "image": "https://m.media-amazon.com/images/I/81wwLO2k8FL._SL1500_.jpg",
+      "price": 21.69,
+      "rating": 4.3,
+      "reviews_count": 3480,
+      "bought": "1K+/mo",
+      "specs": {
+        "pieces": "25",
+        "sizes": "3/4 to 6 in",
+        "material": "Carbon steel",
+        "cut_depth": null,
+        "arbor": "Mandrels included"
+      },
+      "features": {
+        "metal_rated": false,
+        "wide_range": true,
+        "quick_change": false,
+        "case": true
+      },
+      "verdict": "The best-selling hole saw kit on Amazon: saws from 3/4 to 6 in for recessed lights, speakers and drywall, in a case. It's carbon steel, so it's for wood, drywall and plastic, not metal.",
+      "best_for": "Recessed lights, speaker holes and drywall cutouts.",
+      "skip_if": "You need to cut metal; it isn't rated for it.",
+      "pros": [
+        "Most reviewed set here: 3,480 reviews",
+        "Sizes up to 6 in",
+        "Case with a slot for every piece"
+      ],
+      "cons": [
+        "Carbon steel, not for metal",
+        "Cutting depth not stated"
+      ]
+    },
+    {
+      "asin": "B0FQ598X65",
+      "name": "ANGELSWORD Hole Saw Kit, 24 pc, 3/4 in to 6 in, for Drywall, Softwood, Plywood and PVC",
+      "brand": "ANGELSWORD",
+      "model": "24-piece",
+      "image": "https://m.media-amazon.com/images/I/71bkKdBE1QL._SL1500_.jpg",
+      "price": 23.99,
+      "rating": 4.4,
+      "reviews_count": 158,
+      "bought": "800+/mo",
+      "specs": {
+        "pieces": "24",
+        "sizes": "3/4 to 6 in",
+        "material": "High-carbon steel",
+        "cut_depth": "1 in",
+        "arbor": "2 mandrels"
+      },
+      "features": {
+        "metal_rated": false,
+        "wide_range": true,
+        "quick_change": false,
+        "case": false
+      },
+      "verdict": "Fourteen high-carbon steel saws from 3/4 to 6 in with double-ground teeth, two mandrels and five drill bits, for drywall, softwood, plywood and PVC.",
+      "best_for": "Drywall and softwood cutouts up to 6 in.",
+      "skip_if": "You cut hardwood or metal; the listing says it can't.",
+      "pros": [
+        "14 saws from 3/4 to 6 in",
+        "Two mandrels and five drill bits",
+        "1 in cutting depth stated"
+      ],
+      "cons": [
+        "Not for hardwood, metal or cement, per the listing",
+        "Cuts only about 1 in deep"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B086D57RPK",
+      "name": "PETUOL Hole Saw Set, 22 Pcs Metal Hole Saw Kit with 3/4 in to 5 in (19mm-127mm)",
+      "brand": "PETUOL",
+      "model": "22-piece",
+      "image": "https://m.media-amazon.com/images/I/71rhboewOJL._SL1500_.jpg",
+      "price": 18.99,
+      "rating": 4.2,
+      "reviews_count": 3262,
+      "flag": "Sold as a metal kit, not rated for metal",
+      "verdict": "The title calls it a \"Metal Hole Saw Kit\", but the listing's own bullets say the saws are carbon steel, not suitable for hard metal, and meant for softwood, plastic, drywall and thin PVC.",
+      "reasons": [
+        "The title says \"Metal Hole Saw Kit\", while the material bullet says heat-treated carbon steel and \"Not hard metal suitable\". A buyer shopping for a metal-cutting set gets a wood and drywall set.",
+        "The application bullet lists softwood, plastic plate, plasterboard and thin PVC board only, with a cutting depth of about 25 mm.",
+        "For metal, the Amazon Basics 9-piece bi-metal set costs $5.46 more and is rated for mild steel and aluminum. For wood and drywall, the KATA 25-piece covers up to 6 in for $21.69."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Bi-metal, carbide or carbon steel: which do I need?",
+      "a": "Carbon steel saws are the cheapest and come in the biggest sizes, but they only cut wood, drywall and plastic. Bi-metal saws have high-speed steel teeth welded to a flexible body, so they cut wood and mild steel and last longer. Carbide-tipped saws are for stainless steel and other hard metal. If you'll ever drill a steel box or a metal door, buy bi-metal at minimum."
+    },
+    {
+      "q": "What size hole saw do I need for a door lock?",
+      "a": "Most US door knobs and deadbolts need a 2-1/8 in hole through the face of the door and a 1 in hole in the edge for the latch. Check the lock's template first. DEWALT and others also sell dedicated lock installation kits with a jig that clamps to the door."
+    },
+    {
+      "q": "What is an arbor or mandrel?",
+      "a": "The arbor (also called a mandrel) is the shaft that holds the hole saw and the pilot bit and goes into your drill's chuck. Small saws usually use one arbor and larger saws another. Quick-change arbors such as Diablo's Snap-Lock Plus, Milwaukee's quick-release and Bosch's SpinLOCK let you swap saws without unscrewing them."
+    },
+    {
+      "q": "Why does cutting depth matter?",
+      "a": "A saw can only cut as deep as its cup. A 2x4 stud is 1-1/2 in thick, so a deep-cut saw like the Diablo (2-3/8 in) goes through a stud in one pass. Many cheap carbon steel kits cut only about 1 in deep, so thicker stock takes two passes from both sides."
+    },
+    {
+      "q": "How do I get the plug out of a hole saw?",
+      "a": "Saws with wide slots let you push the plug out with a screwdriver. Some arbors, like Diablo's, eject the plug without tools. Drilling a small hole near the edge of the plug before you finish the cut also makes it easier to pop out."
+    }
+  ]
+}

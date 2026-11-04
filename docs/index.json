@@ -7,7 +7,7 @@
  "updated": "2026-11-04",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
- "page_count": 166,
+ "page_count": 167,
  "pages": [
   {
    "slug": "pin-nailers",
@@ -2436,6 +2436,26 @@
     "name": "LENOX HT50",
     "price": 35.42
    }
+  },
+  {
+   "slug": "hole-saw-kits",
+   "title": "The 10 Best Hole Saw Kits",
+   "url": "https://toolboxtop10.com/hole-saw-kits.html",
+   "json": "https://toolboxtop10.com/hole-saw-kits.json",
+   "data_captured": "2026-11-04",
+   "audited": "2026-11-04",
+   "products": 10,
+   "best_overall": {
+    "asin": "B086SQWZK5",
+    "name": "HYCHIKA 17-piece",
+    "price": 35.49
+   },
+   "best_budget": {
+    "asin": "B08JCHY2DM",
+    "name": "KATA 25-piece",
+    "price": 21.69
+   },
+   "money_no_object": null
   },
   {
    "slug": "hot-glue-guns",
