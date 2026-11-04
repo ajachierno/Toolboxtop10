@@ -3,9 +3,10 @@
   "title": "The 10 Best Wheel Balancers",
   "subtitle": "Bubble and computerized wheel balancers for the home garage, ranked from live Amazon data.",
   "intro": "A wheel balancer lets you balance car and light-truck tires at home instead of paying a shop every time you swap wheels. Amazon sells two kinds: bubble balancers around $55 that find static imbalance with a level, and computerized spin balancers from about $650 to $1,200 that also catch dynamic (side-to-side) imbalance. We ranked 10 on star rating, review volume, and features (electronic readout, automatic rim measurement, alloy-wheel modes, and a stated warranty).",
-  "data_captured": "2026-11-03",
-  "audited": "2026-10-07",
+  "data_captured": "2026-11-04",
+  "audited": "2026-11-04",
   "changelog": [
+    {"date": "2026-11-04", "note": "Replaced the DASBET and Acymner bubble balancers (both currently unavailable) with the SIXIWANZI and Punmew bubble balancers, and the MutsMover WBM-S-710, which fell out of the best-seller list, with the Motool KT-710G computer balancer."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {
@@ -113,7 +114,7 @@
       "image": "https://m.media-amazon.com/images/I/61Jg6SPtIXL._AC_SX425_.jpg",
       "price": 58.99,
       "rating": 4.5,
-      "reviews_count": 221,
+      "reviews_count": 222,
       "bought": "50+/mo",
       "specs": {
         "type": "Bubble (static)",
@@ -178,76 +179,40 @@
       ]
     },
     {
-      "asin": "B09DGLSHKM",
-      "name": "DASBET Portable Bubble Wheel Balancer Tire Balancer with Bubble Level",
-      "brand": "DASBET",
-      "model": "DT-0824-04",
-      "image": "https://m.media-amazon.com/images/I/61WA+GsGP3L._AC_SX425_.jpg",
+      "asin": "B0D7V8D9C3",
+      "name": "SIXIWANZI Tire Balancer, Portable Bubble Wheel Balancer for Cars Trucks",
+      "brand": "SIXIWANZI",
+      "model": "XY0038",
+      "image": "https://m.media-amazon.com/images/I/5191ySDOoPL._AC_SL1500_.jpg",
       "price": 54.99,
-      "rating": 4.5,
-      "reviews_count": 202,
-      "specs": {
-        "type": "Bubble (static)",
-        "range": "1-1/2 to 4 in. hubs",
-        "accuracy": null,
-        "power": "None needed",
-        "weight": "12.7 lb"
-      },
-      "features": {
-        "electronic": false,
-        "auto_measure": false,
-        "alu_modes": false,
-        "warranty": false
-      },
-      "verdict": "A 4.5-star bubble balancer with a steel head and zinc-plated support springs. The listing is upfront that it isn't meant for oversized wheels.",
-      "best_for": "A well-rated bubble balancer with a steel head.",
-      "skip_if": "You balance oversized wheels.",
-      "pros": [
-        "4.5 stars across about 200 reviews",
-        "Machined steel head and plated steel guide rods",
-        "Lowest price on this list when we checked"
-      ],
-      "cons": [
-        "Static balance only: it can't find the side-to-side (dynamic) imbalance a spin balancer catches, which matters more on wide tires",
-        "No published accuracy figure; results depend on how level your floor is and how patient you are",
-        "Stock was running low when we checked"
-      ]
+      "rating": 4.3,
+      "reviews_count": 118,
+      "bought": "100+/mo",
+      "specs": {"type": "Bubble (static)", "range": "1-1/2 to 4 in. hubs", "accuracy": null, "power": "None needed", "weight": "10.6 lb"},
+      "features": {"electronic": false, "auto_measure": false, "alu_modes": false, "warranty": false},
+      "verdict": "A bull's-eye bubble balancer for car and light-truck wheels with 1-1/2 to 4 in. hubs, and one of the cheaper ones here at $54.99.",
+      "best_for": "Occasional static balancing of car and light-truck wheels.",
+      "skip_if": "You need dynamic balancing for wide or high-speed tires.",
+      "pros": ["Bull's-eye level for static balance", "Fits 1-1/2 to 4 in. hubs", "About 10.6 lb, easy to store"],
+      "cons": ["Static balance only", "No warranty term stated on the listing"]
     },
     {
-      "asin": "B0BJDMQVS5",
-      "name": "Acymner Portable Bubble Wheel Balancer",
-      "brand": "Acymner",
-      "model": "ZH1017-2",
-      "image": "https://m.media-amazon.com/images/I/61ccfUE1p7L._AC_SX425_.jpg",
-      "price": 55.99,
-      "rating": 4.6,
-      "reviews_count": 160,
-      "bought": "50+/mo",
-      "specs": {
-        "type": "Bubble (static)",
-        "range": "1-1/2 to 4 in. hubs",
-        "accuracy": null,
-        "power": "None needed",
-        "weight": "11.6 lb"
-      },
-      "features": {
-        "electronic": false,
-        "auto_measure": false,
-        "alu_modes": false,
-        "warranty": false
-      },
-      "verdict": "The highest-rated bubble balancer we found at 4.6 stars. Same 24-inch design and hub range as the others, so pick it on rating and price.",
-      "best_for": "Picking the best-rated bubble balancer.",
-      "skip_if": "You need dynamic balancing.",
-      "pros": [
-        "Highest star rating among the bubble balancers (4.6)",
-        "Aluminum base, chrome-plated rods and springs",
-        "Fits 1-1/2 to 4 in. hubs"
-      ],
-      "cons": [
-        "Static balance only: it can't find the side-to-side (dynamic) imbalance a spin balancer catches, which matters more on wide tires",
-        "No published accuracy figure; results depend on how level your floor is and how patient you are"
-      ]
+      "asin": "B0CTGT2H1N",
+      "name": "Punmew Portable Bubble Tire Balancer Wheel Balancer Tool Heavy Duty",
+      "brand": "Punmew",
+      "model": "PN0035",
+      "image": "https://m.media-amazon.com/images/I/6133PpoQSML._AC_SL1500_.jpg",
+      "price": 55.79,
+      "rating": 4.1,
+      "reviews_count": 89,
+      "bought": "100+/mo",
+      "specs": {"type": "Bubble (static)", "range": "1-1/2 to 4 in. hubs", "accuracy": null, "power": "None needed", "weight": "11.6 lb"},
+      "features": {"electronic": false, "auto_measure": false, "alu_modes": false, "warranty": false},
+      "verdict": "A 24 in. tall bubble balancer that bolts together from base, shaft and cone set, for 1-1/2 to 4 in. hubs.",
+      "best_for": "A home garage that balances its own car tires a few times a year.",
+      "skip_if": "You want the best-rated bubble balancer; this one sits at 4.1 stars.",
+      "pros": ["Fits 1-1/2 to 4 in. hubs", "Listing gives full dimensions (24 in. tall, 11.5 in. base)", "Bolt-together assembly"],
+      "cons": ["Lowest star rating of the bubble balancers here", "Static balance only", "No warranty term stated on the listing"]
     },
     {
       "asin": "B0D14HC37G",
@@ -395,40 +360,21 @@
       ]
     },
     {
-      "asin": "B0FXGFQ2Y9",
-      "name": "MutsMover Wheel Balancer Machine, 10-24 in. Rim, Manual Input, 110V",
-      "brand": "MutsMover",
-      "model": "WBM-S-710",
-      "image": "https://m.media-amazon.com/images/I/71yFR8proJL._AC_SX425_.jpg",
-      "price": 1059.00,
+      "asin": "B0HBBK3CWP",
+      "name": "Motool Professional Auto Wheel Balancer Portable Car Tire Balancer for Tire Workshops (KT-710G)",
+      "brand": "Motool",
+      "model": "KT-710G",
+      "image": "https://m.media-amazon.com/images/I/61cM767VmvL._AC_SL1500_.jpg",
+      "price": 679.0,
       "rating": 5.0,
-      "reviews_count": 1,
-      "specs": {
-        "type": "Computer (dynamic)",
-        "range": "10 to 24 in. rims",
-        "accuracy": "±1 g",
-        "power": "110V, 0.25 kW motor",
-        "weight": null
-      },
-      "features": {
-        "electronic": true,
-        "auto_measure": false,
-        "alu_modes": true,
-        "warranty": true
-      },
-      "verdict": "A no-frills motorized balancer with dynamic, static, ALU, and motorcycle modes and a 12-month warranty. A good fit for passenger-car wheels up to 24 inches.",
-      "best_for": "Passenger-car wheels up to 24 in, with motorcycle mode.",
-      "skip_if": "You need rims over 24 in.",
-      "pros": [
-        "Dynamic, static, ALU, and motorcycle modes",
-        "Self-calibration and fault-diagnosis programs",
-        "12-month full warranty; 2.5 mm steel cabinet"
-      ],
-      "cons": [
-        "Manual rim-data entry",
-        "24 in. rim limit is lower than the KATOOLs' 30 in.",
-        "Too few reviews yet to judge long-term reliability"
-      ]
+      "reviews_count": 2,
+      "specs": {"type": "Computer (manual input)", "range": "10 to 24 in. rims", "accuracy": "1 g", "power": null, "weight": null},
+      "features": {"electronic": true, "auto_measure": false, "alu_modes": false, "warranty": false},
+      "verdict": "The second-cheapest computer balancer here, after the hand-spun I40 PRO: 1 g accuracy on 10 to 24 in. rims, with a self-calibration system and gram/ounce readout.",
+      "best_for": "A small shop that wants a computer balancer for car rims up to 24 in.",
+      "skip_if": "You want automatic rim measurement or a published warranty; the listing has neither.",
+      "pros": ["1 g balancing accuracy", "10 to 24 in. rim range", "Self-calibration and grams/ounces toggle"],
+      "cons": ["Rim data entered by hand", "Thin listing: no power, weight or warranty specs", "Ships by freight (FedEx or UPS)"]
     }
   ],
   "avoid": [
@@ -466,7 +412,7 @@
     },
     {
       "q": "What is ALU mode?",
-      "a": "ALU modes tell the balancer you're using stick-on weights on the inside of an alloy rim instead of clip-on weights on the rim edge, so it calculates weight positions for those spots. The I40 PRO, KATOOL KT-B700, and MutsMover list ALU modes."
+      "a": "ALU modes tell the balancer you're using stick-on weights on the inside of an alloy rim instead of clip-on weights on the rim edge, so it calculates weight positions for those spots. The I40 PRO and KATOOL KT-B700 list ALU modes."
     },
     {
       "q": "What else do I need?",
