@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 166,
@@ -302,13 +302,13 @@
    "title": "The 10 Best Bench Vises",
    "url": "https://toolboxtop10.com/bench-vises.html",
    "json": "https://toolboxtop10.com/bench-vises.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07G58RDHV",
     "name": "Forward DT08125A",
-    "price": 118.99
+    "price": 139.99
    },
    "best_budget": {
     "asin": "B00YS401X0",
@@ -350,7 +350,7 @@
    "title": "The 10 Best Benchtop Jointers",
    "url": "https://toolboxtop10.com/benchtop-jointers.html",
    "json": "https://toolboxtop10.com/benchtop-jointers.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -422,23 +422,23 @@
    "title": "The 10 Best Bolt Cutters",
    "url": "https://toolboxtop10.com/bolt-cutters.html",
    "json": "https://toolboxtop10.com/bolt-cutters.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B000SOSC4Y",
     "name": "KNIPEX 71 01 200",
-    "price": 52.99
+    "price": 61.57
    },
    "best_budget": {
     "asin": "B015W3BAW6",
     "name": "WORKPRO W017004A",
-    "price": 17.19
+    "price": 16.13
    },
    "money_no_object": {
     "asin": "B00140X8W2",
     "name": "RIDGID 14223",
-    "price": 150.21
+    "price": 156.05
    }
   },
   {
@@ -494,7 +494,7 @@
    "title": "The 10 Best Car Ramps",
    "url": "https://toolboxtop10.com/car-ramps.html",
    "json": "https://toolboxtop10.com/car-ramps.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -518,7 +518,7 @@
    "title": "The 10 Best Claw Hammers",
    "url": "https://toolboxtop10.com/claw-hammers.html",
    "json": "https://toolboxtop10.com/claw-hammers.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -542,13 +542,13 @@
    "title": "The 10 Best Combination Wrench Sets",
    "url": "https://toolboxtop10.com/combination-wrench-sets.html",
    "json": "https://toolboxtop10.com/combination-wrench-sets.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0745LSPRD",
     "name": "EFFICERE MA-24PC-MULTI-COMBO-ES",
-    "price": 29.95
+    "price": 24.95
    },
    "best_budget": {
     "asin": "B09BYWBHRT",
@@ -590,13 +590,13 @@
    "title": "The 10 Best Corded Belt Sanders",
    "url": "https://toolboxtop10.com/corded-belt-sanders.html",
    "json": "https://toolboxtop10.com/corded-belt-sanders.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B000056NOC",
     "name": "Makita 9903",
-    "price": 263.8
+    "price": 244.0
    },
    "best_budget": {
     "asin": "B007A9TD3E",
@@ -606,7 +606,7 @@
    "money_no_object": {
     "asin": "B0000223IY",
     "name": "Makita 9403",
-    "price": 419.0
+    "price": 308.49
    }
   },
   {
@@ -614,7 +614,7 @@
    "title": "The 10 Best Corded Car Polishers",
    "url": "https://toolboxtop10.com/corded-car-polishers.html",
    "json": "https://toolboxtop10.com/corded-car-polishers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -625,12 +625,12 @@
    "best_budget": {
     "asin": "B0000AXOHT",
     "name": "WEN 6010",
-    "price": 26.94
+    "price": 26.5
    },
    "money_no_object": {
     "asin": "B01BKT63XM",
     "name": "Chemical Guys BUF503X",
-    "price": 219.99
+    "price": 214.99
    }
   },
   {
@@ -754,7 +754,7 @@
    "title": "The 10 Best Corded Hammer Drills",
    "url": "https://toolboxtop10.com/corded-hammer-drills.html",
    "json": "https://toolboxtop10.com/corded-hammer-drills.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -802,7 +802,7 @@
    "title": "The 10 Best Corded Hedge Trimmers",
    "url": "https://toolboxtop10.com/corded-hedge-trimmers.html",
    "json": "https://toolboxtop10.com/corded-hedge-trimmers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-29",
    "products": 10,
    "best_overall": {
@@ -894,13 +894,13 @@
    "title": "The 10 Best Corded LED Work Lights",
    "url": "https://toolboxtop10.com/corded-work-lights.html",
    "json": "https://toolboxtop10.com/corded-work-lights.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0881GX5KM",
     "name": "LUTEC 15000 lm tripod",
-    "price": 98.99
+    "price": 119.99
    },
    "best_budget": {
     "asin": "B0D3HZP3B9",
@@ -1034,23 +1034,23 @@
    "title": "The 10 Best Corded Rotary Tools",
    "url": "https://toolboxtop10.com/corded-rotary-tools.html",
    "json": "https://toolboxtop10.com/corded-rotary-tools.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0CWBM23HD",
     "name": "Dremel 4000-2/32",
-    "price": 79.99
+    "price": 79.75
    },
    "best_budget": {
     "asin": "B003BYRFH8",
     "name": "WEN 2305",
-    "price": 21.5
+    "price": 21.99
    },
    "money_no_object": {
     "asin": "B01M1SJNVU",
     "name": "Dremel 4300-5/40",
-    "price": 99.0
+    "price": 98.99
    }
   },
   {
@@ -1058,23 +1058,23 @@
    "title": "The 10 Best Corded Routers",
    "url": "https://toolboxtop10.com/corded-routers.html",
    "json": "https://toolboxtop10.com/corded-routers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B00004TKHV",
     "name": "Bosch 1617EVS",
-    "price": 169.0
+    "price": 205.0
    },
    "best_budget": {
-    "asin": "B0BK2Z9D69",
-    "name": "WEN RT1460",
-    "price": 49.67
+    "asin": "B07CQK4ZL4",
+    "name": "AVID POWER Compact router kit",
+    "price": 69.99
    },
    "money_no_object": {
     "asin": "B00005RHPD",
     "name": "Bosch 1617EVSPK",
-    "price": 230.15
+    "price": 230.0
    }
   },
   {
@@ -1222,7 +1222,7 @@
    "title": "The 10 Best Cordless Car Polishers",
    "url": "https://toolboxtop10.com/cordless-car-polishers.html",
    "json": "https://toolboxtop10.com/cordless-car-polishers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1238,7 +1238,7 @@
    "money_no_object": {
     "asin": "B0B59RPC6T",
     "name": "Milwaukee 2684-20",
-    "price": 255.09
+    "price": 251.98
    }
   },
   {
@@ -1246,7 +1246,7 @@
    "title": "The 10 Best Cordless Caulking Guns",
    "url": "https://toolboxtop10.com/cordless-caulking-guns.html",
    "json": "https://toolboxtop10.com/cordless-caulking-guns.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1257,12 +1257,12 @@
    "best_budget": {
     "asin": "B0C4GH9Y2P",
     "name": "Uaoaii CZ100",
-    "price": 59.99
+    "price": 63.99
    },
    "money_no_object": {
     "asin": "B01J6KTBI6",
     "name": "DEWALT DCE560B",
-    "price": 199.0
+    "price": 191.99
    }
   },
   {
@@ -1270,7 +1270,7 @@
    "title": "The 10 Best Cordless Chainsaws",
    "url": "https://toolboxtop10.com/cordless-chainsaws.html",
    "json": "https://toolboxtop10.com/cordless-chainsaws.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1338,7 +1338,7 @@
    "title": "The 10 Best Cordless Die Grinders",
    "url": "https://toolboxtop10.com/cordless-die-grinders.html",
    "json": "https://toolboxtop10.com/cordless-die-grinders.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1349,7 +1349,7 @@
    "best_budget": {
     "asin": "B0HBX5B3QF",
     "name": "SEESII DG21 Pro",
-    "price": 89.99
+    "price": 109.99
    },
    "money_no_object": null
   },
@@ -1358,7 +1358,7 @@
    "title": "The 10 Best Cordless Drill and Impact Driver Combo Kits",
    "url": "https://toolboxtop10.com/cordless-combo-kits.html",
    "json": "https://toolboxtop10.com/cordless-combo-kits.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1374,7 +1374,7 @@
    "money_no_object": {
     "asin": "B0BB8FDVLQ",
     "name": "Milwaukee 3697-22",
-    "price": 345.0
+    "price": 346.0
    }
   },
   {
@@ -1406,13 +1406,13 @@
    "title": "The 10 Best Cordless Finish Nailers",
    "url": "https://toolboxtop10.com/cordless-finish-nailers.html",
    "json": "https://toolboxtop10.com/cordless-finish-nailers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0195KBAVI",
     "name": "DEWALT DCN660B",
-    "price": 349.74
+    "price": 357.0
    },
    "best_budget": {
     "asin": "B0C7S979JX",
@@ -1450,7 +1450,7 @@
    "title": "The 10 Best Cordless Grease Guns",
    "url": "https://toolboxtop10.com/cordless-grease-guns.html",
    "json": "https://toolboxtop10.com/cordless-grease-guns.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1461,7 +1461,7 @@
    "best_budget": {
     "asin": "B0F9PKQBJ2",
     "name": "TaskStar HNNEW-SL-LD-B001",
-    "price": 73.99
+    "price": 71.99
    },
    "money_no_object": {
     "asin": "B00D5YL9EE",
@@ -1474,13 +1474,13 @@
    "title": "The 10 Best Cordless Hammer Drills",
    "url": "https://toolboxtop10.com/cordless-hammer-drills.html",
    "json": "https://toolboxtop10.com/cordless-hammer-drills.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07KK7RBBZ",
     "name": "CRAFTSMAN CMCD711C2",
-    "price": 115.44
+    "price": 99.0
    },
    "best_budget": {
     "asin": "B09ZYHHTMK",
@@ -1490,7 +1490,7 @@
    "money_no_object": {
     "asin": "B01DR90MM6",
     "name": "DEWALT DCD996B",
-    "price": 209.97
+    "price": 209.99
    }
   },
   {
@@ -1614,7 +1614,7 @@
    "title": "The 10 Best Cordless Impact Wrenches",
    "url": "https://toolboxtop10.com/cordless-impact-wrenches.html",
    "json": "https://toolboxtop10.com/cordless-impact-wrenches.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-04",
    "audited": "2026-09-23",
    "products": 10,
    "best_overall": {
@@ -1625,12 +1625,12 @@
    "best_budget": {
     "asin": "B0CGJ8H8K7",
     "name": "Robustrue RT800B",
-    "price": 69.97
+    "price": 69.99
    },
    "money_no_object": {
     "asin": "B0B9T821KC",
     "name": "DEWALT DCF900P1",
-    "price": 269.0
+    "price": 244.0
    }
   },
   {
@@ -2278,7 +2278,7 @@
    "title": "The 10 Best Electric Hand Planers",
    "url": "https://toolboxtop10.com/corded-hand-planers.html",
    "json": "https://toolboxtop10.com/corded-hand-planers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-04",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2294,7 +2294,7 @@
    "money_no_object": {
     "asin": "B0033WSK5O",
     "name": "Makita KP0800K",
-    "price": 204.27
+    "price": 206.72
    }
   },
   {
@@ -3286,13 +3286,13 @@
    "title": "The 10 Best Rolling Tool Chests & Cabinets",
    "url": "https://toolboxtop10.com/rolling-tool-chests.html",
    "json": "https://toolboxtop10.com/rolling-tool-chests.json",
-   "data_captured": "2026-10-28",
+   "data_captured": "2026-11-04",
    "audited": "2026-09-30",
    "products": 10,
    "best_overall": {
     "asin": "B076QLC84N",
     "name": "Milwaukee 48-22-8426",
-    "price": 203.37
+    "price": 189.0
    },
    "best_budget": {
     "asin": "B0DLBKHXLS",
