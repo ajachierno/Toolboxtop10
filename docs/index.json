@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 167,
@@ -230,7 +230,7 @@
    "title": "The 10 Best Band Saws",
    "url": "https://toolboxtop10.com/band-saws.html",
    "json": "https://toolboxtop10.com/band-saws.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-30",
    "products": 10,
    "best_overall": {
@@ -241,7 +241,7 @@
    "best_budget": {
     "asin": "B0BK2V91VW",
     "name": "WEN BA3959",
-    "price": 143.66
+    "price": 139.0
    },
    "money_no_object": {
     "asin": "B07H1BBC6Z",
@@ -278,7 +278,7 @@
    "title": "The 10 Best Bench Grinders",
    "url": "https://toolboxtop10.com/bench-grinders.html",
    "json": "https://toolboxtop10.com/bench-grinders.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-30",
    "products": 10,
    "best_overall": {
@@ -326,13 +326,13 @@
    "title": "The 10 Best Benchtop Drill Presses",
    "url": "https://toolboxtop10.com/drill-presses.html",
    "json": "https://toolboxtop10.com/drill-presses.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0DQ9F3DX8",
     "name": "WEN DP1263V",
-    "price": 313.99
+    "price": 255.77
    },
    "best_budget": {
     "asin": "B08ZVWRZR9",
@@ -342,7 +342,7 @@
    "money_no_object": {
     "asin": "B01C9TW7LO",
     "name": "JET JWDP-12",
-    "price": 736.87
+    "price": 736.0
    }
   },
   {
@@ -398,7 +398,7 @@
    "title": "The 10 Best Biscuit Joiners",
    "url": "https://toolboxtop10.com/biscuit-joiners.html",
    "json": "https://toolboxtop10.com/biscuit-joiners.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-30",
    "products": 10,
    "best_overall": {
@@ -1542,18 +1542,18 @@
    "title": "The 10 Best Cordless Hedge Trimmers",
    "url": "https://toolboxtop10.com/cordless-hedge-trimmers.html",
    "json": "https://toolboxtop10.com/cordless-hedge-trimmers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B00602J27E",
     "name": "BLACK+DECKER LHT2220",
-    "price": 81.99
+    "price": 79.0
    },
    "best_budget": {
     "asin": "B08J84G8J9",
     "name": "MZK ET1609",
-    "price": 49.49
+    "price": 49.99
    },
    "money_no_object": {
     "asin": "B0BRXK7NT2",
@@ -1658,13 +1658,13 @@
    "title": "The 10 Best Cordless Jobsite Fans",
    "url": "https://toolboxtop10.com/cordless-jobsite-fans.html",
    "json": "https://toolboxtop10.com/cordless-jobsite-fans.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0989YML7R",
     "name": "DEWALT DCE512B",
-    "price": 99.0
+    "price": 98.1
    },
    "best_budget": {
     "asin": "B0BCHBRPZR",
@@ -1674,7 +1674,7 @@
    "money_no_object": {
     "asin": "B0DR3914W7",
     "name": "Milwaukee 0818-20",
-    "price": 149.9
+    "price": 153.0
    }
   },
   {
@@ -1682,7 +1682,7 @@
    "title": "The 10 Best Cordless Lawn Mowers",
    "url": "https://toolboxtop10.com/cordless-lawn-mowers.html",
    "json": "https://toolboxtop10.com/cordless-lawn-mowers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1706,7 +1706,7 @@
    "title": "The 10 Best Cordless Leaf Blowers",
    "url": "https://toolboxtop10.com/cordless-leaf-blowers.html",
    "json": "https://toolboxtop10.com/cordless-leaf-blowers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1717,7 +1717,7 @@
    "best_budget": {
     "asin": "B0HJYXCVDZ",
     "name": "MZK ET1613",
-    "price": 39.98
+    "price": 39.99
    },
    "money_no_object": {
     "asin": "B0DSFB2WBB",
@@ -1802,7 +1802,7 @@
    "title": "The 10 Best Cordless Pole Saws",
    "url": "https://toolboxtop10.com/cordless-pole-saws.html",
    "json": "https://toolboxtop10.com/cordless-pole-saws.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1894,13 +1894,13 @@
    "title": "The 10 Best Cordless Ratchets",
    "url": "https://toolboxtop10.com/cordless-ratchets.html",
    "json": "https://toolboxtop10.com/cordless-ratchets.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B006CSRBTC",
     "name": "Milwaukee 2457-20",
-    "price": 96.0
+    "price": 87.0
    },
    "best_budget": {
     "asin": "B07X37XMX3",
@@ -1910,7 +1910,7 @@
    "money_no_object": {
     "asin": "B00EQ53HG4",
     "name": "DEWALT DCF510B",
-    "price": 192.99
+    "price": 193.0
    }
   },
   {
@@ -1942,18 +1942,18 @@
    "title": "The 10 Best Cordless Right Angle Drills",
    "url": "https://toolboxtop10.com/cordless-right-angle-drills.html",
    "json": "https://toolboxtop10.com/cordless-right-angle-drills.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B08XF7BWQ4",
     "name": "RYOBI PSBRA02B",
-    "price": 104.99
+    "price": 114.89
    },
    "best_budget": {
     "asin": "B0FP8XTTDD",
     "name": "VEVOR DJZO5030-10",
-    "price": 59.39
+    "price": 60.29
    },
    "money_no_object": {
     "asin": "B00K194TQQ",
@@ -1990,13 +1990,13 @@
    "title": "The 10 Best Cordless Rotary Tools",
    "url": "https://toolboxtop10.com/cordless-rotary-tools.html",
    "json": "https://toolboxtop10.com/cordless-rotary-tools.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B09SKFVSMZ",
     "name": "Dremel 8240-5",
-    "price": 77.99
+    "price": 79.0
    },
    "best_budget": {
     "asin": "B08VHYX96W",
@@ -2006,7 +2006,7 @@
    "money_no_object": {
     "asin": "B09RKV6RQW",
     "name": "Dremel 8250-5",
-    "price": 149.0
+    "price": 134.99
    }
   },
   {
@@ -2014,13 +2014,13 @@
    "title": "The 10 Best Cordless Routers",
    "url": "https://toolboxtop10.com/cordless-routers.html",
    "json": "https://toolboxtop10.com/cordless-routers.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07KSRTDML",
     "name": "DEWALT DCW600B",
-    "price": 125.8
+    "price": 122.98
    },
    "best_budget": {
     "asin": "B0F32P9L82",
@@ -2110,7 +2110,7 @@
    "title": "The 10 Best Cordless String Trimmers",
    "url": "https://toolboxtop10.com/cordless-string-trimmers.html",
    "json": "https://toolboxtop10.com/cordless-string-trimmers.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2134,7 +2134,7 @@
    "title": "The 10 Best Cordless Tire Inflators",
    "url": "https://toolboxtop10.com/cordless-tire-inflators.html",
    "json": "https://toolboxtop10.com/cordless-tire-inflators.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2150,7 +2150,7 @@
    "money_no_object": {
     "asin": "B07H39S9JQ",
     "name": "DEWALT DCC020IB",
-    "price": 138.95
+    "price": 127.95
    }
   },
   {
@@ -2158,7 +2158,7 @@
    "title": "The 10 Best Digital Calipers",
    "url": "https://toolboxtop10.com/digital-calipers.html",
    "json": "https://toolboxtop10.com/digital-calipers.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2226,23 +2226,23 @@
    "title": "The 10 Best Drywall Screw Guns",
    "url": "https://toolboxtop10.com/drywall-screw-guns.html",
    "json": "https://toolboxtop10.com/drywall-screw-guns.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0BPY8L57P",
     "name": "DEWALT DCF630B",
-    "price": 129.95
+    "price": 134.95
    },
    "best_budget": {
-    "asin": "B07MHML6K9",
-    "name": "RYOBI P225",
-    "price": 97.11
+    "asin": "B0D69LP496",
+    "name": "Hoteche P800206A",
+    "price": 39.99
    },
    "money_no_object": {
     "asin": "B0BZ3VDDBL",
     "name": "DEWALT DCK265D2",
-    "price": 379.99
+    "price": 374.99
    }
   },
   {
@@ -2250,7 +2250,7 @@
    "title": "The 10 Best Electric Demolition Hammers",
    "url": "https://toolboxtop10.com/demolition-hammers.html",
    "json": "https://toolboxtop10.com/demolition-hammers.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2261,7 +2261,7 @@
    "best_budget": {
     "asin": "B0BS96YLCS",
     "name": "VEVOR 1400W 2900 BPM",
-    "price": 70.46
+    "price": 82.9
    },
    "money_no_object": {
     "asin": "B003ANBKXA",
@@ -2298,7 +2298,7 @@
    "title": "The 10 Best Electric Pressure Washers",
    "url": "https://toolboxtop10.com/electric-pressure-washers.html",
    "json": "https://toolboxtop10.com/electric-pressure-washers.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2314,7 +2314,7 @@
    "money_no_object": {
     "asin": "B0CQMHSPSG",
     "name": "Westinghouse WPX3400e",
-    "price": 375.0
+    "price": 365.0
    }
   },
   {
@@ -2322,7 +2322,7 @@
    "title": "The 10 Best Engine Hoists",
    "url": "https://toolboxtop10.com/engine-hoists.html",
    "json": "https://toolboxtop10.com/engine-hoists.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-29",
    "products": 10,
    "best_overall": {
@@ -2346,13 +2346,13 @@
    "title": "The 10 Best Engine Stands",
    "url": "https://toolboxtop10.com/engine-stands.html",
    "json": "https://toolboxtop10.com/engine-stands.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0BZTVNRMQ",
     "name": "VEVOR 1,300 lb Stand",
-    "price": 95.98
+    "price": 108.9
    },
    "best_budget": {
     "asin": "B0BZTYWZ6F",
@@ -2370,7 +2370,7 @@
    "title": "The 10 Best Floor Jacks",
    "url": "https://toolboxtop10.com/floor-jacks.html",
    "json": "https://toolboxtop10.com/floor-jacks.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2386,7 +2386,7 @@
    "money_no_object": {
     "asin": "B099JPWCPC",
     "name": "Jack Boss AS830011L",
-    "price": 169.99
+    "price": 159.99
    }
   },
   {
@@ -3658,7 +3658,7 @@
    "title": "The 10 Best Tire Changers",
    "url": "https://toolboxtop10.com/tire-changers.html",
    "json": "https://toolboxtop10.com/tire-changers.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-29",
    "products": 10,
    "best_overall": {
@@ -3798,7 +3798,7 @@
    "title": "The 10 Best Transmission Jacks",
    "url": "https://toolboxtop10.com/transmission-jacks.html",
    "json": "https://toolboxtop10.com/transmission-jacks.json",
-   "data_captured": "2026-10-29",
+   "data_captured": "2026-11-05",
    "audited": "2026-10-29",
    "products": 10,
    "best_overall": {
@@ -3814,7 +3814,7 @@
    "money_no_object": {
     "asin": "B0082LTO10",
     "name": "Sunex Tools 7796",
-    "price": 1266.44
+    "price": 1377.99
    }
   },
   {
