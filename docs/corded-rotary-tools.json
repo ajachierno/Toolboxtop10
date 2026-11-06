@@ -5,9 +5,9 @@
  "slug": "corded-rotary-tools",
  "title": "The 10 Best Corded Rotary Tools",
  "subtitle": "Dremel and its rivals for cutting, sanding, engraving, polishing and grinding small parts, ranked from live Amazon data.",
- "intro": "A rotary tool spins small bits at up to 35,000 rpm or more to cut bolts, sand curves, engrave, polish and sharpen. We ranked 10 corded best-sellers on rating, review volume and features (electronic speed control that holds rpm under load, a keyless chuck, a flex shaft and a big accessory kit). Dremel's tools take the widest range of attachments; the budget kits pack in more bits for less. They run from about $22 for WEN's kits to $99 for Dremel's 4300.",
- "data_captured": "2026-11-04",
- "audited": "2026-10-10",
+ "intro": "A rotary tool spins small bits at up to 35,000 rpm or more to cut bolts, sand curves, engrave, polish and sharpen. We ranked 10 corded best-sellers on rating, review volume and features (electronic speed control that holds rpm under load, a keyless chuck, a flex shaft and a big accessory kit). Dremel's tools take the widest range of attachments; the budget kits pack in more bits for less. They run from about $22 for WEN's 2305 to $99 for Dremel's 4300.",
+ "data_captured": "2026-11-06",
+ "audited": "2026-11-06",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -41,7 +41,7 @@
    "price": 98.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 9276,
+   "reviews_count": 9277,
    "score": 85,
    "award": "Money No Object",
    "best_for": "Heavy users who swap bits all day.",
@@ -50,7 +50,7 @@
    "pros": [
     "3-jaw chuck takes any Dremel shank",
     "Pivot light attachment",
-    "9,276 reviews at 4.7 stars; replaceable brushes"
+    "9,277 reviews at 4.7 stars; replaceable brushes"
    ],
    "cons": [
     "$98.99",
@@ -79,19 +79,19 @@
    "name": "WEN 2305 Rotary Tool Kit with Flex Shaft",
    "brand": "WEN",
    "model": "2305",
-   "price": 21.99,
+   "price": 21.5,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 17504,
+   "reviews_count": 17506,
    "score": 84,
    "award": "Best Budget",
    "best_for": "Occasional cutting, sanding and polishing on a budget.",
    "bought_last_month": "1K+/mo",
    "verdict": "The most-reviewed and cheapest rotary tool here: variable speed, a spindle lock, a flex shaft and 80 accessories for about $22.",
    "pros": [
-    "17,504 reviews",
+    "17,506 reviews",
     "Flex shaft and 80 accessories",
-    "$21.99"
+    "$21.50"
    ],
    "cons": [
     "Motor rating not listed",
@@ -123,7 +123,7 @@
    "price": 31.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 2137,
+   "reviews_count": 2146,
    "score": 81,
    "award": null,
    "best_for": "The most complete budget kit: chuck, guard, locator and flex shaft.",
@@ -157,55 +157,14 @@
   },
   {
    "rank": 4,
-   "asin": "B07DB3N9FB",
-   "name": "WEN 23103 1-Amp Variable Speed Rotary Tool with 100+ Accessories, Carrying Case and Flex Shaft",
-   "brand": "WEN",
-   "model": "23103",
-   "price": 21.56,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 4048,
-   "score": 79,
-   "award": null,
-   "best_for": "The most accessories for the least money.",
-   "bought_last_month": "300+/mo",
-   "verdict": "WEN's other $22 kit, with more accessories (100+) and a carrying case, but a 1A motor that starts at 10,000 rpm.",
-   "pros": [
-    "100+ accessories and a case",
-    "3-foot flex shaft",
-    "$21.56"
-   ],
-   "cons": [
-    "1A motor",
-    "Listing showed only 2 left in stock"
-   ],
-   "specs": {
-    "speed": "10,000-32,000 rpm, variable",
-    "motor": "1 A",
-    "chuck": "1/8 and 3/32 in collets",
-    "kit": "3-ft flex shaft, 100+ accessories, case",
-    "weight": "1.5 lb"
-   },
-   "features": {
-    "electronic_speed": false,
-    "keyless_chuck": false,
-    "flex_shaft": true,
-    "big_kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81qpJTYiCML._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07DB3N9FB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B07DB3N9FB"
-  },
-  {
-   "rank": 5,
    "asin": "B09QXBC6XL",
    "name": "PHALANX 180W Rotary Tool Kit, 1.5-Amp, 6 Variable Speed, Flex Shaft, 8000-32000RPM, 139pcs Accessories",
    "brand": "PHALANX",
    "model": "180W",
-   "price": 49.97,
+   "price": 37.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 4018,
+   "reviews_count": 4019,
    "score": 79,
    "award": null,
    "best_for": "A big kit with a stronger motor than the WENs.",
@@ -238,15 +197,56 @@
    "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B09QXBC6XL"
   },
   {
+   "rank": 5,
+   "asin": "B0GTYM1QHG",
+   "name": "PHALANX 200W Rotary Tool Kit, 10000-38000 RPM 6 Speed, Flex Shaft & 132pcs Accessories (PDM-160D)",
+   "brand": "PHALANX",
+   "model": "PDM-160D",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 109,
+   "score": 73,
+   "award": null,
+   "best_for": "A budget kit with a keyless chuck.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "PHALANX's newer kit fixes the older one's wrench chuck with a keyless chuck, bumps the motor to 200 W and tops out at 38,000 rpm, the fastest here.",
+   "pros": [
+    "Keyless chuck",
+    "200 W, up to 38,000 rpm",
+    "4.7 stars, 600+ sold last month"
+   ],
+   "cons": [
+    "Small review base",
+    "10,000 rpm minimum"
+   ],
+   "specs": {
+    "speed": "10,000-38,000 rpm, 6 speeds",
+    "motor": "200 W",
+    "chuck": "Keyless chuck plus 4 collets",
+    "kit": "Flex shaft, 132 accessories",
+    "weight": null
+   },
+   "features": {
+    "electronic_speed": false,
+    "keyless_chuck": true,
+    "flex_shaft": true,
+    "big_kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71uDFzrYQwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GTYM1QHG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0GTYM1QHG"
+  },
+  {
    "rank": 6,
    "asin": "B0CWBM23HD",
    "name": "Dremel 4000-2/32 Rotary Tool Kit, Engraver, Polisher & Sander",
    "brand": "Dremel",
    "model": "4000-2/32",
-   "price": 79.75,
+   "price": 80.6,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 889,
+   "reviews_count": 897,
    "score": 72,
    "award": "Best Overall",
    "best_for": "Regular use on metal, wood and plastic with the full Dremel accessory range.",
@@ -280,44 +280,44 @@
   },
   {
    "rank": 7,
-   "asin": "B0GTYM1QHG",
-   "name": "PHALANX 200W Rotary Tool Kit, 10000-38000 RPM 6 Speed, Flex Shaft & 132pcs Accessories (PDM-160D)",
-   "brand": "PHALANX",
-   "model": "PDM-160D",
-   "price": 37.79,
+   "asin": "B0FH1MPWWC",
+   "name": "DEKOPRO 1.4-Amp Rotary Tool Kit with 6 Variable Speed, 127pcs Accessories, 8000~35000RPM, Flex Shaft",
+   "brand": "DEKOPRO",
+   "model": "Rotary Tool Kit (1.4 A)",
+   "price": 29.99,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 108,
-   "score": 72,
+   "rating": 4.3,
+   "reviews_count": 202,
+   "score": 67,
    "award": null,
-   "best_for": "A budget kit with a keyless chuck.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "PHALANX's newer kit fixes the older one's wrench chuck with a keyless chuck, bumps the motor to 200 W and tops out at 38,000 rpm, the fastest here.",
+   "best_for": "Beginners who want a two-handed grip and a full kit for about $30.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A gray DEKOPRO kit with a 1.4 A motor, six speed settings from 8,000 to 35,000 rpm, a flex shaft, an assist handle, a cover shield and 127 accessories in a case.",
    "pros": [
-    "Keyless chuck",
-    "200 W, up to 38,000 rpm",
-    "4.6 stars, 600+ sold last month"
+    "127 accessories and a flex shaft",
+    "Assist handle for two-handed control",
+    "Four collets in the box"
    ],
    "cons": [
-    "Small review base",
-    "10,000 rpm minimum"
+    "Six fixed speeds, not electronic speed control",
+    "4.3 stars"
    ],
    "specs": {
-    "speed": "10,000-38,000 rpm, 6 speeds",
-    "motor": "200 W",
-    "chuck": "Keyless chuck plus 4 collets",
-    "kit": "Flex shaft, 132 accessories",
-    "weight": null
+    "speed": "8,000-35,000 rpm, 6 speeds",
+    "motor": "1.4 A",
+    "chuck": "1/8, 1/16 and 3/32 in collets",
+    "kit": "Flex shaft, 127 accessories, case, assist handle",
+    "weight": "4 lb (listed)"
    },
    "features": {
     "electronic_speed": false,
-    "keyless_chuck": true,
+    "keyless_chuck": false,
     "flex_shaft": true,
     "big_kit": true
    },
-   "image": "https://m.media-amazon.com/images/I/71uDFzrYQwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GTYM1QHG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0GTYM1QHG"
+   "image": "https://m.media-amazon.com/images/I/71eoDPSw5TL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FH1MPWWC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0FH1MPWWC"
   },
   {
    "rank": 8,
@@ -328,7 +328,7 @@
    "price": 38.26,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 89,
+   "reviews_count": 90,
    "score": 66,
    "award": null,
    "best_for": "Sharpening a chainsaw as well as general rotary work.",
@@ -369,12 +369,12 @@
    "price": 49.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 858,
+   "reviews_count": 859,
    "score": 65,
    "award": null,
    "best_for": "A real Dremel for crafts and light DIY.",
    "bought_last_month": "1K+/mo",
-   "verdict": "Dremel's entry corded tool: a 1.2A motor, 5,000-35,000 rpm and a 6-foot cord, with access to the Dremel accessory range for $20 less than the 4000.",
+   "verdict": "Dremel's entry corded tool: a 1.2A motor, 5,000-35,000 rpm and a 6-foot cord, with access to the Dremel accessory range for $31 less than the 4000.",
    "pros": [
     "Dremel build and accessory range",
     "5,000 rpm low end",
@@ -409,15 +409,15 @@
    "model": "180W",
    "price": 26.99,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 651,
+   "rating": 4.4,
+   "reviews_count": 653,
    "score": 63,
    "award": null,
    "best_for": "A simple, well-rated budget tool without a flex shaft.",
    "bought_last_month": "600+/mo",
-   "verdict": "A 180 W tool that reaches 35,000 rpm with a soft grip and 61 accessories, rated 4.5 stars.",
+   "verdict": "A 180 W tool that reaches 35,000 rpm with a soft grip and 61 accessories, rated 4.4 stars.",
    "pros": [
-    "4.5 stars",
+    "4.4 stars",
     "Up to 35,000 rpm",
     "$26.99"
    ],
@@ -452,7 +452,7 @@
    "price": 79.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 436,
+   "reviews_count": 437,
    "flag": "1200W claim; listing says not to bend the flex shaft",
    "verdict": "A hanging flex-shaft grinder sold on a power figure that doesn't fit the tool. At the same price, the Dremel 4000 is a proven rotary tool with real speed control.",
    "reasons": [
@@ -489,6 +489,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-06",
+   "note": "Replaced the WEN 23103, which no longer has a buy box on Amazon, with the DEKOPRO 1.4 A kit ($29.99, flex shaft and 127 accessories). The PHALANX 180W dropped from $49.97 to $37.99."
+  },
   {
    "date": "2026-11-04",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the PHALANX 180W rose from $39.99 to $49.97; the Dremel 3100-1/15 dropped from $59.98 to $49.99."

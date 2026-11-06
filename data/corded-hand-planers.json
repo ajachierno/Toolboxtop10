@@ -3,9 +3,10 @@
   "title": "The 10 Best Electric Hand Planers",
   "subtitle": "Corded power planers for trimming doors, flattening boards and chamfering edges, ranked from live Amazon data.",
   "intro": "An electric hand planer shaves wood down fast: trim a sticking door, flatten a cupped board, or take a beam down to size. We ranked 10 corded best-sellers on rating, review volume and features (a cut depth of 1/8 inch or more, a rabbeting guide, dust ejection to either side and a kickstand that protects the blades). Most cut 3-1/4 inches wide; WEN also sells a narrow 2-3/8-inch model and a wide 4-3/8-inch one for 2x4s. They run from about $31 for WEN's 6528 to $209 for Makita's KP0800K kit.",
-  "data_captured": "2026-11-04",
-  "audited": "2026-10-10",
+  "data_captured": "2026-11-06",
+  "audited": "2026-11-06",
   "changelog": [
+    {"date": "2026-11-06", "note": "Replaced the Bosch PL1632, which no longer has a buy box on Amazon, with the DEKOPRO DKPEHP0006 (7.5 A, 3 mm maximum cut, $48.99). Prices re-checked; the WOODSTARTER HP15K rose from $49.99 to $59.99."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-10-29", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the VEVOR 2822C rose from $49.41 to $54.90; the WOODSTARTER HP15K rose from $45.99 to $49.99."},
     {
@@ -74,9 +75,9 @@
       "brand": "WEN",
       "model": "6530",
       "image": "https://m.media-amazon.com/images/I/81yVPNRsGrL._AC_SL1500_.jpg",
-      "price": 42.88,
+      "price": 42.44,
       "rating": 4.5,
-      "reviews_count": 7990,
+      "reviews_count": 7992,
       "bought": "1K+/mo",
       "specs": {
         "width": "3-1/4 in",
@@ -95,7 +96,7 @@
       "best_for": "Doors, trim and general DIY planing.",
       "skip_if": "You plane wide 2x4 faces; the 6534 cuts 4-3/8 inches.",
       "pros": [
-        "7,990 reviews at 4.5 stars",
+        "7,992 reviews at 4.5 stars",
         "1/8-in depth, 16 stops",
         "Kickstand, rabbet guide, 2-year warranty"
       ],
@@ -113,8 +114,8 @@
       "image": "https://m.media-amazon.com/images/I/81A60NBnmCL._AC_SL1500_.jpg",
       "price": 31.35,
       "rating": 4.5,
-      "reviews_count": 2274,
-      "bought": "300+/mo",
+      "reviews_count": 2276,
+      "bought": "200+/mo",
       "specs": {
         "width": "2-3/8 in",
         "depth": "1/16 in (9 stops)",
@@ -149,7 +150,7 @@
       "image": "https://m.media-amazon.com/images/I/81Bpnzl8FZL._AC_SL1500_.jpg",
       "price": 56.44,
       "rating": 4.5,
-      "reviews_count": 2706,
+      "reviews_count": 2707,
       "bought": "400+/mo",
       "specs": {
         "width": "4-3/8 in",
@@ -185,7 +186,7 @@
       "image": "https://m.media-amazon.com/images/I/51rFaZOtYVL._AC_SL1000_.jpg",
       "price": 94.91,
       "rating": 4.6,
-      "reviews_count": 2470,
+      "reviews_count": 2471,
       "specs": {
         "width": "3-1/4 in",
         "depth": "5/64 in (10 stops)",
@@ -203,7 +204,7 @@
       "best_for": "Regular carpentry use with carbide blades.",
       "skip_if": "You want deep cuts; it takes 5/64 inch per pass.",
       "pros": [
-        "4.6 stars across 2,470 reviews",
+        "4.6 stars across 2,471 reviews",
         "Carbide blades",
         "3-year warranty"
       ],
@@ -220,7 +221,7 @@
       "image": "https://m.media-amazon.com/images/I/71OMNRkKx1L._AC_SL1500_.jpg",
       "price": 86.86,
       "rating": 4.6,
-      "reviews_count": 663,
+      "reviews_count": 664,
       "bought": "50+/mo",
       "specs": {
         "width": "3-1/4 in",
@@ -292,7 +293,7 @@
       "image": "https://m.media-amazon.com/images/I/71d1o2rnknL._AC_SL1500_.jpg",
       "price": 104.00,
       "rating": 4.4,
-      "reviews_count": 790,
+      "reviews_count": 789,
       "specs": {
         "width": "3-1/4 in",
         "depth": "5/64 in (10 stops)",
@@ -320,39 +321,28 @@
       ]
     },
     {
-      "asin": "B00UVXYU84",
-      "name": "Bosch PL1632 6.5 Amp Hand Planer, 3-1/4\"",
-      "brand": "Bosch",
-      "model": "PL1632",
-      "image": "https://m.media-amazon.com/images/I/51W4wtcDMkL._AC_SL1000_.jpg",
-      "price": 156.47,
-      "rating": 4.5,
-      "reviews_count": 969,
-      "bought": "50+/mo",
-      "specs": {
-        "width": "3-1/4 in",
-        "depth": null,
-        "motor": "6.5 A",
-        "speed": "16,500 rpm",
-        "weight": "6.3 lb"
-      },
-      "features": {
-        "deep_cut": false,
-        "rabbet": false,
-        "dual_dust": false,
-        "kickstand": true
-      },
-      "verdict": "A carpenter's door planer: a spring-loaded stand, a dual-mount fence with a plastic overshoe that won't mar door faces, and separate inch and metric depth scales.",
-      "best_for": "Fitting doors.",
-      "skip_if": "Budget matters; the WEN 6530 does most of this for under a third of the price.",
+      "asin": "B0H8RSZGW7",
+      "name": "DEKOPRO Hand Planer Corded, 3-1/4\" Planing Width, 7.5A 16000RPM, Edge Guide & Dust Bag Electric Planer",
+      "brand": "DEKOPRO",
+      "model": "DKPEHP0006",
+      "image": "https://m.media-amazon.com/images/I/7128q5tBM7L._AC_SL1500_.jpg",
+      "price": 48.99,
+      "rating": 4.3,
+      "reviews_count": 28,
+      "bought": "200+/mo",
+      "specs": {"width": "3-1/4 in", "depth": "3 mm (30 stops)", "motor": "7.5 A", "speed": "16,000 rpm", "weight": "6.75 lb"},
+      "features": {"deep_cut": true, "rabbet": false, "dual_dust": true, "kickstand": false},
+      "verdict": "A 7.5 A motor and a 3 mm (just under 1/8 inch) maximum cut for under $50, with a parallel edge guide, a V-groove base for 45-degree chamfers and a dust port that switches sides.",
+      "best_for": "Fast stock removal on a budget.",
+      "skip_if": "You want a kickstand to protect the blades; the listing doesn't mention one.",
       "pros": [
-        "Door-friendly fence with overshoe",
-        "Spring-loaded stand",
-        "6.3 lbs"
+        "7.5 A motor and 3 mm maximum cut",
+        "Dust port mounts left or right, bag included",
+        "Built-in side depth gauge"
       ],
       "cons": [
-        "$156.47",
-        "Depth not listed"
+        "6.75 lb, heavier than the WEN 6530 and 6528",
+        "No rabbeting guide listed"
       ]
     },
     {
@@ -361,7 +351,7 @@
       "brand": "WOODSTARTER",
       "model": "HP15K",
       "image": "https://m.media-amazon.com/images/I/61LKMnljrUL._AC_SL1500_.jpg",
-      "price": 49.99,
+      "price": 59.99,
       "rating": 4.2,
       "reviews_count": 53,
       "bought": "50+/mo",
@@ -398,7 +388,7 @@
       "brand": "Makita",
       "model": "KP0800K",
       "image": "https://m.media-amazon.com/images/I/61QoaWCr9DL._AC_SL1500_.jpg",
-      "price": 206.72,
+      "price": 209.00,
       "rating": 4.7,
       "reviews_count": 821,
       "bought": "50+/mo",
@@ -424,7 +414,7 @@
         "Tool case and guide"
       ],
       "cons": [
-        "$206.72",
+        "$209",
         "1-year warranty"
       ]
     }
@@ -438,7 +428,7 @@
       "image": "https://m.media-amazon.com/images/I/710TiISxHvL._AC_SL1500_.jpg",
       "price": 64.99,
       "rating": 3.7,
-      "reviews_count": 50,
+      "reviews_count": 51,
       "bought": "100+/mo",
       "flag": "Width spec contradicts title; lowest rating",
       "verdict": "A $65 planer that costs more than the WEN 6530 and can't agree on its own size. Buy the WEN.",

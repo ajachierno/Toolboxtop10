@@ -3,9 +3,10 @@
   "title": "The 10 Best Cordless Shop Vacuums",
   "subtitle": "Battery-powered wet/dry shop vacs ranked from live Amazon data, from 2-gallon jobsite vacs to a 9-gallon garage vac.",
   "intro": "A cordless shop vac handles spills, car interiors, and jobsite dust without hunting for an outlet. Most best-sellers are 2 to 2.6-gallon vacs sold as bare tools for an existing battery platform; a few come as kits with batteries. We ranked 10 on rating, review volume, and features (a HEPA-rated filter, a blower function, a brushless motor, and whether a battery is included).",
-  "data_captured": "2026-11-03",
-  "audited": "2026-10-08",
+  "data_captured": "2026-11-06",
+  "audited": "2026-11-06",
   "changelog": [
+    {"date": "2026-11-06", "note": "Replaced the Makita XCV11Z, which no longer has a buy box on Amazon, with the JESIMAIK 4.2-gallon kit ($129.99, two batteries included). New tool to avoid: a 0.7-liter Rueqior handheld sold as a shop vac, replacing the Gisam, which is no longer available. The ReliaRoads RCSV-20 rose from $71.97 to $89.97."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the DEWALT DCV580H dropped from $174.12 to $118; the DEWALT DCV581H dropped from $199 to $149; the CRAFTSMAN CMCV002B dropped from $108.59 to $99."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMCV002B rose from $98 to $108.59; the Milwaukee 0880-20 rose from $135.78 to $149.88; the Gisam CXQ dropped from $109.99 to $99.99."},
     {
@@ -79,9 +80,9 @@
       "brand": "DEWALT",
       "model": "DCV580H",
       "image": "https://m.media-amazon.com/images/I/7135p5xrtwL._AC_SL1500_.jpg",
-      "price": 118.00,
+      "price": 128.98,
       "rating": 4.4,
-      "reviews_count": 8775,
+      "reviews_count": 8782,
       "specs": {
         "capacity": "2 gal",
         "battery": "Not included (DEWALT 20V MAX)",
@@ -119,8 +120,8 @@
       "image": "https://m.media-amazon.com/images/I/71DTUCmXsXL._AC_SL1500_.jpg",
       "price": 149.00,
       "rating": 4.4,
-      "reviews_count": 8723,
-      "bought": "600+/mo",
+      "reviews_count": 8726,
+      "bought": "700+/mo",
       "specs": {
         "capacity": "2 gal",
         "battery": "Not included (DEWALT 20V MAX) or AC cord",
@@ -156,10 +157,10 @@
       "brand": "Milwaukee",
       "model": "0880-20",
       "image": "https://m.media-amazon.com/images/I/81jZdnaokeL._AC_SL1500_.jpg",
-      "price": 140.00,
+      "price": 139.00,
       "rating": 4.7,
-      "reviews_count": 3203,
-      "bought": "900+/mo",
+      "reviews_count": 3204,
+      "bought": "1K+/mo",
       "specs": {
         "capacity": "2 gal",
         "battery": "Not included (Milwaukee M18)",
@@ -197,8 +198,8 @@
       "image": "https://m.media-amazon.com/images/I/81KuEXAhUIL._AC_SL1500_.jpg",
       "price": 99.00,
       "rating": 4.5,
-      "reviews_count": 1344,
-      "bought": "600+/mo",
+      "reviews_count": 1345,
+      "bought": "500+/mo",
       "specs": {
         "capacity": "2 gal",
         "battery": "Not included (CRAFTSMAN V20)",
@@ -224,47 +225,33 @@
       ],
       "cons": [
         "Tool only: battery and charger sold separately",
-        "35 CFM is modest next to the Makita (57 CFM) and Milwaukee FUEL (50 CFM)",
+        "35 CFM is modest next to the Milwaukee FUEL (50 CFM)",
         "No blower port listed"
       ]
     },
     {
-      "asin": "B07M8JTDNS",
-      "name": "Makita XCV11Z 18V LXT Brushless Cordless 2 Gallon HEPA Filter Portable Wet/Dry Dust Extractor/Vacuum, Tool Only",
-      "brand": "Makita",
-      "model": "XCV11Z",
-      "image": "https://m.media-amazon.com/images/I/61SmXjVv4rL._AC_SL1000_.jpg",
-      "price": 249.00,
-      "rating": 4.3,
-      "reviews_count": 2846,
-      "bought": "200+/mo",
-      "specs": {
-        "capacity": "2 gal",
-        "battery": "Not included (Makita 18V LXT)",
-        "suction": "57 CFM / 27 in. lift",
-        "hose": null,
-        "runtime": "60 min (5.0Ah)",
-        "warranty": "3 years"
-      },
-      "features": {
-        "hepa": true,
-        "blower": false,
-        "brushless": true,
-        "kit": false
-      },
-      "verdict": "A brushless wet/dry dust extractor with a filter-cleaning system and a HEPA filter. It's built for collecting dust from sanders and saws as much as for cleanup.",
-      "best_for": "Makita 18V owners who want a vac that doubles as a dust extractor for power tools.",
-      "skip_if": "You mainly suck up water; it costs $70+ more than the bare 2-gallon vacs from DEWALT and Milwaukee.",
+      "asin": "B0HBQK35V3",
+      "name": "JESIMAIK Cordless Shop Vac, 18.5KPa Brushless Wet Dry Vacuum with 2x4.0Ah Batteries, 4.2 Gallon Tank, 3-in-1 Wet Dry",
+      "brand": "JESIMAIK",
+      "model": "Cordless Shop Vac 4.2 gal",
+      "image": "https://m.media-amazon.com/images/I/71k7-VgN3NL._AC_SL1500_.jpg",
+      "price": 129.99,
+      "rating": 5.0,
+      "reviews_count": 15,
+      "bought": "100+/mo",
+      "specs": {"capacity": "4.2 gal", "battery": "2 x 4.0Ah (included)", "suction": "18.5 kPa max / 12 kPa low", "hose": "10.5 ft", "runtime": "Up to 80 min low / 40 min high", "warranty": null},
+      "features": {"hepa": true, "blower": true, "brushless": true, "kit": true},
+      "verdict": "A complete kit: a brushless 4.2-gallon wet/dry vac with two 4.0Ah batteries, a charger, a washable HEPA filter, a sponge filter for wet pickup, a blower mode and a 10.5-foot hose.",
+      "best_for": "Buyers with no battery platform who want a big tank in a kit.",
+      "skip_if": "You already own DEWALT, Milwaukee or CRAFTSMAN batteries; a bare vac costs less.",
       "pros": [
-        "57 CFM and 27 in. of water lift from a brushless motor",
-        "HEPA filter rated for 99.97% of particles 3 microns and larger",
-        "Filter-cleaning system keeps suction up",
-        "Up to 60 minutes per 5.0Ah battery, per Makita"
+        "Two batteries and a charger included",
+        "4.2-gallon tank, second only to the EGO (9 gal) here",
+        "Up to 80 minutes on low with two batteries, per the listing"
       ],
       "cons": [
-        "Tool only, and the priciest bare 2-gallon vac here at $249",
-        "4.3 stars, the lowest rating on the list",
-        "No blower port listed"
+        "Its own battery system, not shared with tool brands",
+        "Warranty not listed"
       ]
     },
     {
@@ -314,7 +301,7 @@
       "image": "https://m.media-amazon.com/images/I/619MFiNSR8L._AC_SL1500_.jpg",
       "price": 329.00,
       "rating": 4.8,
-      "reviews_count": 311,
+      "reviews_count": 312,
       "bought": "100+/mo",
       "specs": {
         "capacity": "9 gal",
@@ -352,10 +339,10 @@
       "brand": "ReliaRoads",
       "model": "RCSV-20",
       "image": "https://m.media-amazon.com/images/I/61q-lKH-PNL._AC_SL1422_.jpg",
-      "price": 71.97,
+      "price": 89.97,
       "rating": 4.6,
-      "reviews_count": 621,
-      "bought": "700+/mo",
+      "reviews_count": 622,
+      "bought": "600+/mo",
       "specs": {
         "capacity": "2.6 gal",
         "battery": "Not included (fits DEWALT 20V MAX)",
@@ -371,10 +358,10 @@
         "kit": false
       },
       "verdict": "A third-party wet/dry vac built to run on DEWALT 20V MAX batteries. It's the cheapest way onto this list if you already own those batteries.",
-      "best_for": "DEWALT battery owners who want a wet/dry vac for under $75.",
+      "best_for": "DEWALT battery owners who want a wet/dry vac for under $90.",
       "skip_if": "You want a name-brand warranty; none is listed.",
       "pros": [
-        "$71.97, the lowest price on the list",
+        "$89.97, the lowest price on the list",
         "Runs on DEWALT 20V MAX batteries up to 5Ah",
         "2.6-gallon tank, larger than the DEWALT, Milwaukee, and CRAFTSMAN 2-gallon vacs",
         "45 CFM airflow and a HEPA filter"
@@ -393,7 +380,7 @@
       "image": "https://m.media-amazon.com/images/I/61UR4Bc-8rL._AC_SL1500_.jpg",
       "price": 109.99,
       "rating": 4.5,
-      "reviews_count": 428,
+      "reviews_count": 432,
       "bought": "700+/mo",
       "specs": {
         "capacity": "2.6 gal",
@@ -432,8 +419,8 @@
       "image": "https://m.media-amazon.com/images/I/61WrCqUPZwL._AC_SL1500_.jpg",
       "price": 191.24,
       "rating": 4.4,
-      "reviews_count": 221,
-      "bought": "200+/mo",
+      "reviews_count": 222,
+      "bought": "100+/mo",
       "specs": {
         "capacity": "2.1 gal",
         "battery": "Included (4.0Ah PowerShare PRO)",
@@ -466,21 +453,21 @@
   ],
   "avoid": [
     {
-      "asin": "B0HG8ZLXG4",
-      "name": "Cordless Shop Vac, 3000W Brushless Motor, 2x4.0Ah Battery Powered 3-in-1 Wet Dry Vacuum with HEPA Filter",
-      "brand": "Gisam",
-      "model": "CXQ",
-      "image": "https://m.media-amazon.com/images/I/71rw2VIXzKL._AC_SL1500_.jpg",
-      "price": 99.99,
-      "rating": 3.3,
-      "reviews_count": 8,
-      "flag": "Impossible power and suction claims",
-      "verdict": "The headline numbers don't hold up. A 21V battery vac can't draw 3000 watts, the suction figures contradict each other, and the copy describes a different, heavier vac. The Seesii kit costs the same and makes believable claims.",
+      "asin": "B0F3XFCPKZ",
+      "name": "Rueqior Cordless Vacuum Compatible with DeWalt 20V Battery Handheld Vacuum",
+      "brand": "Rueqior",
+      "model": "Cordless Vacuum",
+      "image": "https://m.media-amazon.com/images/I/71b8orPGoqL._AC_SL1500_.jpg",
+      "price": 59.97,
+      "rating": 4.1,
+      "reviews_count": 389,
+      "bought": "500+/mo",
+      "flag": "A 0.7-liter handheld sold as a shop vacuum",
+      "verdict": "It turns up in shop vac searches and calls itself a shop vacuum in its bullets, but it's a handheld car vac with a 0.7-liter bin, rated for indoor use on carpet and upholstery.",
       "reasons": [
-        "The title claims a 3000W motor, but the listing gives 21 volts and two 4.0Ah batteries. 3000W at 21V would pull about 140 amps, far beyond what those packs can deliver.",
-        "It lists 915 kPa for \"daily use\" and 25 kPa for \"heavy-duty\". The everyday mode can't be 36 times stronger than the heavy mode; 915 kPa is about nine atmospheres.",
-        "The spec table says the vac weighs 3 lb, while the bullet text says \"At only 8lbs\".",
-        "The bullets repeat the Seesii listing nearly word for word, so it's unclear which specs describe this product."
+        "The capacity is 0.7 liters, under a fifth of a gallon. Every vac on this list holds at least 2 gallons.",
+        "The listing rates it for indoor use on carpet, upholstery and cars and never claims wet pickup, so it can't do the spill and jobsite cleanup a shop vac is for.",
+        "It's a third-party body for DEWALT 20V batteries, so DEWALT doesn't warrant it. DEWALT's own bare 20V vacs are on this list."
       ]
     }
   ],
@@ -495,11 +482,11 @@
     },
     {
       "q": "How long does a battery last in a shop vac?",
-      "a": "Vacs drain batteries fast. Listings on this page quote 20 to 30 minutes on a compact vac at full power, up to 60 minutes with a 5.0Ah battery on the Makita, and up to 60 minutes in ECO mode on the EGO with two 6.0Ah packs. Plan on a spare battery for anything bigger than a car."
+      "a": "Vacs drain batteries fast. Listings on this page quote 20 to 30 minutes on a compact vac at full power, up to 80 minutes on low with two 4.0Ah batteries on the JESIMAIK, and up to 60 minutes in ECO mode on the EGO with two 6.0Ah packs. Plan on a spare battery for anything bigger than a car."
     },
     {
       "q": "What do CFM, water lift, and kPa mean?",
-      "a": "CFM is airflow, which moves light debris like sawdust. Water lift (in inches) and kPa both measure sealed suction, which lifts heavy debris and water. Brands publish different ones, so compare like with like: the Makita lists 57 CFM and 27 in. of lift; the Milwaukee M18 FUEL lists 50 CFM and 47 in."
+      "a": "CFM is airflow, which moves light debris like sawdust. Water lift (in inches) and kPa both measure sealed suction, which lifts heavy debris and water. Brands publish different ones, so compare like with like: the Milwaukee M18 FUEL lists 50 CFM and 47 in. of lift; the JESIMAIK lists 18.5 kPa."
     },
     {
       "q": "Do I need a HEPA filter?",
@@ -507,7 +494,7 @@
     },
     {
       "q": "Can a cordless vac double as a dust extractor for my sander?",
-      "a": "The Makita XCV11Z is sold as a dust extractor and has a filter-cleaning system for that job. The others can connect to a tool's dust port with an adapter, but the compact tanks fill quickly."
+      "a": "None of the vacs here is sold as a dedicated dust extractor. They can connect to a tool's dust port with an adapter, but the compact tanks fill quickly."
     }
   ]
 }

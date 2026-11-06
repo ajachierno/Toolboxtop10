@@ -6,8 +6,8 @@
  "title": "The 10 Best Tire Changers",
  "subtitle": "Manual, air-assisted, and shop tire changers for the home garage, ranked from live Amazon data.",
  "intro": "A tire changer pays for itself fast if you swap your own tires, run a trailer, or keep a second set of wheels. Amazon's range runs from $60 manual stands for wheels up to 16 inches, to air-assisted portable changers around $400, to 500-pound shop machines from about $1,050 that handle 24-inch rims. We ranked 10 on star rating, review volume, and features (bead breaker, powered operation, rim protection, and a bead blaster).",
- "data_captured": "2026-11-05",
- "audited": "2026-10-29",
+ "data_captured": "2026-11-06",
+ "audited": "2026-11-06",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -27,13 +27,54 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0BQHWLK7Y",
+  "best_overall": "B0D7PHNVHX",
   "best_budget": "B085FTHNT6",
   "money_no_object": null
  },
  "products": [
   {
    "rank": 1,
+   "asin": "B076XLNVQB",
+   "name": "XK Tire Changers Machine and Wheel Balancer Combo, 110V, 580-690",
+   "brand": "XK",
+   "model": "580-690",
+   "price": 1559.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 170,
+   "score": 84,
+   "award": null,
+   "best_for": "A home or small shop that wants to mount and balance in one purchase.",
+   "bought_last_month": null,
+   "verdict": "A shop tire changer and a computer wheel balancer sold together for $1,559, with a 5,600 lb bead breaker, rims up to 20 inches and tires up to 37 inches.",
+   "pros": [
+    "Includes a wheel balancer (wheels up to 44 in. and 155 lb)",
+    "5,600 lb bead breaking force",
+    "Four clamp protectors in the box"
+   ],
+   "cons": [
+    "780 lb listed weight",
+    "No bead blaster",
+    "Motorcycle adapter in the photos isn't included"
+   ],
+   "specs": {
+    "type": "Shop machine + wheel balancer",
+    "range": "Outside clamp 10 to 18 in., inside 12 to 20 in.; tires up to 37 in.",
+    "power": "110V + shop air (120 to 145 psi)",
+    "weight": "780 lb (listed)"
+   },
+   "features": {
+    "bead_breaker": true,
+    "powered": true,
+    "rim_protection": true,
+    "bead_blaster": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71CCBJySTlL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B076XLNVQB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-changers.html#B076XLNVQB"
+  },
+  {
+   "rank": 2,
    "asin": "B0CFF3QVH8",
    "name": "KATOOL KT-T830 + KT-B700 Tire Changer and Wheel Balancer Combo with Bead Blaster, 12 to 26 in. Rims",
    "brand": "KATOOL",
@@ -72,47 +113,6 @@
    "image": "https://m.media-amazon.com/images/I/61x+wsZSDyL._AC_SX425_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CFF3QVH8?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/tire-changers.html#B0CFF3QVH8"
-  },
-  {
-   "rank": 2,
-   "asin": "B0BQHWLK7Y",
-   "name": "KATOOL KT-T810 2.0HP Tire Changer Machine with Bead Blaster",
-   "brand": "KATOOL",
-   "model": "KT-T810",
-   "price": 1259.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 39,
-   "score": 79,
-   "award": "Best Overall",
-   "best_for": "A home tire shop that mounts stiff, low-profile tires.",
-   "bought_last_month": null,
-   "verdict": "KATOOL's shop machine with everything a home tire shop needs: a bead blaster to seat stubborn tires, an assist arm, and rim protection. It costs about $130 more than the ME-T500.",
-   "pros": [
-    "Built-in bead blaster seats stiff sidewalls and low-profile tires",
-    "Tool-free switch between outside (12 to 22 in.) and inside (14 to 24 in.) clamping",
-    "Enclosed body and an air filter with oil mist to protect the pneumatics"
-   ],
-   "cons": [
-    "520 lb; plan the delivery and the floor space",
-    "Ships in 6 to 7 days",
-    "Needs a compressor that holds 116 to 145 psi"
-   ],
-   "specs": {
-    "type": "Shop machine",
-    "range": "Outside clamp 12 to 22 in., inside 14 to 24 in.",
-    "power": "110V 2.0 HP + shop air (116 to 145 psi)",
-    "weight": "520 lb"
-   },
-   "features": {
-    "bead_breaker": true,
-    "powered": true,
-    "rim_protection": true,
-    "bead_blaster": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61-o-wqfpXL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BQHWLK7Y?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-changers.html#B0BQHWLK7Y"
   },
   {
    "rank": 3,
@@ -165,7 +165,7 @@
    "rating": 4.6,
    "reviews_count": 41,
    "score": 77,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "A home tire shop that needs rim clamping and non-marring heads.",
    "bought_last_month": null,
    "verdict": "A full rim-clamp tire machine for a home garage, with a motorized turntable and a non-marring mount head. Buyers report it handling 20-inch truck wheels and 40-inch crawler tires.",
@@ -441,26 +441,25 @@
  ],
  "avoid": [
   {
-   "asin": "B0HCHPJ4BN",
-   "name": "Krysolad Manual Tire Changer Machine, 8 to 21 in. Tire Change",
-   "brand": "Krysolad",
-   "model": "Manual Tire Changer 82",
-   "price": 159.99,
+   "asin": "B0HJCLNYDJ",
+   "name": "Tire Changer Machine with Gear Transmission System for 16''-21'' Tire",
+   "brand": "CGENWDCH",
+   "model": "Manual Tire Changer tool",
+   "price": 189.99,
    "currency": "USD",
-   "rating": 1.7,
-   "reviews_count": 3,
-   "flag": "No bead breaker in the kit",
-   "verdict": "It promises 8 to 21 inch wheels and quick bead breaking from a 23-pound duck-head kit, but the parts list doesn't include anything that breaks a bead. The TUFFIOM costs about $100 less and comes with a bead breaker.",
+   "rating": 1.0,
+   "reviews_count": 2,
+   "flag": "16-21 in. tool sold for tractor tires",
+   "verdict": "A manual changer titled as a \"machine\" whose own listing claims it handles farm tractor tires, on a tool rated for 16 to 21 inch rims.",
    "reasons": [
-    "The kit is listed as a duckbill adapter, a mounting base, and conical washers. There's no bead breaker, yet the same bullet says it \"separates tire bead in seconds.\" Breaking the bead is the hardest part of a tire change.",
-    "It claims 8 to 21 inch fitment, but a buyer reports their 8 in. golf-cart tires wouldn't work on it at all.",
-    "It's pitched as \"ideal for tabletop use\" and as an upgrade for professional shops: a 23 lb stand on a 10 in. base isn't stable enough for either a 21 in. wheel or daily shop work.",
-    "The title says 8 to 21 inch \"tire\" while the bullets say 8 to 21 inch \"rims\", which are very different sizes."
+    "The listing says it fits rims from 16 to 21 inches, then says it can handle the tires of \"agricultural machinery such as tractors.\" Farm tractor drive wheels are far larger than 21 inches, so that claim describes a job this tool can't do.",
+    "The title calls it a tire changer machine, but the listing's own model field reads \"Manual Tire Changer tool.\" It's a hand-operated stand with a gear-driven bar.",
+    "It costs about three times as much as the manual stands at the top of this list, and the listing gives no rim protection or bead-seating details."
    ],
    "bought_last_month": null,
-   "image": "https://m.media-amazon.com/images/I/51dcFKjC2UL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HCHPJ4BN?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-changers.html#avoid-B0HCHPJ4BN"
+   "image": "https://m.media-amazon.com/images/I/71ojxtxdhML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HJCLNYDJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-changers.html#avoid-B0HJCLNYDJ"
   }
  ],
  "buyers_guide": [
@@ -470,7 +469,7 @@
   },
   {
    "q": "Do I need an air compressor?",
-   "a": "Manual stands don't. The LCTX and the KATOOL shop machines use compressed air for the bead breaker or clamps, and the KATOOL ME-T500 and KT-T810 want 116 to 145 psi. A small pancake compressor won't keep up; plan on a tank of 20 gallons or more."
+   "a": "Manual stands don't. The LCTX and the KATOOL shop machines use compressed air for the bead breaker or clamps, and the KATOOL ME-T500 wants 116 to 145 psi. A small pancake compressor won't keep up; plan on a tank of 20 gallons or more."
   },
   {
    "q": "What is a bead blaster?",
@@ -478,7 +477,7 @@
   },
   {
    "q": "Will a tire changer scratch alloy wheels?",
-   "a": "A bare steel bar can. Look for a plastic or covered mount head and jaw covers. The KATOOL ME-T500 and KT-T810 include non-marring covers, and the Rabaconda uses a plastic mount head. With a manual stand, use rim protectors and plenty of tire lube."
+   "a": "A bare steel bar can. Look for a plastic or covered mount head and jaw covers. The KATOOL ME-T500 includes non-marring covers, and the Rabaconda uses a plastic mount head. With a manual stand, use rim protectors and plenty of tire lube."
   },
   {
    "q": "Can I balance tires with a tire changer?",
@@ -486,6 +485,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-06",
+   "note": "Replaced the KATOOL KT-T810, which dropped out of Amazon's top tire changer results, with the XK 580-690 tire changer and wheel balancer combo ($1,559). Best Overall moves to the KATOOL ME-T500. New tool to avoid: a CGENWDCH manual changer that claims tractor tires on a 16 to 21 inch tool, replacing the Krysolad, which Amazon no longer sells."
+  },
   {
    "date": "2026-11-05",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. No price changes."
