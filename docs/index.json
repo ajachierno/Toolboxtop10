@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 167,
@@ -1174,7 +1174,7 @@
    "title": "The 10 Best Cordless Angle Grinders",
    "url": "https://toolboxtop10.com/cordless-angle-grinders.html",
    "json": "https://toolboxtop10.com/cordless-angle-grinders.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-31",
    "products": 10,
    "best_overall": {
@@ -1190,7 +1190,7 @@
    "money_no_object": {
     "asin": "B08J8GNNTW",
     "name": "DEWALT DCG416B",
-    "price": 155.94
+    "price": 154.9
    }
   },
   {
@@ -1518,7 +1518,7 @@
    "title": "The 10 Best Cordless Heat Guns",
    "url": "https://toolboxtop10.com/cordless-heat-guns.html",
    "json": "https://toolboxtop10.com/cordless-heat-guns.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-31",
    "products": 10,
    "best_overall": {
@@ -1529,7 +1529,7 @@
    "best_budget": {
     "asin": "B07SGYWXRY",
     "name": "RYOBI P3150",
-    "price": 69.0
+    "price": 68.95
    },
    "money_no_object": {
     "asin": "B0B2FCXXX7",
@@ -2182,13 +2182,13 @@
    "title": "The 10 Best Digital Multimeters",
    "url": "https://toolboxtop10.com/multimeters.html",
    "json": "https://toolboxtop10.com/multimeters.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0B57L9FNL",
     "name": "Klein Tools MM325",
-    "price": 29.98
+    "price": 34.97
    },
    "best_budget": {
     "asin": "B08CX9W7G3",
@@ -2198,7 +2198,7 @@
    "money_no_object": {
     "asin": "B0779621KZ",
     "name": "Fluke 17B+",
-    "price": 144.08
+    "price": 144.99
    }
   },
   {
@@ -2394,7 +2394,7 @@
    "title": "The 10 Best Gantry Cranes for Garages",
    "url": "https://toolboxtop10.com/gantry-cranes.html",
    "json": "https://toolboxtop10.com/gantry-cranes.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2418,7 +2418,7 @@
    "title": "The 10 Best Hacksaws",
    "url": "https://toolboxtop10.com/hacksaws.html",
    "json": "https://toolboxtop10.com/hacksaws.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2462,7 +2462,7 @@
    "title": "The 10 Best Hot Glue Guns",
    "url": "https://toolboxtop10.com/hot-glue-guns.html",
    "json": "https://toolboxtop10.com/hot-glue-guns.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2478,7 +2478,7 @@
    "money_no_object": {
     "asin": "B002KVB0EM",
     "name": "AdTech Pro200 (0189)",
-    "price": 44.99
+    "price": 44.97
    }
   },
   {
@@ -2486,23 +2486,23 @@
    "title": "The 10 Best HVLP and LVLP Spray Guns",
    "url": "https://toolboxtop10.com/hvlp-air-spray-guns.html",
    "json": "https://toolboxtop10.com/hvlp-air-spray-guns.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0BMNWDL3X",
     "name": "AEROPRO R500/A610",
-    "price": 69.99
+    "price": 74.99
    },
    "best_budget": {
     "asin": "B0C72GFK66",
     "name": "ENDOZER H827",
-    "price": 29.99
+    "price": 32.99
    },
    "money_no_object": {
     "asin": "B0CD1RNPWK",
     "name": "InoKraft D1",
-    "price": 92.99
+    "price": 119.99
    }
   },
   {
@@ -2510,7 +2510,7 @@
    "title": "The 10 Best HVLP Paint Sprayers",
    "url": "https://toolboxtop10.com/hvlp-paint-sprayers.html",
    "json": "https://toolboxtop10.com/hvlp-paint-sprayers.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2521,7 +2521,7 @@
    "best_budget": {
     "asin": "B0BJ2JYPGG",
     "name": "VONFORN VF803-Y",
-    "price": 59.99
+    "price": 39.95
    },
    "money_no_object": {
     "asin": "B00D4NPPQY",
@@ -2534,7 +2534,7 @@
    "title": "The 10 Best Impact Socket Sets",
    "url": "https://toolboxtop10.com/impact-socket-sets.html",
    "json": "https://toolboxtop10.com/impact-socket-sets.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2545,7 +2545,7 @@
    "best_budget": {
     "asin": "B0CC1Z35Y7",
     "name": "SEDY 84018",
-    "price": 39.98
+    "price": 44.99
    },
    "money_no_object": {
     "asin": "B0G4LBWPKK",
@@ -2558,7 +2558,7 @@
    "title": "The 10 Best Infrared Thermometers",
    "url": "https://toolboxtop10.com/infrared-thermometers.html",
    "json": "https://toolboxtop10.com/infrared-thermometers.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2569,7 +2569,7 @@
    "best_budget": {
     "asin": "B0B71HFH9K",
     "name": "Etekcity Lasergrip 774",
-    "price": 16.99
+    "price": 18.99
    },
    "money_no_object": {
     "asin": "B008EW837S",
@@ -2582,7 +2582,7 @@
    "title": "The 10 Best Jack Stands",
    "url": "https://toolboxtop10.com/jack-stands.html",
    "json": "https://toolboxtop10.com/jack-stands.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2606,7 +2606,7 @@
    "title": "The 10 Best Jobsite Radios",
    "url": "https://toolboxtop10.com/jobsite-radios.html",
    "json": "https://toolboxtop10.com/jobsite-radios.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2617,7 +2617,7 @@
    "best_budget": {
     "asin": "B0033WSDY2",
     "name": "Sangean LB-100",
-    "price": 92.89
+    "price": 92.83
    },
    "money_no_object": {
     "asin": "B07YVDLDLR",
@@ -2630,7 +2630,7 @@
    "title": "The 10 Best Jump Starters",
    "url": "https://toolboxtop10.com/jump-starters.html",
    "json": "https://toolboxtop10.com/jump-starters.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2639,9 +2639,9 @@
     "price": 99.95
    },
    "best_budget": {
-    "asin": "B0BZP6HCVS",
-    "name": "AstroAI S8",
-    "price": 42.19
+    "asin": "B0C42Y5TPD",
+    "name": "S ZEVZO ET03",
+    "price": 59.99
    },
    "money_no_object": {
     "asin": "B015TKSSB8",
@@ -2654,18 +2654,18 @@
    "title": "The 10 Best Laser Distance Measures",
    "url": "https://toolboxtop10.com/laser-distance-measures.html",
    "json": "https://toolboxtop10.com/laser-distance-measures.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B076C3TB8P",
     "name": "Bosch GLM165-40",
-    "price": 69.0
+    "price": 99.0
    },
    "best_budget": {
     "asin": "B085NX87K3",
     "name": "MILESEEY D5",
-    "price": 28.99
+    "price": 24.64
    },
    "money_no_object": {
     "asin": "B07L8LWXZB",
@@ -2678,7 +2678,7 @@
    "title": "The 10 Best Laser Levels",
    "url": "https://toolboxtop10.com/laser-levels.html",
    "json": "https://toolboxtop10.com/laser-levels.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2702,7 +2702,7 @@
    "title": "The 10 Best Locking Pliers Sets",
    "url": "https://toolboxtop10.com/locking-pliers.html",
    "json": "https://toolboxtop10.com/locking-pliers.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2726,13 +2726,13 @@
    "title": "The 10 Best Mechanic Creepers",
    "url": "https://toolboxtop10.com/mechanic-creepers.html",
    "json": "https://toolboxtop10.com/mechanic-creepers.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B09SRJPWT1",
     "name": "Pro-LifT PL9400",
-    "price": 98.73
+    "price": 101.08
    },
    "best_budget": {
     "asin": "B0856T9M1M",
@@ -2750,18 +2750,18 @@
    "title": "The 10 Best Mechanic Stools",
    "url": "https://toolboxtop10.com/mechanic-stools.html",
    "json": "https://toolboxtop10.com/mechanic-stools.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0BX4VSVD8",
     "name": "Pro-LifT PL9300H",
-    "price": 38.99
+    "price": 42.69
    },
    "best_budget": {
     "asin": "B0BZTT3M68",
     "name": "VEVOR creeper seat",
-    "price": 22.32
+    "price": 26.9
    },
    "money_no_object": {
     "asin": "B0D1BHQD2T",
@@ -2774,13 +2774,13 @@
    "title": "The 10 Best MIG Welders",
    "url": "https://toolboxtop10.com/mig-welders.html",
    "json": "https://toolboxtop10.com/mig-welders.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07TVCWDGW",
     "name": "YESWELDER MIG-205DS PRO",
-    "price": 339.99
+    "price": 479.99
    },
    "best_budget": {
     "asin": "B08CBBHFX5",
@@ -2790,7 +2790,7 @@
    "money_no_object": {
     "asin": "B0DKHCFZXV",
     "name": "ARCCAPTAIN MIG250",
-    "price": 624.99
+    "price": 499.99
    }
   },
   {
@@ -2798,13 +2798,13 @@
    "title": "The 10 Best Mini Chainsaws",
    "url": "https://toolboxtop10.com/mini-chainsaws.html",
    "json": "https://toolboxtop10.com/mini-chainsaws.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0FJS7GG29",
     "name": "SEESII M8 Boost",
-    "price": 99.99
+    "price": 79.99
    },
    "best_budget": {
     "asin": "B0C1Z9V6N1",
@@ -2822,7 +2822,7 @@
    "title": "The 10 Best Moisture Meters",
    "url": "https://toolboxtop10.com/moisture-meters.html",
    "json": "https://toolboxtop10.com/moisture-meters.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2846,7 +2846,7 @@
    "title": "The 10 Best Motorcycle Lifts",
    "url": "https://toolboxtop10.com/motorcycle-lifts.html",
    "json": "https://toolboxtop10.com/motorcycle-lifts.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2857,7 +2857,7 @@
    "best_budget": {
     "asin": "B0C4KQGQ92",
     "name": "VEVOR 1,100 lb Scissor Jack",
-    "price": 54.9
+    "price": 59.9
    },
    "money_no_object": {
     "asin": "B075HTDCJQ",
@@ -2870,7 +2870,7 @@
    "title": "The 10 Best Multi-Tools",
    "url": "https://toolboxtop10.com/multitools.html",
    "json": "https://toolboxtop10.com/multitools.json",
-   "data_captured": "2026-10-31",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3254,23 +3254,23 @@
    "title": "The 10 Best Rivet Guns",
    "url": "https://toolboxtop10.com/rivet-guns.html",
    "json": "https://toolboxtop10.com/rivet-guns.json",
-   "data_captured": "2026-10-30",
+   "data_captured": "2026-11-06",
    "audited": "2026-10-30",
    "products": 10,
    "best_overall": {
     "asin": "B08FR1PDR9",
     "name": "WETOLS WE-888",
-    "price": 29.96
+    "price": 39.99
    },
    "best_budget": {
     "asin": "B08NWXBCX5",
     "name": "LIBRATON 900913",
-    "price": 18.49
+    "price": 17.99
    },
    "money_no_object": {
     "asin": "B00063Y1F6",
     "name": "Marson 39000 HP-2",
-    "price": 72.83
+    "price": 70.56
    }
   },
   {

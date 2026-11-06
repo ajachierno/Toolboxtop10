@@ -6,7 +6,7 @@
  "title": "The 10 Best Gantry Cranes for Garages",
  "subtitle": "Portable adjustable gantry cranes for engines and heavy parts, ranked from live Amazon data.",
  "intro": "A gantry crane straddles the work, so you can lift an engine, transmission, or machine and roll it across the shop without an engine hoist's legs in the way. Amazon's portable gantries run from about $700 for a 3-ton frame to $1,600 for a 10.5-foot-wide kit with hoist. We ranked 10 on star rating, review volume, and features (included trolley, included hoist, published load test, locking casters, and a minimum height that fits under an 8-foot ceiling).",
- "data_captured": "2026-10-30",
+ "data_captured": "2026-11-06",
  "audited": "2026-10-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -165,8 +165,8 @@
    "price": 1099.99,
    "currency": "USD",
    "rating": 5.0,
-   "reviews_count": 7,
-   "score": 65,
+   "reviews_count": 9,
+   "score": 66,
    "award": null,
    "best_for": null,
    "bought_last_month": null,
@@ -322,47 +322,6 @@
   },
   {
    "rank": 8,
-   "asin": "B0H94B9DHK",
-   "name": "Dkenicor 3 Ton 6,600 lb Gantry Crane, Steel I-Beam, Blue",
-   "brand": "Dkenicor",
-   "model": "3 Ton Frame",
-   "price": 799.99,
-   "currency": "USD",
-   "rating": 4.9,
-   "reviews_count": 12,
-   "score": 60,
-   "award": "Best Budget",
-   "best_for": null,
-   "bought_last_month": null,
-   "verdict": "Dkenicor's frame-only 3-ton gantry at $700, the cheapest 3-ton crane we found with a review history.",
-   "pros": [
-    "About $700 for a 3-ton frame",
-    "4.9 stars",
-    "Same 404 lb welded frame as the trolley version"
-   ],
-   "cons": [
-    "No trolley mentioned; check before you order",
-    "8.53 ft minimum height"
-   ],
-   "specs": {
-    "capacity": "6,600 lb",
-    "height": "8.53 to 12.47 ft",
-    "width": "8.53 ft",
-    "included": "Frame"
-   },
-   "features": {
-    "trolley": false,
-    "hoist": false,
-    "load_tested": false,
-    "locking_casters": false,
-    "fits_8ft": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71eH4WQn4iL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H94B9DHK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/gantry-cranes.html#B0H94B9DHK"
-  },
-  {
-   "rank": 9,
    "asin": "B0H46WZXV3",
    "name": "VEVOR Adjustable Gantry Crane, 5,000 lb, Manual Trolley, Locking Wheels, 100.4 to 147.6 in.",
    "brand": "VEVOR",
@@ -370,8 +329,8 @@
    "price": 1329.9,
    "currency": "USD",
    "rating": 5.0,
-   "reviews_count": 2,
-   "score": 59,
+   "reviews_count": 3,
+   "score": 61,
    "award": null,
    "best_for": null,
    "bought_last_month": null,
@@ -403,12 +362,53 @@
    "page_url": "https://toolboxtop10.com/gantry-cranes.html#B0H46WZXV3"
   },
   {
+   "rank": 9,
+   "asin": "B0H94B9DHK",
+   "name": "Dkenicor 3 Ton 6,600 lb Gantry Crane, Steel I-Beam, Blue",
+   "brand": "Dkenicor",
+   "model": "3 Ton Frame",
+   "price": 799.99,
+   "currency": "USD",
+   "rating": 4.9,
+   "reviews_count": 12,
+   "score": 60,
+   "award": "Best Budget",
+   "best_for": null,
+   "bought_last_month": null,
+   "verdict": "Dkenicor's frame-only 3-ton gantry at $799.99, a 3-ton crane with a review history.",
+   "pros": [
+    "About $700 for a 3-ton frame",
+    "4.9 stars",
+    "Same 404 lb welded frame as the trolley version"
+   ],
+   "cons": [
+    "No trolley mentioned; check before you order",
+    "8.53 ft minimum height"
+   ],
+   "specs": {
+    "capacity": "6,600 lb",
+    "height": "8.53 to 12.47 ft",
+    "width": "8.53 ft",
+    "included": "Frame"
+   },
+   "features": {
+    "trolley": false,
+    "hoist": false,
+    "load_tested": false,
+    "locking_casters": false,
+    "fits_8ft": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71eH4WQn4iL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H94B9DHK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/gantry-cranes.html#B0H94B9DHK"
+  },
+  {
    "rank": 10,
    "asin": "B0H7WQMJ97",
    "name": "BSMTEK 3 Ton Portable Gantry Crane, 6,600 lb, 9.06 ft Width, 8.53 to 12.47 ft Height",
    "brand": "BSMTEK",
    "model": "KF620036US-04",
-   "price": 967.99,
+   "price": 1299.99,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 15,
@@ -491,6 +491,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-06",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the BSMTEK KF620036US-04 rose from $967.99 to $1,299.99."
+  },
   {
    "date": "2026-10-30",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Dkenicor 3 Ton Frame rose from $699.99 to $799.99; the Dkenicor 3 Ton with Trolley dropped from $799.99 to $694.39; the BSMTEK KF620036US-04 dropped from $1,099.99 to $967.99."
