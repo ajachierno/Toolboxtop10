@@ -1419,6 +1419,10 @@ def hol_head():
                    for h in holiday_configs()
                    if h.get("link_from") and h.get("link_until")
                    and today < datetime.date.fromisoformat(h["link_until"]))
+    for lf, lu, th, note in items:
+        if not note:
+            print(f"  WARNING: holiday window {lf}..{lu} ({th}) has no logo_note; every holiday "
+                  f"needs a one-line message under the logo. Add it in seasonal.json.")
     if not items:
         _HOL_HEAD = ("", "")
         return _HOL_HEAD
