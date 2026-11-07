@@ -742,9 +742,9 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
 <link rel="stylesheet" href="assets/styles.css?v={CSS_VERSION}">
 </head>
 <body>
-<header class="site">
-  <a class="logo" href="./"><img src="assets/logo.webp" width="336" height="112" alt="{esc(site['brand'])}"></a>
-  <span class="slogan">{esc(site['tagline'])}</span>
+<header class="site{hol_head()[0]}">
+  <a class="logo" href="./"><img class="logo-std" src="assets/logo.webp" width="336" height="112" alt="{esc(site['brand'])}">{hol_logo_img()}</a>
+  <span class="slogan">{esc(site['tagline'])}</span>{hol_head()[1]}
 </header>
 {tag_state}
 <main>
@@ -1371,6 +1371,82 @@ def seasonal_theme_class(slug):
         if h.get("slug") == slug:
             return f" hol hol-{holiday_theme(h)}"
     return ""
+
+
+# Header logo wears the same holiday theme while that holiday's strip button is visible
+# (link_from up to link_until; when windows overlap the later-starting holiday wins), plus an
+# optional one-line "logo_note" from seasonal.json under the logo. Build time renders today's
+# state; HOL_HEAD_JS re-checks the date in the browser so it flips on the right day without a build.
+# Per theme: (background, border, outer ring, logo text, note text, stripe band or none).
+HOLIDAY_LOGO = {
+    "patriotic": ("radial-gradient(circle,rgba(255,255,255,.3) 1px,transparent 1.6px) 0 0/12px 12px,#0a3161",
+                  "#fff", "#b22234", "#fff", "#fff", "repeating-linear-gradient(180deg,#b22234 0 3px,#fff 3px 6px)"),
+    "christmas": ("#0b5d2a", "#c8102e", "#fff", "#fff", "#ff5a6e", "repeating-linear-gradient(135deg,#c8102e 0 6px,#fff 6px 12px)"),
+    "new-year": ("radial-gradient(circle,rgba(245,215,110,.75) 1px,transparent 1.6px) 0 0/14px 14px,linear-gradient(135deg,#0b0b1e,#2a1f5c)",
+                 "#d4af37", "#d4af37", "#f5d76e", "#f5d76e", "none"),
+    "black-friday": ("#000", "#ffd400", "#ffd400", "#ffd400", "#ffd400", "none"),
+    "cyber-monday": ("linear-gradient(135deg,#0f0c29,#302b63)", "#ff00c8", "#00e5ff", "#00e5ff", "#00e5ff", "none"),
+    "prime-day": ("linear-gradient(135deg,#0b3d91,#00a8e1)", "#ffb400", "#ffb400", "#fff", "#4fc3f7", "none"),
+    "thanksgiving": ("linear-gradient(135deg,#7a3e12,#c2601d)", "#e8a33d", "#e8a33d", "#ffe8c2", "#e8a33d", "none"),
+    "halloween": ("#1a1023", "#ff8c1a", "#ff8c1a", "#ff8c1a", "#ff8c1a", "repeating-linear-gradient(135deg,#ff8c1a 0 6px,#111 6px 12px)"),
+    "valentines": ("linear-gradient(135deg,#c9184a,#ff4d6d)", "#ffccd5", "#c9184a", "#fff", "#ff8fa3", "none"),
+    "st-patricks": ("#0b6e3a", "#f5c542", "#f5c542", "#fff", "#5fd38d", "none"),
+    "easter": ("linear-gradient(135deg,#ffd6e8,#cde7ff,#e2f7d0)", "#b39ddb", "#b39ddb", "#3b2a5a", "#cbb8f0", "none"),
+    "mothers-day": ("linear-gradient(135deg,#f8bbd0,#e1bee7)", "#ec407a", "#ec407a", "#4a1942", "#f48fb1", "none"),
+    "fathers-day": ("linear-gradient(135deg,#1b2a41,#324a5f)", "#c08a52", "#c08a52", "#f2d0a4", "#f2d0a4", "none"),
+    "back-to-school": ("#f2c200", "#1d1d1d", "#f2c200", "#1d1d1d", "#f2c200", "none"),
+    "festive": ("linear-gradient(135deg,#7b1e3a,#c0392b)", "#f1c40f", "#f1c40f", "#fff", "#f1c40f", "none"),
+}
+
+HOL_HEAD_JS = ("<script>(function(){var L=%s,n=new Date(),a=null;"
+               "function d(s){var p=s.split('-');return new Date(+p[0],p[1]-1,+p[2]);}"
+               "L.forEach(function(x){if(n>=d(x[0])&&n<d(x[1]))a=x;});"
+               "var h=document.currentScript.parentNode;"
+               "h.className=h.className.replace(/\\s*hol-\\S+/g,'');if(a)h.className+=' hol-head hol-'+a[2];"
+               "h.querySelectorAll('.hol-note').forEach(function(e){"
+               "e.hidden=!(a&&e.getAttribute('data-hol-from')==a[0]);});})();</script>")
+
+_HOL_HEAD = None
+
+
+def hol_head():
+    """(extra header classes, notes + script html) for the holiday logo theme."""
+    global _HOL_HEAD
+    if _HOL_HEAD is not None:
+        return _HOL_HEAD
+    today = datetime.date.today()
+    items = sorted((h["link_from"], h["link_until"], holiday_theme(h), h.get("logo_note", ""))
+                   for h in holiday_configs()
+                   if h.get("link_from") and h.get("link_until")
+                   and today < datetime.date.fromisoformat(h["link_until"]))
+    if not items:
+        _HOL_HEAD = ("", "")
+        return _HOL_HEAD
+    active = None
+    for it in items:
+        if datetime.date.fromisoformat(it[0]) <= today:
+            active = it
+    cls = f" hol-head hol-{active[2]}" if active else ""
+    notes = "".join(f'<p class="hol-note" data-hol-from="{esc(lf)}"{"" if active and lf == active[0] else " hidden"}>{esc(note)}</p>'
+                    for lf, lu, th, note in items if note)
+    js = HOL_HEAD_JS % json.dumps([[lf, lu, th] for lf, lu, th, _ in items], separators=(",", ":"))
+    _HOL_HEAD = (cls, "\n  " + notes + js)
+    return _HOL_HEAD
+
+
+def hol_logo_img():
+    """Transparent-background logo copy (docs/assets/logo-clear.webp) shown on the holiday
+    background instead of the standard logo's black box; only emitted while a holiday window is set."""
+    return ('<img class="logo-hol" src="assets/logo-clear.webp" width="336" height="112" alt="" loading="lazy">'
+            if hol_head()[1] else "")
+
+
+def hol_logo_css():
+    out = []
+    for t, (bg, bd, ring, ink, note, band) in HOLIDAY_LOGO.items():
+        out.append(f"header.hol-{t}{{--hol-bg:{bg};--hol-bd:{bd};--hol-ring:{ring};--hol-ink:{ink};"
+                   f"--hol-note:{note};--hol-band:{band}}}")
+    return "\n".join(out) + "\n"
 
 def reveal_attr(window):
     """Show a link only inside its (link_from, link_until) window (YYYY-MM-DD, either may be
@@ -2673,9 +2749,26 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
 .seasonal-strip a.hol.hol-back-to-school::before{content:"\270E"}
 .seasonal-strip a.hol.hol-festive{border-color:#f1c40f;background:linear-gradient(135deg,#7b1e3a,#c0392b)}
 .seasonal-strip a.hol.hol-festive::before{content:"\2726";color:#f1c40f}
+/* holiday logo theme (see hol_head in build.py) */
+header.hol-head .logo{position:relative;overflow:hidden;background:var(--hol-bg);border:2px solid var(--hol-bd);
+  box-shadow:0 0 0 2px var(--hol-ring);border-radius:12px;padding:6px 14px 13px}
+header.hol-head .logo::after{content:"";position:absolute;left:0;right:0;bottom:0;height:7px;background:var(--hol-band)}
+header.hol-head .logo span{color:var(--hol-ink)}
+header.hol-head .banner{position:relative;border-radius:var(--radius);box-shadow:0 0 0 3px var(--hol-bd),0 0 0 6px var(--hol-ring)}
+header.hol-head .banner img{border:0;display:block}
+header.hol-head .banner::after{content:"";display:block;height:10px;background:var(--hol-band);border-radius:0 0 var(--radius) var(--radius)}
+.hol-note{flex:1 1 100%;order:10;margin:4px 0 0;text-align:center;font-weight:700;font-size:1rem;
+  color:var(--hol-note);line-height:1.4}
+.hol-note::before,.hol-note::after{content:"\2605";margin:0 .5em;color:var(--hol-ring)}
+.hol-note{text-align:left;padding-left:4px}
+.home-head .hol-note{order:1;margin-top:16px;text-align:center}
+.logo .logo-hol{display:none}
+header.hol-head .logo .logo-std{display:none}
+header.hol-head .logo .logo-hol{display:block}
+.home-head .site-search{order:2}
 """
 
-CSS_TEXT = CSS + price_tracker.CSS
+CSS_TEXT = CSS + price_tracker.CSS + hol_logo_css()
 CSS_VERSION = __import__("hashlib").md5(CSS_TEXT.encode("utf-8")).hexdigest()[:8]  # stylesheet cache-buster
 
 if __name__ == "__main__":

@@ -374,6 +374,23 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
 .seasonal-strip a.hol.hol-back-to-school::before{content:"\270E"}
 .seasonal-strip a.hol.hol-festive{border-color:#f1c40f;background:linear-gradient(135deg,#7b1e3a,#c0392b)}
 .seasonal-strip a.hol.hol-festive::before{content:"\2726";color:#f1c40f}
+/* holiday logo theme (see hol_head in build.py) */
+header.hol-head .logo{position:relative;overflow:hidden;background:var(--hol-bg);border:2px solid var(--hol-bd);
+  box-shadow:0 0 0 2px var(--hol-ring);border-radius:12px;padding:6px 14px 13px}
+header.hol-head .logo::after{content:"";position:absolute;left:0;right:0;bottom:0;height:7px;background:var(--hol-band)}
+header.hol-head .logo span{color:var(--hol-ink)}
+header.hol-head .banner{position:relative;border-radius:var(--radius);box-shadow:0 0 0 3px var(--hol-bd),0 0 0 6px var(--hol-ring)}
+header.hol-head .banner img{border:0;display:block}
+header.hol-head .banner::after{content:"";display:block;height:10px;background:var(--hol-band);border-radius:0 0 var(--radius) var(--radius)}
+.hol-note{flex:1 1 100%;order:10;margin:4px 0 0;text-align:center;font-weight:700;font-size:1rem;
+  color:var(--hol-note);line-height:1.4}
+.hol-note::before,.hol-note::after{content:"\2605";margin:0 .5em;color:var(--hol-ring)}
+.hol-note{text-align:left;padding-left:4px}
+.home-head .hol-note{order:1;margin-top:16px;text-align:center}
+.logo .logo-hol{display:none}
+header.hol-head .logo .logo-std{display:none}
+header.hol-head .logo .logo-hol{display:block}
+.home-head .site-search{order:2}
 
 .pt-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:16px 0 6px}
 .pt-stats div{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
@@ -399,3 +416,18 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
 .pt-reports li{margin:6px 0}
 .pt-dl a{margin-right:14px}
 @media (max-width:640px){.pt-spark{width:90px}}
+header.hol-patriotic{--hol-bg:radial-gradient(circle,rgba(255,255,255,.3) 1px,transparent 1.6px) 0 0/12px 12px,#0a3161;--hol-bd:#fff;--hol-ring:#b22234;--hol-ink:#fff;--hol-note:#fff;--hol-band:repeating-linear-gradient(180deg,#b22234 0 3px,#fff 3px 6px)}
+header.hol-christmas{--hol-bg:#0b5d2a;--hol-bd:#c8102e;--hol-ring:#fff;--hol-ink:#fff;--hol-note:#ff5a6e;--hol-band:repeating-linear-gradient(135deg,#c8102e 0 6px,#fff 6px 12px)}
+header.hol-new-year{--hol-bg:radial-gradient(circle,rgba(245,215,110,.75) 1px,transparent 1.6px) 0 0/14px 14px,linear-gradient(135deg,#0b0b1e,#2a1f5c);--hol-bd:#d4af37;--hol-ring:#d4af37;--hol-ink:#f5d76e;--hol-note:#f5d76e;--hol-band:none}
+header.hol-black-friday{--hol-bg:#000;--hol-bd:#ffd400;--hol-ring:#ffd400;--hol-ink:#ffd400;--hol-note:#ffd400;--hol-band:none}
+header.hol-cyber-monday{--hol-bg:linear-gradient(135deg,#0f0c29,#302b63);--hol-bd:#ff00c8;--hol-ring:#00e5ff;--hol-ink:#00e5ff;--hol-note:#00e5ff;--hol-band:none}
+header.hol-prime-day{--hol-bg:linear-gradient(135deg,#0b3d91,#00a8e1);--hol-bd:#ffb400;--hol-ring:#ffb400;--hol-ink:#fff;--hol-note:#4fc3f7;--hol-band:none}
+header.hol-thanksgiving{--hol-bg:linear-gradient(135deg,#7a3e12,#c2601d);--hol-bd:#e8a33d;--hol-ring:#e8a33d;--hol-ink:#ffe8c2;--hol-note:#e8a33d;--hol-band:none}
+header.hol-halloween{--hol-bg:#1a1023;--hol-bd:#ff8c1a;--hol-ring:#ff8c1a;--hol-ink:#ff8c1a;--hol-note:#ff8c1a;--hol-band:repeating-linear-gradient(135deg,#ff8c1a 0 6px,#111 6px 12px)}
+header.hol-valentines{--hol-bg:linear-gradient(135deg,#c9184a,#ff4d6d);--hol-bd:#ffccd5;--hol-ring:#c9184a;--hol-ink:#fff;--hol-note:#ff8fa3;--hol-band:none}
+header.hol-st-patricks{--hol-bg:#0b6e3a;--hol-bd:#f5c542;--hol-ring:#f5c542;--hol-ink:#fff;--hol-note:#5fd38d;--hol-band:none}
+header.hol-easter{--hol-bg:linear-gradient(135deg,#ffd6e8,#cde7ff,#e2f7d0);--hol-bd:#b39ddb;--hol-ring:#b39ddb;--hol-ink:#3b2a5a;--hol-note:#cbb8f0;--hol-band:none}
+header.hol-mothers-day{--hol-bg:linear-gradient(135deg,#f8bbd0,#e1bee7);--hol-bd:#ec407a;--hol-ring:#ec407a;--hol-ink:#4a1942;--hol-note:#f48fb1;--hol-band:none}
+header.hol-fathers-day{--hol-bg:linear-gradient(135deg,#1b2a41,#324a5f);--hol-bd:#c08a52;--hol-ring:#c08a52;--hol-ink:#f2d0a4;--hol-note:#f2d0a4;--hol-band:none}
+header.hol-back-to-school{--hol-bg:#f2c200;--hol-bd:#1d1d1d;--hol-ring:#f2c200;--hol-ink:#1d1d1d;--hol-note:#f2c200;--hol-band:none}
+header.hol-festive{--hol-bg:linear-gradient(135deg,#7b1e3a,#c0392b);--hol-bd:#f1c40f;--hol-ring:#f1c40f;--hol-ink:#fff;--hol-note:#f1c40f;--hol-band:none}
