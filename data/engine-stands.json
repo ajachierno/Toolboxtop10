@@ -2,10 +2,11 @@
   "slug": "engine-stands",
   "title": "The 10 Best Engine Stands",
   "subtitle": "Rotating engine stands for rebuilds and swaps, ranked from live Amazon data.",
-  "intro": "An engine stand holds a pulled engine at working height and lets you roll it over to get at the bottom end. Amazon's best-sellers run from 750 lb stands around $70 to 1,500 lb folding stands near $150, with pro self-locking stands above $400. We ranked 10 on star rating, review volume, and features (1,000 lb or more capacity, a folding frame, locking casters, a tool tray, and self-locking rotation).",
-  "data_captured": "2026-11-05",
-  "audited": "2026-10-10",
+  "intro": "An engine stand holds a pulled engine at working height and lets you roll it over to get at the bottom end. Amazon's best-sellers run from 750 lb stands around $70 to 2,000 lb folding stands near $170, with pro self-locking stands above $400. We ranked 10 on star rating, review volume, and features (1,000 lb or more capacity, a folding frame, locking casters, a tool tray, and self-locking rotation).",
+  "data_captured": "2026-11-07",
+  "audited": "2026-11-07",
   "changelog": [
+    {"date": "2026-11-07", "note": "Replaced the BIG RED AT23401BR (unavailable), BIG RED T26801 and JEGS 555-80041 (no longer top sellers) with the Tolpassa 2,000 lb folding stand, the Hantec HNTSM1 and the YELLOW JACKET 1,000 lb stand. Badges unchanged."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the BIG RED T26801 dropped from $709.99 to $129.10; the VEVOR 1,500 lb Folding Stand dropped from $119.90 to $101; the VEVOR 1,300 lb Stand rose from $95.98 to $108.90."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the BIG RED T26801 rose from $149.99 to $709.99."},
     {
@@ -74,7 +75,7 @@
       "image": "https://m.media-amazon.com/images/I/61M0-7sk37L._AC_SX425_.jpg",
       "price": 71.90,
       "rating": 4.5,
-      "reviews_count": 524,
+      "reviews_count": 527,
       "bought": "600+/mo",
       "specs": {
         "capacity": "750 lb",
@@ -106,9 +107,9 @@
       "brand": "VEVOR",
       "model": "1,500 lb Folding Stand",
       "image": "https://m.media-amazon.com/images/I/61Md8WeYEWL._AC_SX425_.jpg",
-      "price": 101.00,
-      "rating": 3.6,
-      "reviews_count": 317,
+      "price": 101.07,
+      "rating": 3.7,
+      "reviews_count": 318,
       "bought": "200+/mo",
       "specs": {
         "capacity": "1,500 lb",
@@ -130,7 +131,7 @@
         "Folds to 14.8 in. wide"
       ],
       "cons": [
-        "3.6 stars, the lowest rating on this list",
+        "3.7 stars, the lowest rating on this list",
         "62 lb; heavier to set up than the 750 lb stands"
       ]
     },
@@ -157,9 +158,9 @@
         "tool_tray": false,
         "self_locking": false
       },
-      "verdict": "The middle VEVOR: 1,300 lb on a U-shaped base with four swivel casters, two of them locking, for less than $100.",
+      "verdict": "The middle VEVOR: 1,300 lb on a U-shaped base with four swivel casters, two of them locking, for about $109.",
       "pros": [
-        "1,300 lb capacity for under $100",
+        "1,300 lb capacity for about $109",
         "U-shaped base and four swivel casters (two brake)",
         "4.3 stars across 281 reviews"
       ],
@@ -169,72 +170,32 @@
       ]
     },
     {
-      "asin": "B0BX6PCQG2",
-      "name": "Big RED AT23401BR Engine Stand, 3/8 Ton (750 lb), Steel Rotating Engine Motor Stand, 3-Caster",
-      "brand": "BIG RED",
-      "model": "AT23401BR",
-      "image": "https://m.media-amazon.com/images/I/51C5nCVKQ2L._AC_SX425_.jpg",
-      "price": 92.70,
-      "rating": 4.4,
-      "reviews_count": 1136,
-      "specs": {
-        "capacity": "750 lb",
-        "casters": "3 (1 swivel)",
-        "storage": "Fixed frame",
-        "weight": null
-      },
-      "features": {
-        "high_capacity": false,
-        "folding": false,
-        "locking_casters": false,
-        "tool_tray": false,
-        "self_locking": false
-      },
-      "verdict": "Torin's Big Red 750 lb stand, the most-reviewed engine stand we found. A classic three-caster T-design with an extra-wide base and a 1-year warranty.",
-      "pros": [
-        "4.4 stars across 1,100+ reviews",
-        "Extra-wide base; powder-coated steel",
-        "1-year limited warranty"
-      ],
-      "cons": [
-        "Three casters and a T-base; it's tippier than an H-base when rolling a loaded block",
-        "750 lb rating",
-        "Low stock when we checked"
-      ]
+      "asin": "B0GTQGKS5J",
+      "name": "Tolpassa 2,000 lb Folding Rotating Engine Stand, 6 Swivel Casters, 360° Adjustable Head, Q235 Steel (Y-2000LBSFDJZJ-RED)",
+      "brand": "Tolpassa", "model": "Y-2000LBSFDJZJ-RED",
+      "image": "https://m.media-amazon.com/images/I/61pO6gZ9jIL._AC_SL1500_.jpg",
+      "price": 169.99, "rating": 4.0, "reviews_count": 7,
+      "specs": { "capacity": "2,000 lb", "casters": "6 swivel", "storage": "Folding frame", "weight": null },
+      "features": { "high_capacity": true, "folding": true, "locking_casters": false, "tool_tray": false, "self_locking": false },
+      "verdict": "The highest-capacity stand here: a powder-coated Q235 steel folding stand rated for 2,000 lb, on six swivel casters with a U-shaped base and a 360° head turned by a twist handle.",
+      "best_for": "Big truck engines that need capacity to spare.",
+      "skip_if": "You want locking casters or a self-locking gearbox; the listing mentions neither.",
+      "pros": ["2,000 lb rating", "Folds for storage", "Six swivel casters"],
+      "cons": ["Stand weight not listed", "No caster locks listed"]
     },
     {
-      "asin": "B004R900GO",
-      "name": "BIG RED T26801 Torin Steel Rotating Engine Stand with Folding Frame, 3/4 Ton (1,500 lb)",
-      "brand": "BIG RED",
-      "model": "T26801",
-      "image": "https://m.media-amazon.com/images/I/61CG1hC-aQL._AC_SX425_.jpg",
-      "price": 129.10,
-      "rating": 4.2,
-      "reviews_count": 9,
-      "specs": {
-        "capacity": "1,500 lb",
-        "casters": "5 (3 swivel)",
-        "storage": "Folding frame",
-        "weight": "76.7 lb"
-      },
-      "features": {
-        "high_capacity": true,
-        "folding": true,
-        "locking_casters": false,
-        "tool_tray": false,
-        "self_locking": false
-      },
-      "verdict": "The best-rated heavy-duty stand with a long track record: 1,500 lb, five casters, a folding frame, and 4.2 stars across more than 1,100 reviews.",
-      "pros": [
-        "4.2 stars across 1,100+ reviews, the best combination here",
-        "1,500 lb capacity with a folding frame",
-        "Five casters (three swivel); 9-year warranty"
-      ],
-      "cons": [
-        "76.7 lb",
-        "Listing doesn't mention caster brakes",
-        "Only two were left in stock when we checked"
-      ]
+      "asin": "B08MHSBP7H",
+      "name": "Hantec 1,200 lb Engine Stand, Heavy-Duty Steel Base, Adjustable Arms, 360° Rotating Head, Swivel Wheels (HNTSM1)",
+      "brand": "Hantec", "model": "HNTSM1",
+      "image": "https://m.media-amazon.com/images/I/515P3inIYQL._AC_SL1080_.jpg",
+      "price": 119.99, "rating": 4.7, "reviews_count": 14,
+      "specs": { "capacity": "1,200 lb (540 kg)", "casters": "Swivel wheels", "storage": "Detachable", "weight": "41.8 lb" },
+      "features": { "high_capacity": true, "folding": false, "locking_casters": false, "tool_tray": false, "self_locking": false },
+      "verdict": "A 1,200 lb (540 kg) steel stand with adjustable arms, a 360° rotating head and swivel wheels. At 41.8 lb it is one of the lighter stands here.",
+      "best_for": "Engines and transmissions in a home garage.",
+      "skip_if": "You need to fold it away; it detaches rather than folds.",
+      "pros": ["4.7 stars", "1,200 lb rating", "41.8 lb"],
+      "cons": ["No caster locks listed", "Caster count not listed"]
     },
     {
       "asin": "B00A54H71G",
@@ -242,7 +203,7 @@
       "brand": "BIG RED",
       "model": "T25671",
       "image": "https://m.media-amazon.com/images/I/61nvUmNoCtL._AC_SX425_.jpg",
-      "price": 158.32,
+      "price": 159.99,
       "rating": 4.3,
       "reviews_count": 299,
       "specs": {
@@ -303,37 +264,18 @@
       ]
     },
     {
-      "asin": "B078WHRHFY",
-      "name": "JEGS Engine Stand, 1,250 lb Capacity, 555-80041",
-      "brand": "JEGS",
-      "model": "555-80041",
-      "image": "https://m.media-amazon.com/images/I/51h3I53mQQL._AC_SX425_.jpg",
-      "price": 103.98,
-      "rating": 4.4,
-      "reviews_count": 248,
-      "specs": {
-        "capacity": "1,250 lb",
-        "casters": "Ball-bearing swivel",
-        "storage": "Disassembles",
-        "weight": "63.4 lb"
-      },
-      "features": {
-        "high_capacity": true,
-        "folding": false,
-        "locking_casters": false,
-        "tool_tray": false,
-        "self_locking": false
-      },
-      "verdict": "JEGS' 1,250 lb square-tube stand. It comes apart for storage or a trip to the machine shop.",
-      "pros": [
-        "Heavy-gauge square steel tube",
-        "Disassembles for storage or transport",
-        "4.4 stars across about 250 reviews"
-      ],
-      "cons": [
-        "Doesn't fold; you take it apart instead",
-        "No caster brakes listed"
-      ]
+      "asin": "B0G7ZGFSZY",
+      "name": "YELLOW JACKET 1,000 lb Rotating Engine Stand, 360° Head, 4 Adjustable Arms, Swivel Casters, Steel Triangular Base",
+      "brand": "YELLOW JACKET", "model": "1/2 ton stand",
+      "image": "https://m.media-amazon.com/images/I/51ZSyTaxBSL._AC_SL1500_.jpg",
+      "price": 89.99, "rating": 5.0, "reviews_count": 2,
+      "specs": { "capacity": "1,000 lb", "casters": "Swivel casters", "storage": "Fixed frame", "weight": null },
+      "features": { "high_capacity": true, "folding": false, "locking_casters": false, "tool_tray": false, "self_locking": false },
+      "verdict": "A 1,000 lb steel stand with a 360° head, four adjustable arms, swivel casters and a triangular base, for about $90.",
+      "best_for": "Car-engine rebuilds and teardowns on a budget.",
+      "skip_if": "You want a folding frame or caster locks; the listing lists neither.",
+      "pros": ["1,000 lb rating for about $90", "360° head, 4 adjustable arms", "5.0 stars"],
+      "cons": ["Stand weight and caster count not listed", "No model number on the listing"]
     },
     {
       "asin": "B0FSKJYK19",
@@ -361,7 +303,7 @@
       "pros": [
         "1,500 lb capacity and folds flat",
         "Telescoping frame; head rotates and pivots",
-        "About $22 less than the Big Red T26801"
+        "About $40 less than the Tolpassa 2,000 lb"
       ],
       "cons": [
         "Only 22 reviews",
@@ -397,7 +339,7 @@
         "Heavy 95 lb steel frame"
       ],
       "cons": [
-        "About $440, three times a Big Red",
+        "About $440, nearly three times the Big Red T25671",
         "1,000 lb capacity is below the 1,500 lb imports"
       ],
       "premium": true
@@ -414,7 +356,7 @@
       "rating": 1.2,
       "reviews_count": 7,
       "flag": "Capacity claim doesn't add up",
-      "verdict": "It claims more capacity than the 1,500 lb stands on our list, on a frame that weighs about the same as a 750 lb stand. The VEVOR 1,300 lb costs about $27 more and publishes a believable rating.",
+      "verdict": "It claims more capacity than the 1,500 lb stands on our list, on a frame that weighs about the same as a 750 lb stand. The VEVOR 1,300 lb costs about $38 more and publishes a believable rating.",
       "reasons": [
         "The title calls 3/4 ton \"1,600 lbs\". Three-quarters of a ton is 1,500 lb, so even the headline number is wrong.",
         "The listing's shipping weight is 43.3 lb, the same as a seller's 880 lb stand and close to VEVOR's 41 lb, 750 lb model. The 1,500 lb stands here weigh 62 to 77 lb.",
@@ -430,11 +372,11 @@
     },
     {
       "q": "Three casters or four or more?",
-      "a": "Three-caster T-base stands are cheap and common, but they tip more easily when you roll a loaded engine over a crack or bump. H-base and U-base stands with four or five casters are steadier. The 1,500 lb VEVOR and the Big Red T26801 both use five."
+      "a": "Three-caster T-base stands are cheap and common, but they tip more easily when you roll a loaded engine over a crack or bump. H-base and U-base stands with four or five casters are steadier. The 1,500 lb VEVOR and the Maxority both use five."
     },
     {
       "q": "Does a folding stand matter?",
-      "a": "Only if you're short on space. Folding stands like the VEVOR 1,500 lb (14.8 in. folded), Big Red T26801, and Maxority stand against a wall between projects. Fixed-frame stands are slightly simpler and usually cheaper."
+      "a": "Only if you're short on space. Folding stands like the VEVOR 1,500 lb (14.8 in. folded), Tolpassa, and Maxority stand against a wall between projects. Fixed-frame stands are slightly simpler and usually cheaper."
     },
     {
       "q": "Will it fit my engine?",

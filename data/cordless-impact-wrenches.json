@@ -2,10 +2,11 @@
   "slug": "cordless-impact-wrenches",
   "title": "The 10 Best Cordless Impact Wrenches",
   "subtitle": "Battery-powered impact wrenches ranked from live Amazon data — for lug nuts, suspension bolts, and rusted hardware.",
-  "intro": "These are the best-selling cordless impact wrenches on Amazon right now, scored on rating, review volume, and a few features that matter on this tool: a complete kit, a hog ring anvil for quick socket changes, and selectable speed modes. The list splits into two camps: DEWALT, Milwaukee, and CRAFTSMAN tools with up to 1,400 ft-lbs of breakaway torque, and $55-85 kits that include batteries but lock you into their own battery. Torque figures on the budget listings are the maker's own claims, not independent tests.",
-  "data_captured": "2026-11-04",
-  "audited": "2026-09-23",
+  "intro": "These are the best-selling cordless impact wrenches on Amazon right now, scored on rating, review volume, and a few features that matter on this tool: a complete kit, a hog ring anvil for quick socket changes, and selectable speed modes. The list splits into two camps: DEWALT and Milwaukee tools with up to 1,400 ft-lbs of breakaway torque, and $70-100 kits that include batteries but lock you into their own battery. Torque figures on the budget listings are the maker's own claims, not independent tests.",
+  "data_captured": "2026-11-07",
+  "audited": "2026-11-07",
   "changelog": [
+    {"date": "2026-11-07", "note": "Replaced the CRAFTSMAN CMCF940M1 (listing removed from Amazon) with the SOARFLY 1,106 ft-lb kit, and the KIMO 3603 (no longer a top seller) with the JESIMAIK Z1320. Best Overall is now the DEWALT DCF900P1 kit; Money No Object moved to the Milwaukee 2967-20. The Seesii WH9 Pro rose from $79.99 to $99.99."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the MAGSEN 21V 1/2\" kit rose from $80.99 to $99.99; the DEWALT DCF900P1 dropped from $269 to $244."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DCF900P1 dropped from $320.80 to $269; the DEWALT DCF921B rose from $139.99 to $158.99; the CRAFTSMAN CMCF940M1 dropped from $199 to $179."},
     {"date": "2026-10-06", "note": "The Protmex JKO-09 no longer has a featured offer on Amazon, so it's replaced by the MAGSEN 900 ft-lb kit ($85.49, 1K+ sold last month). Prices re-checked on the other picks; the Milwaukee 2967-20 rose from $239.77 to $265. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
@@ -66,52 +67,28 @@
   ],
   "products": [
     {
-      "asin": "B0BJLFSN22",
-      "force_overall": true,
-      "name": "CRAFTSMAN V20 RP Brushless 1/2\" High Torque Impact Wrench Kit, 4Ah Battery and Charger (CMCF940M1)",
-      "brand": "CRAFTSMAN",
-      "model": "CMCF940M1",
-      "image": "https://m.media-amazon.com/images/I/717ChtBDGeL._AC_SX425_.jpg",
-      "price": 179.00,
-      "rating": 4.8,
-      "reviews_count": 1020,
-      "bought": "900+/mo",
-      "specs": {
-        "voltage": "20V",
-        "drive": "1/2 in, hog ring",
-        "torque": "700 ft-lbs fastening / 1,000 ft-lbs breakaway",
-        "battery": "1 x 4.0Ah + charger",
-        "modes": "3 speeds"
-      },
-      "features": {
-        "kit": true,
-        "hog_ring": true,
-        "multi_mode": true
-      },
-      "verdict": "The one to buy if you don't already own a battery platform. A brushless 1/2-inch wrench with 1,000 ft-lbs of breakaway torque, a 4Ah battery, and a charger for $179, rated 4.8 stars across nearly 1,000 reviews.",
-      "best_for": "Starting fresh: a complete kit that breaks loose lug nuts and rusted bolts.",
-      "skip_if": "You already own DEWALT or Milwaukee batteries.",
-      "pros": [
-        "Complete kit: tool, 4Ah battery, and charger",
-        "1,000 ft-lbs breakaway handles lug nuts and rusted suspension bolts",
-        "Hog ring anvil, 3 speed settings, LED light",
-        "Sold and shipped by Amazon"
-      ],
-      "cons": [
-        "700 ft-lbs fastening is below the DEWALT DCF900's 1,030",
-        "CRAFTSMAN V20 batteries are a smaller ecosystem than DEWALT or Milwaukee"
-      ]
+      "asin": "B0HCC7S3K4",
+      "name": "SOARFLY 1/2\" Brushless Cordless Impact Wrench, 1,106 ft-lbs, 3 Speeds, Reverse Auto-Stop, 2 x 4.0Ah Batteries",
+      "brand": "SOARFLY", "model": "1500Nm 1/2\" wrench",
+      "image": "https://m.media-amazon.com/images/I/81CvwxsZ0jL._AC_SL1500_.jpg",
+      "price": 99.99, "rating": 4.8, "reviews_count": 29, "bought": "50+/mo",
+      "specs": { "voltage": null, "drive": "1/2 in", "torque": "1,106 ft-lbs (1,500 N·m) breakaway; spec table says 1,360 N·m", "battery": "2 x 4.0Ah", "modes": "3 speeds + reverse auto-stop" },
+      "features": { "kit": true, "hog_ring": false, "multi_mode": true },
+      "verdict": "A brushless 1/2-inch wrench with two 4.0Ah batteries, three speeds (2,000, 2,500 and 3,000 rpm) and a reverse auto-stop that slows the anvil once a nut breaks loose, for about $100.",
+      "best_for": "Lug nuts and rusted bolts, with a spare battery in the kit.",
+      "skip_if": "You want one clear torque figure; the listing gives both 1,500 N·m and 1,360 N·m.",
+      "pros": ["Two 4.0Ah batteries included", "Three speeds plus reverse auto-stop", "4.8 stars"],
+      "cons": ["Listing quotes two different torque figures", "Proprietary battery; voltage not listed", "Charger not named in the box contents"]
     },
     {
       "asin": "B0B9T821KC",
-      "premium": true,
       "name": "DEWALT 20V MAX XR Brushless High Torque 1/2\" Impact Wrench Kit with Hog Ring Anvil, Battery, Charger and Bag (DCF900P1)",
       "brand": "DEWALT",
       "model": "DCF900P1",
       "image": "https://m.media-amazon.com/images/I/81rSIJtrJRL._AC_SX425_.jpg",
       "price": 244.00,
       "rating": 4.7,
-      "reviews_count": 2805,
+      "reviews_count": 2807,
       "bought": "1K+/mo",
       "specs": {
         "voltage": "20V MAX",
@@ -127,7 +104,7 @@
       },
       "verdict": "The strongest wrench on this list, sold as a complete kit. 1,400 ft-lbs of breakaway torque breaks loose truck lug nuts and seized hardware that the budget wrenches just hammer on.",
       "best_for": "Truck lug nuts and seized hardware, in a complete kit.",
-      "skip_if": "You just rotate car tires; it's four times the price of the value kits.",
+      "skip_if": "You just rotate car tires; it's about three times the price of the value kits.",
       "pros": [
         "1,400 ft-lbs breakaway, 1,030 ft-lbs fastening",
         "Precision Wrench mode helps prevent overtightening and fastener run-off",
@@ -135,7 +112,7 @@
         "2,700+ reviews at 4.7 stars"
       ],
       "cons": [
-        "$320 is four times the price of the value kits",
+        "$244 is about three times the price of the value kits",
         "Overkill for rotating tires on a car"
       ]
     },
@@ -145,9 +122,9 @@
       "brand": "DEWALT",
       "model": "DCF900B",
       "image": "https://m.media-amazon.com/images/I/71Iy4AYMg9L._AC_SX425_.jpg",
-      "price": 196.25,
+      "price": 239.94,
       "rating": 4.8,
-      "reviews_count": 2642,
+      "reviews_count": 2653,
       "bought": "2K+/mo",
       "specs": {
         "voltage": "20V MAX",
@@ -181,10 +158,10 @@
       "brand": "DEWALT",
       "model": "DCF921B",
       "image": "https://m.media-amazon.com/images/I/51pa9bfvqyL._AC_SX425_.jpg",
-      "price": 165.00,
+      "price": 175.99,
       "rating": 4.8,
-      "reviews_count": 1066,
-      "bought": "1K+/mo",
+      "reviews_count": 1071,
+      "bought": "900+/mo",
       "specs": {
         "voltage": "20V MAX",
         "drive": "1/2 in, hog ring",
@@ -212,14 +189,14 @@
       ]
     },
     {
-      "asin": "B0CLF1DHHW",
+      "asin": "B0CLF1DHHW", "premium": true,
       "name": "Milwaukee M18 FUEL 1/2\" High Torque Impact Wrench with Friction Ring, Tool Only (2967-20)",
       "brand": "Milwaukee",
       "model": "2967-20",
       "image": "https://m.media-amazon.com/images/I/515REkS8lnL._AC_SX425_.jpg",
-      "price": 259.97,
+      "price": 265.97,
       "rating": 4.7,
-      "reviews_count": 1916,
+      "reviews_count": 1921,
       "bought": "2K+/mo",
       "specs": {
         "voltage": "18V",
@@ -253,9 +230,9 @@
       "brand": "Milwaukee",
       "model": "2854-20",
       "image": "https://m.media-amazon.com/images/I/51PCnOV51vL._AC_SX425_.jpg",
-      "price": 149.89,
+      "price": 148.99,
       "rating": 4.8,
-      "reviews_count": 2052,
+      "reviews_count": 2055,
       "bought": "1K+/mo",
       "specs": {
         "voltage": "18V",
@@ -290,9 +267,9 @@
       "brand": "Seesii",
       "model": "WH9 Pro",
       "image": "https://m.media-amazon.com/images/I/81sgxhEQ9-L._AC_SX425_.jpg",
-      "price": 79.99,
+      "price": 99.99,
       "rating": 4.4,
-      "reviews_count": 1827,
+      "reviews_count": 1833,
       "bought": "3K+/mo",
       "specs": {
         "voltage": "21V",
@@ -306,7 +283,7 @@
         "hog_ring": false,
         "multi_mode": false
       },
-      "verdict": "The best-selling budget kit: two 4Ah batteries, a charger, six sockets, and a case for $80. Plenty for rotating tires and yard-equipment bolts.",
+      "verdict": "The best-selling budget kit: two 4Ah batteries, a charger, six sockets, and a case for $100. Plenty for rotating tires and yard-equipment bolts.",
       "best_for": "Rotating tires and yard equipment with a two-battery kit.",
       "skip_if": "You want batteries that fit a major brand.",
       "pros": [
@@ -327,8 +304,8 @@
       "image": "https://m.media-amazon.com/images/I/81vSrQXVwtL._AC_SX425_.jpg",
       "price": 69.99,
       "rating": 4.5,
-      "reviews_count": 1445,
-      "bought": "500+/mo",
+      "reviews_count": 1446,
+      "bought": "400+/mo",
       "specs": {
         "voltage": "21V",
         "drive": "1/2 in",
@@ -341,8 +318,8 @@
         "hog_ring": false,
         "multi_mode": true
       },
-      "verdict": "A light, complete kit at about $66: two batteries, a charger, and three speed settings. The reverse auto-stop slows the tool once a nut breaks free so it doesn't spin off onto the floor.",
-      "best_for": "A light, complete kit with reverse auto-stop for about $66.",
+      "verdict": "A light, complete kit at about $70: two batteries, a charger, and three speed settings. The reverse auto-stop slows the tool once a nut breaks free so it doesn't spin off onto the floor.",
+      "best_for": "A light, complete kit with reverse auto-stop for about $70.",
       "skip_if": "You want batteries that fit a major brand.",
       "pros": [
         "3.74 lb with battery",
@@ -359,7 +336,7 @@
       "name": "MAGSEN 1/2\" Cordless Impact Wrench, 900 ft-lbs, Brushless, 3 Speeds, 2x 4.0Ah Batteries, 5 Sockets",
       "brand": "MAGSEN", "model": "21V 1/2\" kit",
       "image": "https://m.media-amazon.com/images/I/81MTd2ZayWL._AC_SL1500_.jpg",
-      "price": 99.99, "rating": 4.5, "reviews_count": 765, "bought": "700+/mo",
+      "price": 89.99, "rating": 4.5, "reviews_count": 772, "bought": "700+/mo",
       "specs": { "voltage": "21V", "drive": "1/2 in", "torque": "900 ft-lbs (1,200 N·m) claimed", "battery": "2 x 4.0Ah + charger", "modes": "3 speeds + reverse auto-stop" },
       "features": { "kit": true, "hog_ring": false, "multi_mode": true },
       "verdict": "A complete car-tire kit: brushless 1/2-inch wrench, two 4Ah batteries, a fast charger, five metric impact sockets, an extension and a hard case. Over 1,000 sold last month. The 900 ft-lb figure is the seller's claim, not an independent test.",
@@ -369,40 +346,18 @@
       "cons": ["Uses its own 21V battery that fits no major tool platform", "The listing gives the weight as 10 lbs, heavy for overhead work"]
     },
     {
-      "asin": "B0GLPKVTDN",
-      "name": "KIMO 20V 1/2\" Brushless Cordless Impact Wrench, 410 ft-lbs, 4.0Ah Battery, 4 Sockets and 9-Piece Drill/Driver Set (3603)",
-      "brand": "KIMO",
-      "model": "3603",
-      "image": "https://m.media-amazon.com/images/I/71H8XGln4pL._AC_SX425_.jpg",
-      "price": 55.99,
-      "rating": 4.6,
-      "reviews_count": 4744,
-      "bought": "100+/mo",
-      "specs": {
-        "voltage": "20V",
-        "drive": "1/2 in + 1/4 in hex adapter",
-        "torque": "410 ft-lbs (550 N·m)",
-        "battery": "1 x 4.0Ah + charger",
-        "modes": null
-      },
-      "features": {
-        "kit": true,
-        "hog_ring": false,
-        "multi_mode": false
-      },
-      "verdict": "The cheapest usable kit here: a brushless wrench, one 4Ah battery, a charger, lug sockets, and a hex adapter with drill and driver bits for about $56. Fine for car tires and household jobs.",
-      "best_for": "Car tires and household jobs with the cheapest usable kit.",
-      "skip_if": "You face seized or truck hardware; 410 ft-lbs is light.",
-      "pros": [
-        "About $56 for a complete kit",
-        "Most-reviewed wrench on the list, 4.6 stars",
-        "Hex converter turns it into a driver for screws and bits"
-      ],
-      "cons": [
-        "Aluminum anvil, softer than the steel anvils on the brand-name tools",
-        "One battery, not two",
-        "410 ft-lbs is light for seized or truck hardware"
-      ]
+      "asin": "B0G42F9TRM",
+      "name": "JESIMAIK 1/2\" Brushless Cordless Impact Wrench, 900 ft-lbs, 4 Impact Modes, 2 x 4.0Ah Batteries, 5 Sockets and Case (Z1320)",
+      "brand": "JESIMAIK", "model": "Z1320",
+      "image": "https://m.media-amazon.com/images/I/71AeBzoCVWL._AC_SL1500_.jpg",
+      "price": 85.98, "rating": 4.6, "reviews_count": 254, "bought": "700+/mo",
+      "specs": { "voltage": "21V", "drive": "1/2 in", "torque": "900 ft-lbs (1,200 N·m) breakaway", "battery": "2 x 4.0Ah", "modes": "4 impact modes + 3 auto-stop modes" },
+      "features": { "kit": true, "hog_ring": false, "multi_mode": true },
+      "verdict": "A 2.98 lb, 8.3-inch brushless wrench sold with two 4.0Ah batteries, four impact modes, three auto-stop modes, five sockets and a case for about $86.",
+      "best_for": "Tire changes and mower blades with a compact two-battery kit.",
+      "skip_if": "You want batteries that fit a major tool brand.",
+      "pros": ["700+ bought in the past month", "Two 4.0Ah batteries, sockets and case", "2.98 lbs, 8.3 in long"],
+      "cons": ["Proprietary 21V battery", "Only a breakaway torque figure is listed"]
     }
   ],
   "avoid": [
@@ -413,15 +368,15 @@
       "model": "Ratchet-7",
       "image": "https://m.media-amazon.com/images/I/718Gp14x5sL._AC_SX425_.jpg",
       "price": 19.99,
-      "rating": 3.8,
-      "reviews_count": 54,
+      "rating": 3.9,
+      "reviews_count": 55,
       "flag": "Listing contradicts itself",
       "verdict": "A $19 unbranded wrench whose listing can't agree with itself on how many speeds it has or even what tool it is, sold to run on batteries from a brand that doesn't make or warranty it.",
       "reasons": [
         "The title says 2-speed; the bullet points say 3 speed modes",
         "The listing's own details give the model as \"Ratchet-7\" and the included component as a \"Cordless Ratchet Wrench\", not an impact wrench",
         "Marketed for DeWalt 20V MAX batteries, but it isn't a DeWalt tool: no DeWalt warranty, and its spec table lists it as 21V",
-        "3.8 stars, the lowest rating of any impact wrench in the search results we reviewed"
+        "3.9 stars, the lowest rating of any impact wrench in the search results we reviewed"
       ]
     }
   ],
