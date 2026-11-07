@@ -1327,6 +1327,51 @@ def holiday_configs():
     return out
 
 
+
+# Holiday buttons wear their holiday: a seasonal.json holiday entry may set "theme" explicitly;
+# otherwise the slug picks one below (first keyword match wins). A holiday that matches nothing
+# gets the generic "festive" look and the build prints a warning, so add a keyword (and CSS in
+# HOLIDAY_THEME_CSS) or set "theme" on the entry. Gift guides are year-round and stay plain.
+HOLIDAY_THEMES = [
+    ("patriotic", ("veterans", "memorial", "july-4", "4th-of-july", "fourth-of-july", "independence",
+                   "presidents", "labor-day", "flag-day")),
+    ("christmas", ("christmas", "xmas")),
+    ("new-year", ("new-year", "new-years")),
+    ("black-friday", ("black-friday",)),
+    ("cyber-monday", ("cyber-monday",)),
+    ("prime-day", ("prime-day", "prime-big-deal")),
+    ("thanksgiving", ("thanksgiving",)),
+    ("halloween", ("halloween",)),
+    ("valentines", ("valentine",)),
+    ("st-patricks", ("st-patrick", "saint-patrick")),
+    ("easter", ("easter",)),
+    ("mothers-day", ("mothers-day", "mother-s-day")),
+    ("fathers-day", ("fathers-day", "father-s-day")),
+    ("back-to-school", ("back-to-school",)),
+]
+HOLIDAY_THEME_NAMES = {t for t, _ in HOLIDAY_THEMES} | {"festive"}
+
+
+def holiday_theme(cfg):
+    """Theme name for a holiday config: its "theme" key, else the first slug keyword match."""
+    if cfg.get("theme") in HOLIDAY_THEME_NAMES:
+        return cfg["theme"]
+    slug = cfg.get("slug", "")
+    for theme, words in HOLIDAY_THEMES:
+        if any(w in slug for w in words):
+            return theme
+    print(f"  WARNING: holiday {slug!r} has no button theme; using 'festive'. "
+          f"Set \"theme\" in seasonal.json or add it to HOLIDAY_THEMES.")
+    return "festive"
+
+
+def seasonal_theme_class(slug):
+    """' hol hol-<theme>' for a holiday page's strip button, '' for gift guides."""
+    for h in holiday_configs():
+        if h.get("slug") == slug:
+            return f" hol hol-{holiday_theme(h)}"
+    return ""
+
 def reveal_attr(window):
     """Show a link only inside its (link_from, link_until) window (YYYY-MM-DD, either may be
     None). The page itself stays live and in the sitemap, so search engines index it;
@@ -1572,7 +1617,7 @@ def render_seasonal_strip():
     pages = seasonal_pages()
     if not pages:
         return ""
-    links = "".join(f'<a class="btn" href="{s}.html"{reveal_attr(lf)}>{esc(t)} &rarr;</a>' for s, t, lf in pages)
+    links = "".join(f'<a class="btn{seasonal_theme_class(s)}" href="{s}.html"{reveal_attr(lf)}>{esc(t)} &rarr;</a>' for s, t, lf in pages)
     return f"""
   <section class="deals seasonal-strip">
     <h2>Holiday gift guides</h2>
@@ -2583,6 +2628,51 @@ footer{max-width:var(--max);margin:0 auto;padding:24px 20px 50px;border-top:1px 
     box-shadow:0 4px 14px rgba(0,0,0,.6);opacity:0;pointer-events:none;transition:opacity .2s}
   .to-top.show{opacity:1;pointer-events:auto}
 }
+/* holiday-themed strip buttons (see HOLIDAY_THEMES in build.py) */
+.seasonal-strip a.hol{position:relative;font-weight:800;color:#fff;border:2px solid #fff;
+  text-shadow:0 1px 2px rgba(0,0,0,.55);transition:transform .15s,filter .15s}
+.seasonal-strip a.hol:hover{filter:brightness(1.15);transform:translateY(-1px)}
+.seasonal-strip a.hol:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.seasonal-strip a.hol::before{margin-right:.45em;text-shadow:none}
+.seasonal-strip a.hol.hol-patriotic{border-color:#fff;box-shadow:0 0 0 2px #b22234;padding-bottom:18px;
+  background:repeating-linear-gradient(180deg,#b22234 0 3px,#fff 3px 6px) left bottom/100% 9px no-repeat,
+    radial-gradient(circle,rgba(255,255,255,.3) 1px,transparent 1.6px) 0 0/12px 12px,#0a3161}
+.seasonal-strip a.hol.hol-patriotic::before{content:"\2605\2605\2605";color:#fff;letter-spacing:1px}
+.seasonal-strip a.hol.hol-christmas{border-color:#c8102e;padding-bottom:16px;
+  background:repeating-linear-gradient(135deg,#c8102e 0 6px,#fff 6px 12px) left bottom/100% 7px no-repeat,#0b5d2a}
+.seasonal-strip a.hol.hol-christmas::before{content:"\2744"}
+.seasonal-strip a.hol.hol-new-year{color:#f5d76e;border-color:#d4af37;
+  background:radial-gradient(circle,rgba(245,215,110,.75) 1px,transparent 1.6px) 0 0/14px 14px,
+    linear-gradient(135deg,#0b0b1e,#2a1f5c)}
+.seasonal-strip a.hol.hol-new-year::before{content:"\2726";color:#f5d76e}
+.seasonal-strip a.hol.hol-black-friday{color:#ffd400;border-color:#ffd400;background:#000}
+.seasonal-strip a.hol.hol-black-friday::before{content:"%";font-weight:900}
+.seasonal-strip a.hol.hol-cyber-monday{color:#00e5ff;border-color:#ff00c8;
+  box-shadow:0 0 10px rgba(0,229,255,.45);background:linear-gradient(135deg,#0f0c29,#302b63)}
+.seasonal-strip a.hol.hol-cyber-monday::before{content:"\00BB"}
+.seasonal-strip a.hol.hol-prime-day{border-color:#ffb400;background:linear-gradient(135deg,#0b3d91,#00a8e1)}
+.seasonal-strip a.hol.hol-prime-day::before{content:"\2713";color:#ffb400}
+.seasonal-strip a.hol.hol-thanksgiving{color:#ffe8c2;border-color:#e8a33d;background:linear-gradient(135deg,#7a3e12,#c2601d)}
+.seasonal-strip a.hol.hol-thanksgiving::before{content:"\2766"}
+.seasonal-strip a.hol.hol-halloween{color:#ff8c1a;border-color:#ff8c1a;padding-bottom:16px;
+  background:repeating-linear-gradient(135deg,#ff8c1a 0 6px,#111 6px 12px) left bottom/100% 6px no-repeat,#1a1023}
+.seasonal-strip a.hol.hol-halloween::before{content:"\263E"}
+.seasonal-strip a.hol.hol-valentines{border-color:#ffccd5;background:linear-gradient(135deg,#c9184a,#ff4d6d)}
+.seasonal-strip a.hol.hol-valentines::before{content:"\2665"}
+.seasonal-strip a.hol.hol-st-patricks{border-color:#f5c542;background:#0b6e3a}
+.seasonal-strip a.hol.hol-st-patricks::before{content:"\2618";color:#f5c542}
+.seasonal-strip a.hol.hol-easter{color:#3b2a5a;text-shadow:none;border-color:#b39ddb;
+  background:linear-gradient(135deg,#ffd6e8,#cde7ff,#e2f7d0)}
+.seasonal-strip a.hol.hol-easter::before{content:"\273F"}
+.seasonal-strip a.hol.hol-mothers-day{color:#4a1942;text-shadow:none;border-color:#ec407a;
+  background:linear-gradient(135deg,#f8bbd0,#e1bee7)}
+.seasonal-strip a.hol.hol-mothers-day::before{content:"\273F";color:#ec407a}
+.seasonal-strip a.hol.hol-fathers-day{color:#f2d0a4;border-color:#c08a52;background:linear-gradient(135deg,#1b2a41,#324a5f)}
+.seasonal-strip a.hol.hol-fathers-day::before{content:"\2605"}
+.seasonal-strip a.hol.hol-back-to-school{color:#1d1d1d;text-shadow:none;border-color:#1d1d1d;background:#f2c200}
+.seasonal-strip a.hol.hol-back-to-school::before{content:"\270E"}
+.seasonal-strip a.hol.hol-festive{border-color:#f1c40f;background:linear-gradient(135deg,#7b1e3a,#c0392b)}
+.seasonal-strip a.hol.hol-festive::before{content:"\2726";color:#f1c40f}
 """
 
 CSS_TEXT = CSS + price_tracker.CSS
