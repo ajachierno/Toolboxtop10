@@ -2,10 +2,11 @@
   "slug": "corded-rotary-hammers",
   "title": "The 10 Best Corded Rotary Hammers",
   "subtitle": "SDS-Plus rotary hammers for concrete and masonry, ranked from live Amazon data.",
-  "intro": "A rotary hammer drills concrete, brick, and block much faster than a regular hammer drill, and most can switch to hammer-only mode for chipping tile or mortar. We ranked 10 corded SDS-Plus best-sellers on rating, review volume, and features (vibration control, a slip clutch, and bits and chisels in the box). They run from a $55 9-amp starter kit to $179 for the Bosch Bulldog Xtreme.",
-  "data_captured": "2026-11-04",
-  "audited": "2026-11-04",
+  "intro": "A rotary hammer drills concrete, brick, and block much faster than a regular hammer drill, and most can switch to hammer-only mode for chipping tile or mortar. We ranked 10 corded SDS-Plus best-sellers on rating, review volume, and features (vibration control, a slip clutch, and bits and chisels in the box). They run from a $55 9-amp starter kit to $255 for the Makita HR2641.",
+  "data_captured": "2026-11-08",
+  "audited": "2026-11-08",
   "changelog": [
+    {"date": "2026-11-08", "note": "Replaced the DEWALT D25263K and Bosch 11255VSR, which Amazon no longer lists, with the Makita HR2641 (now Best Overall, $255) and the ENEACRO 12.5 A 1-1/4 in ($99.99). The DOVAMAN RH15A listing is gone too, so the VEVOR Z1C-DS-50K, whose title, bullets and spec table disagree on chuck type and amperage, is the new pick to avoid."},
     {"date": "2026-11-04", "note": "Replaced the Bosch GBH2-28L (no featured offer on Amazon), the Makita HR2641 and the VEVOR Z1C-DS-24FQ, which fell out of the best-seller list, with the DEKOPRO 12.5 A 1-1/4 in, Seesii SE-EH09 and WORKPRO W125173A. With the Bosch GBH2-28L gone, the page no longer has a Money No Object pick."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Dong Cheng DZC03-28 rose from $62.99 to $72.99."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DOVAMAN RH15A rose from $87.97 to $109.97; the Dong Cheng DZC03-28 rose from $55.99 to $62.99."},
@@ -67,79 +68,32 @@
   ],
   "products": [
     {
-      "asin": "B00VNBV2F2",
-      "force_overall": true,
-      "name": "DEWALT SDS Plus Rotary Hammer Drill, 1-1/8 in., Vibration Control, Corded (D25263K)",
-      "brand": "DEWALT",
-      "model": "D25263K",
-      "image": "https://m.media-amazon.com/images/I/61u0iPg02wL._SL1000_.jpg",
-      "price": 176.26,
-      "rating": 4.7,
-      "reviews_count": 1564,
-      "bought": "300+/mo",
-      "specs": {
-        "amps": "8.5 A",
-        "impact": "3.0 J",
-        "capacity": "1-1/8\"",
-        "modes": null,
-        "warranty": "3 years"
-      },
-      "features": {
-        "vibration_control": true,
-        "safety_clutch": true,
-        "kit": false
-      },
-      "verdict": "The one to buy if you drill concrete more than once in a while: an 8.5-amp D-handle hammer with DEWALT's SHOCKS vibration control, a clutch that lets go when a bit jams, and a 3-year warranty. Sold and shipped by Amazon.",
-      "best_for": "Drilling concrete more than once in a while, with low vibration and a 3-year warranty.",
-      "skip_if": "You need bits included.",
-      "pros": [
-        "SHOCKS active vibration control at the handles",
-        "Clutch cuts the sudden torque reaction when a bit binds",
-        "Longest warranty on the list: 3 years, plus 2 years of free service",
-        "Works with DEWALT's D25301D dust extractor"
-      ],
-      "cons": [
-        "No bits or chisels in the box, just the side handle, depth rod, and kit box",
-        "The listing doesn't state the tool's weight or number of modes"
-      ]
+      "asin": "B00Z5LTQYU", "force_overall": true,
+      "name": "Makita HR2641 1\" AVT Rotary Hammer, Accepts SDS-Plus Bits (D-Handle)",
+      "brand": "Makita", "model": "HR2641",
+      "image": "https://m.media-amazon.com/images/I/61lrh4Ax5jL._AC_SL1000_.jpg",
+      "price": 255.00, "rating": 4.7, "reviews_count": 230,
+      "specs": { "amps": "8 A", "impact": "2.1 ft-lb (2.9 J)", "capacity": "1\"", "modes": "3", "warranty": null },
+      "features": { "vibration_control": true, "safety_clutch": true, "kit": false },
+      "verdict": "Makita's AVT counterweight cancels much of the hammering vibration, and a torque-limiting clutch protects the gears if the bit binds. A pro-grade D-handle with three modes and 40 chisel angle settings.",
+      "best_for": "Regular concrete drilling where low vibration matters most.",
+      "skip_if": "You want bits in the box or the lowest price; it is the most expensive hammer here at $255.",
+      "pros": ["Anti-Vibration Technology counterbalance plus a damper spring", "Torque-limiting clutch", "3 modes, 40 bit angle settings and a retractable tool hook", "4.7 stars"],
+      "cons": ["Far fewer reviews than the ENEACRO hammers", "Sold by a third-party seller (DISCOUNTTOOLMALL), not Amazon", "No warranty term or box contents listed; plan on buying bits"]
     },
     {
-      "asin": "B000BB79Q6",
-      "name": "BOSCH 11255VSR Bulldog Xtreme 1 In. SDS-Plus Rotary Hammer",
-      "brand": "Bosch",
-      "model": "11255VSR",
-      "image": "https://m.media-amazon.com/images/I/513oBPM4cPL._AC_SL1000_.jpg",
-      "price": 179.00,
-      "rating": 4.7,
-      "reviews_count": 3039,
-      "bought": "300+/mo",
-      "specs": {
-        "amps": "8 A",
-        "impact": "2.0 ft-lb",
-        "capacity": "1\"",
-        "modes": "3",
-        "warranty": "1 year"
-      },
-      "features": {
-        "vibration_control": true,
-        "safety_clutch": false,
-        "kit": false
-      },
-      "verdict": "The most-reviewed name-brand rotary hammer on Amazon, with 3,000+ ratings at 4.7 stars. Three modes, 0-1,300 rpm, 0-5,800 bpm, and a 36-position Vario-Lock for setting the chisel angle.",
-      "best_for": "A proven name-brand hammer with 36 chisel positions.",
-      "skip_if": "You want the hardest hitter or a slip clutch.",
-      "pros": [
-        "3,000+ reviews averaging 4.7 stars",
-        "Vario-Lock gives 36 chisel positions",
-        "Variable-speed trigger with reverse",
-        "Sold by Amazon"
-      ],
-      "cons": [
-        "Hits lighter than the DEWALT (2.0 ft-lb)",
-        "The listing doesn't mention a slip clutch",
-        "1-year warranty on this listing",
-        "No bits included"
-      ]
+      "asin": "B07ZQY2XVQ",
+      "name": "ENEACRO 1-1/4 Inch SDS-Plus 12.5 Amp Heavy Duty Rotary Hammer Drill",
+      "brand": "ENEACRO", "model": "12.5 A 1-1/4 in",
+      "image": "https://m.media-amazon.com/images/I/71l63yx1wvL._AC_SL1500_.jpg",
+      "price": 99.99, "rating": 4.6, "reviews_count": 2812, "bought": "100+/mo",
+      "specs": { "amps": "12.5 A", "impact": "7 J (5.2 ft-lb)", "capacity": "1-1/4\"", "modes": "3", "warranty": "2 years" },
+      "features": { "vibration_control": true, "safety_clutch": true, "kit": true },
+      "verdict": "ENEACRO's 12.5-amp hammer: 7 J of rated impact, a safety clutch, three modes and a full kit of bits, chisels and a case for about $100. It ships from Amazon.",
+      "best_for": "Chiseling tile and drilling bigger holes in concrete on a budget.",
+      "skip_if": "You want a lighter hammer for overhead anchor holes; it weighs 11.1 lb bare.",
+      "pros": ["2,800+ reviews at 4.6 stars", "Safety clutch and anti-vibration handle", "3 SDS-Plus bits, 2 chisels, brushes and a case included", "24-month warranty"],
+      "cons": ["11.1 lb bare tool", "Sold by a third-party seller (ACRO TOOL), shipped by Amazon"]
     },
     {
       "asin": "B0GJZZ84XR",
@@ -148,8 +102,8 @@
       "model": "DKPHRHG150C1",
       "image": "https://m.media-amazon.com/images/I/81cxbRbyTHL._AC_SL1500_.jpg",
       "price": 89.99,
-      "rating": 4.3,
-      "reviews_count": 43,
+      "rating": 4.2,
+      "reviews_count": 47,
       "bought": "100+/mo",
       "specs": {"amps": "12.5 A", "impact": "4.1 ft-lb (5.5 J)", "capacity": "1-1/4\"", "modes": "4", "warranty": null},
       "features": {"vibration_control": false, "safety_clutch": true, "kit": true},
@@ -185,7 +139,7 @@
       "image": "https://m.media-amazon.com/images/I/71zw3N4K5cL._AC_SL1300_.jpg",
       "price": 109.95,
       "rating": 4.6,
-      "reviews_count": 3536,
+      "reviews_count": 3539,
       "bought": "300+/mo",
       "specs": {
         "amps": "13 A",
@@ -222,7 +176,7 @@
       "image": "https://m.media-amazon.com/images/I/71Ci49X7JUL._AC_SL1490_.jpg",
       "price": 109.99,
       "rating": 4.5,
-      "reviews_count": 1825,
+      "reviews_count": 1827,
       "bought": "100+/mo",
       "specs": {
         "amps": "13 A",
@@ -236,7 +190,7 @@
         "safety_clutch": true,
         "kit": true
       },
-      "verdict": "Another 13-amp, 1-1/4 inch demolition-style hammer with a full accessory kit. Same price as the ENEACRO, with fewer reviews and a thinner spec sheet.",
+      "verdict": "Another 13-amp, 1-1/4 inch demolition-style hammer with a full accessory kit. Same price as the ENEACRO ENRH3201, with fewer reviews and a thinner spec sheet.",
       "best_for": "Chipping and tile removal with a full accessory kit.",
       "skip_if": "You want a published impact rating or warranty.",
       "pros": [
@@ -258,7 +212,7 @@
       "image": "https://m.media-amazon.com/images/I/71bTDqa7tEL._AC_SL1500_.jpg",
       "price": 79.79,
       "rating": 4.6,
-      "reviews_count": 915,
+      "reviews_count": 917,
       "bought": "200+/mo",
       "specs": {
         "amps": "9 A",
@@ -276,7 +230,7 @@
       "best_for": "Light construction with more rated impact than the name brands, under $80.",
       "skip_if": "You do heavy demolition.",
       "pros": [
-        "More rated impact energy than the DEWALT and Bosch",
+        "More rated impact energy than the Makita",
         "Overload clutch and aluminum housing",
         "Bits, 2 chisels, and a case included",
         "2-year warranty"
@@ -294,8 +248,8 @@
       "image": "https://m.media-amazon.com/images/I/71j3g6E+efL._AC_SL1500_.jpg",
       "price": 54.79,
       "rating": 4.5,
-      "reviews_count": 516,
-      "bought": "1K+/mo",
+      "reviews_count": 522,
+      "bought": "900+/mo",
       "specs": {
         "amps": "9 A",
         "impact": "2.21 ft-lb (3 J)",
@@ -332,7 +286,7 @@
       "price": 72.99,
       "rating": 4.6,
       "reviews_count": 374,
-      "bought": "200+/mo",
+      "bought": "100+/mo",
       "specs": {
         "amps": "9.2 A",
         "impact": "3.6 J",
@@ -379,21 +333,18 @@
   ],
   "avoid": [
     {
-      "asin": "B0DBM3QSMB",
-      "name": "DOVAMAN 1-9/16'' SDS Rotary Hammer Drill, 12.5Amp Heavy Duty (RH15A)",
-      "brand": "DOVAMAN",
-      "model": "RH15A",
-      "image": "https://m.media-amazon.com/images/I/81NVkH70XvL._AC_SL1500_.jpg",
-      "price": 104.47,
-      "rating": 4.5,
-      "reviews_count": 697,
-      "flag": "Headline 1-9/16\" is its wood capacity; spec table says 230 V",
-      "verdict": "The headline number is misleading and the spec table contradicts the bullets. For about the same money, the ENEACRO has near-identical published specs, a consistent listing, and a stated 2-year warranty.",
+      "asin": "B0F7HFQR1T",
+      "name": "VEVOR 1-1/4 Inch SDS-Plus Rotary Hammer Drill, 13 Amp Corded Drills, Heavy Duty Chipping Hammers w/Vibration Control & Safety Clutch",
+      "brand": "VEVOR", "model": "Z1C-DS-50K",
+      "image": "https://m.media-amazon.com/images/I/61IzrY42pLL._AC_SL1500_.jpg",
+      "price": 209.25, "rating": 4.1, "reviews_count": 24,
+      "flag": "Title says SDS-Plus and 13 A; bullets say SDS-Max, spec table 7 A",
+      "verdict": "The listing can't agree on what this tool is. The title sells a 1-1/4 inch SDS-Plus hammer, the bullets describe an SDS-Max demolition hammer, and it costs about twice the ENEACRO 12.5 A, which publishes one consistent set of specs.",
       "reasons": [
-        "The title leads with 1-9/16\", a size buyers associate with bigger SDS-Max hammers. The bullets show that's the wood capacity. In concrete, which is what a rotary hammer is for, it's rated at 1-1/4\", the same as the $110 ENEACRO and AOBEN.",
-        "The spec table lists 230 volts and 12.5 milliamps. The bullets say 120 V and 12.5 amps. Some of the published numbers are wrong, and the listing doesn't tell you which.",
-        "Its published dimensions, bare-tool weight, and 18.1 lb kit weight almost exactly match the ENEACRO ENRH3201's, so you'd pay the same price for what reads as the same tool under another label.",
-        "It's sold by a third-party storefront (MilkyWay Galaxy), not the brand, and the listing states no warranty term."
+        "The title says SDS-Plus; the bullets say it has an SDS-Max chuck. The two take different bits, so you can't tell which bits to buy.",
+        "The title says 13 amps, the spec table says 7 amps, and the bullets claim 1,600 W and 25 J of impact, several times what any SDS-Plus hammer on this page is rated for.",
+        "The title says 1-1/4 inch, while the bullets and spec table give a 1-3/4 inch maximum drilling diameter.",
+        "At $209.25 it costs about $109 more than the ENEACRO 12.5 A, and the featured offer when we checked came from Amazon Resale rather than a new-stock seller."
       ]
     }
   ],
@@ -412,15 +363,15 @@
     },
     {
       "q": "Is vibration control worth paying for?",
-      "a": "If you'll run it for more than a few minutes at a time, yes. Hammering vibration is what wears out your hands and arms. DEWALT's SHOCKS and Bosch's counter-balance systems cut what reaches the handle; many budget tools only add a padded grip."
+      "a": "If you'll run it for more than a few minutes at a time, yes. Hammering vibration is what wears out your hands and arms. Makita's AVT counterweight cuts what reaches the handle; many budget tools only add a padded grip."
     },
     {
       "q": "Why don't the name-brand hammers include bits?",
-      "a": "DEWALT and Bosch sell the tool with a side handle, depth rod, and case, and expect you to buy bits for the job. A decent SDS-Plus bit and chisel set runs $30 to $40. The budget brands bundle bits and chisels, which is handy for a first project, but those bits tend to wear out quickly."
+      "a": "The Makita HR2641 lists no bits in the box, so plan on buying them for the job. A decent SDS-Plus bit and chisel set runs $30 to $40. The budget brands bundle bits and chisels, which is handy for a first project, but those bits tend to wear out quickly."
     },
     {
       "q": "What does a safety clutch do?",
-      "a": "If the bit catches on rebar or jams in the hole, the motor's torque can twist the tool hard enough to hurt your wrist. A slip clutch or kickback sensor disconnects the drive when that happens. Every pick here lists one except the Bosch 11255VSR and the WORKPRO W125173A, whose listings don't mention it."
+      "a": "If the bit catches on rebar or jams in the hole, the motor's torque can twist the tool hard enough to hurt your wrist. A slip clutch or kickback sensor disconnects the drive when that happens. Every pick here lists one except the WORKPRO W125173A, whose listing doesn't mention it."
     }
   ]
 }
