@@ -6,7 +6,7 @@
  "title": "The 10 Best Cordless Paint Sprayers",
  "subtitle": "Battery-powered paint and stain sprayers for furniture, fences, cabinets and trim, ranked from live Amazon data.",
  "intro": "We pulled the top cordless paint sprayers from a live Amazon search and ranked 10 of them on star rating, review volume and features: a battery and charger in the box, a brushless motor, adjustable paint flow and spraying without thinning. Most of this list are handheld HVLP guns that take DEWALT 20V or RYOBI 18V batteries you may already own; the two airless sprayers from Graco and Titan cost ten times more and are built for bigger jobs.",
- "data_captured": "2026-11-02",
+ "data_captured": "2026-11-09",
  "audited": "2026-10-18",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -34,6 +34,50 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0HFJR1FR7",
+   "name": "Tilswall Cordless Paint Sprayer Dreamer400, Fits DEWALT 20V (No Battery)",
+   "brand": "TILSWALL",
+   "model": "Dreamer400 DC",
+   "price": 44.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 1738,
+   "score": 76,
+   "award": "Best Budget",
+   "best_for": "DEWALT 20V owners painting furniture, cabinets and small fences.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The most-reviewed cordless sprayer in the search: a light handheld HVLP gun that runs on DEWALT 20V packs, with three spray patterns and a 0 to 450 ml/min flow dial. It's sold tool-only, so it's the cheap way in only if you already own the batteries.",
+   "pros": [
+    "1,738 reviews, the most on this page",
+    "1.3 lb listed weight",
+    "Adjustable flow from 0 to 450 ml/min and 3 spray patterns",
+    "2-year manufacturer warranty listed"
+   ],
+   "cons": [
+    "Paint must be thinned; Tilswall says so on the listing",
+    "Only 2 nozzle sizes in the box",
+    "Battery and charger not included"
+   ],
+   "specs": {
+    "battery": "DEWALT 20V MAX (tool only)",
+    "type": "Handheld HVLP",
+    "container": "1000 ml",
+    "nozzles": "2 (1.5, 2.0 mm)",
+    "motor": "500 W copper motor",
+    "weight": "1.3 lb"
+   },
+   "features": {
+    "kit": false,
+    "brushless": false,
+    "adjustable_flow": true,
+    "no_thinning": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71E69dFpTiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HFJR1FR7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0HFJR1FR7"
+  },
+  {
+   "rank": 2,
    "asin": "B0G6JRY18D",
    "name": "DTEZTECH Paint Sprayer for DEWALT 20V Battery (Battery Not Included), 200W HVLP Brushless, Copper Nozzles, Adjustable Flow",
    "brand": "DTEZTECH",
@@ -41,8 +85,8 @@
    "price": 39.99,
    "currency": "USD",
    "rating": 3.9,
-   "reviews_count": 1732,
-   "score": 78,
+   "reviews_count": 819,
+   "score": 75,
    "award": null,
    "best_for": "DEWALT 20V owners who want four nozzle sizes for under $45.",
    "bought_last_month": "100+/mo",
@@ -76,50 +120,6 @@
    "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0G6JRY18D"
   },
   {
-   "rank": 2,
-   "asin": "B0HFJR1FR7",
-   "name": "Tilswall Cordless Paint Sprayer Dreamer400, Fits DEWALT 20V (No Battery)",
-   "brand": "TILSWALL",
-   "model": "Dreamer400 DC",
-   "price": 44.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 1738,
-   "score": 76,
-   "award": "Best Budget",
-   "best_for": "DEWALT 20V owners painting furniture, cabinets and small fences.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The most-reviewed cordless sprayer in the search: a light handheld HVLP gun that runs on DEWALT 20V packs, with three spray patterns and a 0 to 450 ml/min flow dial. It's sold tool-only, so it's the cheap way in only if you already own the batteries.",
-   "pros": [
-    "1,738 reviews, the most on this page",
-    "1.3 lb listed weight",
-    "Adjustable flow from 0 to 450 ml/min and 3 spray patterns",
-    "2-year manufacturer warranty listed"
-   ],
-   "cons": [
-    "Paint must be thinned; Tilswall says so on the listing",
-    "Only 2 nozzle sizes in the box",
-    "Battery and charger not included"
-   ],
-   "specs": {
-    "battery": "DEWALT 20V MAX (tool only)",
-    "type": "Handheld HVLP",
-    "container": "1000 ml",
-    "nozzles": "2 (1.5, 2.0 mm)",
-    "motor": "500 W copper motor",
-    "weight": "1.3 lb"
-   },
-   "features": {
-    "kit": false,
-    "brushless": false,
-    "adjustable_flow": true,
-    "no_thinning": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71E69dFpTiL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HFJR1FR7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0HFJR1FR7"
-  },
-  {
    "rank": 3,
    "asin": "B0HK3M3YTY",
    "name": "Tilswall Cordless Paint Sprayer Shark700, Fits DEWALT 20V (No Battery)",
@@ -128,7 +128,7 @@
    "price": 99.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 186,
+   "reviews_count": 184,
    "score": 74,
    "award": null,
    "best_for": "DEWALT 20V owners spraying bigger pieces who want fewer refills.",
@@ -216,14 +216,14 @@
    "price": 49.99,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 607,
+   "reviews_count": 610,
    "score": 70,
    "award": null,
    "best_for": "RYOBI ONE+ owners who want a brushless sprayer for fences, doors and furniture.",
    "bought_last_month": null,
    "verdict": "The most-reviewed sprayer for RYOBI 18V ONE+ batteries. It has a brushless motor, four copper nozzles and a listed 80 DIN/s viscosity limit, twice the DTEZTECH's.",
    "pros": [
-    "607 reviews at 4.0 stars",
+    "610 reviews at 4.0 stars",
     "Brushless motor",
     "Handles coatings up to 80 DIN/s per the listing",
     "4 nozzle sizes and 3 spray patterns"
@@ -259,7 +259,7 @@
    "price": 49.99,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 355,
+   "reviews_count": 357,
    "score": 68,
    "award": null,
    "best_for": "RYOBI ONE+ owners who want a complete set of cleaning and masking extras.",
@@ -346,11 +346,11 @@
    "price": 69.89,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 112,
+   "reviews_count": 115,
    "score": 64,
    "award": null,
    "best_for": "DEWALT 20V owners who want the most nozzle sizes and the largest cup.",
-   "bought_last_month": "300+/mo",
+   "bought_last_month": "200+/mo",
    "verdict": "The best seller in this search at 500+ a month. It has the biggest cup of the handhelds, six brass nozzles, an adjustable pickup tube, an LED light, and a blower attachment for dusting the surface first.",
    "pros": [
     "500+ bought in the past month",
@@ -361,7 +361,7 @@
    "cons": [
     "Tool only at nearly $70",
     "Motor isn't listed as brushless",
-    "Only 112 reviews"
+    "Only 115 reviews"
    ],
    "specs": {
     "battery": "DEWALT 20V MAX (tool only)",
@@ -387,11 +387,11 @@
    "name": "NANWEI Cordless Paint Sprayer with 2 Batteries, HVLP Spray Gun with 1200ML Container, 4 Nozzles and 3 Patterns",
    "brand": "NANWEI",
    "model": "WMD73",
-   "price": 59.99,
+   "price": 63.99,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 99,
-   "score": 63,
+   "rating": 4.1,
+   "reviews_count": 101,
+   "score": 64,
    "award": "Best Overall",
    "best_for": "First-time sprayer buyers who don't own DEWALT or RYOBI batteries.",
    "bought_last_month": null,
@@ -404,7 +404,7 @@
    "cons": [
     "Batteries are NANWEI's own, not a major tool platform",
     "No flow control or brushless motor listed",
-    "99 reviews"
+    "101 reviews"
    ],
    "specs": {
     "battery": "2 x 20V 4.0Ah + charger (included)",
@@ -477,15 +477,15 @@
    "model": "CX8080",
    "price": 45.99,
    "currency": "USD",
-   "rating": 3.0,
-   "reviews_count": 42,
+   "rating": 2.9,
+   "reviews_count": 44,
    "flag": "1200 W claim on 2.0Ah 20V batteries",
    "verdict": "Its headline number doesn't hold up: 1200 W from two small 20V 2.0Ah packs isn't physically workable, and the listing also says it's compatible with Makita while shipping its own batteries. The NANWEI kit costs $5 more and includes twice the battery capacity.",
    "reasons": [
-    "The listing claims a 1200 W motor powered by 20V 2000mAh batteries. A 20V 2.0Ah pack holds about 42 watt-hours, so a true 1200 W draw (about 60 amps) would empty it in roughly two minutes and is far beyond what a compact pack can deliver.",
+    "The listing claims a 1200 W motor powered by 20V 2000mAh batteries. A 20V 2.0Ah pack holds about 44 watt-hours, so a true 1200 W draw (about 60 amps) would empty it in roughly two minutes and is far beyond what a compact pack can deliver.",
     "The item highlight says 'Compatible with Makita', but the kit ships with two PUCAITR 20V batteries; the listing never names which Makita packs fit.",
     "It has 3 nozzles where most sprayers here have 4 to 6, and its 3.1-star rating is lower than all 10 ranked picks.",
-    "The NANWEI kit costs $59.99 with two 4.0Ah batteries, double the capacity, plus a fourth nozzle."
+    "The NANWEI kit costs $63.99 with two 4.0Ah batteries, double the capacity, plus a fourth nozzle."
    ],
    "bought_last_month": null,
    "image": "https://m.media-amazon.com/images/I/71V29Y9+T-L._AC_SL1500_.jpg",
@@ -508,7 +508,7 @@
   },
   {
    "q": "Tool-only or a kit with batteries?",
-   "a": "If you already own DEWALT 20V or RYOBI 18V batteries, a tool-only sprayer is the cheapest option. If you don't, a kit like the NANWEI ($59.99 with two batteries and a charger) costs less than buying a tool-only sprayer plus a name-brand battery and charger. Kit batteries are usually proprietary and won't run other tools."
+   "a": "If you already own DEWALT 20V or RYOBI 18V batteries, a tool-only sprayer is the cheapest option. If you don't, a kit like the NANWEI ($63.99 with two batteries and a charger) costs less than buying a tool-only sprayer plus a name-brand battery and charger. Kit batteries are usually proprietary and won't run other tools."
   },
   {
    "q": "How long does a battery last when spraying?",
@@ -520,6 +520,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-09",
+   "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."
+  },
   {
    "date": "2026-11-02",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the PEMMKORE PQQ02 dropped from $84.99 to $59.89; the PUCAITR CX8080 dropped from $54.99 to $45.99."
