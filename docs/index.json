@@ -7,7 +7,7 @@
  "updated": "2026-11-09",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
- "page_count": 168,
+ "page_count": 169,
  "pages": [
   {
    "slug": "pin-nailers",
@@ -3711,6 +3711,30 @@
     "asin": "B07VV78RZ1",
     "name": "JACO JSP-045",
     "price": 29.9
+   }
+  },
+  {
+   "slug": "tool-backpacks",
+   "title": "The 10 Best Tool Backpacks",
+   "url": "https://toolboxtop10.com/tool-backpacks.html",
+   "json": "https://toolboxtop10.com/tool-backpacks.json",
+   "data_captured": "2026-11-09",
+   "audited": "2026-11-09",
+   "products": 10,
+   "best_overall": {
+    "asin": "B00MK9UY0A",
+    "name": "Klein Tools 55421BP-14",
+    "price": 99.97
+   },
+   "best_budget": {
+    "asin": "B097CQ37SW",
+    "name": "AWP 1L-22419-2",
+    "price": 32.65
+   },
+   "money_no_object": {
+    "asin": "B00DYQLXHG",
+    "name": "Veto Pro Pac TECH PAC",
+    "price": 314.95
    }
   },
   {

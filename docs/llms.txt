@@ -4,7 +4,7 @@
 
 Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and the capture date). The site index is https://toolboxtop10.com/index.json. Each page links its twin with `<link rel="alternate" type="application/json">`. Links to Amazon carry our Associates tag; a purchase may earn us a commission at no extra cost to the buyer.
 
-## Rankings (168 pages)
+## Rankings (169 pages)
 
 - [The 10 Best 23-Gauge Pin Nailers](https://toolboxtop10.com/pin-nailers.html): Best Overall DEWALT DWFP2350K ($144.99); Best Budget Arrow PT23G ($39.51). Data captured 2026-11-07. JSON: https://toolboxtop10.com/pin-nailers.json
 - [The 10 Best Adjustable (Crescent) Wrenches](https://toolboxtop10.com/adjustable-wrenches.html): Best Overall CRAFTSMAN CMMT12001 ($19.99); Best Budget Amazon Basics 6-Inch ($9.40). Data captured 2026-11-08. JSON: https://toolboxtop10.com/adjustable-wrenches.json
@@ -163,6 +163,7 @@ Machine-readable data: every ranking page has a JSON twin at the same path with 
 - [The 10 Best Tire Bead Seaters](https://toolboxtop10.com/tire-bead-seaters.html): Best Overall TOOLUXE 30007L ($91.13); Best Budget VEVOR XJC-026 ($61.51). Data captured 2026-11-08. JSON: https://toolboxtop10.com/tire-bead-seaters.json
 - [The 10 Best Tire Changers](https://toolboxtop10.com/tire-changers.html): Best Overall KATOOL ME-T500 ($1,048); Best Budget TUFFIOM TFmtc0304 ($60.79). Data captured 2026-11-06. JSON: https://toolboxtop10.com/tire-changers.json
 - [The 10 Best Tire Pressure Gauges](https://toolboxtop10.com/tire-pressure-gauges.html): Best Overall ETENWOLF G200 ($11.99); Best Budget AstroAI GL-0801A ($6.99). Data captured 2026-11-08. JSON: https://toolboxtop10.com/tire-pressure-gauges.json
+- [The 10 Best Tool Backpacks](https://toolboxtop10.com/tool-backpacks.html): Best Overall Klein Tools 55421BP-14 ($99.97); Best Budget AWP 1L-22419-2 ($32.65). Data captured 2026-11-09. JSON: https://toolboxtop10.com/tool-backpacks.json
 - [The 10 Best Tool Bags](https://toolboxtop10.com/tool-bags.html): Best Overall WORKPRO W136007A ($25.99); Best Budget Amazon Basics 12 in, 16-pocket ($11.54). Data captured 2026-11-03. JSON: https://toolboxtop10.com/tool-bags.json
 - [The 10 Best Tool Cabinets](https://toolboxtop10.com/tool-cabinets.html): Best Overall Yizosh XGG-BLACK-1 ($144.99); Best Budget GREATMEET Rolling Cabinet ($99.99). Data captured 2026-11-08. JSON: https://toolboxtop10.com/tool-cabinets.json
 - [The 10 Best Torque Wrenches](https://toolboxtop10.com/torque-wrenches.html): Best Overall LEXIVON LX-183 ($44.97); Best Budget Hairich 6CVB ($29.99). Data captured 2026-11-08. JSON: https://toolboxtop10.com/torque-wrenches.json
