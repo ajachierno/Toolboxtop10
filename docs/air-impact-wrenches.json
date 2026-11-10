@@ -21,7 +21,7 @@
    "light": 0.35,
    "high_torque": 0.3
   },
-  "reviews_ceiling": 4000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -42,7 +42,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2795,
-   "score": 96,
+   "score": 97,
    "award": "Money No Object",
    "best_for": "Professional shops and seized suspension bolts.",
    "bought_last_month": "400+/mo",
@@ -82,7 +82,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1231,
-   "score": 90,
+   "score": 95,
    "award": null,
    "best_for": "Heavy breakaway work in a light, compact gun.",
    "bought_last_month": "50+/mo",
@@ -122,7 +122,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 2112,
-   "score": 88,
+   "score": 90,
    "award": null,
    "best_for": "Tight spaces: brakes, suspension and engine bays.",
    "bought_last_month": "100+/mo",
@@ -154,6 +154,86 @@
   },
   {
    "rank": 4,
+   "asin": "B0BTP57RHQ",
+   "name": "BESWELL BW-112BN 1/2-Inch Air Impact Wrench with 1180 Ft-Lbs Max Torque",
+   "brand": "BESWELL",
+   "model": "BW-112BN",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 913,
+   "score": 89,
+   "award": "Best Budget",
+   "best_for": "Occasional tire changes on a tight budget.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The cheapest gun here: a 4.6 lb composite gun with a 3-speed regulator for under $40. Treat the 1,180 ft-lb figure as optimistic.",
+   "pros": [
+    "$39.99",
+    "4.6 lbs, composite",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Torque claim is higher than Ingersoll Rand's 4.6 lb titanium flagship, at 1,350",
+    "No warranty listed"
+   ],
+   "specs": {
+    "torque": "1,180 ft-lb (claimed)",
+    "weight": "4.6 lb",
+    "settings": "3 forward",
+    "body": "Composite",
+    "in_box": "Wrench"
+   },
+   "features": {
+    "twin_hammer": false,
+    "light": true,
+    "high_torque": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61jzZtss2iL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BTP57RHQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B0BTP57RHQ"
+  },
+  {
+   "rank": 5,
+   "asin": "B08KSCZVR3",
+   "name": "Ingersoll Rand 36QMAX 1/2\"-Drive Air Impact Wrench",
+   "brand": "Ingersoll Rand",
+   "model": "36QMAX",
+   "price": 154.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 440,
+   "score": 88,
+   "award": null,
+   "best_for": "All-day use where weight wears you out.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The lightest gun here at 2.6 lbs, with a titanium hammer case, composite housing and 640 ft-lbs.",
+   "pros": [
+    "2.6 lbs, the lightest here",
+    "Titanium hammer case",
+    "Compact"
+   ],
+   "cons": [
+    "4.3 stars",
+    "640 ft-lb"
+   ],
+   "specs": {
+    "torque": "640 ft-lb",
+    "weight": "2.6 lb",
+    "settings": "3-mode regulator",
+    "body": "Composite, titanium hammer case",
+    "in_box": "Wrench"
+   },
+   "features": {
+    "twin_hammer": true,
+    "light": true,
+    "high_torque": false
+   },
+   "image": "https://m.media-amazon.com/images/I/618kVAaWIIL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08KSCZVR3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B08KSCZVR3"
+  },
+  {
+   "rank": 6,
    "asin": "B0002SRM3I",
    "name": "Ingersoll Rand 231C 1/2\" Drive Air Impact Wrench",
    "brand": "Ingersoll Rand",
@@ -193,7 +273,7 @@
    "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B0002SRM3I"
   },
   {
-   "rank": 5,
+   "rank": 7,
    "asin": "B000E25LSK",
    "name": "Ingersoll Rand 231HA-2 1/2\"-Drive Air Impact Wrench, 2\" Extended Anvil",
    "brand": "Ingersoll Rand",
@@ -233,124 +313,44 @@
    "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B000E25LSK"
   },
   {
-   "rank": 6,
-   "asin": "B0BTP57RHQ",
-   "name": "BESWELL BW-112BN 1/2-Inch Air Impact Wrench with 1180 Ft-Lbs Max Torque",
-   "brand": "BESWELL",
-   "model": "BW-112BN",
-   "price": 39.99,
+   "rank": 8,
+   "asin": "B08299VVN2",
+   "name": "CRAFTSMAN 1/2-in 750 ft-lbs Air Impact Wrench, Composite Body (CMXPTSG1003NB)",
+   "brand": "CRAFTSMAN",
+   "model": "CMXPTSG1003NB",
+   "price": 119.99,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 913,
-   "score": 83,
-   "award": "Best Budget",
-   "best_for": "Occasional tire changes on a tight budget.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The cheapest gun here: a 4.6 lb composite gun with a 3-speed regulator for under $40. Treat the 1,180 ft-lb figure as optimistic.",
+   "rating": 4.7,
+   "reviews_count": 295,
+   "score": 84,
+   "award": null,
+   "best_for": "A brand-name composite gun under $120.",
+   "bought_last_month": null,
+   "verdict": "A composite 750 ft-lb gun with a big glove-friendly power dial and push-button forward/reverse, rated as well as the Ingersoll Rands.",
    "pros": [
-    "$39.99",
-    "4.6 lbs, composite",
-    "4.6 stars"
+    "4.7 stars",
+    "4.3 lbs, composite",
+    "Glove-friendly dial"
    ],
    "cons": [
-    "Torque claim is higher than Ingersoll Rand's 4.6 lb titanium flagship, at 1,350",
-    "No warranty listed"
+    "Hammer mechanism not listed",
+    "Smaller review base"
    ],
    "specs": {
-    "torque": "1,180 ft-lb (claimed)",
-    "weight": "4.6 lb",
-    "settings": "3 forward",
+    "torque": "750 ft-lb",
+    "weight": "4.3 lb",
+    "settings": "4 forward, 1 reverse",
     "body": "Composite",
     "in_box": "Wrench"
    },
    "features": {
     "twin_hammer": false,
     "light": true,
-    "high_torque": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61jzZtss2iL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BTP57RHQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B0BTP57RHQ"
-  },
-  {
-   "rank": 7,
-   "asin": "B0041PGNZQ",
-   "name": "ACDelco ANI405A Heavy Duty Twin Hammer 1/2\" 500 ft-lbs 5-Speed Pneumatic Impact Wrench Tool Kit",
-   "brand": "ACDelco",
-   "model": "ANI405A",
-   "price": 59.49,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1980,
-   "score": 80,
-   "award": null,
-   "best_for": "Tire rotations and occasional use on a budget.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A twin-hammer kit for under $60 with five speeds and nearly 2,000 reviews.",
-   "pros": [
-    "$59.49",
-    "Twin hammer, 5 speeds",
-    "1,980 reviews"
-   ],
-   "cons": [
-    "5.7 lbs",
-    "The listing has almost no details"
-   ],
-   "specs": {
-    "torque": "500 ft-lb",
-    "weight": "5.7 lb",
-    "settings": "5 speeds",
-    "body": "Metal",
-    "in_box": "Tool kit"
-   },
-   "features": {
-    "twin_hammer": true,
-    "light": false,
     "high_torque": false
    },
-   "image": "https://m.media-amazon.com/images/I/71DB+MDJYtL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0041PGNZQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B0041PGNZQ"
-  },
-  {
-   "rank": 8,
-   "asin": "B08KSCZVR3",
-   "name": "Ingersoll Rand 36QMAX 1/2\"-Drive Air Impact Wrench",
-   "brand": "Ingersoll Rand",
-   "model": "36QMAX",
-   "price": 154.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 440,
-   "score": 78,
-   "award": null,
-   "best_for": "All-day use where weight wears you out.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The lightest gun here at 2.6 lbs, with a titanium hammer case, composite housing and 640 ft-lbs.",
-   "pros": [
-    "2.6 lbs, the lightest here",
-    "Titanium hammer case",
-    "Compact"
-   ],
-   "cons": [
-    "4.3 stars",
-    "640 ft-lb"
-   ],
-   "specs": {
-    "torque": "640 ft-lb",
-    "weight": "2.6 lb",
-    "settings": "3-mode regulator",
-    "body": "Composite, titanium hammer case",
-    "in_box": "Wrench"
-   },
-   "features": {
-    "twin_hammer": true,
-    "light": true,
-    "high_torque": false
-   },
-   "image": "https://m.media-amazon.com/images/I/618kVAaWIIL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08KSCZVR3?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B08KSCZVR3"
+   "image": "https://m.media-amazon.com/images/I/61vUcp53GWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08299VVN2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B08299VVN2"
   },
   {
    "rank": 9,
@@ -362,7 +362,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 592,
-   "score": 75,
+   "score": 83,
    "award": null,
    "best_for": "A budget twin-hammer gun with real working torque listed.",
    "bought_last_month": "100+/mo",
@@ -394,43 +394,43 @@
   },
   {
    "rank": 10,
-   "asin": "B08299VVN2",
-   "name": "CRAFTSMAN 1/2-in 750 ft-lbs Air Impact Wrench, Composite Body (CMXPTSG1003NB)",
-   "brand": "CRAFTSMAN",
-   "model": "CMXPTSG1003NB",
-   "price": 119.99,
+   "asin": "B0041PGNZQ",
+   "name": "ACDelco ANI405A Heavy Duty Twin Hammer 1/2\" 500 ft-lbs 5-Speed Pneumatic Impact Wrench Tool Kit",
+   "brand": "ACDelco",
+   "model": "ANI405A",
+   "price": 59.49,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 295,
-   "score": 73,
+   "rating": 4.5,
+   "reviews_count": 1980,
+   "score": 82,
    "award": null,
-   "best_for": "A brand-name composite gun under $120.",
-   "bought_last_month": null,
-   "verdict": "A composite 750 ft-lb gun with a big glove-friendly power dial and push-button forward/reverse, rated as well as the Ingersoll Rands.",
+   "best_for": "Tire rotations and occasional use on a budget.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A twin-hammer kit for under $60 with five speeds and nearly 2,000 reviews.",
    "pros": [
-    "4.7 stars",
-    "4.3 lbs, composite",
-    "Glove-friendly dial"
+    "$59.49",
+    "Twin hammer, 5 speeds",
+    "1,980 reviews"
    ],
    "cons": [
-    "Hammer mechanism not listed",
-    "Smaller review base"
+    "5.7 lbs",
+    "The listing has almost no details"
    ],
    "specs": {
-    "torque": "750 ft-lb",
-    "weight": "4.3 lb",
-    "settings": "4 forward, 1 reverse",
-    "body": "Composite",
-    "in_box": "Wrench"
+    "torque": "500 ft-lb",
+    "weight": "5.7 lb",
+    "settings": "5 speeds",
+    "body": "Metal",
+    "in_box": "Tool kit"
    },
    "features": {
-    "twin_hammer": false,
-    "light": true,
+    "twin_hammer": true,
+    "light": false,
     "high_torque": false
    },
-   "image": "https://m.media-amazon.com/images/I/61vUcp53GWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08299VVN2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B08299VVN2"
+   "image": "https://m.media-amazon.com/images/I/71DB+MDJYtL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0041PGNZQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-impact-wrenches.html#B0041PGNZQ"
   }
  ],
  "avoid": [

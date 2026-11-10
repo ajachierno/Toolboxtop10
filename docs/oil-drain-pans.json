@@ -22,7 +22,7 @@
    "low_profile": 0.25,
    "plug_screen": 0.2
   },
-  "reviews_ceiling": 4500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 15,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 1254,
-   "score": 88,
+   "score": 93,
    "award": null,
    "best_for": "Coolant flushes kept separate from used oil.",
    "bought_last_month": "500+/mo",
@@ -74,45 +74,6 @@
   },
   {
    "rank": 2,
-   "asin": "B09N9R6BT1",
-   "name": "CHAPIN 78005 12-Quart Low-Profile Oil Drain Pan",
-   "brand": "CHAPIN",
-   "model": "78005",
-   "price": 35.07,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 2143,
-   "score": 80,
-   "award": null,
-   "best_for": "Low vehicles that need a big capacity.",
-   "bought_last_month": "600+/mo",
-   "verdict": "A 12-quart pan under 5 inches tall, so it holds a full oil change and still slides under ATVs and lawn tractors.",
-   "pros": [
-    "12 qt, under 5 in tall",
-    "2,143 reviews"
-   ],
-   "cons": [
-    "4.2 stars",
-    "No cap listed"
-   ],
-   "specs": {
-    "capacity": "12 qt",
-    "type": "Low-profile pan",
-    "size": "Under 5 in tall",
-    "extras": "Large splash-free target, molded handles"
-   },
-   "features": {
-    "sealed": false,
-    "capacity_12": true,
-    "low_profile": true,
-    "plug_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61KPW3UIBwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09N9R6BT1?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B09N9R6BT1"
-  },
-  {
-   "rank": 3,
    "asin": "B0CFZ3W84F",
    "name": "Spill-Less DrainMate 14 Quart Oil Drain Container, Made in USA (SLDM35)",
    "brand": "Spill-Less",
@@ -121,7 +82,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 202,
-   "score": 78,
+   "score": 90,
    "award": "Money No Object",
    "best_for": "Garage DIYers who want the cleanest oil change and storage.",
    "bought_last_month": "400+/mo",
@@ -151,7 +112,278 @@
    "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0CFZ3W84F"
   },
   {
+   "rank": 3,
+   "asin": "B0D1QMFRMP",
+   "name": "MaxWorks 50965 Low Profile 8.5 Quart Oil Drain Container",
+   "brand": "MaxWorks",
+   "model": "50965",
+   "price": 27.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 364,
+   "score": 85,
+   "award": null,
+   "best_for": "Low-clearance vehicles and small engines.",
+   "bought_last_month": "600+/mo",
+   "verdict": "A low 12 cm container that fits under ATVs, mowers and low cars, with sealed wing plugs for carrying oil away.",
+   "pros": [
+    "Low profile",
+    "Sealed plugs"
+   ],
+   "cons": [
+    "4.3 stars"
+   ],
+   "specs": {
+    "capacity": "8.5 qt (8 L)",
+    "type": "Closed container",
+    "size": "58 x 33 x 12 cm",
+    "extras": "Large funnel, two wing plugs with O-rings"
+   },
+   "features": {
+    "sealed": true,
+    "capacity_12": false,
+    "low_profile": true,
+    "plug_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/712tjVh5VkL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D1QMFRMP?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0D1QMFRMP"
+  },
+  {
    "rank": 4,
+   "asin": "B0GJTCYC2M",
+   "name": "PAK Premium 16 Quart Oil Drain Pan, Made in USA (9100-0301)",
+   "brand": "PAK",
+   "model": "9100-0301",
+   "price": 31.5,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 52,
+   "score": 84,
+   "award": null,
+   "best_for": "Trucks and multiple changes between recycling trips.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 16-quart American-made container with two drain holes for faster flow and a tethered cap for transport.",
+   "pros": [
+    "16 qt",
+    "Made in USA",
+    "Tethered cap"
+   ],
+   "cons": [
+    "Only 52 reviews"
+   ],
+   "specs": {
+    "capacity": "16 qt",
+    "type": "Closed container",
+    "size": null,
+    "extras": "Two drain holes, tethered cap, angled neck"
+   },
+   "features": {
+    "sealed": true,
+    "capacity_12": true,
+    "low_profile": false,
+    "plug_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/6168Xn7li2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GJTCYC2M?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0GJTCYC2M"
+  },
+  {
+   "rank": 5,
+   "asin": "B09N9R6BT1",
+   "name": "CHAPIN 78005 12-Quart Low-Profile Oil Drain Pan",
+   "brand": "CHAPIN",
+   "model": "78005",
+   "price": 35.07,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 2143,
+   "score": 83,
+   "award": null,
+   "best_for": "Low vehicles that need a big capacity.",
+   "bought_last_month": "600+/mo",
+   "verdict": "A 12-quart pan under 5 inches tall, so it holds a full oil change and still slides under ATVs and lawn tractors.",
+   "pros": [
+    "12 qt, under 5 in tall",
+    "2,143 reviews"
+   ],
+   "cons": [
+    "4.2 stars",
+    "No cap listed"
+   ],
+   "specs": {
+    "capacity": "12 qt",
+    "type": "Low-profile pan",
+    "size": "Under 5 in tall",
+    "extras": "Large splash-free target, molded handles"
+   },
+   "features": {
+    "sealed": false,
+    "capacity_12": true,
+    "low_profile": true,
+    "plug_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61KPW3UIBwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09N9R6BT1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B09N9R6BT1"
+  },
+  {
+   "rank": 6,
+   "asin": "B075Z6H3XC",
+   "name": "Performance Tool W4071 4.5 Gallon Oil Drain Pan",
+   "brand": "Performance Tool",
+   "model": "W4071",
+   "price": 22.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 645,
+   "score": 82,
+   "award": null,
+   "best_for": "Trucks, diesels and coolant flushes.",
+   "bought_last_month": "800+/mo",
+   "verdict": "A big 4.5-gallon open pan with a wide opening and an internal lip that keeps fluid in while you carry it, rated 4.7 stars.",
+   "pros": [
+    "4.5 gal capacity",
+    "4.7 stars",
+    "About $23"
+   ],
+   "cons": [
+    "Open pan, no cap"
+   ],
+   "specs": {
+    "capacity": "4.5 gal",
+    "type": "Open pan",
+    "size": null,
+    "extras": "Wide opening, internal anti-splash lip, pour spout"
+   },
+   "features": {
+    "sealed": false,
+    "capacity_12": true,
+    "low_profile": false,
+    "plug_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61wHfNfHgJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B075Z6H3XC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B075Z6H3XC"
+  },
+  {
+   "rank": 7,
+   "asin": "B0D7N4P3T1",
+   "name": "Performance Tool W4078 24-Quart Oil Drain Container",
+   "brand": "Performance Tool",
+   "model": "W4078",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 226,
+   "score": 82,
+   "award": null,
+   "best_for": "Anyone doing several oil changes before a recycling trip.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 24-quart container that catches oil and then seals with gasketed caps, so you can store several changes and haul them to recycling.",
+   "pros": [
+    "24 qt",
+    "Gasketed caps",
+    "Catch and store"
+   ],
+   "cons": [
+    "4.0 stars"
+   ],
+   "specs": {
+    "capacity": "24 qt",
+    "type": "Closed container",
+    "size": null,
+    "extras": "Deep drain well, tethered caps with rubber gaskets"
+   },
+   "features": {
+    "sealed": true,
+    "capacity_12": true,
+    "low_profile": false,
+    "plug_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61Ce4dvDXTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D7N4P3T1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0D7N4P3T1"
+  },
+  {
+   "rank": 8,
+   "asin": "B007RXBU52",
+   "name": "Funnel King 32950 Oil Drain Pan, 6.5 Quart, Made in USA",
+   "brand": "Funnel King",
+   "model": "32950",
+   "price": 10.32,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 820,
+   "score": 80,
+   "award": "Best Budget",
+   "best_for": "Mowers, small engines and compact cars.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A small 4.5-inch-tall pan that slides under mowers, snowblowers and cars, made in the USA for about $10.",
+   "pros": [
+    "About $10",
+    "Made in USA",
+    "4.5 in tall"
+   ],
+   "cons": [
+    "6.5 qt capacity"
+   ],
+   "specs": {
+    "capacity": "6.5 qt",
+    "type": "Open pan",
+    "size": "13.5 x 4.5 in tall",
+    "extras": "Polypropylene, spout edge"
+   },
+   "features": {
+    "sealed": false,
+    "capacity_12": false,
+    "low_profile": true,
+    "plug_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61mQS+Vki6L._AC_SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B007RXBU52?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B007RXBU52"
+  },
+  {
+   "rank": 9,
+   "asin": "B00JJ63QF2",
+   "name": "Capri Tools CP21023 Portable Oil Drain Pan, Anti-Freeze, Green",
+   "brand": "Capri Tools",
+   "model": "CP21023",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 2612,
+   "score": 78,
+   "award": null,
+   "best_for": "Keeping coolant separate from oil.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A green open pan for coolant with an anti-splash lip, rated 4.8 stars on 2,612 reviews.",
+   "pros": [
+    "4.8 stars; 2,612 reviews",
+    "Anti-splash lip"
+   ],
+   "cons": [
+    "Capacity not listed"
+   ],
+   "specs": {
+    "capacity": null,
+    "type": "Open pan",
+    "size": null,
+    "extras": "Anti-splash lip, molded handle, green for coolant"
+   },
+   "features": {
+    "sealed": false,
+    "capacity_12": false,
+    "low_profile": false,
+    "plug_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51vMHS5J73L._AC_SL1001_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00JJ63QF2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B00JJ63QF2"
+  },
+  {
+   "rank": 10,
    "asin": "B00JJ63MDS",
    "name": "NEIKO 20762A Oil Drain Pan, 2 Gallon, Anti-Splash",
    "brand": "NEIKO",
@@ -188,238 +420,6 @@
    "image": "https://m.media-amazon.com/images/I/61XgpouANmL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B00JJ63MDS?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B00JJ63MDS"
-  },
-  {
-   "rank": 5,
-   "asin": "B00JJ63QF2",
-   "name": "Capri Tools CP21023 Portable Oil Drain Pan, Anti-Freeze, Green",
-   "brand": "Capri Tools",
-   "model": "CP21023",
-   "price": 34.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 2612,
-   "score": 76,
-   "award": null,
-   "best_for": "Keeping coolant separate from oil.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A green open pan for coolant with an anti-splash lip, rated 4.8 stars on 2,612 reviews.",
-   "pros": [
-    "4.8 stars; 2,612 reviews",
-    "Anti-splash lip"
-   ],
-   "cons": [
-    "Capacity not listed"
-   ],
-   "specs": {
-    "capacity": null,
-    "type": "Open pan",
-    "size": null,
-    "extras": "Anti-splash lip, molded handle, green for coolant"
-   },
-   "features": {
-    "sealed": false,
-    "capacity_12": false,
-    "low_profile": false,
-    "plug_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51vMHS5J73L._AC_SL1001_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00JJ63QF2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B00JJ63QF2"
-  },
-  {
-   "rank": 6,
-   "asin": "B075Z6H3XC",
-   "name": "Performance Tool W4071 4.5 Gallon Oil Drain Pan",
-   "brand": "Performance Tool",
-   "model": "W4071",
-   "price": 22.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 645,
-   "score": 74,
-   "award": null,
-   "best_for": "Trucks, diesels and coolant flushes.",
-   "bought_last_month": "800+/mo",
-   "verdict": "A big 4.5-gallon open pan with a wide opening and an internal lip that keeps fluid in while you carry it, rated 4.7 stars.",
-   "pros": [
-    "4.5 gal capacity",
-    "4.7 stars",
-    "About $23"
-   ],
-   "cons": [
-    "Open pan, no cap"
-   ],
-   "specs": {
-    "capacity": "4.5 gal",
-    "type": "Open pan",
-    "size": null,
-    "extras": "Wide opening, internal anti-splash lip, pour spout"
-   },
-   "features": {
-    "sealed": false,
-    "capacity_12": true,
-    "low_profile": false,
-    "plug_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61wHfNfHgJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B075Z6H3XC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B075Z6H3XC"
-  },
-  {
-   "rank": 7,
-   "asin": "B0D1QMFRMP",
-   "name": "MaxWorks 50965 Low Profile 8.5 Quart Oil Drain Container",
-   "brand": "MaxWorks",
-   "model": "50965",
-   "price": 27.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 364,
-   "score": 74,
-   "award": null,
-   "best_for": "Low-clearance vehicles and small engines.",
-   "bought_last_month": "600+/mo",
-   "verdict": "A low 12 cm container that fits under ATVs, mowers and low cars, with sealed wing plugs for carrying oil away.",
-   "pros": [
-    "Low profile",
-    "Sealed plugs"
-   ],
-   "cons": [
-    "4.3 stars"
-   ],
-   "specs": {
-    "capacity": "8.5 qt (8 L)",
-    "type": "Closed container",
-    "size": "58 x 33 x 12 cm",
-    "extras": "Large funnel, two wing plugs with O-rings"
-   },
-   "features": {
-    "sealed": true,
-    "capacity_12": false,
-    "low_profile": true,
-    "plug_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/712tjVh5VkL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D1QMFRMP?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0D1QMFRMP"
-  },
-  {
-   "rank": 8,
-   "asin": "B007RXBU52",
-   "name": "Funnel King 32950 Oil Drain Pan, 6.5 Quart, Made in USA",
-   "brand": "Funnel King",
-   "model": "32950",
-   "price": 10.32,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 820,
-   "score": 73,
-   "award": "Best Budget",
-   "best_for": "Mowers, small engines and compact cars.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A small 4.5-inch-tall pan that slides under mowers, snowblowers and cars, made in the USA for about $10.",
-   "pros": [
-    "About $10",
-    "Made in USA",
-    "4.5 in tall"
-   ],
-   "cons": [
-    "6.5 qt capacity"
-   ],
-   "specs": {
-    "capacity": "6.5 qt",
-    "type": "Open pan",
-    "size": "13.5 x 4.5 in tall",
-    "extras": "Polypropylene, spout edge"
-   },
-   "features": {
-    "sealed": false,
-    "capacity_12": false,
-    "low_profile": true,
-    "plug_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61mQS+Vki6L._AC_SL1200_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B007RXBU52?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B007RXBU52"
-  },
-  {
-   "rank": 9,
-   "asin": "B0GJTCYC2M",
-   "name": "PAK Premium 16 Quart Oil Drain Pan, Made in USA (9100-0301)",
-   "brand": "PAK",
-   "model": "9100-0301",
-   "price": 31.5,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 52,
-   "score": 73,
-   "award": null,
-   "best_for": "Trucks and multiple changes between recycling trips.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 16-quart American-made container with two drain holes for faster flow and a tethered cap for transport.",
-   "pros": [
-    "16 qt",
-    "Made in USA",
-    "Tethered cap"
-   ],
-   "cons": [
-    "Only 52 reviews"
-   ],
-   "specs": {
-    "capacity": "16 qt",
-    "type": "Closed container",
-    "size": null,
-    "extras": "Two drain holes, tethered cap, angled neck"
-   },
-   "features": {
-    "sealed": true,
-    "capacity_12": true,
-    "low_profile": false,
-    "plug_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/6168Xn7li2L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GJTCYC2M?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0GJTCYC2M"
-  },
-  {
-   "rank": 10,
-   "asin": "B0D7N4P3T1",
-   "name": "Performance Tool W4078 24-Quart Oil Drain Container",
-   "brand": "Performance Tool",
-   "model": "W4078",
-   "price": 49.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 226,
-   "score": 70,
-   "award": null,
-   "best_for": "Anyone doing several oil changes before a recycling trip.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 24-quart container that catches oil and then seals with gasketed caps, so you can store several changes and haul them to recycling.",
-   "pros": [
-    "24 qt",
-    "Gasketed caps",
-    "Catch and store"
-   ],
-   "cons": [
-    "4.0 stars"
-   ],
-   "specs": {
-    "capacity": "24 qt",
-    "type": "Closed container",
-    "size": null,
-    "extras": "Deep drain well, tethered caps with rubber gaskets"
-   },
-   "features": {
-    "sealed": true,
-    "capacity_12": true,
-    "low_profile": false,
-    "plug_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61Ce4dvDXTL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D7N4P3T1?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0D7N4P3T1"
   }
  ],
  "avoid": [

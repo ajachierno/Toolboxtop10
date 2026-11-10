@@ -22,7 +22,7 @@
    "drain_port": 0.2,
    "stainless_tank": 0.15
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 8643,
-   "score": 92,
+   "score": 94,
    "award": "Best Overall",
    "best_for": "Sawdust, debris and flooded basements.",
    "bought_last_month": "1K+/mo",
@@ -77,48 +77,6 @@
   },
   {
    "rank": 2,
-   "asin": "B07BY8BZ3K",
-   "name": "DEWALT DXV06P 6 Gallon 4 Peak HP Poly Wet/Dry Vacuum with Blower",
-   "brand": "DEWALT",
-   "model": "DXV06P",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 5760,
-   "score": 87,
-   "award": null,
-   "best_for": "A jobsite-size hose on a vac you can lift into a truck.",
-   "bought_last_month": "900+/mo",
-   "verdict": "A compact 6-gallon vac with a full-size 1-7/8 in. hose, rubberized casters, and a blower port. It's the one to buy if you want a jobsite-size hose on a vac you can lift into a truck.",
-   "pros": [
-    "1-7/8 in. x 7 ft hose, wider than any other vac this size on the list",
-    "Rubberized casters and a 10 ft cord with a wrap",
-    "Two extension wands, cartridge filter, and dust bag included"
-   ],
-   "cons": [
-    "About twice the price of the STANLEY 6-gallon",
-    "No drain port"
-   ],
-   "specs": {
-    "capacity": "6 gal",
-    "peak_hp": "4 HP",
-    "hose": "1-7/8\" x 7 ft",
-    "cord": "10 ft",
-    "tank": "Poly",
-    "warranty": null
-   },
-   "features": {
-    "blower": true,
-    "wide_hose": true,
-    "drain_port": false,
-    "stainless_tank": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61+ZAAkK2oL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07BY8BZ3K?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-shop-vacuums.html#B07BY8BZ3K"
-  },
-  {
-   "rank": 3,
    "asin": "B07BYGDFKB",
    "name": "DEWALT DXV12P 12 Gallon 5.5 Peak HP Poly Wet/Dry Vacuum",
    "brand": "DEWALT",
@@ -127,7 +85,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2172,
-   "score": 87,
+   "score": 94,
    "award": "Money No Object",
    "best_for": "Shops and jobsites where you move around and pick up heavy debris.",
    "bought_last_month": "800+/mo",
@@ -160,7 +118,91 @@
    "page_url": "https://toolboxtop10.com/corded-shop-vacuums.html#B07BYGDFKB"
   },
   {
+   "rank": 3,
+   "asin": "B07BY8BZ3K",
+   "name": "DEWALT DXV06P 6 Gallon 4 Peak HP Poly Wet/Dry Vacuum with Blower",
+   "brand": "DEWALT",
+   "model": "DXV06P",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 5760,
+   "score": 90,
+   "award": null,
+   "best_for": "A jobsite-size hose on a vac you can lift into a truck.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A compact 6-gallon vac with a full-size 1-7/8 in. hose, rubberized casters, and a blower port. It's the one to buy if you want a jobsite-size hose on a vac you can lift into a truck.",
+   "pros": [
+    "1-7/8 in. x 7 ft hose, wider than any other vac this size on the list",
+    "Rubberized casters and a 10 ft cord with a wrap",
+    "Two extension wands, cartridge filter, and dust bag included"
+   ],
+   "cons": [
+    "About twice the price of the STANLEY 6-gallon",
+    "No drain port"
+   ],
+   "specs": {
+    "capacity": "6 gal",
+    "peak_hp": "4 HP",
+    "hose": "1-7/8\" x 7 ft",
+    "cord": "10 ft",
+    "tank": "Poly",
+    "warranty": null
+   },
+   "features": {
+    "blower": true,
+    "wide_hose": true,
+    "drain_port": false,
+    "stainless_tank": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61+ZAAkK2oL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07BY8BZ3K?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-shop-vacuums.html#B07BY8BZ3K"
+  },
+  {
    "rank": 4,
+   "asin": "B075MWCF8L",
+   "name": "Shop-Vac 5989305 5 Gallon 4.5 Peak HP Wet/Dry Vacuum with Blower Function",
+   "brand": "Shop-Vac",
+   "model": "5989305",
+   "price": 90.61,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 3551,
+   "score": 85,
+   "award": null,
+   "best_for": "A stainless vac from the original brand with a 3-year warranty.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A 5-gallon stainless vac from the brand that named the category, with a full dolly, rear blower port, and three extension wands.",
+   "pros": [
+    "Stainless steel tank with a full-circumference dolly",
+    "Rear blower port, plus cartridge filter, foam sleeve, and filter bag",
+    "3-year warranty"
+   ],
+   "cons": [
+    "6 ft cord, the shortest on the list",
+    "About $28 more than the Vacmaster 5-gallon stainless vac"
+   ],
+   "specs": {
+    "capacity": "5 gal",
+    "peak_hp": "4.5 HP",
+    "hose": "1-1/4\" x 7 ft",
+    "cord": "6 ft",
+    "tank": "Stainless steel",
+    "warranty": "3 years"
+   },
+   "features": {
+    "blower": true,
+    "wide_hose": false,
+    "drain_port": false,
+    "stainless_tank": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41Zkz8l6myL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B075MWCF8L?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-shop-vacuums.html#B075MWCF8L"
+  },
+  {
+   "rank": 5,
    "asin": "B00IS94BWS",
    "name": "STANLEY SL18116P Wet/Dry Vacuum, 6 Gallon, 4 Peak HP",
    "brand": "STANLEY",
@@ -202,7 +244,7 @@
    "page_url": "https://toolboxtop10.com/corded-shop-vacuums.html#B00IS94BWS"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B07QXWG93C",
    "name": "CRAFTSMAN CMXEVBE17250 2.5 Gallon 2.5 Peak HP Wet Dry Shop Vacuum",
    "brand": "CRAFTSMAN",
@@ -211,7 +253,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 10315,
-   "score": 80,
+   "score": 82,
    "award": null,
    "best_for": "Carrying to the car or upstairs, with a 3-year warranty.",
    "bought_last_month": "8K+/mo",
@@ -244,48 +286,6 @@
    "page_url": "https://toolboxtop10.com/corded-shop-vacuums.html#B07QXWG93C"
   },
   {
-   "rank": 6,
-   "asin": "B075MWCF8L",
-   "name": "Shop-Vac 5989305 5 Gallon 4.5 Peak HP Wet/Dry Vacuum with Blower Function",
-   "brand": "Shop-Vac",
-   "model": "5989305",
-   "price": 90.61,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 3551,
-   "score": 79,
-   "award": null,
-   "best_for": "A stainless vac from the original brand with a 3-year warranty.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A 5-gallon stainless vac from the brand that named the category, with a full dolly, rear blower port, and three extension wands.",
-   "pros": [
-    "Stainless steel tank with a full-circumference dolly",
-    "Rear blower port, plus cartridge filter, foam sleeve, and filter bag",
-    "3-year warranty"
-   ],
-   "cons": [
-    "6 ft cord, the shortest on the list",
-    "About $28 more than the Vacmaster 5-gallon stainless vac"
-   ],
-   "specs": {
-    "capacity": "5 gal",
-    "peak_hp": "4.5 HP",
-    "hose": "1-1/4\" x 7 ft",
-    "cord": "6 ft",
-    "tank": "Stainless steel",
-    "warranty": "3 years"
-   },
-   "features": {
-    "blower": true,
-    "wide_hose": false,
-    "drain_port": false,
-    "stainless_tank": true
-   },
-   "image": "https://m.media-amazon.com/images/I/41Zkz8l6myL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B075MWCF8L?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-shop-vacuums.html#B075MWCF8L"
-  },
-  {
    "rank": 7,
    "asin": "B00Y5BX674",
    "name": "Armor All AA255W 2.5 Gal 2 Peak HP Wet/Dry Utility Vac",
@@ -295,7 +295,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3481,
-   "score": 77,
+   "score": 82,
    "award": null,
    "best_for": "Car detailing with 13 accessories.",
    "bought_last_month": "3K+/mo",
@@ -337,7 +337,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2283,
-   "score": 76,
+   "score": 82,
    "award": null,
    "best_for": "Clearing a garage floor or driveway with a detachable blower.",
    "bought_last_month": "300+/mo",
@@ -379,7 +379,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3049,
-   "score": 73,
+   "score": 78,
    "award": null,
    "best_for": "A stainless tank and separate wet and dry filters for about $63.",
    "bought_last_month": "500+/mo",
@@ -421,7 +421,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2778,
-   "score": 71,
+   "score": 78,
    "award": null,
    "best_for": "Home and garage cleanup with a stainless tank.",
    "bought_last_month": "3K+/mo",

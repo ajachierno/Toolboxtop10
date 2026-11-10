@@ -22,7 +22,7 @@
    "auto_range": 0.2,
    "ncv": 0.2
   },
-  "reviews_ceiling": 30000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 15,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,90 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GRZ9ZJV8",
+   "name": "ZMIWNIED FS899L Digital Multimeter, 6000 Counts True RMS, Auto-Ranging, NCV, Color Screen, USB-C Rechargeable, 20-Piece Test Lead Kit",
+   "brand": "ZMIWNIED",
+   "model": "FS899L",
+   "price": 37.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 144,
+   "score": 96,
+   "award": null,
+   "best_for": "DIYers who want True RMS, NCV and auto-ranging in one meter under $40.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 6000-count True RMS auto-ranging meter with non-contact voltage detection, a 4.8 in backlit color screen and a USB-C rechargeable battery, sold with a 20-piece lead and clip kit. It lists CAT III 1000V / CAT IV 600V ratings.",
+   "pros": [
+    "True RMS, auto-ranging and NCV",
+    "USB-C rechargeable, no 9V battery to buy",
+    "20-piece test lead and clip set",
+    "1K+ bought last month"
+   ],
+   "cons": [
+    "Listing says 1000V CAT III while voltage tops out at 600V",
+    "144 reviews so far",
+    "No published warranty on the listing"
+   ],
+   "specs": {
+    "safety": "CAT III 1000V / CAT IV 600V",
+    "voltage": "600 V AC/DC",
+    "current": "10 A AC/DC",
+    "ranging": "Auto",
+    "extras": "NCV, capacitance, frequency, 4.8 in color screen, flashlight, USB-C battery"
+   },
+   "features": {
+    "cat_rated": true,
+    "trms": true,
+    "auto_range": true,
+    "ncv": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71YP45h-ACL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GRZ9ZJV8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multimeters.html#B0GRZ9ZJV8"
+  },
+  {
+   "rank": 2,
+   "asin": "B0B57PFFYX",
+   "name": "Klein Tools MM420 Auto-Ranging TRMS Digital Multimeter",
+   "brand": "Klein Tools",
+   "model": "MM420",
+   "price": 64.98,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 775,
+   "score": 93,
+   "award": null,
+   "best_for": "Electricians and serious DIYers who want Klein quality and TRMS.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Klein's auto-ranging True RMS step-up from the MM325, with AC and DC current to 10 A, lead-alert LEDs and a backlit display.",
+   "pros": [
+    "TRMS, auto-ranging",
+    "10 A AC/DC current",
+    "Lead-alert LEDs"
+   ],
+   "cons": [
+    "$64.98",
+    "No non-contact voltage"
+   ],
+   "specs": {
+    "safety": "CAT III 600V",
+    "voltage": "600 V",
+    "current": "10 A AC/DC",
+    "ranging": "Auto",
+    "extras": "Lead-alert LEDs, 50 MΩ resistance, backlight, kickstand"
+   },
+   "features": {
+    "cat_rated": true,
+    "trms": true,
+    "auto_range": true,
+    "ncv": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51hgJ2yCwqL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B57PFFYX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multimeters.html#B0B57PFFYX"
+  },
+  {
+   "rank": 3,
    "asin": "B00KXX2OYY",
    "name": "Crenova MS8233D Multimeter TRMS 6000 Counts Auto-Ranging Live Wire NCV",
    "brand": "Crenova",
@@ -43,7 +127,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 9141,
-   "score": 87,
+   "score": 91,
    "award": null,
    "best_for": "Electrical work that needs NCV and auto-ranging.",
    "bought_last_month": "500+/mo",
@@ -75,7 +159,7 @@
    "page_url": "https://toolboxtop10.com/multimeters.html#B00KXX2OYY"
   },
   {
-   "rank": 2,
+   "rank": 4,
    "asin": "B071JL6LLL",
    "name": "AstroAI Digital Multimeter, True RMS 6000 Counts Auto-Ranging",
    "brand": "AstroAI",
@@ -84,7 +168,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 20326,
-   "score": 84,
+   "score": 85,
    "award": null,
    "best_for": "Car diagnostics and electronics hobbyists.",
    "bought_last_month": "4K+/mo",
@@ -116,7 +200,130 @@
    "page_url": "https://toolboxtop10.com/multimeters.html#B071JL6LLL"
   },
   {
-   "rank": 3,
+   "rank": 5,
+   "asin": "B0779621KZ",
+   "name": "Fluke 17B+ Digital Multimeter, AC/DC Voltage 1000V, Current to 10A, Temperature",
+   "brand": "Fluke",
+   "model": "17B+",
+   "price": 144.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1086,
+   "score": 85,
+   "award": "Money No Object",
+   "best_for": "HVAC techs and electricians who also check temperatures.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The 15B+ plus temperature measurement to 400°C with an included type K thermocouple, for HVAC work as well as electrical.",
+   "pros": [
+    "4.8 stars, 3,000+ sold last month",
+    "Temperature with thermocouple",
+    "Fluke reliability"
+   ],
+   "cons": [
+    "$144.99",
+    "Not True RMS"
+   ],
+   "specs": {
+    "safety": "CAT III 600V",
+    "voltage": "1000 V",
+    "current": "10 A AC/DC",
+    "ranging": null,
+    "extras": "Temperature to 400°C with type K thermocouple, capacitance, diode"
+   },
+   "features": {
+    "cat_rated": true,
+    "trms": false,
+    "auto_range": false,
+    "ncv": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61rrIU-V47L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0779621KZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multimeters.html#B0779621KZ"
+  },
+  {
+   "rank": 6,
+   "asin": "B01IH41CUW",
+   "name": "Fluke 15B+ Digital Multimeter, AC/DC Voltage to 1000V and Current to 10A",
+   "brand": "Fluke",
+   "model": "15B+",
+   "price": 122.39,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1014,
+   "score": 85,
+   "award": null,
+   "best_for": "A meter that will last a career.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Fluke's entry meter, tied for the highest rating here: CAT III 600V, AC and DC voltage to 1000 V and current to 10 A, with capacitance.",
+   "pros": [
+    "4.8 stars",
+    "Fluke build",
+    "1000 V, 10 A AC/DC"
+   ],
+   "cons": [
+    "$122.39",
+    "Not True RMS"
+   ],
+   "specs": {
+    "safety": "CAT III 600V",
+    "voltage": "1000 V",
+    "current": "10 A AC/DC",
+    "ranging": null,
+    "extras": "Capacitance, continuity, diode"
+   },
+   "features": {
+    "cat_rated": true,
+    "trms": false,
+    "auto_range": false,
+    "ncv": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81Rw38cHqFL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01IH41CUW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multimeters.html#B01IH41CUW"
+  },
+  {
+   "rank": 7,
+   "asin": "B0B57L9FNL",
+   "name": "Klein Tools MM325 Digital Manual-Ranging Multimeter",
+   "brand": "Klein Tools",
+   "model": "MM325",
+   "price": 34.97,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 3061,
+   "score": 84,
+   "award": "Best Overall",
+   "best_for": "Homeowners doing outlets, switches, fixtures and car batteries.",
+   "bought_last_month": "8K+/mo",
+   "verdict": "Tied for the best seller here: a CAT III-rated Klein meter with LEDs that light up to show where the test leads go, a battery test mode, a backlit display and a kickstand, for about $30.",
+   "pros": [
+    "CAT III 600V",
+    "Lead-alert LEDs prevent wrong-jack mistakes",
+    "10,000+ sold last month; 4.7 stars"
+   ],
+   "cons": [
+    "Manual ranging",
+    "DC current only"
+   ],
+   "specs": {
+    "safety": "CAT III 600V",
+    "voltage": "600 V AC/DC",
+    "current": "10 A DC",
+    "ranging": "Manual",
+    "extras": "Lead-alert LEDs, battery test, backlight, kickstand"
+   },
+   "features": {
+    "cat_rated": true,
+    "trms": false,
+    "auto_range": false,
+    "ncv": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51EPzXFvIAL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B57L9FNL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multimeters.html#B0B57L9FNL"
+  },
+  {
+   "rank": 8,
    "asin": "B08CX9W7G3",
    "name": "KAIWEETS Digital Multimeter Voltmeter with Case",
    "brand": "KAIWEETS",
@@ -157,132 +364,50 @@
    "page_url": "https://toolboxtop10.com/multimeters.html#B08CX9W7G3"
   },
   {
-   "rank": 4,
-   "asin": "B0B57PFFYX",
-   "name": "Klein Tools MM420 Auto-Ranging TRMS Digital Multimeter",
+   "rank": 9,
+   "asin": "B09C6MGD7J",
+   "name": "Klein Tools 69149P Electrical Test Kit, 3 Piece",
    "brand": "Klein Tools",
-   "model": "MM420",
-   "price": 64.98,
+   "model": "69149P",
+   "price": 39.95,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 775,
-   "score": 81,
-   "award": null,
-   "best_for": "Electricians and serious DIYers who want Klein quality and TRMS.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "Klein's auto-ranging True RMS step-up from the MM325, with AC and DC current to 10 A, lead-alert LEDs and a backlit display.",
-   "pros": [
-    "TRMS, auto-ranging",
-    "10 A AC/DC current",
-    "Lead-alert LEDs"
-   ],
-   "cons": [
-    "$64.98",
-    "No non-contact voltage"
-   ],
-   "specs": {
-    "safety": "CAT III 600V",
-    "voltage": "600 V",
-    "current": "10 A AC/DC",
-    "ranging": "Auto",
-    "extras": "Lead-alert LEDs, 50 MΩ resistance, backlight, kickstand"
-   },
-   "features": {
-    "cat_rated": true,
-    "trms": true,
-    "auto_range": true,
-    "ncv": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51hgJ2yCwqL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B57PFFYX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multimeters.html#B0B57PFFYX"
-  },
-  {
-   "rank": 5,
-   "asin": "B0GRZ9ZJV8",
-   "name": "ZMIWNIED FS899L Digital Multimeter, 6000 Counts True RMS, Auto-Ranging, NCV, Color Screen, USB-C Rechargeable, 20-Piece Test Lead Kit",
-   "brand": "ZMIWNIED",
-   "model": "FS899L",
-   "price": 37.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 144,
+   "rating": 4.6,
+   "reviews_count": 4027,
    "score": 80,
    "award": null,
-   "best_for": "DIYers who want True RMS, NCV and auto-ranging in one meter under $40.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 6000-count True RMS auto-ranging meter with non-contact voltage detection, a 4.8 in backlit color screen and a USB-C rechargeable battery, sold with a 20-piece lead and clip kit. It lists CAT III 1000V / CAT IV 600V ratings.",
+   "best_for": "New homeowners who want a meter, a voltage pen and an outlet tester in one box.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "Klein's starter kit pairs the MM320 manual-ranging multimeter with a non-contact voltage tester and a plug-in outlet tester. It is the third-best seller in Amazon's multimeter search and covers most household electrical checks.",
    "pros": [
-    "True RMS, auto-ranging and NCV",
-    "USB-C rechargeable, no 9V battery to buy",
-    "20-piece test lead and clip set",
-    "1K+ bought last month"
-   ],
-   "cons": [
-    "Listing says 1000V CAT III while voltage tops out at 600V",
-    "144 reviews so far",
-    "No published warranty on the listing"
-   ],
-   "specs": {
-    "safety": "CAT III 1000V / CAT IV 600V",
-    "voltage": "600 V AC/DC",
-    "current": "10 A AC/DC",
-    "ranging": "Auto",
-    "extras": "NCV, capacitance, frequency, 4.8 in color screen, flashlight, USB-C battery"
-   },
-   "features": {
-    "cat_rated": true,
-    "trms": true,
-    "auto_range": true,
-    "ncv": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71YP45h-ACL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GRZ9ZJV8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multimeters.html#B0GRZ9ZJV8"
-  },
-  {
-   "rank": 6,
-   "asin": "B0B57L9FNL",
-   "name": "Klein Tools MM325 Digital Manual-Ranging Multimeter",
-   "brand": "Klein Tools",
-   "model": "MM325",
-   "price": 34.97,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 3061,
-   "score": 77,
-   "award": "Best Overall",
-   "best_for": "Homeowners doing outlets, switches, fixtures and car batteries.",
-   "bought_last_month": "8K+/mo",
-   "verdict": "Tied for the best seller here: a CAT III-rated Klein meter with LEDs that light up to show where the test leads go, a battery test mode, a backlit display and a kickstand, for about $30.",
-   "pros": [
-    "CAT III 600V",
-    "Lead-alert LEDs prevent wrong-jack mistakes",
-    "10,000+ sold last month; 4.7 stars"
+    "Three testers for $39.95",
+    "NCVT1P pen detects 50-1000 VAC",
+    "RT110 outlet tester flags common wiring faults",
+    "2K+ bought last month"
    ],
    "cons": [
     "Manual ranging",
-    "DC current only"
+    "Listing doesn't state the meter's CAT rating",
+    "Meter measures DC current only"
    ],
    "specs": {
-    "safety": "CAT III 600V",
+    "safety": null,
     "voltage": "600 V AC/DC",
     "current": "10 A DC",
     "ranging": "Manual",
-    "extras": "Lead-alert LEDs, battery test, backlight, kickstand"
+    "extras": "Kit adds NCVT1P voltage tester (50-1000 VAC) and RT110 outlet tester"
    },
    "features": {
-    "cat_rated": true,
+    "cat_rated": false,
     "trms": false,
     "auto_range": false,
-    "ncv": false
+    "ncv": true
    },
-   "image": "https://m.media-amazon.com/images/I/51EPzXFvIAL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B57L9FNL?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multimeters.html#B0B57L9FNL"
+   "image": "https://m.media-amazon.com/images/I/81EgMW9pP9L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09C6MGD7J?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multimeters.html#B09C6MGD7J"
   },
   {
-   "rank": 7,
+   "rank": 10,
    "asin": "B01ISAMUA6",
    "name": "AstroAI Digital Multimeter Tester 2000 Counts, DC/AC Voltmeter and Ohm Volt Amp Meter",
    "brand": "AstroAI",
@@ -321,131 +446,6 @@
    "image": "https://m.media-amazon.com/images/I/71+FegWytVL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B01ISAMUA6?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/multimeters.html#B01ISAMUA6"
-  },
-  {
-   "rank": 8,
-   "asin": "B09C6MGD7J",
-   "name": "Klein Tools 69149P Electrical Test Kit, 3 Piece",
-   "brand": "Klein Tools",
-   "model": "69149P",
-   "price": 39.95,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 4027,
-   "score": 74,
-   "award": null,
-   "best_for": "New homeowners who want a meter, a voltage pen and an outlet tester in one box.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "Klein's starter kit pairs the MM320 manual-ranging multimeter with a non-contact voltage tester and a plug-in outlet tester. It is the third-best seller in Amazon's multimeter search and covers most household electrical checks.",
-   "pros": [
-    "Three testers for $39.95",
-    "NCVT1P pen detects 50-1000 VAC",
-    "RT110 outlet tester flags common wiring faults",
-    "2K+ bought last month"
-   ],
-   "cons": [
-    "Manual ranging",
-    "Listing doesn't state the meter's CAT rating",
-    "Meter measures DC current only"
-   ],
-   "specs": {
-    "safety": null,
-    "voltage": "600 V AC/DC",
-    "current": "10 A DC",
-    "ranging": "Manual",
-    "extras": "Kit adds NCVT1P voltage tester (50-1000 VAC) and RT110 outlet tester"
-   },
-   "features": {
-    "cat_rated": false,
-    "trms": false,
-    "auto_range": false,
-    "ncv": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81EgMW9pP9L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09C6MGD7J?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multimeters.html#B09C6MGD7J"
-  },
-  {
-   "rank": 9,
-   "asin": "B0779621KZ",
-   "name": "Fluke 17B+ Digital Multimeter, AC/DC Voltage 1000V, Current to 10A, Temperature",
-   "brand": "Fluke",
-   "model": "17B+",
-   "price": 144.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1086,
-   "score": 74,
-   "award": "Money No Object",
-   "best_for": "HVAC techs and electricians who also check temperatures.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The 15B+ plus temperature measurement to 400°C with an included type K thermocouple, for HVAC work as well as electrical.",
-   "pros": [
-    "4.8 stars, 3,000+ sold last month",
-    "Temperature with thermocouple",
-    "Fluke reliability"
-   ],
-   "cons": [
-    "$144.99",
-    "Not True RMS"
-   ],
-   "specs": {
-    "safety": "CAT III 600V",
-    "voltage": "1000 V",
-    "current": "10 A AC/DC",
-    "ranging": null,
-    "extras": "Temperature to 400°C with type K thermocouple, capacitance, diode"
-   },
-   "features": {
-    "cat_rated": true,
-    "trms": false,
-    "auto_range": false,
-    "ncv": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61rrIU-V47L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0779621KZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multimeters.html#B0779621KZ"
-  },
-  {
-   "rank": 10,
-   "asin": "B01IH41CUW",
-   "name": "Fluke 15B+ Digital Multimeter, AC/DC Voltage to 1000V and Current to 10A",
-   "brand": "Fluke",
-   "model": "15B+",
-   "price": 122.39,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1014,
-   "score": 74,
-   "award": null,
-   "best_for": "A meter that will last a career.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "Fluke's entry meter, tied for the highest rating here: CAT III 600V, AC and DC voltage to 1000 V and current to 10 A, with capacitance.",
-   "pros": [
-    "4.8 stars",
-    "Fluke build",
-    "1000 V, 10 A AC/DC"
-   ],
-   "cons": [
-    "$122.39",
-    "Not True RMS"
-   ],
-   "specs": {
-    "safety": "CAT III 600V",
-    "voltage": "1000 V",
-    "current": "10 A AC/DC",
-    "ranging": null,
-    "extras": "Capacitance, continuity, diode"
-   },
-   "features": {
-    "cat_rated": true,
-    "trms": false,
-    "auto_range": false,
-    "ncv": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81Rw38cHqFL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01IH41CUW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multimeters.html#B01IH41CUW"
   }
  ],
  "avoid": [

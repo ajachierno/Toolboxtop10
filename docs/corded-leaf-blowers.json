@@ -21,7 +21,7 @@
    "variable_speed": 0.35,
    "vac_mulch": 0.3
   },
-  "reviews_ceiling": 30000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 45,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -34,47 +34,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B01B79BD6C",
-   "name": "WORX 12 Amp Turbine Electric Leaf Blower (WG520)",
-   "brand": "WORX",
-   "model": "WG520",
-   "price": 62.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 12698,
-   "score": 88,
-   "award": "Best Overall",
-   "best_for": "Clearing a whole lawn or long driveway of leaves in one pass.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 12-amp turbine blower that moves 600 CFM, tied for the most air on this list, at 6.4 lb. It is rated 4.7 stars across 12,600+ reviews, the best combination of airflow and track record on the page.",
-   "pros": [
-    "600 CFM, tied for the most airflow on this list",
-    "Variable speed control",
-    "4.7 stars on 12,600+ reviews",
-    "6.4 lb for a full-size blower"
-   ],
-   "cons": [
-    "110 mph is lower than the 3-in-1 models, so wet, matted leaves take longer",
-    "No vacuum or mulch mode"
-   ],
-   "specs": {
-    "cfm": "600 CFM",
-    "mph": "110 mph",
-    "amps": "12 A",
-    "weight": "6.4 lb",
-    "extras": "Turbine fan, variable speed"
-   },
-   "features": {
-    "high_cfm": true,
-    "variable_speed": true,
-    "vac_mulch": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61AARuDM15L._AC_SL1424_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01B79BD6C?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B01B79BD6C"
-  },
-  {
-   "rank": 2,
    "asin": "B07PGX4SXW",
    "name": "WORX Trivac 3-in-1 Leaf Blower/Vacuum/Mulcher, 600 CFM (WG512)",
    "brand": "WORX",
@@ -83,7 +42,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 7333,
-   "score": 88,
+   "score": 93,
    "award": "Money No Object",
    "best_for": "Big lots where you blow, vacuum and mulch heavy leaf fall every week of autumn.",
    "bought_last_month": null,
@@ -116,48 +75,7 @@
    "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B07PGX4SXW"
   },
   {
-   "rank": 3,
-   "asin": "B07253C39S",
-   "name": "BLACK+DECKER 3-in-1 Backpack Leaf Blower, Vacuum and Mulcher (BEBL7000)",
-   "brand": "BLACK+DECKER",
-   "model": "BEBL7000",
-   "price": 89.0,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 6519,
-   "score": 87,
-   "award": null,
-   "best_for": "Vacuuming a lot of leaves without the bag weight dragging on your arm.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A 12-amp 3-in-1 that carries collected leaves in a backpack bag instead of hanging them off the tool. A POWERBOOST button gives 250 mph and 400 CFM on demand, and it has a 3-year warranty.",
-   "pros": [
-    "Backpack bag carries the load on your back",
-    "400 CFM / 250 mph with POWERBOOST",
-    "Flexible vacuum tube",
-    "3-year limited warranty, the longest here"
-   ],
-   "cons": [
-    "11.1 lb",
-    "4.1 stars, the lowest rating on this list"
-   ],
-   "specs": {
-    "cfm": "400 CFM",
-    "mph": "250 mph",
-    "amps": "12 A",
-    "weight": "11.1 lb",
-    "extras": "Backpack bag, POWERBOOST button, flexible vac tube"
-   },
-   "features": {
-    "high_cfm": true,
-    "variable_speed": true,
-    "vac_mulch": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71wQ-LD3zPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07253C39S?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B07253C39S"
-  },
-  {
-   "rank": 4,
+   "rank": 2,
    "asin": "B00FREQC10",
    "name": "BLACK+DECKER 3-in-1 Leaf Blower, Vacuum and Mulcher (BV6000)",
    "brand": "BLACK+DECKER",
@@ -166,7 +84,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 6169,
-   "score": 87,
+   "score": 93,
    "award": null,
    "best_for": "Wet or matted leaves that need fast air, then mulching without the fan clogging.",
    "bought_last_month": null,
@@ -199,7 +117,130 @@
    "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B00FREQC10"
   },
   {
+   "rank": 3,
+   "asin": "B07253C39S",
+   "name": "BLACK+DECKER 3-in-1 Backpack Leaf Blower, Vacuum and Mulcher (BEBL7000)",
+   "brand": "BLACK+DECKER",
+   "model": "BEBL7000",
+   "price": 89.0,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 6519,
+   "score": 92,
+   "award": null,
+   "best_for": "Vacuuming a lot of leaves without the bag weight dragging on your arm.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A 12-amp 3-in-1 that carries collected leaves in a backpack bag instead of hanging them off the tool. A POWERBOOST button gives 250 mph and 400 CFM on demand, and it has a 3-year warranty.",
+   "pros": [
+    "Backpack bag carries the load on your back",
+    "400 CFM / 250 mph with POWERBOOST",
+    "Flexible vacuum tube",
+    "3-year limited warranty, the longest here"
+   ],
+   "cons": [
+    "11.1 lb",
+    "4.1 stars, the lowest rating on this list"
+   ],
+   "specs": {
+    "cfm": "400 CFM",
+    "mph": "250 mph",
+    "amps": "12 A",
+    "weight": "11.1 lb",
+    "extras": "Backpack bag, POWERBOOST button, flexible vac tube"
+   },
+   "features": {
+    "high_cfm": true,
+    "variable_speed": true,
+    "vac_mulch": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71wQ-LD3zPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07253C39S?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B07253C39S"
+  },
+  {
+   "rank": 4,
+   "asin": "B01B79BD6C",
+   "name": "WORX 12 Amp Turbine Electric Leaf Blower (WG520)",
+   "brand": "WORX",
+   "model": "WG520",
+   "price": 62.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 12698,
+   "score": 91,
+   "award": "Best Overall",
+   "best_for": "Clearing a whole lawn or long driveway of leaves in one pass.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 12-amp turbine blower that moves 600 CFM, tied for the most air on this list, at 6.4 lb. It is rated 4.7 stars across 12,600+ reviews, the best combination of airflow and track record on the page.",
+   "pros": [
+    "600 CFM, tied for the most airflow on this list",
+    "Variable speed control",
+    "4.7 stars on 12,600+ reviews",
+    "6.4 lb for a full-size blower"
+   ],
+   "cons": [
+    "110 mph is lower than the 3-in-1 models, so wet, matted leaves take longer",
+    "No vacuum or mulch mode"
+   ],
+   "specs": {
+    "cfm": "600 CFM",
+    "mph": "110 mph",
+    "amps": "12 A",
+    "weight": "6.4 lb",
+    "extras": "Turbine fan, variable speed"
+   },
+   "features": {
+    "high_cfm": true,
+    "variable_speed": true,
+    "vac_mulch": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61AARuDM15L._AC_SL1424_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01B79BD6C?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B01B79BD6C"
+  },
+  {
    "rank": 5,
+   "asin": "B07JL9PZH2",
+   "name": "BLACK+DECKER Axial Corded Leaf Blower, 450 CFM (BEBL750)",
+   "brand": "BLACK+DECKER",
+   "model": "BEBL750",
+   "price": 69.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2438,
+   "score": 91,
+   "award": null,
+   "best_for": "Lawns and driveways where you want more air than a compact blower without a 3-in-1's weight.",
+   "bought_last_month": "300+/mo",
+   "verdict": "An axial blower with 450 CFM and two speeds, plus a scraper built into the nozzle for leaves stuck to concrete. It ties the WORX WG520 for the top rating here at 4.7 stars.",
+   "pros": [
+    "450 CFM and 140 mph",
+    "2-speed control",
+    "Built-in scraper for stuck leaves",
+    "4.7 stars"
+   ],
+   "cons": [
+    "Listing doesn't state the motor amperage",
+    "7 lb, heavier than the WORX WG520 that moves more air"
+   ],
+   "specs": {
+    "cfm": "450 CFM",
+    "mph": "140 mph",
+    "amps": null,
+    "weight": "7 lb",
+    "extras": "2-speed, built-in scraper, cord retention"
+   },
+   "features": {
+    "high_cfm": true,
+    "variable_speed": true,
+    "vac_mulch": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61EmWvEdZUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07JL9PZH2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B07JL9PZH2"
+  },
+  {
+   "rank": 6,
    "asin": "B00MN4YCKK",
    "name": "WORX Trivac 3-in-1 Leaf Blower/Vacuum/Mulcher (WG509)",
    "brand": "WORX",
@@ -208,7 +249,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 12060,
-   "score": 83,
+   "score": 86,
    "award": null,
    "best_for": "Blowing leaves into a pile, then vacuuming and mulching them with one tool.",
    "bought_last_month": "3K+/mo",
@@ -241,48 +282,89 @@
    "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B00MN4YCKK"
   },
   {
-   "rank": 6,
-   "asin": "B07JL9PZH2",
-   "name": "BLACK+DECKER Axial Corded Leaf Blower, 450 CFM (BEBL750)",
-   "brand": "BLACK+DECKER",
-   "model": "BEBL750",
-   "price": 69.0,
+   "rank": 7,
+   "asin": "B01BJ2YRPQ",
+   "name": "Sun Joe 10-Amp 2-Speed Electric All-Purpose Blower (SBJ601E)",
+   "brand": "Sun Joe",
+   "model": "SBJ601E",
+   "price": 41.37,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2438,
-   "score": 83,
+   "rating": 4.4,
+   "reviews_count": 3249,
+   "score": 82,
    "award": null,
-   "best_for": "Lawns and driveways where you want more air than a compact blower without a 3-in-1's weight.",
-   "bought_last_month": "300+/mo",
-   "verdict": "An axial blower with 450 CFM and two speeds, plus a scraper built into the nozzle for leaves stuck to concrete. It ties the WORX WG520 for the top rating here at 4.7 stars.",
+   "best_for": "Small yards and driveways where you want a low setting near flower beds.",
+   "bought_last_month": null,
+   "verdict": "A light 10-amp blower with two speeds and a concentrator nozzle, for under $42. It's the cheapest pick here with a speed control.",
    "pros": [
-    "450 CFM and 140 mph",
-    "2-speed control",
-    "Built-in scraper for stuck leaves",
-    "4.7 stars"
+    "2 speeds for under $42",
+    "Concentrator nozzle included",
+    "4.4 lb",
+    "2-year warranty"
    ],
    "cons": [
-    "Listing doesn't state the motor amperage",
-    "7 lb, heavier than the WORX WG520 that moves more air"
+    "240 CFM",
+    "Listing gives both 155 and 215 mph for air speed"
    ],
    "specs": {
-    "cfm": "450 CFM",
-    "mph": "140 mph",
-    "amps": null,
-    "weight": "7 lb",
-    "extras": "2-speed, built-in scraper, cord retention"
+    "cfm": "240 CFM",
+    "mph": "155-215 mph",
+    "amps": "10 A",
+    "weight": "4.4 lb",
+    "extras": "Concentrator nozzle, 2-speed"
    },
    "features": {
-    "high_cfm": true,
+    "high_cfm": false,
     "variable_speed": true,
     "vac_mulch": false
    },
-   "image": "https://m.media-amazon.com/images/I/61EmWvEdZUL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07JL9PZH2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B07JL9PZH2"
+   "image": "https://m.media-amazon.com/images/I/61nzI1a6UXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01BJ2YRPQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B01BJ2YRPQ"
   },
   {
-   "rank": 7,
+   "rank": 8,
+   "asin": "B07D9H8WXW",
+   "name": "CRAFTSMAN 3-in-1 Backpack Leaf Blower, Vacuum and Mulcher (CMEBL700)",
+   "brand": "CRAFTSMAN",
+   "model": "CMEBL700",
+   "price": 99.0,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1586,
+   "score": 80,
+   "award": null,
+   "best_for": "Vacuuming leaves into the biggest bag on this list.",
+   "bought_last_month": "50+/mo",
+   "verdict": "CRAFTSMAN's 12-amp 3-in-1 with a 55 L backpack bag and a wide-mouth opening for emptying. It rates a little higher than the similar BLACK+DECKER BEBL7000 but weighs more.",
+   "pros": [
+    "55 L backpack bag with a wide-mouth opening",
+    "385 CFM / 230 mph",
+    "Tool-free change between blow and vacuum"
+   ],
+   "cons": [
+    "12.5 lb, the heaviest pick here",
+    "No speed control listed",
+    "Only 2 left in stock when we checked"
+   ],
+   "specs": {
+    "cfm": "385 CFM",
+    "mph": "230 mph",
+    "amps": "12 A",
+    "weight": "12.5 lb",
+    "extras": "55 L backpack bag, tool-free mode change"
+   },
+   "features": {
+    "high_cfm": false,
+    "variable_speed": false,
+    "vac_mulch": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51+ykWwiJDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07D9H8WXW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B07D9H8WXW"
+  },
+  {
+   "rank": 9,
    "asin": "B076CM5PGZ",
    "name": "Sun Joe 6-Amp Corded Electric Leaf Blower (SBJ597E)",
    "brand": "Sun Joe",
@@ -323,7 +405,7 @@
    "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B076CM5PGZ"
   },
   {
-   "rank": 8,
+   "rank": 10,
    "asin": "B01HIGWCQI",
    "name": "BLACK+DECKER 7-Amp Corded Handheld Leaf Blower (LB700)",
    "brand": "BLACK+DECKER",
@@ -362,88 +444,6 @@
    "image": "https://m.media-amazon.com/images/I/61EDm2plHWL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B01HIGWCQI?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B01HIGWCQI"
-  },
-  {
-   "rank": 9,
-   "asin": "B01BJ2YRPQ",
-   "name": "Sun Joe 10-Amp 2-Speed Electric All-Purpose Blower (SBJ601E)",
-   "brand": "Sun Joe",
-   "model": "SBJ601E",
-   "price": 41.37,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 3249,
-   "score": 74,
-   "award": null,
-   "best_for": "Small yards and driveways where you want a low setting near flower beds.",
-   "bought_last_month": null,
-   "verdict": "A light 10-amp blower with two speeds and a concentrator nozzle, for under $42. It's the cheapest pick here with a speed control.",
-   "pros": [
-    "2 speeds for under $42",
-    "Concentrator nozzle included",
-    "4.4 lb",
-    "2-year warranty"
-   ],
-   "cons": [
-    "240 CFM",
-    "Listing gives both 155 and 215 mph for air speed"
-   ],
-   "specs": {
-    "cfm": "240 CFM",
-    "mph": "155-215 mph",
-    "amps": "10 A",
-    "weight": "4.4 lb",
-    "extras": "Concentrator nozzle, 2-speed"
-   },
-   "features": {
-    "high_cfm": false,
-    "variable_speed": true,
-    "vac_mulch": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61nzI1a6UXL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01BJ2YRPQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B01BJ2YRPQ"
-  },
-  {
-   "rank": 10,
-   "asin": "B07D9H8WXW",
-   "name": "CRAFTSMAN 3-in-1 Backpack Leaf Blower, Vacuum and Mulcher (CMEBL700)",
-   "brand": "CRAFTSMAN",
-   "model": "CMEBL700",
-   "price": 99.0,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1586,
-   "score": 70,
-   "award": null,
-   "best_for": "Vacuuming leaves into the biggest bag on this list.",
-   "bought_last_month": "50+/mo",
-   "verdict": "CRAFTSMAN's 12-amp 3-in-1 with a 55 L backpack bag and a wide-mouth opening for emptying. It rates a little higher than the similar BLACK+DECKER BEBL7000 but weighs more.",
-   "pros": [
-    "55 L backpack bag with a wide-mouth opening",
-    "385 CFM / 230 mph",
-    "Tool-free change between blow and vacuum"
-   ],
-   "cons": [
-    "12.5 lb, the heaviest pick here",
-    "No speed control listed",
-    "Only 2 left in stock when we checked"
-   ],
-   "specs": {
-    "cfm": "385 CFM",
-    "mph": "230 mph",
-    "amps": "12 A",
-    "weight": "12.5 lb",
-    "extras": "55 L backpack bag, tool-free mode change"
-   },
-   "features": {
-    "high_cfm": false,
-    "variable_speed": false,
-    "vac_mulch": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51+ykWwiJDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07D9H8WXW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-leaf-blowers.html#B07D9H8WXW"
   }
  ],
  "avoid": [

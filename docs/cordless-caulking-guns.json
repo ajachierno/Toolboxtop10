@@ -22,19 +22,59 @@
    "speed_control": 0.3,
    "led": 0.2
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 70,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0FR9BCKVQ",
-  "best_budget": "B0C4GH9Y2P",
+  "best_overall": "B0C4GH9Y2P",
+  "best_budget": "B0FR9BCKVQ",
   "money_no_object": "B01J6KTBI6"
  },
  "products": [
   {
    "rank": 1,
+   "asin": "B0C4GH9Y2P",
+   "name": "Electric Caulking Gun, Cordless Caulk Gun with 2 x 2.0Ah Batteries",
+   "brand": "Uaoaii",
+   "model": "CZ100",
+   "price": 63.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 551,
+   "score": 95,
+   "award": "Best Overall",
+   "best_for": "Occasional caulking on a budget with everything included.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A kit with two batteries, four speeds, anti-drip and an LED aimed at the nozzle, at one of the lowest prices for a battery kit here.",
+   "pros": [
+    "Two batteries included",
+    "4 speeds, anti-drip, LED",
+    "551 reviews"
+   ],
+   "cons": [
+    "Unknown brand",
+    "4.4 stars"
+   ],
+   "specs": {
+    "power": "2 x 2000mAh batteries (included)",
+    "capacity": "10 oz",
+    "speeds": "4 speeds, up to 220 mm/min",
+    "extras": "LED at the nozzle"
+   },
+   "features": {
+    "kit": true,
+    "anti_drip": true,
+    "speed_control": true,
+    "led": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71jwg-EZ8OL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C4GH9Y2P?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-caulking-guns.html#B0C4GH9Y2P"
+  },
+  {
+   "rank": 2,
    "asin": "B0FR9BCKVQ",
    "name": "SEESII Electric Caulking Gun, Brushless Motor, 2 x 2.0Ah Batteries",
    "brand": "SEESII",
@@ -43,8 +83,8 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 709,
-   "score": 92,
-   "award": "Best Overall",
+   "score": 94,
+   "award": "Best Budget",
    "best_for": "Anyone buying a kit who wants finer speed control and a light.",
    "bought_last_month": "100+/mo",
    "verdict": "SEESII's brushless version, with stepless speed instead of four steps, a ring-shaped LED around the nozzle and a drip-proof plunger. It shares its review count with the CG100.",
@@ -74,7 +114,7 @@
    "page_url": "https://toolboxtop10.com/cordless-caulking-guns.html#B0FR9BCKVQ"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B01J6KTBI6",
    "name": "DEWALT 20V MAX Cordless Caulking Gun, 10oz, Variable Speed Trigger, Interchangeable Canister Trays, Tool Only (DCE560B)",
    "brand": "DEWALT",
@@ -114,46 +154,6 @@
    "page_url": "https://toolboxtop10.com/cordless-caulking-guns.html#B01J6KTBI6"
   },
   {
-   "rank": 3,
-   "asin": "B0C4GH9Y2P",
-   "name": "Electric Caulking Gun, Cordless Caulk Gun with 2 x 2.0Ah Batteries",
-   "brand": "Uaoaii",
-   "model": "CZ100",
-   "price": 63.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 551,
-   "score": 89,
-   "award": "Best Budget",
-   "best_for": "Occasional caulking on a budget with everything included.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A kit with two batteries, four speeds, anti-drip and an LED aimed at the nozzle, at one of the lowest prices for a battery kit here.",
-   "pros": [
-    "Two batteries included",
-    "4 speeds, anti-drip, LED",
-    "551 reviews"
-   ],
-   "cons": [
-    "Unknown brand",
-    "4.4 stars"
-   ],
-   "specs": {
-    "power": "2 x 2000mAh batteries (included)",
-    "capacity": "10 oz",
-    "speeds": "4 speeds, up to 220 mm/min",
-    "extras": "LED at the nozzle"
-   },
-   "features": {
-    "kit": true,
-    "anti_drip": true,
-    "speed_control": true,
-    "led": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71jwg-EZ8OL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C4GH9Y2P?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-caulking-guns.html#B0C4GH9Y2P"
-  },
-  {
    "rank": 4,
    "asin": "B0FJRJKFDK",
    "name": "SEESII Cordless Caulking Gun with 2 x 2.0Ah Batteries",
@@ -163,7 +163,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 709,
-   "score": 87,
+   "score": 90,
    "award": null,
    "best_for": "Homeowners who don't own tool batteries and want a powered caulk gun ready to go.",
    "bought_last_month": "400+/mo",
@@ -195,46 +195,6 @@
   },
   {
    "rank": 5,
-   "asin": "B0C15RWCCW",
-   "name": "CRAFTSMAN V20 Cordless Caulk Gun, Anti-Drip, Variable Speed, Tool Only (CMCE600B)",
-   "brand": "CRAFTSMAN",
-   "model": "CMCE600B",
-   "price": 49.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 560,
-   "score": 82,
-   "award": null,
-   "best_for": "CRAFTSMAN V20 owners caulking windows, trim and baths.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A CRAFTSMAN V20 caulk gun with a speed dial, anti-drip and a cartridge holder that rotates 360 degrees so the nozzle points where you need it.",
-   "pros": [
-    "Anti-drip plus speed dial",
-    "Rotating cartridge holder",
-    "4.6 stars, 560 reviews"
-   ],
-   "cons": [
-    "Bare tool",
-    "No LED listed"
-   ],
-   "specs": {
-    "power": "CRAFTSMAN V20",
-    "capacity": "10 oz",
-    "speeds": "Variable speed dial",
-    "extras": "360-degree rotating cartridge holder, hang hook"
-   },
-   "features": {
-    "kit": false,
-    "anti_drip": true,
-    "speed_control": true,
-    "led": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61UOfGrTm1L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C15RWCCW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-caulking-guns.html#B0C15RWCCW"
-  },
-  {
-   "rank": 6,
    "asin": "B0D3CYBR39",
    "name": "Cordless Caulking Gun for Milwaukee 18V Battery, 450lm LED, 4 Speeds, Drip-Free, 10oz (Tool Only)",
    "brand": "RexLeLXB",
@@ -243,7 +203,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 380,
-   "score": 81,
+   "score": 89,
    "award": null,
    "best_for": "M18 owners who want a cheap powered caulk gun.",
    "bought_last_month": "100+/mo",
@@ -274,6 +234,46 @@
    "page_url": "https://toolboxtop10.com/cordless-caulking-guns.html#B0D3CYBR39"
   },
   {
+   "rank": 6,
+   "asin": "B0C15RWCCW",
+   "name": "CRAFTSMAN V20 Cordless Caulk Gun, Anti-Drip, Variable Speed, Tool Only (CMCE600B)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCE600B",
+   "price": 49.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 560,
+   "score": 87,
+   "award": null,
+   "best_for": "CRAFTSMAN V20 owners caulking windows, trim and baths.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A CRAFTSMAN V20 caulk gun with a speed dial, anti-drip and a cartridge holder that rotates 360 degrees so the nozzle points where you need it.",
+   "pros": [
+    "Anti-drip plus speed dial",
+    "Rotating cartridge holder",
+    "4.6 stars, 560 reviews"
+   ],
+   "cons": [
+    "Bare tool",
+    "No LED listed"
+   ],
+   "specs": {
+    "power": "CRAFTSMAN V20",
+    "capacity": "10 oz",
+    "speeds": "Variable speed dial",
+    "extras": "360-degree rotating cartridge holder, hang hook"
+   },
+   "features": {
+    "kit": false,
+    "anti_drip": true,
+    "speed_control": true,
+    "led": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61UOfGrTm1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C15RWCCW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-caulking-guns.html#B0C15RWCCW"
+  },
+  {
    "rank": 7,
    "asin": "B0C3C5B54Y",
    "name": "MARSOSAUR Non-Drip Electric Caulking Gun, 300 KG Thrust, AA Battery Powered, 10oz, LED",
@@ -283,7 +283,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 594,
-   "score": 76,
+   "score": 82,
    "award": null,
    "best_for": "Light caulking around the house with no tool batteries at all.",
    "bought_last_month": "50+/mo",
@@ -324,7 +324,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 809,
-   "score": 73,
+   "score": 77,
    "award": null,
    "best_for": "M12 owners doing trim, windows and bathrooms.",
    "bought_last_month": "300+/mo",
@@ -364,7 +364,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 388,
-   "score": 70,
+   "score": 77,
    "award": null,
    "best_for": "Milwaukee M18 owners who want a pro caulk gun.",
    "bought_last_month": "300+/mo",
@@ -404,7 +404,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 313,
-   "score": 67,
+   "score": 76,
    "award": null,
    "best_for": "RYOBI ONE+ owners who want a cheap powered caulk gun.",
    "bought_last_month": "300+/mo",

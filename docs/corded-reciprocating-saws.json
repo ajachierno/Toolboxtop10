@@ -22,7 +22,7 @@
    "tool_free": 0.2,
    "orbital": 0.2
   },
-  "reviews_ceiling": 60000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 3932,
-   "score": 86,
+   "score": 95,
    "award": "Money No Object",
    "best_for": "Demolition work, with a 12-amp motor and a blade clamp for flush cuts.",
    "bought_last_month": "500+/mo",
@@ -76,47 +76,6 @@
   },
   {
    "rank": 2,
-   "asin": "B008J1GNEO",
-   "name": "SKIL 9206-02 7.5-Amp Variable Speed Reciprocating Saw",
-   "brand": "SKIL",
-   "model": "9206-02",
-   "price": 54.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1945,
-   "score": 82,
-   "award": "Best Budget",
-   "best_for": "Homeowner demo and pruning for about $55.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The value pick — a genuine 7.5-amp corded recip with variable speed and a tool-free blade change for around $55, backed by nearly 2,000 reviews. Everything a homeowner needs to demo and prune, nothing they don't.",
-   "pros": [
-    "7.5-amp motor for about $55",
-    "1,945 reviews at 4.6 stars",
-    "Tool-free blade change, variable speed"
-   ],
-   "cons": [
-    "Basic build vs the DEWALT",
-    "No orbital action"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "7.5 amp",
-    "max_rpm": "0-2,700 SPM",
-    "stroke": null,
-    "blade_change": "Tool-free"
-   },
-   "features": {
-    "kit": true,
-    "variable_speed": true,
-    "tool_free": true,
-    "orbital": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51UkYSn1bUL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B008J1GNEO?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B008J1GNEO"
-  },
-  {
-   "rank": 3,
    "asin": "B075LPPW87",
    "name": "SKIL 13-Amp Reciprocating Saw with Buzzkill Anti-Vibration",
    "brand": "SKIL",
@@ -125,7 +84,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 977,
-   "score": 81,
+   "score": 94,
    "award": null,
    "best_for": "Long cutting sessions where anti-vibration saves your hands.",
    "bought_last_month": "50+/mo",
@@ -157,6 +116,47 @@
    "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B075LPPW87"
   },
   {
+   "rank": 3,
+   "asin": "B008J1GNEO",
+   "name": "SKIL 9206-02 7.5-Amp Variable Speed Reciprocating Saw",
+   "brand": "SKIL",
+   "model": "9206-02",
+   "price": 54.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1945,
+   "score": 93,
+   "award": "Best Budget",
+   "best_for": "Homeowner demo and pruning for about $55.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The value pick — a genuine 7.5-amp corded recip with variable speed and a tool-free blade change for around $55, backed by nearly 2,000 reviews. Everything a homeowner needs to demo and prune, nothing they don't.",
+   "pros": [
+    "7.5-amp motor for about $55",
+    "1,945 reviews at 4.6 stars",
+    "Tool-free blade change, variable speed"
+   ],
+   "cons": [
+    "Basic build vs the DEWALT",
+    "No orbital action"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "7.5 amp",
+    "max_rpm": "0-2,700 SPM",
+    "stroke": null,
+    "blade_change": "Tool-free"
+   },
+   "features": {
+    "kit": true,
+    "variable_speed": true,
+    "tool_free": true,
+    "orbital": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51UkYSn1bUL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B008J1GNEO?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B008J1GNEO"
+  },
+  {
    "rank": 4,
    "asin": "B004W5ZAFO",
    "name": "SKIL 9216-01 9-Amp Reciprocating Saw",
@@ -166,7 +166,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 641,
-   "score": 79,
+   "score": 93,
    "award": null,
    "best_for": "More motor than the budget saws for under $75.",
    "bought_last_month": "100+/mo",
@@ -207,7 +207,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 623,
-   "score": 78,
+   "score": 93,
    "award": "Best Overall",
    "best_for": "Pruning and remodeling with a balanced, well-rated corded saw.",
    "bought_last_month": "50+/mo",
@@ -248,7 +248,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 420,
-   "score": 76,
+   "score": 92,
    "award": null,
    "best_for": "Cutting at awkward angles with a rotating handle, for about $53.",
    "bought_last_month": "50+/mo",
@@ -281,47 +281,6 @@
   },
   {
    "rank": 7,
-   "asin": "B0CH88DTPH",
-   "name": "GALAX PRO 120V 6.0-Amp Corded Reciprocating Saw",
-   "brand": "GALAX PRO",
-   "model": "77112",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 590,
-   "score": 75,
-   "award": null,
-   "best_for": "Occasional pruning, PVC and pallet breakdown for under $40.",
-   "bought_last_month": null,
-   "verdict": "The cheapest way into a real corded recip: a 6-amp saw with a full 1-1/8\" stroke, a pivoting shoe, and five blades in the box for under $40. Right for occasional pruning, PVC, and pallet breakdown, not all-day demolition.",
-   "pros": [
-    "Under $40 with 2 wood and 3 metal blades",
-    "Full 1-1/8\" stroke, tool-free blade change",
-    "Pivoting shoe and trigger lock-on button"
-   ],
-   "cons": [
-    "6 amps is the weakest motor here",
-    "Listing quotes both 2,800 and 3,000 SPM; the spec table says 2,800"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "6 amp",
-    "max_rpm": "0-2,800 SPM",
-    "stroke": "1-1/8 in",
-    "blade_change": "Tool-free"
-   },
-   "features": {
-    "kit": true,
-    "variable_speed": true,
-    "tool_free": true,
-    "orbital": false
-   },
-   "image": "https://m.media-amazon.com/images/I/619pQ6cmb5L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CH88DTPH?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B0CH88DTPH"
-  },
-  {
-   "rank": 8,
    "asin": "B08T6C614X",
    "name": "BLACK+DECKER 7-Amp Corded Reciprocating Saw",
    "brand": "BLACK+DECKER",
@@ -330,7 +289,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 231,
-   "score": 73,
+   "score": 91,
    "award": null,
    "best_for": "Light pruning, PVC and small demo jobs with a light saw.",
    "bought_last_month": "100+/mo",
@@ -362,34 +321,34 @@
    "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B08T6C614X"
   },
   {
-   "rank": 9,
-   "asin": "B0FT64PHJ6",
-   "name": "BOSCH GSA12-30 12-Amp Corded Reciprocating Saw",
-   "brand": "BOSCH",
-   "model": "GSA12-30",
-   "price": 145.0,
+   "rank": 8,
+   "asin": "B0CH88DTPH",
+   "name": "GALAX PRO 120V 6.0-Amp Corded Reciprocating Saw",
+   "brand": "GALAX PRO",
+   "model": "77112",
+   "price": 39.99,
    "currency": "USD",
-   "rating": 4.9,
-   "reviews_count": 10,
-   "score": 69,
+   "rating": 4.3,
+   "reviews_count": 590,
+   "score": 90,
    "award": null,
-   "best_for": "Aggressive demo cuts with a long 1-3/16 in stroke and Bosch build.",
-   "bought_last_month": "50+/mo",
-   "verdict": "Bosch pro build in a 12-amp corded package, with a long 1-3/16\" stroke for aggressive cutting. Newer to Amazon, but Bosch's reputation and stroke length make it a serious demo saw.",
+   "best_for": "Occasional pruning, PVC and pallet breakdown for under $40.",
+   "bought_last_month": null,
+   "verdict": "The cheapest way into a real corded recip: a 6-amp saw with a full 1-1/8\" stroke, a pivoting shoe, and five blades in the box for under $40. Right for occasional pruning, PVC, and pallet breakdown, not all-day demolition.",
    "pros": [
-    "12-amp motor, long 1-3/16\" stroke",
-    "Bosch pro-grade build",
-    "Tool-free blade change"
+    "Under $40 with 2 wood and 3 metal blades",
+    "Full 1-1/8\" stroke, tool-free blade change",
+    "Pivoting shoe and trigger lock-on button"
    ],
    "cons": [
-    "Few reviews on Amazon yet",
-    "Priced with the pro saws"
+    "6 amps is the weakest motor here",
+    "Listing quotes both 2,800 and 3,000 SPM; the spec table says 2,800"
    ],
    "specs": {
     "type": "Corded",
-    "power": "12 amp",
-    "max_rpm": "0-2,700 SPM",
-    "stroke": "1-3/16 in",
+    "power": "6 amp",
+    "max_rpm": "0-2,800 SPM",
+    "stroke": "1-1/8 in",
     "blade_change": "Tool-free"
    },
    "features": {
@@ -398,12 +357,12 @@
     "tool_free": true,
     "orbital": false
    },
-   "image": "https://m.media-amazon.com/images/I/419NyIOFG4L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FT64PHJ6?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B0FT64PHJ6"
+   "image": "https://m.media-amazon.com/images/I/619pQ6cmb5L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CH88DTPH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B0CH88DTPH"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "asin": "B096RLR26J",
    "name": "Makita JR3051T 12-Amp Corded Reciprocating Saw",
    "brand": "Makita",
@@ -412,7 +371,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 35,
-   "score": 67,
+   "score": 80,
    "award": null,
    "best_for": "Tradespeople cutting framing and metal with a 1-1/4 in stroke.",
    "bought_last_month": "50+/mo",
@@ -442,6 +401,47 @@
    "image": "https://m.media-amazon.com/images/I/51E2UDO3V9S._AC_SX425_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B096RLR26J?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B096RLR26J"
+  },
+  {
+   "rank": 10,
+   "asin": "B0FT64PHJ6",
+   "name": "BOSCH GSA12-30 12-Amp Corded Reciprocating Saw",
+   "brand": "BOSCH",
+   "model": "GSA12-30",
+   "price": 145.0,
+   "currency": "USD",
+   "rating": 4.9,
+   "reviews_count": 10,
+   "score": 77,
+   "award": null,
+   "best_for": "Aggressive demo cuts with a long 1-3/16 in stroke and Bosch build.",
+   "bought_last_month": "50+/mo",
+   "verdict": "Bosch pro build in a 12-amp corded package, with a long 1-3/16\" stroke for aggressive cutting. Newer to Amazon, but Bosch's reputation and stroke length make it a serious demo saw.",
+   "pros": [
+    "12-amp motor, long 1-3/16\" stroke",
+    "Bosch pro-grade build",
+    "Tool-free blade change"
+   ],
+   "cons": [
+    "Few reviews on Amazon yet",
+    "Priced with the pro saws"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "12 amp",
+    "max_rpm": "0-2,700 SPM",
+    "stroke": "1-3/16 in",
+    "blade_change": "Tool-free"
+   },
+   "features": {
+    "kit": true,
+    "variable_speed": true,
+    "tool_free": true,
+    "orbital": false
+   },
+   "image": "https://m.media-amazon.com/images/I/419NyIOFG4L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FT64PHJ6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B0FT64PHJ6"
   }
  ],
  "avoid": [

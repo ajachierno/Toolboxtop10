@@ -22,7 +22,7 @@
    "auto_start": 0.25,
    "battery_included": 0.15
   },
-  "reviews_ceiling": 2500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 100,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,84 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0BZ3VDDBL",
+   "name": "DEWALT 20V MAX XR Brushless Drywall Screw Gun and Cut-Out Tool Combo Kit (DCK265D2)",
+   "brand": "DEWALT",
+   "model": "DCK265D2",
+   "price": 374.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 413,
+   "score": 95,
+   "award": "Money No Object",
+   "best_for": "Anyone starting from scratch who wants both drywall tools.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A full drywall kit: DEWALT's brushless screw gun plus a 26,000 RPM cut-out tool for outlet and window openings, with two batteries and a charger.",
+   "pros": [
+    "Screw gun and cut-out tool",
+    "Batteries and charger included"
+   ],
+   "cons": [
+    "Most expensive here",
+    "4.4 stars"
+   ],
+   "specs": {
+    "power": "DEWALT 20V MAX, two 2.0Ah batteries and charger included",
+    "speed": "Cut-out tool 26,000 RPM",
+    "weight": null,
+    "extras": "Screw gun with 4 modes plus a brushless cut-out tool"
+   },
+   "features": {
+    "brushless": true,
+    "cordless": true,
+    "auto_start": true,
+    "battery_included": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61jmxmIvalL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BZ3VDDBL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/drywall-screw-guns.html#B0BZ3VDDBL"
+  },
+  {
+   "rank": 2,
+   "asin": "B01M1UQ7NJ",
+   "name": "Milwaukee M18 FUEL Drywall Screw Gun, Tool Only (2866-20)",
+   "brand": "Milwaukee",
+   "model": "2866-20",
+   "price": 162.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1454,
+   "score": 93,
+   "award": null,
+   "best_for": "Milwaukee M18 crews.",
+   "bought_last_month": "200+/mo",
+   "verdict": "Milwaukee's M18 FUEL screw gun with an Auto Start mode that keeps the motor off until the screw touches the board, which Milwaukee says triples runtime.",
+   "pros": [
+    "Auto Start mode",
+    "4.6 stars; 1,454 reviews",
+    "Up to 64 sheets per charge (XC5.0)"
+   ],
+   "cons": [
+    "Bare tool"
+   ],
+   "specs": {
+    "power": "Milwaukee M18 (not included)",
+    "speed": "4,500 RPM",
+    "weight": "2.5 lb",
+    "extras": "Auto Start mode, LED on the foot, up to 64 sheets per XC5.0 charge"
+   },
+   "features": {
+    "brushless": true,
+    "cordless": true,
+    "auto_start": true,
+    "battery_included": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61xZaUEWsPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01M1UQ7NJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/drywall-screw-guns.html#B01M1UQ7NJ"
+  },
+  {
+   "rank": 3,
    "asin": "B0BPY8L57P",
    "name": "DEWALT 20V MAX XR Brushless Drywall Screwgun, Tool Only (DCF630B)",
    "brand": "DEWALT",
@@ -73,84 +151,6 @@
    "page_url": "https://toolboxtop10.com/drywall-screw-guns.html#B0BPY8L57P"
   },
   {
-   "rank": 2,
-   "asin": "B01M1UQ7NJ",
-   "name": "Milwaukee M18 FUEL Drywall Screw Gun, Tool Only (2866-20)",
-   "brand": "Milwaukee",
-   "model": "2866-20",
-   "price": 162.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1454,
-   "score": 91,
-   "award": null,
-   "best_for": "Milwaukee M18 crews.",
-   "bought_last_month": "200+/mo",
-   "verdict": "Milwaukee's M18 FUEL screw gun with an Auto Start mode that keeps the motor off until the screw touches the board, which Milwaukee says triples runtime.",
-   "pros": [
-    "Auto Start mode",
-    "4.6 stars; 1,454 reviews",
-    "Up to 64 sheets per charge (XC5.0)"
-   ],
-   "cons": [
-    "Bare tool"
-   ],
-   "specs": {
-    "power": "Milwaukee M18 (not included)",
-    "speed": "4,500 RPM",
-    "weight": "2.5 lb",
-    "extras": "Auto Start mode, LED on the foot, up to 64 sheets per XC5.0 charge"
-   },
-   "features": {
-    "brushless": true,
-    "cordless": true,
-    "auto_start": true,
-    "battery_included": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61xZaUEWsPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01M1UQ7NJ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/drywall-screw-guns.html#B01M1UQ7NJ"
-  },
-  {
-   "rank": 3,
-   "asin": "B0BZ3VDDBL",
-   "name": "DEWALT 20V MAX XR Brushless Drywall Screw Gun and Cut-Out Tool Combo Kit (DCK265D2)",
-   "brand": "DEWALT",
-   "model": "DCK265D2",
-   "price": 374.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 413,
-   "score": 87,
-   "award": "Money No Object",
-   "best_for": "Anyone starting from scratch who wants both drywall tools.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A full drywall kit: DEWALT's brushless screw gun plus a 26,000 RPM cut-out tool for outlet and window openings, with two batteries and a charger.",
-   "pros": [
-    "Screw gun and cut-out tool",
-    "Batteries and charger included"
-   ],
-   "cons": [
-    "Most expensive here",
-    "4.4 stars"
-   ],
-   "specs": {
-    "power": "DEWALT 20V MAX, two 2.0Ah batteries and charger included",
-    "speed": "Cut-out tool 26,000 RPM",
-    "weight": null,
-    "extras": "Screw gun with 4 modes plus a brushless cut-out tool"
-   },
-   "features": {
-    "brushless": true,
-    "cordless": true,
-    "auto_start": true,
-    "battery_included": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61jmxmIvalL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BZ3VDDBL?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/drywall-screw-guns.html#B0BZ3VDDBL"
-  },
-  {
    "rank": 4,
    "asin": "B0BVXQJW1L",
    "name": "DEWALT 20V MAX Drywall Screw Gun Kit with Battery and Charger (DCF630E1)",
@@ -160,7 +160,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 67,
-   "score": 80,
+   "score": 89,
    "award": null,
    "best_for": "First-time DEWALT buyers.",
    "bought_last_month": null,
@@ -200,7 +200,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 366,
-   "score": 78,
+   "score": 87,
    "award": null,
    "best_for": "RYOBI owners doing a room or two.",
    "bought_last_month": "50+/mo",
@@ -232,46 +232,6 @@
   },
   {
    "rank": 6,
-   "asin": "B00004W5PY",
-   "name": "DEWALT Drywall Screw Gun, 6.0-Amp (DW255)",
-   "brand": "DEWALT",
-   "model": "DW255",
-   "price": 101.02,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 644,
-   "score": 69,
-   "award": null,
-   "best_for": "Drywall hangers who want a cheap, proven corded gun.",
-   "bought_last_month": "300+/mo",
-   "verdict": "DEWALT's classic corded drywall gun: 5,300 RPM for fast production hanging and a set-and-forget nosepiece for consistent screw depth.",
-   "pros": [
-    "Lowest price of the brand-name guns",
-    "5,300 RPM",
-    "Set-and-forget depth"
-   ],
-   "cons": [
-    "Corded",
-    "4.4 stars"
-   ],
-   "specs": {
-    "power": "Corded, 6.0 A",
-    "speed": "5,300 RPM",
-    "weight": "4.2 lb",
-    "extras": "Depth-sensitive nosepiece, two-finger trigger"
-   },
-   "features": {
-    "brushless": false,
-    "cordless": false,
-    "auto_start": false,
-    "battery_included": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51yfxaxvMqL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00004W5PY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/drywall-screw-guns.html#B00004W5PY"
-  },
-  {
-   "rank": 7,
    "asin": "B0000224J5",
    "name": "DEWALT VSR Versa-Clutch Screw Gun, 6.5-Amp (DW268)",
    "brand": "DEWALT",
@@ -280,7 +240,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 178,
-   "score": 65,
+   "score": 76,
    "award": null,
    "best_for": "Metal roofing, siding and steel framing.",
    "bought_last_month": null,
@@ -311,6 +271,46 @@
    "page_url": "https://toolboxtop10.com/drywall-screw-guns.html#B0000224J5"
   },
   {
+   "rank": 7,
+   "asin": "B00004W5PY",
+   "name": "DEWALT Drywall Screw Gun, 6.0-Amp (DW255)",
+   "brand": "DEWALT",
+   "model": "DW255",
+   "price": 101.02,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 644,
+   "score": 75,
+   "award": null,
+   "best_for": "Drywall hangers who want a cheap, proven corded gun.",
+   "bought_last_month": "300+/mo",
+   "verdict": "DEWALT's classic corded drywall gun: 5,300 RPM for fast production hanging and a set-and-forget nosepiece for consistent screw depth.",
+   "pros": [
+    "Lowest price of the brand-name guns",
+    "5,300 RPM",
+    "Set-and-forget depth"
+   ],
+   "cons": [
+    "Corded",
+    "4.4 stars"
+   ],
+   "specs": {
+    "power": "Corded, 6.0 A",
+    "speed": "5,300 RPM",
+    "weight": "4.2 lb",
+    "extras": "Depth-sensitive nosepiece, two-finger trigger"
+   },
+   "features": {
+    "brushless": false,
+    "cordless": false,
+    "auto_start": false,
+    "battery_included": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51yfxaxvMqL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00004W5PY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/drywall-screw-guns.html#B00004W5PY"
+  },
+  {
    "rank": 8,
    "asin": "B00004RH3X",
    "name": "DEWALT Drywall Screw Gun, Variable Speed Reversible, 6.5-Amp (DW276)",
@@ -320,7 +320,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 162,
-   "score": 63,
+   "score": 74,
    "award": null,
    "best_for": "Framers driving into steel studs and decking.",
    "bought_last_month": null,
@@ -360,7 +360,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 93,
-   "score": 58,
+   "score": 68,
    "award": null,
    "best_for": "Mixed drywall and decking work.",
    "bought_last_month": null,
@@ -399,7 +399,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 41,
-   "score": 51,
+   "score": 59,
    "award": "Best Budget",
    "best_for": "One small drywall patch or project.",
    "bought_last_month": null,

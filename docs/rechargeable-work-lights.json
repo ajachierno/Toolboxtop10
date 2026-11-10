@@ -22,7 +22,7 @@
    "ip_rated": 0.25,
    "platform": 0.25
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 10,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,88 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0CC51Q3K2",
+   "name": "HOTLIGH Rechargeable Work Light, 5000mAh Magnetic Flashlight, 360° Rotate, 1200 Lumens",
+   "brand": "HOTLIGH",
+   "model": "1200 lm",
+   "price": 33.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2828,
+   "score": 87,
+   "award": null,
+   "best_for": "Mechanics: stick it to the car and aim it anywhere.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A machined-aluminum magnetic light with a 5,000 mAh USB-C battery, three light sources and a head that rotates 360° vertically and 180° sideways.",
+   "pros": [
+    "CNC aluminum body",
+    "5,000 mAh, USB-C",
+    "4.7 stars"
+   ],
+   "cons": [
+    "No IP rating",
+    "$33.99"
+   ],
+   "specs": {
+    "lumens": "1,200",
+    "battery": "5,000 mAh, USB-C",
+    "mount": "Magnetic, foldable stand",
+    "style": "Mechanic light",
+    "extras": "CNC-machined aluminum unibody, 360° and 180° rotation"
+   },
+   "features": {
+    "magnetic": true,
+    "usb_c": true,
+    "ip_rated": false,
+    "platform": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61jALjfWElL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CC51Q3K2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0CC51Q3K2"
+  },
+  {
+   "rank": 2,
+   "asin": "B0B6BCSKBV",
+   "name": "TRESDA 3000LM Rechargeable Work Light, Magnetic LED, Foldable & Portable",
+   "brand": "TRESDA",
+   "model": "3000 lm",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1185,
+   "score": 86,
+   "award": null,
+   "best_for": "Lighting a whole engine bay or work area.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A folding three-panel light that shapes a wide beam around an engine bay, with four magnets, five modes, an IP65 rating and a believable 30 W / 3,000-lumen spec.",
+   "pros": [
+    "IP65",
+    "4 magnets, folding panels",
+    "30 W stated"
+   ],
+   "cons": [
+    "3-9 hour runtime depends on mode",
+    "4.4 stars"
+   ],
+   "specs": {
+    "lumens": "3,000 (30 W)",
+    "battery": "4,400 mAh, 3-9 hr",
+    "mount": "4 magnets, foldable panels",
+    "style": "Folding panel light",
+    "extras": "5 modes, IP65"
+   },
+   "features": {
+    "magnetic": true,
+    "usb_c": false,
+    "ip_rated": true,
+    "platform": false
+   },
+   "image": "https://m.media-amazon.com/images/I/717rJcsLXXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B6BCSKBV?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0B6BCSKBV"
+  },
+  {
+   "rank": 3,
    "asin": "B07G9X19G1",
    "name": "Coquimbo 2 Pack Rechargeable Work Light, Magnetic, 5 Modes",
    "brand": "Coquimbo",
@@ -75,253 +157,7 @@
    "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B07G9X19G1"
   },
   {
-   "rank": 2,
-   "asin": "B00KWRM78E",
-   "name": "DEWALT 20V MAX LED Work Light, Rechargeable Flashlight, Pivoting Head, Bare Tool (DCL050)",
-   "brand": "DEWALT",
-   "model": "DCL050",
-   "price": 49.95,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 13764,
-   "score": 82,
-   "award": "Best Overall",
-   "best_for": "DEWALT 20V owners who need area light on the job.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The highest-rated work light here: three LEDs at 1,000 or 300 lumens, a head that pivots 140°, and a telescoping hook that hangs from 2-inch pipe or studs, on any DEWALT 20V battery.",
-   "pros": [
-    "4.8 stars across 13,764 reviews",
-    "1,000 lumens on a 20V pack",
-    "Telescoping, rotating hook"
-   ],
-   "cons": [
-    "Tool only",
-    "No magnet"
-   ],
-   "specs": {
-    "lumens": "1,000 / 300",
-    "battery": "DEWALT 20V MAX (not included)",
-    "mount": "Telescoping 360° hook",
-    "style": "Handheld area light",
-    "extras": "140° pivoting head, over-molded lens"
-   },
-   "features": {
-    "magnetic": false,
-    "usb_c": false,
-    "ip_rated": false,
-    "platform": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61+g2mB4OWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00KWRM78E?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B00KWRM78E"
-  },
-  {
-   "rank": 3,
-   "asin": "B0052MILZM",
-   "name": "DEWALT 20V MAX LED Work Light/Flashlight (DCL040)",
-   "brand": "DEWALT",
-   "model": "DCL040",
-   "price": 38.85,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 11212,
-   "score": 80,
-   "award": null,
-   "best_for": "DEWALT owners who want a long-running flashlight.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "DEWALT's classic 20V flashlight with a 120° rotating head and a hook. At 110 lumens it's a spotlight, not an area light, but it runs a long time on a 20V pack.",
-   "pros": [
-    "11,212 reviews at 4.7 stars",
-    "Long runtime on 20V packs",
-    "Rotating head, hook"
-   ],
-   "cons": [
-    "110 lumens",
-    "Tool only"
-   ],
-   "specs": {
-    "lumens": "110",
-    "battery": "DEWALT 20V MAX (not included)",
-    "mount": "Integral hook",
-    "style": "Flashlight",
-    "extras": "120° rotating head"
-   },
-   "features": {
-    "magnetic": false,
-    "usb_c": false,
-    "ip_rated": false,
-    "platform": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51RLPCcaqML._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0052MILZM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0052MILZM"
-  },
-  {
    "rank": 4,
-   "asin": "B0CC51Q3K2",
-   "name": "HOTLIGH Rechargeable Work Light, 5000mAh Magnetic Flashlight, 360° Rotate, 1200 Lumens",
-   "brand": "HOTLIGH",
-   "model": "1200 lm",
-   "price": 33.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2828,
-   "score": 80,
-   "award": null,
-   "best_for": "Mechanics: stick it to the car and aim it anywhere.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A machined-aluminum magnetic light with a 5,000 mAh USB-C battery, three light sources and a head that rotates 360° vertically and 180° sideways.",
-   "pros": [
-    "CNC aluminum body",
-    "5,000 mAh, USB-C",
-    "4.7 stars"
-   ],
-   "cons": [
-    "No IP rating",
-    "$33.99"
-   ],
-   "specs": {
-    "lumens": "1,200",
-    "battery": "5,000 mAh, USB-C",
-    "mount": "Magnetic, foldable stand",
-    "style": "Mechanic light",
-    "extras": "CNC-machined aluminum unibody, 360° and 180° rotation"
-   },
-   "features": {
-    "magnetic": true,
-    "usb_c": true,
-    "ip_rated": false,
-    "platform": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61jALjfWElL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CC51Q3K2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0CC51Q3K2"
-  },
-  {
-   "rank": 5,
-   "asin": "B0B6BCSKBV",
-   "name": "TRESDA 3000LM Rechargeable Work Light, Magnetic LED, Foldable & Portable",
-   "brand": "TRESDA",
-   "model": "3000 lm",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1185,
-   "score": 76,
-   "award": null,
-   "best_for": "Lighting a whole engine bay or work area.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A folding three-panel light that shapes a wide beam around an engine bay, with four magnets, five modes, an IP65 rating and a believable 30 W / 3,000-lumen spec.",
-   "pros": [
-    "IP65",
-    "4 magnets, folding panels",
-    "30 W stated"
-   ],
-   "cons": [
-    "3-9 hour runtime depends on mode",
-    "4.4 stars"
-   ],
-   "specs": {
-    "lumens": "3,000 (30 W)",
-    "battery": "4,400 mAh, 3-9 hr",
-    "mount": "4 magnets, foldable panels",
-    "style": "Folding panel light",
-    "extras": "5 modes, IP65"
-   },
-   "features": {
-    "magnetic": true,
-    "usb_c": false,
-    "ip_rated": true,
-    "platform": false
-   },
-   "image": "https://m.media-amazon.com/images/I/717rJcsLXXL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B6BCSKBV?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0B6BCSKBV"
-  },
-  {
-   "rank": 6,
-   "asin": "B0FR8D6RBZ",
-   "name": "Ruboliy 6-Pack Magnetic Rechargeable LED Work Light/Flashlight for Mechanics (WL02)",
-   "brand": "Ruboliy",
-   "model": "WL02",
-   "price": 35.95,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 428,
-   "score": 71,
-   "award": null,
-   "best_for": "Shops and fleets that lose lights.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "Six magnetic COB lights for about $6 each, so every toolbox, car and drawer gets one.",
-   "pros": [
-    "6 lights for $35.95",
-    "4.6 stars",
-    "Magnet and hook"
-   ],
-   "cons": [
-    "Brightness not listed",
-    "Charging port not specified"
-   ],
-   "specs": {
-    "lumens": null,
-    "battery": "Rechargeable",
-    "mount": "Magnetic, hook",
-    "style": "COB pocket light (6)",
-    "extras": "5 modes, 360° adjustable"
-   },
-   "features": {
-    "magnetic": true,
-    "usb_c": false,
-    "ip_rated": false,
-    "platform": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71t9wSHiZvL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FR8D6RBZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0FR8D6RBZ"
-  },
-  {
-   "rank": 7,
-   "asin": "B086QSKL4J",
-   "name": "TRESDA 7000LM Rechargeable LED Work Light, 100W Portable Flood Light",
-   "brand": "TRESDA",
-   "model": "7000 lm",
-   "price": 53.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1031,
-   "score": 69,
-   "award": null,
-   "best_for": "Lighting a big area with no outlet: roadside, power outages, camping.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A cordless flood light for a whole garage or campsite: 7,000 lumens from a stated 100 W, a 120° beam, a 10,800 mAh battery, a 360° stand and IP65 sealing.",
-   "pros": [
-    "7,000 lm, IP65",
-    "10,800 mAh battery",
-    "SOS mode"
-   ],
-   "cons": [
-    "Runtime at full power is short",
-    "No magnet"
-   ],
-   "specs": {
-    "lumens": "7,000 (100 W)",
-    "battery": "10,800 mAh, about 3-48 hr",
-    "mount": "Built-in stand",
-    "style": "Flood light",
-    "extras": "6 modes incl. SOS, IP65, aluminum heat sink"
-   },
-   "features": {
-    "magnetic": false,
-    "usb_c": false,
-    "ip_rated": true,
-    "platform": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71FrDMmhBGL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B086QSKL4J?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B086QSKL4J"
-  },
-  {
-   "rank": 8,
    "asin": "B0DSQ5DYBR",
    "name": "Klein Tools 56416 Rechargeable LED Work Light, 3 Modes, MODbox Compatible",
    "brand": "Klein Tools",
@@ -330,7 +166,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 127,
-   "score": 69,
+   "score": 84,
    "award": "Money No Object",
    "best_for": "Electricians and pros who want tested runtimes and Klein's MODbox system.",
    "bought_last_month": "200+/mo",
@@ -362,6 +198,170 @@
    "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0DSQ5DYBR"
   },
   {
+   "rank": 5,
+   "asin": "B00KWRM78E",
+   "name": "DEWALT 20V MAX LED Work Light, Rechargeable Flashlight, Pivoting Head, Bare Tool (DCL050)",
+   "brand": "DEWALT",
+   "model": "DCL050",
+   "price": 49.95,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 13764,
+   "score": 83,
+   "award": "Best Overall",
+   "best_for": "DEWALT 20V owners who need area light on the job.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The highest-rated work light here: three LEDs at 1,000 or 300 lumens, a head that pivots 140°, and a telescoping hook that hangs from 2-inch pipe or studs, on any DEWALT 20V battery.",
+   "pros": [
+    "4.8 stars across 13,764 reviews",
+    "1,000 lumens on a 20V pack",
+    "Telescoping, rotating hook"
+   ],
+   "cons": [
+    "Tool only",
+    "No magnet"
+   ],
+   "specs": {
+    "lumens": "1,000 / 300",
+    "battery": "DEWALT 20V MAX (not included)",
+    "mount": "Telescoping 360° hook",
+    "style": "Handheld area light",
+    "extras": "140° pivoting head, over-molded lens"
+   },
+   "features": {
+    "magnetic": false,
+    "usb_c": false,
+    "ip_rated": false,
+    "platform": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61+g2mB4OWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00KWRM78E?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B00KWRM78E"
+  },
+  {
+   "rank": 6,
+   "asin": "B0052MILZM",
+   "name": "DEWALT 20V MAX LED Work Light/Flashlight (DCL040)",
+   "brand": "DEWALT",
+   "model": "DCL040",
+   "price": 38.85,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 11212,
+   "score": 82,
+   "award": null,
+   "best_for": "DEWALT owners who want a long-running flashlight.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "DEWALT's classic 20V flashlight with a 120° rotating head and a hook. At 110 lumens it's a spotlight, not an area light, but it runs a long time on a 20V pack.",
+   "pros": [
+    "11,212 reviews at 4.7 stars",
+    "Long runtime on 20V packs",
+    "Rotating head, hook"
+   ],
+   "cons": [
+    "110 lumens",
+    "Tool only"
+   ],
+   "specs": {
+    "lumens": "110",
+    "battery": "DEWALT 20V MAX (not included)",
+    "mount": "Integral hook",
+    "style": "Flashlight",
+    "extras": "120° rotating head"
+   },
+   "features": {
+    "magnetic": false,
+    "usb_c": false,
+    "ip_rated": false,
+    "platform": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51RLPCcaqML._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0052MILZM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0052MILZM"
+  },
+  {
+   "rank": 7,
+   "asin": "B0FR8D6RBZ",
+   "name": "Ruboliy 6-Pack Magnetic Rechargeable LED Work Light/Flashlight for Mechanics (WL02)",
+   "brand": "Ruboliy",
+   "model": "WL02",
+   "price": 35.95,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 428,
+   "score": 82,
+   "award": null,
+   "best_for": "Shops and fleets that lose lights.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Six magnetic COB lights for about $6 each, so every toolbox, car and drawer gets one.",
+   "pros": [
+    "6 lights for $35.95",
+    "4.6 stars",
+    "Magnet and hook"
+   ],
+   "cons": [
+    "Brightness not listed",
+    "Charging port not specified"
+   ],
+   "specs": {
+    "lumens": null,
+    "battery": "Rechargeable",
+    "mount": "Magnetic, hook",
+    "style": "COB pocket light (6)",
+    "extras": "5 modes, 360° adjustable"
+   },
+   "features": {
+    "magnetic": true,
+    "usb_c": false,
+    "ip_rated": false,
+    "platform": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71t9wSHiZvL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FR8D6RBZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0FR8D6RBZ"
+  },
+  {
+   "rank": 8,
+   "asin": "B086QSKL4J",
+   "name": "TRESDA 7000LM Rechargeable LED Work Light, 100W Portable Flood Light",
+   "brand": "TRESDA",
+   "model": "7000 lm",
+   "price": 53.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1031,
+   "score": 80,
+   "award": null,
+   "best_for": "Lighting a big area with no outlet: roadside, power outages, camping.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A cordless flood light for a whole garage or campsite: 7,000 lumens from a stated 100 W, a 120° beam, a 10,800 mAh battery, a 360° stand and IP65 sealing.",
+   "pros": [
+    "7,000 lm, IP65",
+    "10,800 mAh battery",
+    "SOS mode"
+   ],
+   "cons": [
+    "Runtime at full power is short",
+    "No magnet"
+   ],
+   "specs": {
+    "lumens": "7,000 (100 W)",
+    "battery": "10,800 mAh, about 3-48 hr",
+    "mount": "Built-in stand",
+    "style": "Flood light",
+    "extras": "6 modes incl. SOS, IP65, aluminum heat sink"
+   },
+   "features": {
+    "magnetic": false,
+    "usb_c": false,
+    "ip_rated": true,
+    "platform": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71FrDMmhBGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B086QSKL4J?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B086QSKL4J"
+  },
+  {
    "rank": 9,
    "asin": "B0DD437BRD",
    "name": "Samyoung 2-Pack 2400LM Magnetic Rechargeable Work Light, Up to 80 Hours",
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 591,
-   "score": 67,
+   "score": 80,
    "award": null,
    "best_for": "Adjustable light for detail work and painting.",
    "bought_last_month": "1K+/mo",
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 701,
-   "score": 65,
+   "score": 76,
    "award": null,
    "best_for": "Lighting a room or campsite with no cord.",
    "bought_last_month": "300+/mo",

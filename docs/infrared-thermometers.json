@@ -22,7 +22,7 @@
    "wide_range": 0.25,
    "max_min": 0.2
   },
-  "reviews_ceiling": 50000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 20,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,45 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B07K1JB9TQ",
+   "name": "Klein Tools IR10 Infrared Thermometer with Dual Targeting Laser, 20:1, K-Type Probe",
+   "brand": "Klein Tools",
+   "model": "IR10",
+   "price": 114.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 371,
+   "score": 97,
+   "award": null,
+   "best_for": "HVAC techs measuring duct air and refrigerant lines.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Klein's top model: 20:1 for small or distant targets, a range to 1200°F, and a K-type probe for measuring air, gas and liquid that IR can't read.",
+   "pros": [
+    "20:1 ratio",
+    "K-type probe",
+    "Up to 1200°F"
+   ],
+   "cons": [
+    "Only 371 reviews"
+   ],
+   "specs": {
+    "range": "-40 to 1200°F (IR and probe)",
+    "ds": "20:1",
+    "emissivity": "Adjustable 0.1-1.0",
+    "extras": "K-type probe for air, gas and liquid; alarms; max/min/avg/diff"
+   },
+   "features": {
+    "adj_emissivity": true,
+    "ds_12": true,
+    "wide_range": true,
+    "max_min": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61xEHGCLoHL._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07K1JB9TQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B07K1JB9TQ"
+  },
+  {
+   "rank": 2,
    "asin": "B00DMI632G",
    "name": "Etekcity Lasergrip 1080 Infrared Thermometer, -58 to 1130°F",
    "brand": "Etekcity",
@@ -43,7 +82,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 37659,
-   "score": 95,
+   "score": 96,
    "award": "Best Overall",
    "best_for": "Cooks, mechanics and HVAC DIYers who want accurate readings on any surface.",
    "bought_last_month": "1K+/mo",
@@ -73,7 +112,7 @@
    "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B00DMI632G"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B07VTPJXH9",
    "name": "TempPro TempScan Infrared Thermometer Gun (TP30)",
    "brand": "TempPro",
@@ -82,7 +121,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 9872,
-   "score": 91,
+   "score": 96,
    "award": null,
    "best_for": "Pizza oven and griddle cooks who also check HVAC vents.",
    "bought_last_month": "5K+/mo",
@@ -112,7 +151,7 @@
    "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B07VTPJXH9"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "asin": "B099WXX9DL",
    "name": "TempPro TempScan PLUS TP450 Infrared Thermometer with 2 Lasers",
    "brand": "TempPro",
@@ -121,7 +160,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1274,
-   "score": 85,
+   "score": 96,
    "award": null,
    "best_for": "Grill and pizza oven cooks who want a tighter spot.",
    "bought_last_month": "1K+/mo",
@@ -151,7 +190,85 @@
    "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B099WXX9DL"
   },
   {
-   "rank": 4,
+   "rank": 5,
+   "asin": "B01DR066WU",
+   "name": "Klein Tools IR5 Infrared Thermometer with Dual Targeting Laser, 12:1",
+   "brand": "Klein Tools",
+   "model": "IR5",
+   "price": 63.03,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1311,
+   "score": 91,
+   "award": null,
+   "best_for": "HVAC and electrical techs who want alarms and statistics.",
+   "bought_last_month": "600+/mo",
+   "verdict": "A pro Klein with dual lasers, adjustable emissivity, max/min/avg/difference readings and high and low alarms.",
+   "pros": [
+    "High/low alarm",
+    "Adjustable emissivity",
+    "Dual lasers"
+   ],
+   "cons": [
+    "752°F max"
+   ],
+   "specs": {
+    "range": "-22 to 752°F",
+    "ds": "12:1",
+    "emissivity": "Adjustable 0.1-1.0",
+    "extras": "Dual lasers, auto scan, max/min/avg/diff, high/low alarm"
+   },
+   "features": {
+    "adj_emissivity": true,
+    "ds_12": true,
+    "wide_range": false,
+    "max_min": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61lFUAGbN2L._SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01DR066WU?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B01DR066WU"
+  },
+  {
+   "rank": 6,
+   "asin": "B0DK51CTZX",
+   "name": "KNINE OUTDOORS Infrared Thermometer Gun, -58 to 1112°F (TG-2024-OG)",
+   "brand": "KNINE OUTDOORS",
+   "model": "TG-2024-OG",
+   "price": 17.97,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2417,
+   "score": 86,
+   "award": null,
+   "best_for": "Pizza oven cooks on a budget.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "A 12:1 thermometer that reads up to 1112°F, high enough for pizza ovens, for under $20.",
+   "pros": [
+    "Up to 1112°F",
+    "12:1",
+    "Under $20"
+   ],
+   "cons": [
+    "Emissivity not adjustable"
+   ],
+   "specs": {
+    "range": "-58 to 1112°F",
+    "ds": "12:1",
+    "emissivity": null,
+    "extras": "Single laser, eye-protect LCD"
+   },
+   "features": {
+    "adj_emissivity": false,
+    "ds_12": true,
+    "wide_range": true,
+    "max_min": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71si8Fa70IL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DK51CTZX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B0DK51CTZX"
+  },
+  {
+   "rank": 7,
    "asin": "B0B71HFH9K",
    "name": "Etekcity Lasergrip 774 Infrared Thermometer",
    "brand": "Etekcity",
@@ -191,123 +308,6 @@
    "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B0B71HFH9K"
   },
   {
-   "rank": 5,
-   "asin": "B07K1JB9TQ",
-   "name": "Klein Tools IR10 Infrared Thermometer with Dual Targeting Laser, 20:1, K-Type Probe",
-   "brand": "Klein Tools",
-   "model": "IR10",
-   "price": 114.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 371,
-   "score": 81,
-   "award": null,
-   "best_for": "HVAC techs measuring duct air and refrigerant lines.",
-   "bought_last_month": "100+/mo",
-   "verdict": "Klein's top model: 20:1 for small or distant targets, a range to 1200°F, and a K-type probe for measuring air, gas and liquid that IR can't read.",
-   "pros": [
-    "20:1 ratio",
-    "K-type probe",
-    "Up to 1200°F"
-   ],
-   "cons": [
-    "Only 371 reviews"
-   ],
-   "specs": {
-    "range": "-40 to 1200°F (IR and probe)",
-    "ds": "20:1",
-    "emissivity": "Adjustable 0.1-1.0",
-    "extras": "K-type probe for air, gas and liquid; alarms; max/min/avg/diff"
-   },
-   "features": {
-    "adj_emissivity": true,
-    "ds_12": true,
-    "wide_range": true,
-    "max_min": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61xEHGCLoHL._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07K1JB9TQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B07K1JB9TQ"
-  },
-  {
-   "rank": 6,
-   "asin": "B01DR066WU",
-   "name": "Klein Tools IR5 Infrared Thermometer with Dual Targeting Laser, 12:1",
-   "brand": "Klein Tools",
-   "model": "IR5",
-   "price": 63.03,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1311,
-   "score": 80,
-   "award": null,
-   "best_for": "HVAC and electrical techs who want alarms and statistics.",
-   "bought_last_month": "600+/mo",
-   "verdict": "A pro Klein with dual lasers, adjustable emissivity, max/min/avg/difference readings and high and low alarms.",
-   "pros": [
-    "High/low alarm",
-    "Adjustable emissivity",
-    "Dual lasers"
-   ],
-   "cons": [
-    "752°F max"
-   ],
-   "specs": {
-    "range": "-22 to 752°F",
-    "ds": "12:1",
-    "emissivity": "Adjustable 0.1-1.0",
-    "extras": "Dual lasers, auto scan, max/min/avg/diff, high/low alarm"
-   },
-   "features": {
-    "adj_emissivity": true,
-    "ds_12": true,
-    "wide_range": false,
-    "max_min": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61lFUAGbN2L._SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01DR066WU?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B01DR066WU"
-  },
-  {
-   "rank": 7,
-   "asin": "B0DK51CTZX",
-   "name": "KNINE OUTDOORS Infrared Thermometer Gun, -58 to 1112°F (TG-2024-OG)",
-   "brand": "KNINE OUTDOORS",
-   "model": "TG-2024-OG",
-   "price": 17.97,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2417,
-   "score": 77,
-   "award": null,
-   "best_for": "Pizza oven cooks on a budget.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "A 12:1 thermometer that reads up to 1112°F, high enough for pizza ovens, for under $20.",
-   "pros": [
-    "Up to 1112°F",
-    "12:1",
-    "Under $20"
-   ],
-   "cons": [
-    "Emissivity not adjustable"
-   ],
-   "specs": {
-    "range": "-58 to 1112°F",
-    "ds": "12:1",
-    "emissivity": null,
-    "extras": "Single laser, eye-protect LCD"
-   },
-   "features": {
-    "adj_emissivity": false,
-    "ds_12": true,
-    "wide_range": true,
-    "max_min": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71si8Fa70IL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DK51CTZX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/infrared-thermometers.html#B0DK51CTZX"
-  },
-  {
    "rank": 8,
    "asin": "B008EW837S",
    "name": "Fluke 62 Max Industrial Infrared Thermometer, -22 to 932°F, IP54",
@@ -317,7 +317,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2100,
-   "score": 71,
+   "score": 81,
    "award": "Money No Object",
    "best_for": "Maintenance techs who need a thermometer that survives the job.",
    "bought_last_month": "700+/mo",
@@ -357,7 +357,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 6666,
-   "score": 70,
+   "score": 76,
    "award": null,
    "best_for": "Occasional kitchen or garage checks on a tight budget.",
    "bought_last_month": "7K+/mo",
@@ -397,7 +397,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3694,
-   "score": 68,
+   "score": 76,
    "award": null,
    "best_for": "Electricians checking breakers, connections and motors.",
    "bought_last_month": "4K+/mo",

@@ -22,7 +22,7 @@
    "brushless": 0.2,
    "big_kit": 0.25
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1777,
-   "score": 84,
+   "score": 91,
    "award": "Money No Object",
    "best_for": "Corded-level cutting and grinding without the cord.",
    "bought_last_month": "700+/mo",
@@ -76,211 +76,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0911ZJQSK",
-   "name": "WORKPRO 12V Cordless Rotary Tool Kit for DIY Crafts (W123015)",
-   "brand": "WORKPRO",
-   "model": "W123015",
-   "price": 44.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2882,
-   "score": 80,
-   "award": null,
-   "best_for": "A 12V kit with every bit you'll need.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A 12V tool with 114 accessories and a universal chuck that takes both shank sizes, reaching 32,000 rpm, for well under the Dremel 8240's price.",
-   "pros": [
-    "114 accessories",
-    "Up to 32,000 rpm",
-    "Universal chuck, hanging hook"
-   ],
-   "cons": [
-    "7,500 rpm minimum",
-    "WORKPRO-only battery"
-   ],
-   "specs": {
-    "battery": "12V 2.0Ah (included)",
-    "speed": "7,500-32,000 rpm, 5 speeds",
-    "collet": "Universal chuck, 3/32 and 1/8 in",
-    "kit": "114 accessories, carrying bag",
-    "weight": "1.38 lb"
-   },
-   "features": {
-    "high_speed": true,
-    "platform": false,
-    "brushless": false,
-    "big_kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71ahWe-TpiL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0911ZJQSK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B0911ZJQSK"
-  },
-  {
-   "rank": 3,
-   "asin": "B09SKFVSMZ",
-   "name": "Dremel 8240-5 12V Cordless Rotary Tool Kit with Tool Fabric Carry Bag",
-   "brand": "Dremel",
-   "model": "8240-5",
-   "price": 78.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 2421,
-   "score": 80,
-   "award": "Best Overall",
-   "best_for": "Cutting, sanding and grinding anywhere, with the whole Dremel accessory range.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A real Dremel without the cord: 5,000 to 35,000 rpm on a 12V 2Ah battery, a wrench-free EZ Twist nose cap, a battery gauge and full compatibility with Dremel accessories and attachments.",
-   "pros": [
-    "5,000-35,000 rpm",
-    "Works with all Dremel accessories",
-    "Battery included, wrench-free bit changes"
-   ],
-   "cons": [
-    "Only 5 accessories",
-    "1.5 lbs"
-   ],
-   "specs": {
-    "battery": "12V 2.0Ah (included)",
-    "speed": "5,000-35,000 rpm, variable",
-    "collet": "EZ Twist nose cap, no wrench",
-    "kit": "5 accessories, battery, bag",
-    "weight": "1.5 lb"
-   },
-   "features": {
-    "high_speed": true,
-    "platform": true,
-    "brushless": false,
-    "big_kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/511eIln3HNL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09SKFVSMZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B09SKFVSMZ"
-  },
-  {
-   "rank": 4,
-   "asin": "B08VHYX96W",
-   "name": "HARDELL Mini Cordless Rotary Tool, 5-Speed 69pcs Kit for 3D Printer Sanding",
-   "brand": "HARDELL",
-   "model": "Mini 3.7V",
-   "price": 23.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 13249,
-   "score": 78,
-   "award": "Best Budget",
-   "best_for": "Crafts, resin and 3D-print cleanup for under $30.",
-   "bought_last_month": "9K+/mo",
-   "verdict": "The best-selling rotary tool here: a pen-size 3.7V tool with five speeds, an LED and 69 accessories for resin, 3D prints and crafts.",
-   "pros": [
-    "8,000+ sold last month; 13,249 reviews",
-    "69 accessories",
-    "$26.99"
-   ],
-   "cons": [
-    "18,000 rpm top speed",
-    "4.3 stars"
-   ],
-   "specs": {
-    "battery": "3.7V, about 200 min runtime",
-    "speed": "5,000-18,000 rpm, 5 speeds",
-    "collet": null,
-    "kit": "69 accessories",
-    "weight": "0.3 lb"
-   },
-   "features": {
-    "high_speed": false,
-    "platform": false,
-    "brushless": false,
-    "big_kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71nMb6z0vmL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08VHYX96W?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B08VHYX96W"
-  },
-  {
-   "rank": 5,
-   "asin": "B0CP1RLY7F",
-   "name": "HARDELL 12V Cordless Rotary Tool Kit 6-Speed 30000RPM, 94 Accessories",
-   "brand": "HARDELL",
-   "model": "12V",
-   "price": 37.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1258,
-   "score": 76,
-   "award": null,
-   "best_for": "A cheap 12V tool with a low 5,000 rpm speed for polishing.",
-   "bought_last_month": "700+/mo",
-   "verdict": "HARDELL's 12V tool: six speeds from 5,000 to 30,000 rpm, 1.1 lbs, two collets and 94 accessories in a case and bag.",
-   "pros": [
-    "5,000-30,000 rpm",
-    "94 accessories",
-    "$38.99"
-   ],
-   "cons": [
-    "4.3 stars",
-    "HARDELL-only battery"
-   ],
-   "specs": {
-    "battery": "12V (included)",
-    "speed": "5,000-30,000 rpm, 6 speeds",
-    "collet": "2 collets",
-    "kit": "94 accessories, case, bag",
-    "weight": "1.1 lb"
-   },
-   "features": {
-    "high_speed": true,
-    "platform": false,
-    "brushless": false,
-    "big_kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81+qdyDmpqL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CP1RLY7F?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B0CP1RLY7F"
-  },
-  {
-   "rank": 6,
-   "asin": "B07R9PNRBD",
-   "name": "Dremel Lite 7760-N/10 4V Cordless Rotary Tool Kit with Variable Speed",
-   "brand": "Dremel",
-   "model": "7760-N/10",
-   "price": 62.97,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 10890,
-   "score": 75,
-   "award": null,
-   "best_for": "Sanding, polishing, engraving and crafts.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A light 4V Dremel with variable speed, USB charging and a 2-year warranty. Dremel says plainly it's not for cutting, drilling or routing.",
-   "pros": [
-    "10,890 reviews at 4.6 stars",
-    "Variable speed, 9.6 oz",
-    "2-year warranty"
-   ],
-   "cons": [
-    "Not for cutting, drilling or routing",
-    "25,000 rpm top speed"
-   ],
-   "specs": {
-    "battery": "4V 2Ah, USB charging",
-    "speed": "8,000-25,000 rpm, variable",
-    "collet": "EZ Twist nose cap",
-    "kit": "10 accessories, case, USB charger",
-    "weight": "9.6 oz"
-   },
-   "features": {
-    "high_speed": false,
-    "platform": false,
-    "brushless": false,
-    "big_kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51wcIZzYkmL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07R9PNRBD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B07R9PNRBD"
-  },
-  {
-   "rank": 7,
    "asin": "B0FHX128X8",
    "name": "Dremel 8150 8V Cordless Rotary Tool Kit, Brushless Motor, USB-C, 20 Accessories",
    "brand": "Dremel",
@@ -289,7 +84,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 380,
-   "score": 75,
+   "score": 87,
    "award": null,
    "best_for": "A brushless Dremel with full 30,000 rpm speed for under $60.",
    "bought_last_month": "1K+/mo",
@@ -323,6 +118,211 @@
    "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B0FHX128X8"
   },
   {
+   "rank": 3,
+   "asin": "B0911ZJQSK",
+   "name": "WORKPRO 12V Cordless Rotary Tool Kit for DIY Crafts (W123015)",
+   "brand": "WORKPRO",
+   "model": "W123015",
+   "price": 44.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2882,
+   "score": 86,
+   "award": null,
+   "best_for": "A 12V kit with every bit you'll need.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A 12V tool with 114 accessories and a universal chuck that takes both shank sizes, reaching 32,000 rpm, for well under the Dremel 8240's price.",
+   "pros": [
+    "114 accessories",
+    "Up to 32,000 rpm",
+    "Universal chuck, hanging hook"
+   ],
+   "cons": [
+    "7,500 rpm minimum",
+    "WORKPRO-only battery"
+   ],
+   "specs": {
+    "battery": "12V 2.0Ah (included)",
+    "speed": "7,500-32,000 rpm, 5 speeds",
+    "collet": "Universal chuck, 3/32 and 1/8 in",
+    "kit": "114 accessories, carrying bag",
+    "weight": "1.38 lb"
+   },
+   "features": {
+    "high_speed": true,
+    "platform": false,
+    "brushless": false,
+    "big_kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ahWe-TpiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0911ZJQSK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B0911ZJQSK"
+  },
+  {
+   "rank": 4,
+   "asin": "B09SKFVSMZ",
+   "name": "Dremel 8240-5 12V Cordless Rotary Tool Kit with Tool Fabric Carry Bag",
+   "brand": "Dremel",
+   "model": "8240-5",
+   "price": 78.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 2421,
+   "score": 86,
+   "award": "Best Overall",
+   "best_for": "Cutting, sanding and grinding anywhere, with the whole Dremel accessory range.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A real Dremel without the cord: 5,000 to 35,000 rpm on a 12V 2Ah battery, a wrench-free EZ Twist nose cap, a battery gauge and full compatibility with Dremel accessories and attachments.",
+   "pros": [
+    "5,000-35,000 rpm",
+    "Works with all Dremel accessories",
+    "Battery included, wrench-free bit changes"
+   ],
+   "cons": [
+    "Only 5 accessories",
+    "1.5 lbs"
+   ],
+   "specs": {
+    "battery": "12V 2.0Ah (included)",
+    "speed": "5,000-35,000 rpm, variable",
+    "collet": "EZ Twist nose cap, no wrench",
+    "kit": "5 accessories, battery, bag",
+    "weight": "1.5 lb"
+   },
+   "features": {
+    "high_speed": true,
+    "platform": true,
+    "brushless": false,
+    "big_kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/511eIln3HNL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09SKFVSMZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B09SKFVSMZ"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CP1RLY7F",
+   "name": "HARDELL 12V Cordless Rotary Tool Kit 6-Speed 30000RPM, 94 Accessories",
+   "brand": "HARDELL",
+   "model": "12V",
+   "price": 37.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1258,
+   "score": 85,
+   "award": null,
+   "best_for": "A cheap 12V tool with a low 5,000 rpm speed for polishing.",
+   "bought_last_month": "700+/mo",
+   "verdict": "HARDELL's 12V tool: six speeds from 5,000 to 30,000 rpm, 1.1 lbs, two collets and 94 accessories in a case and bag.",
+   "pros": [
+    "5,000-30,000 rpm",
+    "94 accessories",
+    "$38.99"
+   ],
+   "cons": [
+    "4.3 stars",
+    "HARDELL-only battery"
+   ],
+   "specs": {
+    "battery": "12V (included)",
+    "speed": "5,000-30,000 rpm, 6 speeds",
+    "collet": "2 collets",
+    "kit": "94 accessories, case, bag",
+    "weight": "1.1 lb"
+   },
+   "features": {
+    "high_speed": true,
+    "platform": false,
+    "brushless": false,
+    "big_kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81+qdyDmpqL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CP1RLY7F?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B0CP1RLY7F"
+  },
+  {
+   "rank": 6,
+   "asin": "B0DRXRH9DQ",
+   "name": "Fanttik F2 PRO Cordless Rotary Tool Kit with Strong Magnetic Motor, 5 Speed",
+   "brand": "Fanttik",
+   "model": "F2 Pro",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1079,
+   "score": 80,
+   "award": null,
+   "best_for": "Rust removal, sharpening and light cutting in plastic and soft metal.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "Fanttik's stronger pen tool: a magnetic motor, a 3,000 mAh battery, a 5,000 rpm floor, 55 accessories and LED speed and battery indicators.",
+   "pros": [
+    "55 accessories, magnetic hub",
+    "5,000 rpm low speed",
+    "2,000+ sold last month"
+   ],
+   "cons": [
+    "$89.99 for a 4V tool",
+    "25,000 rpm top speed"
+   ],
+   "specs": {
+    "battery": "4V 3,000 mAh, 20-120 min",
+    "speed": "5,000-25,000 rpm, 5 speeds",
+    "collet": null,
+    "kit": "55 accessories, magnetic hub, aluminum case",
+    "weight": "220 g"
+   },
+   "features": {
+    "high_speed": false,
+    "platform": false,
+    "brushless": false,
+    "big_kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71bDM2Us7UL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DRXRH9DQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B0DRXRH9DQ"
+  },
+  {
+   "rank": 7,
+   "asin": "B08VHYX96W",
+   "name": "HARDELL Mini Cordless Rotary Tool, 5-Speed 69pcs Kit for 3D Printer Sanding",
+   "brand": "HARDELL",
+   "model": "Mini 3.7V",
+   "price": 23.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 13249,
+   "score": 79,
+   "award": "Best Budget",
+   "best_for": "Crafts, resin and 3D-print cleanup for under $30.",
+   "bought_last_month": "9K+/mo",
+   "verdict": "The best-selling rotary tool here: a pen-size 3.7V tool with five speeds, an LED and 69 accessories for resin, 3D prints and crafts.",
+   "pros": [
+    "8,000+ sold last month; 13,249 reviews",
+    "69 accessories",
+    "$26.99"
+   ],
+   "cons": [
+    "18,000 rpm top speed",
+    "4.3 stars"
+   ],
+   "specs": {
+    "battery": "3.7V, about 200 min runtime",
+    "speed": "5,000-18,000 rpm, 5 speeds",
+    "collet": null,
+    "kit": "69 accessories",
+    "weight": "0.3 lb"
+   },
+   "features": {
+    "high_speed": false,
+    "platform": false,
+    "brushless": false,
+    "big_kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71nMb6z0vmL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08VHYX96W?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B08VHYX96W"
+  },
+  {
    "rank": 8,
    "asin": "B0BBWKKQWV",
    "name": "GINELSON Cordless Mini Rotary Tool Kit, 3.7V USB-C, 5 Speeds, 70 Accessories (YJ007)",
@@ -332,7 +332,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 2373,
-   "score": 72,
+   "score": 79,
    "award": null,
    "best_for": "Crafts, engraving and pet-nail work on the smallest budget.",
    "bought_last_month": "700+/mo",
@@ -367,44 +367,44 @@
   },
   {
    "rank": 9,
-   "asin": "B0DRXRH9DQ",
-   "name": "Fanttik F2 PRO Cordless Rotary Tool Kit with Strong Magnetic Motor, 5 Speed",
-   "brand": "Fanttik",
-   "model": "F2 Pro",
-   "price": 89.99,
+   "asin": "B07R9PNRBD",
+   "name": "Dremel Lite 7760-N/10 4V Cordless Rotary Tool Kit with Variable Speed",
+   "brand": "Dremel",
+   "model": "7760-N/10",
+   "price": 62.97,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1079,
-   "score": 71,
+   "rating": 4.6,
+   "reviews_count": 10890,
+   "score": 76,
    "award": null,
-   "best_for": "Rust removal, sharpening and light cutting in plastic and soft metal.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "Fanttik's stronger pen tool: a magnetic motor, a 3,000 mAh battery, a 5,000 rpm floor, 55 accessories and LED speed and battery indicators.",
+   "best_for": "Sanding, polishing, engraving and crafts.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A light 4V Dremel with variable speed, USB charging and a 2-year warranty. Dremel says plainly it's not for cutting, drilling or routing.",
    "pros": [
-    "55 accessories, magnetic hub",
-    "5,000 rpm low speed",
-    "2,000+ sold last month"
+    "10,890 reviews at 4.6 stars",
+    "Variable speed, 9.6 oz",
+    "2-year warranty"
    ],
    "cons": [
-    "$89.99 for a 4V tool",
+    "Not for cutting, drilling or routing",
     "25,000 rpm top speed"
    ],
    "specs": {
-    "battery": "4V 3,000 mAh, 20-120 min",
-    "speed": "5,000-25,000 rpm, 5 speeds",
-    "collet": null,
-    "kit": "55 accessories, magnetic hub, aluminum case",
-    "weight": "220 g"
+    "battery": "4V 2Ah, USB charging",
+    "speed": "8,000-25,000 rpm, variable",
+    "collet": "EZ Twist nose cap",
+    "kit": "10 accessories, case, USB charger",
+    "weight": "9.6 oz"
    },
    "features": {
     "high_speed": false,
     "platform": false,
     "brushless": false,
-    "big_kit": true
+    "big_kit": false
    },
-   "image": "https://m.media-amazon.com/images/I/71bDM2Us7UL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DRXRH9DQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B0DRXRH9DQ"
+   "image": "https://m.media-amazon.com/images/I/51wcIZzYkmL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07R9PNRBD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-tools.html#B07R9PNRBD"
   },
   {
    "rank": 10,
@@ -416,7 +416,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 4085,
-   "score": 70,
+   "score": 75,
    "award": null,
    "best_for": "Pet nail grinding, light sanding and simple crafts.",
    "bought_last_month": "500+/mo",

@@ -21,7 +21,7 @@
    "dual_bevel": 0.35,
    "cut_guide": 0.3
   },
-  "reviews_ceiling": 7000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 150,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -42,7 +42,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2527,
-   "score": 94,
+   "score": 98,
    "award": "Best Overall",
    "best_for": "Contractors who crosscut 2x14 and want a shadow-line guide.",
    "bought_last_month": "1K+/mo",
@@ -88,7 +88,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 2282,
-   "score": 92,
+   "score": 96,
    "award": null,
    "best_for": "Sliding, dual-bevel and a shadow line for $279.",
    "bought_last_month": "800+/mo",
@@ -126,51 +126,6 @@
   },
   {
    "rank": 3,
-   "asin": "B07SHJTPMY",
-   "name": "DEWALT Miter Saw, 12-Inch, Double Bevel, Compound, XPS Cutline, 15-Amp (DWS716XPS)",
-   "brand": "DEWALT",
-   "model": "DWS716XPS",
-   "price": 422.0,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1109,
-   "score": 85,
-   "award": null,
-   "best_for": "Crown and bevels both ways without flipping boards.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A 12-inch double-bevel chop saw with DEWALT's XPS cutline light. Pick it over the DWS715 if you cut a lot of crown or bevel both ways and don't want to flip boards.",
-   "pros": [
-    "Bevels 0-48° left and right with stops at 0°, 22.5°, 33.9°, and 45°",
-    "XPS LED cutline, no laser to calibrate",
-    "Holds 6-5/8\" nested crown and 6-1/2\" base against the fence",
-    "Miters 50° both ways"
-   ],
-   "cons": [
-    "$123 more than the DWS715 for the second bevel direction and the light",
-    "49 lb",
-    "The listing doesn't publish a crosscut capacity"
-   ],
-   "specs": {
-    "blade": "12\"",
-    "power": "15 A",
-    "type": "Compound",
-    "bevel": "Dual, 0-48° L/R",
-    "crosscut": null,
-    "speed": "3800 rpm",
-    "guide": "XPS LED cutline",
-    "weight": "49 lb"
-   },
-   "features": {
-    "sliding": false,
-    "dual_bevel": true,
-    "cut_guide": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81szWC0sjuL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07SHJTPMY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B07SHJTPMY"
-  },
-  {
-   "rank": 4,
    "asin": "B073K99HWJ",
    "name": "Makita LS1019L 10\" Dual-Bevel Sliding Compound Miter Saw with Laser",
    "brand": "Makita",
@@ -179,7 +134,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 474,
-   "score": 85,
+   "score": 96,
    "award": "Money No Object",
    "best_for": "Wall-flush setups that still handle big crown.",
    "bought_last_month": "50+/mo",
@@ -215,7 +170,142 @@
    "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B073K99HWJ"
   },
   {
+   "rank": 4,
+   "asin": "B07SHJTPMY",
+   "name": "DEWALT Miter Saw, 12-Inch, Double Bevel, Compound, XPS Cutline, 15-Amp (DWS716XPS)",
+   "brand": "DEWALT",
+   "model": "DWS716XPS",
+   "price": 422.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1109,
+   "score": 93,
+   "award": null,
+   "best_for": "Crown and bevels both ways without flipping boards.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A 12-inch double-bevel chop saw with DEWALT's XPS cutline light. Pick it over the DWS715 if you cut a lot of crown or bevel both ways and don't want to flip boards.",
+   "pros": [
+    "Bevels 0-48° left and right with stops at 0°, 22.5°, 33.9°, and 45°",
+    "XPS LED cutline, no laser to calibrate",
+    "Holds 6-5/8\" nested crown and 6-1/2\" base against the fence",
+    "Miters 50° both ways"
+   ],
+   "cons": [
+    "$123 more than the DWS715 for the second bevel direction and the light",
+    "49 lb",
+    "The listing doesn't publish a crosscut capacity"
+   ],
+   "specs": {
+    "blade": "12\"",
+    "power": "15 A",
+    "type": "Compound",
+    "bevel": "Dual, 0-48° L/R",
+    "crosscut": null,
+    "speed": "3800 rpm",
+    "guide": "XPS LED cutline",
+    "weight": "49 lb"
+   },
+   "features": {
+    "sliding": false,
+    "dual_bevel": true,
+    "cut_guide": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81szWC0sjuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07SHJTPMY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B07SHJTPMY"
+  },
+  {
    "rank": 5,
+   "asin": "B0D98B1P3T",
+   "name": "DOVAMAN 10-Inch Sliding Miter Saw, Multi-Material, 2-Speed, 15A (DMS01A)",
+   "brand": "DOVAMAN",
+   "model": "DMS01A",
+   "price": 189.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 778,
+   "score": 89,
+   "award": null,
+   "best_for": "The cheapest slider with a real following and a low speed for plastic.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The cheapest slider with a real following: 778 ratings, a 13-inch rail, and a low 3,200 rpm setting for plastic and soft metal. It's a budget brand sold by a third-party storefront.",
+   "pros": [
+    "Sliding rails for about a 13\" crosscut at $161",
+    "Two speeds, 4,500 and 3,200 rpm",
+    "Ships with three TCT blades, a laser, and spare brushes",
+    "Extendable side tables"
+   ],
+   "cons": [
+    "Rated 4.4, the lowest here",
+    "Sold by a third party (MilkyWay Galaxy), not Amazon",
+    "Single bevel",
+    "The listing gives the max cut as both 4 x 13\" and 3.5 x 13.4\""
+   ],
+   "specs": {
+    "blade": "10\"",
+    "power": "15 A",
+    "type": "Sliding compound",
+    "bevel": "45° (single)",
+    "crosscut": "13\"",
+    "speed": "4500 / 3200 rpm",
+    "guide": "Laser",
+    "weight": "37.5 lb"
+   },
+   "features": {
+    "sliding": true,
+    "dual_bevel": false,
+    "cut_guide": true
+   },
+   "image": "https://m.media-amazon.com/images/I/719U8qM-5xL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D98B1P3T?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B0D98B1P3T"
+  },
+  {
+   "rank": 6,
+   "asin": "B0F558MYPM",
+   "name": "VEVOR 10-Inch Compound Miter Saw, 15 Amp, Single Bevel, LED Guide",
+   "brand": "VEVOR",
+   "model": "J1G-ZP32-255",
+   "price": 170.9,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 166,
+   "score": 85,
+   "award": null,
+   "best_for": "A light 10-inch chop saw with a cut-line guide for trim and DIY work.",
+   "bought_last_month": null,
+   "verdict": "A 10-inch, 15-amp chop saw with an LED cut line and a 60-tooth blade, sold by Amazon for about $146. It weighs 24.3 lb on an aluminum base, so it's easy to carry to a job.",
+   "pros": [
+    "LED cut-line guide",
+    "24.3 lb with an aluminum base",
+    "60-tooth blade included, sold by Amazon"
+   ],
+   "cons": [
+    "Single bevel, left only, and no sliding rails",
+    "The listing claims 2,800-3,000 W, more than a 15-amp, 120 V motor can draw",
+    "No crosscut capacity on the listing"
+   ],
+   "specs": {
+    "blade": "10\"",
+    "power": "15 A",
+    "type": "Compound",
+    "bevel": "Single, 0-45° L",
+    "crosscut": null,
+    "speed": "5000 rpm",
+    "guide": "LED",
+    "weight": "24.3 lb"
+   },
+   "features": {
+    "sliding": false,
+    "dual_bevel": false,
+    "cut_guide": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61fduzs-nnL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F558MYPM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B0F558MYPM"
+  },
+  {
+   "rank": 7,
    "asin": "B07P8QTFRC",
    "name": "DEWALT 12-Inch Miter Saw, 15-Amp, Single Bevel, Compound (DWS715)",
    "brand": "DEWALT",
@@ -260,53 +350,7 @@
    "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B07P8QTFRC"
   },
   {
-   "rank": 6,
-   "asin": "B0D98B1P3T",
-   "name": "DOVAMAN 10-Inch Sliding Miter Saw, Multi-Material, 2-Speed, 15A (DMS01A)",
-   "brand": "DOVAMAN",
-   "model": "DMS01A",
-   "price": 189.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 778,
-   "score": 80,
-   "award": null,
-   "best_for": "The cheapest slider with a real following and a low speed for plastic.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The cheapest slider with a real following: 778 ratings, a 13-inch rail, and a low 3,200 rpm setting for plastic and soft metal. It's a budget brand sold by a third-party storefront.",
-   "pros": [
-    "Sliding rails for about a 13\" crosscut at $161",
-    "Two speeds, 4,500 and 3,200 rpm",
-    "Ships with three TCT blades, a laser, and spare brushes",
-    "Extendable side tables"
-   ],
-   "cons": [
-    "Rated 4.4, the lowest here",
-    "Sold by a third party (MilkyWay Galaxy), not Amazon",
-    "Single bevel",
-    "The listing gives the max cut as both 4 x 13\" and 3.5 x 13.4\""
-   ],
-   "specs": {
-    "blade": "10\"",
-    "power": "15 A",
-    "type": "Sliding compound",
-    "bevel": "45° (single)",
-    "crosscut": "13\"",
-    "speed": "4500 / 3200 rpm",
-    "guide": "Laser",
-    "weight": "37.5 lb"
-   },
-   "features": {
-    "sliding": true,
-    "dual_bevel": false,
-    "cut_guide": true
-   },
-   "image": "https://m.media-amazon.com/images/I/719U8qM-5xL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D98B1P3T?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B0D98B1P3T"
-  },
-  {
-   "rank": 7,
+   "rank": 8,
    "asin": "B07P7LX9DF",
    "name": "DEWALT Miter Saw, Single Bevel, Compound, 10-Inch, 15-Amp (DWS713)",
    "brand": "DEWALT",
@@ -315,7 +359,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1389,
-   "score": 76,
+   "score": 82,
    "award": null,
    "best_for": "A light, cheap-to-feed 10-inch DEWALT for trim and 2x6 cuts.",
    "bought_last_month": "100+/mo",
@@ -351,51 +395,6 @@
    "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B07P7LX9DF"
   },
   {
-   "rank": 8,
-   "asin": "B0FBPB1MJ8",
-   "name": "Metabo HPT 10-Inch Compound Miter Saw, 15-Amp, Single Bevel, C10FCG2",
-   "brand": "Metabo HPT",
-   "model": "C10FCG2",
-   "price": 139.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 738,
-   "score": 73,
-   "award": "Best Budget",
-   "best_for": "A light, cheap chop saw with a 5-year warranty.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "Amazon's #1 power miter saw right now and the cheapest name-brand saw here: a light 10-inch chop saw with a 5-year warranty for $139.",
-   "pros": [
-    "$139 from Amazon, with a 5-year warranty",
-    "24.2 lb, the lightest saw on this list",
-    "Miters 0-52° left and right",
-    "Blade, dust bag, and vise included"
-   ],
-   "cons": [
-    "Single bevel, left only",
-    "No crosscut capacity published",
-    "The title says 24T blade while the spec table and description say 40T, and the description mentions a shadow line the bullets don't, so don't count on one"
-   ],
-   "specs": {
-    "blade": "10\"",
-    "power": "15 A",
-    "type": "Compound",
-    "bevel": "45° L",
-    "crosscut": null,
-    "speed": "5000 rpm",
-    "guide": null,
-    "weight": "24.2 lb"
-   },
-   "features": {
-    "sliding": false,
-    "dual_bevel": false,
-    "cut_guide": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71qU22TCQoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FBPB1MJ8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B0FBPB1MJ8"
-  },
-  {
    "rank": 9,
    "asin": "B0000223I4",
    "name": "Makita LS1040 10\" Compound Miter Saw",
@@ -405,7 +404,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 662,
-   "score": 73,
+   "score": 82,
    "award": null,
    "best_for": "A light Makita chop saw with a direct-drive motor.",
    "bought_last_month": null,
@@ -442,47 +441,48 @@
   },
   {
    "rank": 10,
-   "asin": "B0F558MYPM",
-   "name": "VEVOR 10-Inch Compound Miter Saw, 15 Amp, Single Bevel, LED Guide",
-   "brand": "VEVOR",
-   "model": "J1G-ZP32-255",
-   "price": 170.9,
+   "asin": "B0FBPB1MJ8",
+   "name": "Metabo HPT 10-Inch Compound Miter Saw, 15-Amp, Single Bevel, C10FCG2",
+   "brand": "Metabo HPT",
+   "model": "C10FCG2",
+   "price": 139.0,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 166,
-   "score": 71,
-   "award": null,
-   "best_for": "A light 10-inch chop saw with a cut-line guide for trim and DIY work.",
-   "bought_last_month": null,
-   "verdict": "A 10-inch, 15-amp chop saw with an LED cut line and a 60-tooth blade, sold by Amazon for about $146. It weighs 24.3 lb on an aluminum base, so it's easy to carry to a job.",
+   "rating": 4.6,
+   "reviews_count": 738,
+   "score": 81,
+   "award": "Best Budget",
+   "best_for": "A light, cheap chop saw with a 5-year warranty.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Amazon's #1 power miter saw right now and the cheapest name-brand saw here: a light 10-inch chop saw with a 5-year warranty for $139.",
    "pros": [
-    "LED cut-line guide",
-    "24.3 lb with an aluminum base",
-    "60-tooth blade included, sold by Amazon"
+    "$139 from Amazon, with a 5-year warranty",
+    "24.2 lb, the lightest saw on this list",
+    "Miters 0-52° left and right",
+    "Blade, dust bag, and vise included"
    ],
    "cons": [
-    "Single bevel, left only, and no sliding rails",
-    "The listing claims 2,800-3,000 W, more than a 15-amp, 120 V motor can draw",
-    "No crosscut capacity on the listing"
+    "Single bevel, left only",
+    "No crosscut capacity published",
+    "The title says 24T blade while the spec table and description say 40T, and the description mentions a shadow line the bullets don't, so don't count on one"
    ],
    "specs": {
     "blade": "10\"",
     "power": "15 A",
     "type": "Compound",
-    "bevel": "Single, 0-45° L",
+    "bevel": "45° L",
     "crosscut": null,
     "speed": "5000 rpm",
-    "guide": "LED",
-    "weight": "24.3 lb"
+    "guide": null,
+    "weight": "24.2 lb"
    },
    "features": {
     "sliding": false,
     "dual_bevel": false,
-    "cut_guide": true
+    "cut_guide": false
    },
-   "image": "https://m.media-amazon.com/images/I/61fduzs-nnL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F558MYPM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B0F558MYPM"
+   "image": "https://m.media-amazon.com/images/I/71qU22TCQoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FBPB1MJ8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B0FBPB1MJ8"
   }
  ],
  "avoid": [

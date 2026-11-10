@@ -21,7 +21,7 @@
    "safety_clutch": 0.3,
    "kit": 0.3
   },
-  "reviews_ceiling": 3500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 90,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -34,6 +34,178 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0CKM1DZJJ",
+   "name": "Bosch GBH18V-22N 18V Brushless SDS-plus Bulldog 3/4 In. Rotary Hammer (Bare Tool)",
+   "brand": "Bosch",
+   "model": "GBH18V-22N",
+   "price": 167.04,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 131,
+   "score": 89,
+   "award": null,
+   "best_for": "Bosch 18V owners who want kickback control and anti-vibration.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The only name-brand hammer here with both kickback control and an anti-vibration system on the listing. It's a 3/4\" tool, so it suits anchor holes more than large bores. Sold by Amazon.",
+   "pros": [
+    "Kickback control cuts power when the bit binds",
+    "Anti-vibration system",
+    "Vario-Lock sets the chisel angle in hammer-only mode",
+    "Works with Bosch's GDE18V-12 on-tool dust extractor"
+   ],
+   "cons": [
+    "3/4\" capacity, smaller than the 1\" tools",
+    "Bare tool only",
+    "Listing doesn't state a warranty term"
+   ],
+   "specs": {
+    "platform": "Bosch 18V",
+    "impact": "1.4 ft-lb",
+    "capacity": "3/4\"",
+    "modes": null,
+    "weight": "5.1 lb",
+    "warranty": null
+   },
+   "features": {
+    "vibration_control": true,
+    "safety_clutch": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/5185fI0ettL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CKM1DZJJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0CKM1DZJJ"
+  },
+  {
+   "rank": 2,
+   "asin": "B0GTJ85MYG",
+   "name": "Seesii 1 inch Cordless SDS Plus Rotary Hammer Drill, 2.5J Brushless, 4-Mode, with 2x4.0Ah Batteries and Drill Bits",
+   "brand": "Seesii",
+   "model": "EH09P-US",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 182,
+   "score": 88,
+   "award": null,
+   "best_for": "Homeowners without a platform who want a complete kit.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A complete kit for about $120: 2.5 J brushless hammer, two 4.0Ah batteries, charger, three bits, two chisels, and a case. A good pick for a homeowner who doesn't already own a battery platform.",
+   "pros": [
+    "Ready to use: two batteries, charger, bits, chisels, and case",
+    "Safety clutch",
+    "2.5 J, close to the DCH133B's 2.6 J",
+    "Listing says it also takes Makita 18V batteries",
+    "2-year warranty"
+   ],
+   "cons": [
+    "No vibration control listed",
+    "Off-brand battery platform with few other tools"
+   ],
+   "specs": {
+    "platform": "Seesii 18V (takes Makita 18V packs)",
+    "impact": "2.5 J",
+    "capacity": "1\"",
+    "modes": 4,
+    "weight": null,
+    "warranty": "2 years"
+   },
+   "features": {
+    "vibration_control": false,
+    "safety_clutch": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71MuIVmDbOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GTJ85MYG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0GTJ85MYG"
+  },
+  {
+   "rank": 3,
+   "asin": "B0B24YTVHT",
+   "name": "Dong Cheng 20V Max Cordless Brushless Rotary Hammer Drill, 7/8-Inch SDS-Plus, 2.1 Joules, with 4.0Ah Battery, Charger and 4 Drill Bits",
+   "brand": "Dong Cheng",
+   "model": "DCZC22",
+   "price": 84.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 169,
+   "score": 88,
+   "award": "Best Budget",
+   "best_for": "A weekend of anchor holes with a complete kit for under $90.",
+   "bought_last_month": null,
+   "verdict": "The cheapest way to own a real cordless SDS-Plus hammer: a brushless 2.1 J tool with a 4.0Ah battery, charger, and four bits for about $85. Fine for a weekend of anchor holes.",
+   "pros": [
+    "Full kit for about $85: battery, charger, and 1/4\" to 1/2\" bits",
+    "2.1 J, the same as the DCH273B",
+    "Four modes including chisel",
+    "Anti-vibration side handle and vibration-reduction mechanism"
+   ],
+   "cons": [
+    "One battery only",
+    "No clutch listed",
+    "Listing doesn't state a warranty term"
+   ],
+   "specs": {
+    "platform": "Dong Cheng 20V",
+    "impact": "2.1 J",
+    "capacity": "7/8\"",
+    "modes": 4,
+    "weight": "4.5 lb",
+    "warranty": null
+   },
+   "features": {
+    "vibration_control": true,
+    "safety_clutch": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71IkFTTyXUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B24YTVHT?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0B24YTVHT"
+  },
+  {
+   "rank": 4,
+   "asin": "B0F1SGJQJ7",
+   "name": "ACROPOW SDS-Plus Cordless Rotary Hammer Drill for DEWALT 20V Battery, Brushless, Safety Clutch, 4 Functions (No Battery)",
+   "brand": "ACROPOW",
+   "model": "AC-RH01",
+   "price": 76.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 147,
+   "score": 87,
+   "award": null,
+   "best_for": "DEWALT battery owners who drill concrete a few times a year.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A bare tool that runs on DEWALT 20V MAX batteries, for DEWALT owners who drill concrete a few times a year and don't want to pay $166 for the yellow one.",
+   "pros": [
+    "Runs on DEWALT 20V MAX batteries",
+    "Safety clutch and vibration buffer",
+    "Five SDS-Plus bits and a carry bag included",
+    "Cheapest bare tool on the list"
+   ],
+   "cons": [
+    "No battery or charger",
+    "A third-party tool on DEWALT batteries isn't covered by DEWALT",
+    "Listing gives no concrete capacity"
+   ],
+   "specs": {
+    "platform": "DEWALT 20V MAX batteries",
+    "impact": "3 J (max)",
+    "capacity": null,
+    "modes": 4,
+    "weight": null,
+    "warranty": null
+   },
+   "features": {
+    "vibration_control": true,
+    "safety_clutch": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61NBQBIcKkL._AC_SL1185_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F1SGJQJ7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0F1SGJQJ7"
+  },
+  {
+   "rank": 5,
    "asin": "B00YDZI9BA",
    "name": "DEWALT 20V MAX SDS Rotary Hammer Drill, Cordless, 3 Application Modes, Bare Tool Only (DCH273B)",
    "brand": "DEWALT",
@@ -76,7 +248,49 @@
    "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B00YDZI9BA"
   },
   {
-   "rank": 2,
+   "rank": 6,
+   "asin": "B074BLH4Q9",
+   "name": "Makita XRH06ZB 18V LXT Sub-Compact Brushless Cordless 11/16\" Rotary Hammer, Accepts SDS-Plus Bits, Tool Only",
+   "brand": "Makita",
+   "model": "XRH06ZB",
+   "price": 299.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 245,
+   "score": 85,
+   "award": null,
+   "best_for": "Overhead anchor work in tight spaces on Makita LXT.",
+   "bought_last_month": null,
+   "verdict": "A sub-compact 10-3/4\" hammer for overhead and tight-space anchor work on Makita batteries. It's the smallest tool on the list, and the least powerful.",
+   "pros": [
+    "4.6 lb with a battery installed",
+    "Vibration-absorbing handle moves independently of the motor",
+    "Only 10-3/4\" long"
+   ],
+   "cons": [
+    "1.2 J and 11/16\" capacity: light-duty only",
+    "Expensive for its size",
+    "Sold by a third-party seller (Toolup)"
+   ],
+   "specs": {
+    "platform": "Makita 18V LXT",
+    "impact": "1.2 J",
+    "capacity": "11/16\"",
+    "modes": null,
+    "weight": "4.6 lb (with battery)",
+    "warranty": null
+   },
+   "features": {
+    "vibration_control": true,
+    "safety_clutch": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61TzazYJFlL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B074BLH4Q9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B074BLH4Q9"
+  },
+  {
+   "rank": 7,
    "asin": "B097GQW5LC",
    "name": "DEWALT 20V MAX SDS Plus Rotary Hammer Drill, Cordless, 5/8 in., Tool Only (DCH172B)",
    "brand": "DEWALT",
@@ -85,7 +299,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1489,
-   "score": 81,
+   "score": 84,
    "award": null,
    "best_for": "Overhead anchor work: rod hanging, strut and cable tray.",
    "bought_last_month": "300+/mo",
@@ -118,93 +332,49 @@
    "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B097GQW5LC"
   },
   {
-   "rank": 3,
-   "asin": "B0GTJ85MYG",
-   "name": "Seesii 1 inch Cordless SDS Plus Rotary Hammer Drill, 2.5J Brushless, 4-Mode, with 2x4.0Ah Batteries and Drill Bits",
-   "brand": "Seesii",
-   "model": "EH09P-US",
-   "price": 129.99,
+   "rank": 8,
+   "asin": "B09PMSKXRV",
+   "name": "Milwaukee 2912-20 M18 FUEL 18V 1\" SDS Plus Brushless Rotary Hammer",
+   "brand": "Milwaukee",
+   "model": "2912-20",
+   "price": 309.87,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 182,
-   "score": 79,
-   "award": null,
-   "best_for": "Homeowners without a platform who want a complete kit.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A complete kit for about $120: 2.5 J brushless hammer, two 4.0Ah batteries, charger, three bits, two chisels, and a case. A good pick for a homeowner who doesn't already own a battery platform.",
+   "rating": 4.7,
+   "reviews_count": 642,
+   "score": 83,
+   "award": "Money No Object",
+   "best_for": "M18 pros who drill concrete daily and want bind-up protection.",
+   "bought_last_month": "300+/mo",
+   "verdict": "Milwaukee's M18 FUEL 1\" hammer with AUTOSTOP, which senses a bind-up and cuts power before the tool can wrench your arm. Buy it if you're on M18 batteries and drill concrete for a living.",
    "pros": [
-    "Ready to use: two batteries, charger, bits, chisels, and case",
-    "Safety clutch",
-    "2.5 J, close to the DCH133B's 2.6 J",
-    "Listing says it also takes Makita 18V batteries",
-    "2-year warranty"
+    "AUTOSTOP bind-up control",
+    "Brushless M18 FUEL motor",
+    "Runs on any M18 battery"
    ],
    "cons": [
-    "No vibration control listed",
-    "Off-brand battery platform with few other tools"
+    "One of the two most expensive bare tools here",
+    "Thin listing: no impact energy, modes, or warranty term stated",
+    "Sold by a third-party seller (Neandertool)"
    ],
    "specs": {
-    "platform": "Seesii 18V (takes Makita 18V packs)",
-    "impact": "2.5 J",
+    "platform": "Milwaukee M18",
+    "impact": null,
     "capacity": "1\"",
-    "modes": 4,
-    "weight": null,
-    "warranty": "2 years"
+    "modes": null,
+    "weight": "7.5 lb",
+    "warranty": null
    },
    "features": {
     "vibration_control": false,
     "safety_clutch": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71MuIVmDbOL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GTJ85MYG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0GTJ85MYG"
-  },
-  {
-   "rank": 4,
-   "asin": "B0CKM1DZJJ",
-   "name": "Bosch GBH18V-22N 18V Brushless SDS-plus Bulldog 3/4 In. Rotary Hammer (Bare Tool)",
-   "brand": "Bosch",
-   "model": "GBH18V-22N",
-   "price": 167.04,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 131,
-   "score": 77,
-   "award": null,
-   "best_for": "Bosch 18V owners who want kickback control and anti-vibration.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The only name-brand hammer here with both kickback control and an anti-vibration system on the listing. It's a 3/4\" tool, so it suits anchor holes more than large bores. Sold by Amazon.",
-   "pros": [
-    "Kickback control cuts power when the bit binds",
-    "Anti-vibration system",
-    "Vario-Lock sets the chisel angle in hammer-only mode",
-    "Works with Bosch's GDE18V-12 on-tool dust extractor"
-   ],
-   "cons": [
-    "3/4\" capacity, smaller than the 1\" tools",
-    "Bare tool only",
-    "Listing doesn't state a warranty term"
-   ],
-   "specs": {
-    "platform": "Bosch 18V",
-    "impact": "1.4 ft-lb",
-    "capacity": "3/4\"",
-    "modes": null,
-    "weight": "5.1 lb",
-    "warranty": null
-   },
-   "features": {
-    "vibration_control": true,
-    "safety_clutch": true,
     "kit": false
    },
-   "image": "https://m.media-amazon.com/images/I/5185fI0ettL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CKM1DZJJ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0CKM1DZJJ"
+   "image": "https://m.media-amazon.com/images/I/61ukA6SXpAL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09PMSKXRV?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B09PMSKXRV"
   },
   {
-   "rank": 5,
+   "rank": 9,
    "asin": "B01MF4YEIF",
    "name": "DEWALT 20V MAX SDS Plus 1 Inch Cordless Rotary Hammer with D-Handle, Bare Tool Only (DCH133B)",
    "brand": "DEWALT",
@@ -213,7 +383,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2098,
-   "score": 76,
+   "score": 78,
    "award": null,
    "best_for": "More hitting power in a lighter body, for less than the DCH273B.",
    "bought_last_month": "400+/mo",
@@ -247,176 +417,6 @@
    "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B01MF4YEIF"
   },
   {
-   "rank": 6,
-   "asin": "B09PMSKXRV",
-   "name": "Milwaukee 2912-20 M18 FUEL 18V 1\" SDS Plus Brushless Rotary Hammer",
-   "brand": "Milwaukee",
-   "model": "2912-20",
-   "price": 309.87,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 642,
-   "score": 76,
-   "award": "Money No Object",
-   "best_for": "M18 pros who drill concrete daily and want bind-up protection.",
-   "bought_last_month": "300+/mo",
-   "verdict": "Milwaukee's M18 FUEL 1\" hammer with AUTOSTOP, which senses a bind-up and cuts power before the tool can wrench your arm. Buy it if you're on M18 batteries and drill concrete for a living.",
-   "pros": [
-    "AUTOSTOP bind-up control",
-    "Brushless M18 FUEL motor",
-    "Runs on any M18 battery"
-   ],
-   "cons": [
-    "One of the two most expensive bare tools here",
-    "Thin listing: no impact energy, modes, or warranty term stated",
-    "Sold by a third-party seller (Neandertool)"
-   ],
-   "specs": {
-    "platform": "Milwaukee M18",
-    "impact": null,
-    "capacity": "1\"",
-    "modes": null,
-    "weight": "7.5 lb",
-    "warranty": null
-   },
-   "features": {
-    "vibration_control": false,
-    "safety_clutch": true,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61ukA6SXpAL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09PMSKXRV?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B09PMSKXRV"
-  },
-  {
-   "rank": 7,
-   "asin": "B0B24YTVHT",
-   "name": "Dong Cheng 20V Max Cordless Brushless Rotary Hammer Drill, 7/8-Inch SDS-Plus, 2.1 Joules, with 4.0Ah Battery, Charger and 4 Drill Bits",
-   "brand": "Dong Cheng",
-   "model": "DCZC22",
-   "price": 84.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 169,
-   "score": 76,
-   "award": "Best Budget",
-   "best_for": "A weekend of anchor holes with a complete kit for under $90.",
-   "bought_last_month": null,
-   "verdict": "The cheapest way to own a real cordless SDS-Plus hammer: a brushless 2.1 J tool with a 4.0Ah battery, charger, and four bits for about $85. Fine for a weekend of anchor holes.",
-   "pros": [
-    "Full kit for about $85: battery, charger, and 1/4\" to 1/2\" bits",
-    "2.1 J, the same as the DCH273B",
-    "Four modes including chisel",
-    "Anti-vibration side handle and vibration-reduction mechanism"
-   ],
-   "cons": [
-    "One battery only",
-    "No clutch listed",
-    "Listing doesn't state a warranty term"
-   ],
-   "specs": {
-    "platform": "Dong Cheng 20V",
-    "impact": "2.1 J",
-    "capacity": "7/8\"",
-    "modes": 4,
-    "weight": "4.5 lb",
-    "warranty": null
-   },
-   "features": {
-    "vibration_control": true,
-    "safety_clutch": false,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71IkFTTyXUL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B24YTVHT?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0B24YTVHT"
-  },
-  {
-   "rank": 8,
-   "asin": "B0F1SGJQJ7",
-   "name": "ACROPOW SDS-Plus Cordless Rotary Hammer Drill for DEWALT 20V Battery, Brushless, Safety Clutch, 4 Functions (No Battery)",
-   "brand": "ACROPOW",
-   "model": "AC-RH01",
-   "price": 76.95,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 147,
-   "score": 75,
-   "award": null,
-   "best_for": "DEWALT battery owners who drill concrete a few times a year.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A bare tool that runs on DEWALT 20V MAX batteries, for DEWALT owners who drill concrete a few times a year and don't want to pay $166 for the yellow one.",
-   "pros": [
-    "Runs on DEWALT 20V MAX batteries",
-    "Safety clutch and vibration buffer",
-    "Five SDS-Plus bits and a carry bag included",
-    "Cheapest bare tool on the list"
-   ],
-   "cons": [
-    "No battery or charger",
-    "A third-party tool on DEWALT batteries isn't covered by DEWALT",
-    "Listing gives no concrete capacity"
-   ],
-   "specs": {
-    "platform": "DEWALT 20V MAX batteries",
-    "impact": "3 J (max)",
-    "capacity": null,
-    "modes": 4,
-    "weight": null,
-    "warranty": null
-   },
-   "features": {
-    "vibration_control": true,
-    "safety_clutch": true,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61NBQBIcKkL._AC_SL1185_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F1SGJQJ7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0F1SGJQJ7"
-  },
-  {
-   "rank": 9,
-   "asin": "B074BLH4Q9",
-   "name": "Makita XRH06ZB 18V LXT Sub-Compact Brushless Cordless 11/16\" Rotary Hammer, Accepts SDS-Plus Bits, Tool Only",
-   "brand": "Makita",
-   "model": "XRH06ZB",
-   "price": 299.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 245,
-   "score": 74,
-   "award": null,
-   "best_for": "Overhead anchor work in tight spaces on Makita LXT.",
-   "bought_last_month": null,
-   "verdict": "A sub-compact 10-3/4\" hammer for overhead and tight-space anchor work on Makita batteries. It's the smallest tool on the list, and the least powerful.",
-   "pros": [
-    "4.6 lb with a battery installed",
-    "Vibration-absorbing handle moves independently of the motor",
-    "Only 10-3/4\" long"
-   ],
-   "cons": [
-    "1.2 J and 11/16\" capacity: light-duty only",
-    "Expensive for its size",
-    "Sold by a third-party seller (Toolup)"
-   ],
-   "specs": {
-    "platform": "Makita 18V LXT",
-    "impact": "1.2 J",
-    "capacity": "11/16\"",
-    "modes": null,
-    "weight": "4.6 lb (with battery)",
-    "warranty": null
-   },
-   "features": {
-    "vibration_control": true,
-    "safety_clutch": false,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61TzazYJFlL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B074BLH4Q9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B074BLH4Q9"
-  },
-  {
    "rank": 10,
    "asin": "B00NOL9BNE",
    "name": "Milwaukee M18 1\" SDS Plus Rotary Hammer (2712-20)",
@@ -426,7 +426,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 1029,
-   "score": 73,
+   "score": 78,
    "award": null,
    "best_for": "M18 owners who want a well-reviewed 1\" hammer and don't mind paying for it.",
    "bought_last_month": "50+/mo",

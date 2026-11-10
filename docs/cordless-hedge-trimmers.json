@@ -22,7 +22,7 @@
    "cut_3_4": 0.25,
    "dual_action": 0.25
   },
-  "reviews_ceiling": 8000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,47 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0G64CMJJQ",
+   "name": "KOMASTY 22\" Cordless Hedge Trimmer with 2 Batteries and Charger",
+   "brand": "KOMASTY",
+   "model": "kom-GYHT",
+   "price": 64.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 526,
+   "score": 98,
+   "award": null,
+   "best_for": "Budget buyers who want full features.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A budget 22-inch trimmer that cuts 3/4-inch branches with two batteries, rated 4.8 stars.",
+   "pros": [
+    "22 in blade, 3/4 in cuts",
+    "Two batteries",
+    "4.8 stars"
+   ],
+   "cons": [
+    "Small 1.5Ah batteries",
+    "526 reviews"
+   ],
+   "specs": {
+    "blade": "22 in dual-action",
+    "capacity": "3/4 in",
+    "battery": "Two 1.5Ah, included",
+    "weight": "5.25 lb",
+    "extras": "2,800 SPM"
+   },
+   "features": {
+    "blade_22_plus": true,
+    "battery_included": true,
+    "cut_3_4": true,
+    "dual_action": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61Pd0nWLRoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G64CMJJQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0G64CMJJQ"
+  },
+  {
+   "rank": 2,
    "asin": "B00602J27E",
    "name": "BLACK+DECKER 20V MAX 22\" Cordless Hedge Trimmer with Battery and Charger (LHT2220)",
    "brand": "BLACK+DECKER",
@@ -74,7 +115,88 @@
    "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B00602J27E"
   },
   {
-   "rank": 2,
+   "rank": 3,
+   "asin": "B0BRXK7NT2",
+   "name": "EGO POWER+ 26\" Cordless Hedge Trimmer with 56V 2.5Ah Battery (HT2601)",
+   "brand": "EGO",
+   "model": "HT2601",
+   "price": 279.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 654,
+   "score": 96,
+   "award": "Money No Object",
+   "best_for": "Large or overgrown hedges.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The most capable trimmer here: 26-inch dual-action blades that cut up to 1.2-inch branches, a carbon fiber rail with a lifetime warranty and up to 60 minutes per charge.",
+   "pros": [
+    "26 in blade, 1.2 in cuts",
+    "Up to 60 min",
+    "Lifetime warranty on the rail"
+   ],
+   "cons": [
+    "Most expensive here"
+   ],
+   "specs": {
+    "blade": "26 in dual-action",
+    "capacity": "Up to 1.2 in",
+    "battery": "56V 2.5Ah, included",
+    "weight": null,
+    "extras": "Carbon fiber rail with lifetime warranty, up to 60 min"
+   },
+   "features": {
+    "blade_22_plus": true,
+    "battery_included": true,
+    "cut_3_4": true,
+    "dual_action": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41+XM8DpYAL._AC_SL1080_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BRXK7NT2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0BRXK7NT2"
+  },
+  {
+   "rank": 4,
+   "asin": "B08T6BJ2HS",
+   "name": "CRAFTSMAN V20 20\" Cordless Hedge Trimmer with Battery and Charger (CMCHT810C1)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCHT810C1",
+   "price": 99.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 783,
+   "score": 92,
+   "award": null,
+   "best_for": "CRAFTSMAN V20 owners.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A CRAFTSMAN V20 trimmer that cuts 3/4-inch branches, rated 4.7 stars.",
+   "pros": [
+    "4.7 stars",
+    "3/4 in cuts",
+    "Battery included"
+   ],
+   "cons": [
+    "1.5Ah battery",
+    "20 in blade"
+   ],
+   "specs": {
+    "blade": "20 in dual-action",
+    "capacity": "3/4 in",
+    "battery": "V20 1.5Ah, included",
+    "weight": "6.6 lb",
+    "extras": null
+   },
+   "features": {
+    "blade_22_plus": false,
+    "battery_included": true,
+    "cut_3_4": true,
+    "dual_action": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61otIFUWnCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08T6BJ2HS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B08T6BJ2HS"
+  },
+  {
+   "rank": 5,
    "asin": "B07MVLYF7L",
    "name": "WORX 20V 22\" Cordless Hedge Trimmer (WG261)",
    "brand": "WORX",
@@ -115,252 +237,7 @@
    "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B07MVLYF7L"
   },
   {
-   "rank": 3,
-   "asin": "B0G64CMJJQ",
-   "name": "KOMASTY 22\" Cordless Hedge Trimmer with 2 Batteries and Charger",
-   "brand": "KOMASTY",
-   "model": "kom-GYHT",
-   "price": 64.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 526,
-   "score": 90,
-   "award": null,
-   "best_for": "Budget buyers who want full features.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A budget 22-inch trimmer that cuts 3/4-inch branches with two batteries, rated 4.8 stars.",
-   "pros": [
-    "22 in blade, 3/4 in cuts",
-    "Two batteries",
-    "4.8 stars"
-   ],
-   "cons": [
-    "Small 1.5Ah batteries",
-    "526 reviews"
-   ],
-   "specs": {
-    "blade": "22 in dual-action",
-    "capacity": "3/4 in",
-    "battery": "Two 1.5Ah, included",
-    "weight": "5.25 lb",
-    "extras": "2,800 SPM"
-   },
-   "features": {
-    "blade_22_plus": true,
-    "battery_included": true,
-    "cut_3_4": true,
-    "dual_action": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61Pd0nWLRoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G64CMJJQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0G64CMJJQ"
-  },
-  {
-   "rank": 4,
-   "asin": "B0BRXK7NT2",
-   "name": "EGO POWER+ 26\" Cordless Hedge Trimmer with 56V 2.5Ah Battery (HT2601)",
-   "brand": "EGO",
-   "model": "HT2601",
-   "price": 279.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 654,
-   "score": 87,
-   "award": "Money No Object",
-   "best_for": "Large or overgrown hedges.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The most capable trimmer here: 26-inch dual-action blades that cut up to 1.2-inch branches, a carbon fiber rail with a lifetime warranty and up to 60 minutes per charge.",
-   "pros": [
-    "26 in blade, 1.2 in cuts",
-    "Up to 60 min",
-    "Lifetime warranty on the rail"
-   ],
-   "cons": [
-    "Most expensive here"
-   ],
-   "specs": {
-    "blade": "26 in dual-action",
-    "capacity": "Up to 1.2 in",
-    "battery": "56V 2.5Ah, included",
-    "weight": null,
-    "extras": "Carbon fiber rail with lifetime warranty, up to 60 min"
-   },
-   "features": {
-    "blade_22_plus": true,
-    "battery_included": true,
-    "cut_3_4": true,
-    "dual_action": true
-   },
-   "image": "https://m.media-amazon.com/images/I/41+XM8DpYAL._AC_SL1080_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BRXK7NT2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0BRXK7NT2"
-  },
-  {
-   "rank": 5,
-   "asin": "B08J84G8J9",
-   "name": "MZK 20V 22-Inch Cordless Hedge Trimmer with 2 x 4Ah Batteries (ET1609)",
-   "brand": "MZK",
-   "model": "ET1609",
-   "price": 49.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2145,
-   "score": 84,
-   "award": "Best Budget",
-   "best_for": "Budget buyers who want long runtime.",
-   "bought_last_month": "500+/mo",
-   "verdict": "A budget kit with two 4.0Ah batteries, a 22-inch blade and a 5 lb body, for well under brand-name prices.",
-   "pros": [
-    "Two 4.0Ah batteries",
-    "5 lb",
-    "Low price"
-   ],
-   "cons": [
-    "4.4 stars",
-    "5/8 in capacity"
-   ],
-   "specs": {
-    "blade": "22.4 in dual-action",
-    "capacity": "5/8 in",
-    "battery": "Two 20V 4.0Ah, included",
-    "weight": "5 lb",
-    "extras": "Wrap-around handle"
-   },
-   "features": {
-    "blade_22_plus": true,
-    "battery_included": true,
-    "cut_3_4": false,
-    "dual_action": true
-   },
-   "image": "https://m.media-amazon.com/images/I/716Bvt9CVgL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08J84G8J9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B08J84G8J9"
-  },
-  {
    "rank": 6,
-   "asin": "B08T6BJ2HS",
-   "name": "CRAFTSMAN V20 20\" Cordless Hedge Trimmer with Battery and Charger (CMCHT810C1)",
-   "brand": "CRAFTSMAN",
-   "model": "CMCHT810C1",
-   "price": 99.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 783,
-   "score": 83,
-   "award": null,
-   "best_for": "CRAFTSMAN V20 owners.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A CRAFTSMAN V20 trimmer that cuts 3/4-inch branches, rated 4.7 stars.",
-   "pros": [
-    "4.7 stars",
-    "3/4 in cuts",
-    "Battery included"
-   ],
-   "cons": [
-    "1.5Ah battery",
-    "20 in blade"
-   ],
-   "specs": {
-    "blade": "20 in dual-action",
-    "capacity": "3/4 in",
-    "battery": "V20 1.5Ah, included",
-    "weight": "6.6 lb",
-    "extras": null
-   },
-   "features": {
-    "blade_22_plus": false,
-    "battery_included": true,
-    "cut_3_4": true,
-    "dual_action": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61otIFUWnCL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08T6BJ2HS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B08T6BJ2HS"
-  },
-  {
-   "rank": 7,
-   "asin": "B0DQPB23MB",
-   "name": "DocSmart Brushless Cordless Hedge Trimmer with Two Batteries (HT02-B)",
-   "brand": "DocSmart",
-   "model": "HT02-B",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1272,
-   "score": 79,
-   "award": null,
-   "best_for": "Budget buyers who want brushless.",
-   "bought_last_month": "600+/mo",
-   "verdict": "A brushless budget trimmer with two batteries the seller says give 120 minutes combined.",
-   "pros": [
-    "Brushless",
-    "Two batteries",
-    "1,272 reviews"
-   ],
-   "cons": [
-    "Unknown brand",
-    "Under 22 in blade"
-   ],
-   "specs": {
-    "blade": "20.67 in dual-action",
-    "capacity": "2/3 in",
-    "battery": "Two 2.0Ah, included",
-    "weight": null,
-    "extras": "Brushless, 120 min runtime claimed"
-   },
-   "features": {
-    "blade_22_plus": false,
-    "battery_included": true,
-    "cut_3_4": false,
-    "dual_action": true
-   },
-   "image": "https://m.media-amazon.com/images/I/715GPIUdPWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DQPB23MB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0DQPB23MB"
-  },
-  {
-   "rank": 8,
-   "asin": "B07JQ3TLZ4",
-   "name": "BLACK+DECKER 20V MAX 18\" Cordless Hedge Trimmer with Battery (LHT218C1)",
-   "brand": "BLACK+DECKER",
-   "model": "LHT218C1",
-   "price": 79.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1102,
-   "score": 79,
-   "award": null,
-   "best_for": "Small shrubs and foundation plantings.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A shorter 18-inch version for small shrubs and tight spots, with 2,400 cuts per minute.",
-   "pros": [
-    "Light and compact",
-    "Battery included",
-    "4.6 stars"
-   ],
-   "cons": [
-    "18 in blade",
-    "5/8 in capacity"
-   ],
-   "specs": {
-    "blade": "18 in dual-action",
-    "capacity": "5/8 in",
-    "battery": "20V MAX, included",
-    "weight": null,
-    "extras": "2,400 cuts per minute"
-   },
-   "features": {
-    "blade_22_plus": false,
-    "battery_included": true,
-    "cut_3_4": false,
-    "dual_action": true
-   },
-   "image": "https://m.media-amazon.com/images/I/610IYA-sWLL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07JQ3TLZ4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B07JQ3TLZ4"
-  },
-  {
-   "rank": 9,
    "asin": "B0CLSF59XP",
    "name": "Greenworks 80V 26\" Brushless Cordless Hedge Trimmer, 2.0Ah Battery (2216802)",
    "brand": "Greenworks",
@@ -369,7 +246,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 356,
-   "score": 79,
+   "score": 91,
    "award": null,
    "best_for": "Greenworks 80V owners with long hedges.",
    "bought_last_month": "600+/mo",
@@ -401,6 +278,129 @@
    "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0CLSF59XP"
   },
   {
+   "rank": 7,
+   "asin": "B08J84G8J9",
+   "name": "MZK 20V 22-Inch Cordless Hedge Trimmer with 2 x 4Ah Batteries (ET1609)",
+   "brand": "MZK",
+   "model": "ET1609",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2145,
+   "score": 90,
+   "award": "Best Budget",
+   "best_for": "Budget buyers who want long runtime.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A budget kit with two 4.0Ah batteries, a 22-inch blade and a 5 lb body, for well under brand-name prices.",
+   "pros": [
+    "Two 4.0Ah batteries",
+    "5 lb",
+    "Low price"
+   ],
+   "cons": [
+    "4.4 stars",
+    "5/8 in capacity"
+   ],
+   "specs": {
+    "blade": "22.4 in dual-action",
+    "capacity": "5/8 in",
+    "battery": "Two 20V 4.0Ah, included",
+    "weight": "5 lb",
+    "extras": "Wrap-around handle"
+   },
+   "features": {
+    "blade_22_plus": true,
+    "battery_included": true,
+    "cut_3_4": false,
+    "dual_action": true
+   },
+   "image": "https://m.media-amazon.com/images/I/716Bvt9CVgL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08J84G8J9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B08J84G8J9"
+  },
+  {
+   "rank": 8,
+   "asin": "B0DQPB23MB",
+   "name": "DocSmart Brushless Cordless Hedge Trimmer with Two Batteries (HT02-B)",
+   "brand": "DocSmart",
+   "model": "HT02-B",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1272,
+   "score": 86,
+   "award": null,
+   "best_for": "Budget buyers who want brushless.",
+   "bought_last_month": "600+/mo",
+   "verdict": "A brushless budget trimmer with two batteries the seller says give 120 minutes combined.",
+   "pros": [
+    "Brushless",
+    "Two batteries",
+    "1,272 reviews"
+   ],
+   "cons": [
+    "Unknown brand",
+    "Under 22 in blade"
+   ],
+   "specs": {
+    "blade": "20.67 in dual-action",
+    "capacity": "2/3 in",
+    "battery": "Two 2.0Ah, included",
+    "weight": null,
+    "extras": "Brushless, 120 min runtime claimed"
+   },
+   "features": {
+    "blade_22_plus": false,
+    "battery_included": true,
+    "cut_3_4": false,
+    "dual_action": true
+   },
+   "image": "https://m.media-amazon.com/images/I/715GPIUdPWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DQPB23MB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0DQPB23MB"
+  },
+  {
+   "rank": 9,
+   "asin": "B07JQ3TLZ4",
+   "name": "BLACK+DECKER 20V MAX 18\" Cordless Hedge Trimmer with Battery (LHT218C1)",
+   "brand": "BLACK+DECKER",
+   "model": "LHT218C1",
+   "price": 79.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1102,
+   "score": 86,
+   "award": null,
+   "best_for": "Small shrubs and foundation plantings.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A shorter 18-inch version for small shrubs and tight spots, with 2,400 cuts per minute.",
+   "pros": [
+    "Light and compact",
+    "Battery included",
+    "4.6 stars"
+   ],
+   "cons": [
+    "18 in blade",
+    "5/8 in capacity"
+   ],
+   "specs": {
+    "blade": "18 in dual-action",
+    "capacity": "5/8 in",
+    "battery": "20V MAX, included",
+    "weight": null,
+    "extras": "2,400 cuts per minute"
+   },
+   "features": {
+    "blade_22_plus": false,
+    "battery_included": true,
+    "cut_3_4": false,
+    "dual_action": true
+   },
+   "image": "https://m.media-amazon.com/images/I/610IYA-sWLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07JQ3TLZ4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B07JQ3TLZ4"
+  },
+  {
    "rank": 10,
    "asin": "B0GKNRSYHW",
    "name": "Greenworks 24V 20\" Brushless Hedge Trimmer, 2.0Ah Battery (HT2002)",
@@ -410,7 +410,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 47,
-   "score": 73,
+   "score": 86,
    "award": null,
    "best_for": "Thick shrubs in a small, light package.",
    "bought_last_month": "300+/mo",

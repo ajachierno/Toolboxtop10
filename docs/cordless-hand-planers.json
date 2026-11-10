@@ -22,7 +22,7 @@
    "name_brand": 0.25,
    "kit": 0.15
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 70,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -76,47 +76,6 @@
   },
   {
    "rank": 2,
-   "asin": "B00NOVNV76",
-   "name": "Makita XPK01Z 18V LXT Lithium-Ion Cordless 3-1/4-Inch Planer, Tool Only",
-   "brand": "Makita",
-   "model": "XPK01Z",
-   "price": 227.36,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1343,
-   "score": 83,
-   "award": "Money No Object",
-   "best_for": "Makita 18V owners who want a proven planer with carbide blades.",
-   "bought_last_month": "100+/mo",
-   "verdict": "Makita's long-running 18V planer and tied for the highest rating here. A two-blade head with double-edge carbide blades gives a clean finish, and the click depth knob reads from 0 to 5/64 in.",
-   "pros": [
-    "4.8 stars; 1,343 reviews",
-    "Double-edge carbide blades",
-    "3-year limited warranty"
-   ],
-   "cons": [
-    "Brushed motor",
-    "Costs about $63 more than the DEWALT"
-   ],
-   "specs": {
-    "battery": "Makita 18V LXT (not included)",
-    "width": "3-1/4 in",
-    "depth": "5/64 in",
-    "speed": "14,000 rpm",
-    "extras": "2-blade head with double-edge carbide blades, click depth knob"
-   },
-   "features": {
-    "brushless": false,
-    "full_width": true,
-    "name_brand": true,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61LpELDiuuL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00NOVNV76?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B00NOVNV76"
-  },
-  {
-   "rank": 3,
    "asin": "B07B6JPYFT",
    "name": "Bosch GHO12V-08N 12V Max EC Brushless Planer (Bare Tool)",
    "brand": "Bosch",
@@ -125,7 +84,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 332,
-   "score": 78,
+   "score": 89,
    "award": null,
    "best_for": "Installers who carry a planer for doors and want the lightest tool here.",
    "bought_last_month": null,
@@ -157,6 +116,47 @@
    "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B07B6JPYFT"
   },
   {
+   "rank": 3,
+   "asin": "B00NOVNV76",
+   "name": "Makita XPK01Z 18V LXT Lithium-Ion Cordless 3-1/4-Inch Planer, Tool Only",
+   "brand": "Makita",
+   "model": "XPK01Z",
+   "price": 227.36,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1343,
+   "score": 88,
+   "award": "Money No Object",
+   "best_for": "Makita 18V owners who want a proven planer with carbide blades.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Makita's long-running 18V planer and tied for the highest rating here. A two-blade head with double-edge carbide blades gives a clean finish, and the click depth knob reads from 0 to 5/64 in.",
+   "pros": [
+    "4.8 stars; 1,343 reviews",
+    "Double-edge carbide blades",
+    "3-year limited warranty"
+   ],
+   "cons": [
+    "Brushed motor",
+    "Costs about $63 more than the DEWALT"
+   ],
+   "specs": {
+    "battery": "Makita 18V LXT (not included)",
+    "width": "3-1/4 in",
+    "depth": "5/64 in",
+    "speed": "14,000 rpm",
+    "extras": "2-blade head with double-edge carbide blades, click depth knob"
+   },
+   "features": {
+    "brushless": false,
+    "full_width": true,
+    "name_brand": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61LpELDiuuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00NOVNV76?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B00NOVNV76"
+  },
+  {
    "rank": 4,
    "asin": "B0D2YYCYB2",
    "name": "Bosch GHO18V-26N 18V Brushless 3-1/4 in. Planer, Bare Tool",
@@ -166,7 +166,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 80,
-   "score": 76,
+   "score": 87,
    "award": null,
    "best_for": "Bosch 18V users who take off a lot of stock.",
    "bought_last_month": null,
@@ -207,7 +207,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 284,
-   "score": 75,
+   "score": 86,
    "award": "Best Budget",
    "best_for": "DEWALT battery owners who plane a few times a year and want to spend less.",
    "bought_last_month": "100+/mo",
@@ -248,7 +248,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 128,
-   "score": 74,
+   "score": 86,
    "award": null,
    "best_for": "M12 owners who mostly plane door edges and small trim.",
    "bought_last_month": "100+/mo",
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 58,
-   "score": 72,
+   "score": 83,
    "award": null,
    "best_for": "DEWALT 20V or 60V Flex owners who want a V-groove for chamfers.",
    "bought_last_month": "50+/mo",
@@ -330,7 +330,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 30,
-   "score": 72,
+   "score": 80,
    "award": null,
    "best_for": "Buyers with no battery platform who want everything in one box.",
    "bought_last_month": null,
@@ -363,47 +363,6 @@
   },
   {
    "rank": 9,
-   "asin": "B0GT6P7LHH",
-   "name": "CRAFTSMAN V20 Cordless Brushless Hand Planer, 3-1/4 In., with Dust Bag, Tool Only (CMCW350B)",
-   "brand": "CRAFTSMAN",
-   "model": "CMCW350B",
-   "price": 149.99,
-   "currency": "USD",
-   "rating": 4.9,
-   "reviews_count": 12,
-   "score": 72,
-   "award": null,
-   "best_for": "CRAFTSMAN V20 owners who want a name-brand planer for less than DEWALT or Makita.",
-   "bought_last_month": "50+/mo",
-   "verdict": "CRAFTSMAN's new brushless V20 planer, rated at up to 30 passes per charge. It comes with a dust bag, a parallel guide and a vacuum adapter, and the chip exhaust can be switched to either side.",
-   "pros": [
-    "Dust bag, guide and vac adapter included",
-    "Brushless, 30,000 cuts per minute",
-    "4.9 stars"
-   ],
-   "cons": [
-    "Only 12 reviews",
-    "Battery sold separately"
-   ],
-   "specs": {
-    "battery": "CRAFTSMAN V20 (not included)",
-    "width": "3-1/4 in",
-    "depth": "5/64 in",
-    "speed": "15,000 rpm / 30,000 cuts/min",
-    "extras": "Dust bag, parallel guide, vacuum adapter, wrench"
-   },
-   "features": {
-    "brushless": true,
-    "full_width": true,
-    "name_brand": true,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71hqVMWnzuL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GT6P7LHH?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0GT6P7LHH"
-  },
-  {
-   "rank": 10,
    "asin": "B0DM8Z259W",
    "name": "Heimerdinger 3-1/4-Inch Brushless Cordless Hand Planer for Makita 18V Battery, Tool Only",
    "brand": "Heimerdinger",
@@ -412,7 +371,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 67,
-   "score": 68,
+   "score": 79,
    "award": null,
    "best_for": "Makita 18V owners who need a planer for occasional jobs.",
    "bought_last_month": "50+/mo",
@@ -442,6 +401,47 @@
    "image": "https://m.media-amazon.com/images/I/61rOk-wlIbL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DM8Z259W?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0DM8Z259W"
+  },
+  {
+   "rank": 10,
+   "asin": "B0GT6P7LHH",
+   "name": "CRAFTSMAN V20 Cordless Brushless Hand Planer, 3-1/4 In., with Dust Bag, Tool Only (CMCW350B)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCW350B",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.9,
+   "reviews_count": 12,
+   "score": 78,
+   "award": null,
+   "best_for": "CRAFTSMAN V20 owners who want a name-brand planer for less than DEWALT or Makita.",
+   "bought_last_month": "50+/mo",
+   "verdict": "CRAFTSMAN's new brushless V20 planer, rated at up to 30 passes per charge. It comes with a dust bag, a parallel guide and a vacuum adapter, and the chip exhaust can be switched to either side.",
+   "pros": [
+    "Dust bag, guide and vac adapter included",
+    "Brushless, 30,000 cuts per minute",
+    "4.9 stars"
+   ],
+   "cons": [
+    "Only 12 reviews",
+    "Battery sold separately"
+   ],
+   "specs": {
+    "battery": "CRAFTSMAN V20 (not included)",
+    "width": "3-1/4 in",
+    "depth": "5/64 in",
+    "speed": "15,000 rpm / 30,000 cuts/min",
+    "extras": "Dust bag, parallel guide, vacuum adapter, wrench"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": true,
+    "name_brand": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71hqVMWnzuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GT6P7LHH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0GT6P7LHH"
   }
  ],
  "avoid": [

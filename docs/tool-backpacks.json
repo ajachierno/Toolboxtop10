@@ -22,59 +22,58 @@
    "laptop_sleeve": 0.2,
    "removable_panel": 0.2
   },
-  "reviews_ceiling": 6000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 45,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00MK9UY0A",
-  "best_budget": "B097CQ37SW",
+  "best_overall": "B0BWSQN5DL",
+  "best_budget": "B0DJCTVC9R",
   "money_no_object": "B00DYQLXHG"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B00MK9UY0A",
-   "name": "Klein Tools 55421BP-14 Tradesman Pro Tool Backpack, 39 Pockets, Molded Bottom",
-   "brand": "Klein Tools",
-   "model": "55421BP-14",
-   "price": 99.97,
+   "asin": "B0BWSQN5DL",
+   "name": "DEWALT Tool Backpack, Water Resistant, 43 Pockets, Laptop Compartment, Waterproof Base (DWST560102)",
+   "brand": "DEWALT",
+   "model": "DWST560102",
+   "price": 103.71,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 5301,
-   "score": 91,
+   "rating": 4.8,
+   "reviews_count": 1246,
+   "score": 95,
    "award": "Best Overall",
-   "best_for": "Electricians and techs who mostly carry hand tools.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The most-reviewed tool backpack on Amazon, with 5,301 ratings at 4.7 stars. Thirty-nine interior pockets work as screwdriver and wrench sleeves, a hard molded front pocket protects safety glasses, and a fully molded bottom keeps water out.",
+   "best_for": "Techs who carry a laptop alongside a drill and hand tools.",
+   "bought_last_month": "300+/mo",
+   "verdict": "The highest-rated backpack here at 4.8 stars. It has 43 pockets, a separate drill-and-battery compartment, a laptop compartment, an IP54 water-resistant compartment and a waterproof base, plus a fold-down main pocket for quick access.",
    "pros": [
-    "5,301 reviews at 4.7 stars",
-    "Hard molded pocket for safety glasses",
-    "Fully molded bottom",
-    "$99.97"
+    "4.8 stars on 1,246 reviews",
+    "Laptop compartment and separate drill/battery bay",
+    "IP54 compartment and waterproof base",
+    "Fold-down main pocket"
    ],
    "cons": [
-    "7.25 in depth limits bulky power tools",
-    "No laptop sleeve",
-    "Polyester rather than 1680D ballistic weave"
+    "Empty weight not listed",
+    "Listing's feature table mentions a telescopic handle that the bullets and photos don't show"
    ],
    "specs": {
-    "pockets": "39",
-    "size": "14.5 x 7.25 x 20 in",
-    "material": "Polyester",
-    "base": "Fully molded",
-    "weight": "6 lb"
+    "pockets": "43",
+    "size": "Fits up to a 15 in laptop",
+    "material": "1680D fabric, tarpaulin",
+    "base": "Waterproof molded",
+    "weight": null
    },
    "features": {
     "hard_base": true,
     "water_resistant": true,
-    "laptop_sleeve": false,
+    "laptop_sleeve": true,
     "removable_panel": false
    },
-   "image": "https://m.media-amazon.com/images/I/61LmP-mOWqL._AC_SL1050_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00MK9UY0A?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-backpacks.html#B00MK9UY0A"
+   "image": "https://m.media-amazon.com/images/I/81zuBzT3GdL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BWSQN5DL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-backpacks.html#B0BWSQN5DL"
   },
   {
    "rank": 2,
@@ -86,7 +85,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2283,
-   "score": 90,
+   "score": 94,
    "award": null,
    "best_for": "Electricians who want to leave the bag on the floor and carry a caddy.",
    "bought_last_month": "100+/mo",
@@ -128,7 +127,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2656,
-   "score": 89,
+   "score": 92,
    "award": "Money No Object",
    "best_for": "HVAC and service techs who wear out a cheaper bag every year.",
    "bought_last_month": "200+/mo",
@@ -162,45 +161,46 @@
   },
   {
    "rank": 4,
-   "asin": "B0BWSQN5DL",
-   "name": "DEWALT Tool Backpack, Water Resistant, 43 Pockets, Laptop Compartment, Waterproof Base (DWST560102)",
-   "brand": "DEWALT",
-   "model": "DWST560102",
-   "price": 103.71,
+   "asin": "B00MK9UY0A",
+   "name": "Klein Tools 55421BP-14 Tradesman Pro Tool Backpack, 39 Pockets, Molded Bottom",
+   "brand": "Klein Tools",
+   "model": "55421BP-14",
+   "price": 99.97,
    "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1246,
-   "score": 89,
+   "rating": 4.7,
+   "reviews_count": 5301,
+   "score": 91,
    "award": null,
-   "best_for": "Techs who carry a laptop alongside a drill and hand tools.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The highest-rated backpack here at 4.8 stars. It has 43 pockets, a separate drill-and-battery compartment, a laptop compartment, an IP54 water-resistant compartment and a waterproof base, plus a fold-down main pocket for quick access.",
+   "best_for": "Electricians and techs who mostly carry hand tools.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The most-reviewed tool backpack on Amazon, with 5,301 ratings at 4.7 stars. Thirty-nine interior pockets work as screwdriver and wrench sleeves, a hard molded front pocket protects safety glasses, and a fully molded bottom keeps water out.",
    "pros": [
-    "4.8 stars on 1,246 reviews",
-    "Laptop compartment and separate drill/battery bay",
-    "IP54 compartment and waterproof base",
-    "Fold-down main pocket"
+    "5,301 reviews at 4.7 stars",
+    "Hard molded pocket for safety glasses",
+    "Fully molded bottom",
+    "$99.97"
    ],
    "cons": [
-    "Empty weight not listed",
-    "Listing's feature table mentions a telescopic handle that the bullets and photos don't show"
+    "7.25 in depth limits bulky power tools",
+    "No laptop sleeve",
+    "Polyester rather than 1680D ballistic weave"
    ],
    "specs": {
-    "pockets": "43",
-    "size": "Fits up to a 15 in laptop",
-    "material": "1680D fabric, tarpaulin",
-    "base": "Waterproof molded",
-    "weight": null
+    "pockets": "39",
+    "size": "14.5 x 7.25 x 20 in",
+    "material": "Polyester",
+    "base": "Fully molded",
+    "weight": "6 lb"
    },
    "features": {
     "hard_base": true,
     "water_resistant": true,
-    "laptop_sleeve": true,
+    "laptop_sleeve": false,
     "removable_panel": false
    },
-   "image": "https://m.media-amazon.com/images/I/81zuBzT3GdL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BWSQN5DL?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-backpacks.html#B0BWSQN5DL"
+   "image": "https://m.media-amazon.com/images/I/61LmP-mOWqL._AC_SL1050_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00MK9UY0A?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-backpacks.html#B00MK9UY0A"
   },
   {
    "rank": 5,
@@ -212,7 +212,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 713,
-   "score": 84,
+   "score": 91,
    "award": null,
    "best_for": "Techs who want lots of pockets plus a lock for shared jobsites.",
    "bought_last_month": "50+/mo",
@@ -246,48 +246,6 @@
   },
   {
    "rank": 6,
-   "asin": "B07W7S6QYT",
-   "name": "Crescent CTB1000 Tool Bag Backpack, 38 Pockets, Hard Polypropylene Base",
-   "brand": "Crescent",
-   "model": "CTB1000",
-   "price": 97.98,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 705,
-   "score": 81,
-   "award": null,
-   "best_for": "Tradespeople who want a lifetime warranty without paying Veto prices.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A plain, tough backpack: 1680D polyester, metal hardware, a hard polypropylene base and a bright orange interior that makes tools easier to find. Crescent covers the bag with a limited lifetime warranty and the zipper for 3 years.",
-   "pros": [
-    "Limited lifetime warranty on the bag, 3 years on the zipper",
-    "Hard polypropylene base",
-    "Orange interior",
-    "$97.98"
-   ],
-   "cons": [
-    "Only 4 exterior pockets",
-    "Empty weight not listed"
-   ],
-   "specs": {
-    "pockets": "38 (34 inside, 4 outside)",
-    "size": "14 x 10 x 18 in",
-    "material": "1680D polyester",
-    "base": "Hard polypropylene",
-    "weight": null
-   },
-   "features": {
-    "hard_base": true,
-    "water_resistant": true,
-    "laptop_sleeve": false,
-    "removable_panel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/91NRpd8bZ9L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07W7S6QYT?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-backpacks.html#B07W7S6QYT"
-  },
-  {
-   "rank": 7,
    "asin": "B0C7J6PKJ2",
    "name": "Klein Tools 62800BP Tradesman Pro XL Backpack Tool Bag, 40 Pockets, USB-C Port, Black/Orange",
    "brand": "Klein Tools",
@@ -296,7 +254,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 346,
-   "score": 80,
+   "score": 91,
    "award": null,
    "best_for": "Electricians who carry a drill and meters along with hand tools.",
    "bought_last_month": "500+/mo",
@@ -330,7 +288,92 @@
    "page_url": "https://toolboxtop10.com/tool-backpacks.html#B0C7J6PKJ2"
   },
   {
+   "rank": 7,
+   "asin": "B07W7S6QYT",
+   "name": "Crescent CTB1000 Tool Bag Backpack, 38 Pockets, Hard Polypropylene Base",
+   "brand": "Crescent",
+   "model": "CTB1000",
+   "price": 97.98,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 705,
+   "score": 90,
+   "award": null,
+   "best_for": "Tradespeople who want a lifetime warranty without paying Veto prices.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A plain, tough backpack: 1680D polyester, metal hardware, a hard polypropylene base and a bright orange interior that makes tools easier to find. Crescent covers the bag with a limited lifetime warranty and the zipper for 3 years.",
+   "pros": [
+    "Limited lifetime warranty on the bag, 3 years on the zipper",
+    "Hard polypropylene base",
+    "Orange interior",
+    "$97.98"
+   ],
+   "cons": [
+    "Only 4 exterior pockets",
+    "Empty weight not listed"
+   ],
+   "specs": {
+    "pockets": "38 (34 inside, 4 outside)",
+    "size": "14 x 10 x 18 in",
+    "material": "1680D polyester",
+    "base": "Hard polypropylene",
+    "weight": null
+   },
+   "features": {
+    "hard_base": true,
+    "water_resistant": true,
+    "laptop_sleeve": false,
+    "removable_panel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/91NRpd8bZ9L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07W7S6QYT?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-backpacks.html#B07W7S6QYT"
+  },
+  {
    "rank": 8,
+   "asin": "B0DJCTVC9R",
+   "name": "XINHESDEN Heavy Duty Tool Backpack with Waterproof Molded Base, 1680D Oxford, Reflective Strips",
+   "brand": "XINHESDEN",
+   "model": "Tool Backpack",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 247,
+   "score": 90,
+   "award": "Best Budget",
+   "best_for": "Light-duty carry of a few hand tools and a meter.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A simple 1680D backpack with a thickened molded base, a double-slider zipper and reflective strips on the front. Twelve pockets plus slots and elastic bands make it more of a carry-all than an organizer.",
+   "pros": [
+    "1680D fabric and molded base for $39.99",
+    "Reflective front strips",
+    "4.6 stars",
+    "200+ bought last month"
+   ],
+   "cons": [
+    "Only 12 pockets",
+    "Listing gives two sizes (17 x 8 x 14 in and 14 x 8 x 18.5 in)",
+    "Little-known brand"
+   ],
+   "specs": {
+    "pockets": "12",
+    "size": "14 x 8 x 18.5 in",
+    "material": "1680D Oxford cloth",
+    "base": "Thickened molded",
+    "weight": null
+   },
+   "features": {
+    "hard_base": true,
+    "water_resistant": true,
+    "laptop_sleeve": false,
+    "removable_panel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Ss9s+yvyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DJCTVC9R?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-backpacks.html#B0DJCTVC9R"
+  },
+  {
+   "rank": 9,
    "asin": "B097CQ37SW",
    "name": "AWP Extreme Tool Backpack, 23 Pockets, Waterproof Molded Base, Padded Waist Belt (1L-22419-2)",
    "brand": "AWP",
@@ -339,8 +382,8 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 842,
-   "score": 79,
-   "award": "Best Budget",
+   "score": 87,
+   "award": null,
    "best_for": "DIYers and apprentices who want a backpack under $35.",
    "bought_last_month": "500+/mo",
    "verdict": "Four zippered compartments and 23 pockets, a waterproof base, and air-mesh padded shoulder, back and waist straps for $32.65. The body is 600D polyester with 1680D reinforcement.",
@@ -373,7 +416,7 @@
    "page_url": "https://toolboxtop10.com/tool-backpacks.html#B097CQ37SW"
   },
   {
-   "rank": 9,
+   "rank": 10,
    "asin": "B0000DYVCY",
    "name": "CLC Custom Leathercraft 1132 75-Pocket Tool Backpack",
    "brand": "CLC",
@@ -382,7 +425,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 2490,
-   "score": 77,
+   "score": 81,
    "award": null,
    "best_for": "Anyone who carries dozens of small hand tools and wants each in its own slot.",
    "bought_last_month": "100+/mo",
@@ -414,49 +457,6 @@
    "image": "https://m.media-amazon.com/images/I/81FjvV18zKL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0000DYVCY?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/tool-backpacks.html#B0000DYVCY"
-  },
-  {
-   "rank": 10,
-   "asin": "B0DJCTVC9R",
-   "name": "XINHESDEN Heavy Duty Tool Backpack with Waterproof Molded Base, 1680D Oxford, Reflective Strips",
-   "brand": "XINHESDEN",
-   "model": "Tool Backpack",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 247,
-   "score": 77,
-   "award": null,
-   "best_for": "Light-duty carry of a few hand tools and a meter.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A simple 1680D backpack with a thickened molded base, a double-slider zipper and reflective strips on the front. Twelve pockets plus slots and elastic bands make it more of a carry-all than an organizer.",
-   "pros": [
-    "1680D fabric and molded base for $39.99",
-    "Reflective front strips",
-    "4.6 stars",
-    "200+ bought last month"
-   ],
-   "cons": [
-    "Only 12 pockets",
-    "Listing gives two sizes (17 x 8 x 14 in and 14 x 8 x 18.5 in)",
-    "Little-known brand"
-   ],
-   "specs": {
-    "pockets": "12",
-    "size": "14 x 8 x 18.5 in",
-    "material": "1680D Oxford cloth",
-    "base": "Thickened molded",
-    "weight": null
-   },
-   "features": {
-    "hard_base": true,
-    "water_resistant": true,
-    "laptop_sleeve": false,
-    "removable_panel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71Ss9s+yvyL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DJCTVC9R?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-backpacks.html#B0DJCTVC9R"
   }
  ],
  "avoid": [

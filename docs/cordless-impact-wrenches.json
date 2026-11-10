@@ -21,7 +21,7 @@
    "hog_ring": 0.3,
    "multi_mode": 0.3
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 80,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -42,7 +42,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2807,
-   "score": 95,
+   "score": 97,
    "award": "Best Overall",
    "best_for": "Truck lug nuts and seized hardware, in a complete kit.",
    "bought_last_month": "1K+/mo",
@@ -83,7 +83,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2653,
-   "score": 88,
+   "score": 90,
    "award": null,
    "best_for": "DEWALT 20V MAX owners who want the strongest wrench here.",
    "bought_last_month": "2K+/mo",
@@ -124,7 +124,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2055,
-   "score": 87,
+   "score": 90,
    "award": null,
    "best_for": "Engine bays and under-dash work, with a mode that stops at 20 ft-lbs.",
    "bought_last_month": "1K+/mo",
@@ -158,87 +158,6 @@
   },
   {
    "rank": 4,
-   "asin": "B0CLF1DHHW",
-   "name": "Milwaukee M18 FUEL 1/2\" High Torque Impact Wrench with Friction Ring, Tool Only (2967-20)",
-   "brand": "Milwaukee",
-   "model": "2967-20",
-   "price": 265.97,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 1921,
-   "score": 86,
-   "award": "Money No Object",
-   "best_for": "Milwaukee M18 owners who need full-size torque.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "Milwaukee's full-size high-torque wrench for anyone on the M18 platform. 4-mode drive control, an all-metal drivetrain, and 1,800+ reviews at 4.7 stars.",
-   "pros": [
-    "Runs on every M18 battery",
-    "4-mode control, 0-3,000 RPM / 0-1,500 IPM",
-    "All-metal drivetrain and friction ring anvil"
-   ],
-   "cons": [
-    "This listing is sold by a third party and its description is poorly translated; check the seller before buying",
-    "Bare tool: no battery or charger",
-    "Ships slower than Amazon-fulfilled listings"
-   ],
-   "specs": {
-    "voltage": "18V",
-    "drive": "1/2 in, friction ring",
-    "torque": "1,000 ft-lbs (as listed)",
-    "battery": "Bare tool",
-    "modes": "4 modes"
-   },
-   "features": {
-    "kit": false,
-    "hog_ring": true,
-    "multi_mode": true
-   },
-   "image": "https://m.media-amazon.com/images/I/515REkS8lnL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CLF1DHHW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-impact-wrenches.html#B0CLF1DHHW"
-  },
-  {
-   "rank": 5,
-   "asin": "B0CGJ8H8K7",
-   "name": "Robustrue 1/2\" Brushless Cordless Impact Wrench, 590 ft-lbs, 2x 4.0Ah Batteries, Charger, 4 Sockets (RT800B)",
-   "brand": "Robustrue",
-   "model": "RT800B",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1446,
-   "score": 85,
-   "award": "Best Budget",
-   "best_for": "A light, complete kit with reverse auto-stop for about $70.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A light, complete kit at about $70: two batteries, a charger, and three speed settings. The reverse auto-stop slows the tool once a nut breaks free so it doesn't spin off onto the floor.",
-   "pros": [
-    "3.74 lb with battery",
-    "3 speeds (up to 2,800 RPM) and reverse auto-stop",
-    "Two 4Ah batteries and a 1-hour charger"
-   ],
-   "cons": [
-    "Calls itself the market's highest-torque cordless wrench, which it isn't",
-    "Proprietary battery"
-   ],
-   "specs": {
-    "voltage": "21V",
-    "drive": "1/2 in",
-    "torque": "590 ft-lbs (800 N·m)",
-    "battery": "2 x 4.0Ah + charger",
-    "modes": "3 speeds"
-   },
-   "features": {
-    "kit": true,
-    "hog_ring": false,
-    "multi_mode": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81vSrQXVwtL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CGJ8H8K7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-impact-wrenches.html#B0CGJ8H8K7"
-  },
-  {
-   "rank": 6,
    "asin": "B09M3TL9BB",
    "name": "DEWALT ATOMIC 20V MAX 1/2\" Compact Impact Wrench with Hog Ring Anvil, Tool Only (DCF921B)",
    "brand": "DEWALT",
@@ -247,7 +166,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 1071,
-   "score": 85,
+   "score": 90,
    "award": null,
    "best_for": "Tight engine bays and suspension work on DEWALT 20V MAX.",
    "bought_last_month": "900+/mo",
@@ -279,47 +198,7 @@
    "page_url": "https://toolboxtop10.com/cordless-impact-wrenches.html#B09M3TL9BB"
   },
   {
-   "rank": 7,
-   "asin": "B0F8NYXVJP",
-   "name": "MAGSEN 1/2\" Cordless Impact Wrench, 900 ft-lbs, Brushless, 3 Speeds, 2x 4.0Ah Batteries, 5 Sockets",
-   "brand": "MAGSEN",
-   "model": "21V 1/2\" kit",
-   "price": 89.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 772,
-   "score": 84,
-   "award": null,
-   "best_for": "A car-tire kit with sockets, case and two batteries.",
-   "bought_last_month": "700+/mo",
-   "verdict": "A complete car-tire kit: brushless 1/2-inch wrench, two 4Ah batteries, a fast charger, five metric impact sockets, an extension and a hard case. Over 1,000 sold last month. The 900 ft-lb figure is the seller's claim, not an independent test.",
-   "pros": [
-    "Two 4Ah batteries, charger, 5 sockets and a case in the box",
-    "3 speed settings (1,800 / 2,800 / 3,800 RPM) with published torque for each",
-    "Reverse auto-stop slows the anvil once a nut breaks loose"
-   ],
-   "cons": [
-    "Uses its own 21V battery that fits no major tool platform",
-    "The listing gives the weight as 10 lbs, heavy for overhead work"
-   ],
-   "specs": {
-    "voltage": "21V",
-    "drive": "1/2 in",
-    "torque": "900 ft-lbs (1,200 N·m) claimed",
-    "battery": "2 x 4.0Ah + charger",
-    "modes": "3 speeds + reverse auto-stop"
-   },
-   "features": {
-    "kit": true,
-    "hog_ring": false,
-    "multi_mode": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81MTd2ZayWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F8NYXVJP?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-impact-wrenches.html#B0F8NYXVJP"
-  },
-  {
-   "rank": 8,
+   "rank": 5,
    "asin": "B0G42F9TRM",
    "name": "JESIMAIK 1/2\" Brushless Cordless Impact Wrench, 900 ft-lbs, 4 Impact Modes, 2 x 4.0Ah Batteries, 5 Sockets and Case (Z1320)",
    "brand": "JESIMAIK",
@@ -328,7 +207,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 254,
-   "score": 82,
+   "score": 90,
    "award": null,
    "best_for": "Tire changes and mower blades with a compact two-battery kit.",
    "bought_last_month": "700+/mo",
@@ -359,6 +238,127 @@
    "page_url": "https://toolboxtop10.com/cordless-impact-wrenches.html#B0G42F9TRM"
   },
   {
+   "rank": 6,
+   "asin": "B0CLF1DHHW",
+   "name": "Milwaukee M18 FUEL 1/2\" High Torque Impact Wrench with Friction Ring, Tool Only (2967-20)",
+   "brand": "Milwaukee",
+   "model": "2967-20",
+   "price": 265.97,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1921,
+   "score": 89,
+   "award": "Money No Object",
+   "best_for": "Milwaukee M18 owners who need full-size torque.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "Milwaukee's full-size high-torque wrench for anyone on the M18 platform. 4-mode drive control, an all-metal drivetrain, and 1,800+ reviews at 4.7 stars.",
+   "pros": [
+    "Runs on every M18 battery",
+    "4-mode control, 0-3,000 RPM / 0-1,500 IPM",
+    "All-metal drivetrain and friction ring anvil"
+   ],
+   "cons": [
+    "This listing is sold by a third party and its description is poorly translated; check the seller before buying",
+    "Bare tool: no battery or charger",
+    "Ships slower than Amazon-fulfilled listings"
+   ],
+   "specs": {
+    "voltage": "18V",
+    "drive": "1/2 in, friction ring",
+    "torque": "1,000 ft-lbs (as listed)",
+    "battery": "Bare tool",
+    "modes": "4 modes"
+   },
+   "features": {
+    "kit": false,
+    "hog_ring": true,
+    "multi_mode": true
+   },
+   "image": "https://m.media-amazon.com/images/I/515REkS8lnL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CLF1DHHW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-impact-wrenches.html#B0CLF1DHHW"
+  },
+  {
+   "rank": 7,
+   "asin": "B0CGJ8H8K7",
+   "name": "Robustrue 1/2\" Brushless Cordless Impact Wrench, 590 ft-lbs, 2x 4.0Ah Batteries, Charger, 4 Sockets (RT800B)",
+   "brand": "Robustrue",
+   "model": "RT800B",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1446,
+   "score": 89,
+   "award": "Best Budget",
+   "best_for": "A light, complete kit with reverse auto-stop for about $70.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A light, complete kit at about $70: two batteries, a charger, and three speed settings. The reverse auto-stop slows the tool once a nut breaks free so it doesn't spin off onto the floor.",
+   "pros": [
+    "3.74 lb with battery",
+    "3 speeds (up to 2,800 RPM) and reverse auto-stop",
+    "Two 4Ah batteries and a 1-hour charger"
+   ],
+   "cons": [
+    "Calls itself the market's highest-torque cordless wrench, which it isn't",
+    "Proprietary battery"
+   ],
+   "specs": {
+    "voltage": "21V",
+    "drive": "1/2 in",
+    "torque": "590 ft-lbs (800 N·m)",
+    "battery": "2 x 4.0Ah + charger",
+    "modes": "3 speeds"
+   },
+   "features": {
+    "kit": true,
+    "hog_ring": false,
+    "multi_mode": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81vSrQXVwtL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CGJ8H8K7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-impact-wrenches.html#B0CGJ8H8K7"
+  },
+  {
+   "rank": 8,
+   "asin": "B0F8NYXVJP",
+   "name": "MAGSEN 1/2\" Cordless Impact Wrench, 900 ft-lbs, Brushless, 3 Speeds, 2x 4.0Ah Batteries, 5 Sockets",
+   "brand": "MAGSEN",
+   "model": "21V 1/2\" kit",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 772,
+   "score": 89,
+   "award": null,
+   "best_for": "A car-tire kit with sockets, case and two batteries.",
+   "bought_last_month": "700+/mo",
+   "verdict": "A complete car-tire kit: brushless 1/2-inch wrench, two 4Ah batteries, a fast charger, five metric impact sockets, an extension and a hard case. Over 1,000 sold last month. The 900 ft-lb figure is the seller's claim, not an independent test.",
+   "pros": [
+    "Two 4Ah batteries, charger, 5 sockets and a case in the box",
+    "3 speed settings (1,800 / 2,800 / 3,800 RPM) with published torque for each",
+    "Reverse auto-stop slows the anvil once a nut breaks loose"
+   ],
+   "cons": [
+    "Uses its own 21V battery that fits no major tool platform",
+    "The listing gives the weight as 10 lbs, heavy for overhead work"
+   ],
+   "specs": {
+    "voltage": "21V",
+    "drive": "1/2 in",
+    "torque": "900 ft-lbs (1,200 N·m) claimed",
+    "battery": "2 x 4.0Ah + charger",
+    "modes": "3 speeds + reverse auto-stop"
+   },
+   "features": {
+    "kit": true,
+    "hog_ring": false,
+    "multi_mode": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81MTd2ZayWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F8NYXVJP?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-impact-wrenches.html#B0F8NYXVJP"
+  },
+  {
    "rank": 9,
    "asin": "B09ZTVZG2T",
    "name": "Seesii 1/2\" Cordless Impact Wrench, 665 ft-lbs, 21V, 2x 4.0Ah Batteries, 6 Sockets and Case (WH9 Pro)",
@@ -368,7 +368,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1833,
-   "score": 78,
+   "score": 82,
    "award": null,
    "best_for": "Rotating tires and yard equipment with a two-battery kit.",
    "bought_last_month": "3K+/mo",
@@ -408,7 +408,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 29,
-   "score": 74,
+   "score": 81,
    "award": null,
    "best_for": "Lug nuts and rusted bolts, with a spare battery in the kit.",
    "bought_last_month": "50+/mo",

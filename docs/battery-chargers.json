@@ -22,7 +22,7 @@
    "long_warranty": 0.25,
    "six_volt": 0.2
   },
-  "reviews_ceiling": 50000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 40,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 21418,
-   "score": 89,
+   "score": 91,
    "award": "Best Overall",
    "best_for": "Most drivers: charging and maintaining a car, truck, boat or motorcycle battery.",
    "bought_last_month": "10K+/mo",
@@ -83,7 +83,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 21479,
-   "score": 88,
+   "score": 90,
    "award": null,
    "best_for": "Large truck, marine and RV batteries.",
    "bought_last_month": "8K+/mo",
@@ -115,6 +115,85 @@
   },
   {
    "rank": 3,
+   "asin": "B07BLLRM8R",
+   "name": "Schumacher Electric 6A Car Battery Charger and Maintainer with 100A Engine Start (SC1281)",
+   "brand": "Schumacher",
+   "model": "SC1281",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 12158,
+   "score": 86,
+   "award": null,
+   "best_for": "Garages that need to start cars on dead batteries.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A charger with a 100-amp engine start to crank a car on a dead battery, a 30-amp boost and a smart 2-6 A trickle.",
+   "pros": [
+    "100 A engine start",
+    "30 A boost charge",
+    "12,158 reviews"
+   ],
+   "cons": [
+    "Bulky",
+    "No lithium mode"
+   ],
+   "specs": {
+    "amps": "2-6 A, 12-30 A boost",
+    "volts": "6 V / 12 V",
+    "chemistry": "Standard, AGM, gel, deep-cycle",
+    "extras": "100 A engine start, battery tester, desulfation"
+   },
+   "features": {
+    "fast_charge": true,
+    "lithium": false,
+    "long_warranty": false,
+    "six_volt": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71hy5A6IIML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07BLLRM8R?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/battery-chargers.html#B07BLLRM8R"
+  },
+  {
+   "rank": 4,
+   "asin": "B0797KK3N2",
+   "name": "Schumacher Electric 15A Car Battery Charger and Maintainer, 6V/12V (SC1280)",
+   "brand": "Schumacher",
+   "model": "SC1280",
+   "price": 64.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 9710,
+   "score": 86,
+   "award": null,
+   "best_for": "Garages that deal with flat car and truck batteries.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A 15-amp charger that brings a dead car battery back in hours, with desulfation and a battery test mode, then drops to a smart trickle to maintain it.",
+   "pros": [
+    "15 A fast charging",
+    "Battery tester",
+    "9,710 reviews; 4.6 stars"
+   ],
+   "cons": [
+    "No lithium mode"
+   ],
+   "specs": {
+    "amps": "15 A",
+    "volts": "6 V / 12 V",
+    "chemistry": "Standard, AGM, gel, deep-cycle",
+    "extras": "Desulfation, battery tester, auto voltage detection"
+   },
+   "features": {
+    "fast_charge": true,
+    "lithium": false,
+    "long_warranty": false,
+    "six_volt": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71KddDOBX2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0797KK3N2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/battery-chargers.html#B0797KK3N2"
+  },
+  {
+   "rank": 5,
    "asin": "B07W46BX31",
    "name": "NOCO GENIUS1 1A 6/12V Smart Battery Charger, Trickle Charger and Maintainer",
    "brand": "NOCO",
@@ -154,7 +233,7 @@
    "page_url": "https://toolboxtop10.com/battery-chargers.html#B07W46BX31"
   },
   {
-   "rank": 4,
+   "rank": 6,
    "asin": "B000CITK8S",
    "name": "Battery Tender Junior 12V 750mA Charger and Maintainer",
    "brand": "Battery Tender",
@@ -194,126 +273,7 @@
    "page_url": "https://toolboxtop10.com/battery-chargers.html#B000CITK8S"
   },
   {
-   "rank": 5,
-   "asin": "B07BLLRM8R",
-   "name": "Schumacher Electric 6A Car Battery Charger and Maintainer with 100A Engine Start (SC1281)",
-   "brand": "Schumacher",
-   "model": "SC1281",
-   "price": 89.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 12158,
-   "score": 81,
-   "award": null,
-   "best_for": "Garages that need to start cars on dead batteries.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A charger with a 100-amp engine start to crank a car on a dead battery, a 30-amp boost and a smart 2-6 A trickle.",
-   "pros": [
-    "100 A engine start",
-    "30 A boost charge",
-    "12,158 reviews"
-   ],
-   "cons": [
-    "Bulky",
-    "No lithium mode"
-   ],
-   "specs": {
-    "amps": "2-6 A, 12-30 A boost",
-    "volts": "6 V / 12 V",
-    "chemistry": "Standard, AGM, gel, deep-cycle",
-    "extras": "100 A engine start, battery tester, desulfation"
-   },
-   "features": {
-    "fast_charge": true,
-    "lithium": false,
-    "long_warranty": false,
-    "six_volt": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71hy5A6IIML._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07BLLRM8R?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/battery-chargers.html#B07BLLRM8R"
-  },
-  {
-   "rank": 6,
-   "asin": "B0797KK3N2",
-   "name": "Schumacher Electric 15A Car Battery Charger and Maintainer, 6V/12V (SC1280)",
-   "brand": "Schumacher",
-   "model": "SC1280",
-   "price": 64.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 9710,
-   "score": 81,
-   "award": null,
-   "best_for": "Garages that deal with flat car and truck batteries.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A 15-amp charger that brings a dead car battery back in hours, with desulfation and a battery test mode, then drops to a smart trickle to maintain it.",
-   "pros": [
-    "15 A fast charging",
-    "Battery tester",
-    "9,710 reviews; 4.6 stars"
-   ],
-   "cons": [
-    "No lithium mode"
-   ],
-   "specs": {
-    "amps": "15 A",
-    "volts": "6 V / 12 V",
-    "chemistry": "Standard, AGM, gel, deep-cycle",
-    "extras": "Desulfation, battery tester, auto voltage detection"
-   },
-   "features": {
-    "fast_charge": true,
-    "lithium": false,
-    "long_warranty": false,
-    "six_volt": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71KddDOBX2L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0797KK3N2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/battery-chargers.html#B0797KK3N2"
-  },
-  {
    "rank": 7,
-   "asin": "B00068XCQU",
-   "name": "Battery Tender Plus 12V 1.25 AMP Car and Motorcycle Battery Charger and Maintainer",
-   "brand": "Battery Tender",
-   "model": "021-0128",
-   "price": 58.95,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 21739,
-   "score": 80,
-   "award": null,
-   "best_for": "Keeping a stored car or bike battery healthy for years.",
-   "bought_last_month": "5K+/mo",
-   "verdict": "A slightly stronger Battery Tender for cars and bikes in storage, with a 4-step program and a 10-year warranty, the longest here.",
-   "pros": [
-    "10-year warranty",
-    "4.7 stars; 21,739 reviews",
-    "Quick-disconnect harness"
-   ],
-   "cons": [
-    "1.25 A",
-    "12V only"
-   ],
-   "specs": {
-    "amps": "1.25 A",
-    "volts": "12 V",
-    "chemistry": "Lead-acid",
-    "extras": "4-step charging, 10-year warranty"
-   },
-   "features": {
-    "fast_charge": false,
-    "lithium": false,
-    "long_warranty": true,
-    "six_volt": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71M+Ip9JlPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00068XCQU?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/battery-chargers.html#B00068XCQU"
-  },
-  {
-   "rank": 8,
    "asin": "B00CD44RQO",
    "name": "CTEK MXS 5.0 Fully Automatic 4.3 Amp Battery Charger and Maintainer, 12V (40-206)",
    "brand": "CTEK",
@@ -322,7 +282,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 6885,
-   "score": 77,
+   "score": 83,
    "award": "Money No Object",
    "best_for": "Enthusiasts maintaining expensive or AGM batteries.",
    "bought_last_month": "2K+/mo",
@@ -353,47 +313,47 @@
    "page_url": "https://toolboxtop10.com/battery-chargers.html#B00CD44RQO"
   },
   {
-   "rank": 9,
-   "asin": "B06XWDZ2KQ",
-   "name": "MOTOPOWER MP00205A 12V 800mA Automatic Battery Charger, Maintainer and Desulfator",
-   "brand": "MOTOPOWER",
-   "model": "MP00205A",
-   "price": 21.5,
+   "rank": 8,
+   "asin": "B00068XCQU",
+   "name": "Battery Tender Plus 12V 1.25 AMP Car and Motorcycle Battery Charger and Maintainer",
+   "brand": "Battery Tender",
+   "model": "021-0128",
+   "price": 58.95,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 16897,
-   "score": 72,
+   "rating": 4.7,
+   "reviews_count": 21739,
+   "score": 82,
    "award": null,
-   "best_for": "Mowers, motorcycles and ATVs on a tight budget.",
-   "bought_last_month": "8K+/mo",
-   "verdict": "The cheapest charger here: an 800 mA maintainer with automatic desulfation that draws nothing from the battery in standby.",
+   "best_for": "Keeping a stored car or bike battery healthy for years.",
+   "bought_last_month": "5K+/mo",
+   "verdict": "A slightly stronger Battery Tender for cars and bikes in storage, with a 4-step program and a 10-year warranty, the longest here.",
    "pros": [
-    "Lowest price here",
-    "16,897 reviews",
-    "No standby drain"
+    "10-year warranty",
+    "4.7 stars; 21,739 reviews",
+    "Quick-disconnect harness"
    ],
    "cons": [
-    "0.8 A",
-    "12V lead-acid only"
+    "1.25 A",
+    "12V only"
    ],
    "specs": {
-    "amps": "0.8 A",
+    "amps": "1.25 A",
     "volts": "12 V",
     "chemistry": "Lead-acid",
-    "extras": "Pulse desulfation, zero standby drain, spark-proof"
+    "extras": "4-step charging, 10-year warranty"
    },
    "features": {
     "fast_charge": false,
     "lithium": false,
-    "long_warranty": false,
+    "long_warranty": true,
     "six_volt": false
    },
-   "image": "https://m.media-amazon.com/images/I/715JIuTnYSL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B06XWDZ2KQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/battery-chargers.html#B06XWDZ2KQ"
+   "image": "https://m.media-amazon.com/images/I/71M+Ip9JlPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00068XCQU?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/battery-chargers.html#B00068XCQU"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "asin": "B078962VRM",
    "name": "Schumacher Electric 1.5A Car Battery Charger and Maintainer, 6V/12V (SC1355)",
    "brand": "Schumacher",
@@ -402,7 +362,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3112,
-   "score": 71,
+   "score": 80,
    "award": null,
    "best_for": "Maintaining a car, mower or classic car battery cheaply.",
    "bought_last_month": "3K+/mo",
@@ -431,6 +391,46 @@
    "image": "https://m.media-amazon.com/images/I/71YphweXq9L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B078962VRM?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/battery-chargers.html#B078962VRM"
+  },
+  {
+   "rank": 10,
+   "asin": "B06XWDZ2KQ",
+   "name": "MOTOPOWER MP00205A 12V 800mA Automatic Battery Charger, Maintainer and Desulfator",
+   "brand": "MOTOPOWER",
+   "model": "MP00205A",
+   "price": 21.5,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 16897,
+   "score": 76,
+   "award": null,
+   "best_for": "Mowers, motorcycles and ATVs on a tight budget.",
+   "bought_last_month": "8K+/mo",
+   "verdict": "The cheapest charger here: an 800 mA maintainer with automatic desulfation that draws nothing from the battery in standby.",
+   "pros": [
+    "Lowest price here",
+    "16,897 reviews",
+    "No standby drain"
+   ],
+   "cons": [
+    "0.8 A",
+    "12V lead-acid only"
+   ],
+   "specs": {
+    "amps": "0.8 A",
+    "volts": "12 V",
+    "chemistry": "Lead-acid",
+    "extras": "Pulse desulfation, zero standby drain, spark-proof"
+   },
+   "features": {
+    "fast_charge": false,
+    "lithium": false,
+    "long_warranty": false,
+    "six_volt": false
+   },
+   "image": "https://m.media-amazon.com/images/I/715JIuTnYSL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B06XWDZ2KQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/battery-chargers.html#B06XWDZ2KQ"
   }
  ],
  "avoid": [

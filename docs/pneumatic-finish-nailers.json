@@ -22,7 +22,7 @@
    "light": 0.2,
    "case": 0.2
   },
-  "reviews_ceiling": 3000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2292,
-   "score": 96,
+   "score": 97,
    "award": "Best Overall",
    "best_for": "Crown molding, door jambs and heavier trim.",
    "bought_last_month": "300+/mo",
@@ -84,7 +84,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1948,
-   "score": 95,
+   "score": 97,
    "award": null,
    "best_for": "Baseboard, casing and most trim work.",
    "bought_last_month": "500+/mo",
@@ -125,7 +125,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 571,
-   "score": 85,
+   "score": 92,
    "award": null,
    "best_for": "Painted or stained trim where oil spots matter.",
    "bought_last_month": "50+/mo",
@@ -166,7 +166,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 332,
-   "score": 81,
+   "score": 90,
    "award": "Money No Object",
    "best_for": "Trim carpenters doing doors, jambs and crown all day.",
    "bought_last_month": null,
@@ -199,47 +199,6 @@
   },
   {
    "rank": 5,
-   "asin": "B015O5Q27U",
-   "name": "3PLUS HDA1564SP 15 Gauge Angled Finish Nailer",
-   "brand": "3PLUS",
-   "model": "HDA1564SP",
-   "price": 66.88,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 657,
-   "score": 76,
-   "award": null,
-   "best_for": "Crown and casing on a budget.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A budget 15-gauge angled nailer for about half the Metabo's price, with tool-free depth, a no-mar tip and a 360° exhaust.",
-   "pros": [
-    "About half the Metabo NT65MA4's price",
-    "4.6 stars",
-    "No-mar tip, 360° exhaust"
-   ],
-   "cons": [
-    "No warranty term listed",
-    "Trigger swap for bump fire"
-   ],
-   "specs": {
-    "gauge": "15, angled (DA)",
-    "nails": "1-1/4 to 2-1/2 in",
-    "weight": null,
-    "modes": "Single or bump (swap trigger)",
-    "warranty": null
-   },
-   "features": {
-    "selective": true,
-    "long_warranty": false,
-    "light": false,
-    "case": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61aX1EUPE0L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B015O5Q27U?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pneumatic-finish-nailers.html#B015O5Q27U"
-  },
-  {
-   "rank": 6,
    "asin": "B07ZWXHN38",
    "name": "HBT HBT64P 16 Gauge Finish Nailer with Magnesium Housing and Carrying Case",
    "brand": "HBT",
@@ -248,7 +207,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 337,
-   "score": 76,
+   "score": 86,
    "award": null,
    "best_for": "A budget 16-gauge with a real mode switch.",
    "bought_last_month": "50+/mo",
@@ -280,6 +239,47 @@
    "page_url": "https://toolboxtop10.com/pneumatic-finish-nailers.html#B07ZWXHN38"
   },
   {
+   "rank": 6,
+   "asin": "B015O5Q27U",
+   "name": "3PLUS HDA1564SP 15 Gauge Angled Finish Nailer",
+   "brand": "3PLUS",
+   "model": "HDA1564SP",
+   "price": 66.88,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 657,
+   "score": 82,
+   "award": null,
+   "best_for": "Crown and casing on a budget.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A budget 15-gauge angled nailer for about half the Metabo's price, with tool-free depth, a no-mar tip and a 360° exhaust.",
+   "pros": [
+    "About half the Metabo NT65MA4's price",
+    "4.6 stars",
+    "No-mar tip, 360° exhaust"
+   ],
+   "cons": [
+    "No warranty term listed",
+    "Trigger swap for bump fire"
+   ],
+   "specs": {
+    "gauge": "15, angled (DA)",
+    "nails": "1-1/4 to 2-1/2 in",
+    "weight": null,
+    "modes": "Single or bump (swap trigger)",
+    "warranty": null
+   },
+   "features": {
+    "selective": true,
+    "long_warranty": false,
+    "light": false,
+    "case": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61aX1EUPE0L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B015O5Q27U?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pneumatic-finish-nailers.html#B015O5Q27U"
+  },
+  {
    "rank": 7,
    "asin": "B015ODI46E",
    "name": "3PLUS HT64SP 16 Gauge Pneumatic Straight Finish Nailer",
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 328,
-   "score": 71,
+   "score": 81,
    "award": "Best Budget",
    "best_for": "A one-room trim job on a budget.",
    "bought_last_month": "50+/mo",
@@ -330,7 +330,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 274,
-   "score": 66,
+   "score": 76,
    "award": null,
    "best_for": "DEWALT loyalists.",
    "bought_last_month": null,
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 149,
-   "score": 59,
+   "score": 70,
    "award": null,
    "best_for": "Occasional trim if the cheaper picks are out of stock.",
    "bought_last_month": null,
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 19,
-   "score": 55,
+   "score": 62,
    "award": null,
    "best_for": "A light budget 16-gauge.",
    "bought_last_month": "50+/mo",

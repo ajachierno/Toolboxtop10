@@ -22,7 +22,7 @@
    "low_profile_legs": 0.15,
    "published_height": 0.2
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 180,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 81,
-   "score": 71,
+   "score": 79,
    "award": null,
    "best_for": "A hoist and leveler kit for less than the VEVOR.",
    "bought_last_month": null,
@@ -76,47 +76,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0GHV7HH1H",
-   "name": "Garvee 2-Ton Folding Engine Hoist with Leveler, 4,400 lb Hydraulic Shop Crane",
-   "brand": "Garvee",
-   "model": "Folding 2-Ton Hoist with Leveler",
-   "price": 225.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 13,
-   "score": 69,
-   "award": "Best Overall",
-   "best_for": "The best-rated hoist, with a leveler and a published 39.5–74 in lift range.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The highest-rated hoist we found at 4.7 stars. It includes a leveler and is one of the few listings that publishes its lift range: 39.5 to 74 inches.",
-   "pros": [
-    "4.7 stars, the best rating on this list",
-    "Leveler included",
-    "Published lift range, 39.5 to 74 in., so you can check it clears your engine bay"
-   ],
-   "cons": [
-    "Only about a dozen reviews so far",
-    "At 145.5 lb, the heaviest of the import hoists"
-   ],
-   "specs": {
-    "capacity": "4,400 lb",
-    "boom": "4 positions, 0.5 to 2 ton",
-    "leveler": "Yes",
-    "max_height": "74 in. (min. 39.5 in.)",
-    "weight": "145.5 lb"
-   },
-   "features": {
-    "leveler": true,
-    "dual_pump": false,
-    "low_profile_legs": false,
-    "published_height": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61phYgMqRkL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GHV7HH1H?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/engine-hoists.html#B0GHV7HH1H"
-  },
-  {
-   "rank": 3,
    "asin": "B0CJ3538Z5",
    "name": "VEVOR Hydraulic Engine Hoist with Leveler, 2 Ton / 4,400 lb Folding Cherry Picker",
    "brand": "VEVOR",
@@ -125,7 +84,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 172,
-   "score": 68,
+   "score": 76,
    "award": null,
    "best_for": "A hoist with a leveler included and the longest review history.",
    "bought_last_month": null,
@@ -158,6 +117,47 @@
    "page_url": "https://toolboxtop10.com/engine-hoists.html#B0CJ3538Z5"
   },
   {
+   "rank": 3,
+   "asin": "B0GHV7HH1H",
+   "name": "Garvee 2-Ton Folding Engine Hoist with Leveler, 4,400 lb Hydraulic Shop Crane",
+   "brand": "Garvee",
+   "model": "Folding 2-Ton Hoist with Leveler",
+   "price": 225.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 13,
+   "score": 73,
+   "award": "Best Overall",
+   "best_for": "The best-rated hoist, with a leveler and a published 39.5–74 in lift range.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The highest-rated hoist we found at 4.7 stars. It includes a leveler and is one of the few listings that publishes its lift range: 39.5 to 74 inches.",
+   "pros": [
+    "4.7 stars, the best rating on this list",
+    "Leveler included",
+    "Published lift range, 39.5 to 74 in., so you can check it clears your engine bay"
+   ],
+   "cons": [
+    "Only about a dozen reviews so far",
+    "At 145.5 lb, the heaviest of the import hoists"
+   ],
+   "specs": {
+    "capacity": "4,400 lb",
+    "boom": "4 positions, 0.5 to 2 ton",
+    "leveler": "Yes",
+    "max_height": "74 in. (min. 39.5 in.)",
+    "weight": "145.5 lb"
+   },
+   "features": {
+    "leveler": true,
+    "dual_pump": false,
+    "low_profile_legs": false,
+    "published_height": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61phYgMqRkL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GHV7HH1H?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/engine-hoists.html#B0GHV7HH1H"
+  },
+  {
    "rank": 4,
    "asin": "B0D25Z84XZ",
    "name": "Parts-Diyer 2 Ton Engine Hoist Foldable Cherry Picker",
@@ -167,7 +167,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 248,
-   "score": 64,
+   "score": 71,
    "award": null,
    "best_for": "A well-reviewed folding hoist with locking casters.",
    "bought_last_month": null,
@@ -208,7 +208,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 98,
-   "score": 63,
+   "score": 70,
    "award": null,
    "best_for": "Checking clearance first: it publishes lift height and extended-boom capacity.",
    "bought_last_month": null,
@@ -241,47 +241,6 @@
   },
   {
    "rank": 6,
-   "asin": "B0H699LTM3",
-   "name": "Garvee 2 Ton Engine Hoist with Leveler, Hydraulic Cherry Picker Engine Crane, Folding, 6 Casters, Red",
-   "brand": "Garvee",
-   "model": "2-Ton Hoist with Leveler (6 casters)",
-   "price": 225.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 26,
-   "score": 63,
-   "award": null,
-   "best_for": "A best-selling 2-ton hoist with a leveler in the box.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The top organic result for engine hoists on Amazon right now and #6 in Engine Hoists & Stands. A 2-ton folding crane with an 8-ton pump, a leveler and six casters.",
-   "pros": [
-    "100+ sold a month",
-    "Leveler included",
-    "Retractable outriggers; folds for storage"
-   ],
-   "cons": [
-    "No published lift height",
-    "Listing gives no boom reach"
-   ],
-   "specs": {
-    "capacity": "4,400 lb",
-    "boom": "4 positions, 0.5 to 2 ton",
-    "leveler": "Yes",
-    "max_height": null,
-    "weight": "141 lb"
-   },
-   "features": {
-    "leveler": true,
-    "dual_pump": false,
-    "low_profile_legs": false,
-    "published_height": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61Gk-tGdjeL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H699LTM3?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/engine-hoists.html#B0H699LTM3"
-  },
-  {
-   "rank": 7,
    "asin": "B088ZNLXF9",
    "name": "Goplus 2 Ton Folding Engine Lift with 6 Wheels, Hydraulic Shop Crane",
    "brand": "Goplus",
@@ -290,7 +249,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 130,
-   "score": 61,
+   "score": 68,
    "award": null,
    "best_for": "A plain 2-ton folding hoist with a decent review history.",
    "bought_last_month": null,
@@ -323,6 +282,47 @@
    "page_url": "https://toolboxtop10.com/engine-hoists.html#B088ZNLXF9"
   },
   {
+   "rank": 7,
+   "asin": "B0H699LTM3",
+   "name": "Garvee 2 Ton Engine Hoist with Leveler, Hydraulic Cherry Picker Engine Crane, Folding, 6 Casters, Red",
+   "brand": "Garvee",
+   "model": "2-Ton Hoist with Leveler (6 casters)",
+   "price": 225.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 26,
+   "score": 68,
+   "award": null,
+   "best_for": "A best-selling 2-ton hoist with a leveler in the box.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The top organic result for engine hoists on Amazon right now and #6 in Engine Hoists & Stands. A 2-ton folding crane with an 8-ton pump, a leveler and six casters.",
+   "pros": [
+    "100+ sold a month",
+    "Leveler included",
+    "Retractable outriggers; folds for storage"
+   ],
+   "cons": [
+    "No published lift height",
+    "Listing gives no boom reach"
+   ],
+   "specs": {
+    "capacity": "4,400 lb",
+    "boom": "4 positions, 0.5 to 2 ton",
+    "leveler": "Yes",
+    "max_height": null,
+    "weight": "141 lb"
+   },
+   "features": {
+    "leveler": true,
+    "dual_pump": false,
+    "low_profile_legs": false,
+    "published_height": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61Gk-tGdjeL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H699LTM3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/engine-hoists.html#B0H699LTM3"
+  },
+  {
    "rank": 8,
    "asin": "B0CBQ359Z2",
    "name": "TUFFIOM 2 Ton Folding Hydraulic Engine Crane with Telescopic Boom and Outriggers",
@@ -332,7 +332,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 86,
-   "score": 60,
+   "score": 66,
    "award": "Best Budget",
    "best_for": "The cheapest well-reviewed hoist, with capacities printed per boom position.",
    "bought_last_month": null,
@@ -373,7 +373,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 28,
-   "score": 59,
+   "score": 65,
    "award": null,
    "best_for": "A 2-ton hoist under $190 with a 4.7-star average.",
    "bought_last_month": null,
@@ -414,7 +414,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 18,
-   "score": 57,
+   "score": 62,
    "award": "Money No Object",
    "best_for": "Shops lifting engines out of low cars, with a faster dual pump.",
    "bought_last_month": null,

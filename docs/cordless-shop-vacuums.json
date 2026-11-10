@@ -22,60 +22,60 @@
    "brushless": 0.2,
    "kit": 0.2
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 100,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
   "best_overall": "B0F18SDY67",
-  "best_budget": "B07MHZJVM4",
+  "best_budget": "B0CLS6VPYH",
   "money_no_object": "B0CMT9ML47"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B00CP8DF3O",
-   "name": "DEWALT 20V MAX Cordless Shop Vac, 2 Gallon Wet/Dry Vacuum with HEPA Filter, Tool Only (DCV580H)",
-   "brand": "DEWALT",
-   "model": "DCV580H",
-   "price": 128.98,
+   "asin": "B0F18SDY67",
+   "name": "Seesii Cordless Wet Dry Shop Vac, 2.6 Gallon, HEPA Filter, with 2 x 4.0Ah Rechargeable Batteries",
+   "brand": "Seesii",
+   "model": "K-903",
+   "price": 109.99,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 8782,
-   "score": 86,
-   "award": null,
-   "best_for": "DEWALT 20V owners who want a grab-and-go vac for spills and jobsite dust.",
-   "bought_last_month": null,
-   "verdict": "DEWALT's 2-gallon battery wet/dry vac, the most-reviewed cordless shop vac on Amazon. It's a sensible add-on for anyone already running DEWALT 20V MAX batteries.",
+   "rating": 4.5,
+   "reviews_count": 432,
+   "score": 96,
+   "award": "Best Overall",
+   "best_for": "Anyone without a tool-battery platform who wants a cordless wet/dry vac out of the box.",
+   "bought_last_month": "700+/mo",
+   "verdict": "A complete kit: 2.6-gallon wet/dry vac, two 4.0Ah batteries, and a charger for $109.99. It's the pick if you don't own a battery platform and don't want to start one.",
    "pros": [
-    "HEPA-rated wet/dry filter that you can wash and reuse",
-    "Crush-resistant 5 ft hose, 1-1/4 in. wide, stores on board",
-    "Listing says it handles wet pickup, dry pickup, and blowing",
-    "3-year limited warranty"
+    "Two 4.0Ah batteries and a charger included",
+    "Brushless motor with two suction modes (9 kPa and 15 kPa)",
+    "Washable HEPA filter, and the vac also blows",
+    "8 lb with an accessory rack and stand-up storage"
    ],
    "cons": [
-    "Tool only: battery and charger cost extra",
-    "Listing quotes about 25 minutes of runtime, short for a big cleanup",
-    "No airflow or suction figure published"
+    "Batteries are proprietary and won't run other tools",
+    "20 minutes per battery on high",
+    "No warranty terms on the listing"
    ],
    "specs": {
-    "capacity": "2 gal",
-    "battery": "Not included (DEWALT 20V MAX)",
-    "suction": null,
-    "hose": "1-1/4\" x 5 ft",
-    "runtime": "25 min",
-    "warranty": "3 years"
+    "capacity": "2.6 gal",
+    "battery": "Included (2 x 4.0Ah)",
+    "suction": "15 kPa",
+    "hose": "5.25 ft",
+    "runtime": "20 min high / 40 min low",
+    "warranty": null
    },
    "features": {
     "hepa": true,
     "blower": true,
-    "brushless": false,
-    "kit": false
+    "brushless": true,
+    "kit": true
    },
-   "image": "https://m.media-amazon.com/images/I/7135p5xrtwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00CP8DF3O?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B00CP8DF3O"
+   "image": "https://m.media-amazon.com/images/I/61UR4Bc-8rL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F18SDY67?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B0F18SDY67"
   },
   {
    "rank": 2,
@@ -87,7 +87,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 3204,
-   "score": 85,
+   "score": 89,
    "award": null,
    "best_for": "M18 owners who want a sturdy wet/dry vac with a blower port.",
    "bought_last_month": "1K+/mo",
@@ -123,180 +123,50 @@
   },
   {
    "rank": 3,
-   "asin": "B0F18SDY67",
-   "name": "Seesii Cordless Wet Dry Shop Vac, 2.6 Gallon, HEPA Filter, with 2 x 4.0Ah Rechargeable Batteries",
-   "brand": "Seesii",
-   "model": "K-903",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 432,
-   "score": 84,
-   "award": "Best Overall",
-   "best_for": "Anyone without a tool-battery platform who wants a cordless wet/dry vac out of the box.",
-   "bought_last_month": "700+/mo",
-   "verdict": "A complete kit: 2.6-gallon wet/dry vac, two 4.0Ah batteries, and a charger for $109.99. It's the pick if you don't own a battery platform and don't want to start one.",
-   "pros": [
-    "Two 4.0Ah batteries and a charger included",
-    "Brushless motor with two suction modes (9 kPa and 15 kPa)",
-    "Washable HEPA filter, and the vac also blows",
-    "8 lb with an accessory rack and stand-up storage"
-   ],
-   "cons": [
-    "Batteries are proprietary and won't run other tools",
-    "20 minutes per battery on high",
-    "No warranty terms on the listing"
-   ],
-   "specs": {
-    "capacity": "2.6 gal",
-    "battery": "Included (2 x 4.0Ah)",
-    "suction": "15 kPa",
-    "hose": "5.25 ft",
-    "runtime": "20 min high / 40 min low",
-    "warranty": null
-   },
-   "features": {
-    "hepa": true,
-    "blower": true,
-    "brushless": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61UR4Bc-8rL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F18SDY67?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B0F18SDY67"
-  },
-  {
-   "rank": 4,
-   "asin": "B00DD1UQ3Y",
-   "name": "DEWALT 20V MAX Shop Vacuum Wet and Dry, 2 Gallon, Cordless and Corded, HEPA Filter, Tool Only (DCV581H)",
+   "asin": "B00CP8DF3O",
+   "name": "DEWALT 20V MAX Cordless Shop Vac, 2 Gallon Wet/Dry Vacuum with HEPA Filter, Tool Only (DCV580H)",
    "brand": "DEWALT",
-   "model": "DCV581H",
-   "price": 149.0,
+   "model": "DCV580H",
+   "price": 128.98,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 8726,
-   "score": 81,
+   "reviews_count": 8782,
+   "score": 87,
    "award": null,
-   "best_for": "Long cleanups where you want a cord as the backup to the battery.",
-   "bought_last_month": "700+/mo",
-   "verdict": "The same 2-gallon DEWALT vac as the DCV580H, plus a cord so it keeps running on wall power when the battery dies. You pay $20 more for that.",
+   "best_for": "DEWALT 20V owners who want a grab-and-go vac for spills and jobsite dust.",
+   "bought_last_month": null,
+   "verdict": "DEWALT's 2-gallon battery wet/dry vac, the most-reviewed cordless shop vac on Amazon. It's a sensible add-on for anyone already running DEWALT 20V MAX batteries.",
    "pros": [
-    "Runs on a DEWALT 20V MAX battery or plugged into the wall",
-    "HEPA filter, washable and reusable",
-    "Wide gulper nozzle and crevice tool included",
+    "HEPA-rated wet/dry filter that you can wash and reuse",
+    "Crush-resistant 5 ft hose, 1-1/4 in. wide, stores on board",
+    "Listing says it handles wet pickup, dry pickup, and blowing",
     "3-year limited warranty"
    ],
    "cons": [
-    "Tool only: battery and charger sold separately",
-    "Costs $20 more than the cordless-only DCV580H",
-    "No runtime or suction figure on the listing"
+    "Tool only: battery and charger cost extra",
+    "Listing quotes about 25 minutes of runtime, short for a big cleanup",
+    "No airflow or suction figure published"
    ],
    "specs": {
     "capacity": "2 gal",
-    "battery": "Not included (DEWALT 20V MAX) or AC cord",
+    "battery": "Not included (DEWALT 20V MAX)",
     "suction": null,
     "hose": "1-1/4\" x 5 ft",
-    "runtime": null,
+    "runtime": "25 min",
     "warranty": "3 years"
    },
    "features": {
     "hepa": true,
-    "blower": false,
-    "brushless": false,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71DTUCmXsXL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00DD1UQ3Y?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B00DD1UQ3Y"
-  },
-  {
-   "rank": 5,
-   "asin": "B0HBQK35V3",
-   "name": "JESIMAIK Cordless Shop Vac, 18.5KPa Brushless Wet Dry Vacuum with 2x4.0Ah Batteries, 4.2 Gallon Tank, 3-in-1 Wet Dry",
-   "brand": "JESIMAIK",
-   "model": "Cordless Shop Vac 4.2 gal",
-   "price": 129.99,
-   "currency": "USD",
-   "rating": 5.0,
-   "reviews_count": 15,
-   "score": 76,
-   "award": null,
-   "best_for": "Buyers with no battery platform who want a big tank in a kit.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A complete kit: a brushless 4.2-gallon wet/dry vac with two 4.0Ah batteries, a charger, a washable HEPA filter, a sponge filter for wet pickup, a blower mode and a 10.5-foot hose.",
-   "pros": [
-    "Two batteries and a charger included",
-    "4.2-gallon tank, second only to the EGO (9 gal) here",
-    "Up to 80 minutes on low with two batteries, per the listing"
-   ],
-   "cons": [
-    "Its own battery system, not shared with tool brands",
-    "Warranty not listed"
-   ],
-   "specs": {
-    "capacity": "4.2 gal",
-    "battery": "2 x 4.0Ah (included)",
-    "suction": "18.5 kPa max / 12 kPa low",
-    "hose": "10.5 ft",
-    "runtime": "Up to 80 min low / 40 min high",
-    "warranty": null
-   },
-   "features": {
-    "hepa": true,
     "blower": true,
-    "brushless": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71k7-VgN3NL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HBQK35V3?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B0HBQK35V3"
-  },
-  {
-   "rank": 6,
-   "asin": "B07MHZJVM4",
-   "name": "CRAFTSMAN V20 Cordless Wet/Dry Shop Vac, 2 Gallon, Tool Only (CMCV002B)",
-   "brand": "CRAFTSMAN",
-   "model": "CMCV002B",
-   "price": 99.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1345,
-   "score": 75,
-   "award": "Best Budget",
-   "best_for": "CRAFTSMAN V20 owners who want a cheap, long-reach vac for the car and garage.",
-   "bought_last_month": "500+/mo",
-   "verdict": "A 2-gallon V20 wet/dry vac with the longest hose of the 2-gallon group. At $99 it's the cheapest name-brand bare vac on the list.",
-   "pros": [
-    "7 ft 8 in. hose, longer than the DEWALT and Milwaukee 2-gallon vacs",
-    "HEPA filter, wide nozzle, and crevice tool included",
-    "On-board hose and accessory storage",
-    "$99, about $41 less than the Milwaukee 0880-20"
-   ],
-   "cons": [
-    "Tool only: battery and charger sold separately",
-    "35 CFM is modest next to the Milwaukee FUEL (50 CFM)",
-    "No blower port listed"
-   ],
-   "specs": {
-    "capacity": "2 gal",
-    "battery": "Not included (CRAFTSMAN V20)",
-    "suction": "35 CFM",
-    "hose": "7 ft 8 in.",
-    "runtime": null,
-    "warranty": null
-   },
-   "features": {
-    "hepa": true,
-    "blower": false,
     "brushless": false,
     "kit": false
    },
-   "image": "https://m.media-amazon.com/images/I/81KuEXAhUIL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07MHZJVM4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B07MHZJVM4"
+   "image": "https://m.media-amazon.com/images/I/7135p5xrtwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00CP8DF3O?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B00CP8DF3O"
   },
   {
-   "rank": 7,
+   "rank": 4,
    "asin": "B0CLS6VPYH",
    "name": "ReliaRoads 20V Cordless Wet/Dry Shop Vac, 2.6 Gallon, Compatible with DEWALT Batteries (Bare Tool, RCSV-20)",
    "brand": "ReliaRoads",
@@ -305,8 +175,8 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 622,
-   "score": 73,
-   "award": null,
+   "score": 83,
+   "award": "Best Budget",
    "best_for": "DEWALT battery owners who want a wet/dry vac for under $90.",
    "bought_last_month": "600+/mo",
    "verdict": "A third-party wet/dry vac built to run on DEWALT 20V MAX batteries. It's the cheapest way onto this list if you already own those batteries.",
@@ -340,7 +210,7 @@
    "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B0CLS6VPYH"
   },
   {
-   "rank": 8,
+   "rank": 5,
    "asin": "B09RQ6WNZ8",
    "name": "Milwaukee M18 FUEL PACKOUT 2.5 Gallon Wet/Dry Vacuum (M18FPOVCL)",
    "brand": "Milwaukee",
@@ -349,7 +219,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 390,
-   "score": 71,
+   "score": 83,
    "award": null,
    "best_for": "M18 owners already using PACKOUT boxes who want strong water pickup.",
    "bought_last_month": "900+/mo",
@@ -384,51 +254,7 @@
    "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B09RQ6WNZ8"
   },
   {
-   "rank": 9,
-   "asin": "B0CMT9ML47",
-   "name": "EGO Power+ 9 Gallon 110 CFM 56V Cordless Wet/Dry Shop Vacuum, Battery and Charger Not Included (WDV0900)",
-   "brand": "EGO",
-   "model": "WDV0900",
-   "price": 329.0,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 312,
-   "score": 69,
-   "award": "Money No Object",
-   "best_for": "EGO 56V owners who want a full-size garage vac without a cord.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The only full-size cordless shop vac on the list: 9 gallons, 110 CFM, a drain plug, and a wireless remote. It's the one to get if you want a garage vac with no cord at all.",
-   "pros": [
-    "110 CFM and 100 in. of water lift, far beyond the compact vacs",
-    "9-gallon tank with a drain plug and a 1-7/8 in. hose",
-    "Wireless remote, filter-cleaning function, and on-board storage",
-    "4.8 stars, the highest rating on the list, and a 5-year tool warranty"
-   ],
-   "cons": [
-    "Tool only at $329; EGO recommends two 6.0Ah batteries",
-    "26.7 lb, heavy to carry up stairs",
-    "Filter is a cartridge, not HEPA-rated on the listing"
-   ],
-   "specs": {
-    "capacity": "9 gal",
-    "battery": "Not included (EGO 56V ARC)",
-    "suction": "110 CFM / 100 in. lift",
-    "hose": "1-7/8\"",
-    "runtime": "Up to 60 min ECO (2 x 6.0Ah)",
-    "warranty": "5 years (tool)"
-   },
-   "features": {
-    "hepa": false,
-    "blower": false,
-    "brushless": true,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/619MFiNSR8L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CMT9ML47?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B0CMT9ML47"
-  },
-  {
-   "rank": 10,
+   "rank": 6,
    "asin": "B09LHZNHNF",
    "name": "WORX Nitro 20V Cordless Wet/Dry Vacuum, 2.1 Gal, Battery and Charger Included (WX031L)",
    "brand": "WORX",
@@ -437,7 +263,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 222,
-   "score": 68,
+   "score": 83,
    "award": null,
    "best_for": "WORX PowerShare households, or buyers who want a kit on a battery that runs other tools.",
    "bought_last_month": "100+/mo",
@@ -470,6 +296,180 @@
    "image": "https://m.media-amazon.com/images/I/61WrCqUPZwL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09LHZNHNF?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B09LHZNHNF"
+  },
+  {
+   "rank": 7,
+   "asin": "B0HBQK35V3",
+   "name": "JESIMAIK Cordless Shop Vac, 18.5KPa Brushless Wet Dry Vacuum with 2x4.0Ah Batteries, 4.2 Gallon Tank, 3-in-1 Wet Dry",
+   "brand": "JESIMAIK",
+   "model": "Cordless Shop Vac 4.2 gal",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 5.0,
+   "reviews_count": 15,
+   "score": 83,
+   "award": null,
+   "best_for": "Buyers with no battery platform who want a big tank in a kit.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A complete kit: a brushless 4.2-gallon wet/dry vac with two 4.0Ah batteries, a charger, a washable HEPA filter, a sponge filter for wet pickup, a blower mode and a 10.5-foot hose.",
+   "pros": [
+    "Two batteries and a charger included",
+    "4.2-gallon tank, second only to the EGO (9 gal) here",
+    "Up to 80 minutes on low with two batteries, per the listing"
+   ],
+   "cons": [
+    "Its own battery system, not shared with tool brands",
+    "Warranty not listed"
+   ],
+   "specs": {
+    "capacity": "4.2 gal",
+    "battery": "2 x 4.0Ah (included)",
+    "suction": "18.5 kPa max / 12 kPa low",
+    "hose": "10.5 ft",
+    "runtime": "Up to 80 min low / 40 min high",
+    "warranty": null
+   },
+   "features": {
+    "hepa": true,
+    "blower": true,
+    "brushless": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71k7-VgN3NL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HBQK35V3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B0HBQK35V3"
+  },
+  {
+   "rank": 8,
+   "asin": "B00DD1UQ3Y",
+   "name": "DEWALT 20V MAX Shop Vacuum Wet and Dry, 2 Gallon, Cordless and Corded, HEPA Filter, Tool Only (DCV581H)",
+   "brand": "DEWALT",
+   "model": "DCV581H",
+   "price": 149.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 8726,
+   "score": 82,
+   "award": null,
+   "best_for": "Long cleanups where you want a cord as the backup to the battery.",
+   "bought_last_month": "700+/mo",
+   "verdict": "The same 2-gallon DEWALT vac as the DCV580H, plus a cord so it keeps running on wall power when the battery dies. You pay $20 more for that.",
+   "pros": [
+    "Runs on a DEWALT 20V MAX battery or plugged into the wall",
+    "HEPA filter, washable and reusable",
+    "Wide gulper nozzle and crevice tool included",
+    "3-year limited warranty"
+   ],
+   "cons": [
+    "Tool only: battery and charger sold separately",
+    "Costs $20 more than the cordless-only DCV580H",
+    "No runtime or suction figure on the listing"
+   ],
+   "specs": {
+    "capacity": "2 gal",
+    "battery": "Not included (DEWALT 20V MAX) or AC cord",
+    "suction": null,
+    "hose": "1-1/4\" x 5 ft",
+    "runtime": null,
+    "warranty": "3 years"
+   },
+   "features": {
+    "hepa": true,
+    "blower": false,
+    "brushless": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71DTUCmXsXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00DD1UQ3Y?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B00DD1UQ3Y"
+  },
+  {
+   "rank": 9,
+   "asin": "B07MHZJVM4",
+   "name": "CRAFTSMAN V20 Cordless Wet/Dry Shop Vac, 2 Gallon, Tool Only (CMCV002B)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCV002B",
+   "price": 99.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1345,
+   "score": 82,
+   "award": null,
+   "best_for": "CRAFTSMAN V20 owners who want a cheap, long-reach vac for the car and garage.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A 2-gallon V20 wet/dry vac with the longest hose of the 2-gallon group. At $99 it's the cheapest name-brand bare vac on the list.",
+   "pros": [
+    "7 ft 8 in. hose, longer than the DEWALT and Milwaukee 2-gallon vacs",
+    "HEPA filter, wide nozzle, and crevice tool included",
+    "On-board hose and accessory storage",
+    "$99, about $41 less than the Milwaukee 0880-20"
+   ],
+   "cons": [
+    "Tool only: battery and charger sold separately",
+    "35 CFM is modest next to the Milwaukee FUEL (50 CFM)",
+    "No blower port listed"
+   ],
+   "specs": {
+    "capacity": "2 gal",
+    "battery": "Not included (CRAFTSMAN V20)",
+    "suction": "35 CFM",
+    "hose": "7 ft 8 in.",
+    "runtime": null,
+    "warranty": null
+   },
+   "features": {
+    "hepa": true,
+    "blower": false,
+    "brushless": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81KuEXAhUIL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07MHZJVM4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B07MHZJVM4"
+  },
+  {
+   "rank": 10,
+   "asin": "B0CMT9ML47",
+   "name": "EGO Power+ 9 Gallon 110 CFM 56V Cordless Wet/Dry Shop Vacuum, Battery and Charger Not Included (WDV0900)",
+   "brand": "EGO",
+   "model": "WDV0900",
+   "price": 329.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 312,
+   "score": 82,
+   "award": "Money No Object",
+   "best_for": "EGO 56V owners who want a full-size garage vac without a cord.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The only full-size cordless shop vac on the list: 9 gallons, 110 CFM, a drain plug, and a wireless remote. It's the one to get if you want a garage vac with no cord at all.",
+   "pros": [
+    "110 CFM and 100 in. of water lift, far beyond the compact vacs",
+    "9-gallon tank with a drain plug and a 1-7/8 in. hose",
+    "Wireless remote, filter-cleaning function, and on-board storage",
+    "4.8 stars, the highest rating on the list, and a 5-year tool warranty"
+   ],
+   "cons": [
+    "Tool only at $329; EGO recommends two 6.0Ah batteries",
+    "26.7 lb, heavy to carry up stairs",
+    "Filter is a cartridge, not HEPA-rated on the listing"
+   ],
+   "specs": {
+    "capacity": "9 gal",
+    "battery": "Not included (EGO 56V ARC)",
+    "suction": "110 CFM / 100 in. lift",
+    "hose": "1-7/8\"",
+    "runtime": "Up to 60 min ECO (2 x 6.0Ah)",
+    "warranty": "5 years (tool)"
+   },
+   "features": {
+    "hepa": false,
+    "blower": false,
+    "brushless": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/619MFiNSR8L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CMT9ML47?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-shop-vacuums.html#B0CMT9ML47"
   }
  ],
  "avoid": [

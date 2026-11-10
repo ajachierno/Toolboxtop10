@@ -21,7 +21,7 @@
    "heavy_duty": 0.35,
    "forward_reverse": 0.25
   },
-  "reviews_ceiling": 60000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 55,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -42,7 +42,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 718,
-   "score": 82,
+   "score": 96,
    "award": "Best Overall",
    "best_for": "Garage use where you want 450 ft-lbs and a CRAFTSMAN warranty.",
    "bought_last_month": "50+/mo",
@@ -82,7 +82,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 686,
-   "score": 81,
+   "score": 95,
    "award": null,
    "best_for": "Normal lug nuts with a well-reviewed metal-gearbox wrench.",
    "bought_last_month": null,
@@ -122,7 +122,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 1217,
-   "score": 80,
+   "score": 92,
    "award": "Best Budget",
    "best_for": "Breaking lug nuts loose at home for about $43.",
    "bought_last_month": "200+/mo",
@@ -162,7 +162,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 115,
-   "score": 75,
+   "score": 91,
    "award": null,
    "best_for": "The most motor here (8.5 amps) for less than the CRAFTSMAN.",
    "bought_last_month": null,
@@ -202,7 +202,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 1340,
-   "score": 74,
+   "score": 86,
    "award": null,
    "best_for": "Keeping in the trunk for flat tires far from an outlet.",
    "bought_last_month": "200+/mo",
@@ -234,46 +234,6 @@
   },
   {
    "rank": 6,
-   "asin": "B07CZR2YH8",
-   "name": "K Tool 81380A 1/2\" Electric Impact Wrench",
-   "brand": "K Tool International",
-   "model": "81380A",
-   "price": 44.86,
-   "currency": "USD",
-   "rating": 5.0,
-   "reviews_count": 6,
-   "score": 71,
-   "award": null,
-   "best_for": "Buyers who want an automotive-tool brand at a low price.",
-   "bought_last_month": "50+/mo",
-   "verdict": "From K Tool International, a real automotive tool brand. A straightforward corded 1/2-inch impact wrench at the low end of the price range — newer to Amazon, but a legitimate name in the trade.",
-   "pros": [
-    "Established automotive-tool brand",
-    "Low price for an AC impact wrench",
-    "1/2-inch drive, forward/reverse"
-   ],
-   "cons": [
-    "Very few reviews on Amazon yet",
-    "Basic feature set"
-   ],
-   "specs": {
-    "type": "Corded (AC)",
-    "power": "7.5 amp",
-    "drive": "1/2 in",
-    "torque": null,
-    "max_rpm": null
-   },
-   "features": {
-    "kit": true,
-    "heavy_duty": true,
-    "forward_reverse": true
-   },
-   "image": "https://m.media-amazon.com/images/I/41a-+8HpxOL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07CZR2YH8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-impact-wrenches.html#B07CZR2YH8"
-  },
-  {
-   "rank": 7,
    "asin": "B07PGDNP9J",
    "name": "12-Volt 1/2\" Car Impact Wrench (400 N·m claimed)",
    "brand": "Generic",
@@ -282,7 +242,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 591,
-   "score": 70,
+   "score": 85,
    "award": null,
    "best_for": "A cheap spare-tire tool that runs off your car's 12V socket.",
    "bought_last_month": "100+/mo",
@@ -313,7 +273,7 @@
    "page_url": "https://toolboxtop10.com/corded-impact-wrenches.html#B07PGDNP9J"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "asin": "B0CLFJG2ZH",
    "name": "WEN 7.5-Amp Two-Direction Corded Impact Wrench",
    "brand": "WEN",
@@ -322,7 +282,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 55,
-   "score": 70,
+   "score": 84,
    "award": null,
    "best_for": "A budget AC wrench with a hog-ring anvil from a known value brand.",
    "bought_last_month": "50+/mo",
@@ -353,6 +313,46 @@
    "page_url": "https://toolboxtop10.com/corded-impact-wrenches.html#B0CLFJG2ZH"
   },
   {
+   "rank": 8,
+   "asin": "B07CZR2YH8",
+   "name": "K Tool 81380A 1/2\" Electric Impact Wrench",
+   "brand": "K Tool International",
+   "model": "81380A",
+   "price": 44.86,
+   "currency": "USD",
+   "rating": 5.0,
+   "reviews_count": 6,
+   "score": 78,
+   "award": null,
+   "best_for": "Buyers who want an automotive-tool brand at a low price.",
+   "bought_last_month": "50+/mo",
+   "verdict": "From K Tool International, a real automotive tool brand. A straightforward corded 1/2-inch impact wrench at the low end of the price range — newer to Amazon, but a legitimate name in the trade.",
+   "pros": [
+    "Established automotive-tool brand",
+    "Low price for an AC impact wrench",
+    "1/2-inch drive, forward/reverse"
+   ],
+   "cons": [
+    "Very few reviews on Amazon yet",
+    "Basic feature set"
+   ],
+   "specs": {
+    "type": "Corded (AC)",
+    "power": "7.5 amp",
+    "drive": "1/2 in",
+    "torque": null,
+    "max_rpm": null
+   },
+   "features": {
+    "kit": true,
+    "heavy_duty": true,
+    "forward_reverse": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41a-+8HpxOL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07CZR2YH8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-impact-wrenches.html#B07CZR2YH8"
+  },
+  {
    "rank": 9,
    "asin": "B08KGQSGLT",
    "name": "Hyperion Lift-Assist 12V Portable Impact Wrench, 12 Volt Electric Lug Nut Wrench by Deltran (043-1003-HY-WH)",
@@ -362,7 +362,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 27,
-   "score": 57,
+   "score": 68,
    "award": null,
    "best_for": "Keeping in the trunk for a flat tire away from home.",
    "bought_last_month": null,
@@ -404,7 +404,7 @@
    "currency": "USD",
    "rating": 3.6,
    "reviews_count": 16,
-   "score": 55,
+   "score": 64,
    "award": null,
    "best_for": "Light automotive and household bolts with a compact wrench.",
    "bought_last_month": "50+/mo",

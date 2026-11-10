@@ -22,59 +22,19 @@
    "capacity_300": 0.25,
    "five_casters": 0.2
   },
-  "reviews_ceiling": 7500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 25,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0BX4VSVD8",
+  "best_overall": "B077VW227N",
   "best_budget": "B0BZTT3M68",
   "money_no_object": "B0D1BHQD2T"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B0BX4VSVD8",
-   "name": "Pro-LifT PL9300H Pneumatic Rolling Mechanic Chair",
-   "brand": "Pro-LifT",
-   "model": "PL9300H",
-   "price": 42.69,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 7459,
-   "score": 96,
-   "award": "Best Overall",
-   "best_for": "Brake jobs, detailing and any work at wheel height.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The most-reviewed stool here: a pneumatic seat that adjusts 5 inches, five casters, a segmented tool tray and a 300 lb rating, rated 4.6 stars on 7,459 reviews.",
-   "pros": [
-    "7,459 reviews; 4.6 stars",
-    "Pneumatic lift",
-    "Tool tray"
-   ],
-   "cons": [
-    "No backrest"
-   ],
-   "specs": {
-    "height": "Adjusts 5 in",
-    "capacity": "300 lb",
-    "casters": "5 swivel",
-    "storage": "Large segmented tool tray",
-    "extras": "Padded vinyl seat, steel frame"
-   },
-   "features": {
-    "pneumatic": true,
-    "tool_tray": true,
-    "capacity_300": true,
-    "five_casters": true
-   },
-   "image": "https://m.media-amazon.com/images/I/6121acLXsJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BX4VSVD8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mechanic-stools.html#B0BX4VSVD8"
-  },
-  {
-   "rank": 2,
    "asin": "B077VW227N",
    "name": "MaxWorks 80771 Pneumatic Roller Seat with Tool Tray, 300 lb",
    "brand": "MaxWorks",
@@ -83,8 +43,8 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1194,
-   "score": 90,
-   "award": null,
+   "score": 97,
+   "award": "Best Overall",
    "best_for": "Home mechanics who want the full feature set at a low price.",
    "bought_last_month": "1K+/mo",
    "verdict": "A pneumatic stool that adjusts from 15 to 20 inches, with five non-marring casters and a built-in tool tray, rated 4.7 stars, for about $36.",
@@ -114,6 +74,46 @@
    "page_url": "https://toolboxtop10.com/mechanic-stools.html#B077VW227N"
   },
   {
+   "rank": 2,
+   "asin": "B0BX4VSVD8",
+   "name": "Pro-LifT PL9300H Pneumatic Rolling Mechanic Chair",
+   "brand": "Pro-LifT",
+   "model": "PL9300H",
+   "price": 42.69,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 7459,
+   "score": 96,
+   "award": null,
+   "best_for": "Brake jobs, detailing and any work at wheel height.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The most-reviewed stool here: a pneumatic seat that adjusts 5 inches, five casters, a segmented tool tray and a 300 lb rating, rated 4.6 stars on 7,459 reviews.",
+   "pros": [
+    "7,459 reviews; 4.6 stars",
+    "Pneumatic lift",
+    "Tool tray"
+   ],
+   "cons": [
+    "No backrest"
+   ],
+   "specs": {
+    "height": "Adjusts 5 in",
+    "capacity": "300 lb",
+    "casters": "5 swivel",
+    "storage": "Large segmented tool tray",
+    "extras": "Padded vinyl seat, steel frame"
+   },
+   "features": {
+    "pneumatic": true,
+    "tool_tray": true,
+    "capacity_300": true,
+    "five_casters": true
+   },
+   "image": "https://m.media-amazon.com/images/I/6121acLXsJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BX4VSVD8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mechanic-stools.html#B0BX4VSVD8"
+  },
+  {
    "rank": 3,
    "asin": "B08ZWDP7SC",
    "name": "WEN 73012T 300-Pound Capacity Pneumatic Rolling Mechanic Stool",
@@ -123,7 +123,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 4546,
-   "score": 89,
+   "score": 91,
    "award": null,
    "best_for": "Anyone who wants a simple, padded rolling stool.",
    "bought_last_month": "1K+/mo",
@@ -155,88 +155,6 @@
   },
   {
    "rank": 4,
-   "asin": "B000COC67O",
-   "name": "BIG RED TR6350 Pneumatic Rolling Mechanic Stool, Large",
-   "brand": "BIG RED",
-   "model": "TR6350",
-   "price": 64.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 1714,
-   "score": 83,
-   "award": null,
-   "best_for": "Mechanics who want a big tray.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A large pneumatic stool with a segmented tool tray and a heavy-duty steel frame, rated 4.7 stars on 1,714 reviews.",
-   "pros": [
-    "4.7 stars",
-    "Large tool tray",
-    "Pneumatic lift"
-   ],
-   "cons": [
-    "250 lb capacity",
-    "Costs more than similar stools"
-   ],
-   "specs": {
-    "height": "Adjusts 4-1/2 in",
-    "capacity": "250 lb",
-    "casters": null,
-    "storage": "Large segmented tool tray",
-    "extras": "Fully padded vinyl seat, heavy-duty steel"
-   },
-   "features": {
-    "pneumatic": true,
-    "tool_tray": true,
-    "capacity_300": false,
-    "five_casters": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61hrulNuSbL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000COC67O?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mechanic-stools.html#B000COC67O"
-  },
-  {
-   "rank": 5,
-   "asin": "B0D1BHQD2T",
-   "name": "FreekyFit Shop Stool with Backrest, Pneumatic, 300 lb (D05-B)",
-   "brand": "FreekyFit",
-   "model": "D05-B",
-   "price": 85.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 677,
-   "score": 78,
-   "award": "Money No Object",
-   "best_for": "Long sessions at a workbench rather than at wheel height.",
-   "bought_last_month": "700+/mo",
-   "verdict": "A taller workbench stool with a backrest and a thick memory foam seat that adjusts from 24.5 to 30 inches.",
-   "pros": [
-    "Backrest",
-    "Memory foam seat",
-    "300 lb"
-   ],
-   "cons": [
-    "Most expensive here",
-    "Too tall for wheel work"
-   ],
-   "specs": {
-    "height": "24.5 to 30 in",
-    "capacity": "300 lb",
-    "casters": null,
-    "storage": null,
-    "extras": "Backrest, 14.96 in memory foam seat"
-   },
-   "features": {
-    "pneumatic": true,
-    "tool_tray": false,
-    "capacity_300": true,
-    "five_casters": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51k4d7pcw5L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D1BHQD2T?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mechanic-stools.html#B0D1BHQD2T"
-  },
-  {
-   "rank": 6,
    "asin": "B0BM4C2L13",
    "name": "DNA Motoring TOOLS-00253 Pneumatic Rolling Mechanic Stool with Tool Tray, 300 lb",
    "brand": "DNA Motoring",
@@ -245,7 +163,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 429,
-   "score": 78,
+   "score": 90,
    "award": null,
    "best_for": "Mechanics who want a removable parts tray.",
    "bought_last_month": "300+/mo",
@@ -277,6 +195,88 @@
    "page_url": "https://toolboxtop10.com/mechanic-stools.html#B0BM4C2L13"
   },
   {
+   "rank": 5,
+   "asin": "B000COC67O",
+   "name": "BIG RED TR6350 Pneumatic Rolling Mechanic Stool, Large",
+   "brand": "BIG RED",
+   "model": "TR6350",
+   "price": 64.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1714,
+   "score": 88,
+   "award": null,
+   "best_for": "Mechanics who want a big tray.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A large pneumatic stool with a segmented tool tray and a heavy-duty steel frame, rated 4.7 stars on 1,714 reviews.",
+   "pros": [
+    "4.7 stars",
+    "Large tool tray",
+    "Pneumatic lift"
+   ],
+   "cons": [
+    "250 lb capacity",
+    "Costs more than similar stools"
+   ],
+   "specs": {
+    "height": "Adjusts 4-1/2 in",
+    "capacity": "250 lb",
+    "casters": null,
+    "storage": "Large segmented tool tray",
+    "extras": "Fully padded vinyl seat, heavy-duty steel"
+   },
+   "features": {
+    "pneumatic": true,
+    "tool_tray": true,
+    "capacity_300": false,
+    "five_casters": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61hrulNuSbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000COC67O?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mechanic-stools.html#B000COC67O"
+  },
+  {
+   "rank": 6,
+   "asin": "B0D1BHQD2T",
+   "name": "FreekyFit Shop Stool with Backrest, Pneumatic, 300 lb (D05-B)",
+   "brand": "FreekyFit",
+   "model": "D05-B",
+   "price": 85.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 677,
+   "score": 87,
+   "award": "Money No Object",
+   "best_for": "Long sessions at a workbench rather than at wheel height.",
+   "bought_last_month": "700+/mo",
+   "verdict": "A taller workbench stool with a backrest and a thick memory foam seat that adjusts from 24.5 to 30 inches.",
+   "pros": [
+    "Backrest",
+    "Memory foam seat",
+    "300 lb"
+   ],
+   "cons": [
+    "Most expensive here",
+    "Too tall for wheel work"
+   ],
+   "specs": {
+    "height": "24.5 to 30 in",
+    "capacity": "300 lb",
+    "casters": null,
+    "storage": null,
+    "extras": "Backrest, 14.96 in memory foam seat"
+   },
+   "features": {
+    "pneumatic": true,
+    "tool_tray": false,
+    "capacity_300": true,
+    "five_casters": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51k4d7pcw5L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D1BHQD2T?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mechanic-stools.html#B0D1BHQD2T"
+  },
+  {
    "rank": 7,
    "asin": "B097DGQTLP",
    "name": "VEVOR Rolling Mechanic Stool with Three Slide-Out Tool Trays and Drawer, 300 lb",
@@ -286,7 +286,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1490,
-   "score": 77,
+   "score": 84,
    "award": null,
    "best_for": "Mechanics who want lots of organized storage at the seat.",
    "bought_last_month": "1K+/mo",
@@ -327,7 +327,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2201,
-   "score": 75,
+   "score": 80,
    "award": "Best Budget",
    "best_for": "Wheel and brake work on a budget.",
    "bought_last_month": "900+/mo",
@@ -368,7 +368,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 87,
-   "score": 67,
+   "score": 80,
    "award": null,
    "best_for": "Low work like tires and brakes.",
    "bought_last_month": "100+/mo",
@@ -409,7 +409,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 171,
-   "score": 66,
+   "score": 78,
    "award": null,
    "best_for": "Low work on a budget.",
    "bought_last_month": "300+/mo",

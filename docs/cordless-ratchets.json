@@ -22,7 +22,7 @@
    "high_torque": 0.3,
    "extended": 0.15
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 70,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,44 +35,44 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B07X37XMX3",
-   "name": "KIMO 3/8 Cordless Electric Ratchet Wrench, 40Ft-lbs, 400RPM Variable Speed",
-   "brand": "KIMO",
-   "model": "3302",
-   "price": 66.99,
+   "asin": "B0DLVSJ9KY",
+   "name": "ALLOY POWER 3/8\" Cordless Ratchet Wrench, 60 FT-LBS, 12V Extended",
+   "brand": "ALLOY POWER",
+   "model": "JLBS-12V-DM03",
+   "price": 84.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 12611,
-   "score": 80,
-   "award": "Best Budget",
-   "best_for": "A complete kit for oil changes, brakes and general car work under $70.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The most-reviewed ratchet here and the fastest of the kits at 400 rpm, with two batteries, a fast charger, seven sockets and a hard case for about $8 less than the AOBEN.",
+   "reviews_count": 572,
+   "score": 90,
+   "award": null,
+   "best_for": "Reaching bolts behind other parts.",
+   "bought_last_month": "300+/mo",
+   "verdict": "An extended-reach kit: a 5.5-inch neck and slim head for bolts deep in an engine bay, 60 ft-lb, two batteries and a socket set in a case.",
    "pros": [
-    "12,611 reviews",
-    "400 rpm",
-    "2 batteries, charger, 7 sockets and case"
+    "5.5-inch extended neck",
+    "60 ft-lb",
+    "Full kit with case"
    ],
    "cons": [
-    "40 ft-lb",
-    "KIMO-only batteries"
+    "Brushed motor",
+    "250 rpm"
    ],
    "specs": {
     "battery": "12V (2 x 2.0Ah included)",
-    "torque": "40 ft-lb",
-    "speed": "400 rpm",
+    "torque": "60 ft-lb",
+    "speed": "0-250 rpm",
     "drive": "3/8 in",
-    "in_box": "2 batteries, charger, 7 sockets, hard case"
+    "in_box": "2 batteries, charger, 6 sockets, 1/4 and 1/2-in adapters, 3-in extension, case"
    },
    "features": {
     "kit": true,
     "brushless": false,
-    "high_torque": false,
-    "extended": false
+    "high_torque": true,
+    "extended": true
    },
-   "image": "https://m.media-amazon.com/images/I/71aTrrKR16L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07X37XMX3?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B07X37XMX3"
+   "image": "https://m.media-amazon.com/images/I/71ikhGp-w8L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DLVSJ9KY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B0DLVSJ9KY"
   },
   {
    "rank": 2,
@@ -84,7 +84,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1721,
-   "score": 80,
+   "score": 88,
    "award": null,
    "best_for": "DEWALT 20V owners who want torque in a compact body.",
    "bought_last_month": "600+/mo",
@@ -125,7 +125,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1489,
-   "score": 80,
+   "score": 88,
    "award": "Money No Object",
    "best_for": "DEWALT 20V owners who want one ratchet for 3/8 and 1/2-inch sockets.",
    "bought_last_month": "1K+/mo",
@@ -158,6 +158,211 @@
   },
   {
    "rank": 4,
+   "asin": "B0DHVZ3PN8",
+   "name": "Seesii 3/8\" Cordless Electric Ratchet Wrench, 21V, 60 ft-lbs, 2 Batteries",
+   "brand": "Seesii",
+   "model": "21V ratchet",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 429,
+   "score": 88,
+   "award": null,
+   "best_for": "A complete kit with more torque than the 12V sets.",
+   "bought_last_month": "300+/mo",
+   "verdict": "The cheapest kit here, and tied for the most torque among the kits: 60 ft-lb, two batteries, a charger, metric sockets, both drive adapters and a hard case, backed by a 3-year warranty.",
+   "pros": [
+    "60 ft-lb for $59.99",
+    "Full kit with hard case",
+    "3-year warranty"
+   ],
+   "cons": [
+    "Metric sockets only",
+    "Smaller review base"
+   ],
+   "specs": {
+    "battery": "21V (2 x 2.0Ah included)",
+    "torque": "60 ft-lb",
+    "speed": "300 rpm",
+    "drive": "3/8 in",
+    "in_box": "2 batteries, charger, 10-17 mm sockets, 1/4 and 1/2-in adapters, 3-in extension, hard case"
+   },
+   "features": {
+    "kit": true,
+    "brushless": false,
+    "high_torque": true,
+    "extended": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71-uNhYBqgL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DHVZ3PN8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B0DHVZ3PN8"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CWPJ7115",
+   "name": "ACROPOW 3/8\" Cordless Ratchet Wrench for Dewalt 20V Battery, Brushless Motor (AC-RW01-DW)",
+   "brand": "ACROPOW",
+   "model": "AC-RW01-DW",
+   "price": 59.98,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 832,
+   "score": 86,
+   "award": null,
+   "best_for": "DEWALT battery owners on a budget.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A third-party brushless ratchet that runs on DEWALT 20V batteries, for about a third of the DCF513B's price. DEWALT doesn't make or warrant it, and the listing says so.",
+   "pros": [
+    "Brushless, 74 ft-lb claimed",
+    "About a third of the DCF513B's price",
+    "Aluminum housing and trigger lock"
+   ],
+   "cons": [
+    "Third-party tool on DEWALT batteries",
+    "Tool only"
+   ],
+   "specs": {
+    "battery": "Takes DEWALT 20V packs",
+    "torque": "74 ft-lb",
+    "speed": "0-250 rpm",
+    "drive": "3/8 in",
+    "in_box": "1/2 and 1/4-in adapters, 3-in extension"
+   },
+   "features": {
+    "kit": false,
+    "brushless": true,
+    "high_torque": true,
+    "extended": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61iAI0xttyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CWPJ7115?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B0CWPJ7115"
+  },
+  {
+   "rank": 6,
+   "asin": "B0BNTDD4YX",
+   "name": "WORKPRO 12V 40 Ft-lbs Power Ratchet Wrench Kit with 10-Piece Socket Set, 2.0Ah Batteries",
+   "brand": "WORKPRO",
+   "model": "W125221AE",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 366,
+   "score": 84,
+   "award": null,
+   "best_for": "Extended reach on SAE fasteners.",
+   "bought_last_month": "100+/mo",
+   "verdict": "An extended-head 12V kit with SAE sockets from 11/32 to 11/16 inch, two batteries and a 1-hour charger.",
+   "pros": [
+    "5.7-inch extended head",
+    "8 SAE sockets",
+    "4.5 stars"
+   ],
+   "cons": [
+    "40 ft-lb",
+    "Speed not listed"
+   ],
+   "specs": {
+    "battery": "12V (2 x 2.0Ah included)",
+    "torque": "40 ft-lb",
+    "speed": null,
+    "drive": "3/8 in",
+    "in_box": "2 batteries, 1-hr charger, 8 SAE sockets, adapter, bag"
+   },
+   "features": {
+    "kit": true,
+    "brushless": false,
+    "high_torque": false,
+    "extended": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81cafpV9P6L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BNTDD4YX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B0BNTDD4YX"
+  },
+  {
+   "rank": 7,
+   "asin": "B006GKFWSS",
+   "name": "Milwaukee 2457-21 3/8-in Cordless M12 Lithium-Ion Ratchet Kit",
+   "brand": "Milwaukee",
+   "model": "2457-21",
+   "price": 129.03,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1497,
+   "score": 82,
+   "award": null,
+   "best_for": "Starting on Milwaukee M12.",
+   "bought_last_month": "500+/mo",
+   "verdict": "The M12 ratchet as a kit with a battery, 30-minute charger and case, for getting onto the M12 platform.",
+   "pros": [
+    "M12 battery and charger included",
+    "Reinforced metal housing and trigger",
+    "Fuel gauge and LED"
+   ],
+   "cons": [
+    "$129.03 for a 35 ft-lb ratchet",
+    "One battery"
+   ],
+   "specs": {
+    "battery": "Milwaukee M12 (1 included)",
+    "torque": "35 ft-lb",
+    "speed": "250 rpm",
+    "drive": "3/8 in",
+    "in_box": "M12 battery, 30-minute charger, case"
+   },
+   "features": {
+    "kit": true,
+    "brushless": false,
+    "high_torque": false,
+    "extended": false
+   },
+   "image": "https://m.media-amazon.com/images/I/612MGcPFgyL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B006GKFWSS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B006GKFWSS"
+  },
+  {
+   "rank": 8,
+   "asin": "B07X37XMX3",
+   "name": "KIMO 3/8 Cordless Electric Ratchet Wrench, 40Ft-lbs, 400RPM Variable Speed",
+   "brand": "KIMO",
+   "model": "3302",
+   "price": 66.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 12611,
+   "score": 81,
+   "award": "Best Budget",
+   "best_for": "A complete kit for oil changes, brakes and general car work under $70.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The most-reviewed ratchet here and the fastest of the kits at 400 rpm, with two batteries, a fast charger, seven sockets and a hard case for about $8 less than the AOBEN.",
+   "pros": [
+    "12,611 reviews",
+    "400 rpm",
+    "2 batteries, charger, 7 sockets and case"
+   ],
+   "cons": [
+    "40 ft-lb",
+    "KIMO-only batteries"
+   ],
+   "specs": {
+    "battery": "12V (2 x 2.0Ah included)",
+    "torque": "40 ft-lb",
+    "speed": "400 rpm",
+    "drive": "3/8 in",
+    "in_box": "2 batteries, charger, 7 sockets, hard case"
+   },
+   "features": {
+    "kit": true,
+    "brushless": false,
+    "high_torque": false,
+    "extended": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71aTrrKR16L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07X37XMX3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B07X37XMX3"
+  },
+  {
+   "rank": 9,
    "asin": "B07CZWBYBK",
    "name": "AOBEN Cordless Electric Ratchet Wrench Set, 3/8\" 12V, 2 x 2000mAh Batteries and Charger",
    "brand": "AOBEN",
@@ -166,7 +371,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 11074,
-   "score": 79,
+   "score": 81,
    "award": null,
    "best_for": "Starting from nothing: everything needed to work in one case.",
    "bought_last_month": "2K+/mo",
@@ -198,48 +403,7 @@
    "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B07CZWBYBK"
   },
   {
-   "rank": 5,
-   "asin": "B0DLVSJ9KY",
-   "name": "ALLOY POWER 3/8\" Cordless Ratchet Wrench, 60 FT-LBS, 12V Extended",
-   "brand": "ALLOY POWER",
-   "model": "JLBS-12V-DM03",
-   "price": 84.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 572,
-   "score": 78,
-   "award": null,
-   "best_for": "Reaching bolts behind other parts.",
-   "bought_last_month": "300+/mo",
-   "verdict": "An extended-reach kit: a 5.5-inch neck and slim head for bolts deep in an engine bay, 60 ft-lb, two batteries and a socket set in a case.",
-   "pros": [
-    "5.5-inch extended neck",
-    "60 ft-lb",
-    "Full kit with case"
-   ],
-   "cons": [
-    "Brushed motor",
-    "250 rpm"
-   ],
-   "specs": {
-    "battery": "12V (2 x 2.0Ah included)",
-    "torque": "60 ft-lb",
-    "speed": "0-250 rpm",
-    "drive": "3/8 in",
-    "in_box": "2 batteries, charger, 6 sockets, 1/4 and 1/2-in adapters, 3-in extension, case"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "high_torque": true,
-    "extended": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71ikhGp-w8L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DLVSJ9KY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B0DLVSJ9KY"
-  },
-  {
-   "rank": 6,
+   "rank": 10,
    "asin": "B006CSRBTC",
    "name": "Milwaukee 2457-20 M12 Cordless 3/8\" Sub-Compact Ratchet, 35 ft-lbs, 250 RPM",
    "brand": "Milwaukee",
@@ -278,170 +442,6 @@
    "image": "https://m.media-amazon.com/images/I/31N9BQGjscL._SX425_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B006CSRBTC?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B006CSRBTC"
-  },
-  {
-   "rank": 7,
-   "asin": "B0CWPJ7115",
-   "name": "ACROPOW 3/8\" Cordless Ratchet Wrench for Dewalt 20V Battery, Brushless Motor (AC-RW01-DW)",
-   "brand": "ACROPOW",
-   "model": "AC-RW01-DW",
-   "price": 59.98,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 832,
-   "score": 75,
-   "award": null,
-   "best_for": "DEWALT battery owners on a budget.",
-   "bought_last_month": "500+/mo",
-   "verdict": "A third-party brushless ratchet that runs on DEWALT 20V batteries, for about a third of the DCF513B's price. DEWALT doesn't make or warrant it, and the listing says so.",
-   "pros": [
-    "Brushless, 74 ft-lb claimed",
-    "About a third of the DCF513B's price",
-    "Aluminum housing and trigger lock"
-   ],
-   "cons": [
-    "Third-party tool on DEWALT batteries",
-    "Tool only"
-   ],
-   "specs": {
-    "battery": "Takes DEWALT 20V packs",
-    "torque": "74 ft-lb",
-    "speed": "0-250 rpm",
-    "drive": "3/8 in",
-    "in_box": "1/2 and 1/4-in adapters, 3-in extension"
-   },
-   "features": {
-    "kit": false,
-    "brushless": true,
-    "high_torque": true,
-    "extended": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61iAI0xttyL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CWPJ7115?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B0CWPJ7115"
-  },
-  {
-   "rank": 8,
-   "asin": "B0DHVZ3PN8",
-   "name": "Seesii 3/8\" Cordless Electric Ratchet Wrench, 21V, 60 ft-lbs, 2 Batteries",
-   "brand": "Seesii",
-   "model": "21V ratchet",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 429,
-   "score": 75,
-   "award": null,
-   "best_for": "A complete kit with more torque than the 12V sets.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The cheapest kit here, and tied for the most torque among the kits: 60 ft-lb, two batteries, a charger, metric sockets, both drive adapters and a hard case, backed by a 3-year warranty.",
-   "pros": [
-    "60 ft-lb for $59.99",
-    "Full kit with hard case",
-    "3-year warranty"
-   ],
-   "cons": [
-    "Metric sockets only",
-    "Smaller review base"
-   ],
-   "specs": {
-    "battery": "21V (2 x 2.0Ah included)",
-    "torque": "60 ft-lb",
-    "speed": "300 rpm",
-    "drive": "3/8 in",
-    "in_box": "2 batteries, charger, 10-17 mm sockets, 1/4 and 1/2-in adapters, 3-in extension, hard case"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "high_torque": true,
-    "extended": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71-uNhYBqgL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DHVZ3PN8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B0DHVZ3PN8"
-  },
-  {
-   "rank": 9,
-   "asin": "B006GKFWSS",
-   "name": "Milwaukee 2457-21 3/8-in Cordless M12 Lithium-Ion Ratchet Kit",
-   "brand": "Milwaukee",
-   "model": "2457-21",
-   "price": 129.03,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1497,
-   "score": 73,
-   "award": null,
-   "best_for": "Starting on Milwaukee M12.",
-   "bought_last_month": "500+/mo",
-   "verdict": "The M12 ratchet as a kit with a battery, 30-minute charger and case, for getting onto the M12 platform.",
-   "pros": [
-    "M12 battery and charger included",
-    "Reinforced metal housing and trigger",
-    "Fuel gauge and LED"
-   ],
-   "cons": [
-    "$129.03 for a 35 ft-lb ratchet",
-    "One battery"
-   ],
-   "specs": {
-    "battery": "Milwaukee M12 (1 included)",
-    "torque": "35 ft-lb",
-    "speed": "250 rpm",
-    "drive": "3/8 in",
-    "in_box": "M12 battery, 30-minute charger, case"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "high_torque": false,
-    "extended": false
-   },
-   "image": "https://m.media-amazon.com/images/I/612MGcPFgyL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B006GKFWSS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B006GKFWSS"
-  },
-  {
-   "rank": 10,
-   "asin": "B0BNTDD4YX",
-   "name": "WORKPRO 12V 40 Ft-lbs Power Ratchet Wrench Kit with 10-Piece Socket Set, 2.0Ah Batteries",
-   "brand": "WORKPRO",
-   "model": "W125221AE",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 366,
-   "score": 71,
-   "award": null,
-   "best_for": "Extended reach on SAE fasteners.",
-   "bought_last_month": "100+/mo",
-   "verdict": "An extended-head 12V kit with SAE sockets from 11/32 to 11/16 inch, two batteries and a 1-hour charger.",
-   "pros": [
-    "5.7-inch extended head",
-    "8 SAE sockets",
-    "4.5 stars"
-   ],
-   "cons": [
-    "40 ft-lb",
-    "Speed not listed"
-   ],
-   "specs": {
-    "battery": "12V (2 x 2.0Ah included)",
-    "torque": "40 ft-lb",
-    "speed": null,
-    "drive": "3/8 in",
-    "in_box": "2 batteries, 1-hr charger, 8 SAE sockets, adapter, bag"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "high_torque": false,
-    "extended": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81cafpV9P6L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BNTDD4YX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-ratchets.html#B0BNTDD4YX"
   }
  ],
  "avoid": [

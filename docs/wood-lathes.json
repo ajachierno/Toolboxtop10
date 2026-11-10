@@ -21,7 +21,7 @@
    "cast_iron": 0.3,
    "indexing": 0.3
   },
-  "reviews_ceiling": 700,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 260,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -42,7 +42,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 667,
-   "score": 94,
+   "score": 95,
    "award": "Best Overall",
    "best_for": "Bowl and spindle turners ready for a lathe they won't outgrow soon.",
    "bought_last_month": null,
@@ -81,7 +81,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 110,
-   "score": 87,
+   "score": 93,
    "award": null,
    "best_for": "Pen, spindle and small-bowl turners who want quality in a small footprint.",
    "bought_last_month": null,
@@ -120,7 +120,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 91,
-   "score": 86,
+   "score": 91,
    "award": "Money No Object",
    "best_for": "Serious bowl turners who want one lathe for life.",
    "bought_last_month": null,
@@ -151,6 +151,45 @@
   },
   {
    "rank": 4,
+   "asin": "B00OC6WN9Y",
+   "name": "JET 14\" x 40\" Variable Speed Woodworking Lathe, 1 HP, 115/230V (JWL-1440VS)",
+   "brand": "JET",
+   "model": "JWL-1440VS",
+   "price": 1975.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 38,
+   "score": 85,
+   "award": null,
+   "best_for": "Turners who do long spindles and big bowls.",
+   "bought_last_month": null,
+   "verdict": "A full-size floor-capacity lathe with a 40-inch bed, a sliding headstock that pivots to seven positions for outboard bowl turning, and variable speed.",
+   "pros": [
+    "14 x 40 in capacity",
+    "Pivoting, sliding headstock",
+    "Variable speed"
+   ],
+   "cons": [
+    "400 RPM low speed",
+    "Only 38 reviews"
+   ],
+   "specs": {
+    "capacity": "14 x 40 in",
+    "speed": "400-3,000 RPM variable",
+    "motor": "1 HP",
+    "extras": "Sliding, pivoting headstock; spindle index pin; 220 lb"
+   },
+   "features": {
+    "variable_speed": true,
+    "cast_iron": true,
+    "indexing": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61CfijBYZWS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00OC6WN9Y?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wood-lathes.html#B00OC6WN9Y"
+  },
+  {
+   "rank": 5,
    "asin": "B0FH45FQDB",
    "name": "VEVOR Woodworking Lathe, 1 HP, 150-3800 RPM Variable Speed, 12 x 18\", Brushless DC Motor, Cast Iron",
    "brand": "VEVOR",
@@ -189,45 +228,6 @@
    "page_url": "https://toolboxtop10.com/wood-lathes.html#B0FH45FQDB"
   },
   {
-   "rank": 5,
-   "asin": "B00OC6WN9Y",
-   "name": "JET 14\" x 40\" Variable Speed Woodworking Lathe, 1 HP, 115/230V (JWL-1440VS)",
-   "brand": "JET",
-   "model": "JWL-1440VS",
-   "price": 1975.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 38,
-   "score": 80,
-   "award": null,
-   "best_for": "Turners who do long spindles and big bowls.",
-   "bought_last_month": null,
-   "verdict": "A full-size floor-capacity lathe with a 40-inch bed, a sliding headstock that pivots to seven positions for outboard bowl turning, and variable speed.",
-   "pros": [
-    "14 x 40 in capacity",
-    "Pivoting, sliding headstock",
-    "Variable speed"
-   ],
-   "cons": [
-    "400 RPM low speed",
-    "Only 38 reviews"
-   ],
-   "specs": {
-    "capacity": "14 x 40 in",
-    "speed": "400-3,000 RPM variable",
-    "motor": "1 HP",
-    "extras": "Sliding, pivoting headstock; spindle index pin; 220 lb"
-   },
-   "features": {
-    "variable_speed": true,
-    "cast_iron": true,
-    "indexing": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61CfijBYZWS._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00OC6WN9Y?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wood-lathes.html#B00OC6WN9Y"
-  },
-  {
    "rank": 6,
    "asin": "B0B6YDYVZD",
    "name": "WEN LA3421 Mini Benchtop Wood Lathe, 8-Inch by 13-Inch, Variable Speed",
@@ -237,7 +237,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 269,
-   "score": 77,
+   "score": 82,
    "award": "Best Budget",
    "best_for": "Beginners turning pens and small projects.",
    "bought_last_month": null,
@@ -276,7 +276,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 110,
-   "score": 73,
+   "score": 79,
    "award": null,
    "best_for": "Bowl turners who want more swing than a midi lathe for less than JET.",
    "bought_last_month": null,
@@ -315,7 +315,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 100,
-   "score": 72,
+   "score": 78,
    "award": null,
    "best_for": "Pen turners and hobbyists with no shop space.",
    "bought_last_month": "50+/mo",
@@ -354,7 +354,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 298,
-   "score": 71,
+   "score": 76,
    "award": null,
    "best_for": "Beginners who want more capacity than a mini lathe.",
    "bought_last_month": null,
@@ -393,7 +393,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 604,
-   "score": 69,
+   "score": 70,
    "award": null,
    "best_for": "Turning spindles, pens and table legs on a tight budget.",
    "bought_last_month": null,

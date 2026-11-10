@@ -22,7 +22,7 @@
    "flex_shaft": 0.25,
    "big_kit": 0.25
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 25,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,170 +35,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B01M1SJNVU",
-   "name": "Dremel 4300-5/40 Rotary Tool Kit w/LED Light, 5 Attachments, 40 Accessories",
-   "brand": "Dremel",
-   "model": "4300-5/40",
-   "price": 98.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 9277,
-   "score": 85,
-   "award": "Money No Object",
-   "best_for": "Heavy users who swap bits all day.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "Dremel's top corded tool: its most powerful motor with electronic feedback, a universal 3-jaw chuck that takes every Dremel shank size without changing collets, a pivoting LED light, ball bearings and replaceable brushes.",
-   "pros": [
-    "3-jaw chuck takes any Dremel shank",
-    "Pivot light attachment",
-    "9,277 reviews at 4.7 stars; replaceable brushes"
-   ],
-   "cons": [
-    "$98.99",
-    "Motor amperage not listed"
-   ],
-   "specs": {
-    "speed": "5,000-35,000 rpm, variable",
-    "motor": "Dremel's most powerful corded",
-    "chuck": "Universal 3-jaw chuck",
-    "kit": "5 attachments, 40 accessories, bag",
-    "weight": "1.2 lb"
-   },
-   "features": {
-    "electronic_speed": true,
-    "keyless_chuck": true,
-    "flex_shaft": false,
-    "big_kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51mMEAVou0L._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01M1SJNVU?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B01M1SJNVU"
-  },
-  {
-   "rank": 2,
-   "asin": "B003BYRFH8",
-   "name": "WEN 2305 Rotary Tool Kit with Flex Shaft",
-   "brand": "WEN",
-   "model": "2305",
-   "price": 21.5,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 17506,
-   "score": 84,
-   "award": "Best Budget",
-   "best_for": "Occasional cutting, sanding and polishing on a budget.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The most-reviewed and cheapest rotary tool here: variable speed, a spindle lock, a flex shaft and 80 accessories for about $22.",
-   "pros": [
-    "17,506 reviews",
-    "Flex shaft and 80 accessories",
-    "$21.50"
-   ],
-   "cons": [
-    "Motor rating not listed",
-    "30,000 rpm top speed"
-   ],
-   "specs": {
-    "speed": "8,000-30,000 rpm, variable",
-    "motor": null,
-    "chuck": "2.3 and 3.2 mm collets",
-    "kit": "Flex shaft, 80 accessories",
-    "weight": "3.6 lb (kit)"
-   },
-   "features": {
-    "electronic_speed": false,
-    "keyless_chuck": false,
-    "flex_shaft": true,
-    "big_kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/91BEKi9aGqL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B003BYRFH8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B003BYRFH8"
-  },
-  {
-   "rank": 3,
-   "asin": "B0D2W2RP3Q",
-   "name": "DEKOPRO Rotary Tool Kit, 1.5-Amp, 42\" Flex Shaft, 6 Variable Speed, 8,000-35,000 RPM, 129 Pcs Accessories",
-   "brand": "DEKOPRO",
-   "model": "DKRT170Y1",
-   "price": 31.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2146,
-   "score": 81,
-   "award": null,
-   "best_for": "The most complete budget kit: chuck, guard, locator and flex shaft.",
-   "bought_last_month": "500+/mo",
-   "verdict": "A 1.5A kit with a 3-jaw chuck as well as collets, a 42-inch flex shaft, a cutting guard, a drill locator, an assist handle and 129 accessories in a case.",
-   "pros": [
-    "3-jaw chuck plus 4 collets",
-    "Cutting guard, drill locator and assist handle",
-    "129 accessories and a case"
-   ],
-   "cons": [
-    "4.4 stars",
-    "Spec table lists 220 volts; the title and kit are US-plug"
-   ],
-   "specs": {
-    "speed": "8,000-35,000 rpm, 6 speeds",
-    "motor": "1.5 A",
-    "chuck": "3-jaw chuck plus 4 collets",
-    "kit": "42-in flex shaft, 129 accessories, cutting guard, drill locator, case",
-    "weight": null
-   },
-   "features": {
-    "electronic_speed": false,
-    "keyless_chuck": true,
-    "flex_shaft": true,
-    "big_kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71tcUaJUWEL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D2W2RP3Q?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0D2W2RP3Q"
-  },
-  {
-   "rank": 4,
-   "asin": "B09QXBC6XL",
-   "name": "PHALANX 180W Rotary Tool Kit, 1.5-Amp, 6 Variable Speed, Flex Shaft, 8000-32000RPM, 139pcs Accessories",
-   "brand": "PHALANX",
-   "model": "180W",
-   "price": 37.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 4019,
-   "score": 79,
-   "award": null,
-   "best_for": "A big kit with a stronger motor than the WENs.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "One of the best-selling rotary kits: a 1.5A motor, six speeds, four collet sizes, a flex shaft and 139 accessories.",
-   "pros": [
-    "2,000+ sold last month",
-    "1.5A, 180 W",
-    "139 accessories and flex shaft"
-   ],
-   "cons": [
-    "Chuck needs a wrench, per the listing",
-    "8,000 rpm minimum"
-   ],
-   "specs": {
-    "speed": "8,000-32,000 rpm, 6 speeds",
-    "motor": "1.5 A, 180 W",
-    "chuck": "4 collets",
-    "kit": "Flex shaft, 139 accessories",
-    "weight": null
-   },
-   "features": {
-    "electronic_speed": false,
-    "keyless_chuck": false,
-    "flex_shaft": true,
-    "big_kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71j7l2CMjvL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09QXBC6XL?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B09QXBC6XL"
-  },
-  {
-   "rank": 5,
    "asin": "B0GTYM1QHG",
    "name": "PHALANX 200W Rotary Tool Kit, 10000-38000 RPM 6 Speed, Flex Shaft & 132pcs Accessories (PDM-160D)",
    "brand": "PHALANX",
@@ -207,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 109,
-   "score": 75,
+   "score": 91,
    "award": null,
    "best_for": "A budget kit with a keyless chuck.",
    "bought_last_month": "1K+/mo",
@@ -239,48 +75,171 @@
    "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0GTYM1QHG"
   },
   {
-   "rank": 6,
-   "asin": "B0CWBM23HD",
-   "name": "Dremel 4000-2/32 Rotary Tool Kit, Engraver, Polisher & Sander",
-   "brand": "Dremel",
-   "model": "4000-2/32",
-   "price": 80.6,
+   "rank": 2,
+   "asin": "B0D2W2RP3Q",
+   "name": "DEKOPRO Rotary Tool Kit, 1.5-Amp, 42\" Flex Shaft, 6 Variable Speed, 8,000-35,000 RPM, 129 Pcs Accessories",
+   "brand": "DEKOPRO",
+   "model": "DKRT170Y1",
+   "price": 31.99,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 897,
-   "score": 72,
-   "award": "Best Overall",
-   "best_for": "Regular use on metal, wood and plastic with the full Dremel accessory range.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The rotary tool to buy if you'll use it for years: a 1.6A motor with electronic speed control that holds rpm under load, a 360-degree grip and access to Dremel's full range of attachments and accessories.",
+   "rating": 4.4,
+   "reviews_count": 2146,
+   "score": 89,
+   "award": null,
+   "best_for": "The most complete budget kit: chuck, guard, locator and flex shaft.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A 1.5A kit with a 3-jaw chuck as well as collets, a 42-inch flex shaft, a cutting guard, a drill locator, an assist handle and 129 accessories in a case.",
    "pros": [
-    "1.6A with electronic speed control",
-    "5,000 rpm low end for plastics and polishing",
-    "2,000+ sold last month; 4.7 stars"
+    "3-jaw chuck plus 4 collets",
+    "Cutting guard, drill locator and assist handle",
+    "129 accessories and a case"
    ],
    "cons": [
-    "Only 32 accessories",
-    "Collets, not a keyless chuck"
+    "4.4 stars",
+    "Spec table lists 220 volts; the title and kit are US-plug"
+   ],
+   "specs": {
+    "speed": "8,000-35,000 rpm, 6 speeds",
+    "motor": "1.5 A",
+    "chuck": "3-jaw chuck plus 4 collets",
+    "kit": "42-in flex shaft, 129 accessories, cutting guard, drill locator, case",
+    "weight": null
+   },
+   "features": {
+    "electronic_speed": false,
+    "keyless_chuck": true,
+    "flex_shaft": true,
+    "big_kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71tcUaJUWEL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D2W2RP3Q?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0D2W2RP3Q"
+  },
+  {
+   "rank": 3,
+   "asin": "B01M1SJNVU",
+   "name": "Dremel 4300-5/40 Rotary Tool Kit w/LED Light, 5 Attachments, 40 Accessories",
+   "brand": "Dremel",
+   "model": "4300-5/40",
+   "price": 98.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 9277,
+   "score": 87,
+   "award": "Money No Object",
+   "best_for": "Heavy users who swap bits all day.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "Dremel's top corded tool: its most powerful motor with electronic feedback, a universal 3-jaw chuck that takes every Dremel shank size without changing collets, a pivoting LED light, ball bearings and replaceable brushes.",
+   "pros": [
+    "3-jaw chuck takes any Dremel shank",
+    "Pivot light attachment",
+    "9,277 reviews at 4.7 stars; replaceable brushes"
+   ],
+   "cons": [
+    "$98.99",
+    "Motor amperage not listed"
    ],
    "specs": {
     "speed": "5,000-35,000 rpm, variable",
-    "motor": "1.6 A",
-    "chuck": "Dremel collets",
-    "kit": "2 attachments, 32 accessories",
-    "weight": "3 lb (kit)"
+    "motor": "Dremel's most powerful corded",
+    "chuck": "Universal 3-jaw chuck",
+    "kit": "5 attachments, 40 accessories, bag",
+    "weight": "1.2 lb"
    },
    "features": {
     "electronic_speed": true,
-    "keyless_chuck": false,
+    "keyless_chuck": true,
     "flex_shaft": false,
     "big_kit": false
    },
-   "image": "https://m.media-amazon.com/images/I/61e1VKlLfML._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CWBM23HD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0CWBM23HD"
+   "image": "https://m.media-amazon.com/images/I/51mMEAVou0L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01M1SJNVU?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B01M1SJNVU"
   },
   {
-   "rank": 7,
+   "rank": 4,
+   "asin": "B003BYRFH8",
+   "name": "WEN 2305 Rotary Tool Kit with Flex Shaft",
+   "brand": "WEN",
+   "model": "2305",
+   "price": 21.5,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 17506,
+   "score": 85,
+   "award": "Best Budget",
+   "best_for": "Occasional cutting, sanding and polishing on a budget.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The most-reviewed and cheapest rotary tool here: variable speed, a spindle lock, a flex shaft and 80 accessories for about $22.",
+   "pros": [
+    "17,506 reviews",
+    "Flex shaft and 80 accessories",
+    "$21.50"
+   ],
+   "cons": [
+    "Motor rating not listed",
+    "30,000 rpm top speed"
+   ],
+   "specs": {
+    "speed": "8,000-30,000 rpm, variable",
+    "motor": null,
+    "chuck": "2.3 and 3.2 mm collets",
+    "kit": "Flex shaft, 80 accessories",
+    "weight": "3.6 lb (kit)"
+   },
+   "features": {
+    "electronic_speed": false,
+    "keyless_chuck": false,
+    "flex_shaft": true,
+    "big_kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/91BEKi9aGqL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B003BYRFH8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B003BYRFH8"
+  },
+  {
+   "rank": 5,
+   "asin": "B09QXBC6XL",
+   "name": "PHALANX 180W Rotary Tool Kit, 1.5-Amp, 6 Variable Speed, Flex Shaft, 8000-32000RPM, 139pcs Accessories",
+   "brand": "PHALANX",
+   "model": "180W",
+   "price": 37.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 4019,
+   "score": 85,
+   "award": null,
+   "best_for": "A big kit with a stronger motor than the WENs.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "One of the best-selling rotary kits: a 1.5A motor, six speeds, four collet sizes, a flex shaft and 139 accessories.",
+   "pros": [
+    "2,000+ sold last month",
+    "1.5A, 180 W",
+    "139 accessories and flex shaft"
+   ],
+   "cons": [
+    "Chuck needs a wrench, per the listing",
+    "8,000 rpm minimum"
+   ],
+   "specs": {
+    "speed": "8,000-32,000 rpm, 6 speeds",
+    "motor": "1.5 A, 180 W",
+    "chuck": "4 collets",
+    "kit": "Flex shaft, 139 accessories",
+    "weight": null
+   },
+   "features": {
+    "electronic_speed": false,
+    "keyless_chuck": false,
+    "flex_shaft": true,
+    "big_kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71j7l2CMjvL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09QXBC6XL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B09QXBC6XL"
+  },
+  {
+   "rank": 6,
    "asin": "B0FH1MPWWC",
    "name": "DEKOPRO 1.4-Amp Rotary Tool Kit with 6 Variable Speed, 127pcs Accessories, 8000~35000RPM, Flex Shaft",
    "brand": "DEKOPRO",
@@ -289,7 +248,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 202,
-   "score": 69,
+   "score": 84,
    "award": null,
    "best_for": "Beginners who want a two-handed grip and a full kit for about $30.",
    "bought_last_month": "200+/mo",
@@ -321,7 +280,7 @@
    "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0FH1MPWWC"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "asin": "B0G8JRYFBD",
    "name": "HYCHIKA 8000-35000 RPM Variable Speed Rotary Tool Kit with 179 Pcs Accessories, 180W, Flex Shaft",
    "brand": "HYCHIKA",
@@ -330,7 +289,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 90,
-   "score": 68,
+   "score": 84,
    "award": null,
    "best_for": "Sharpening a chainsaw as well as general rotary work.",
    "bought_last_month": "200+/mo",
@@ -362,6 +321,47 @@
    "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0G8JRYFBD"
   },
   {
+   "rank": 8,
+   "asin": "B0CWBM23HD",
+   "name": "Dremel 4000-2/32 Rotary Tool Kit, Engraver, Polisher & Sander",
+   "brand": "Dremel",
+   "model": "4000-2/32",
+   "price": 80.6,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 897,
+   "score": 83,
+   "award": "Best Overall",
+   "best_for": "Regular use on metal, wood and plastic with the full Dremel accessory range.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The rotary tool to buy if you'll use it for years: a 1.6A motor with electronic speed control that holds rpm under load, a 360-degree grip and access to Dremel's full range of attachments and accessories.",
+   "pros": [
+    "1.6A with electronic speed control",
+    "5,000 rpm low end for plastics and polishing",
+    "2,000+ sold last month; 4.7 stars"
+   ],
+   "cons": [
+    "Only 32 accessories",
+    "Collets, not a keyless chuck"
+   ],
+   "specs": {
+    "speed": "5,000-35,000 rpm, variable",
+    "motor": "1.6 A",
+    "chuck": "Dremel collets",
+    "kit": "2 attachments, 32 accessories",
+    "weight": "3 lb (kit)"
+   },
+   "features": {
+    "electronic_speed": true,
+    "keyless_chuck": false,
+    "flex_shaft": false,
+    "big_kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61e1VKlLfML._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CWBM23HD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-rotary-tools.html#B0CWBM23HD"
+  },
+  {
    "rank": 9,
    "asin": "B0CWBLTK5Y",
    "name": "Dremel 3100-1/15 Rotary Tool Kit with 1 Attachment and 15 Accessories",
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 859,
-   "score": 65,
+   "score": 76,
    "award": null,
    "best_for": "A real Dremel for crafts and light DIY.",
    "bought_last_month": "1K+/mo",
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 653,
-   "score": 63,
+   "score": 75,
    "award": null,
    "best_for": "A simple, well-rated budget tool without a flex shaft.",
    "bought_last_month": "600+/mo",

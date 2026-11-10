@@ -22,7 +22,7 @@
    "nut_driver": 0.25,
    "case": 0.2
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 10,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -77,6 +77,48 @@
   },
   {
    "rank": 2,
+   "asin": "B07RGBWH6H",
+   "name": "Amartisan 43-Piece Magnetic Screwdriver Set with Case",
+   "brand": "Amartisan",
+   "model": "43-Piece",
+   "price": 17.21,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 5081,
+   "score": 87,
+   "award": null,
+   "best_for": "One box for household jobs and electronics, with a case.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The do-it-all kit. Full-size drivers plus a precision set covering slotted, Phillips, hex, Pozidriv, and Torx, with a magnetizer/demagnetizer tool and a storage case. One box that handles both household jobs and electronics.",
+   "pros": [
+    "Covers five tip types plus precision sizes",
+    "Includes a magnetizer/demagnetizer tool",
+    "Comes with an organized storage case",
+    "Strong value for a 43-piece kit"
+   ],
+   "cons": [
+    "Individual drivers are lighter-duty than a pro set",
+    "Case takes up more space",
+    "Off-brand for hard daily use"
+   ],
+   "specs": {
+    "pieces": "43",
+    "types": "Slotted, Phillips, Hex, Pozidriv, Torx + precision",
+    "handle": "Anti-slip",
+    "style": "Fixed + precision, with case"
+   },
+   "features": {
+    "magnetic": true,
+    "ratcheting": false,
+    "nut_driver": false,
+    "case": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81aQY6iSGKL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07RGBWH6H?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/screwdrivers.html#B07RGBWH6H"
+  },
+  {
+   "rank": 3,
    "asin": "B0015SBILG",
    "name": "Klein Tools 32500 11-in-1 Screwdriver / Nut Driver Set",
    "brand": "Klein Tools",
@@ -118,48 +160,6 @@
    "page_url": "https://toolboxtop10.com/screwdrivers.html#B0015SBILG"
   },
   {
-   "rank": 3,
-   "asin": "B07RGBWH6H",
-   "name": "Amartisan 43-Piece Magnetic Screwdriver Set with Case",
-   "brand": "Amartisan",
-   "model": "43-Piece",
-   "price": 17.21,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 5081,
-   "score": 82,
-   "award": null,
-   "best_for": "One box for household jobs and electronics, with a case.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The do-it-all kit. Full-size drivers plus a precision set covering slotted, Phillips, hex, Pozidriv, and Torx, with a magnetizer/demagnetizer tool and a storage case. One box that handles both household jobs and electronics.",
-   "pros": [
-    "Covers five tip types plus precision sizes",
-    "Includes a magnetizer/demagnetizer tool",
-    "Comes with an organized storage case",
-    "Strong value for a 43-piece kit"
-   ],
-   "cons": [
-    "Individual drivers are lighter-duty than a pro set",
-    "Case takes up more space",
-    "Off-brand for hard daily use"
-   ],
-   "specs": {
-    "pieces": "43",
-    "types": "Slotted, Phillips, Hex, Pozidriv, Torx + precision",
-    "handle": "Anti-slip",
-    "style": "Fixed + precision, with case"
-   },
-   "features": {
-    "magnetic": true,
-    "ratcheting": false,
-    "nut_driver": false,
-    "case": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81aQY6iSGKL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07RGBWH6H?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/screwdrivers.html#B07RGBWH6H"
-  },
-  {
    "rank": 4,
    "asin": "B07RFD9JWZ",
    "name": "Amartisan 10-Piece Magnetic Screwdriver Set",
@@ -169,7 +169,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 13222,
-   "score": 81,
+   "score": 82,
    "award": "Best Budget",
    "best_for": "A cheap magnetic starter set for the drawer.",
    "bought_last_month": "6K+/mo",
@@ -211,7 +211,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 6830,
-   "score": 79,
+   "score": 82,
    "award": null,
    "best_for": "The six sizes you use most, for a car or first tool kit.",
    "bought_last_month": "3K+/mo",
@@ -253,7 +253,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 7797,
-   "score": 78,
+   "score": 81,
    "award": null,
    "best_for": "Four fastener types and a ratchet for about $16.",
    "bought_last_month": "2K+/mo",
@@ -287,6 +287,48 @@
   },
   {
    "rank": 7,
+   "asin": "B0007ZA29C",
+   "name": "Klein Tools 85076 Screwdriver Set, Made in USA, 7-Piece",
+   "brand": "Klein Tools",
+   "model": "85076",
+   "price": 49.47,
+   "currency": "USD",
+   "rating": 4.9,
+   "reviews_count": 1476,
+   "score": 79,
+   "award": "Money No Object",
+   "best_for": "A buy-it-for-life set of dedicated drivers made in the USA.",
+   "bought_last_month": "700+/mo",
+   "verdict": "The buy-it-for-life set. Seven individual American-made drivers with Klein's Tip-Ident handles so you can spot the size at a glance. Dedicated drivers beat a multi-bit for grip and torque, and these are built to outlast the job.",
+   "pros": [
+    "Made in the USA with a lifetime reputation",
+    "Individual drivers give more torque and control than a multi-bit",
+    "Tip-Ident handles show the size at a glance",
+    "Precision-machined tips resist cam-out"
+   ],
+   "cons": [
+    "Priciest set here",
+    "Only 7 drivers — no Torx or square",
+    "Takes up more room than one multi-bit tool"
+   ],
+   "specs": {
+    "pieces": "7",
+    "types": "Slotted, Phillips (Tip-Ident)",
+    "handle": "Cushion grip",
+    "style": "Fixed, individual drivers"
+   },
+   "features": {
+    "magnetic": false,
+    "ratcheting": false,
+    "nut_driver": false,
+    "case": false
+   },
+   "image": "https://m.media-amazon.com/images/I/511Qj5iPOPL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0007ZA29C?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/screwdrivers.html#B0007ZA29C"
+  },
+  {
+   "rank": 8,
    "asin": "B07QK2PFKY",
    "name": "CRAFTSMAN Screwdriver Set, Assorted, 12-Piece (CMHT65044)",
    "brand": "CRAFTSMAN",
@@ -295,7 +337,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 7492,
-   "score": 75,
+   "score": 78,
    "award": null,
    "best_for": "Household and shop work with a full range of fixed drivers.",
    "bought_last_month": "500+/mo",
@@ -328,7 +370,7 @@
    "page_url": "https://toolboxtop10.com/screwdrivers.html#B07QK2PFKY"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "asin": "B07QRCNT6L",
    "name": "CRAFTSMAN Screwdriver Set, Assorted, 25-Piece (CMHT65046)",
    "brand": "CRAFTSMAN",
@@ -337,7 +379,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 3712,
-   "score": 72,
+   "score": 78,
    "award": null,
    "best_for": "One set of 25 fixed drivers that covers almost every screw.",
    "bought_last_month": "200+/mo",
@@ -370,7 +412,7 @@
    "page_url": "https://toolboxtop10.com/screwdrivers.html#B07QRCNT6L"
   },
   {
-   "rank": 9,
+   "rank": 10,
    "asin": "B0B39PHCVZ",
    "name": "CRAFTSMAN Screwdriver Set, Bi-Material, 8 Piece Set (CMHT65075N)",
    "brand": "CRAFTSMAN",
@@ -379,7 +421,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2065,
-   "score": 70,
+   "score": 78,
    "award": null,
    "best_for": "Stocking a first toolbox with the common Phillips and slotted sizes.",
    "bought_last_month": "2K+/mo",
@@ -410,48 +452,6 @@
    "image": "https://m.media-amazon.com/images/I/71nNFMGb7+L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0B39PHCVZ?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/screwdrivers.html#B0B39PHCVZ"
-  },
-  {
-   "rank": 10,
-   "asin": "B0007ZA29C",
-   "name": "Klein Tools 85076 Screwdriver Set, Made in USA, 7-Piece",
-   "brand": "Klein Tools",
-   "model": "85076",
-   "price": 49.47,
-   "currency": "USD",
-   "rating": 4.9,
-   "reviews_count": 1476,
-   "score": 70,
-   "award": "Money No Object",
-   "best_for": "A buy-it-for-life set of dedicated drivers made in the USA.",
-   "bought_last_month": "700+/mo",
-   "verdict": "The buy-it-for-life set. Seven individual American-made drivers with Klein's Tip-Ident handles so you can spot the size at a glance. Dedicated drivers beat a multi-bit for grip and torque, and these are built to outlast the job.",
-   "pros": [
-    "Made in the USA with a lifetime reputation",
-    "Individual drivers give more torque and control than a multi-bit",
-    "Tip-Ident handles show the size at a glance",
-    "Precision-machined tips resist cam-out"
-   ],
-   "cons": [
-    "Priciest set here",
-    "Only 7 drivers — no Torx or square",
-    "Takes up more room than one multi-bit tool"
-   ],
-   "specs": {
-    "pieces": "7",
-    "types": "Slotted, Phillips (Tip-Ident)",
-    "handle": "Cushion grip",
-    "style": "Fixed, individual drivers"
-   },
-   "features": {
-    "magnetic": false,
-    "ratcheting": false,
-    "nut_driver": false,
-    "case": false
-   },
-   "image": "https://m.media-amazon.com/images/I/511Qj5iPOPL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0007ZA29C?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/screwdrivers.html#B0007ZA29C"
   }
  ],
  "avoid": [

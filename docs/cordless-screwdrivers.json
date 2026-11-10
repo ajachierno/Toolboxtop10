@@ -22,61 +22,19 @@
    "pivoting_grip": 0.2,
    "bit_set": 0.3
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
   "best_overall": "B0CGLPL4PS",
-  "best_budget": "B09PFCX8Q1",
+  "best_budget": "B0BLMQ8BXB",
   "money_no_object": "B00BYFN9FI"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B0812ZHY5N",
-   "name": "ENERTWIST 8V Cordless Screwdriver, 82 Accessory Kit, Max 10Nm, 21+1 Clutch (ET-CS-8)",
-   "brand": "ENERTWIST",
-   "model": "ET-CS-8",
-   "price": 41.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 5725,
-   "score": 90,
-   "award": null,
-   "best_for": "Wood screws and light drilling, with more than double the torque of the 4V drivers.",
-   "bought_last_month": "600+/mo",
-   "verdict": "The most powerful screwdriver here: an 8V driver with 88 in-lb, a 21-position clutch plus drill mode, a handle that switches between in-line and pistol grip, and 82 accessories in a case.",
-   "pros": [
-    "88 in-lb, the most here",
-    "21 clutch settings plus drill mode",
-    "Two-position handle; 82 accessories and a case"
-   ],
-   "cons": [
-    "4.3 stars, the lowest here",
-    "11 in long, bulkier than the 4V drivers"
-   ],
-   "specs": {
-    "voltage": "8V",
-    "torque": "88 in-lb",
-    "speed": "230 rpm",
-    "torque_settings": "21 + drill",
-    "charging": "Charger included",
-    "in_box": "82 accessories, flex shaft, case"
-   },
-   "features": {
-    "adjustable_torque": true,
-    "led": true,
-    "pivoting_grip": true,
-    "bit_set": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71KgUQj2epL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0812ZHY5N?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B0812ZHY5N"
-  },
-  {
-   "rank": 2,
    "asin": "B0CGLPL4PS",
    "name": "SKIL Twist 2.0 Rechargeable 4V Screwdriver, Pivoting Head, Torque Setting, USB-C, 28 PC Bit Set & Case (SD5619-02)",
    "brand": "SKIL",
@@ -85,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1922,
-   "score": 90,
+   "score": 97,
    "award": "Best Overall",
    "best_for": "The most complete 4V kit: pivoting head, torque settings and 28 bits.",
    "bought_last_month": "2K+/mo",
@@ -119,49 +77,49 @@
    "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B0CGLPL4PS"
   },
   {
-   "rank": 3,
-   "asin": "B09PFCX8Q1",
-   "name": "Amazon Basics by SKIL 4V Cordless Stick Screwdriver with 10-Piece Bit Set, USB Cable, LED, 3 Torque Settings",
-   "brand": "Amazon Basics",
-   "model": "ASD2401-01",
-   "price": 24.97,
+   "rank": 2,
+   "asin": "B0812ZHY5N",
+   "name": "ENERTWIST 8V Cordless Screwdriver, 82 Accessory Kit, Max 10Nm, 21+1 Clutch (ET-CS-8)",
+   "brand": "ENERTWIST",
+   "model": "ET-CS-8",
+   "price": 41.99,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 4831,
-   "score": 86,
-   "award": "Best Budget",
-   "best_for": "Tight spots: a slim stick driver with torque settings for about $25.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A slim stick screwdriver made by SKIL under the Amazon Basics name, with three torque settings, an LED and nine bits for about $25. Slim enough to reach into cabinets.",
+   "rating": 4.3,
+   "reviews_count": 5725,
+   "score": 94,
+   "award": null,
+   "best_for": "Wood screws and light drilling, with more than double the torque of the 4V drivers.",
+   "bought_last_month": "600+/mo",
+   "verdict": "The most powerful screwdriver here: an 8V driver with 88 in-lb, a 21-position clutch plus drill mode, a handle that switches between in-line and pistol grip, and 82 accessories in a case.",
    "pros": [
-    "3 torque settings and an LED at the lowest price here",
-    "Slim stick shape",
-    "USB-C charging port"
+    "88 in-lb, the most here",
+    "21 clutch settings plus drill mode",
+    "Two-position handle; 82 accessories and a case"
    ],
    "cons": [
-    "22 in-lb, light for wood screws",
-    "Won't charge from a USB-C to USB-C cable, per the listing"
+    "4.3 stars, the lowest here",
+    "11 in long, bulkier than the 4V drivers"
    ],
    "specs": {
-    "voltage": "4V",
-    "torque": "22 in-lb",
-    "speed": "300 rpm",
-    "torque_settings": "3",
-    "charging": "USB-C (USB-A cable)",
-    "in_box": "9 bits, bit holder, cable"
+    "voltage": "8V",
+    "torque": "88 in-lb",
+    "speed": "230 rpm",
+    "torque_settings": "21 + drill",
+    "charging": "Charger included",
+    "in_box": "82 accessories, flex shaft, case"
    },
    "features": {
     "adjustable_torque": true,
     "led": true,
-    "pivoting_grip": false,
+    "pivoting_grip": true,
     "bit_set": true
    },
-   "image": "https://m.media-amazon.com/images/I/71fiDqIm5-L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09PFCX8Q1?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B09PFCX8Q1"
+   "image": "https://m.media-amazon.com/images/I/71KgUQj2epL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0812ZHY5N?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B0812ZHY5N"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B0BLMQ8BXB",
    "name": "HOTO 25-Piece Upgraded Electric Screwdriver Kit, Cordless Screwdriver (QWLSD011)",
    "brand": "HOTO",
@@ -170,8 +128,8 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 2627,
-   "score": 86,
-   "award": null,
+   "score": 92,
+   "award": "Best Budget",
    "best_for": "Furniture and gadget repairs with 25 bits, including Torx and tri-wing.",
    "bought_last_month": "10K+/mo",
    "verdict": "The best seller on the page by far, with 10,000+ sold last month: a pen-style driver with three torque settings, a shadowless ring light and 25 hardened bits in a magnetic case. A popular gift.",
@@ -203,6 +161,48 @@
    "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B0BLMQ8BXB"
   },
   {
+   "rank": 4,
+   "asin": "B09PFCX8Q1",
+   "name": "Amazon Basics by SKIL 4V Cordless Stick Screwdriver with 10-Piece Bit Set, USB Cable, LED, 3 Torque Settings",
+   "brand": "Amazon Basics",
+   "model": "ASD2401-01",
+   "price": 24.97,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 4831,
+   "score": 91,
+   "award": null,
+   "best_for": "Tight spots: a slim stick driver with torque settings for about $25.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A slim stick screwdriver made by SKIL under the Amazon Basics name, with three torque settings, an LED and nine bits for about $25. Slim enough to reach into cabinets.",
+   "pros": [
+    "3 torque settings and an LED at the lowest price here",
+    "Slim stick shape",
+    "USB-C charging port"
+   ],
+   "cons": [
+    "22 in-lb, light for wood screws",
+    "Won't charge from a USB-C to USB-C cable, per the listing"
+   ],
+   "specs": {
+    "voltage": "4V",
+    "torque": "22 in-lb",
+    "speed": "300 rpm",
+    "torque_settings": "3",
+    "charging": "USB-C (USB-A cable)",
+    "in_box": "9 bits, bit holder, cable"
+   },
+   "features": {
+    "adjustable_torque": true,
+    "led": true,
+    "pivoting_grip": false,
+    "bit_set": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71fiDqIm5-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09PFCX8Q1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B09PFCX8Q1"
+  },
+  {
    "rank": 5,
    "asin": "B0DV3XNC3C",
    "name": "WORX Cordless Screwdriver, 4V, 30-Piece Accessory Kit (WX242L)",
@@ -212,7 +212,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2911,
-   "score": 85,
+   "score": 91,
    "award": null,
    "best_for": "Mixed jobs, from electronics to furniture, with 7 torque settings.",
    "bought_last_month": "800+/mo",
@@ -246,6 +246,49 @@
   },
   {
    "rank": 6,
+   "asin": "B0DJBQ9ZBF",
+   "name": "DEWALT Cordless Screwdriver, 4V USB Rechargeable, 12 Bits, LED, FLEXDRIVE Control (DWHT66719)",
+   "brand": "DEWALT",
+   "model": "DWHT66719",
+   "price": 80.49,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2346,
+   "score": 91,
+   "award": null,
+   "best_for": "Trades use: a screwdriver-shaped power driver with 6 torque stages and a 3-year warranty.",
+   "bought_last_month": "4K+/mo",
+   "verdict": "DEWALT's 4V screwdriver, shaped like a manual screwdriver and driven by sliding a collar instead of pressing a button. Six torque stages, soft start, a 2Ah battery DEWALT rates at 680 screws per charge, and a 3-year warranty.",
+   "pros": [
+    "6-stage torque and soft start",
+    "360 rpm, the fastest 4V here",
+    "FLEXDRIVE slide collar works from any grip angle",
+    "3-year limited warranty"
+   ],
+   "cons": [
+    "$79.48, about three times the SKIL",
+    "Straight body only"
+   ],
+   "specs": {
+    "voltage": "4V",
+    "torque": "44 in-lb; 124 in-lb by hand",
+    "speed": "360 rpm",
+    "torque_settings": "6",
+    "charging": "USB, 60 min",
+    "in_box": "12 bits, cable"
+   },
+   "features": {
+    "adjustable_torque": true,
+    "led": true,
+    "pivoting_grip": false,
+    "bit_set": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61qoLUXIm5L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DJBQ9ZBF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B0DJBQ9ZBF"
+  },
+  {
+   "rank": 7,
    "asin": "B0753F9HK9",
    "name": "BLACK+DECKER Cordless Screwdriver with LED Light, 4V MAX, 2 Bits (BDCSFL20C)",
    "brand": "BLACK+DECKER",
@@ -288,50 +331,50 @@
    "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B0753F9HK9"
   },
   {
-   "rank": 7,
-   "asin": "B0DJBQ9ZBF",
-   "name": "DEWALT Cordless Screwdriver, 4V USB Rechargeable, 12 Bits, LED, FLEXDRIVE Control (DWHT66719)",
-   "brand": "DEWALT",
-   "model": "DWHT66719",
-   "price": 80.49,
+   "rank": 8,
+   "asin": "B07F23B9FH",
+   "name": "SKIL Rechargeable 4V Cordless Screwdriver, 9pcs Bit, Bit Holder, USB Charging Cable (SD561801)",
+   "brand": "SKIL",
+   "model": "SD561801",
+   "price": 24.98,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2346,
-   "score": 84,
+   "rating": 4.6,
+   "reviews_count": 9133,
+   "score": 82,
    "award": null,
-   "best_for": "Trades use: a screwdriver-shaped power driver with 6 torque stages and a 3-year warranty.",
-   "bought_last_month": "4K+/mo",
-   "verdict": "DEWALT's 4V screwdriver, shaped like a manual screwdriver and driven by sliding a collar instead of pressing a button. Six torque stages, soft start, a 2Ah battery DEWALT rates at 680 screws per charge, and a 3-year warranty.",
+   "best_for": "Most homes: a proven, cheap power screwdriver with a 5-year warranty.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The best-selling name-brand power screwdriver on Amazon for years: a pistol-grip 4V driver with 36 in-lb of torque, nine bits and a magnetic holder, and a 5-year warranty, for about $25.",
    "pros": [
-    "6-stage torque and soft start",
-    "360 rpm, the fastest 4V here",
-    "FLEXDRIVE slide collar works from any grip angle",
-    "3-year limited warranty"
+    "9,133 reviews at 4.6 stars",
+    "36 in-lb, more than most 4V drivers here",
+    "5-year limited warranty"
    ],
    "cons": [
-    "$79.48, about three times the SKIL",
-    "Straight body only"
+    "No adjustable torque, so it can strip small screws",
+    "Micro USB, not USB-C",
+    "No LED"
    ],
    "specs": {
     "voltage": "4V",
-    "torque": "44 in-lb; 124 in-lb by hand",
-    "speed": "360 rpm",
-    "torque_settings": "6",
-    "charging": "USB, 60 min",
-    "in_box": "12 bits, cable"
+    "torque": "36 in-lb",
+    "speed": "220 rpm",
+    "torque_settings": null,
+    "charging": "Micro USB",
+    "in_box": "9 bits, magnetic bit holder, cable"
    },
    "features": {
-    "adjustable_torque": true,
-    "led": true,
+    "adjustable_torque": false,
+    "led": false,
     "pivoting_grip": false,
     "bit_set": true
    },
-   "image": "https://m.media-amazon.com/images/I/61qoLUXIm5L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DJBQ9ZBF?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B0DJBQ9ZBF"
+   "image": "https://m.media-amazon.com/images/I/61p9Vfu11JL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07F23B9FH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B07F23B9FH"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "asin": "B013PTOXA0",
    "name": "Hi-Spec Small Electric Screwdriver, Mini Drill Set (3.6V, 23 Bits)",
    "brand": "Hi-Spec",
@@ -374,49 +417,6 @@
    "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B013PTOXA0"
   },
   {
-   "rank": 9,
-   "asin": "B07F23B9FH",
-   "name": "SKIL Rechargeable 4V Cordless Screwdriver, 9pcs Bit, Bit Holder, USB Charging Cable (SD561801)",
-   "brand": "SKIL",
-   "model": "SD561801",
-   "price": 24.98,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 9133,
-   "score": 81,
-   "award": null,
-   "best_for": "Most homes: a proven, cheap power screwdriver with a 5-year warranty.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The best-selling name-brand power screwdriver on Amazon for years: a pistol-grip 4V driver with 36 in-lb of torque, nine bits and a magnetic holder, and a 5-year warranty, for about $25.",
-   "pros": [
-    "9,133 reviews at 4.6 stars",
-    "36 in-lb, more than most 4V drivers here",
-    "5-year limited warranty"
-   ],
-   "cons": [
-    "No adjustable torque, so it can strip small screws",
-    "Micro USB, not USB-C",
-    "No LED"
-   ],
-   "specs": {
-    "voltage": "4V",
-    "torque": "36 in-lb",
-    "speed": "220 rpm",
-    "torque_settings": null,
-    "charging": "Micro USB",
-    "in_box": "9 bits, magnetic bit holder, cable"
-   },
-   "features": {
-    "adjustable_torque": false,
-    "led": false,
-    "pivoting_grip": false,
-    "bit_set": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61p9Vfu11JL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07F23B9FH?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-screwdrivers.html#B07F23B9FH"
-  },
-  {
    "rank": 10,
    "asin": "B00BYFN9FI",
    "name": "Milwaukee 2101-22 M4 1/4\" Hex Screwdriver Kit with 2 Batteries",
@@ -426,7 +426,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 675,
-   "score": 66,
+   "score": 77,
    "award": "Money No Object",
    "best_for": "Pros already on Milwaukee who want a pro-grade compact screwdriver.",
    "bought_last_month": "1K+/mo",

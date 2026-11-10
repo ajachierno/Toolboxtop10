@@ -23,19 +23,62 @@
    "water_resistant": 0.2,
    "lighted": 0.15
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 40,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B017SODKZ2",
-  "best_budget": "B0788C34VB",
+  "best_overall": "B0BWSPLN9S",
+  "best_budget": "B017SODKZ2",
   "money_no_object": "B00MS16CU6"
  },
  "products": [
   {
    "rank": 1,
+   "asin": "B0BWSPLN9S",
+   "name": "DEWALT Tool Bag, Water Resistant, Hard Bottom, 20-inch, Professional Tool Tote (DWST560104)",
+   "brand": "DEWALT",
+   "model": "DWST560104",
+   "price": 82.96,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 691,
+   "score": 96,
+   "award": "Best Overall",
+   "best_for": "Jobsite use with a drill pocket and a water-resistant sealed compartment.",
+   "bought_last_month": "400+/mo",
+   "verdict": "DEWALT's large jobsite bag: 33 pockets including one sized for a drill and battery, an IP54 water-resistant zippered compartment, a waterproof hard base and a hi-vis yellow lining so tools are easy to spot.",
+   "pros": [
+    "IP54 water-resistant compartment and waterproof base",
+    "33 pockets, including a drill-and-battery pocket",
+    "Back strap hangs it on a rolling-case handle"
+   ],
+   "cons": [
+    "5.4 lbs empty",
+    "Sold as 20-inch, but the listing's dimensions measure 18.72 inches long"
+   ],
+   "specs": {
+    "pockets": "33",
+    "size": "18.72 x 11.31 x 12.09 in",
+    "material": "1680D fabric, tarpaulin",
+    "base": "Hard, waterproof",
+    "closure": "Zippered, IP54 compartment",
+    "weight": "5.4 lb"
+   },
+   "features": {
+    "hard_base": true,
+    "shoulder_strap": true,
+    "zippered": true,
+    "water_resistant": true,
+    "lighted": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81OC7NdVxTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BWSPLN9S?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-bags.html#B0BWSPLN9S"
+  },
+  {
+   "rank": 2,
    "asin": "B017SODKZ2",
    "name": "WORKPRO 16-inch Wide Mouth Tool Bag with Water-Proof Molded Base",
    "brand": "WORKPRO",
@@ -45,7 +88,7 @@
    "rating": 4.7,
    "reviews_count": 16261,
    "score": 95,
-   "award": "Best Overall",
+   "award": "Best Budget",
    "best_for": "Most people: a zippered bag on a waterproof base for about $26.",
    "bought_last_month": "1K+/mo",
    "verdict": "A wide-mouth zippered bag on a molded waterproof base, with a metal frame that holds the opening wide. 16,000+ reviews at 4.7 stars and a 2-year warranty for about $26.",
@@ -78,7 +121,7 @@
    "page_url": "https://toolboxtop10.com/tool-bags.html#B017SODKZ2"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B00MK9UY0A",
    "name": "Klein Tools 55421BP-14 Tradesman Pro Tool Backpack, 39 Pocket",
    "brand": "Klein Tools",
@@ -87,7 +130,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 5301,
-   "score": 92,
+   "score": 95,
    "award": null,
    "best_for": "Climbing ladders with both hands free.",
    "bought_last_month": "100+/mo",
@@ -123,49 +166,6 @@
    "page_url": "https://toolboxtop10.com/tool-bags.html#B00MK9UY0A"
   },
   {
-   "rank": 3,
-   "asin": "B0788C34VB",
-   "name": "Amazon Basics Tool Storage Bag with Adjustable Shoulder Strap, 16 Pockets, 12 in",
-   "brand": "Amazon Basics",
-   "model": "12 in, 16-pocket",
-   "price": 11.54,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 11138,
-   "score": 88,
-   "award": "Best Budget",
-   "best_for": "A small zippered bag for home or car hand tools, about $14.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "The most-reviewed tool bag on Amazon, with 20,000 ratings at 4.7 stars. A small zippered bag with 16 pockets and a shoulder strap for the hand tools you keep at home or in the car.",
-   "pros": [
-    "About $14",
-    "11,138 reviews at 4.7 stars",
-    "Zippered top and an adjustable shoulder strap"
-   ],
-   "cons": [
-    "Small at 12 inches, too short for a drill in its case",
-    "Listed as not water resistant"
-   ],
-   "specs": {
-    "pockets": "16 (9 inside, 7 outside)",
-    "size": "12.2 x 5.5 x 7.9 in",
-    "material": "600D Oxford polyester",
-    "base": "PE base",
-    "closure": "Zippered, 2 zippers",
-    "weight": null
-   },
-   "features": {
-    "hard_base": false,
-    "shoulder_strap": true,
-    "zippered": true,
-    "water_resistant": false,
-    "lighted": false
-   },
-   "image": "https://m.media-amazon.com/images/I/A1WPz3uSvAL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0788C34VB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-bags.html#B0788C34VB"
-  },
-  {
    "rank": 4,
    "asin": "B00MS16CU6",
    "name": "Klein Tools 5541610-14 Tradesman Pro Tool Bag, 40 Pocket",
@@ -175,7 +175,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2010,
-   "score": 87,
+   "score": 93,
    "award": "Money No Object",
    "best_for": "Electricians who want 40 pockets and easy-to-see tools.",
    "bought_last_month": "300+/mo",
@@ -212,137 +212,6 @@
   },
   {
    "rank": 5,
-   "asin": "B0BWSPLN9S",
-   "name": "DEWALT Tool Bag, Water Resistant, Hard Bottom, 20-inch, Professional Tool Tote (DWST560104)",
-   "brand": "DEWALT",
-   "model": "DWST560104",
-   "price": 82.96,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 691,
-   "score": 86,
-   "award": null,
-   "best_for": "Jobsite use with a drill pocket and a water-resistant sealed compartment.",
-   "bought_last_month": "400+/mo",
-   "verdict": "DEWALT's large jobsite bag: 33 pockets including one sized for a drill and battery, an IP54 water-resistant zippered compartment, a waterproof hard base and a hi-vis yellow lining so tools are easy to spot.",
-   "pros": [
-    "IP54 water-resistant compartment and waterproof base",
-    "33 pockets, including a drill-and-battery pocket",
-    "Back strap hangs it on a rolling-case handle"
-   ],
-   "cons": [
-    "5.4 lbs empty",
-    "Sold as 20-inch, but the listing's dimensions measure 18.72 inches long"
-   ],
-   "specs": {
-    "pockets": "33",
-    "size": "18.72 x 11.31 x 12.09 in",
-    "material": "1680D fabric, tarpaulin",
-    "base": "Hard, waterproof",
-    "closure": "Zippered, IP54 compartment",
-    "weight": "5.4 lb"
-   },
-   "features": {
-    "hard_base": true,
-    "shoulder_strap": true,
-    "zippered": true,
-    "water_resistant": true,
-    "lighted": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81OC7NdVxTL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BWSPLN9S?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-bags.html#B0BWSPLN9S"
-  },
-  {
-   "rank": 6,
-   "asin": "B0D2RH3NHK",
-   "name": "UUP Heavy Duty Tool Bag 15 Inch, 16-Pocket, Water-Resistant, MOLLE Webbing",
-   "brand": "UUP",
-   "model": "TB01-BLGN-01",
-   "price": 30.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 1646,
-   "score": 84,
-   "award": null,
-   "best_for": "A water-resistant zippered bag with MOLLE webbing for extra pouches.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 15-inch zippered bag in PVC-coated fabric with MOLLE webbing on the outside for extra pouches or a flashlight. Rubber feet instead of a molded base. Over 1,000 sold last month.",
-   "pros": [
-    "Water-resistant PVC-coated fabric",
-    "MOLLE webbing and a reflective stripe",
-    "Removable padded 45-inch shoulder strap"
-   ],
-   "cons": [
-    "Rubber feet, not a hard base",
-    "The listing gives two load figures: 30 lbs in the bullets, 12 kg (26 lbs) in the specs"
-   ],
-   "specs": {
-    "pockets": "16 + tape hook",
-    "size": "15.75 x 9.85 x 6.7 in",
-    "material": "PVC-coated Oxford fabric",
-    "base": "5 rubber feet",
-    "closure": "Zippered wide mouth",
-    "weight": "2.6 lb"
-   },
-   "features": {
-    "hard_base": false,
-    "shoulder_strap": true,
-    "zippered": true,
-    "water_resistant": true,
-    "lighted": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81V3RIvLaHL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D2RH3NHK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-bags.html#B0D2RH3NHK"
-  },
-  {
-   "rank": 7,
-   "asin": "B000EDTSZG",
-   "name": "CLC Custom Leathercraft 1539 Multi-Compartment 50-Pocket Tool Bag",
-   "brand": "CLC",
-   "model": "1539",
-   "price": 80.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2681,
-   "score": 83,
-   "award": null,
-   "best_for": "Tradespeople who want 50 pockets and a zippered bay for a drill kit.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The tradesperson's default. Fifty pockets around a big zippered center that swallows power tools — the bag most pros reach for first.",
-   "pros": [
-    "50 pockets sort everything from drivers to a cordless drill",
-    "Zippered side panels keep tools from spilling in transit",
-    "Big center bay fits a full drill kit",
-    "Padded shoulder strap and reinforced handles"
-   ],
-   "cons": [
-    "No molded hard base — set it down gently on wet ground",
-    "Fabric, not weatherproof",
-    "Full of steel it gets heavy fast"
-   ],
-   "specs": {
-    "pockets": "50",
-    "size": "18 x 7 x 14 in",
-    "material": "Poly fabric",
-    "base": "Padded",
-    "closure": "Zippered center",
-    "weight": "4.1 lb"
-   },
-   "features": {
-    "hard_base": false,
-    "shoulder_strap": true,
-    "zippered": true,
-    "water_resistant": false,
-    "lighted": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81Pc6ppucDL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000EDTSZG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-bags.html#B000EDTSZG"
-  },
-  {
-   "rank": 8,
    "asin": "B09P4Y2VK5",
    "name": "WORKPRO 18 in. Open-Top Tool Bag with Waterproof Molded Base",
    "brand": "WORKPRO",
@@ -351,7 +220,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 614,
-   "score": 82,
+   "score": 93,
    "award": null,
    "best_for": "A cheap open tote with a waterproof base that stands up on its own.",
    "bought_last_month": "300+/mo",
@@ -387,50 +256,138 @@
    "page_url": "https://toolboxtop10.com/tool-bags.html#B09P4Y2VK5"
   },
   {
-   "rank": 9,
-   "asin": "B097CQ7RLY",
-   "name": "AWP Premium Tool Bag, 15 Inch, Black, Durable Tool Tote (1L-20015)",
-   "brand": "AWP",
-   "model": "1L-20015",
-   "price": 14.99,
+   "rank": 6,
+   "asin": "B0D2RH3NHK",
+   "name": "UUP Heavy Duty Tool Bag 15 Inch, 16-Pocket, Water-Resistant, MOLLE Webbing",
+   "brand": "UUP",
+   "model": "TB01-BLGN-01",
+   "price": 30.99,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2202,
-   "score": 78,
+   "rating": 4.7,
+   "reviews_count": 1646,
+   "score": 91,
    "award": null,
-   "best_for": "Hauling a few big tools in a $13 tote.",
+   "best_for": "A water-resistant zippered bag with MOLLE webbing for extra pouches.",
    "bought_last_month": "1K+/mo",
-   "verdict": "The cheapest bag here: a plain 15-inch tote with a spring-loaded mouth that snaps shut, three outside pockets and one big main compartment. Good for hauling a few large tools, not for organizing small ones.",
+   "verdict": "A 15-inch zippered bag in PVC-coated fabric with MOLLE webbing on the outside for extra pouches or a flashlight. Rubber feet instead of a molded base. Over 1,000 sold last month.",
    "pros": [
-    "About $13",
-    "Spring-loaded opening closes on its own",
-    "Water-resistant 600D polyester"
+    "Water-resistant PVC-coated fabric",
+    "MOLLE webbing and a reflective stripe",
+    "Removable padded 45-inch shoulder strap"
    ],
    "cons": [
-    "Only 3 pockets",
-    "No shoulder strap listed"
+    "Rubber feet, not a hard base",
+    "The listing gives two load figures: 30 lbs in the bullets, 12 kg (26 lbs) in the specs"
    ],
    "specs": {
-    "pockets": "3 + main compartment",
-    "size": "15 in",
-    "material": "600D polyester",
-    "base": null,
-    "closure": "Spring-loaded opening",
-    "weight": "12.8 oz"
+    "pockets": "16 + tape hook",
+    "size": "15.75 x 9.85 x 6.7 in",
+    "material": "PVC-coated Oxford fabric",
+    "base": "5 rubber feet",
+    "closure": "Zippered wide mouth",
+    "weight": "2.6 lb"
    },
    "features": {
     "hard_base": false,
-    "shoulder_strap": false,
-    "zippered": false,
+    "shoulder_strap": true,
+    "zippered": true,
     "water_resistant": true,
     "lighted": false
    },
-   "image": "https://m.media-amazon.com/images/I/91tXodrPQAL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B097CQ7RLY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-bags.html#B097CQ7RLY"
+   "image": "https://m.media-amazon.com/images/I/81V3RIvLaHL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D2RH3NHK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-bags.html#B0D2RH3NHK"
   },
   {
-   "rank": 10,
+   "rank": 7,
+   "asin": "B0788C34VB",
+   "name": "Amazon Basics Tool Storage Bag with Adjustable Shoulder Strap, 16 Pockets, 12 in",
+   "brand": "Amazon Basics",
+   "model": "12 in, 16-pocket",
+   "price": 11.54,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 11138,
+   "score": 88,
+   "award": null,
+   "best_for": "A small zippered bag for home or car hand tools, about $14.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "The most-reviewed tool bag on Amazon, with 20,000 ratings at 4.7 stars. A small zippered bag with 16 pockets and a shoulder strap for the hand tools you keep at home or in the car.",
+   "pros": [
+    "About $14",
+    "11,138 reviews at 4.7 stars",
+    "Zippered top and an adjustable shoulder strap"
+   ],
+   "cons": [
+    "Small at 12 inches, too short for a drill in its case",
+    "Listed as not water resistant"
+   ],
+   "specs": {
+    "pockets": "16 (9 inside, 7 outside)",
+    "size": "12.2 x 5.5 x 7.9 in",
+    "material": "600D Oxford polyester",
+    "base": "PE base",
+    "closure": "Zippered, 2 zippers",
+    "weight": null
+   },
+   "features": {
+    "hard_base": false,
+    "shoulder_strap": true,
+    "zippered": true,
+    "water_resistant": false,
+    "lighted": false
+   },
+   "image": "https://m.media-amazon.com/images/I/A1WPz3uSvAL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0788C34VB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-bags.html#B0788C34VB"
+  },
+  {
+   "rank": 8,
+   "asin": "B000EDTSZG",
+   "name": "CLC Custom Leathercraft 1539 Multi-Compartment 50-Pocket Tool Bag",
+   "brand": "CLC",
+   "model": "1539",
+   "price": 80.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2681,
+   "score": 88,
+   "award": null,
+   "best_for": "Tradespeople who want 50 pockets and a zippered bay for a drill kit.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The tradesperson's default. Fifty pockets around a big zippered center that swallows power tools — the bag most pros reach for first.",
+   "pros": [
+    "50 pockets sort everything from drivers to a cordless drill",
+    "Zippered side panels keep tools from spilling in transit",
+    "Big center bay fits a full drill kit",
+    "Padded shoulder strap and reinforced handles"
+   ],
+   "cons": [
+    "No molded hard base — set it down gently on wet ground",
+    "Fabric, not weatherproof",
+    "Full of steel it gets heavy fast"
+   ],
+   "specs": {
+    "pockets": "50",
+    "size": "18 x 7 x 14 in",
+    "material": "Poly fabric",
+    "base": "Padded",
+    "closure": "Zippered center",
+    "weight": "4.1 lb"
+   },
+   "features": {
+    "hard_base": false,
+    "shoulder_strap": true,
+    "zippered": true,
+    "water_resistant": false,
+    "lighted": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81Pc6ppucDL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000EDTSZG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-bags.html#B000EDTSZG"
+  },
+  {
+   "rank": 9,
    "asin": "B0CVSF9NPM",
    "name": "Carhartt Utility Medium Tool Bag, 14 Inch, 26 Pockets, Carhartt Brown",
    "brand": "Carhartt",
@@ -439,7 +396,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 250,
-   "score": 74,
+   "score": 88,
    "award": null,
    "best_for": "Tight spaces where a compact, tough 14-inch bag fits.",
    "bought_last_month": "200+/mo",
@@ -471,6 +428,49 @@
    "image": "https://m.media-amazon.com/images/I/91ql7v-2HNL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CVSF9NPM?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/tool-bags.html#B0CVSF9NPM"
+  },
+  {
+   "rank": 10,
+   "asin": "B097CQ7RLY",
+   "name": "AWP Premium Tool Bag, 15 Inch, Black, Durable Tool Tote (1L-20015)",
+   "brand": "AWP",
+   "model": "1L-20015",
+   "price": 14.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2202,
+   "score": 84,
+   "award": null,
+   "best_for": "Hauling a few big tools in a $13 tote.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The cheapest bag here: a plain 15-inch tote with a spring-loaded mouth that snaps shut, three outside pockets and one big main compartment. Good for hauling a few large tools, not for organizing small ones.",
+   "pros": [
+    "About $13",
+    "Spring-loaded opening closes on its own",
+    "Water-resistant 600D polyester"
+   ],
+   "cons": [
+    "Only 3 pockets",
+    "No shoulder strap listed"
+   ],
+   "specs": {
+    "pockets": "3 + main compartment",
+    "size": "15 in",
+    "material": "600D polyester",
+    "base": null,
+    "closure": "Spring-loaded opening",
+    "weight": "12.8 oz"
+   },
+   "features": {
+    "hard_base": false,
+    "shoulder_strap": false,
+    "zippered": false,
+    "water_resistant": true,
+    "lighted": false
+   },
+   "image": "https://m.media-amazon.com/images/I/91tXodrPQAL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B097CQ7RLY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-bags.html#B097CQ7RLY"
   }
  ],
  "avoid": [

@@ -22,7 +22,7 @@
    "fractions": 0.25,
    "double_sided": 0.2
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 9,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,48 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B09F92S5VB",
+   "name": "DURATECH 25 ft Magnetic Double-Sided Tape Measure",
+   "brand": "DURATECH",
+   "model": "25 ft Magnetic",
+   "price": 13.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2360,
+   "score": 90,
+   "award": null,
+   "best_for": "Solo measuring with a magnetic hook and markings on both edges.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The most feature-loaded tape for the money. A magnetic hook grabs steel studs and lets you measure solo, and the blade is printed on both edges with easy-read 1/8-inch fractions. A lot of tape for fourteen dollars.",
+   "pros": [
+    "Magnetic hook grips metal for one-person measuring",
+    "Double-sided blade reads from either edge",
+    "Easy-read 1/8-inch fractions",
+    "7-foot standout and a nylon-coated blade"
+   ],
+   "cons": [
+    "Manual thumb lock only",
+    "Off-brand with a shorter track record than the majors",
+    "Magnet adds a little weight at the tip"
+   ],
+   "specs": {
+    "length": "25 ft",
+    "standout": "7 ft",
+    "blade": "Nylon-coated steel",
+    "lock": "Manual (thumb)"
+   },
+   "features": {
+    "auto_lock": false,
+    "magnetic_hook": true,
+    "fractions": true,
+    "double_sided": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71oPIm-55TL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09F92S5VB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tape-measures.html#B09F92S5VB"
+  },
+  {
+   "rank": 2,
    "asin": "B07QG3ZXQC",
    "name": "CRAFTSMAN 25-Ft Tape Measure with Fraction Markings, Retractable, Self-Locking Blade (CMHT37225)",
    "brand": "CRAFTSMAN",
@@ -76,34 +118,34 @@
    "page_url": "https://toolboxtop10.com/tape-measures.html#B07QG3ZXQC"
   },
   {
-   "rank": 2,
-   "asin": "B09F92S5VB",
-   "name": "DURATECH 25 ft Magnetic Double-Sided Tape Measure",
-   "brand": "DURATECH",
-   "model": "25 ft Magnetic",
-   "price": 13.99,
+   "rank": 3,
+   "asin": "B0CDLNN7WG",
+   "name": "WORKPRO 25 FT Tape Measure, Nylon-Coated, Magnetic Hook",
+   "brand": "WORKPRO",
+   "model": "25 ft",
+   "price": 11.99,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2360,
-   "score": 84,
+   "rating": 4.8,
+   "reviews_count": 1667,
+   "score": 88,
    "award": null,
-   "best_for": "Solo measuring with a magnetic hook and markings on both edges.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The most feature-loaded tape for the money. A magnetic hook grabs steel studs and lets you measure solo, and the blade is printed on both edges with easy-read 1/8-inch fractions. A lot of tape for fourteen dollars.",
+   "best_for": "A magnetic hook and fractions for about $12.",
+   "bought_last_month": "5K+/mo",
+   "verdict": "The value magnetic pick. A 1-inch nylon-coated blade with a magnetic hook, 1/8-inch fractions, and a 7.2-foot standout, all wrapped in a rubber case — most of what the pricier tapes offer for around twelve dollars.",
    "pros": [
-    "Magnetic hook grips metal for one-person measuring",
-    "Double-sided blade reads from either edge",
-    "Easy-read 1/8-inch fractions",
-    "7-foot standout and a nylon-coated blade"
+    "Magnetic hook for solo measuring",
+    "Nylon-coated blade with 1/8-inch fractions",
+    "Rubber over-mold case survives drops",
+    "Strong value and a big monthly sales count"
    ],
    "cons": [
     "Manual thumb lock only",
-    "Off-brand with a shorter track record than the majors",
-    "Magnet adds a little weight at the tip"
+    "Standout trails the 13-foot pro tapes",
+    "Newer brand than the legacy names"
    ],
    "specs": {
     "length": "25 ft",
-    "standout": "7 ft",
+    "standout": "7.2 ft",
     "blade": "Nylon-coated steel",
     "lock": "Manual (thumb)"
    },
@@ -111,14 +153,56 @@
     "auto_lock": false,
     "magnetic_hook": true,
     "fractions": true,
-    "double_sided": true
+    "double_sided": false
    },
-   "image": "https://m.media-amazon.com/images/I/71oPIm-55TL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09F92S5VB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tape-measures.html#B09F92S5VB"
+   "image": "https://m.media-amazon.com/images/I/715cM5fDSnL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CDLNN7WG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tape-measures.html#B0CDLNN7WG"
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "asin": "B07WF9TKNN",
+   "name": "Klein Tools 9225 Heavy-Duty 25-Foot Double-Hook Tape Measure",
+   "brand": "Klein Tools",
+   "model": "9225",
+   "price": 29.97,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 5188,
+   "score": 85,
+   "award": "Money No Object",
+   "best_for": "Long reaches with a stiff 13 ft standout and a double hook.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The trade-grade splurge. A stiff 13-foot standout so it won't fold over when you reach across a room, bold 1/8-inch markings on both sides of the blade, and a double hook that catches on studs and pipe from either edge. Built to survive an electrician's daily abuse.",
+   "pros": [
+    "13-foot standout — one of the stiffest here",
+    "Double-sided blade with a double hook for versatility",
+    "Heavy nylon coating for long blade life",
+    "Retraction speed brake protects your fingers"
+   ],
+   "cons": [
+    "Priciest tape on the list",
+    "No magnetic hook",
+    "Heavier and bulkier than a compact tape"
+   ],
+   "specs": {
+    "length": "25 ft",
+    "standout": "13 ft",
+    "blade": "Nylon-coated steel (double-sided)",
+    "lock": "Manual (speed brake)"
+   },
+   "features": {
+    "auto_lock": false,
+    "magnetic_hook": false,
+    "fractions": true,
+    "double_sided": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61zqF532w8L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07WF9TKNN?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tape-measures.html#B07WF9TKNN"
+  },
+  {
+   "rank": 5,
    "asin": "B000BQKXLE",
    "name": "Komelon SL2825 Self-Lock 25-Foot Power Tape",
    "brand": "Komelon",
@@ -160,133 +244,7 @@
    "page_url": "https://toolboxtop10.com/tape-measures.html#B000BQKXLE"
   },
   {
-   "rank": 4,
-   "asin": "B07WF9TKNN",
-   "name": "Klein Tools 9225 Heavy-Duty 25-Foot Double-Hook Tape Measure",
-   "brand": "Klein Tools",
-   "model": "9225",
-   "price": 29.97,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 5188,
-   "score": 82,
-   "award": "Money No Object",
-   "best_for": "Long reaches with a stiff 13 ft standout and a double hook.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The trade-grade splurge. A stiff 13-foot standout so it won't fold over when you reach across a room, bold 1/8-inch markings on both sides of the blade, and a double hook that catches on studs and pipe from either edge. Built to survive an electrician's daily abuse.",
-   "pros": [
-    "13-foot standout — one of the stiffest here",
-    "Double-sided blade with a double hook for versatility",
-    "Heavy nylon coating for long blade life",
-    "Retraction speed brake protects your fingers"
-   ],
-   "cons": [
-    "Priciest tape on the list",
-    "No magnetic hook",
-    "Heavier and bulkier than a compact tape"
-   ],
-   "specs": {
-    "length": "25 ft",
-    "standout": "13 ft",
-    "blade": "Nylon-coated steel (double-sided)",
-    "lock": "Manual (speed brake)"
-   },
-   "features": {
-    "auto_lock": false,
-    "magnetic_hook": false,
-    "fractions": true,
-    "double_sided": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61zqF532w8L._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07WF9TKNN?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tape-measures.html#B07WF9TKNN"
-  },
-  {
-   "rank": 5,
-   "asin": "B0CDLNN7WG",
-   "name": "WORKPRO 25 FT Tape Measure, Nylon-Coated, Magnetic Hook",
-   "brand": "WORKPRO",
-   "model": "25 ft",
-   "price": 11.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1667,
-   "score": 80,
-   "award": null,
-   "best_for": "A magnetic hook and fractions for about $12.",
-   "bought_last_month": "5K+/mo",
-   "verdict": "The value magnetic pick. A 1-inch nylon-coated blade with a magnetic hook, 1/8-inch fractions, and a 7.2-foot standout, all wrapped in a rubber case — most of what the pricier tapes offer for around twelve dollars.",
-   "pros": [
-    "Magnetic hook for solo measuring",
-    "Nylon-coated blade with 1/8-inch fractions",
-    "Rubber over-mold case survives drops",
-    "Strong value and a big monthly sales count"
-   ],
-   "cons": [
-    "Manual thumb lock only",
-    "Standout trails the 13-foot pro tapes",
-    "Newer brand than the legacy names"
-   ],
-   "specs": {
-    "length": "25 ft",
-    "standout": "7.2 ft",
-    "blade": "Nylon-coated steel",
-    "lock": "Manual (thumb)"
-   },
-   "features": {
-    "auto_lock": false,
-    "magnetic_hook": true,
-    "fractions": true,
-    "double_sided": false
-   },
-   "image": "https://m.media-amazon.com/images/I/715cM5fDSnL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CDLNN7WG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tape-measures.html#B0CDLNN7WG"
-  },
-  {
    "rank": 6,
-   "asin": "B09K4G8NX6",
-   "name": "Mr. Pen Retractable Tape Measure 25 ft, Easy Read",
-   "brand": "Mr. Pen",
-   "model": "25 ft",
-   "price": 7.85,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 3730,
-   "score": 77,
-   "award": null,
-   "best_for": "A cheap everyday 25 ft tape with metric and imperial scales.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "The cheap everyday tape. A rubberized 25-footer with both imperial and metric markings and printed fractions, for about seven dollars. Nothing fancy, but it's accurate, reads easily, and it's a fraction of the price of a pro tape.",
-   "pros": [
-    "About $7 for a full 25 feet",
-    "Both imperial and metric scales plus fractions",
-    "Shock-absorbing rubberized casing",
-    "Belt clip and nail-slot hook"
-   ],
-   "cons": [
-    "No magnetic hook or auto-lock",
-    "Uncoated blade wears faster on a job site",
-    "Standout not rated — not built for long reaches"
-   ],
-   "specs": {
-    "length": "25 ft",
-    "standout": null,
-    "blade": "Steel",
-    "lock": "Manual (thumb)"
-   },
-   "features": {
-    "auto_lock": false,
-    "magnetic_hook": false,
-    "fractions": true,
-    "double_sided": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71iihXrTA4L._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09K4G8NX6?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tape-measures.html#B09K4G8NX6"
-  },
-  {
-   "rank": 7,
    "asin": "B0C1LXSVSH",
    "name": "DEWALT Atomic Compact Series 30 ft. Tape Measure (DWHT38130S)",
    "brand": "DEWALT",
@@ -295,7 +253,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 3012,
-   "score": 77,
+   "score": 83,
    "award": null,
    "best_for": "Long runs up to 30 ft from a tape that still fits a pocket.",
    "bought_last_month": "3K+/mo",
@@ -328,49 +286,49 @@
    "page_url": "https://toolboxtop10.com/tape-measures.html#B0C1LXSVSH"
   },
   {
-   "rank": 8,
-   "asin": "B08KTV51W9",
-   "name": "Amazon Basics Retractable Tape Measure, 16 ft, SAE & Metric",
-   "brand": "Amazon Basics",
-   "model": "16 ft",
-   "price": 5.84,
+   "rank": 7,
+   "asin": "B09K4G8NX6",
+   "name": "Mr. Pen Retractable Tape Measure 25 ft, Easy Read",
+   "brand": "Mr. Pen",
+   "model": "25 ft",
+   "price": 7.85,
    "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 8373,
-   "score": 76,
-   "award": "Best Budget",
-   "best_for": "The kitchen drawer, the car or a starter kit, for under $6.",
+   "rating": 4.7,
+   "reviews_count": 3730,
+   "score": 82,
+   "award": null,
+   "best_for": "A cheap everyday 25 ft tape with metric and imperial scales.",
    "bought_last_month": "3K+/mo",
-   "verdict": "The cheapest tape worth buying. Under six dollars for a 16-foot blade with both SAE and metric scales, a belt clip, and a molded impact-resistant case. It's the tape to keep in a kitchen drawer, a car, or a starter kit.",
+   "verdict": "The cheap everyday tape. A rubberized 25-footer with both imperial and metric markings and printed fractions, for about seven dollars. Nothing fancy, but it's accurate, reads easily, and it's a fraction of the price of a pro tape.",
    "pros": [
-    "Cheapest pick on the list",
-    "Both SAE and metric markings",
-    "Wide 3/4-inch blade is easy to read",
-    "Impact-resistant case and belt clip"
+    "About $7 for a full 25 feet",
+    "Both imperial and metric scales plus fractions",
+    "Shock-absorbing rubberized casing",
+    "Belt clip and nail-slot hook"
    ],
    "cons": [
-    "Only 16 feet",
-    "No fractions, magnet, or auto-lock",
-    "Basic blade with no protective coating"
+    "No magnetic hook or auto-lock",
+    "Uncoated blade wears faster on a job site",
+    "Standout not rated — not built for long reaches"
    ],
    "specs": {
-    "length": "16 ft",
+    "length": "25 ft",
     "standout": null,
     "blade": "Steel",
-    "lock": "Manual"
+    "lock": "Manual (thumb)"
    },
    "features": {
     "auto_lock": false,
     "magnetic_hook": false,
-    "fractions": false,
+    "fractions": true,
     "double_sided": false
    },
-   "image": "https://m.media-amazon.com/images/I/71vHM1jZWQL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08KTV51W9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tape-measures.html#B08KTV51W9"
+   "image": "https://m.media-amazon.com/images/I/71iihXrTA4L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09K4G8NX6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tape-measures.html#B09K4G8NX6"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "asin": "B0BVXXLP3T",
    "name": "CRAFTSMAN 25-Ft Tape Measure, Manual-Locking, Easy-Read Fractions (CMHT37443S)",
    "brand": "CRAFTSMAN",
@@ -379,7 +337,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 2699,
-   "score": 75,
+   "score": 81,
    "award": null,
    "best_for": "A 13 ft standout from a known brand for about $19.",
    "bought_last_month": "10K+/mo",
@@ -412,6 +370,48 @@
    "page_url": "https://toolboxtop10.com/tape-measures.html#B0BVXXLP3T"
   },
   {
+   "rank": 9,
+   "asin": "B08KTV51W9",
+   "name": "Amazon Basics Retractable Tape Measure, 16 ft, SAE & Metric",
+   "brand": "Amazon Basics",
+   "model": "16 ft",
+   "price": 5.84,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 8373,
+   "score": 78,
+   "award": "Best Budget",
+   "best_for": "The kitchen drawer, the car or a starter kit, for under $6.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "The cheapest tape worth buying. Under six dollars for a 16-foot blade with both SAE and metric scales, a belt clip, and a molded impact-resistant case. It's the tape to keep in a kitchen drawer, a car, or a starter kit.",
+   "pros": [
+    "Cheapest pick on the list",
+    "Both SAE and metric markings",
+    "Wide 3/4-inch blade is easy to read",
+    "Impact-resistant case and belt clip"
+   ],
+   "cons": [
+    "Only 16 feet",
+    "No fractions, magnet, or auto-lock",
+    "Basic blade with no protective coating"
+   ],
+   "specs": {
+    "length": "16 ft",
+    "standout": null,
+    "blade": "Steel",
+    "lock": "Manual"
+   },
+   "features": {
+    "auto_lock": false,
+    "magnetic_hook": false,
+    "fractions": false,
+    "double_sided": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71vHM1jZWQL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08KTV51W9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tape-measures.html#B08KTV51W9"
+  },
+  {
    "rank": 10,
    "asin": "B00002X2GG",
    "name": "STANLEY PowerLock Tape Measure, 16-Foot (33-158)",
@@ -421,7 +421,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 7569,
-   "score": 74,
+   "score": 76,
    "award": null,
    "best_for": "A proven, accurate classic for the kitchen drawer.",
    "bought_last_month": "900+/mo",

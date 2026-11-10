@@ -22,7 +22,7 @@
    "cordless": 0.2,
    "depth_2": 0.25
   },
-  "reviews_ceiling": 1500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 140,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -83,7 +83,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 722,
-   "score": 84,
+   "score": 87,
    "award": null,
    "best_for": "Pros who want cordless track-saw cuts on site.",
    "bought_last_month": "50+/mo",
@@ -124,7 +124,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 707,
-   "score": 84,
+   "score": 87,
    "award": null,
    "best_for": "Makita or Festool rail owners.",
    "bought_last_month": "100+/mo",
@@ -155,6 +155,167 @@
   },
   {
    "rank": 4,
+   "asin": "B0C8LD15YD",
+   "name": "WEN CT1274 7.25-Inch Variable Speed Track Saw",
+   "brand": "WEN",
+   "model": "CT1274",
+   "price": 161.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 297,
+   "score": 85,
+   "award": null,
+   "best_for": "Cutting thicker stock and using cheap, common blades.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A track saw that takes standard 7-1/4-inch circular saw blades and cuts 2.6 inches deep, the deepest here.",
+   "pros": [
+    "2.6 in depth",
+    "Standard 7-1/4 in blades",
+    "Variable speed"
+   ],
+   "cons": [
+    "Track sold separately"
+   ],
+   "specs": {
+    "blade": "7-1/4 in",
+    "depth": "2.6 in / 1.85 in",
+    "power": "Corded",
+    "track": "Sold separately",
+    "extras": "Variable speed 2,000-6,000 RPM, takes standard 7-1/4 in blades"
+   },
+   "features": {
+    "track_included": false,
+    "variable_speed": true,
+    "cordless": false,
+    "depth_2": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ukMtyFlZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C8LD15YD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/track-saws.html#B0C8LD15YD"
+  },
+  {
+   "rank": 5,
+   "asin": "B0897YPSF8",
+   "name": "Festool TS 55 FEQ-F-Plus-FS Plunge-Cut Track Saw with 55\" Guide Rail",
+   "brand": "Festool",
+   "model": "TS 55 FEQ",
+   "price": 818.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 479,
+   "score": 84,
+   "award": "Money No Object",
+   "best_for": "Professional cabinetmakers who want the best.",
+   "bought_last_month": null,
+   "verdict": "The track saw others are measured against: Festool's TS 55 with a 55-inch rail and a splinter guard for clean edges on both sides.",
+   "pros": [
+    "Rail included",
+    "Splinter guard",
+    "Festool system"
+   ],
+   "cons": [
+    "Most expensive here"
+   ],
+   "specs": {
+    "blade": "160 mm",
+    "depth": null,
+    "power": "Corded",
+    "track": "55 in rail included",
+    "extras": "Splinter guard, cut edge stays true from 90 to 47°"
+   },
+   "features": {
+    "track_included": true,
+    "variable_speed": false,
+    "cordless": false,
+    "depth_2": false
+   },
+   "image": "https://m.media-amazon.com/images/I/612phFvTDoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0897YPSF8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/track-saws.html#B0897YPSF8"
+  },
+  {
+   "rank": 6,
+   "asin": "B07T4CZP31",
+   "name": "Evolution R185CCSX Multi-Material Track Saw Kit with 40\" Track, 7-1/4\"",
+   "brand": "Evolution",
+   "model": "R185CCSX",
+   "price": 183.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 323,
+   "score": 84,
+   "award": null,
+   "best_for": "Mixed-material cuts on a budget.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A budget kit with a 40-inch track and a multi-material blade that cuts wood, plastic and metal without a blade change.",
+   "pros": [
+    "Track included",
+    "Cuts metal too",
+    "Low price"
+   ],
+   "cons": [
+    "4.2 stars"
+   ],
+   "specs": {
+    "blade": "7-1/4 in TCT multi-material",
+    "depth": "Up to 2-1/2 in",
+    "power": "Corded, 15 A",
+    "track": "40 in track included",
+    "extras": "Cuts wood, plastic and metal with one blade"
+   },
+   "features": {
+    "track_included": true,
+    "variable_speed": false,
+    "cordless": false,
+    "depth_2": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71qsYu6g4wL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07T4CZP31?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/track-saws.html#B07T4CZP31"
+  },
+  {
+   "rank": 7,
+   "asin": "B0BR8LCVC8",
+   "name": "WEN 20691 Cordless 6.5-Inch Brushless Track Saw with Two 20V 4.0Ah Batteries",
+   "brand": "WEN",
+   "model": "20691",
+   "price": 219.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 100,
+   "score": 84,
+   "award": null,
+   "best_for": "DIYers who want cordless on a budget.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A budget cordless track saw kit with two 4.0Ah batteries, a brushless motor and variable speed.",
+   "pros": [
+    "Batteries included",
+    "Brushless, variable speed",
+    "Low price for cordless"
+   ],
+   "cons": [
+    "Track sold separately",
+    "Only 100 reviews"
+   ],
+   "specs": {
+    "blade": "6.5 in",
+    "depth": "2.25 in / 1.65 in",
+    "power": "Cordless, two 20V 4.0Ah (included)",
+    "track": "Sold separately (fits WEN CT9502/CT9110)",
+    "extras": "Brushless, variable speed"
+   },
+   "features": {
+    "track_included": false,
+    "variable_speed": true,
+    "cordless": true,
+    "depth_2": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71XDRnC5DWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BR8LCVC8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/track-saws.html#B0BR8LCVC8"
+  },
+  {
+   "rank": 8,
    "asin": "B07VFXFTVP",
    "name": "WEN CT1065 10-Amp 6.5-Inch Plunge Cut Sidewinder Track Saw",
    "brand": "WEN",
@@ -195,209 +356,7 @@
    "page_url": "https://toolboxtop10.com/track-saws.html#B07VFXFTVP"
   },
   {
-   "rank": 5,
-   "asin": "B0897YPSF8",
-   "name": "Festool TS 55 FEQ-F-Plus-FS Plunge-Cut Track Saw with 55\" Guide Rail",
-   "brand": "Festool",
-   "model": "TS 55 FEQ",
-   "price": 818.0,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 479,
-   "score": 79,
-   "award": "Money No Object",
-   "best_for": "Professional cabinetmakers who want the best.",
-   "bought_last_month": null,
-   "verdict": "The track saw others are measured against: Festool's TS 55 with a 55-inch rail and a splinter guard for clean edges on both sides.",
-   "pros": [
-    "Rail included",
-    "Splinter guard",
-    "Festool system"
-   ],
-   "cons": [
-    "Most expensive here"
-   ],
-   "specs": {
-    "blade": "160 mm",
-    "depth": null,
-    "power": "Corded",
-    "track": "55 in rail included",
-    "extras": "Splinter guard, cut edge stays true from 90 to 47°"
-   },
-   "features": {
-    "track_included": true,
-    "variable_speed": false,
-    "cordless": false,
-    "depth_2": false
-   },
-   "image": "https://m.media-amazon.com/images/I/612phFvTDoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0897YPSF8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/track-saws.html#B0897YPSF8"
-  },
-  {
-   "rank": 6,
-   "asin": "B0C8LD15YD",
-   "name": "WEN CT1274 7.25-Inch Variable Speed Track Saw",
-   "brand": "WEN",
-   "model": "CT1274",
-   "price": 161.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 297,
-   "score": 77,
-   "award": null,
-   "best_for": "Cutting thicker stock and using cheap, common blades.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A track saw that takes standard 7-1/4-inch circular saw blades and cuts 2.6 inches deep, the deepest here.",
-   "pros": [
-    "2.6 in depth",
-    "Standard 7-1/4 in blades",
-    "Variable speed"
-   ],
-   "cons": [
-    "Track sold separately"
-   ],
-   "specs": {
-    "blade": "7-1/4 in",
-    "depth": "2.6 in / 1.85 in",
-    "power": "Corded",
-    "track": "Sold separately",
-    "extras": "Variable speed 2,000-6,000 RPM, takes standard 7-1/4 in blades"
-   },
-   "features": {
-    "track_included": false,
-    "variable_speed": true,
-    "cordless": false,
-    "depth_2": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71ukMtyFlZL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C8LD15YD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/track-saws.html#B0C8LD15YD"
-  },
-  {
-   "rank": 7,
-   "asin": "B07T4CZP31",
-   "name": "Evolution R185CCSX Multi-Material Track Saw Kit with 40\" Track, 7-1/4\"",
-   "brand": "Evolution",
-   "model": "R185CCSX",
-   "price": 183.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 323,
-   "score": 76,
-   "award": null,
-   "best_for": "Mixed-material cuts on a budget.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A budget kit with a 40-inch track and a multi-material blade that cuts wood, plastic and metal without a blade change.",
-   "pros": [
-    "Track included",
-    "Cuts metal too",
-    "Low price"
-   ],
-   "cons": [
-    "4.2 stars"
-   ],
-   "specs": {
-    "blade": "7-1/4 in TCT multi-material",
-    "depth": "Up to 2-1/2 in",
-    "power": "Corded, 15 A",
-    "track": "40 in track included",
-    "extras": "Cuts wood, plastic and metal with one blade"
-   },
-   "features": {
-    "track_included": true,
-    "variable_speed": false,
-    "cordless": false,
-    "depth_2": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71qsYu6g4wL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07T4CZP31?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/track-saws.html#B07T4CZP31"
-  },
-  {
-   "rank": 8,
-   "asin": "B0BR8LCVC8",
-   "name": "WEN 20691 Cordless 6.5-Inch Brushless Track Saw with Two 20V 4.0Ah Batteries",
-   "brand": "WEN",
-   "model": "20691",
-   "price": 219.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 100,
-   "score": 76,
-   "award": null,
-   "best_for": "DIYers who want cordless on a budget.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A budget cordless track saw kit with two 4.0Ah batteries, a brushless motor and variable speed.",
-   "pros": [
-    "Batteries included",
-    "Brushless, variable speed",
-    "Low price for cordless"
-   ],
-   "cons": [
-    "Track sold separately",
-    "Only 100 reviews"
-   ],
-   "specs": {
-    "blade": "6.5 in",
-    "depth": "2.25 in / 1.65 in",
-    "power": "Cordless, two 20V 4.0Ah (included)",
-    "track": "Sold separately (fits WEN CT9502/CT9110)",
-    "extras": "Brushless, variable speed"
-   },
-   "features": {
-    "track_included": false,
-    "variable_speed": true,
-    "cordless": true,
-    "depth_2": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71XDRnC5DWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BR8LCVC8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/track-saws.html#B0BR8LCVC8"
-  },
-  {
    "rank": 9,
-   "asin": "B0F3NZ7H52",
-   "name": "Milwaukee M18 FUEL 6-1/2\" Plunge Track Saw, Tool Only (2831-20)",
-   "brand": "Milwaukee",
-   "model": "2831-20",
-   "price": 359.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 45,
-   "score": 70,
-   "award": null,
-   "best_for": "Milwaukee M18 crews.",
-   "bought_last_month": "100+/mo",
-   "verdict": "Milwaukee's M18 FUEL track saw with variable speed, a riving knife and a cam to dial in track fit for straight cuts.",
-   "pros": [
-    "Brushless FUEL",
-    "Riving knife",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 45 reviews",
-    "Bare tool"
-   ],
-   "specs": {
-    "blade": "6-1/2 in",
-    "depth": null,
-    "power": "Cordless, Milwaukee M18 (not included)",
-    "track": "Sold separately",
-    "extras": "Variable speed, riving knife, adjustable track cam, vac port"
-   },
-   "features": {
-    "track_included": false,
-    "variable_speed": true,
-    "cordless": true,
-    "depth_2": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51j2u-kDHCL._AC_SL1024_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F3NZ7H52?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/track-saws.html#B0F3NZ7H52"
-  },
-  {
-   "rank": 10,
    "asin": "B001J69QAO",
    "name": "DEWALT 6-1/2-Inch TrackSaw Kit (DWS520K)",
    "brand": "DEWALT",
@@ -406,7 +365,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 183,
-   "score": 68,
+   "score": 77,
    "award": null,
    "best_for": "Cabinet and furniture makers who want a pro track saw.",
    "bought_last_month": "100+/mo",
@@ -436,6 +395,47 @@
    "image": "https://m.media-amazon.com/images/I/61b0qgjzpOL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B001J69QAO?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/track-saws.html#B001J69QAO"
+  },
+  {
+   "rank": 10,
+   "asin": "B0F3NZ7H52",
+   "name": "Milwaukee M18 FUEL 6-1/2\" Plunge Track Saw, Tool Only (2831-20)",
+   "brand": "Milwaukee",
+   "model": "2831-20",
+   "price": 359.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 45,
+   "score": 77,
+   "award": null,
+   "best_for": "Milwaukee M18 crews.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Milwaukee's M18 FUEL track saw with variable speed, a riving knife and a cam to dial in track fit for straight cuts.",
+   "pros": [
+    "Brushless FUEL",
+    "Riving knife",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 45 reviews",
+    "Bare tool"
+   ],
+   "specs": {
+    "blade": "6-1/2 in",
+    "depth": null,
+    "power": "Cordless, Milwaukee M18 (not included)",
+    "track": "Sold separately",
+    "extras": "Variable speed, riving knife, adjustable track cam, vac port"
+   },
+   "features": {
+    "track_included": false,
+    "variable_speed": true,
+    "cordless": true,
+    "depth_2": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51j2u-kDHCL._AC_SL1024_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F3NZ7H52?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/track-saws.html#B0F3NZ7H52"
   }
  ],
  "avoid": [

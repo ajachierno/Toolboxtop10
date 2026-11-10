@@ -23,7 +23,7 @@
    "extra_tips": 0.15,
    "kit": 0.15
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 15,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -36,47 +36,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B082F1WKP9",
-   "name": "YIHUA 926 III 60W Digital Display Soldering Iron Station Kit with 2 Helping Hands, 6 Extra Tips, Lead-Free Solder",
-   "brand": "YIHUA",
-   "model": "926 III",
-   "price": 43.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 7303,
-   "score": 93,
-   "award": "Best Overall",
-   "best_for": "Hobbyists who solder often and want a proper station without spending $100+.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A compact digital station with a built-in iron holder, adjustable sleep mode (5, 10 or 30 minutes), temperature calibration and a full set of accessories including two helping hands.",
-   "pros": [
-    "7,303 reviews; 3,000+ sold last month",
-    "Adjustable sleep mode and calibration",
-    "Helping hands and 6 tips included"
-   ],
-   "cons": [
-    "60 W is modest for heavy wire",
-    "4.4 stars"
-   ],
-   "specs": {
-    "type": "Soldering station kit",
-    "wattage": "60 W",
-    "temp_range": "194-896°F",
-    "included": "Station, iron, 6 tips (900M series), 2 helping hands, lead-free solder, solder sucker, tweezers"
-   },
-   "features": {
-    "temp_control": true,
-    "digital_display": true,
-    "auto_sleep": true,
-    "extra_tips": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71yimJ+NaFL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B082F1WKP9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/soldering-irons.html#B082F1WKP9"
-  },
-  {
-   "rank": 2,
    "asin": "B08PZBPXLZ",
    "name": "Liouhoum 80W LCD Digital Soldering Iron Kit, Adjustable Temperature, Fast Heat-Up",
    "brand": "Liouhoum",
@@ -85,7 +44,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 5371,
-   "score": 93,
+   "score": 96,
    "award": "Best Budget",
    "best_for": "First-time solderers and occasional repairs on a tight budget.",
    "bought_last_month": "6K+/mo",
@@ -117,7 +76,7 @@
    "page_url": "https://toolboxtop10.com/soldering-irons.html#B08PZBPXLZ"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B07RVMZNYR",
    "name": "YIHUA 939D+ Digital Soldering Station, 75W Equivalent, Built-in Transformer, ESD Safe",
    "brand": "YIHUA",
@@ -126,7 +85,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 4211,
-   "score": 92,
+   "score": 96,
    "award": null,
    "best_for": "Regular solderers who want a sturdier station than the 926 III.",
    "bought_last_month": "500+/mo",
@@ -158,7 +117,7 @@
    "page_url": "https://toolboxtop10.com/soldering-irons.html#B07RVMZNYR"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B06XFT1TPJ",
    "name": "HANDSKIT 90W Soldering Iron Kit for Electronics, Adjustable Temp 180-480°C, 21-in-1",
    "brand": "HANDSKIT",
@@ -167,7 +126,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3030,
-   "score": 92,
+   "score": 96,
    "award": null,
    "best_for": "DIYers who want a full kit with a carrying case.",
    "bought_last_month": "100+/mo",
@@ -198,6 +157,47 @@
    "page_url": "https://toolboxtop10.com/soldering-irons.html#B06XFT1TPJ"
   },
   {
+   "rank": 4,
+   "asin": "B082F1WKP9",
+   "name": "YIHUA 926 III 60W Digital Display Soldering Iron Station Kit with 2 Helping Hands, 6 Extra Tips, Lead-Free Solder",
+   "brand": "YIHUA",
+   "model": "926 III",
+   "price": 43.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 7303,
+   "score": 95,
+   "award": "Best Overall",
+   "best_for": "Hobbyists who solder often and want a proper station without spending $100+.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A compact digital station with a built-in iron holder, adjustable sleep mode (5, 10 or 30 minutes), temperature calibration and a full set of accessories including two helping hands.",
+   "pros": [
+    "7,303 reviews; 3,000+ sold last month",
+    "Adjustable sleep mode and calibration",
+    "Helping hands and 6 tips included"
+   ],
+   "cons": [
+    "60 W is modest for heavy wire",
+    "4.4 stars"
+   ],
+   "specs": {
+    "type": "Soldering station kit",
+    "wattage": "60 W",
+    "temp_range": "194-896°F",
+    "included": "Station, iron, 6 tips (900M series), 2 helping hands, lead-free solder, solder sucker, tweezers"
+   },
+   "features": {
+    "temp_control": true,
+    "digital_display": true,
+    "auto_sleep": true,
+    "extra_tips": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71yimJ+NaFL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B082F1WKP9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/soldering-irons.html#B082F1WKP9"
+  },
+  {
    "rank": 5,
    "asin": "B077JDGY1J",
    "name": "Weller 70 Watt Digital Soldering Station WE1010NA",
@@ -207,7 +207,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 4705,
-   "score": 91,
+   "score": 93,
    "award": null,
    "best_for": "Shops and classrooms that want a name-brand station with locked settings.",
    "bought_last_month": "1K+/mo",
@@ -240,129 +240,6 @@
   },
   {
    "rank": 6,
-   "asin": "B087767KNW",
-   "name": "Q-MING 60W Soldering Iron Kit with 5 Interchangeable Tips, 10-in-1 Adjustable Temperature",
-   "brand": "Q-MING",
-   "model": "60W kit",
-   "price": 13.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 9496,
-   "score": 87,
-   "award": null,
-   "best_for": "Beginners who want a no-frills kit with the basics.",
-   "bought_last_month": "8K+/mo",
-   "verdict": "A simple 60 W pencil iron with a temperature dial and a ceramic heater, packed with five tips, fine 0.6 mm solder and flux.",
-   "pros": [
-    "9,496 reviews; 8,000+ sold last month",
-    "Fine 0.6 mm solder included",
-    "Under $15"
-   ],
-   "cons": [
-    "No display",
-    "No auto sleep"
-   ],
-   "specs": {
-    "type": "Pencil iron kit",
-    "wattage": "60 W",
-    "temp_range": "392-842°F",
-    "included": "Iron, stand, sponge, 5 tips, 0.6 mm solder, flux"
-   },
-   "features": {
-    "temp_control": true,
-    "digital_display": false,
-    "auto_sleep": false,
-    "extra_tips": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71t5X8FgRrL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B087767KNW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/soldering-irons.html#B087767KNW"
-  },
-  {
-   "rank": 7,
-   "asin": "B096X6SG13",
-   "name": "PINECIL Smart Mini Portable Soldering Iron",
-   "brand": "PINE64",
-   "model": "PINECIL-BB2",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2578,
-   "score": 85,
-   "award": null,
-   "best_for": "Makers who want a small, fast iron for the bench or the road.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A pocket-size smart iron with a RISC-V chip and a screen, powered by a USB-C PD/QC charger or a DC barrel jack. It reaches working temperature in 12 seconds and drops into standby when idle.",
-   "pros": [
-    "4.6 stars; 2,578 reviews",
-    "12-second heat-up",
-    "USB-C or DC barrel power"
-   ],
-   "cons": [
-    "Power supply sold separately",
-    "One tip, no stand"
-   ],
-   "specs": {
-    "type": "Smart USB-C iron",
-    "wattage": "Up to 65 W",
-    "temp_range": null,
-    "included": "Iron, B2 tip (power supply not included)"
-   },
-   "features": {
-    "temp_control": true,
-    "digital_display": true,
-    "auto_sleep": true,
-    "extra_tips": false,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61IX8eET+dL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B096X6SG13?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/soldering-irons.html#B096X6SG13"
-  },
-  {
-   "rank": 8,
-   "asin": "B00002N7S1",
-   "name": "Weller 260W/200W Professional Soldering Gun Kit with Three Tips and Solder in Carrying Case",
-   "brand": "Weller",
-   "model": "D550PK",
-   "price": 64.71,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 5070,
-   "score": 79,
-   "award": null,
-   "best_for": "Heavy wire, cable lugs, stained glass and other jobs that soak up heat.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A heavy-duty dual-heat soldering gun that reaches 900-1100°F in 6 seconds, with the trigger selecting high or low power. It's for heavy wire, stained glass and sheet metal, not circuit boards.",
-   "pros": [
-    "4.5 stars; 5,070 reviews",
-    "6-second heat-up",
-    "Limited lifetime warranty"
-   ],
-   "cons": [
-    "No temperature control",
-    "Wrong tool for electronics"
-   ],
-   "specs": {
-    "type": "Soldering gun kit",
-    "wattage": "260 W / 200 W",
-    "temp_range": "900-1100°F",
-    "included": "Gun, 3 tips (incl. smoothing tip), solder, carrying case"
-   },
-   "features": {
-    "temp_control": false,
-    "digital_display": false,
-    "auto_sleep": false,
-    "extra_tips": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71hXpEqPN6L._AC_SL1310_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00002N7S1?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/soldering-irons.html#B00002N7S1"
-  },
-  {
-   "rank": 9,
    "asin": "B0D4DJW54S",
    "name": "Hakko FX888DX-010 Digital Soldering Station with Rotary Encoder",
    "brand": "Hakko",
@@ -371,7 +248,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 401,
-   "score": 79,
+   "score": 91,
    "award": "Money No Object",
    "best_for": "Serious hobbyists and pros who want a proven Hakko station.",
    "bought_last_month": "1K+/mo",
@@ -404,6 +281,129 @@
    "page_url": "https://toolboxtop10.com/soldering-irons.html#B0D4DJW54S"
   },
   {
+   "rank": 7,
+   "asin": "B096X6SG13",
+   "name": "PINECIL Smart Mini Portable Soldering Iron",
+   "brand": "PINE64",
+   "model": "PINECIL-BB2",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2578,
+   "score": 90,
+   "award": null,
+   "best_for": "Makers who want a small, fast iron for the bench or the road.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A pocket-size smart iron with a RISC-V chip and a screen, powered by a USB-C PD/QC charger or a DC barrel jack. It reaches working temperature in 12 seconds and drops into standby when idle.",
+   "pros": [
+    "4.6 stars; 2,578 reviews",
+    "12-second heat-up",
+    "USB-C or DC barrel power"
+   ],
+   "cons": [
+    "Power supply sold separately",
+    "One tip, no stand"
+   ],
+   "specs": {
+    "type": "Smart USB-C iron",
+    "wattage": "Up to 65 W",
+    "temp_range": null,
+    "included": "Iron, B2 tip (power supply not included)"
+   },
+   "features": {
+    "temp_control": true,
+    "digital_display": true,
+    "auto_sleep": true,
+    "extra_tips": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61IX8eET+dL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B096X6SG13?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/soldering-irons.html#B096X6SG13"
+  },
+  {
+   "rank": 8,
+   "asin": "B087767KNW",
+   "name": "Q-MING 60W Soldering Iron Kit with 5 Interchangeable Tips, 10-in-1 Adjustable Temperature",
+   "brand": "Q-MING",
+   "model": "60W kit",
+   "price": 13.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 9496,
+   "score": 88,
+   "award": null,
+   "best_for": "Beginners who want a no-frills kit with the basics.",
+   "bought_last_month": "8K+/mo",
+   "verdict": "A simple 60 W pencil iron with a temperature dial and a ceramic heater, packed with five tips, fine 0.6 mm solder and flux.",
+   "pros": [
+    "9,496 reviews; 8,000+ sold last month",
+    "Fine 0.6 mm solder included",
+    "Under $15"
+   ],
+   "cons": [
+    "No display",
+    "No auto sleep"
+   ],
+   "specs": {
+    "type": "Pencil iron kit",
+    "wattage": "60 W",
+    "temp_range": "392-842°F",
+    "included": "Iron, stand, sponge, 5 tips, 0.6 mm solder, flux"
+   },
+   "features": {
+    "temp_control": true,
+    "digital_display": false,
+    "auto_sleep": false,
+    "extra_tips": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71t5X8FgRrL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B087767KNW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/soldering-irons.html#B087767KNW"
+  },
+  {
+   "rank": 9,
+   "asin": "B00002N7S1",
+   "name": "Weller 260W/200W Professional Soldering Gun Kit with Three Tips and Solder in Carrying Case",
+   "brand": "Weller",
+   "model": "D550PK",
+   "price": 64.71,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 5070,
+   "score": 82,
+   "award": null,
+   "best_for": "Heavy wire, cable lugs, stained glass and other jobs that soak up heat.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A heavy-duty dual-heat soldering gun that reaches 900-1100°F in 6 seconds, with the trigger selecting high or low power. It's for heavy wire, stained glass and sheet metal, not circuit boards.",
+   "pros": [
+    "4.5 stars; 5,070 reviews",
+    "6-second heat-up",
+    "Limited lifetime warranty"
+   ],
+   "cons": [
+    "No temperature control",
+    "Wrong tool for electronics"
+   ],
+   "specs": {
+    "type": "Soldering gun kit",
+    "wattage": "260 W / 200 W",
+    "temp_range": "900-1100°F",
+    "included": "Gun, 3 tips (incl. smoothing tip), solder, carrying case"
+   },
+   "features": {
+    "temp_control": false,
+    "digital_display": false,
+    "auto_sleep": false,
+    "extra_tips": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71hXpEqPN6L._AC_SL1310_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00002N7S1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/soldering-irons.html#B00002N7S1"
+  },
+  {
    "rank": 10,
    "asin": "B00FZPSX3G",
    "name": "Hakko FX601-02 Adjustable Temperature Controlled Soldering Iron, 67 Watts",
@@ -413,7 +413,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1787,
-   "score": 76,
+   "score": 82,
    "award": null,
    "best_for": "People who want Hakko-quality temperature control without a base station.",
    "bought_last_month": "500+/mo",

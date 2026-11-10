@@ -21,7 +21,7 @@
    "vac_port": 0.3,
    "hook_loop": 0.35
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -42,7 +42,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 7152,
-   "score": 92,
+   "score": 96,
    "award": "Best Overall",
    "best_for": "Most people: one sander for flat panels, corners and curves.",
    "bought_last_month": "2K+/mo",
@@ -82,7 +82,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 5761,
-   "score": 85,
+   "score": 89,
    "award": "Best Budget",
    "best_for": "Light detail work for about $21.",
    "bought_last_month": "1K+/mo",
@@ -122,7 +122,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3240,
-   "score": 83,
+   "score": 89,
    "award": null,
    "best_for": "Corners and edges with good dust control.",
    "bought_last_month": "600+/mo",
@@ -194,32 +194,32 @@
   },
   {
    "rank": 5,
-   "asin": "B08HQ59Q91",
-   "name": "HYCHIKA Detail Sander, 14,000 OPM, 12 Pcs Sandpapers, Dust Collection (MS200W)",
+   "asin": "B0CZ3GP76F",
+   "name": "HYCHIKA Detail Sander, 140W, up to 13000 OPM, 1.2A, 12pcs Sandpapers (TX104)",
    "brand": "HYCHIKA",
-   "model": "MS200W",
-   "price": 30.32,
+   "model": "TX104",
+   "price": 23.99,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 2108,
-   "score": 73,
+   "rating": 4.4,
+   "reviews_count": 317,
+   "score": 82,
    "award": null,
-   "best_for": "A cheap sander ready to go with three grits.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 1.6A detail sander that sells over 1,000 a month, with a 6-hole dust system, a dust bag and 12 sheets in three grits.",
+   "best_for": "A cheap backup sander with paper in the box.",
+   "bought_last_month": "50+/mo",
+   "verdict": "HYCHIKA's smaller sander: 1.2A, 13,000 opm, a 6-hole pad with a dust bag and 12 sheets, for $6 less than the MS200W.",
    "pros": [
-    "1.6A, 14,000 opm",
-    "12 sheets in 3 grits",
-    "2,108 reviews"
+    "$23.99 with 12 sheets",
+    "Hook-and-loop pad",
+    "2.5 lbs"
    ],
    "cons": [
-    "4.3 stars",
+    "1.2A, below the MS200W's 1.6A",
     "No warranty term listed"
    ],
    "specs": {
-    "opm": "14,000",
-    "motor": "1.6 A",
-    "weight": "2.2 lb",
+    "opm": "13,000",
+    "motor": "1.2 A",
+    "weight": "2.5 lb",
     "warranty": null,
     "in_box": "12 sheets (80/120/240), dust bag"
    },
@@ -228,9 +228,9 @@
     "vac_port": false,
     "hook_loop": true
    },
-   "image": "https://m.media-amazon.com/images/I/71Igoe6reRL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08HQ59Q91?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-detail-sanders.html#B08HQ59Q91"
+   "image": "https://m.media-amazon.com/images/I/81nLar2pyEL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CZ3GP76F?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-detail-sanders.html#B0CZ3GP76F"
   },
   {
    "rank": 6,
@@ -242,7 +242,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 297,
-   "score": 68,
+   "score": 82,
    "award": null,
    "best_for": "A full grit range out of the box.",
    "bought_last_month": "100+/mo",
@@ -274,46 +274,6 @@
   },
   {
    "rank": 7,
-   "asin": "B0CZ3GP76F",
-   "name": "HYCHIKA Detail Sander, 140W, up to 13000 OPM, 1.2A, 12pcs Sandpapers (TX104)",
-   "brand": "HYCHIKA",
-   "model": "TX104",
-   "price": 23.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 317,
-   "score": 67,
-   "award": null,
-   "best_for": "A cheap backup sander with paper in the box.",
-   "bought_last_month": "50+/mo",
-   "verdict": "HYCHIKA's smaller sander: 1.2A, 13,000 opm, a 6-hole pad with a dust bag and 12 sheets, for $6 less than the MS200W.",
-   "pros": [
-    "$23.99 with 12 sheets",
-    "Hook-and-loop pad",
-    "2.5 lbs"
-   ],
-   "cons": [
-    "1.2A, below the MS200W's 1.6A",
-    "No warranty term listed"
-   ],
-   "specs": {
-    "opm": "13,000",
-    "motor": "1.2 A",
-    "weight": "2.5 lb",
-    "warranty": null,
-    "in_box": "12 sheets (80/120/240), dust bag"
-   },
-   "features": {
-    "attachments": false,
-    "vac_port": false,
-    "hook_loop": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81nLar2pyEL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CZ3GP76F?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-detail-sanders.html#B0CZ3GP76F"
-  },
-  {
-   "rank": 8,
    "asin": "B0C6V4C641",
    "name": "CRAFTSMAN Detail Sander, Corded Mouse Sander, 2 Attachments, Sandpaper and Dust Bag (CMEW210)",
    "brand": "CRAFTSMAN",
@@ -322,7 +282,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 161,
-   "score": 66,
+   "score": 82,
    "award": null,
    "best_for": "CRAFTSMAN fans who want two detail attachments.",
    "bought_last_month": "50+/mo",
@@ -353,6 +313,46 @@
    "page_url": "https://toolboxtop10.com/corded-detail-sanders.html#B0C6V4C641"
   },
   {
+   "rank": 8,
+   "asin": "B08HQ59Q91",
+   "name": "HYCHIKA Detail Sander, 14,000 OPM, 12 Pcs Sandpapers, Dust Collection (MS200W)",
+   "brand": "HYCHIKA",
+   "model": "MS200W",
+   "price": 30.32,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 2108,
+   "score": 81,
+   "award": null,
+   "best_for": "A cheap sander ready to go with three grits.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 1.6A detail sander that sells over 1,000 a month, with a 6-hole dust system, a dust bag and 12 sheets in three grits.",
+   "pros": [
+    "1.6A, 14,000 opm",
+    "12 sheets in 3 grits",
+    "2,108 reviews"
+   ],
+   "cons": [
+    "4.3 stars",
+    "No warranty term listed"
+   ],
+   "specs": {
+    "opm": "14,000",
+    "motor": "1.6 A",
+    "weight": "2.2 lb",
+    "warranty": null,
+    "in_box": "12 sheets (80/120/240), dust bag"
+   },
+   "features": {
+    "attachments": false,
+    "vac_port": false,
+    "hook_loop": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Igoe6reRL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08HQ59Q91?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-detail-sanders.html#B08HQ59Q91"
+  },
+  {
    "rank": 9,
    "asin": "B0FV7SLXGV",
    "name": "THINKLEARN Detail Sander, 13000 OPM Compact Electric Sander Tool, 1.2A, 15 Sandpapers (Pink)",
@@ -362,7 +362,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 110,
-   "score": 65,
+   "score": 81,
    "award": null,
    "best_for": "Light trim and furniture sanding with a wide spread of grits in the box.",
    "bought_last_month": "100+/mo",
@@ -403,7 +403,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 270,
-   "score": 60,
+   "score": 76,
    "award": null,
    "best_for": "The most paper for the money.",
    "bought_last_month": "300+/mo",

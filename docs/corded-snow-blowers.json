@@ -23,41 +23,41 @@
    "long_throw": 0.15,
    "led_lights": 0.1
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 140,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
   "best_overall": "B0D67Z7KZF",
-  "best_budget": "B008U2LRDY",
+  "best_budget": "B0CJDPDZHJ",
   "money_no_object": "B0D686D5JS"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B075NMXLSS",
-   "name": "Snow Joe Corded Electric Snow Blower, 22 Clearing Path, Dual LEDs, SJ627E",
-   "brand": "Snow Joe",
-   "model": "SJ627E",
-   "price": 249.99,
+   "asin": "B0D686D5JS",
+   "name": "Westinghouse WSnow22 Corded Snow Blower 22 Inch, Steel Auger, Dual LED Lights, 25ft Throwing Distance, Plows 840lbs/min",
+   "brand": "Westinghouse",
+   "model": "WSnow22",
+   "price": 249.0,
    "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 5698,
-   "score": 86,
-   "award": null,
-   "best_for": "Buyers who want the longest track record in this class.",
+   "rating": 4.2,
+   "reviews_count": 218,
+   "score": 93,
+   "award": "Money No Object",
+   "best_for": "Two-car driveways and deeper snowfalls.",
    "bought_last_month": "100+/mo",
-   "verdict": "The most-reviewed corded blower on Amazon, with 5,698 ratings. It cuts a 22 in by 13 in path, the same as the WSnow22, for about the same price.",
+   "verdict": "The bigger WSnow20: 2 in wider, 3 in deeper and rated for 840 lb of snow a minute. Worth the extra $69 if your storms regularly top 10 in.",
    "pros": [
     "22 in by 13 in intake",
-    "Moves up to 25 tons of snow per hour",
-    "5,698 ratings, the most on this page",
+    "Rubber-tipped steel auger",
+    "Moves up to 840 lb of snow per minute",
     "2-year limited warranty"
    ],
    "cons": [
-    "Listing contradicts itself on the auger: the bullets say all-steel, the highlight line says plastic",
-    "4.0 stars, lower than most picks here"
+    "$249 is the top of the corded range",
+    "34.6 lb, 5 lb heavier than the WSnow20"
    ],
    "specs": {
     "type": "Single-stage, 22 in",
@@ -65,18 +65,18 @@
     "depth": "13 in",
     "throw": "25 ft",
     "motor": "15 A",
-    "weight": "34.8 lb"
+    "weight": "34.6 lb"
    },
    "features": {
     "wide_path": true,
-    "steel_auger": false,
+    "steel_auger": true,
     "deep_intake": true,
     "long_throw": true,
     "led_lights": true
    },
-   "image": "https://m.media-amazon.com/images/I/61BIrHvhbLL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B075NMXLSS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B075NMXLSS"
+   "image": "https://m.media-amazon.com/images/I/71oIJe3fw0L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D686D5JS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B0D686D5JS"
   },
   {
    "rank": 2,
@@ -88,7 +88,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 628,
-   "score": 82,
+   "score": 91,
    "award": "Best Overall",
    "best_for": "Driveways and walks that get up to 10 in of snow at a time.",
    "bought_last_month": "600+/mo",
@@ -132,7 +132,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 260,
-   "score": 81,
+   "score": 91,
    "award": null,
    "best_for": "Deeper snow on a tight budget.",
    "bought_last_month": "100+/mo",
@@ -169,94 +169,6 @@
   },
   {
    "rank": 4,
-   "asin": "B0D686D5JS",
-   "name": "Westinghouse WSnow22 Corded Snow Blower 22 Inch, Steel Auger, Dual LED Lights, 25ft Throwing Distance, Plows 840lbs/min",
-   "brand": "Westinghouse",
-   "model": "WSnow22",
-   "price": 249.0,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 218,
-   "score": 80,
-   "award": "Money No Object",
-   "best_for": "Two-car driveways and deeper snowfalls.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The bigger WSnow20: 2 in wider, 3 in deeper and rated for 840 lb of snow a minute. Worth the extra $69 if your storms regularly top 10 in.",
-   "pros": [
-    "22 in by 13 in intake",
-    "Rubber-tipped steel auger",
-    "Moves up to 840 lb of snow per minute",
-    "2-year limited warranty"
-   ],
-   "cons": [
-    "$249 is the top of the corded range",
-    "34.6 lb, 5 lb heavier than the WSnow20"
-   ],
-   "specs": {
-    "type": "Single-stage, 22 in",
-    "width": "22 in",
-    "depth": "13 in",
-    "throw": "25 ft",
-    "motor": "15 A",
-    "weight": "34.6 lb"
-   },
-   "features": {
-    "wide_path": true,
-    "steel_auger": true,
-    "deep_intake": true,
-    "long_throw": true,
-    "led_lights": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71oIJe3fw0L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D686D5JS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B0D686D5JS"
-  },
-  {
-   "rank": 5,
-   "asin": "B0FXM4FXWD",
-   "name": "PowerSmart 21 Inch Corded Electric Snow Blower, 15 Amp, with LED Light",
-   "brand": "PowerSmart",
-   "model": "DB7521",
-   "price": 199.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 423,
-   "score": 77,
-   "award": null,
-   "best_for": "Light, frequent snowfalls on a mid-size driveway.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A 21 in blower with the highest listed capacity here, 1,020 lb of snow a minute, and a 30 ft throw. It's also the heaviest pick at 41.7 lb.",
-   "pros": [
-    "Rated for up to 1,020 lb of snow per minute",
-    "Throws up to 30 ft",
-    "Push-button start and overload protection"
-   ],
-   "cons": [
-    "41.7 lb, the heaviest blower here",
-    "Listing gives the clearing depth as 6 in in one place and 15 cm in another, and a 25 ft throw next to the 30 ft claim",
-    "Auger material not stated"
-   ],
-   "specs": {
-    "type": "Single-stage, 21 in",
-    "width": "21 in",
-    "depth": "6 in (listed)",
-    "throw": "30 ft",
-    "motor": "15 A",
-    "weight": "41.7 lb"
-   },
-   "features": {
-    "wide_path": true,
-    "steel_auger": false,
-    "deep_intake": false,
-    "long_throw": true,
-    "led_lights": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61Iu8U2pN7L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FXM4FXWD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B0FXM4FXWD"
-  },
-  {
-   "rank": 6,
    "asin": "B0FWX1LNNT",
    "name": "SENIX Corded Snow Blower, 21in, 15Amp, 880lbs/min, 33ft Throw",
    "brand": "SENIX",
@@ -265,7 +177,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 156,
-   "score": 76,
+   "score": 88,
    "award": null,
    "best_for": "Wide driveways where you need to throw snow clear of the edge.",
    "bought_last_month": "100+/mo",
@@ -300,51 +212,95 @@
    "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B0FWX1LNNT"
   },
   {
-   "rank": 7,
-   "asin": "B008U2LRDY",
-   "name": "Snow Joe 324E Electric Snow Shovel with LED Headlight, 10 Amp, 11 Inches",
+   "rank": 5,
+   "asin": "B075NMXLSS",
+   "name": "Snow Joe Corded Electric Snow Blower, 22 Clearing Path, Dual LEDs, SJ627E",
    "brand": "Snow Joe",
-   "model": "324E",
-   "price": 124.99,
+   "model": "SJ627E",
+   "price": 249.99,
    "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 4877,
-   "score": 74,
-   "award": "Best Budget",
-   "best_for": "Steps, decks, patios and short walks.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The most-reviewed corded snow shovel here, with 4,877 ratings at 4.1 stars. It's light enough to carry around and clears steps and decks a blower can't reach.",
+   "rating": 4.0,
+   "reviews_count": 5698,
+   "score": 86,
+   "award": null,
+   "best_for": "Buyers who want the longest track record in this class.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The most-reviewed corded blower on Amazon, with 5,698 ratings. It cuts a 22 in by 13 in path, the same as the WSnow22, for about the same price.",
    "pros": [
-    "13.6 lb",
-    "LED headlight",
-    "4,877 ratings",
-    "2-year warranty"
+    "22 in by 13 in intake",
+    "Moves up to 25 tons of snow per hour",
+    "5,698 ratings, the most on this page",
+    "2-year limited warranty"
    ],
    "cons": [
-    "11 in by 6 in path",
-    "Costs within $15 of the WEN 20 in blower"
+    "Listing contradicts itself on the auger: the bullets say all-steel, the highlight line says plastic",
+    "4.0 stars, lower than most picks here"
    ],
    "specs": {
-    "type": "Snow shovel, 11 in",
-    "width": "11 in",
-    "depth": "6 in",
-    "throw": "20 ft",
-    "motor": "10 A",
-    "weight": "13.6 lb"
+    "type": "Single-stage, 22 in",
+    "width": "22 in",
+    "depth": "13 in",
+    "throw": "25 ft",
+    "motor": "15 A",
+    "weight": "34.8 lb"
    },
    "features": {
-    "wide_path": false,
+    "wide_path": true,
     "steel_auger": false,
-    "deep_intake": false,
-    "long_throw": false,
+    "deep_intake": true,
+    "long_throw": true,
     "led_lights": true
    },
-   "image": "https://m.media-amazon.com/images/I/61U+OlflzkL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B008U2LRDY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B008U2LRDY"
+   "image": "https://m.media-amazon.com/images/I/61BIrHvhbLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B075NMXLSS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B075NMXLSS"
   },
   {
-   "rank": 8,
+   "rank": 6,
+   "asin": "B0FXM4FXWD",
+   "name": "PowerSmart 21 Inch Corded Electric Snow Blower, 15 Amp, with LED Light",
+   "brand": "PowerSmart",
+   "model": "DB7521",
+   "price": 199.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 423,
+   "score": 85,
+   "award": null,
+   "best_for": "Light, frequent snowfalls on a mid-size driveway.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A 21 in blower with the highest listed capacity here, 1,020 lb of snow a minute, and a 30 ft throw. It's also the heaviest pick at 41.7 lb.",
+   "pros": [
+    "Rated for up to 1,020 lb of snow per minute",
+    "Throws up to 30 ft",
+    "Push-button start and overload protection"
+   ],
+   "cons": [
+    "41.7 lb, the heaviest blower here",
+    "Listing gives the clearing depth as 6 in in one place and 15 cm in another, and a 25 ft throw next to the 30 ft claim",
+    "Auger material not stated"
+   ],
+   "specs": {
+    "type": "Single-stage, 21 in",
+    "width": "21 in",
+    "depth": "6 in (listed)",
+    "throw": "30 ft",
+    "motor": "15 A",
+    "weight": "41.7 lb"
+   },
+   "features": {
+    "wide_path": true,
+    "steel_auger": false,
+    "deep_intake": false,
+    "long_throw": true,
+    "led_lights": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61Iu8U2pN7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FXM4FXWD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B0FXM4FXWD"
+  },
+  {
+   "rank": 7,
    "asin": "B0CJDPDZHJ",
    "name": "WEN Snow Thrower, 15-Amp 20-Inch Electric Snow Blaster with Dual LED Lights (5670)",
    "brand": "WEN",
@@ -353,8 +309,8 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 180,
-   "score": 72,
-   "award": null,
+   "score": 85,
+   "award": "Best Budget",
    "best_for": "A full-size 20 in blower on a budget.",
    "bought_last_month": null,
    "verdict": "The highest-rated walk-behind blower on this page at 4.4 stars, and the cheapest 20 in model. Same path as the WSnow20 for $40 less.",
@@ -388,6 +344,50 @@
    "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B0CJDPDZHJ"
   },
   {
+   "rank": 8,
+   "asin": "B008U2LRDY",
+   "name": "Snow Joe 324E Electric Snow Shovel with LED Headlight, 10 Amp, 11 Inches",
+   "brand": "Snow Joe",
+   "model": "324E",
+   "price": 124.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 4877,
+   "score": 74,
+   "award": null,
+   "best_for": "Steps, decks, patios and short walks.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The most-reviewed corded snow shovel here, with 4,877 ratings at 4.1 stars. It's light enough to carry around and clears steps and decks a blower can't reach.",
+   "pros": [
+    "13.6 lb",
+    "LED headlight",
+    "4,877 ratings",
+    "2-year warranty"
+   ],
+   "cons": [
+    "11 in by 6 in path",
+    "Costs within $15 of the WEN 20 in blower"
+   ],
+   "specs": {
+    "type": "Snow shovel, 11 in",
+    "width": "11 in",
+    "depth": "6 in",
+    "throw": "20 ft",
+    "motor": "10 A",
+    "weight": "13.6 lb"
+   },
+   "features": {
+    "wide_path": false,
+    "steel_auger": false,
+    "deep_intake": false,
+    "long_throw": false,
+    "led_lights": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61U+OlflzkL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B008U2LRDY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-snow-blowers.html#B008U2LRDY"
+  },
+  {
    "rank": 9,
    "asin": "B073V482GY",
    "name": "Earthwise SN70016 12-Amp Corded Snow Shovel, 16\" Width",
@@ -397,7 +397,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 2732,
-   "score": 71,
+   "score": 73,
    "award": null,
    "best_for": "Walks, decks and small driveways after light snow.",
    "bought_last_month": "100+/mo",
@@ -441,7 +441,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 664,
-   "score": 62,
+   "score": 70,
    "award": null,
    "best_for": "Decks, steps and stoops on a tight budget.",
    "bought_last_month": null,

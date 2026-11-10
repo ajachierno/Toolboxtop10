@@ -23,7 +23,7 @@
    "wood_top": 0.15,
    "power_strip": 0.2
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 200,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -91,7 +91,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1520,
-   "score": 82,
+   "score": 83,
    "award": null,
    "best_for": "A cheap PACKOUT-style stacking cart, toolbox and parts organizer.",
    "bought_last_month": "1K+/mo",
@@ -130,6 +130,147 @@
   },
   {
    "rank": 3,
+   "asin": "B0FJLDXC87",
+   "name": "INTERGREAT 8-Drawer Rolling Tool Chest with Detachable Top Tool Box",
+   "brand": "INTERGREAT",
+   "model": "8-Drawer",
+   "price": 169.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 428,
+   "score": 83,
+   "award": null,
+   "best_for": "The most drawers for about $170, with a bottom cabinet.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The most drawers for the money. Eight drawers split between a lift-off top box and a rolling base with a cabinet underneath, for about $170.",
+   "pros": [
+    "Eight drawers in three sizes, plus a bottom cabinet",
+    "Top box lifts off and each half locks on its own",
+    "Liners in every drawer; hooks on the door and tool holes in the handle",
+    "Adjustable bottom shelf for tall tools"
+   ],
+   "cons": [
+    "No load rating published",
+    "Drawer slide type isn't stated",
+    "Narrow 24 in footprint limits drawer size"
+   ],
+   "specs": {
+    "drawers": "8 + bottom cabinet",
+    "width": "24.1 in",
+    "capacity": null,
+    "slides": null,
+    "material": "Powder-coated steel",
+    "casters": "4 swivel (braking)",
+    "lock_type": "Keyed",
+    "weight": "60.2 lb"
+   },
+   "features": {
+    "ball_bearing": false,
+    "lock": true,
+    "riser": true,
+    "wood_top": false,
+    "power_strip": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81llzH-M2aL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FJLDXC87?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0FJLDXC87"
+  },
+  {
+   "rank": 4,
+   "asin": "B0FFSJBBR9",
+   "name": "Maxority 7-Drawer Heavy-Duty Rolling Tool Chest with Lock",
+   "brand": "Maxority",
+   "model": "AMAX2207-PRO",
+   "price": 169.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 110,
+   "score": 82,
+   "award": null,
+   "best_for": "Ball-bearing drawers and a keyed lock for under $170.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The cheapest ball-bearing drawers on the page. Seven drawers on real ball-bearing slides with a keyed lock, all under $170.",
+   "pros": [
+    "Ball-bearing slides on all seven drawers",
+    "Keyed lock",
+    "All four swivel casters lock",
+    "30 in tall, so it slides under most benches"
+   ],
+   "cons": [
+    "No per-drawer or total load rating given",
+    "One-piece unit, no detachable top box",
+    "Some assembly required"
+   ],
+   "specs": {
+    "drawers": "7",
+    "width": "24 in",
+    "capacity": null,
+    "slides": "Ball-bearing",
+    "material": "Steel",
+    "casters": "4 locking swivel",
+    "lock_type": "Keyed",
+    "weight": "60 lb"
+   },
+   "features": {
+    "ball_bearing": true,
+    "lock": true,
+    "riser": false,
+    "wood_top": false,
+    "power_strip": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71GzRTW-K3L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FFSJBBR9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0FFSJBBR9"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CX16FF1D",
+   "name": "WORKPRO 62 in. 7-Drawer & 2-Door Rolling Tool Chest with Wood Top",
+   "brand": "WORKPRO",
+   "model": "W009068A",
+   "price": 799.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 55,
+   "score": 82,
+   "award": "Money No Object",
+   "best_for": "A garage centerpiece: workbench, drawers, cabinets and a power strip.",
+   "bought_last_month": "300+/mo",
+   "verdict": "The whole garage in one unit. A 62 in workbench with a wood top, seven drawers, two locking doors, and a built-in power strip — the money-no-object shop centerpiece.",
+   "pros": [
+    "1000 lb total capacity across drawers and cabinets",
+    "Wooden workbench top with a built-in power strip",
+    "Locking doors plus ball-bearing drawers",
+    "62 in of bench for real projects"
+   ],
+   "cons": [
+    "Big, heavy, and needs the floor space",
+    "Freight delivery and assembly required",
+    "Overkill for a small home shop"
+   ],
+   "specs": {
+    "drawers": "7 + 2 doors",
+    "width": "62 in",
+    "capacity": "1000 lbs",
+    "slides": "Ball-bearing",
+    "material": "Steel + wood workbench top",
+    "casters": "5 in (2 locking)",
+    "lock_type": "Keyed",
+    "weight": "265 lb"
+   },
+   "features": {
+    "ball_bearing": true,
+    "lock": true,
+    "riser": false,
+    "wood_top": true,
+    "power_strip": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61tZF2MlKoL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CX16FF1D?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0CX16FF1D"
+  },
+  {
+   "rank": 6,
    "asin": "B0DLBKHXLS",
    "name": "Goplus 5-Drawer Rolling Tool Chest with Detachable Top Toolbox",
    "brand": "Goplus",
@@ -176,101 +317,7 @@
    "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0DLBKHXLS"
   },
   {
-   "rank": 4,
-   "asin": "B0FJLDXC87",
-   "name": "INTERGREAT 8-Drawer Rolling Tool Chest with Detachable Top Tool Box",
-   "brand": "INTERGREAT",
-   "model": "8-Drawer",
-   "price": 169.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 428,
-   "score": 78,
-   "award": null,
-   "best_for": "The most drawers for about $170, with a bottom cabinet.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The most drawers for the money. Eight drawers split between a lift-off top box and a rolling base with a cabinet underneath, for about $170.",
-   "pros": [
-    "Eight drawers in three sizes, plus a bottom cabinet",
-    "Top box lifts off and each half locks on its own",
-    "Liners in every drawer; hooks on the door and tool holes in the handle",
-    "Adjustable bottom shelf for tall tools"
-   ],
-   "cons": [
-    "No load rating published",
-    "Drawer slide type isn't stated",
-    "Narrow 24 in footprint limits drawer size"
-   ],
-   "specs": {
-    "drawers": "8 + bottom cabinet",
-    "width": "24.1 in",
-    "capacity": null,
-    "slides": null,
-    "material": "Powder-coated steel",
-    "casters": "4 swivel (braking)",
-    "lock_type": "Keyed",
-    "weight": "60.2 lb"
-   },
-   "features": {
-    "ball_bearing": false,
-    "lock": true,
-    "riser": true,
-    "wood_top": false,
-    "power_strip": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81llzH-M2aL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FJLDXC87?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0FJLDXC87"
-  },
-  {
-   "rank": 5,
-   "asin": "B0CX16FF1D",
-   "name": "WORKPRO 62 in. 7-Drawer & 2-Door Rolling Tool Chest with Wood Top",
-   "brand": "WORKPRO",
-   "model": "W009068A",
-   "price": 799.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 55,
-   "score": 74,
-   "award": "Money No Object",
-   "best_for": "A garage centerpiece: workbench, drawers, cabinets and a power strip.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The whole garage in one unit. A 62 in workbench with a wood top, seven drawers, two locking doors, and a built-in power strip — the money-no-object shop centerpiece.",
-   "pros": [
-    "1000 lb total capacity across drawers and cabinets",
-    "Wooden workbench top with a built-in power strip",
-    "Locking doors plus ball-bearing drawers",
-    "62 in of bench for real projects"
-   ],
-   "cons": [
-    "Big, heavy, and needs the floor space",
-    "Freight delivery and assembly required",
-    "Overkill for a small home shop"
-   ],
-   "specs": {
-    "drawers": "7 + 2 doors",
-    "width": "62 in",
-    "capacity": "1000 lbs",
-    "slides": "Ball-bearing",
-    "material": "Steel + wood workbench top",
-    "casters": "5 in (2 locking)",
-    "lock_type": "Keyed",
-    "weight": "265 lb"
-   },
-   "features": {
-    "ball_bearing": true,
-    "lock": true,
-    "riser": false,
-    "wood_top": true,
-    "power_strip": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61tZF2MlKoL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CX16FF1D?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0CX16FF1D"
-  },
-  {
-   "rank": 6,
+   "rank": 7,
    "asin": "B0FNP7X1P1",
    "name": "VEVOR 2-in-1 Rolling Tool Chest, 5 Drawers with Detachable Top Toolbox",
    "brand": "VEVOR",
@@ -279,7 +326,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 188,
-   "score": 72,
+   "score": 80,
    "award": null,
    "best_for": "A Goplus alternative with a better rating and a pegboard side.",
    "bought_last_month": "100+/mo",
@@ -317,53 +364,6 @@
    "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0FNP7X1P1"
   },
   {
-   "rank": 7,
-   "asin": "B0FFSJBBR9",
-   "name": "Maxority 7-Drawer Heavy-Duty Rolling Tool Chest with Lock",
-   "brand": "Maxority",
-   "model": "AMAX2207-PRO",
-   "price": 169.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 110,
-   "score": 72,
-   "award": null,
-   "best_for": "Ball-bearing drawers and a keyed lock for under $170.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The cheapest ball-bearing drawers on the page. Seven drawers on real ball-bearing slides with a keyed lock, all under $170.",
-   "pros": [
-    "Ball-bearing slides on all seven drawers",
-    "Keyed lock",
-    "All four swivel casters lock",
-    "30 in tall, so it slides under most benches"
-   ],
-   "cons": [
-    "No per-drawer or total load rating given",
-    "One-piece unit, no detachable top box",
-    "Some assembly required"
-   ],
-   "specs": {
-    "drawers": "7",
-    "width": "24 in",
-    "capacity": null,
-    "slides": "Ball-bearing",
-    "material": "Steel",
-    "casters": "4 locking swivel",
-    "lock_type": "Keyed",
-    "weight": "60 lb"
-   },
-   "features": {
-    "ball_bearing": true,
-    "lock": true,
-    "riser": false,
-    "wood_top": false,
-    "power_strip": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71GzRTW-K3L._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FFSJBBR9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0FFSJBBR9"
-  },
-  {
    "rank": 8,
    "asin": "B0DF37XDBB",
    "name": "WEN GG532B 52-Inch Premium Rolling Tool Cabinet, 21-Gauge Steel",
@@ -373,7 +373,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 40,
-   "score": 69,
+   "score": 76,
    "award": null,
    "best_for": "Mechanics who want a full-size cabinet with 100 lb soft-close drawers.",
    "bought_last_month": "50+/mo",
@@ -420,7 +420,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 96,
-   "score": 66,
+   "score": 75,
    "award": null,
    "best_for": "A 55 in rolling workbench rated for 1,000 lb at a third of the WORKPRO's price.",
    "bought_last_month": "100+/mo",
@@ -467,7 +467,7 @@
    "currency": "USD",
    "rating": 3.0,
    "reviews_count": 7,
-   "score": 45,
+   "score": 49,
    "award": null,
    "best_for": "Extra bulk storage from two side cabinets.",
    "bought_last_month": "50+/mo",

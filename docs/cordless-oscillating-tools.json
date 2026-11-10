@@ -23,7 +23,7 @@
    "tool_free": 0.15,
    "accessories": 0.1
   },
-  "reviews_ceiling": 60000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 70,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -44,7 +44,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 5703,
-   "score": 89,
+   "score": 96,
    "award": "Money No Object",
    "best_for": "Starting fresh and wanting the best multi-tool with battery and charger.",
    "bought_last_month": "1K+/mo",
@@ -79,132 +79,6 @@
   },
   {
    "rank": 2,
-   "asin": "B07VBB55X5",
-   "name": "DEWALT DCS356B 20V MAX XR Brushless Oscillating Tool (tool only)",
-   "brand": "DEWALT",
-   "model": "DCS356B",
-   "price": 94.0,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 14531,
-   "score": 87,
-   "award": "Best Overall",
-   "best_for": "DEWALT 20V MAX owners: the best cordless multi-tool, period.",
-   "bought_last_month": "5K+/mo",
-   "verdict": "The best cordless multi-tool, and it's not close — 14,000+ reviews at 4.8 stars. A brushless, 3-speed DEWALT that takes standard blades and rides the huge 20V MAX platform. Bare tool, so add a battery.",
-   "pros": [
-    "14,400 reviews at 4.8 stars",
-    "Brushless, 3-speed, tool-free blade change",
-    "Runs on the massive DEWALT 20V MAX lineup"
-   ],
-   "cons": [
-    "Tool only — no battery or charger",
-    "Pricey once you add a battery if you're new to DEWALT"
-   ],
-   "specs": {
-    "type": "Cordless",
-    "power": "20V MAX",
-    "oscillation": null,
-    "opm": "0-20,000 OPM",
-    "accessories": "Bare tool"
-   },
-   "features": {
-    "kit": false,
-    "brushless": true,
-    "variable_speed": true,
-    "tool_free": true,
-    "accessories": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61DExRdcCRL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07VBB55X5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B07VBB55X5"
-  },
-  {
-   "rank": 3,
-   "asin": "B0CZP39W53",
-   "name": "AVID POWER 20V Cordless Oscillating Tool Kit",
-   "brand": "AVID POWER",
-   "model": "20V Kit",
-   "price": 62.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 4012,
-   "score": 82,
-   "award": "Best Budget",
-   "best_for": "A complete multi-tool kit with blades for about $60.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The value pick — a complete cordless kit with a battery, charger, and blades for around $60, backed by nearly 4,000 reviews. Ready to cut out of the box, no platform required.",
-   "pros": [
-    "Battery, charger, and accessories included",
-    "Nearly 4,000 reviews at 4.4 stars",
-    "Variable speed, tool-free blade change"
-   ],
-   "cons": [
-    "Off-brand battery with no wider ecosystem",
-    "Not brushless"
-   ],
-   "specs": {
-    "type": "Cordless",
-    "power": "20V",
-    "oscillation": null,
-    "opm": null,
-    "accessories": "Included"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "variable_speed": true,
-    "tool_free": true,
-    "accessories": true
-   },
-   "image": "https://m.media-amazon.com/images/I/719FX+c2PaL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CZP39W53?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B0CZP39W53"
-  },
-  {
-   "rank": 4,
-   "asin": "B088GWJYV9",
-   "name": "KIMO 20V Cordless Oscillating Tool Kit (26 accessories)",
-   "brand": "KIMO",
-   "model": "20V Kit",
-   "price": 70.92,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2288,
-   "score": 80,
-   "award": null,
-   "best_for": "A first multi-tool with 26 accessories and a battery included.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A loaded budget kit — battery, charger, and 26 accessories for around $70, with 2,200 reviews behind it. A lot of tool and blades for a first multi-tool.",
-   "pros": [
-    "Battery plus 26 accessories included",
-    "2,200 reviews, 6 variable speeds",
-    "Ready to use out of the box"
-   ],
-   "cons": [
-    "Off-brand battery, no ecosystem",
-    "Not brushless"
-   ],
-   "specs": {
-    "type": "Cordless",
-    "power": "20V",
-    "oscillation": null,
-    "opm": "Max 21,000 OPM",
-    "accessories": "26 pieces + battery"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "variable_speed": true,
-    "tool_free": true,
-    "accessories": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71Yo9M-Qb2L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B088GWJYV9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B088GWJYV9"
-  },
-  {
-   "rank": 5,
    "asin": "B092RM6HJF",
    "name": "CRAFTSMAN V20 Cordless Oscillating Tool Kit",
    "brand": "CRAFTSMAN",
@@ -213,7 +87,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 934,
-   "score": 80,
+   "score": 93,
    "award": null,
    "best_for": "Starting on CRAFTSMAN V20 with blades in the box.",
    "bought_last_month": "600+/mo",
@@ -246,47 +120,172 @@
    "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B092RM6HJF"
   },
   {
-   "rank": 6,
-   "asin": "B00I3PNFVK",
-   "name": "Milwaukee 2626-20 M18 Cordless Multi-Tool (tool only)",
-   "brand": "Milwaukee",
-   "model": "2626-20",
-   "price": 110.0,
+   "rank": 3,
+   "asin": "B07VBB55X5",
+   "name": "DEWALT DCS356B 20V MAX XR Brushless Oscillating Tool (tool only)",
+   "brand": "DEWALT",
+   "model": "DCS356B",
+   "price": 94.0,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 5687,
-   "score": 78,
-   "award": null,
-   "best_for": "Milwaukee M18 owners who want a metal gear case and fine speed control.",
-   "bought_last_month": "700+/mo",
-   "verdict": "The M18 pick, and Amazon's #3 best-selling oscillating tool. A 12-setting speed dial and an all-metal gear case on Milwaukee's full-size 18V platform. Bare tool, so bring an M18 battery.",
+   "rating": 4.8,
+   "reviews_count": 14531,
+   "score": 92,
+   "award": "Best Overall",
+   "best_for": "DEWALT 20V MAX owners: the best cordless multi-tool, period.",
+   "bought_last_month": "5K+/mo",
+   "verdict": "The best cordless multi-tool, and it's not close — 14,000+ reviews at 4.8 stars. A brushless, 3-speed DEWALT that takes standard blades and rides the huge 20V MAX platform. Bare tool, so add a battery.",
    "pros": [
-    "5,600+ reviews at 4.7 stars",
-    "All-metal gear case, 12 speed settings",
-    "Runs on Milwaukee M18 batteries"
+    "14,400 reviews at 4.8 stars",
+    "Brushless, 3-speed, tool-free blade change",
+    "Runs on the massive DEWALT 20V MAX lineup"
    ],
    "cons": [
     "Tool only — no battery or charger",
-    "Not brushless, and the listing doesn't claim a tool-free blade change",
-    "Currently sold by a third-party seller, not Amazon"
+    "Pricey once you add a battery if you're new to DEWALT"
    ],
    "specs": {
     "type": "Cordless",
-    "power": "18V M18",
+    "power": "20V MAX",
     "oscillation": null,
-    "opm": "11,000-18,000 OPM",
-    "accessories": "Blade + sanding pad"
+    "opm": "0-20,000 OPM",
+    "accessories": "Bare tool"
    },
    "features": {
     "kit": false,
-    "brushless": false,
+    "brushless": true,
     "variable_speed": true,
-    "tool_free": false,
+    "tool_free": true,
     "accessories": false
    },
-   "image": "https://m.media-amazon.com/images/I/41Kpq3+VC-L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00I3PNFVK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B00I3PNFVK"
+   "image": "https://m.media-amazon.com/images/I/61DExRdcCRL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07VBB55X5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B07VBB55X5"
+  },
+  {
+   "rank": 4,
+   "asin": "B08JWL1PBV",
+   "name": "Milwaukee M12 FUEL Brushless Oscillating Tool (tool only)",
+   "brand": "Milwaukee",
+   "model": "2526-20",
+   "price": 119.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 370,
+   "score": 91,
+   "award": null,
+   "best_for": "Tight spots and M12 owners who want brushless power in a small body.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The compact pro pick. M12 FUEL is a brushless, surprisingly powerful 12V tool that fits into tight spots — ideal if you're already on Milwaukee M12. Bare tool.",
+   "pros": [
+    "Brushless power in a compact 12V body",
+    "Great in tight spaces, 4.7 stars",
+    "Milwaukee M12 platform"
+   ],
+   "cons": [
+    "Tool only — no battery or charger",
+    "12V has less runtime than 18/20V"
+   ],
+   "specs": {
+    "type": "Cordless",
+    "power": "12V M12",
+    "oscillation": null,
+    "opm": null,
+    "accessories": "Bare tool"
+   },
+   "features": {
+    "kit": false,
+    "brushless": true,
+    "variable_speed": true,
+    "tool_free": true,
+    "accessories": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41wGnZoUQeL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08JWL1PBV?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B08JWL1PBV"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CZP39W53",
+   "name": "AVID POWER 20V Cordless Oscillating Tool Kit",
+   "brand": "AVID POWER",
+   "model": "20V Kit",
+   "price": 62.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 4012,
+   "score": 90,
+   "award": "Best Budget",
+   "best_for": "A complete multi-tool kit with blades for about $60.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The value pick — a complete cordless kit with a battery, charger, and blades for around $60, backed by nearly 4,000 reviews. Ready to cut out of the box, no platform required.",
+   "pros": [
+    "Battery, charger, and accessories included",
+    "Nearly 4,000 reviews at 4.4 stars",
+    "Variable speed, tool-free blade change"
+   ],
+   "cons": [
+    "Off-brand battery with no wider ecosystem",
+    "Not brushless"
+   ],
+   "specs": {
+    "type": "Cordless",
+    "power": "20V",
+    "oscillation": null,
+    "opm": null,
+    "accessories": "Included"
+   },
+   "features": {
+    "kit": true,
+    "brushless": false,
+    "variable_speed": true,
+    "tool_free": true,
+    "accessories": true
+   },
+   "image": "https://m.media-amazon.com/images/I/719FX+c2PaL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CZP39W53?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B0CZP39W53"
+  },
+  {
+   "rank": 6,
+   "asin": "B088GWJYV9",
+   "name": "KIMO 20V Cordless Oscillating Tool Kit (26 accessories)",
+   "brand": "KIMO",
+   "model": "20V Kit",
+   "price": 70.92,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2288,
+   "score": 90,
+   "award": null,
+   "best_for": "A first multi-tool with 26 accessories and a battery included.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A loaded budget kit — battery, charger, and 26 accessories for around $70, with 2,200 reviews behind it. A lot of tool and blades for a first multi-tool.",
+   "pros": [
+    "Battery plus 26 accessories included",
+    "2,200 reviews, 6 variable speeds",
+    "Ready to use out of the box"
+   ],
+   "cons": [
+    "Off-brand battery, no ecosystem",
+    "Not brushless"
+   ],
+   "specs": {
+    "type": "Cordless",
+    "power": "20V",
+    "oscillation": null,
+    "opm": "Max 21,000 OPM",
+    "accessories": "26 pieces + battery"
+   },
+   "features": {
+    "kit": true,
+    "brushless": false,
+    "variable_speed": true,
+    "tool_free": true,
+    "accessories": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Yo9M-Qb2L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B088GWJYV9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B088GWJYV9"
   },
   {
    "rank": 7,
@@ -298,7 +297,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 5473,
-   "score": 78,
+   "score": 86,
    "award": null,
    "best_for": "Makita LXT owners who want faster cuts from a wide 3.2° swing.",
    "bought_last_month": "700+/mo",
@@ -333,90 +332,6 @@
   },
   {
    "rank": 8,
-   "asin": "B08JWL1PBV",
-   "name": "Milwaukee M12 FUEL Brushless Oscillating Tool (tool only)",
-   "brand": "Milwaukee",
-   "model": "2526-20",
-   "price": 119.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 370,
-   "score": 75,
-   "award": null,
-   "best_for": "Tight spots and M12 owners who want brushless power in a small body.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The compact pro pick. M12 FUEL is a brushless, surprisingly powerful 12V tool that fits into tight spots — ideal if you're already on Milwaukee M12. Bare tool.",
-   "pros": [
-    "Brushless power in a compact 12V body",
-    "Great in tight spaces, 4.7 stars",
-    "Milwaukee M12 platform"
-   ],
-   "cons": [
-    "Tool only — no battery or charger",
-    "12V has less runtime than 18/20V"
-   ],
-   "specs": {
-    "type": "Cordless",
-    "power": "12V M12",
-    "oscillation": null,
-    "opm": null,
-    "accessories": "Bare tool"
-   },
-   "features": {
-    "kit": false,
-    "brushless": true,
-    "variable_speed": true,
-    "tool_free": true,
-    "accessories": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41wGnZoUQeL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08JWL1PBV?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B08JWL1PBV"
-  },
-  {
-   "rank": 9,
-   "asin": "B0B11CJ52Y",
-   "name": "RYOBI ONE+ 18V Cordless Oscillating Multi-Tool (tool only)",
-   "brand": "RYOBI",
-   "model": "PCL430B",
-   "price": 56.21,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1796,
-   "score": 73,
-   "award": null,
-   "best_for": "RYOBI ONE+ owners who want a cheap, simple multi-tool.",
-   "bought_last_month": "800+/mo",
-   "verdict": "The pick if you're on RYOBI ONE+. A simple, well-priced multi-tool with tool-free blade change and 1,700 reviews — just add a ONE+ battery.",
-   "pros": [
-    "Cheap entry on the huge RYOBI ONE+ platform",
-    "Tool-free blade change, 4.4 stars",
-    "1,700 reviews"
-   ],
-   "cons": [
-    "Tool only — no battery or charger",
-    "Not brushless"
-   ],
-   "specs": {
-    "type": "Cordless",
-    "power": "18V ONE+",
-    "oscillation": null,
-    "opm": null,
-    "accessories": "Bare tool"
-   },
-   "features": {
-    "kit": false,
-    "brushless": false,
-    "variable_speed": true,
-    "tool_free": true,
-    "accessories": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51w007uMfeL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B11CJ52Y?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B0B11CJ52Y"
-  },
-  {
-   "rank": 10,
    "asin": "B07KKH88YK",
    "name": "CRAFTSMAN V20 CMCE500B Oscillating Tool (tool only)",
    "brand": "CRAFTSMAN",
@@ -425,7 +340,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 593,
-   "score": 72,
+   "score": 86,
    "award": null,
    "best_for": "CRAFTSMAN V20 owners who just need the bare tool.",
    "bought_last_month": "50+/mo",
@@ -456,6 +371,91 @@
    "image": "https://m.media-amazon.com/images/I/71djj9y2+EL._AC_SX425_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07KKH88YK?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B07KKH88YK"
+  },
+  {
+   "rank": 9,
+   "asin": "B00I3PNFVK",
+   "name": "Milwaukee 2626-20 M18 Cordless Multi-Tool (tool only)",
+   "brand": "Milwaukee",
+   "model": "2626-20",
+   "price": 110.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 5687,
+   "score": 85,
+   "award": null,
+   "best_for": "Milwaukee M18 owners who want a metal gear case and fine speed control.",
+   "bought_last_month": "700+/mo",
+   "verdict": "The M18 pick, and Amazon's #3 best-selling oscillating tool. A 12-setting speed dial and an all-metal gear case on Milwaukee's full-size 18V platform. Bare tool, so bring an M18 battery.",
+   "pros": [
+    "5,600+ reviews at 4.7 stars",
+    "All-metal gear case, 12 speed settings",
+    "Runs on Milwaukee M18 batteries"
+   ],
+   "cons": [
+    "Tool only — no battery or charger",
+    "Not brushless, and the listing doesn't claim a tool-free blade change",
+    "Currently sold by a third-party seller, not Amazon"
+   ],
+   "specs": {
+    "type": "Cordless",
+    "power": "18V M18",
+    "oscillation": null,
+    "opm": "11,000-18,000 OPM",
+    "accessories": "Blade + sanding pad"
+   },
+   "features": {
+    "kit": false,
+    "brushless": false,
+    "variable_speed": true,
+    "tool_free": false,
+    "accessories": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41Kpq3+VC-L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00I3PNFVK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B00I3PNFVK"
+  },
+  {
+   "rank": 10,
+   "asin": "B0B11CJ52Y",
+   "name": "RYOBI ONE+ 18V Cordless Oscillating Multi-Tool (tool only)",
+   "brand": "RYOBI",
+   "model": "PCL430B",
+   "price": 56.21,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1796,
+   "score": 84,
+   "award": null,
+   "best_for": "RYOBI ONE+ owners who want a cheap, simple multi-tool.",
+   "bought_last_month": "800+/mo",
+   "verdict": "The pick if you're on RYOBI ONE+. A simple, well-priced multi-tool with tool-free blade change and 1,700 reviews — just add a ONE+ battery.",
+   "pros": [
+    "Cheap entry on the huge RYOBI ONE+ platform",
+    "Tool-free blade change, 4.4 stars",
+    "1,700 reviews"
+   ],
+   "cons": [
+    "Tool only — no battery or charger",
+    "Not brushless"
+   ],
+   "specs": {
+    "type": "Cordless",
+    "power": "18V ONE+",
+    "oscillation": null,
+    "opm": null,
+    "accessories": "Bare tool"
+   },
+   "features": {
+    "kit": false,
+    "brushless": false,
+    "variable_speed": true,
+    "tool_free": true,
+    "accessories": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51w007uMfeL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B11CJ52Y?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-oscillating-tools.html#B0B11CJ52Y"
   }
  ],
  "avoid": [

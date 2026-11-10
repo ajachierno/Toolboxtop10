@@ -23,7 +23,7 @@
    "led": 0.15,
    "kit": 0.25
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 85,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -78,48 +78,6 @@
   },
   {
    "rank": 2,
-   "asin": "B074BYS49M",
-   "name": "Makita XTR01Z 18V LXT Brushless Cordless Compact Router, Tool Only",
-   "brand": "Makita",
-   "model": "XTR01Z",
-   "price": 156.97,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 2192,
-   "score": 81,
-   "award": null,
-   "best_for": "Makita LXT owners who want a brushless router with a wide speed range.",
-   "bought_last_month": "500+/mo",
-   "verdict": "Makita's brushless compact router with a wide 10,000-30,000 rpm range, electronic speed control under load, a lock-off button and a straight guide in the box. 3-year warranty.",
-   "pros": [
-    "Brushless with constant speed under load",
-    "10,000-30,000 rpm",
-    "Straight guide included; 3-year warranty"
-   ],
-   "cons": [
-    "Tool only",
-    "5.3 lbs, heavier than the DEWALT and CRAFTSMAN"
-   ],
-   "specs": {
-    "battery": "Makita 18V LXT",
-    "speed": "10,000-30,000 rpm",
-    "collets": "1/4 in",
-    "weight": "5.3 lb",
-    "in_box": "Collet, 2 wrenches, straight guide"
-   },
-   "features": {
-    "brushless": true,
-    "variable_speed": true,
-    "soft_start": false,
-    "led": false,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61SaAn4OmWL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B074BYS49M?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-routers.html#B074BYS49M"
-  },
-  {
-   "rank": 3,
    "asin": "B0BZQZ2NS9",
    "name": "CRAFTSMAN V20 Cordless Router, Variable Speed, Fixed Base, Bare Tool (CMCW400B)",
    "brand": "CRAFTSMAN",
@@ -128,7 +86,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 438,
-   "score": 77,
+   "score": 89,
    "award": null,
    "best_for": "CRAFTSMAN V20 owners who want a brushless router under $100.",
    "bought_last_month": "200+/mo",
@@ -161,49 +119,133 @@
    "page_url": "https://toolboxtop10.com/cordless-routers.html#B0BZQZ2NS9"
   },
   {
-   "rank": 4,
-   "asin": "B07XM9876N",
-   "name": "Milwaukee M18 FUEL Cordless Compact Router, Tool Only (2723-20)",
-   "brand": "Milwaukee",
-   "model": "2723-20",
-   "price": 178.99,
+   "rank": 3,
+   "asin": "B074BYS49M",
+   "name": "Makita XTR01Z 18V LXT Brushless Cordless Compact Router, Tool Only",
+   "brand": "Makita",
+   "model": "XTR01Z",
+   "price": 156.97,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 4312,
-   "score": 75,
+   "reviews_count": 2192,
+   "score": 87,
    "award": null,
-   "best_for": "Milwaukee M18 owners who want a top-rated compact router.",
+   "best_for": "Makita LXT owners who want a brushless router with a wide speed range.",
    "bought_last_month": "500+/mo",
-   "verdict": "Milwaukee's M18 compact router, tied for the best rating here and tied for second on sales. The Amazon listing is nearly empty: it gives 1.25 HP and nothing about speed control, so check Milwaukee's site for features.",
+   "verdict": "Makita's brushless compact router with a wide 10,000-30,000 rpm range, electronic speed control under load, a lock-off button and a straight guide in the box. 3-year warranty.",
    "pros": [
-    "4.8 stars across 4,312 reviews",
-    "1.25 HP listed",
-    "Runs on any M18 battery"
+    "Brushless with constant speed under load",
+    "10,000-30,000 rpm",
+    "Straight guide included; 3-year warranty"
    ],
    "cons": [
-    "Listing bullets are generic (country of manufacture, package weight)",
-    "No speed, LED or motor details published"
+    "Tool only",
+    "5.3 lbs, heavier than the DEWALT and CRAFTSMAN"
    ],
    "specs": {
-    "battery": "Milwaukee M18",
-    "speed": null,
-    "collets": null,
-    "weight": "4.8 lb",
-    "in_box": "Tool only"
+    "battery": "Makita 18V LXT",
+    "speed": "10,000-30,000 rpm",
+    "collets": "1/4 in",
+    "weight": "5.3 lb",
+    "in_box": "Collet, 2 wrenches, straight guide"
    },
    "features": {
-    "brushless": false,
-    "variable_speed": false,
+    "brushless": true,
+    "variable_speed": true,
     "soft_start": false,
     "led": false,
     "kit": false
    },
-   "image": "https://m.media-amazon.com/images/I/61DzPJx1SoL._SL1254_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07XM9876N?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-routers.html#B07XM9876N"
+   "image": "https://m.media-amazon.com/images/I/61SaAn4OmWL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B074BYS49M?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-routers.html#B074BYS49M"
+  },
+  {
+   "rank": 4,
+   "asin": "B0GR4HLXV8",
+   "name": "SEESII Cordless Wood Router, 21V Brushless Compact Palm Router, 2x 4.0Ah Batteries (X1)",
+   "brand": "SEESII",
+   "model": "X1",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 55,
+   "score": 86,
+   "award": null,
+   "best_for": "A complete kit with a speed display and dust hose.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A brushless kit with two 4Ah batteries, eight bits, an aluminum base, an LED speed display and a vacuum hose.",
+   "pros": [
+    "Two 4Ah batteries and 8 bits",
+    "LED speed display and work light",
+    "Dust hose included"
+   ],
+   "cons": [
+    "4.2 stars, tied for the lowest here",
+    "SEESII batteries only fit SEESII tools"
+   ],
+   "specs": {
+    "battery": "SEESII 21V",
+    "speed": "6 speeds, to 33,000 rpm",
+    "collets": "1/4 in",
+    "weight": null,
+    "in_box": "2 x 4.0Ah batteries, 8 bits, vacuum hose"
+   },
+   "features": {
+    "brushless": true,
+    "variable_speed": true,
+    "soft_start": false,
+    "led": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81yoZufF5EL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GR4HLXV8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-routers.html#B0GR4HLXV8"
   },
   {
    "rank": 5,
+   "asin": "B0F32P9L82",
+   "name": "JEXUGK Brushless Cordless Wood Router, 21V, 2x 4.0Ah Batteries, 10 Bits (JCWR-G1)",
+   "brand": "JEXUGK",
+   "model": "JCWR-G1",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 77,
+   "score": 84,
+   "award": "Best Budget",
+   "best_for": "Starting from nothing: a brushless router with batteries and bits.",
+   "bought_last_month": null,
+   "verdict": "A complete brushless kit with two 4Ah batteries, a charger and 10 bits on an aluminum base, for about $80.",
+   "pros": [
+    "Two 4Ah batteries and 10 bits included",
+    "Brushless, 6 speeds",
+    "Aluminum base"
+   ],
+   "cons": [
+    "JEXUGK batteries only fit JEXUGK tools",
+    "No warranty term on the listing"
+   ],
+   "specs": {
+    "battery": "JEXUGK 21V",
+    "speed": "6 speeds, to 35,000 rpm",
+    "collets": "1/4 in",
+    "weight": null,
+    "in_box": "2 x 4.0Ah batteries, charger, 10 bits"
+   },
+   "features": {
+    "brushless": true,
+    "variable_speed": true,
+    "soft_start": false,
+    "led": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71k-RHEXwEL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F32P9L82?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-routers.html#B0F32P9L82"
+  },
+  {
+   "rank": 6,
    "asin": "B0BNFBL5PR",
    "name": "RYOBI ONE+ 18V Cordless Compact Fixed Base Router, Tool Only (PCL424B)",
    "brand": "RYOBI",
@@ -212,7 +254,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 632,
-   "score": 73,
+   "score": 83,
    "award": null,
    "best_for": "RYOBI ONE+ owners doing occasional edge work.",
    "bought_last_month": "300+/mo",
@@ -246,91 +288,7 @@
    "page_url": "https://toolboxtop10.com/cordless-routers.html#B0BNFBL5PR"
   },
   {
-   "rank": 6,
-   "asin": "B0GR4HLXV8",
-   "name": "SEESII Cordless Wood Router, 21V Brushless Compact Palm Router, 2x 4.0Ah Batteries (X1)",
-   "brand": "SEESII",
-   "model": "X1",
-   "price": 89.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 55,
-   "score": 73,
-   "award": null,
-   "best_for": "A complete kit with a speed display and dust hose.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A brushless kit with two 4Ah batteries, eight bits, an aluminum base, an LED speed display and a vacuum hose.",
-   "pros": [
-    "Two 4Ah batteries and 8 bits",
-    "LED speed display and work light",
-    "Dust hose included"
-   ],
-   "cons": [
-    "4.2 stars, tied for the lowest here",
-    "SEESII batteries only fit SEESII tools"
-   ],
-   "specs": {
-    "battery": "SEESII 21V",
-    "speed": "6 speeds, to 33,000 rpm",
-    "collets": "1/4 in",
-    "weight": null,
-    "in_box": "2 x 4.0Ah batteries, 8 bits, vacuum hose"
-   },
-   "features": {
-    "brushless": true,
-    "variable_speed": true,
-    "soft_start": false,
-    "led": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81yoZufF5EL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GR4HLXV8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-routers.html#B0GR4HLXV8"
-  },
-  {
    "rank": 7,
-   "asin": "B0F32P9L82",
-   "name": "JEXUGK Brushless Cordless Wood Router, 21V, 2x 4.0Ah Batteries, 10 Bits (JCWR-G1)",
-   "brand": "JEXUGK",
-   "model": "JCWR-G1",
-   "price": 79.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 77,
-   "score": 71,
-   "award": "Best Budget",
-   "best_for": "Starting from nothing: a brushless router with batteries and bits.",
-   "bought_last_month": null,
-   "verdict": "A complete brushless kit with two 4Ah batteries, a charger and 10 bits on an aluminum base, for about $80.",
-   "pros": [
-    "Two 4Ah batteries and 10 bits included",
-    "Brushless, 6 speeds",
-    "Aluminum base"
-   ],
-   "cons": [
-    "JEXUGK batteries only fit JEXUGK tools",
-    "No warranty term on the listing"
-   ],
-   "specs": {
-    "battery": "JEXUGK 21V",
-    "speed": "6 speeds, to 35,000 rpm",
-    "collets": "1/4 in",
-    "weight": null,
-    "in_box": "2 x 4.0Ah batteries, charger, 10 bits"
-   },
-   "features": {
-    "brushless": true,
-    "variable_speed": true,
-    "soft_start": false,
-    "led": false,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71k-RHEXwEL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F32P9L82?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-routers.html#B0F32P9L82"
-  },
-  {
-   "rank": 8,
    "asin": "B0D484Q8QN",
    "name": "DEWALT 20V MAX XR 2-1/4 Peak HP Plunge Router, Tool Only (DCW620B)",
    "brand": "DEWALT",
@@ -339,7 +297,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 181,
-   "score": 68,
+   "score": 83,
    "award": "Money No Object",
    "best_for": "Plunge cuts, mortises and big bits with no cord.",
    "bought_last_month": "200+/mo",
@@ -372,6 +330,48 @@
    "page_url": "https://toolboxtop10.com/cordless-routers.html#B0D484Q8QN"
   },
   {
+   "rank": 8,
+   "asin": "B07XM9876N",
+   "name": "Milwaukee M18 FUEL Cordless Compact Router, Tool Only (2723-20)",
+   "brand": "Milwaukee",
+   "model": "2723-20",
+   "price": 178.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 4312,
+   "score": 78,
+   "award": null,
+   "best_for": "Milwaukee M18 owners who want a top-rated compact router.",
+   "bought_last_month": "500+/mo",
+   "verdict": "Milwaukee's M18 compact router, tied for the best rating here and tied for second on sales. The Amazon listing is nearly empty: it gives 1.25 HP and nothing about speed control, so check Milwaukee's site for features.",
+   "pros": [
+    "4.8 stars across 4,312 reviews",
+    "1.25 HP listed",
+    "Runs on any M18 battery"
+   ],
+   "cons": [
+    "Listing bullets are generic (country of manufacture, package weight)",
+    "No speed, LED or motor details published"
+   ],
+   "specs": {
+    "battery": "Milwaukee M18",
+    "speed": null,
+    "collets": null,
+    "weight": "4.8 lb",
+    "in_box": "Tool only"
+   },
+   "features": {
+    "brushless": false,
+    "variable_speed": false,
+    "soft_start": false,
+    "led": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61DzPJx1SoL._SL1254_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07XM9876N?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-routers.html#B07XM9876N"
+  },
+  {
    "rank": 9,
    "asin": "B0FWCD6RS4",
    "name": "MtiolHig Cordless Compact Router for Milwaukee M18 Battery, 800W Brushless, 6 Speeds, Aluminum Base, 6 Bits (Tool Only)",
@@ -381,7 +381,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 34,
-   "score": 63,
+   "score": 75,
    "award": null,
    "best_for": "M18 battery owners who rout edges now and then and don't want to pay for the Milwaukee router.",
    "bought_last_month": "100+/mo",
@@ -425,7 +425,7 @@
    "currency": "USD",
    "rating": 5.0,
    "reviews_count": 3,
-   "score": 62,
+   "score": 66,
    "award": null,
    "best_for": "DEWALT battery owners who want a router plus a starter bit set for about half the DCW600B's price.",
    "bought_last_month": "100+/mo",

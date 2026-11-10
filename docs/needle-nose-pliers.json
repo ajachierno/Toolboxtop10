@@ -22,7 +22,7 @@
    "comfort_grip": 0.2,
    "set": 0.2
   },
-  "reviews_ceiling": 8000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 7,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,90 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0B5CQ6KNS",
+   "name": "ZUZUAN Long Needle Nose Pliers with Wire Cutter, 6 in & 8 in, 2-Piece",
+   "brand": "ZUZUAN",
+   "model": "6 in & 8 in 2-Piece",
+   "price": 9.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1550,
+   "score": 91,
+   "award": null,
+   "best_for": "Getting a 6-inch and an 8-inch pair for under $10.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The two-pair starter. A 6-inch and an 8-inch long-nose, both with a wire cutter, for the price of one value pair. The 6-inch has a spring that opens the jaws for you; the 8-inch adds reach and leverage.",
+   "pros": [
+    "Two sizes, both with a wire cutter",
+    "Spring-loaded 6-inch reduces hand fatigue",
+    "Non-slip TPR grips",
+    "Two pliers for $9.99"
+   ],
+   "cons": [
+    "Only the 6-inch pair has the spring",
+    "Carbon steel, not chrome vanadium",
+    "No-name brand with no stated warranty"
+   ],
+   "specs": {
+    "size": "2-piece (6 in / 8 in)",
+    "type": "Long-nose",
+    "material": "Carbon steel",
+    "grip": "TPR (6 in spring-loaded)"
+   },
+   "features": {
+    "cutter": true,
+    "long_reach": false,
+    "comfort_grip": true,
+    "set": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51bZiiWqDxL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B5CQ6KNS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B0B5CQ6KNS"
+  },
+  {
+   "rank": 2,
+   "asin": "B07TWFCV44",
+   "name": "Amazon Basics Extra Long Reach Needle Nose Pliers, 3-Piece Set",
+   "brand": "Amazon Basics",
+   "model": "3-Piece Long Reach",
+   "price": 14.69,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 5440,
+   "score": 90,
+   "award": null,
+   "best_for": "Automotive and appliance work around obstacles.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The tight-spaces set. Three extra-long pliers — straight, 45-degree, and 90-degree noses — for reaching around obstacles and into narrow cavities where a normal pair can't go. The set to grab for automotive and appliance work.",
+   "pros": [
+    "Straight, 45°, and 90° noses for any angle",
+    "Extra-long reach into tight spaces",
+    "Keeps hands clear of hot or sharp areas",
+    "Three tools for a fair price"
+   ],
+   "cons": [
+    "No wire cutters",
+    "Long thin jaws aren't for heavy gripping",
+    "House-brand steel"
+   ],
+   "specs": {
+    "size": "3-piece (straight / 45° / 90°)",
+    "type": "Long-reach",
+    "material": "Alloy steel",
+    "grip": "Plastic-dipped"
+   },
+   "features": {
+    "cutter": false,
+    "long_reach": true,
+    "comfort_grip": true,
+    "set": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71TjeLdd3dL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07TWFCV44?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B07TWFCV44"
+  },
+  {
+   "rank": 3,
    "asin": "B000A0OW2M",
    "name": "IRWIN VISE-GRIP Long Nose Pliers, 6 in (2078216)",
    "brand": "IRWIN",
@@ -76,49 +160,7 @@
    "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B000A0OW2M"
   },
   {
-   "rank": 2,
-   "asin": "B07TWFCV44",
-   "name": "Amazon Basics Extra Long Reach Needle Nose Pliers, 3-Piece Set",
-   "brand": "Amazon Basics",
-   "model": "3-Piece Long Reach",
-   "price": 14.69,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 5440,
-   "score": 89,
-   "award": null,
-   "best_for": "Automotive and appliance work around obstacles.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The tight-spaces set. Three extra-long pliers — straight, 45-degree, and 90-degree noses — for reaching around obstacles and into narrow cavities where a normal pair can't go. The set to grab for automotive and appliance work.",
-   "pros": [
-    "Straight, 45°, and 90° noses for any angle",
-    "Extra-long reach into tight spaces",
-    "Keeps hands clear of hot or sharp areas",
-    "Three tools for a fair price"
-   ],
-   "cons": [
-    "No wire cutters",
-    "Long thin jaws aren't for heavy gripping",
-    "House-brand steel"
-   ],
-   "specs": {
-    "size": "3-piece (straight / 45° / 90°)",
-    "type": "Long-reach",
-    "material": "Alloy steel",
-    "grip": "Plastic-dipped"
-   },
-   "features": {
-    "cutter": false,
-    "long_reach": true,
-    "comfort_grip": true,
-    "set": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71TjeLdd3dL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07TWFCV44?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B07TWFCV44"
-  },
-  {
-   "rank": 3,
+   "rank": 4,
    "asin": "B08PFK8YWQ",
    "name": "CRAFTSMAN 8 in Long Nose Pliers (CMHT81645)",
    "brand": "CRAFTSMAN",
@@ -127,7 +169,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 4029,
-   "score": 87,
+   "score": 89,
    "award": null,
    "best_for": "An inch more reach than the Irwin at a value price.",
    "bought_last_month": "3K+/mo",
@@ -160,48 +202,6 @@
    "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B08PFK8YWQ"
   },
   {
-   "rank": 4,
-   "asin": "B08F7F5C8N",
-   "name": "WORKPRO Premium 8 in Needle Nose Pliers with Wire Cutter (W031269)",
-   "brand": "WORKPRO",
-   "model": "W031269",
-   "price": 9.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 3327,
-   "score": 85,
-   "award": null,
-   "best_for": "Most of a brand-name 8-inch pair for under $10.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "The value 8-inch pair. Chrome-vanadium steel, an integrated wire cutter, and a large soft grip, for ten dollars. Most of what the brand-name 8-inchers give you at a fraction of the price, and a fast seller for exactly that reason.",
-   "pros": [
-    "Chrome-vanadium steel with a wire cutter",
-    "Large soft comfort grip",
-    "8-inch reach for ten dollars",
-    "Strong value and high sales"
-   ],
-   "cons": [
-    "Value-grade fit and finish",
-    "A single tool, not a set",
-    "Serrated jaws mar soft metal"
-   ],
-   "specs": {
-    "size": "8 in",
-    "type": "Long-nose",
-    "material": "CRV steel",
-    "grip": "Soft grip"
-   },
-   "features": {
-    "cutter": true,
-    "long_reach": false,
-    "comfort_grip": true,
-    "set": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61HTXKkqOGL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08F7F5C8N?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B08F7F5C8N"
-  },
-  {
    "rank": 5,
    "asin": "B000I1LMDU",
    "name": "KNIPEX 26 11 200 Long Nose Pliers with Cutter, 8 in",
@@ -211,7 +211,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2623,
-   "score": 85,
+   "score": 89,
    "award": "Money No Object",
    "best_for": "Heavy, daily use where precise tips and a lasting cutter matter.",
    "bought_last_month": "700+/mo",
@@ -245,90 +245,6 @@
   },
   {
    "rank": 6,
-   "asin": "B0B5CQ6KNS",
-   "name": "ZUZUAN Long Needle Nose Pliers with Wire Cutter, 6 in & 8 in, 2-Piece",
-   "brand": "ZUZUAN",
-   "model": "6 in & 8 in 2-Piece",
-   "price": 9.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1550,
-   "score": 85,
-   "award": null,
-   "best_for": "Getting a 6-inch and an 8-inch pair for under $10.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The two-pair starter. A 6-inch and an 8-inch long-nose, both with a wire cutter, for the price of one value pair. The 6-inch has a spring that opens the jaws for you; the 8-inch adds reach and leverage.",
-   "pros": [
-    "Two sizes, both with a wire cutter",
-    "Spring-loaded 6-inch reduces hand fatigue",
-    "Non-slip TPR grips",
-    "Two pliers for $9.99"
-   ],
-   "cons": [
-    "Only the 6-inch pair has the spring",
-    "Carbon steel, not chrome vanadium",
-    "No-name brand with no stated warranty"
-   ],
-   "specs": {
-    "size": "2-piece (6 in / 8 in)",
-    "type": "Long-nose",
-    "material": "Carbon steel",
-    "grip": "TPR (6 in spring-loaded)"
-   },
-   "features": {
-    "cutter": true,
-    "long_reach": false,
-    "comfort_grip": true,
-    "set": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51bZiiWqDxL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B5CQ6KNS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B0B5CQ6KNS"
-  },
-  {
-   "rank": 7,
-   "asin": "B0733NWRCS",
-   "name": "Dykes Extra Long Needle Nose Pliers, 6 in",
-   "brand": "Dykes",
-   "model": "6-Inch",
-   "price": 4.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 3800,
-   "score": 82,
-   "award": "Best Budget",
-   "best_for": "Wire, jewelry and tiny parts in tight spots, for $6.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The cheap hobby pair. Long tempered jaws with fine tips and a leaf-spring that opens the pliers for you — made for bending wire, jewelry, electronics, and gripping tiny parts in tight spots. Six dollars, and a repeat best-seller with crafters.",
-   "pros": [
-    "Fine tips for delicate wire and small parts",
-    "Spring-loaded to reduce hand fatigue",
-    "Extra-long reach for hobby work",
-    "One of the two cheapest picks here"
-   ],
-   "cons": [
-    "No wire cutter",
-    "Fine tips bend under heavy force",
-    "Carbon steel, not stainless"
-   ],
-   "specs": {
-    "size": "6 in",
-    "type": "Extra-long fine-tip",
-    "material": "Carbon steel",
-    "grip": "Plastic-dipped (spring-loaded)"
-   },
-   "features": {
-    "cutter": false,
-    "long_reach": true,
-    "comfort_grip": true,
-    "set": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51zgp5XJ2rL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0733NWRCS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B0733NWRCS"
-  },
-  {
-   "rank": 8,
    "asin": "B000RY7PXY",
    "name": "Channellock 317 Long Nose Plier with Side Cutter, 8 in",
    "brand": "Channellock",
@@ -337,7 +253,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 936,
-   "score": 81,
+   "score": 89,
    "award": null,
    "best_for": "A US-made long-nose with a clean side cutter.",
    "bought_last_month": "100+/mo",
@@ -370,7 +286,49 @@
    "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B000RY7PXY"
   },
   {
-   "rank": 9,
+   "rank": 7,
+   "asin": "B08F7F5C8N",
+   "name": "WORKPRO Premium 8 in Needle Nose Pliers with Wire Cutter (W031269)",
+   "brand": "WORKPRO",
+   "model": "W031269",
+   "price": 9.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 3327,
+   "score": 88,
+   "award": null,
+   "best_for": "Most of a brand-name 8-inch pair for under $10.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "The value 8-inch pair. Chrome-vanadium steel, an integrated wire cutter, and a large soft grip, for ten dollars. Most of what the brand-name 8-inchers give you at a fraction of the price, and a fast seller for exactly that reason.",
+   "pros": [
+    "Chrome-vanadium steel with a wire cutter",
+    "Large soft comfort grip",
+    "8-inch reach for ten dollars",
+    "Strong value and high sales"
+   ],
+   "cons": [
+    "Value-grade fit and finish",
+    "A single tool, not a set",
+    "Serrated jaws mar soft metal"
+   ],
+   "specs": {
+    "size": "8 in",
+    "type": "Long-nose",
+    "material": "CRV steel",
+    "grip": "Soft grip"
+   },
+   "features": {
+    "cutter": true,
+    "long_reach": false,
+    "comfort_grip": true,
+    "set": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61HTXKkqOGL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08F7F5C8N?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B08F7F5C8N"
+  },
+  {
+   "rank": 8,
    "asin": "B0000302WQ",
    "name": "Klein Tools D203-8 Needle Nose Pliers, Side Cutters, 8 in",
    "brand": "Klein Tools",
@@ -379,7 +337,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 855,
-   "score": 80,
+   "score": 88,
    "award": null,
    "best_for": "Electricians who want side cutters and extra leverage.",
    "bought_last_month": "200+/mo",
@@ -412,6 +370,48 @@
    "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B0000302WQ"
   },
   {
+   "rank": 9,
+   "asin": "B0733NWRCS",
+   "name": "Dykes Extra Long Needle Nose Pliers, 6 in",
+   "brand": "Dykes",
+   "model": "6-Inch",
+   "price": 4.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 3800,
+   "score": 84,
+   "award": "Best Budget",
+   "best_for": "Wire, jewelry and tiny parts in tight spots, for $6.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The cheap hobby pair. Long tempered jaws with fine tips and a leaf-spring that opens the pliers for you — made for bending wire, jewelry, electronics, and gripping tiny parts in tight spots. Six dollars, and a repeat best-seller with crafters.",
+   "pros": [
+    "Fine tips for delicate wire and small parts",
+    "Spring-loaded to reduce hand fatigue",
+    "Extra-long reach for hobby work",
+    "One of the two cheapest picks here"
+   ],
+   "cons": [
+    "No wire cutter",
+    "Fine tips bend under heavy force",
+    "Carbon steel, not stainless"
+   ],
+   "specs": {
+    "size": "6 in",
+    "type": "Extra-long fine-tip",
+    "material": "Carbon steel",
+    "grip": "Plastic-dipped (spring-loaded)"
+   },
+   "features": {
+    "cutter": false,
+    "long_reach": true,
+    "comfort_grip": true,
+    "set": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51zgp5XJ2rL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0733NWRCS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/needle-nose-pliers.html#B0733NWRCS"
+  },
+  {
    "rank": 10,
    "asin": "B0B8SNTD7G",
    "name": "WORKPRO 6 in Needle Nose Pliers (Smooth Jaw) for Jewelry",
@@ -421,7 +421,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 2218,
-   "score": 75,
+   "score": 80,
    "award": null,
    "best_for": "Jewelry and soft wire, without tooth marks.",
    "bought_last_month": "900+/mo",

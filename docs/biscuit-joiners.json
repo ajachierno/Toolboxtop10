@@ -23,7 +23,7 @@
    "cordless": 0.15,
    "biscuits_included": 0.15
   },
-  "reviews_ceiling": 3000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 80,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -36,6 +36,87 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0B39NZFRX",
+   "name": "DEWALT 20V MAX XR Brushless Biscuit Joiner, Tool Only (DCW682B)",
+   "brand": "DEWALT",
+   "model": "DCW682B",
+   "price": 239.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 436,
+   "score": 91,
+   "award": null,
+   "best_for": "DEWALT owners who want to cut slots anywhere.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The cordless version of DEWALT's joiner with a brushless motor and tool-free fence adjustments, rated 4.8 stars.",
+   "pros": [
+    "Brushless, cordless",
+    "Tool-free adjustments",
+    "4.8 stars"
+   ],
+   "cons": [
+    "Bare tool"
+   ],
+   "specs": {
+    "power": "Cordless, DEWALT 20V MAX (not included)",
+    "speed": null,
+    "fence": "Dual rack and pinion, tool-free depth/height/bevel",
+    "extras": "Brushless, depth knob for #0/#10/#20"
+   },
+   "features": {
+    "rack_pinion": true,
+    "angle_fence": true,
+    "dust_collection": false,
+    "cordless": true,
+    "biscuits_included": false
+   },
+   "image": "https://m.media-amazon.com/images/I/5153mb29nsL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B39NZFRX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/biscuit-joiners.html#B0B39NZFRX"
+  },
+  {
+   "rank": 2,
+   "asin": "B00Z04WRXY",
+   "name": "Makita XJP03Z 18V LXT Cordless Plate Joiner, Tool Only",
+   "brand": "Makita",
+   "model": "XJP03Z",
+   "price": 319.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 382,
+   "score": 91,
+   "award": null,
+   "best_for": "Makita 18V owners.",
+   "bought_last_month": "50+/mo",
+   "verdict": "Makita's cordless joiner with a rack-and-pinion fence and six depth stops, rated 4.8 stars.",
+   "pros": [
+    "Cordless",
+    "Rack-and-pinion fence",
+    "4.8 stars"
+   ],
+   "cons": [
+    "Bare tool",
+    "Expensive"
+   ],
+   "specs": {
+    "power": "Cordless, Makita 18V LXT (not included)",
+    "speed": null,
+    "fence": "Rack-and-pinion vertical, pivot stops at 0°, 45°, 90°",
+    "extras": "Six depth settings"
+   },
+   "features": {
+    "rack_pinion": true,
+    "angle_fence": true,
+    "dust_collection": false,
+    "cordless": true,
+    "biscuits_included": false
+   },
+   "image": "https://m.media-amazon.com/images/I/7128-JfyJWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00Z04WRXY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/biscuit-joiners.html#B00Z04WRXY"
+  },
+  {
+   "rank": 3,
    "asin": "B00002232S",
    "name": "DEWALT 6.5 Amp Biscuit Joiner Kit with Retractable 45° Notch (DW682K)",
    "brand": "DEWALT",
@@ -75,47 +156,7 @@
    "page_url": "https://toolboxtop10.com/biscuit-joiners.html#B00002232S"
   },
   {
-   "rank": 2,
-   "asin": "B0B39NZFRX",
-   "name": "DEWALT 20V MAX XR Brushless Biscuit Joiner, Tool Only (DCW682B)",
-   "brand": "DEWALT",
-   "model": "DCW682B",
-   "price": 239.0,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 436,
-   "score": 83,
-   "award": null,
-   "best_for": "DEWALT owners who want to cut slots anywhere.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The cordless version of DEWALT's joiner with a brushless motor and tool-free fence adjustments, rated 4.8 stars.",
-   "pros": [
-    "Brushless, cordless",
-    "Tool-free adjustments",
-    "4.8 stars"
-   ],
-   "cons": [
-    "Bare tool"
-   ],
-   "specs": {
-    "power": "Cordless, DEWALT 20V MAX (not included)",
-    "speed": null,
-    "fence": "Dual rack and pinion, tool-free depth/height/bevel",
-    "extras": "Brushless, depth knob for #0/#10/#20"
-   },
-   "features": {
-    "rack_pinion": true,
-    "angle_fence": true,
-    "dust_collection": false,
-    "cordless": true,
-    "biscuits_included": false
-   },
-   "image": "https://m.media-amazon.com/images/I/5153mb29nsL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B39NZFRX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/biscuit-joiners.html#B0B39NZFRX"
-  },
-  {
-   "rank": 3,
+   "rank": 4,
    "asin": "B08BZX83N2",
    "name": "WEN JN8504 8.5-Amp Plate and Biscuit Joiner with Case and Biscuits",
    "brand": "WEN",
@@ -156,47 +197,6 @@
    "page_url": "https://toolboxtop10.com/biscuit-joiners.html#B08BZX83N2"
   },
   {
-   "rank": 4,
-   "asin": "B00Z04WRXY",
-   "name": "Makita XJP03Z 18V LXT Cordless Plate Joiner, Tool Only",
-   "brand": "Makita",
-   "model": "XJP03Z",
-   "price": 319.0,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 382,
-   "score": 82,
-   "award": null,
-   "best_for": "Makita 18V owners.",
-   "bought_last_month": "50+/mo",
-   "verdict": "Makita's cordless joiner with a rack-and-pinion fence and six depth stops, rated 4.8 stars.",
-   "pros": [
-    "Cordless",
-    "Rack-and-pinion fence",
-    "4.8 stars"
-   ],
-   "cons": [
-    "Bare tool",
-    "Expensive"
-   ],
-   "specs": {
-    "power": "Cordless, Makita 18V LXT (not included)",
-    "speed": null,
-    "fence": "Rack-and-pinion vertical, pivot stops at 0°, 45°, 90°",
-    "extras": "Six depth settings"
-   },
-   "features": {
-    "rack_pinion": true,
-    "angle_fence": true,
-    "dust_collection": false,
-    "cordless": true,
-    "biscuits_included": false
-   },
-   "image": "https://m.media-amazon.com/images/I/7128-JfyJWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00Z04WRXY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/biscuit-joiners.html#B00Z04WRXY"
-  },
-  {
    "rank": 5,
    "asin": "B0D3D13976",
    "name": "AOBEN 8.5 Amp Biscuit Joiner with #0, #10, #20 Biscuits (3705)",
@@ -206,7 +206,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1218,
-   "score": 79,
+   "score": 82,
    "award": "Best Budget",
    "best_for": "Beginners who want everything in one box.",
    "bought_last_month": "200+/mo",
@@ -246,7 +246,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1011,
-   "score": 77,
+   "score": 81,
    "award": null,
    "best_for": "Woodworkers who want a Makita in the shop.",
    "bought_last_month": null,
@@ -286,7 +286,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 40,
-   "score": 68,
+   "score": 77,
    "award": null,
    "best_for": "One-off projects on a tight budget.",
    "bought_last_month": "100+/mo",
@@ -327,7 +327,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 18,
-   "score": 64,
+   "score": 71,
    "award": null,
    "best_for": "Beginners on a budget.",
    "bought_last_month": null,
@@ -367,7 +367,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 30,
-   "score": 62,
+   "score": 70,
    "award": null,
    "best_for": "Light hobby use.",
    "bought_last_month": null,
@@ -406,7 +406,7 @@
    "currency": "USD",
    "rating": 5.0,
    "reviews_count": 16,
-   "score": 61,
+   "score": 68,
    "award": "Money No Object",
    "best_for": "Cabinet and furniture shops that want knock-down connectors as well as biscuits.",
    "bought_last_month": null,

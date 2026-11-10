@@ -22,19 +22,142 @@
    "half_inch_chuck": 0.2,
    "bag_or_case": 0.2
   },
-  "reviews_ceiling": 60000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 160,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
   "best_overall": "B00IJ0ALYS",
-  "best_budget": "B0C3PQHGR7",
+  "best_budget": "B0F91652KM",
   "money_no_object": "B0GQ6QKPWF"
  },
  "products": [
   {
    "rank": 1,
+   "asin": "B0FKKKVN7M",
+   "name": "DEWALT 20V MAX XR Brushless Hammer Drill and Impact Driver Combo Kit, 2 x 4Ah POWERPACK Batteries and Charger (DCK250QQ2)",
+   "brand": "DEWALT",
+   "model": "DCK250QQ2",
+   "price": 333.91,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 197,
+   "score": 94,
+   "award": null,
+   "best_for": "Remodelers and trades who drill into concrete and drive long lag screws.",
+   "bought_last_month": "700+/mo",
+   "verdict": "DEWALT's strongest 20V pair here: the brushless DCD806 hammer drill, which DEWALT calls its most powerful 20V MAX hammer drill, and the 1,825 in-lb DCF845 impact driver, with two 4Ah POWERPACK batteries.",
+   "pros": [
+    "Hammer drill for masonry",
+    "1,825 in-lb impact driver",
+    "Two 4Ah batteries",
+    "Anti-rotation shutoff on the drill"
+   ],
+   "cons": [
+    "$334",
+    "No bag or case listed"
+   ],
+   "specs": {
+    "platform": "DEWALT 20V MAX XR",
+    "tools": "Hammer drill (1/2 in, 2,000 rpm) + impact driver",
+    "batteries": "2 (4Ah POWERPACK)",
+    "torque": "Impact 1,825 in-lb",
+    "extras": "Charger"
+   },
+   "features": {
+    "brushless": true,
+    "two_batteries": true,
+    "half_inch_chuck": true,
+    "bag_or_case": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81vUvizvx4L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FKKKVN7M?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B0FKKKVN7M"
+  },
+  {
+   "rank": 2,
+   "asin": "B0GR1K5HK1",
+   "name": "DEWALT 20V MAX 3-Tool Brushless Combo Kit: Drill, Impact Driver, Oscillating Tool, 3 Batteries and Charger (DCK360D3)",
+   "brand": "DEWALT",
+   "model": "DCK360D3",
+   "price": 269.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 948,
+   "score": 93,
+   "award": null,
+   "best_for": "New DEWALT owners who want an oscillating tool for flush cuts and trim work along with the usual pair.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Three brushless DEWALT 20V MAX tools in one box: the DCD777 drill/driver, the DCF787 impact driver and the DCS356 oscillating multi-tool, with three 2Ah batteries and a charger.",
+   "pros": [
+    "Three brushless tools",
+    "Three batteries, so one is always charging",
+    "3-year limited warranty"
+   ],
+   "cons": [
+    "2Ah batteries are small for the oscillating tool",
+    "No bag or case listed"
+   ],
+   "specs": {
+    "platform": "DEWALT 20V MAX",
+    "tools": "Drill/driver (1/2 in) + impact driver + oscillating multi-tool",
+    "batteries": "3 (2Ah)",
+    "torque": "Impact 1,500 in-lb",
+    "extras": "Charger, 3-year limited warranty"
+   },
+   "features": {
+    "brushless": true,
+    "two_batteries": true,
+    "half_inch_chuck": true,
+    "bag_or_case": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61E9t2zAfYL._AC_SL1080_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GR1K5HK1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B0GR1K5HK1"
+  },
+  {
+   "rank": 3,
+   "asin": "B0F91652KM",
+   "name": "Greenworks 24V Brushless Drill/Driver and Impact Driver Combo, 2 x 2.0Ah USB-C Batteries",
+   "brand": "Greenworks",
+   "model": "CK321",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 194,
+   "score": 92,
+   "award": "Best Budget",
+   "best_for": "Greenworks yard-tool owners and budget buyers who want brushless.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A brushless kit with a 400 in-lb drill and a 1,950 in-lb impact driver, plus two batteries that also work as USB-C power banks.",
+   "pros": [
+    "Brushless",
+    "Battery doubles as a power bank",
+    "Low price"
+   ],
+   "cons": [
+    "Smaller tool platform than DEWALT or Milwaukee"
+   ],
+   "specs": {
+    "platform": "Greenworks 24V",
+    "tools": "1/2 in drill/driver + 1/4 in impact driver",
+    "batteries": "2 x 2.0Ah (USB-C)",
+    "torque": "Drill 400 in-lb, impact 1,950 in-lb",
+    "extras": "Batteries double as USB-C power banks"
+   },
+   "features": {
+    "brushless": true,
+    "two_batteries": true,
+    "half_inch_chuck": true,
+    "bag_or_case": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81TNIf2gUHL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F91652KM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B0F91652KM"
+  },
+  {
+   "rank": 4,
    "asin": "B00IJ0ALYS",
    "name": "DEWALT 20V MAX Cordless Drill and Impact Driver Combo Kit, 2 Batteries, Charger and Bag (DCK240C2)",
    "brand": "DEWALT",
@@ -75,88 +198,7 @@
    "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B00IJ0ALYS"
   },
   {
-   "rank": 2,
-   "asin": "B0GR1K5HK1",
-   "name": "DEWALT 20V MAX 3-Tool Brushless Combo Kit: Drill, Impact Driver, Oscillating Tool, 3 Batteries and Charger (DCK360D3)",
-   "brand": "DEWALT",
-   "model": "DCK360D3",
-   "price": 269.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 948,
-   "score": 82,
-   "award": null,
-   "best_for": "New DEWALT owners who want an oscillating tool for flush cuts and trim work along with the usual pair.",
-   "bought_last_month": "100+/mo",
-   "verdict": "Three brushless DEWALT 20V MAX tools in one box: the DCD777 drill/driver, the DCF787 impact driver and the DCS356 oscillating multi-tool, with three 2Ah batteries and a charger.",
-   "pros": [
-    "Three brushless tools",
-    "Three batteries, so one is always charging",
-    "3-year limited warranty"
-   ],
-   "cons": [
-    "2Ah batteries are small for the oscillating tool",
-    "No bag or case listed"
-   ],
-   "specs": {
-    "platform": "DEWALT 20V MAX",
-    "tools": "Drill/driver (1/2 in) + impact driver + oscillating multi-tool",
-    "batteries": "3 (2Ah)",
-    "torque": "Impact 1,500 in-lb",
-    "extras": "Charger, 3-year limited warranty"
-   },
-   "features": {
-    "brushless": true,
-    "two_batteries": true,
-    "half_inch_chuck": true,
-    "bag_or_case": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61E9t2zAfYL._AC_SL1080_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GR1K5HK1?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B0GR1K5HK1"
-  },
-  {
-   "rank": 3,
-   "asin": "B0C3PQHGR7",
-   "name": "DEWALT 20V MAX Drill and Impact Driver Kit with 2 x 2.0Ah Batteries (DCK277D2)",
-   "brand": "DEWALT",
-   "model": "DCK277D2",
-   "price": 159.95,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 4834,
-   "score": 79,
-   "award": "Best Budget",
-   "best_for": "DEWALT buyers who want more runtime than the entry kit.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A step up from the DCK240C2 with larger 2.0Ah batteries, the 1,500 in-lb DCF787 impact driver, a contractor bag and a 3-year warranty.",
-   "pros": [
-    "4.8 stars; 4,834 reviews",
-    "2.0Ah batteries",
-    "3-year warranty"
-   ],
-   "cons": [
-    "Pricier than the DCK240C2"
-   ],
-   "specs": {
-    "platform": "DEWALT 20V MAX",
-    "tools": "DCD777 drill/driver + DCF787 impact driver",
-    "batteries": "2 x 2.0Ah",
-    "torque": "1,500 in-lb (impact)",
-    "extras": "Charger, contractor bag, 3-year warranty"
-   },
-   "features": {
-    "brushless": false,
-    "two_batteries": true,
-    "half_inch_chuck": false,
-    "bag_or_case": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81u6kH7EgQL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C3PQHGR7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B0C3PQHGR7"
-  },
-  {
-   "rank": 4,
+   "rank": 5,
    "asin": "B0GQ6QKPWF",
    "name": "DEWALT 20V MAX 5-Tool Combo Kit: 1/2\" Drill, 1/4\" Impact Driver, Reciprocating Saw, Circular Saw, Oscillating Tool, Battery and Charger (DCK540D1)",
    "brand": "DEWALT",
@@ -165,7 +207,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1098,
-   "score": 78,
+   "score": 88,
    "award": "Money No Object",
    "best_for": "Starting on DEWALT 20V with the five tools most projects need.",
    "bought_last_month": "200+/mo",
@@ -197,87 +239,44 @@
    "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B0GQ6QKPWF"
   },
   {
-   "rank": 5,
-   "asin": "B0FKKKVN7M",
-   "name": "DEWALT 20V MAX XR Brushless Hammer Drill and Impact Driver Combo Kit, 2 x 4Ah POWERPACK Batteries and Charger (DCK250QQ2)",
+   "rank": 6,
+   "asin": "B0C3PQHGR7",
+   "name": "DEWALT 20V MAX Drill and Impact Driver Kit with 2 x 2.0Ah Batteries (DCK277D2)",
    "brand": "DEWALT",
-   "model": "DCK250QQ2",
-   "price": 333.91,
+   "model": "DCK277D2",
+   "price": 159.95,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 197,
-   "score": 77,
+   "reviews_count": 4834,
+   "score": 87,
    "award": null,
-   "best_for": "Remodelers and trades who drill into concrete and drive long lag screws.",
-   "bought_last_month": "700+/mo",
-   "verdict": "DEWALT's strongest 20V pair here: the brushless DCD806 hammer drill, which DEWALT calls its most powerful 20V MAX hammer drill, and the 1,825 in-lb DCF845 impact driver, with two 4Ah POWERPACK batteries.",
+   "best_for": "DEWALT buyers who want more runtime than the entry kit.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A step up from the DCK240C2 with larger 2.0Ah batteries, the 1,500 in-lb DCF787 impact driver, a contractor bag and a 3-year warranty.",
    "pros": [
-    "Hammer drill for masonry",
-    "1,825 in-lb impact driver",
-    "Two 4Ah batteries",
-    "Anti-rotation shutoff on the drill"
+    "4.8 stars; 4,834 reviews",
+    "2.0Ah batteries",
+    "3-year warranty"
    ],
    "cons": [
-    "$334",
-    "No bag or case listed"
+    "Pricier than the DCK240C2"
    ],
    "specs": {
-    "platform": "DEWALT 20V MAX XR",
-    "tools": "Hammer drill (1/2 in, 2,000 rpm) + impact driver",
-    "batteries": "2 (4Ah POWERPACK)",
-    "torque": "Impact 1,825 in-lb",
-    "extras": "Charger"
-   },
-   "features": {
-    "brushless": true,
-    "two_batteries": true,
-    "half_inch_chuck": true,
-    "bag_or_case": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81vUvizvx4L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FKKKVN7M?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B0FKKKVN7M"
-  },
-  {
-   "rank": 6,
-   "asin": "B07KKH3TY5",
-   "name": "CRAFTSMAN V20 Power Tool Combo Kit, 7-Tool Cordless Power Tool Set with 2 Batteries and Charger (CMCK700D2)",
-   "brand": "CRAFTSMAN",
-   "model": "CMCK700D2",
-   "price": 329.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1438,
-   "score": 74,
-   "award": null,
-   "best_for": "Setting up a whole garage on one battery platform at once.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A seven-tool V20 starter shop: a 1/2-inch two-speed drill, an impact driver, a reciprocating saw, a 6-1/2-inch circular saw and an oscillating tool among them, with two batteries and a charger.",
-   "pros": [
-    "Seven tools on one platform",
-    "Two batteries and a charger",
-    "4.6 stars over 1,400 reviews"
-   ],
-   "cons": [
-    "Brushed motors",
-    "No bag or case listed"
-   ],
-   "specs": {
-    "platform": "CRAFTSMAN V20",
-    "tools": "7 tools incl. 1/2 in drill, impact driver, reciprocating saw, 6-1/2 in circular saw, oscillating tool",
-    "batteries": "2",
-    "torque": "Impact 1,460 in-lb",
-    "extras": "Charger"
+    "platform": "DEWALT 20V MAX",
+    "tools": "DCD777 drill/driver + DCF787 impact driver",
+    "batteries": "2 x 2.0Ah",
+    "torque": "1,500 in-lb (impact)",
+    "extras": "Charger, contractor bag, 3-year warranty"
    },
    "features": {
     "brushless": false,
     "two_batteries": true,
-    "half_inch_chuck": true,
-    "bag_or_case": false
+    "half_inch_chuck": false,
+    "bag_or_case": true
    },
-   "image": "https://m.media-amazon.com/images/I/618TuELD6TL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07KKH3TY5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B07KKH3TY5"
+   "image": "https://m.media-amazon.com/images/I/81u6kH7EgQL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C3PQHGR7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B0C3PQHGR7"
   },
   {
    "rank": 7,
@@ -289,7 +288,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1103,
-   "score": 74,
+   "score": 86,
    "award": null,
    "best_for": "Anyone starting on Makita LXT.",
    "bought_last_month": "400+/mo",
@@ -322,43 +321,44 @@
   },
   {
    "rank": 8,
-   "asin": "B0F91652KM",
-   "name": "Greenworks 24V Brushless Drill/Driver and Impact Driver Combo, 2 x 2.0Ah USB-C Batteries",
-   "brand": "Greenworks",
-   "model": "CK321",
-   "price": 129.99,
+   "asin": "B07KKH3TY5",
+   "name": "CRAFTSMAN V20 Power Tool Combo Kit, 7-Tool Cordless Power Tool Set with 2 Batteries and Charger (CMCK700D2)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCK700D2",
+   "price": 329.0,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 194,
-   "score": 74,
+   "rating": 4.6,
+   "reviews_count": 1438,
+   "score": 85,
    "award": null,
-   "best_for": "Greenworks yard-tool owners and budget buyers who want brushless.",
+   "best_for": "Setting up a whole garage on one battery platform at once.",
    "bought_last_month": "100+/mo",
-   "verdict": "A brushless kit with a 400 in-lb drill and a 1,950 in-lb impact driver, plus two batteries that also work as USB-C power banks.",
+   "verdict": "A seven-tool V20 starter shop: a 1/2-inch two-speed drill, an impact driver, a reciprocating saw, a 6-1/2-inch circular saw and an oscillating tool among them, with two batteries and a charger.",
    "pros": [
-    "Brushless",
-    "Battery doubles as a power bank",
-    "Low price"
+    "Seven tools on one platform",
+    "Two batteries and a charger",
+    "4.6 stars over 1,400 reviews"
    ],
    "cons": [
-    "Smaller tool platform than DEWALT or Milwaukee"
+    "Brushed motors",
+    "No bag or case listed"
    ],
    "specs": {
-    "platform": "Greenworks 24V",
-    "tools": "1/2 in drill/driver + 1/4 in impact driver",
-    "batteries": "2 x 2.0Ah (USB-C)",
-    "torque": "Drill 400 in-lb, impact 1,950 in-lb",
-    "extras": "Batteries double as USB-C power banks"
+    "platform": "CRAFTSMAN V20",
+    "tools": "7 tools incl. 1/2 in drill, impact driver, reciprocating saw, 6-1/2 in circular saw, oscillating tool",
+    "batteries": "2",
+    "torque": "Impact 1,460 in-lb",
+    "extras": "Charger"
    },
    "features": {
-    "brushless": true,
+    "brushless": false,
     "two_batteries": true,
     "half_inch_chuck": true,
     "bag_or_case": false
    },
-   "image": "https://m.media-amazon.com/images/I/81TNIf2gUHL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F91652KM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B0F91652KM"
+   "image": "https://m.media-amazon.com/images/I/618TuELD6TL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07KKH3TY5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-combo-kits.html#B07KKH3TY5"
   },
   {
    "rank": 9,
@@ -370,7 +370,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 62,
-   "score": 70,
+   "score": 85,
    "award": null,
    "best_for": "Drilling and cutting plywood or 2x4s on a budget.",
    "bought_last_month": "100+/mo",
@@ -411,7 +411,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 76,
-   "score": 64,
+   "score": 81,
    "award": null,
    "best_for": "First-time buyers who want a name-brand drill and impact driver for under $80.",
    "bought_last_month": "800+/mo",

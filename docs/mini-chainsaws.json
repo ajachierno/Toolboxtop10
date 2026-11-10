@@ -22,7 +22,7 @@
    "brushless": 0.25,
    "bar_8": 0.25
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 40,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 4196,
-   "score": 92,
+   "score": 95,
    "award": "Best Overall",
    "best_for": "The best all-round mini saw for the money.",
    "bought_last_month": "1K+/mo",
@@ -123,7 +123,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 5199,
-   "score": 86,
+   "score": 90,
    "award": null,
    "best_for": "Users who want an 8-inch option on a budget.",
    "bought_last_month": "2K+/mo",
@@ -155,6 +155,47 @@
   },
   {
    "rank": 4,
+   "asin": "B0C2R4H6YK",
+   "name": "DEWALT 20V MAX 8 Inch Brushless Pruning Chainsaw, Tool Only (DCCS623B)",
+   "brand": "DEWALT",
+   "model": "DCCS623B",
+   "price": 140.06,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1110,
+   "score": 90,
+   "award": "Money No Object",
+   "best_for": "DEWALT 20V owners who want a pro-grade pruning saw.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "DEWALT's 8-inch brushless pruning saw with auto-oiling, rated up to 70 cuts through a 4x4 per charge on a 3.0Ah battery.",
+   "pros": [
+    "Brushless, auto oil",
+    "8 in bar",
+    "1,000+ sold last month"
+   ],
+   "cons": [
+    "Bare tool",
+    "Most expensive here"
+   ],
+   "specs": {
+    "bar": "8 in",
+    "battery": "Not included",
+    "motor": "Brushless",
+    "weight": null,
+    "extras": "Auto-oiling, up to 70 cuts on a 4x4 with a DCB230"
+   },
+   "features": {
+    "two_batteries": false,
+    "auto_oil": true,
+    "brushless": true,
+    "bar_8": true
+   },
+   "image": "https://m.media-amazon.com/images/I/515xYWIZSdL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C2R4H6YK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0C2R4H6YK"
+  },
+  {
+   "rank": 5,
    "asin": "B0C1Z9V6N1",
    "name": "Tietoc 6 Inch Mini Electric Chainsaw Cordless with Auto Oiler (MNCS-118)",
    "brand": "Tietoc",
@@ -194,7 +235,7 @@
    "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0C1Z9V6N1"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0B3LVT3CD",
    "name": "SEESII 6-inch Mini Chainsaw Cordless with 2 Batteries (M6 Lite)",
    "brand": "SEESII",
@@ -235,47 +276,6 @@
    "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0B3LVT3CD"
   },
   {
-   "rank": 6,
-   "asin": "B0C2R4H6YK",
-   "name": "DEWALT 20V MAX 8 Inch Brushless Pruning Chainsaw, Tool Only (DCCS623B)",
-   "brand": "DEWALT",
-   "model": "DCCS623B",
-   "price": 140.06,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1110,
-   "score": 80,
-   "award": "Money No Object",
-   "best_for": "DEWALT 20V owners who want a pro-grade pruning saw.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "DEWALT's 8-inch brushless pruning saw with auto-oiling, rated up to 70 cuts through a 4x4 per charge on a 3.0Ah battery.",
-   "pros": [
-    "Brushless, auto oil",
-    "8 in bar",
-    "1,000+ sold last month"
-   ],
-   "cons": [
-    "Bare tool",
-    "Most expensive here"
-   ],
-   "specs": {
-    "bar": "8 in",
-    "battery": "Not included",
-    "motor": "Brushless",
-    "weight": null,
-    "extras": "Auto-oiling, up to 70 cuts on a 4x4 with a DCB230"
-   },
-   "features": {
-    "two_batteries": false,
-    "auto_oil": true,
-    "brushless": true,
-    "bar_8": true
-   },
-   "image": "https://m.media-amazon.com/images/I/515xYWIZSdL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C2R4H6YK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0C2R4H6YK"
-  },
-  {
    "rank": 7,
    "asin": "B0DGY3NHJV",
    "name": "Saker 6 Inch Mini Chainsaw Cordless with 2 Batteries (SK1806D-G)",
@@ -285,7 +285,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 4884,
-   "score": 76,
+   "score": 80,
    "award": null,
    "best_for": "Small pruning jobs with a spare battery.",
    "bought_last_month": "50+/mo",
@@ -325,7 +325,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 566,
-   "score": 67,
+   "score": 80,
    "award": null,
    "best_for": "Greenworks 24V owners and buyers who want a real warranty.",
    "bought_last_month": "500+/mo",
@@ -358,47 +358,6 @@
   },
   {
    "rank": 9,
-   "asin": "B0D4DVK9GS",
-   "name": "Saker 6 Inch Mini Chainsaw Cordless, Battery Powered (SK1806K-01)",
-   "brand": "Saker",
-   "model": "SK1806K-01",
-   "price": 31.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1668,
-   "score": 66,
-   "award": null,
-   "best_for": "One-off pruning jobs.",
-   "bought_last_month": "500+/mo",
-   "verdict": "A cheap single-battery Saker mini saw with a spare chain and oil in the box.",
-   "pros": [
-    "Low price",
-    "Spare chain included",
-    "1,668 reviews"
-   ],
-   "cons": [
-    "One battery",
-    "4.4 stars"
-   ],
-   "specs": {
-    "bar": "6 in",
-    "battery": "1 battery, included",
-    "motor": null,
-    "weight": null,
-    "extras": "2 chains, oil bottle, screwdriver"
-   },
-   "features": {
-    "two_batteries": false,
-    "auto_oil": false,
-    "brushless": false,
-    "bar_8": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71Z8vSjy3wL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D4DVK9GS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0D4DVK9GS"
-  },
-  {
-   "rank": 10,
    "asin": "B0C7HNSJ4R",
    "name": "CRAFTSMAN V20 Mini Cordless Pruning Chainsaw, 6\", 2Ah Battery (CMCCS320D1)",
    "brand": "CRAFTSMAN",
@@ -407,7 +366,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 346,
-   "score": 62,
+   "score": 76,
    "award": null,
    "best_for": "CRAFTSMAN V20 owners pruning shrubs and small trees.",
    "bought_last_month": "200+/mo",
@@ -437,6 +396,47 @@
    "image": "https://m.media-amazon.com/images/I/71c6yqjwy4L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0C7HNSJ4R?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0C7HNSJ4R"
+  },
+  {
+   "rank": 10,
+   "asin": "B0D4DVK9GS",
+   "name": "Saker 6 Inch Mini Chainsaw Cordless, Battery Powered (SK1806K-01)",
+   "brand": "Saker",
+   "model": "SK1806K-01",
+   "price": 31.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1668,
+   "score": 75,
+   "award": null,
+   "best_for": "One-off pruning jobs.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A cheap single-battery Saker mini saw with a spare chain and oil in the box.",
+   "pros": [
+    "Low price",
+    "Spare chain included",
+    "1,668 reviews"
+   ],
+   "cons": [
+    "One battery",
+    "4.4 stars"
+   ],
+   "specs": {
+    "bar": "6 in",
+    "battery": "1 battery, included",
+    "motor": null,
+    "weight": null,
+    "extras": "2 chains, oil bottle, screwdriver"
+   },
+   "features": {
+    "two_batteries": false,
+    "auto_oil": false,
+    "brushless": false,
+    "bar_8": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Z8vSjy3wL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D4DVK9GS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0D4DVK9GS"
   }
  ],
  "avoid": [

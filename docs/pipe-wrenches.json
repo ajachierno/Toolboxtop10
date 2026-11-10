@@ -22,7 +22,7 @@
    "set": 0.25,
    "replaceable_jaws": 0.2
   },
-  "reviews_ceiling": 2500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,162 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0000224JF",
+   "name": "RIDGID 31100 Model 818 Aluminum Straight Pipe Wrench, 18-Inch",
+   "brand": "RIDGID",
+   "model": "31100",
+   "price": 79.97,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1217,
+   "score": 93,
+   "award": "Best Overall",
+   "best_for": "Plumbers and homeowners who want one pipe wrench that lasts.",
+   "bought_last_month": "300+/mo",
+   "verdict": "The plumber's standard: an 18-inch aluminum RIDGID that's about 40% lighter than cast iron, handles pipe up to 2-1/2 inches, and takes replacement jaws.",
+   "pros": [
+    "4.8 stars; 1,217 reviews",
+    "2-1/2 in capacity",
+    "Lighter than cast iron"
+   ],
+   "cons": [
+    "Single wrench"
+   ],
+   "specs": {
+    "size": "18 in",
+    "capacity": "2-1/2 in",
+    "handle": "Aluminum I-beam",
+    "extras": "Full-floating forged hook jaw, replaceable jaws and spring"
+   },
+   "features": {
+    "aluminum": true,
+    "capacity_2": true,
+    "set": false,
+    "replaceable_jaws": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61jhLmIkt3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0000224JF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0000224JF"
+  },
+  {
+   "rank": 2,
+   "asin": "B0000224JE",
+   "name": "RIDGID 31095 Model 814 Aluminum Straight Pipe Wrench, 14-Inch, Made in the USA",
+   "brand": "RIDGID",
+   "model": "814",
+   "price": 51.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 844,
+   "score": 93,
+   "award": null,
+   "best_for": "Household plumbing and tighter spaces.",
+   "bought_last_month": "300+/mo",
+   "verdict": "The 14-inch version of RIDGID's aluminum wrench, made in the USA, with a 2-inch capacity.",
+   "pros": [
+    "Made in the USA",
+    "4.8 stars",
+    "2 in capacity"
+   ],
+   "cons": [
+    "Single wrench"
+   ],
+   "specs": {
+    "size": "14 in",
+    "capacity": "2 in",
+    "handle": "Aluminum",
+    "extras": "Made in the USA, replaceable jaws and spring"
+   },
+   "features": {
+    "aluminum": true,
+    "capacity_2": true,
+    "set": false,
+    "replaceable_jaws": true
+   },
+   "image": "https://m.media-amazon.com/images/I/512uEoH3BmL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0000224JE?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0000224JE"
+  },
+  {
+   "rank": 3,
+   "asin": "B0000224JG",
+   "name": "RIDGID 31105 Model 824 Aluminum Straight Pipe Wrench, 24-Inch",
+   "brand": "RIDGID",
+   "model": "31105",
+   "price": 119.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 730,
+   "score": 93,
+   "award": "Money No Object",
+   "best_for": "Plumbers and pipefitters working on large pipe.",
+   "bought_last_month": "200+/mo",
+   "verdict": "RIDGID's 24-inch aluminum wrench for 3-inch pipe, the best-rated wrench here at 4.8 stars.",
+   "pros": [
+    "4.8 stars",
+    "3 in capacity",
+    "Long reach for leverage"
+   ],
+   "cons": [
+    "Most expensive here"
+   ],
+   "specs": {
+    "size": "24 in",
+    "capacity": "3 in",
+    "handle": "Aluminum",
+    "extras": "Replaceable jaws and spring"
+   },
+   "features": {
+    "aluminum": true,
+    "capacity_2": true,
+    "set": false,
+    "replaceable_jaws": true
+   },
+   "image": "https://m.media-amazon.com/images/I/41BoSQROuiL._AC_SL1005_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0000224JG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0000224JG"
+  },
+  {
+   "rank": 4,
+   "asin": "B0D8NYVZLJ",
+   "name": "HURRICANE 3-Piece Aluminum Pipe Wrench Set, 10, 14 and 18-Inch (02-185)",
+   "brand": "HURRICANE",
+   "model": "02-185",
+   "price": 36.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 175,
+   "score": 91,
+   "award": null,
+   "best_for": "DIYers who want aluminum wrenches for less than the DURATECH set.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A three-piece aluminum set that lists each wrench's capacity, up to 2-1/2 inches on the 18-inch.",
+   "pros": [
+    "Capacities listed",
+    "Aluminum",
+    "Under $40"
+   ],
+   "cons": [
+    "Only 175 reviews"
+   ],
+   "specs": {
+    "size": "10, 14 and 18 in",
+    "capacity": "1, 1-1/2 and 2-1/2 in",
+    "handle": "Aluminum",
+    "extras": "Drop-forged steel jaws"
+   },
+   "features": {
+    "aluminum": true,
+    "capacity_2": true,
+    "set": true,
+    "replaceable_jaws": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71z47JuPxXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D8NYVZLJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0D8NYVZLJ"
+  },
+  {
+   "rank": 5,
    "asin": "B08G8S3NCF",
    "name": "DURATECH 3-Piece Aluminum Straight Pipe Wrench Set, 10, 14 and 18-Inch",
    "brand": "DURATECH",
@@ -74,124 +230,7 @@
    "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B08G8S3NCF"
   },
   {
-   "rank": 2,
-   "asin": "B0000224JF",
-   "name": "RIDGID 31100 Model 818 Aluminum Straight Pipe Wrench, 18-Inch",
-   "brand": "RIDGID",
-   "model": "31100",
-   "price": 79.97,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1217,
-   "score": 90,
-   "award": "Best Overall",
-   "best_for": "Plumbers and homeowners who want one pipe wrench that lasts.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The plumber's standard: an 18-inch aluminum RIDGID that's about 40% lighter than cast iron, handles pipe up to 2-1/2 inches, and takes replacement jaws.",
-   "pros": [
-    "4.8 stars; 1,217 reviews",
-    "2-1/2 in capacity",
-    "Lighter than cast iron"
-   ],
-   "cons": [
-    "Single wrench"
-   ],
-   "specs": {
-    "size": "18 in",
-    "capacity": "2-1/2 in",
-    "handle": "Aluminum I-beam",
-    "extras": "Full-floating forged hook jaw, replaceable jaws and spring"
-   },
-   "features": {
-    "aluminum": true,
-    "capacity_2": true,
-    "set": false,
-    "replaceable_jaws": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61jhLmIkt3L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0000224JF?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0000224JF"
-  },
-  {
-   "rank": 3,
-   "asin": "B0000224JE",
-   "name": "RIDGID 31095 Model 814 Aluminum Straight Pipe Wrench, 14-Inch, Made in the USA",
-   "brand": "RIDGID",
-   "model": "814",
-   "price": 51.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 844,
-   "score": 88,
-   "award": null,
-   "best_for": "Household plumbing and tighter spaces.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The 14-inch version of RIDGID's aluminum wrench, made in the USA, with a 2-inch capacity.",
-   "pros": [
-    "Made in the USA",
-    "4.8 stars",
-    "2 in capacity"
-   ],
-   "cons": [
-    "Single wrench"
-   ],
-   "specs": {
-    "size": "14 in",
-    "capacity": "2 in",
-    "handle": "Aluminum",
-    "extras": "Made in the USA, replaceable jaws and spring"
-   },
-   "features": {
-    "aluminum": true,
-    "capacity_2": true,
-    "set": false,
-    "replaceable_jaws": true
-   },
-   "image": "https://m.media-amazon.com/images/I/512uEoH3BmL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0000224JE?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0000224JE"
-  },
-  {
-   "rank": 4,
-   "asin": "B0000224JG",
-   "name": "RIDGID 31105 Model 824 Aluminum Straight Pipe Wrench, 24-Inch",
-   "brand": "RIDGID",
-   "model": "31105",
-   "price": 119.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 730,
-   "score": 88,
-   "award": "Money No Object",
-   "best_for": "Plumbers and pipefitters working on large pipe.",
-   "bought_last_month": "200+/mo",
-   "verdict": "RIDGID's 24-inch aluminum wrench for 3-inch pipe, the best-rated wrench here at 4.8 stars.",
-   "pros": [
-    "4.8 stars",
-    "3 in capacity",
-    "Long reach for leverage"
-   ],
-   "cons": [
-    "Most expensive here"
-   ],
-   "specs": {
-    "size": "24 in",
-    "capacity": "3 in",
-    "handle": "Aluminum",
-    "extras": "Replaceable jaws and spring"
-   },
-   "features": {
-    "aluminum": true,
-    "capacity_2": true,
-    "set": false,
-    "replaceable_jaws": true
-   },
-   "image": "https://m.media-amazon.com/images/I/41BoSQROuiL._AC_SL1005_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0000224JG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0000224JG"
-  },
-  {
-   "rank": 5,
+   "rank": 6,
    "asin": "B08G8TKYJ3",
    "name": "DURATECH 10-Inch Aluminum Straight Pipe Wrench (DTAHDPW10)",
    "brand": "DURATECH",
@@ -231,86 +270,7 @@
    "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B08G8TKYJ3"
   },
   {
-   "rank": 6,
-   "asin": "B0D8NYVZLJ",
-   "name": "HURRICANE 3-Piece Aluminum Pipe Wrench Set, 10, 14 and 18-Inch (02-185)",
-   "brand": "HURRICANE",
-   "model": "02-185",
-   "price": 36.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 175,
-   "score": 80,
-   "award": null,
-   "best_for": "DIYers who want aluminum wrenches for less than the DURATECH set.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A three-piece aluminum set that lists each wrench's capacity, up to 2-1/2 inches on the 18-inch.",
-   "pros": [
-    "Capacities listed",
-    "Aluminum",
-    "Under $40"
-   ],
-   "cons": [
-    "Only 175 reviews"
-   ],
-   "specs": {
-    "size": "10, 14 and 18 in",
-    "capacity": "1, 1-1/2 and 2-1/2 in",
-    "handle": "Aluminum",
-    "extras": "Drop-forged steel jaws"
-   },
-   "features": {
-    "aluminum": true,
-    "capacity_2": true,
-    "set": true,
-    "replaceable_jaws": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71z47JuPxXL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D8NYVZLJ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0D8NYVZLJ"
-  },
-  {
    "rank": 7,
-   "asin": "B08G8SW891",
-   "name": "DURATECH 8-Inch Heavy Duty Pipe Wrench",
-   "brand": "DURATECH",
-   "model": "8-inch",
-   "price": 11.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1848,
-   "score": 77,
-   "award": null,
-   "best_for": "Tight spaces and small fittings.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A small cast iron wrench with a slim head for tight spots, for about $12.",
-   "pros": [
-    "About $12",
-    "Slim head",
-    "1,848 reviews"
-   ],
-   "cons": [
-    "1 in capacity",
-    "4.4 stars"
-   ],
-   "specs": {
-    "size": "8 in",
-    "capacity": "1/8-1 in",
-    "handle": "Cast iron",
-    "extras": "Slim head, replaceable jaws and spring"
-   },
-   "features": {
-    "aluminum": false,
-    "capacity_2": false,
-    "set": false,
-    "replaceable_jaws": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71FTGSwcHhL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08G8SW891?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B08G8SW891"
-  },
-  {
-   "rank": 8,
    "asin": "B093KNGSK9",
    "name": "HORUSDY 4-Pack Heavy Duty Pipe Wrench Set, 8, 10, 12 and 14-Inch, with Storage Bag (97653)",
    "brand": "HORUSDY",
@@ -319,7 +279,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 993,
-   "score": 77,
+   "score": 81,
    "award": "Best Budget",
    "best_for": "Stocking a garage on a budget.",
    "bought_last_month": "400+/mo",
@@ -350,6 +310,46 @@
    "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B093KNGSK9"
   },
   {
+   "rank": 8,
+   "asin": "B08G8SW891",
+   "name": "DURATECH 8-Inch Heavy Duty Pipe Wrench",
+   "brand": "DURATECH",
+   "model": "8-inch",
+   "price": 11.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1848,
+   "score": 79,
+   "award": null,
+   "best_for": "Tight spaces and small fittings.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A small cast iron wrench with a slim head for tight spots, for about $12.",
+   "pros": [
+    "About $12",
+    "Slim head",
+    "1,848 reviews"
+   ],
+   "cons": [
+    "1 in capacity",
+    "4.4 stars"
+   ],
+   "specs": {
+    "size": "8 in",
+    "capacity": "1/8-1 in",
+    "handle": "Cast iron",
+    "extras": "Slim head, replaceable jaws and spring"
+   },
+   "features": {
+    "aluminum": false,
+    "capacity_2": false,
+    "set": false,
+    "replaceable_jaws": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71FTGSwcHhL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08G8SW891?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B08G8SW891"
+  },
+  {
    "rank": 9,
    "asin": "B0DXCWLHX5",
    "name": "Zmwjyxx 5-Piece Heavy Duty Pipe Wrench Set, 8, 10, 12, 14 and 18-Inch (SGQ5)",
@@ -359,7 +359,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 62,
-   "score": 67,
+   "score": 77,
    "award": null,
    "best_for": "Covering every size cheaply.",
    "bought_last_month": "100+/mo",
@@ -398,7 +398,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 63,
-   "score": 63,
+   "score": 73,
    "award": null,
    "best_for": "Electricians and techs who want a Klein in the bag.",
    "bought_last_month": "100+/mo",

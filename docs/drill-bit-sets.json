@@ -22,14 +22,14 @@
    "anti_spin": 0.2,
    "case": 0.25
   },
-  "reviews_ceiling": 30000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 15,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
   "best_overall": "B004GIO0F8",
-  "best_budget": "B07D9J6JLD",
+  "best_budget": "B07KHG79Z8",
   "money_no_object": null
  },
  "products": [
@@ -84,7 +84,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 7344,
-   "score": 92,
+   "score": 96,
    "award": null,
    "best_for": "Stainless steel and other hard metals.",
    "bought_last_month": "300+/mo",
@@ -125,7 +125,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 5990,
-   "score": 89,
+   "score": 94,
    "award": null,
    "best_for": "Drilling deep holes in wood and metal where chips clog a standard flute.",
    "bought_last_month": "4K+/mo",
@@ -158,6 +158,48 @@
   },
   {
    "rank": 4,
+   "asin": "B07KHG79Z8",
+   "name": "CRAFTSMAN 14-Piece Gold Oxide Drill Bit Set for Wood, Plastic, or Metal (CMAM2214)",
+   "brand": "CRAFTSMAN",
+   "model": "CMAM2214",
+   "price": 9.98,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 3017,
+   "score": 93,
+   "award": "Best Budget",
+   "best_for": "Occasional drilling in wood and plastic on a tight budget.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The cheapest set here and still a full 1/16 to 1/2 inch run: 13 sizes with a spare 1/8 inch bit, split points and a gold oxide finish, all for $9.98. The bits are high-carbon steel, which is softer than HSS.",
+   "pros": [
+    "$9.98 for 1/16 to 1/2 inch",
+    "Split points",
+    "4.7 stars"
+   ],
+   "cons": [
+    "High-carbon steel, not HSS",
+    "Round shanks can slip in the chuck",
+    "Listing says both metal and plastic case"
+   ],
+   "specs": {
+    "pieces": "14",
+    "sizes": "1/16 to 1/2 in",
+    "material": "High-carbon steel, gold oxide",
+    "tip": "Split point",
+    "shank": "Round"
+   },
+   "features": {
+    "self_centering": true,
+    "wide_range": true,
+    "anti_spin": false,
+    "case": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81ozXpzLspL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07KHG79Z8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/drill-bit-sets.html#B07KHG79Z8"
+  },
+  {
+   "rank": 5,
    "asin": "B07D9J6JLD",
    "name": "COMOWARE Titanium Twist Drill Bit Set 16 Pcs, 1/16\"-1/4\", Hex Shank HSS",
    "brand": "COMOWARE",
@@ -166,8 +208,8 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 20982,
-   "score": 88,
-   "award": "Best Budget",
+   "score": 90,
+   "award": null,
    "best_for": "Pilot holes and small holes with a quick-change chuck.",
    "bought_last_month": "4K+/mo",
    "verdict": "A $9.99 hex-shank set of small bits, 1/16 to 1/4 inch, for quick-change chucks and impact drivers. Split points and an indexed holder, and nearly 21,000 reviews.",
@@ -198,47 +240,6 @@
    "page_url": "https://toolboxtop10.com/drill-bit-sets.html#B07D9J6JLD"
   },
   {
-   "rank": 5,
-   "asin": "B07DH55YRX",
-   "name": "DEWALT Drill Bit Set, 3-Flats Shank, 14-Piece, 135 Degree Split Point (DWA1184)",
-   "brand": "DEWALT",
-   "model": "DWA1184",
-   "price": 14.96,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 20537,
-   "score": 87,
-   "award": null,
-   "best_for": "A cheap, well-rated set from a brand people trust.",
-   "bought_last_month": "10K+/mo",
-   "verdict": "The best-selling set here at 10,000+ a month: 14 high-speed steel bits with 135-degree split points, a black and gold finish against rust, and 3-flat shanks on sizes above 3/16 inch. The listing doesn't publish the size range or mention a case.",
-   "pros": [
-    "4.8 stars on 20,537 reviews",
-    "$14.96",
-    "Sizes marked on each shank"
-   ],
-   "cons": [
-    "Size range not listed",
-    "No case mentioned"
-   ],
-   "specs": {
-    "pieces": "14",
-    "sizes": null,
-    "material": "HSS, black and gold coating",
-    "tip": "135° split point",
-    "shank": "3-flat (3/16 in and up)"
-   },
-   "features": {
-    "self_centering": true,
-    "wide_range": false,
-    "anti_spin": true,
-    "case": false
-   },
-   "image": "https://m.media-amazon.com/images/I/812mViBQXeL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07DH55YRX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/drill-bit-sets.html#B07DH55YRX"
-  },
-  {
    "rank": 6,
    "asin": "B07HSKJGYT",
    "name": "Makita B-65399 Impact Gold 14 Pc. Titanium Drill Bit Set, 1/4 in. Hex Shank",
@@ -248,7 +249,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 7183,
-   "score": 86,
+   "score": 90,
    "award": null,
    "best_for": "Drilling with an impact driver instead of a drill.",
    "bought_last_month": "2K+/mo",
@@ -281,48 +282,6 @@
   },
   {
    "rank": 7,
-   "asin": "B07KHG79Z8",
-   "name": "CRAFTSMAN 14-Piece Gold Oxide Drill Bit Set for Wood, Plastic, or Metal (CMAM2214)",
-   "brand": "CRAFTSMAN",
-   "model": "CMAM2214",
-   "price": 9.98,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 3017,
-   "score": 86,
-   "award": null,
-   "best_for": "Occasional drilling in wood and plastic on a tight budget.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The cheapest set here and still a full 1/16 to 1/2 inch run: 13 sizes with a spare 1/8 inch bit, split points and a gold oxide finish, all for $9.98. The bits are high-carbon steel, which is softer than HSS.",
-   "pros": [
-    "$9.98 for 1/16 to 1/2 inch",
-    "Split points",
-    "4.7 stars"
-   ],
-   "cons": [
-    "High-carbon steel, not HSS",
-    "Round shanks can slip in the chuck",
-    "Listing says both metal and plastic case"
-   ],
-   "specs": {
-    "pieces": "14",
-    "sizes": "1/16 to 1/2 in",
-    "material": "High-carbon steel, gold oxide",
-    "tip": "Split point",
-    "shank": "Round"
-   },
-   "features": {
-    "self_centering": true,
-    "wide_range": true,
-    "anti_spin": false,
-    "case": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81ozXpzLspL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07KHG79Z8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/drill-bit-sets.html#B07KHG79Z8"
-  },
-  {
-   "rank": 8,
    "asin": "B0B3HVCC1D",
    "name": "MACXCOIP 115Pcs Cobalt Drill Bit Set M35 HSS Jobber Length (Fractional, Letter and Number Sizes)",
    "brand": "MACXCOIP",
@@ -331,7 +290,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 2803,
-   "score": 82,
+   "score": 90,
    "award": null,
    "best_for": "Metal work that needs exact tap-drill sizes.",
    "bought_last_month": "100+/mo",
@@ -363,6 +322,47 @@
    "page_url": "https://toolboxtop10.com/drill-bit-sets.html#B0B3HVCC1D"
   },
   {
+   "rank": 8,
+   "asin": "B07DH55YRX",
+   "name": "DEWALT Drill Bit Set, 3-Flats Shank, 14-Piece, 135 Degree Split Point (DWA1184)",
+   "brand": "DEWALT",
+   "model": "DWA1184",
+   "price": 14.96,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 20537,
+   "score": 88,
+   "award": null,
+   "best_for": "A cheap, well-rated set from a brand people trust.",
+   "bought_last_month": "10K+/mo",
+   "verdict": "The best-selling set here at 10,000+ a month: 14 high-speed steel bits with 135-degree split points, a black and gold finish against rust, and 3-flat shanks on sizes above 3/16 inch. The listing doesn't publish the size range or mention a case.",
+   "pros": [
+    "4.8 stars on 20,537 reviews",
+    "$14.96",
+    "Sizes marked on each shank"
+   ],
+   "cons": [
+    "Size range not listed",
+    "No case mentioned"
+   ],
+   "specs": {
+    "pieces": "14",
+    "sizes": null,
+    "material": "HSS, black and gold coating",
+    "tip": "135° split point",
+    "shank": "3-flat (3/16 in and up)"
+   },
+   "features": {
+    "self_centering": true,
+    "wide_range": false,
+    "anti_spin": true,
+    "case": false
+   },
+   "image": "https://m.media-amazon.com/images/I/812mViBQXeL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07DH55YRX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/drill-bit-sets.html#B07DH55YRX"
+  },
+  {
    "rank": 9,
    "asin": "B07S96B1LJ",
    "name": "Amazon Basics Drill & Driver Multi Bit Set, Alloy Steel, with Storage Case, 100-Piece",
@@ -372,7 +372,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 4248,
-   "score": 75,
+   "score": 81,
    "award": null,
    "best_for": "A first toolbox that needs a bit of everything in one case.",
    "bought_last_month": "3K+/mo",
@@ -413,7 +413,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2045,
-   "score": 70,
+   "score": 80,
    "award": null,
    "best_for": "Setting up a garage with one box that drills and drives.",
    "bought_last_month": "600+/mo",

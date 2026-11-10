@@ -23,7 +23,7 @@
    "lit_display": 0.15,
    "battery_free": 0.15
   },
-  "reviews_ceiling": 30000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 7,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -36,6 +36,87 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B07VV78RZ1",
+   "name": "JACO ElitePro Digital Tire Pressure Gauge, 100 PSI (JSP-045)",
+   "brand": "JACO",
+   "model": "JSP-045",
+   "price": 29.9,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 7211,
+   "score": 94,
+   "award": "Money No Object",
+   "best_for": "Enthusiasts and mechanics who want shop-grade accuracy.",
+   "bought_last_month": "4K+/mo",
+   "verdict": "A pro digital gauge with dual sensors certified to ±0.5% of full scale, a reading that locks until you reset it, a bleed valve, and solid brass and steel parts.",
+   "pros": [
+    "±0.5% accuracy",
+    "Bleeder valve",
+    "4.7 stars; 7,211 reviews"
+   ],
+   "cons": [
+    "Most expensive here",
+    "Needs batteries"
+   ],
+   "specs": {
+    "type": "Digital",
+    "range": "0-100 PSI",
+    "accuracy": "±0.5% full scale, ANSI 2A",
+    "extras": "Dual sensors, reading locks on, bleeder valve, backlit 2.5 in LCD, brass and steel"
+   },
+   "features": {
+    "accuracy_1": true,
+    "ansi": true,
+    "bleeder": true,
+    "lit_display": true,
+    "battery_free": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61u9AtYCrDL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07VV78RZ1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B07VV78RZ1"
+  },
+  {
+   "rank": 2,
+   "asin": "B0D41ZWR68",
+   "name": "ETENWOLF Tire Pressure Gauge, 0-75 PSI, Large Glow Dial (G200)",
+   "brand": "ETENWOLF",
+   "model": "G200",
+   "price": 11.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2899,
+   "score": 93,
+   "award": "Best Overall",
+   "best_for": "Drivers who want an accurate gauge that works in any weather.",
+   "bought_last_month": "4K+/mo",
+   "verdict": "A dial gauge calibrated to ANSI Grade A (±1%) with a glow-in-the-dark face and a swivel chuck, and no batteries to die.",
+   "pros": [
+    "ANSI Grade A",
+    "Glow dial",
+    "No batteries"
+   ],
+   "cons": [
+    "75 PSI max"
+   ],
+   "specs": {
+    "type": "Dial",
+    "range": "0-75 PSI",
+    "accuracy": "±1% of span, ANSI B40.1 Grade A",
+    "extras": "Glow dial, 360° swivel chuck"
+   },
+   "features": {
+    "accuracy_1": true,
+    "ansi": true,
+    "bleeder": false,
+    "lit_display": true,
+    "battery_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Trof5eE+L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D41ZWR68?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B0D41ZWR68"
+  },
+  {
+   "rank": 3,
    "asin": "B07D3PVBJ4",
    "name": "AstroAI Digital Tire Pressure Gauge with Inflator, 3-250 PSI (250PSI-M)",
    "brand": "AstroAI",
@@ -75,48 +156,7 @@
    "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B07D3PVBJ4"
   },
   {
-   "rank": 2,
-   "asin": "B07VV78RZ1",
-   "name": "JACO ElitePro Digital Tire Pressure Gauge, 100 PSI (JSP-045)",
-   "brand": "JACO",
-   "model": "JSP-045",
-   "price": 29.9,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 7211,
-   "score": 89,
-   "award": "Money No Object",
-   "best_for": "Enthusiasts and mechanics who want shop-grade accuracy.",
-   "bought_last_month": "4K+/mo",
-   "verdict": "A pro digital gauge with dual sensors certified to ±0.5% of full scale, a reading that locks until you reset it, a bleed valve, and solid brass and steel parts.",
-   "pros": [
-    "±0.5% accuracy",
-    "Bleeder valve",
-    "4.7 stars; 7,211 reviews"
-   ],
-   "cons": [
-    "Most expensive here",
-    "Needs batteries"
-   ],
-   "specs": {
-    "type": "Digital",
-    "range": "0-100 PSI",
-    "accuracy": "±0.5% full scale, ANSI 2A",
-    "extras": "Dual sensors, reading locks on, bleeder valve, backlit 2.5 in LCD, brass and steel"
-   },
-   "features": {
-    "accuracy_1": true,
-    "ansi": true,
-    "bleeder": true,
-    "lit_display": true,
-    "battery_free": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61u9AtYCrDL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07VV78RZ1?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B07VV78RZ1"
-  },
-  {
-   "rank": 3,
+   "rank": 4,
    "asin": "B016R9KKCU",
    "name": "JACO ElitePro Dial Tire Pressure Gauge, 100 PSI (JSP-014)",
    "brand": "JACO",
@@ -125,7 +165,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 9355,
-   "score": 86,
+   "score": 90,
    "award": null,
    "best_for": "Drivers who prefer a dial with a bleed valve.",
    "bought_last_month": "2K+/mo",
@@ -157,47 +197,128 @@
    "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B016R9KKCU"
   },
   {
-   "rank": 4,
-   "asin": "B0D41ZWR68",
-   "name": "ETENWOLF Tire Pressure Gauge, 0-75 PSI, Large Glow Dial (G200)",
+   "rank": 5,
+   "asin": "B09YYJ58R6",
+   "name": "ETENWOLF Pencil Tire Pressure Gauge, 2-Pack (10-50 PSI and 20-120 PSI)",
    "brand": "ETENWOLF",
-   "model": "G200",
-   "price": 11.99,
+   "model": "G101",
+   "price": 5.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 2899,
-   "score": 85,
-   "award": "Best Overall",
-   "best_for": "Drivers who want an accurate gauge that works in any weather.",
-   "bought_last_month": "4K+/mo",
-   "verdict": "A dial gauge calibrated to ANSI Grade A (±1%) with a glow-in-the-dark face and a swivel chuck, and no batteries to die.",
+   "reviews_count": 6351,
+   "score": 88,
+   "award": null,
+   "best_for": "Glove boxes and a spare for the truck.",
+   "bought_last_month": "6K+/mo",
+   "verdict": "Two all-metal pencil gauges, one for cars and one up to 120 PSI, for about $5.",
    "pros": [
-    "ANSI Grade A",
-    "Glow dial",
-    "No batteries"
+    "2 gauges",
+    "All metal",
+    "About $5"
    ],
    "cons": [
-    "75 PSI max"
+    "±2-3%"
    ],
    "specs": {
-    "type": "Dial",
-    "range": "0-75 PSI",
-    "accuracy": "±1% of span, ANSI B40.1 Grade A",
-    "extras": "Glow dial, 360° swivel chuck"
+    "type": "Pencil, 2-pack",
+    "range": "10-50 PSI and 20-120 PSI",
+    "accuracy": "ANSI B40.1 Grade B (2-3% of span)",
+    "extras": "All metal, deflates"
+   },
+   "features": {
+    "accuracy_1": false,
+    "ansi": true,
+    "bleeder": true,
+    "lit_display": false,
+    "battery_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71li7a2t0HL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09YYJ58R6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B09YYJ58R6"
+  },
+  {
+   "rank": 6,
+   "asin": "B0BY2GD9VC",
+   "name": "ETENWOLF T300 Digital Tire Pressure Gauge, 200 PSI",
+   "brand": "ETENWOLF",
+   "model": "T300",
+   "price": 7.49,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 9909,
+   "score": 86,
+   "award": null,
+   "best_for": "Cars, RVs and trucks with high-pressure tires.",
+   "bought_last_month": "10K+/mo",
+   "verdict": "A digital gauge calibrated to ANSI Grade 2A (±1 PSI) with temperature compensation and a range to 200 PSI for RV and truck tires.",
+   "pros": [
+    "ANSI 2A",
+    "Up to 200 PSI",
+    "10,000+ sold last month"
+   ],
+   "cons": [
+    "Needs batteries"
+   ],
+   "specs": {
+    "type": "Digital",
+    "range": "3-200 PSI",
+    "accuracy": "±1 PSI, ANSI B40.7 Grade 2A",
+    "extras": "Thermal compensation, works -4°F to 130°F"
    },
    "features": {
     "accuracy_1": true,
     "ansi": true,
     "bleeder": false,
-    "lit_display": true,
-    "battery_free": true
+    "lit_display": false,
+    "battery_free": false
    },
-   "image": "https://m.media-amazon.com/images/I/71Trof5eE+L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D41ZWR68?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B0D41ZWR68"
+   "image": "https://m.media-amazon.com/images/I/51fj8FCWOfL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BY2GD9VC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B0BY2GD9VC"
   },
   {
-   "rank": 5,
+   "rank": 7,
+   "asin": "B00PT18QAQ",
+   "name": "TIRETEK Tire Pressure Gauge, ANSI Certified, 60 PSI Dial (TT-GS06-QBR2)",
+   "brand": "TIRETEK",
+   "model": "TT-GS06-QBR2",
+   "price": 9.77,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 9866,
+   "score": 86,
+   "award": null,
+   "best_for": "Cars and light trucks.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A steel and brass dial gauge with a swivel chuck and a relief valve you can press while the gauge is still on the tire.",
+   "pros": [
+    "Relief valve",
+    "No batteries",
+    "9,866 reviews"
+   ],
+   "cons": [
+    "±2%",
+    "60 PSI max"
+   ],
+   "specs": {
+    "type": "Dial",
+    "range": "0-60 PSI",
+    "accuracy": "ANSI B40.1 Grade B (2%)",
+    "extras": "45° swivel chuck, relief valve"
+   },
+   "features": {
+    "accuracy_1": false,
+    "ansi": true,
+    "bleeder": true,
+    "lit_display": false,
+    "battery_free": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71EAmufmEGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00PT18QAQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B00PT18QAQ"
+  },
+  {
+   "rank": 8,
    "asin": "B01J8DLGU2",
    "name": "AstroAI Digital Tire Pressure Gauge, 150 PSI, ±1 PSI (GL-0801A)",
    "brand": "AstroAI",
@@ -238,127 +359,6 @@
    "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B01J8DLGU2"
   },
   {
-   "rank": 6,
-   "asin": "B0BY2GD9VC",
-   "name": "ETENWOLF T300 Digital Tire Pressure Gauge, 200 PSI",
-   "brand": "ETENWOLF",
-   "model": "T300",
-   "price": 7.49,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 9909,
-   "score": 83,
-   "award": null,
-   "best_for": "Cars, RVs and trucks with high-pressure tires.",
-   "bought_last_month": "10K+/mo",
-   "verdict": "A digital gauge calibrated to ANSI Grade 2A (±1 PSI) with temperature compensation and a range to 200 PSI for RV and truck tires.",
-   "pros": [
-    "ANSI 2A",
-    "Up to 200 PSI",
-    "10,000+ sold last month"
-   ],
-   "cons": [
-    "Needs batteries"
-   ],
-   "specs": {
-    "type": "Digital",
-    "range": "3-200 PSI",
-    "accuracy": "±1 PSI, ANSI B40.7 Grade 2A",
-    "extras": "Thermal compensation, works -4°F to 130°F"
-   },
-   "features": {
-    "accuracy_1": true,
-    "ansi": true,
-    "bleeder": false,
-    "lit_display": false,
-    "battery_free": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51fj8FCWOfL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BY2GD9VC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B0BY2GD9VC"
-  },
-  {
-   "rank": 7,
-   "asin": "B00PT18QAQ",
-   "name": "TIRETEK Tire Pressure Gauge, ANSI Certified, 60 PSI Dial (TT-GS06-QBR2)",
-   "brand": "TIRETEK",
-   "model": "TT-GS06-QBR2",
-   "price": 9.77,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 9866,
-   "score": 83,
-   "award": null,
-   "best_for": "Cars and light trucks.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A steel and brass dial gauge with a swivel chuck and a relief valve you can press while the gauge is still on the tire.",
-   "pros": [
-    "Relief valve",
-    "No batteries",
-    "9,866 reviews"
-   ],
-   "cons": [
-    "±2%",
-    "60 PSI max"
-   ],
-   "specs": {
-    "type": "Dial",
-    "range": "0-60 PSI",
-    "accuracy": "ANSI B40.1 Grade B (2%)",
-    "extras": "45° swivel chuck, relief valve"
-   },
-   "features": {
-    "accuracy_1": false,
-    "ansi": true,
-    "bleeder": true,
-    "lit_display": false,
-    "battery_free": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71EAmufmEGL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00PT18QAQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B00PT18QAQ"
-  },
-  {
-   "rank": 8,
-   "asin": "B09YYJ58R6",
-   "name": "ETENWOLF Pencil Tire Pressure Gauge, 2-Pack (10-50 PSI and 20-120 PSI)",
-   "brand": "ETENWOLF",
-   "model": "G101",
-   "price": 5.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 6351,
-   "score": 83,
-   "award": null,
-   "best_for": "Glove boxes and a spare for the truck.",
-   "bought_last_month": "6K+/mo",
-   "verdict": "Two all-metal pencil gauges, one for cars and one up to 120 PSI, for about $5.",
-   "pros": [
-    "2 gauges",
-    "All metal",
-    "About $5"
-   ],
-   "cons": [
-    "±2-3%"
-   ],
-   "specs": {
-    "type": "Pencil, 2-pack",
-    "range": "10-50 PSI and 20-120 PSI",
-    "accuracy": "ANSI B40.1 Grade B (2-3% of span)",
-    "extras": "All metal, deflates"
-   },
-   "features": {
-    "accuracy_1": false,
-    "ansi": true,
-    "bleeder": true,
-    "lit_display": false,
-    "battery_free": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71li7a2t0HL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09YYJ58R6?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-pressure-gauges.html#B09YYJ58R6"
-  },
-  {
    "rank": 9,
    "asin": "B07X8GLGK3",
    "name": "AstroAI Pencil Tire Pressure Gauge, 2-Pack, 10-75 PSI (GL-1203)",
@@ -368,7 +368,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 15516,
-   "score": 81,
+   "score": 83,
    "award": null,
    "best_for": "A cheap backup in every car.",
    "bought_last_month": "9K+/mo",
@@ -408,7 +408,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 16088,
-   "score": 77,
+   "score": 79,
    "award": null,
    "best_for": "RV and truck owners.",
    "bought_last_month": "3K+/mo",

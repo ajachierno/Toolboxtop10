@@ -22,7 +22,7 @@
    "tool_free": 0.2,
    "accessories": 0.2
   },
-  "reviews_ceiling": 60000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 45,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2698,
-   "score": 88,
+   "score": 98,
    "award": "Money No Object",
    "best_for": "Remodelers who use a multi-tool weekly and want DEWALT build and a big kit.",
    "bought_last_month": "50+/mo",
@@ -76,88 +76,6 @@
   },
   {
    "rank": 2,
-   "asin": "B07CTDRR4K",
-   "name": "AVID POWER 3.5-Amp Oscillating Multi-Tool (4.5° oscillation)",
-   "brand": "AVID POWER",
-   "model": "3.5A",
-   "price": 53.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 4012,
-   "score": 85,
-   "award": "Best Overall",
-   "best_for": "Most DIY cutting: fast 4.5° swing, variable speed and tool-free blades for about $54.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The best all-around corded multi-tool. A strong 3.5-amp motor, a wide 4.5° oscillation angle that cuts fast, variable speed, and tool-free blade change — all backed by nearly 4,000 reviews for about $54.",
-   "pros": [
-    "3.5-amp motor with a fast 4.5° oscillation",
-    "Nearly 4,000 reviews at 4.4 stars",
-    "Variable speed + tool-free blade change"
-   ],
-   "cons": [
-    "Off-brand vs Dremel/DEWALT",
-    "Basic accessory set"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "3.5 amp",
-    "oscillation": "4.5°",
-    "opm": null,
-    "accessories": "13 pieces"
-   },
-   "features": {
-    "kit": true,
-    "variable_speed": true,
-    "tool_free": true,
-    "accessories": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71D4DmUELIL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07CTDRR4K?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B07CTDRR4K"
-  },
-  {
-   "rank": 3,
-   "asin": "B07QV6ZYVJ",
-   "name": "GALAX PRO 2.4-Amp Corded Oscillating Tool (28 accessories)",
-   "brand": "GALAX PRO",
-   "model": "2.4A",
-   "price": 54.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 2646,
-   "score": 85,
-   "award": null,
-   "best_for": "Starting out with 28 accessories in the box for under $50.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A big-value kit — a corded tool with 28 accessories and 2,600 reviews at 4.5 stars. The 2.4-amp motor is modest, but you get everything to start cutting for under $60.",
-   "pros": [
-    "28-piece accessory kit",
-    "2,600 reviews at 4.5 stars",
-    "Tool-free blade change"
-   ],
-   "cons": [
-    "2.4 amps is light for heavy cutting",
-    "Generic brand support"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "2.4 amp",
-    "oscillation": null,
-    "opm": null,
-    "accessories": "28 pieces"
-   },
-   "features": {
-    "kit": true,
-    "variable_speed": true,
-    "tool_free": true,
-    "accessories": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81-vkTipsoL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07QV6ZYVJ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B07QV6ZYVJ"
-  },
-  {
-   "rank": 4,
    "asin": "B09GV4M1NC",
    "name": "WORKPRO 3.0-Amp Corded Oscillating Multi-Tool Kit",
    "brand": "WORKPRO",
@@ -166,7 +84,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 955,
-   "score": 84,
+   "score": 97,
    "award": null,
    "best_for": "A safe mid-price kit with 7 speeds and a 4.7-star rating.",
    "bought_last_month": "300+/mo",
@@ -198,90 +116,7 @@
    "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B09GV4M1NC"
   },
   {
-   "rank": 5,
-   "asin": "B082N3411N",
-   "name": "ENERTWIST 4.2-Amp Oscillating Multi-Tool Kit (33 pieces)",
-   "brand": "ENERTWIST",
-   "model": "4.2A",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2024,
-   "score": 83,
-   "award": null,
-   "best_for": "The most motor (4.2 amps) of the value kits, with 33 accessories.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The most powerful motor of the value kits — 4.2 amps with a 33-piece accessory set and 2,000 reviews. If you want corded muscle without paying DEWALT money, this is it.",
-   "pros": [
-    "Strong 4.2-amp motor",
-    "33-piece accessory kit, 2,000 reviews",
-    "Tool-free blade change"
-   ],
-   "cons": [
-    "4.4 stars, a hair below the leaders",
-    "Off-brand support"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "4.2 amp",
-    "oscillation": null,
-    "opm": null,
-    "accessories": "33 pieces"
-   },
-   "features": {
-    "kit": true,
-    "variable_speed": true,
-    "tool_free": true,
-    "accessories": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71YLUwmY7WL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B082N3411N?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B082N3411N"
-  },
-  {
-   "rank": 6,
-   "asin": "B085WFDHHS",
-   "name": "Hammerhead 2.2-Amp Oscillating Multi-Tool",
-   "brand": "Hammerhead",
-   "model": "2.2A",
-   "price": 39.53,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 2459,
-   "score": 79,
-   "award": null,
-   "best_for": "Light trim and drywall cuts with a well-reviewed, simple tool.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A simple 2.2-amp corded tool with variable speed and 2,400 reviews at 4.5 stars. Fine for trim, drywall, and light remodeling, and at about $34 it costs less than the stronger 3.5-amp WEN.",
-   "pros": [
-    "2,400 reviews at 4.5 stars",
-    "Variable speed",
-    "Simple and reliable for light work"
-   ],
-   "cons": [
-    "2.2 amps is modest for heavy cutting",
-    "Blade change isn't fully tool-free",
-    "The 3.5-amp WEN has much more motor for about $11 more"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "2.2 amp",
-    "oscillation": null,
-    "opm": null,
-    "accessories": "Flush-cut blade"
-   },
-   "features": {
-    "kit": true,
-    "variable_speed": true,
-    "tool_free": false,
-    "accessories": false
-   },
-   "image": "https://m.media-amazon.com/images/I/611BW8FrUoL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B085WFDHHS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B085WFDHHS"
-  },
-  {
-   "rank": 7,
+   "rank": 3,
    "asin": "B092RL71YT",
    "name": "CRAFTSMAN 3-Amp Corded Oscillating Multi-Tool",
    "brand": "CRAFTSMAN",
@@ -290,7 +125,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 312,
-   "score": 79,
+   "score": 96,
    "award": null,
    "best_for": "Buyers who want a CRAFTSMAN corded tool with a universal tool-free system.",
    "bought_last_month": "100+/mo",
@@ -322,7 +157,130 @@
    "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B092RL71YT"
   },
   {
-   "rank": 8,
+   "rank": 4,
+   "asin": "B07QV6ZYVJ",
+   "name": "GALAX PRO 2.4-Amp Corded Oscillating Tool (28 accessories)",
+   "brand": "GALAX PRO",
+   "model": "2.4A",
+   "price": 54.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 2646,
+   "score": 95,
+   "award": null,
+   "best_for": "Starting out with 28 accessories in the box for under $50.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A big-value kit — a corded tool with 28 accessories and 2,600 reviews at 4.5 stars. The 2.4-amp motor is modest, but you get everything to start cutting for under $60.",
+   "pros": [
+    "28-piece accessory kit",
+    "2,600 reviews at 4.5 stars",
+    "Tool-free blade change"
+   ],
+   "cons": [
+    "2.4 amps is light for heavy cutting",
+    "Generic brand support"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "2.4 amp",
+    "oscillation": null,
+    "opm": null,
+    "accessories": "28 pieces"
+   },
+   "features": {
+    "kit": true,
+    "variable_speed": true,
+    "tool_free": true,
+    "accessories": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81-vkTipsoL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07QV6ZYVJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B07QV6ZYVJ"
+  },
+  {
+   "rank": 5,
+   "asin": "B07CTDRR4K",
+   "name": "AVID POWER 3.5-Amp Oscillating Multi-Tool (4.5° oscillation)",
+   "brand": "AVID POWER",
+   "model": "3.5A",
+   "price": 53.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 4012,
+   "score": 94,
+   "award": "Best Overall",
+   "best_for": "Most DIY cutting: fast 4.5° swing, variable speed and tool-free blades for about $54.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The best all-around corded multi-tool. A strong 3.5-amp motor, a wide 4.5° oscillation angle that cuts fast, variable speed, and tool-free blade change — all backed by nearly 4,000 reviews for about $54.",
+   "pros": [
+    "3.5-amp motor with a fast 4.5° oscillation",
+    "Nearly 4,000 reviews at 4.4 stars",
+    "Variable speed + tool-free blade change"
+   ],
+   "cons": [
+    "Off-brand vs Dremel/DEWALT",
+    "Basic accessory set"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "3.5 amp",
+    "oscillation": "4.5°",
+    "opm": null,
+    "accessories": "13 pieces"
+   },
+   "features": {
+    "kit": true,
+    "variable_speed": true,
+    "tool_free": true,
+    "accessories": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71D4DmUELIL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07CTDRR4K?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B07CTDRR4K"
+  },
+  {
+   "rank": 6,
+   "asin": "B082N3411N",
+   "name": "ENERTWIST 4.2-Amp Oscillating Multi-Tool Kit (33 pieces)",
+   "brand": "ENERTWIST",
+   "model": "4.2A",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2024,
+   "score": 94,
+   "award": null,
+   "best_for": "The most motor (4.2 amps) of the value kits, with 33 accessories.",
+   "bought_last_month": "300+/mo",
+   "verdict": "The most powerful motor of the value kits — 4.2 amps with a 33-piece accessory set and 2,000 reviews. If you want corded muscle without paying DEWALT money, this is it.",
+   "pros": [
+    "Strong 4.2-amp motor",
+    "33-piece accessory kit, 2,000 reviews",
+    "Tool-free blade change"
+   ],
+   "cons": [
+    "4.4 stars, a hair below the leaders",
+    "Off-brand support"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "4.2 amp",
+    "oscillation": null,
+    "opm": null,
+    "accessories": "33 pieces"
+   },
+   "features": {
+    "kit": true,
+    "variable_speed": true,
+    "tool_free": true,
+    "accessories": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71YLUwmY7WL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B082N3411N?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B082N3411N"
+  },
+  {
+   "rank": 7,
    "asin": "B09DJ9HN82",
    "name": "DEWALT DWE315SK 3-Amp Oscillating Multi-Tool Kit",
    "brand": "DEWALT",
@@ -331,7 +289,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 86,
-   "score": 76,
+   "score": 92,
    "award": null,
    "best_for": "Real DEWALT quality under $100, with a smaller kit.",
    "bought_last_month": "100+/mo",
@@ -363,7 +321,7 @@
    "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B09DJ9HN82"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "asin": "B0BVSKCNLC",
    "name": "WEN 3.5-Amp Oscillating Multi-Tool Kit",
    "brand": "WEN",
@@ -372,7 +330,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 362,
-   "score": 75,
+   "score": 91,
    "award": "Best Budget",
    "best_for": "3.5 amps of power for under $45 from a value brand.",
    "bought_last_month": "50+/mo",
@@ -404,7 +362,7 @@
    "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B0BVSKCNLC"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "asin": "B0CZV35YGZ",
    "name": "Dremel Multi-Max MM35 3.5-Amp Oscillating Tool Kit",
    "brand": "Dremel",
@@ -413,7 +371,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 115,
-   "score": 75,
+   "score": 91,
    "award": null,
    "best_for": "A smooth, low-vibration tool from the brand that started the category.",
    "bought_last_month": "50+/mo",
@@ -443,6 +401,48 @@
    "image": "https://m.media-amazon.com/images/I/815rXuDoduL._AC_SX425_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CZV35YGZ?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B0CZV35YGZ"
+  },
+  {
+   "rank": 10,
+   "asin": "B085WFDHHS",
+   "name": "Hammerhead 2.2-Amp Oscillating Multi-Tool",
+   "brand": "Hammerhead",
+   "model": "2.2A",
+   "price": 39.53,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 2459,
+   "score": 89,
+   "award": null,
+   "best_for": "Light trim and drywall cuts with a well-reviewed, simple tool.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A simple 2.2-amp corded tool with variable speed and 2,400 reviews at 4.5 stars. Fine for trim, drywall, and light remodeling, and at about $34 it costs less than the stronger 3.5-amp WEN.",
+   "pros": [
+    "2,400 reviews at 4.5 stars",
+    "Variable speed",
+    "Simple and reliable for light work"
+   ],
+   "cons": [
+    "2.2 amps is modest for heavy cutting",
+    "Blade change isn't fully tool-free",
+    "The 3.5-amp WEN has much more motor for about $11 more"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "2.2 amp",
+    "oscillation": null,
+    "opm": null,
+    "accessories": "Flush-cut blade"
+   },
+   "features": {
+    "kit": true,
+    "variable_speed": true,
+    "tool_free": false,
+    "accessories": false
+   },
+   "image": "https://m.media-amazon.com/images/I/611BW8FrUoL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B085WFDHHS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-oscillating-tools.html#B085WFDHHS"
   }
  ],
  "avoid": [

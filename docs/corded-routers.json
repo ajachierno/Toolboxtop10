@@ -23,7 +23,7 @@
    "fine_depth": 0.2,
    "kit": 0.15
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 70,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -87,7 +87,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 3561,
-   "score": 90,
+   "score": 91,
    "award": "Best Overall",
    "best_for": "A first full-size router that can also go in a router table.",
    "bought_last_month": "500+/mo",
@@ -130,7 +130,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 3939,
-   "score": 89,
+   "score": 90,
    "award": null,
    "best_for": "Edge profiles, hinge mortises and laminate with a pro compact router.",
    "bought_last_month": "100+/mo",
@@ -173,7 +173,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2000,
-   "score": 87,
+   "score": 90,
    "award": null,
    "best_for": "Big bits and plunge cuts at a lower price than the Bosch combo.",
    "bought_last_month": "100+/mo",
@@ -208,49 +208,6 @@
   },
   {
    "rank": 5,
-   "asin": "B07CQK4ZL4",
-   "name": "AVID POWER 6.5 Amp 1.25 HP Compact Router, Fixed Base, Trim Bits, Edge Guide, Roller Guide, Dust Hood",
-   "brand": "AVID POWER",
-   "model": "Compact router kit",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 4271,
-   "score": 86,
-   "award": "Best Budget",
-   "best_for": "A first router with bits and guides in the box for under $70.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A complete compact-router starter kit for under $70: 1.25 HP, six speeds, rack-and-pinion depth, twin LEDs, five bits, edge and roller guides and a dust hood.",
-   "pros": [
-    "Five bits, edge guide, roller guide and dust hood",
-    "Rack-and-pinion depth; twin LEDs",
-    "4,271 reviews"
-   ],
-   "cons": [
-    "No soft start listed",
-    "Its 3/8 in collet is an uncommon shank size in the US"
-   ],
-   "specs": {
-    "type": "Compact fixed base",
-    "power": "6.5 A, 1.25 HP",
-    "speed": "10,000-32,000 rpm (6 settings)",
-    "collets": "1/4 and 3/8 in",
-    "weight": "4.4 lb",
-    "in_box": "5 bits, edge guide, roller guide, dust hood, spare brushes"
-   },
-   "features": {
-    "variable_speed": true,
-    "soft_start": false,
-    "plunge_base": false,
-    "fine_depth": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71w-ZwhdI-L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07CQK4ZL4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-routers.html#B07CQK4ZL4"
-  },
-  {
-   "rank": 6,
    "asin": "B082CLN8H5",
    "name": "SKIL 10 Amp Fixed Base Corded Router (RT1323-00)",
    "brand": "SKIL",
@@ -259,7 +216,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 1340,
-   "score": 85,
+   "score": 90,
    "award": null,
    "best_for": "A full-size router with 1/2 in bits for around $100.",
    "bought_last_month": "100+/mo",
@@ -293,50 +250,50 @@
    "page_url": "https://toolboxtop10.com/corded-routers.html#B082CLN8H5"
   },
   {
-   "rank": 7,
-   "asin": "B01M0J08MF",
-   "name": "BOSCH PR20EVS Colt 1.0 HP Variable-Speed Palm Router",
-   "brand": "Bosch",
-   "model": "PR20EVS",
-   "price": 109.0,
+   "rank": 6,
+   "asin": "B07CQK4ZL4",
+   "name": "AVID POWER 6.5 Amp 1.25 HP Compact Router, Fixed Base, Trim Bits, Edge Guide, Roller Guide, Dust Hood",
+   "brand": "AVID POWER",
+   "model": "Compact router kit",
+   "price": 69.99,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 3520,
-   "score": 84,
-   "award": null,
-   "best_for": "One-handed edge and laminate work with a light palm router.",
-   "bought_last_month": "400+/mo",
-   "verdict": "Bosch's Colt palm router: 1 HP, macro and micro depth adjustment, a quick-clamp motor that moves between bases and an edge guide in the box. Lighter and cheaper than the Makita.",
+   "rating": 4.4,
+   "reviews_count": 4271,
+   "score": 87,
+   "award": "Best Budget",
+   "best_for": "A first router with bits and guides in the box for under $70.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A complete compact-router starter kit for under $70: 1.25 HP, six speeds, rack-and-pinion depth, twin LEDs, five bits, edge and roller guides and a dust hood.",
    "pros": [
-    "3.3 lbs, the lightest here",
-    "Macro and micro depth adjustment",
-    "Edge guide included"
+    "Five bits, edge guide, roller guide and dust hood",
+    "Rack-and-pinion depth; twin LEDs",
+    "4,271 reviews"
    ],
    "cons": [
     "No soft start listed",
-    "Listing showed 15 left in stock"
+    "Its 3/8 in collet is an uncommon shank size in the US"
    ],
    "specs": {
-    "type": "Compact palm",
-    "power": "5.6 A, 1 HP",
-    "speed": "16,000-35,000 rpm",
-    "collets": "1/4 in",
-    "weight": "3.3 lb",
-    "in_box": "Router, edge guide"
+    "type": "Compact fixed base",
+    "power": "6.5 A, 1.25 HP",
+    "speed": "10,000-32,000 rpm (6 settings)",
+    "collets": "1/4 and 3/8 in",
+    "weight": "4.4 lb",
+    "in_box": "5 bits, edge guide, roller guide, dust hood, spare brushes"
    },
    "features": {
     "variable_speed": true,
     "soft_start": false,
     "plunge_base": false,
     "fine_depth": true,
-    "kit": false
+    "kit": true
    },
-   "image": "https://m.media-amazon.com/images/I/51xFP0cCcdL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01M0J08MF?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-routers.html#B01M0J08MF"
+   "image": "https://m.media-amazon.com/images/I/71w-ZwhdI-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07CQK4ZL4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-routers.html#B07CQK4ZL4"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "asin": "B00006JKXB",
    "name": "DEWALT Router, Fixed Base, 12-Amp, 24,000 RPM Variable Speed, 2-1/4 HP (DW618)",
    "brand": "DEWALT",
@@ -345,7 +302,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1374,
-   "score": 81,
+   "score": 87,
    "award": null,
    "best_for": "DEWALT fans who want variable speed and a 3-year warranty.",
    "bought_last_month": "200+/mo",
@@ -379,50 +336,7 @@
    "page_url": "https://toolboxtop10.com/corded-routers.html#B00006JKXB"
   },
   {
-   "rank": 9,
-   "asin": "B00006JKX9",
-   "name": "DEWALT Router, Fixed Base, 1-3/4-HP, 11.0 Amp Motor (DW616)",
-   "brand": "DEWALT",
-   "model": "DW616",
-   "price": 146.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2743,
-   "score": 78,
-   "award": null,
-   "best_for": "Straight bits and edge work where one speed is fine.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A single-speed DEWALT with micro-fine depth adjustment in 1/64-inch steps, a tool-free steel cam lock and a sub-base concentricity gauge for accurate bit centering.",
-   "pros": [
-    "Micro-fine depth in 1/64 in steps",
-    "Steel cam lock and quick-release motor",
-    "Concentricity gauge included"
-   ],
-   "cons": [
-    "Single speed, so no slowing down for big bits",
-    "Warranty listed as \"call vendor\""
-   ],
-   "specs": {
-    "type": "Full-size fixed base",
-    "power": "11 A, 1.75 HP",
-    "speed": "Single speed",
-    "collets": "1/4 and 1/2 in",
-    "weight": "6.2 lb",
-    "in_box": "Fixed base, 2 collets, concentricity gauge, wrenches"
-   },
-   "features": {
-    "variable_speed": false,
-    "soft_start": false,
-    "plunge_base": false,
-    "fine_depth": true,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71auVRKKRLL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00006JKX9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-routers.html#B00006JKX9"
-  },
-  {
-   "rank": 10,
+   "rank": 8,
    "asin": "B0BK2Z9D69",
    "name": "WEN RT1460 6-Amp Handheld 1/4-Inch Variable Speed Laminate Trim Router",
    "brand": "WEN",
@@ -431,7 +345,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 351,
-   "score": 75,
+   "score": 86,
    "award": null,
    "best_for": "Laminate trimming and small edge work for about $50.",
    "bought_last_month": "100+/mo",
@@ -463,6 +377,92 @@
    "image": "https://m.media-amazon.com/images/I/71KN69u3lLL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BK2Z9D69?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-routers.html#B0BK2Z9D69"
+  },
+  {
+   "rank": 9,
+   "asin": "B01M0J08MF",
+   "name": "BOSCH PR20EVS Colt 1.0 HP Variable-Speed Palm Router",
+   "brand": "Bosch",
+   "model": "PR20EVS",
+   "price": 109.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 3520,
+   "score": 85,
+   "award": null,
+   "best_for": "One-handed edge and laminate work with a light palm router.",
+   "bought_last_month": "400+/mo",
+   "verdict": "Bosch's Colt palm router: 1 HP, macro and micro depth adjustment, a quick-clamp motor that moves between bases and an edge guide in the box. Lighter and cheaper than the Makita.",
+   "pros": [
+    "3.3 lbs, the lightest here",
+    "Macro and micro depth adjustment",
+    "Edge guide included"
+   ],
+   "cons": [
+    "No soft start listed",
+    "Listing showed 15 left in stock"
+   ],
+   "specs": {
+    "type": "Compact palm",
+    "power": "5.6 A, 1 HP",
+    "speed": "16,000-35,000 rpm",
+    "collets": "1/4 in",
+    "weight": "3.3 lb",
+    "in_box": "Router, edge guide"
+   },
+   "features": {
+    "variable_speed": true,
+    "soft_start": false,
+    "plunge_base": false,
+    "fine_depth": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51xFP0cCcdL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01M0J08MF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-routers.html#B01M0J08MF"
+  },
+  {
+   "rank": 10,
+   "asin": "B00006JKX9",
+   "name": "DEWALT Router, Fixed Base, 1-3/4-HP, 11.0 Amp Motor (DW616)",
+   "brand": "DEWALT",
+   "model": "DW616",
+   "price": 146.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2743,
+   "score": 80,
+   "award": null,
+   "best_for": "Straight bits and edge work where one speed is fine.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A single-speed DEWALT with micro-fine depth adjustment in 1/64-inch steps, a tool-free steel cam lock and a sub-base concentricity gauge for accurate bit centering.",
+   "pros": [
+    "Micro-fine depth in 1/64 in steps",
+    "Steel cam lock and quick-release motor",
+    "Concentricity gauge included"
+   ],
+   "cons": [
+    "Single speed, so no slowing down for big bits",
+    "Warranty listed as \"call vendor\""
+   ],
+   "specs": {
+    "type": "Full-size fixed base",
+    "power": "11 A, 1.75 HP",
+    "speed": "Single speed",
+    "collets": "1/4 and 1/2 in",
+    "weight": "6.2 lb",
+    "in_box": "Fixed base, 2 collets, concentricity gauge, wrenches"
+   },
+   "features": {
+    "variable_speed": false,
+    "soft_start": false,
+    "plunge_base": false,
+    "fine_depth": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71auVRKKRLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00006JKX9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-routers.html#B00006JKX9"
   }
  ],
  "avoid": [

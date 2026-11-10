@@ -22,7 +22,7 @@
    "case": 0.25,
    "torx": 0.2
   },
-  "reviews_ceiling": 12000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 13,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -77,6 +77,132 @@
   },
   {
    "rank": 2,
+   "asin": "B0CDYT8LVV",
+   "name": "CRAFTSMAN Universal L-to-T Allen Wrench Hex Key Set, 20-Piece (CMHT26028)",
+   "brand": "CRAFTSMAN",
+   "model": "CMHT26028",
+   "price": 16.98,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 895,
+   "score": 93,
+   "award": null,
+   "best_for": "Stubborn bolts, thanks to the T-handle adapter.",
+   "bought_last_month": "500+/mo",
+   "verdict": "The clever one. Twenty ball-end L-keys plus a universal adapter that snaps any of them into a T-handle for real torque on a stubborn bolt. You get the compactness of L-keys and the leverage of a T-handle in one set.",
+   "pros": [
+    "Adapter converts any L-key to a T-handle for torque",
+    "Ball ends for angled access",
+    "Both SAE and metric, with a holder",
+    "Craftsman name and warranty"
+   ],
+   "cons": [
+    "Costs more per key than the big L-key sets",
+    "The adapter is one more piece to keep track of",
+    "No Torx keys"
+   ],
+   "specs": {
+    "pieces": "20 + T-adapter",
+    "style": "L-to-T convertible (ball-end)",
+    "units": "SAE & Metric",
+    "material": "Steel (black oxide)"
+   },
+   "features": {
+    "ball_end": true,
+    "both_units": true,
+    "case": true,
+    "torx": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71T5-37sELL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CDYT8LVV?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/allen-keys.html#B0CDYT8LVV"
+  },
+  {
+   "rank": 3,
+   "asin": "B0CYQY5QLS",
+   "name": "Klein Tools 70543 3-Piece Compact Folding Hex Key Set (Metric, SAE, Torx)",
+   "brand": "Klein Tools",
+   "model": "70543",
+   "price": 29.98,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 358,
+   "score": 92,
+   "award": "Money No Object",
+   "best_for": "Pros who want SAE, metric and Torx in three pocket folders.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The pro's pocket set. Three compact folding tools split SAE, metric, and Torx keys so the sizes you need are always to hand and never rattling loose in a drawer. Industrial heat-treated steel — the buy-it-once folding set.",
+   "pros": [
+    "25 keys across SAE, metric, and Torx",
+    "Folding bodies keep keys together and give leverage",
+    "Industrial-strength heat-treated alloy steel",
+    "Klein trade reputation"
+   ],
+   "cons": [
+    "Priciest set on the list",
+    "No ball ends",
+    "Folding tools are bulkier than loose L-keys"
+   ],
+   "specs": {
+    "pieces": "25 keys (3 folders)",
+    "style": "Folding (3-pack)",
+    "units": "SAE, Metric & Torx",
+    "material": "Heat-treated alloy steel"
+   },
+   "features": {
+    "ball_end": false,
+    "both_units": true,
+    "case": true,
+    "torx": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71y9gi9Iy4L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CYQY5QLS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/allen-keys.html#B0CYQY5QLS"
+  },
+  {
+   "rank": 4,
+   "asin": "B0DJNF75BX",
+   "name": "ELEAD 41-Piece Hex and Torx Key Set with Torque Handle, SAE, Metric & Torx",
+   "brand": "ELEAD",
+   "model": "41-Piece Hex & Torx",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 787,
+   "score": 90,
+   "award": null,
+   "best_for": "One case that covers SAE, metric and Torx fasteners.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The most complete L-key set on the list. SAE keys from 0.028 to 3/8 inch, metric from 0.7 to 10 mm, and Torx from T9 to T50, all in one labeled case with a torque handle for stuck fasteners. Buy it if you keep running into star-head screws your hex set can't turn.",
+   "pros": [
+    "Covers SAE, metric and Torx (T9 to T50) in one set",
+    "Torque handle adds force on seized fasteners",
+    "Heat-treated chrome vanadium steel, black-oxide finish",
+    "Labeled storage case"
+   ],
+   "cons": [
+    "No ball ends",
+    "Lowest star rating on the list at 4.4",
+    "About $9 more than the ELEAD 31-piece hex-only set"
+   ],
+   "specs": {
+    "pieces": "41",
+    "style": "L-key + torque handle",
+    "units": "SAE, Metric & Torx",
+    "material": "Chrome vanadium steel"
+   },
+   "features": {
+    "ball_end": false,
+    "both_units": true,
+    "case": true,
+    "torx": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71aa-yAeWnL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DJNF75BX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/allen-keys.html#B0DJNF75BX"
+  },
+  {
+   "rank": 5,
    "asin": "B07V844YR8",
    "name": "Amazon Basics 36-Piece Allen Wrench / Hex Key Set, SAE & Metric",
    "brand": "Amazon Basics",
@@ -118,7 +244,7 @@
    "page_url": "https://toolboxtop10.com/allen-keys.html#B07V844YR8"
   },
   {
-   "rank": 3,
+   "rank": 6,
    "asin": "B08GKHLJWR",
    "name": "EFFICERE 30-Piece Hex Key Allen Wrench Set, SAE & Metric",
    "brand": "EFFICERE",
@@ -127,7 +253,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 5799,
-   "score": 85,
+   "score": 87,
    "award": "Best Budget",
    "best_for": "A cheap 30-key SAE and metric set with a case.",
    "bought_last_month": "800+/mo",
@@ -160,7 +286,7 @@
    "page_url": "https://toolboxtop10.com/allen-keys.html#B08GKHLJWR"
   },
   {
-   "rank": 4,
+   "rank": 7,
    "asin": "B086XC2BYV",
    "name": "MULWARK 17-Piece Folding Allen Wrench Set (2-Pack), Metric & SAE",
    "brand": "MULWARK",
@@ -169,7 +295,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 5171,
-   "score": 84,
+   "score": 87,
    "award": null,
    "best_for": "A bike bag or toolbox, with metric and SAE folders.",
    "bought_last_month": "2K+/mo",
@@ -202,91 +328,49 @@
    "page_url": "https://toolboxtop10.com/allen-keys.html#B086XC2BYV"
   },
   {
-   "rank": 5,
-   "asin": "B0CDYT8LVV",
-   "name": "CRAFTSMAN Universal L-to-T Allen Wrench Hex Key Set, 20-Piece (CMHT26028)",
-   "brand": "CRAFTSMAN",
-   "model": "CMHT26028",
-   "price": 16.98,
+   "rank": 8,
+   "asin": "B0DLNNJ6MC",
+   "name": "Kraftek by toolant 14-Piece Folding Allen Wrench Set, Metric & SAE",
+   "brand": "toolant",
+   "model": "14-Piece Folding",
+   "price": 8.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 895,
-   "score": 84,
+   "reviews_count": 952,
+   "score": 87,
    "award": null,
-   "best_for": "Stubborn bolts, thanks to the T-handle adapter.",
-   "bought_last_month": "500+/mo",
-   "verdict": "The clever one. Twenty ball-end L-keys plus a universal adapter that snaps any of them into a T-handle for real torque on a stubborn bolt. You get the compactness of L-keys and the leverage of a T-handle in one set.",
+   "best_for": "A pocketable folder with common sizes for about $10.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "The cheapest folder worth carrying. A compact CRV folding set with the common metric and SAE sizes for under ten dollars — small enough for a bike bag or a junk drawer, and a fast seller for exactly that reason.",
    "pros": [
-    "Adapter converts any L-key to a T-handle for torque",
-    "Ball ends for angled access",
-    "Both SAE and metric, with a holder",
-    "Craftsman name and warranty"
+    "Cheap and genuinely pocketable",
+    "Both metric and SAE in one tool",
+    "CRV steel keys",
+    "Popular for bike and EDC use"
    ],
    "cons": [
-    "Costs more per key than the big L-key sets",
-    "The adapter is one more piece to keep track of",
-    "No Torx keys"
+    "Only the common sizes",
+    "No ball ends or Torx",
+    "Fewer reviews than the big sellers"
    ],
    "specs": {
-    "pieces": "20 + T-adapter",
-    "style": "L-to-T convertible (ball-end)",
+    "pieces": "14",
+    "style": "Folding (compact EDC)",
     "units": "SAE & Metric",
-    "material": "Steel (black oxide)"
+    "material": "CRV steel"
    },
    "features": {
-    "ball_end": true,
+    "ball_end": false,
     "both_units": true,
     "case": true,
     "torx": false
    },
-   "image": "https://m.media-amazon.com/images/I/71T5-37sELL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CDYT8LVV?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/allen-keys.html#B0CDYT8LVV"
+   "image": "https://m.media-amazon.com/images/I/61ZaD+y4RKL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DLNNJ6MC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/allen-keys.html#B0DLNNJ6MC"
   },
   {
-   "rank": 6,
-   "asin": "B07SR11TC4",
-   "name": "Klein Tools 70550 Folding Hex Key Set, 11 SAE Sizes",
-   "brand": "Klein Tools",
-   "model": "70550",
-   "price": 19.97,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 7172,
-   "score": 81,
-   "award": null,
-   "best_for": "Work where every fastener is SAE.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The SAE folding workhorse. Eleven extended-reach blades that open independently up to 270 degrees for high leverage, with square-cut ends that seat full-depth so they won't strip a socket. If your fasteners are all SAE, this is the folder to get.",
-   "pros": [
-    "Extended-reach blades open to 270° for leverage",
-    "Square-cut ends resist slipping and stripping",
-    "Keys stay captive in the folding body",
-    "Klein build quality, 7,000-plus ratings"
-   ],
-   "cons": [
-    "SAE only — no metric sizes",
-    "No ball ends or Torx",
-    "Folding body is bulkier than loose keys"
-   ],
-   "specs": {
-    "pieces": "11 (SAE)",
-    "style": "Folding",
-    "units": "SAE",
-    "material": "Heat-treated alloy steel"
-   },
-   "features": {
-    "ball_end": false,
-    "both_units": false,
-    "case": true,
-    "torx": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71rnhaKOoHL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07SR11TC4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/allen-keys.html#B07SR11TC4"
-  },
-  {
-   "rank": 7,
+   "rank": 9,
    "asin": "B0BVHK7GTF",
    "name": "ELEAD 31-Piece Hex Key Set with Torque Handle, SAE & Metric",
    "brand": "ELEAD",
@@ -295,7 +379,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3751,
-   "score": 81,
+   "score": 86,
    "award": null,
    "best_for": "Seized fasteners, with a torque handle that clips on.",
    "bought_last_month": "7K+/mo",
@@ -328,130 +412,46 @@
    "page_url": "https://toolboxtop10.com/allen-keys.html#B0BVHK7GTF"
   },
   {
-   "rank": 8,
-   "asin": "B0DJNF75BX",
-   "name": "ELEAD 41-Piece Hex and Torx Key Set with Torque Handle, SAE, Metric & Torx",
-   "brand": "ELEAD",
-   "model": "41-Piece Hex & Torx",
-   "price": 25.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 787,
-   "score": 79,
-   "award": null,
-   "best_for": "One case that covers SAE, metric and Torx fasteners.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The most complete L-key set on the list. SAE keys from 0.028 to 3/8 inch, metric from 0.7 to 10 mm, and Torx from T9 to T50, all in one labeled case with a torque handle for stuck fasteners. Buy it if you keep running into star-head screws your hex set can't turn.",
-   "pros": [
-    "Covers SAE, metric and Torx (T9 to T50) in one set",
-    "Torque handle adds force on seized fasteners",
-    "Heat-treated chrome vanadium steel, black-oxide finish",
-    "Labeled storage case"
-   ],
-   "cons": [
-    "No ball ends",
-    "Lowest star rating on the list at 4.4",
-    "About $9 more than the ELEAD 31-piece hex-only set"
-   ],
-   "specs": {
-    "pieces": "41",
-    "style": "L-key + torque handle",
-    "units": "SAE, Metric & Torx",
-    "material": "Chrome vanadium steel"
-   },
-   "features": {
-    "ball_end": false,
-    "both_units": true,
-    "case": true,
-    "torx": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71aa-yAeWnL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DJNF75BX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/allen-keys.html#B0DJNF75BX"
-  },
-  {
-   "rank": 9,
-   "asin": "B0CYQY5QLS",
-   "name": "Klein Tools 70543 3-Piece Compact Folding Hex Key Set (Metric, SAE, Torx)",
+   "rank": 10,
+   "asin": "B07SR11TC4",
+   "name": "Klein Tools 70550 Folding Hex Key Set, 11 SAE Sizes",
    "brand": "Klein Tools",
-   "model": "70543",
-   "price": 29.98,
+   "model": "70550",
+   "price": 19.97,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 358,
-   "score": 79,
-   "award": "Money No Object",
-   "best_for": "Pros who want SAE, metric and Torx in three pocket folders.",
+   "reviews_count": 7172,
+   "score": 83,
+   "award": null,
+   "best_for": "Work where every fastener is SAE.",
    "bought_last_month": "1K+/mo",
-   "verdict": "The pro's pocket set. Three compact folding tools split SAE, metric, and Torx keys so the sizes you need are always to hand and never rattling loose in a drawer. Industrial heat-treated steel — the buy-it-once folding set.",
+   "verdict": "The SAE folding workhorse. Eleven extended-reach blades that open independently up to 270 degrees for high leverage, with square-cut ends that seat full-depth so they won't strip a socket. If your fasteners are all SAE, this is the folder to get.",
    "pros": [
-    "25 keys across SAE, metric, and Torx",
-    "Folding bodies keep keys together and give leverage",
-    "Industrial-strength heat-treated alloy steel",
-    "Klein trade reputation"
+    "Extended-reach blades open to 270° for leverage",
+    "Square-cut ends resist slipping and stripping",
+    "Keys stay captive in the folding body",
+    "Klein build quality, 7,000-plus ratings"
    ],
    "cons": [
-    "Priciest set on the list",
-    "No ball ends",
-    "Folding tools are bulkier than loose L-keys"
+    "SAE only — no metric sizes",
+    "No ball ends or Torx",
+    "Folding body is bulkier than loose keys"
    ],
    "specs": {
-    "pieces": "25 keys (3 folders)",
-    "style": "Folding (3-pack)",
-    "units": "SAE, Metric & Torx",
+    "pieces": "11 (SAE)",
+    "style": "Folding",
+    "units": "SAE",
     "material": "Heat-treated alloy steel"
    },
    "features": {
     "ball_end": false,
-    "both_units": true,
-    "case": true,
-    "torx": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71y9gi9Iy4L._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CYQY5QLS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/allen-keys.html#B0CYQY5QLS"
-  },
-  {
-   "rank": 10,
-   "asin": "B0DLNNJ6MC",
-   "name": "Kraftek by toolant 14-Piece Folding Allen Wrench Set, Metric & SAE",
-   "brand": "toolant",
-   "model": "14-Piece Folding",
-   "price": 8.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 952,
-   "score": 78,
-   "award": null,
-   "best_for": "A pocketable folder with common sizes for about $10.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "The cheapest folder worth carrying. A compact CRV folding set with the common metric and SAE sizes for under ten dollars — small enough for a bike bag or a junk drawer, and a fast seller for exactly that reason.",
-   "pros": [
-    "Cheap and genuinely pocketable",
-    "Both metric and SAE in one tool",
-    "CRV steel keys",
-    "Popular for bike and EDC use"
-   ],
-   "cons": [
-    "Only the common sizes",
-    "No ball ends or Torx",
-    "Fewer reviews than the big sellers"
-   ],
-   "specs": {
-    "pieces": "14",
-    "style": "Folding (compact EDC)",
-    "units": "SAE & Metric",
-    "material": "CRV steel"
-   },
-   "features": {
-    "ball_end": false,
-    "both_units": true,
+    "both_units": false,
     "case": true,
     "torx": false
    },
-   "image": "https://m.media-amazon.com/images/I/61ZaD+y4RKL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DLNNJ6MC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/allen-keys.html#B0DLNNJ6MC"
+   "image": "https://m.media-amazon.com/images/I/71rnhaKOoHL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07SR11TC4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/allen-keys.html#B07SR11TC4"
   }
  ],
  "avoid": [

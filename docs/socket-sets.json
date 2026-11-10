@@ -22,7 +22,7 @@
    "impact_rated": 0.15,
    "lifetime_warranty": 0.2
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 8063,
-   "score": 93,
+   "score": 95,
    "award": "Best Overall",
    "best_for": "Buying one set for life: three drive sizes, wrenches and a lifetime warranty.",
    "bought_last_month": "1K+/mo",
@@ -77,6 +77,90 @@
   },
   {
    "rank": 2,
+   "asin": "B0CMJF6DYD",
+   "name": "CRAFTSMAN 230-Piece Mechanics Tool Set with VERSASTACK 3-Drawer Toolbox, SAE and Metric, 1/4, 3/8 & 1/2 in Drive (CMMT45306)",
+   "brand": "CRAFTSMAN",
+   "model": "CMMT45306",
+   "price": 209.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 3123,
+   "score": 94,
+   "award": null,
+   "best_for": "A full mechanics set that lives in a stackable 3-drawer box.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The best seller right now, and the one that comes with real storage. 91 sockets, three low-profile 72-tooth ratchets, 21 wrenches and 44 hex keys ride in a stackable 3-drawer VERSASTACK box.",
+   "pros": [
+    "3-drawer box that stacks with other VERSASTACK storage",
+    "72-tooth ratchets with a thinner head for tight spots",
+    "21 combination wrenches included",
+    "Full lifetime warranty"
+   ],
+   "cons": [
+    "24.7 lb with the box, so not a trunk kit",
+    "66 of the 230 pieces are driver bits",
+    "Fewer reviews than the older DEWALT and Amazon Basics sets"
+   ],
+   "specs": {
+    "drive": "1/4, 3/8, 1/2 in",
+    "pieces": "230",
+    "standards": "SAE & Metric",
+    "finish": null
+   },
+   "features": {
+    "sae_metric": true,
+    "multi_drive": true,
+    "impact_rated": false,
+    "lifetime_warranty": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81qJzb4m3bL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CMJF6DYD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/socket-sets.html#B0CMJF6DYD"
+  },
+  {
+   "rank": 3,
+   "asin": "B01IFSX9M4",
+   "name": "DEWALT Impact Socket Set with Ratchet, Metric/SAE, 1/2 in Drive, 23-Piece (DWMT74739)",
+   "brand": "DEWALT",
+   "model": "DWMT74739",
+   "price": 65.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 9353,
+   "score": 92,
+   "award": null,
+   "best_for": "Impact wrench owners who need 1/2 in sockets that won't crack.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A focused 1/2 in drive set for people who own an impact wrench. Heat-treated CR-440 impact sockets with laser-etched sizes, plus a ratchet for hand work, backed by a lifetime warranty.",
+   "pros": [
+    "Impact-rated CR-440 steel, safe on an impact wrench",
+    "Includes a ratchet so it works by hand too",
+    "Laser-etched sizes are easy to read",
+    "Lifetime warranty"
+   ],
+   "cons": [
+    "Only 23 pieces, big fasteners only",
+    "1/2 in drive is too large for small engine-bay work",
+    "Not a replacement for a general mechanics set"
+   ],
+   "specs": {
+    "drive": "1/2 in",
+    "pieces": "23",
+    "standards": "SAE & Metric",
+    "finish": "Polished"
+   },
+   "features": {
+    "sae_metric": true,
+    "multi_drive": false,
+    "impact_rated": true,
+    "lifetime_warranty": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71j7st1PmDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01IFSX9M4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/socket-sets.html#B01IFSX9M4"
+  },
+  {
+   "rank": 4,
    "asin": "B074MFYGSF",
    "name": "Amazon Basics 201-Piece Mechanic's Socket Tool Set With Case, SAE and Metric (AMZ1702)",
    "brand": "Amazon Basics",
@@ -119,49 +203,7 @@
    "page_url": "https://toolboxtop10.com/socket-sets.html#B074MFYGSF"
   },
   {
-   "rank": 3,
-   "asin": "B01IFSX9M4",
-   "name": "DEWALT Impact Socket Set with Ratchet, Metric/SAE, 1/2 in Drive, 23-Piece (DWMT74739)",
-   "brand": "DEWALT",
-   "model": "DWMT74739",
-   "price": 65.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 9353,
-   "score": 90,
-   "award": null,
-   "best_for": "Impact wrench owners who need 1/2 in sockets that won't crack.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A focused 1/2 in drive set for people who own an impact wrench. Heat-treated CR-440 impact sockets with laser-etched sizes, plus a ratchet for hand work, backed by a lifetime warranty.",
-   "pros": [
-    "Impact-rated CR-440 steel, safe on an impact wrench",
-    "Includes a ratchet so it works by hand too",
-    "Laser-etched sizes are easy to read",
-    "Lifetime warranty"
-   ],
-   "cons": [
-    "Only 23 pieces, big fasteners only",
-    "1/2 in drive is too large for small engine-bay work",
-    "Not a replacement for a general mechanics set"
-   ],
-   "specs": {
-    "drive": "1/2 in",
-    "pieces": "23",
-    "standards": "SAE & Metric",
-    "finish": "Polished"
-   },
-   "features": {
-    "sae_metric": true,
-    "multi_drive": false,
-    "impact_rated": true,
-    "lifetime_warranty": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71j7st1PmDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01IFSX9M4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/socket-sets.html#B01IFSX9M4"
-  },
-  {
-   "rank": 4,
+   "rank": 5,
    "asin": "B01LZEMYOD",
    "name": "EPAuto 40-Piece 1/4 & 3/8 in Drive Socket Set with 72-Tooth Ratchet (ST-03A-1)",
    "brand": "EPAuto",
@@ -203,91 +245,7 @@
    "page_url": "https://toolboxtop10.com/socket-sets.html#B01LZEMYOD"
   },
   {
-   "rank": 5,
-   "asin": "B0CMJF6DYD",
-   "name": "CRAFTSMAN 230-Piece Mechanics Tool Set with VERSASTACK 3-Drawer Toolbox, SAE and Metric, 1/4, 3/8 & 1/2 in Drive (CMMT45306)",
-   "brand": "CRAFTSMAN",
-   "model": "CMMT45306",
-   "price": 209.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 3123,
-   "score": 89,
-   "award": null,
-   "best_for": "A full mechanics set that lives in a stackable 3-drawer box.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The best seller right now, and the one that comes with real storage. 91 sockets, three low-profile 72-tooth ratchets, 21 wrenches and 44 hex keys ride in a stackable 3-drawer VERSASTACK box.",
-   "pros": [
-    "3-drawer box that stacks with other VERSASTACK storage",
-    "72-tooth ratchets with a thinner head for tight spots",
-    "21 combination wrenches included",
-    "Full lifetime warranty"
-   ],
-   "cons": [
-    "24.7 lb with the box, so not a trunk kit",
-    "66 of the 230 pieces are driver bits",
-    "Fewer reviews than the older DEWALT and Amazon Basics sets"
-   ],
-   "specs": {
-    "drive": "1/4, 3/8, 1/2 in",
-    "pieces": "230",
-    "standards": "SAE & Metric",
-    "finish": null
-   },
-   "features": {
-    "sae_metric": true,
-    "multi_drive": true,
-    "impact_rated": false,
-    "lifetime_warranty": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81qJzb4m3bL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CMJF6DYD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/socket-sets.html#B0CMJF6DYD"
-  },
-  {
    "rank": 6,
-   "asin": "B07MXB85S3",
-   "name": "NEIKO 02448A 1/2 in Drive Master Impact Socket Set, 65-Piece, SAE 3/8-1-1/4 in and Metric 10-24 mm",
-   "brand": "NEIKO",
-   "model": "02448A",
-   "price": 142.04,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 10380,
-   "score": 87,
-   "award": null,
-   "best_for": "Lug nuts, suspension and farm equipment with an impact wrench.",
-   "bought_last_month": "600+/mo",
-   "verdict": "The big impact set for lug nuts, suspension and farm equipment. 58 deep and shallow 1/2 in drive sockets up to 1-1/4 in and 24 mm, a 72-tooth quick-release ratchet and three extensions in a labeled blow-molded case.",
-   "pros": [
-    "Sizes up to 1-1/4 in and 24 mm, deep and shallow",
-    "Impact-grade Cr-V",
-    "72-tooth ratchet included",
-    "10,000+ reviews at 4.8 stars"
-   ],
-   "cons": [
-    "1/2 in drive only, no small sockets",
-    "Heavy and bulky case",
-    "No warranty terms on the listing"
-   ],
-   "specs": {
-    "drive": "1/2 in",
-    "pieces": "65",
-    "standards": "SAE & Metric",
-    "finish": "Black phosphate"
-   },
-   "features": {
-    "sae_metric": true,
-    "multi_drive": false,
-    "impact_rated": true,
-    "lifetime_warranty": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71MNutfFhXL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07MXB85S3?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/socket-sets.html#B07MXB85S3"
-  },
-  {
-   "rank": 7,
    "asin": "B07RBV3LZT",
    "name": "WORKPRO 39-Piece CR-V Socket Set, 1/4 & 3/8 in Drive, Metric & SAE, Quick-Release Ratchet (W003067)",
    "brand": "WORKPRO",
@@ -296,7 +254,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 5389,
-   "score": 86,
+   "score": 89,
    "award": null,
    "best_for": "Small fasteners around the house for under $25.",
    "bought_last_month": "1K+/mo",
@@ -329,7 +287,91 @@
    "page_url": "https://toolboxtop10.com/socket-sets.html#B07RBV3LZT"
   },
   {
+   "rank": 7,
+   "asin": "B07TBH736Z",
+   "name": "TEKTON 3/8 in Drive 6-Point Socket and Ratchet Set, 73-Piece, 1/4-1 in and 6-24 mm (SKT15311)",
+   "brand": "TEKTON",
+   "model": "SKT15311",
+   "price": 186.66,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1688,
+   "score": 89,
+   "award": "Money No Object",
+   "best_for": "People who hate gaps in their size run, with a no-receipt lifetime warranty.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The set to buy if you care about complete size runs. Every 3/8 in drive size from 1/4 to 1 in and 6 to 24 mm, in both shallow and deep, plus an 18 in breaker bar and TEKTON's no-receipt lifetime warranty.",
+   "pros": [
+    "No gaps: 1/4-1 in and 6-24 mm, shallow and deep",
+    "18 in breaker bar for stuck bolts",
+    "Warranty with no time limit and no receipt needed",
+    "6-point sockets throughout"
+   ],
+   "cons": [
+    "3/8 in drive only at this price",
+    "Only one ratchet",
+    "Costs more than the 192-piece DEWALT"
+   ],
+   "specs": {
+    "drive": "3/8 in",
+    "pieces": "73",
+    "standards": "SAE & Metric",
+    "finish": "Polished"
+   },
+   "features": {
+    "sae_metric": true,
+    "multi_drive": false,
+    "impact_rated": false,
+    "lifetime_warranty": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71CqL9iV3GL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07TBH736Z?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/socket-sets.html#B07TBH736Z"
+  },
+  {
    "rank": 8,
+   "asin": "B07MXB85S3",
+   "name": "NEIKO 02448A 1/2 in Drive Master Impact Socket Set, 65-Piece, SAE 3/8-1-1/4 in and Metric 10-24 mm",
+   "brand": "NEIKO",
+   "model": "02448A",
+   "price": 142.04,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 10380,
+   "score": 88,
+   "award": null,
+   "best_for": "Lug nuts, suspension and farm equipment with an impact wrench.",
+   "bought_last_month": "600+/mo",
+   "verdict": "The big impact set for lug nuts, suspension and farm equipment. 58 deep and shallow 1/2 in drive sockets up to 1-1/4 in and 24 mm, a 72-tooth quick-release ratchet and three extensions in a labeled blow-molded case.",
+   "pros": [
+    "Sizes up to 1-1/4 in and 24 mm, deep and shallow",
+    "Impact-grade Cr-V",
+    "72-tooth ratchet included",
+    "10,000+ reviews at 4.8 stars"
+   ],
+   "cons": [
+    "1/2 in drive only, no small sockets",
+    "Heavy and bulky case",
+    "No warranty terms on the listing"
+   ],
+   "specs": {
+    "drive": "1/2 in",
+    "pieces": "65",
+    "standards": "SAE & Metric",
+    "finish": "Black phosphate"
+   },
+   "features": {
+    "sae_metric": true,
+    "multi_drive": false,
+    "impact_rated": true,
+    "lifetime_warranty": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71MNutfFhXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07MXB85S3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/socket-sets.html#B07MXB85S3"
+  },
+  {
+   "rank": 9,
    "asin": "B07RGBXTQ2",
    "name": "CASOMAN 3/8 in Drive Impact Socket Set, 49-Piece, SAE 5/16-3/4 in and Metric 8-22 mm, 6-Point Cr-V (CS041)",
    "brand": "CASOMAN",
@@ -338,7 +380,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 5848,
-   "score": 84,
+   "score": 87,
    "award": null,
    "best_for": "Owners of a 3/8 in impact wrench who need deep and shallow sockets.",
    "bought_last_month": "1K+/mo",
@@ -371,7 +413,7 @@
    "page_url": "https://toolboxtop10.com/socket-sets.html#B07RGBXTQ2"
   },
   {
-   "rank": 9,
+   "rank": 10,
    "asin": "B00U0P0GHM",
    "name": "DEWALT Mechanics Tools Kit and Socket Set, 1/4 & 3/8 in Drive, 108-Piece (DWMT73801)",
    "brand": "DEWALT",
@@ -380,7 +422,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 7590,
-   "score": 82,
+   "score": 84,
    "award": null,
    "best_for": "Household and light car work in a compact case.",
    "bought_last_month": "1K+/mo",
@@ -411,48 +453,6 @@
    "image": "https://m.media-amazon.com/images/I/71mPvINiSKL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B00U0P0GHM?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/socket-sets.html#B00U0P0GHM"
-  },
-  {
-   "rank": 10,
-   "asin": "B07TBH736Z",
-   "name": "TEKTON 3/8 in Drive 6-Point Socket and Ratchet Set, 73-Piece, 1/4-1 in and 6-24 mm (SKT15311)",
-   "brand": "TEKTON",
-   "model": "SKT15311",
-   "price": 186.66,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1688,
-   "score": 81,
-   "award": "Money No Object",
-   "best_for": "People who hate gaps in their size run, with a no-receipt lifetime warranty.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The set to buy if you care about complete size runs. Every 3/8 in drive size from 1/4 to 1 in and 6 to 24 mm, in both shallow and deep, plus an 18 in breaker bar and TEKTON's no-receipt lifetime warranty.",
-   "pros": [
-    "No gaps: 1/4-1 in and 6-24 mm, shallow and deep",
-    "18 in breaker bar for stuck bolts",
-    "Warranty with no time limit and no receipt needed",
-    "6-point sockets throughout"
-   ],
-   "cons": [
-    "3/8 in drive only at this price",
-    "Only one ratchet",
-    "Costs more than the 192-piece DEWALT"
-   ],
-   "specs": {
-    "drive": "3/8 in",
-    "pieces": "73",
-    "standards": "SAE & Metric",
-    "finish": "Polished"
-   },
-   "features": {
-    "sae_metric": true,
-    "multi_drive": false,
-    "impact_rated": false,
-    "lifetime_warranty": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71CqL9iV3GL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07TBH736Z?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/socket-sets.html#B07TBH736Z"
   }
  ],
  "avoid": [

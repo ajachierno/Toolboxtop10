@@ -22,19 +22,59 @@
    "nut_drivers": 0.2,
    "drill_bits": 0.15
   },
-  "reviews_ceiling": 40000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 20,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00GMXFK3G",
-  "best_budget": "B07V91S5XC",
+  "best_overall": "B00VQCBTXS",
+  "best_budget": "B00GMXFK3G",
   "money_no_object": null
  },
  "products": [
   {
    "rank": 1,
+   "asin": "B00VQCBTXS",
+   "name": "DEWALT Screwdriver Bit Set, 100 Pc Impact Driver Bit Set with Drill Bits, Magnetic Holder and Nut Drivers, FlexTorq Impact Ready, ToughCase Included",
+   "brand": "DEWALT",
+   "model": "DWA2FTS100",
+   "price": 69.35,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 9291,
+   "score": 97,
+   "award": "Best Overall",
+   "best_for": "Tradespeople who want drill and drive bits in a single case.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Three FlexTorq bit sets plus 14 drill bits in one ToughCase: 35 Phillips, 17 square, 15 Torx and 14 slotted bits, with nut drivers and a magnetic holder. The one-box answer for a contractor's truck.",
+   "pros": [
+    "4.7 stars on 9,291 reviews",
+    "Covers Phillips, square, Torx and slotted plus drill bits",
+    "Connects to the DEWALT ToughSystem cases"
+   ],
+   "cons": [
+    "$69.35 is more than three of the 40-piece sets",
+    "3.17 lb case is bulky for a tool bag"
+   ],
+   "specs": {
+    "pieces": "100",
+    "material": null,
+    "lengths": null,
+    "includes": "14 drill bits, nut drivers, magnetic holder, ToughCase"
+   },
+   "features": {
+    "torsion_zone": true,
+    "magnetic_holder": true,
+    "nut_drivers": true,
+    "drill_bits": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81MPaVjEHjL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00VQCBTXS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/impact-driver-bit-sets.html#B00VQCBTXS"
+  },
+  {
+   "rank": 2,
    "asin": "B00GMXFK3G",
    "name": "DEWALT Screwdriver Bit Set, 40 Pcs. Impact Ready, FlexTorq Impact Driver Bit Set with Storage Case (DWA2T40IR)",
    "brand": "DEWALT",
@@ -44,7 +84,7 @@
    "rating": 4.8,
    "reviews_count": 48139,
    "score": 95,
-   "award": "Best Overall",
+   "award": "Best Budget",
    "best_for": "Anyone with a new impact driver who wants one set that covers everyday screws.",
    "bought_last_month": "10K+/mo",
    "verdict": "The most-reviewed impact bit set on Amazon and the safe default: 25 one-inch bits, 9 longer 2-1/4 inch bits, two nut drivers and a magnetic holder with a screw lock sleeve, all impact rated with DEWALT's FlexTorq zone.",
@@ -75,46 +115,6 @@
    "page_url": "https://toolboxtop10.com/impact-driver-bit-sets.html#B00GMXFK3G"
   },
   {
-   "rank": 2,
-   "asin": "B00VQCBTXS",
-   "name": "DEWALT Screwdriver Bit Set, 100 Pc Impact Driver Bit Set with Drill Bits, Magnetic Holder and Nut Drivers, FlexTorq Impact Ready, ToughCase Included",
-   "brand": "DEWALT",
-   "model": "DWA2FTS100",
-   "price": 69.35,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 9291,
-   "score": 92,
-   "award": null,
-   "best_for": "Tradespeople who want drill and drive bits in a single case.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "Three FlexTorq bit sets plus 14 drill bits in one ToughCase: 35 Phillips, 17 square, 15 Torx and 14 slotted bits, with nut drivers and a magnetic holder. The one-box answer for a contractor's truck.",
-   "pros": [
-    "4.7 stars on 9,291 reviews",
-    "Covers Phillips, square, Torx and slotted plus drill bits",
-    "Connects to the DEWALT ToughSystem cases"
-   ],
-   "cons": [
-    "$69.35 is more than three of the 40-piece sets",
-    "3.17 lb case is bulky for a tool bag"
-   ],
-   "specs": {
-    "pieces": "100",
-    "material": null,
-    "lengths": null,
-    "includes": "14 drill bits, nut drivers, magnetic holder, ToughCase"
-   },
-   "features": {
-    "torsion_zone": true,
-    "magnetic_holder": true,
-    "nut_drivers": true,
-    "drill_bits": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81MPaVjEHjL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00VQCBTXS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/impact-driver-bit-sets.html#B00VQCBTXS"
-  },
-  {
    "rank": 3,
    "asin": "B00G9CL83Q",
    "name": "DEWALT Screwdriver Bit Set, Impact Driver Bit Set, FlexTorq, 35-Piece (DWA2T35IR)",
@@ -124,7 +124,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 4794,
-   "score": 88,
+   "score": 95,
    "award": null,
    "best_for": "Driving lag bolts and hex-head screws as often as wood screws.",
    "bought_last_month": "1K+/mo",
@@ -164,7 +164,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 4676,
-   "score": 88,
+   "score": 95,
    "award": null,
    "best_for": "Heavy daily driving where bit life matters more than piece count.",
    "bought_last_month": "500+/mo",
@@ -204,7 +204,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1636,
-   "score": 82,
+   "score": 92,
    "award": null,
    "best_for": "Reaching recessed screws without buying long bits separately.",
    "bought_last_month": "600+/mo",
@@ -236,46 +236,6 @@
   },
   {
    "rank": 6,
-   "asin": "B07V91S5XC",
-   "name": "Amazon Basics 42-Piece Impact Screwdriver Bit Set with Phillips, Slotted and Torx Bits, Portable Storage Case",
-   "brand": "Amazon Basics",
-   "model": "DS-AMZ023",
-   "price": 17.74,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 6284,
-   "score": 75,
-   "award": "Best Budget",
-   "best_for": "A first impact bit set on a tight budget.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A cheap, well-reviewed S2 steel set: 32 short and 8 long bits in Phillips, square, slotted and Torx, a magnetic holder and a 3/8 inch socket adapter. The listing says impact resistant but names no torsion zone.",
-   "pros": [
-    "4.6 stars on 6,284 reviews",
-    "Cheapest set on this list at $17.74",
-    "Ten PH2 bits, the size that wears out first"
-   ],
-   "cons": [
-    "No named torsion zone",
-    "No nut drivers"
-   ],
-   "specs": {
-    "pieces": "42",
-    "material": "S2 steel",
-    "lengths": "25 mm, 50 mm",
-    "includes": "Magnetic bit holder, 3/8 in socket adapter"
-   },
-   "features": {
-    "torsion_zone": false,
-    "magnetic_holder": true,
-    "nut_drivers": false,
-    "drill_bits": false
-   },
-   "image": "https://m.media-amazon.com/images/I/813BfuCZ5GL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07V91S5XC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/impact-driver-bit-sets.html#B07V91S5XC"
-  },
-  {
-   "rank": 7,
    "asin": "B0CQWV8YZK",
    "name": "CRAFTSMAN 140 Pc Impact Driver Bit Set, Steel, Black Oxide Coated Impact Drill Bit Set, Precision Machined Tips (CMAF140SET)",
    "brand": "CRAFTSMAN",
@@ -284,7 +244,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 174,
-   "score": 70,
+   "score": 88,
    "award": null,
    "best_for": "A homeowner who wants drill and drive bits in one case for under $40.",
    "bought_last_month": "800+/mo",
@@ -315,7 +275,7 @@
    "page_url": "https://toolboxtop10.com/impact-driver-bit-sets.html#B0CQWV8YZK"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "asin": "B0BZTFC29H",
    "name": "Wiha 76885 50 Piece MaxxTor Impact Bit Set",
    "brand": "Wiha",
@@ -324,7 +284,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 362,
-   "score": 69,
+   "score": 84,
    "award": null,
    "best_for": "Someone who already owns a holder and wants the toughest bits.",
    "bought_last_month": "100+/mo",
@@ -355,6 +315,46 @@
    "page_url": "https://toolboxtop10.com/impact-driver-bit-sets.html#B0BZTFC29H"
   },
   {
+   "rank": 8,
+   "asin": "B07V91S5XC",
+   "name": "Amazon Basics 42-Piece Impact Screwdriver Bit Set with Phillips, Slotted and Torx Bits, Portable Storage Case",
+   "brand": "Amazon Basics",
+   "model": "DS-AMZ023",
+   "price": 17.74,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 6284,
+   "score": 81,
+   "award": null,
+   "best_for": "A first impact bit set on a tight budget.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A cheap, well-reviewed S2 steel set: 32 short and 8 long bits in Phillips, square, slotted and Torx, a magnetic holder and a 3/8 inch socket adapter. The listing says impact resistant but names no torsion zone.",
+   "pros": [
+    "4.6 stars on 6,284 reviews",
+    "Cheapest set on this list at $17.74",
+    "Ten PH2 bits, the size that wears out first"
+   ],
+   "cons": [
+    "No named torsion zone",
+    "No nut drivers"
+   ],
+   "specs": {
+    "pieces": "42",
+    "material": "S2 steel",
+    "lengths": "25 mm, 50 mm",
+    "includes": "Magnetic bit holder, 3/8 in socket adapter"
+   },
+   "features": {
+    "torsion_zone": false,
+    "magnetic_holder": true,
+    "nut_drivers": false,
+    "drill_bits": false
+   },
+   "image": "https://m.media-amazon.com/images/I/813BfuCZ5GL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07V91S5XC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/impact-driver-bit-sets.html#B07V91S5XC"
+  },
+  {
    "rank": 9,
    "asin": "B08BJD6FR9",
    "name": "Milwaukee Shockwave Impact Driver Bit Set (100 Piece) 48-32-4083",
@@ -364,7 +364,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 439,
-   "score": 66,
+   "score": 81,
    "award": null,
    "best_for": "Milwaukee users who want the brand's impact line in one big case.",
    "bought_last_month": "800+/mo",
@@ -404,7 +404,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 76,
-   "score": 65,
+   "score": 79,
    "award": null,
    "best_for": "Furniture, appliance and bike repairs that call for odd bit types.",
    "bought_last_month": "600+/mo",

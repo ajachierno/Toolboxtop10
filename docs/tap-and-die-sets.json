@@ -22,7 +22,7 @@
    "pitch_gauge": 0.25,
    "wide_range": 0.2
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 45,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2291,
-   "score": 85,
+   "score": 88,
    "award": "Best Overall",
    "best_for": "Mechanics who cut and chase threads often.",
    "bought_last_month": "300+/mo",
@@ -84,7 +84,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2225,
-   "score": 82,
+   "score": 86,
    "award": null,
    "best_for": "Home mechanics who want everything in one box.",
    "bought_last_month": "1K+/mo",
@@ -116,6 +116,247 @@
   },
   {
    "rank": 3,
+   "asin": "B00NY5K9P4",
+   "name": "Hi-Spec 39-Piece SAE and Metric Tap and Die Set, M3-M12 and #4-1/2 in",
+   "brand": "Hi-Spec",
+   "model": "39-piece",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1133,
+   "score": 86,
+   "award": null,
+   "best_for": "Occasional thread repair on a budget.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A compact SAE and metric set with plug and taper taps and a 16-blade pitch gauge, for about $30.",
+   "pros": [
+    "About $30",
+    "Plug and taper taps",
+    "Pitch gauge"
+   ],
+   "cons": [
+    "Smaller set"
+   ],
+   "specs": {
+    "pieces": "39 (34 taps and dies)",
+    "sizes": "M3 to M12, #4 to 1/2 in",
+    "steel": "GCr15",
+    "handles": null,
+    "extras": "16-blade pitch gauge, case"
+   },
+   "features": {
+    "metric_sae": true,
+    "ratcheting": false,
+    "pitch_gauge": true,
+    "wide_range": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81ypvLKTu7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00NY5K9P4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B00NY5K9P4"
+  },
+  {
+   "rank": 4,
+   "asin": "B098KFYB47",
+   "name": "Anfrere 80-Piece Tap and Die Set, SAE and Metric M3-M12",
+   "brand": "Anfrere",
+   "model": "80-piece",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1065,
+   "score": 86,
+   "award": null,
+   "best_for": "Mechanics who want spare handles.",
+   "bought_last_month": "300+/mo",
+   "verdict": "An 80-piece SAE and metric set with separate SAE and metric pitch gauges and two of each wrench.",
+   "pros": [
+    "Two pitch gauges",
+    "Two of each wrench",
+    "1,065 reviews"
+   ],
+   "cons": [
+    "4.4 stars"
+   ],
+   "specs": {
+    "pieces": "80",
+    "sizes": "M3 to M12 and SAE",
+    "steel": "GCr15 bearing steel, 60 HRC",
+    "handles": "2 die wrenches, 2 tap wrenches, 2 T-handles",
+    "extras": "SAE and metric pitch gauges, 2 screwdrivers"
+   },
+   "features": {
+    "metric_sae": true,
+    "ratcheting": false,
+    "pitch_gauge": true,
+    "wide_range": false
+   },
+   "image": "https://m.media-amazon.com/images/I/816OOgpgFjL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B098KFYB47?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B098KFYB47"
+  },
+  {
+   "rank": 5,
+   "asin": "B0C338LLFC",
+   "name": "toolant 127-Piece Metric and SAE Ratcheting Tap and Die Set with Drill Bits",
+   "brand": "toolant",
+   "model": "127-piece",
+   "price": 179.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 809,
+   "score": 86,
+   "award": "Money No Object",
+   "best_for": "Shops that drill and tap new holes regularly.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A big ratcheting set that includes the correct drill bit for each tap, in a drawer case, so you don't hunt for tap drill sizes.",
+   "pros": [
+    "Tap drill bits included",
+    "Ratcheting handles",
+    "Drawer case"
+   ],
+   "cons": [
+    "Most expensive here",
+    "Sizes not listed"
+   ],
+   "specs": {
+    "pieces": "127",
+    "sizes": "SAE and metric",
+    "steel": null,
+    "handles": "Reversible ratcheting T-handles",
+    "extras": "Matching tap drill bits, drawer case"
+   },
+   "features": {
+    "metric_sae": true,
+    "ratcheting": true,
+    "pitch_gauge": false,
+    "wide_range": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71B50Cld-wL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C338LLFC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B0C338LLFC"
+  },
+  {
+   "rank": 6,
+   "asin": "B0BDM6N7VZ",
+   "name": "Wakuka 110-Piece SAE and Metric Tap and Die Set with Storage Case",
+   "brand": "Wakuka",
+   "model": "110-piece",
+   "price": 119.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 309,
+   "score": 86,
+   "award": null,
+   "best_for": "Mechanics who need both starting and bottoming threads.",
+   "bought_last_month": "200+/mo",
+   "verdict": "Taper and plug taps in every size plus dies, up to 3/4 inch and M18, more range than most sets here.",
+   "pros": [
+    "Taper and plug taps",
+    "Up to 3/4 in",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 309 reviews"
+   ],
+   "specs": {
+    "pieces": "110 (35 taper taps, 35 plug taps, 35 dies)",
+    "sizes": "#4 to 3/4 in, metric to M18, plus NPT",
+    "steel": "Alloy steel, 60 HRC",
+    "handles": "2 tap holders, T-bar, 2 die holders",
+    "extras": "Storage case"
+   },
+   "features": {
+    "metric_sae": true,
+    "ratcheting": false,
+    "pitch_gauge": false,
+    "wide_range": true
+   },
+   "image": "https://m.media-amazon.com/images/I/513AXaJCaxL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BDM6N7VZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B0BDM6N7VZ"
+  },
+  {
+   "rank": 7,
+   "asin": "B082S89P7S",
+   "name": "OMT 66-Piece SAE and Metric Tap and Die Set with Screw Extractors",
+   "brand": "OMT",
+   "model": "66-piece",
+   "price": 39.98,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 504,
+   "score": 85,
+   "award": null,
+   "best_for": "Mechanics dealing with broken studs as well as damaged threads.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A tap and die set that also includes five screw extractors and a center punch for removing broken bolts.",
+   "pros": [
+    "Screw extractors included",
+    "Center punch",
+    "Pitch gauge"
+   ],
+   "cons": [
+    "4.3 stars"
+   ],
+   "specs": {
+    "pieces": "66 (54 taps and dies)",
+    "sizes": "SAE and metric",
+    "steel": "Heat-treated GCr15",
+    "handles": "3 tap wrenches, die wrench",
+    "extras": "5 screw extractors, center punch, pitch gauge"
+   },
+   "features": {
+    "metric_sae": true,
+    "ratcheting": false,
+    "pitch_gauge": true,
+    "wide_range": false
+   },
+   "image": "https://m.media-amazon.com/images/I/810CJpADofL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B082S89P7S?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B082S89P7S"
+  },
+  {
+   "rank": 8,
+   "asin": "B0CJFPFMGJ",
+   "name": "VEVOR 116-Piece Metric and SAE Tap and Die Set, Bearing Steel",
+   "brand": "VEVOR",
+   "model": "116-piece",
+   "price": 81.79,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 542,
+   "score": 83,
+   "award": null,
+   "best_for": "Budget shops that want lots of sizes.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A large 102-tap-and-die VEVOR set with tap wrenches up to M20 and a case.",
+   "pros": [
+    "102 taps and dies",
+    "Case included"
+   ],
+   "cons": [
+    "4.1 stars",
+    "56 HRC, softer than most here"
+   ],
+   "specs": {
+    "pieces": "116 (51 taps, 51 dies)",
+    "sizes": "Metric and SAE, wrenches to M20",
+    "steel": "HRC56 bearing steel",
+    "handles": "T-type tap wrench, 2 tap wrenches, 2 die wrenches",
+    "extras": "Pitch gauge, screwdriver, case"
+   },
+   "features": {
+    "metric_sae": true,
+    "ratcheting": false,
+    "pitch_gauge": true,
+    "wide_range": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81MTOWGHMAL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CJFPFMGJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B0CJFPFMGJ"
+  },
+  {
+   "rank": 9,
    "asin": "B07TYXR42R",
    "name": "EFFICERE 60-Piece Master Tap and Die Set, SAE #4 to 1/2 in and Metric M3 to M12",
    "brand": "EFFICERE",
@@ -124,7 +365,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 4090,
-   "score": 81,
+   "score": 82,
    "award": "Best Budget",
    "best_for": "DIYers and mechanics who want both systems for a fair price.",
    "bought_last_month": "900+/mo",
@@ -155,7 +396,7 @@
    "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B07TYXR42R"
   },
   {
-   "rank": 4,
+   "rank": 10,
    "asin": "B073YC3S8F",
    "name": "EFFICERE 40-Piece SAE Tap and Die Set, #4 to 1/2 in, UNC, UNF and NPT",
    "brand": "EFFICERE",
@@ -193,247 +434,6 @@
    "image": "https://m.media-amazon.com/images/I/71Fru2uJvkL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B073YC3S8F?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B073YC3S8F"
-  },
-  {
-   "rank": 5,
-   "asin": "B00NY5K9P4",
-   "name": "Hi-Spec 39-Piece SAE and Metric Tap and Die Set, M3-M12 and #4-1/2 in",
-   "brand": "Hi-Spec",
-   "model": "39-piece",
-   "price": 29.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1133,
-   "score": 80,
-   "award": null,
-   "best_for": "Occasional thread repair on a budget.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A compact SAE and metric set with plug and taper taps and a 16-blade pitch gauge, for about $30.",
-   "pros": [
-    "About $30",
-    "Plug and taper taps",
-    "Pitch gauge"
-   ],
-   "cons": [
-    "Smaller set"
-   ],
-   "specs": {
-    "pieces": "39 (34 taps and dies)",
-    "sizes": "M3 to M12, #4 to 1/2 in",
-    "steel": "GCr15",
-    "handles": null,
-    "extras": "16-blade pitch gauge, case"
-   },
-   "features": {
-    "metric_sae": true,
-    "ratcheting": false,
-    "pitch_gauge": true,
-    "wide_range": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81ypvLKTu7L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00NY5K9P4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B00NY5K9P4"
-  },
-  {
-   "rank": 6,
-   "asin": "B098KFYB47",
-   "name": "Anfrere 80-Piece Tap and Die Set, SAE and Metric M3-M12",
-   "brand": "Anfrere",
-   "model": "80-piece",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1065,
-   "score": 79,
-   "award": null,
-   "best_for": "Mechanics who want spare handles.",
-   "bought_last_month": "300+/mo",
-   "verdict": "An 80-piece SAE and metric set with separate SAE and metric pitch gauges and two of each wrench.",
-   "pros": [
-    "Two pitch gauges",
-    "Two of each wrench",
-    "1,065 reviews"
-   ],
-   "cons": [
-    "4.4 stars"
-   ],
-   "specs": {
-    "pieces": "80",
-    "sizes": "M3 to M12 and SAE",
-    "steel": "GCr15 bearing steel, 60 HRC",
-    "handles": "2 die wrenches, 2 tap wrenches, 2 T-handles",
-    "extras": "SAE and metric pitch gauges, 2 screwdrivers"
-   },
-   "features": {
-    "metric_sae": true,
-    "ratcheting": false,
-    "pitch_gauge": true,
-    "wide_range": false
-   },
-   "image": "https://m.media-amazon.com/images/I/816OOgpgFjL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B098KFYB47?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B098KFYB47"
-  },
-  {
-   "rank": 7,
-   "asin": "B0C338LLFC",
-   "name": "toolant 127-Piece Metric and SAE Ratcheting Tap and Die Set with Drill Bits",
-   "brand": "toolant",
-   "model": "127-piece",
-   "price": 179.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 809,
-   "score": 79,
-   "award": "Money No Object",
-   "best_for": "Shops that drill and tap new holes regularly.",
-   "bought_last_month": "500+/mo",
-   "verdict": "A big ratcheting set that includes the correct drill bit for each tap, in a drawer case, so you don't hunt for tap drill sizes.",
-   "pros": [
-    "Tap drill bits included",
-    "Ratcheting handles",
-    "Drawer case"
-   ],
-   "cons": [
-    "Most expensive here",
-    "Sizes not listed"
-   ],
-   "specs": {
-    "pieces": "127",
-    "sizes": "SAE and metric",
-    "steel": null,
-    "handles": "Reversible ratcheting T-handles",
-    "extras": "Matching tap drill bits, drawer case"
-   },
-   "features": {
-    "metric_sae": true,
-    "ratcheting": true,
-    "pitch_gauge": false,
-    "wide_range": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71B50Cld-wL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C338LLFC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B0C338LLFC"
-  },
-  {
-   "rank": 8,
-   "asin": "B082S89P7S",
-   "name": "OMT 66-Piece SAE and Metric Tap and Die Set with Screw Extractors",
-   "brand": "OMT",
-   "model": "66-piece",
-   "price": 39.98,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 504,
-   "score": 75,
-   "award": null,
-   "best_for": "Mechanics dealing with broken studs as well as damaged threads.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A tap and die set that also includes five screw extractors and a center punch for removing broken bolts.",
-   "pros": [
-    "Screw extractors included",
-    "Center punch",
-    "Pitch gauge"
-   ],
-   "cons": [
-    "4.3 stars"
-   ],
-   "specs": {
-    "pieces": "66 (54 taps and dies)",
-    "sizes": "SAE and metric",
-    "steel": "Heat-treated GCr15",
-    "handles": "3 tap wrenches, die wrench",
-    "extras": "5 screw extractors, center punch, pitch gauge"
-   },
-   "features": {
-    "metric_sae": true,
-    "ratcheting": false,
-    "pitch_gauge": true,
-    "wide_range": false
-   },
-   "image": "https://m.media-amazon.com/images/I/810CJpADofL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B082S89P7S?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B082S89P7S"
-  },
-  {
-   "rank": 9,
-   "asin": "B0BDM6N7VZ",
-   "name": "Wakuka 110-Piece SAE and Metric Tap and Die Set with Storage Case",
-   "brand": "Wakuka",
-   "model": "110-piece",
-   "price": 119.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 309,
-   "score": 75,
-   "award": null,
-   "best_for": "Mechanics who need both starting and bottoming threads.",
-   "bought_last_month": "200+/mo",
-   "verdict": "Taper and plug taps in every size plus dies, up to 3/4 inch and M18, more range than most sets here.",
-   "pros": [
-    "Taper and plug taps",
-    "Up to 3/4 in",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 309 reviews"
-   ],
-   "specs": {
-    "pieces": "110 (35 taper taps, 35 plug taps, 35 dies)",
-    "sizes": "#4 to 3/4 in, metric to M18, plus NPT",
-    "steel": "Alloy steel, 60 HRC",
-    "handles": "2 tap holders, T-bar, 2 die holders",
-    "extras": "Storage case"
-   },
-   "features": {
-    "metric_sae": true,
-    "ratcheting": false,
-    "pitch_gauge": false,
-    "wide_range": true
-   },
-   "image": "https://m.media-amazon.com/images/I/513AXaJCaxL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BDM6N7VZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B0BDM6N7VZ"
-  },
-  {
-   "rank": 10,
-   "asin": "B0CJFPFMGJ",
-   "name": "VEVOR 116-Piece Metric and SAE Tap and Die Set, Bearing Steel",
-   "brand": "VEVOR",
-   "model": "116-piece",
-   "price": 81.79,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 542,
-   "score": 74,
-   "award": null,
-   "best_for": "Budget shops that want lots of sizes.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A large 102-tap-and-die VEVOR set with tap wrenches up to M20 and a case.",
-   "pros": [
-    "102 taps and dies",
-    "Case included"
-   ],
-   "cons": [
-    "4.1 stars",
-    "56 HRC, softer than most here"
-   ],
-   "specs": {
-    "pieces": "116 (51 taps, 51 dies)",
-    "sizes": "Metric and SAE, wrenches to M20",
-    "steel": "HRC56 bearing steel",
-    "handles": "T-type tap wrench, 2 tap wrenches, 2 die wrenches",
-    "extras": "Pitch gauge, screwdriver, case"
-   },
-   "features": {
-    "metric_sae": true,
-    "ratcheting": false,
-    "pitch_gauge": true,
-    "wide_range": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81MTOWGHMAL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CJFPFMGJ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tap-and-die-sets.html#B0CJFPFMGJ"
   }
  ],
  "avoid": [

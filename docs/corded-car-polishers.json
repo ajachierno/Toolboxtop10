@@ -22,7 +22,7 @@
    "warranty_2yr": 0.2,
    "soft_start": 0.2
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 35,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,88 +35,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B004W1WGIC",
-   "name": "DEWALT Buffer Polisher, 7-in-9-in, 12 amp, Variable Speed Dial 0-3,500 RPM, Soft Start (DWP849X)",
-   "brand": "DEWALT",
-   "model": "DWP849X",
-   "price": 249.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 6928,
-   "score": 90,
-   "award": null,
-   "best_for": "Experienced detailers doing heavy paint correction and boats.",
-   "bought_last_month": "400+/mo",
-   "verdict": "The pro's rotary buffer: a 12A motor on ball bearings and precision-cut steel gears, a speed dial plus variable trigger, soft start, a wool ingestion shield and a 3-year warranty.",
-   "pros": [
-    "6,928 reviews at 4.7 stars",
-    "Ball bearings, steel gears, soft start",
-    "3-year warranty"
-   ],
-   "cons": [
-    "Rotary takes practice",
-    "No pads in the box"
-   ],
-   "specs": {
-    "type": "Rotary",
-    "pad": "7 to 9 in",
-    "speed": "0-3,500 rpm",
-    "power": "12 A",
-    "in_box": "Polisher"
-   },
-   "features": {
-    "dual_action": false,
-    "variable": true,
-    "warranty_2yr": true,
-    "soft_start": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71LzxJmhL5L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B004W1WGIC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B004W1WGIC"
-  },
-  {
-   "rank": 2,
-   "asin": "B01BKT63XM",
-   "name": "Chemical Guys TORQX Random Orbital Polisher Kit, 9-Piece (BUF503X)",
-   "brand": "Chemical Guys",
-   "model": "BUF503X",
-   "price": 214.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 6421,
-   "score": 87,
-   "award": "Money No Object",
-   "best_for": "Car enthusiasts who want a full kit from a detailing brand.",
-   "bought_last_month": "500+/mo",
-   "verdict": "A complete detailing kit: the TORQX 8 mm dual-action polisher plus the pads, polishes and compounds for compounding, polishing and finishing.",
-   "pros": [
-    "Complete 9-piece kit",
-    "8 mm dual action",
-    "6,421 reviews"
-   ],
-   "cons": [
-    "$214.99",
-    "30-day warranty through Amazon, per the listing"
-   ],
-   "specs": {
-    "type": "Dual action, 8 mm throw",
-    "pad": null,
-    "speed": null,
-    "power": "700 W",
-    "in_box": "Polisher, pads, polishes, compounds"
-   },
-   "features": {
-    "dual_action": true,
-    "variable": true,
-    "warranty_2yr": false,
-    "soft_start": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81A44gY0cwL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01BKT63XM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B01BKT63XM"
-  },
-  {
-   "rank": 3,
    "asin": "B089N83CWF",
    "name": "SPTA 5-Inch 125mm Dual Action Random Orbital Car Polisher, Detailing Kit (DAPSET-US)",
    "brand": "SPTA",
@@ -125,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1902,
-   "score": 87,
+   "score": 93,
    "award": "Best Overall",
    "best_for": "A first paint-correction setup in one box.",
    "bought_last_month": "900+/mo",
@@ -157,7 +75,171 @@
    "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B089N83CWF"
   },
   {
+   "rank": 2,
+   "asin": "B004W1WGIC",
+   "name": "DEWALT Buffer Polisher, 7-in-9-in, 12 amp, Variable Speed Dial 0-3,500 RPM, Soft Start (DWP849X)",
+   "brand": "DEWALT",
+   "model": "DWP849X",
+   "price": 249.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 6928,
+   "score": 91,
+   "award": null,
+   "best_for": "Experienced detailers doing heavy paint correction and boats.",
+   "bought_last_month": "400+/mo",
+   "verdict": "The pro's rotary buffer: a 12A motor on ball bearings and precision-cut steel gears, a speed dial plus variable trigger, soft start, a wool ingestion shield and a 3-year warranty.",
+   "pros": [
+    "6,928 reviews at 4.7 stars",
+    "Ball bearings, steel gears, soft start",
+    "3-year warranty"
+   ],
+   "cons": [
+    "Rotary takes practice",
+    "No pads in the box"
+   ],
+   "specs": {
+    "type": "Rotary",
+    "pad": "7 to 9 in",
+    "speed": "0-3,500 rpm",
+    "power": "12 A",
+    "in_box": "Polisher"
+   },
+   "features": {
+    "dual_action": false,
+    "variable": true,
+    "warranty_2yr": true,
+    "soft_start": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71LzxJmhL5L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B004W1WGIC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B004W1WGIC"
+  },
+  {
+   "rank": 3,
+   "asin": "B01BKT63XM",
+   "name": "Chemical Guys TORQX Random Orbital Polisher Kit, 9-Piece (BUF503X)",
+   "brand": "Chemical Guys",
+   "model": "BUF503X",
+   "price": 214.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 6421,
+   "score": 88,
+   "award": "Money No Object",
+   "best_for": "Car enthusiasts who want a full kit from a detailing brand.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A complete detailing kit: the TORQX 8 mm dual-action polisher plus the pads, polishes and compounds for compounding, polishing and finishing.",
+   "pros": [
+    "Complete 9-piece kit",
+    "8 mm dual action",
+    "6,421 reviews"
+   ],
+   "cons": [
+    "$214.99",
+    "30-day warranty through Amazon, per the listing"
+   ],
+   "specs": {
+    "type": "Dual action, 8 mm throw",
+    "pad": null,
+    "speed": null,
+    "power": "700 W",
+    "in_box": "Polisher, pads, polishes, compounds"
+   },
+   "features": {
+    "dual_action": true,
+    "variable": true,
+    "warranty_2yr": false,
+    "soft_start": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81A44gY0cwL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01BKT63XM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B01BKT63XM"
+  },
+  {
    "rank": 4,
+   "asin": "B0BM5VMBHC",
+   "name": "AOBEN Car Buffer Polisher, 6 inch Dual Action, 6 Variable Speed 1000-4500rpm (At-35001)",
+   "brand": "AOBEN",
+   "model": "At-35001",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1767,
+   "score": 88,
+   "award": null,
+   "best_for": "Swirl removal and waxing on a budget.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The best-selling polisher here: a 6-inch dual-action machine with six speeds, a detachable side or top handle and four pads, for about $50.",
+   "pros": [
+    "2,000+ sold last month",
+    "Dual action, 6 speeds",
+    "4 pads included"
+   ],
+   "cons": [
+    "12-month warranty",
+    "No soft start listed"
+   ],
+   "specs": {
+    "type": "Dual action",
+    "pad": "6 in",
+    "speed": "6 speeds, 1,000-4,500 rpm",
+    "power": "700 W",
+    "in_box": "4 pads, wrench"
+   },
+   "features": {
+    "dual_action": true,
+    "variable": true,
+    "warranty_2yr": false,
+    "soft_start": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71KuMTrF4ML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BM5VMBHC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B0BM5VMBHC"
+  },
+  {
+   "rank": 5,
+   "asin": "B0B5MMPQWX",
+   "name": "LDHTHOPI Dual Action Polisher, 980W 5/6 Inch, 9mm Random Orbital, 2800-5800 RPM",
+   "brand": "LDHTHOPI",
+   "model": "980W DA",
+   "price": 59.84,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 481,
+   "score": 86,
+   "award": null,
+   "best_for": "A budget DA with lots of pads.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A 9 mm-throw dual-action polisher with six speeds, D and side handles, and eight pads for 5- and 6-inch backing plates.",
+   "pros": [
+    "9 mm orbit",
+    "8 pads",
+    "Two handle options"
+   ],
+   "cons": [
+    "4.3 stars",
+    "No warranty listed"
+   ],
+   "specs": {
+    "type": "Dual action, 9 mm throw",
+    "pad": "5 and 6 in",
+    "speed": "6 speeds, 2,800-5,800 rpm",
+    "power": "980 W",
+    "in_box": "8 pads, D-handle, side handle"
+   },
+   "features": {
+    "dual_action": true,
+    "variable": true,
+    "warranty_2yr": false,
+    "soft_start": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81gfgzXD86L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B5MMPQWX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B0B5MMPQWX"
+  },
+  {
+   "rank": 6,
    "asin": "B000077CPT",
    "name": "BLACK+DECKER 6\" Buffer Polisher, Orbital Car Polisher with Wool and Foam Bonnets (WP900)",
    "brand": "BLACK+DECKER",
@@ -198,48 +280,48 @@
    "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B000077CPT"
   },
   {
-   "rank": 5,
-   "asin": "B0BM5VMBHC",
-   "name": "AOBEN Car Buffer Polisher, 6 inch Dual Action, 6 Variable Speed 1000-4500rpm (At-35001)",
-   "brand": "AOBEN",
-   "model": "At-35001",
+   "rank": 7,
+   "asin": "B0DKHDHNF5",
+   "name": "AVID POWER Car Rotary Buffer Polisher Waxer 1200W 6 Speeds, 4 x 6\" Polish Pads",
+   "brand": "AVID POWER",
+   "model": "Rotary 1200W",
    "price": 49.99,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1767,
+   "rating": 4.4,
+   "reviews_count": 895,
    "score": 81,
    "award": null,
-   "best_for": "Swirl removal and waxing on a budget.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The best-selling polisher here: a 6-inch dual-action machine with six speeds, a detachable side or top handle and four pads, for about $50.",
+   "best_for": "Learning rotary polishing on a budget, and furniture or boats.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A budget rotary with a 10A copper motor, six speeds, three grip positions and pads plus sanding papers.",
    "pros": [
-    "2,000+ sold last month",
-    "Dual action, 6 speeds",
-    "4 pads included"
+    "10A rotary, 6 speeds",
+    "3 grip options",
+    "Accessories included"
    ],
    "cons": [
-    "12-month warranty",
-    "No soft start listed"
+    "Rotary can burn paint",
+    "5.2 lbs"
    ],
    "specs": {
-    "type": "Dual action",
+    "type": "Rotary",
     "pad": "6 in",
-    "speed": "6 speeds, 1,000-4,500 rpm",
-    "power": "700 W",
-    "in_box": "4 pads, wrench"
+    "speed": "6 speeds, to 3,500 rpm",
+    "power": "10 A, 1,200 W",
+    "in_box": "10+ pads and sanding papers"
    },
    "features": {
-    "dual_action": true,
+    "dual_action": false,
     "variable": true,
     "warranty_2yr": false,
     "soft_start": false
    },
-   "image": "https://m.media-amazon.com/images/I/71KuMTrF4ML._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BM5VMBHC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B0BM5VMBHC"
+   "image": "https://m.media-amazon.com/images/I/61UnxHonIiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DKHDHNF5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B0DKHDHNF5"
   },
   {
-   "rank": 6,
+   "rank": 8,
    "asin": "B0B4V9K7WV",
    "name": "LDHTHOPI Buffer Polisher, 1600W 7 Inch/6 Inch Rotary, 7 Variable Speed 1000-3500 RPM",
    "brand": "LDHTHOPI",
@@ -248,7 +330,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 3276,
-   "score": 75,
+   "score": 79,
    "award": null,
    "best_for": "Boats, furniture and heavy oxidation.",
    "bought_last_month": "1K+/mo",
@@ -280,88 +362,6 @@
    "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B0B4V9K7WV"
   },
   {
-   "rank": 7,
-   "asin": "B0000AXOHT",
-   "name": "WEN 6010 6-Inch Waxer/Polisher",
-   "brand": "WEN",
-   "model": "6010",
-   "price": 26.5,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 7534,
-   "score": 74,
-   "award": "Best Budget",
-   "best_for": "Applying and buffing off wax.",
-   "bought_last_month": "600+/mo",
-   "verdict": "The cheapest way to wax a car: a light one- or two-hand waxer with applicator and terry bonnets.",
-   "pros": [
-    "$26.50",
-    "7,534 reviews",
-    "Light, palm-size"
-   ],
-   "cons": [
-    "Single speed",
-    "Won't remove scratches"
-   ],
-   "specs": {
-    "type": "Orbital waxer",
-    "pad": "6 in",
-    "speed": "3,500 rpm",
-    "power": "0.5 A",
-    "in_box": "Applicator and terry bonnets"
-   },
-   "features": {
-    "dual_action": false,
-    "variable": false,
-    "warranty_2yr": false,
-    "soft_start": false
-   },
-   "image": "https://m.media-amazon.com/images/I/713JAFgTCWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0000AXOHT?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B0000AXOHT"
-  },
-  {
-   "rank": 8,
-   "asin": "B0B5MMPQWX",
-   "name": "LDHTHOPI Dual Action Polisher, 980W 5/6 Inch, 9mm Random Orbital, 2800-5800 RPM",
-   "brand": "LDHTHOPI",
-   "model": "980W DA",
-   "price": 59.84,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 481,
-   "score": 74,
-   "award": null,
-   "best_for": "A budget DA with lots of pads.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A 9 mm-throw dual-action polisher with six speeds, D and side handles, and eight pads for 5- and 6-inch backing plates.",
-   "pros": [
-    "9 mm orbit",
-    "8 pads",
-    "Two handle options"
-   ],
-   "cons": [
-    "4.3 stars",
-    "No warranty listed"
-   ],
-   "specs": {
-    "type": "Dual action, 9 mm throw",
-    "pad": "5 and 6 in",
-    "speed": "6 speeds, 2,800-5,800 rpm",
-    "power": "980 W",
-    "in_box": "8 pads, D-handle, side handle"
-   },
-   "features": {
-    "dual_action": true,
-    "variable": true,
-    "warranty_2yr": false,
-    "soft_start": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81gfgzXD86L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B5MMPQWX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B0B5MMPQWX"
-  },
-  {
    "rank": 9,
    "asin": "B0092K1F2Q",
    "name": "WEN 10PMC 10-Inch Waxer/Polisher in Case with Extra Bonnets",
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3437,
-   "score": 71,
+   "score": 76,
    "award": null,
    "best_for": "Waxing SUVs and trucks fast.",
    "bought_last_month": "600+/mo",
@@ -404,44 +404,44 @@
   },
   {
    "rank": 10,
-   "asin": "B0DKHDHNF5",
-   "name": "AVID POWER Car Rotary Buffer Polisher Waxer 1200W 6 Speeds, 4 x 6\" Polish Pads",
-   "brand": "AVID POWER",
-   "model": "Rotary 1200W",
-   "price": 49.99,
+   "asin": "B0000AXOHT",
+   "name": "WEN 6010 6-Inch Waxer/Polisher",
+   "brand": "WEN",
+   "model": "6010",
+   "price": 26.5,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 895,
-   "score": 71,
-   "award": null,
-   "best_for": "Learning rotary polishing on a budget, and furniture or boats.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A budget rotary with a 10A copper motor, six speeds, three grip positions and pads plus sanding papers.",
+   "reviews_count": 7534,
+   "score": 75,
+   "award": "Best Budget",
+   "best_for": "Applying and buffing off wax.",
+   "bought_last_month": "600+/mo",
+   "verdict": "The cheapest way to wax a car: a light one- or two-hand waxer with applicator and terry bonnets.",
    "pros": [
-    "10A rotary, 6 speeds",
-    "3 grip options",
-    "Accessories included"
+    "$26.50",
+    "7,534 reviews",
+    "Light, palm-size"
    ],
    "cons": [
-    "Rotary can burn paint",
-    "5.2 lbs"
+    "Single speed",
+    "Won't remove scratches"
    ],
    "specs": {
-    "type": "Rotary",
+    "type": "Orbital waxer",
     "pad": "6 in",
-    "speed": "6 speeds, to 3,500 rpm",
-    "power": "10 A, 1,200 W",
-    "in_box": "10+ pads and sanding papers"
+    "speed": "3,500 rpm",
+    "power": "0.5 A",
+    "in_box": "Applicator and terry bonnets"
    },
    "features": {
     "dual_action": false,
-    "variable": true,
+    "variable": false,
     "warranty_2yr": false,
     "soft_start": false
    },
-   "image": "https://m.media-amazon.com/images/I/61UnxHonIiL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DKHDHNF5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B0DKHDHNF5"
+   "image": "https://m.media-amazon.com/images/I/713JAFgTCWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0000AXOHT?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-car-polishers.html#B0000AXOHT"
   }
  ],
  "avoid": [

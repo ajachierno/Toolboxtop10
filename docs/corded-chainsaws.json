@@ -22,7 +22,7 @@
    "tool_free_tension": 0.25,
    "auto_oil": 0.25
   },
-  "reviews_ceiling": 9000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 80,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -83,7 +83,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1912,
-   "score": 89,
+   "score": 95,
    "award": null,
    "best_for": "Bigger firewood rounds on a mid-range budget.",
    "bought_last_month": "100+/mo",
@@ -123,7 +123,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1487,
-   "score": 84,
+   "score": 91,
    "award": null,
    "best_for": "Buyers who want a 15 A Oregon and are happy to sharpen or swap chains themselves.",
    "bought_last_month": "100+/mo",
@@ -155,86 +155,6 @@
   },
   {
    "rank": 4,
-   "asin": "B01ENBNVNE",
-   "name": "WEN CP1216 Electric Chainsaw, Corded, 12-Amp, 16-Inch",
-   "brand": "WEN",
-   "model": "CP1216",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 4365,
-   "score": 81,
-   "award": "Best Budget",
-   "best_for": "A first chainsaw for occasional yard cleanup.",
-   "bought_last_month": null,
-   "verdict": "The cheapest saw here with a big review base: 4,300+ ratings for a 12 A, 16-inch saw with tool-free tensioning, auto oiling and a kickback brake.",
-   "pros": [
-    "Under $75",
-    "4,300+ reviews",
-    "Kickback brake and sheath included"
-   ],
-   "cons": [
-    "12 A motor",
-    "2-year warranty"
-   ],
-   "specs": {
-    "bar": "16 in",
-    "motor": "12 A",
-    "weight": "10 lb",
-    "extras": "41 ft/s chain speed, kickback brake, sheath, 2-yr warranty"
-   },
-   "features": {
-    "bar_18": false,
-    "amp_15": false,
-    "tool_free_tension": true,
-    "auto_oil": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61Pek6tafBL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01ENBNVNE?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-chainsaws.html#B01ENBNVNE"
-  },
-  {
-   "rank": 5,
-   "asin": "B07KLG3X6G",
-   "name": "CRAFTSMAN Electric Chainsaw, 16 Inch, 12 Amp Corded Chain Saw (CMECS600)",
-   "brand": "CRAFTSMAN",
-   "model": "CMECS600",
-   "price": 89.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2571,
-   "score": 80,
-   "award": null,
-   "best_for": "Limbs, storm cleanup and small firewood rounds close to an outlet.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The top result in Amazon's corded chainsaw search, with 1K+ sold last month. A 12 A, 16-inch saw with tool-free tensioning, automatic oiling and a 3-year warranty.",
-   "pros": [
-    "1K+ sold last month",
-    "Tool-free tension and auto oiling",
-    "3-year limited warranty"
-   ],
-   "cons": [
-    "12 A motor, not 15 A",
-    "Listed weight of 6.2 lb looks low next to similar saws"
-   ],
-   "specs": {
-    "bar": "16 in",
-    "motor": "12 A",
-    "weight": "6.2 lb (listed)",
-    "extras": "Low-kickback bar and chain, oil window, 3-yr warranty"
-   },
-   "features": {
-    "bar_18": false,
-    "amp_15": false,
-    "tool_free_tension": true,
-    "auto_oil": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61Q0fMphxyL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07KLG3X6G?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-chainsaws.html#B07KLG3X6G"
-  },
-  {
-   "rank": 6,
    "asin": "B0FCZRMWYF",
    "name": "WEN Electric Chainsaw, Corded, 15-Amp, 18-Inch (CP1518)",
    "brand": "WEN",
@@ -243,7 +163,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 131,
-   "score": 76,
+   "score": 91,
    "award": null,
    "best_for": "Firewood cutters who want the most bar and motor for under $80.",
    "bought_last_month": "100+/mo",
@@ -274,7 +194,7 @@
    "page_url": "https://toolboxtop10.com/corded-chainsaws.html#B0FCZRMWYF"
   },
   {
-   "rank": 7,
+   "rank": 5,
    "asin": "B0BQ3TW8ST",
    "name": "SENIX Electric Chainsaw, 18\" Corded, 15 Amp (CSE15-M)",
    "brand": "SENIX",
@@ -283,7 +203,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 109,
-   "score": 76,
+   "score": 89,
    "award": null,
    "best_for": "Tight budgets that still need an 18 in bar.",
    "bought_last_month": "100+/mo",
@@ -314,7 +234,47 @@
    "page_url": "https://toolboxtop10.com/corded-chainsaws.html#B0BQ3TW8ST"
   },
   {
-   "rank": 8,
+   "rank": 6,
+   "asin": "B07KLG3X6G",
+   "name": "CRAFTSMAN Electric Chainsaw, 16 Inch, 12 Amp Corded Chain Saw (CMECS600)",
+   "brand": "CRAFTSMAN",
+   "model": "CMECS600",
+   "price": 89.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2571,
+   "score": 85,
+   "award": null,
+   "best_for": "Limbs, storm cleanup and small firewood rounds close to an outlet.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The top result in Amazon's corded chainsaw search, with 1K+ sold last month. A 12 A, 16-inch saw with tool-free tensioning, automatic oiling and a 3-year warranty.",
+   "pros": [
+    "1K+ sold last month",
+    "Tool-free tension and auto oiling",
+    "3-year limited warranty"
+   ],
+   "cons": [
+    "12 A motor, not 15 A",
+    "Listed weight of 6.2 lb looks low next to similar saws"
+   ],
+   "specs": {
+    "bar": "16 in",
+    "motor": "12 A",
+    "weight": "6.2 lb (listed)",
+    "extras": "Low-kickback bar and chain, oil window, 3-yr warranty"
+   },
+   "features": {
+    "bar_18": false,
+    "amp_15": false,
+    "tool_free_tension": true,
+    "auto_oil": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61Q0fMphxyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07KLG3X6G?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-chainsaws.html#B07KLG3X6G"
+  },
+  {
+   "rank": 7,
    "asin": "B00TJ3FBOY",
    "name": "BLACK+DECKER 12 Amp 16 in. Electric Chainsaw (CS1216)",
    "brand": "BLACK+DECKER",
@@ -323,7 +283,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 651,
-   "score": 75,
+   "score": 85,
    "award": null,
    "best_for": "Pruning and light cleanup with a brand that's easy to find parts for.",
    "bought_last_month": null,
@@ -354,6 +314,46 @@
    "page_url": "https://toolboxtop10.com/corded-chainsaws.html#B00TJ3FBOY"
   },
   {
+   "rank": 8,
+   "asin": "B01ENBNVNE",
+   "name": "WEN CP1216 Electric Chainsaw, Corded, 12-Amp, 16-Inch",
+   "brand": "WEN",
+   "model": "CP1216",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 4365,
+   "score": 84,
+   "award": "Best Budget",
+   "best_for": "A first chainsaw for occasional yard cleanup.",
+   "bought_last_month": null,
+   "verdict": "The cheapest saw here with a big review base: 4,300+ ratings for a 12 A, 16-inch saw with tool-free tensioning, auto oiling and a kickback brake.",
+   "pros": [
+    "Under $75",
+    "4,300+ reviews",
+    "Kickback brake and sheath included"
+   ],
+   "cons": [
+    "12 A motor",
+    "2-year warranty"
+   ],
+   "specs": {
+    "bar": "16 in",
+    "motor": "12 A",
+    "weight": "10 lb",
+    "extras": "41 ft/s chain speed, kickback brake, sheath, 2-yr warranty"
+   },
+   "features": {
+    "bar_18": false,
+    "amp_15": false,
+    "tool_free_tension": true,
+    "auto_oil": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61Pek6tafBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01ENBNVNE?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-chainsaws.html#B01ENBNVNE"
+  },
+  {
    "rank": 9,
    "asin": "B00YFTA84U",
    "name": "Makita UC4051A Electric Chain Saw, 16 in. Bar",
@@ -363,7 +363,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 860,
-   "score": 72,
+   "score": 81,
    "award": "Money No Object",
    "best_for": "Heavy users who want a corded saw built to take abuse.",
    "bought_last_month": null,
@@ -404,7 +404,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 131,
-   "score": 65,
+   "score": 78,
    "award": null,
    "best_for": "Occasional cleanup when price matters most.",
    "bought_last_month": "100+/mo",

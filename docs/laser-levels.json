@@ -23,7 +23,7 @@
    "pulse": 0.15,
    "tripod": 0.15
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 40,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -36,90 +36,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B017LTFSSG",
-   "name": "DEWALT Laser Level 360 Self Leveling, 3 Way Green, 12V MAX with 2.0Ah Battery, Charger and Case (DW089LG)",
-   "brand": "DEWALT",
-   "model": "DW089LG",
-   "price": 499.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 3666,
-   "score": 90,
-   "award": "Money No Object",
-   "best_for": "Contractors laying out whole rooms every day.",
-   "bought_last_month": "600+/mo",
-   "verdict": "The pro's 3x360: green planes, ±3 mm at 10 m, IP65 sealing, a locking pendulum, full-time pulse mode for a detector, a magnetic bracket with two thread sizes and a 3-year warranty. Runs on DEWALT 12V batteries.",
-   "pros": [
-    "±3 mm at 10 m with 3x360 green planes",
-    "IP65 and locking pendulum",
-    "12V MAX battery and charger; 3-year warranty"
-   ],
-   "cons": [
-    "$499.00",
-    "Detector sold separately"
-   ],
-   "specs": {
-    "lines": "3 x 360°",
-    "beam": "Green",
-    "accuracy": "±3 mm at 10 m (about 1/8 in at 33 ft)",
-    "power": "DEWALT 12V MAX 2.0Ah (included)",
-    "in_box": "Battery, charger, case"
-   },
-   "features": {
-    "green": true,
-    "plane_360": true,
-    "rechargeable": true,
-    "pulse": true,
-    "tripod": false
-   },
-   "image": "https://m.media-amazon.com/images/I/818lY0I1TdL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B017LTFSSG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-levels.html#B017LTFSSG"
-  },
-  {
-   "rank": 2,
-   "asin": "B09SKJSXRC",
-   "name": "IKOVWUK Laser Level with 12 Green Lines, 3x360°, Built-in 5200 mAh Li-ion Battery",
-   "brand": "IKOVWUK",
-   "model": "3x360",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2106,
-   "score": 87,
-   "award": null,
-   "best_for": "Whole-room layout (ceilings, chair rails, wall-to-wall tile) on a budget.",
-   "bought_last_month": "700+/mo",
-   "verdict": "The best-rated budget 3x360: one horizontal and two vertical 360-degree green planes that wrap the room, a remote, pulse mode, a 5,200 mAh battery and an 18-month warranty.",
-   "pros": [
-    "3x360 green lines",
-    "4.6 stars across 2,106 reviews",
-    "Remote, pulse mode, 18-month warranty"
-   ],
-   "cons": [
-    "Accuracy not listed",
-    "No tripod"
-   ],
-   "specs": {
-    "lines": "3 x 360° (12 lines)",
-    "beam": "Green",
-    "accuracy": null,
-    "power": "5,200 mAh, about 8 hr",
-    "in_box": "Battery, charger, remote"
-   },
-   "features": {
-    "green": true,
-    "plane_360": true,
-    "rechargeable": true,
-    "pulse": true,
-    "tripod": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81-UzcxrrBL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09SKJSXRC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-levels.html#B09SKJSXRC"
-  },
-  {
-   "rank": 3,
    "asin": "B0F626NYWM",
    "name": "Alloyman Laser Level with Tripod, 4x360° Self Leveling, 16 Green Lines (ALT16-20)",
    "brand": "Alloyman",
@@ -128,7 +44,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 838,
-   "score": 85,
+   "score": 94,
    "award": null,
    "best_for": "Floor and ceiling layout with everything in the box.",
    "bought_last_month": "2K+/mo",
@@ -161,7 +77,175 @@
    "page_url": "https://toolboxtop10.com/laser-levels.html#B0F626NYWM"
   },
   {
+   "rank": 2,
+   "asin": "B017LTFSSG",
+   "name": "DEWALT Laser Level 360 Self Leveling, 3 Way Green, 12V MAX with 2.0Ah Battery, Charger and Case (DW089LG)",
+   "brand": "DEWALT",
+   "model": "DW089LG",
+   "price": 499.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 3666,
+   "score": 93,
+   "award": "Money No Object",
+   "best_for": "Contractors laying out whole rooms every day.",
+   "bought_last_month": "600+/mo",
+   "verdict": "The pro's 3x360: green planes, ±3 mm at 10 m, IP65 sealing, a locking pendulum, full-time pulse mode for a detector, a magnetic bracket with two thread sizes and a 3-year warranty. Runs on DEWALT 12V batteries.",
+   "pros": [
+    "±3 mm at 10 m with 3x360 green planes",
+    "IP65 and locking pendulum",
+    "12V MAX battery and charger; 3-year warranty"
+   ],
+   "cons": [
+    "$499.00",
+    "Detector sold separately"
+   ],
+   "specs": {
+    "lines": "3 x 360°",
+    "beam": "Green",
+    "accuracy": "±3 mm at 10 m (about 1/8 in at 33 ft)",
+    "power": "DEWALT 12V MAX 2.0Ah (included)",
+    "in_box": "Battery, charger, case"
+   },
+   "features": {
+    "green": true,
+    "plane_360": true,
+    "rechargeable": true,
+    "pulse": true,
+    "tripod": false
+   },
+   "image": "https://m.media-amazon.com/images/I/818lY0I1TdL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B017LTFSSG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-levels.html#B017LTFSSG"
+  },
+  {
+   "rank": 3,
+   "asin": "B09SKJSXRC",
+   "name": "IKOVWUK Laser Level with 12 Green Lines, 3x360°, Built-in 5200 mAh Li-ion Battery",
+   "brand": "IKOVWUK",
+   "model": "3x360",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2106,
+   "score": 93,
+   "award": null,
+   "best_for": "Whole-room layout (ceilings, chair rails, wall-to-wall tile) on a budget.",
+   "bought_last_month": "700+/mo",
+   "verdict": "The best-rated budget 3x360: one horizontal and two vertical 360-degree green planes that wrap the room, a remote, pulse mode, a 5,200 mAh battery and an 18-month warranty.",
+   "pros": [
+    "3x360 green lines",
+    "4.6 stars across 2,106 reviews",
+    "Remote, pulse mode, 18-month warranty"
+   ],
+   "cons": [
+    "Accuracy not listed",
+    "No tripod"
+   ],
+   "specs": {
+    "lines": "3 x 360° (12 lines)",
+    "beam": "Green",
+    "accuracy": null,
+    "power": "5,200 mAh, about 8 hr",
+    "in_box": "Battery, charger, remote"
+   },
+   "features": {
+    "green": true,
+    "plane_360": true,
+    "rechargeable": true,
+    "pulse": true,
+    "tripod": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81-UzcxrrBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09SKJSXRC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-levels.html#B09SKJSXRC"
+  },
+  {
    "rank": 4,
+   "asin": "B0CMDHC899",
+   "name": "Klein Tools 93CPLG Compact Self-Leveling Laser Level, 100-Foot",
+   "brand": "Klein Tools",
+   "model": "93CPLG",
+   "price": 169.98,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 466,
+   "score": 89,
+   "award": null,
+   "best_for": "Electricians and remodelers who want a brand-name 3x360 for well under DEWALT's price.",
+   "bought_last_month": "700+/mo",
+   "verdict": "A compact brand-name 3x360 green laser from Klein with a 100-foot range, a built-in rechargeable battery and a tilt mode for angled lines.",
+   "pros": [
+    "3x360 green planes",
+    "100-ft range",
+    "Tilt mode"
+   ],
+   "cons": [
+    "Non-removable battery",
+    "Accuracy and warranty not listed"
+   ],
+   "specs": {
+    "lines": "3 x 360°",
+    "beam": "Green",
+    "accuracy": null,
+    "power": "Built-in rechargeable, 6+ hr",
+    "in_box": "Laser"
+   },
+   "features": {
+    "green": true,
+    "plane_360": true,
+    "rechargeable": true,
+    "pulse": false,
+    "tripod": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71vqhO0IznL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CMDHC899?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-levels.html#B0CMDHC899"
+  },
+  {
+   "rank": 5,
+   "asin": "B0CFF83CWW",
+   "name": "Fanttik D2 Pocket Green Laser Level for Picture Hanging and Home DIY",
+   "brand": "Fanttik",
+   "model": "D2",
+   "price": 49.97,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1158,
+   "score": 88,
+   "award": null,
+   "best_for": "Homeowners who want a small, rechargeable green laser.",
+   "bought_last_month": "4K+/mo",
+   "verdict": "A pocket-size 0.56 lb green laser that charges by USB-C and runs about 10 hours, with a magnetic bracket and a pulse mode that reaches 164 feet with a receiver.",
+   "pros": [
+    "USB-C rechargeable, about 10 hours",
+    "Green beam with pulse mode",
+    "5,000+ sold last month"
+   ],
+   "cons": [
+    "Accuracy not listed",
+    "No tripod"
+   ],
+   "specs": {
+    "lines": "Cross line",
+    "beam": "Green",
+    "accuracy": null,
+    "power": "2,200 mAh USB-C, about 10 hr",
+    "in_box": "Magnetic bracket, USB-C cable, pouch"
+   },
+   "features": {
+    "green": true,
+    "plane_360": false,
+    "rechargeable": true,
+    "pulse": true,
+    "tripod": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71ZyOY348mL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CFF83CWW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-levels.html#B0CFF83CWW"
+  },
+  {
+   "rank": 6,
    "asin": "B0DX1T6D1M",
    "name": "Motovera Self Leveling Laser Level 100ft, Green Cross Line with Tripod, Pulse Function, IP54 (LL-T2)",
    "brand": "Motovera",
@@ -170,7 +254,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 4277,
-   "score": 82,
+   "score": 85,
    "award": "Best Budget",
    "best_for": "A green laser with tripod and pulse mode under $40.",
    "bought_last_month": "6K+/mo",
@@ -203,7 +287,7 @@
    "page_url": "https://toolboxtop10.com/laser-levels.html#B0DX1T6D1M"
   },
   {
-   "rank": 5,
+   "rank": 7,
    "asin": "B009O94W3E",
    "name": "DEWALT Line Laser, Self-Leveling, Cross Line, Red Beam (DW088K)",
    "brand": "DEWALT",
@@ -245,49 +329,91 @@
    "page_url": "https://toolboxtop10.com/laser-levels.html#B009O94W3E"
   },
   {
-   "rank": 6,
-   "asin": "B0CFF83CWW",
-   "name": "Fanttik D2 Pocket Green Laser Level for Picture Hanging and Home DIY",
-   "brand": "Fanttik",
-   "model": "D2",
-   "price": 49.97,
+   "rank": 8,
+   "asin": "B0CKKK3CK1",
+   "name": "BOSCH GLL50-20G 50 Ft Green-Beam Self-Leveling Cross-Line Laser Level",
+   "brand": "BOSCH",
+   "model": "GLL50-20G",
+   "price": 102.07,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1158,
-   "score": 79,
+   "rating": 4.4,
+   "reviews_count": 408,
+   "score": 80,
    "award": null,
-   "best_for": "Homeowners who want a small, rechargeable green laser.",
-   "bought_last_month": "4K+/mo",
-   "verdict": "A pocket-size 0.56 lb green laser that charges by USB-C and runs about 10 hours, with a magnetic bracket and a pulse mode that reaches 164 feet with a receiver.",
+   "best_for": "A compact brand-name green laser for interior work.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A brand-name green cross-line laser with IP55 sealing, a magnetic mount and Bosch's pendulum that blinks when out of level and locks for transport. Runs on AAs or an optional Bosch battery.",
    "pros": [
-    "USB-C rechargeable, about 10 hours",
-    "Green beam with pulse mode",
-    "5,000+ sold last month"
+    "IP55, the best sealing after DEWALT's IP65",
+    "Green beam",
+    "AA or rechargeable Bosch battery"
    ],
    "cons": [
-    "Accuracy not listed",
-    "No tripod"
+    "5/16 in at 30 ft accuracy",
+    "50 ft range"
    ],
    "specs": {
     "lines": "Cross line",
     "beam": "Green",
-    "accuracy": null,
-    "power": "2,200 mAh USB-C, about 10 hr",
-    "in_box": "Magnetic bracket, USB-C cable, pouch"
+    "accuracy": "5/16 in at 30 ft",
+    "power": "2 AA or Bosch 3.7V battery",
+    "in_box": "Magnetic mount, 2 AA batteries, pouch"
    },
    "features": {
     "green": true,
     "plane_360": false,
-    "rechargeable": true,
-    "pulse": true,
+    "rechargeable": false,
+    "pulse": false,
     "tripod": false
    },
-   "image": "https://m.media-amazon.com/images/I/71ZyOY348mL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CFF83CWW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-levels.html#B0CFF83CWW"
+   "image": "https://m.media-amazon.com/images/I/51rnhxCaq9L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CKKK3CK1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-levels.html#B0CKKK3CK1"
   },
   {
-   "rank": 7,
+   "rank": 9,
+   "asin": "B0FL7BCX8Z",
+   "name": "Lusweimi Laser Level with 50\" Tripod, Self Leveling Green Cross Line Laser, 4 AA Batteries & Pouch",
+   "brand": "Lusweimi",
+   "model": "Green cross line",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 290,
+   "score": 80,
+   "award": null,
+   "best_for": "Hanging pictures and shelves for under $35.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The cheapest laser here, and it still has a green beam, ±1/9-inch accuracy at 33 feet, a tilt alarm and a 50-inch tripod.",
+   "pros": [
+    "$34.99 with a 50-inch tripod",
+    "Green beam, ±1/9 in at 33 ft",
+    "Spare batteries included"
+   ],
+   "cons": [
+    "No pulse mode",
+    "Model number not listed"
+   ],
+   "specs": {
+    "lines": "Cross line",
+    "beam": "Green",
+    "accuracy": "±1/9 in at 33 ft",
+    "power": "2 AA (4 included)",
+    "in_box": "50-in tripod, 4 AA batteries, pouch"
+   },
+   "features": {
+    "green": true,
+    "plane_360": false,
+    "rechargeable": false,
+    "pulse": false,
+    "tripod": true
+   },
+   "image": "https://m.media-amazon.com/images/I/718J2l8cAcL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FL7BCX8Z?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-levels.html#B0FL7BCX8Z"
+  },
+  {
+   "rank": 10,
    "asin": "B0GTNZBMFH",
    "name": "RockSeed Cross Line Laser Level, Self-Leveling, Rotatable 360 Degree, 40 Inch Tripod (LV1GT)",
    "brand": "RockSeed",
@@ -327,132 +453,6 @@
    "image": "https://m.media-amazon.com/images/I/61ID7mjX2NL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0GTNZBMFH?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/laser-levels.html#B0GTNZBMFH"
-  },
-  {
-   "rank": 8,
-   "asin": "B0CMDHC899",
-   "name": "Klein Tools 93CPLG Compact Self-Leveling Laser Level, 100-Foot",
-   "brand": "Klein Tools",
-   "model": "93CPLG",
-   "price": 169.98,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 466,
-   "score": 77,
-   "award": null,
-   "best_for": "Electricians and remodelers who want a brand-name 3x360 for well under DEWALT's price.",
-   "bought_last_month": "700+/mo",
-   "verdict": "A compact brand-name 3x360 green laser from Klein with a 100-foot range, a built-in rechargeable battery and a tilt mode for angled lines.",
-   "pros": [
-    "3x360 green planes",
-    "100-ft range",
-    "Tilt mode"
-   ],
-   "cons": [
-    "Non-removable battery",
-    "Accuracy and warranty not listed"
-   ],
-   "specs": {
-    "lines": "3 x 360°",
-    "beam": "Green",
-    "accuracy": null,
-    "power": "Built-in rechargeable, 6+ hr",
-    "in_box": "Laser"
-   },
-   "features": {
-    "green": true,
-    "plane_360": true,
-    "rechargeable": true,
-    "pulse": false,
-    "tripod": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71vqhO0IznL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CMDHC899?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-levels.html#B0CMDHC899"
-  },
-  {
-   "rank": 9,
-   "asin": "B0FL7BCX8Z",
-   "name": "Lusweimi Laser Level with 50\" Tripod, Self Leveling Green Cross Line Laser, 4 AA Batteries & Pouch",
-   "brand": "Lusweimi",
-   "model": "Green cross line",
-   "price": 34.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 290,
-   "score": 68,
-   "award": null,
-   "best_for": "Hanging pictures and shelves for under $35.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The cheapest laser here, and it still has a green beam, ±1/9-inch accuracy at 33 feet, a tilt alarm and a 50-inch tripod.",
-   "pros": [
-    "$34.99 with a 50-inch tripod",
-    "Green beam, ±1/9 in at 33 ft",
-    "Spare batteries included"
-   ],
-   "cons": [
-    "No pulse mode",
-    "Model number not listed"
-   ],
-   "specs": {
-    "lines": "Cross line",
-    "beam": "Green",
-    "accuracy": "±1/9 in at 33 ft",
-    "power": "2 AA (4 included)",
-    "in_box": "50-in tripod, 4 AA batteries, pouch"
-   },
-   "features": {
-    "green": true,
-    "plane_360": false,
-    "rechargeable": false,
-    "pulse": false,
-    "tripod": true
-   },
-   "image": "https://m.media-amazon.com/images/I/718J2l8cAcL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FL7BCX8Z?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-levels.html#B0FL7BCX8Z"
-  },
-  {
-   "rank": 10,
-   "asin": "B0CKKK3CK1",
-   "name": "BOSCH GLL50-20G 50 Ft Green-Beam Self-Leveling Cross-Line Laser Level",
-   "brand": "BOSCH",
-   "model": "GLL50-20G",
-   "price": 102.07,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 408,
-   "score": 67,
-   "award": null,
-   "best_for": "A compact brand-name green laser for interior work.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A brand-name green cross-line laser with IP55 sealing, a magnetic mount and Bosch's pendulum that blinks when out of level and locks for transport. Runs on AAs or an optional Bosch battery.",
-   "pros": [
-    "IP55, the best sealing after DEWALT's IP65",
-    "Green beam",
-    "AA or rechargeable Bosch battery"
-   ],
-   "cons": [
-    "5/16 in at 30 ft accuracy",
-    "50 ft range"
-   ],
-   "specs": {
-    "lines": "Cross line",
-    "beam": "Green",
-    "accuracy": "5/16 in at 30 ft",
-    "power": "2 AA or Bosch 3.7V battery",
-    "in_box": "Magnetic mount, 2 AA batteries, pouch"
-   },
-   "features": {
-    "green": true,
-    "plane_360": false,
-    "rechargeable": false,
-    "pulse": false,
-    "tripod": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51rnhxCaq9L._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CKKK3CK1?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-levels.html#B0CKKK3CK1"
   }
  ],
  "avoid": [

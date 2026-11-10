@@ -22,7 +22,7 @@
    "keyless": 0.25,
    "hammer": 0.2
   },
-  "reviews_ceiling": 60000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 50,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 7746,
-   "score": 86,
+   "score": 93,
    "award": "Best Budget",
    "best_for": "A reliable, cheap drill for everyday jobs around the house.",
    "bought_last_month": "1K+/mo",
@@ -77,48 +77,6 @@
   },
   {
    "rank": 2,
-   "asin": "B07GKWQJV2",
-   "name": "BLACK+DECKER BEHD201 6.5-Amp 1/2\" Corded Hammer Drill",
-   "brand": "BLACK+DECKER",
-   "model": "BEHD201",
-   "price": 54.0,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 2314,
-   "score": 79,
-   "award": null,
-   "best_for": "An occasional concrete anchor or brick hole for about $54.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The affordable way into a corded hammer drill. A 6.5-amp motor with a hammer mode for the occasional concrete anchor or brick, backed by 2,200 reviews for around $54.",
-   "pros": [
-    "Hammer mode for masonry under $55",
-    "2,200 reviews, 1/2\" chuck",
-    "Trusted BLACK+DECKER name"
-   ],
-   "cons": [
-    "6.5 amps is modest for heavy masonry",
-    "4.3 stars, a step below the leaders"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "6.5 amp",
-    "chuck": "1/2 in",
-    "max_rpm": "0-3,000 rpm",
-    "function": "Hammer drill",
-    "grip": "Pistol grip"
-   },
-   "features": {
-    "kit": true,
-    "vsr": true,
-    "keyless": false,
-    "hammer": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51qPLS9jjiS._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07GKWQJV2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-drills.html#B07GKWQJV2"
-  },
-  {
-   "rank": 3,
    "asin": "B004I1QILC",
    "name": "BLACK+DECKER DR560 7-Amp 1/2\" Drill/Driver Kit",
    "brand": "BLACK+DECKER",
@@ -127,7 +85,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 690,
-   "score": 79,
+   "score": 93,
    "award": null,
    "best_for": "Driving fasteners and turning big bits, with a torque-geared 1/2 in keyless chuck.",
    "bought_last_month": "100+/mo",
@@ -160,49 +118,49 @@
    "page_url": "https://toolboxtop10.com/corded-drills.html#B004I1QILC"
   },
   {
-   "rank": 4,
-   "asin": "B08433C5J4",
-   "name": "Hammerhead 7.5-Amp 1/2\" Corded Hammer Drill (6-pc)",
-   "brand": "Hammerhead",
-   "model": "7.5A",
-   "price": 30.48,
+   "rank": 3,
+   "asin": "B08WCN3KGR",
+   "name": "SKIL DL181901 7.5-Amp 1/2\" Corded Drill",
+   "brand": "SKIL",
+   "model": "DL181901",
+   "price": 54.0,
    "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 2336,
-   "score": 78,
+   "rating": 4.5,
+   "reviews_count": 467,
+   "score": 92,
    "award": null,
-   "best_for": "Occasional drilling and light masonry on the smallest budget.",
-   "bought_last_month": "700+/mo",
-   "verdict": "At $30.48, a 7.5-amp hammer drill with a 6-piece bit set and 2,300 reviews behind it. Not refined, but fine for occasional drilling and light masonry.",
+   "best_for": "Spade bits and hole saws on a budget, thanks to the 1/2 in chuck.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A 7.5-amp, 1/2-inch corded drill that takes bigger bits than the 3/8\" models — good for spade bits and hole saws. Solid SKIL value at just over $50.",
    "pros": [
-    "7.5-amp hammer drill for under $40",
-    "Comes with a 6-piece bit set",
-    "2,300 reviews"
+    "7.5-amp motor, larger 1/2\" chuck",
+    "Handles bigger bits and hole saws",
+    "4.5 stars under $55"
    ],
    "cons": [
-    "Basic build and 4.2-star rating",
-    "Not for heavy daily use"
+    "Fewer reviews than the leaders",
+    "No hammer mode"
    ],
    "specs": {
     "type": "Corded",
     "power": "7.5 amp",
     "chuck": "1/2 in",
-    "max_rpm": "0-3,000 rpm",
-    "function": "Hammer drill",
+    "max_rpm": "0-2,800 rpm",
+    "function": "Drill/driver",
     "grip": "Pistol grip"
    },
    "features": {
     "kit": true,
     "vsr": true,
-    "keyless": false,
-    "hammer": true
+    "keyless": true,
+    "hammer": false
    },
-   "image": "https://m.media-amazon.com/images/I/71jxg4C068L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08433C5J4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-drills.html#B08433C5J4"
+   "image": "https://m.media-amazon.com/images/I/51vv9pAnsaL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08WCN3KGR?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-drills.html#B08WCN3KGR"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "asin": "B07Z1BTGK8",
    "name": "GALAX PRO 5-Amp 1/2\" Corded Hammer Drill with 105 Accessories",
    "brand": "GALAX PRO",
@@ -211,7 +169,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 991,
-   "score": 77,
+   "score": 90,
    "award": null,
    "best_for": "Hanging shelves and setting wall anchors, with bits, anchors and a case in the box.",
    "bought_last_month": "200+/mo",
@@ -246,49 +204,49 @@
    "page_url": "https://toolboxtop10.com/corded-drills.html#B07Z1BTGK8"
   },
   {
-   "rank": 6,
-   "asin": "B08WCN3KGR",
-   "name": "SKIL DL181901 7.5-Amp 1/2\" Corded Drill",
-   "brand": "SKIL",
-   "model": "DL181901",
+   "rank": 5,
+   "asin": "B07GKWQJV2",
+   "name": "BLACK+DECKER BEHD201 6.5-Amp 1/2\" Corded Hammer Drill",
+   "brand": "BLACK+DECKER",
+   "model": "BEHD201",
    "price": 54.0,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 467,
-   "score": 77,
+   "rating": 4.3,
+   "reviews_count": 2314,
+   "score": 89,
    "award": null,
-   "best_for": "Spade bits and hole saws on a budget, thanks to the 1/2 in chuck.",
+   "best_for": "An occasional concrete anchor or brick hole for about $54.",
    "bought_last_month": "100+/mo",
-   "verdict": "A 7.5-amp, 1/2-inch corded drill that takes bigger bits than the 3/8\" models — good for spade bits and hole saws. Solid SKIL value at just over $50.",
+   "verdict": "The affordable way into a corded hammer drill. A 6.5-amp motor with a hammer mode for the occasional concrete anchor or brick, backed by 2,200 reviews for around $54.",
    "pros": [
-    "7.5-amp motor, larger 1/2\" chuck",
-    "Handles bigger bits and hole saws",
-    "4.5 stars under $55"
+    "Hammer mode for masonry under $55",
+    "2,200 reviews, 1/2\" chuck",
+    "Trusted BLACK+DECKER name"
    ],
    "cons": [
-    "Fewer reviews than the leaders",
-    "No hammer mode"
+    "6.5 amps is modest for heavy masonry",
+    "4.3 stars, a step below the leaders"
    ],
    "specs": {
     "type": "Corded",
-    "power": "7.5 amp",
+    "power": "6.5 amp",
     "chuck": "1/2 in",
-    "max_rpm": "0-2,800 rpm",
-    "function": "Drill/driver",
+    "max_rpm": "0-3,000 rpm",
+    "function": "Hammer drill",
     "grip": "Pistol grip"
    },
    "features": {
     "kit": true,
     "vsr": true,
-    "keyless": true,
-    "hammer": false
+    "keyless": false,
+    "hammer": true
    },
-   "image": "https://m.media-amazon.com/images/I/51vv9pAnsaL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08WCN3KGR?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-drills.html#B08WCN3KGR"
+   "image": "https://m.media-amazon.com/images/I/51qPLS9jjiS._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07GKWQJV2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-drills.html#B07GKWQJV2"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "asin": "B086D1MDPD",
    "name": "SKIL HD182001 7.5-Amp 1/2\" Corded Hammer Drill",
    "brand": "SKIL",
@@ -297,7 +255,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 910,
-   "score": 76,
+   "score": 89,
    "award": null,
    "best_for": "A mid-priced hammer drill with more motor than the BLACK+DECKER.",
    "bought_last_month": "200+/mo",
@@ -330,6 +288,48 @@
    "page_url": "https://toolboxtop10.com/corded-drills.html#B086D1MDPD"
   },
   {
+   "rank": 7,
+   "asin": "B08433C5J4",
+   "name": "Hammerhead 7.5-Amp 1/2\" Corded Hammer Drill (6-pc)",
+   "brand": "Hammerhead",
+   "model": "7.5A",
+   "price": 30.48,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 2336,
+   "score": 88,
+   "award": null,
+   "best_for": "Occasional drilling and light masonry on the smallest budget.",
+   "bought_last_month": "700+/mo",
+   "verdict": "At $30.48, a 7.5-amp hammer drill with a 6-piece bit set and 2,300 reviews behind it. Not refined, but fine for occasional drilling and light masonry.",
+   "pros": [
+    "7.5-amp hammer drill for under $40",
+    "Comes with a 6-piece bit set",
+    "2,300 reviews"
+   ],
+   "cons": [
+    "Basic build and 4.2-star rating",
+    "Not for heavy daily use"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "7.5 amp",
+    "chuck": "1/2 in",
+    "max_rpm": "0-3,000 rpm",
+    "function": "Hammer drill",
+    "grip": "Pistol grip"
+   },
+   "features": {
+    "kit": true,
+    "vsr": true,
+    "keyless": false,
+    "hammer": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71jxg4C068L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08433C5J4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-drills.html#B08433C5J4"
+  },
+  {
    "rank": 8,
    "asin": "B00E3LQ5B0",
    "name": "Genesis 4.2 Amp Corded Drill, Variable Speed Reversible, 3/8-Inch Keyless Chuck, Belt Clip, 2-Year Warranty (GD38B)",
@@ -339,7 +339,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 486,
-   "score": 69,
+   "score": 84,
    "award": null,
    "best_for": "Screws, pilot holes and light household jobs.",
    "bought_last_month": null,
@@ -381,7 +381,7 @@
    "currency": "USD",
    "rating": 3.8,
    "reviews_count": 86,
-   "score": 61,
+   "score": 79,
    "award": null,
    "best_for": "Occasional holes in brick or concrete on a small budget.",
    "bought_last_month": "400+/mo",
@@ -423,7 +423,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 43,
-   "score": 61,
+   "score": 74,
    "award": "Best Overall",
    "best_for": "Steady drilling in wood and metal from a brand with parts and service.",
    "bought_last_month": "100+/mo",

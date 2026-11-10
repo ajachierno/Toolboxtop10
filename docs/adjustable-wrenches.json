@@ -22,7 +22,7 @@
    "set": 0.25,
    "soft_grip": 0.2
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 13,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,90 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0CVMFY8PM",
+   "name": "KLEIN TOOLS D5072 2-Piece Extra-Capacity Adjustable Wrench Set (6, 10 in)",
+   "brand": "Klein Tools",
+   "model": "D5072",
+   "price": 29.98,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 207,
+   "score": 98,
+   "award": null,
+   "best_for": "Pros who want the two most useful sizes with extra-capacity jaws.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The two-wrench pro pick. The 6 and 10-inch pairing covers most jobs, with the same extra-capacity jaws, smooth adjusting knurl, and dipped handles as the 3-piece — the highest-rated set on the list. Buy this if you don't need the 8-inch.",
+   "pros": [
+    "Extra-capacity jaws for the wrench length",
+    "Smooth knurl for one-handed adjustment",
+    "Dipped handles and laser markings",
+    "Top rating on the list"
+   ],
+   "cons": [
+    "Only two sizes",
+    "Newer listing with fewer reviews",
+    "Premium price for two wrenches"
+   ],
+   "specs": {
+    "size": "6, 10 in",
+    "jaw": "Extra capacity",
+    "scales": "SAE & Metric (laser)",
+    "material": "Forged alloy steel"
+   },
+   "features": {
+    "wide_jaw": true,
+    "dual_scale": true,
+    "set": true,
+    "soft_grip": true
+   },
+   "image": "https://m.media-amazon.com/images/I/510TVPURdRL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CVMFY8PM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/adjustable-wrenches.html#B0CVMFY8PM"
+  },
+  {
+   "rank": 2,
+   "asin": "B0CYHLQ7FW",
+   "name": "KLEIN TOOLS D5073 3-Piece Extra-Capacity Adjustable Wrench Set (6, 8, 10 in)",
+   "brand": "Klein Tools",
+   "model": "D5073",
+   "price": 39.98,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 246,
+   "score": 97,
+   "award": "Money No Object",
+   "best_for": "Tight spaces, where wider jaws let a smaller wrench do the job.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The pro set. Klein's extra-capacity jaws open wider than a normal wrench of the same length, so a compact 8-inch grips a nut you'd otherwise need a 10 for — a real advantage in tight spaces. Dipped handles, laser SAE/metric marks, forged alloy steel.",
+   "pros": [
+    "Extra-capacity jaws grip larger nuts for the length",
+    "Dipped handles for grip and comfort",
+    "Laser SAE and metric markings on both sides",
+    "Forged alloy steel, trade-grade"
+   ],
+   "cons": [
+    "Premium price",
+    "Fewer reviews than the value sellers",
+    "Three-piece set is more than casual users need"
+   ],
+   "specs": {
+    "size": "6, 8, 10 in",
+    "jaw": "Extra capacity",
+    "scales": "SAE & Metric (laser)",
+    "material": "Forged alloy steel"
+   },
+   "features": {
+    "wide_jaw": true,
+    "dual_scale": true,
+    "set": true,
+    "soft_grip": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51PGMisOI-L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CYHLQ7FW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/adjustable-wrenches.html#B0CYHLQ7FW"
+  },
+  {
+   "rank": 3,
    "asin": "B08L6V3VCW",
    "name": "Amazon Basics 4-Piece Wide-Jaw Adjustable Wrench Set with Soft Grip (6, 8, 10, 12 in)",
    "brand": "Amazon Basics",
@@ -76,7 +160,7 @@
    "page_url": "https://toolboxtop10.com/adjustable-wrenches.html#B08L6V3VCW"
   },
   {
-   "rank": 2,
+   "rank": 4,
    "asin": "B07QQ8P5K6",
    "name": "CRAFTSMAN Adjustable Wrench Set, 3-Piece All Steel, SAE & Metric (CMMT12001)",
    "brand": "CRAFTSMAN",
@@ -85,7 +169,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 3952,
-   "score": 93,
+   "score": 94,
    "award": "Best Overall",
    "best_for": "Most people: three sizes that cover almost every nut and bolt.",
    "bought_last_month": "2K+/mo",
@@ -118,7 +202,7 @@
    "page_url": "https://toolboxtop10.com/adjustable-wrenches.html#B07QQ8P5K6"
   },
   {
-   "rank": 3,
+   "rank": 5,
    "asin": "B08RJ55NPF",
    "name": "WORKPRO 2-Piece Adjustable Wrench Set, 6 & 10 in Wide Jaw",
    "brand": "WORKPRO",
@@ -127,7 +211,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 4938,
-   "score": 91,
+   "score": 92,
    "award": null,
    "best_for": "The two most-used sizes for under $20.",
    "bought_last_month": "2K+/mo",
@@ -160,7 +244,7 @@
    "page_url": "https://toolboxtop10.com/adjustable-wrenches.html#B08RJ55NPF"
   },
   {
-   "rank": 4,
+   "rank": 6,
    "asin": "B08L6WJ5SM",
    "name": "Amazon Basics 6-Inch Drop-Forged Adjustable Wrench with Soft Grip",
    "brand": "Amazon Basics",
@@ -202,7 +286,7 @@
    "page_url": "https://toolboxtop10.com/adjustable-wrenches.html#B08L6WJ5SM"
   },
   {
-   "rank": 5,
+   "rank": 7,
    "asin": "B0BFZLHR6W",
    "name": "WORKPRO 6-Inch Compact Adjustable Wrench, Wide Jaw, Cr-V Steel, Black Oxide, SAE & Metric Scales",
    "brand": "WORKPRO",
@@ -242,90 +326,6 @@
    "image": "https://m.media-amazon.com/images/I/61Oo2-0IhGL._AC_SX522_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BFZLHR6W?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/adjustable-wrenches.html#B0BFZLHR6W"
-  },
-  {
-   "rank": 6,
-   "asin": "B0CYHLQ7FW",
-   "name": "KLEIN TOOLS D5073 3-Piece Extra-Capacity Adjustable Wrench Set (6, 8, 10 in)",
-   "brand": "Klein Tools",
-   "model": "D5073",
-   "price": 39.98,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 246,
-   "score": 85,
-   "award": "Money No Object",
-   "best_for": "Tight spaces, where wider jaws let a smaller wrench do the job.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The pro set. Klein's extra-capacity jaws open wider than a normal wrench of the same length, so a compact 8-inch grips a nut you'd otherwise need a 10 for — a real advantage in tight spaces. Dipped handles, laser SAE/metric marks, forged alloy steel.",
-   "pros": [
-    "Extra-capacity jaws grip larger nuts for the length",
-    "Dipped handles for grip and comfort",
-    "Laser SAE and metric markings on both sides",
-    "Forged alloy steel, trade-grade"
-   ],
-   "cons": [
-    "Premium price",
-    "Fewer reviews than the value sellers",
-    "Three-piece set is more than casual users need"
-   ],
-   "specs": {
-    "size": "6, 8, 10 in",
-    "jaw": "Extra capacity",
-    "scales": "SAE & Metric (laser)",
-    "material": "Forged alloy steel"
-   },
-   "features": {
-    "wide_jaw": true,
-    "dual_scale": true,
-    "set": true,
-    "soft_grip": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51PGMisOI-L._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CYHLQ7FW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/adjustable-wrenches.html#B0CYHLQ7FW"
-  },
-  {
-   "rank": 7,
-   "asin": "B0CVMFY8PM",
-   "name": "KLEIN TOOLS D5072 2-Piece Extra-Capacity Adjustable Wrench Set (6, 10 in)",
-   "brand": "Klein Tools",
-   "model": "D5072",
-   "price": 29.98,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 207,
-   "score": 85,
-   "award": null,
-   "best_for": "Pros who want the two most useful sizes with extra-capacity jaws.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The two-wrench pro pick. The 6 and 10-inch pairing covers most jobs, with the same extra-capacity jaws, smooth adjusting knurl, and dipped handles as the 3-piece — the highest-rated set on the list. Buy this if you don't need the 8-inch.",
-   "pros": [
-    "Extra-capacity jaws for the wrench length",
-    "Smooth knurl for one-handed adjustment",
-    "Dipped handles and laser markings",
-    "Top rating on the list"
-   ],
-   "cons": [
-    "Only two sizes",
-    "Newer listing with fewer reviews",
-    "Premium price for two wrenches"
-   ],
-   "specs": {
-    "size": "6, 10 in",
-    "jaw": "Extra capacity",
-    "scales": "SAE & Metric (laser)",
-    "material": "Forged alloy steel"
-   },
-   "features": {
-    "wide_jaw": true,
-    "dual_scale": true,
-    "set": true,
-    "soft_grip": true
-   },
-   "image": "https://m.media-amazon.com/images/I/510TVPURdRL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CVMFY8PM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/adjustable-wrenches.html#B0CVMFY8PM"
   },
   {
    "rank": 8,
@@ -421,7 +421,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2803,
-   "score": 72,
+   "score": 75,
    "award": null,
    "best_for": "Stopping the jaw from creeping and rounding off nuts.",
    "bought_last_month": "900+/mo",

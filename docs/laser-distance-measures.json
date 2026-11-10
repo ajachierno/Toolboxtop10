@@ -22,7 +22,7 @@
    "green_beam": 0.2,
    "angle_or_app": 0.25
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 9778,
-   "score": 89,
+   "score": 92,
    "award": "Best Budget",
    "best_for": "DIYers who want angle and indirect height measurements cheaply.",
    "bought_last_month": "2K+/mo",
@@ -75,6 +75,127 @@
   },
   {
    "rank": 2,
+   "asin": "B0931YY9LZ",
+   "name": "Bosch GLM165-25G Blaze Green-Beam 165 Ft. Laser Measure",
+   "brand": "Bosch",
+   "model": "GLM165-25G",
+   "price": 109.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1564,
+   "score": 91,
+   "award": null,
+   "best_for": "Pros who measure in bright light.",
+   "bought_last_month": "900+/mo",
+   "verdict": "Bosch's green-beam version of its 165 ft measure: a dot up to 4 times brighter than red, easier to see in bright rooms and outdoors.",
+   "pros": [
+    "Green beam",
+    "165 ft, ±1/16 in",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Pricey"
+   ],
+   "specs": {
+    "range": "165 ft",
+    "accuracy": "±1/16 in",
+    "beam": "Green",
+    "power": null,
+    "extras": "Real-time mode, area/volume/indirect"
+   },
+   "features": {
+    "accuracy_1_16": true,
+    "long_range": true,
+    "green_beam": true,
+    "angle_or_app": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51v9CEdI3ZL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0931YY9LZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B0931YY9LZ"
+  },
+  {
+   "rank": 3,
+   "asin": "B0FL6B9LLC",
+   "name": "MILESEEY S50 Green Laser Distance Meter, 400 ft, P2P",
+   "brand": "MILESEEY",
+   "model": "S50",
+   "price": 129.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 549,
+   "score": 90,
+   "award": null,
+   "best_for": "Pros measuring large spaces and outdoors.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A feature-packed green-beam meter with 400 ft range, point-to-point measuring, 18 modes and an app, for less than half the price of Bosch's outdoor model.",
+   "pros": [
+    "400 ft green beam",
+    "Point-to-point and app",
+    "USB-C charging"
+   ],
+   "cons": [
+    "Accuracy not stated in the bullets",
+    "549 reviews"
+   ],
+   "specs": {
+    "range": "400 ft (120 m)",
+    "accuracy": null,
+    "beam": "Green",
+    "power": "AA NiMH (included), USB-C charging",
+    "extras": "Point-to-point, 18 modes, app with cloud sync, case"
+   },
+   "features": {
+    "accuracy_1_16": false,
+    "long_range": true,
+    "green_beam": true,
+    "angle_or_app": true
+   },
+   "image": "https://m.media-amazon.com/images/I/6129sQqcnQL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FL6B9LLC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B0FL6B9LLC"
+  },
+  {
+   "rank": 4,
+   "asin": "B076C3TB8P",
+   "name": "Bosch GLM165-40 Blaze Pro 165 Ft. Laser Measure",
+   "brand": "Bosch",
+   "model": "GLM165-40",
+   "price": 99.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 5890,
+   "score": 88,
+   "award": "Best Overall",
+   "best_for": "Contractors and DIYers who want a reliable everyday laser measure.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The best-rated laser measure here: pocket-size, 165 ft range, ±1/16 inch accuracy, a real-time mode that updates as you move and an IP54 rating against rain and dust.",
+   "pros": [
+    "4.7 stars; 5,890 reviews",
+    "165 ft, ±1/16 in",
+    "IP54"
+   ],
+   "cons": [
+    "Red beam"
+   ],
+   "specs": {
+    "range": "165 ft",
+    "accuracy": "±1/16 in",
+    "beam": "Red",
+    "power": null,
+    "extras": "Real-time mode, backlit display, IP54, wrist strap"
+   },
+   "features": {
+    "accuracy_1_16": true,
+    "long_range": true,
+    "green_beam": false,
+    "angle_or_app": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51LXCjQR37L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B076C3TB8P?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B076C3TB8P"
+  },
+  {
+   "rank": 5,
    "asin": "B0FPLD3LL7",
    "name": "RockSeed S2 Digital Laser Distance Meter with 2 Bubble Levels, 165 ft",
    "brand": "RockSeed",
@@ -114,47 +235,7 @@
    "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B0FPLD3LL7"
   },
   {
-   "rank": 3,
-   "asin": "B076C3TB8P",
-   "name": "Bosch GLM165-40 Blaze Pro 165 Ft. Laser Measure",
-   "brand": "Bosch",
-   "model": "GLM165-40",
-   "price": 99.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 5890,
-   "score": 84,
-   "award": "Best Overall",
-   "best_for": "Contractors and DIYers who want a reliable everyday laser measure.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The best-rated laser measure here: pocket-size, 165 ft range, ±1/16 inch accuracy, a real-time mode that updates as you move and an IP54 rating against rain and dust.",
-   "pros": [
-    "4.7 stars; 5,890 reviews",
-    "165 ft, ±1/16 in",
-    "IP54"
-   ],
-   "cons": [
-    "Red beam"
-   ],
-   "specs": {
-    "range": "165 ft",
-    "accuracy": "±1/16 in",
-    "beam": "Red",
-    "power": null,
-    "extras": "Real-time mode, backlit display, IP54, wrist strap"
-   },
-   "features": {
-    "accuracy_1_16": true,
-    "long_range": true,
-    "green_beam": false,
-    "angle_or_app": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51LXCjQR37L._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B076C3TB8P?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B076C3TB8P"
-  },
-  {
-   "rank": 4,
+   "rank": 6,
    "asin": "B0D48DY5YJ",
    "name": "DTAPE High-Accuracy Laser Measure, 2\" Backlit LCD, 330 ft",
    "brand": "DTAPE",
@@ -163,7 +244,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 5232,
-   "score": 82,
+   "score": 86,
    "award": null,
    "best_for": "DIYers who want long range for little money.",
    "bought_last_month": "300+/mo",
@@ -194,125 +275,45 @@
    "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B0D48DY5YJ"
   },
   {
-   "rank": 5,
-   "asin": "B0931YY9LZ",
-   "name": "Bosch GLM165-25G Blaze Green-Beam 165 Ft. Laser Measure",
+   "rank": 7,
+   "asin": "B07L8LWXZB",
+   "name": "BOSCH PRO GLM400C BLAZE Outdoor 400 Ft. Connected Laser Measure",
    "brand": "Bosch",
-   "model": "GLM165-25G",
-   "price": 109.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1564,
-   "score": 82,
-   "award": null,
-   "best_for": "Pros who measure in bright light.",
-   "bought_last_month": "900+/mo",
-   "verdict": "Bosch's green-beam version of its 165 ft measure: a dot up to 4 times brighter than red, easier to see in bright rooms and outdoors.",
-   "pros": [
-    "Green beam",
-    "165 ft, ±1/16 in",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Pricey"
-   ],
-   "specs": {
-    "range": "165 ft",
-    "accuracy": "±1/16 in",
-    "beam": "Green",
-    "power": null,
-    "extras": "Real-time mode, area/volume/indirect"
-   },
-   "features": {
-    "accuracy_1_16": true,
-    "long_range": true,
-    "green_beam": true,
-    "angle_or_app": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51v9CEdI3ZL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0931YY9LZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B0931YY9LZ"
-  },
-  {
-   "rank": 6,
-   "asin": "B0FL6B9LLC",
-   "name": "MILESEEY S50 Green Laser Distance Meter, 400 ft, P2P",
-   "brand": "MILESEEY",
-   "model": "S50",
-   "price": 129.0,
+   "model": "GLM400C",
+   "price": 284.0,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 549,
-   "score": 78,
-   "award": null,
-   "best_for": "Pros measuring large spaces and outdoors.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A feature-packed green-beam meter with 400 ft range, point-to-point measuring, 18 modes and an app, for less than half the price of Bosch's outdoor model.",
+   "reviews_count": 585,
+   "score": 86,
+   "award": "Money No Object",
+   "best_for": "Surveying yards, lots and building exteriors.",
+   "bought_last_month": "50+/mo",
+   "verdict": "Bosch's outdoor meter uses a 5-megapixel zoom viewfinder to find the dot at 400 ft, with Bluetooth to send measurements to your phone and a 360-degree inclinometer.",
    "pros": [
-    "400 ft green beam",
-    "Point-to-point and app",
-    "USB-C charging"
+    "Camera viewfinder",
+    "400 ft range",
+    "Bluetooth and inclinometer"
    ],
    "cons": [
-    "Accuracy not stated in the bullets",
-    "549 reviews"
+    "Most expensive here",
+    "Accuracy not stated in the bullets"
    ],
    "specs": {
-    "range": "400 ft (120 m)",
+    "range": "400 ft",
     "accuracy": null,
-    "beam": "Green",
-    "power": "AA NiMH (included), USB-C charging",
-    "extras": "Point-to-point, 18 modes, app with cloud sync, case"
+    "beam": "Red",
+    "power": null,
+    "extras": "5 MP zoom camera viewfinder, Bluetooth, 360° inclinometer"
    },
    "features": {
     "accuracy_1_16": false,
     "long_range": true,
-    "green_beam": true,
+    "green_beam": false,
     "angle_or_app": true
    },
-   "image": "https://m.media-amazon.com/images/I/6129sQqcnQL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FL6B9LLC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B0FL6B9LLC"
-  },
-  {
-   "rank": 7,
-   "asin": "B0C76CPGC7",
-   "name": "BOSCH GLM100-23 100 Ft Blaze Laser Distance Measure",
-   "brand": "Bosch",
-   "model": "GLM100-23",
-   "price": 48.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2783,
-   "score": 75,
-   "award": null,
-   "best_for": "Anyone who wants the simplest name-brand laser measure.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "Bosch's simple two-button laser measure: 100 ft to within 1/16 inch, with nothing to learn.",
-   "pros": [
-    "7,000+ sold last month",
-    "Two-button simple",
-    "4.6 stars"
-   ],
-   "cons": [
-    "100 ft range"
-   ],
-   "specs": {
-    "range": "100 ft",
-    "accuracy": "±1/16 in",
-    "beam": "Red",
-    "power": "2 AA (included)",
-    "extras": "Two-button operation"
-   },
-   "features": {
-    "accuracy_1_16": true,
-    "long_range": false,
-    "green_beam": false,
-    "angle_or_app": false
-   },
-   "image": "https://m.media-amazon.com/images/I/518l-mjGtdL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C76CPGC7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B0C76CPGC7"
+   "image": "https://m.media-amazon.com/images/I/51+E7xqQSLL._AC_SL1400_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07L8LWXZB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B07L8LWXZB"
   },
   {
    "rank": 8,
@@ -324,7 +325,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 594,
-   "score": 73,
+   "score": 85,
    "award": null,
    "best_for": "Gadget lovers who want a tape and a laser in one.",
    "bought_last_month": "1K+/mo",
@@ -357,44 +358,43 @@
   },
   {
    "rank": 9,
-   "asin": "B07L8LWXZB",
-   "name": "BOSCH PRO GLM400C BLAZE Outdoor 400 Ft. Connected Laser Measure",
+   "asin": "B0C76CPGC7",
+   "name": "BOSCH GLM100-23 100 Ft Blaze Laser Distance Measure",
    "brand": "Bosch",
-   "model": "GLM400C",
-   "price": 284.0,
+   "model": "GLM100-23",
+   "price": 48.99,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 585,
-   "score": 73,
-   "award": "Money No Object",
-   "best_for": "Surveying yards, lots and building exteriors.",
-   "bought_last_month": "50+/mo",
-   "verdict": "Bosch's outdoor meter uses a 5-megapixel zoom viewfinder to find the dot at 400 ft, with Bluetooth to send measurements to your phone and a 360-degree inclinometer.",
+   "rating": 4.6,
+   "reviews_count": 2783,
+   "score": 82,
+   "award": null,
+   "best_for": "Anyone who wants the simplest name-brand laser measure.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "Bosch's simple two-button laser measure: 100 ft to within 1/16 inch, with nothing to learn.",
    "pros": [
-    "Camera viewfinder",
-    "400 ft range",
-    "Bluetooth and inclinometer"
+    "7,000+ sold last month",
+    "Two-button simple",
+    "4.6 stars"
    ],
    "cons": [
-    "Most expensive here",
-    "Accuracy not stated in the bullets"
+    "100 ft range"
    ],
    "specs": {
-    "range": "400 ft",
-    "accuracy": null,
+    "range": "100 ft",
+    "accuracy": "±1/16 in",
     "beam": "Red",
-    "power": null,
-    "extras": "5 MP zoom camera viewfinder, Bluetooth, 360° inclinometer"
+    "power": "2 AA (included)",
+    "extras": "Two-button operation"
    },
    "features": {
-    "accuracy_1_16": false,
-    "long_range": true,
+    "accuracy_1_16": true,
+    "long_range": false,
     "green_beam": false,
-    "angle_or_app": true
+    "angle_or_app": false
    },
-   "image": "https://m.media-amazon.com/images/I/51+E7xqQSLL._AC_SL1400_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07L8LWXZB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B07L8LWXZB"
+   "image": "https://m.media-amazon.com/images/I/518l-mjGtdL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C76CPGC7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-distance-measures.html#B0C76CPGC7"
   },
   {
    "rank": 10,
@@ -406,7 +406,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1170,
-   "score": 71,
+   "score": 82,
    "award": null,
    "best_for": "Electricians who want a pocket-size measure on their belt.",
    "bought_last_month": "1K+/mo",

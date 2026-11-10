@@ -22,7 +22,7 @@
    "kit": 0.25,
    "vac_port": 0.2
   },
-  "reviews_ceiling": 14000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,48 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B07JY2MWLF",
+   "name": "DEWALT 20V MAX Random Orbital Sander Kit (DCW210P1)",
+   "brand": "DEWALT",
+   "model": "DCW210P1",
+   "price": 187.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 483,
+   "score": 97,
+   "award": "Best Overall",
+   "best_for": "Starting fresh and wanting a brushless sander with a big 5.0Ah battery.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The most complete package on this list. It's the same brushless DCW210B tool below, but sold with a 5.0Ah battery and charger so it's ready to sand out of the box. The variable-speed dial runs 8,000 to 12,000 OPM, and the sander attaches directly to a DEWALT dust collector or the included locking dust bag.",
+   "pros": [
+    "Ships with a 5.0Ah battery and charger, not just the bare tool",
+    "Brushless motor with an 8,000–12,000 OPM variable-speed dial",
+    "Attaches directly to DWV010/012 dust collectors, not just a bag"
+   ],
+   "cons": [
+    "The most expensive tool on this list by a wide margin",
+    "Overkill if you already own a DEWALT 20V battery"
+   ],
+   "specs": {
+    "voltage": "20V",
+    "pad": "5\"",
+    "opm": "8,000–12,000 OPM",
+    "speed": "Variable",
+    "dust": "Dust bag + DWV010/012 dust collector port",
+    "weight": null
+   },
+   "features": {
+    "brushless": true,
+    "variable_speed": true,
+    "kit": true,
+    "vac_port": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61xTuWYhc7L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07JY2MWLF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B07JY2MWLF"
+  },
+  {
+   "rank": 2,
    "asin": "B07JQM7C28",
    "name": "DEWALT 20V MAX Orbital Sander, Tool Only (DCW210B)",
    "brand": "DEWALT",
@@ -76,133 +118,7 @@
    "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B07JQM7C28"
   },
   {
-   "rank": 2,
-   "asin": "B07JY2MWLF",
-   "name": "DEWALT 20V MAX Random Orbital Sander Kit (DCW210P1)",
-   "brand": "DEWALT",
-   "model": "DCW210P1",
-   "price": 187.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 483,
-   "score": 85,
-   "award": "Best Overall",
-   "best_for": "Starting fresh and wanting a brushless sander with a big 5.0Ah battery.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The most complete package on this list. It's the same brushless DCW210B tool below, but sold with a 5.0Ah battery and charger so it's ready to sand out of the box. The variable-speed dial runs 8,000 to 12,000 OPM, and the sander attaches directly to a DEWALT dust collector or the included locking dust bag.",
-   "pros": [
-    "Ships with a 5.0Ah battery and charger, not just the bare tool",
-    "Brushless motor with an 8,000–12,000 OPM variable-speed dial",
-    "Attaches directly to DWV010/012 dust collectors, not just a bag"
-   ],
-   "cons": [
-    "The most expensive tool on this list by a wide margin",
-    "Overkill if you already own a DEWALT 20V battery"
-   ],
-   "specs": {
-    "voltage": "20V",
-    "pad": "5\"",
-    "opm": "8,000–12,000 OPM",
-    "speed": "Variable",
-    "dust": "Dust bag + DWV010/012 dust collector port",
-    "weight": null
-   },
-   "features": {
-    "brushless": true,
-    "variable_speed": true,
-    "kit": true,
-    "vac_port": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61xTuWYhc7L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07JY2MWLF?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B07JY2MWLF"
-  },
-  {
    "rank": 3,
-   "asin": "B07BM93DK1",
-   "name": "Milwaukee Electric Tools 2648-20 M18 Random Orbit Sander",
-   "brand": "Milwaukee",
-   "model": "2648-20",
-   "price": 118.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 3621,
-   "score": 77,
-   "award": null,
-   "best_for": "Milwaukee M18 owners who want fast material removal.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The pick for anyone already on Milwaukee's M18 platform. A powerful motor and a 7,000–12,000 OPM variable-speed dial let it remove more material per battery charge, with up to 35 minutes of runtime on a 3.0Ah pack.",
-   "pros": [
-    "3,621 reviews at 4.7 stars, 600+ bought last month",
-    "Powerful motor removes material fast for a cordless sander",
-    "Up to 35 minutes of runtime on a 3.0Ah M18 battery"
-   ],
-   "cons": [
-    "Tool only — no battery, charger, or case included",
-    "Among the pricier bare tools on this list"
-   ],
-   "specs": {
-    "voltage": "18V",
-    "pad": "5\"",
-    "opm": "7,000–12,000 OPM",
-    "speed": "Variable",
-    "dust": "Dust bag",
-    "weight": null
-   },
-   "features": {
-    "brushless": false,
-    "variable_speed": true,
-    "kit": false,
-    "vac_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51IKdV-NZnL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07BM93DK1?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B07BM93DK1"
-  },
-  {
-   "rank": 4,
-   "asin": "B00M9CXMNY",
-   "name": "Makita XOB01Z 18V LXT Lithium-Ion Cordless 5\" Random Orbit Sander, Tool Only",
-   "brand": "Makita",
-   "model": "XOB01Z",
-   "price": 129.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 2850,
-   "score": 77,
-   "award": null,
-   "best_for": "Makita LXT owners who want a cleaner finish from the pad brake.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The highest-rated sander on this list at 4.8 stars across 2,850 reviews. Three fixed speed settings (7,000/9,500/11,000 OPM) switch with a one-touch control, a pad brake cuts down free-spin for a cleaner finish, and Makita rates it for up to 40 minutes of runtime per charge.",
-   "pros": [
-    "4.8 stars across 2,850 reviews, the best rating on this list",
-    "Pad brake reduces free-spin for a cleaner finish",
-    "Up to 40 minutes of runtime on a single charge"
-   ],
-   "cons": [
-    "Tool only — battery and charger sold separately",
-    "Three fixed speeds rather than a full variable dial"
-   ],
-   "specs": {
-    "voltage": "18V",
-    "pad": "5\"",
-    "opm": "7,000/9,500/11,000 OPM (3-speed)",
-    "speed": "3-speed",
-    "dust": "Dust bag",
-    "weight": null
-   },
-   "features": {
-    "brushless": false,
-    "variable_speed": true,
-    "kit": false,
-    "vac_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61h6REDxbCL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00M9CXMNY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B00M9CXMNY"
-  },
-  {
-   "rank": 5,
    "asin": "B0D17S7D1B",
    "name": "AVID POWER 20V Cordless Random Orbital Sander Tool 5\", 6 Variable Speeds",
    "brand": "AVID POWER",
@@ -211,7 +127,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 652,
-   "score": 74,
+   "score": 86,
    "award": "Best Budget",
    "best_for": "The cheapest complete cordless sanding kit here, with 30 sandpapers included.",
    "bought_last_month": "100+/mo",
@@ -244,91 +160,7 @@
    "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B0D17S7D1B"
   },
   {
-   "rank": 6,
-   "asin": "B07456PWNL",
-   "name": "BLACK+DECKER 20V MAX Orbital Sander, Cordless, 12,000 OPM, Battery and Charger Included (BDCRO20C)",
-   "brand": "BLACK+DECKER",
-   "model": "BDCRO20C",
-   "price": 89.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2610,
-   "score": 73,
-   "award": null,
-   "best_for": "A complete kit whose battery also runs other BLACK+DECKER 20V MAX tools.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A complete kit — sander, 1.5Ah battery, charger, and two sandpaper sheets — for under $90. A fixed 12,000 OPM and a compact body keep muscle fatigue down on longer jobs, and the battery works across BLACK+DECKER's 20V MAX lineup.",
-   "pros": [
-    "2,610 reviews, the second-most of any sander here",
-    "Complete kit with battery and charger included",
-    "Battery is interchangeable with other BLACK+DECKER 20V MAX tools"
-   ],
-   "cons": [
-    "Single speed, no dial",
-    "Battery life runs short on the included 1.5Ah pack"
-   ],
-   "specs": {
-    "voltage": "20V",
-    "pad": "5\"",
-    "opm": "12,000 OPM",
-    "speed": "Single",
-    "dust": "Dust bag",
-    "weight": null
-   },
-   "features": {
-    "brushless": false,
-    "variable_speed": false,
-    "kit": true,
-    "vac_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71gSXf60T-L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07456PWNL?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B07456PWNL"
-  },
-  {
-   "rank": 7,
-   "asin": "B07KKH44P8",
-   "name": "CRAFTSMAN V20 Orbital Sander, Cordless, 12,000 OPM, Bare Tool Only (CMCW220B)",
-   "brand": "CRAFTSMAN",
-   "model": "CMCW220B",
-   "price": 58.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1509,
-   "score": 72,
-   "award": null,
-   "best_for": "CRAFTSMAN V20 owners who want a cheap name-brand sander with a vac port.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A low-priced bare tool from a major brand, and a fair trade if you don't need a speed dial. A fixed 12,000 OPM, a low-profile body, and a dust-sealed switch cover most sanding jobs, with a port that connects to a 1-1/4\" shop-vac hose.",
-   "pros": [
-    "1,509 reviews at 4.6 stars, 400+ bought last month",
-    "Cheaper than the DEWALT, Milwaukee and Makita bare tools",
-    "Dust port fits a 1-1/4\" shop-vac hose, not just the bag"
-   ],
-   "cons": [
-    "Single speed — no dial for delicate finishing",
-    "Tool only — battery and charger sold separately"
-   ],
-   "specs": {
-    "voltage": "20V",
-    "pad": "5\"",
-    "opm": "12,000 OPM max",
-    "speed": "Single",
-    "dust": "Dust bag + 1-1/4\" vac hose port",
-    "weight": null
-   },
-   "features": {
-    "brushless": false,
-    "variable_speed": false,
-    "kit": false,
-    "vac_port": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71U8G0kbNKL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07KKH44P8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B07KKH44P8"
-  },
-  {
-   "rank": 8,
+   "rank": 4,
    "asin": "B0B7KC42YG",
    "name": "Metabo HPT Cordless Random Orbital Sander, 18V 6 Speed, SV1813DAQ4",
    "brand": "Metabo HPT",
@@ -337,7 +169,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 149,
-   "score": 71,
+   "score": 85,
    "award": null,
    "best_for": "Long sanding sessions with a light 2.6 lb name-brand tool and a 5-year warranty.",
    "bought_last_month": "50+/mo",
@@ -370,7 +202,7 @@
    "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B0B7KC42YG"
   },
   {
-   "rank": 9,
+   "rank": 5,
    "asin": "B0FJXRW4JR",
    "name": "PANDAX Cordless Random Orbital Sander Compatible with DeWalt 20V MAX Battery, Tool Only, 5\" Brushless",
    "brand": "PANDAX",
@@ -379,7 +211,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 103,
-   "score": 69,
+   "score": 84,
    "award": null,
    "best_for": "DeWalt 20V owners who want a brushless sander for about half the price of the DCW210B.",
    "bought_last_month": "200+/mo",
@@ -413,6 +245,174 @@
    "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B0FJXRW4JR"
   },
   {
+   "rank": 6,
+   "asin": "B00M9CXMNY",
+   "name": "Makita XOB01Z 18V LXT Lithium-Ion Cordless 5\" Random Orbit Sander, Tool Only",
+   "brand": "Makita",
+   "model": "XOB01Z",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 2850,
+   "score": 83,
+   "award": null,
+   "best_for": "Makita LXT owners who want a cleaner finish from the pad brake.",
+   "bought_last_month": "300+/mo",
+   "verdict": "The highest-rated sander on this list at 4.8 stars across 2,850 reviews. Three fixed speed settings (7,000/9,500/11,000 OPM) switch with a one-touch control, a pad brake cuts down free-spin for a cleaner finish, and Makita rates it for up to 40 minutes of runtime per charge.",
+   "pros": [
+    "4.8 stars across 2,850 reviews, the best rating on this list",
+    "Pad brake reduces free-spin for a cleaner finish",
+    "Up to 40 minutes of runtime on a single charge"
+   ],
+   "cons": [
+    "Tool only — battery and charger sold separately",
+    "Three fixed speeds rather than a full variable dial"
+   ],
+   "specs": {
+    "voltage": "18V",
+    "pad": "5\"",
+    "opm": "7,000/9,500/11,000 OPM (3-speed)",
+    "speed": "3-speed",
+    "dust": "Dust bag",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "variable_speed": true,
+    "kit": false,
+    "vac_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61h6REDxbCL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00M9CXMNY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B00M9CXMNY"
+  },
+  {
+   "rank": 7,
+   "asin": "B07BM93DK1",
+   "name": "Milwaukee Electric Tools 2648-20 M18 Random Orbit Sander",
+   "brand": "Milwaukee",
+   "model": "2648-20",
+   "price": 118.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 3621,
+   "score": 82,
+   "award": null,
+   "best_for": "Milwaukee M18 owners who want fast material removal.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The pick for anyone already on Milwaukee's M18 platform. A powerful motor and a 7,000–12,000 OPM variable-speed dial let it remove more material per battery charge, with up to 35 minutes of runtime on a 3.0Ah pack.",
+   "pros": [
+    "3,621 reviews at 4.7 stars, 600+ bought last month",
+    "Powerful motor removes material fast for a cordless sander",
+    "Up to 35 minutes of runtime on a 3.0Ah M18 battery"
+   ],
+   "cons": [
+    "Tool only — no battery, charger, or case included",
+    "Among the pricier bare tools on this list"
+   ],
+   "specs": {
+    "voltage": "18V",
+    "pad": "5\"",
+    "opm": "7,000–12,000 OPM",
+    "speed": "Variable",
+    "dust": "Dust bag",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "variable_speed": true,
+    "kit": false,
+    "vac_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51IKdV-NZnL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07BM93DK1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B07BM93DK1"
+  },
+  {
+   "rank": 8,
+   "asin": "B07456PWNL",
+   "name": "BLACK+DECKER 20V MAX Orbital Sander, Cordless, 12,000 OPM, Battery and Charger Included (BDCRO20C)",
+   "brand": "BLACK+DECKER",
+   "model": "BDCRO20C",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2610,
+   "score": 80,
+   "award": null,
+   "best_for": "A complete kit whose battery also runs other BLACK+DECKER 20V MAX tools.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A complete kit — sander, 1.5Ah battery, charger, and two sandpaper sheets — for under $90. A fixed 12,000 OPM and a compact body keep muscle fatigue down on longer jobs, and the battery works across BLACK+DECKER's 20V MAX lineup.",
+   "pros": [
+    "2,610 reviews, the second-most of any sander here",
+    "Complete kit with battery and charger included",
+    "Battery is interchangeable with other BLACK+DECKER 20V MAX tools"
+   ],
+   "cons": [
+    "Single speed, no dial",
+    "Battery life runs short on the included 1.5Ah pack"
+   ],
+   "specs": {
+    "voltage": "20V",
+    "pad": "5\"",
+    "opm": "12,000 OPM",
+    "speed": "Single",
+    "dust": "Dust bag",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "variable_speed": false,
+    "kit": true,
+    "vac_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71gSXf60T-L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07456PWNL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B07456PWNL"
+  },
+  {
+   "rank": 9,
+   "asin": "B07KKH44P8",
+   "name": "CRAFTSMAN V20 Orbital Sander, Cordless, 12,000 OPM, Bare Tool Only (CMCW220B)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCW220B",
+   "price": 58.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1509,
+   "score": 80,
+   "award": null,
+   "best_for": "CRAFTSMAN V20 owners who want a cheap name-brand sander with a vac port.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A low-priced bare tool from a major brand, and a fair trade if you don't need a speed dial. A fixed 12,000 OPM, a low-profile body, and a dust-sealed switch cover most sanding jobs, with a port that connects to a 1-1/4\" shop-vac hose.",
+   "pros": [
+    "1,509 reviews at 4.6 stars, 400+ bought last month",
+    "Cheaper than the DEWALT, Milwaukee and Makita bare tools",
+    "Dust port fits a 1-1/4\" shop-vac hose, not just the bag"
+   ],
+   "cons": [
+    "Single speed — no dial for delicate finishing",
+    "Tool only — battery and charger sold separately"
+   ],
+   "specs": {
+    "voltage": "20V",
+    "pad": "5\"",
+    "opm": "12,000 OPM max",
+    "speed": "Single",
+    "dust": "Dust bag + 1-1/4\" vac hose port",
+    "weight": null
+   },
+   "features": {
+    "brushless": false,
+    "variable_speed": false,
+    "kit": false,
+    "vac_port": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71U8G0kbNKL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07KKH44P8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-random-orbital-sanders.html#B07KKH44P8"
+  },
+  {
    "rank": 10,
    "asin": "B0BSJ97BSR",
    "name": "RYOBI 18V ONE+ 5\" Random Orbit Sander Cordless",
@@ -422,7 +422,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 138,
-   "score": 63,
+   "score": 78,
    "award": null,
    "best_for": "RYOBI ONE+ owners who want a vac port that takes two hose sizes.",
    "bought_last_month": "200+/mo",

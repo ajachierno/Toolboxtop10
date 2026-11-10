@@ -22,7 +22,7 @@
    "fractions": 0.2,
    "data_port": 0.2
   },
-  "reviews_ceiling": 20000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 10,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 8891,
-   "score": 94,
+   "score": 96,
    "award": null,
    "best_for": "Getting every feature for the lowest price.",
    "bought_last_month": "1K+/mo",
@@ -76,47 +76,6 @@
   },
   {
    "rank": 2,
-   "asin": "B07X8JQ8L5",
-   "name": "Kynup Digital Caliper, Stainless Steel, 6 Inch (170)",
-   "brand": "Kynup",
-   "model": "170",
-   "price": 23.98,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 11983,
-   "score": 86,
-   "award": null,
-   "best_for": "3D printing, woodworking and general shop use on a budget.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "A widely reviewed steel caliper: polished stainless steel, ±0.001-inch accuracy, three units including fractions, and spare batteries and a case in the box, for about $24.",
-   "pros": [
-    "11,983 reviews at 4.6 stars",
-    "Stainless steel, ±0.001 in",
-    "Spare batteries and case"
-   ],
-   "cons": [
-    "No IP rating",
-    "Resolution not listed"
-   ],
-   "specs": {
-    "body": "Stainless steel",
-    "accuracy": "±0.001 in / 0.02 mm",
-    "resolution": null,
-    "modes": "3 modes (inch, mm, fractions)",
-    "extras": "Auto-off, 3 spare cells, screwdriver, case"
-   },
-   "features": {
-    "steel": true,
-    "ip54": false,
-    "fractions": true,
-    "data_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71iAR6ETGLL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07X8JQ8L5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/digital-calipers.html#B07X8JQ8L5"
-  },
-  {
-   "rank": 3,
    "asin": "B001AQEZ2W",
    "name": "iGaging IP54 Electronic Digital Caliper 0-6\", Inch/Metric/Fractions, Stainless Steel",
    "brand": "iGaging",
@@ -125,7 +84,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3360,
-   "score": 86,
+   "score": 92,
    "award": "Best Overall",
    "best_for": "Woodworking and machining where shop dust and oil are everywhere.",
    "bought_last_month": "400+/mo",
@@ -157,89 +116,7 @@
    "page_url": "https://toolboxtop10.com/digital-calipers.html#B001AQEZ2W"
   },
   {
-   "rank": 4,
-   "asin": "B000GSLKIW",
-   "name": "NEIKO 01407A Electronic Digital Caliper, 0-6 Inches, Stainless Steel, Inch/Fraction/mm",
-   "brand": "NEIKO",
-   "model": "01407A",
-   "price": 27.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 19421,
-   "score": 85,
-   "award": null,
-   "best_for": "A proven steel caliper with a case.",
-   "bought_last_month": null,
-   "verdict": "A long-time best seller with 19,421 reviews: stainless steel, a knurled thumb roller, three units including fractions and a case.",
-   "pros": [
-    "19,421 reviews",
-    "Inch, fraction and mm",
-    "Case included"
-   ],
-   "cons": [
-    "4.4 stars",
-    "No IP rating"
-   ],
-   "specs": {
-    "body": "Stainless steel",
-    "accuracy": "0.001 in / 0.02 mm",
-    "resolution": null,
-    "modes": "Inch, fractions, mm",
-    "extras": "Knurled thumb roller, case"
-   },
-   "features": {
-    "steel": true,
-    "ip54": false,
-    "fractions": true,
-    "data_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61zdzua+T6L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000GSLKIW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/digital-calipers.html#B000GSLKIW"
-  },
-  {
-   "rank": 5,
-   "asin": "B08Y8M54M9",
-   "name": "Jiavarry Digital Caliper, Stainless Steel, Inch/Metric/Fraction, 6 Inch",
-   "brand": "Jiavarry",
-   "model": "6 in",
-   "price": 19.98,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 8943,
-   "score": 84,
-   "award": null,
-   "best_for": "General shop measuring.",
-   "bought_last_month": "7K+/mo",
-   "verdict": "One of the best-selling steel calipers: stainless body, fraction readout and four measuring modes.",
-   "pros": [
-    "8,000+ sold last month",
-    "Stainless steel, ±0.001 in",
-    "Fractions"
-   ],
-   "cons": [
-    "No IP rating",
-    "The VINCA adds more for less"
-   ],
-   "specs": {
-    "body": "Stainless steel",
-    "accuracy": "±0.001 in / 0.02 mm",
-    "resolution": null,
-    "modes": "Inch, mm, fractions",
-    "extras": "Zero at any position"
-   },
-   "features": {
-    "steel": true,
-    "ip54": false,
-    "fractions": true,
-    "data_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/613ogMkDwQS._AC_SL1001_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08Y8M54M9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/digital-calipers.html#B08Y8M54M9"
-  },
-  {
-   "rank": 6,
+   "rank": 3,
    "asin": "B00INL0BTS",
    "name": "iGAGING Absolute Origin 0-6\" Digital Caliper, IP54, SPC/USB Output Port, Case",
    "brand": "iGAGING",
@@ -248,7 +125,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1901,
-   "score": 83,
+   "score": 92,
    "award": null,
    "best_for": "Machinists and anyone logging measurements.",
    "bought_last_month": "1K+/mo",
@@ -280,7 +157,7 @@
    "page_url": "https://toolboxtop10.com/digital-calipers.html#B00INL0BTS"
   },
   {
-   "rank": 7,
+   "rank": 4,
    "asin": "B000UCIGCW",
    "name": "General Tools Digital Caliper #147, 6\", Stainless Steel",
    "brand": "General Tools",
@@ -289,7 +166,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 903,
-   "score": 77,
+   "score": 88,
    "award": null,
    "best_for": "Woodworkers who don't want steel jaws marring workpieces.",
    "bought_last_month": "200+/mo",
@@ -321,7 +198,212 @@
    "page_url": "https://toolboxtop10.com/digital-calipers.html#B000UCIGCW"
   },
   {
+   "rank": 5,
+   "asin": "B07X8JQ8L5",
+   "name": "Kynup Digital Caliper, Stainless Steel, 6 Inch (170)",
+   "brand": "Kynup",
+   "model": "170",
+   "price": 23.98,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 11983,
+   "score": 87,
+   "award": null,
+   "best_for": "3D printing, woodworking and general shop use on a budget.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "A widely reviewed steel caliper: polished stainless steel, ±0.001-inch accuracy, three units including fractions, and spare batteries and a case in the box, for about $24.",
+   "pros": [
+    "11,983 reviews at 4.6 stars",
+    "Stainless steel, ±0.001 in",
+    "Spare batteries and case"
+   ],
+   "cons": [
+    "No IP rating",
+    "Resolution not listed"
+   ],
+   "specs": {
+    "body": "Stainless steel",
+    "accuracy": "±0.001 in / 0.02 mm",
+    "resolution": null,
+    "modes": "3 modes (inch, mm, fractions)",
+    "extras": "Auto-off, 3 spare cells, screwdriver, case"
+   },
+   "features": {
+    "steel": true,
+    "ip54": false,
+    "fractions": true,
+    "data_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71iAR6ETGLL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07X8JQ8L5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/digital-calipers.html#B07X8JQ8L5"
+  },
+  {
+   "rank": 6,
+   "asin": "B000GSLKIW",
+   "name": "NEIKO 01407A Electronic Digital Caliper, 0-6 Inches, Stainless Steel, Inch/Fraction/mm",
+   "brand": "NEIKO",
+   "model": "01407A",
+   "price": 27.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 19421,
+   "score": 86,
+   "award": null,
+   "best_for": "A proven steel caliper with a case.",
+   "bought_last_month": null,
+   "verdict": "A long-time best seller with 19,421 reviews: stainless steel, a knurled thumb roller, three units including fractions and a case.",
+   "pros": [
+    "19,421 reviews",
+    "Inch, fraction and mm",
+    "Case included"
+   ],
+   "cons": [
+    "4.4 stars",
+    "No IP rating"
+   ],
+   "specs": {
+    "body": "Stainless steel",
+    "accuracy": "0.001 in / 0.02 mm",
+    "resolution": null,
+    "modes": "Inch, fractions, mm",
+    "extras": "Knurled thumb roller, case"
+   },
+   "features": {
+    "steel": true,
+    "ip54": false,
+    "fractions": true,
+    "data_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61zdzua+T6L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000GSLKIW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/digital-calipers.html#B000GSLKIW"
+  },
+  {
+   "rank": 7,
+   "asin": "B08Y8M54M9",
+   "name": "Jiavarry Digital Caliper, Stainless Steel, Inch/Metric/Fraction, 6 Inch",
+   "brand": "Jiavarry",
+   "model": "6 in",
+   "price": 19.98,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 8943,
+   "score": 86,
+   "award": null,
+   "best_for": "General shop measuring.",
+   "bought_last_month": "7K+/mo",
+   "verdict": "One of the best-selling steel calipers: stainless body, fraction readout and four measuring modes.",
+   "pros": [
+    "8,000+ sold last month",
+    "Stainless steel, ±0.001 in",
+    "Fractions"
+   ],
+   "cons": [
+    "No IP rating",
+    "The VINCA adds more for less"
+   ],
+   "specs": {
+    "body": "Stainless steel",
+    "accuracy": "±0.001 in / 0.02 mm",
+    "resolution": null,
+    "modes": "Inch, mm, fractions",
+    "extras": "Zero at any position"
+   },
+   "features": {
+    "steel": true,
+    "ip54": false,
+    "fractions": true,
+    "data_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/613ogMkDwQS._AC_SL1001_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08Y8M54M9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/digital-calipers.html#B08Y8M54M9"
+  },
+  {
    "rank": 8,
+   "asin": "B0015S6GMM",
+   "name": "Fowler 54-101-150-2 Xtra-Value Cal Digital Caliper, 0-6\"/150mm",
+   "brand": "Fowler",
+   "model": "54-101-150-2",
+   "price": 78.05,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 855,
+   "score": 83,
+   "award": null,
+   "best_for": "Machine shops that want a known metrology brand.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A machinist-brand caliper with 0.0005-inch resolution, CR2032 batteries that last longer than button cells, a protective case and a full 1-year warranty.",
+   "pros": [
+    "0.0005-in resolution",
+    "CR2032 batteries",
+    "1-year warranty"
+   ],
+   "cons": [
+    "$78.05",
+    "No IP rating or fractions"
+   ],
+   "specs": {
+    "body": "Stainless steel",
+    "accuracy": "±0.001 in / 0.02 mm",
+    "resolution": "0.0005 in / 0.01 mm",
+    "modes": "Inch, mm",
+    "extras": "2 CR2032 batteries, case, 1-year warranty"
+   },
+   "features": {
+    "steel": true,
+    "ip54": false,
+    "fractions": false,
+    "data_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41Ngm-7P6UL._SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0015S6GMM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/digital-calipers.html#B0015S6GMM"
+  },
+  {
+   "rank": 9,
+   "asin": "B00WSOU772",
+   "name": "Starrett Stainless Steel Electronic Slide Caliper, 0-6\" Range, .0005\" Res",
+   "brand": "Starrett",
+   "model": "Electronic slide caliper 0-6 in",
+   "price": 139.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 380,
+   "score": 82,
+   "award": "Money No Object",
+   "best_for": "Machinists who want Starrett on the bench.",
+   "bought_last_month": "300+/mo",
+   "verdict": "Starrett's electronic caliper: hardened stainless measuring surfaces, a fine-adjustment thumbwheel and 0.0005-inch resolution from the best-known name in American precision tools.",
+   "pros": [
+    "Starrett build quality",
+    "Fine-adjust thumbwheel",
+    "0.0005-in resolution"
+   ],
+   "cons": [
+    "$139.99",
+    "No IP rating or data port"
+   ],
+   "specs": {
+    "body": "Hardened stainless steel",
+    "accuracy": "±0.001 in / ±0.02 mm",
+    "resolution": "0.0005 in / 0.01 mm",
+    "modes": "Inch, mm",
+    "extras": "Fine adjustment thumbwheel, 30-min auto-off"
+   },
+   "features": {
+    "steel": true,
+    "ip54": false,
+    "fractions": false,
+    "data_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41ZavzT9LJL._SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00WSOU772?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/digital-calipers.html#B00WSOU772"
+  },
+  {
+   "rank": 10,
    "asin": "B07DFFYCXS",
    "name": "Adoric Digital Caliper 0-6 Inch, Inch/mm Conversion, Large LCD",
    "brand": "Adoric",
@@ -360,88 +442,6 @@
    "image": "https://m.media-amazon.com/images/I/614gKlEGiwL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07DFFYCXS?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/digital-calipers.html#B07DFFYCXS"
-  },
-  {
-   "rank": 9,
-   "asin": "B0015S6GMM",
-   "name": "Fowler 54-101-150-2 Xtra-Value Cal Digital Caliper, 0-6\"/150mm",
-   "brand": "Fowler",
-   "model": "54-101-150-2",
-   "price": 78.05,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 855,
-   "score": 72,
-   "award": null,
-   "best_for": "Machine shops that want a known metrology brand.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A machinist-brand caliper with 0.0005-inch resolution, CR2032 batteries that last longer than button cells, a protective case and a full 1-year warranty.",
-   "pros": [
-    "0.0005-in resolution",
-    "CR2032 batteries",
-    "1-year warranty"
-   ],
-   "cons": [
-    "$78.05",
-    "No IP rating or fractions"
-   ],
-   "specs": {
-    "body": "Stainless steel",
-    "accuracy": "±0.001 in / 0.02 mm",
-    "resolution": "0.0005 in / 0.01 mm",
-    "modes": "Inch, mm",
-    "extras": "2 CR2032 batteries, case, 1-year warranty"
-   },
-   "features": {
-    "steel": true,
-    "ip54": false,
-    "fractions": false,
-    "data_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41Ngm-7P6UL._SL1200_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0015S6GMM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/digital-calipers.html#B0015S6GMM"
-  },
-  {
-   "rank": 10,
-   "asin": "B00WSOU772",
-   "name": "Starrett Stainless Steel Electronic Slide Caliper, 0-6\" Range, .0005\" Res",
-   "brand": "Starrett",
-   "model": "Electronic slide caliper 0-6 in",
-   "price": 139.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 380,
-   "score": 69,
-   "award": "Money No Object",
-   "best_for": "Machinists who want Starrett on the bench.",
-   "bought_last_month": "300+/mo",
-   "verdict": "Starrett's electronic caliper: hardened stainless measuring surfaces, a fine-adjustment thumbwheel and 0.0005-inch resolution from the best-known name in American precision tools.",
-   "pros": [
-    "Starrett build quality",
-    "Fine-adjust thumbwheel",
-    "0.0005-in resolution"
-   ],
-   "cons": [
-    "$139.99",
-    "No IP rating or data port"
-   ],
-   "specs": {
-    "body": "Hardened stainless steel",
-    "accuracy": "±0.001 in / ±0.02 mm",
-    "resolution": "0.0005 in / 0.01 mm",
-    "modes": "Inch, mm",
-    "extras": "Fine adjustment thumbwheel, 30-min auto-off"
-   },
-   "features": {
-    "steel": true,
-    "ip54": false,
-    "fractions": false,
-    "data_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41ZavzT9LJL._SL1200_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00WSOU772?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/digital-calipers.html#B00WSOU772"
   }
  ],
  "avoid": [

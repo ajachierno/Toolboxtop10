@@ -22,7 +22,7 @@
    "kit": 0.2,
    "long_warranty": 0.2
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 220,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 842,
-   "score": 89,
+   "score": 93,
    "award": "Money No Object",
    "best_for": "Starting on DEWALT 20V with a finish nailer.",
    "bought_last_month": null,
@@ -76,6 +76,47 @@
   },
   {
    "rank": 2,
+   "asin": "B0BTTYJWF3",
+   "name": "Metabo HPT 18V MultiVolt Brushless Cordless 16 Gauge Straight Finish Nailer Kit (NT1865DMST)",
+   "brand": "Metabo HPT",
+   "model": "NT1865DMST",
+   "price": 384.28,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 90,
+   "score": 90,
+   "award": null,
+   "best_for": "Trim pros who want air-nailer feel and a lifetime warranty.",
+   "bought_last_month": null,
+   "verdict": "An air-spring drive that fires with no ramp-up, like a pneumatic, plus a selective actuation switch, battery, charger and bag, and Metabo HPT's lifetime tool-body warranty.",
+   "pros": [
+    "Air-spring drive, no ramp-up",
+    "Lifetime tool-body warranty",
+    "Battery and charger included"
+   ],
+   "cons": [
+    "$384.28",
+    "Smaller review base"
+   ],
+   "specs": {
+    "battery": "Metabo HPT 18V MultiVolt (2.0Ah included)",
+    "gauge": "16, straight",
+    "nails": "1 to 2-1/2 in",
+    "weight": "6.5 lb",
+    "per_charge": null
+   },
+   "features": {
+    "brushless": true,
+    "selective": true,
+    "kit": true,
+    "long_warranty": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71exk0WhQkL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BTTYJWF3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-finish-nailers.html#B0BTTYJWF3"
+  },
+  {
+   "rank": 3,
    "asin": "B0195KBAVI",
    "name": "DEWALT 20V MAX Finish Nailer, Angled, 16GA, Tool Only (DCN660B)",
    "brand": "DEWALT",
@@ -116,7 +157,7 @@
    "page_url": "https://toolboxtop10.com/cordless-finish-nailers.html#B0195KBAVI"
   },
   {
-   "rank": 3,
+   "rank": 4,
    "asin": "B073GVKSM3",
    "name": "DEWALT 20V MAX XR Cordless 15-Gauge Angled Finish Nailer, Tool Only (DCN650B)",
    "brand": "DEWALT",
@@ -125,7 +166,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 859,
-   "score": 84,
+   "score": 88,
    "award": null,
    "best_for": "Heavy trim and door casing on DEWALT 20V.",
    "bought_last_month": "200+/mo",
@@ -157,47 +198,6 @@
    "page_url": "https://toolboxtop10.com/cordless-finish-nailers.html#B073GVKSM3"
   },
   {
-   "rank": 4,
-   "asin": "B0BTTYJWF3",
-   "name": "Metabo HPT 18V MultiVolt Brushless Cordless 16 Gauge Straight Finish Nailer Kit (NT1865DMST)",
-   "brand": "Metabo HPT",
-   "model": "NT1865DMST",
-   "price": 384.28,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 90,
-   "score": 81,
-   "award": null,
-   "best_for": "Trim pros who want air-nailer feel and a lifetime warranty.",
-   "bought_last_month": null,
-   "verdict": "An air-spring drive that fires with no ramp-up, like a pneumatic, plus a selective actuation switch, battery, charger and bag, and Metabo HPT's lifetime tool-body warranty.",
-   "pros": [
-    "Air-spring drive, no ramp-up",
-    "Lifetime tool-body warranty",
-    "Battery and charger included"
-   ],
-   "cons": [
-    "$384.28",
-    "Smaller review base"
-   ],
-   "specs": {
-    "battery": "Metabo HPT 18V MultiVolt (2.0Ah included)",
-    "gauge": "16, straight",
-    "nails": "1 to 2-1/2 in",
-    "weight": "6.5 lb",
-    "per_charge": null
-   },
-   "features": {
-    "brushless": true,
-    "selective": true,
-    "kit": true,
-    "long_warranty": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71exk0WhQkL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BTTYJWF3?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-finish-nailers.html#B0BTTYJWF3"
-  },
-  {
    "rank": 5,
    "asin": "B07K75LZKX",
    "name": "DEWALT 20V MAX XR Finish Nailer, Straight, 16GA, Tool Only (DCN662B)",
@@ -207,7 +207,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 333,
-   "score": 80,
+   "score": 88,
    "award": null,
    "best_for": "DEWALT owners who'd rather buy straight 16-gauge nails.",
    "bought_last_month": "100+/mo",
@@ -240,47 +240,6 @@
   },
   {
    "rank": 6,
-   "asin": "B0DWZ5WT5W",
-   "name": "Metabo HPT 18V Brushless 15 Gauge Angled Finish Nailer, Kit (NT1865DAA)",
-   "brand": "Metabo HPT",
-   "model": "NT1865DAA",
-   "price": 399.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 53,
-   "score": 79,
-   "award": null,
-   "best_for": "Heavy trim in hardwood and fiber cement.",
-   "bought_last_month": "100+/mo",
-   "verdict": "Metabo HPT's new 15-gauge kit: 13% lighter and smaller than its predecessor, rated for flush drives into hardwood and fiber cement, up to 700 nails per charge, and a lifetime tool-body warranty.",
-   "pros": [
-    "5.9 lbs, 15-gauge",
-    "Up to 700 nails per charge",
-    "Lifetime tool-body warranty; kit"
-   ],
-   "cons": [
-    "$399",
-    "53 reviews"
-   ],
-   "specs": {
-    "battery": "Metabo HPT 18V (2.0Ah included)",
-    "gauge": "15, angled",
-    "nails": null,
-    "weight": "5.9 lb (no battery)",
-    "per_charge": "Up to 700"
-   },
-   "features": {
-    "brushless": true,
-    "selective": true,
-    "kit": true,
-    "long_warranty": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71z4Pj+6VwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DWZ5WT5W?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-finish-nailers.html#B0DWZ5WT5W"
-  },
-  {
-   "rank": 7,
    "asin": "B09VMP4FV5",
    "name": "Milwaukee M18 FUEL 15 Gauge Finish Nailer (2839-20)",
    "brand": "Milwaukee",
@@ -289,7 +248,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 174,
-   "score": 77,
+   "score": 88,
    "award": null,
    "best_for": "M18 owners doing heavy trim.",
    "bought_last_month": null,
@@ -321,6 +280,47 @@
    "page_url": "https://toolboxtop10.com/cordless-finish-nailers.html#B09VMP4FV5"
   },
   {
+   "rank": 7,
+   "asin": "B0DWZ5WT5W",
+   "name": "Metabo HPT 18V Brushless 15 Gauge Angled Finish Nailer, Kit (NT1865DAA)",
+   "brand": "Metabo HPT",
+   "model": "NT1865DAA",
+   "price": 399.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 53,
+   "score": 87,
+   "award": null,
+   "best_for": "Heavy trim in hardwood and fiber cement.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Metabo HPT's new 15-gauge kit: 13% lighter and smaller than its predecessor, rated for flush drives into hardwood and fiber cement, up to 700 nails per charge, and a lifetime tool-body warranty.",
+   "pros": [
+    "5.9 lbs, 15-gauge",
+    "Up to 700 nails per charge",
+    "Lifetime tool-body warranty; kit"
+   ],
+   "cons": [
+    "$399",
+    "53 reviews"
+   ],
+   "specs": {
+    "battery": "Metabo HPT 18V (2.0Ah included)",
+    "gauge": "15, angled",
+    "nails": null,
+    "weight": "5.9 lb (no battery)",
+    "per_charge": "Up to 700"
+   },
+   "features": {
+    "brushless": true,
+    "selective": true,
+    "kit": true,
+    "long_warranty": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71z4Pj+6VwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DWZ5WT5W?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-finish-nailers.html#B0DWZ5WT5W"
+  },
+  {
    "rank": 8,
    "asin": "B07KH6P3D2",
    "name": "CRAFTSMAN V20 Cordless Finish Nailer Kit, 16GA, Battery and Charger Included (CMCN616C1)",
@@ -330,7 +330,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 482,
-   "score": 73,
+   "score": 80,
    "award": null,
    "best_for": "Starting on CRAFTSMAN V20.",
    "bought_last_month": null,
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 229,
-   "score": 68,
+   "score": 78,
    "award": null,
    "best_for": "CRAFTSMAN V20 owners trimming a room or two.",
    "bought_last_month": "50+/mo",
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 191,
-   "score": 62,
+   "score": 73,
    "award": "Best Budget",
    "best_for": "RYOBI ONE+ owners on a budget.",
    "bought_last_month": "200+/mo",

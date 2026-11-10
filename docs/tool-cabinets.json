@@ -22,7 +22,7 @@
    "drawer": 0.25,
    "keyed_lock": 0.2
   },
-  "reviews_ceiling": 7000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 120,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 345,
-   "score": 84,
+   "score": 94,
    "award": "Money No Object",
    "best_for": "A shared garage, where four separately locking areas keep things sorted.",
    "bought_last_month": "50+/mo",
@@ -77,90 +77,6 @@
   },
   {
    "rank": 2,
-   "asin": "B08CZBGF8V",
-   "name": "Aobabo 71\" Metal Storage Cabinet with Wheels, 5 Shelves & Pegboards, Black",
-   "brand": "Aobabo",
-   "model": "71 in rolling with pegboards",
-   "price": 159.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 926,
-   "score": 80,
-   "award": null,
-   "best_for": "Hanging hand tools on the doors while bulk storage sits on the shelves.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A rolling 71-inch cabinet with pegboard on the inside of both doors and four hooks, five shelves rated 170 lbs each, locking casters and an anti-tip kit.",
-   "pros": [
-    "Pegboard inside both doors, 4 hooks",
-    "Locking casters and an anti-tip kit",
-    "5 shelves rated 170 lbs each"
-   ],
-   "cons": [
-    "4.2 stars, the lowest here",
-    "Only 4 hooks included"
-   ],
-   "specs": {
-    "size": "71 x 32 x 16 in",
-    "shelves": "5 adjustable",
-    "shelf_capacity": "170 lbs per shelf",
-    "material": "Steel",
-    "lock": "Keyed 3-point",
-    "weight": null
-   },
-   "features": {
-    "wheels": true,
-    "pegboard": true,
-    "drawer": false,
-    "keyed_lock": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71yo5R4V4vL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08CZBGF8V?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B08CZBGF8V"
-  },
-  {
-   "rank": 3,
-   "asin": "B0DYTPSGKD",
-   "name": "Letaya Metal Garage Storage Cabinet with Wheels, Lock Door and Adjustable Shelves (Black, 74.41\" H)",
-   "brand": "Letaya",
-   "model": "R694",
-   "price": 159.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 2070,
-   "score": 79,
-   "award": null,
-   "best_for": "A tall locking cabinet you can roll away from the wall.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "Letaya's tall cabinet on detachable 360-degree wheels, so it can roll out from the wall for cleaning or move to the work. Four adjustable shelves and a 3-point lock.",
-   "pros": [
-    "Detachable 360-degree wheels",
-    "3-point lock with thickened rods",
-    "About 30 minutes to assemble, per the listing"
-   ],
-   "cons": [
-    "The listing doesn't say whether the 180 lb rating is per shelf or total",
-    "No caster brakes listed"
-   ],
-   "specs": {
-    "size": "70.9 x 31.5 x 15.8 in (74.4 in with wheels)",
-    "shelves": "4 adjustable",
-    "shelf_capacity": "180 lbs",
-    "material": "0.8 mm steel",
-    "lock": "Keyed 3-point",
-    "weight": "75 lbs"
-   },
-   "features": {
-    "wheels": true,
-    "pegboard": false,
-    "drawer": false,
-    "keyed_lock": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61xPfGqrymL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DYTPSGKD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0DYTPSGKD"
-  },
-  {
-   "rank": 4,
    "asin": "B0H8D8K9L3",
    "name": "GREATMEET Garage Storage Cabinet with Wheels, Mobile Rolling Tool Cabinet",
    "brand": "GREATMEET",
@@ -169,7 +85,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 130,
-   "score": 78,
+   "score": 91,
    "award": "Best Budget",
    "best_for": "A compact locking cabinet you can push to the job, for about $100.",
    "bought_last_month": "50+/mo",
@@ -202,91 +118,133 @@
    "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0H8D8K9L3"
   },
   {
-   "rank": 5,
-   "asin": "B0B3MB5F56",
-   "name": "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves, 71\" Steel Lockable",
-   "brand": "Yizosh",
-   "model": "XGG-BLACK-1",
-   "price": 144.99,
+   "rank": 3,
+   "asin": "B08CZBGF8V",
+   "name": "Aobabo 71\" Metal Storage Cabinet with Wheels, 5 Shelves & Pegboards, Black",
+   "brand": "Aobabo",
+   "model": "71 in rolling with pegboards",
+   "price": 159.99,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 5230,
-   "score": 77,
-   "award": "Best Overall",
-   "best_for": "Most garages: a tall locking cabinet with five heavy-duty shelves.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The most-reviewed cabinet on the page: a 71-inch steel locker with five adjustable shelves rated 180 lbs each, two keyed doors that open 180 degrees, a wall anchor kit and a 2-year warranty.",
-   "pros": [
-    "5,230 reviews at 4.4 stars",
-    "5 shelves rated 180 lbs each",
-    "Wall anchor included; 2-year warranty"
-   ],
-   "cons": [
-    "No pegboard, drawer or casters",
-    "Ships flat and needs assembly"
-   ],
-   "specs": {
-    "size": "71 x 31.5 x 15.7 in",
-    "shelves": "5 adjustable",
-    "shelf_capacity": "180 lbs per shelf",
-    "material": "Cold-rolled steel",
-    "lock": "Keyed, 2 keys",
-    "weight": "81 lbs"
-   },
-   "features": {
-    "wheels": false,
-    "pegboard": false,
-    "drawer": false,
-    "keyed_lock": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61xvQ2QznHL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B3MB5F56?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0B3MB5F56"
-  },
-  {
-   "rank": 6,
-   "asin": "B0C39QL3XY",
-   "name": "Letaya Metal Garage Storage Cabinet with Lock, 72\" Tall, 5 Adjustable Shelves (Black)",
-   "brand": "Letaya",
-   "model": "72 in 2-door",
-   "price": 174.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 3585,
-   "score": 76,
+   "rating": 4.2,
+   "reviews_count": 926,
+   "score": 88,
    "award": null,
-   "best_for": "Bulky tool cases and bins that need a 36-inch-wide, 18-inch-deep cabinet.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The widest and deepest cabinet here at 36 by 18 inches, with five adjustable shelves, steel-reinforced doors and a 3-point lock. More room than the 32-inch cabinets for bulky cases.",
+   "best_for": "Hanging hand tools on the doors while bulk storage sits on the shelves.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A rolling 71-inch cabinet with pegboard on the inside of both doors and four hooks, five shelves rated 170 lbs each, locking casters and an anti-tip kit.",
    "pros": [
-    "36 x 18 in, the biggest footprint here",
-    "Reinforced doors and a 3-point lock",
-    "1,000+ bought in the past month"
+    "Pegboard inside both doors, 4 hooks",
+    "Locking casters and an anti-tip kit",
+    "5 shelves rated 170 lbs each"
    ],
    "cons": [
-    "The bullets say 120 lbs per shelf; the spec table says 180 lbs",
-    "No casters, pegboard or drawer"
+    "4.2 stars, the lowest here",
+    "Only 4 hooks included"
    ],
    "specs": {
-    "size": "72 x 36 x 18 in",
+    "size": "71 x 32 x 16 in",
     "shelves": "5 adjustable",
-    "shelf_capacity": "120 lbs per shelf (bullets) / 180 lbs (spec table)",
-    "material": "0.8 mm steel",
+    "shelf_capacity": "170 lbs per shelf",
+    "material": "Steel",
     "lock": "Keyed 3-point",
     "weight": null
    },
    "features": {
+    "wheels": true,
+    "pegboard": true,
+    "drawer": false,
+    "keyed_lock": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71yo5R4V4vL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08CZBGF8V?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B08CZBGF8V"
+  },
+  {
+   "rank": 4,
+   "asin": "B0C1N91K7M",
+   "name": "Wanfu Metal Storage Cabinet, 36\" H Locking Cabinet with 2 Drawers and Adjustable Shelf (B920H-2D)",
+   "brand": "Wanfu",
+   "model": "B920H-2D",
+   "price": 113.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 465,
+   "score": 85,
+   "award": null,
+   "best_for": "Under a window or beside a bench, where a waist-high cabinet doubles as a surface.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A waist-high 36-inch cabinet with two locking drawers over a locking cupboard, so the top doubles as a work surface. Tied for the best rating on the page at 4.6 stars.",
+   "pros": [
+    "4.6 stars, tied for the best rating here",
+    "Two drawers plus a cupboard, three locks",
+    "Top works as a counter"
+   ],
+   "cons": [
+    "Only 36 in tall",
+    "One adjustable shelf"
+   ],
+   "specs": {
+    "size": "36.2 x 31.5 x 15.8 in",
+    "shelves": "1 adjustable + 2 drawers",
+    "shelf_capacity": "180 lbs per shelf",
+    "material": "Powder-coated steel",
+    "lock": "3 keyed locks",
+    "weight": "60 lbs"
+   },
+   "features": {
     "wheels": false,
+    "pegboard": false,
+    "drawer": true,
+    "keyed_lock": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61DN5MBPsRL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C1N91K7M?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0C1N91K7M"
+  },
+  {
+   "rank": 5,
+   "asin": "B0DYTPSGKD",
+   "name": "Letaya Metal Garage Storage Cabinet with Wheels, Lock Door and Adjustable Shelves (Black, 74.41\" H)",
+   "brand": "Letaya",
+   "model": "R694",
+   "price": 159.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 2070,
+   "score": 84,
+   "award": null,
+   "best_for": "A tall locking cabinet you can roll away from the wall.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Letaya's tall cabinet on detachable 360-degree wheels, so it can roll out from the wall for cleaning or move to the work. Four adjustable shelves and a 3-point lock.",
+   "pros": [
+    "Detachable 360-degree wheels",
+    "3-point lock with thickened rods",
+    "About 30 minutes to assemble, per the listing"
+   ],
+   "cons": [
+    "The listing doesn't say whether the 180 lb rating is per shelf or total",
+    "No caster brakes listed"
+   ],
+   "specs": {
+    "size": "70.9 x 31.5 x 15.8 in (74.4 in with wheels)",
+    "shelves": "4 adjustable",
+    "shelf_capacity": "180 lbs",
+    "material": "0.8 mm steel",
+    "lock": "Keyed 3-point",
+    "weight": "75 lbs"
+   },
+   "features": {
+    "wheels": true,
     "pegboard": false,
     "drawer": false,
     "keyed_lock": true
    },
-   "image": "https://m.media-amazon.com/images/I/71PAHGzP4EL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C39QL3XY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0C39QL3XY"
+   "image": "https://m.media-amazon.com/images/I/61xPfGqrymL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DYTPSGKD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0DYTPSGKD"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "asin": "B0DQKWRGN1",
    "name": "SISESOL 75\" Tall Metal Storage Cabinet with Wheels, Lock and Shelves (TSJ)",
    "brand": "SISESOL",
@@ -295,7 +253,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 964,
-   "score": 76,
+   "score": 84,
    "award": null,
    "best_for": "The most vertical space on rolling, locking casters.",
    "bought_last_month": "300+/mo",
@@ -328,7 +286,7 @@
    "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0DQKWRGN1"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "asin": "B0CH9JD68Q",
    "name": "Letaya Metal Garage Storage Cabinet with Drawer, 4 Door Tool Cabinet with Lock, 2 Adjustable Shelves",
    "brand": "Letaya",
@@ -337,7 +295,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 908,
-   "score": 76,
+   "score": 84,
    "award": null,
    "best_for": "Separating small parts in a locking drawer from bulky gear behind four doors.",
    "bought_last_month": "100+/mo",
@@ -371,7 +329,91 @@
    "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0CH9JD68Q"
   },
   {
+   "rank": 8,
+   "asin": "B0B3MB5F56",
+   "name": "Yizosh Metal Garage Storage Cabinet with 2 Doors and 5 Adjustable Shelves, 71\" Steel Lockable",
+   "brand": "Yizosh",
+   "model": "XGG-BLACK-1",
+   "price": 144.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 5230,
+   "score": 79,
+   "award": "Best Overall",
+   "best_for": "Most garages: a tall locking cabinet with five heavy-duty shelves.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The most-reviewed cabinet on the page: a 71-inch steel locker with five adjustable shelves rated 180 lbs each, two keyed doors that open 180 degrees, a wall anchor kit and a 2-year warranty.",
+   "pros": [
+    "5,230 reviews at 4.4 stars",
+    "5 shelves rated 180 lbs each",
+    "Wall anchor included; 2-year warranty"
+   ],
+   "cons": [
+    "No pegboard, drawer or casters",
+    "Ships flat and needs assembly"
+   ],
+   "specs": {
+    "size": "71 x 31.5 x 15.7 in",
+    "shelves": "5 adjustable",
+    "shelf_capacity": "180 lbs per shelf",
+    "material": "Cold-rolled steel",
+    "lock": "Keyed, 2 keys",
+    "weight": "81 lbs"
+   },
+   "features": {
+    "wheels": false,
+    "pegboard": false,
+    "drawer": false,
+    "keyed_lock": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61xvQ2QznHL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B3MB5F56?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0B3MB5F56"
+  },
+  {
    "rank": 9,
+   "asin": "B0C39QL3XY",
+   "name": "Letaya Metal Garage Storage Cabinet with Lock, 72\" Tall, 5 Adjustable Shelves (Black)",
+   "brand": "Letaya",
+   "model": "72 in 2-door",
+   "price": 174.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 3585,
+   "score": 79,
+   "award": null,
+   "best_for": "Bulky tool cases and bins that need a 36-inch-wide, 18-inch-deep cabinet.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The widest and deepest cabinet here at 36 by 18 inches, with five adjustable shelves, steel-reinforced doors and a 3-point lock. More room than the 32-inch cabinets for bulky cases.",
+   "pros": [
+    "36 x 18 in, the biggest footprint here",
+    "Reinforced doors and a 3-point lock",
+    "1,000+ bought in the past month"
+   ],
+   "cons": [
+    "The bullets say 120 lbs per shelf; the spec table says 180 lbs",
+    "No casters, pegboard or drawer"
+   ],
+   "specs": {
+    "size": "72 x 36 x 18 in",
+    "shelves": "5 adjustable",
+    "shelf_capacity": "120 lbs per shelf (bullets) / 180 lbs (spec table)",
+    "material": "0.8 mm steel",
+    "lock": "Keyed 3-point",
+    "weight": null
+   },
+   "features": {
+    "wheels": false,
+    "pegboard": false,
+    "drawer": false,
+    "keyed_lock": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71PAHGzP4EL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C39QL3XY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0C39QL3XY"
+  },
+  {
+   "rank": 10,
    "asin": "B01H48094C",
    "name": "Sterilite 4 Shelf Cabinet, Lockable Utility Storage, Gray (01423V01)",
    "brand": "Sterilite",
@@ -411,48 +453,6 @@
    "image": "https://m.media-amazon.com/images/I/61FJOtNtHvL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B01H48094C?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/tool-cabinets.html#B01H48094C"
-  },
-  {
-   "rank": 10,
-   "asin": "B0C1N91K7M",
-   "name": "Wanfu Metal Storage Cabinet, 36\" H Locking Cabinet with 2 Drawers and Adjustable Shelf (B920H-2D)",
-   "brand": "Wanfu",
-   "model": "B920H-2D",
-   "price": 113.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 465,
-   "score": 75,
-   "award": null,
-   "best_for": "Under a window or beside a bench, where a waist-high cabinet doubles as a surface.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A waist-high 36-inch cabinet with two locking drawers over a locking cupboard, so the top doubles as a work surface. Tied for the best rating on the page at 4.6 stars.",
-   "pros": [
-    "4.6 stars, tied for the best rating here",
-    "Two drawers plus a cupboard, three locks",
-    "Top works as a counter"
-   ],
-   "cons": [
-    "Only 36 in tall",
-    "One adjustable shelf"
-   ],
-   "specs": {
-    "size": "36.2 x 31.5 x 15.8 in",
-    "shelves": "1 adjustable + 2 drawers",
-    "shelf_capacity": "180 lbs per shelf",
-    "material": "Powder-coated steel",
-    "lock": "3 keyed locks",
-    "weight": "60 lbs"
-   },
-   "features": {
-    "wheels": false,
-    "pegboard": false,
-    "drawer": true,
-    "keyed_lock": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61DN5MBPsRL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C1N91K7M?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tool-cabinets.html#B0C1N91K7M"
   }
  ],
  "avoid": [

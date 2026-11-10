@@ -22,100 +22,19 @@
    "aluminum_ready": 0.25,
    "synergic": 0.2
   },
-  "reviews_ceiling": 3000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 115,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B07TVCWDGW",
-  "best_budget": "B08CBBHFX5",
+  "best_overall": "B0DKHCFZXV",
+  "best_budget": "B0DQ4D33GD",
   "money_no_object": "B0DKHCFZXV"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B07TVCWDGW",
-   "name": "YESWELDER MIG-205DS PRO 205A MIG Welder, 110V/220V 5-in-1 with Spool Gun Support",
-   "brand": "YESWELDER",
-   "model": "MIG-205DS PRO",
-   "price": 479.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1470,
-   "score": 93,
-   "award": "Best Overall",
-   "best_for": "Fabricators who want aluminum capability without a pro price.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A 200-amp YESWELDER that adds spool-gun aluminum welding to gas MIG, flux core, stick and lift TIG, with 1,470 reviews.",
-   "pros": [
-    "Spool gun aluminum MIG",
-    "110V and 220V",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Spool gun and TIG torch extra",
-    "Heavy"
-   ],
-   "specs": {
-    "amps": "200 A",
-    "input": "110V/220V",
-    "processes": "Gas MIG, flux core, spool gun aluminum, lift TIG, stick",
-    "capacity": null,
-    "extras": "Synergic and manual MIG, 37.5 lb"
-   },
-   "features": {
-    "gas_mig": true,
-    "dual_voltage": true,
-    "aluminum_ready": true,
-    "synergic": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71Fe7nLJ-IL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07TVCWDGW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mig-welders.html#B07TVCWDGW"
-  },
-  {
-   "rank": 2,
-   "asin": "B0B1TGZ8XN",
-   "name": "ARCCAPTAIN MIG200 200A MIG Welder, 110V/220V 6-in-1, Aluminum Capable",
-   "brand": "ARCCAPTAIN",
-   "model": "MIG200",
-   "price": 369.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 987,
-   "score": 91,
-   "award": null,
-   "best_for": "Hobbyists who want gas MIG, aluminum and 220V power in one machine.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A 200-amp, six-process welder that can take an optional spool gun for aluminum, with synergic control and pro features like crater fill and burn-back adjustment.",
-   "pros": [
-    "6 processes incl. spool gun",
-    "110V and 220V",
-    "4.5 stars, 987 reviews"
-   ],
-   "cons": [
-    "Spool gun and TIG torch extra"
-   ],
-   "specs": {
-    "amps": "200 A",
-    "input": "110V/220V",
-    "processes": "Gas MIG, flux core, stick, spot, lift TIG, spool gun (optional)",
-    "capacity": null,
-    "extras": "Synergic MIG, adaptive crater, burn-back adjustment"
-   },
-   "features": {
-    "gas_mig": true,
-    "dual_voltage": true,
-    "aluminum_ready": true,
-    "synergic": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71kClKphQKL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0B1TGZ8XN?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mig-welders.html#B0B1TGZ8XN"
-  },
-  {
-   "rank": 3,
    "asin": "B0DKHCFZXV",
    "name": "ARCCAPTAIN MIG250 250A MIG Welder 110V/220V 6-in-1, Aluminum Capable",
    "brand": "ARCCAPTAIN",
@@ -124,8 +43,8 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 196,
-   "score": 86,
-   "award": "Money No Object",
+   "score": 97,
+   "award": "Best Overall",
    "best_for": "Serious hobby fabricators welding thicker steel and aluminum.",
    "bought_last_month": "50+/mo",
    "verdict": "The most powerful welder here: 250 amps on 220V, six processes including spool-gun aluminum, and pre/post-flow gas control. It's tied for the best rating here at 4.7 stars.",
@@ -156,6 +75,87 @@
    "page_url": "https://toolboxtop10.com/mig-welders.html#B0DKHCFZXV"
   },
   {
+   "rank": 2,
+   "asin": "B07TVCWDGW",
+   "name": "YESWELDER MIG-205DS PRO 205A MIG Welder, 110V/220V 5-in-1 with Spool Gun Support",
+   "brand": "YESWELDER",
+   "model": "MIG-205DS PRO",
+   "price": 479.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1470,
+   "score": 96,
+   "award": null,
+   "best_for": "Fabricators who want aluminum capability without a pro price.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A 200-amp YESWELDER that adds spool-gun aluminum welding to gas MIG, flux core, stick and lift TIG, with 1,470 reviews.",
+   "pros": [
+    "Spool gun aluminum MIG",
+    "110V and 220V",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Spool gun and TIG torch extra",
+    "Heavy"
+   ],
+   "specs": {
+    "amps": "200 A",
+    "input": "110V/220V",
+    "processes": "Gas MIG, flux core, spool gun aluminum, lift TIG, stick",
+    "capacity": null,
+    "extras": "Synergic and manual MIG, 37.5 lb"
+   },
+   "features": {
+    "gas_mig": true,
+    "dual_voltage": true,
+    "aluminum_ready": true,
+    "synergic": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Fe7nLJ-IL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07TVCWDGW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mig-welders.html#B07TVCWDGW"
+  },
+  {
+   "rank": 3,
+   "asin": "B0B1TGZ8XN",
+   "name": "ARCCAPTAIN MIG200 200A MIG Welder, 110V/220V 6-in-1, Aluminum Capable",
+   "brand": "ARCCAPTAIN",
+   "model": "MIG200",
+   "price": 369.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 987,
+   "score": 96,
+   "award": null,
+   "best_for": "Hobbyists who want gas MIG, aluminum and 220V power in one machine.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A 200-amp, six-process welder that can take an optional spool gun for aluminum, with synergic control and pro features like crater fill and burn-back adjustment.",
+   "pros": [
+    "6 processes incl. spool gun",
+    "110V and 220V",
+    "4.5 stars, 987 reviews"
+   ],
+   "cons": [
+    "Spool gun and TIG torch extra"
+   ],
+   "specs": {
+    "amps": "200 A",
+    "input": "110V/220V",
+    "processes": "Gas MIG, flux core, stick, spot, lift TIG, spool gun (optional)",
+    "capacity": null,
+    "extras": "Synergic MIG, adaptive crater, burn-back adjustment"
+   },
+   "features": {
+    "gas_mig": true,
+    "dual_voltage": true,
+    "aluminum_ready": true,
+    "synergic": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71kClKphQKL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0B1TGZ8XN?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mig-welders.html#B0B1TGZ8XN"
+  },
+  {
    "rank": 4,
    "asin": "B0BX3VRGW3",
    "name": "YESWELDER 160A MIG Welder, 110V/220V, MIG/Flux Core/Lift TIG/Stick (YWM-160)",
@@ -165,7 +165,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 938,
-   "score": 85,
+   "score": 90,
    "award": null,
    "best_for": "Home garages that want room to grow from flux core into gas MIG and 220V.",
    "bought_last_month": "700+/mo",
@@ -206,7 +206,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 309,
-   "score": 82,
+   "score": 90,
    "award": null,
    "best_for": "Garages that want gas MIG on 220V for thicker steel.",
    "bought_last_month": "200+/mo",
@@ -239,88 +239,6 @@
   },
   {
    "rank": 6,
-   "asin": "B08CBBHFX5",
-   "name": "YESWELDER 135A Flux Core Gasless MIG Welder, 110V, MIG/Lift TIG/Stick 3-in-1",
-   "brand": "YESWELDER",
-   "model": "FLUX-135PRO",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 3078,
-   "score": 79,
-   "award": "Best Budget",
-   "best_for": "Beginners who want to start welding steel cheaply, indoors or out.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The best-selling and most-reviewed welder here: a light 110V flux-core machine with synergic control, for beginners repairing gates, trailers and farm gear.",
-   "pros": [
-    "3,078 reviews; 1,000+ sold last month",
-    "Low price",
-    "No gas bottle needed"
-   ],
-   "cons": [
-    "Flux core only",
-    "110V only"
-   ],
-   "specs": {
-    "amps": "135 A",
-    "input": "110V",
-    "processes": "Flux core, stick, lift TIG (torch extra)",
-    "capacity": "Mild steel up to 3/32 in",
-    "extras": "Synergic control, large LED display"
-   },
-   "features": {
-    "gas_mig": false,
-    "dual_voltage": false,
-    "aluminum_ready": false,
-    "synergic": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71snNJNtAUL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08CBBHFX5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mig-welders.html#B08CBBHFX5"
-  },
-  {
-   "rank": 7,
-   "asin": "B0DQ4D33GD",
-   "name": "BESTMIG FLUX-135 135A 3-in-1 Flux Core Welder with Helmet and Gloves, 110V",
-   "brand": "BESTMIG",
-   "model": "FLUX-135",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 450,
-   "score": 72,
-   "award": null,
-   "best_for": "Beginners who want a welder and basic safety gear in one box.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A beginner flux-core welder that ships with a helmet and gloves, so you can start welding with one purchase.",
-   "pros": [
-    "Helmet and gloves included",
-    "4.6 stars",
-    "Low price"
-   ],
-   "cons": [
-    "Flux core only",
-    "Up to 1/8 in"
-   ],
-   "specs": {
-    "amps": "135 A",
-    "input": "110V",
-    "processes": "Flux core, stick, lift TIG",
-    "capacity": "Up to 1/8 in",
-    "extras": "Welding helmet and gloves included"
-   },
-   "features": {
-    "gas_mig": false,
-    "dual_voltage": false,
-    "aluminum_ready": false,
-    "synergic": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71tYQ1HMwOL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DQ4D33GD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mig-welders.html#B0DQ4D33GD"
-  },
-  {
-   "rank": 8,
    "asin": "B0BTMVVG35",
    "name": "Lincoln Electric Weld-PAK 90i MIG and Flux Core Wire Feed Welder, 120V (K5256-1)",
    "brand": "Lincoln Electric",
@@ -329,7 +247,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 299,
-   "score": 71,
+   "score": 82,
    "award": null,
    "best_for": "Homeowners who want a name-brand MIG welder for light repairs.",
    "bought_last_month": "100+/mo",
@@ -361,48 +279,48 @@
    "page_url": "https://toolboxtop10.com/mig-welders.html#B0BTMVVG35"
   },
   {
-   "rank": 9,
-   "asin": "B0BTV38YKM",
-   "name": "Lincoln Electric Weld-PAK 90i FC Flux Core Wire Feed Welder, 120V (K5255-1)",
-   "brand": "Lincoln Electric",
-   "model": "K5255-1",
-   "price": 328.0,
+   "rank": 7,
+   "asin": "B0DQ4D33GD",
+   "name": "BESTMIG FLUX-135 135A 3-in-1 Flux Core Welder with Helmet and Gloves, 110V",
+   "brand": "BESTMIG",
+   "model": "FLUX-135",
+   "price": 109.99,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 586,
-   "score": 70,
-   "award": null,
-   "best_for": "Farm and outdoor repairs with a name-brand machine.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The flux-core-only version of Lincoln's 90i, rated 4.7 stars, for outdoor repairs where wind would blow away shielding gas.",
+   "rating": 4.6,
+   "reviews_count": 450,
+   "score": 80,
+   "award": "Best Budget",
+   "best_for": "Beginners who want a welder and basic safety gear in one box.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A beginner flux-core welder that ships with a helmet and gloves, so you can start welding with one purchase.",
    "pros": [
-    "4.7 stars",
-    "Name brand",
-    "Light, 15 lb"
+    "Helmet and gloves included",
+    "4.6 stars",
+    "Low price"
    ],
    "cons": [
     "Flux core only",
-    "12-month warranty"
+    "Up to 1/8 in"
    ],
    "specs": {
-    "amps": null,
-    "input": "120V",
-    "processes": "Flux core only",
-    "capacity": "1/4 in flux core",
-    "extras": "15 lb, metal case"
+    "amps": "135 A",
+    "input": "110V",
+    "processes": "Flux core, stick, lift TIG",
+    "capacity": "Up to 1/8 in",
+    "extras": "Welding helmet and gloves included"
    },
    "features": {
     "gas_mig": false,
     "dual_voltage": false,
     "aluminum_ready": false,
-    "synergic": false
+    "synergic": true
    },
-   "image": "https://m.media-amazon.com/images/I/712sF3mzAtL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BTV38YKM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mig-welders.html#B0BTV38YKM"
+   "image": "https://m.media-amazon.com/images/I/71tYQ1HMwOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DQ4D33GD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mig-welders.html#B0DQ4D33GD"
   },
   {
-   "rank": 10,
+   "rank": 8,
    "asin": "B0D2226R5Q",
    "name": "FEMEROL 130A Gasless Flux Core MIG/Stick Welder, 110V, Synergic IGBT Inverter",
    "brand": "FEMEROL",
@@ -411,7 +329,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 306,
-   "score": 70,
+   "score": 80,
    "award": null,
    "best_for": "Trying welding for very little money.",
    "bought_last_month": "100+/mo",
@@ -441,6 +359,88 @@
    "image": "https://m.media-amazon.com/images/I/71UBY23po8L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D2226R5Q?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/mig-welders.html#B0D2226R5Q"
+  },
+  {
+   "rank": 9,
+   "asin": "B08CBBHFX5",
+   "name": "YESWELDER 135A Flux Core Gasless MIG Welder, 110V, MIG/Lift TIG/Stick 3-in-1",
+   "brand": "YESWELDER",
+   "model": "FLUX-135PRO",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 3078,
+   "score": 79,
+   "award": null,
+   "best_for": "Beginners who want to start welding steel cheaply, indoors or out.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The best-selling and most-reviewed welder here: a light 110V flux-core machine with synergic control, for beginners repairing gates, trailers and farm gear.",
+   "pros": [
+    "3,078 reviews; 1,000+ sold last month",
+    "Low price",
+    "No gas bottle needed"
+   ],
+   "cons": [
+    "Flux core only",
+    "110V only"
+   ],
+   "specs": {
+    "amps": "135 A",
+    "input": "110V",
+    "processes": "Flux core, stick, lift TIG (torch extra)",
+    "capacity": "Mild steel up to 3/32 in",
+    "extras": "Synergic control, large LED display"
+   },
+   "features": {
+    "gas_mig": false,
+    "dual_voltage": false,
+    "aluminum_ready": false,
+    "synergic": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71snNJNtAUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08CBBHFX5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mig-welders.html#B08CBBHFX5"
+  },
+  {
+   "rank": 10,
+   "asin": "B0BTV38YKM",
+   "name": "Lincoln Electric Weld-PAK 90i FC Flux Core Wire Feed Welder, 120V (K5255-1)",
+   "brand": "Lincoln Electric",
+   "model": "K5255-1",
+   "price": 328.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 586,
+   "score": 77,
+   "award": null,
+   "best_for": "Farm and outdoor repairs with a name-brand machine.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The flux-core-only version of Lincoln's 90i, rated 4.7 stars, for outdoor repairs where wind would blow away shielding gas.",
+   "pros": [
+    "4.7 stars",
+    "Name brand",
+    "Light, 15 lb"
+   ],
+   "cons": [
+    "Flux core only",
+    "12-month warranty"
+   ],
+   "specs": {
+    "amps": null,
+    "input": "120V",
+    "processes": "Flux core only",
+    "capacity": "1/4 in flux core",
+    "extras": "15 lb, metal case"
+   },
+   "features": {
+    "gas_mig": false,
+    "dual_voltage": false,
+    "aluminum_ready": false,
+    "synergic": false
+   },
+   "image": "https://m.media-amazon.com/images/I/712sF3mzAtL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BTV38YKM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mig-welders.html#B0BTV38YKM"
   }
  ],
  "avoid": [

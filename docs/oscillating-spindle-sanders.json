@@ -22,7 +22,7 @@
    "belt": 0.25,
    "bevel": 0.25
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,88 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B00005A3GW",
+   "name": "JET Benchtop Oscillating Spindle Sander, 1/2 HP (JBOS-5)",
+   "brand": "JET",
+   "model": "JBOS-5",
+   "price": 769.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 183,
+   "score": 83,
+   "award": "Money No Object",
+   "best_for": "Professional shops that sand curves daily.",
+   "bought_last_month": null,
+   "verdict": "A shop-grade benchtop: the spindle runs on precision ball bearings with a worm-gear oscillation in a sealed oil bath, on a 14-1/2-inch cast iron table that tilts to 45°.",
+   "pros": [
+    "Cast iron tilting table",
+    "Sealed, lubricated gearbox",
+    "Ball-bearing spindle"
+   ],
+   "cons": [
+    "$769.99",
+    "Listing showed only 1 left"
+   ],
+   "specs": {
+    "type": "Benchtop spindle",
+    "motor": "1/2 HP, 7.5 A",
+    "speed": "1,725 rpm",
+    "sleeves": "With 4 table inserts",
+    "table": "14-1/2 x 14-1/2 in cast iron, tilts 45°"
+   },
+   "features": {
+    "variable": false,
+    "cast_iron": true,
+    "belt": false,
+    "bevel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71PnHM-lGcS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00005A3GW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B00005A3GW"
+  },
+  {
+   "rank": 2,
+   "asin": "B00ATZKUYW",
+   "name": "Triton TSPS450 3.5Amp Cast Iron Top Oscillating Spindle Sander",
+   "brand": "Triton",
+   "model": "TSPS450",
+   "price": 340.12,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 286,
+   "score": 81,
+   "award": null,
+   "best_for": "Steadier work on a heavy table.",
+   "bought_last_month": null,
+   "verdict": "A cast iron table for flat, stable sanding, six sleeves up to 3 inches with matching drums and inserts, and onboard storage.",
+   "pros": [
+    "Cast iron table",
+    "6 sleeves to 3 in",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Single speed",
+    "Listing showed only 9 left"
+   ],
+   "specs": {
+    "type": "Benchtop spindle",
+    "motor": "3.5 A, 450 W",
+    "speed": "2,000 rpm, 58 opm",
+    "sleeves": "6, 1/2 to 3 in",
+    "table": "Cast iron"
+   },
+   "features": {
+    "variable": false,
+    "cast_iron": true,
+    "belt": false,
+    "bevel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61ohBPrgHBL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00ATZKUYW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B00ATZKUYW"
+  },
+  {
+   "rank": 3,
    "asin": "B07VCTPCJQ",
    "name": "WEN HA5932 5-Amp Variable Speed Portable Oscillating Spindle Sander",
    "brand": "WEN",
@@ -43,7 +125,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1256,
-   "score": 78,
+   "score": 80,
    "award": "Best Budget",
    "best_for": "Small shops and large workpieces.",
    "bought_last_month": "200+/mo",
@@ -75,7 +157,89 @@
    "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B07VCTPCJQ"
   },
   {
-   "rank": 2,
+   "rank": 4,
+   "asin": "B0FQ1FK2BP",
+   "name": "VEVOR Oscillating Belt and Spindle Sander, 2400RPM, 5 Sleeves & 24\" x 3.86\" Belt",
+   "brand": "VEVOR",
+   "model": "Belt and spindle",
+   "price": 161.9,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 79,
+   "score": 80,
+   "award": null,
+   "best_for": "A budget combo sander with bevel capability.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A belt-and-spindle combo with a tilting table, five sleeves, a 24-inch belt and onboard storage, for about $42 less than Woodskil's combo.",
+   "pros": [
+    "Belt and spindle",
+    "Tilting table",
+    "About $42 less than Woodskil's combo"
+   ],
+   "cons": [
+    "Single speed",
+    "4.2 stars"
+   ],
+   "specs": {
+    "type": "Belt and spindle combo",
+    "motor": "4 A",
+    "speed": "2,400 rpm, 5/8-in stroke",
+    "sleeves": "5, 1/2 to 2 in",
+    "table": "Tilting"
+   },
+   "features": {
+    "variable": false,
+    "cast_iron": false,
+    "belt": true,
+    "bevel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71pOO82bxiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQ1FK2BP?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B0FQ1FK2BP"
+  },
+  {
+   "rank": 5,
+   "asin": "B07M79PN4K",
+   "name": "WEN AT6535 3.5-Amp Oscillating Spindle Sander with Extra Large Beveling Table",
+   "brand": "WEN",
+   "model": "AT6535",
+   "price": 246.66,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 178,
+   "score": 78,
+   "award": null,
+   "best_for": "Sanding beveled curves.",
+   "bought_last_month": null,
+   "verdict": "WEN's big-table model: a 14-1/2-inch square table that bevels to 45° for angled edges, five sleeves to 2 inches and onboard storage.",
+   "pros": [
+    "Beveling 14-1/2-in table",
+    "5 sleeves",
+    "Onboard storage"
+   ],
+   "cons": [
+    "$246.66",
+    "4.3 stars"
+   ],
+   "specs": {
+    "type": "Benchtop spindle",
+    "motor": "3.5 A",
+    "speed": "2,000 rpm, 58 opm, 5/8-in stroke",
+    "sleeves": "5, 1/2 to 2 in",
+    "table": "14-1/2 x 14-1/2 in, bevels 45°"
+   },
+   "features": {
+    "variable": false,
+    "cast_iron": false,
+    "belt": false,
+    "bevel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81-TbYePufL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07M79PN4K?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B07M79PN4K"
+  },
+  {
+   "rank": 6,
    "asin": "B07KKXNWWX",
    "name": "WEN 6510T 3.5 Amp Oscillating Spindle Sander",
    "brand": "WEN",
@@ -116,170 +280,6 @@
    "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B07KKXNWWX"
   },
   {
-   "rank": 3,
-   "asin": "B00005A3GW",
-   "name": "JET Benchtop Oscillating Spindle Sander, 1/2 HP (JBOS-5)",
-   "brand": "JET",
-   "model": "JBOS-5",
-   "price": 769.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 183,
-   "score": 73,
-   "award": "Money No Object",
-   "best_for": "Professional shops that sand curves daily.",
-   "bought_last_month": null,
-   "verdict": "A shop-grade benchtop: the spindle runs on precision ball bearings with a worm-gear oscillation in a sealed oil bath, on a 14-1/2-inch cast iron table that tilts to 45°.",
-   "pros": [
-    "Cast iron tilting table",
-    "Sealed, lubricated gearbox",
-    "Ball-bearing spindle"
-   ],
-   "cons": [
-    "$769.99",
-    "Listing showed only 1 left"
-   ],
-   "specs": {
-    "type": "Benchtop spindle",
-    "motor": "1/2 HP, 7.5 A",
-    "speed": "1,725 rpm",
-    "sleeves": "With 4 table inserts",
-    "table": "14-1/2 x 14-1/2 in cast iron, tilts 45°"
-   },
-   "features": {
-    "variable": false,
-    "cast_iron": true,
-    "belt": false,
-    "bevel": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71PnHM-lGcS._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00005A3GW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B00005A3GW"
-  },
-  {
-   "rank": 4,
-   "asin": "B00ATZKUYW",
-   "name": "Triton TSPS450 3.5Amp Cast Iron Top Oscillating Spindle Sander",
-   "brand": "Triton",
-   "model": "TSPS450",
-   "price": 340.12,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 286,
-   "score": 72,
-   "award": null,
-   "best_for": "Steadier work on a heavy table.",
-   "bought_last_month": null,
-   "verdict": "A cast iron table for flat, stable sanding, six sleeves up to 3 inches with matching drums and inserts, and onboard storage.",
-   "pros": [
-    "Cast iron table",
-    "6 sleeves to 3 in",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Single speed",
-    "Listing showed only 9 left"
-   ],
-   "specs": {
-    "type": "Benchtop spindle",
-    "motor": "3.5 A, 450 W",
-    "speed": "2,000 rpm, 58 opm",
-    "sleeves": "6, 1/2 to 3 in",
-    "table": "Cast iron"
-   },
-   "features": {
-    "variable": false,
-    "cast_iron": true,
-    "belt": false,
-    "bevel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61ohBPrgHBL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00ATZKUYW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B00ATZKUYW"
-  },
-  {
-   "rank": 5,
-   "asin": "B0FQ1FK2BP",
-   "name": "VEVOR Oscillating Belt and Spindle Sander, 2400RPM, 5 Sleeves & 24\" x 3.86\" Belt",
-   "brand": "VEVOR",
-   "model": "Belt and spindle",
-   "price": 161.9,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 79,
-   "score": 70,
-   "award": null,
-   "best_for": "A budget combo sander with bevel capability.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A belt-and-spindle combo with a tilting table, five sleeves, a 24-inch belt and onboard storage, for about $42 less than Woodskil's combo.",
-   "pros": [
-    "Belt and spindle",
-    "Tilting table",
-    "About $42 less than Woodskil's combo"
-   ],
-   "cons": [
-    "Single speed",
-    "4.2 stars"
-   ],
-   "specs": {
-    "type": "Belt and spindle combo",
-    "motor": "4 A",
-    "speed": "2,400 rpm, 5/8-in stroke",
-    "sleeves": "5, 1/2 to 2 in",
-    "table": "Tilting"
-   },
-   "features": {
-    "variable": false,
-    "cast_iron": false,
-    "belt": true,
-    "bevel": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71pOO82bxiL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FQ1FK2BP?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B0FQ1FK2BP"
-  },
-  {
-   "rank": 6,
-   "asin": "B07M79PN4K",
-   "name": "WEN AT6535 3.5-Amp Oscillating Spindle Sander with Extra Large Beveling Table",
-   "brand": "WEN",
-   "model": "AT6535",
-   "price": 246.66,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 178,
-   "score": 68,
-   "award": null,
-   "best_for": "Sanding beveled curves.",
-   "bought_last_month": null,
-   "verdict": "WEN's big-table model: a 14-1/2-inch square table that bevels to 45° for angled edges, five sleeves to 2 inches and onboard storage.",
-   "pros": [
-    "Beveling 14-1/2-in table",
-    "5 sleeves",
-    "Onboard storage"
-   ],
-   "cons": [
-    "$246.66",
-    "4.3 stars"
-   ],
-   "specs": {
-    "type": "Benchtop spindle",
-    "motor": "3.5 A",
-    "speed": "2,000 rpm, 58 opm, 5/8-in stroke",
-    "sleeves": "5, 1/2 to 2 in",
-    "table": "14-1/2 x 14-1/2 in, bevels 45°"
-   },
-   "features": {
-    "variable": false,
-    "cast_iron": false,
-    "belt": false,
-    "bevel": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81-TbYePufL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07M79PN4K?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B07M79PN4K"
-  },
-  {
    "rank": 7,
    "asin": "B0D89VP5KP",
    "name": "Woodskil Variable Speed Oscillating Belt and Spindle Sander, 4x24\" Belt",
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 57,
-   "score": 64,
+   "score": 72,
    "award": null,
    "best_for": "One machine for inside and outside curves.",
    "bought_last_month": null,
@@ -322,47 +322,6 @@
   },
   {
    "rank": 8,
-   "asin": "B07TTF589H",
-   "name": "Triton TSPSP650 650W Portable Oscillating Spindle Sander",
-   "brand": "Triton",
-   "model": "TSPSP650",
-   "price": 149.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 64,
-   "score": 62,
-   "award": null,
-   "best_for": "A stronger portable than the WEN HA5932.",
-   "bought_last_month": null,
-   "verdict": "Triton's portable spindle sander: 650 W with variable speed, quick-change drums, an inverted bench-mounting set, a dust port adapter and an edge guide.",
-   "pros": [
-    "650 W, variable speed",
-    "Bench-mounting set included",
-    "Edge guide"
-   ],
-   "cons": [
-    "$149.99",
-    "4.2 stars"
-   ],
-   "specs": {
-    "type": "Portable / inverted benchtop",
-    "motor": "650 W",
-    "speed": "1,800-3,200 rpm, 50-90 opm",
-    "sleeves": "1/2, 3/4, 1-1/32, 1-1/2 in",
-    "table": "Inverted bench-mounting set, edge guide"
-   },
-   "features": {
-    "variable": true,
-    "cast_iron": false,
-    "belt": false,
-    "bevel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61eC98VwFAL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07TTF589H?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B07TTF589H"
-  },
-  {
-   "rank": 9,
    "asin": "B0015B9G0S",
    "name": "RIDGID EB4424 Oscillating Edge Belt / Spindle Sander",
    "brand": "RIDGID",
@@ -371,7 +330,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 77,
-   "score": 61,
+   "score": 70,
    "award": null,
    "best_for": "RIDGID fans who want the original combo design.",
    "bought_last_month": null,
@@ -403,6 +362,47 @@
    "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B0015B9G0S"
   },
   {
+   "rank": 9,
+   "asin": "B07TTF589H",
+   "name": "Triton TSPSP650 650W Portable Oscillating Spindle Sander",
+   "brand": "Triton",
+   "model": "TSPSP650",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 64,
+   "score": 70,
+   "award": null,
+   "best_for": "A stronger portable than the WEN HA5932.",
+   "bought_last_month": null,
+   "verdict": "Triton's portable spindle sander: 650 W with variable speed, quick-change drums, an inverted bench-mounting set, a dust port adapter and an edge guide.",
+   "pros": [
+    "650 W, variable speed",
+    "Bench-mounting set included",
+    "Edge guide"
+   ],
+   "cons": [
+    "$149.99",
+    "4.2 stars"
+   ],
+   "specs": {
+    "type": "Portable / inverted benchtop",
+    "motor": "650 W",
+    "speed": "1,800-3,200 rpm, 50-90 opm",
+    "sleeves": "1/2, 3/4, 1-1/32, 1-1/2 in",
+    "table": "Inverted bench-mounting set, edge guide"
+   },
+   "features": {
+    "variable": true,
+    "cast_iron": false,
+    "belt": false,
+    "bevel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61eC98VwFAL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07TTF589H?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B07TTF589H"
+  },
+  {
    "rank": 10,
    "asin": "B0D89QNYVM",
    "name": "Woodskil Variable Speed Oscillating Spindle Sander for Wood, 4A (OSM-1V)",
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 57,
-   "score": 59,
+   "score": 67,
    "award": null,
    "best_for": "Slowing down for hardwood and burn-prone woods.",
    "bought_last_month": "50+/mo",

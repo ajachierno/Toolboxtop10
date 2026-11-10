@@ -22,59 +22,19 @@
    "brass_nozzles": 0.2,
    "flow_control": 0.25
   },
-  "reviews_ceiling": 10000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B071X9FZ7R",
-  "best_budget": "B0BJ2JYPGG",
+  "best_overall": "B00D4NPPQY",
+  "best_budget": "B071X9FZ7R",
   "money_no_object": "B00D4NPPQY"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B071X9FZ7R",
-   "name": "HomeRight Super Finish Max HVLP Paint and Stain Sprayer, 3 Brass Tips",
-   "brand": "HomeRight",
-   "model": "C800971",
-   "price": 57.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 10688,
-   "score": 84,
-   "award": "Best Overall",
-   "best_for": "DIYers refinishing furniture, cabinets, fences and decks.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The best-selling and most-reviewed sprayer here: a handheld HVLP with three brass tips and two air caps for furniture, cabinets, fences and decks. It needs less thinning than HomeRight's older Finish Max but isn't sold as an unthinned sprayer.",
-   "pros": [
-    "10,688 reviews; 3,000+ sold last month",
-    "3 brass tips and 2 air caps",
-    "Low price"
-   ],
-   "cons": [
-    "Still needs some thinning",
-    "Handheld weight on your arm"
-   ],
-   "specs": {
-    "type": "Handheld",
-    "nozzles": "3 brass tips (1.5, 2.0, 4.0 mm), 2 air caps",
-    "controls": "Multiple spray settings",
-    "extras": "Needs less thinning than the Finish Max"
-   },
-   "features": {
-    "unthinned": false,
-    "turbine_base": false,
-    "brass_nozzles": true,
-    "flow_control": true
-   },
-   "image": "https://m.media-amazon.com/images/I/611iSEN3LRS._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B071X9FZ7R?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B071X9FZ7R"
-  },
-  {
-   "rank": 2,
    "asin": "B00D4NPPQY",
    "name": "Fuji Spray 2203G Semi-PRO 2 Gravity HVLP Spray System",
    "brand": "Fuji Spray",
@@ -83,8 +43,8 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1873,
-   "score": 81,
-   "award": "Money No Object",
+   "score": 87,
+   "award": "Best Overall",
    "best_for": "Cabinet painters and furniture finishers who want a smooth, sprayed finish.",
    "bought_last_month": "50+/mo",
    "verdict": "A real two-stage turbine HVLP system with a 25-foot hose and a gravity-feed gun. It's what finishers use for cabinets and furniture, and it rates 4.7 stars.",
@@ -114,47 +74,7 @@
    "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B00D4NPPQY"
   },
   {
-   "rank": 3,
-   "asin": "B003PGQI48",
-   "name": "Wagner Spraytech Control Spray Max Electric HVLP Paint Sprayer",
-   "brand": "Wagner",
-   "model": "Control Spray Max (0518080)",
-   "price": 150.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 4029,
-   "score": 80,
-   "award": null,
-   "best_for": "Furniture, doors and trim with a lighter gun than a handheld.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A budget turbine-base HVLP with a two-stage turbine and a 20-foot hose, so the gun stays light. Wagner says it sprays thinned latex and thinner materials like stain and poly.",
-   "pros": [
-    "Turbine on the floor, 20 ft hose",
-    "4,029 reviews",
-    "Pressure and flow controls"
-   ],
-   "cons": [
-    "Needs thinned latex",
-    "4.3 stars"
-   ],
-   "specs": {
-    "type": "Turbine base + gun",
-    "nozzles": null,
-    "controls": "Pressure dial, material flow adjuster, 3 patterns",
-    "extras": "Two-stage turbine, 20 ft hose"
-   },
-   "features": {
-    "unthinned": false,
-    "turbine_base": true,
-    "brass_nozzles": false,
-    "flow_control": true
-   },
-   "image": "https://m.media-amazon.com/images/I/617w+UqSBzL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B003PGQI48?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B003PGQI48"
-  },
-  {
-   "rank": 4,
+   "rank": 2,
    "asin": "B00D4NPMJE",
    "name": "Fuji Spray 2202 Semi-PRO 2 HVLP Spray System",
    "brand": "Fuji Spray",
@@ -163,7 +83,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1580,
-   "score": 80,
+   "score": 87,
    "award": null,
    "best_for": "Finishers spraying larger pieces who want more paint in the cup.",
    "bought_last_month": "50+/mo",
@@ -194,47 +114,87 @@
    "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B00D4NPMJE"
   },
   {
-   "rank": 5,
-   "asin": "B0BJ2JYPGG",
-   "name": "VONFORN Paint Sprayer, 700W Spray Paint Gun with 4 Nozzles and 3 Patterns",
-   "brand": "VONFORN",
-   "model": "VF803-Y",
-   "price": 39.95,
+   "rank": 3,
+   "asin": "B071X9FZ7R",
+   "name": "HomeRight Super Finish Max HVLP Paint and Stain Sprayer, 3 Brass Tips",
+   "brand": "HomeRight",
+   "model": "C800971",
+   "price": 57.0,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 8285,
-   "score": 78,
+   "rating": 4.4,
+   "reviews_count": 10688,
+   "score": 84,
    "award": "Best Budget",
-   "best_for": "Small DIY jobs on a tight budget.",
-   "bought_last_month": null,
-   "verdict": "A cheap handheld sprayer with four nozzle sizes, three patterns, a flow knob and a dust-blowing attachment to clean surfaces before spraying.",
+   "best_for": "DIYers refinishing furniture, cabinets, fences and decks.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The best-selling and most-reviewed sprayer here: a handheld HVLP with three brass tips and two air caps for furniture, cabinets, fences and decks. It needs less thinning than HomeRight's older Finish Max but isn't sold as an unthinned sprayer.",
    "pros": [
-    "8,285 reviews",
-    "4 nozzle sizes",
-    "Very low price"
+    "10,688 reviews; 3,000+ sold last month",
+    "3 brass tips and 2 air caps",
+    "Low price"
    ],
    "cons": [
-    "Thinning required",
-    "4.3 stars"
+    "Still needs some thinning",
+    "Handheld weight on your arm"
    ],
    "specs": {
     "type": "Handheld",
-    "nozzles": "4 (1.0, 1.5, 2.0, 3.0 mm)",
-    "controls": "Flow knob, 3 patterns",
-    "extras": "Dust-blowing attachment, viscosity cup, filters"
+    "nozzles": "3 brass tips (1.5, 2.0, 4.0 mm), 2 air caps",
+    "controls": "Multiple spray settings",
+    "extras": "Needs less thinning than the Finish Max"
    },
    "features": {
     "unthinned": false,
     "turbine_base": false,
+    "brass_nozzles": true,
+    "flow_control": true
+   },
+   "image": "https://m.media-amazon.com/images/I/611iSEN3LRS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B071X9FZ7R?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B071X9FZ7R"
+  },
+  {
+   "rank": 4,
+   "asin": "B003PGQI48",
+   "name": "Wagner Spraytech Control Spray Max Electric HVLP Paint Sprayer",
+   "brand": "Wagner",
+   "model": "Control Spray Max (0518080)",
+   "price": 150.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 4029,
+   "score": 84,
+   "award": null,
+   "best_for": "Furniture, doors and trim with a lighter gun than a handheld.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A budget turbine-base HVLP with a two-stage turbine and a 20-foot hose, so the gun stays light. Wagner says it sprays thinned latex and thinner materials like stain and poly.",
+   "pros": [
+    "Turbine on the floor, 20 ft hose",
+    "4,029 reviews",
+    "Pressure and flow controls"
+   ],
+   "cons": [
+    "Needs thinned latex",
+    "4.3 stars"
+   ],
+   "specs": {
+    "type": "Turbine base + gun",
+    "nozzles": null,
+    "controls": "Pressure dial, material flow adjuster, 3 patterns",
+    "extras": "Two-stage turbine, 20 ft hose"
+   },
+   "features": {
+    "unthinned": false,
+    "turbine_base": true,
     "brass_nozzles": false,
     "flow_control": true
    },
-   "image": "https://m.media-amazon.com/images/I/71kJJsN1QNL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BJ2JYPGG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B0BJ2JYPGG"
+   "image": "https://m.media-amazon.com/images/I/617w+UqSBzL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B003PGQI48?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B003PGQI48"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "asin": "B0BN6S6ZRW",
    "name": "Wagner Spraytech FLEXiO 595 Handheld HVLP Paint and Stain Sprayer",
    "brand": "Wagner",
@@ -243,7 +203,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 411,
-   "score": 72,
+   "score": 84,
    "award": null,
    "best_for": "Painting walls, ceilings and siding without thinning.",
    "bought_last_month": "300+/mo",
@@ -274,7 +234,7 @@
    "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B0BN6S6ZRW"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "asin": "B0DPNK8KCP",
    "name": "Graco EVO Plus HVLP Paint and Stain Sprayer, Brass Nozzles",
    "brand": "Graco",
@@ -283,7 +243,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 69,
-   "score": 68,
+   "score": 80,
    "award": null,
    "best_for": "Cabinets, furniture, doors and trim without thinning.",
    "bought_last_month": "50+/mo",
@@ -314,6 +274,46 @@
    "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B0DPNK8KCP"
   },
   {
+   "rank": 7,
+   "asin": "B0BJ2JYPGG",
+   "name": "VONFORN Paint Sprayer, 700W Spray Paint Gun with 4 Nozzles and 3 Patterns",
+   "brand": "VONFORN",
+   "model": "VF803-Y",
+   "price": 39.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 8285,
+   "score": 79,
+   "award": null,
+   "best_for": "Small DIY jobs on a tight budget.",
+   "bought_last_month": null,
+   "verdict": "A cheap handheld sprayer with four nozzle sizes, three patterns, a flow knob and a dust-blowing attachment to clean surfaces before spraying.",
+   "pros": [
+    "8,285 reviews",
+    "4 nozzle sizes",
+    "Very low price"
+   ],
+   "cons": [
+    "Thinning required",
+    "4.3 stars"
+   ],
+   "specs": {
+    "type": "Handheld",
+    "nozzles": "4 (1.0, 1.5, 2.0, 3.0 mm)",
+    "controls": "Flow knob, 3 patterns",
+    "extras": "Dust-blowing attachment, viscosity cup, filters"
+   },
+   "features": {
+    "unthinned": false,
+    "turbine_base": false,
+    "brass_nozzles": false,
+    "flow_control": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71kJJsN1QNL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BJ2JYPGG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B0BJ2JYPGG"
+  },
+  {
    "rank": 8,
    "asin": "B0HK7M4MB2",
    "name": "Tilswall Shark 600 Ultra-Light HVLP Electric Paint Sprayer",
@@ -323,7 +323,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 251,
-   "score": 66,
+   "score": 78,
    "award": null,
    "best_for": "Small projects where a light sprayer matters.",
    "bought_last_month": null,
@@ -355,46 +355,6 @@
   },
   {
    "rank": 9,
-   "asin": "B07JNDC5WC",
-   "name": "Wagner Spraytech FLEXiO 4000 Stationary HVLP Paint and Stain Sprayer",
-   "brand": "Wagner",
-   "model": "FLEXiO 4000 (0529090)",
-   "price": 240.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 17,
-   "score": 65,
-   "award": null,
-   "best_for": "Bigger jobs like rooms, siding and fences where you want unthinned spraying without the weight in your hand.",
-   "bought_last_month": "50+/mo",
-   "verdict": "Wagner's stationary version: the turbine sits on the floor with a 15-foot hose, and the X-Boost turbine sprays most unthinned latex and oil paints, primers and stains.",
-   "pros": [
-    "Sprays unthinned paint",
-    "Turbine on the floor",
-    "Two nozzles"
-   ],
-   "cons": [
-    "Only 17 reviews",
-    "4.2 stars"
-   ],
-   "specs": {
-    "type": "Turbine base + gun",
-    "nozzles": "iSpray + Detail Finish nozzles",
-    "controls": "Variable speed, adjustable flow, width and pattern",
-    "extras": "X-Boost turbine, 15 ft hose, 5 cup liners"
-   },
-   "features": {
-    "unthinned": true,
-    "turbine_base": true,
-    "brass_nozzles": false,
-    "flow_control": true
-   },
-   "image": "https://m.media-amazon.com/images/I/6141rPsHKQL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07JNDC5WC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B07JNDC5WC"
-  },
-  {
-   "rank": 10,
    "asin": "B0GQH7R2HT",
    "name": "PULENDY Paint Sprayer for House Painting, 4 Nozzles and 3 Spray Patterns",
    "brand": "PULENDY",
@@ -403,7 +363,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 218,
-   "score": 64,
+   "score": 76,
    "award": null,
    "best_for": "One-off small projects like a planter or patio chairs.",
    "bought_last_month": "500+/mo",
@@ -432,6 +392,46 @@
    "image": "https://m.media-amazon.com/images/I/71Xmpur0dCL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0GQH7R2HT?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B0GQH7R2HT"
+  },
+  {
+   "rank": 10,
+   "asin": "B07JNDC5WC",
+   "name": "Wagner Spraytech FLEXiO 4000 Stationary HVLP Paint and Stain Sprayer",
+   "brand": "Wagner",
+   "model": "FLEXiO 4000 (0529090)",
+   "price": 240.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 17,
+   "score": 73,
+   "award": null,
+   "best_for": "Bigger jobs like rooms, siding and fences where you want unthinned spraying without the weight in your hand.",
+   "bought_last_month": "50+/mo",
+   "verdict": "Wagner's stationary version: the turbine sits on the floor with a 15-foot hose, and the X-Boost turbine sprays most unthinned latex and oil paints, primers and stains.",
+   "pros": [
+    "Sprays unthinned paint",
+    "Turbine on the floor",
+    "Two nozzles"
+   ],
+   "cons": [
+    "Only 17 reviews",
+    "4.2 stars"
+   ],
+   "specs": {
+    "type": "Turbine base + gun",
+    "nozzles": "iSpray + Detail Finish nozzles",
+    "controls": "Variable speed, adjustable flow, width and pattern",
+    "extras": "X-Boost turbine, 15 ft hose, 5 cup liners"
+   },
+   "features": {
+    "unthinned": true,
+    "turbine_base": true,
+    "brass_nozzles": false,
+    "flow_control": true
+   },
+   "image": "https://m.media-amazon.com/images/I/6141rPsHKQL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07JNDC5WC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B07JNDC5WC"
   }
  ],
  "avoid": [

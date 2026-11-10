@@ -22,7 +22,7 @@
    "certified_tank": 0.3,
    "push_button": 0.2
   },
-  "reviews_ceiling": 1500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 70,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 891,
-   "score": 90,
+   "score": 92,
    "award": "Best Overall",
    "best_for": "A CE-approved tank with an automatic safety valve.",
    "bought_last_month": "50+/mo",
@@ -83,7 +83,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 786,
-   "score": 86,
+   "score": 90,
    "award": "Best Budget",
    "best_for": "Car and light-truck tires, aimed one-handed with a push button.",
    "bought_last_month": "600+/mo",
@@ -123,7 +123,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 786,
-   "score": 82,
+   "score": 86,
    "award": null,
    "best_for": "Tires up to 24.5 in., with a lighter aluminum tank.",
    "bought_last_month": "300+/mo",
@@ -163,7 +163,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 554,
-   "score": 81,
+   "score": 86,
    "award": null,
    "best_for": "Anyone who wants a valve that stops overfilling at 116 psi.",
    "bought_last_month": null,
@@ -195,46 +195,6 @@
   },
   {
    "rank": 5,
-   "asin": "B00CLHS2DM",
-   "name": "XtremepowerUS 5-Gallon Heavy Duty Tire Bead Seater Air Blaster, 145 PSI, Pressure Gauge",
-   "brand": "XtremepowerUS",
-   "model": "5-Gallon Bead Seater",
-   "price": 84.95,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 1179,
-   "score": 80,
-   "award": null,
-   "best_for": "The best-rated tank here, for tires from cars to tractors.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The highest-rated bead seater with a big review count: 4.7 stars across nearly 1,200 reviews. A 5-gallon powder-coated steel tank with a lipped barrel and a large quick-release valve.",
-   "pros": [
-    "4.7 stars across 1,100+ reviews, the best on this list",
-    "Lipped barrel holds the right angle between tire and rim",
-    "Large quick-release valve for a full blast"
-   ],
-   "cons": [
-    "No safety valve mentioned in the listing",
-    "Steel tank is heavier than VEVOR's aluminum one"
-   ],
-   "specs": {
-    "tank": "5 gal, carbon steel",
-    "max_psi": "145 psi",
-    "operating": null,
-    "tires": "Cars to tractors"
-   },
-   "features": {
-    "gauge": true,
-    "safety_valve": false,
-    "certified_tank": false,
-    "push_button": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51CetXD+qPL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00CLHS2DM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-bead-seaters.html#B00CLHS2DM"
-  },
-  {
-   "rank": 6,
    "asin": "B01GSJWPQI",
    "name": "OEMTOOLS 24449 5 Gallon Tire Bead Seater, 4 to 24.5 in. Tires, 150 PSI, CE-Certified Steel Tank",
    "brand": "OEMTOOLS",
@@ -243,7 +203,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 288,
-   "score": 79,
+   "score": 86,
    "award": null,
    "best_for": "The widest tire range here, from 4 to 24.5 in.",
    "bought_last_month": null,
@@ -274,34 +234,74 @@
    "page_url": "https://toolboxtop10.com/tire-bead-seaters.html#B01GSJWPQI"
   },
   {
-   "rank": 7,
-   "asin": "B075431DKH",
-   "name": "Mallofusa 5 Gallon Air Tire Bead Seater Blaster Tool, Heavy Duty",
-   "brand": "Mallofusa",
-   "model": "2039MU007",
-   "price": 70.96,
+   "rank": 6,
+   "asin": "B000VNHWUM",
+   "name": "TSI Cheetah Bead Seating Tool, 5 Gallon, CH-5",
+   "brand": "Tire Service Equipment",
+   "model": "CH-5",
+   "price": 225.0,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1150,
-   "score": 77,
+   "rating": 4.5,
+   "reviews_count": 343,
+   "score": 82,
    "award": null,
-   "best_for": "A plain 5-gallon steel seater with a long review history.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A plain 5-gallon steel bead seater with 1,100+ reviews at about $68. It's the same lipped-barrel design as the TOOLUXE without the CE mark or safety-valve claim.",
+   "best_for": "Shops that want the long-running ASME-certified pro design.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The Cheetah is the bead seater tire shops have used for years. A 5-gallon ASME-certified steel tank, and nothing else to go wrong.",
    "pros": [
-    "1,100+ reviews at 4.4 stars",
-    "Lipped metal barrel and gauge",
-    "200+ sold a month"
+    "ASME-certified pressure tank",
+    "Long-running pro design; 4.5 stars across 343 reviews",
+    "15 lb"
    ],
    "cons": [
-    "No safety valve or max pressure listed",
-    "24 lb steel tank"
+    "$225, more than three times the imports",
+    "Bare listing: no gauge, safety valve, or pressure figures published"
    ],
    "specs": {
-    "tank": "5 gal, steel",
+    "tank": "5 gal, ASME-certified steel",
     "max_psi": null,
-    "operating": "87 to 120 psi",
-    "tires": "Up to 24.5 in."
+    "operating": null,
+    "tires": "Car to truck"
+   },
+   "features": {
+    "gauge": false,
+    "safety_valve": false,
+    "certified_tank": true,
+    "push_button": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71h9b39p53L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000VNHWUM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-bead-seaters.html#B000VNHWUM"
+  },
+  {
+   "rank": 7,
+   "asin": "B00CLHS2DM",
+   "name": "XtremepowerUS 5-Gallon Heavy Duty Tire Bead Seater Air Blaster, 145 PSI, Pressure Gauge",
+   "brand": "XtremepowerUS",
+   "model": "5-Gallon Bead Seater",
+   "price": 84.95,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1179,
+   "score": 81,
+   "award": null,
+   "best_for": "The best-rated tank here, for tires from cars to tractors.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The highest-rated bead seater with a big review count: 4.7 stars across nearly 1,200 reviews. A 5-gallon powder-coated steel tank with a lipped barrel and a large quick-release valve.",
+   "pros": [
+    "4.7 stars across 1,100+ reviews, the best on this list",
+    "Lipped barrel holds the right angle between tire and rim",
+    "Large quick-release valve for a full blast"
+   ],
+   "cons": [
+    "No safety valve mentioned in the listing",
+    "Steel tank is heavier than VEVOR's aluminum one"
+   ],
+   "specs": {
+    "tank": "5 gal, carbon steel",
+    "max_psi": "145 psi",
+    "operating": null,
+    "tires": "Cars to tractors"
    },
    "features": {
     "gauge": true,
@@ -309,9 +309,9 @@
     "certified_tank": false,
     "push_button": false
    },
-   "image": "https://m.media-amazon.com/images/I/51RktTLl8GL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B075431DKH?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-bead-seaters.html#B075431DKH"
+   "image": "https://m.media-amazon.com/images/I/51CetXD+qPL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00CLHS2DM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-bead-seaters.html#B00CLHS2DM"
   },
   {
    "rank": 8,
@@ -323,7 +323,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 721,
-   "score": 76,
+   "score": 80,
    "award": null,
    "best_for": "A push-button handheld with more air than the 2.1 gal models.",
    "bought_last_month": "300+/mo",
@@ -355,46 +355,6 @@
   },
   {
    "rank": 9,
-   "asin": "B000VNHWUM",
-   "name": "TSI Cheetah Bead Seating Tool, 5 Gallon, CH-5",
-   "brand": "Tire Service Equipment",
-   "model": "CH-5",
-   "price": 225.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 343,
-   "score": 74,
-   "award": null,
-   "best_for": "Shops that want the long-running ASME-certified pro design.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The Cheetah is the bead seater tire shops have used for years. A 5-gallon ASME-certified steel tank, and nothing else to go wrong.",
-   "pros": [
-    "ASME-certified pressure tank",
-    "Long-running pro design; 4.5 stars across 343 reviews",
-    "15 lb"
-   ],
-   "cons": [
-    "$225, more than three times the imports",
-    "Bare listing: no gauge, safety valve, or pressure figures published"
-   ],
-   "specs": {
-    "tank": "5 gal, ASME-certified steel",
-    "max_psi": null,
-    "operating": null,
-    "tires": "Car to truck"
-   },
-   "features": {
-    "gauge": false,
-    "safety_valve": false,
-    "certified_tank": true,
-    "push_button": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71h9b39p53L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000VNHWUM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tire-bead-seaters.html#B000VNHWUM"
-  },
-  {
-   "rank": 10,
    "asin": "B09466BZWH",
    "name": "Gaither Handheld Bead Bazooka, 2nd Generation, Rapid Air Release",
    "brand": "Gaither",
@@ -403,7 +363,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 157,
-   "score": 71,
+   "score": 80,
    "award": "Money No Object",
    "best_for": "Tire shops seating awkward wheels every day.",
    "bought_last_month": null,
@@ -432,6 +392,46 @@
    "image": "https://m.media-amazon.com/images/I/51b633H3g5S._AC_SX425_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09466BZWH?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/tire-bead-seaters.html#B09466BZWH"
+  },
+  {
+   "rank": 10,
+   "asin": "B075431DKH",
+   "name": "Mallofusa 5 Gallon Air Tire Bead Seater Blaster Tool, Heavy Duty",
+   "brand": "Mallofusa",
+   "model": "2039MU007",
+   "price": 70.96,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1150,
+   "score": 79,
+   "award": null,
+   "best_for": "A plain 5-gallon steel seater with a long review history.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A plain 5-gallon steel bead seater with 1,100+ reviews at about $68. It's the same lipped-barrel design as the TOOLUXE without the CE mark or safety-valve claim.",
+   "pros": [
+    "1,100+ reviews at 4.4 stars",
+    "Lipped metal barrel and gauge",
+    "200+ sold a month"
+   ],
+   "cons": [
+    "No safety valve or max pressure listed",
+    "24 lb steel tank"
+   ],
+   "specs": {
+    "tank": "5 gal, steel",
+    "max_psi": null,
+    "operating": "87 to 120 psi",
+    "tires": "Up to 24.5 in."
+   },
+   "features": {
+    "gauge": true,
+    "safety_valve": false,
+    "certified_tank": false,
+    "push_button": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51RktTLl8GL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B075431DKH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tire-bead-seaters.html#B075431DKH"
   }
  ],
  "avoid": [

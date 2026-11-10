@@ -1,5 +1,8 @@
 """Listing age for the review-count score (shared by ThemisReviews and ToolboxTop10; keep both copies identical).
 
+Review counts prove a rating is real; past FULL_CREDIT (200) reviews they add nothing more, so rating and
+features decide between well-reviewed products.
+
 A listing that has been on Amazon for 10 years has had 10 years to collect reviews. To keep a newer product
 from being buried by review volume alone, the score counts a young listing's reviews at a higher rate:
 
@@ -29,6 +32,8 @@ REF_MONTHS = 24      # listings younger than this get a boost
 MIN_MONTHS = 6       # floor on age, so a brand-new listing isn't boosted without limit
 MAX_BOOST = 2.0      # most a review count can be multiplied by
 MIN_REVIEWS = 30     # below this, no boost
+FULL_CREDIT = 200    # review count (after the age boost) that earns the full review score on every page;
+                     # past this, rating and features decide. A page's own reviews_ceiling only applies if lower.
 
 ASIN_RE = re.compile(r"^B0[0-9A-Z]{8}$")
 _DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d")
@@ -148,6 +153,22 @@ def review_multiplier(p, as_of):
         return 1.0, d, how
     months = max(MIN_MONTHS, (as_of - d).days / 30.44)
     return min(max(1.0, REF_MONTHS / months), MAX_BOOST), d, how
+
+
+def review_ceiling(cat, default):
+    """Review count that earns full review credit on this page: the page's reviews_ceiling, at most FULL_CREDIT."""
+    return min(cat.get("reviews_ceiling", default), FULL_CREDIT)
+
+
+def review_subscore(p, cat, default_ceiling):
+    """0-1 review score: log scale up to review_ceiling, using the age-boosted count. Also records
+    review_weight / listed / listed_how on p for the page data."""
+    import math
+    mult, listed, how = review_multiplier(p, as_of_date(cat))
+    p["review_weight"] = round(mult, 2)
+    if listed:
+        p["listed"], p["listed_how"] = listed.isoformat(), how
+    return min(1.0, math.log10(p["reviews_count"] * mult + 1) / math.log10(review_ceiling(cat, default_ceiling))), mult
 
 
 def as_of_date(cat):

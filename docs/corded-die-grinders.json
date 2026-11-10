@@ -21,7 +21,7 @@
    "paddle_switch": 0.35,
    "name_brand": 0.3
   },
-  "reviews_ceiling": 1200,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 70,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -42,7 +42,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 962,
-   "score": 89,
+   "score": 90,
    "award": "Best Overall",
    "best_for": "Fabricators and mechanics who want a proven straight grinder for weld cleanup and porting.",
    "bought_last_month": "200+/mo",
@@ -82,7 +82,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 997,
-   "score": 87,
+   "score": 88,
    "award": null,
    "best_for": "Makita fans who want the tool to stop when they let go.",
    "bought_last_month": null,
@@ -114,6 +114,46 @@
   },
   {
    "rank": 3,
+   "asin": "B00SHAW3VY",
+   "name": "DEWALT DWE4887N 1-1/2-Inch Die Grinder, No Lock-On Paddle Switch",
+   "brand": "DEWALT",
+   "model": "DWE4887N",
+   "price": 162.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 82,
+   "score": 84,
+   "award": null,
+   "best_for": "Jobsites and shops whose safety rules require a no-lock-on switch.",
+   "bought_last_month": null,
+   "verdict": "The DWE4887 with a paddle that can't be locked on, so the motor stops the moment you let go. Same 4.2 A motor, same 25,000 rpm, same AC/DC capability.",
+   "pros": [
+    "4.7 stars",
+    "Stops when released",
+    "3-year limited warranty"
+   ],
+   "cons": [
+    "82 reviews, far fewer than the lock-on model",
+    "Single speed"
+   ],
+   "specs": {
+    "power": "4.2 A",
+    "speed": "25,000 rpm",
+    "switch": "Paddle, no lock-on",
+    "collet": "1/4 in (1/8 in sleeve sold separately)",
+    "extras": "AC/DC; 3-year limited warranty"
+   },
+   "features": {
+    "variable_speed": false,
+    "paddle_switch": true,
+    "name_brand": true
+   },
+   "image": "https://m.media-amazon.com/images/I/519swhtcB7L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00SHAW3VY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-die-grinders.html#B00SHAW3VY"
+  },
+  {
+   "rank": 4,
    "asin": "B001ASC73E",
    "name": "Makita GD0601 1/4\" Die Grinder, with AC/DC Switch",
    "brand": "Makita",
@@ -153,46 +193,6 @@
    "page_url": "https://toolboxtop10.com/corded-die-grinders.html#B001ASC73E"
   },
   {
-   "rank": 4,
-   "asin": "B00SHAW3VY",
-   "name": "DEWALT DWE4887N 1-1/2-Inch Die Grinder, No Lock-On Paddle Switch",
-   "brand": "DEWALT",
-   "model": "DWE4887N",
-   "price": 162.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 82,
-   "score": 77,
-   "award": null,
-   "best_for": "Jobsites and shops whose safety rules require a no-lock-on switch.",
-   "bought_last_month": null,
-   "verdict": "The DWE4887 with a paddle that can't be locked on, so the motor stops the moment you let go. Same 4.2 A motor, same 25,000 rpm, same AC/DC capability.",
-   "pros": [
-    "4.7 stars",
-    "Stops when released",
-    "3-year limited warranty"
-   ],
-   "cons": [
-    "82 reviews, far fewer than the lock-on model",
-    "Single speed"
-   ],
-   "specs": {
-    "power": "4.2 A",
-    "speed": "25,000 rpm",
-    "switch": "Paddle, no lock-on",
-    "collet": "1/4 in (1/8 in sleeve sold separately)",
-    "extras": "AC/DC; 3-year limited warranty"
-   },
-   "features": {
-    "variable_speed": false,
-    "paddle_switch": true,
-    "name_brand": true
-   },
-   "image": "https://m.media-amazon.com/images/I/519swhtcB7L._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00SHAW3VY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-die-grinders.html#B00SHAW3VY"
-  },
-  {
    "rank": 5,
    "asin": "B01C3WPX6I",
    "name": "Makita GD0603 1/4\" Compact Die Grinder",
@@ -202,7 +202,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 322,
-   "score": 75,
+   "score": 82,
    "award": null,
    "best_for": "Detail work, porting and long sessions where weight matters more than power.",
    "bought_last_month": "50+/mo",
@@ -242,7 +242,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 22,
-   "score": 75,
+   "score": 80,
    "award": "Money No Object",
    "best_for": "Daily users who need low speeds for polishing and full speed for carbide burrs.",
    "bought_last_month": null,
@@ -283,7 +283,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 34,
-   "score": 65,
+   "score": 72,
    "award": "Best Budget",
    "best_for": "Reaching into deep or recessed spots on a budget.",
    "bought_last_month": "50+/mo",
@@ -323,7 +323,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 31,
-   "score": 65,
+   "score": 72,
    "award": null,
    "best_for": "Hobby metalwork where low speeds for polishing matter more than brand.",
    "bought_last_month": null,
@@ -355,46 +355,6 @@
   },
   {
    "rank": 9,
-   "asin": "B0FZM26YXQ",
-   "name": "Metabo HPT GP 400 Paddle Switch Die Grinder (646053420)",
-   "brand": "Metabo HPT",
-   "model": "GP 400",
-   "price": 179.0,
-   "currency": "USD",
-   "rating": 5.0,
-   "reviews_count": 1,
-   "score": 61,
-   "award": null,
-   "best_for": "Users who want a name-brand paddle grinder with a long nose for tight spots.",
-   "bought_last_month": null,
-   "verdict": "A new paddle-switch die grinder from Metabo HPT with an extended spindle for recessed work and a precision collar for mounting it in a stand. It carries a 3-year warranty.",
-   "pros": [
-    "Paddle switch",
-    "Extended spindle",
-    "3-year warranty"
-   ],
-   "cons": [
-    "1 review",
-    "Listing gives two different speeds"
-   ],
-   "specs": {
-    "power": "400 W",
-    "speed": "30,000 rpm per description (spec table says 12,400)",
-    "switch": "Paddle",
-    "collet": null,
-    "extras": "Extended spindle, precision collar, removable rubber nose cap"
-   },
-   "features": {
-    "variable_speed": false,
-    "paddle_switch": true,
-    "name_brand": true
-   },
-   "image": "https://m.media-amazon.com/images/I/619S2SjjpvL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FZM26YXQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-die-grinders.html#B0FZM26YXQ"
-  },
-  {
-   "rank": 10,
    "asin": "B0D69N49QN",
    "name": "Hoteche 1/4-Inch Electric Die Grinder 6-Amp Heavy Duty Compact High-Speed (PG801210A)",
    "brand": "Hoteche",
@@ -403,7 +363,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 56,
-   "score": 57,
+   "score": 64,
    "award": null,
    "best_for": "Occasional deburring and rust removal on a tight budget.",
    "bought_last_month": null,
@@ -432,6 +392,46 @@
    "image": "https://m.media-amazon.com/images/I/51nD6MhEtyL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D69N49QN?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-die-grinders.html#B0D69N49QN"
+  },
+  {
+   "rank": 10,
+   "asin": "B0FZM26YXQ",
+   "name": "Metabo HPT GP 400 Paddle Switch Die Grinder (646053420)",
+   "brand": "Metabo HPT",
+   "model": "GP 400",
+   "price": 179.0,
+   "currency": "USD",
+   "rating": 5.0,
+   "reviews_count": 1,
+   "score": 63,
+   "award": null,
+   "best_for": "Users who want a name-brand paddle grinder with a long nose for tight spots.",
+   "bought_last_month": null,
+   "verdict": "A new paddle-switch die grinder from Metabo HPT with an extended spindle for recessed work and a precision collar for mounting it in a stand. It carries a 3-year warranty.",
+   "pros": [
+    "Paddle switch",
+    "Extended spindle",
+    "3-year warranty"
+   ],
+   "cons": [
+    "1 review",
+    "Listing gives two different speeds"
+   ],
+   "specs": {
+    "power": "400 W",
+    "speed": "30,000 rpm per description (spec table says 12,400)",
+    "switch": "Paddle",
+    "collet": null,
+    "extras": "Extended spindle, precision collar, removable rubber nose cap"
+   },
+   "features": {
+    "variable_speed": false,
+    "paddle_switch": true,
+    "name_brand": true
+   },
+   "image": "https://m.media-amazon.com/images/I/619S2SjjpvL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FZM26YXQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-die-grinders.html#B0FZM26YXQ"
   }
  ],
  "avoid": [

@@ -22,7 +22,7 @@
    "cordless": 0.2,
    "sticks": 0.25
   },
-  "reviews_ceiling": 25000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 12,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 4863,
-   "score": 89,
+   "score": 94,
    "award": "Best Overall",
    "best_for": "A full-size gun kit that's ready to go.",
    "bought_last_month": "4K+/mo",
@@ -76,6 +76,47 @@
   },
   {
    "rank": 2,
+   "asin": "B0CBPJK2VZ",
+   "name": "MAXDONE 100W Cordless Hot Glue Gun for DeWalt 20V MAX Battery, Tool Only (NL-237US)",
+   "brand": "MAXDONE",
+   "model": "NL-237US",
+   "price": 22.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 5668,
+   "score": 90,
+   "award": null,
+   "best_for": "DEWALT battery owners gluing away from outlets.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A full-size 100 W gun that runs on DEWALT 20V batteries, so you can glue on a ladder or job site with no cord. Third-party, so DEWALT doesn't warrant it.",
+   "pros": [
+    "Full size, cordless",
+    "Runs on DEWALT 20V",
+    "5,668 reviews"
+   ],
+   "cons": [
+    "3-5 minute warm-up",
+    "Third-party tool"
+   ],
+   "specs": {
+    "size": "Full size, 0.43 in",
+    "watts": "100 W",
+    "temp": "Single",
+    "source": "DEWALT 20V battery",
+    "in_box": "12 sticks"
+   },
+   "features": {
+    "dual_temp": false,
+    "full_size": true,
+    "cordless": true,
+    "sticks": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71SINNHDtkL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CBPJK2VZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B0CBPJK2VZ"
+  },
+  {
+   "rank": 3,
    "asin": "B07K791YRP",
    "name": "Gorilla Mini Hot Glue Gun Kit, Dual Temp, Includes 30 Sticks",
    "brand": "Gorilla",
@@ -116,89 +157,7 @@
    "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B07K791YRP"
   },
   {
-   "rank": 3,
-   "asin": "B0CBPJK2VZ",
-   "name": "MAXDONE 100W Cordless Hot Glue Gun for DeWalt 20V MAX Battery, Tool Only (NL-237US)",
-   "brand": "MAXDONE",
-   "model": "NL-237US",
-   "price": 22.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 5668,
-   "score": 84,
-   "award": null,
-   "best_for": "DEWALT battery owners gluing away from outlets.",
-   "bought_last_month": "400+/mo",
-   "verdict": "A full-size 100 W gun that runs on DEWALT 20V batteries, so you can glue on a ladder or job site with no cord. Third-party, so DEWALT doesn't warrant it.",
-   "pros": [
-    "Full size, cordless",
-    "Runs on DEWALT 20V",
-    "5,668 reviews"
-   ],
-   "cons": [
-    "3-5 minute warm-up",
-    "Third-party tool"
-   ],
-   "specs": {
-    "size": "Full size, 0.43 in",
-    "watts": "100 W",
-    "temp": "Single",
-    "source": "DEWALT 20V battery",
-    "in_box": "12 sticks"
-   },
-   "features": {
-    "dual_temp": false,
-    "full_size": true,
-    "cordless": true,
-    "sticks": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71SINNHDtkL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CBPJK2VZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B0CBPJK2VZ"
-  },
-  {
    "rank": 4,
-   "asin": "B001AH5EXK",
-   "name": "Surebonder Cordless Hot Glue Gun, High Temperature, Full Size, 60W",
-   "brand": "Surebonder",
-   "model": "Cordless 60W",
-   "price": 19.12,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 15024,
-   "score": 82,
-   "award": null,
-   "best_for": "Repairs on heavier materials.",
-   "bought_last_month": "7K+/mo",
-   "verdict": "A full-size 60 W high-temp gun that lifts off its heating base for about 3 minutes of cordless gluing, hot enough to bond metal, wood, ceramics and leather.",
-   "pros": [
-    "380°F high temp",
-    "Cordless for short bursts",
-    "15,024 reviews"
-   ],
-   "cons": [
-    "90-day warranty",
-    "No sticks included"
-   ],
-   "specs": {
-    "size": "Full size",
-    "watts": "60 W",
-    "temp": "High, to 380°F",
-    "source": "Corded, or 3 min off the heating base",
-    "in_box": "Heating base, glue pad"
-   },
-   "features": {
-    "dual_temp": false,
-    "full_size": true,
-    "cordless": true,
-    "sticks": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61kqj0HVXWL._AC_SL1254_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B001AH5EXK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B001AH5EXK"
-  },
-  {
-   "rank": 5,
    "asin": "B087418ZDN",
    "name": "Gorilla Dual Temp Full Size Hot Glue Gun, Precision Nozzle",
    "brand": "Gorilla",
@@ -207,7 +166,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 5985,
-   "score": 82,
+   "score": 87,
    "award": null,
    "best_for": "Home repairs and larger craft projects.",
    "bought_last_month": "1K+/mo",
@@ -239,7 +198,7 @@
    "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B087418ZDN"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "asin": "B07PGDLHBQ",
    "name": "BOSWELL 150W Full Size Hot Glue Gun with 6 Copper Nozzles",
    "brand": "BOSWELL",
@@ -248,7 +207,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 3138,
-   "score": 79,
+   "score": 86,
    "award": null,
    "best_for": "Heavy gluing that needs exact heat control.",
    "bought_last_month": "900+/mo",
@@ -280,89 +239,48 @@
    "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B07PGDLHBQ"
   },
   {
-   "rank": 7,
-   "asin": "B0DSK5PHZ7",
-   "name": "SHJADE Hot Glue Gun with 30 Glue Sticks, 20W Mini Hot Melt Gun Kit",
-   "brand": "SHJADE",
-   "model": "LFT-A601",
-   "price": 12.99,
+   "rank": 6,
+   "asin": "B001AH5EXK",
+   "name": "Surebonder Cordless Hot Glue Gun, High Temperature, Full Size, 60W",
+   "brand": "Surebonder",
+   "model": "Cordless 60W",
+   "price": 19.12,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 6351,
-   "score": 77,
-   "award": "Best Budget",
-   "best_for": "Kids' crafts and a cheap backup gun.",
-   "bought_last_month": "10K+/mo",
-   "verdict": "A $10 mini gun and 30 sticks that sells over 10,000 a month, with a fold-up stand and a 1-3 minute warm-up.",
-   "pros": [
-    "$12.99 with 30 sticks",
-    "10,000+ sold last month",
-    "Fold-up stand"
-   ],
-   "cons": [
-    "Single temperature",
-    "20 W"
-   ],
-   "specs": {
-    "size": "Mini, 0.27 in",
-    "watts": "20 W",
-    "temp": "Single",
-    "source": "Corded",
-    "in_box": "30 sticks"
-   },
-   "features": {
-    "dual_temp": false,
-    "full_size": false,
-    "cordless": false,
-    "sticks": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71YvjXY6-HL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DSK5PHZ7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B0DSK5PHZ7"
-  },
-  {
-   "rank": 8,
-   "asin": "B0BC878ZRG",
-   "name": "Krightlink Mini Hot Glue Gun Kit with 30 Glue Sticks, 20W Fast Preheating",
-   "brand": "Krightlink",
-   "model": "21",
-   "price": 12.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 4937,
-   "score": 76,
+   "rating": 4.4,
+   "reviews_count": 15024,
+   "score": 84,
    "award": null,
-   "best_for": "Precise craft work on a budget.",
-   "bought_last_month": "20K+/mo",
-   "verdict": "A mini gun with a PTC ceramic heater that warms up in about a minute, an anti-drip precision nozzle and 30 sticks.",
+   "best_for": "Repairs on heavier materials.",
+   "bought_last_month": "7K+/mo",
+   "verdict": "A full-size 60 W high-temp gun that lifts off its heating base for about 3 minutes of cordless gluing, hot enough to bond metal, wood, ceramics and leather.",
    "pros": [
-    "1-minute warm-up",
-    "Anti-drip nozzle",
-    "30 sticks"
+    "380°F high temp",
+    "Cordless for short bursts",
+    "15,024 reviews"
    ],
    "cons": [
-    "Single temperature",
-    "20 W"
+    "90-day warranty",
+    "No sticks included"
    ],
    "specs": {
-    "size": "Mini",
-    "watts": "20 W",
-    "temp": "Single",
-    "source": "Corded",
-    "in_box": "30 sticks"
+    "size": "Full size",
+    "watts": "60 W",
+    "temp": "High, to 380°F",
+    "source": "Corded, or 3 min off the heating base",
+    "in_box": "Heating base, glue pad"
    },
    "features": {
     "dual_temp": false,
-    "full_size": false,
-    "cordless": false,
-    "sticks": true
+    "full_size": true,
+    "cordless": true,
+    "sticks": false
    },
-   "image": "https://m.media-amazon.com/images/I/61u3j+oaMoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BC878ZRG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B0BC878ZRG"
+   "image": "https://m.media-amazon.com/images/I/61kqj0HVXWL._AC_SL1254_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B001AH5EXK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B001AH5EXK"
   },
   {
-   "rank": 9,
+   "rank": 7,
    "asin": "B0FXQZLVMC",
    "name": "Tilswall Cordless Hot Glue Gun W106s with Rechargeable 2Ah Battery",
    "brand": "Tilswall",
@@ -371,7 +289,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 2123,
-   "score": 76,
+   "score": 83,
    "award": null,
    "best_for": "Gluing away from an outlet.",
    "bought_last_month": "2K+/mo",
@@ -403,6 +321,88 @@
    "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B0FXQZLVMC"
   },
   {
+   "rank": 8,
+   "asin": "B0DSK5PHZ7",
+   "name": "SHJADE Hot Glue Gun with 30 Glue Sticks, 20W Mini Hot Melt Gun Kit",
+   "brand": "SHJADE",
+   "model": "LFT-A601",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 6351,
+   "score": 81,
+   "award": "Best Budget",
+   "best_for": "Kids' crafts and a cheap backup gun.",
+   "bought_last_month": "10K+/mo",
+   "verdict": "A $10 mini gun and 30 sticks that sells over 10,000 a month, with a fold-up stand and a 1-3 minute warm-up.",
+   "pros": [
+    "$12.99 with 30 sticks",
+    "10,000+ sold last month",
+    "Fold-up stand"
+   ],
+   "cons": [
+    "Single temperature",
+    "20 W"
+   ],
+   "specs": {
+    "size": "Mini, 0.27 in",
+    "watts": "20 W",
+    "temp": "Single",
+    "source": "Corded",
+    "in_box": "30 sticks"
+   },
+   "features": {
+    "dual_temp": false,
+    "full_size": false,
+    "cordless": false,
+    "sticks": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71YvjXY6-HL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DSK5PHZ7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B0DSK5PHZ7"
+  },
+  {
+   "rank": 9,
+   "asin": "B0BC878ZRG",
+   "name": "Krightlink Mini Hot Glue Gun Kit with 30 Glue Sticks, 20W Fast Preheating",
+   "brand": "Krightlink",
+   "model": "21",
+   "price": 12.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 4937,
+   "score": 81,
+   "award": null,
+   "best_for": "Precise craft work on a budget.",
+   "bought_last_month": "20K+/mo",
+   "verdict": "A mini gun with a PTC ceramic heater that warms up in about a minute, an anti-drip precision nozzle and 30 sticks.",
+   "pros": [
+    "1-minute warm-up",
+    "Anti-drip nozzle",
+    "30 sticks"
+   ],
+   "cons": [
+    "Single temperature",
+    "20 W"
+   ],
+   "specs": {
+    "size": "Mini",
+    "watts": "20 W",
+    "temp": "Single",
+    "source": "Corded",
+    "in_box": "30 sticks"
+   },
+   "features": {
+    "dual_temp": false,
+    "full_size": false,
+    "cordless": false,
+    "sticks": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61u3j+oaMoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BC878ZRG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hot-glue-guns.html#B0BC878ZRG"
+  },
+  {
    "rank": 10,
    "asin": "B002KVB0EM",
    "name": "AdTech Pro200 Industrial Strength Full Size High-Output Hot Melt Glue Gun, 200 W",
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1221,
-   "score": 70,
+   "score": 80,
    "award": "Money No Object",
    "best_for": "Carpentry, upholstery and heavy production gluing.",
    "bought_last_month": "300+/mo",

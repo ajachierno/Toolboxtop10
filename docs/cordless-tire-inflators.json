@@ -22,7 +22,7 @@
    "platform": 0.2,
    "high_flow": 0.25
   },
-  "reviews_ceiling": 30000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 18663,
-   "score": 90,
+   "score": 91,
    "award": "Money No Object",
    "best_for": "DEWALT owners who want one inflator for the garage, car and camping gear.",
    "bought_last_month": "6K+/mo",
@@ -84,7 +84,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 28836,
-   "score": 85,
+   "score": 86,
    "award": null,
    "best_for": "Car and SUV tires with a backup 12V cord.",
    "bought_last_month": "2K+/mo",
@@ -125,7 +125,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 6706,
-   "score": 81,
+   "score": 86,
    "award": null,
    "best_for": "Precise top-offs in a pocket-size pump.",
    "bought_last_month": "2K+/mo",
@@ -158,47 +158,6 @@
   },
   {
    "rank": 4,
-   "asin": "B0948WY5YX",
-   "name": "AstroAI Cordless Tire Inflator Portable Air Compressor 160PSI, 20V Battery and 12VDC",
-   "brand": "AstroAI",
-   "model": "Cordless 160 PSI",
-   "price": 54.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 16932,
-   "score": 80,
-   "award": "Best Overall",
-   "best_for": "A trunk inflator that never runs out of battery.",
-   "bought_last_month": "4K+/mo",
-   "verdict": "A metal-bodied inflator that runs on its 20V battery or the car's 12V socket, with auto shut-off, a digital gauge, a storage bag and nozzles, rated 4.6 across 16,932 reviews.",
-   "pros": [
-    "Battery or 12V power",
-    "16,932 reviews at 4.6 stars",
-    "160 psi, metal build"
-   ],
-   "cons": [
-    "Airflow not listed",
-    "2.5 lbs"
-   ],
-   "specs": {
-    "power": "20V battery or 12V car plug",
-    "max_psi": "160 psi",
-    "airflow": null,
-    "weight": "2.5 lb",
-    "extras": "Metal construction, storage bag, nozzles"
-   },
-   "features": {
-    "dual_power": true,
-    "accurate": false,
-    "platform": false,
-    "high_flow": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71emuEQT-YL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0948WY5YX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-tire-inflators.html#B0948WY5YX"
-  },
-  {
-   "rank": 5,
    "asin": "B0CGLTPKBZ",
    "name": "ETENWOLF VORTEX S6 Tire Inflator Portable Air Compressor, Cordless Air Pump",
    "brand": "ETENWOLF",
@@ -207,7 +166,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3131,
-   "score": 79,
+   "score": 86,
    "award": null,
    "best_for": "Pickups, off-road tires and airing up after the trail.",
    "bought_last_month": "4K+/mo",
@@ -239,7 +198,7 @@
    "page_url": "https://toolboxtop10.com/cordless-tire-inflators.html#B0CGLTPKBZ"
   },
   {
-   "rank": 6,
+   "rank": 5,
    "asin": "B07CTY3W98",
    "name": "Milwaukee M12 Compact Inflator (2475-20)",
    "brand": "Milwaukee",
@@ -248,7 +207,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3338,
-   "score": 78,
+   "score": 85,
    "award": null,
    "best_for": "M12 owners and work trucks.",
    "bought_last_month": "1K+/mo",
@@ -280,6 +239,47 @@
    "page_url": "https://toolboxtop10.com/cordless-tire-inflators.html#B07CTY3W98"
   },
   {
+   "rank": 6,
+   "asin": "B0948WY5YX",
+   "name": "AstroAI Cordless Tire Inflator Portable Air Compressor 160PSI, 20V Battery and 12VDC",
+   "brand": "AstroAI",
+   "model": "Cordless 160 PSI",
+   "price": 54.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 16932,
+   "score": 82,
+   "award": "Best Overall",
+   "best_for": "A trunk inflator that never runs out of battery.",
+   "bought_last_month": "4K+/mo",
+   "verdict": "A metal-bodied inflator that runs on its 20V battery or the car's 12V socket, with auto shut-off, a digital gauge, a storage bag and nozzles, rated 4.6 across 16,932 reviews.",
+   "pros": [
+    "Battery or 12V power",
+    "16,932 reviews at 4.6 stars",
+    "160 psi, metal build"
+   ],
+   "cons": [
+    "Airflow not listed",
+    "2.5 lbs"
+   ],
+   "specs": {
+    "power": "20V battery or 12V car plug",
+    "max_psi": "160 psi",
+    "airflow": null,
+    "weight": "2.5 lb",
+    "extras": "Metal construction, storage bag, nozzles"
+   },
+   "features": {
+    "dual_power": true,
+    "accurate": false,
+    "platform": false,
+    "high_flow": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71emuEQT-YL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0948WY5YX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-tire-inflators.html#B0948WY5YX"
+  },
+  {
    "rank": 7,
    "asin": "B0GGGTLJ9F",
    "name": "AstroAI H2 Pro Cordless Tire Inflator Portable Air Compressor, 12VDC and Battery",
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 3613,
-   "score": 76,
+   "score": 81,
    "award": null,
    "best_for": "A dual-power inflator under $45.",
    "bought_last_month": "4K+/mo",
@@ -322,6 +322,47 @@
   },
   {
    "rank": 8,
+   "asin": "B0CMBZ6R3V",
+   "name": "CRAFTSMAN V20 Cordless Tire Inflator, Up To 150 PSI, Digital Gauge, Tool Only (CMCE521B)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCE521B",
+   "price": 39.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1827,
+   "score": 80,
+   "award": null,
+   "best_for": "CRAFTSMAN V20 owners.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A $39 bare tool for CRAFTSMAN V20 owners: 150 psi, a digital gauge with a tested -2 PSI delta, and a balanced D-handle.",
+   "pros": [
+    "$39",
+    "4.6 stars",
+    "Runs on any V20 battery"
+   ],
+   "cons": [
+    "Tool only",
+    "Airflow not listed"
+   ],
+   "specs": {
+    "power": "CRAFTSMAN V20 battery",
+    "max_psi": "150 psi",
+    "airflow": null,
+    "weight": "2 lb",
+    "extras": "D-handle"
+   },
+   "features": {
+    "dual_power": false,
+    "accurate": false,
+    "platform": true,
+    "high_flow": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71fPPyyHI5L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CMBZ6R3V?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-tire-inflators.html#B0CMBZ6R3V"
+  },
+  {
+   "rank": 9,
    "asin": "B094DMH7ZM",
    "name": "Airmoto Tire Inflator Portable Air Compressor for Cars, Bikes and Bicycles",
    "brand": "Airmoto",
@@ -362,7 +403,7 @@
    "page_url": "https://toolboxtop10.com/cordless-tire-inflators.html#B094DMH7ZM"
   },
   {
-   "rank": 9,
+   "rank": 10,
    "asin": "B0CS3B7MD8",
    "name": "AstroAI L7 Tire Inflator Portable Air Compressor, 150 PSI Cordless Bike Pump",
    "brand": "AstroAI",
@@ -371,7 +412,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 20486,
-   "score": 72,
+   "score": 74,
    "award": "Best Budget",
    "best_for": "Glovebox top-offs and bikes for under $30.",
    "bought_last_month": "50K+/mo",
@@ -401,47 +442,6 @@
    "image": "https://m.media-amazon.com/images/I/71E8Cc-0ctL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CS3B7MD8?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-tire-inflators.html#B0CS3B7MD8"
-  },
-  {
-   "rank": 10,
-   "asin": "B0CMBZ6R3V",
-   "name": "CRAFTSMAN V20 Cordless Tire Inflator, Up To 150 PSI, Digital Gauge, Tool Only (CMCE521B)",
-   "brand": "CRAFTSMAN",
-   "model": "CMCE521B",
-   "price": 39.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1827,
-   "score": 71,
-   "award": null,
-   "best_for": "CRAFTSMAN V20 owners.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A $39 bare tool for CRAFTSMAN V20 owners: 150 psi, a digital gauge with a tested -2 PSI delta, and a balanced D-handle.",
-   "pros": [
-    "$39",
-    "4.6 stars",
-    "Runs on any V20 battery"
-   ],
-   "cons": [
-    "Tool only",
-    "Airflow not listed"
-   ],
-   "specs": {
-    "power": "CRAFTSMAN V20 battery",
-    "max_psi": "150 psi",
-    "airflow": null,
-    "weight": "2 lb",
-    "extras": "D-handle"
-   },
-   "features": {
-    "dual_power": false,
-    "accurate": false,
-    "platform": true,
-    "high_flow": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71fPPyyHI5L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CMBZ6R3V?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-tire-inflators.html#B0CMBZ6R3V"
   }
  ],
  "avoid": [

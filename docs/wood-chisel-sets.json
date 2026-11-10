@@ -22,59 +22,19 @@
    "sharpening": 0.25,
    "storage": 0.2
   },
-  "reviews_ceiling": 8000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 15,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B07V8X5W5R",
+  "best_overall": "B08LGFVNSC",
   "best_budget": "B07GGYNHSQ",
   "money_no_object": "B0165WKKY2"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B07V8X5W5R",
-   "name": "Amazon Basics 8-Piece Wood Chisel Set with Honing Guide, Sharpening Stone and Storage Case",
-   "brand": "Amazon Basics",
-   "model": "DS-CHAMZ004",
-   "price": 29.17,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 8199,
-   "score": 92,
-   "award": "Best Overall",
-   "best_for": "Beginners who want a complete set they can keep sharp.",
-   "bought_last_month": "400+/mo",
-   "verdict": "Six chisels from 1/4 to 1-1/2 inches with a honing guide, sharpening stone and case, rated 4.7 stars on 8,199 reviews.",
-   "pros": [
-    "8,199 reviews; 4.7 stars",
-    "Sharpening kit included",
-    "Six sizes"
-   ],
-   "cons": [
-    "No strike cap"
-   ],
-   "specs": {
-    "chisels": "6",
-    "sizes": "1/4 to 1-1/2 in",
-    "steel": "Heat-treated CR-V",
-    "handle": "Wood, contoured",
-    "extras": "Honing guide, sharpening stone, case"
-   },
-   "features": {
-    "six_plus": true,
-    "strike_cap": false,
-    "sharpening": true,
-    "storage": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81lFKVfOjEL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07V8X5W5R?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B07V8X5W5R"
-  },
-  {
-   "rank": 2,
    "asin": "B08LGFVNSC",
    "name": "ENERTWIST 13-Piece Wood Chisel Set: 8 CR-V Chisels, Sharpening Stone, Honing Guide, Hard Case (ET-WCS-13)",
    "brand": "ENERTWIST",
@@ -83,8 +43,8 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 454,
-   "score": 86,
-   "award": null,
+   "score": 97,
+   "award": "Best Overall",
    "best_for": "Beginners who want every size and the gear to keep them sharp.",
    "bought_last_month": "50+/mo",
    "verdict": "Eight chisels from 1/4 to 1-1/2 inches, the most sizes here, with strike caps, a sharpening stone, a honing guide and a hard case.",
@@ -114,7 +74,7 @@
    "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B08LGFVNSC"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B0DPY6TRFZ",
    "name": "WORKPRO 10-Piece Wood Chisel Set with Sharpening Stone, Honing Guide and Case (W043013AR)",
    "brand": "WORKPRO",
@@ -123,7 +83,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 239,
-   "score": 84,
+   "score": 97,
    "award": null,
    "best_for": "DIYers who want everything in one box.",
    "bought_last_month": "500+/mo",
@@ -154,6 +114,46 @@
    "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B0DPY6TRFZ"
   },
   {
+   "rank": 3,
+   "asin": "B07V8X5W5R",
+   "name": "Amazon Basics 8-Piece Wood Chisel Set with Honing Guide, Sharpening Stone and Storage Case",
+   "brand": "Amazon Basics",
+   "model": "DS-CHAMZ004",
+   "price": 29.17,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 8199,
+   "score": 92,
+   "award": null,
+   "best_for": "Beginners who want a complete set they can keep sharp.",
+   "bought_last_month": "400+/mo",
+   "verdict": "Six chisels from 1/4 to 1-1/2 inches with a honing guide, sharpening stone and case, rated 4.7 stars on 8,199 reviews.",
+   "pros": [
+    "8,199 reviews; 4.7 stars",
+    "Sharpening kit included",
+    "Six sizes"
+   ],
+   "cons": [
+    "No strike cap"
+   ],
+   "specs": {
+    "chisels": "6",
+    "sizes": "1/4 to 1-1/2 in",
+    "steel": "Heat-treated CR-V",
+    "handle": "Wood, contoured",
+    "extras": "Honing guide, sharpening stone, case"
+   },
+   "features": {
+    "six_plus": true,
+    "strike_cap": false,
+    "sharpening": true,
+    "storage": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81lFKVfOjEL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07V8X5W5R?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B07V8X5W5R"
+  },
+  {
    "rank": 4,
    "asin": "B085G4WXP1",
    "name": "DEWALT Pro Wood Chisel Set, 3-Piece (DWHT16862)",
@@ -163,7 +163,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 1099,
-   "score": 79,
+   "score": 87,
    "award": null,
    "best_for": "Carpenters who strike chisels with a hammer on site.",
    "bought_last_month": "1K+/mo",
@@ -203,7 +203,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 917,
-   "score": 78,
+   "score": 86,
    "award": null,
    "best_for": "Hobby woodworkers who want a nice set at a mid price.",
    "bought_last_month": "200+/mo",
@@ -235,6 +235,88 @@
   },
   {
    "rank": 6,
+   "asin": "B0165WKKY2",
+   "name": "Narex 6-Piece Woodworking Chisel Set in Wooden Presentation Box (853053)",
+   "brand": "Narex",
+   "model": "853053",
+   "price": 110.89,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 694,
+   "score": 86,
+   "award": "Money No Object",
+   "best_for": "Furniture makers cutting dovetails and mortises.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Czech-made Narex chisels in chrome-manganese steel hardened to Rc 59, a woodworker favorite for fine joinery, in a wooden box.",
+   "pros": [
+    "Cr-Mn steel, Rc 59",
+    "Wooden box",
+    "Six sizes"
+   ],
+   "cons": [
+    "Most expensive here",
+    "Metric sizes"
+   ],
+   "specs": {
+    "chisels": "6",
+    "sizes": "6, 10, 12, 16, 20 and 26 mm",
+    "steel": "Chrome-manganese, Rc 59",
+    "handle": "Wood",
+    "extras": "Wooden box, 25° bevel"
+   },
+   "features": {
+    "six_plus": true,
+    "strike_cap": false,
+    "sharpening": false,
+    "storage": true
+   },
+   "image": "https://m.media-amazon.com/images/I/91tC+kZyDrL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0165WKKY2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B0165WKKY2"
+  },
+  {
+   "rank": 7,
+   "asin": "B003M68TY8",
+   "name": "IRWIN Marples Chisel Set with Wallet, 3-Piece (1768781)",
+   "brand": "IRWIN",
+   "model": "1768781",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 669,
+   "score": 86,
+   "award": null,
+   "best_for": "Carpenters and remodelers.",
+   "bought_last_month": "50+/mo",
+   "verdict": "IRWIN Marples chisels built for jobsite hammer work, with a large strike cap and a wallet.",
+   "pros": [
+    "Large strike cap",
+    "4.7 stars",
+    "Wallet"
+   ],
+   "cons": [
+    "Sizes not listed",
+    "3 pieces"
+   ],
+   "specs": {
+    "chisels": "3",
+    "sizes": null,
+    "steel": "Hardened steel",
+    "handle": "ProTouch grips",
+    "extras": "Large strike cap, wallet"
+   },
+   "features": {
+    "six_plus": false,
+    "strike_cap": true,
+    "sharpening": false,
+    "storage": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51MglUnEjZL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B003M68TY8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B003M68TY8"
+  },
+  {
+   "rank": 8,
    "asin": "B07GGYNHSQ",
    "name": "HURRICANE 4-Piece Wood Chisel Set, CR-V Steel Beveled Edge Blades with Safety Caps",
    "brand": "HURRICANE",
@@ -275,89 +357,47 @@
    "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B07GGYNHSQ"
   },
   {
-   "rank": 7,
-   "asin": "B0165WKKY2",
-   "name": "Narex 6-Piece Woodworking Chisel Set in Wooden Presentation Box (853053)",
+   "rank": 9,
+   "asin": "B00GPC74ZQ",
+   "name": "Narex Bevel Edge Chisel Set with Wooden Handles, 4 pcs (863010)",
    "brand": "Narex",
-   "model": "853053",
-   "price": 110.89,
+   "model": "863010",
+   "price": 48.94,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 694,
+   "rating": 4.7,
+   "reviews_count": 981,
    "score": 77,
-   "award": "Money No Object",
-   "best_for": "Furniture makers cutting dovetails and mortises.",
+   "award": null,
+   "best_for": "Woodworkers who want quality steel without the full set.",
    "bought_last_month": "100+/mo",
-   "verdict": "Czech-made Narex chisels in chrome-manganese steel hardened to Rc 59, a woodworker favorite for fine joinery, in a wooden box.",
+   "verdict": "Four Narex bevel-edge chisels in Rc 59 chrome-manganese steel with oval wood handles.",
    "pros": [
-    "Cr-Mn steel, Rc 59",
-    "Wooden box",
-    "Six sizes"
+    "Rc 59 Cr-Mn steel",
+    "4.7 stars",
+    "Meets DIN 5139"
    ],
    "cons": [
-    "Most expensive here",
     "Metric sizes"
    ],
    "specs": {
-    "chisels": "6",
-    "sizes": "6, 10, 12, 16, 20 and 26 mm",
-    "steel": "Chrome-manganese, Rc 59",
-    "handle": "Wood",
-    "extras": "Wooden box, 25° bevel"
-   },
-   "features": {
-    "six_plus": true,
-    "strike_cap": false,
-    "sharpening": false,
-    "storage": true
-   },
-   "image": "https://m.media-amazon.com/images/I/91tC+kZyDrL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0165WKKY2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B0165WKKY2"
-  },
-  {
-   "rank": 8,
-   "asin": "B003M68TY8",
-   "name": "IRWIN Marples Chisel Set with Wallet, 3-Piece (1768781)",
-   "brand": "IRWIN",
-   "model": "1768781",
-   "price": 25.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 669,
-   "score": 77,
-   "award": null,
-   "best_for": "Carpenters and remodelers.",
-   "bought_last_month": "50+/mo",
-   "verdict": "IRWIN Marples chisels built for jobsite hammer work, with a large strike cap and a wallet.",
-   "pros": [
-    "Large strike cap",
-    "4.7 stars",
-    "Wallet"
-   ],
-   "cons": [
-    "Sizes not listed",
-    "3 pieces"
-   ],
-   "specs": {
-    "chisels": "3",
-    "sizes": null,
-    "steel": "Hardened steel",
-    "handle": "ProTouch grips",
-    "extras": "Large strike cap, wallet"
+    "chisels": "4",
+    "sizes": "6, 12, 20 and 26 mm",
+    "steel": "Cr-Mn, Rc 59",
+    "handle": "Wood, oval",
+    "extras": "Meets DIN 5139"
    },
    "features": {
     "six_plus": false,
-    "strike_cap": true,
+    "strike_cap": false,
     "sharpening": false,
-    "storage": true
+    "storage": false
    },
-   "image": "https://m.media-amazon.com/images/I/51MglUnEjZL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B003M68TY8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B003M68TY8"
+   "image": "https://m.media-amazon.com/images/I/616lSRtmi8L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00GPC74ZQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B00GPC74ZQ"
   },
   {
-   "rank": 9,
+   "rank": 10,
    "asin": "B07WPHDX7L",
    "name": "GREBSTK 4-Piece Wood Chisel Set, CR-V Steel Bevel Edge",
    "brand": "GREBSTK",
@@ -396,46 +436,6 @@
    "image": "https://m.media-amazon.com/images/I/81fIt--BksL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07WPHDX7L?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B07WPHDX7L"
-  },
-  {
-   "rank": 10,
-   "asin": "B00GPC74ZQ",
-   "name": "Narex Bevel Edge Chisel Set with Wooden Handles, 4 pcs (863010)",
-   "brand": "Narex",
-   "model": "863010",
-   "price": 48.94,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 981,
-   "score": 69,
-   "award": null,
-   "best_for": "Woodworkers who want quality steel without the full set.",
-   "bought_last_month": "100+/mo",
-   "verdict": "Four Narex bevel-edge chisels in Rc 59 chrome-manganese steel with oval wood handles.",
-   "pros": [
-    "Rc 59 Cr-Mn steel",
-    "4.7 stars",
-    "Meets DIN 5139"
-   ],
-   "cons": [
-    "Metric sizes"
-   ],
-   "specs": {
-    "chisels": "4",
-    "sizes": "6, 12, 20 and 26 mm",
-    "steel": "Cr-Mn, Rc 59",
-    "handle": "Wood, oval",
-    "extras": "Meets DIN 5139"
-   },
-   "features": {
-    "six_plus": false,
-    "strike_cap": false,
-    "sharpening": false,
-    "storage": false
-   },
-   "image": "https://m.media-amazon.com/images/I/616lSRtmi8L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00GPC74ZQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wood-chisel-sets.html#B00GPC74ZQ"
   }
  ],
  "avoid": [

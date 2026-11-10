@@ -23,7 +23,7 @@
    "power_bank": 0.15,
    "display": 0.15
   },
-  "reviews_ceiling": 50000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -44,7 +44,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 6275,
-   "score": 90,
+   "score": 96,
    "award": null,
    "best_for": "Big trucks and diesels with fast USB-C recharging.",
    "bought_last_month": "6K+/mo",
@@ -86,7 +86,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 13442,
-   "score": 88,
+   "score": 92,
    "award": null,
    "best_for": "Owners who want clear status and a pack that holds its charge.",
    "bought_last_month": "1K+/mo",
@@ -120,6 +120,90 @@
   },
   {
    "rank": 3,
+   "asin": "B0C42Y5TPD",
+   "name": "S ZEVZO ET03 Car Jump Starter 4000A, for Up to 8.0L Gas and 7.0L Diesel Engines, 74Wh",
+   "brand": "S ZEVZO",
+   "model": "ET03",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 6745,
+   "score": 88,
+   "award": "Best Budget",
+   "best_for": "Big-engine coverage on a budget.",
+   "bought_last_month": "7K+/mo",
+   "verdict": "A best-selling budget pack rated for engines as big as the GB70's for well under half the price, with a force-start button for 0-volt batteries, a 74 Wh power bank, a 500-lumen light and a 2-year warranty.",
+   "pros": [
+    "10,000+ sold last month",
+    "Force start for 0V batteries",
+    "2-year warranty; 74 Wh power bank"
+   ],
+   "cons": [
+    "No IP rating listed",
+    "Peak amp figure isn't comparable to NOCO's"
+   ],
+   "specs": {
+    "peak": "4000 A (claimed)",
+    "engines": "8.0L gas / 7.0L diesel",
+    "battery": "Lithium, 20,000 mAh (74 Wh)",
+    "weight": "1.4 lb",
+    "warranty": "2 years"
+   },
+   "features": {
+    "weatherproof": false,
+    "boost": true,
+    "warranty_2yr": true,
+    "power_bank": true,
+    "display": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71eizV01IyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C42Y5TPD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/jump-starters.html#B0C42Y5TPD"
+  },
+  {
+   "rank": 4,
+   "asin": "B0BZP6HCVS",
+   "name": "AstroAI S8 Car Battery Jump Starter 1500A, Portable 12V Lithium Jump Box",
+   "brand": "AstroAI",
+   "model": "S8",
+   "price": 42.19,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 8485,
+   "score": 87,
+   "award": null,
+   "best_for": "A GB40-class pack for about $33 less.",
+   "bought_last_month": "9K+/mo",
+   "verdict": "The cheapest pack here, rated for the same engines as the NOCO GB40 at under a pound, with a boost button for fully drained batteries, metal clamps and a 2-year warranty.",
+   "pros": [
+    "$42.19; under 1 lb",
+    "Boost mode for drained batteries",
+    "2-year warranty, California support"
+   ],
+   "cons": [
+    "4.4 stars",
+    "No IP rating listed"
+   ],
+   "specs": {
+    "peak": "1500 A",
+    "engines": "6.0L gas / 3.0L diesel",
+    "battery": "Lithium, 8,000 mAh",
+    "weight": "0.95 lb",
+    "warranty": "2 years"
+   },
+   "features": {
+    "weatherproof": false,
+    "boost": true,
+    "warranty_2yr": true,
+    "power_bank": true,
+    "display": false
+   },
+   "image": "https://m.media-amazon.com/images/I/812yhsIIClL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BZP6HCVS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/jump-starters.html#B0BZP6HCVS"
+  },
+  {
+   "rank": 5,
    "asin": "B015TKUPIC",
    "name": "NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter",
    "brand": "NOCO",
@@ -161,7 +245,7 @@
    "page_url": "https://toolboxtop10.com/jump-starters.html#B015TKUPIC"
   },
   {
-   "rank": 4,
+   "rank": 6,
    "asin": "B016UG6PWE",
    "name": "NOCO Boost GB70 2000A UltraSafe Jump Starter, 12V Lithium Battery Booster",
    "brand": "NOCO",
@@ -170,7 +254,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 31196,
-   "score": 83,
+   "score": 84,
    "award": null,
    "best_for": "Pickups, V8s and mid-size diesels.",
    "bought_last_month": "10K+/mo",
@@ -203,49 +287,7 @@
    "page_url": "https://toolboxtop10.com/jump-starters.html#B016UG6PWE"
   },
   {
-   "rank": 5,
-   "asin": "B0C42Y5TPD",
-   "name": "S ZEVZO ET03 Car Jump Starter 4000A, for Up to 8.0L Gas and 7.0L Diesel Engines, 74Wh",
-   "brand": "S ZEVZO",
-   "model": "ET03",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 6745,
-   "score": 82,
-   "award": "Best Budget",
-   "best_for": "Big-engine coverage on a budget.",
-   "bought_last_month": "7K+/mo",
-   "verdict": "A best-selling budget pack rated for engines as big as the GB70's for well under half the price, with a force-start button for 0-volt batteries, a 74 Wh power bank, a 500-lumen light and a 2-year warranty.",
-   "pros": [
-    "10,000+ sold last month",
-    "Force start for 0V batteries",
-    "2-year warranty; 74 Wh power bank"
-   ],
-   "cons": [
-    "No IP rating listed",
-    "Peak amp figure isn't comparable to NOCO's"
-   ],
-   "specs": {
-    "peak": "4000 A (claimed)",
-    "engines": "8.0L gas / 7.0L diesel",
-    "battery": "Lithium, 20,000 mAh (74 Wh)",
-    "weight": "1.4 lb",
-    "warranty": "2 years"
-   },
-   "features": {
-    "weatherproof": false,
-    "boost": true,
-    "warranty_2yr": true,
-    "power_bank": true,
-    "display": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71eizV01IyL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C42Y5TPD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/jump-starters.html#B0C42Y5TPD"
-  },
-  {
-   "rank": 6,
+   "rank": 7,
    "asin": "B07MVY7K43",
    "name": "NOCO Boost GB50 1500A UltraSafe Jump Starter, 12V Lithium Battery Booster",
    "brand": "NOCO",
@@ -254,7 +296,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 17058,
-   "score": 81,
+   "score": 84,
    "award": null,
    "best_for": "V6 and small V8 owners who want NOCO's protection in a small pack.",
    "bought_last_month": "2K+/mo",
@@ -287,48 +329,6 @@
    "page_url": "https://toolboxtop10.com/jump-starters.html#B07MVY7K43"
   },
   {
-   "rank": 7,
-   "asin": "B0BZP6HCVS",
-   "name": "AstroAI S8 Car Battery Jump Starter 1500A, Portable 12V Lithium Jump Box",
-   "brand": "AstroAI",
-   "model": "S8",
-   "price": 42.19,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 8485,
-   "score": 81,
-   "award": null,
-   "best_for": "A GB40-class pack for about $33 less.",
-   "bought_last_month": "9K+/mo",
-   "verdict": "The cheapest pack here, rated for the same engines as the NOCO GB40 at under a pound, with a boost button for fully drained batteries, metal clamps and a 2-year warranty.",
-   "pros": [
-    "$42.19; under 1 lb",
-    "Boost mode for drained batteries",
-    "2-year warranty, California support"
-   ],
-   "cons": [
-    "4.4 stars",
-    "No IP rating listed"
-   ],
-   "specs": {
-    "peak": "1500 A",
-    "engines": "6.0L gas / 3.0L diesel",
-    "battery": "Lithium, 8,000 mAh",
-    "weight": "0.95 lb",
-    "warranty": "2 years"
-   },
-   "features": {
-    "weatherproof": false,
-    "boost": true,
-    "warranty_2yr": true,
-    "power_bank": true,
-    "display": false
-   },
-   "image": "https://m.media-amazon.com/images/I/812yhsIIClL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BZP6HCVS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/jump-starters.html#B0BZP6HCVS"
-  },
-  {
    "rank": 8,
    "asin": "B015TKSSB8",
    "name": "NOCO Boost GB150 3000A UltraSafe Jump Starter, 12V Lithium, for 9.0L Gas and 7.0L Diesel",
@@ -338,7 +338,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 13124,
-   "score": 80,
+   "score": 84,
    "award": "Money No Object",
    "best_for": "Heavy trucks, farm equipment and fleets.",
    "bought_last_month": "4K+/mo",
@@ -372,48 +372,6 @@
   },
   {
    "rank": 9,
-   "asin": "B000JFJLP6",
-   "name": "Clore Automotive Jump-N-Carry JNC660 1700 Peak Amp 12 Volt Jump Starter",
-   "brand": "Clore Automotive",
-   "model": "JNC660",
-   "price": 126.02,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 19975,
-   "score": 73,
-   "award": null,
-   "best_for": "Shops, tow trucks and repeated jumps in a day.",
-   "bought_last_month": "5K+/mo",
-   "verdict": "The shop classic: a 22 Ah Proformer AGM battery, 46-inch heavy #2 AWG cables, a voltmeter and a 12 V outlet. Heavy, but it jumps car after car and copes well with cold.",
-   "pros": [
-    "22 Ah AGM battery",
-    "46-in #2 AWG cables",
-    "19,975 reviews at 4.6 stars"
-   ],
-   "cons": [
-    "18 lbs",
-    "No USB charging"
-   ],
-   "specs": {
-    "peak": "1700 A",
-    "engines": null,
-    "battery": "22 Ah AGM lead-acid",
-    "weight": "18 lb",
-    "warranty": "1 year"
-   },
-   "features": {
-    "weatherproof": false,
-    "boost": false,
-    "warranty_2yr": false,
-    "power_bank": false,
-    "display": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71x8G6clZDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000JFJLP6?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/jump-starters.html#B000JFJLP6"
-  },
-  {
-   "rank": 10,
    "asin": "B0D4DLXNR1",
    "name": "GOOLOO A3 12V 3000A Portable Jump Starter with Air Compressor (JS-506)",
    "brand": "GOOLOO",
@@ -422,7 +380,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 5006,
-   "score": 73,
+   "score": 81,
    "award": null,
    "best_for": "One box for dead batteries and low tires.",
    "bought_last_month": "10K+/mo",
@@ -453,6 +411,48 @@
    "image": "https://m.media-amazon.com/images/I/71d48Oif4AL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D4DLXNR1?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/jump-starters.html#B0D4DLXNR1"
+  },
+  {
+   "rank": 10,
+   "asin": "B000JFJLP6",
+   "name": "Clore Automotive Jump-N-Carry JNC660 1700 Peak Amp 12 Volt Jump Starter",
+   "brand": "Clore Automotive",
+   "model": "JNC660",
+   "price": 126.02,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 19975,
+   "score": 76,
+   "award": null,
+   "best_for": "Shops, tow trucks and repeated jumps in a day.",
+   "bought_last_month": "5K+/mo",
+   "verdict": "The shop classic: a 22 Ah Proformer AGM battery, 46-inch heavy #2 AWG cables, a voltmeter and a 12 V outlet. Heavy, but it jumps car after car and copes well with cold.",
+   "pros": [
+    "22 Ah AGM battery",
+    "46-in #2 AWG cables",
+    "19,975 reviews at 4.6 stars"
+   ],
+   "cons": [
+    "18 lbs",
+    "No USB charging"
+   ],
+   "specs": {
+    "peak": "1700 A",
+    "engines": null,
+    "battery": "22 Ah AGM lead-acid",
+    "weight": "18 lb",
+    "warranty": "1 year"
+   },
+   "features": {
+    "weatherproof": false,
+    "boost": false,
+    "warranty_2yr": false,
+    "power_bank": false,
+    "display": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71x8G6clZDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000JFJLP6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/jump-starters.html#B000JFJLP6"
   }
  ],
  "avoid": [

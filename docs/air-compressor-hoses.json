@@ -23,7 +23,7 @@
    "bend_restrictors": 0.15,
    "cold_flex": 0.15
   },
-  "reviews_ceiling": 6000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 26,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -36,6 +36,129 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B07TV2F4YC",
+   "name": "YOTOO Air Hose 3/8 in x 50 ft, Hybrid, with 1/4-Inch Industrial Quick Coupler",
+   "brand": "YOTOO",
+   "model": "3/8 x 50 coupler",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2458,
+   "score": 94,
+   "award": "Best Overall",
+   "best_for": "Most home shops running nailers, impact wrenches and inflators.",
+   "bought_last_month": "700+/mo",
+   "verdict": "A 3/8-inch hybrid hose with an industrial quick coupler already installed, rated 300 PSI with a 1,200 PSI burst, and 4.7 stars on 2,458 reviews.",
+   "pros": [
+    "Coupler installed",
+    "300 PSI, 1,200 burst",
+    "4.7 stars"
+   ],
+   "cons": [
+    "Industrial coupler only"
+   ],
+   "specs": {
+    "size": "3/8 in x 50 ft",
+    "material": "Rubber/PVC hybrid",
+    "pressure": "300 PSI (1,200 PSI burst)",
+    "fittings": "1/4 in industrial NPT fittings and quick coupler",
+    "extras": "Bend restrictors both ends, 2-year warranty"
+   },
+   "features": {
+    "id_3_8": true,
+    "psi_300": true,
+    "coupler_included": true,
+    "bend_restrictors": true,
+    "cold_flex": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Wz-8fT0UL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07TV2F4YC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B07TV2F4YC"
+  },
+  {
+   "rank": 2,
+   "asin": "B08R1HY6G2",
+   "name": "YOTOO Hybrid Air Hose 3/8 in x 50 ft, 300 PSI, with 1/4-Inch Brass Male Fittings",
+   "brand": "YOTOO",
+   "model": "3/8 x 50 male",
+   "price": 29.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1728,
+   "score": 94,
+   "award": null,
+   "best_for": "General air tool use.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The best-selling hose here: YOTOO's 3/8-inch hybrid with brass fittings and bend restrictors at both ends.",
+   "pros": [
+    "2,000+ sold last month",
+    "Bend restrictors",
+    "4.7 stars"
+   ],
+   "cons": [
+    "Near-identical to YOTOO's coupler listing"
+   ],
+   "specs": {
+    "size": "3/8 in x 50 ft",
+    "material": "Rubber/PVC hybrid",
+    "pressure": "300 PSI",
+    "fittings": "1/4 in industrial NPT fittings and quick coupler",
+    "extras": "Bend restrictors both ends"
+   },
+   "features": {
+    "id_3_8": true,
+    "psi_300": true,
+    "coupler_included": true,
+    "bend_restrictors": true,
+    "cold_flex": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71EYGdY1tuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08R1HY6G2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B08R1HY6G2"
+  },
+  {
+   "rank": 3,
+   "asin": "B0CMCZ5GSL",
+   "name": "Furesn Air Hose 3/8 in x 50 ft, Hybrid, with 1/4-Inch Brass Fittings and Bend Restrictors",
+   "brand": "Furesn",
+   "model": "3/8 x 50",
+   "price": 31.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 337,
+   "score": 93,
+   "award": null,
+   "best_for": "Cold garages on a budget.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A 3/8-inch hybrid with a universal coupler, bend restrictors and a -40°F rating.",
+   "pros": [
+    "Universal coupler",
+    "-40°F rating",
+    "1,200 PSI burst"
+   ],
+   "cons": [
+    "4.2 stars"
+   ],
+   "specs": {
+    "size": "3/8 in x 50 ft",
+    "material": "Rubber/PVC hybrid",
+    "pressure": "300 PSI (1,200 PSI burst)",
+    "fittings": "1/4 in NPT industrial fitting and universal coupler, brass",
+    "extras": "Flexible -40 to 150°F, bend restrictors"
+   },
+   "features": {
+    "id_3_8": true,
+    "psi_300": true,
+    "coupler_included": true,
+    "bend_restrictors": true,
+    "cold_flex": true
+   },
+   "image": "https://m.media-amazon.com/images/I/614p2wYOwAL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CMCZ5GSL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B0CMCZ5GSL"
+  },
+  {
+   "rank": 4,
    "asin": "B001C6NC7O",
    "name": "Flexzilla Air Compressor Hose, 3/8 in x 50 ft, 1/4 in MNPT Fittings, 300 PSI",
    "brand": "Flexzilla",
@@ -77,129 +200,6 @@
    "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B001C6NC7O"
   },
   {
-   "rank": 2,
-   "asin": "B07TV2F4YC",
-   "name": "YOTOO Air Hose 3/8 in x 50 ft, Hybrid, with 1/4-Inch Industrial Quick Coupler",
-   "brand": "YOTOO",
-   "model": "3/8 x 50 coupler",
-   "price": 29.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2458,
-   "score": 91,
-   "award": "Best Overall",
-   "best_for": "Most home shops running nailers, impact wrenches and inflators.",
-   "bought_last_month": "700+/mo",
-   "verdict": "A 3/8-inch hybrid hose with an industrial quick coupler already installed, rated 300 PSI with a 1,200 PSI burst, and 4.7 stars on 2,458 reviews.",
-   "pros": [
-    "Coupler installed",
-    "300 PSI, 1,200 burst",
-    "4.7 stars"
-   ],
-   "cons": [
-    "Industrial coupler only"
-   ],
-   "specs": {
-    "size": "3/8 in x 50 ft",
-    "material": "Rubber/PVC hybrid",
-    "pressure": "300 PSI (1,200 PSI burst)",
-    "fittings": "1/4 in industrial NPT fittings and quick coupler",
-    "extras": "Bend restrictors both ends, 2-year warranty"
-   },
-   "features": {
-    "id_3_8": true,
-    "psi_300": true,
-    "coupler_included": true,
-    "bend_restrictors": true,
-    "cold_flex": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71Wz-8fT0UL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07TV2F4YC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B07TV2F4YC"
-  },
-  {
-   "rank": 3,
-   "asin": "B082YSB9CK",
-   "name": "Estwing E3850PVCR 3/8 in x 50 ft PVC/Rubber Hybrid Air Hose with Brass Fittings",
-   "brand": "Estwing",
-   "model": "E3850PVCR",
-   "price": 29.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 4822,
-   "score": 90,
-   "award": null,
-   "best_for": "HVLP sprayers and air tools that need full flow.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A 3/8-inch hybrid hose with solid brass fittings and a universal coupler, rated 4.7 stars on 4,822 reviews.",
-   "pros": [
-    "Universal coupler",
-    "4.7 stars; 4,822 reviews",
-    "Solid brass"
-   ],
-   "cons": [
-    "No bend restrictors listed"
-   ],
-   "specs": {
-    "size": "3/8 in x 50 ft",
-    "material": "PVC/rubber hybrid",
-    "pressure": "300 PSI",
-    "fittings": "Solid brass 1/4 in NPT industrial fitting and universal coupler",
-    "extras": null
-   },
-   "features": {
-    "id_3_8": true,
-    "psi_300": true,
-    "coupler_included": true,
-    "bend_restrictors": false,
-    "cold_flex": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71XEmjPnLqL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B082YSB9CK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B082YSB9CK"
-  },
-  {
-   "rank": 4,
-   "asin": "B08R1HY6G2",
-   "name": "YOTOO Hybrid Air Hose 3/8 in x 50 ft, 300 PSI, with 1/4-Inch Brass Male Fittings",
-   "brand": "YOTOO",
-   "model": "3/8 x 50 male",
-   "price": 29.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 1728,
-   "score": 89,
-   "award": null,
-   "best_for": "General air tool use.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The best-selling hose here: YOTOO's 3/8-inch hybrid with brass fittings and bend restrictors at both ends.",
-   "pros": [
-    "2,000+ sold last month",
-    "Bend restrictors",
-    "4.7 stars"
-   ],
-   "cons": [
-    "Near-identical to YOTOO's coupler listing"
-   ],
-   "specs": {
-    "size": "3/8 in x 50 ft",
-    "material": "Rubber/PVC hybrid",
-    "pressure": "300 PSI",
-    "fittings": "1/4 in industrial NPT fittings and quick coupler",
-    "extras": "Bend restrictors both ends"
-   },
-   "features": {
-    "id_3_8": true,
-    "psi_300": true,
-    "coupler_included": true,
-    "bend_restrictors": true,
-    "cold_flex": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71EYGdY1tuL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08R1HY6G2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B08R1HY6G2"
-  },
-  {
    "rank": 5,
    "asin": "B095PG6J9K",
    "name": "JOROY Hybrid Air Hose, 3/8 in x 50 ft, with 1/4-Inch Brass Coupler and Plug",
@@ -209,7 +209,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1106,
-   "score": 86,
+   "score": 92,
    "award": "Best Budget",
    "best_for": "Budget buyers who want a ready-to-use 3/8-inch hose.",
    "bought_last_month": "900+/mo",
@@ -242,45 +242,44 @@
   },
   {
    "rank": 6,
-   "asin": "B000R8LH3E",
-   "name": "Flexzilla Air Compressor Hose, 1/4 in x 50 ft, 1/4 in MNPT Fittings, 300 PSI",
-   "brand": "Flexzilla",
-   "model": "1/4 x 50",
-   "price": 29.98,
+   "asin": "B082YSB9CK",
+   "name": "Estwing E3850PVCR 3/8 in x 50 ft PVC/Rubber Hybrid Air Hose with Brass Fittings",
+   "brand": "Estwing",
+   "model": "E3850PVCR",
+   "price": 29.0,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 3269,
-   "score": 85,
+   "reviews_count": 4822,
+   "score": 91,
    "award": null,
-   "best_for": "Brad and finish nailers, tire inflators.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The 1/4-inch Flexzilla, lighter for nailers and inflators that don't need full flow.",
+   "best_for": "HVLP sprayers and air tools that need full flow.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A 3/8-inch hybrid hose with solid brass fittings and a universal coupler, rated 4.7 stars on 4,822 reviews.",
    "pros": [
-    "Lighter than 3/8 in",
-    "Flexible to -40°F",
-    "3,269 reviews"
+    "Universal coupler",
+    "4.7 stars; 4,822 reviews",
+    "Solid brass"
    ],
    "cons": [
-    "1/4 in limits flow",
-    "No coupler"
+    "No bend restrictors listed"
    ],
    "specs": {
-    "size": "1/4 in x 50 ft",
-    "material": "Hybrid polymer",
+    "size": "3/8 in x 50 ft",
+    "material": "PVC/rubber hybrid",
     "pressure": "300 PSI",
-    "fittings": "Aircraft aluminum 1/4 in MNPT",
-    "extras": "Flexible -40 to 140°F, bend restrictor"
+    "fittings": "Solid brass 1/4 in NPT industrial fitting and universal coupler",
+    "extras": null
    },
    "features": {
-    "id_3_8": false,
+    "id_3_8": true,
     "psi_300": true,
-    "coupler_included": false,
-    "bend_restrictors": true,
-    "cold_flex": true
+    "coupler_included": true,
+    "bend_restrictors": false,
+    "cold_flex": false
    },
-   "image": "https://m.media-amazon.com/images/I/61hnf6ytfwL._AC_SL1200_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000R8LH3E?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B000R8LH3E"
+   "image": "https://m.media-amazon.com/images/I/71XEmjPnLqL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B082YSB9CK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B082YSB9CK"
   },
   {
    "rank": 7,
@@ -292,7 +291,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 941,
-   "score": 84,
+   "score": 91,
    "award": null,
    "best_for": "Nailers and inflators.",
    "bought_last_month": "100+/mo",
@@ -333,7 +332,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 858,
-   "score": 83,
+   "score": 90,
    "award": null,
    "best_for": "Trim carpenters and roofers who drag hose all day.",
    "bought_last_month": null,
@@ -366,44 +365,45 @@
   },
   {
    "rank": 9,
-   "asin": "B0CMCZ5GSL",
-   "name": "Furesn Air Hose 3/8 in x 50 ft, Hybrid, with 1/4-Inch Brass Fittings and Bend Restrictors",
-   "brand": "Furesn",
-   "model": "3/8 x 50",
-   "price": 31.99,
+   "asin": "B000R8LH3E",
+   "name": "Flexzilla Air Compressor Hose, 1/4 in x 50 ft, 1/4 in MNPT Fittings, 300 PSI",
+   "brand": "Flexzilla",
+   "model": "1/4 x 50",
+   "price": 29.98,
    "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 337,
-   "score": 81,
+   "rating": 4.7,
+   "reviews_count": 3269,
+   "score": 87,
    "award": null,
-   "best_for": "Cold garages on a budget.",
+   "best_for": "Brad and finish nailers, tire inflators.",
    "bought_last_month": "300+/mo",
-   "verdict": "A 3/8-inch hybrid with a universal coupler, bend restrictors and a -40°F rating.",
+   "verdict": "The 1/4-inch Flexzilla, lighter for nailers and inflators that don't need full flow.",
    "pros": [
-    "Universal coupler",
-    "-40°F rating",
-    "1,200 PSI burst"
+    "Lighter than 3/8 in",
+    "Flexible to -40°F",
+    "3,269 reviews"
    ],
    "cons": [
-    "4.2 stars"
+    "1/4 in limits flow",
+    "No coupler"
    ],
    "specs": {
-    "size": "3/8 in x 50 ft",
-    "material": "Rubber/PVC hybrid",
-    "pressure": "300 PSI (1,200 PSI burst)",
-    "fittings": "1/4 in NPT industrial fitting and universal coupler, brass",
-    "extras": "Flexible -40 to 150°F, bend restrictors"
+    "size": "1/4 in x 50 ft",
+    "material": "Hybrid polymer",
+    "pressure": "300 PSI",
+    "fittings": "Aircraft aluminum 1/4 in MNPT",
+    "extras": "Flexible -40 to 140°F, bend restrictor"
    },
    "features": {
-    "id_3_8": true,
+    "id_3_8": false,
     "psi_300": true,
-    "coupler_included": true,
+    "coupler_included": false,
     "bend_restrictors": true,
     "cold_flex": true
    },
-   "image": "https://m.media-amazon.com/images/I/614p2wYOwAL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CMCZ5GSL?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B0CMCZ5GSL"
+   "image": "https://m.media-amazon.com/images/I/61hnf6ytfwL._AC_SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000R8LH3E?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-compressor-hoses.html#B000R8LH3E"
   },
   {
    "rank": 10,
@@ -415,7 +415,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 871,
-   "score": 79,
+   "score": 86,
    "award": null,
    "best_for": "Workbenches and short-range tool use.",
    "bought_last_month": null,

@@ -23,7 +23,7 @@
    "removable_tray": 0.15,
    "water_resistant": 0.2
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 40,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -44,7 +44,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 12938,
-   "score": 94,
+   "score": 95,
    "award": "Best Overall",
    "best_for": "A deep, stackable box for a full hand-tool loadout.",
    "bought_last_month": "5K+/mo",
@@ -81,6 +81,49 @@
   },
   {
    "rank": 2,
+   "asin": "B08189NW5C",
+   "name": "Milwaukee PACKOUT 2-Drawer Tool Box (48-22-8442)",
+   "brand": "Milwaukee",
+   "model": "48-22-8442",
+   "price": 168.29,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 195,
+   "score": 90,
+   "award": "Money No Object",
+   "best_for": "Milwaukee PACKOUT owners who want drawers on the jobsite.",
+   "bought_last_month": "300+/mo",
+   "verdict": "Two full-width drawers in a PACKOUT unit that locks onto the rest of the Milwaukee system. The pick if you're already on PACKOUT and want drawers on the jobsite.",
+   "pros": [
+    "Locks into the Milwaukee PACKOUT system",
+    "Two drawers, 50 lb rated load",
+    "4.8 stars, 300+ sold last month"
+   ],
+   "cons": [
+    "Most expensive box here at $168.29",
+    "20.1 lbs empty"
+   ],
+   "specs": {
+    "type": "Stackable drawer unit",
+    "size": "22.2 in",
+    "material": "Impact-resistant poly",
+    "capacity": "23 kg (50 lbs)",
+    "organizers": "2 drawers",
+    "weight": "20.1 lb"
+   },
+   "features": {
+    "stackable": true,
+    "lock": false,
+    "metal_latches": false,
+    "water_resistant": true,
+    "removable_tray": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51YeEhcvdKL._SL1118_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08189NW5C?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B08189NW5C"
+  },
+  {
+   "rank": 3,
    "asin": "B00B6K4V80",
    "name": "DEWALT Tool Box TSTAK II, 13 In. Flat Top Tool Storage Case, Stackable Organizer Hard Case (DWST17807)",
    "brand": "DEWALT",
@@ -89,7 +132,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 12049,
-   "score": 88,
+   "score": 89,
    "award": "Best Budget",
    "best_for": "Starting a TSTAK stack, or a slim case for a drill and a few hand tools.",
    "bought_last_month": "3K+/mo",
@@ -123,49 +166,6 @@
    "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B00B6K4V80"
   },
   {
-   "rank": 3,
-   "asin": "B09BDK7YG6",
-   "name": "CRAFTSMAN Tool Box, Lockable, 16 in., Red/Black (CMST16901)",
-   "brand": "CRAFTSMAN",
-   "model": "CMST16901",
-   "price": 18.98,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 2916,
-   "score": 82,
-   "award": null,
-   "best_for": "A basic lockable hand box with a lift-out tray for under $20.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "A basic 16-inch box with a metal front latch, a padlock eye and a lift-out tray, from a brand you can find in any hardware store. It's the best-selling box in this search, with more than 4,000 sold last month.",
-   "pros": [
-    "Under $20 with a metal latch and padlock eye",
-    "Lift-out tray for small hand tools",
-    "2,916 reviews at 4.5 stars"
-   ],
-   "cons": [
-    "Listed as not water resistant",
-    "Doesn't stack or lock into a modular system"
-   ],
-   "specs": {
-    "type": "Hand box",
-    "size": "16 in",
-    "material": "Plastic, metal front latch",
-    "capacity": null,
-    "organizers": "Removable tray",
-    "weight": null
-   },
-   "features": {
-    "stackable": false,
-    "lock": true,
-    "metal_latches": true,
-    "water_resistant": false,
-    "removable_tray": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61aA3pSDHuL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09BDK7YG6?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B09BDK7YG6"
-  },
-  {
    "rank": 4,
    "asin": "B00B6K4VDK",
    "name": "DEWALT TSTAK Tool Storage Organizer, Long Handle (DWST17808)",
@@ -175,7 +175,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2545,
-   "score": 82,
+   "score": 89,
    "award": null,
    "best_for": "Carrying a compact drill and bits at the top of a TSTAK stack.",
    "bought_last_month": "600+/mo",
@@ -211,92 +211,49 @@
   },
   {
    "rank": 5,
-   "asin": "B00BPI1TWO",
-   "name": "DEWALT TSTAK Tool Storage Organizer with Double Drawers (DWST17804)",
-   "brand": "DEWALT",
-   "model": "DWST17804",
-   "price": 34.97,
+   "asin": "B09BDK7YG6",
+   "name": "CRAFTSMAN Tool Box, Lockable, 16 in., Red/Black (CMST16901)",
+   "brand": "CRAFTSMAN",
+   "model": "CMST16901",
+   "price": 18.98,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 4131,
-   "score": 81,
+   "rating": 4.5,
+   "reviews_count": 2916,
+   "score": 88,
    "award": null,
-   "best_for": "Sorting screws and bits in two drawers that stack with TSTAK.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "Two ball-bearing drawers with removable dividers for bits, screws and small parts, in a unit that latches onto the rest of the TSTAK line. Over 1,000 sold last month.",
+   "best_for": "A basic lockable hand box with a lift-out tray for under $20.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "A basic 16-inch box with a metal front latch, a padlock eye and a lift-out tray, from a brand you can find in any hardware store. It's the best-selling box in this search, with more than 4,000 sold last month.",
    "pros": [
-    "Ball-bearing drawer slides",
-    "Stacks and latches with other TSTAK boxes",
-    "4,131 reviews at 4.7 stars, limited lifetime warranty"
+    "Under $20 with a metal latch and padlock eye",
+    "Lift-out tray for small hand tools",
+    "2,916 reviews at 4.5 stars"
    ],
    "cons": [
-    "16.5 lb load limit",
-    "Listed as not water resistant"
-   ],
-   "specs": {
-    "type": "Stackable drawer unit",
-    "size": "17.3 in",
-    "material": null,
-    "capacity": "16.5 lbs",
-    "organizers": "2 drawers, removable dividers",
-    "weight": "9.2 lb"
-   },
-   "features": {
-    "stackable": true,
-    "lock": false,
-    "metal_latches": false,
-    "water_resistant": false,
-    "removable_tray": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61vtd9iJ9TL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00BPI1TWO?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B00BPI1TWO"
-  },
-  {
-   "rank": 6,
-   "asin": "B000HD60PE",
-   "name": "Plano 452-006 Grab-N-Go 16-Inch Tool Box with Tray",
-   "brand": "Plano",
-   "model": "452-006",
-   "price": 22.69,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 3539,
-   "score": 79,
-   "award": null,
-   "best_for": "A cheap, light box for a basic household tool kit.",
-   "bought_last_month": "800+/mo",
-   "verdict": "One of the cheapest boxes here and one of the best rated: a 3 lb, 16-inch plastic box with a lift-out tray and two small removable organizers. Fine for a kitchen-drawer tool kit.",
-   "pros": [
-    "About $13",
-    "Lift-out tray plus 2 removable organizers",
-    "3,539 reviews at 4.7 stars"
-   ],
-   "cons": [
-    "11 lb load limit",
-    "Plastic latches, no lock point listed"
+    "Listed as not water resistant",
+    "Doesn't stack or lock into a modular system"
    ],
    "specs": {
     "type": "Hand box",
     "size": "16 in",
-    "material": "Plastic",
-    "capacity": "5 kg (11 lbs)",
-    "organizers": "Lift-out tray, 2 removable organizers",
-    "weight": "3 lb"
+    "material": "Plastic, metal front latch",
+    "capacity": null,
+    "organizers": "Removable tray",
+    "weight": null
    },
    "features": {
     "stackable": false,
-    "lock": false,
-    "metal_latches": false,
+    "lock": true,
+    "metal_latches": true,
     "water_resistant": false,
     "removable_tray": true
    },
-   "image": "https://m.media-amazon.com/images/I/61t3hjGxqjL._AC_SL1200_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000HD60PE?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B000HD60PE"
+   "image": "https://m.media-amazon.com/images/I/61aA3pSDHuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09BDK7YG6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B09BDK7YG6"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "asin": "B09BDK19JZ",
    "name": "CRAFTSMAN Tool Box, Lockable, 13 in., Red/Black (CMST13004)",
    "brand": "CRAFTSMAN",
@@ -305,7 +262,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1072,
-   "score": 78,
+   "score": 87,
    "award": null,
    "best_for": "A car-trunk or kitchen-drawer tool kit for about $12.",
    "bought_last_month": "2K+/mo",
@@ -340,6 +297,49 @@
    "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B09BDK19JZ"
   },
   {
+   "rank": 7,
+   "asin": "B00BPI1TWO",
+   "name": "DEWALT TSTAK Tool Storage Organizer with Double Drawers (DWST17804)",
+   "brand": "DEWALT",
+   "model": "DWST17804",
+   "price": 34.97,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 4131,
+   "score": 86,
+   "award": null,
+   "best_for": "Sorting screws and bits in two drawers that stack with TSTAK.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "Two ball-bearing drawers with removable dividers for bits, screws and small parts, in a unit that latches onto the rest of the TSTAK line. Over 1,000 sold last month.",
+   "pros": [
+    "Ball-bearing drawer slides",
+    "Stacks and latches with other TSTAK boxes",
+    "4,131 reviews at 4.7 stars, limited lifetime warranty"
+   ],
+   "cons": [
+    "16.5 lb load limit",
+    "Listed as not water resistant"
+   ],
+   "specs": {
+    "type": "Stackable drawer unit",
+    "size": "17.3 in",
+    "material": null,
+    "capacity": "16.5 lbs",
+    "organizers": "2 drawers, removable dividers",
+    "weight": "9.2 lb"
+   },
+   "features": {
+    "stackable": true,
+    "lock": false,
+    "metal_latches": false,
+    "water_resistant": false,
+    "removable_tray": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61vtd9iJ9TL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00BPI1TWO?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B00BPI1TWO"
+  },
+  {
    "rank": 8,
    "asin": "B000KN470Q",
    "name": "STANLEY 28 in. Structural Foam Portable Toolbox, Heavy Duty (028001L)",
@@ -349,7 +349,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 806,
-   "score": 74,
+   "score": 85,
    "award": null,
    "best_for": "Long tools like levels and handsaws that need 28 inches.",
    "bought_last_month": "700+/mo",
@@ -384,46 +384,46 @@
   },
   {
    "rank": 9,
-   "asin": "B08189NW5C",
-   "name": "Milwaukee PACKOUT 2-Drawer Tool Box (48-22-8442)",
-   "brand": "Milwaukee",
-   "model": "48-22-8442",
-   "price": 168.29,
+   "asin": "B000HD60PE",
+   "name": "Plano 452-006 Grab-N-Go 16-Inch Tool Box with Tray",
+   "brand": "Plano",
+   "model": "452-006",
+   "price": 22.69,
    "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 195,
-   "score": 74,
-   "award": "Money No Object",
-   "best_for": "Milwaukee PACKOUT owners who want drawers on the jobsite.",
-   "bought_last_month": "300+/mo",
-   "verdict": "Two full-width drawers in a PACKOUT unit that locks onto the rest of the Milwaukee system. The pick if you're already on PACKOUT and want drawers on the jobsite.",
+   "rating": 4.7,
+   "reviews_count": 3539,
+   "score": 84,
+   "award": null,
+   "best_for": "A cheap, light box for a basic household tool kit.",
+   "bought_last_month": "800+/mo",
+   "verdict": "One of the cheapest boxes here and one of the best rated: a 3 lb, 16-inch plastic box with a lift-out tray and two small removable organizers. Fine for a kitchen-drawer tool kit.",
    "pros": [
-    "Locks into the Milwaukee PACKOUT system",
-    "Two drawers, 50 lb rated load",
-    "4.8 stars, 300+ sold last month"
+    "About $13",
+    "Lift-out tray plus 2 removable organizers",
+    "3,539 reviews at 4.7 stars"
    ],
    "cons": [
-    "Most expensive box here at $168.29",
-    "20.1 lbs empty"
+    "11 lb load limit",
+    "Plastic latches, no lock point listed"
    ],
    "specs": {
-    "type": "Stackable drawer unit",
-    "size": "22.2 in",
-    "material": "Impact-resistant poly",
-    "capacity": "23 kg (50 lbs)",
-    "organizers": "2 drawers",
-    "weight": "20.1 lb"
+    "type": "Hand box",
+    "size": "16 in",
+    "material": "Plastic",
+    "capacity": "5 kg (11 lbs)",
+    "organizers": "Lift-out tray, 2 removable organizers",
+    "weight": "3 lb"
    },
    "features": {
-    "stackable": true,
+    "stackable": false,
     "lock": false,
     "metal_latches": false,
-    "water_resistant": true,
-    "removable_tray": false
+    "water_resistant": false,
+    "removable_tray": true
    },
-   "image": "https://m.media-amazon.com/images/I/51YeEhcvdKL._SL1118_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08189NW5C?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B08189NW5C"
+   "image": "https://m.media-amazon.com/images/I/61t3hjGxqjL._AC_SL1200_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000HD60PE?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/portable-tool-boxes.html#B000HD60PE"
   },
   {
    "rank": 10,
@@ -435,7 +435,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 2100,
-   "score": 71,
+   "score": 78,
    "award": null,
    "best_for": "Precision screwdrivers, bits and hobby parts on a bench or desk.",
    "bought_last_month": null,

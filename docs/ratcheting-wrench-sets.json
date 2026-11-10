@@ -22,7 +22,7 @@
    "storage": 0.25,
    "teeth_90": 0.2
   },
-  "reviews_ceiling": 8000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 50,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,167 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0DPGJVJZV",
+   "name": "CRAFTSMAN 20-Piece 90-Tooth Ratcheting Wrench Set, SAE and Metric, with Case (CMMT87220)",
+   "brand": "CRAFTSMAN",
+   "model": "CMMT87220",
+   "price": 69.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 636,
+   "score": 93,
+   "award": "Best Overall",
+   "best_for": "Car owners who want a brand-name set for tight spots.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A 90-tooth CRAFTSMAN set that needs only a 4-degree swing, with large size markings and a case, rated 4.8 stars.",
+   "pros": [
+    "90-tooth ratchet",
+    "4.8 stars",
+    "Case included"
+   ],
+   "cons": [
+    "Sizes not listed",
+    "Fixed heads"
+   ],
+   "specs": {
+    "pieces": "20",
+    "sizes": null,
+    "teeth": "90-tooth, 4° arc",
+    "head": "Fixed, 12-point box end",
+    "storage": "Case"
+   },
+   "features": {
+    "metric_sae": true,
+    "flex_head": false,
+    "storage": true,
+    "teeth_90": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61mIPChtHvL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DPGJVJZV?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B0DPGJVJZV"
+  },
+  {
+   "rank": 2,
+   "asin": "B0CZ99CNY1",
+   "name": "SUZUME 24-Piece Flex Head Ratcheting Wrench Set, Metric and SAE (SM2324)",
+   "brand": "SUZUME",
+   "model": "SM2324",
+   "price": 88.09,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 568,
+   "score": 93,
+   "award": null,
+   "best_for": "Mechanics who want flex heads and a rack in one set.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A 24-piece flex-head set that includes the 19 mm size many smaller sets leave out, on a portable rack.",
+   "pros": [
+    "Flex heads",
+    "Includes 19 mm",
+    "Rack included"
+   ],
+   "cons": [
+    "Costs more than twice the DISEN set"
+   ],
+   "specs": {
+    "pieces": "24",
+    "sizes": "8-19 mm, 1/4-3/4 in",
+    "teeth": "72-tooth",
+    "head": "180° flex head",
+    "storage": "Portable rack"
+   },
+   "features": {
+    "metric_sae": true,
+    "flex_head": true,
+    "storage": true,
+    "teeth_90": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71KnLT-cUCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CZ99CNY1?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B0CZ99CNY1"
+  },
+  {
+   "rank": 3,
+   "asin": "B08T6KW58N",
+   "name": "DISEN 22-Piece Ratcheting Wrench Set, SAE and Metric, 1/4-3/4 in and 6-18 mm",
+   "brand": "DISEN",
+   "model": "22-piece",
+   "price": 44.24,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2131,
+   "score": 88,
+   "award": "Best Budget",
+   "best_for": "DIYers and car owners who want both sizes on a budget.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A 22-piece metric and SAE set of fixed-head ratcheting wrenches with an organizer bag, rated 4.7 stars, for about $42.",
+   "pros": [
+    "Metric and SAE",
+    "4.7 stars; 2,131 reviews",
+    "About $42"
+   ],
+   "cons": [
+    "Fixed heads",
+    "Reviews shared with DISEN's 10-piece set"
+   ],
+   "specs": {
+    "pieces": "22",
+    "sizes": "6-18 mm, 1/4-3/4 in",
+    "teeth": "72-tooth",
+    "head": "Fixed, 12-point box end",
+    "storage": "Organizer bag"
+   },
+   "features": {
+    "metric_sae": true,
+    "flex_head": false,
+    "storage": true,
+    "teeth_90": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71y3RxHdM2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08T6KW58N?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B08T6KW58N"
+  },
+  {
+   "rank": 4,
+   "asin": "B0CL1WBXG6",
+   "name": "GRENPRO 22-Piece Ratcheting Wrench Set, SAE and Metric",
+   "brand": "GRENPRO",
+   "model": "071063",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1142,
+   "score": 88,
+   "award": null,
+   "best_for": "Mechanics who keep wrenches in a roll.",
+   "bought_last_month": "500+/mo",
+   "verdict": "A 22-piece metric and SAE set in a roll-up pouch with each size printed on it.",
+   "pros": [
+    "Labeled roll-up pouch",
+    "4.7 stars; 1,142 reviews"
+   ],
+   "cons": [
+    "Fixed heads"
+   ],
+   "specs": {
+    "pieces": "22",
+    "sizes": "6-18 mm plus SAE",
+    "teeth": "72-tooth",
+    "head": "Fixed, 12-point box end",
+    "storage": "Roll-up pouch with printed sizes"
+   },
+   "features": {
+    "metric_sae": true,
+    "flex_head": false,
+    "storage": true,
+    "teeth_90": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81wAyyetsiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CL1WBXG6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B0CL1WBXG6"
+  },
+  {
+   "rank": 5,
    "asin": "B06ZY3DG6P",
    "name": "WORKPRO 8-Piece SAE Flex-Head Ratcheting Combination Wrench Set (W003320A)",
    "brand": "WORKPRO",
@@ -75,129 +236,7 @@
    "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B06ZY3DG6P"
   },
   {
-   "rank": 2,
-   "asin": "B08T6KW58N",
-   "name": "DISEN 22-Piece Ratcheting Wrench Set, SAE and Metric, 1/4-3/4 in and 6-18 mm",
-   "brand": "DISEN",
-   "model": "22-piece",
-   "price": 44.24,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2131,
-   "score": 83,
-   "award": "Best Budget",
-   "best_for": "DIYers and car owners who want both sizes on a budget.",
-   "bought_last_month": "500+/mo",
-   "verdict": "A 22-piece metric and SAE set of fixed-head ratcheting wrenches with an organizer bag, rated 4.7 stars, for about $42.",
-   "pros": [
-    "Metric and SAE",
-    "4.7 stars; 2,131 reviews",
-    "About $42"
-   ],
-   "cons": [
-    "Fixed heads",
-    "Reviews shared with DISEN's 10-piece set"
-   ],
-   "specs": {
-    "pieces": "22",
-    "sizes": "6-18 mm, 1/4-3/4 in",
-    "teeth": "72-tooth",
-    "head": "Fixed, 12-point box end",
-    "storage": "Organizer bag"
-   },
-   "features": {
-    "metric_sae": true,
-    "flex_head": false,
-    "storage": true,
-    "teeth_90": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71y3RxHdM2L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08T6KW58N?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B08T6KW58N"
-  },
-  {
-   "rank": 3,
-   "asin": "B0DPGJVJZV",
-   "name": "CRAFTSMAN 20-Piece 90-Tooth Ratcheting Wrench Set, SAE and Metric, with Case (CMMT87220)",
-   "brand": "CRAFTSMAN",
-   "model": "CMMT87220",
-   "price": 69.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 636,
-   "score": 83,
-   "award": "Best Overall",
-   "best_for": "Car owners who want a brand-name set for tight spots.",
-   "bought_last_month": "900+/mo",
-   "verdict": "A 90-tooth CRAFTSMAN set that needs only a 4-degree swing, with large size markings and a case, rated 4.8 stars.",
-   "pros": [
-    "90-tooth ratchet",
-    "4.8 stars",
-    "Case included"
-   ],
-   "cons": [
-    "Sizes not listed",
-    "Fixed heads"
-   ],
-   "specs": {
-    "pieces": "20",
-    "sizes": null,
-    "teeth": "90-tooth, 4° arc",
-    "head": "Fixed, 12-point box end",
-    "storage": "Case"
-   },
-   "features": {
-    "metric_sae": true,
-    "flex_head": false,
-    "storage": true,
-    "teeth_90": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61mIPChtHvL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DPGJVJZV?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B0DPGJVJZV"
-  },
-  {
-   "rank": 4,
-   "asin": "B0CZ99CNY1",
-   "name": "SUZUME 24-Piece Flex Head Ratcheting Wrench Set, Metric and SAE (SM2324)",
-   "brand": "SUZUME",
-   "model": "SM2324",
-   "price": 88.09,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 568,
-   "score": 83,
-   "award": null,
-   "best_for": "Mechanics who want flex heads and a rack in one set.",
-   "bought_last_month": "900+/mo",
-   "verdict": "A 24-piece flex-head set that includes the 19 mm size many smaller sets leave out, on a portable rack.",
-   "pros": [
-    "Flex heads",
-    "Includes 19 mm",
-    "Rack included"
-   ],
-   "cons": [
-    "Costs more than twice the DISEN set"
-   ],
-   "specs": {
-    "pieces": "24",
-    "sizes": "8-19 mm, 1/4-3/4 in",
-    "teeth": "72-tooth",
-    "head": "180° flex head",
-    "storage": "Portable rack"
-   },
-   "features": {
-    "metric_sae": true,
-    "flex_head": true,
-    "storage": true,
-    "teeth_90": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71KnLT-cUCL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CZ99CNY1?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B0CZ99CNY1"
-  },
-  {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0CN2DBC1M",
    "name": "ELEAD 33-Piece Combination Ratchet Wrench Set, SAE and Metric, with Organizer Case (E70031)",
    "brand": "ELEAD",
@@ -206,7 +245,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1384,
-   "score": 81,
+   "score": 87,
    "award": null,
    "best_for": "Starter mechanics who want a case and extras.",
    "bought_last_month": "500+/mo",
@@ -237,45 +276,6 @@
    "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B0CN2DBC1M"
   },
   {
-   "rank": 6,
-   "asin": "B0CL1WBXG6",
-   "name": "GRENPRO 22-Piece Ratcheting Wrench Set, SAE and Metric",
-   "brand": "GRENPRO",
-   "model": "071063",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 1142,
-   "score": 81,
-   "award": null,
-   "best_for": "Mechanics who keep wrenches in a roll.",
-   "bought_last_month": "500+/mo",
-   "verdict": "A 22-piece metric and SAE set in a roll-up pouch with each size printed on it.",
-   "pros": [
-    "Labeled roll-up pouch",
-    "4.7 stars; 1,142 reviews"
-   ],
-   "cons": [
-    "Fixed heads"
-   ],
-   "specs": {
-    "pieces": "22",
-    "sizes": "6-18 mm plus SAE",
-    "teeth": "72-tooth",
-    "head": "Fixed, 12-point box end",
-    "storage": "Roll-up pouch with printed sizes"
-   },
-   "features": {
-    "metric_sae": true,
-    "flex_head": false,
-    "storage": true,
-    "teeth_90": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81wAyyetsiL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CL1WBXG6?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/ratcheting-wrench-sets.html#B0CL1WBXG6"
-  },
-  {
    "rank": 7,
    "asin": "B0CQKVK1KR",
    "name": "WORKPRO 22-Piece Ratcheting Wrench Set with 180° Flex Head",
@@ -285,7 +285,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 504,
-   "score": 77,
+   "score": 87,
    "award": null,
    "best_for": "Mechanics working in cramped engine bays.",
    "bought_last_month": "600+/mo",
@@ -326,7 +326,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 398,
-   "score": 76,
+   "score": 87,
    "award": null,
    "best_for": "Anyone who works on trucks or equipment with bigger fasteners.",
    "bought_last_month": "600+/mo",
@@ -367,7 +367,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 395,
-   "score": 75,
+   "score": 87,
    "award": null,
    "best_for": "Electricians and HVAC techs working on threaded rod.",
    "bought_last_month": "700+/mo",
@@ -408,7 +408,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 454,
-   "score": 72,
+   "score": 83,
    "award": "Money No Object",
    "best_for": "Professional mechanics who want the standard.",
    "bought_last_month": "400+/mo",

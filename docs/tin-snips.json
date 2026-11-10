@@ -22,14 +22,14 @@
    "one_hand_latch": 0.2,
    "lifetime_warranty": 0.2
   },
-  "reviews_ceiling": 8000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 15,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
   "best_overall": "B00002N5KQ",
-  "best_budget": "B07RWV14KP",
+  "best_budget": "B00009OYFY",
   "money_no_object": "B07YVRTM7L"
  },
  "products": [
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3610,
-   "score": 89,
+   "score": 92,
    "award": null,
    "best_for": "DIYers who want all three cuts on a budget.",
    "bought_last_month": "1K+/mo",
@@ -74,6 +74,124 @@
   },
   {
    "rank": 2,
+   "asin": "B07R69YBJB",
+   "name": "CRAFTSMAN Aviation Snips, Straight Cut (CMHT73756)",
+   "brand": "CRAFTSMAN",
+   "model": "CMHT73756",
+   "price": 16.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2797,
+   "score": 91,
+   "award": null,
+   "best_for": "Anyone who wants a lifetime warranty on their snips.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A CRAFTSMAN straight snip with induction-hardened edges, 1/4-inch markings on the blade for measured cuts, a spring-assisted latch and a full lifetime warranty.",
+   "pros": [
+    "Full lifetime warranty",
+    "Blade markings",
+    "2,797 reviews"
+   ],
+   "cons": [
+    "Straight cut only"
+   ],
+   "specs": {
+    "cuts": "Straight",
+    "capacity": "18 gauge",
+    "blades": "Induction-hardened edge",
+    "extras": "Spring-assisted latch, 1/4 in blade markings, full lifetime warranty"
+   },
+   "features": {
+    "multi_cut_set": false,
+    "capacity_18ga": true,
+    "one_hand_latch": true,
+    "lifetime_warranty": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51TQW7af0XL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07R69YBJB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tin-snips.html#B07R69YBJB"
+  },
+  {
+   "rank": 3,
+   "asin": "B07YVRTM7L",
+   "name": "MIDWEST Blackout Aviation Snip Set, Left and Right Offset",
+   "brand": "MIDWEST",
+   "model": "MWT-6510CO-NP",
+   "price": 67.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1019,
+   "score": 88,
+   "award": "Money No Object",
+   "best_for": "HVAC and roofing pros who cut sheet metal every day.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A pro offset set with hot drop-forged blades that cut 18-gauge steel all the way to the tip, so each stroke goes further. Offset handles keep your hand above the sheet.",
+   "pros": [
+    "Forged blades",
+    "Cuts to the tip",
+    "2,000+ sold last month"
+   ],
+   "cons": [
+    "Expensive",
+    "No straight snip in the set"
+   ],
+   "specs": {
+    "cuts": "Left and right offset",
+    "capacity": "18 gauge",
+    "blades": "Hot drop-forged molybdenum alloy, austempered",
+    "extras": "Cuts all the way to the tip"
+   },
+   "features": {
+    "multi_cut_set": true,
+    "capacity_18ga": true,
+    "one_hand_latch": false,
+    "lifetime_warranty": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71OM5F8Xe3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07YVRTM7L?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tin-snips.html#B07YVRTM7L"
+  },
+  {
+   "rank": 4,
+   "asin": "B01N0QGAN0",
+   "name": "Crescent Wiss 3 Piece MetalMaster Compound Action Aviation Snip Set (M123R)",
+   "brand": "Crescent Wiss",
+   "model": "M123R",
+   "price": 41.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 376,
+   "score": 88,
+   "award": null,
+   "best_for": "Anyone who wants the classic Wiss snips as a full set.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The Wiss M1R, M2R and M3R together: left, right and straight snips rated for 18-gauge steel, with blades designed to stop tearing at the end of a cut.",
+   "pros": [
+    "Full Wiss set",
+    "18-gauge capacity",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Pricier than budget sets"
+   ],
+   "specs": {
+    "cuts": "Left, right and straight",
+    "capacity": "18 gauge",
+    "blades": "Serrated",
+    "extras": "Spring-action handles, controlled bypass to prevent tears"
+   },
+   "features": {
+    "multi_cut_set": true,
+    "capacity_18ga": true,
+    "one_hand_latch": false,
+    "lifetime_warranty": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81LEcRVtAzL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01N0QGAN0?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tin-snips.html#B01N0QGAN0"
+  },
+  {
+   "rank": 5,
    "asin": "B00002N5KQ",
    "name": "Crescent Wiss M3R 9-3/4\" Straight Cut Aviation Snips",
    "brand": "Crescent Wiss",
@@ -112,85 +230,7 @@
    "page_url": "https://toolboxtop10.com/tin-snips.html#B00002N5KQ"
   },
   {
-   "rank": 3,
-   "asin": "B07R69YBJB",
-   "name": "CRAFTSMAN Aviation Snips, Straight Cut (CMHT73756)",
-   "brand": "CRAFTSMAN",
-   "model": "CMHT73756",
-   "price": 16.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2797,
-   "score": 87,
-   "award": null,
-   "best_for": "Anyone who wants a lifetime warranty on their snips.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A CRAFTSMAN straight snip with induction-hardened edges, 1/4-inch markings on the blade for measured cuts, a spring-assisted latch and a full lifetime warranty.",
-   "pros": [
-    "Full lifetime warranty",
-    "Blade markings",
-    "2,797 reviews"
-   ],
-   "cons": [
-    "Straight cut only"
-   ],
-   "specs": {
-    "cuts": "Straight",
-    "capacity": "18 gauge",
-    "blades": "Induction-hardened edge",
-    "extras": "Spring-assisted latch, 1/4 in blade markings, full lifetime warranty"
-   },
-   "features": {
-    "multi_cut_set": false,
-    "capacity_18ga": true,
-    "one_hand_latch": true,
-    "lifetime_warranty": true
-   },
-   "image": "https://m.media-amazon.com/images/I/51TQW7af0XL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07R69YBJB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tin-snips.html#B07R69YBJB"
-  },
-  {
-   "rank": 4,
-   "asin": "B07RWV14KP",
-   "name": "Amazon Basics Straight Cut Aviation Tin Snips with Safety Latch",
-   "brand": "Amazon Basics",
-   "model": "AMAS04",
-   "price": 10.52,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 5071,
-   "score": 85,
-   "award": "Best Budget",
-   "best_for": "A cheap pair for occasional metal cutting.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The cheapest snip here rated for 18-gauge steel, with chrome vanadium blades and a one-handed auto release.",
-   "pros": [
-    "Lowest price here",
-    "18-gauge capacity",
-    "5,071 reviews"
-   ],
-   "cons": [
-    "Straight cut only"
-   ],
-   "specs": {
-    "cuts": "Straight",
-    "capacity": "18 gauge",
-    "blades": "Chrome vanadium, serrated",
-    "extras": "One-handed auto release"
-   },
-   "features": {
-    "multi_cut_set": false,
-    "capacity_18ga": true,
-    "one_hand_latch": true,
-    "lifetime_warranty": false
-   },
-   "image": "https://m.media-amazon.com/images/I/618AhFWVeuL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07RWV14KP?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tin-snips.html#B07RWV14KP"
-  },
-  {
-   "rank": 5,
+   "rank": 6,
    "asin": "B00009OYFY",
    "name": "STANLEY Straight Cut Aviation Snips, 10 in (14-563)",
    "brand": "STANLEY",
@@ -199,8 +239,8 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1537,
-   "score": 81,
-   "award": null,
+   "score": 87,
+   "award": "Best Budget",
    "best_for": "A name-brand snip for little money.",
    "bought_last_month": "300+/mo",
    "verdict": "A cheap name-brand straight snip rated for 18-gauge cold-rolled steel with serrated jaws and a quick release.",
@@ -229,47 +269,46 @@
    "page_url": "https://toolboxtop10.com/tin-snips.html#B00009OYFY"
   },
   {
-   "rank": 6,
-   "asin": "B07YVRTM7L",
-   "name": "MIDWEST Blackout Aviation Snip Set, Left and Right Offset",
-   "brand": "MIDWEST",
-   "model": "MWT-6510CO-NP",
-   "price": 67.99,
+   "rank": 7,
+   "asin": "B07RWV14KP",
+   "name": "Amazon Basics Straight Cut Aviation Tin Snips with Safety Latch",
+   "brand": "Amazon Basics",
+   "model": "AMAS04",
+   "price": 10.52,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 1019,
-   "score": 80,
-   "award": "Money No Object",
-   "best_for": "HVAC and roofing pros who cut sheet metal every day.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A pro offset set with hot drop-forged blades that cut 18-gauge steel all the way to the tip, so each stroke goes further. Offset handles keep your hand above the sheet.",
+   "reviews_count": 5071,
+   "score": 86,
+   "award": null,
+   "best_for": "A cheap pair for occasional metal cutting.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The cheapest snip here rated for 18-gauge steel, with chrome vanadium blades and a one-handed auto release.",
    "pros": [
-    "Forged blades",
-    "Cuts to the tip",
-    "2,000+ sold last month"
+    "Lowest price here",
+    "18-gauge capacity",
+    "5,071 reviews"
    ],
    "cons": [
-    "Expensive",
-    "No straight snip in the set"
+    "Straight cut only"
    ],
    "specs": {
-    "cuts": "Left and right offset",
+    "cuts": "Straight",
     "capacity": "18 gauge",
-    "blades": "Hot drop-forged molybdenum alloy, austempered",
-    "extras": "Cuts all the way to the tip"
+    "blades": "Chrome vanadium, serrated",
+    "extras": "One-handed auto release"
    },
    "features": {
-    "multi_cut_set": true,
+    "multi_cut_set": false,
     "capacity_18ga": true,
-    "one_hand_latch": false,
+    "one_hand_latch": true,
     "lifetime_warranty": false
    },
-   "image": "https://m.media-amazon.com/images/I/71OM5F8Xe3L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07YVRTM7L?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tin-snips.html#B07YVRTM7L"
+   "image": "https://m.media-amazon.com/images/I/618AhFWVeuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07RWV14KP?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/tin-snips.html#B07RWV14KP"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "asin": "B07CTJLRT2",
    "name": "HURRICANE 3 pc Aviation Tin Snips Set, 10 Inch, Straight, Left and Right",
    "brand": "HURRICANE",
@@ -278,7 +317,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2151,
-   "score": 79,
+   "score": 85,
    "award": null,
    "best_for": "Light sheet-metal work that needs curves.",
    "bought_last_month": "1K+/mo",
@@ -309,45 +348,6 @@
    "page_url": "https://toolboxtop10.com/tin-snips.html#B07CTJLRT2"
   },
   {
-   "rank": 8,
-   "asin": "B01N0QGAN0",
-   "name": "Crescent Wiss 3 Piece MetalMaster Compound Action Aviation Snip Set (M123R)",
-   "brand": "Crescent Wiss",
-   "model": "M123R",
-   "price": 41.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 376,
-   "score": 77,
-   "award": null,
-   "best_for": "Anyone who wants the classic Wiss snips as a full set.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The Wiss M1R, M2R and M3R together: left, right and straight snips rated for 18-gauge steel, with blades designed to stop tearing at the end of a cut.",
-   "pros": [
-    "Full Wiss set",
-    "18-gauge capacity",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Pricier than budget sets"
-   ],
-   "specs": {
-    "cuts": "Left, right and straight",
-    "capacity": "18 gauge",
-    "blades": "Serrated",
-    "extras": "Spring-action handles, controlled bypass to prevent tears"
-   },
-   "features": {
-    "multi_cut_set": true,
-    "capacity_18ga": true,
-    "one_hand_latch": false,
-    "lifetime_warranty": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81LEcRVtAzL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01N0QGAN0?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/tin-snips.html#B01N0QGAN0"
-  },
-  {
    "rank": 9,
    "asin": "B01J9IC5D8",
    "name": "Midwest Snips MWT-6510C Forged Blade Offset Aviation Snips Set (2 Pack)",
@@ -357,7 +357,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 824,
-   "score": 75,
+   "score": 84,
    "award": null,
    "best_for": "Pros who want forged offset snips.",
    "bought_last_month": "100+/mo",
@@ -397,7 +397,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 4698,
-   "score": 74,
+   "score": 76,
    "award": null,
    "best_for": "Light jobs on aluminum and thin steel.",
    "bought_last_month": "4K+/mo",

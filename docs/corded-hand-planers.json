@@ -22,19 +22,60 @@
    "dual_dust": 0.25,
    "kickstand": 0.25
   },
-  "reviews_ceiling": 8000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 45,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00OW5AJTG",
+  "best_overall": "B086ZDQGXM",
   "best_budget": "B079FBDPF4",
   "money_no_object": "B0033WSK5O"
  },
  "products": [
   {
    "rank": 1,
+   "asin": "B086ZDQGXM",
+   "name": "SKIL 6.5 AMP Electric 3-1/4 Inch Corded Planer (PL201201)",
+   "brand": "SKIL",
+   "model": "PL2012-00",
+   "price": 86.86,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 664,
+   "score": 91,
+   "award": "Best Overall",
+   "best_for": "A brand-name planer with everything included.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A 6.5A planer with dual chip exhaust that keeps sightlines clear, a kickstand, wrench storage, a lock-off switch, and a parallel guide and rebate fence in the box.",
+   "pros": [
+    "Dual chip exhaust",
+    "Rebate fence and parallel guide",
+    "Lock-off switch"
+   ],
+   "cons": [
+    "Depth not listed",
+    "1-year warranty"
+   ],
+   "specs": {
+    "width": "3-1/4 in",
+    "depth": null,
+    "motor": "6.5 A",
+    "speed": null,
+    "weight": "6 lb"
+   },
+   "features": {
+    "deep_cut": false,
+    "rabbet": true,
+    "dual_dust": true,
+    "kickstand": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71OMNRkKx1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B086ZDQGXM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B086ZDQGXM"
+  },
+  {
+   "rank": 2,
    "asin": "B00OW5AJTG",
    "name": "WEN 6530 6-Amp Electric Hand Planer, 3-1/4-Inch",
    "brand": "WEN",
@@ -44,7 +85,7 @@
    "rating": 4.5,
    "reviews_count": 7992,
    "score": 90,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Doors, trim and general DIY planing.",
    "bought_last_month": "1K+/mo",
    "verdict": "The best-selling and most-reviewed planer here: a 6A, 3-1/4-inch planer with 16 depth stops to 1/8 inch, a rabbeting guide for rabbets up to 1 inch, a kickstand, a dust bag and a 2-year warranty, for about $43.",
@@ -75,7 +116,7 @@
    "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B00OW5AJTG"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B079FH788Z",
    "name": "WEN 6534 8-Amp Electric Hand Planer, 4-3/8-Inch",
    "brand": "WEN",
@@ -84,7 +125,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2707,
-   "score": 86,
+   "score": 90,
    "award": null,
    "best_for": "Timber, beams and wide boards.",
    "bought_last_month": "400+/mo",
@@ -116,130 +157,7 @@
    "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B079FH788Z"
   },
   {
-   "rank": 3,
-   "asin": "B086ZDQGXM",
-   "name": "SKIL 6.5 AMP Electric 3-1/4 Inch Corded Planer (PL201201)",
-   "brand": "SKIL",
-   "model": "PL2012-00",
-   "price": 86.86,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 664,
-   "score": 82,
-   "award": null,
-   "best_for": "A brand-name planer with everything included.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A 6.5A planer with dual chip exhaust that keeps sightlines clear, a kickstand, wrench storage, a lock-off switch, and a parallel guide and rebate fence in the box.",
-   "pros": [
-    "Dual chip exhaust",
-    "Rebate fence and parallel guide",
-    "Lock-off switch"
-   ],
-   "cons": [
-    "Depth not listed",
-    "1-year warranty"
-   ],
-   "specs": {
-    "width": "3-1/4 in",
-    "depth": null,
-    "motor": "6.5 A",
-    "speed": null,
-    "weight": "6 lb"
-   },
-   "features": {
-    "deep_cut": false,
-    "rabbet": true,
-    "dual_dust": true,
-    "kickstand": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71OMNRkKx1L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B086ZDQGXM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B086ZDQGXM"
-  },
-  {
    "rank": 4,
-   "asin": "B00PSPUWV4",
-   "name": "PORTER-CABLE Hand Planer, 6-Amp, 5/64-Inch (PC60THP)",
-   "brand": "PORTER-CABLE",
-   "model": "PC60THP",
-   "price": 94.91,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2471,
-   "score": 77,
-   "award": null,
-   "best_for": "Regular carpentry use with carbide blades.",
-   "bought_last_month": null,
-   "verdict": "A well-reviewed brand-name planer with carbide blades, a 10-step overmolded depth knob, three chamfer grooves and a dust bag that mounts on either side. 3-year warranty.",
-   "pros": [
-    "4.6 stars across 2,471 reviews",
-    "Carbide blades",
-    "3-year warranty"
-   ],
-   "cons": [
-    "8.2 lbs",
-    "5/64-in max depth"
-   ],
-   "specs": {
-    "width": "3-1/4 in",
-    "depth": "5/64 in (10 stops)",
-    "motor": "6 A",
-    "speed": "16,500 rpm",
-    "weight": "8.2 lb"
-   },
-   "features": {
-    "deep_cut": false,
-    "rabbet": false,
-    "dual_dust": true,
-    "kickstand": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51rFaZOtYVL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00PSPUWV4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B00PSPUWV4"
-  },
-  {
-   "rank": 5,
-   "asin": "B079FBDPF4",
-   "name": "WEN 6528 3.8-Amp Electric Hand Planer, 2-3/8-Inch",
-   "brand": "WEN",
-   "model": "6528",
-   "price": 31.35,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 2276,
-   "score": 76,
-   "award": "Best Budget",
-   "best_for": "Light edge work and one-handed control.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The cheapest and lightest planer here: a 4.3 lb, 2-3/8-inch planer for edges, doors and small trim, with a kickstand and onboard wrench storage.",
-   "pros": [
-    "$31.35",
-    "4.3 lbs",
-    "2-year warranty"
-   ],
-   "cons": [
-    "2-3/8-in width",
-    "1/16-in depth"
-   ],
-   "specs": {
-    "width": "2-3/8 in",
-    "depth": "1/16 in (9 stops)",
-    "motor": "3.8 A",
-    "speed": "32,000 cuts/min",
-    "weight": "4.3 lb"
-   },
-   "features": {
-    "deep_cut": false,
-    "rabbet": false,
-    "dual_dust": false,
-    "kickstand": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81A60NBnmCL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B079FBDPF4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B079FBDPF4"
-  },
-  {
-   "rank": 6,
    "asin": "B0033WSK5O",
    "name": "Makita KP0800K 3-1/4\" Planer, with Tool Case",
    "brand": "Makita",
@@ -248,7 +166,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 821,
-   "score": 73,
+   "score": 82,
    "award": "Money No Object",
    "best_for": "Finish carpenters who want the smoothest cut.",
    "bought_last_month": "50+/mo",
@@ -280,6 +198,88 @@
    "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B0033WSK5O"
   },
   {
+   "rank": 5,
+   "asin": "B00PSPUWV4",
+   "name": "PORTER-CABLE Hand Planer, 6-Amp, 5/64-Inch (PC60THP)",
+   "brand": "PORTER-CABLE",
+   "model": "PC60THP",
+   "price": 94.91,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2471,
+   "score": 81,
+   "award": null,
+   "best_for": "Regular carpentry use with carbide blades.",
+   "bought_last_month": null,
+   "verdict": "A well-reviewed brand-name planer with carbide blades, a 10-step overmolded depth knob, three chamfer grooves and a dust bag that mounts on either side. 3-year warranty.",
+   "pros": [
+    "4.6 stars across 2,471 reviews",
+    "Carbide blades",
+    "3-year warranty"
+   ],
+   "cons": [
+    "8.2 lbs",
+    "5/64-in max depth"
+   ],
+   "specs": {
+    "width": "3-1/4 in",
+    "depth": "5/64 in (10 stops)",
+    "motor": "6 A",
+    "speed": "16,500 rpm",
+    "weight": "8.2 lb"
+   },
+   "features": {
+    "deep_cut": false,
+    "rabbet": false,
+    "dual_dust": true,
+    "kickstand": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51rFaZOtYVL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00PSPUWV4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B00PSPUWV4"
+  },
+  {
+   "rank": 6,
+   "asin": "B079FBDPF4",
+   "name": "WEN 6528 3.8-Amp Electric Hand Planer, 2-3/8-Inch",
+   "brand": "WEN",
+   "model": "6528",
+   "price": 31.35,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 2276,
+   "score": 80,
+   "award": "Best Budget",
+   "best_for": "Light edge work and one-handed control.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The cheapest and lightest planer here: a 4.3 lb, 2-3/8-inch planer for edges, doors and small trim, with a kickstand and onboard wrench storage.",
+   "pros": [
+    "$31.35",
+    "4.3 lbs",
+    "2-year warranty"
+   ],
+   "cons": [
+    "2-3/8-in width",
+    "1/16-in depth"
+   ],
+   "specs": {
+    "width": "2-3/8 in",
+    "depth": "1/16 in (9 stops)",
+    "motor": "3.8 A",
+    "speed": "32,000 cuts/min",
+    "weight": "4.3 lb"
+   },
+   "features": {
+    "deep_cut": false,
+    "rabbet": false,
+    "dual_dust": false,
+    "kickstand": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81A60NBnmCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B079FBDPF4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B079FBDPF4"
+  },
+  {
    "rank": 7,
    "asin": "B07Y4867BB",
    "name": "CRAFTSMAN Hand Planer, 6-Amp, 5/64-Inch (CMEW300)",
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 789,
-   "score": 71,
+   "score": 80,
    "award": null,
    "best_for": "Long, flat passes on doors and boards.",
    "bought_last_month": null,
@@ -322,47 +322,6 @@
   },
   {
    "rank": 8,
-   "asin": "B0DXK4R82T",
-   "name": "WOODSTARTER Corded Electric Hand Planer, 7.7 AMP 15000 RPM, Edge Guide and Dust Bag (HP15K)",
-   "brand": "WOODSTARTER",
-   "model": "HP15K",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 53,
-   "score": 64,
-   "award": null,
-   "best_for": "Removing a lot of wood per pass on a budget.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The deepest cut here at 5/32 inch with 20 depth settings, a 7.7A motor, three chamfer grooves and 1-inch rabbeting.",
-   "pros": [
-    "5/32-in depth, 20 stops",
-    "7.7A",
-    "1-in rabbeting"
-   ],
-   "cons": [
-    "4.2 stars, 53 reviews",
-    "7.9 lbs"
-   ],
-   "specs": {
-    "width": "3-1/4 in",
-    "depth": "5/32 in (20 stops)",
-    "motor": "7.7 A",
-    "speed": "15,000 rpm",
-    "weight": "7.9 lb"
-   },
-   "features": {
-    "deep_cut": true,
-    "rabbet": true,
-    "dual_dust": false,
-    "kickstand": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61LKMnljrUL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DXK4R82T?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B0DXK4R82T"
-  },
-  {
-   "rank": 9,
    "asin": "B0CGX5Q7X9",
    "name": "VEVOR Electric Hand Planer, 3-1/4-Inch Cut Width, 16500 RPM (2822C)",
    "brand": "VEVOR",
@@ -371,7 +330,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 283,
-   "score": 62,
+   "score": 76,
    "award": null,
    "best_for": "A budget alternative to the WEN 6530.",
    "bought_last_month": "50+/mo",
@@ -403,6 +362,47 @@
    "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B0CGX5Q7X9"
   },
   {
+   "rank": 9,
+   "asin": "B0DXK4R82T",
+   "name": "WOODSTARTER Corded Electric Hand Planer, 7.7 AMP 15000 RPM, Edge Guide and Dust Bag (HP15K)",
+   "brand": "WOODSTARTER",
+   "model": "HP15K",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 53,
+   "score": 75,
+   "award": null,
+   "best_for": "Removing a lot of wood per pass on a budget.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The deepest cut here at 5/32 inch with 20 depth settings, a 7.7A motor, three chamfer grooves and 1-inch rabbeting.",
+   "pros": [
+    "5/32-in depth, 20 stops",
+    "7.7A",
+    "1-in rabbeting"
+   ],
+   "cons": [
+    "4.2 stars, 53 reviews",
+    "7.9 lbs"
+   ],
+   "specs": {
+    "width": "3-1/4 in",
+    "depth": "5/32 in (20 stops)",
+    "motor": "7.7 A",
+    "speed": "15,000 rpm",
+    "weight": "7.9 lb"
+   },
+   "features": {
+    "deep_cut": true,
+    "rabbet": true,
+    "dual_dust": false,
+    "kickstand": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61LKMnljrUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DXK4R82T?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B0DXK4R82T"
+  },
+  {
    "rank": 10,
    "asin": "B0H8RSZGW7",
    "name": "DEKOPRO Hand Planer Corded, 3-1/4\" Planing Width, 7.5A 16000RPM, Edge Guide & Dust Bag Electric Planer",
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 28,
-   "score": 62,
+   "score": 71,
    "award": null,
    "best_for": "Fast stock removal on a budget.",
    "bought_last_month": "200+/mo",

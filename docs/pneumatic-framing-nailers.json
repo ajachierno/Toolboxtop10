@@ -22,7 +22,7 @@
    "dry_fire_lockout": 0.2,
    "rafter_hook": 0.25
   },
-  "reviews_ceiling": 7500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 110,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -76,47 +76,6 @@
   },
   {
    "rank": 2,
-   "asin": "B07LCG6TZ4",
-   "name": "Metabo HPT Framing Nailer, 21° Plastic Collated, 2 to 3-1/2 in (NR90AES1)",
-   "brand": "Metabo HPT",
-   "model": "NR90AES1",
-   "price": 169.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2513,
-   "score": 84,
-   "award": "Best Overall",
-   "best_for": "Most framing, decking and sheathing, from the pro-preferred nailer brand.",
-   "bought_last_month": "900+/mo",
-   "verdict": "The framing nailer most crews carry: a 7.5 lb Metabo HPT with a selectable trigger, tool-free depth and a 5-year warranty, the best-rated and best-selling nailer on the page.",
-   "pros": [
-    "4.7 stars and 1,000+ sold last month",
-    "7.5 lbs, light for a stick nailer",
-    "Selectable trigger, tool-free depth, 5-year warranty"
-   ],
-   "cons": [
-    "No rafter hook listed",
-    "No case included"
-   ],
-   "specs": {
-    "collation": "21° plastic",
-    "length": "2 to 3-1/2 in",
-    "trigger": "Selectable sequential / contact",
-    "weight": "7.5 lb",
-    "warranty": "5 years"
-   },
-   "features": {
-    "selectable_trigger": true,
-    "depth_adjust": true,
-    "dry_fire_lockout": false,
-    "rafter_hook": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61jfFyysoRL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07LCG6TZ4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pneumatic-framing-nailers.html#B07LCG6TZ4"
-  },
-  {
-   "rank": 3,
    "asin": "B002EVPO5E",
    "name": "Freeman Pneumatic 21° 3-1/2\" Framing Nailer (PFR2190)",
    "brand": "Freeman",
@@ -125,7 +84,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 827,
-   "score": 83,
+   "score": 91,
    "award": null,
    "best_for": "The NuMax feature set with a 7-year warranty and a case.",
    "bought_last_month": null,
@@ -157,89 +116,7 @@
    "page_url": "https://toolboxtop10.com/pneumatic-framing-nailers.html#B002EVPO5E"
   },
   {
-   "rank": 4,
-   "asin": "B07MMZBWYR",
-   "name": "Metabo HPT Framing Nailer, 30° Paper Collated (NR90ADS1)",
-   "brand": "Metabo HPT",
-   "model": "NR90ADS1",
-   "price": 161.8,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1365,
-   "score": 80,
-   "award": null,
-   "best_for": "Tight corners and paper-collated nails that don't leave plastic shards.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The 30-degree version of the NR90: paper-collated strips and a steeper magazine angle that reaches tighter corners between studs. 7 lbs and a 5-year warranty.",
-   "pros": [
-    "30° magazine fits tight spaces",
-    "7 lbs, the lightest here",
-    "Paper strips leave no plastic debris"
-   ],
-   "cons": [
-    "Clipped/offset heads aren't allowed by some building codes",
-    "No rafter hook listed"
-   ],
-   "specs": {
-    "collation": "30° paper (clipped / offset head)",
-    "length": "2 to 3-1/2 in",
-    "trigger": "Selectable sequential / contact",
-    "weight": "7 lb",
-    "warranty": "5 years"
-   },
-   "features": {
-    "selectable_trigger": true,
-    "depth_adjust": true,
-    "dry_fire_lockout": false,
-    "rafter_hook": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61f+2bVpnVL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07MMZBWYR?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pneumatic-framing-nailers.html#B07MMZBWYR"
-  },
-  {
-   "rank": 5,
-   "asin": "B07MSW2W1G",
-   "name": "Metabo HPT Framing Nailer, Pneumatic Selectable Trigger, 21° (NR83A5)",
-   "brand": "Metabo HPT",
-   "model": "NR83A5",
-   "price": 269.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1004,
-   "score": 79,
-   "award": "Money No Object",
-   "best_for": "Daily framing crews who want the proven pro workhorse.",
-   "bought_last_month": "200+/mo",
-   "verdict": "Metabo HPT's long-running pro framer: a cylinder-valve drive for fast, powerful driving, a rafter hook that mounts on either side, a rear-loading magazine and an open nose for jams.",
-   "pros": [
-    "Cylinder-valve drive for fast response",
-    "Reversible rafter hook; rear-loading magazine",
-    "5-year warranty"
-   ],
-   "cons": [
-    "$269, $100 more than the NR90AES1",
-    "The listing doesn't give a nail length range"
-   ],
-   "specs": {
-    "collation": "21° plastic",
-    "length": null,
-    "trigger": "Selectable sequential / contact",
-    "weight": "8.8 lb",
-    "warranty": "5 years"
-   },
-   "features": {
-    "selectable_trigger": true,
-    "depth_adjust": false,
-    "dry_fire_lockout": false,
-    "rafter_hook": true
-   },
-   "image": "https://m.media-amazon.com/images/I/610lOXzliyL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07MSW2W1G?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pneumatic-framing-nailers.html#B07MSW2W1G"
-  },
-  {
-   "rank": 6,
+   "rank": 3,
    "asin": "B015W4OQUS",
    "name": "3PLUS H2190SP 21 Degree Full Round Head Framing Nailer",
    "brand": "3PLUS",
@@ -248,7 +125,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 419,
-   "score": 79,
+   "score": 90,
    "award": "Best Budget",
    "best_for": "Occasional framing and decks for under $100.",
    "bought_last_month": "50+/mo",
@@ -280,6 +157,129 @@
    "page_url": "https://toolboxtop10.com/pneumatic-framing-nailers.html#B015W4OQUS"
   },
   {
+   "rank": 4,
+   "asin": "B07LCG6TZ4",
+   "name": "Metabo HPT Framing Nailer, 21° Plastic Collated, 2 to 3-1/2 in (NR90AES1)",
+   "brand": "Metabo HPT",
+   "model": "NR90AES1",
+   "price": 169.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 2513,
+   "score": 88,
+   "award": "Best Overall",
+   "best_for": "Most framing, decking and sheathing, from the pro-preferred nailer brand.",
+   "bought_last_month": "900+/mo",
+   "verdict": "The framing nailer most crews carry: a 7.5 lb Metabo HPT with a selectable trigger, tool-free depth and a 5-year warranty, the best-rated and best-selling nailer on the page.",
+   "pros": [
+    "4.7 stars and 1,000+ sold last month",
+    "7.5 lbs, light for a stick nailer",
+    "Selectable trigger, tool-free depth, 5-year warranty"
+   ],
+   "cons": [
+    "No rafter hook listed",
+    "No case included"
+   ],
+   "specs": {
+    "collation": "21° plastic",
+    "length": "2 to 3-1/2 in",
+    "trigger": "Selectable sequential / contact",
+    "weight": "7.5 lb",
+    "warranty": "5 years"
+   },
+   "features": {
+    "selectable_trigger": true,
+    "depth_adjust": true,
+    "dry_fire_lockout": false,
+    "rafter_hook": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61jfFyysoRL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07LCG6TZ4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pneumatic-framing-nailers.html#B07LCG6TZ4"
+  },
+  {
+   "rank": 5,
+   "asin": "B07MMZBWYR",
+   "name": "Metabo HPT Framing Nailer, 30° Paper Collated (NR90ADS1)",
+   "brand": "Metabo HPT",
+   "model": "NR90ADS1",
+   "price": 161.8,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1365,
+   "score": 86,
+   "award": null,
+   "best_for": "Tight corners and paper-collated nails that don't leave plastic shards.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The 30-degree version of the NR90: paper-collated strips and a steeper magazine angle that reaches tighter corners between studs. 7 lbs and a 5-year warranty.",
+   "pros": [
+    "30° magazine fits tight spaces",
+    "7 lbs, the lightest here",
+    "Paper strips leave no plastic debris"
+   ],
+   "cons": [
+    "Clipped/offset heads aren't allowed by some building codes",
+    "No rafter hook listed"
+   ],
+   "specs": {
+    "collation": "30° paper (clipped / offset head)",
+    "length": "2 to 3-1/2 in",
+    "trigger": "Selectable sequential / contact",
+    "weight": "7 lb",
+    "warranty": "5 years"
+   },
+   "features": {
+    "selectable_trigger": true,
+    "depth_adjust": true,
+    "dry_fire_lockout": false,
+    "rafter_hook": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61f+2bVpnVL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07MMZBWYR?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pneumatic-framing-nailers.html#B07MMZBWYR"
+  },
+  {
+   "rank": 6,
+   "asin": "B07MSW2W1G",
+   "name": "Metabo HPT Framing Nailer, Pneumatic Selectable Trigger, 21° (NR83A5)",
+   "brand": "Metabo HPT",
+   "model": "NR83A5",
+   "price": 269.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1004,
+   "score": 86,
+   "award": "Money No Object",
+   "best_for": "Daily framing crews who want the proven pro workhorse.",
+   "bought_last_month": "200+/mo",
+   "verdict": "Metabo HPT's long-running pro framer: a cylinder-valve drive for fast, powerful driving, a rafter hook that mounts on either side, a rear-loading magazine and an open nose for jams.",
+   "pros": [
+    "Cylinder-valve drive for fast response",
+    "Reversible rafter hook; rear-loading magazine",
+    "5-year warranty"
+   ],
+   "cons": [
+    "$269, $100 more than the NR90AES1",
+    "The listing doesn't give a nail length range"
+   ],
+   "specs": {
+    "collation": "21° plastic",
+    "length": null,
+    "trigger": "Selectable sequential / contact",
+    "weight": "8.8 lb",
+    "warranty": "5 years"
+   },
+   "features": {
+    "selectable_trigger": true,
+    "depth_adjust": false,
+    "dry_fire_lockout": false,
+    "rafter_hook": true
+   },
+   "image": "https://m.media-amazon.com/images/I/610lOXzliyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07MSW2W1G?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pneumatic-framing-nailers.html#B07MSW2W1G"
+  },
+  {
    "rank": 7,
    "asin": "B07MYX99MM",
    "name": "Metabo HPT Coil Framing Nailer, 15° Nails (NV90AGS)",
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 675,
-   "score": 77,
+   "score": 86,
    "award": null,
    "best_for": "Sheathing and subfloors, where a big coil means fewer reloads.",
    "bought_last_month": "100+/mo",
@@ -330,7 +330,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 398,
-   "score": 70,
+   "score": 81,
    "award": null,
    "best_for": "Rough jobsites, where durability matters more than features.",
    "bought_last_month": "50+/mo",
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 263,
-   "score": 67,
+   "score": 80,
    "award": null,
    "best_for": "Careful, one-nail-at-a-time framing on a budget.",
    "bought_last_month": "50+/mo",
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 64,
-   "score": 54,
+   "score": 65,
    "award": null,
    "best_for": "DEWALT loyalists who want a coil framer.",
    "bought_last_month": null,

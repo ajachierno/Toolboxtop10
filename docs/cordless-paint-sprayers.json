@@ -22,7 +22,7 @@
    "adjustable_flow": 0.25,
    "no_thinning": 0.25
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 50,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,49 +35,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0G6JRY18D",
-   "name": "DTEZTECH Paint Sprayer for DEWALT 20V Battery (Battery Not Included), 200W HVLP Brushless, Copper Nozzles, Adjustable Flow",
-   "brand": "DTEZTECH",
-   "model": "DW SG05-1",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 3.9,
-   "reviews_count": 819,
-   "score": 78,
-   "award": null,
-   "best_for": "DEWALT 20V owners who want four nozzle sizes for under $45.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The cheapest brushless sprayer on the list, with four copper nozzles, three patterns and a flow knob. Its 3.9-star rating trails the Tilswall guns, and the listing rates it for coatings only up to 40 DIN/s, so plan on thinning.",
-   "pros": [
-    "Brushless 200 W motor",
-    "4 copper nozzles from 1.0 to 3.0 mm",
-    "15 V low-voltage cutoff protects the battery"
-   ],
-   "cons": [
-    "3.9 stars",
-    "Lowest listed viscosity limit on the page (40 DIN/s)",
-    "Battery and charger not included"
-   ],
-   "specs": {
-    "battery": "DEWALT 20V MAX (tool only)",
-    "type": "Handheld HVLP",
-    "container": "1000 ml",
-    "nozzles": "4 copper (1.0, 1.8, 2.5, 3.0 mm)",
-    "motor": "200 W brushless",
-    "weight": "2.6 lb (1.16 kg)"
-   },
-   "features": {
-    "kit": false,
-    "brushless": true,
-    "adjustable_flow": true,
-    "no_thinning": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61fQK+cp+2L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G6JRY18D?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0G6JRY18D"
-  },
-  {
-   "rank": 2,
    "asin": "B0HK3M3YTY",
    "name": "Tilswall Cordless Paint Sprayer Shark700, Fits DEWALT 20V (No Battery)",
    "brand": "TILSWALL",
@@ -86,7 +43,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 184,
-   "score": 78,
+   "score": 85,
    "award": null,
    "best_for": "DEWALT 20V owners spraying bigger pieces who want fewer refills.",
    "bought_last_month": "400+/mo",
@@ -121,7 +78,94 @@
    "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0HK3M3YTY"
   },
   {
+   "rank": 2,
+   "asin": "B072C4HZ9B",
+   "name": "Graco Ultra Max Cordless Airless Handheld Paint Sprayer 17M367",
+   "brand": "Graco",
+   "model": "17M367",
+   "price": 1049.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 278,
+   "score": 82,
+   "award": "Money No Object",
+   "best_for": "Painting contractors who want airless results on small jobs without setting up a full rig.",
+   "bought_last_month": null,
+   "verdict": "A contractor's handheld airless sprayer that runs on DEWALT 20V batteries and, per Graco, sprays without thinning. It's fully repairable, uses standard RAC X tips, and handles water, solvent and flammable coatings.",
+   "pros": [
+    "Sprays unthinned paint, per Graco",
+    "Two DEWALT 20V batteries and a charger included",
+    "Fully repairable; uses standard RAC X FFLP tips",
+    "Rated for water, solvent and flammable materials"
+   ],
+   "cons": [
+    "$1,049.99",
+    "4.0 stars on 278 reviews",
+    "32 oz liners mean frequent refills on big walls"
+   ],
+   "specs": {
+    "battery": "2 x DEWALT 20V MAX compact + charger (included)",
+    "type": "Handheld airless",
+    "container": "32 oz FlexLiner bags (6 included)",
+    "nozzles": "RAC X FFLP 210 and 514 tips",
+    "motor": "Triax triple-piston pump, 2000 psi",
+    "weight": null
+   },
+   "features": {
+    "kit": true,
+    "brushless": false,
+    "adjustable_flow": false,
+    "no_thinning": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61SnT4b0SJL._AC_SL1280_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B072C4HZ9B?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B072C4HZ9B"
+  },
+  {
    "rank": 3,
+   "asin": "B0G6JRY18D",
+   "name": "DTEZTECH Paint Sprayer for DEWALT 20V Battery (Battery Not Included), 200W HVLP Brushless, Copper Nozzles, Adjustable Flow",
+   "brand": "DTEZTECH",
+   "model": "DW SG05-1",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 3.9,
+   "reviews_count": 819,
+   "score": 79,
+   "award": null,
+   "best_for": "DEWALT 20V owners who want four nozzle sizes for under $45.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The cheapest brushless sprayer on the list, with four copper nozzles, three patterns and a flow knob. Its 3.9-star rating trails the Tilswall guns, and the listing rates it for coatings only up to 40 DIN/s, so plan on thinning.",
+   "pros": [
+    "Brushless 200 W motor",
+    "4 copper nozzles from 1.0 to 3.0 mm",
+    "15 V low-voltage cutoff protects the battery"
+   ],
+   "cons": [
+    "3.9 stars",
+    "Lowest listed viscosity limit on the page (40 DIN/s)",
+    "Battery and charger not included"
+   ],
+   "specs": {
+    "battery": "DEWALT 20V MAX (tool only)",
+    "type": "Handheld HVLP",
+    "container": "1000 ml",
+    "nozzles": "4 copper (1.0, 1.8, 2.5, 3.0 mm)",
+    "motor": "200 W brushless",
+    "weight": "2.6 lb (1.16 kg)"
+   },
+   "features": {
+    "kit": false,
+    "brushless": true,
+    "adjustable_flow": true,
+    "no_thinning": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61fQK+cp+2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G6JRY18D?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0G6JRY18D"
+  },
+  {
+   "rank": 4,
    "asin": "B0HFJR1FR7",
    "name": "Tilswall Cordless Paint Sprayer Dreamer400, Fits DEWALT 20V (No Battery)",
    "brand": "TILSWALL",
@@ -165,137 +209,7 @@
    "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0HFJR1FR7"
   },
   {
-   "rank": 4,
-   "asin": "B072C4HZ9B",
-   "name": "Graco Ultra Max Cordless Airless Handheld Paint Sprayer 17M367",
-   "brand": "Graco",
-   "model": "17M367",
-   "price": 1049.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 278,
-   "score": 73,
-   "award": "Money No Object",
-   "best_for": "Painting contractors who want airless results on small jobs without setting up a full rig.",
-   "bought_last_month": null,
-   "verdict": "A contractor's handheld airless sprayer that runs on DEWALT 20V batteries and, per Graco, sprays without thinning. It's fully repairable, uses standard RAC X tips, and handles water, solvent and flammable coatings.",
-   "pros": [
-    "Sprays unthinned paint, per Graco",
-    "Two DEWALT 20V batteries and a charger included",
-    "Fully repairable; uses standard RAC X FFLP tips",
-    "Rated for water, solvent and flammable materials"
-   ],
-   "cons": [
-    "$1,049.99",
-    "4.0 stars on 278 reviews",
-    "32 oz liners mean frequent refills on big walls"
-   ],
-   "specs": {
-    "battery": "2 x DEWALT 20V MAX compact + charger (included)",
-    "type": "Handheld airless",
-    "container": "32 oz FlexLiner bags (6 included)",
-    "nozzles": "RAC X FFLP 210 and 514 tips",
-    "motor": "Triax triple-piston pump, 2000 psi",
-    "weight": null
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "adjustable_flow": false,
-    "no_thinning": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61SnT4b0SJL._AC_SL1280_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B072C4HZ9B?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B072C4HZ9B"
-  },
-  {
    "rank": 5,
-   "asin": "B0CFQS24ZJ",
-   "name": "TAIRDA Cordless Paint Sprayer Compatible for RYOBI 18V Battery (No Battery)",
-   "brand": "TAIRDA",
-   "model": "YX-SG05",
-   "price": 49.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 610,
-   "score": 70,
-   "award": null,
-   "best_for": "RYOBI ONE+ owners who want a brushless sprayer for fences, doors and furniture.",
-   "bought_last_month": null,
-   "verdict": "The most-reviewed sprayer for RYOBI 18V ONE+ batteries. It has a brushless motor, four copper nozzles and a listed 80 DIN/s viscosity limit, twice the DTEZTECH's.",
-   "pros": [
-    "610 reviews at 4.0 stars",
-    "Brushless motor",
-    "Handles coatings up to 80 DIN/s per the listing",
-    "4 nozzle sizes and 3 spray patterns"
-   ],
-   "cons": [
-    "No adjustable flow control listed",
-    "Battery and charger not included"
-   ],
-   "specs": {
-    "battery": "RYOBI 18V ONE+ (tool only)",
-    "type": "Handheld HVLP",
-    "container": "1000 ml",
-    "nozzles": "4 copper (1.0, 1.8, 2.5, 3.0 mm)",
-    "motor": "Brushless, up to 1100 ml/min",
-    "weight": "2.6 lb (1.17 kg)"
-   },
-   "features": {
-    "kit": false,
-    "brushless": true,
-    "adjustable_flow": false,
-    "no_thinning": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71vO5jP8ylL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CFQS24ZJ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0CFQS24ZJ"
-  },
-  {
-   "rank": 6,
-   "asin": "B0DPSP66H9",
-   "name": "onefinsh Cordless Paint Sprayer for RYOBI 18V Battery, Handheld HVLP with 3 Spray Patterns & 4 Nozzles (No Battery)",
-   "brand": "onefinsh",
-   "model": "JH-17Z",
-   "price": 49.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 357,
-   "score": 68,
-   "award": null,
-   "best_for": "RYOBI ONE+ owners who want a complete set of cleaning and masking extras.",
-   "bought_last_month": null,
-   "verdict": "A second RYOBI 18V option with a slightly bigger 1200 ml cup and a fuller accessory bag: ten strainers, masking film and gloves. It rates a little higher than the TAIRDA on fewer reviews.",
-   "pros": [
-    "4.1 stars",
-    "1200 ml cup",
-    "Ships with 10 strainers, masking film, gloves and cleaning tools"
-   ],
-   "cons": [
-    "Smallest motor here at 160 W",
-    "No flow control listed",
-    "Battery and charger not included"
-   ],
-   "specs": {
-    "battery": "RYOBI 18V ONE+ (tool only)",
-    "type": "Handheld HVLP",
-    "container": "1200 ml",
-    "nozzles": "4 copper (1.0, 1.8, 2.5, 3.0 mm)",
-    "motor": "160 W brushless",
-    "weight": null
-   },
-   "features": {
-    "kit": false,
-    "brushless": true,
-    "adjustable_flow": false,
-    "no_thinning": false
-   },
-   "image": "https://m.media-amazon.com/images/I/715tsJ5MUbL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DPSP66H9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0DPSP66H9"
-  },
-  {
-   "rank": 7,
    "asin": "B0G23TB9HN",
    "name": "LIVIVISTA Cordless Paint Sprayer Compatible with DEWALT 20V MAX Battery (No Battery)",
    "brand": "LIVIVISTA",
@@ -304,7 +218,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 115,
-   "score": 67,
+   "score": 77,
    "award": null,
    "best_for": "DEWALT 20V owners who want the most nozzle sizes and the largest cup.",
    "bought_last_month": "200+/mo",
@@ -339,7 +253,136 @@
    "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0G23TB9HN"
   },
   {
+   "rank": 6,
+   "asin": "B0DPSP66H9",
+   "name": "onefinsh Cordless Paint Sprayer for RYOBI 18V Battery, Handheld HVLP with 3 Spray Patterns & 4 Nozzles (No Battery)",
+   "brand": "onefinsh",
+   "model": "JH-17Z",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 357,
+   "score": 76,
+   "award": null,
+   "best_for": "RYOBI ONE+ owners who want a complete set of cleaning and masking extras.",
+   "bought_last_month": null,
+   "verdict": "A second RYOBI 18V option with a slightly bigger 1200 ml cup and a fuller accessory bag: ten strainers, masking film and gloves. It rates a little higher than the TAIRDA on fewer reviews.",
+   "pros": [
+    "4.1 stars",
+    "1200 ml cup",
+    "Ships with 10 strainers, masking film, gloves and cleaning tools"
+   ],
+   "cons": [
+    "Smallest motor here at 160 W",
+    "No flow control listed",
+    "Battery and charger not included"
+   ],
+   "specs": {
+    "battery": "RYOBI 18V ONE+ (tool only)",
+    "type": "Handheld HVLP",
+    "container": "1200 ml",
+    "nozzles": "4 copper (1.0, 1.8, 2.5, 3.0 mm)",
+    "motor": "160 W brushless",
+    "weight": null
+   },
+   "features": {
+    "kit": false,
+    "brushless": true,
+    "adjustable_flow": false,
+    "no_thinning": false
+   },
+   "image": "https://m.media-amazon.com/images/I/715tsJ5MUbL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DPSP66H9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0DPSP66H9"
+  },
+  {
+   "rank": 7,
+   "asin": "B0FM38R8HD",
+   "name": "NANWEI Cordless Paint Sprayer with 2 Batteries, HVLP Spray Gun with 1200ML Container, 4 Nozzles and 3 Patterns",
+   "brand": "NANWEI",
+   "model": "WMD73",
+   "price": 63.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 101,
+   "score": 76,
+   "award": "Best Overall",
+   "best_for": "First-time sprayer buyers who don't own DEWALT or RYOBI batteries.",
+   "bought_last_month": null,
+   "verdict": "The cheapest complete kit here: the sprayer, two 4.0Ah batteries and a charger for $59.99. It's our Best Overall because you can start spraying out of the box without owning a battery platform, for less than most tool-only guns plus a pack.",
+   "pros": [
+    "Two 4.0Ah batteries and a charger included",
+    "1200 ml cup and 4 nozzle sizes",
+    "Listed for coatings up to 80 DIN/s"
+   ],
+   "cons": [
+    "Batteries are NANWEI's own, not a major tool platform",
+    "No flow control or brushless motor listed",
+    "101 reviews"
+   ],
+   "specs": {
+    "battery": "2 x 20V 4.0Ah + charger (included)",
+    "type": "Handheld HVLP",
+    "container": "1200 ml",
+    "nozzles": "4 (1.55, 1.8, 2.2, 2.6 mm)",
+    "motor": "40,000 rpm",
+    "weight": "6 lb (2.72 kg, listed)"
+   },
+   "features": {
+    "kit": true,
+    "brushless": false,
+    "adjustable_flow": false,
+    "no_thinning": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71lO8sHy3-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FM38R8HD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0FM38R8HD"
+  },
+  {
    "rank": 8,
+   "asin": "B0CFQS24ZJ",
+   "name": "TAIRDA Cordless Paint Sprayer Compatible for RYOBI 18V Battery (No Battery)",
+   "brand": "TAIRDA",
+   "model": "YX-SG05",
+   "price": 49.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 610,
+   "score": 75,
+   "award": null,
+   "best_for": "RYOBI ONE+ owners who want a brushless sprayer for fences, doors and furniture.",
+   "bought_last_month": null,
+   "verdict": "The most-reviewed sprayer for RYOBI 18V ONE+ batteries. It has a brushless motor, four copper nozzles and a listed 80 DIN/s viscosity limit, twice the DTEZTECH's.",
+   "pros": [
+    "610 reviews at 4.0 stars",
+    "Brushless motor",
+    "Handles coatings up to 80 DIN/s per the listing",
+    "4 nozzle sizes and 3 spray patterns"
+   ],
+   "cons": [
+    "No adjustable flow control listed",
+    "Battery and charger not included"
+   ],
+   "specs": {
+    "battery": "RYOBI 18V ONE+ (tool only)",
+    "type": "Handheld HVLP",
+    "container": "1000 ml",
+    "nozzles": "4 copper (1.0, 1.8, 2.5, 3.0 mm)",
+    "motor": "Brushless, up to 1100 ml/min",
+    "weight": "2.6 lb (1.17 kg)"
+   },
+   "features": {
+    "kit": false,
+    "brushless": true,
+    "adjustable_flow": false,
+    "no_thinning": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71vO5jP8ylL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CFQS24ZJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0CFQS24ZJ"
+  },
+  {
+   "rank": 9,
    "asin": "B0D7DF6J1Y",
    "name": "Titan ControlMax 1650 18V Cordless HEA Paint Sprayer with Low Overspray",
    "brand": "Titan",
@@ -348,7 +391,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 83,
-   "score": 67,
+   "score": 75,
    "award": null,
    "best_for": "Contractors and serious DIYers staining sheds, pergolas and playsets far from an outlet.",
    "bought_last_month": "50+/mo",
@@ -383,49 +426,6 @@
    "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0D7DF6J1Y"
   },
   {
-   "rank": 9,
-   "asin": "B0FM38R8HD",
-   "name": "NANWEI Cordless Paint Sprayer with 2 Batteries, HVLP Spray Gun with 1200ML Container, 4 Nozzles and 3 Patterns",
-   "brand": "NANWEI",
-   "model": "WMD73",
-   "price": 63.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 101,
-   "score": 66,
-   "award": "Best Overall",
-   "best_for": "First-time sprayer buyers who don't own DEWALT or RYOBI batteries.",
-   "bought_last_month": null,
-   "verdict": "The cheapest complete kit here: the sprayer, two 4.0Ah batteries and a charger for $59.99. It's our Best Overall because you can start spraying out of the box without owning a battery platform, for less than most tool-only guns plus a pack.",
-   "pros": [
-    "Two 4.0Ah batteries and a charger included",
-    "1200 ml cup and 4 nozzle sizes",
-    "Listed for coatings up to 80 DIN/s"
-   ],
-   "cons": [
-    "Batteries are NANWEI's own, not a major tool platform",
-    "No flow control or brushless motor listed",
-    "101 reviews"
-   ],
-   "specs": {
-    "battery": "2 x 20V 4.0Ah + charger (included)",
-    "type": "Handheld HVLP",
-    "container": "1200 ml",
-    "nozzles": "4 (1.55, 1.8, 2.2, 2.6 mm)",
-    "motor": "40,000 rpm",
-    "weight": "6 lb (2.72 kg, listed)"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "adjustable_flow": false,
-    "no_thinning": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71lO8sHy3-L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FM38R8HD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-paint-sprayers.html#B0FM38R8HD"
-  },
-  {
    "rank": 10,
    "asin": "B0HJQ9CP4C",
    "name": "PEMMKORE Cordless Paint Sprayer, 32000RPM Spray Paint Gun with 2x4000mAh Battery",
@@ -435,7 +435,7 @@
    "currency": "USD",
    "rating": 3.3,
    "reviews_count": 11,
-   "score": 47,
+   "score": 52,
    "award": null,
    "best_for": "Buyers who want a kit with the widest nozzle range, down to 0.5 mm for fine detail.",
    "bought_last_month": "400+/mo",

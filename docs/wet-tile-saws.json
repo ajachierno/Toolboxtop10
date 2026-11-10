@@ -22,7 +22,7 @@
    "water_control": 0.2,
    "stand": 0.2
   },
-  "reviews_ceiling": 7000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 105,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 826,
-   "score": 89,
+   "score": 97,
    "award": null,
    "best_for": "Tile setters and serious remodels.",
    "bought_last_month": "100+/mo",
@@ -84,7 +84,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 440,
-   "score": 85,
+   "score": 96,
    "award": "Money No Object",
    "best_for": "Large-format tile and planks.",
    "bought_last_month": "50+/mo",
@@ -117,88 +117,6 @@
   },
   {
    "rank": 3,
-   "asin": "B078J22VN5",
-   "name": "PORTER-CABLE Tile Saw, Wet Saw with 7-inch Cutting Capacity and On-Board Cutting Guide (PCE980)",
-   "brand": "PORTER-CABLE",
-   "model": "PCE980",
-   "price": 269.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1598,
-   "score": 79,
-   "award": null,
-   "best_for": "Straighter cuts and jobsite toughness on a mid budget.",
-   "bought_last_month": null,
-   "verdict": "A step up to a sliding cutting cart for straighter cuts, with an onboard miter square, a stainless deck, a splash guard, a drain plug and a protective roll cage.",
-   "pros": [
-    "Sliding cutting cart",
-    "Splash guard and drain plug",
-    "Roll cage"
-   ],
-   "cons": [
-    "$269.99",
-    "Capacity not listed"
-   ],
-   "specs": {
-    "type": "7 in sliding tabletop",
-    "blade": "7 in",
-    "capacity": null,
-    "motor": "2,850 rpm",
-    "extras": "Cutting cart, onboard miter square, roll cage, splash guard, drain plug"
-   },
-   "features": {
-    "sliding": true,
-    "large_tile": false,
-    "water_control": true,
-    "stand": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51bg66VBrVL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B078J22VN5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B078J22VN5"
-  },
-  {
-   "rank": 4,
-   "asin": "B00J21SL6S",
-   "name": "Skil 3550-02 7-Inch Wet Tile Saw with HydroLock Water Containment System",
-   "brand": "SKIL",
-   "model": "3550-02",
-   "price": 169.0,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 1861,
-   "score": 78,
-   "award": null,
-   "best_for": "Indoor cutting where splash matters, and 18-inch tile.",
-   "bought_last_month": null,
-   "verdict": "SKIL's upgraded 7-inch: HydroLock keeps water near the blade instead of across your floor, and a sliding side extension supports 18-inch tile.",
-   "pros": [
-    "HydroLock water containment",
-    "Supports 18 x 18-in tile",
-    "Bevels at 0, 22.5 and 45°"
-   ],
-   "cons": [
-    "4.2 stars",
-    "$169.00"
-   ],
-   "specs": {
-    "type": "7 in tabletop",
-    "blade": "7 in",
-    "capacity": "18 x 18 in tile (with extension)",
-    "motor": null,
-    "extras": "HydroLock water containment, aluminum top, sliding side extension"
-   },
-   "features": {
-    "sliding": false,
-    "large_tile": true,
-    "water_control": true,
-    "stand": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61wGASYvbIL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00J21SL6S?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B00J21SL6S"
-  },
-  {
-   "rank": 5,
    "asin": "B0HGWV7CRN",
    "name": "VEVOR Wet Tile Saw with Stand 10 Inch, 15 Amp, 4500 RPM",
    "brand": "VEVOR",
@@ -207,7 +125,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 106,
-   "score": 75,
+   "score": 89,
    "award": null,
    "best_for": "A 10-inch sliding saw if you won't pay for DEWALT.",
    "bought_last_month": null,
@@ -239,45 +157,127 @@
    "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B0HGWV7CRN"
   },
   {
-   "rank": 6,
-   "asin": "B003HIWR08",
-   "name": "SKIL 7-Inch Wet Tile Saw (3540-02)",
-   "brand": "SKIL",
-   "model": "3540-02",
-   "price": 109.0,
+   "rank": 4,
+   "asin": "B078J22VN5",
+   "name": "PORTER-CABLE Tile Saw, Wet Saw with 7-inch Cutting Capacity and On-Board Cutting Guide (PCE980)",
+   "brand": "PORTER-CABLE",
+   "model": "PCE980",
+   "price": 269.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 6508,
-   "score": 74,
-   "award": "Best Overall",
-   "best_for": "Bathrooms, backsplashes and 12-inch floor tile.",
+   "reviews_count": 1598,
+   "score": 85,
+   "award": null,
+   "best_for": "Straighter cuts and jobsite toughness on a mid budget.",
    "bought_last_month": null,
-   "verdict": "The most-reviewed tile saw here by a wide margin: a 7-inch tabletop with a corrosion-resistant stainless steel top, a rip fence and miter gauge, a water reservoir and 0-45° bevels, for about $109.",
+   "verdict": "A step up to a sliding cutting cart for straighter cuts, with an onboard miter square, a stainless deck, a splash guard, a drain plug and a protective roll cage.",
    "pros": [
-    "6,508 reviews at 4.4 stars",
-    "Stainless steel top",
-    "Rip fence, miter gauge, 45° bevel"
+    "Sliding cutting cart",
+    "Splash guard and drain plug",
+    "Roll cage"
    ],
    "cons": [
-    "12 x 12-in tile max",
-    "Water splashes without containment"
+    "$269.99",
+    "Capacity not listed"
+   ],
+   "specs": {
+    "type": "7 in sliding tabletop",
+    "blade": "7 in",
+    "capacity": null,
+    "motor": "2,850 rpm",
+    "extras": "Cutting cart, onboard miter square, roll cage, splash guard, drain plug"
+   },
+   "features": {
+    "sliding": true,
+    "large_tile": false,
+    "water_control": true,
+    "stand": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51bg66VBrVL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B078J22VN5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B078J22VN5"
+  },
+  {
+   "rank": 5,
+   "asin": "B09FCW88FH",
+   "name": "Makita XCC01Z 18V LXT Brushless Cordless 5\" Wet/Dry Masonry Saw, Tool Only",
+   "brand": "Makita",
+   "model": "XCC01Z",
+   "price": 284.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 169,
+   "score": 84,
+   "award": null,
+   "best_for": "Pros cutting masonry and tile with no cord or hose to the wall.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A cordless brushless masonry saw with a built-in adjustable water feed for OSHA Table 1 dust compliance, automatic speed change and an electric brake.",
+   "pros": [
+    "Cordless, brushless",
+    "Integrated water feed",
+    "1-9/16-in depth, electric brake"
+   ],
+   "cons": [
+    "Tool only",
+    "$284"
+   ],
+   "specs": {
+    "type": "Cordless handheld wet/dry",
+    "blade": "5 in",
+    "capacity": "1-9/16 in depth at 90°",
+    "motor": "Brushless, 18V LXT",
+    "extras": "Water feed, electric brake, AWS capable"
+   },
+   "features": {
+    "sliding": false,
+    "large_tile": true,
+    "water_control": true,
+    "stand": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61899DtSUlL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09FCW88FH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B09FCW88FH"
+  },
+  {
+   "rank": 6,
+   "asin": "B00J21SL6S",
+   "name": "Skil 3550-02 7-Inch Wet Tile Saw with HydroLock Water Containment System",
+   "brand": "SKIL",
+   "model": "3550-02",
+   "price": 169.0,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 1861,
+   "score": 83,
+   "award": null,
+   "best_for": "Indoor cutting where splash matters, and 18-inch tile.",
+   "bought_last_month": null,
+   "verdict": "SKIL's upgraded 7-inch: HydroLock keeps water near the blade instead of across your floor, and a sliding side extension supports 18-inch tile.",
+   "pros": [
+    "HydroLock water containment",
+    "Supports 18 x 18-in tile",
+    "Bevels at 0, 22.5 and 45°"
+   ],
+   "cons": [
+    "4.2 stars",
+    "$169.00"
    ],
    "specs": {
     "type": "7 in tabletop",
     "blade": "7 in",
-    "capacity": "12 x 12 in tile; 7.75 in crosscut",
+    "capacity": "18 x 18 in tile (with extension)",
     "motor": null,
-    "extras": "Stainless steel top, rip fence, miter gauge, bevels 45°"
+    "extras": "HydroLock water containment, aluminum top, sliding side extension"
    },
    "features": {
     "sliding": false,
-    "large_tile": false,
-    "water_control": false,
+    "large_tile": true,
+    "water_control": true,
     "stand": false
    },
-   "image": "https://m.media-amazon.com/images/I/51lYs+jVLvL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B003HIWR08?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B003HIWR08"
+   "image": "https://m.media-amazon.com/images/I/61wGASYvbIL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00J21SL6S?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B00J21SL6S"
   },
   {
    "rank": 7,
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1290,
-   "score": 73,
+   "score": 80,
    "award": null,
    "best_for": "Notches, installed tile, granite and countertops.",
    "bought_last_month": null,
@@ -322,75 +322,34 @@
   },
   {
    "rank": 8,
-   "asin": "B09FCW88FH",
-   "name": "Makita XCC01Z 18V LXT Brushless Cordless 5\" Wet/Dry Masonry Saw, Tool Only",
-   "brand": "Makita",
-   "model": "XCC01Z",
-   "price": 284.0,
+   "asin": "B003HIWR08",
+   "name": "SKIL 7-Inch Wet Tile Saw (3540-02)",
+   "brand": "SKIL",
+   "model": "3540-02",
+   "price": 109.0,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 169,
-   "score": 70,
-   "award": null,
-   "best_for": "Pros cutting masonry and tile with no cord or hose to the wall.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A cordless brushless masonry saw with a built-in adjustable water feed for OSHA Table 1 dust compliance, automatic speed change and an electric brake.",
-   "pros": [
-    "Cordless, brushless",
-    "Integrated water feed",
-    "1-9/16-in depth, electric brake"
-   ],
-   "cons": [
-    "Tool only",
-    "$284"
-   ],
-   "specs": {
-    "type": "Cordless handheld wet/dry",
-    "blade": "5 in",
-    "capacity": "1-9/16 in depth at 90°",
-    "motor": "Brushless, 18V LXT",
-    "extras": "Water feed, electric brake, AWS capable"
-   },
-   "features": {
-    "sliding": false,
-    "large_tile": true,
-    "water_control": true,
-    "stand": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61899DtSUlL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09FCW88FH?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B09FCW88FH"
-  },
-  {
-   "rank": 9,
-   "asin": "B07C21VL9J",
-   "name": "Leegol Electric 7in. Wet Tile Saw",
-   "brand": "Leegol Electric",
-   "model": "Wet tile saw 1",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 1051,
-   "score": 64,
-   "award": null,
-   "best_for": "An alternative when the SKIL is out of stock.",
+   "reviews_count": 6508,
+   "score": 75,
+   "award": "Best Overall",
+   "best_for": "Bathrooms, backsplashes and 12-inch floor tile.",
    "bought_last_month": null,
-   "verdict": "A 7-inch tabletop with an induction motor, a rip fence, a miter gauge and 0-45° bevels.",
+   "verdict": "The most-reviewed tile saw here by a wide margin: a 7-inch tabletop with a corrosion-resistant stainless steel top, a rip fence and miter gauge, a water reservoir and 0-45° bevels, for about $109.",
    "pros": [
-    "Induction motor",
-    "Rip fence and miter gauge",
-    "1,051 reviews"
+    "6,508 reviews at 4.4 stars",
+    "Stainless steel top",
+    "Rip fence, miter gauge, 45° bevel"
    ],
    "cons": [
-    "4.1 stars, lowest here",
-    "Capacity not listed"
+    "12 x 12-in tile max",
+    "Water splashes without containment"
    ],
    "specs": {
     "type": "7 in tabletop",
     "blade": "7 in",
-    "capacity": null,
-    "motor": "Induction, 3,550 rpm",
-    "extras": "Rip fence, miter gauge, bevels 45°"
+    "capacity": "12 x 12 in tile; 7.75 in crosscut",
+    "motor": null,
+    "extras": "Stainless steel top, rip fence, miter gauge, bevels 45°"
    },
    "features": {
     "sliding": false,
@@ -398,12 +357,12 @@
     "water_control": false,
     "stand": false
    },
-   "image": "https://m.media-amazon.com/images/I/61MOyIPJPmS._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07C21VL9J?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B07C21VL9J"
+   "image": "https://m.media-amazon.com/images/I/51lYs+jVLvL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B003HIWR08?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B003HIWR08"
   },
   {
-   "rank": 10,
+   "rank": 9,
    "asin": "B0HGC6L2CD",
    "name": "VEVOR Wet Tile Saw 7 Inch, 3600 RPM (TC180)",
    "brand": "VEVOR",
@@ -412,7 +371,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 106,
-   "score": 59,
+   "score": 73,
    "award": "Best Budget",
    "best_for": "One small tiling job on a budget.",
    "bought_last_month": null,
@@ -442,6 +401,47 @@
    "image": "https://m.media-amazon.com/images/I/71WPLEGeu0L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0HGC6L2CD?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B0HGC6L2CD"
+  },
+  {
+   "rank": 10,
+   "asin": "B07C21VL9J",
+   "name": "Leegol Electric 7in. Wet Tile Saw",
+   "brand": "Leegol Electric",
+   "model": "Wet tile saw 1",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 1051,
+   "score": 72,
+   "award": null,
+   "best_for": "An alternative when the SKIL is out of stock.",
+   "bought_last_month": null,
+   "verdict": "A 7-inch tabletop with an induction motor, a rip fence, a miter gauge and 0-45° bevels.",
+   "pros": [
+    "Induction motor",
+    "Rip fence and miter gauge",
+    "1,051 reviews"
+   ],
+   "cons": [
+    "4.1 stars, lowest here",
+    "Capacity not listed"
+   ],
+   "specs": {
+    "type": "7 in tabletop",
+    "blade": "7 in",
+    "capacity": null,
+    "motor": "Induction, 3,550 rpm",
+    "extras": "Rip fence, miter gauge, bevels 45°"
+   },
+   "features": {
+    "sliding": false,
+    "large_tile": false,
+    "water_control": false,
+    "stand": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61MOyIPJPmS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07C21VL9J?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wet-tile-saws.html#B07C21VL9J"
   }
  ],
  "avoid": [

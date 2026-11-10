@@ -22,7 +22,7 @@
    "bearings": 0.25,
    "fence": 0.2
   },
-  "reviews_ceiling": 1500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 140,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,47 +35,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B0BK2V91VW",
-   "name": "WEN 9-Inch Band Saw, 2.8-Amp Benchtop (BA3959)",
-   "brand": "WEN",
-   "model": "BA3959",
-   "price": 139.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1410,
-   "score": 83,
-   "award": "Best Budget",
-   "best_for": "A first band saw for curves and crafts.",
-   "bought_last_month": "700+/mo",
-   "verdict": "The best-selling and most-reviewed band saw here: a 9-inch with 3-1/2 inches of cut depth, a rip fence, a miter gauge, a 2-1/2-inch dust port and an adjustable blade guard, for about $139.",
-   "pros": [
-    "700+ sold last month; 1,410 reviews",
-    "Rip fence and miter gauge included",
-    "$139"
-   ],
-   "cons": [
-    "Single speed",
-    "3-1/2-in depth"
-   ],
-   "specs": {
-    "size": "9 in benchtop",
-    "depth": "3-1/2 in",
-    "motor": "2.8 A",
-    "speed": "2,500 ft/min",
-    "table": "12-1/4 x 11-7/8 in, bevels 45°"
-   },
-   "features": {
-    "two_speed": false,
-    "resaw": false,
-    "bearings": true,
-    "fence": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71rRaYb61fL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BK2V91VW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/band-saws.html#B0BK2V91VW"
-  },
-  {
-   "rank": 2,
    "asin": "B09X1ZD8MH",
    "name": "WEN Band Saw with Stand, 10-Inch, 3.5-Amp, Two-Speed (BA3962)",
    "brand": "WEN",
@@ -84,7 +43,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 362,
-   "score": 83,
+   "score": 90,
    "award": null,
    "best_for": "Resawing up to 6 inches without stepping up to a 14-inch saw.",
    "bought_last_month": "50+/mo",
@@ -116,6 +75,47 @@
    "page_url": "https://toolboxtop10.com/band-saws.html#B09X1ZD8MH"
   },
   {
+   "rank": 2,
+   "asin": "B0DG5DMWWX",
+   "name": "QD-KYOHO 10-Inch Bandsaw, 1515 & 3280 FPM Dual-Speed, 1/2 HP, 5.3-Amp, Double-Sided Fence",
+   "brand": "QD-KYOHO",
+   "model": "10 in",
+   "price": 469.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 91,
+   "score": 86,
+   "award": null,
+   "best_for": "Wood and light metal in a mid-size saw.",
+   "bought_last_month": null,
+   "verdict": "A 10-inch with a big 20.5 x 17.5-inch table, a low speed for metal and a high speed for wood, 4-3/4 inches of depth and a fence usable from either side.",
+   "pros": [
+    "Two speeds for wood and metal",
+    "4-3/4-in depth",
+    "Double-sided fence"
+   ],
+   "cons": [
+    "$469",
+    "Reviews shared across models"
+   ],
+   "specs": {
+    "size": "10 in",
+    "depth": "4-3/4 in",
+    "motor": "5.3 A, 1/2 HP",
+    "speed": "1,515 / 3,280 ft/min",
+    "table": "20.5 x 17.5 in"
+   },
+   "features": {
+    "two_speed": true,
+    "resaw": true,
+    "bearings": false,
+    "fence": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71dv-RSjXfL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DG5DMWWX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/band-saws.html#B0DG5DMWWX"
+  },
+  {
    "rank": 3,
    "asin": "B0FMJJJDRC",
    "name": "WOODSKIL 10-Inch Benchtop Bandsaw with Stand, 3.4A Dual-Speed",
@@ -125,7 +125,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 521,
-   "score": 82,
+   "score": 85,
    "award": null,
    "best_for": "A stand-mounted 10-inch with good blade guidance.",
    "bought_last_month": null,
@@ -158,47 +158,6 @@
   },
   {
    "rank": 4,
-   "asin": "B0DG5DMWWX",
-   "name": "QD-KYOHO 10-Inch Bandsaw, 1515 & 3280 FPM Dual-Speed, 1/2 HP, 5.3-Amp, Double-Sided Fence",
-   "brand": "QD-KYOHO",
-   "model": "10 in",
-   "price": 469.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 91,
-   "score": 78,
-   "award": null,
-   "best_for": "Wood and light metal in a mid-size saw.",
-   "bought_last_month": null,
-   "verdict": "A 10-inch with a big 20.5 x 17.5-inch table, a low speed for metal and a high speed for wood, 4-3/4 inches of depth and a fence usable from either side.",
-   "pros": [
-    "Two speeds for wood and metal",
-    "4-3/4-in depth",
-    "Double-sided fence"
-   ],
-   "cons": [
-    "$469",
-    "Reviews shared across models"
-   ],
-   "specs": {
-    "size": "10 in",
-    "depth": "4-3/4 in",
-    "motor": "5.3 A, 1/2 HP",
-    "speed": "1,515 / 3,280 ft/min",
-    "table": "20.5 x 17.5 in"
-   },
-   "features": {
-    "two_speed": true,
-    "resaw": true,
-    "bearings": false,
-    "fence": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71dv-RSjXfL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DG5DMWWX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/band-saws.html#B0DG5DMWWX"
-  },
-  {
-   "rank": 5,
    "asin": "B0BFR2BJQP",
    "name": "SKIL 2.8 Amp 9 In. 2-Speed Benchtop Band Saw for Woodworking (BW9501-00)",
    "brand": "SKIL",
@@ -207,7 +166,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 307,
-   "score": 77,
+   "score": 85,
    "award": "Best Overall",
    "best_for": "A benchtop saw that's easy to set up and keep in tune.",
    "bought_last_month": "200+/mo",
@@ -239,6 +198,47 @@
    "page_url": "https://toolboxtop10.com/band-saws.html#B0BFR2BJQP"
   },
   {
+   "rank": 5,
+   "asin": "B0BK2V91VW",
+   "name": "WEN 9-Inch Band Saw, 2.8-Amp Benchtop (BA3959)",
+   "brand": "WEN",
+   "model": "BA3959",
+   "price": 139.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1410,
+   "score": 84,
+   "award": "Best Budget",
+   "best_for": "A first band saw for curves and crafts.",
+   "bought_last_month": "700+/mo",
+   "verdict": "The best-selling and most-reviewed band saw here: a 9-inch with 3-1/2 inches of cut depth, a rip fence, a miter gauge, a 2-1/2-inch dust port and an adjustable blade guard, for about $139.",
+   "pros": [
+    "700+ sold last month; 1,410 reviews",
+    "Rip fence and miter gauge included",
+    "$139"
+   ],
+   "cons": [
+    "Single speed",
+    "3-1/2-in depth"
+   ],
+   "specs": {
+    "size": "9 in benchtop",
+    "depth": "3-1/2 in",
+    "motor": "2.8 A",
+    "speed": "2,500 ft/min",
+    "table": "12-1/4 x 11-7/8 in, bevels 45°"
+   },
+   "features": {
+    "two_speed": false,
+    "resaw": false,
+    "bearings": true,
+    "fence": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71rRaYb61fL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BK2V91VW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/band-saws.html#B0BK2V91VW"
+  },
+  {
    "rank": 6,
    "asin": "B07H1BBC6Z",
    "name": "JET 14\" Woodworking Band Saw, 1.75 HP, 13\" Deep-Cut Resaw Capacity",
@@ -248,7 +248,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 195,
-   "score": 75,
+   "score": 84,
    "award": "Money No Object",
    "best_for": "Resawing veneer and wide boards in a home or small production shop.",
    "bought_last_month": null,
@@ -289,7 +289,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 66,
-   "score": 73,
+   "score": 81,
    "award": null,
    "best_for": "Resawing on a budget for a 14-inch.",
    "bought_last_month": null,
@@ -330,7 +330,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 521,
-   "score": 70,
+   "score": 75,
    "award": null,
    "best_for": "A sturdy 9-inch with a miter gauge.",
    "bought_last_month": "50+/mo",
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 70,
-   "score": 61,
+   "score": 69,
    "award": null,
    "best_for": "A compact JET for small shops.",
    "bought_last_month": null,
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 45,
-   "score": 61,
+   "score": 68,
    "award": null,
    "best_for": "More resaw height on a benchtop budget.",
    "bought_last_month": null,

@@ -22,7 +22,7 @@
    "strong_motor": 0.3,
    "wide_swath": 0.25
   },
-  "reviews_ceiling": 16000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 45,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -77,90 +77,6 @@
   },
   {
    "rank": 2,
-   "asin": "B078YYPWLY",
-   "name": "BLACK+DECKER 3-in-1 Corded String Trimmer, Edger and Mower Combo, 12-Inch, 6.5 Amp (BESTA512CM)",
-   "brand": "BLACK+DECKER",
-   "model": "BESTA512CM",
-   "price": 89.0,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 9756,
-   "score": 85,
-   "award": "Money No Object",
-   "best_for": "Small lawns, patios and townhouse yards where a full mower is overkill.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A 6.5-amp trimmer that clips into a 12-inch mower deck, so one tool trims, edges and mows a very small lawn. It has 9,756 reviews at 4.1 stars and costs $89.00.",
-   "pros": [
-    "Trims, edges and mows",
-    "9,756 reviews; 400+ sold last month",
-    "Automatic line feed",
-    "6.5-amp motor"
-   ],
-   "cons": [
-    "12-inch cut is narrow for mowing",
-    "9.9 lb with the deck attached"
-   ],
-   "specs": {
-    "swath": "12 in",
-    "motor": "6.5 A",
-    "line": "Automatic feed spool",
-    "weight": "9.9 lb with deck",
-    "extras": "Detachable mower deck; edger"
-   },
-   "features": {
-    "auto_feed": true,
-    "edger": true,
-    "strong_motor": true,
-    "wide_swath": false
-   },
-   "image": "https://m.media-amazon.com/images/I/615-2sQCWBL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B078YYPWLY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-string-trimmers.html#B078YYPWLY"
-  },
-  {
-   "rank": 3,
-   "asin": "B01MUDO55B",
-   "name": "BLACK+DECKER 13-Inch Corded String Trimmer/Edger, 5 Amp (ST8600)",
-   "brand": "BLACK+DECKER",
-   "model": "ST8600",
-   "price": 59.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 5126,
-   "score": 85,
-   "award": null,
-   "best_for": "Buyers who want a lighter BLACK+DECKER trimmer-edger.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A 5-amp trimmer-edger with 5,126 reviews at 4.4 stars, the same rating as the BESTA510. It is about a pound lighter but has a smaller motor and a 13-inch swath, and at $59.00 it costs $6 more.",
-   "pros": [
-    "5,126 reviews at 4.4 stars",
-    "Automatic line feed",
-    "Converts to a wheeled edger",
-    "5.4 lb"
-   ],
-   "cons": [
-    "5 amps vs 6.5 on the BESTA510",
-    "Costs more than the BESTA510"
-   ],
-   "specs": {
-    "swath": "13 in",
-    "motor": "5 A",
-    "line": "Automatic feed spool",
-    "weight": "5.4 lb",
-    "extras": "Rotates to a wheeled edger"
-   },
-   "features": {
-    "auto_feed": true,
-    "edger": true,
-    "strong_motor": true,
-    "wide_swath": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41ZaK1N2LNL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01MUDO55B?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-string-trimmers.html#B01MUDO55B"
-  },
-  {
-   "rank": 4,
    "asin": "B08BHMM8V3",
    "name": "BLACK+DECKER 14-Inch Corded String Trimmer with EASYFEED, 6.5 Amp (BESTE620)",
    "brand": "BLACK+DECKER",
@@ -169,7 +85,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 1180,
-   "score": 83,
+   "score": 93,
    "award": null,
    "best_for": "People who want to control when line feeds out.",
    "bought_last_month": "100+/mo",
@@ -202,7 +118,7 @@
    "page_url": "https://toolboxtop10.com/corded-string-trimmers.html#B08BHMM8V3"
   },
   {
-   "rank": 5,
+   "rank": 3,
    "asin": "B00GRL9UTS",
    "name": "WORX 15-Inch 2-in-1 Corded String Trimmer and Lawn Edger, 5.5 Amp (WG119)",
    "brand": "WORX",
@@ -211,7 +127,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 988,
-   "score": 81,
+   "score": 91,
    "award": null,
    "best_for": "Larger yards and slopes where a wide cut saves passes.",
    "bought_last_month": null,
@@ -244,7 +160,7 @@
    "page_url": "https://toolboxtop10.com/corded-string-trimmers.html#B00GRL9UTS"
   },
   {
-   "rank": 6,
+   "rank": 4,
    "asin": "B083WPHY59",
    "name": "CRAFTSMAN WEEDWACKER 14-Inch Corded String Trimmer/Edger, 6.5 Amp (CMEST913)",
    "brand": "CRAFTSMAN",
@@ -253,7 +169,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 519,
-   "score": 79,
+   "score": 91,
    "award": null,
    "best_for": "CRAFTSMAN owners and taller users who want an adjustable pole.",
    "bought_last_month": "50+/mo",
@@ -286,6 +202,90 @@
    "page_url": "https://toolboxtop10.com/corded-string-trimmers.html#B083WPHY59"
   },
   {
+   "rank": 5,
+   "asin": "B01MUDO55B",
+   "name": "BLACK+DECKER 13-Inch Corded String Trimmer/Edger, 5 Amp (ST8600)",
+   "brand": "BLACK+DECKER",
+   "model": "ST8600",
+   "price": 59.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 5126,
+   "score": 90,
+   "award": null,
+   "best_for": "Buyers who want a lighter BLACK+DECKER trimmer-edger.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A 5-amp trimmer-edger with 5,126 reviews at 4.4 stars, the same rating as the BESTA510. It is about a pound lighter but has a smaller motor and a 13-inch swath, and at $59.00 it costs $6 more.",
+   "pros": [
+    "5,126 reviews at 4.4 stars",
+    "Automatic line feed",
+    "Converts to a wheeled edger",
+    "5.4 lb"
+   ],
+   "cons": [
+    "5 amps vs 6.5 on the BESTA510",
+    "Costs more than the BESTA510"
+   ],
+   "specs": {
+    "swath": "13 in",
+    "motor": "5 A",
+    "line": "Automatic feed spool",
+    "weight": "5.4 lb",
+    "extras": "Rotates to a wheeled edger"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": true,
+    "strong_motor": true,
+    "wide_swath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41ZaK1N2LNL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01MUDO55B?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-string-trimmers.html#B01MUDO55B"
+  },
+  {
+   "rank": 6,
+   "asin": "B078YYPWLY",
+   "name": "BLACK+DECKER 3-in-1 Corded String Trimmer, Edger and Mower Combo, 12-Inch, 6.5 Amp (BESTA512CM)",
+   "brand": "BLACK+DECKER",
+   "model": "BESTA512CM",
+   "price": 89.0,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 9756,
+   "score": 87,
+   "award": "Money No Object",
+   "best_for": "Small lawns, patios and townhouse yards where a full mower is overkill.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A 6.5-amp trimmer that clips into a 12-inch mower deck, so one tool trims, edges and mows a very small lawn. It has 9,756 reviews at 4.1 stars and costs $89.00.",
+   "pros": [
+    "Trims, edges and mows",
+    "9,756 reviews; 400+ sold last month",
+    "Automatic line feed",
+    "6.5-amp motor"
+   ],
+   "cons": [
+    "12-inch cut is narrow for mowing",
+    "9.9 lb with the deck attached"
+   ],
+   "specs": {
+    "swath": "12 in",
+    "motor": "6.5 A",
+    "line": "Automatic feed spool",
+    "weight": "9.9 lb with deck",
+    "extras": "Detachable mower deck; edger"
+   },
+   "features": {
+    "auto_feed": true,
+    "edger": true,
+    "strong_motor": true,
+    "wide_swath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/615-2sQCWBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B078YYPWLY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-string-trimmers.html#B078YYPWLY"
+  },
+  {
    "rank": 7,
    "asin": "B017D4TNOY",
    "name": "Sun Joe 13-Inch Corded Electric Grass Trimmer and Edger with Telescoping Pole, 4 Amp (TRJ13STE)",
@@ -295,7 +295,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 2136,
-   "score": 73,
+   "score": 80,
    "award": null,
    "best_for": "Tall users and gardens with beds to protect.",
    "bought_last_month": null,
@@ -337,7 +337,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1277,
-   "score": 69,
+   "score": 79,
    "award": null,
    "best_for": "Post-mow touch-ups where light weight matters most.",
    "bought_last_month": null,
@@ -379,7 +379,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 745,
-   "score": 68,
+   "score": 79,
    "award": "Best Budget",
    "best_for": "Light trimming around a small lawn on a tight budget.",
    "bought_last_month": "100+/mo",
@@ -422,7 +422,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 113,
-   "score": 59,
+   "score": 74,
    "award": null,
    "best_for": "Shorter users and small patios or fence lines.",
    "bought_last_month": "50+/mo",

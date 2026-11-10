@@ -22,7 +22,7 @@
    "one_hand": 0.25,
    "sheath": 0.2
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 10037,
-   "score": 92,
+   "score": 93,
    "award": "Best Overall",
    "best_for": "A first Leatherman or a gift.",
    "bought_last_month": "2K+/mo",
@@ -74,6 +74,46 @@
   },
   {
    "rank": 2,
+   "asin": "B079MJ6MLV",
+   "name": "LEATHERMAN Wave Plus 18-in-1 Multi-Tool, Black",
+   "brand": "Leatherman",
+   "model": "Wave+ (832533)",
+   "price": 103.95,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 4664,
+   "score": 93,
+   "award": "Money No Object",
+   "best_for": "Anyone who wants one multi-tool that does everything and lasts decades.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "Leatherman's best-selling all-rounder: 18 tools with blades you can open one-handed from the outside, replaceable wire cutters, spring scissors, locking tools and a 25-year warranty.",
+   "pros": [
+    "25-year warranty",
+    "Blades open from outside",
+    "Replaceable wire cutters"
+   ],
+   "cons": [
+    "Expensive",
+    "No sheath listed"
+   ],
+   "specs": {
+    "tools": "18",
+    "size": null,
+    "warranty": "25 years",
+    "extras": "Outside-accessible blades, replaceable wire cutters, spring-action scissors"
+   },
+   "features": {
+    "long_warranty": true,
+    "locking": true,
+    "one_hand": true,
+    "sheath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61mYFLynAHL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B079MJ6MLV?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multitools.html#B079MJ6MLV"
+  },
+  {
+   "rank": 3,
    "asin": "B082VBWGTZ",
    "name": "WETOLS 21-in-1 Multitool with Pocket Knife, Pliers and Pouch",
    "brand": "WETOLS",
@@ -113,127 +153,7 @@
    "page_url": "https://toolboxtop10.com/multitools.html#B082VBWGTZ"
   },
   {
-   "rank": 3,
-   "asin": "B079MJ6MLV",
-   "name": "LEATHERMAN Wave Plus 18-in-1 Multi-Tool, Black",
-   "brand": "Leatherman",
-   "model": "Wave+ (832533)",
-   "price": 103.95,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 4664,
-   "score": 89,
-   "award": "Money No Object",
-   "best_for": "Anyone who wants one multi-tool that does everything and lasts decades.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "Leatherman's best-selling all-rounder: 18 tools with blades you can open one-handed from the outside, replaceable wire cutters, spring scissors, locking tools and a 25-year warranty.",
-   "pros": [
-    "25-year warranty",
-    "Blades open from outside",
-    "Replaceable wire cutters"
-   ],
-   "cons": [
-    "Expensive",
-    "No sheath listed"
-   ],
-   "specs": {
-    "tools": "18",
-    "size": null,
-    "warranty": "25 years",
-    "extras": "Outside-accessible blades, replaceable wire cutters, spring-action scissors"
-   },
-   "features": {
-    "long_warranty": true,
-    "locking": true,
-    "one_hand": true,
-    "sheath": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61mYFLynAHL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B079MJ6MLV?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multitools.html#B079MJ6MLV"
-  },
-  {
    "rank": 4,
-   "asin": "B000VORS1E",
-   "name": "Gerber Multi-Plier 600 14-in-1 Multitool with Sheath",
-   "brand": "Gerber",
-   "model": "47550N",
-   "price": 79.93,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 8398,
-   "score": 88,
-   "award": null,
-   "best_for": "Anyone who uses the pliers most and wants them out fast.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A classic Gerber whose pliers slide out with one hand, with Saf.T.Plus locking tools and a sheath, popular with tradespeople and hunters.",
-   "pros": [
-    "One-hand slide-out pliers",
-    "Locking tools",
-    "Sheath included"
-   ],
-   "cons": [
-    "8 oz",
-    "No warranty listed"
-   ],
-   "specs": {
-    "tools": "14",
-    "size": "8 oz",
-    "warranty": null,
-    "extras": "One-hand slide-out pliers, Saf.T.Plus locking, sheath"
-   },
-   "features": {
-    "long_warranty": false,
-    "locking": true,
-    "one_hand": true,
-    "sheath": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71DQ8lSSJjL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000VORS1E?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multitools.html#B000VORS1E"
-  },
-  {
-   "rank": 5,
-   "asin": "B084VJFX9M",
-   "name": "MOSSY OAK 21-in-1 Multitool, Stainless Steel Pliers with Pocket Knife and Pouch",
-   "brand": "Mossy Oak",
-   "model": "MO19012",
-   "price": 26.57,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 8200,
-   "score": 84,
-   "award": null,
-   "best_for": "A cheap, well-equipped gift or glovebox tool.",
-   "bought_last_month": "900+/mo",
-   "verdict": "A budget multi-tool with 21 functions, including a saw, leather punch and an 8-piece bit set, self-locking tools and a pouch with a pocket for bits.",
-   "pros": [
-    "8,200 reviews; 4.7 stars",
-    "Bit set and saw",
-    "Self-locking tools"
-   ],
-   "cons": [
-    "Heavy at about 1 lb",
-    "No warranty listed"
-   ],
-   "specs": {
-    "tools": "21 (includes 8-in-1 bit set)",
-    "size": "4 x 1.8 x 0.8 in folded, 454 g",
-    "warranty": null,
-    "extras": "Self-locking tools, leather punch, saw, pouch with bit pocket"
-   },
-   "features": {
-    "long_warranty": false,
-    "locking": true,
-    "one_hand": false,
-    "sheath": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71d79lQk6kL._AC_SL1315_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B084VJFX9M?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multitools.html#B084VJFX9M"
-  },
-  {
-   "rank": 6,
    "asin": "B09YLPWXTX",
    "name": "PERWIN 17-in-1 Stainless Steel Multitool Pliers with Self-Locking, Pocket Knife, Nylon Sheath",
    "brand": "PERWIN",
@@ -242,7 +162,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1784,
-   "score": 84,
+   "score": 91,
    "award": null,
    "best_for": "A budget all-rounder with a sheath.",
    "bought_last_month": "2K+/mo",
@@ -273,7 +193,166 @@
    "page_url": "https://toolboxtop10.com/multitools.html#B09YLPWXTX"
   },
   {
+   "rank": 5,
+   "asin": "B000VORS1E",
+   "name": "Gerber Multi-Plier 600 14-in-1 Multitool with Sheath",
+   "brand": "Gerber",
+   "model": "47550N",
+   "price": 79.93,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 8398,
+   "score": 90,
+   "award": null,
+   "best_for": "Anyone who uses the pliers most and wants them out fast.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A classic Gerber whose pliers slide out with one hand, with Saf.T.Plus locking tools and a sheath, popular with tradespeople and hunters.",
+   "pros": [
+    "One-hand slide-out pliers",
+    "Locking tools",
+    "Sheath included"
+   ],
+   "cons": [
+    "8 oz",
+    "No warranty listed"
+   ],
+   "specs": {
+    "tools": "14",
+    "size": "8 oz",
+    "warranty": null,
+    "extras": "One-hand slide-out pliers, Saf.T.Plus locking, sheath"
+   },
+   "features": {
+    "long_warranty": false,
+    "locking": true,
+    "one_hand": true,
+    "sheath": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71DQ8lSSJjL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000VORS1E?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multitools.html#B000VORS1E"
+  },
+  {
+   "rank": 6,
+   "asin": "B084VJFX9M",
+   "name": "MOSSY OAK 21-in-1 Multitool, Stainless Steel Pliers with Pocket Knife and Pouch",
+   "brand": "Mossy Oak",
+   "model": "MO19012",
+   "price": 26.57,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 8200,
+   "score": 86,
+   "award": null,
+   "best_for": "A cheap, well-equipped gift or glovebox tool.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A budget multi-tool with 21 functions, including a saw, leather punch and an 8-piece bit set, self-locking tools and a pouch with a pocket for bits.",
+   "pros": [
+    "8,200 reviews; 4.7 stars",
+    "Bit set and saw",
+    "Self-locking tools"
+   ],
+   "cons": [
+    "Heavy at about 1 lb",
+    "No warranty listed"
+   ],
+   "specs": {
+    "tools": "21 (includes 8-in-1 bit set)",
+    "size": "4 x 1.8 x 0.8 in folded, 454 g",
+    "warranty": null,
+    "extras": "Self-locking tools, leather punch, saw, pouch with bit pocket"
+   },
+   "features": {
+    "long_warranty": false,
+    "locking": true,
+    "one_hand": false,
+    "sheath": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71d79lQk6kL._AC_SL1315_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B084VJFX9M?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multitools.html#B084VJFX9M"
+  },
+  {
    "rank": 7,
+   "asin": "B000059GTH",
+   "name": "LEATHERMAN Skeletool CX 7-in-1 Lightweight EDC Multi-Tool, Onyx",
+   "brand": "Leatherman",
+   "model": "Skeletool CX (70101003)",
+   "price": 79.95,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 3367,
+   "score": 82,
+   "award": null,
+   "best_for": "Everyday carry when a full multi-tool is too bulky.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A stripped-down Leatherman that's really a pocketknife with pliers, a bit driver and a bottle opener, for people who carry it every day.",
+   "pros": [
+    "Light and slim",
+    "25-year warranty",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 7 tools",
+    "Expensive for its size"
+   ],
+   "specs": {
+    "tools": "7",
+    "size": null,
+    "warranty": "25 years",
+    "extras": "Pocketknife-style blade, bit driver, carabiner/bottle opener"
+   },
+   "features": {
+    "long_warranty": true,
+    "locking": false,
+    "one_hand": false,
+    "sheath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61RxGdFswJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000059GTH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multitools.html#B000059GTH"
+  },
+  {
+   "rank": 8,
+   "asin": "B077LYXB6B",
+   "name": "SOG PowerPint Mini Compact Stainless Steel Multi-Tool, 18 Tools, Stone Wash",
+   "brand": "SOG",
+   "model": "PP1001-CP",
+   "price": 35.98,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2042,
+   "score": 82,
+   "award": null,
+   "best_for": "A small tool with stronger pliers than its size suggests.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A compact 4.2 oz tool with 18 functions and SOG's compound-leverage pliers, which the listing says double your grip force.",
+   "pros": [
+    "4.2 oz",
+    "Compound-leverage pliers",
+    "Limited lifetime warranty"
+   ],
+   "cons": [
+    "4.6 stars"
+   ],
+   "specs": {
+    "tools": "18",
+    "size": "3.2 in closed, 4.2 oz",
+    "warranty": "Limited lifetime",
+    "extras": "Compound-leverage pliers"
+   },
+   "features": {
+    "long_warranty": true,
+    "locking": false,
+    "one_hand": false,
+    "sheath": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61BROJKRJCL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B077LYXB6B?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multitools.html#B077LYXB6B"
+  },
+  {
+   "rank": 9,
    "asin": "B07DD69QN3",
    "name": "Gerber Suspension NXT 15-in-1 Multitool Pliers, Stainless Steel",
    "brand": "Gerber",
@@ -313,7 +392,7 @@
    "page_url": "https://toolboxtop10.com/multitools.html#B07DD69QN3"
   },
   {
-   "rank": 8,
+   "rank": 10,
    "asin": "B006M9NIDO",
    "name": "Gerber Dime 12-in-1 Mini Multitool Pliers, Pocket Knife, Bottle Opener, Black",
    "brand": "Gerber",
@@ -351,85 +430,6 @@
    "image": "https://m.media-amazon.com/images/I/61hPSrKsTZL._AC_SL1080_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B006M9NIDO?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/multitools.html#B006M9NIDO"
-  },
-  {
-   "rank": 9,
-   "asin": "B000059GTH",
-   "name": "LEATHERMAN Skeletool CX 7-in-1 Lightweight EDC Multi-Tool, Onyx",
-   "brand": "Leatherman",
-   "model": "Skeletool CX (70101003)",
-   "price": 79.95,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 3367,
-   "score": 77,
-   "award": null,
-   "best_for": "Everyday carry when a full multi-tool is too bulky.",
-   "bought_last_month": "900+/mo",
-   "verdict": "A stripped-down Leatherman that's really a pocketknife with pliers, a bit driver and a bottle opener, for people who carry it every day.",
-   "pros": [
-    "Light and slim",
-    "25-year warranty",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 7 tools",
-    "Expensive for its size"
-   ],
-   "specs": {
-    "tools": "7",
-    "size": null,
-    "warranty": "25 years",
-    "extras": "Pocketknife-style blade, bit driver, carabiner/bottle opener"
-   },
-   "features": {
-    "long_warranty": true,
-    "locking": false,
-    "one_hand": false,
-    "sheath": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61RxGdFswJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000059GTH?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multitools.html#B000059GTH"
-  },
-  {
-   "rank": 10,
-   "asin": "B077LYXB6B",
-   "name": "SOG PowerPint Mini Compact Stainless Steel Multi-Tool, 18 Tools, Stone Wash",
-   "brand": "SOG",
-   "model": "PP1001-CP",
-   "price": 35.98,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2042,
-   "score": 75,
-   "award": null,
-   "best_for": "A small tool with stronger pliers than its size suggests.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A compact 4.2 oz tool with 18 functions and SOG's compound-leverage pliers, which the listing says double your grip force.",
-   "pros": [
-    "4.2 oz",
-    "Compound-leverage pliers",
-    "Limited lifetime warranty"
-   ],
-   "cons": [
-    "4.6 stars"
-   ],
-   "specs": {
-    "tools": "18",
-    "size": "3.2 in closed, 4.2 oz",
-    "warranty": "Limited lifetime",
-    "extras": "Compound-leverage pliers"
-   },
-   "features": {
-    "long_warranty": true,
-    "locking": false,
-    "one_hand": false,
-    "sheath": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61BROJKRJCL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B077LYXB6B?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multitools.html#B077LYXB6B"
   }
  ],
  "avoid": [

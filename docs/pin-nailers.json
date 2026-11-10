@@ -23,14 +23,14 @@
    "depth_adjust": 0.15,
    "case": 0.15
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 55,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
   "best_overall": "B07K4YTZ4K",
-  "best_budget": "B00MBVFQFK",
+  "best_budget": "B0D95PXDY4",
   "money_no_object": "B0CRNKLMPW"
  },
  "products": [
@@ -44,7 +44,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 455,
-   "score": 89,
+   "score": 96,
    "award": "Best Overall",
    "best_for": "Furniture and cabinet makers who need longer pins in hardwood.",
    "bought_last_month": "100+/mo",
@@ -76,6 +76,47 @@
   },
   {
    "rank": 2,
+   "asin": "B07KXM64Q5",
+   "name": "Metabo HPT 23 Gauge Pin Nailer Kit with Aluminum Magazine (NP50A)",
+   "brand": "Metabo HPT",
+   "model": "NP50A",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 366,
+   "score": 86,
+   "award": null,
+   "best_for": "Pros who want adjustable depth and a lockout from a trusted brand.",
+   "bought_last_month": "50+/mo",
+   "verdict": "Metabo HPT's longer pinner kit with depth-of-drive adjustment, a trigger lock, a dry-fire lockout that stops it firing with 6 pins or fewer, and a case.",
+   "pros": [
+    "Dry-fire lockout",
+    "Depth adjustment",
+    "Case included"
+   ],
+   "cons": [
+    "Max pin length not listed",
+    "Needs oil"
+   ],
+   "specs": {
+    "pins": null,
+    "pressure": null,
+    "weight": null,
+    "extras": "Depth adjustment, trigger lock, dry-fire lockout, case, safety glasses"
+   },
+   "features": {
+    "long_pins": false,
+    "oil_free": false,
+    "dry_fire_lockout": true,
+    "depth_adjust": true,
+    "case": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61vPjoJI3GL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07KXM64Q5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pin-nailers.html#B07KXM64Q5"
+  },
+  {
+   "rank": 3,
    "asin": "B07LCGT4KW",
    "name": "Metabo HPT 23 Gauge Pneumatic Pin Nailer, Lightweight (NP35A)",
    "brand": "Metabo HPT",
@@ -116,48 +157,48 @@
    "page_url": "https://toolboxtop10.com/pin-nailers.html#B07LCGT4KW"
   },
   {
-   "rank": 3,
-   "asin": "B07KXM64Q5",
-   "name": "Metabo HPT 23 Gauge Pin Nailer Kit with Aluminum Magazine (NP50A)",
-   "brand": "Metabo HPT",
-   "model": "NP50A",
-   "price": 149.99,
+   "rank": 4,
+   "asin": "B0D95PXDY4",
+   "name": "KEENTECH 23 Gauge Pneumatic Pin Nailer with 2,160 1/2\" to 1-3/8\" Pins",
+   "brand": "KEENTECH",
+   "model": "KT-P635A",
+   "price": 52.99,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 366,
-   "score": 78,
-   "award": null,
-   "best_for": "Pros who want adjustable depth and a lockout from a trusted brand.",
-   "bought_last_month": "50+/mo",
-   "verdict": "Metabo HPT's longer pinner kit with depth-of-drive adjustment, a trigger lock, a dry-fire lockout that stops it firing with 6 pins or fewer, and a case.",
+   "rating": 4.4,
+   "reviews_count": 221,
+   "score": 81,
+   "award": "Best Budget",
+   "best_for": "First-time pinner buyers who want pins in the box.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A budget pinner that ships with 2,160 pins in three lengths, takes pins up to 1-3/8 inch, and comes with a 3-year replacement policy from the seller.",
    "pros": [
-    "Dry-fire lockout",
-    "Depth adjustment",
-    "Case included"
+    "2,160 pins included",
+    "Up to 1-3/8 in",
+    "3-year replacement"
    ],
    "cons": [
-    "Max pin length not listed",
-    "Needs oil"
+    "Unknown brand",
+    "4.4 stars"
    ],
    "specs": {
-    "pins": null,
-    "pressure": null,
-    "weight": null,
-    "extras": "Depth adjustment, trigger lock, dry-fire lockout, case, safety glasses"
+    "pins": "1/2 to 1-3/8 in",
+    "pressure": "60-120 PSI",
+    "weight": "2.3 lb",
+    "extras": "2,160 pins included, double safety trigger, 3-year replacement policy"
    },
    "features": {
-    "long_pins": false,
+    "long_pins": true,
     "oil_free": false,
-    "dry_fire_lockout": true,
-    "depth_adjust": true,
-    "case": true
+    "dry_fire_lockout": false,
+    "depth_adjust": false,
+    "case": false
    },
-   "image": "https://m.media-amazon.com/images/I/61vPjoJI3GL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07KXM64Q5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pin-nailers.html#B07KXM64Q5"
+   "image": "https://m.media-amazon.com/images/I/81SVcQUJG1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D95PXDY4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pin-nailers.html#B0D95PXDY4"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B00MBVFQFK",
    "name": "Arrow PT23G 23 Gauge Compact Pneumatic Pin Nailer, Oil-Free",
    "brand": "Arrow",
@@ -166,8 +207,8 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 1523,
-   "score": 77,
-   "award": "Best Budget",
+   "score": 79,
+   "award": null,
    "best_for": "Crafters and DIYers doing light trim.",
    "bought_last_month": "100+/mo",
    "verdict": "A compact, oil-free pinner for crafts, trim and hobby work, with an easy side-load magazine and a two-step safety trigger, rated 4.4 on 1,523 reviews.",
@@ -197,7 +238,7 @@
    "page_url": "https://toolboxtop10.com/pin-nailers.html#B00MBVFQFK"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0049ZBOUM",
    "name": "PORTER-CABLE 23-Gauge 1-3/8-Inch Pin Nailer (PIN138)",
    "brand": "PORTER-CABLE",
@@ -206,7 +247,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 664,
-   "score": 74,
+   "score": 79,
    "award": null,
    "best_for": "A brand-name pinner at a mid price.",
    "bought_last_month": null,
@@ -238,47 +279,6 @@
    "page_url": "https://toolboxtop10.com/pin-nailers.html#B0049ZBOUM"
   },
   {
-   "rank": 6,
-   "asin": "B0D95PXDY4",
-   "name": "KEENTECH 23 Gauge Pneumatic Pin Nailer with 2,160 1/2\" to 1-3/8\" Pins",
-   "brand": "KEENTECH",
-   "model": "KT-P635A",
-   "price": 52.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 221,
-   "score": 70,
-   "award": null,
-   "best_for": "First-time pinner buyers who want pins in the box.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A budget pinner that ships with 2,160 pins in three lengths, takes pins up to 1-3/8 inch, and comes with a 3-year replacement policy from the seller.",
-   "pros": [
-    "2,160 pins included",
-    "Up to 1-3/8 in",
-    "3-year replacement"
-   ],
-   "cons": [
-    "Unknown brand",
-    "4.4 stars"
-   ],
-   "specs": {
-    "pins": "1/2 to 1-3/8 in",
-    "pressure": "60-120 PSI",
-    "weight": "2.3 lb",
-    "extras": "2,160 pins included, double safety trigger, 3-year replacement policy"
-   },
-   "features": {
-    "long_pins": true,
-    "oil_free": false,
-    "dry_fire_lockout": false,
-    "depth_adjust": false,
-    "case": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81SVcQUJG1L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D95PXDY4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pin-nailers.html#B0D95PXDY4"
-  },
-  {
    "rank": 7,
    "asin": "B0G1413CPH",
    "name": "meite MP635B 23 Gauge Pneumatic Pin Nailer with 6,000 Pins (1/2\" to 1-3/8\")",
@@ -288,7 +288,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 60,
-   "score": 67,
+   "score": 76,
    "award": null,
    "best_for": "Starting out with a full assortment of pins.",
    "bought_last_month": null,
@@ -320,47 +320,6 @@
   },
   {
    "rank": 8,
-   "asin": "B0CRNKLMPW",
-   "name": "Grex P635L 23 Gauge Headless Pinner with Auto Lock-Out and Edge Guide",
-   "brand": "GREX",
-   "model": "P635L",
-   "price": 225.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 17,
-   "score": 65,
-   "award": "Money No Object",
-   "best_for": "Finish carpenters who pin all day.",
-   "bought_last_month": null,
-   "verdict": "A pro pinner from Grex with what it calls a proven 20-year design, an auto lock-out when pins run low and an on-board edge guide.",
-   "pros": [
-    "Auto lock-out",
-    "Edge guide",
-    "All-metal"
-   ],
-   "cons": [
-    "Expensive",
-    "Only 17 reviews"
-   ],
-   "specs": {
-    "pins": "Up to 1-3/8 in",
-    "pressure": null,
-    "weight": null,
-    "extras": "Auto lock-out with override, edge guide, narrow nose, all-metal"
-   },
-   "features": {
-    "long_pins": true,
-    "oil_free": false,
-    "dry_fire_lockout": true,
-    "depth_adjust": false,
-    "case": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61WFFSx2psL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CRNKLMPW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pin-nailers.html#B0CRNKLMPW"
-  },
-  {
-   "rank": 9,
    "asin": "B002EVPO7W",
    "name": "Freeman PP123 Pneumatic 23-Gauge 1\" Micro Pinner with Belt Hook",
    "brand": "Freeman",
@@ -369,7 +328,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 304,
-   "score": 64,
+   "score": 73,
    "award": null,
    "best_for": "Picture framing and small craft work.",
    "bought_last_month": null,
@@ -401,6 +360,47 @@
    "page_url": "https://toolboxtop10.com/pin-nailers.html#B002EVPO7W"
   },
   {
+   "rank": 9,
+   "asin": "B0CRNKLMPW",
+   "name": "Grex P635L 23 Gauge Headless Pinner with Auto Lock-Out and Edge Guide",
+   "brand": "GREX",
+   "model": "P635L",
+   "price": 225.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 17,
+   "score": 70,
+   "award": "Money No Object",
+   "best_for": "Finish carpenters who pin all day.",
+   "bought_last_month": null,
+   "verdict": "A pro pinner from Grex with what it calls a proven 20-year design, an auto lock-out when pins run low and an on-board edge guide.",
+   "pros": [
+    "Auto lock-out",
+    "Edge guide",
+    "All-metal"
+   ],
+   "cons": [
+    "Expensive",
+    "Only 17 reviews"
+   ],
+   "specs": {
+    "pins": "Up to 1-3/8 in",
+    "pressure": null,
+    "weight": null,
+    "extras": "Auto lock-out with override, edge guide, narrow nose, all-metal"
+   },
+   "features": {
+    "long_pins": true,
+    "oil_free": false,
+    "dry_fire_lockout": true,
+    "depth_adjust": false,
+    "case": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61WFFSx2psL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CRNKLMPW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pin-nailers.html#B0CRNKLMPW"
+  },
+  {
    "rank": 10,
    "asin": "B00XKX1OK4",
    "name": "meite P630C 23 Gauge Pneumatic Micro Pin Nailer, 3/8 to 1-3/16 in",
@@ -410,7 +410,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 92,
-   "score": 60,
+   "score": 69,
    "award": null,
    "best_for": "Crafts and small trim on a budget.",
    "bought_last_month": null,

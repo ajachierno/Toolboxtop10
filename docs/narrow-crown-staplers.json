@@ -23,7 +23,7 @@
    "dry_fire_lockout": 0.15,
    "no_mar_tip": 0.15
   },
-  "reviews_ceiling": 2000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 45,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -44,7 +44,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 839,
-   "score": 90,
+   "score": 94,
    "award": "Best Overall",
    "best_for": "Finish work where oil stains would ruin the job.",
    "bought_last_month": "100+/mo",
@@ -84,7 +84,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1465,
-   "score": 86,
+   "score": 87,
    "award": null,
    "best_for": "Trim carpenters and cabinet makers.",
    "bought_last_month": "300+/mo",
@@ -116,126 +116,6 @@
   },
   {
    "rank": 3,
-   "asin": "B08TBM7RCS",
-   "name": "WORKPRO 2-in-1 18 GA Pneumatic Brad Nailer and Stapler (W181004A)",
-   "brand": "WORKPRO",
-   "model": "W181004A",
-   "price": 40.84,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1741,
-   "score": 79,
-   "award": null,
-   "best_for": "DIYers who want one tool for brads and staples.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A 2-in-1 that fires both 18-gauge brads and narrow crown staples, with fasteners in the box, and 1,741 reviews.",
-   "pros": [
-    "Brads and staples",
-    "1,741 reviews",
-    "Fasteners included"
-   ],
-   "cons": [
-    "4.4 stars"
-   ],
-   "specs": {
-    "fasteners": "18 ga brads and 18 ga staples",
-    "power": "Pneumatic",
-    "trigger": null,
-    "extras": "Depth wheel, 400 brads and 300 staples included"
-   },
-   "features": {
-    "depth_adjust": true,
-    "selectable_trigger": false,
-    "case": false,
-    "dry_fire_lockout": false,
-    "no_mar_tip": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71KzOnldhhS._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08TBM7RCS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/narrow-crown-staplers.html#B08TBM7RCS"
-  },
-  {
-   "rank": 4,
-   "asin": "B015W10UAG",
-   "name": "3PLUS H9040SP 18 Gauge 1/4-Inch Narrow Crown Stapler",
-   "brand": "3PLUS",
-   "model": "H9040SP",
-   "price": 38.88,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 364,
-   "score": 77,
-   "award": "Best Budget",
-   "best_for": "DIY trim and cabinet backs on a budget.",
-   "bought_last_month": null,
-   "verdict": "A budget narrow crown stapler with a no-mar tip and a rotating exhaust, for under $40.",
-   "pros": [
-    "Under $40",
-    "No-mar tip",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 364 reviews"
-   ],
-   "specs": {
-    "fasteners": "18 ga, 1/4 in crown",
-    "power": "Pneumatic",
-    "trigger": null,
-    "extras": "No-mar tip, 360° exhaust, depth adjustment"
-   },
-   "features": {
-    "depth_adjust": true,
-    "selectable_trigger": false,
-    "case": false,
-    "dry_fire_lockout": false,
-    "no_mar_tip": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71AIzKZpiPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B015W10UAG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/narrow-crown-staplers.html#B015W10UAG"
-  },
-  {
-   "rank": 5,
-   "asin": "B0BFC2KGDR",
-   "name": "WEN 61722K 18-Gauge 2-in-1 Pneumatic Brad Nailer and 1/4-Inch Crown Stapler",
-   "brand": "WEN",
-   "model": "61722K",
-   "price": 41.79,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 317,
-   "score": 77,
-   "award": null,
-   "best_for": "DIYers who want a combo tool in a case.",
-   "bought_last_month": "50+/mo",
-   "verdict": "WEN's 2-in-1 brad nailer and stapler with a depth wheel and a fastener gauge, in a case.",
-   "pros": [
-    "Brads and staples",
-    "Case",
-    "Under $45"
-   ],
-   "cons": [
-    "Only 317 reviews"
-   ],
-   "specs": {
-    "fasteners": "18 ga brads 5/8 to 2 in; 1/4 in crown staples 5/8 to 1-5/8 in",
-    "power": "Pneumatic",
-    "trigger": null,
-    "extras": "Depth wheel, fastener gauge, rotating exhaust, case"
-   },
-   "features": {
-    "depth_adjust": true,
-    "selectable_trigger": false,
-    "case": true,
-    "dry_fire_lockout": false,
-    "no_mar_tip": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81SbppUShIL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BFC2KGDR?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/narrow-crown-staplers.html#B0BFC2KGDR"
-  },
-  {
-   "rank": 6,
    "asin": "B01M10EO3Q",
    "name": "Makita AT638A 1/4-Inch Narrow Crown Stapler, 18 Ga",
    "brand": "Makita",
@@ -244,7 +124,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 289,
-   "score": 77,
+   "score": 86,
    "award": null,
    "best_for": "Cabinet shops that want a pro stapler.",
    "bought_last_month": null,
@@ -276,6 +156,126 @@
    "page_url": "https://toolboxtop10.com/narrow-crown-staplers.html#B01M10EO3Q"
   },
   {
+   "rank": 4,
+   "asin": "B0BFC2KGDR",
+   "name": "WEN 61722K 18-Gauge 2-in-1 Pneumatic Brad Nailer and 1/4-Inch Crown Stapler",
+   "brand": "WEN",
+   "model": "61722K",
+   "price": 41.79,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 317,
+   "score": 85,
+   "award": null,
+   "best_for": "DIYers who want a combo tool in a case.",
+   "bought_last_month": "50+/mo",
+   "verdict": "WEN's 2-in-1 brad nailer and stapler with a depth wheel and a fastener gauge, in a case.",
+   "pros": [
+    "Brads and staples",
+    "Case",
+    "Under $45"
+   ],
+   "cons": [
+    "Only 317 reviews"
+   ],
+   "specs": {
+    "fasteners": "18 ga brads 5/8 to 2 in; 1/4 in crown staples 5/8 to 1-5/8 in",
+    "power": "Pneumatic",
+    "trigger": null,
+    "extras": "Depth wheel, fastener gauge, rotating exhaust, case"
+   },
+   "features": {
+    "depth_adjust": true,
+    "selectable_trigger": false,
+    "case": true,
+    "dry_fire_lockout": false,
+    "no_mar_tip": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81SbppUShIL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BFC2KGDR?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/narrow-crown-staplers.html#B0BFC2KGDR"
+  },
+  {
+   "rank": 5,
+   "asin": "B015W10UAG",
+   "name": "3PLUS H9040SP 18 Gauge 1/4-Inch Narrow Crown Stapler",
+   "brand": "3PLUS",
+   "model": "H9040SP",
+   "price": 38.88,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 364,
+   "score": 84,
+   "award": "Best Budget",
+   "best_for": "DIY trim and cabinet backs on a budget.",
+   "bought_last_month": null,
+   "verdict": "A budget narrow crown stapler with a no-mar tip and a rotating exhaust, for under $40.",
+   "pros": [
+    "Under $40",
+    "No-mar tip",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 364 reviews"
+   ],
+   "specs": {
+    "fasteners": "18 ga, 1/4 in crown",
+    "power": "Pneumatic",
+    "trigger": null,
+    "extras": "No-mar tip, 360° exhaust, depth adjustment"
+   },
+   "features": {
+    "depth_adjust": true,
+    "selectable_trigger": false,
+    "case": false,
+    "dry_fire_lockout": false,
+    "no_mar_tip": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71AIzKZpiPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B015W10UAG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/narrow-crown-staplers.html#B015W10UAG"
+  },
+  {
+   "rank": 6,
+   "asin": "B08TBM7RCS",
+   "name": "WORKPRO 2-in-1 18 GA Pneumatic Brad Nailer and Stapler (W181004A)",
+   "brand": "WORKPRO",
+   "model": "W181004A",
+   "price": 40.84,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1741,
+   "score": 80,
+   "award": null,
+   "best_for": "DIYers who want one tool for brads and staples.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A 2-in-1 that fires both 18-gauge brads and narrow crown staples, with fasteners in the box, and 1,741 reviews.",
+   "pros": [
+    "Brads and staples",
+    "1,741 reviews",
+    "Fasteners included"
+   ],
+   "cons": [
+    "4.4 stars"
+   ],
+   "specs": {
+    "fasteners": "18 ga brads and 18 ga staples",
+    "power": "Pneumatic",
+    "trigger": null,
+    "extras": "Depth wheel, 400 brads and 300 staples included"
+   },
+   "features": {
+    "depth_adjust": true,
+    "selectable_trigger": false,
+    "case": false,
+    "dry_fire_lockout": false,
+    "no_mar_tip": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71KzOnldhhS._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08TBM7RCS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/narrow-crown-staplers.html#B08TBM7RCS"
+  },
+  {
    "rank": 7,
    "asin": "B00VVFD99W",
    "name": "Freeman PST9040Q 18 Gauge Narrow Crown Stapler, 1/2 to 1-5/8 Inch",
@@ -285,7 +285,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 134,
-   "score": 70,
+   "score": 80,
    "award": null,
    "best_for": "Decorative trim, cabinet backing and crafts.",
    "bought_last_month": null,
@@ -324,7 +324,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 63,
-   "score": 70,
+   "score": 79,
    "award": null,
    "best_for": "Pros who prefer Senco.",
    "bought_last_month": null,
@@ -364,7 +364,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 357,
-   "score": 68,
+   "score": 76,
    "award": null,
    "best_for": "RYOBI ONE+ owners.",
    "bought_last_month": "100+/mo",
@@ -404,7 +404,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 94,
-   "score": 66,
+   "score": 75,
    "award": "Money No Object",
    "best_for": "CRAFTSMAN V20 owners doing punch-list and trim work.",
    "bought_last_month": null,

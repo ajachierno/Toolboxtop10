@@ -22,250 +22,19 @@
    "dado": 0.2,
    "soft_start": 0.2
   },
-  "reviews_ceiling": 6000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 300,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00F2CGXGG",
+  "best_overall": "B0FKHGHLZZ",
   "best_budget": "B0DHS4RHR8",
   "money_no_object": "B0CKS6G6TC"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B00F2CGXGG",
-   "name": "DEWALT 10-Inch Jobsite Table Saw with Foldable Rolling Stand, 15 Amp, 32-1/2-Inch Rip Capacity (DWE7491RS)",
-   "brand": "DEWALT",
-   "model": "DWE7491RS",
-   "price": 699.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 5812,
-   "score": 91,
-   "award": "Best Overall",
-   "best_for": "Ripping full plywood sheets, with a rolling stand included.",
-   "bought_last_month": "600+/mo",
-   "verdict": "The most-reviewed 10-inch jobsite saw on Amazon and the widest rip on this list at 32-1/2 inches, enough to split a 4x8 sheet down the middle. It comes on a folding rolling stand and is sold and shipped by Amazon.",
-   "pros": [
-    "32-1/2\" rip capacity with a telescoping rack and pinion fence",
-    "Rolling stand included; folds down for the truck",
-    "3-1/8\" depth of cut at 90 degrees, 2-1/4\" at 45",
-    "Onboard storage for the guard, fence, riving knife, miter gauge, and wrenches",
-    "3-year limited warranty"
-   ],
-   "cons": [
-    "At 110 lb listed with the stand, it's the heaviest saw here",
-    "The included blade is a 24-tooth ripping blade; plan on a finer blade for plywood",
-    "The listing doesn't mention a dado insert or soft start"
-   ],
-   "specs": {
-    "type": "Jobsite",
-    "power": "15 A",
-    "blade": "10\"",
-    "rip": "32-1/2\"",
-    "max_rpm": 4800,
-    "fence": "Rack & pinion",
-    "stand": "Rolling, included",
-    "weight": "110 lb"
-   },
-   "features": {
-    "stand": true,
-    "rack_pinion_fence": true,
-    "dado": false,
-    "soft_start": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71O6fCUHLZL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00F2CGXGG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B00F2CGXGG"
-  },
-  {
-   "rank": 2,
-   "asin": "B08F9RFJ2K",
-   "name": "SKIL 15 Amp 10-Inch Jobsite Table Saw with Folding Stand (TS6307-00)",
-   "brand": "SKIL",
-   "model": "TS6307-00",
-   "price": 299.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 3058,
-   "score": 89,
-   "award": null,
-   "best_for": "A 10-inch saw with a good fence and built-in legs for about $300.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "Amazon's #1 table saw right now: a 10-inch saw with rack and pinion fence rails and legs that fold into the body, for about half the price of the DEWALT. The rip is 7 inches shorter.",
-   "pros": [
-    "Rack and pinion fence rails keep the fence parallel to the blade",
-    "Integrated folding legs, so no separate stand to buy",
-    "Takes an 8\" dado stack up to 5/8\" wide (dado insert sold separately)",
-    "Cuts a 4x4 in one pass at 90 degrees",
-    "3-year limited warranty; sold and shipped by Amazon"
-   ],
-   "cons": [
-    "25-1/2\" rip is short of the DEWALT's 32-1/2\"",
-    "The listing doesn't say it has soft start",
-    "At $299 it sits right at our $300 budget line"
-   ],
-   "specs": {
-    "type": "Jobsite",
-    "power": "15 A",
-    "blade": "10\"",
-    "rip": "25-1/2\"",
-    "max_rpm": 4600,
-    "fence": "Rack & pinion",
-    "stand": "Folding, built in",
-    "weight": "51.2 lb"
-   },
-   "features": {
-    "stand": true,
-    "rack_pinion_fence": true,
-    "dado": true,
-    "soft_start": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61pTjnqf86L._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08F9RFJ2K?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B08F9RFJ2K"
-  },
-  {
-   "rank": 3,
-   "asin": "B0842QDW95",
-   "name": "DEWALT 15 Amp 8-1/4 in. Compact Portable Jobsite Table Saw (DWE7485)",
-   "brand": "DEWALT",
-   "model": "DWE7485",
-   "price": 329.0,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 5824,
-   "score": 87,
-   "award": null,
-   "best_for": "One-person carrying, with the highest rating here.",
-   "bought_last_month": "400+/mo",
-   "verdict": "The highest-rated saw on the list (4.8 stars across 5,824 reviews). The 8-1/4-inch blade trades cut depth for a 54 lb saw that one person can carry, and it still rips 24-1/2 inches.",
-   "pros": [
-    "4.8 stars from over 5,800 reviews",
-    "Rack and pinion telescoping fence rails",
-    "Metal roll cage and onboard storage for fence, guard, and miter gauge",
-    "Power-loss reset stops a surprise restart after an outage"
-   ],
-   "cons": [
-    "8-1/4\" blade means less depth of cut than a 10\" saw",
-    "No stand in the box (see the DWE7485WS if you want one)",
-    "The listing doesn't mention a dado capacity"
-   ],
-   "specs": {
-    "type": "Compact jobsite",
-    "power": "15 A",
-    "blade": "8-1/4\"",
-    "rip": "24-1/2\"",
-    "max_rpm": 5800,
-    "fence": "Rack & pinion",
-    "stand": "Sold separately",
-    "weight": "54 lb"
-   },
-   "features": {
-    "stand": false,
-    "rack_pinion_fence": true,
-    "dado": false,
-    "soft_start": false
-   },
-   "image": "https://m.media-amazon.com/images/I/710Xv4skN2L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0842QDW95?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B0842QDW95"
-  },
-  {
-   "rank": 4,
-   "asin": "B08ZH2HG6G",
-   "name": "DEWALT Portable Table Saw with Stand, 8-1/4 inch, up to 48-Degree Angle Cuts (DWE7485WS)",
-   "brand": "DEWALT",
-   "model": "DWE7485WS",
-   "price": 469.0,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1095,
-   "score": 85,
-   "award": null,
-   "best_for": "The compact DEWALT with a stand, if you have no bench for it.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The same DWE7485 saw bundled with DEWALT's jobsite stand for about $55 more than the bare saw. If you don't already have a stand or a bench to bolt it to, this is the better buy of the two.",
-   "pros": [
-    "Stand included for about $55 over the saw alone",
-    "Rack and pinion telescoping fence rails, 24-1/2\" rip",
-    "Blade brake and power-loss reset",
-    "Sold and shipped by Amazon"
-   ],
-   "cons": [
-    "8-1/4\" blade limits depth of cut",
-    "The listing's spec table says 4,300 rpm while its description says 5,800; the saw is the same DWE7485 listed at 5,800"
-   ],
-   "specs": {
-    "type": "Compact jobsite",
-    "power": "15 A",
-    "blade": "8-1/4\"",
-    "rip": "24-1/2\"",
-    "max_rpm": 5800,
-    "fence": "Rack & pinion",
-    "stand": "Included",
-    "weight": "66 lb"
-   },
-   "features": {
-    "stand": true,
-    "rack_pinion_fence": true,
-    "dado": false,
-    "soft_start": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61fc-ANG9zL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08ZH2HG6G?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B08ZH2HG6G"
-  },
-  {
-   "rank": 5,
-   "asin": "B07657FP2G",
-   "name": "SKILSAW 10 Inch Heavy Duty Worm Drive Table Saw with Stand (SPT99-11)",
-   "brand": "SKILSAW",
-   "model": "SPT99-11",
-   "price": 648.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 999,
-   "score": 83,
-   "award": null,
-   "best_for": "Framing crews cutting thick, wet or treated lumber.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A worm-drive saw built for framing crews: the deepest cut here at 3-5/8 inches, a 30-1/2-inch rip, and a rolling stand with 16-inch wheels for rough ground.",
-   "pros": [
-    "Deepest cut on the list: 3-5/8\" at 90 degrees",
-    "Worm-drive gearing for torque in thick, wet, or treated lumber",
-    "Rolling stand with 16\" wheels and outfeed and left-side supports",
-    "Rack and pinion fence"
-   ],
-   "cons": [
-    "The listing gives only a 1-year limited warranty, against 3 years for the DEWALT and SKIL TS6307",
-    "94.3 lb",
-    "Among the most expensive saws here"
-   ],
-   "specs": {
-    "type": "Worm-drive jobsite",
-    "power": "15 A",
-    "blade": "10\"",
-    "rip": "30-1/2\"",
-    "max_rpm": 5000,
-    "fence": "Rack & pinion",
-    "stand": "Rolling, 16\" wheels",
-    "weight": "94.3 lb"
-   },
-   "features": {
-    "stand": true,
-    "rack_pinion_fence": true,
-    "dado": false,
-    "soft_start": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61tjD0omQxL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07657FP2G?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B07657FP2G"
-  },
-  {
-   "rank": 6,
    "asin": "B0FKHGHLZZ",
    "name": "Evolution R10TBLX 10\" Jobsite Table Saw with Wheeled Stand, Zero-Clearance Throat Plate, Dado Plate Included",
    "brand": "EVOLUTION",
@@ -274,8 +43,8 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 196,
-   "score": 83,
-   "award": null,
+   "score": 95,
+   "award": "Best Overall",
    "best_for": "Cutting wood and metal, with dado plate and cross-cut sled included.",
    "bought_last_month": "100+/mo",
    "verdict": "The only saw here that ships with a zero-clearance throat plate, a dado plate, and a cross-cut sled, and its blade is rated for mild steel and aluminum as well as wood. It's a newer listing that's already selling 200+ a month.",
@@ -312,7 +81,7 @@
    "page_url": "https://toolboxtop10.com/corded-table-saws.html#B0FKHGHLZZ"
   },
   {
-   "rank": 7,
+   "rank": 2,
    "asin": "B0CKS6G6TC",
    "name": "BOSCH GTS15-10 10 Inch Portable Jobsite Table Saw with Gravity-Rise Wheeled Stand",
    "brand": "BOSCH",
@@ -321,7 +90,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 201,
-   "score": 80,
+   "score": 94,
    "award": "Money No Object",
    "best_for": "Shared jobsite circuits and quick setup with the gravity-rise stand.",
    "bought_last_month": "50+/mo",
@@ -360,6 +129,237 @@
    "page_url": "https://toolboxtop10.com/corded-table-saws.html#B0CKS6G6TC"
   },
   {
+   "rank": 3,
+   "asin": "B08F9RFJ2K",
+   "name": "SKIL 15 Amp 10-Inch Jobsite Table Saw with Folding Stand (TS6307-00)",
+   "brand": "SKIL",
+   "model": "TS6307-00",
+   "price": 299.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 3058,
+   "score": 92,
+   "award": null,
+   "best_for": "A 10-inch saw with a good fence and built-in legs for about $300.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Amazon's #1 table saw right now: a 10-inch saw with rack and pinion fence rails and legs that fold into the body, for about half the price of the DEWALT. The rip is 7 inches shorter.",
+   "pros": [
+    "Rack and pinion fence rails keep the fence parallel to the blade",
+    "Integrated folding legs, so no separate stand to buy",
+    "Takes an 8\" dado stack up to 5/8\" wide (dado insert sold separately)",
+    "Cuts a 4x4 in one pass at 90 degrees",
+    "3-year limited warranty; sold and shipped by Amazon"
+   ],
+   "cons": [
+    "25-1/2\" rip is short of the DEWALT's 32-1/2\"",
+    "The listing doesn't say it has soft start",
+    "At $299 it sits right at our $300 budget line"
+   ],
+   "specs": {
+    "type": "Jobsite",
+    "power": "15 A",
+    "blade": "10\"",
+    "rip": "25-1/2\"",
+    "max_rpm": 4600,
+    "fence": "Rack & pinion",
+    "stand": "Folding, built in",
+    "weight": "51.2 lb"
+   },
+   "features": {
+    "stand": true,
+    "rack_pinion_fence": true,
+    "dado": true,
+    "soft_start": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61pTjnqf86L._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08F9RFJ2K?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B08F9RFJ2K"
+  },
+  {
+   "rank": 4,
+   "asin": "B08ZH2HG6G",
+   "name": "DEWALT Portable Table Saw with Stand, 8-1/4 inch, up to 48-Degree Angle Cuts (DWE7485WS)",
+   "brand": "DEWALT",
+   "model": "DWE7485WS",
+   "price": 469.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1095,
+   "score": 92,
+   "award": null,
+   "best_for": "The compact DEWALT with a stand, if you have no bench for it.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The same DWE7485 saw bundled with DEWALT's jobsite stand for about $55 more than the bare saw. If you don't already have a stand or a bench to bolt it to, this is the better buy of the two.",
+   "pros": [
+    "Stand included for about $55 over the saw alone",
+    "Rack and pinion telescoping fence rails, 24-1/2\" rip",
+    "Blade brake and power-loss reset",
+    "Sold and shipped by Amazon"
+   ],
+   "cons": [
+    "8-1/4\" blade limits depth of cut",
+    "The listing's spec table says 4,300 rpm while its description says 5,800; the saw is the same DWE7485 listed at 5,800"
+   ],
+   "specs": {
+    "type": "Compact jobsite",
+    "power": "15 A",
+    "blade": "8-1/4\"",
+    "rip": "24-1/2\"",
+    "max_rpm": 5800,
+    "fence": "Rack & pinion",
+    "stand": "Included",
+    "weight": "66 lb"
+   },
+   "features": {
+    "stand": true,
+    "rack_pinion_fence": true,
+    "dado": false,
+    "soft_start": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61fc-ANG9zL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08ZH2HG6G?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B08ZH2HG6G"
+  },
+  {
+   "rank": 5,
+   "asin": "B00F2CGXGG",
+   "name": "DEWALT 10-Inch Jobsite Table Saw with Foldable Rolling Stand, 15 Amp, 32-1/2-Inch Rip Capacity (DWE7491RS)",
+   "brand": "DEWALT",
+   "model": "DWE7491RS",
+   "price": 699.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 5812,
+   "score": 91,
+   "award": null,
+   "best_for": "Ripping full plywood sheets, with a rolling stand included.",
+   "bought_last_month": "600+/mo",
+   "verdict": "The most-reviewed 10-inch jobsite saw on Amazon and the widest rip on this list at 32-1/2 inches, enough to split a 4x8 sheet down the middle. It comes on a folding rolling stand and is sold and shipped by Amazon.",
+   "pros": [
+    "32-1/2\" rip capacity with a telescoping rack and pinion fence",
+    "Rolling stand included; folds down for the truck",
+    "3-1/8\" depth of cut at 90 degrees, 2-1/4\" at 45",
+    "Onboard storage for the guard, fence, riving knife, miter gauge, and wrenches",
+    "3-year limited warranty"
+   ],
+   "cons": [
+    "At 110 lb listed with the stand, it's the heaviest saw here",
+    "The included blade is a 24-tooth ripping blade; plan on a finer blade for plywood",
+    "The listing doesn't mention a dado insert or soft start"
+   ],
+   "specs": {
+    "type": "Jobsite",
+    "power": "15 A",
+    "blade": "10\"",
+    "rip": "32-1/2\"",
+    "max_rpm": 4800,
+    "fence": "Rack & pinion",
+    "stand": "Rolling, included",
+    "weight": "110 lb"
+   },
+   "features": {
+    "stand": true,
+    "rack_pinion_fence": true,
+    "dado": false,
+    "soft_start": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71O6fCUHLZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00F2CGXGG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B00F2CGXGG"
+  },
+  {
+   "rank": 6,
+   "asin": "B07657FP2G",
+   "name": "SKILSAW 10 Inch Heavy Duty Worm Drive Table Saw with Stand (SPT99-11)",
+   "brand": "SKILSAW",
+   "model": "SPT99-11",
+   "price": 648.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 999,
+   "score": 90,
+   "award": null,
+   "best_for": "Framing crews cutting thick, wet or treated lumber.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A worm-drive saw built for framing crews: the deepest cut here at 3-5/8 inches, a 30-1/2-inch rip, and a rolling stand with 16-inch wheels for rough ground.",
+   "pros": [
+    "Deepest cut on the list: 3-5/8\" at 90 degrees",
+    "Worm-drive gearing for torque in thick, wet, or treated lumber",
+    "Rolling stand with 16\" wheels and outfeed and left-side supports",
+    "Rack and pinion fence"
+   ],
+   "cons": [
+    "The listing gives only a 1-year limited warranty, against 3 years for the DEWALT and SKIL TS6307",
+    "94.3 lb",
+    "Among the most expensive saws here"
+   ],
+   "specs": {
+    "type": "Worm-drive jobsite",
+    "power": "15 A",
+    "blade": "10\"",
+    "rip": "30-1/2\"",
+    "max_rpm": 5000,
+    "fence": "Rack & pinion",
+    "stand": "Rolling, 16\" wheels",
+    "weight": "94.3 lb"
+   },
+   "features": {
+    "stand": true,
+    "rack_pinion_fence": true,
+    "dado": false,
+    "soft_start": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61tjD0omQxL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07657FP2G?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B07657FP2G"
+  },
+  {
+   "rank": 7,
+   "asin": "B0842QDW95",
+   "name": "DEWALT 15 Amp 8-1/4 in. Compact Portable Jobsite Table Saw (DWE7485)",
+   "brand": "DEWALT",
+   "model": "DWE7485",
+   "price": 329.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 5824,
+   "score": 88,
+   "award": null,
+   "best_for": "One-person carrying, with the highest rating here.",
+   "bought_last_month": "400+/mo",
+   "verdict": "The highest-rated saw on the list (4.8 stars across 5,824 reviews). The 8-1/4-inch blade trades cut depth for a 54 lb saw that one person can carry, and it still rips 24-1/2 inches.",
+   "pros": [
+    "4.8 stars from over 5,800 reviews",
+    "Rack and pinion telescoping fence rails",
+    "Metal roll cage and onboard storage for fence, guard, and miter gauge",
+    "Power-loss reset stops a surprise restart after an outage"
+   ],
+   "cons": [
+    "8-1/4\" blade means less depth of cut than a 10\" saw",
+    "No stand in the box (see the DWE7485WS if you want one)",
+    "The listing doesn't mention a dado capacity"
+   ],
+   "specs": {
+    "type": "Compact jobsite",
+    "power": "15 A",
+    "blade": "8-1/4\"",
+    "rip": "24-1/2\"",
+    "max_rpm": 5800,
+    "fence": "Rack & pinion",
+    "stand": "Sold separately",
+    "weight": "54 lb"
+   },
+   "features": {
+    "stand": false,
+    "rack_pinion_fence": true,
+    "dado": false,
+    "soft_start": false
+   },
+   "image": "https://m.media-amazon.com/images/I/710Xv4skN2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0842QDW95?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B0842QDW95"
+  },
+  {
    "rank": 8,
    "asin": "B0DHS4RHR8",
    "name": "SKIL 15 Amp 8-1/4-Inch Compact Portable Jobsite Table Saw (TS6308-00, stand sold separately)",
@@ -369,7 +369,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 147,
-   "score": 71,
+   "score": 84,
    "award": "Best Budget",
    "best_for": "A light saw with a real rack-and-pinion fence for $249.",
    "bought_last_month": "50+/mo",
@@ -408,52 +408,6 @@
   },
   {
    "rank": 9,
-   "asin": "B0D9B6CNQC",
-   "name": "Prostormer 10 Inch Table Saw with Stand, 15A 5000RPM Portable Benchtop Saw",
-   "brand": "Prostormer",
-   "model": "ARMPSTS02D",
-   "price": 209.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 67,
-   "score": 64,
-   "award": null,
-   "best_for": "A 10-inch saw on a stand for about $210.",
-   "bought_last_month": null,
-   "verdict": "A 10-inch saw on a four-leg metal stand for about $210. Its fence is a metal lever-lock design, not rack and pinion, and the listing doesn't state a rip capacity.",
-   "pros": [
-    "10\" blade and a stand for $209.99",
-    "Metal rip fence with a locking lever",
-    "Dust port and side storage",
-    "4.3 stars from 67 reviews"
-   ],
-   "cons": [
-    "No rip capacity, depth of cut, or weight on the listing",
-    "Fence isn't rack and pinion, so check it for square before each rip",
-    "Sold and shipped by a third-party seller (ArmPro)"
-   ],
-   "specs": {
-    "type": "Benchtop with stand",
-    "power": "15 A",
-    "blade": "10\"",
-    "rip": null,
-    "max_rpm": 5000,
-    "fence": "Metal, lever lock",
-    "stand": "Included",
-    "weight": null
-   },
-   "features": {
-    "stand": true,
-    "rack_pinion_fence": false,
-    "dado": false,
-    "soft_start": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61gJA2EhnuL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D9B6CNQC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B0D9B6CNQC"
-  },
-  {
-   "rank": 10,
    "asin": "B0DZBH2HJ5",
    "name": "MarvTool 15Amp Portable Table Saw 10 inch, 4600RPM Compact Tablesaw with 36T Blade",
    "brand": "MarvTool",
@@ -462,7 +416,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 97,
-   "score": 63,
+   "score": 75,
    "award": null,
    "best_for": "Occasional crosscuts and small rips on a light benchtop saw.",
    "bought_last_month": "100+/mo",
@@ -497,6 +451,52 @@
    "image": "https://m.media-amazon.com/images/I/61O5HyQ+MYL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DZBH2HJ5?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-table-saws.html#B0DZBH2HJ5"
+  },
+  {
+   "rank": 10,
+   "asin": "B0D9B6CNQC",
+   "name": "Prostormer 10 Inch Table Saw with Stand, 15A 5000RPM Portable Benchtop Saw",
+   "brand": "Prostormer",
+   "model": "ARMPSTS02D",
+   "price": 209.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 67,
+   "score": 75,
+   "award": null,
+   "best_for": "A 10-inch saw on a stand for about $210.",
+   "bought_last_month": null,
+   "verdict": "A 10-inch saw on a four-leg metal stand for about $210. Its fence is a metal lever-lock design, not rack and pinion, and the listing doesn't state a rip capacity.",
+   "pros": [
+    "10\" blade and a stand for $209.99",
+    "Metal rip fence with a locking lever",
+    "Dust port and side storage",
+    "4.3 stars from 67 reviews"
+   ],
+   "cons": [
+    "No rip capacity, depth of cut, or weight on the listing",
+    "Fence isn't rack and pinion, so check it for square before each rip",
+    "Sold and shipped by a third-party seller (ArmPro)"
+   ],
+   "specs": {
+    "type": "Benchtop with stand",
+    "power": "15 A",
+    "blade": "10\"",
+    "rip": null,
+    "max_rpm": 5000,
+    "fence": "Metal, lever lock",
+    "stand": "Included",
+    "weight": null
+   },
+   "features": {
+    "stand": true,
+    "rack_pinion_fence": false,
+    "dado": false,
+    "soft_start": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61gJA2EhnuL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D9B6CNQC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-table-saws.html#B0D9B6CNQC"
   }
  ],
  "avoid": [

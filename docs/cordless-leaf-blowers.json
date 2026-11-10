@@ -22,7 +22,7 @@
    "variable_speed": 0.25,
    "turbo": 0.2
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 6708,
-   "score": 93,
+   "score": 96,
    "award": null,
    "best_for": "Homeowners who want a proven EGO for a typical lot.",
    "bought_last_month": "2K+/mo",
@@ -75,87 +75,6 @@
   },
   {
    "rank": 2,
-   "asin": "B09RNDQCV3",
-   "name": "EGO POWER+ 765 CFM Cordless Leaf Blower with 5.0Ah Battery (LB7654)",
-   "brand": "EGO",
-   "model": "LB7654",
-   "price": 299.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 3589,
-   "score": 89,
-   "award": null,
-   "best_for": "Bigger yards and fall cleanups.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A step below the 880 with 765 CFM and a 5.0Ah battery for up to 90 minutes, for half-acre-plus yards.",
-   "pros": [
-    "765 CFM",
-    "5.0Ah battery",
-    "3,589 reviews"
-   ],
-   "cons": [
-    "4.4 stars",
-    "Pricey"
-   ],
-   "specs": {
-    "cfm": "Up to 765 (turbo)",
-    "mph": "Up to 200",
-    "battery": "56V 5.0Ah, included",
-    "runtime": "Up to 90 min",
-    "extras": "Cruise-control speed dial 260-580 CFM"
-   },
-   "features": {
-    "high_cfm": true,
-    "battery_included": true,
-    "variable_speed": true,
-    "turbo": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61EJo-RIhLL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09RNDQCV3?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B09RNDQCV3"
-  },
-  {
-   "rank": 3,
-   "asin": "B08VRZ172R",
-   "name": "EGO POWER+ 615 CFM Cordless Leaf Blower with 2.5Ah Battery (LB6151)",
-   "brand": "EGO",
-   "model": "LB6151",
-   "price": 179.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1500,
-   "score": 86,
-   "award": "Best Overall",
-   "best_for": "Most suburban yards: leaves, grass clippings and driveways.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "The best-value EGO: 615 CFM on turbo, a speed dial with cruise lock and up to 75 minutes on the included 2.5Ah battery.",
-   "pros": [
-    "615 CFM turbo",
-    "Battery and charger included",
-    "Cruise-control speed lock"
-   ],
-   "cons": [
-    "Joins the EGO 56V system only"
-   ],
-   "specs": {
-    "cfm": "Up to 615 (turbo)",
-    "mph": "Up to 170",
-    "battery": "56V 2.5Ah, included",
-    "runtime": "Up to 75 min",
-    "extras": "Speed dial 200-480 CFM with lock-on button"
-   },
-   "features": {
-    "high_cfm": true,
-    "battery_included": true,
-    "variable_speed": true,
-    "turbo": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61NzovTQ6vL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08VRZ172R?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B08VRZ172R"
-  },
-  {
-   "rank": 4,
    "asin": "B0DSFB2WBB",
    "name": "EGO POWER+ 880 CFM Cordless Leaf Blower with Two 4.0Ah Batteries (LB8803-2)",
    "brand": "EGO",
@@ -164,7 +83,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 626,
-   "score": 85,
+   "score": 96,
    "award": "Money No Object",
    "best_for": "Large properties and wet, matted leaves where gas used to be the only option.",
    "bought_last_month": "3K+/mo",
@@ -196,48 +115,88 @@
    "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B0DSFB2WBB"
   },
   {
-   "rank": 5,
-   "asin": "B0HJYXCVDZ",
-   "name": "MZK 20V Cordless Leaf Blower, Lightweight (ET1613)",
-   "brand": "MZK",
-   "model": "ET1613",
-   "price": 39.99,
+   "rank": 3,
+   "asin": "B09RNDQCV3",
+   "name": "EGO POWER+ 765 CFM Cordless Leaf Blower with 5.0Ah Battery (LB7654)",
+   "brand": "EGO",
+   "model": "LB7654",
+   "price": 299.0,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 5859,
-   "score": 84,
-   "award": "Best Budget",
-   "best_for": "Budget buyers who don't own a battery platform.",
-   "bought_last_month": null,
-   "verdict": "A budget 20V blower that claims 600 CFM and 200 mph with a battery in the box, for about $50.",
+   "rating": 4.4,
+   "reviews_count": 3589,
+   "score": 95,
+   "award": null,
+   "best_for": "Bigger yards and fall cleanups.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A step below the 880 with 765 CFM and a 5.0Ah battery for up to 90 minutes, for half-acre-plus yards.",
    "pros": [
-    "Very low price",
-    "Battery included",
-    "5,859 reviews"
+    "765 CFM",
+    "5.0Ah battery",
+    "3,589 reviews"
    ],
    "cons": [
-    "CFM claim not independently verified",
-    "4.3 stars"
+    "4.4 stars",
+    "Pricey"
    ],
    "specs": {
-    "cfm": "Up to 600 (claimed)",
-    "mph": "Up to 200 (claimed)",
-    "battery": "20V, included",
-    "runtime": "Up to 90 min (claimed)",
-    "extras": null
+    "cfm": "Up to 765 (turbo)",
+    "mph": "Up to 200",
+    "battery": "56V 5.0Ah, included",
+    "runtime": "Up to 90 min",
+    "extras": "Cruise-control speed dial 260-580 CFM"
    },
    "features": {
     "high_cfm": true,
     "battery_included": true,
-    "variable_speed": false,
-    "turbo": false
+    "variable_speed": true,
+    "turbo": true
    },
-   "image": "https://m.media-amazon.com/images/I/71vGLtmrcwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HJYXCVDZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B0HJYXCVDZ"
+   "image": "https://m.media-amazon.com/images/I/61EJo-RIhLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09RNDQCV3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B09RNDQCV3"
   },
   {
-   "rank": 6,
+   "rank": 4,
+   "asin": "B08VRZ172R",
+   "name": "EGO POWER+ 615 CFM Cordless Leaf Blower with 2.5Ah Battery (LB6151)",
+   "brand": "EGO",
+   "model": "LB6151",
+   "price": 179.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1500,
+   "score": 95,
+   "award": "Best Overall",
+   "best_for": "Most suburban yards: leaves, grass clippings and driveways.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "The best-value EGO: 615 CFM on turbo, a speed dial with cruise lock and up to 75 minutes on the included 2.5Ah battery.",
+   "pros": [
+    "615 CFM turbo",
+    "Battery and charger included",
+    "Cruise-control speed lock"
+   ],
+   "cons": [
+    "Joins the EGO 56V system only"
+   ],
+   "specs": {
+    "cfm": "Up to 615 (turbo)",
+    "mph": "Up to 170",
+    "battery": "56V 2.5Ah, included",
+    "runtime": "Up to 75 min",
+    "extras": "Speed dial 200-480 CFM with lock-on button"
+   },
+   "features": {
+    "high_cfm": true,
+    "battery_included": true,
+    "variable_speed": true,
+    "turbo": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61NzovTQ6vL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08VRZ172R?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B08VRZ172R"
+  },
+  {
+   "rank": 5,
    "asin": "B0FLX45THX",
    "name": "YOOVL Cordless Leaf Blower, 650 CFM, 2 x 5.2Ah Batteries, 3 Speeds (LB-8184)",
    "brand": "YOOVL",
@@ -246,7 +205,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 1480,
-   "score": 83,
+   "score": 90,
    "award": null,
    "best_for": "Budget buyers who want long runtime from two big packs.",
    "bought_last_month": "7K+/mo",
@@ -278,6 +237,47 @@
    "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B0FLX45THX"
   },
   {
+   "rank": 6,
+   "asin": "B0HJYXCVDZ",
+   "name": "MZK 20V Cordless Leaf Blower, Lightweight (ET1613)",
+   "brand": "MZK",
+   "model": "ET1613",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 5859,
+   "score": 85,
+   "award": "Best Budget",
+   "best_for": "Budget buyers who don't own a battery platform.",
+   "bought_last_month": null,
+   "verdict": "A budget 20V blower that claims 600 CFM and 200 mph with a battery in the box, for about $50.",
+   "pros": [
+    "Very low price",
+    "Battery included",
+    "5,859 reviews"
+   ],
+   "cons": [
+    "CFM claim not independently verified",
+    "4.3 stars"
+   ],
+   "specs": {
+    "cfm": "Up to 600 (claimed)",
+    "mph": "Up to 200 (claimed)",
+    "battery": "20V, included",
+    "runtime": "Up to 90 min (claimed)",
+    "extras": null
+   },
+   "features": {
+    "high_cfm": true,
+    "battery_included": true,
+    "variable_speed": false,
+    "turbo": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71vGLtmrcwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HJYXCVDZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B0HJYXCVDZ"
+  },
+  {
    "rank": 7,
    "asin": "B00AW72V4O",
    "name": "Greenworks 40V Cordless Leaf Blower, 135 CFM, 2.0Ah Battery and Charger",
@@ -287,7 +287,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 13008,
-   "score": 82,
+   "score": 83,
    "award": null,
    "best_for": "Hard surfaces and light leaves around the house.",
    "bought_last_month": "1K+/mo",
@@ -410,7 +410,7 @@
    "currency": "USD",
    "rating": 3.3,
    "reviews_count": 6,
-   "score": 53,
+   "score": 59,
    "award": null,
    "best_for": "Small yards on a budget, with a spare battery.",
    "bought_last_month": null,

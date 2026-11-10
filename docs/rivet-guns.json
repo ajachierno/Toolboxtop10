@@ -23,7 +23,7 @@
    "long_warranty": 0.15,
    "drill_bits": 0.2
   },
-  "reviews_ceiling": 11000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 20,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -77,45 +77,45 @@
   },
   {
    "rank": 2,
-   "asin": "B08NWXBCX5",
-   "name": "LIBRATON Heavy Duty Rivet Gun Kit, Pop Rivet Gun with Hand Riveter Tool",
-   "brand": "LIBRATON",
-   "model": "900913",
-   "price": 17.99,
+   "asin": "B09ZTTY4DF",
+   "name": "NEXTACK 1/4 Rivet Gun Kit with 350 Blind Pop Rivets for Thick Metal",
+   "brand": "NEXTACK",
+   "model": "NT300",
+   "price": 30.39,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 8238,
-   "score": 83,
-   "award": "Best Budget",
-   "best_for": "Occasional riveting on a budget.",
+   "rating": 4.6,
+   "reviews_count": 862,
+   "score": 89,
+   "award": null,
+   "best_for": "Thick sheet metal and 1/4-inch rivets, with rivets in the box.",
    "bought_last_month": "500+/mo",
-   "verdict": "An all-steel one-hand riveter with four nosepieces stored on the handle, 80 rivets and four drill bits, for about $11 less than the WETOLS kit.",
+   "verdict": "A two-hand long-handle riveter for rivets up to 1/4 inch, with five nosepieces, 350 rivets in eight sizes including longer ones for thick sheets, a mandrel catcher and a labeled case.",
    "pros": [
-    "8,238 reviews",
-    "All-steel construction",
-    "Nosepieces store on the handle"
+    "4.6 stars, the best-rated pick here",
+    "Sets 1/4-in rivets",
+    "350 rivets in 8 sizes"
    ],
    "cons": [
-    "Only 80 rivets",
-    "No case or warranty term listed"
+    "Two hands needed",
+    "Heavier kit"
    ],
    "specs": {
-    "capacity": "3/16 in",
-    "nosepieces": "4 (3/32 to 3/16 in), stored on the handle",
-    "in_box": "80 aluminum rivets, 4 drill bits",
-    "body": "All steel, heat-treated carbon steel handles",
+    "capacity": "1/4 in, including stainless steel",
+    "nosepieces": "5 (3/32 to 1/4 in)",
+    "in_box": "350 aluminum rivets in 8 sizes, case",
+    "body": "Aluminum body, carbon steel handles, alloy steel jaws",
     "warranty": null
    },
    "features": {
-    "quarter_inch": false,
+    "quarter_inch": true,
     "rivets_included": true,
-    "case": false,
+    "case": true,
     "long_warranty": false,
-    "drill_bits": true
+    "drill_bits": false
    },
-   "image": "https://m.media-amazon.com/images/I/71YUkQmpIBL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08NWXBCX5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rivet-guns.html#B08NWXBCX5"
+   "image": "https://m.media-amazon.com/images/I/71WXe6F6oxL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09ZTTY4DF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rivet-guns.html#B09ZTTY4DF"
   },
   {
    "rank": 3,
@@ -127,7 +127,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2288,
-   "score": 83,
+   "score": 88,
    "award": null,
    "best_for": "A complete kit at a slightly lower price.",
    "bought_last_month": "100+/mo",
@@ -168,7 +168,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2046,
-   "score": 81,
+   "score": 88,
    "award": null,
    "best_for": "Tight spots where a longer riveter won't fit.",
    "bought_last_month": "200+/mo",
@@ -210,7 +210,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 2634,
-   "score": 80,
+   "score": 86,
    "award": null,
    "best_for": "A full kit with a warranty for a few dollars less than the WETOLS.",
    "bought_last_month": "200+/mo",
@@ -244,75 +244,33 @@
   },
   {
    "rank": 6,
-   "asin": "B09ZTTY4DF",
-   "name": "NEXTACK 1/4 Rivet Gun Kit with 350 Blind Pop Rivets for Thick Metal",
-   "brand": "NEXTACK",
-   "model": "NT300",
-   "price": 30.39,
+   "asin": "B08NWXBCX5",
+   "name": "LIBRATON Heavy Duty Rivet Gun Kit, Pop Rivet Gun with Hand Riveter Tool",
+   "brand": "LIBRATON",
+   "model": "900913",
+   "price": 17.99,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 862,
-   "score": 80,
-   "award": null,
-   "best_for": "Thick sheet metal and 1/4-inch rivets, with rivets in the box.",
+   "rating": 4.4,
+   "reviews_count": 8238,
+   "score": 84,
+   "award": "Best Budget",
+   "best_for": "Occasional riveting on a budget.",
    "bought_last_month": "500+/mo",
-   "verdict": "A two-hand long-handle riveter for rivets up to 1/4 inch, with five nosepieces, 350 rivets in eight sizes including longer ones for thick sheets, a mandrel catcher and a labeled case.",
+   "verdict": "An all-steel one-hand riveter with four nosepieces stored on the handle, 80 rivets and four drill bits, for about $11 less than the WETOLS kit.",
    "pros": [
-    "4.6 stars, the best-rated pick here",
-    "Sets 1/4-in rivets",
-    "350 rivets in 8 sizes"
+    "8,238 reviews",
+    "All-steel construction",
+    "Nosepieces store on the handle"
    ],
    "cons": [
-    "Two hands needed",
-    "Heavier kit"
-   ],
-   "specs": {
-    "capacity": "1/4 in, including stainless steel",
-    "nosepieces": "5 (3/32 to 1/4 in)",
-    "in_box": "350 aluminum rivets in 8 sizes, case",
-    "body": "Aluminum body, carbon steel handles, alloy steel jaws",
-    "warranty": null
-   },
-   "features": {
-    "quarter_inch": true,
-    "rivets_included": true,
-    "case": true,
-    "long_warranty": false,
-    "drill_bits": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71WXe6F6oxL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09ZTTY4DF?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rivet-guns.html#B09ZTTY4DF"
-  },
-  {
-   "rank": 7,
-   "asin": "B08BX5GB2T",
-   "name": "BEETRO Heavy Duty Hand Riveter with 4 Nosepieces and 100 Rivets",
-   "brand": "BEETRO",
-   "model": "TC0246",
-   "price": 13.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 3096,
-   "score": 74,
-   "award": null,
-   "best_for": "A spare riveter for the garage or truck.",
-   "bought_last_month": "600+/mo",
-   "verdict": "The cheapest riveter here: four nosepieces, 100 rivets and a wrench for changing the nose.",
-   "pros": [
-    "Cheapest pick here",
-    "100 rivets included",
-    "3,096 reviews"
-   ],
-   "cons": [
-    "Needs a wrench to change nosepieces",
-    "No body material or warranty listed"
+    "Only 80 rivets",
+    "No case or warranty term listed"
    ],
    "specs": {
     "capacity": "3/16 in",
-    "nosepieces": "4 (3/32 to 3/16 in)",
-    "in_box": "100 rivets, nosepiece wrench",
-    "body": null,
+    "nosepieces": "4 (3/32 to 3/16 in), stored on the handle",
+    "in_box": "80 aluminum rivets, 4 drill bits",
+    "body": "All steel, heat-treated carbon steel handles",
     "warranty": null
    },
    "features": {
@@ -320,14 +278,14 @@
     "rivets_included": true,
     "case": false,
     "long_warranty": false,
-    "drill_bits": false
+    "drill_bits": true
    },
-   "image": "https://m.media-amazon.com/images/I/616sFhfOyJL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08BX5GB2T?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rivet-guns.html#B08BX5GB2T"
+   "image": "https://m.media-amazon.com/images/I/71YUkQmpIBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08NWXBCX5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rivet-guns.html#B08NWXBCX5"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "asin": "B0039697ME",
    "name": "Astro Pneumatic Tool 1423 1/4\" Heavy Duty 13\" Hand Riveter",
    "brand": "Astro Pneumatic",
@@ -336,7 +294,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 2904,
-   "score": 74,
+   "score": 80,
    "award": null,
    "best_for": "Large and stainless steel rivets on trailers, boats and truck bodies.",
    "bought_last_month": "100+/mo",
@@ -369,7 +327,7 @@
    "page_url": "https://toolboxtop10.com/rivet-guns.html#B0039697ME"
   },
   {
-   "rank": 9,
+   "rank": 8,
    "asin": "B07GDK8K71",
    "name": "Arrow Heavy Duty Riveter Kit with Assorted 120 Rivets",
    "brand": "Arrow",
@@ -378,7 +336,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 2115,
-   "score": 73,
+   "score": 80,
    "award": null,
    "best_for": "Gutters, canvas and furniture work in tight spots.",
    "bought_last_month": "1K+/mo",
@@ -411,6 +369,48 @@
    "page_url": "https://toolboxtop10.com/rivet-guns.html#B07GDK8K71"
   },
   {
+   "rank": 9,
+   "asin": "B08BX5GB2T",
+   "name": "BEETRO Heavy Duty Hand Riveter with 4 Nosepieces and 100 Rivets",
+   "brand": "BEETRO",
+   "model": "TC0246",
+   "price": 13.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 3096,
+   "score": 79,
+   "award": null,
+   "best_for": "A spare riveter for the garage or truck.",
+   "bought_last_month": "600+/mo",
+   "verdict": "The cheapest riveter here: four nosepieces, 100 rivets and a wrench for changing the nose.",
+   "pros": [
+    "Cheapest pick here",
+    "100 rivets included",
+    "3,096 reviews"
+   ],
+   "cons": [
+    "Needs a wrench to change nosepieces",
+    "No body material or warranty listed"
+   ],
+   "specs": {
+    "capacity": "3/16 in",
+    "nosepieces": "4 (3/32 to 3/16 in)",
+    "in_box": "100 rivets, nosepiece wrench",
+    "body": null,
+    "warranty": null
+   },
+   "features": {
+    "quarter_inch": false,
+    "rivets_included": true,
+    "case": false,
+    "long_warranty": false,
+    "drill_bits": false
+   },
+   "image": "https://m.media-amazon.com/images/I/616sFhfOyJL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08BX5GB2T?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rivet-guns.html#B08BX5GB2T"
+  },
+  {
    "rank": 10,
    "asin": "B00063Y1F6",
    "name": "Sherman Marson 39000 HP-2 Professional Hand Riveter",
@@ -420,7 +420,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1331,
-   "score": 68,
+   "score": 76,
    "award": "Money No Object",
    "best_for": "Tradespeople who set rivets every day and want a tool that lasts.",
    "bought_last_month": "100+/mo",

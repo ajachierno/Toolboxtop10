@@ -23,7 +23,7 @@
    "tool_free": 0.15,
    "orbital": 0.15
   },
-  "reviews_ceiling": 60000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -44,7 +44,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 10884,
-   "score": 86,
+   "score": 91,
    "award": "Money No Object",
    "best_for": "Remodelers on DEWALT 20V MAX who cut nail-embedded lumber regularly.",
    "bought_last_month": "500+/mo",
@@ -86,7 +86,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 8517,
-   "score": 85,
+   "score": 91,
    "award": null,
    "best_for": "One-handed cuts in corners and overhead on DEWALT 20V MAX.",
    "bought_last_month": "1K+/mo",
@@ -120,6 +120,132 @@
   },
   {
    "rank": 3,
+   "asin": "B08WG2HC81",
+   "name": "Milwaukee M18 FUEL SAWZALL Reciprocating Saw (tool only)",
+   "brand": "Milwaukee",
+   "model": "2821-20",
+   "price": 184.0,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1412,
+   "score": 90,
+   "award": null,
+   "best_for": "Milwaukee M18 owners doing heavy demolition with a long 1-1/4 in stroke.",
+   "bought_last_month": "700+/mo",
+   "verdict": "The pro's SAWZALL — Milwaukee invented the reciprocating saw, and the M18 FUEL is a brushless demolition monster with a huge 1-1/4\" stroke. The pick if you're on the M18 platform.",
+   "pros": [
+    "Brushless, aggressive 1-1/4\" stroke",
+    "The original SAWZALL name, 4.7 stars",
+    "Milwaukee M18 platform"
+   ],
+   "cons": [
+    "Tool only — no battery or charger",
+    "Second-priciest saw here, behind the DEWALT DCS367B"
+   ],
+   "specs": {
+    "type": "Cordless",
+    "power": "18V M18",
+    "max_rpm": "0-3,000 SPM",
+    "stroke": "1-1/4 in",
+    "blade_change": "Tool-free"
+   },
+   "features": {
+    "kit": false,
+    "brushless": true,
+    "variable_speed": true,
+    "tool_free": true,
+    "orbital": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51GnMARTIgL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08WG2HC81?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B08WG2HC81"
+  },
+  {
+   "rank": 4,
+   "asin": "B00ODN0S70",
+   "name": "DEWALT DCS387B 20V MAX Compact Reciprocating Saw (tool only)",
+   "brand": "DEWALT",
+   "model": "DCS387B",
+   "price": 123.39,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 4541,
+   "score": 88,
+   "award": null,
+   "best_for": "Tight spots between studs on DEWALT 20V MAX, for less than the brushless model.",
+   "bought_last_month": "800+/mo",
+   "verdict": "The compact DEWALT that fits between studs and into tight spots, with a full 1-1/8\" stroke and 4,500 reviews at 4.8 stars. Cheaper than the brushless XR if you don't need the last bit of runtime.",
+   "pros": [
+    "Compact body, full 1-1/8\" stroke",
+    "4,500 reviews at 4.8 stars",
+    "Tool-free blade change"
+   ],
+   "cons": [
+    "Tool only — no battery or charger",
+    "Not brushless"
+   ],
+   "specs": {
+    "type": "Cordless",
+    "power": "20V MAX",
+    "max_rpm": "0-2,900 SPM",
+    "stroke": "1-1/8 in",
+    "blade_change": "Tool-free"
+   },
+   "features": {
+    "kit": false,
+    "brushless": false,
+    "variable_speed": true,
+    "tool_free": true,
+    "orbital": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51UabQjfSmL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00ODN0S70?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B00ODN0S70"
+  },
+  {
+   "rank": 5,
+   "asin": "B0DPW3VYX5",
+   "name": "SEESII Cordless Reciprocating Saw Kit (2 x 4.0Ah)",
+   "brand": "SEESII",
+   "model": "Recip Kit",
+   "price": 62.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 776,
+   "score": 88,
+   "award": null,
+   "best_for": "A kit with two 4.0Ah batteries for long cutting sessions for about $63.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A loaded budget kit — two 4.0Ah batteries, charger, and blades for about $63. No brand pedigree, but a lot of runtime and everything you need to start cutting out of the box.",
+   "pros": [
+    "Two 4.0Ah batteries and charger included",
+    "Tool-free blade change, variable speed",
+    "Ready to use, no platform needed"
+   ],
+   "cons": [
+    "Off-brand batteries, no ecosystem",
+    "Not brushless"
+   ],
+   "specs": {
+    "type": "Cordless",
+    "power": "21V",
+    "max_rpm": "0-3,000 SPM",
+    "stroke": null,
+    "blade_change": "Tool-free"
+   },
+   "features": {
+    "kit": true,
+    "brushless": false,
+    "variable_speed": true,
+    "tool_free": true,
+    "orbital": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71wP67a4TJL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DPW3VYX5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B0DPW3VYX5"
+  },
+  {
+   "rank": 6,
    "asin": "B007NVSTCK",
    "name": "DEWALT DCS380B 20V MAX Reciprocating Saw (tool only)",
    "brand": "DEWALT",
@@ -128,7 +254,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 8603,
-   "score": 80,
+   "score": 87,
    "award": "Best Overall",
    "best_for": "DEWALT 20V MAX owners who want a full-size demo and pruning saw.",
    "bought_last_month": "1K+/mo",
@@ -162,7 +288,7 @@
    "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B007NVSTCK"
   },
   {
-   "rank": 4,
+   "rank": 7,
    "asin": "B076JHJKR8",
    "name": "Milwaukee 2719-20 M18 FUEL HACKZALL (tool only)",
    "brand": "Milwaukee",
@@ -171,7 +297,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 6597,
-   "score": 80,
+   "score": 87,
    "award": null,
    "best_for": "Milwaukee M18 owners who want a one-handed saw for tight spots and overhead cuts.",
    "bought_last_month": "1K+/mo",
@@ -206,133 +332,6 @@
    "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B076JHJKR8"
   },
   {
-   "rank": 5,
-   "asin": "B00ODN0S70",
-   "name": "DEWALT DCS387B 20V MAX Compact Reciprocating Saw (tool only)",
-   "brand": "DEWALT",
-   "model": "DCS387B",
-   "price": 123.39,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 4541,
-   "score": 79,
-   "award": null,
-   "best_for": "Tight spots between studs on DEWALT 20V MAX, for less than the brushless model.",
-   "bought_last_month": "800+/mo",
-   "verdict": "The compact DEWALT that fits between studs and into tight spots, with a full 1-1/8\" stroke and 4,500 reviews at 4.8 stars. Cheaper than the brushless XR if you don't need the last bit of runtime.",
-   "pros": [
-    "Compact body, full 1-1/8\" stroke",
-    "4,500 reviews at 4.8 stars",
-    "Tool-free blade change"
-   ],
-   "cons": [
-    "Tool only — no battery or charger",
-    "Not brushless"
-   ],
-   "specs": {
-    "type": "Cordless",
-    "power": "20V MAX",
-    "max_rpm": "0-2,900 SPM",
-    "stroke": "1-1/8 in",
-    "blade_change": "Tool-free"
-   },
-   "features": {
-    "kit": false,
-    "brushless": false,
-    "variable_speed": true,
-    "tool_free": true,
-    "orbital": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51UabQjfSmL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00ODN0S70?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B00ODN0S70"
-  },
-  {
-   "rank": 6,
-   "asin": "B08WG2HC81",
-   "name": "Milwaukee M18 FUEL SAWZALL Reciprocating Saw (tool only)",
-   "brand": "Milwaukee",
-   "model": "2821-20",
-   "price": 184.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 1412,
-   "score": 78,
-   "award": null,
-   "best_for": "Milwaukee M18 owners doing heavy demolition with a long 1-1/4 in stroke.",
-   "bought_last_month": "700+/mo",
-   "verdict": "The pro's SAWZALL — Milwaukee invented the reciprocating saw, and the M18 FUEL is a brushless demolition monster with a huge 1-1/4\" stroke. The pick if you're on the M18 platform.",
-   "pros": [
-    "Brushless, aggressive 1-1/4\" stroke",
-    "The original SAWZALL name, 4.7 stars",
-    "Milwaukee M18 platform"
-   ],
-   "cons": [
-    "Tool only — no battery or charger",
-    "Second-priciest saw here, behind the DEWALT DCS367B"
-   ],
-   "specs": {
-    "type": "Cordless",
-    "power": "18V M18",
-    "max_rpm": "0-3,000 SPM",
-    "stroke": "1-1/4 in",
-    "blade_change": "Tool-free"
-   },
-   "features": {
-    "kit": false,
-    "brushless": true,
-    "variable_speed": true,
-    "tool_free": true,
-    "orbital": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51GnMARTIgL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08WG2HC81?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B08WG2HC81"
-  },
-  {
-   "rank": 7,
-   "asin": "B00IP27DFA",
-   "name": "BLACK+DECKER 20V MAX POWERCONNECT 7/8\" Reciprocating Saw (tool only)",
-   "brand": "BLACK+DECKER",
-   "model": "BDCR20B",
-   "price": 76.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 4100,
-   "score": 77,
-   "award": "Best Budget",
-   "best_for": "BLACK+DECKER 20V MAX owners who want a low-cost name-brand saw.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A name-brand saw at $76.99: the bare-tool version of the popular BLACK+DECKER recip. Grab it if you already own 20V POWERCONNECT batteries. 4,100 reviews and tool-free blade change.",
-   "pros": [
-    "Under $80 from a name brand",
-    "4,100 reviews at 4.6 stars",
-    "Tool-free blade change, variable speed",
-    "Sold and shipped by Amazon"
-   ],
-   "cons": [
-    "Tool only — no battery or charger",
-    "7/8\" stroke, light-duty demo"
-   ],
-   "specs": {
-    "type": "Cordless",
-    "power": "20V MAX",
-    "max_rpm": "0-3,000 SPM",
-    "stroke": "7/8 in",
-    "blade_change": "Tool-free"
-   },
-   "features": {
-    "kit": false,
-    "brushless": false,
-    "variable_speed": true,
-    "tool_free": true,
-    "orbital": false
-   },
-   "image": "https://m.media-amazon.com/images/I/610IEp8ErpL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00IP27DFA?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B00IP27DFA"
-  },
-  {
    "rank": 8,
    "asin": "B07KKHC784",
    "name": "CRAFTSMAN V20 Cordless Reciprocating Saw (tool only)",
@@ -342,7 +341,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1591,
-   "score": 75,
+   "score": 87,
    "award": null,
    "best_for": "CRAFTSMAN V20 owners who want a full 1-1/8 in stroke.",
    "bought_last_month": "300+/mo",
@@ -376,6 +375,49 @@
   },
   {
    "rank": 9,
+   "asin": "B00IP27DFA",
+   "name": "BLACK+DECKER 20V MAX POWERCONNECT 7/8\" Reciprocating Saw (tool only)",
+   "brand": "BLACK+DECKER",
+   "model": "BDCR20B",
+   "price": 76.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 4100,
+   "score": 86,
+   "award": "Best Budget",
+   "best_for": "BLACK+DECKER 20V MAX owners who want a low-cost name-brand saw.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A name-brand saw at $76.99: the bare-tool version of the popular BLACK+DECKER recip. Grab it if you already own 20V POWERCONNECT batteries. 4,100 reviews and tool-free blade change.",
+   "pros": [
+    "Under $80 from a name brand",
+    "4,100 reviews at 4.6 stars",
+    "Tool-free blade change, variable speed",
+    "Sold and shipped by Amazon"
+   ],
+   "cons": [
+    "Tool only — no battery or charger",
+    "7/8\" stroke, light-duty demo"
+   ],
+   "specs": {
+    "type": "Cordless",
+    "power": "20V MAX",
+    "max_rpm": "0-3,000 SPM",
+    "stroke": "7/8 in",
+    "blade_change": "Tool-free"
+   },
+   "features": {
+    "kit": false,
+    "brushless": false,
+    "variable_speed": true,
+    "tool_free": true,
+    "orbital": false
+   },
+   "image": "https://m.media-amazon.com/images/I/610IEp8ErpL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00IP27DFA?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B00IP27DFA"
+  },
+  {
+   "rank": 10,
    "asin": "B0B88R7HWB",
    "name": "RYOBI ONE+ 18V Cordless Reciprocating Saw (tool only)",
    "brand": "RYOBI",
@@ -384,7 +426,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1691,
-   "score": 74,
+   "score": 86,
    "award": null,
    "best_for": "RYOBI ONE+ owners who want the fastest stroke rate here.",
    "bought_last_month": "700+/mo",
@@ -416,48 +458,6 @@
    "image": "https://m.media-amazon.com/images/I/61-Dn-VOfcL._AC_SX425_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0B88R7HWB?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B0B88R7HWB"
-  },
-  {
-   "rank": 10,
-   "asin": "B0DPW3VYX5",
-   "name": "SEESII Cordless Reciprocating Saw Kit (2 x 4.0Ah)",
-   "brand": "SEESII",
-   "model": "Recip Kit",
-   "price": 62.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 776,
-   "score": 74,
-   "award": null,
-   "best_for": "A kit with two 4.0Ah batteries for long cutting sessions for about $63.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A loaded budget kit — two 4.0Ah batteries, charger, and blades for about $63. No brand pedigree, but a lot of runtime and everything you need to start cutting out of the box.",
-   "pros": [
-    "Two 4.0Ah batteries and charger included",
-    "Tool-free blade change, variable speed",
-    "Ready to use, no platform needed"
-   ],
-   "cons": [
-    "Off-brand batteries, no ecosystem",
-    "Not brushless"
-   ],
-   "specs": {
-    "type": "Cordless",
-    "power": "21V",
-    "max_rpm": "0-3,000 SPM",
-    "stroke": null,
-    "blade_change": "Tool-free"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "variable_speed": true,
-    "tool_free": true,
-    "orbital": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71wP67a4TJL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DPW3VYX5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B0DPW3VYX5"
   }
  ],
  "avoid": [

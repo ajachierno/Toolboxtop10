@@ -22,7 +22,7 @@
    "snipe_control": 0.2,
    "width_13": 0.15
   },
-  "reviews_ceiling": 8000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 310,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,45 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B07QSCZR6D",
+   "name": "JET JWP-13BT 13-Inch Benchtop Thickness Planer, Helical Cutterhead, 2-Speed, 2 HP",
+   "brand": "JET",
+   "model": "JWP-13BT",
+   "price": 934.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 175,
+   "score": 92,
+   "award": "Money No Object",
+   "best_for": "Shops that want the most solid benchtop planer here.",
+   "bought_last_month": null,
+   "verdict": "A premium benchtop planer with a helical head, two speeds, a cast iron bed and four-post head support to keep boards flat and reduce snipe.",
+   "pros": [
+    "Helical head, two speeds",
+    "Cast iron bed, four posts"
+   ],
+   "cons": [
+    "Most expensive here",
+    "4.2 stars"
+   ],
+   "specs": {
+    "width": "13 in",
+    "cutterhead": "Helical, 26 HSS inserts",
+    "feed": "2 speeds (18 / 26 ft/min)",
+    "extras": "Cast iron bed, four-post design"
+   },
+   "features": {
+    "helical": true,
+    "two_speed": true,
+    "snipe_control": true,
+    "width_13": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71oZhYjzetL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07QSCZR6D?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/thickness-planers.html#B07QSCZR6D"
+  },
+  {
+   "rank": 2,
    "asin": "B003OX9KME",
    "name": "DEWALT 13-Inch Two-Speed Thickness Planer with Tables and Extra Knives (DW735X)",
    "brand": "DEWALT",
@@ -74,7 +113,7 @@
    "page_url": "https://toolboxtop10.com/thickness-planers.html#B003OX9KME"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B0000CCXU8",
    "name": "DEWALT 13-Inch Two-Speed Thickness Planer, 3 Knife (DW735)",
    "brand": "DEWALT",
@@ -83,7 +122,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2224,
-   "score": 85,
+   "score": 90,
    "award": null,
    "best_for": "Buyers who find the DW735 cheaper than the DW735X at the time they shop.",
    "bought_last_month": null,
@@ -113,7 +152,46 @@
    "page_url": "https://toolboxtop10.com/thickness-planers.html#B0000CCXU8"
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "asin": "B08WT6V674",
+   "name": "RIKON 25-135H 13-Inch Portable Planer with Helical-Style Cutterhead",
+   "brand": "RIKON",
+   "model": "25-135H",
+   "price": 699.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 54,
+   "score": 88,
+   "award": null,
+   "best_for": "Woodworkers who want JET-level features for less money.",
+   "bought_last_month": null,
+   "verdict": "A helical, two-speed planer with a threaded four-post head, depth gauge and repeat-cut stops, for less than the JET.",
+   "pros": [
+    "Helical head, two speeds",
+    "Four-post head support",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Only 54 reviews"
+   ],
+   "specs": {
+    "width": "13 in",
+    "cutterhead": "Helical, 26 HSS inserts",
+    "feed": "2 speeds (16 / 26 ft/min)",
+    "extras": "Four-post head, depth gauge, repeat-cut control"
+   },
+   "features": {
+    "helical": true,
+    "two_speed": true,
+    "snipe_control": true,
+    "width_13": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71z42Pd3osL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08WT6V674?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/thickness-planers.html#B08WT6V674"
+  },
+  {
+   "rank": 5,
    "asin": "B08NWF6P3Q",
    "name": "WEN PL1326 15-Amp 13-Inch Spiral Benchtop Thickness Planer",
    "brand": "WEN",
@@ -122,7 +200,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 744,
-   "score": 78,
+   "score": 87,
    "award": null,
    "best_for": "Woodworkers who want a spiral head's smoother finish and easier blade care on a budget.",
    "bought_last_month": "100+/mo",
@@ -153,46 +231,46 @@
    "page_url": "https://toolboxtop10.com/thickness-planers.html#B08NWF6P3Q"
   },
   {
-   "rank": 4,
-   "asin": "B07QSCZR6D",
-   "name": "JET JWP-13BT 13-Inch Benchtop Thickness Planer, Helical Cutterhead, 2-Speed, 2 HP",
-   "brand": "JET",
-   "model": "JWP-13BT",
-   "price": 934.99,
+   "rank": 6,
+   "asin": "B0C1PY7L4L",
+   "name": "WEN PL1337 Two-Speed 13-Inch Spiral Benchtop Thickness Planer",
+   "brand": "WEN",
+   "model": "PL1337",
+   "price": 604.99,
    "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 175,
-   "score": 78,
-   "award": "Money No Object",
-   "best_for": "Shops that want the most solid benchtop planer here.",
+   "rating": 4.6,
+   "reviews_count": 94,
+   "score": 87,
+   "award": null,
+   "best_for": "Woodworkers who want helical and two speeds for less than JET or RIKON.",
    "bought_last_month": null,
-   "verdict": "A premium benchtop planer with a helical head, two speeds, a cast iron bed and four-post head support to keep boards flat and reduce snipe.",
+   "verdict": "WEN's two-speed spiral planer: the same 26-insert head as the PL1326 plus a slow 16 ft/min feed for a finer finish.",
    "pros": [
-    "Helical head, two speeds",
-    "Cast iron bed, four posts"
+    "Spiral head plus 2 speeds",
+    "13 in width"
    ],
    "cons": [
-    "Most expensive here",
-    "4.2 stars"
+    "94 reviews",
+    "HSS inserts"
    ],
    "specs": {
     "width": "13 in",
-    "cutterhead": "Helical, 26 HSS inserts",
-    "feed": "2 speeds (18 / 26 ft/min)",
-    "extras": "Cast iron bed, four-post design"
+    "cutterhead": "Spiral, 26 HSS inserts",
+    "feed": "2 speeds (26 / 16 ft/min)",
+    "extras": "Up to 1,354 cuts per inch"
    },
    "features": {
     "helical": true,
     "two_speed": true,
-    "snipe_control": true,
+    "snipe_control": false,
     "width_13": true
    },
-   "image": "https://m.media-amazon.com/images/I/71oZhYjzetL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07QSCZR6D?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/thickness-planers.html#B07QSCZR6D"
+   "image": "https://m.media-amazon.com/images/I/71dJgFAQQZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0C1PY7L4L?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/thickness-planers.html#B0C1PY7L4L"
   },
   {
-   "rank": 5,
+   "rank": 7,
    "asin": "B0000CCXU6",
    "name": "DEWALT 12-1/2-Inch Benchtop Planer, 15-Amp, 3-Knife Cutter (DW734)",
    "brand": "DEWALT",
@@ -201,7 +279,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2765,
-   "score": 77,
+   "score": 81,
    "award": null,
    "best_for": "Hobby woodworkers who want DEWALT quality and don't need two speeds.",
    "bought_last_month": "100+/mo",
@@ -232,84 +310,6 @@
    "page_url": "https://toolboxtop10.com/thickness-planers.html#B0000CCXU6"
   },
   {
-   "rank": 6,
-   "asin": "B08WT6V674",
-   "name": "RIKON 25-135H 13-Inch Portable Planer with Helical-Style Cutterhead",
-   "brand": "RIKON",
-   "model": "25-135H",
-   "price": 699.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 54,
-   "score": 77,
-   "award": null,
-   "best_for": "Woodworkers who want JET-level features for less money.",
-   "bought_last_month": null,
-   "verdict": "A helical, two-speed planer with a threaded four-post head, depth gauge and repeat-cut stops, for less than the JET.",
-   "pros": [
-    "Helical head, two speeds",
-    "Four-post head support",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Only 54 reviews"
-   ],
-   "specs": {
-    "width": "13 in",
-    "cutterhead": "Helical, 26 HSS inserts",
-    "feed": "2 speeds (16 / 26 ft/min)",
-    "extras": "Four-post head, depth gauge, repeat-cut control"
-   },
-   "features": {
-    "helical": true,
-    "two_speed": true,
-    "snipe_control": true,
-    "width_13": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71z42Pd3osL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08WT6V674?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/thickness-planers.html#B08WT6V674"
-  },
-  {
-   "rank": 7,
-   "asin": "B0C1PY7L4L",
-   "name": "WEN PL1337 Two-Speed 13-Inch Spiral Benchtop Thickness Planer",
-   "brand": "WEN",
-   "model": "PL1337",
-   "price": 604.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 94,
-   "score": 75,
-   "award": null,
-   "best_for": "Woodworkers who want helical and two speeds for less than JET or RIKON.",
-   "bought_last_month": null,
-   "verdict": "WEN's two-speed spiral planer: the same 26-insert head as the PL1326 plus a slow 16 ft/min feed for a finer finish.",
-   "pros": [
-    "Spiral head plus 2 speeds",
-    "13 in width"
-   ],
-   "cons": [
-    "94 reviews",
-    "HSS inserts"
-   ],
-   "specs": {
-    "width": "13 in",
-    "cutterhead": "Spiral, 26 HSS inserts",
-    "feed": "2 speeds (26 / 16 ft/min)",
-    "extras": "Up to 1,354 cuts per inch"
-   },
-   "features": {
-    "helical": true,
-    "two_speed": true,
-    "snipe_control": false,
-    "width_13": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71dJgFAQQZL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C1PY7L4L?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/thickness-planers.html#B0C1PY7L4L"
-  },
-  {
    "rank": 8,
    "asin": "B07Y47LFH5",
    "name": "CRAFTSMAN 12.25 In. Benchtop Thickness Planer, 15 Amp, Two Knife (CMEW320)",
@@ -319,7 +319,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1517,
-   "score": 70,
+   "score": 76,
    "award": null,
    "best_for": "First-time planer buyers milling pine and poplar.",
    "bought_last_month": "100+/mo",
@@ -358,7 +358,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 527,
-   "score": 66,
+   "score": 76,
    "award": "Best Budget",
    "best_for": "Occasional planing on a budget.",
    "bought_last_month": null,
@@ -397,7 +397,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 43,
-   "score": 65,
+   "score": 76,
    "award": null,
    "best_for": "Woodworkers planing hardwoods who hate changing blades.",
    "bought_last_month": null,

@@ -23,7 +23,7 @@
    "distance_marks": 0.15,
    "big_screen": 0.2
   },
-  "reviews_ceiling": 1000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 180,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -44,7 +44,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 25,
-   "score": 78,
+   "score": 83,
    "award": "Best Overall",
    "best_for": "Outdoor work with a glare-resistant screen and the best-rated locator.",
    "bought_last_month": null,
@@ -86,7 +86,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 127,
-   "score": 73,
+   "score": 81,
    "award": null,
    "best_for": "Most homeowners: a well-reviewed 1080p camera with a 7-inch screen.",
    "bought_last_month": "100+/mo",
@@ -129,7 +129,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 113,
-   "score": 71,
+   "score": 79,
    "award": "Best Budget",
    "best_for": "A cheap camera with distance markings for occasional checks.",
    "bought_last_month": null,
@@ -164,6 +164,48 @@
   },
   {
    "rank": 4,
+   "asin": "B0FVLGW7XL",
+   "name": "VISIOPROBE Sewer Camera 100 ft, 23mm 1080P Probe, 8,500mAh, 32GB Audio and Video Record",
+   "brand": "VISIOPROBE",
+   "model": "F2529PDOC23-30M-K",
+   "price": 219.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 70,
+   "score": 77,
+   "award": null,
+   "best_for": "A compact camera with a long-lasting battery and head guards.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A compact 100-foot camera with a big 8,500 mAh battery, depth markers on the cable, and two wheeled head guards for different pipe sizes. It's one of the fastest-selling sewer cameras on Amazon right now.",
+   "pros": [
+    "200+ sold a month; #2 in Video Inspection Equipment",
+    "Two wheeled protective heads to center the camera in larger pipes",
+    "Sun visor on the screen; 1-year warranty"
+   ],
+   "cons": [
+    "4.3 in. screen",
+    "No self-leveling"
+   ],
+   "specs": {
+    "cable": "100 ft",
+    "screen": "4.3 in.",
+    "resolution": "1080p (AHD)",
+    "battery": "8,500 mAh",
+    "head": "23 mm"
+   },
+   "features": {
+    "self_leveling": false,
+    "locator": false,
+    "dvr": true,
+    "distance_marks": true,
+    "big_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71d-DVOpVOL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FVLGW7XL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/sewer-inspection-cameras.html#B0FVLGW7XL"
+  },
+  {
+   "rank": 5,
    "asin": "B0D5M8PB92",
    "name": "Anysun Self-Leveling Sewer Camera with 512Hz Locator, 165 ft, 7mm Cable, 9 in.",
    "brand": "Anysun",
@@ -172,7 +214,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 23,
-   "score": 71,
+   "score": 76,
    "award": null,
    "best_for": "Full main-line inspections with a locator and distance counter.",
    "bought_last_month": null,
@@ -206,48 +248,6 @@
    "page_url": "https://toolboxtop10.com/sewer-inspection-cameras.html#B0D5M8PB92"
   },
   {
-   "rank": 5,
-   "asin": "B0FVLGW7XL",
-   "name": "VISIOPROBE Sewer Camera 100 ft, 23mm 1080P Probe, 8,500mAh, 32GB Audio and Video Record",
-   "brand": "VISIOPROBE",
-   "model": "F2529PDOC23-30M-K",
-   "price": 219.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 70,
-   "score": 70,
-   "award": null,
-   "best_for": "A compact camera with a long-lasting battery and head guards.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A compact 100-foot camera with a big 8,500 mAh battery, depth markers on the cable, and two wheeled head guards for different pipe sizes. It's one of the fastest-selling sewer cameras on Amazon right now.",
-   "pros": [
-    "200+ sold a month; #2 in Video Inspection Equipment",
-    "Two wheeled protective heads to center the camera in larger pipes",
-    "Sun visor on the screen; 1-year warranty"
-   ],
-   "cons": [
-    "4.3 in. screen",
-    "No self-leveling"
-   ],
-   "specs": {
-    "cable": "100 ft",
-    "screen": "4.3 in.",
-    "resolution": "1080p (AHD)",
-    "battery": "8,500 mAh",
-    "head": "23 mm"
-   },
-   "features": {
-    "self_leveling": false,
-    "locator": false,
-    "dvr": true,
-    "distance_marks": true,
-    "big_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71d-DVOpVOL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FVLGW7XL?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/sewer-inspection-cameras.html#B0FVLGW7XL"
-  },
-  {
    "rank": 6,
    "asin": "B0G5PDSZPV",
    "name": "Powerwill Self-Leveling Drain Camera, 165 ft, 9 in. 1080P, 5mm Meter-Marked Cable",
@@ -257,7 +257,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 17,
-   "score": 70,
+   "score": 75,
    "award": null,
    "best_for": "Long runs to the city tap: 165 ft and self-leveling under $400.",
    "bought_last_month": null,
@@ -291,48 +291,6 @@
   },
   {
    "rank": 7,
-   "asin": "B0FJL8WJG5",
-   "name": "ESANHAO Sewer Camera 100 ft, 12 LEDs, 4.3 in. IPS, 32GB, 23mm, 8,500mAh",
-   "brand": "ESANHAO",
-   "model": "F964DBC23-30M-K",
-   "price": 219.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 33,
-   "score": 67,
-   "award": null,
-   "best_for": "Checking a house drain to the street with a well-rated camera.",
-   "bought_last_month": null,
-   "verdict": "A 4.6-star camera with a stainless 23mm head, 12 LEDs, a meter-marked 5mm cable, and 6 to 8 hours of battery. Good value for checking a house drain to the street.",
-   "pros": [
-    "4.5 stars, tied for the best rating here",
-    "Meter-marked 5 mm fiberglass cable",
-    "1-year warranty"
-   ],
-   "cons": [
-    "4.3 in. screen",
-    "Fewer reviews than the top sellers"
-   ],
-   "specs": {
-    "cable": "100 ft, 5 mm",
-    "screen": "4.3 in.",
-    "resolution": "1080p (AHD)",
-    "battery": "8,500 mAh, 6 to 8 hr",
-    "head": "23 mm"
-   },
-   "features": {
-    "self_leveling": false,
-    "locator": false,
-    "dvr": true,
-    "distance_marks": true,
-    "big_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/715otOjsHoL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FJL8WJG5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/sewer-inspection-cameras.html#B0FJL8WJG5"
-  },
-  {
-   "rank": 8,
    "asin": "B0G15X3PZ2",
    "name": "KCapyn Sewer Camera 100 ft, 5 in. IPS Screen, 17mm Head, 1080P, Toolbox Case",
    "brand": "KCapyn",
@@ -341,7 +299,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 64,
-   "score": 66,
+   "score": 74,
    "award": null,
    "best_for": "Keeping everything in one toolbox, with a small head for tight drains.",
    "bought_last_month": "100+/mo",
@@ -374,6 +332,48 @@
    "page_url": "https://toolboxtop10.com/sewer-inspection-cameras.html#B0G15X3PZ2"
   },
   {
+   "rank": 8,
+   "asin": "B0FJL8WJG5",
+   "name": "ESANHAO Sewer Camera 100 ft, 12 LEDs, 4.3 in. IPS, 32GB, 23mm, 8,500mAh",
+   "brand": "ESANHAO",
+   "model": "F964DBC23-30M-K",
+   "price": 219.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 33,
+   "score": 73,
+   "award": null,
+   "best_for": "Checking a house drain to the street with a well-rated camera.",
+   "bought_last_month": null,
+   "verdict": "A 4.6-star camera with a stainless 23mm head, 12 LEDs, a meter-marked 5mm cable, and 6 to 8 hours of battery. Good value for checking a house drain to the street.",
+   "pros": [
+    "4.5 stars, tied for the best rating here",
+    "Meter-marked 5 mm fiberglass cable",
+    "1-year warranty"
+   ],
+   "cons": [
+    "4.3 in. screen",
+    "Fewer reviews than the top sellers"
+   ],
+   "specs": {
+    "cable": "100 ft, 5 mm",
+    "screen": "4.3 in.",
+    "resolution": "1080p (AHD)",
+    "battery": "8,500 mAh, 6 to 8 hr",
+    "head": "23 mm"
+   },
+   "features": {
+    "self_leveling": false,
+    "locator": false,
+    "dvr": true,
+    "distance_marks": true,
+    "big_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/715otOjsHoL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FJL8WJG5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/sewer-inspection-cameras.html#B0FJL8WJG5"
+  },
+  {
    "rank": 9,
    "asin": "B0FK294Z6X",
    "name": "Anysun 9 in. Self-Leveling Sewer Camera, 100 ft, Length Marker, 1080P DVR",
@@ -383,7 +383,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 7,
-   "score": 61,
+   "score": 64,
    "award": null,
    "best_for": "An upright picture and distance markings for about $320.",
    "bought_last_month": null,
@@ -426,7 +426,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 4,
-   "score": 56,
+   "score": 59,
    "award": null,
    "best_for": "The cheapest locator kit, about half the price of the others.",
    "bought_last_month": "50+/mo",

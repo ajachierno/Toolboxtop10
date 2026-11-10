@@ -22,58 +22,19 @@
    "extra_blades": 0.25,
    "blade_storage": 0.2
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 10,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B07R92S9YZ",
+  "best_overall": "B000LGBZDE",
   "best_budget": "B0D8VFQZ77",
   "money_no_object": "B000LGBZDE"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B07R92S9YZ",
-   "name": "CRAFTSMAN 12-Inch Hacksaw (CMHT20138)",
-   "brand": "CRAFTSMAN",
-   "model": "CMHT20138",
-   "price": 9.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 4812,
-   "score": 87,
-   "award": "Best Overall",
-   "best_for": "Homeowners who want one good hacksaw.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The most-reviewed hacksaw here: a solid metal frame that tensions the blade to 225 lb, with 90- and 180-degree blade positions for flush cuts, for about $10.",
-   "pros": [
-    "4.6 stars; 4,812 reviews",
-    "About $10",
-    "Flush-cut blade angle"
-   ],
-   "cons": [
-    "One blade"
-   ],
-   "specs": {
-    "blade": "12 in",
-    "tension": "Up to 225 lb",
-    "blades_incl": "1",
-    "extras": "4.375 in cutting depth, 90° and 180° blade angles"
-   },
-   "features": {
-    "high_tension": true,
-    "flush_cut": true,
-    "extra_blades": false,
-    "blade_storage": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61a3Is7FFfL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07R92S9YZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hacksaws.html#B07R92S9YZ"
-  },
-  {
-   "rank": 2,
    "asin": "B000LGBZDE",
    "name": "LENOX HT50 High-Tension Hacksaw",
    "brand": "LENOX",
@@ -82,8 +43,8 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 1479,
-   "score": 83,
-   "award": "Money No Object",
+   "score": 88,
+   "award": "Best Overall",
    "best_for": "Plumbers, electricians and fabricators who cut metal often.",
    "bought_last_month": "200+/mo",
    "verdict": "The best-rated hacksaw here at 4.8 stars: an I-beam frame that tensions blades to 50,000 psi, stores five spares and doubles as a jab saw with reciprocating saw blades.",
@@ -112,46 +73,46 @@
    "page_url": "https://toolboxtop10.com/hacksaws.html#B000LGBZDE"
   },
   {
-   "rank": 3,
-   "asin": "B0DK2TJ44N",
-   "name": "AIRAJ 12-Inch High-Tension Hacksaw with 10 Spare Blades",
-   "brand": "AIRAJ",
-   "model": "12-inch",
-   "price": 13.99,
+   "rank": 2,
+   "asin": "B07R92S9YZ",
+   "name": "CRAFTSMAN 12-Inch Hacksaw (CMHT20138)",
+   "brand": "CRAFTSMAN",
+   "model": "CMHT20138",
+   "price": 9.99,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 792,
-   "score": 79,
+   "rating": 4.6,
+   "reviews_count": 4812,
+   "score": 87,
    "award": null,
-   "best_for": "DIYers who go through blades.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A steel-frame hacksaw with ten spare blades in the box, for about $13.",
+   "best_for": "Homeowners who want one good hacksaw.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The most-reviewed hacksaw here: a solid metal frame that tensions the blade to 225 lb, with 90- and 180-degree blade positions for flush cuts, for about $10.",
    "pros": [
-    "10 spare blades",
-    "About $13"
+    "4.6 stars; 4,812 reviews",
+    "About $10",
+    "Flush-cut blade angle"
    ],
    "cons": [
-    "4.5 stars",
-    "Tension rating not listed"
+    "One blade"
    ],
    "specs": {
-    "blade": "12 in, 24 TPI bi-metal",
-    "tension": "Knob-adjusted",
-    "blades_incl": "1 plus 10 spares",
-    "extras": "Steel frame"
+    "blade": "12 in",
+    "tension": "Up to 225 lb",
+    "blades_incl": "1",
+    "extras": "4.375 in cutting depth, 90° and 180° blade angles"
    },
    "features": {
     "high_tension": true,
-    "flush_cut": false,
-    "extra_blades": true,
+    "flush_cut": true,
+    "extra_blades": false,
     "blade_storage": false
    },
-   "image": "https://m.media-amazon.com/images/I/61TCgapegwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DK2TJ44N?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hacksaws.html#B0DK2TJ44N"
+   "image": "https://m.media-amazon.com/images/I/61a3Is7FFfL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07R92S9YZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hacksaws.html#B07R92S9YZ"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B01BMVZVUY",
    "name": "Milwaukee 48-22-0050 12-Inch High Tension Hacksaw",
    "brand": "Milwaukee",
@@ -160,7 +121,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 546,
-   "score": 78,
+   "score": 87,
    "award": null,
    "best_for": "Trades who want a pro saw for less than the LENOX.",
    "bought_last_month": "400+/mo",
@@ -190,44 +151,82 @@
    "page_url": "https://toolboxtop10.com/hacksaws.html#B01BMVZVUY"
   },
   {
-   "rank": 5,
-   "asin": "B09PYHS642",
-   "name": "KATA 10-Inch Mini Hacksaw with 3 Bi-Metal Blades",
-   "brand": "KATA",
-   "model": "10-inch",
-   "price": 9.99,
+   "rank": 4,
+   "asin": "B0DK2TJ44N",
+   "name": "AIRAJ 12-Inch High-Tension Hacksaw with 10 Spare Blades",
+   "brand": "AIRAJ",
+   "model": "12-inch",
+   "price": 13.99,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1634,
-   "score": 75,
+   "rating": 4.5,
+   "reviews_count": 792,
+   "score": 86,
    "award": null,
-   "best_for": "Light jobs and tight spaces.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A compact aluminum mini hacksaw with two spare blades for light cuts in PVC, rod and bolts.",
+   "best_for": "DIYers who go through blades.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A steel-frame hacksaw with ten spare blades in the box, for about $13.",
    "pros": [
-    "2,000+ sold last month",
-    "Spare blades",
-    "Compact"
+    "10 spare blades",
+    "About $13"
    ],
    "cons": [
-    "Light-duty",
-    "4.4 stars"
+    "4.5 stars",
+    "Tension rating not listed"
    ],
    "specs": {
-    "blade": "10 in, 24 TPI bi-metal",
-    "tension": null,
-    "blades_incl": "1 plus 2 spares",
-    "extras": "Aluminum frame"
+    "blade": "12 in, 24 TPI bi-metal",
+    "tension": "Knob-adjusted",
+    "blades_incl": "1 plus 10 spares",
+    "extras": "Steel frame"
    },
    "features": {
-    "high_tension": false,
+    "high_tension": true,
     "flush_cut": false,
     "extra_blades": true,
     "blade_storage": false
    },
-   "image": "https://m.media-amazon.com/images/I/61dfhhuyzqL._AC_SL1280_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09PYHS642?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hacksaws.html#B09PYHS642"
+   "image": "https://m.media-amazon.com/images/I/61TCgapegwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DK2TJ44N?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hacksaws.html#B0DK2TJ44N"
+  },
+  {
+   "rank": 5,
+   "asin": "B0024OW0F8",
+   "name": "LENOX Lightweight Hacksaw (1213188300)",
+   "brand": "LENOX",
+   "model": "1213188300",
+   "price": 21.49,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 151,
+   "score": 86,
+   "award": null,
+   "best_for": "Anyone who wants LENOX quality for less.",
+   "bought_last_month": null,
+   "verdict": "A lighter LENOX frame that still tensions to 30,000 psi, with a front grip for two-handed cutting and a 45-degree position for flush cuts.",
+   "pros": [
+    "30,000 psi",
+    "Front grip",
+    "45° flush cuts"
+   ],
+   "cons": [
+    "Only 151 reviews"
+   ],
+   "specs": {
+    "blade": "12 in",
+    "tension": "Up to 30,000 psi",
+    "blades_incl": null,
+    "extras": "Front-handle grip, 45° blade mounting"
+   },
+   "features": {
+    "high_tension": true,
+    "flush_cut": true,
+    "extra_blades": false,
+    "blade_storage": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41exRVbObtL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0024OW0F8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hacksaws.html#B0024OW0F8"
   },
   {
    "rank": 6,
@@ -239,7 +238,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 539,
-   "score": 75,
+   "score": 85,
    "award": null,
    "best_for": "Stocking a shop or garage with every size at once.",
    "bought_last_month": "300+/mo",
@@ -279,7 +278,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 580,
-   "score": 73,
+   "score": 82,
    "award": "Best Budget",
    "best_for": "A cheap spare for the garage.",
    "bought_last_month": "300+/mo",
@@ -309,32 +308,32 @@
   },
   {
    "rank": 8,
-   "asin": "B0024OW0F8",
-   "name": "LENOX Lightweight Hacksaw (1213188300)",
-   "brand": "LENOX",
-   "model": "1213188300",
-   "price": 21.49,
+   "asin": "B0F1Z2RS83",
+   "name": "Klein Tools 31430 High Tension Hacksaw with Heavy-Duty Frame and Jab Saw",
+   "brand": "Klein Tools",
+   "model": "31430",
+   "price": 29.98,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 151,
-   "score": 73,
+   "reviews_count": 67,
+   "score": 82,
    "award": null,
-   "best_for": "Anyone who wants LENOX quality for less.",
-   "bought_last_month": null,
-   "verdict": "A lighter LENOX frame that still tensions to 30,000 psi, with a front grip for two-handed cutting and a 45-degree position for flush cuts.",
+   "best_for": "Electricians cutting conduit and strut.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A Klein hacksaw that tensions to 30,000 psi, mounts the blade at 45 or 90 degrees, and converts to a jab saw without tools.",
    "pros": [
-    "30,000 psi",
-    "Front grip",
-    "45° flush cuts"
+    "Jab saw conversion",
+    "45° mounting",
+    "30,000 psi"
    ],
    "cons": [
-    "Only 151 reviews"
+    "Only 67 reviews"
    ],
    "specs": {
-    "blade": "12 in",
+    "blade": "12 in, bi-metal",
     "tension": "Up to 30,000 psi",
-    "blades_incl": null,
-    "extras": "Front-handle grip, 45° blade mounting"
+    "blades_incl": "1",
+    "extras": "Converts to jab saw tool-free, 45° and 90° mounting"
    },
    "features": {
     "high_tension": true,
@@ -342,12 +341,52 @@
     "extra_blades": false,
     "blade_storage": false
    },
-   "image": "https://m.media-amazon.com/images/I/41exRVbObtL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0024OW0F8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hacksaws.html#B0024OW0F8"
+   "image": "https://m.media-amazon.com/images/I/41tPXRAUYqL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F1Z2RS83?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hacksaws.html#B0F1Z2RS83"
   },
   {
    "rank": 9,
+   "asin": "B09PYHS642",
+   "name": "KATA 10-Inch Mini Hacksaw with 3 Bi-Metal Blades",
+   "brand": "KATA",
+   "model": "10-inch",
+   "price": 9.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1634,
+   "score": 80,
+   "award": null,
+   "best_for": "Light jobs and tight spaces.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A compact aluminum mini hacksaw with two spare blades for light cuts in PVC, rod and bolts.",
+   "pros": [
+    "2,000+ sold last month",
+    "Spare blades",
+    "Compact"
+   ],
+   "cons": [
+    "Light-duty",
+    "4.4 stars"
+   ],
+   "specs": {
+    "blade": "10 in, 24 TPI bi-metal",
+    "tension": null,
+    "blades_incl": "1 plus 2 spares",
+    "extras": "Aluminum frame"
+   },
+   "features": {
+    "high_tension": false,
+    "flush_cut": false,
+    "extra_blades": true,
+    "blade_storage": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61dfhhuyzqL._AC_SL1280_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09PYHS642?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hacksaws.html#B09PYHS642"
+  },
+  {
+   "rank": 10,
    "asin": "B003VY8WA2",
    "name": "Milwaukee 48-22-0012 Compact Hacksaw with Tool-Less Blade Change, 10-Inch Blade",
    "brand": "Milwaukee",
@@ -356,7 +395,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1683,
-   "score": 72,
+   "score": 76,
    "award": null,
    "best_for": "Cutting in cabinets, crawlspaces and tight runs.",
    "bought_last_month": "400+/mo",
@@ -385,45 +424,6 @@
    "image": "https://m.media-amazon.com/images/I/41GAI6HuY+L._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B003VY8WA2?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/hacksaws.html#B003VY8WA2"
-  },
-  {
-   "rank": 10,
-   "asin": "B0F1Z2RS83",
-   "name": "Klein Tools 31430 High Tension Hacksaw with Heavy-Duty Frame and Jab Saw",
-   "brand": "Klein Tools",
-   "model": "31430",
-   "price": 29.98,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 67,
-   "score": 71,
-   "award": null,
-   "best_for": "Electricians cutting conduit and strut.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A Klein hacksaw that tensions to 30,000 psi, mounts the blade at 45 or 90 degrees, and converts to a jab saw without tools.",
-   "pros": [
-    "Jab saw conversion",
-    "45° mounting",
-    "30,000 psi"
-   ],
-   "cons": [
-    "Only 67 reviews"
-   ],
-   "specs": {
-    "blade": "12 in, bi-metal",
-    "tension": "Up to 30,000 psi",
-    "blades_incl": "1",
-    "extras": "Converts to jab saw tool-free, 45° and 90° mounting"
-   },
-   "features": {
-    "high_tension": true,
-    "flush_cut": true,
-    "extra_blades": false,
-    "blade_storage": false
-   },
-   "image": "https://m.media-amazon.com/images/I/41tPXRAUYqL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F1Z2RS83?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hacksaws.html#B0F1Z2RS83"
   }
  ],
  "avoid": [

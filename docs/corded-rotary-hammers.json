@@ -21,7 +21,7 @@
    "safety_clutch": 0.3,
    "kit": 0.3
   },
-  "reviews_ceiling": 5000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -42,7 +42,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3539,
-   "score": 95,
+   "score": 96,
    "award": null,
    "best_for": "Breaking tile and chiseling concrete with the hardest hitter here.",
    "bought_last_month": "300+/mo",
@@ -84,7 +84,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 2812,
-   "score": 94,
+   "score": 96,
    "award": null,
    "best_for": "Chiseling tile and drilling bigger holes in concrete on a budget.",
    "bought_last_month": "100+/mo",
@@ -125,7 +125,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1827,
-   "score": 91,
+   "score": 96,
    "award": null,
    "best_for": "Chipping and tile removal with a full accessory kit.",
    "bought_last_month": "100+/mo",
@@ -166,7 +166,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 522,
-   "score": 87,
+   "score": 96,
    "award": "Best Budget",
    "best_for": "DIY anchor holes with the lightest hammer here.",
    "bought_last_month": "900+/mo",
@@ -208,7 +208,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 374,
-   "score": 86,
+   "score": 96,
    "award": null,
    "best_for": "Concrete work with a full bit and chisel kit at a low price.",
    "bought_last_month": "100+/mo",
@@ -248,7 +248,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 180,
-   "score": 84,
+   "score": 96,
    "award": null,
    "best_for": "Demolition and big holes in concrete for under $100.",
    "bought_last_month": "100+/mo",
@@ -281,47 +281,6 @@
   },
   {
    "rank": 7,
-   "asin": "B08QRXN5JZ",
-   "name": "Berserker 1-1/8\" SDS-Plus Rotary Hammer Drill for Concrete 26FA, 9 Amp",
-   "brand": "Berserker",
-   "model": "26FA",
-   "price": 79.79,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 917,
-   "score": 81,
-   "award": null,
-   "best_for": "Light construction with more rated impact than the name brands, under $80.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A 9.5 lb mid-size hammer that out-hits the name brands on paper (3.3 ft-lb) for under $80, with an aluminum housing and a 2-year warranty.",
-   "pros": [
-    "More rated impact energy than the Makita",
-    "Overload clutch and aluminum housing",
-    "Bits, 2 chisels, and a case included",
-    "2-year warranty"
-   ],
-   "cons": [
-    "The listing makes no vibration-control claim",
-    "The brand says it's for light construction, not heavy demolition"
-   ],
-   "specs": {
-    "amps": "9 A",
-    "impact": "3.3 ft-lb (4.5 J)",
-    "capacity": "1-1/8\"",
-    "modes": "3",
-    "warranty": "2 years"
-   },
-   "features": {
-    "vibration_control": false,
-    "safety_clutch": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71bTDqa7tEL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08QRXN5JZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-rotary-hammers.html#B08QRXN5JZ"
-  },
-  {
-   "rank": 8,
    "asin": "B00Z5LTQYU",
    "name": "Makita HR2641 1\" AVT Rotary Hammer, Accepts SDS-Plus Bits (D-Handle)",
    "brand": "Makita",
@@ -330,7 +289,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 230,
-   "score": 79,
+   "score": 91,
    "award": "Best Overall",
    "best_for": "Regular concrete drilling where low vibration matters most.",
    "bought_last_month": null,
@@ -363,6 +322,47 @@
    "page_url": "https://toolboxtop10.com/corded-rotary-hammers.html#B00Z5LTQYU"
   },
   {
+   "rank": 8,
+   "asin": "B08QRXN5JZ",
+   "name": "Berserker 1-1/8\" SDS-Plus Rotary Hammer Drill for Concrete 26FA, 9 Amp",
+   "brand": "Berserker",
+   "model": "26FA",
+   "price": 79.79,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 917,
+   "score": 88,
+   "award": null,
+   "best_for": "Light construction with more rated impact than the name brands, under $80.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A 9.5 lb mid-size hammer that out-hits the name brands on paper (3.3 ft-lb) for under $80, with an aluminum housing and a 2-year warranty.",
+   "pros": [
+    "More rated impact energy than the Makita",
+    "Overload clutch and aluminum housing",
+    "Bits, 2 chisels, and a case included",
+    "2-year warranty"
+   ],
+   "cons": [
+    "The listing makes no vibration-control claim",
+    "The brand says it's for light construction, not heavy demolition"
+   ],
+   "specs": {
+    "amps": "9 A",
+    "impact": "3.3 ft-lb (4.5 J)",
+    "capacity": "1-1/8\"",
+    "modes": "3",
+    "warranty": "2 years"
+   },
+   "features": {
+    "vibration_control": false,
+    "safety_clutch": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71bTDqa7tEL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08QRXN5JZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-rotary-hammers.html#B08QRXN5JZ"
+  },
+  {
    "rank": 9,
    "asin": "B0B5DT14F9",
    "name": "WORKPRO 1-1/4 Inch SDS-Plus Rotary Hammer Drill, 7.5 Amp, Lightweight Corded, 5 SDS-Plus Bits (W125173A)",
@@ -372,7 +372,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 301,
-   "score": 71,
+   "score": 82,
    "award": null,
    "best_for": "Overhead anchor holes where a lighter hammer matters.",
    "bought_last_month": "50+/mo",
@@ -413,7 +413,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 47,
-   "score": 69,
+   "score": 80,
    "award": null,
    "best_for": "Chiseling tile and drilling bigger anchor holes on a budget.",
    "bought_last_month": "100+/mo",

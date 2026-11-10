@@ -22,7 +22,7 @@
    "laser": 0.2,
    "high_bevel": 0.2
   },
-  "reviews_ceiling": 60000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,48 +35,6 @@
  "products": [
   {
    "rank": 1,
-   "asin": "B01BD81BLO",
-   "name": "SKIL 5280-01 15 Amp 7-1/4\" Circular Saw",
-   "brand": "SKIL",
-   "model": "5280-01",
-   "price": 59.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 14233,
-   "score": 88,
-   "award": "Best Budget",
-   "best_for": "The most saw per dollar: 15 amps and a laser guide for about $70.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "The value legend, and the highest-scoring corded saw on this list. 14,000 reviews at 4.6 stars, full 15-amp power, and a laser guide for around $70. The most saw per dollar you can buy.",
-   "pros": [
-    "Most-reviewed saw here — 14,233 ratings at 4.6 stars",
-    "Full 15-amp power under $70",
-    "Single-beam laser guide"
-   ],
-   "cons": [
-    "No electric brake",
-    "Basic build vs the DEWALT and SKILSAW"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "15 amp",
-    "blade": "7-1/4 in",
-    "max_rpm": null,
-    "bevel": "0-51°",
-    "weight": "8.7 lb"
-   },
-   "features": {
-    "kit": true,
-    "brake": false,
-    "laser": true,
-    "high_bevel": true
-   },
-   "image": "https://m.media-amazon.com/images/I/616jB6IRDPS._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01BD81BLO?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B01BD81BLO"
-  },
-  {
-   "rank": 2,
    "asin": "B007QUZ16A",
    "name": "DEWALT DWE575SB 7-1/4\" Circular Saw (electric brake)",
    "brand": "DEWALT",
@@ -85,7 +43,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 5223,
-   "score": 87,
+   "score": 95,
    "award": "Best Overall",
    "best_for": "The best all-round corded saw, with a blade brake for safety.",
    "bought_last_month": "600+/mo",
@@ -118,49 +76,49 @@
    "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B007QUZ16A"
   },
   {
-   "rank": 3,
-   "asin": "B01KJJQ1MC",
-   "name": "Skil 5080-01 13 Amp 7-1/4\" Circular Saw",
+   "rank": 2,
+   "asin": "B01BD81BLO",
+   "name": "SKIL 5280-01 15 Amp 7-1/4\" Circular Saw",
    "brand": "SKIL",
-   "model": "5080-01",
-   "price": 44.0,
+   "model": "5280-01",
+   "price": 59.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 5466,
-   "score": 82,
-   "award": null,
-   "best_for": "Occasional cuts around the house at the lowest price for a name-brand full-size saw.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The cheapest name-brand 7-1/4\" saw here. A 13-amp motor is a touch less muscle than the 15-amp models, but for occasional cuts around the house it's hard to argue with $44 and 5,000+ reviews.",
+   "reviews_count": 14233,
+   "score": 92,
+   "award": "Best Budget",
+   "best_for": "The most saw per dollar: 15 amps and a laser guide for about $70.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "The value legend: 14,000 reviews at 4.6 stars, full 15-amp power, and a laser guide for around $70. The most saw per dollar you can buy.",
    "pros": [
-    "Cheapest name-brand full-size saw here",
-    "13-amp power, 5,466 reviews at 4.6 stars",
-    "Just plug in and cut"
+    "Most-reviewed saw here — 14,233 ratings at 4.6 stars",
+    "Full 15-amp power under $70",
+    "Single-beam laser guide"
    ],
    "cons": [
-    "13 amps vs 15 on the better saws",
-    "No brake, laser, or frills"
+    "No electric brake",
+    "Basic build vs the DEWALT and SKILSAW"
    ],
    "specs": {
     "type": "Corded",
-    "power": "13 amp",
+    "power": "15 amp",
     "blade": "7-1/4 in",
     "max_rpm": null,
     "bevel": "0-51°",
-    "weight": null
+    "weight": "8.7 lb"
    },
    "features": {
     "kit": true,
     "brake": false,
-    "laser": false,
+    "laser": true,
     "high_bevel": true
    },
-   "image": "https://m.media-amazon.com/images/I/61SSjOXHuKL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01KJJQ1MC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B01KJJQ1MC"
+   "image": "https://m.media-amazon.com/images/I/616jB6IRDPS._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01BD81BLO?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B01BD81BLO"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B00B7EUS46",
    "name": "SKILSAW SPT77WML-01 15 Amp 7-1/4\" Worm Drive Saw",
    "brand": "SKILSAW",
@@ -169,7 +127,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 2532,
-   "score": 81,
+   "score": 91,
    "award": "Money No Object",
    "best_for": "Framing and long rips in wet or thick lumber.",
    "bought_last_month": "100+/mo",
@@ -202,7 +160,7 @@
    "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B00B7EUS46"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "asin": "B007QUZ106",
    "name": "DEWALT DWE575 7-1/4\" Lightweight Circular Saw",
    "brand": "DEWALT",
@@ -211,7 +169,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 2204,
-   "score": 80,
+   "score": 90,
    "award": null,
    "best_for": "The DEWALT build for less, if you can live without the brake.",
    "bought_last_month": "400+/mo",
@@ -244,91 +202,7 @@
    "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B007QUZ106"
   },
   {
-   "rank": 6,
-   "asin": "B004YIALZI",
-   "name": "Makita 5007F 7-1/4\" Circular Saw",
-   "brand": "Makita",
-   "model": "5007F",
-   "price": 159.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1532,
-   "score": 78,
-   "award": null,
-   "best_for": "Tradespeople who want a fast, smooth sidewinder with LED cut-line lights.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A pro-grade corded classic — smooth, fast (5,800 rpm), and built to last, with twin LED lights on the cut line. A favorite of tradespeople who don't want a worm drive.",
-   "pros": [
-    "Smooth, fast 5,800 rpm motor",
-    "Built-in LED lights on the blade line",
-    "Long-running Makita reliability"
-   ],
-   "cons": [
-    "Pricier than the SKIL for similar cuts",
-    "No electric brake"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "15 amp",
-    "blade": "7-1/4 in",
-    "max_rpm": 5800,
-    "bevel": "0-45°",
-    "weight": null
-   },
-   "features": {
-    "kit": true,
-    "brake": false,
-    "laser": true,
-    "high_bevel": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71-zmp7kV5L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B004YIALZI?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B004YIALZI"
-  },
-  {
-   "rank": 7,
-   "asin": "B01BD81C36",
-   "name": "SKIL 5180-01 14 Amp 7-1/4\" Circular Saw",
-   "brand": "SKIL",
-   "model": "5180-01",
-   "price": 59.98,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 862,
-   "score": 76,
-   "award": null,
-   "best_for": "A no-drama 14-amp saw under $60.",
-   "bought_last_month": "100+/mo",
-   "verdict": "SKIL's mid-tier corded saw — a 14-amp motor that splits the difference between the budget 5080 and the 15-amp 5280. A solid, no-drama pick under $60.",
-   "pros": [
-    "14-amp motor, 7-1/4\" blade",
-    "Trusted SKIL build under $60",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Fewer reviews than the 5280/5080",
-    "No brake or laser"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "14 amp",
-    "blade": "7-1/4 in",
-    "max_rpm": null,
-    "bevel": "0-51°",
-    "weight": null
-   },
-   "features": {
-    "kit": true,
-    "brake": false,
-    "laser": false,
-    "high_bevel": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61gr-FlgxLL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B01BD81C36?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B01BD81C36"
-  },
-  {
-   "rank": 8,
+   "rank": 5,
    "asin": "B00OKGAURI",
    "name": "SKILSAW SPT67WL-01 15 Amp 7-1/4\" Sidewinder Saw",
    "brand": "SKILSAW",
@@ -337,7 +211,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 532,
-   "score": 75,
+   "score": 90,
    "award": null,
    "best_for": "Long cuts where a cooler-running motor matters, without worm-drive weight.",
    "bought_last_month": "50+/mo",
@@ -370,6 +244,132 @@
    "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B00OKGAURI"
   },
   {
+   "rank": 6,
+   "asin": "B01KJJQ1MC",
+   "name": "Skil 5080-01 13 Amp 7-1/4\" Circular Saw",
+   "brand": "SKIL",
+   "model": "5080-01",
+   "price": 44.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 5466,
+   "score": 89,
+   "award": null,
+   "best_for": "Occasional cuts around the house at the lowest price for a name-brand full-size saw.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The cheapest name-brand 7-1/4\" saw here. A 13-amp motor is a touch less muscle than the 15-amp models, but for occasional cuts around the house it's hard to argue with $44 and 5,000+ reviews.",
+   "pros": [
+    "Cheapest name-brand full-size saw here",
+    "13-amp power, 5,466 reviews at 4.6 stars",
+    "Just plug in and cut"
+   ],
+   "cons": [
+    "13 amps vs 15 on the better saws",
+    "No brake, laser, or frills"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "13 amp",
+    "blade": "7-1/4 in",
+    "max_rpm": null,
+    "bevel": "0-51°",
+    "weight": null
+   },
+   "features": {
+    "kit": true,
+    "brake": false,
+    "laser": false,
+    "high_bevel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61SSjOXHuKL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01KJJQ1MC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B01KJJQ1MC"
+  },
+  {
+   "rank": 7,
+   "asin": "B004YIALZI",
+   "name": "Makita 5007F 7-1/4\" Circular Saw",
+   "brand": "Makita",
+   "model": "5007F",
+   "price": 159.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1532,
+   "score": 89,
+   "award": null,
+   "best_for": "Tradespeople who want a fast, smooth sidewinder with LED cut-line lights.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A pro-grade corded classic — smooth, fast (5,800 rpm), and built to last, with twin LED lights on the cut line. A favorite of tradespeople who don't want a worm drive.",
+   "pros": [
+    "Smooth, fast 5,800 rpm motor",
+    "Built-in LED lights on the blade line",
+    "Long-running Makita reliability"
+   ],
+   "cons": [
+    "Pricier than the SKIL for similar cuts",
+    "No electric brake"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "15 amp",
+    "blade": "7-1/4 in",
+    "max_rpm": 5800,
+    "bevel": "0-45°",
+    "weight": null
+   },
+   "features": {
+    "kit": true,
+    "brake": false,
+    "laser": true,
+    "high_bevel": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71-zmp7kV5L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B004YIALZI?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B004YIALZI"
+  },
+  {
+   "rank": 8,
+   "asin": "B01BD81C36",
+   "name": "SKIL 5180-01 14 Amp 7-1/4\" Circular Saw",
+   "brand": "SKIL",
+   "model": "5180-01",
+   "price": 59.98,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 862,
+   "score": 89,
+   "award": null,
+   "best_for": "A no-drama 14-amp saw under $60.",
+   "bought_last_month": "100+/mo",
+   "verdict": "SKIL's mid-tier corded saw — a 14-amp motor that splits the difference between the budget 5080 and the 15-amp 5280. A solid, no-drama pick under $60.",
+   "pros": [
+    "14-amp motor, 7-1/4\" blade",
+    "Trusted SKIL build under $60",
+    "4.6 stars"
+   ],
+   "cons": [
+    "Fewer reviews than the 5280/5080",
+    "No brake or laser"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "14 amp",
+    "blade": "7-1/4 in",
+    "max_rpm": null,
+    "bevel": "0-51°",
+    "weight": null
+   },
+   "features": {
+    "kit": true,
+    "brake": false,
+    "laser": false,
+    "high_bevel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61gr-FlgxLL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B01BD81C36?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-circular-saws.html#B01BD81C36"
+  },
+  {
    "rank": 9,
    "asin": "B0CW2XVXSB",
    "name": "GALAX PRO 11A 7-1/4\" Corded Circular Saw",
@@ -379,7 +379,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 282,
-   "score": 68,
+   "score": 85,
    "award": null,
    "best_for": "A full-size 7-1/4 in saw for about $32 for occasional jobs.",
    "bought_last_month": "100+/mo",
@@ -421,7 +421,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 125,
-   "score": 65,
+   "score": 82,
    "award": null,
    "best_for": "Occasional cuts in 2x4s, plywood and PVC on the smallest budget.",
    "bought_last_month": "400+/mo",

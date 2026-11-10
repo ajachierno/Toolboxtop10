@@ -22,7 +22,7 @@
    "mode_select": 0.2,
    "tool_free_jam": 0.15
   },
-  "reviews_ceiling": 4000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 100,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -43,7 +43,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 3447,
-   "score": 96,
+   "score": 97,
    "award": "Best Overall",
    "best_for": "Starting on DEWALT 20V with the best-rated nailer.",
    "bought_last_month": "200+/mo",
@@ -77,6 +77,88 @@
   },
   {
    "rank": 2,
+   "asin": "B0BRTC5VN7",
+   "name": "Metabo HPT 18 Gauge Brushless Cordless Brad Nailer Kit (NT1850DFT)",
+   "brand": "Metabo HPT",
+   "model": "NT1850DFT",
+   "price": 279.8,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 250,
+   "score": 93,
+   "award": null,
+   "best_for": "Metabo HPT users who want brushless speed and a firing-mode switch.",
+   "bought_last_month": "50+/mo",
+   "verdict": "Metabo HPT's brushless air-spring nailer: lighter and faster than the NT1850DG, with a firing-mode switch.",
+   "pros": [
+    "Brushless motor and air spring drive, up to 2 nails per second",
+    "Up to 1,300 nails per charge (Metabo HPT's figure)",
+    "Sequential or bump fire switch, tool-less depth",
+    "Metabo HPT lifetime warranty"
+   ],
+   "cons": [
+    "$279.80 against $169 for the NT1850DG",
+    "Sold by a third-party seller (AB Promise)"
+   ],
+   "specs": {
+    "voltage": "18V (MultiVolt)",
+    "nails": "5/8 to 2 in",
+    "battery": "2.0Ah battery + charger",
+    "mechanism": "Air spring"
+   },
+   "features": {
+    "kit": true,
+    "brushless": true,
+    "mode_select": true,
+    "tool_free_jam": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71N94ToykCL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BRTC5VN7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B0BRTC5VN7"
+  },
+  {
+   "rank": 3,
+   "asin": "B07KHBZ2BP",
+   "name": "CRAFTSMAN V20 Cordless Brad Nailer, 18 Gauge, with Battery and Charger (CMCN618C1)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCN618C1",
+   "price": 219.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 3149,
+   "score": 92,
+   "award": null,
+   "best_for": "Starting fresh: a complete brad nailer kit sold by Amazon.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A complete 18-gauge kit for people who don't already own a battery platform. Sold and shipped by Amazon, rated 4.6 stars across more than 3,100 reviews.",
+   "pros": [
+    "Tool, battery, and charger in one box",
+    "Tool-free depth and jam/stall settings",
+    "Sold and shipped by Amazon",
+    "3,100+ reviews, the most of any kit here"
+   ],
+   "cons": [
+    "Listing doesn't state the nail length range or firing modes",
+    "Its spec table is copied from a saw (blade, 24 teeth, 2,800 rpm), so ignore it"
+   ],
+   "specs": {
+    "voltage": "20V",
+    "nails": null,
+    "battery": "1 battery + charger",
+    "mechanism": null
+   },
+   "features": {
+    "kit": true,
+    "brushless": true,
+    "mode_select": false,
+    "tool_free_jam": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71gAUZoiv5L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07KHBZ2BP?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B07KHBZ2BP"
+  },
+  {
+   "rank": 4,
    "asin": "B06XF6MZJ5",
    "name": "DEWALT DCN680B 20V MAX* XR 18 GA Cordless Brad Nailer (Tool Only)",
    "brand": "DEWALT",
@@ -118,89 +200,48 @@
    "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B06XF6MZJ5"
   },
   {
-   "rank": 3,
-   "asin": "B07KHBZ2BP",
-   "name": "CRAFTSMAN V20 Cordless Brad Nailer, 18 Gauge, with Battery and Charger (CMCN618C1)",
-   "brand": "CRAFTSMAN",
-   "model": "CMCN618C1",
-   "price": 219.0,
+   "rank": 5,
+   "asin": "B0CRYYLPZC",
+   "name": "SKIL PWR CORE 20 Brushless 20V 18Ga Brad Nailer Kit with 2.0Ah USB-C Battery and Charger (NA1800B-10)",
+   "brand": "SKIL",
+   "model": "NA1800B-10",
+   "price": 152.1,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 3149,
-   "score": 91,
+   "rating": 4.5,
+   "reviews_count": 229,
+   "score": 88,
    "award": null,
-   "best_for": "Starting fresh: a complete brad nailer kit sold by Amazon.",
+   "best_for": "A brushless kit with a USB-C battery at a mid-range price.",
    "bought_last_month": "50+/mo",
-   "verdict": "A complete 18-gauge kit for people who don't already own a battery platform. Sold and shipped by Amazon, rated 4.6 stars across more than 3,100 reviews.",
+   "verdict": "A brushless kit at a mid-range price. The battery charges over USB-C, and SKIL claims up to 1,000 nails per charge.",
    "pros": [
-    "Tool, battery, and charger in one box",
-    "Tool-free depth and jam/stall settings",
-    "Sold and shipped by Amazon",
-    "3,100+ reviews, the most of any kit here"
+    "Brushless motor",
+    "Up to 1,000 nails per charge (SKIL's figure), up to 2 nails per second",
+    "Dry-fire lockout and depth adjustment wheel",
+    "USB-C battery and 45W charger included"
    ],
    "cons": [
-    "Listing doesn't state the nail length range or firing modes",
-    "Its spec table is copied from a saw (blade, 24 teeth, 2,800 rpm), so ignore it"
+    "Delivery estimate was late October to mid-November when we checked",
+    "No selectable firing mode or tool-free jam release listed"
    ],
    "specs": {
-    "voltage": "20V",
+    "voltage": "20V (PWR CORE 20)",
     "nails": null,
-    "battery": "1 battery + charger",
+    "battery": "2.0Ah USB-C battery + charger",
     "mechanism": null
    },
    "features": {
     "kit": true,
     "brushless": true,
     "mode_select": false,
-    "tool_free_jam": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71gAUZoiv5L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07KHBZ2BP?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B07KHBZ2BP"
-  },
-  {
-   "rank": 4,
-   "asin": "B0BRTC5VN7",
-   "name": "Metabo HPT 18 Gauge Brushless Cordless Brad Nailer Kit (NT1850DFT)",
-   "brand": "Metabo HPT",
-   "model": "NT1850DFT",
-   "price": 279.8,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 250,
-   "score": 83,
-   "award": null,
-   "best_for": "Metabo HPT users who want brushless speed and a firing-mode switch.",
-   "bought_last_month": "50+/mo",
-   "verdict": "Metabo HPT's brushless air-spring nailer: lighter and faster than the NT1850DG, with a firing-mode switch.",
-   "pros": [
-    "Brushless motor and air spring drive, up to 2 nails per second",
-    "Up to 1,300 nails per charge (Metabo HPT's figure)",
-    "Sequential or bump fire switch, tool-less depth",
-    "Metabo HPT lifetime warranty"
-   ],
-   "cons": [
-    "$279.80 against $169 for the NT1850DG",
-    "Sold by a third-party seller (AB Promise)"
-   ],
-   "specs": {
-    "voltage": "18V (MultiVolt)",
-    "nails": "5/8 to 2 in",
-    "battery": "2.0Ah battery + charger",
-    "mechanism": "Air spring"
-   },
-   "features": {
-    "kit": true,
-    "brushless": true,
-    "mode_select": true,
     "tool_free_jam": false
    },
-   "image": "https://m.media-amazon.com/images/I/71N94ToykCL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BRTC5VN7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B0BRTC5VN7"
+   "image": "https://m.media-amazon.com/images/I/61gSYrKuu0L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CRYYLPZC?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B0CRYYLPZC"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B07VYJQ1KP",
    "name": "Milwaukee M18 FUEL 18 Gauge Brad Nailer (2746-20)",
    "brand": "Milwaukee",
@@ -209,7 +250,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 823,
-   "score": 80,
+   "score": 86,
    "award": null,
    "best_for": "Milwaukee M18 owners who want zero ramp-up and two firing modes.",
    "bought_last_month": "100+/mo",
@@ -241,48 +282,6 @@
    "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B07VYJQ1KP"
   },
   {
-   "rank": 6,
-   "asin": "B0D19V5RTY",
-   "name": "Metabo HPT 18 Gauge Cordless Brad Nailer, 18V Kit (NT1850DG)",
-   "brand": "Metabo HPT",
-   "model": "NT1850DG",
-   "price": 169.0,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 976,
-   "score": 79,
-   "award": null,
-   "best_for": "A name-brand kit from a nailer specialist without DEWALT prices.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A $169 kit from a nailer specialist, rated 4.7 stars. The value pick if you want a name brand without paying DEWALT prices.",
-   "pros": [
-    "Drives 5/8 to 2 in brads",
-    "Up to 700 nails per charge on the included 2.0Ah battery",
-    "No ramp-up time between nails",
-    "Includes no-mar nose caps and safety glasses; sold by Amazon"
-   ],
-   "cons": [
-    "Listing doesn't claim a brushless motor",
-    "No selectable firing mode listed",
-    "The price moves: $239 at our previous check, $169 now"
-   ],
-   "specs": {
-    "voltage": "18V (MultiVolt)",
-    "nails": "5/8 to 2 in",
-    "battery": "2.0Ah battery + charger",
-    "mechanism": "Mechanical spring"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "mode_select": false,
-    "tool_free_jam": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81LJ+Uj5uxL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D19V5RTY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B0D19V5RTY"
-  },
-  {
    "rank": 7,
    "asin": "B0C9FV7SJ9",
    "name": "WORX NITRO 20V Cordless 18GA Brad Nailer with Battery and Charger (WX842L)",
@@ -292,7 +291,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 751,
-   "score": 79,
+   "score": 85,
    "award": null,
    "best_for": "A full kit with bag and nails on the WORX battery platform.",
    "bought_last_month": "100+/mo",
@@ -326,44 +325,45 @@
   },
   {
    "rank": 8,
-   "asin": "B0CRYYLPZC",
-   "name": "SKIL PWR CORE 20 Brushless 20V 18Ga Brad Nailer Kit with 2.0Ah USB-C Battery and Charger (NA1800B-10)",
-   "brand": "SKIL",
-   "model": "NA1800B-10",
-   "price": 152.1,
+   "asin": "B0D19V5RTY",
+   "name": "Metabo HPT 18 Gauge Cordless Brad Nailer, 18V Kit (NT1850DG)",
+   "brand": "Metabo HPT",
+   "model": "NT1850DG",
+   "price": 169.0,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 229,
-   "score": 78,
+   "rating": 4.7,
+   "reviews_count": 976,
+   "score": 84,
    "award": null,
-   "best_for": "A brushless kit with a USB-C battery at a mid-range price.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A brushless kit at a mid-range price. The battery charges over USB-C, and SKIL claims up to 1,000 nails per charge.",
+   "best_for": "A name-brand kit from a nailer specialist without DEWALT prices.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A $169 kit from a nailer specialist, rated 4.7 stars. The value pick if you want a name brand without paying DEWALT prices.",
    "pros": [
-    "Brushless motor",
-    "Up to 1,000 nails per charge (SKIL's figure), up to 2 nails per second",
-    "Dry-fire lockout and depth adjustment wheel",
-    "USB-C battery and 45W charger included"
+    "Drives 5/8 to 2 in brads",
+    "Up to 700 nails per charge on the included 2.0Ah battery",
+    "No ramp-up time between nails",
+    "Includes no-mar nose caps and safety glasses; sold by Amazon"
    ],
    "cons": [
-    "Delivery estimate was late October to mid-November when we checked",
-    "No selectable firing mode or tool-free jam release listed"
+    "Listing doesn't claim a brushless motor",
+    "No selectable firing mode listed",
+    "The price moves: $239 at our previous check, $169 now"
    ],
    "specs": {
-    "voltage": "20V (PWR CORE 20)",
-    "nails": null,
-    "battery": "2.0Ah USB-C battery + charger",
-    "mechanism": null
+    "voltage": "18V (MultiVolt)",
+    "nails": "5/8 to 2 in",
+    "battery": "2.0Ah battery + charger",
+    "mechanism": "Mechanical spring"
    },
    "features": {
     "kit": true,
-    "brushless": true,
+    "brushless": false,
     "mode_select": false,
     "tool_free_jam": false
    },
-   "image": "https://m.media-amazon.com/images/I/61gSYrKuu0L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CRYYLPZC?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B0CRYYLPZC"
+   "image": "https://m.media-amazon.com/images/I/81LJ+Uj5uxL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D19V5RTY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-brad-nailers.html#B0D19V5RTY"
   },
   {
    "rank": 9,
@@ -375,7 +375,7 @@
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 712,
-   "score": 72,
+   "score": 78,
    "award": "Best Budget",
    "best_for": "Occasional trim work with the cheapest complete kit.",
    "bought_last_month": "200+/mo",
@@ -416,7 +416,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 115,
-   "score": 67,
+   "score": 77,
    "award": null,
    "best_for": "RYOBI ONE+ owners who want a brushless nailer.",
    "bought_last_month": "50+/mo",

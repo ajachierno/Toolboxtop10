@@ -23,19 +23,112 @@
    "cut_guide": 0.15,
    "kit": 0.1
   },
-  "reviews_ceiling": 3000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 250,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00X52TZYM",
+  "best_overall": "B0764S2BL6",
   "best_budget": "B09SNK2SBL",
   "money_no_object": "B004HASE0W"
  },
  "products": [
   {
    "rank": 1,
+   "asin": "B0764S2BL6",
+   "name": "Makita XSL06PT 18V X2 LXT (36V) Brushless 10-Inch Dual-Bevel Sliding Miter Saw Kit with Laser (5.0Ah)",
+   "brand": "Makita",
+   "model": "XSL06PT",
+   "price": 1139.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 214,
+   "score": 95,
+   "award": "Best Overall",
+   "best_for": "Makita LXT pros who want the most capable cordless slider.",
+   "bought_last_month": null,
+   "verdict": "A 10-inch dual-bevel slider that runs on two 18V LXT packs, sold as a complete kit. It's the most capable saw here and priced like it.",
+   "pros": [
+    "Two 5.0Ah batteries and a charger in the box",
+    "Makita rates it at 334 cuts of 2x4 or 192 cuts of 2x12 per charge",
+    "Brushless motor with a built-in laser",
+    "Bevels 0-48° both ways; the front bevel lock is easy to reach"
+   ],
+   "cons": [
+    "$1,139, nearly three times the DEWALT kit",
+    "Needs two batteries at once",
+    "The spec table's \"400 rpm\" is a typo; the listing bullets say 4,400"
+   ],
+   "specs": {
+    "blade": "10\"",
+    "voltage": "36V (2 x 18V LXT)",
+    "type": "Sliding compound",
+    "bevel": "0-48° L/R",
+    "crosscut": "4x12",
+    "speed": "4,400 rpm",
+    "weight": null,
+    "battery": "Two 5.0Ah batteries + charger"
+   },
+   "features": {
+    "sliding": true,
+    "dual_bevel": true,
+    "brushless": true,
+    "cut_guide": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61cuM3NhktL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0764S2BL6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-miter-saws.html#B0764S2BL6"
+  },
+  {
+   "rank": 2,
+   "asin": "B00X52TZYM",
+   "name": "DEWALT 20V MAX 7-1/4-Inch Sliding Miter Saw Kit with 4.0Ah Battery (DCS361M1)",
+   "brand": "DEWALT",
+   "model": "DCS361M1",
+   "price": 395.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 833,
+   "score": 88,
+   "award": null,
+   "best_for": "Getting into a cordless miter saw with no DEWALT packs.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The same DCS361 saw as the bare tool, packaged with a 4.0Ah battery and charger. For about $99 more than the tool alone, it's the cheapest way into a name-brand cordless miter saw if you own no DEWALT packs.",
+   "pros": [
+    "Battery (DCB204) and charger included, so it cuts out of the box",
+    "About $83 more than the bare tool",
+    "11 positive miter stops on a stainless detent plate",
+    "Cut-line blade positioning for trim work"
+   ],
+   "cons": [
+    "One 4.0Ah pack: expect to stop and recharge on a full day of framing",
+    "The listing's spec table says brushless and 16 ounces; the DEWALT bullets and the bare-tool listing say otherwise, so ignore that table"
+   ],
+   "specs": {
+    "blade": "7-1/4\"",
+    "voltage": "20V MAX",
+    "type": "Sliding compound",
+    "bevel": null,
+    "crosscut": null,
+    "speed": null,
+    "weight": "31.6 lb",
+    "battery": "4.0Ah battery + charger"
+   },
+   "features": {
+    "sliding": true,
+    "dual_bevel": false,
+    "brushless": false,
+    "cut_guide": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61sSoaHSlvL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00X52TZYM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-miter-saws.html#B00X52TZYM"
+  },
+  {
+   "rank": 3,
    "asin": "B00YEWX4SK",
    "name": "DEWALT 20V MAX 7-1/4-Inch Sliding Miter Saw, Tool Only (DCS361B)",
    "brand": "DEWALT",
@@ -82,99 +175,6 @@
    "page_url": "https://toolboxtop10.com/cordless-miter-saws.html#B00YEWX4SK"
   },
   {
-   "rank": 2,
-   "asin": "B00X52TZYM",
-   "name": "DEWALT 20V MAX 7-1/4-Inch Sliding Miter Saw Kit with 4.0Ah Battery (DCS361M1)",
-   "brand": "DEWALT",
-   "model": "DCS361M1",
-   "price": 395.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 833,
-   "score": 83,
-   "award": "Best Overall",
-   "best_for": "Getting into a cordless miter saw with no DEWALT packs.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The same DCS361 saw as the bare tool, packaged with a 4.0Ah battery and charger. For about $99 more than the tool alone, it's the cheapest way into a name-brand cordless miter saw if you own no DEWALT packs.",
-   "pros": [
-    "Battery (DCB204) and charger included, so it cuts out of the box",
-    "About $83 more than the bare tool",
-    "11 positive miter stops on a stainless detent plate",
-    "Cut-line blade positioning for trim work"
-   ],
-   "cons": [
-    "One 4.0Ah pack: expect to stop and recharge on a full day of framing",
-    "The listing's spec table says brushless and 16 ounces; the DEWALT bullets and the bare-tool listing say otherwise, so ignore that table"
-   ],
-   "specs": {
-    "blade": "7-1/4\"",
-    "voltage": "20V MAX",
-    "type": "Sliding compound",
-    "bevel": null,
-    "crosscut": null,
-    "speed": null,
-    "weight": "31.6 lb",
-    "battery": "4.0Ah battery + charger"
-   },
-   "features": {
-    "sliding": true,
-    "dual_bevel": false,
-    "brushless": false,
-    "cut_guide": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61sSoaHSlvL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00X52TZYM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-miter-saws.html#B00X52TZYM"
-  },
-  {
-   "rank": 3,
-   "asin": "B0764S2BL6",
-   "name": "Makita XSL06PT 18V X2 LXT (36V) Brushless 10-Inch Dual-Bevel Sliding Miter Saw Kit with Laser (5.0Ah)",
-   "brand": "Makita",
-   "model": "XSL06PT",
-   "price": 1139.0,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 214,
-   "score": 83,
-   "award": null,
-   "best_for": "Makita LXT pros who want the most capable cordless slider.",
-   "bought_last_month": null,
-   "verdict": "A 10-inch dual-bevel slider that runs on two 18V LXT packs, sold as a complete kit. It's the most capable saw here and priced like it.",
-   "pros": [
-    "Two 5.0Ah batteries and a charger in the box",
-    "Makita rates it at 334 cuts of 2x4 or 192 cuts of 2x12 per charge",
-    "Brushless motor with a built-in laser",
-    "Bevels 0-48° both ways; the front bevel lock is easy to reach"
-   ],
-   "cons": [
-    "$1,139, nearly three times the DEWALT kit",
-    "Needs two batteries at once",
-    "The spec table's \"400 rpm\" is a typo; the listing bullets say 4,400"
-   ],
-   "specs": {
-    "blade": "10\"",
-    "voltage": "36V (2 x 18V LXT)",
-    "type": "Sliding compound",
-    "bevel": "0-48° L/R",
-    "crosscut": "4x12",
-    "speed": "4,400 rpm",
-    "weight": null,
-    "battery": "Two 5.0Ah batteries + charger"
-   },
-   "features": {
-    "sliding": true,
-    "dual_bevel": true,
-    "brushless": true,
-    "cut_guide": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61cuM3NhktL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0764S2BL6?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-miter-saws.html#B0764S2BL6"
-  },
-  {
    "rank": 4,
    "asin": "B0794FNP1N",
    "name": "Makita XSL05Z 18V LXT Brushless 6-1/2-Inch Compact Dual-Bevel Miter Saw with Laser, Tool Only",
@@ -184,7 +184,7 @@
    "currency": "USD",
    "rating": 4.9,
    "reviews_count": 95,
-   "score": 76,
+   "score": 86,
    "award": null,
    "best_for": "Trim work on stairs and small stock, with the best rating here.",
    "bought_last_month": null,
@@ -231,7 +231,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 76,
-   "score": 75,
+   "score": 85,
    "award": "Money No Object",
    "best_for": "Full-size 12-inch cutting on one DEWALT battery.",
    "bought_last_month": "200+/mo",
@@ -278,7 +278,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 161,
-   "score": 72,
+   "score": 83,
    "award": null,
    "best_for": "A light slider that still crosscuts a 2x12.",
    "bought_last_month": null,
@@ -325,7 +325,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 69,
-   "score": 70,
+   "score": 81,
    "award": null,
    "best_for": "Trim carpenters who want dual bevel with no rails out back.",
    "bought_last_month": "100+/mo",
@@ -372,7 +372,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 92,
-   "score": 68,
+   "score": 78,
    "award": "Best Budget",
    "best_for": "RYOBI ONE+ owners who want a slider that cuts a 2x10.",
    "bought_last_month": "50+/mo",
@@ -419,7 +419,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 418,
-   "score": 67,
+   "score": 76,
    "award": null,
    "best_for": "Occasional trim and 2x4 cuts on RYOBI batteries.",
    "bought_last_month": "50+/mo",
@@ -466,7 +466,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 23,
-   "score": 64,
+   "score": 71,
    "award": null,
    "best_for": "Bosch PROFACTOR owners who want a light brushless slider.",
    "bought_last_month": null,

@@ -22,7 +22,7 @@
    "cutters": 0.25,
    "pouch": 0.2
   },
-  "reviews_ceiling": 15000,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 17,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,132 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B087CN1ZDJ",
+   "name": "WORKPRO 5-Piece Premium Cr-V Pliers Kit with Storage Pouch",
+   "brand": "WORKPRO",
+   "model": "5-Piece Cr-V",
+   "price": 23.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 2222,
+   "score": 96,
+   "award": null,
+   "best_for": "A value set that stays together in a pouch.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The value set that comes rolled up. Five Cr-V pliers covering long-nose, diagonal, groove-joint, slip-joint, and linesman, in a storage pouch that keeps them together in a bag or drawer. A step up in steel from the base WORKPRO set.",
+   "pros": [
+    "Chrome-vanadium steel, heat-treated and blackened",
+    "Covers five plier types",
+    "Comes with a storage pouch",
+    "Bi-material comfort grips"
+   ],
+   "cons": [
+    "Costs a few dollars more than the 7-piece",
+    "One size of each type",
+    "Still a value brand, not trade-grade"
+   ],
+   "specs": {
+    "pieces": "5",
+    "includes": "Long-nose, diagonal, groove-joint, slip-joint, linesman",
+    "grips": "Bi-material",
+    "material": "Cr-V steel"
+   },
+   "features": {
+    "dual_material": true,
+    "groove_joint": true,
+    "cutters": true,
+    "pouch": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Q4ngI4kvL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B087CN1ZDJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pliers.html#B087CN1ZDJ"
+  },
+  {
+   "rank": 2,
+   "asin": "B000CFMCTK",
+   "name": "IRWIN VISE-GRIP Pliers Set, 4-Piece (2078707)",
+   "brand": "IRWIN",
+   "model": "2078707",
+   "price": 42.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 2013,
+   "score": 94,
+   "award": null,
+   "best_for": "A step up from value sets in tougher steel.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The trade-grade core four. Irwin's set covers a 6-inch diagonal, 6-inch slip-joint, 8-inch long-nose, and 10-inch groove-joint in nickel-chromium steel with anti-pinch ProTouch grips. A step up in build from the value sets without going full Knipex.",
+   "pros": [
+    "Covers four essential types in useful sizes",
+    "Nickel chromium steel for strength",
+    "Anti-pinch ProTouch grips",
+    "Trusted Irwin quality"
+   ],
+   "cons": [
+    "Pricier than the value mixed sets",
+    "No linesman pliers",
+    "No storage pouch"
+   ],
+   "specs": {
+    "pieces": "4",
+    "includes": "Diagonal, slip-joint, long-nose, groove-joint",
+    "grips": "ProTouch",
+    "material": "Nickel chromium steel"
+   },
+   "features": {
+    "dual_material": true,
+    "groove_joint": true,
+    "cutters": true,
+    "pouch": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51caxS9eocL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B000CFMCTK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pliers.html#B000CFMCTK"
+  },
+  {
+   "rank": 3,
+   "asin": "B08JMCWMN7",
+   "name": "GEARWRENCH 6-Pc Pitbull Dual-Material Mixed Plier Set (82204C)",
+   "brand": "GEARWRENCH",
+   "model": "82204C",
+   "price": 85.97,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1007,
+   "score": 93,
+   "award": null,
+   "best_for": "Hard cutting, with a joint that adds leverage.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The high-leverage set. Gearwrench's Pitbull joint design delivers up to 35% more cutting power, with aggressive angled teeth that bite and cross-hatched jaws that grip and pull. Six pliers covering the everyday types, built a notch above the value sets.",
+   "pros": [
+    "High-leverage joint for ~35% more cutting power",
+    "Aggressive teeth grip and pull hard",
+    "Dual-material comfort grips",
+    "Covers five plier types"
+   ],
+   "cons": [
+    "Premium price for six pieces",
+    "No pouch or roll",
+    "Fewer reviews than the value sellers"
+   ],
+   "specs": {
+    "pieces": "6",
+    "includes": "Long-nose, diagonal, slip-joint, linesman, groove-joint",
+    "grips": "Dual-material",
+    "material": "Steel"
+   },
+   "features": {
+    "dual_material": true,
+    "groove_joint": true,
+    "cutters": true,
+    "pouch": false
+   },
+   "image": "https://m.media-amazon.com/images/I/517hI17SmcL._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08JMCWMN7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pliers.html#B08JMCWMN7"
+  },
+  {
+   "rank": 4,
    "asin": "B0105SSMRO",
    "name": "WORKPRO 7-Piece Pliers Set with Comfort Grip",
    "brand": "WORKPRO",
@@ -76,91 +202,7 @@
    "page_url": "https://toolboxtop10.com/pliers.html#B0105SSMRO"
   },
   {
-   "rank": 2,
-   "asin": "B087CN1ZDJ",
-   "name": "WORKPRO 5-Piece Premium Cr-V Pliers Kit with Storage Pouch",
-   "brand": "WORKPRO",
-   "model": "5-Piece Cr-V",
-   "price": 23.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2222,
-   "score": 89,
-   "award": null,
-   "best_for": "A value set that stays together in a pouch.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The value set that comes rolled up. Five Cr-V pliers covering long-nose, diagonal, groove-joint, slip-joint, and linesman, in a storage pouch that keeps them together in a bag or drawer. A step up in steel from the base WORKPRO set.",
-   "pros": [
-    "Chrome-vanadium steel, heat-treated and blackened",
-    "Covers five plier types",
-    "Comes with a storage pouch",
-    "Bi-material comfort grips"
-   ],
-   "cons": [
-    "Costs a few dollars more than the 7-piece",
-    "One size of each type",
-    "Still a value brand, not trade-grade"
-   ],
-   "specs": {
-    "pieces": "5",
-    "includes": "Long-nose, diagonal, groove-joint, slip-joint, linesman",
-    "grips": "Bi-material",
-    "material": "Cr-V steel"
-   },
-   "features": {
-    "dual_material": true,
-    "groove_joint": true,
-    "cutters": true,
-    "pouch": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71Q4ngI4kvL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B087CN1ZDJ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pliers.html#B087CN1ZDJ"
-  },
-  {
-   "rank": 3,
-   "asin": "B07QN1PYYM",
-   "name": "CRAFTSMAN Pliers, 8 & 10 in, 2-Piece Groove Joint Set (CMHT82547)",
-   "brand": "CRAFTSMAN",
-   "model": "CMHT82547",
-   "price": 14.98,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 11857,
-   "score": 87,
-   "award": null,
-   "best_for": "Plumbing, nuts and pipe with the two most-used groove-joint sizes.",
-   "bought_last_month": "3K+/mo",
-   "verdict": "The two you'll grab most. A pair of Craftsman groove-joint (tongue-and-groove) pliers in 8 and 10 inch — the go-to for plumbing, nuts, bolts, and anything round. If you don't need a whole mixed set, these two cover most gripping jobs.",
-   "pros": [
-    "The two most-used groove-joint sizes",
-    "Bi-material handles and Craftsman warranty",
-    "Wide jaw range for pipe and fittings",
-    "One of the top sellers here"
-   ],
-   "cons": [
-    "Groove-joint only — no cutters or long-nose",
-    "Not a full mixed set",
-    "No pouch"
-   ],
-   "specs": {
-    "pieces": "2",
-    "includes": "Groove-joint (8 & 10 in)",
-    "grips": "Bi-material",
-    "material": "Steel"
-   },
-   "features": {
-    "dual_material": true,
-    "groove_joint": true,
-    "cutters": false,
-    "pouch": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71SdtTqP7sS._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07QN1PYYM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pliers.html#B07QN1PYYM"
-  },
-  {
-   "rank": 4,
+   "rank": 5,
    "asin": "B07G9LKCML",
    "name": "WORKPRO Large 6-Piece Pliers & Wrench Set (W001329A)",
    "brand": "WORKPRO",
@@ -169,7 +211,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 2967,
-   "score": 87,
+   "score": 92,
    "award": null,
    "best_for": "Plumbing and heavier work with big 10-inch pliers.",
    "bought_last_month": "2K+/mo",
@@ -202,48 +244,6 @@
    "page_url": "https://toolboxtop10.com/pliers.html#B07G9LKCML"
   },
   {
-   "rank": 5,
-   "asin": "B000CFMCTK",
-   "name": "IRWIN VISE-GRIP Pliers Set, 4-Piece (2078707)",
-   "brand": "IRWIN",
-   "model": "2078707",
-   "price": 42.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 2013,
-   "score": 87,
-   "award": null,
-   "best_for": "A step up from value sets in tougher steel.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The trade-grade core four. Irwin's set covers a 6-inch diagonal, 6-inch slip-joint, 8-inch long-nose, and 10-inch groove-joint in nickel-chromium steel with anti-pinch ProTouch grips. A step up in build from the value sets without going full Knipex.",
-   "pros": [
-    "Covers four essential types in useful sizes",
-    "Nickel chromium steel for strength",
-    "Anti-pinch ProTouch grips",
-    "Trusted Irwin quality"
-   ],
-   "cons": [
-    "Pricier than the value mixed sets",
-    "No linesman pliers",
-    "No storage pouch"
-   ],
-   "specs": {
-    "pieces": "4",
-    "includes": "Diagonal, slip-joint, long-nose, groove-joint",
-    "grips": "ProTouch",
-    "material": "Nickel chromium steel"
-   },
-   "features": {
-    "dual_material": true,
-    "groove_joint": true,
-    "cutters": true,
-    "pouch": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51caxS9eocL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B000CFMCTK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pliers.html#B000CFMCTK"
-  },
-  {
    "rank": 6,
    "asin": "B000X4KNTG",
    "name": "KNIPEX Cobra Water-Pump Pliers Set, 7, 10 & 12 in, 3-Piece (00 20 06 US1)",
@@ -253,7 +253,7 @@
    "currency": "USD",
    "rating": 4.9,
    "reviews_count": 3990,
-   "score": 85,
+   "score": 90,
    "award": "Money No Object",
    "best_for": "Pros who want pliers that self-lock and never slip.",
    "bought_last_month": "1K+/mo",
@@ -287,90 +287,48 @@
   },
   {
    "rank": 7,
-   "asin": "B08JMCWMN7",
-   "name": "GEARWRENCH 6-Pc Pitbull Dual-Material Mixed Plier Set (82204C)",
-   "brand": "GEARWRENCH",
-   "model": "82204C",
-   "price": 85.97,
+   "asin": "B07QN1PYYM",
+   "name": "CRAFTSMAN Pliers, 8 & 10 in, 2-Piece Groove Joint Set (CMHT82547)",
+   "brand": "CRAFTSMAN",
+   "model": "CMHT82547",
+   "price": 14.98,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 1007,
-   "score": 83,
+   "reviews_count": 11857,
+   "score": 88,
    "award": null,
-   "best_for": "Hard cutting, with a joint that adds leverage.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The high-leverage set. Gearwrench's Pitbull joint design delivers up to 35% more cutting power, with aggressive angled teeth that bite and cross-hatched jaws that grip and pull. Six pliers covering the everyday types, built a notch above the value sets.",
+   "best_for": "Plumbing, nuts and pipe with the two most-used groove-joint sizes.",
+   "bought_last_month": "3K+/mo",
+   "verdict": "The two you'll grab most. A pair of Craftsman groove-joint (tongue-and-groove) pliers in 8 and 10 inch — the go-to for plumbing, nuts, bolts, and anything round. If you don't need a whole mixed set, these two cover most gripping jobs.",
    "pros": [
-    "High-leverage joint for ~35% more cutting power",
-    "Aggressive teeth grip and pull hard",
-    "Dual-material comfort grips",
-    "Covers five plier types"
+    "The two most-used groove-joint sizes",
+    "Bi-material handles and Craftsman warranty",
+    "Wide jaw range for pipe and fittings",
+    "One of the top sellers here"
    ],
    "cons": [
-    "Premium price for six pieces",
-    "No pouch or roll",
-    "Fewer reviews than the value sellers"
+    "Groove-joint only — no cutters or long-nose",
+    "Not a full mixed set",
+    "No pouch"
    ],
    "specs": {
-    "pieces": "6",
-    "includes": "Long-nose, diagonal, slip-joint, linesman, groove-joint",
-    "grips": "Dual-material",
+    "pieces": "2",
+    "includes": "Groove-joint (8 & 10 in)",
+    "grips": "Bi-material",
     "material": "Steel"
    },
    "features": {
     "dual_material": true,
     "groove_joint": true,
-    "cutters": true,
+    "cutters": false,
     "pouch": false
    },
-   "image": "https://m.media-amazon.com/images/I/517hI17SmcL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08JMCWMN7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pliers.html#B08JMCWMN7"
+   "image": "https://m.media-amazon.com/images/I/71SdtTqP7sS._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07QN1PYYM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pliers.html#B07QN1PYYM"
   },
   {
    "rank": 8,
-   "asin": "B015X2NHOK",
-   "name": "Amazon Basics 4-Piece Pliers Set",
-   "brand": "Amazon Basics",
-   "model": "4-Piece",
-   "price": 13.48,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 3277,
-   "score": 82,
-   "award": "Best Budget",
-   "best_for": "A first tool kit's core four pliers for about $15.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The cheap starter set. Four full-size pliers — slip-joint, long-nose, linesman, and diagonal cutters — with induction-hardened cutting edges that meet ANSI specs, for fifteen dollars. Everything a first tool kit needs except a groove-joint.",
-   "pros": [
-    "Four core plier types for a low price",
-    "Induction-hardened cutting edges (meets ANSI)",
-    "Non-slip handles",
-    "Great value for a starter kit"
-   ],
-   "cons": [
-    "No groove-joint (water-pump) pliers",
-    "No pouch",
-    "House-brand steel"
-   ],
-   "specs": {
-    "pieces": "4",
-    "includes": "Slip-joint, long-nose, linesman, diagonal",
-    "grips": "Non-slip",
-    "material": "Steel"
-   },
-   "features": {
-    "dual_material": true,
-    "groove_joint": false,
-    "cutters": true,
-    "pouch": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61Iq+sp023L._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B015X2NHOK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pliers.html#B015X2NHOK"
-  },
-  {
-   "rank": 9,
    "asin": "B0BDSV2SJQ",
    "name": "CRAFTSMAN Pliers Set, 3-Piece (Long Nose, Slip Joint, 8 in Groove) CMHT84103R",
    "brand": "CRAFTSMAN",
@@ -379,7 +337,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1106,
-   "score": 79,
+   "score": 88,
    "award": null,
    "best_for": "A household drawer with three brand-name basics.",
    "bought_last_month": "500+/mo",
@@ -412,6 +370,48 @@
    "page_url": "https://toolboxtop10.com/pliers.html#B0BDSV2SJQ"
   },
   {
+   "rank": 9,
+   "asin": "B015X2NHOK",
+   "name": "Amazon Basics 4-Piece Pliers Set",
+   "brand": "Amazon Basics",
+   "model": "4-Piece",
+   "price": 13.48,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 3277,
+   "score": 87,
+   "award": "Best Budget",
+   "best_for": "A first tool kit's core four pliers for about $15.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The cheap starter set. Four full-size pliers — slip-joint, long-nose, linesman, and diagonal cutters — with induction-hardened cutting edges that meet ANSI specs, for fifteen dollars. Everything a first tool kit needs except a groove-joint.",
+   "pros": [
+    "Four core plier types for a low price",
+    "Induction-hardened cutting edges (meets ANSI)",
+    "Non-slip handles",
+    "Great value for a starter kit"
+   ],
+   "cons": [
+    "No groove-joint (water-pump) pliers",
+    "No pouch",
+    "House-brand steel"
+   ],
+   "specs": {
+    "pieces": "4",
+    "includes": "Slip-joint, long-nose, linesman, diagonal",
+    "grips": "Non-slip",
+    "material": "Steel"
+   },
+   "features": {
+    "dual_material": true,
+    "groove_joint": false,
+    "cutters": true,
+    "pouch": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61Iq+sp023L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B015X2NHOK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pliers.html#B015X2NHOK"
+  },
+  {
    "rank": 10,
    "asin": "B08L6R4MWQ",
    "name": "Amazon Basics 3-Piece Quick-Release Groove Joint Pliers Set (7, 10, 12 in)",
@@ -421,7 +421,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 1559,
-   "score": 78,
+   "score": 86,
    "award": null,
    "best_for": "Gripping fittings in three sizes, cheap.",
    "bought_last_month": "1K+/mo",

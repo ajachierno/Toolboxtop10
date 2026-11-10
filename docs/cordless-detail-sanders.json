@@ -22,7 +22,7 @@
    "variable_speed": 0.2,
    "vac_port": 0.25
   },
-  "reviews_ceiling": 2500,
+  "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 50,
   "method_url": "https://toolboxtop10.com/about.html"
@@ -35,6 +35,47 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B09X2C6VP3",
+   "name": "CRAFTSMAN 20V MAX Cordless Detail Sander, Tool Only (CMCW221B)",
+   "brand": "CRAFTSMAN",
+   "model": "CMCW221B",
+   "price": 59.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 465,
+   "score": 85,
+   "award": null,
+   "best_for": "CRAFTSMAN V20 owners who want speed control and a vacuum hookup.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The only sander here with variable speed (9,000 to 12,000 opm) and a 1-1/4-inch shop-vac connection. A D-handle grip helps when sanding walls and other vertical surfaces.",
+   "pros": [
+    "Variable speed, 9,000 to 12,000 opm",
+    "Dust bag or 1-1/4\" vacuum connection",
+    "Dust-sealed switch"
+   ],
+   "cons": [
+    "Tool only: battery and charger sold separately",
+    "Most expensive bare tool on this page"
+   ],
+   "specs": {
+    "voltage": "CRAFTSMAN 20V MAX (not included)",
+    "opm": "9,000–12,000 (variable)",
+    "dust": "Dust bag + 1-1/4\" vacuum port",
+    "weight": null,
+    "in_box": "Tool only"
+   },
+   "features": {
+    "kit": false,
+    "brushless": false,
+    "variable_speed": true,
+    "vac_port": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61ef87Ie8VL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09X2C6VP3?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B09X2C6VP3"
+  },
+  {
+   "rank": 2,
    "asin": "B06WLJH9TB",
    "name": "BLACK+DECKER 20V MAX Mouse Detail Sander Kit with 1.5Ah Battery and Charger (BDCMS20C)",
    "brand": "BLACK+DECKER",
@@ -75,89 +116,7 @@
    "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B06WLJH9TB"
   },
   {
-   "rank": 2,
-   "asin": "B09X2C6VP3",
-   "name": "CRAFTSMAN 20V MAX Cordless Detail Sander, Tool Only (CMCW221B)",
-   "brand": "CRAFTSMAN",
-   "model": "CMCW221B",
-   "price": 59.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 465,
-   "score": 78,
-   "award": null,
-   "best_for": "CRAFTSMAN V20 owners who want speed control and a vacuum hookup.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The only sander here with variable speed (9,000 to 12,000 opm) and a 1-1/4-inch shop-vac connection. A D-handle grip helps when sanding walls and other vertical surfaces.",
-   "pros": [
-    "Variable speed, 9,000 to 12,000 opm",
-    "Dust bag or 1-1/4\" vacuum connection",
-    "Dust-sealed switch"
-   ],
-   "cons": [
-    "Tool only: battery and charger sold separately",
-    "Most expensive bare tool on this page"
-   ],
-   "specs": {
-    "voltage": "CRAFTSMAN 20V MAX (not included)",
-    "opm": "9,000–12,000 (variable)",
-    "dust": "Dust bag + 1-1/4\" vacuum port",
-    "weight": null,
-    "in_box": "Tool only"
-   },
-   "features": {
-    "kit": false,
-    "brushless": false,
-    "variable_speed": true,
-    "vac_port": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61ef87Ie8VL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B09X2C6VP3?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B09X2C6VP3"
-  },
-  {
    "rank": 3,
-   "asin": "B07Z3M9BWD",
-   "name": "GALAX PRO 20V Cordless Detail Sander with 1.3Ah Battery, Charger and 20 Sandpapers",
-   "brand": "GALAX PRO",
-   "model": "20V Detail Sander",
-   "price": 44.98,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 549,
-   "score": 73,
-   "award": "Best Budget",
-   "best_for": "Occasional sanding jobs on a tight budget.",
-   "bought_last_month": "100+/mo",
-   "verdict": "The cheapest complete kit here: sander, 1.3Ah battery, charger and 20 sheets (60 to 120 grit) for $45.68. Fine for occasional furniture and trim work.",
-   "pros": [
-    "$44.98 with battery and charger",
-    "20 sandpapers across 4 grits",
-    "549 reviews, 100+ bought last month"
-   ],
-   "cons": [
-    "Small 1.3Ah battery",
-    "Lowest rating among the kits here at 4.3 stars"
-   ],
-   "specs": {
-    "voltage": "GALAX PRO 20V (1.3Ah included)",
-    "opm": "12,000",
-    "dust": "Dust bag",
-    "weight": null,
-    "in_box": "Sander, 1.3Ah battery, charger, 20 sandpapers, dust bag"
-   },
-   "features": {
-    "kit": true,
-    "brushless": false,
-    "variable_speed": false,
-    "vac_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81ej3m6P5TL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07Z3M9BWD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B07Z3M9BWD"
-  },
-  {
-   "rank": 4,
    "asin": "B087RB82VN",
    "name": "WORX 20V Cordless Detail Sander, Finger Sander Kit with 2.0Ah Battery and Charger (WX822L)",
    "brand": "WORX",
@@ -166,7 +125,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 287,
-   "score": 72,
+   "score": 82,
    "award": null,
    "best_for": "Starting on WORX Power Share with a larger 2.0Ah battery.",
    "bought_last_month": null,
@@ -198,89 +157,48 @@
    "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B087RB82VN"
   },
   {
-   "rank": 5,
-   "asin": "B08DY85PD9",
-   "name": "WORX 20V Cordless Detail Sander, Finger Sander, Tool Only (WX822L.9)",
-   "brand": "WORX",
-   "model": "WX822L.9",
-   "price": 49.98,
+   "rank": 4,
+   "asin": "B07Z3M9BWD",
+   "name": "GALAX PRO 20V Cordless Detail Sander with 1.3Ah Battery, Charger and 20 Sandpapers",
+   "brand": "GALAX PRO",
+   "model": "20V Detail Sander",
+   "price": 44.98,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 511,
-   "score": 69,
-   "award": null,
-   "best_for": "WORX Power Share owners who want a cheap, light detail sander.",
-   "bought_last_month": null,
-   "verdict": "WORX's finger sander as a bare tool for under $50. It weighs 1.8 lb without a battery and runs on the same 20V Power Share packs as WORX's yard and power tools.",
-   "pros": [
-    "$49.98, the cheapest brand-name bare tool here",
-    "1.8 lb without battery",
-    "Finger attachment and 6 sheets included"
-   ],
-   "cons": [
-    "Battery and charger sold separately",
-    "Listing says 13,000 opm and 3/32\" orbit, while the kit listing says 12,000 opm and 5/64\""
-   ],
-   "specs": {
-    "voltage": "WORX 20V Power Share (not included)",
-    "opm": "13,000",
-    "dust": "Dust canister + dust bag",
-    "weight": "1.8 lb (tool only)",
-    "in_box": "Finger attachment, 6 sanding sheets, dust bag"
-   },
-   "features": {
-    "kit": false,
-    "brushless": false,
-    "variable_speed": false,
-    "vac_port": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71yr7gXErDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B08DY85PD9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B08DY85PD9"
-  },
-  {
-   "rank": 6,
-   "asin": "B07798Q9G5",
-   "name": "BLACK+DECKER 20V MAX Mouse Sander, Tool Only (BDCMS20B)",
-   "brand": "BLACK+DECKER",
-   "model": "BDCMS20B",
-   "price": 49.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 501,
-   "score": 69,
-   "award": null,
-   "best_for": "BLACK+DECKER 20V owners who already have a spare battery.",
+   "rating": 4.3,
+   "reviews_count": 549,
+   "score": 80,
+   "award": "Best Budget",
+   "best_for": "Occasional sanding jobs on a tight budget.",
    "bought_last_month": "100+/mo",
-   "verdict": "The bare-tool version of the BDCMS20 mouse sander, with the same detail finger attachment and hook-and-loop pad. It only makes sense if you already have BLACK+DECKER 20V MAX batteries.",
+   "verdict": "The cheapest complete kit here: sander, 1.3Ah battery, charger and 20 sheets (60 to 120 grit) for $45.68. Fine for occasional furniture and trim work.",
    "pros": [
-    "Same sander as the kit, 4.6 stars across 501 reviews",
-    "Detail finger attachment included",
-    "2-year limited warranty"
+    "$44.98 with battery and charger",
+    "20 sandpapers across 4 grits",
+    "549 reviews, 100+ bought last month"
    ],
    "cons": [
-    "Battery and charger sold separately",
-    "Only $5 less than the kit with a battery"
+    "Small 1.3Ah battery",
+    "Lowest rating among the kits here at 4.3 stars"
    ],
    "specs": {
-    "voltage": "BLACK+DECKER 20V MAX (not included)",
+    "voltage": "GALAX PRO 20V (1.3Ah included)",
     "opm": "12,000",
-    "dust": "Dust collection",
+    "dust": "Dust bag",
     "weight": null,
-    "in_box": "Sander, detail finger attachment"
+    "in_box": "Sander, 1.3Ah battery, charger, 20 sandpapers, dust bag"
    },
    "features": {
-    "kit": false,
+    "kit": true,
     "brushless": false,
     "variable_speed": false,
     "vac_port": false
    },
-   "image": "https://m.media-amazon.com/images/I/61wD4PVNNrL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07798Q9G5?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B07798Q9G5"
+   "image": "https://m.media-amazon.com/images/I/81ej3m6P5TL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07Z3M9BWD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B07Z3M9BWD"
   },
   {
-   "rank": 7,
+   "rank": 5,
    "asin": "B0D1Y3K7HB",
    "name": "THINKLEARN 20V Cordless Detail Sander with 2.0Ah Battery, Charger, 22 Sandpapers and Tool Bag",
    "brand": "THINKLEARN",
@@ -289,7 +207,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 181,
-   "score": 69,
+   "score": 80,
    "award": null,
    "best_for": "Off-brand buyers who want a bigger battery and a bag to store it all.",
    "bought_last_month": "50+/mo",
@@ -321,7 +239,7 @@
    "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B0D1Y3K7HB"
   },
   {
-   "rank": 8,
+   "rank": 6,
    "asin": "B0FMNDM8X5",
    "name": "Mellif Brushless Cordless Detail Sander for DeWalt 20V MAX Battery, Tool Only",
    "brand": "Mellif",
@@ -330,7 +248,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 130,
-   "score": 68,
+   "score": 80,
    "award": null,
    "best_for": "DeWalt 20V owners who want a detail sander on the batteries they have.",
    "bought_last_month": "400+/mo",
@@ -362,6 +280,88 @@
    "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B0FMNDM8X5"
   },
   {
+   "rank": 7,
+   "asin": "B08DY85PD9",
+   "name": "WORX 20V Cordless Detail Sander, Finger Sander, Tool Only (WX822L.9)",
+   "brand": "WORX",
+   "model": "WX822L.9",
+   "price": 49.98,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 511,
+   "score": 76,
+   "award": null,
+   "best_for": "WORX Power Share owners who want a cheap, light detail sander.",
+   "bought_last_month": null,
+   "verdict": "WORX's finger sander as a bare tool for under $50. It weighs 1.8 lb without a battery and runs on the same 20V Power Share packs as WORX's yard and power tools.",
+   "pros": [
+    "$49.98, the cheapest brand-name bare tool here",
+    "1.8 lb without battery",
+    "Finger attachment and 6 sheets included"
+   ],
+   "cons": [
+    "Battery and charger sold separately",
+    "Listing says 13,000 opm and 3/32\" orbit, while the kit listing says 12,000 opm and 5/64\""
+   ],
+   "specs": {
+    "voltage": "WORX 20V Power Share (not included)",
+    "opm": "13,000",
+    "dust": "Dust canister + dust bag",
+    "weight": "1.8 lb (tool only)",
+    "in_box": "Finger attachment, 6 sanding sheets, dust bag"
+   },
+   "features": {
+    "kit": false,
+    "brushless": false,
+    "variable_speed": false,
+    "vac_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71yr7gXErDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08DY85PD9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B08DY85PD9"
+  },
+  {
+   "rank": 8,
+   "asin": "B07798Q9G5",
+   "name": "BLACK+DECKER 20V MAX Mouse Sander, Tool Only (BDCMS20B)",
+   "brand": "BLACK+DECKER",
+   "model": "BDCMS20B",
+   "price": 49.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 501,
+   "score": 76,
+   "award": null,
+   "best_for": "BLACK+DECKER 20V owners who already have a spare battery.",
+   "bought_last_month": "100+/mo",
+   "verdict": "The bare-tool version of the BDCMS20 mouse sander, with the same detail finger attachment and hook-and-loop pad. It only makes sense if you already have BLACK+DECKER 20V MAX batteries.",
+   "pros": [
+    "Same sander as the kit, 4.6 stars across 501 reviews",
+    "Detail finger attachment included",
+    "2-year limited warranty"
+   ],
+   "cons": [
+    "Battery and charger sold separately",
+    "Only $5 less than the kit with a battery"
+   ],
+   "specs": {
+    "voltage": "BLACK+DECKER 20V MAX (not included)",
+    "opm": "12,000",
+    "dust": "Dust collection",
+    "weight": null,
+    "in_box": "Sander, detail finger attachment"
+   },
+   "features": {
+    "kit": false,
+    "brushless": false,
+    "variable_speed": false,
+    "vac_port": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61wD4PVNNrL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07798Q9G5?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-detail-sanders.html#B07798Q9G5"
+  },
+  {
    "rank": 9,
    "asin": "B0DM4KNR5S",
    "name": "TRONYAN Cordless Detail Sander for DeWalt 20V Max Battery, Tool Only, 12,000 OPM",
@@ -371,7 +371,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 159,
-   "score": 61,
+   "score": 71,
    "award": null,
    "best_for": "DeWalt 20V owners who want the lowest price.",
    "bought_last_month": "50+/mo",
@@ -412,7 +412,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 19,
-   "score": 57,
+   "score": 64,
    "award": null,
    "best_for": "Buyers who want the GALAX PRO kit with better dust sealing.",
    "bought_last_month": "50+/mo",
