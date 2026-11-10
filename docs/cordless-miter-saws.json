@@ -5,8 +5,8 @@
  "slug": "cordless-miter-saws",
  "title": "The 10 Best Cordless Miter Saws",
  "subtitle": "Battery-powered miter saws from 6-1/2 to 12 inches, sliding and fixed, ranked from live Amazon data.",
- "intro": "We ranked 10 cordless miter saws from Amazon's miter saw search results on rating, review volume, and five features: sliding rails, dual bevel, a brushless motor, a cut-line guide, and a battery in the box. Most name-brand saws are sold as bare tools for people who already own the batteries. Prices run from $159.95 for the RYOBI P553 to $1,139 for the Makita XSL06PT kit.",
- "data_captured": "2026-11-03",
+ "intro": "We ranked 10 cordless miter saws from Amazon's miter saw search results on rating, review volume, and five features: sliding rails, dual bevel, a brushless motor, a cut-line guide, and a battery in the box. Most name-brand saws are sold as bare tools for people who already own the batteries. Prices run from $165 for the RYOBI P553 to $1,139 for the Makita XSL06PT kit.",
+ "data_captured": "2026-11-10",
  "audited": "2026-09-29",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -42,14 +42,14 @@
    "price": 296.65,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 3108,
+   "reviews_count": 3110,
    "score": 87,
    "award": null,
    "best_for": "DEWALT 20V MAX owners: the best-selling cordless miter saw.",
    "bought_last_month": "500+/mo",
-   "verdict": "The best-selling cordless miter saw on Amazon by a wide margin, with 3,108 ratings at 4.8 stars. A 7-1/4-inch slider for anyone already on DEWALT 20V batteries.",
+   "verdict": "The best-selling cordless miter saw on Amazon by a wide margin, with 3,110 ratings at 4.8 stars. A 7-1/4-inch slider for anyone already on DEWALT 20V batteries.",
    "pros": [
-    "3,108 ratings at 4.8 stars, and 800+ bought in the past month",
+    "3,110 ratings at 4.8 stars, and 800+ bought in the past month",
     "DEWALT rates it at about 183 cuts of 2x4 pine per charge",
     "Cut-line system lights the blade path with nothing to calibrate",
     "Cuts 3-5/8\" nested crown and 3-1/2\" base standing up"
@@ -148,7 +148,7 @@
     "Bevels 0-48° both ways; the front bevel lock is easy to reach"
    ],
    "cons": [
-    "$1,139, more than three times the DEWALT kit",
+    "$1,139, nearly three times the DEWALT kit",
     "Needs two batteries at once",
     "The spec table's \"400 rpm\" is a typo; the listing bullets say 4,400"
    ],
@@ -226,10 +226,10 @@
    "name": "DEWALT 20V MAX XR 12-Inch Double Bevel Sliding Miter Saw, Tool Only (DCS785B)",
    "brand": "DEWALT",
    "model": "DCS785B",
-   "price": 499.0,
+   "price": 495.0,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 72,
+   "reviews_count": 76,
    "score": 75,
    "award": "Money No Object",
    "best_for": "Full-size 12-inch cutting on one DEWALT battery.",
@@ -242,9 +242,9 @@
     "Bevel pawls for quick 22.5° and 33.9° settings"
    ],
    "cons": [
-    "$499 without a battery",
+    "$495 without a battery",
     "51.7 lb tool only, heavy to carry between rooms",
-    "Only 72 ratings so far"
+    "Only 76 ratings so far"
    ],
    "specs": {
     "blade": "12\"",
@@ -370,7 +370,7 @@
    "price": 238.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 90,
+   "reviews_count": 92,
    "score": 68,
    "award": "Best Budget",
    "best_for": "RYOBI ONE+ owners who want a slider that cuts a 2x10.",
@@ -410,15 +410,62 @@
   },
   {
    "rank": 9,
+   "asin": "B081LNF6VF",
+   "name": "RYOBI 18V ONE+ Cordless 7-1/4-Inch Compound Miter Saw, Tool Only (P553)",
+   "brand": "RYOBI",
+   "model": "P553",
+   "price": 165.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 418,
+   "score": 67,
+   "award": null,
+   "best_for": "Occasional trim and 2x4 cuts on RYOBI batteries.",
+   "bought_last_month": "50+/mo",
+   "verdict": "RYOBI's basic 7-1/4-inch chop saw, listed under the seller name ONEAND. The lowest price on the list, for occasional trim and 2x4 cuts on ONE+ batteries.",
+   "pros": [
+    "Lowest price here at $165",
+    "19 lb, easy to carry",
+    "Works with any RYOBI ONE+ 18V battery",
+    "418 ratings at 4.5 stars"
+   ],
+   "cons": [
+    "The listing has no bullets and no published bevel, crosscut, or speed figures",
+    "Ships with a 24-tooth blade, rough for finish trim",
+    "The listing states a 30-day limited warranty"
+   ],
+   "specs": {
+    "blade": "7-1/4\"",
+    "voltage": "18V ONE+",
+    "type": "Compound",
+    "bevel": null,
+    "crosscut": null,
+    "speed": null,
+    "weight": "19 lb",
+    "battery": "Tool only"
+   },
+   "features": {
+    "sliding": false,
+    "dual_bevel": false,
+    "brushless": false,
+    "cut_guide": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71QsrhkyKTL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B081LNF6VF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-miter-saws.html#B081LNF6VF"
+  },
+  {
+   "rank": 10,
    "asin": "B0BCXG16GG",
    "name": "BOSCH PROFACTOR 18V 7-1/4-Inch Single-Bevel Slide Miter Saw, Bare Tool (GCM18V-07SN)",
    "brand": "Bosch",
    "model": "GCM18V-07SN",
-   "price": 349.0,
+   "price": 555.0,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 73,
-   "score": 68,
+   "rating": 4.5,
+   "reviews_count": 23,
+   "score": 64,
    "award": null,
    "best_for": "Bosch PROFACTOR owners who want a light brushless slider.",
    "bought_last_month": null,
@@ -454,53 +501,6 @@
    "image": "https://m.media-amazon.com/images/I/61GWUoFH48L._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BCXG16GG?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-miter-saws.html#B0BCXG16GG"
-  },
-  {
-   "rank": 10,
-   "asin": "B081LNF6VF",
-   "name": "RYOBI 18V ONE+ Cordless 7-1/4-Inch Compound Miter Saw, Tool Only (P553)",
-   "brand": "RYOBI",
-   "model": "P553",
-   "price": 159.95,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 418,
-   "score": 67,
-   "award": null,
-   "best_for": "Occasional trim and 2x4 cuts on RYOBI batteries.",
-   "bought_last_month": "100+/mo",
-   "verdict": "RYOBI's basic 7-1/4-inch chop saw, listed under the seller name ONEAND. The lowest price on the list, for occasional trim and 2x4 cuts on ONE+ batteries.",
-   "pros": [
-    "Lowest price here at $159.95",
-    "19 lb, easy to carry",
-    "Works with any RYOBI ONE+ 18V battery",
-    "418 ratings at 4.5 stars"
-   ],
-   "cons": [
-    "The listing has no bullets and no published bevel, crosscut, or speed figures",
-    "Ships with a 24-tooth blade, rough for finish trim",
-    "The listing states a 30-day limited warranty"
-   ],
-   "specs": {
-    "blade": "7-1/4\"",
-    "voltage": "18V ONE+",
-    "type": "Compound",
-    "bevel": null,
-    "crosscut": null,
-    "speed": null,
-    "weight": "19 lb",
-    "battery": "Tool only"
-   },
-   "features": {
-    "sliding": false,
-    "dual_bevel": false,
-    "brushless": false,
-    "cut_guide": false,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71QsrhkyKTL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B081LNF6VF?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-miter-saws.html#B081LNF6VF"
   }
  ],
  "avoid": [
@@ -511,8 +511,8 @@
    "model": "J0XL-DU04-185",
    "price": 236.9,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 173,
+   "rating": 4.5,
+   "reviews_count": 166,
    "flag": "Proprietary 18.5V battery of unstated size; sold for metal with a 24T blade",
    "verdict": "It's a best-seller and the cheapest complete kit in the search, but the battery fits nothing else, the listing never says how big it is, and it markets a 24-tooth wood blade for metal. The RYOBI PBT01B costs about the same and runs on a battery platform with hundreds of tools.",
    "reasons": [
@@ -554,6 +554,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Bosch GCM18V-07SN rose from $349 to $555."
+  },
   {
    "date": "2026-11-03",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Bosch GCM18V-07SN dropped from $555 to $349; the DEWALT DCS714B dropped from $429 to $299; the Makita XSL05Z rose from $586.29 to $669."
