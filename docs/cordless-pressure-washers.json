@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B089F8LZ57",
-  "best_budget": "B0F32NWV8F",
-  "money_no_object": "B0CTJ7V9D5"
+  "best_overall": "B0CTJ7V9D5",
+  "best_budget": "B07FV12KP7",
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.3,
    "reviews_count": 541,
    "score": 90,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "EGO yard-tool owners who want real driveway and siding power with no gas or cord.",
    "bought_last_month": "50+/mo",
    "verdict": "The only battery washer here that matches a full-size plug-in machine: two 56V batteries drive it to 3,200 PSI at 1.2 GPM, with ECO, High and Turbo modes and up to 60 minutes per charge. It's a 65.6 lb cart with a 5-year tool warranty and costs as much as a gas washer.",
@@ -126,7 +126,7 @@
    "rating": 4.0,
    "reviews_count": 1529,
    "score": 87,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Rinsing cars, bikes, boats and outdoor gear away from a faucet.",
    "bought_last_month": "50+/mo",
    "verdict": "The most-reviewed cordless cleaner on Amazon and the one whose numbers you can believe: 320 PSI at 0.5 GPM, a 4.0Ah battery and a 20-foot draw hose that pulls from a bucket, a pool or a 2-liter bottle. It's a power cleaner for bikes, cars, windows and patio furniture, not a driveway machine.",
@@ -167,7 +167,7 @@
    "rating": 4.0,
    "reviews_count": 1271,
    "score": 87,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Campsites, cabins and car rinses where there's no faucet at all.",
    "bought_last_month": "50+/mo",
    "verdict": "A 5-gallon bucket with a battery pump and spray gun, rated 116 PSI with up to 38 minutes of runtime. It's a rinse station for camping, pets, muddy boots and cars, not a pressure washer in the usual sense, and its spec table is honest about that.",
@@ -372,7 +372,7 @@
    "rating": 4.2,
    "reviews_count": 153,
    "score": 79,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Occasional car rinses and watering on the smallest budget.",
    "bought_last_month": "100+/mo",
    "verdict": "The cheapest kit here at $49.99, with two batteries, a 6-in-1 nozzle and a hard case. Its 800 PSI claim is modest next to the other handhelds, which makes it more believable, and 4.2 stars backs it up for light jobs.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the EGO HPW3204-2 (was the WORX WG620). Best Budget is now the Sun Joe WA24C-LTE (was the AOODIL JH-12)."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the WORX WG647 dropped from $199.99 to $150."

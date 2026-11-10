@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B08XF7BWQ4",
-  "best_budget": "B0FP8XTTDD",
+  "best_budget": "B0GF7RLJ23",
   "money_no_object": "B00K194TQQ"
  },
  "products": [
@@ -84,7 +84,7 @@
    "rating": 4.8,
    "reviews_count": 73,
    "score": 88,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "DEWALT owners who want a cheap right-angle drill.",
    "bought_last_month": "300+/mo",
    "verdict": "A DEWALT-battery right-angle drill with a brushless motor and a claimed 400 in-lb, rated 4.8 stars on 73 reviews.",
@@ -125,7 +125,7 @@
    "rating": 4.3,
    "reviews_count": 76,
    "score": 87,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Occasional use on a budget.",
    "bought_last_month": null,
    "verdict": "A budget brushless kit with a battery, charger and 45 N-m of torque, for less than a bare Milwaukee.",
@@ -485,6 +485,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the ADOTOCAM ZJ-001Z (was the VEVOR DJZO5030-10)."
+  },
   {
    "date": "2026-11-05",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the RYOBI PSBRA02B rose from $104.99 to $114.89; the Bosch PS11-102 dropped from $153 to $139."

@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B0856T9M1M",
-  "best_budget": "B0D886C5LJ",
+  "best_budget": null,
   "money_no_object": "B01HZ6BRF8"
  },
  "products": [
@@ -124,7 +124,7 @@
    "rating": 4.4,
    "reviews_count": 320,
    "score": 85,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A cheap, light creeper for occasional oil changes.",
    "bought_last_month": "100+/mo",
    "verdict": "A cheaper take on the one-piece plastic creeper with 3-inch casters and a 350 lb capacity.",
@@ -485,6 +485,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. No pick is both under the price cap and cheaper than Best Overall, so there is no Best Budget for now."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the BIG RED TR6452 rose from $60.53 to $67.26."

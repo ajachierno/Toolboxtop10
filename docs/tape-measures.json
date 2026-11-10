@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B000BQKXLE",
-  "best_budget": "B08KTV51W9",
+  "best_overall": "B09F92S5VB",
+  "best_budget": "B09K4G8NX6",
   "money_no_object": "B07WF9TKNN"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.6,
    "reviews_count": 2360,
    "score": 90,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Solo measuring with a magnetic hook and markings on both edges.",
    "bought_last_month": "1K+/mo",
    "verdict": "The most feature-loaded tape for the money. A magnetic hook grabs steel studs and lets you measure solo, and the blade is printed on both edges with easy-read 1/8-inch fractions. A lot of tape for fourteen dollars.",
@@ -212,7 +212,7 @@
    "rating": 4.7,
    "reviews_count": 19009,
    "score": 83,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most people: a self-locking 25 ft tape for about $10.",
    "bought_last_month": "4K+/mo",
    "verdict": "The best all-rounder, and it's ten bucks. The self-locking blade stays out until you press the button to retract it — no thumb-holding — and the nylon-coated high-carbon blade shrugs off jobsite abuse. Nearly 19,000 ratings say it just works.",
@@ -296,7 +296,7 @@
    "rating": 4.7,
    "reviews_count": 3730,
    "score": 82,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A cheap everyday 25 ft tape with metric and imperial scales.",
    "bought_last_month": "3K+/mo",
    "verdict": "The cheap everyday tape. A rubberized 25-footer with both imperial and metric markings and printed fractions, for about seven dollars. Nothing fancy, but it's accurate, reads easily, and it's a fraction of the price of a pro tape.",
@@ -380,7 +380,7 @@
    "rating": 4.8,
    "reviews_count": 8373,
    "score": 78,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "The kitchen drawer, the car or a starter kit, for under $6.",
    "bought_last_month": "3K+/mo",
    "verdict": "The cheapest tape worth buying. Under six dollars for a 16-foot blade with both SAE and metric scales, a belt clip, and a molded impact-resistant case. It's the tape to keep in a kitchen drawer, a car, or a starter kit.",
@@ -505,6 +505,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DURATECH 25 ft Magnetic (was the Komelon SL2825). Best Budget is now the Mr. Pen 25 ft (was the Amazon Basics 16 ft)."
+  },
   {
    "date": "2026-11-09",
    "note": "Replaced the FastCap 98009, now unavailable on Amazon, with the CRAFTSMAN CMHT37225S 25 ft self-locking tape ($13.13), Amazon's #1 tape measure in search. Prices and ratings re-checked."

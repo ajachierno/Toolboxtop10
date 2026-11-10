@@ -28,7 +28,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00ZWJDPTC",
+  "best_overall": "B00BD5G9VA",
   "best_budget": "B07FKBDNNQ",
   "money_no_object": "B003M5IWM8"
  },
@@ -44,7 +44,7 @@
    "rating": 4.6,
    "reviews_count": 5015,
    "score": 96,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "The cleanest dust collection and fewer swirl marks.",
    "bought_last_month": "700+/mo",
    "verdict": "The most feature-complete sander here. Variable speed, a pad-dampening system that fights swirl marks on lift-off, and a twist-off dust canister with a microfilter that traps particles down to half a micron. Comes with the canister, a vacuum adapter, and a carrying bag, so it does everything out of the box.",
@@ -212,7 +212,7 @@
    "rating": 4.7,
    "reviews_count": 5622,
    "score": 87,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most sanding jobs, with a dust port that fits a shop-vac hose.",
    "bought_last_month": "1K+/mo",
    "verdict": "The everyday pick for most people. The 3-amp motor runs a fixed 12,000 OPM, the short body gets you close to the work, and the dust port clicks onto a DEWALT vac or any 1-1/4\" shop-vac hose for real dust control. Ships as a kit with a dust bag and a carrying bag, and carries a 3-year warranty.",
@@ -504,6 +504,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Bosch ROS20VSC (was the DEWALT DWE6421K)."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the ZFE PA0000375PLUS5 dropped from $46.99 to $35.63."

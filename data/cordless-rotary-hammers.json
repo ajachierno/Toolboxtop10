@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-10-27",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Seesii EH09P-US (was the DEWALT DCH273B)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Biggest price moves: the Seesii EH09P-US rose from $119.99 to $129.99."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DCH133B dropped from $249 to $199."},
     {"date": "2026-10-27", "note": "Full audit. Replaced the Milwaukee 2613-20, which no longer has a featured seller on Amazon, with the Milwaukee 2712-20 ($335, 4.8 stars on 1,027 reviews). All other picks kept."},
@@ -73,7 +74,6 @@
   "products": [
     {
       "asin": "B00YDZI9BA",
-      "force_overall": true,
       "name": "DEWALT 20V MAX SDS Rotary Hammer Drill, Cordless, 3 Application Modes, Bare Tool Only (DCH273B)",
       "brand": "DEWALT",
       "model": "DCH273B",
@@ -374,7 +374,6 @@
     },
     {
       "asin": "B0B24YTVHT",
-      "force_budget": true,
       "name": "Dong Cheng 20V Max Cordless Brushless Rotary Hammer Drill, 7/8-Inch SDS-Plus, 2.1 Joules, with 4.0Ah Battery, Charger and 4 Drill Bits",
       "brand": "Dong Cheng",
       "model": "DCZC22",

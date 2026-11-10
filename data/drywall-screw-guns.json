@@ -6,6 +6,7 @@
   "data_captured": "2026-11-05",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DCK265D2 (was the DEWALT DCF630B)."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DW255 rose from $92.20 to $101.02; the DEWALT DCF630E1 rose from $219 to $238; the RYOBI P225 rose from $97.11 to $104.97."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the RYOBI P225 dropped from $111.39 to $97.11."},
     {
@@ -67,7 +68,6 @@
   "products": [
     {
       "asin": "B0BPY8L57P",
-      "force_overall": true,
       "name": "DEWALT 20V MAX XR Brushless Drywall Screwgun, Tool Only (DCF630B)",
       "brand": "DEWALT",
       "model": "DCF630B",

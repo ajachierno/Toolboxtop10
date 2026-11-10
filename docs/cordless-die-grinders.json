@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B076S9YBMH",
-  "best_budget": "B0HBX5B3QF",
+  "best_overall": "B0C2JRG2MZ",
+  "best_budget": "B0G6YTXWSS",
   "money_no_object": null
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.5,
    "reviews_count": 193,
    "score": 91,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Fabricators doing heavy weld cleanup.",
    "bought_last_month": "200+/mo",
    "verdict": "An 18V FUEL die grinder with a brake that stops the bit fast, a paddle switch and five speeds, for heavy grinding.",
@@ -84,7 +84,7 @@
    "rating": 4.7,
    "reviews_count": 2694,
    "score": 89,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "DEWALT owners porting, deburring and cleaning welds.",
    "bought_last_month": "500+/mo",
    "verdict": "The most-reviewed and best-rated cordless die grinder here: brushless, up to 25,000 RPM with a variable trigger, and LEDs at the nose.",
@@ -241,7 +241,7 @@
    "rating": 4.4,
    "reviews_count": 68,
    "score": 82,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Occasional users who want a right-angle grinder cheaply.",
    "bought_last_month": "100+/mo",
    "verdict": "A budget right-angle kit with a brushless motor, two batteries and 23 accessories, for a fraction of Milwaukee's kit price.",
@@ -398,7 +398,7 @@
    "rating": 4.5,
    "reviews_count": 79,
    "score": 74,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "DEWALT owners who grind once in a while.",
    "bought_last_month": "100+/mo",
    "verdict": "A cheap DEWALT-battery die grinder with a carbide bit, for occasional grinding.",
@@ -473,6 +473,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Milwaukee 2984-20 (was the DEWALT DCG426B). Best Budget is now the VERVEWAVE WT8801-01 (was the SEESII DG21 Pro)."
+  },
   {
    "date": "2026-11-04",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the SEESII DG21 Pro rose from $89.99 to $109.99."

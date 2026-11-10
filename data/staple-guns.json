@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WORKPRO W023035 (was the Arrow T50). Best Budget is now the HAUSHOF HH25006 (was the CRAFTSMAN CMHT82643)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMHT82643 rose from $14.99 to $28.98."},
     {"date": "2026-11-01", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {
@@ -71,7 +72,6 @@
   "products": [
     {
       "asin": "B00002ND61",
-      "force_overall": true,
       "name": "Arrow T50 Heavy-Duty Staple Gun, Manual Stapler",
       "brand": "Arrow",
       "model": "T50",
@@ -324,7 +324,6 @@
     },
     {
       "asin": "B0B5VVNZCW",
-      "force_budget": true,
       "name": "CRAFTSMAN Heavy Duty Reverse Squeeze Stapler (CMHT82643)",
       "brand": "CRAFTSMAN",
       "model": "CMHT82643",

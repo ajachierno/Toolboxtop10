@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Hi-Spec 39-piece (was the EFFICERE 60-piece)."},
     {"date": "2026-11-08", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the EFFICERE 40-piece dropped from $29.99 to $26.95."},
     {"date": "2026-11-01", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the OMT 66-piece dropped from $44.99 to $39.98."},
     {
@@ -71,7 +72,6 @@
   "products": [
     {
       "asin": "B000HBDW48",
-      "force_overall": true,
       "name": "GEARWRENCH 77-Piece SAE/Metric Ratcheting Tap and Die Set (3887)",
       "brand": "GEARWRENCH",
       "model": "3887",
@@ -108,7 +108,6 @@
     },
     {
       "asin": "B07TYXR42R",
-      "force_budget": true,
       "name": "EFFICERE 60-Piece Master Tap and Die Set, SAE #4 to 1/2 in and Metric M3 to M12",
       "brand": "EFFICERE",
       "model": "60-piece",

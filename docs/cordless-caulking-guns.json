@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B0C4GH9Y2P",
-  "best_budget": "B0FR9BCKVQ",
+  "best_budget": "B0C15RWCCW",
   "money_no_object": "B01J6KTBI6"
  },
  "products": [
@@ -84,7 +84,7 @@
    "rating": 4.3,
    "reviews_count": 709,
    "score": 94,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Anyone buying a kit who wants finer speed control and a light.",
    "bought_last_month": "100+/mo",
    "verdict": "SEESII's brushless version, with stepless speed instead of four steps, a ring-shaped LED around the nozzle and a drip-proof plunger. It shares its review count with the CG100.",
@@ -244,7 +244,7 @@
    "rating": 4.6,
    "reviews_count": 560,
    "score": 87,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "CRAFTSMAN V20 owners caulking windows, trim and baths.",
    "bought_last_month": "200+/mo",
    "verdict": "A CRAFTSMAN V20 caulk gun with a speed dial, anti-drip and a cartridge holder that rotates 360 degrees so the nozzle points where you need it.",
@@ -481,6 +481,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the CRAFTSMAN CMCE600B (was the SEESII CG120)."
+  },
   {
    "date": "2026-11-04",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMCE600B dropped from $79 to $49; the RYOBI PCL901B rose from $57.44 to $78.98."

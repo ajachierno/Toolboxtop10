@@ -6,6 +6,7 @@
   "data_captured": "2026-11-05",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DCC020IB (was the AstroAI Cordless 160 PSI)."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMCE521B dropped from $49 to $39; the Airmoto Airmoto dropped from $79.99 to $69.99."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Ziweo PL01 rose from $13.99 to $16.99; the Milwaukee 2475-20 rose from $101.64 to $112; the AstroAI L7 rose from $23.99 to $25.99."},
     {
@@ -70,7 +71,7 @@
   ],
   "products": [
     {
-      "asin": "B0948WY5YX", "force_overall": true,
+      "asin": "B0948WY5YX",
       "name": "AstroAI Cordless Tire Inflator Portable Air Compressor 160PSI, 20V Battery and 12VDC",
       "brand": "AstroAI",
       "model": "Cordless 160 PSI",
@@ -107,7 +108,6 @@
     },
     {
       "asin": "B0CS3B7MD8",
-      "force_budget": true,
       "name": "AstroAI L7 Tire Inflator Portable Air Compressor, 150 PSI Cordless Bike Pump",
       "brand": "AstroAI",
       "model": "L7",

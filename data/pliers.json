@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-14",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WORKPRO 5-Piece Cr-V (was the WORKPRO 7-Piece (Blue)). Best Budget is now the CRAFTSMAN CMHT82547 (was the Amazon Basics 4-Piece)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Amazon Basics 3-Piece Groove dropped from $22.92 to $20.22."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the IRWIN 2078707 dropped from $51.99 to $42.99; the Amazon Basics 4-Piece dropped from $15.28 to $13.48; the CRAFTSMAN CMHT82547 dropped from $16.98 to $14.98."},
     {"date": "2026-10-14", "note": "All 10 picks kept: each is still in stock and still among Amazon's best-selling pliers sets. Price moves: the WORKPRO 7-Piece rose from $18.99 to $19.99, the Amazon Basics 3-Piece Groove from $20.99 to $22.92, and the DISEN 21-Piece we warn against dropped from $99.99 to $89.99."},
@@ -40,7 +41,6 @@
   "products": [
     {
       "asin": "B0105SSMRO",
-      "force_overall": true,
       "name": "WORKPRO 7-Piece Pliers Set with Comfort Grip",
       "brand": "WORKPRO",
       "model": "7-Piece (Blue)",
@@ -153,7 +153,6 @@
     },
     {
       "asin": "B015X2NHOK",
-      "force_budget": true,
       "name": "Amazon Basics 4-Piece Pliers Set",
       "brand": "Amazon Basics",
       "model": "4-Piece",

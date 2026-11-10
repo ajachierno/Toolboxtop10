@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-09-24",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Makita HG6530VK (was the Wagner FURNO 500 (503063)). Best Budget is now the SEEKONE SDL-2816 (was the Genesis GHG1500A). Money No Object no longer shows, because the DEWALT D26960K costs less than Best Overall."},
     {"date": "2026-11-08", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Wagner HT1000 (0503008) rose from $29 to $33.49."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the BLACK+DECKER HG1300 dropped from $39.99 to $29.99."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Wagner HT1000 (0503008) rose from $21.24 to $29; the AcmyslaT R003 rose from $15.30 to $18.99; the Wagner FURNO 500 (503063) rose from $44.45 to $54."},
@@ -70,7 +71,6 @@
   "products": [
     {
       "asin": "B01MED5TK1",
-      "force_overall": true,
       "name": "Wagner Spraytech FURNO 500 Heat Gun, 12 Settings, 150°F to 1200°F",
       "brand": "Wagner",
       "model": "FURNO 500 (503063)",
@@ -107,7 +107,6 @@
     },
     {
       "asin": "B00EU2T8GG",
-      "force_budget": true,
       "name": "Genesis GHG1500A Dual Temperature Heat Gun Kit, 572°F/1000°F, with 4 Nozzles",
       "brand": "Genesis",
       "model": "GHG1500A",
@@ -129,7 +128,7 @@
         "two_speed_fan": false,
         "kit": true
       },
-      "verdict": "The budget pick. A 1,500-watt, 12.5-amp gun with low and high settings, four nozzles, a 6.5 ft cord, and a 2-year warranty for about $18. Two fixed heats cover paint stripping, shrink tubing, and thawing pipes.",
+      "verdict": "A 1,500-watt, 12.5-amp gun with low and high settings, four nozzles, a 6.5 ft cord, and a 2-year warranty for about $18. Two fixed heats cover paint stripping, shrink tubing, and thawing pipes.",
       "best_for": "Paint stripping, shrink tubing and thawing pipes on a budget.",
       "skip_if": "You need fine temperature control.",
       "pros": [
@@ -175,7 +174,7 @@
         "Highest rating on the list (4.8) and a 3-year warranty"
       ],
       "cons": [
-        "About seven times the price of the budget pick",
+        "About six times the price of the Genesis",
         "The listing doesn't publish the temperature range"
       ]
     },

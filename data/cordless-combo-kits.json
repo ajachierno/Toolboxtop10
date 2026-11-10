@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-11-07",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DCK250QQ2 (was the DEWALT DCK240C2)."},
     {"date": "2026-11-07", "note": "Amazon removed the CRAFTSMAN CMCK200C2 and Milwaukee 3697-22 listings, and the Milwaukee 3497-22 dropped out of the best-sellers. Added the CRAFTSMAN CMCK700D2 7-tool kit, the Greenworks CK322 drill and saw kit, and the DEWALT DCK540D1 5-tool kit (now Money No Object). The DCK240C2 rose from $129 to $149."},
     {"date": "2026-11-05", "note": "Replaced the Bosch CLPK22-120 and DEWALT DCK221F2, which no longer have a seller offering them on Amazon, and the Milwaukee 2892-22CT, which has dropped out of the best-sellers, with the CRAFTSMAN CMCK201D1 ($79), the DEWALT DCK360D3 3-tool kit ($269) and the DEWALT DCK250QQ2 hammer drill kit ($297.11). Other prices re-checked."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Price changes were all under 8%."},
@@ -73,7 +74,6 @@
   "products": [
     {
       "asin": "B00IJ0ALYS",
-      "force_overall": true,
       "name": "DEWALT 20V MAX Cordless Drill and Impact Driver Combo Kit, 2 Batteries, Charger and Bag (DCK240C2)",
       "brand": "DEWALT",
       "model": "DCK240C2",

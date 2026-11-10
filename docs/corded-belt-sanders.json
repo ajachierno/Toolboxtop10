@@ -29,8 +29,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B000056NOC",
-  "best_budget": "B007A9TD3E",
+  "best_overall": "B0H9DJPGDS",
+  "best_budget": "B0CYCSVMC1",
   "money_no_object": "B0000223IY"
  },
  "products": [
@@ -45,7 +45,7 @@
    "rating": 4.6,
    "reviews_count": 205,
    "score": 92,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Getting every grit and a bench-sander setup in one box.",
    "bought_last_month": "50+/mo",
    "verdict": "A complete kit: 10 belts from 40 to 180 grit, two dust bags, a vacuum adapter and two clamps that turn it into a bench sander.",
@@ -171,7 +171,7 @@
    "rating": 4.6,
    "reviews_count": 946,
    "score": 86,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Regular sanding where the belt staying put and the tool lasting matter.",
    "bought_last_month": "100+/mo",
    "verdict": "The pro's 3x21: an 8.8A motor with a variable speed dial, an auto-tracking belt you never adjust, and a body that sands flush to a wall on the nose and side. Rated at only 85 dB.",
@@ -255,7 +255,7 @@
    "rating": 4.4,
    "reviews_count": 224,
    "score": 85,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A cheap 3x21 with variable speed.",
    "bought_last_month": "400+/mo",
    "verdict": "A variable-speed 3x21 for 50 cents more than the SKIL, with a quick-release tension lever, lock-on switch, dust bag and 2-year warranty.",
@@ -297,7 +297,7 @@
    "rating": 4.4,
    "reviews_count": 4568,
    "score": 83,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Occasional sanding on a budget, and first-timers who need the pressure warning.",
    "bought_last_month": "400+/mo",
    "verdict": "The best-selling and most-reviewed belt sander here, and one of the cheapest. A light 3x18 with auto-tracking, micro-filter dust collection, a vacuum port and a pressure light that warns you when you're pushing too hard.",
@@ -501,6 +501,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the VEVOR 9926 (was the Makita 9903). Best Budget is now the WEN HB321V (was the SKIL 7510-01)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Makita 9903 rose from $244 to $309.99."

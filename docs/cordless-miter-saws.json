@@ -31,7 +31,7 @@
  "picks": {
   "best_overall": "B0764S2BL6",
   "best_budget": "B09SNK2SBL",
-  "money_no_object": "B004HASE0W"
+  "money_no_object": null
  },
  "products": [
   {
@@ -232,7 +232,7 @@
    "rating": 4.7,
    "reviews_count": 76,
    "score": 85,
-   "award": "Money No Object",
+   "award": null,
    "best_for": "Full-size 12-inch cutting on one DEWALT battery.",
    "bought_last_month": "200+/mo",
    "verdict": "A full-size 12-inch dual-bevel slider that runs on a single 20V MAX or FLEXVOLT battery. It cuts 14 inches wide and 6-1/2-inch base standing up, which covers almost everything a corded 12-inch saw does.",
@@ -555,6 +555,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Money No Object no longer shows, because the DEWALT DCS785B costs less than Best Overall."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Bosch GCM18V-07SN rose from $349 to $555."

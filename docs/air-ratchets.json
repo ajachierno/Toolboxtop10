@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B000UVR4W6",
-  "best_budget": "B07785XTVH",
+  "best_overall": "B00UB1YHVG",
+  "best_budget": "B0BZ3NRD2C",
   "money_no_object": "B00004XOSY"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.7,
    "reviews_count": 731,
    "score": 88,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Breaking smaller fasteners loose without switching tools.",
    "bought_last_month": null,
    "verdict": "The most torque here at 130 ft-lbs, more than twice a standard ratchet, with a variable-speed trigger and a silenced exhaust rated at 84 dBA.",
@@ -249,7 +249,7 @@
    "rating": 4.3,
    "reviews_count": 188,
    "score": 82,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A budget ratchet with a 360° exhaust.",
    "bought_last_month": "50+/mo",
    "verdict": "A budget set with a 360° adjustable exhaust, orbital trigger and a slim 2.6 lb composite body.",
@@ -331,7 +331,7 @@
    "rating": 4.4,
    "reviews_count": 919,
    "score": 80,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Occasional use on a budget.",
    "bought_last_month": "100+/mo",
    "verdict": "The cheapest ratchet here and one of the most reviewed: a basic reversible 3/8-inch for about $31.",
@@ -413,7 +413,7 @@
    "rating": 4.6,
    "reviews_count": 1021,
    "score": 76,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Engine repair and general garage use.",
    "bought_last_month": "50+/mo",
    "verdict": "The most-reviewed air ratchet here: Ingersoll Rand's general-purpose 3/8-inch with a heat-treated head, 55 ft-lbs and 170 rpm.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the AIRCAT 805-HT (was the Ingersoll Rand 170G). Best Budget is now the AEROPRO AP17411 (was the Dynamic Power 43237-2)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

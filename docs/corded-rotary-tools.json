@@ -28,7 +28,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0CWBM23HD",
+  "best_overall": "B0GTYM1QHG",
   "best_budget": "B003BYRFH8",
   "money_no_object": "B01M1SJNVU"
  },
@@ -44,7 +44,7 @@
    "rating": 4.7,
    "reviews_count": 109,
    "score": 91,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "A budget kit with a keyless chuck.",
    "bought_last_month": "1K+/mo",
    "verdict": "PHALANX's newer kit fixes the older one's wrench chuck with a keyless chuck, bumps the motor to 200 W and tops out at 38,000 rpm, the fastest here.",
@@ -331,7 +331,7 @@
    "rating": 4.7,
    "reviews_count": 897,
    "score": 83,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Regular use on metal, wood and plastic with the full Dremel accessory range.",
    "bought_last_month": "2K+/mo",
    "verdict": "The rotary tool to buy if you'll use it for years: a 1.6A motor with electronic speed control that holds rpm under load, a 360-degree grip and access to Dremel's full range of attachments and accessories.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the PHALANX PDM-160D (was the Dremel 4000-2/32)."
+  },
   {
    "date": "2026-11-06",
    "note": "Replaced the WEN 23103, which no longer has a buy box on Amazon, with the DEKOPRO 1.4 A kit ($29.99, flex shaft and 127 accessories). The PHALANX 180W dropped from $49.97 to $37.99."

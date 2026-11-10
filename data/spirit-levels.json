@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the WORKPRO W062071AE (was the Amazon Basics DS-SLAMZ003)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMHT43191 dropped from $9.98 to $9; the MAYES 10101 dropped from $17.98 to $16.52."},
     {"date": "2026-11-01", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {
@@ -72,7 +73,6 @@
   "products": [
     {
       "asin": "B081DDHP3Z",
-      "force_budget": true,
       "name": "Amazon Basics 9-Inch Magnetic Torpedo Level and Ruler, 180/90/45 Degree Bubbles",
       "brand": "Amazon Basics",
       "model": "DS-SLAMZ003",

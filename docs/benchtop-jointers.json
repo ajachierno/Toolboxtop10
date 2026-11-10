@@ -28,7 +28,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0BTMVCQ4Z",
+  "best_overall": "B08B1RBSD1",
   "best_budget": "B08M6KQ5LX",
   "money_no_object": "B000BHNAJA"
  },
@@ -44,7 +44,7 @@
    "rating": 4.4,
    "reviews_count": 523,
    "score": 95,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Woodworkers who want long insert life.",
    "bought_last_month": null,
    "verdict": "A 10-inch jointer with four-sided carbide inserts (four fresh edges per insert) and cast iron tables with pull-out extensions.",
@@ -85,7 +85,7 @@
    "rating": 4.5,
    "reviews_count": 80,
    "score": 90,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Serious hobbyists who want 8-inch capacity in a benchtop.",
    "bought_last_month": "50+/mo",
    "verdict": "An 8-inch benchtop jointer with carbide inserts and cast iron tables, the kind of features usually found on floor-standing machines.",
@@ -484,6 +484,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Wahuda Tools 50110CC-WHD (was the Cutech 40180HI)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on every listing. No price changes."

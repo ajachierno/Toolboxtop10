@@ -14,7 +14,7 @@
       "note": "Page published with 10 ranked picks and 1 tool to avoid. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."
     }
   ],
-  "budget_cap": 100,
+  "budget_cap": 110,
   "weights": {
     "rating": 0.5,
     "reviews": 0.3,
@@ -429,8 +429,7 @@
         "Brushed motor",
         "4.1 stars, the lowest on the list",
         "WEN batteries only fit WEN tools"
-      ],
-      "force_budget": true
+      ]
     }
   ],
   "avoid": [

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the JACO JSP-045 (was the ETENWOLF G200). Best Budget is now the ETENWOLF G101 (was the AstroAI GL-0801A)."},
     {"date": "2026-11-08", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the TIRETEK TT-GS06-QBR2 dropped from $12.99 to $9.77; the AstroAI ATG180 rose from $20.98 to $23.99."},
     {"date": "2026-11-01", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the TIRETEK TT-GS06-QBR2 rose from $9.98 to $12.99; the AstroAI ATG180 dropped from $23.99 to $20.98; the ETENWOLF T300 dropped from $7.99 to $6.99."},
     {
@@ -68,7 +69,6 @@
   "products": [
     {
       "asin": "B01J8DLGU2",
-      "force_budget": true,
       "name": "AstroAI Digital Tire Pressure Gauge, 150 PSI, ±1 PSI (GL-0801A)",
       "brand": "AstroAI",
       "model": "GL-0801A",
@@ -177,7 +177,6 @@
     },
     {
       "asin": "B0D41ZWR68",
-      "force_overall": true,
       "name": "ETENWOLF Tire Pressure Gauge, 0-75 PSI, Large Glow Dial (G200)",
       "brand": "ETENWOLF",
       "model": "G200",

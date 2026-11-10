@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00275F5O2",
-  "best_budget": "B0DRVF2ZXQ",
+  "best_overall": "B0DRVF2ZXQ",
+  "best_budget": "B0BF9759C8",
   "money_no_object": "B07YDYTYPT"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.5,
    "reviews_count": 579,
    "score": 92,
-   "award": "Best Budget",
+   "award": "Best Overall",
    "best_for": "DIYers who want both meter types for about $30.",
    "bought_last_month": "1K+/mo",
    "verdict": "A cheap meter with both modes: pinless for finished surfaces and pins for exact readings in lumber and drywall, plus an ambient temperature readout.",
@@ -124,7 +124,7 @@
    "rating": 4.6,
    "reviews_count": 1877,
    "score": 85,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Firewood and woodworking where species matters.",
    "bought_last_month": "1K+/mo",
    "verdict": "A pin meter with seven calibration scales for different wood groups and a backlight that turns green, orange or red for dry, moist or wet.",
@@ -320,7 +320,7 @@
    "rating": 4.5,
    "reviews_count": 15273,
    "score": 80,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Checking firewood, lumber and drywall after a leak.",
    "bought_last_month": "7K+/mo",
    "verdict": "The best-selling and most-reviewed moisture meter here: a pin meter with a backlit display, spare 8 mm pins and a cap that checks calibration.",
@@ -475,6 +475,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the LASELION MS03 (was the General Tools MMD4E). Best Budget is now the TopTes TS-630 (was the LASELION MS03)."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the General Tools MM8 dropped from $59.99 to $37.79; the TopTes TS-630 dropped from $29.99 to $26.99."

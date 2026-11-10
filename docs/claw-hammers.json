@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0000224VG",
-  "best_budget": "B01HD6N80W",
+  "best_overall": "B0BLYY27BF",
+  "best_budget": "B08BJC7FZS",
   "money_no_object": "B00002N5NA"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.7,
    "reviews_count": 498,
    "score": 97,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Framing features at a mid-list price: magnetic starter and side puller.",
    "bought_last_month": "300+/mo",
    "verdict": "The most feature-loaded hammer on the list for the money. One-piece forged steel, a magnetic nail starter, a shock-absorbing anti-slip grip, and a side nail puller notch — everything the pricier framing hammers have, at a mid-list price.",
@@ -216,7 +216,7 @@
    "rating": 4.8,
    "reviews_count": 4983,
    "score": 89,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "The one hammer most people should own for life.",
    "bought_last_month": "1K+/mo",
    "verdict": "The one to own. Estwing's 16 oz rip hammer is forged from a single piece of American steel, so the head can never work loose or fly off, and the patented shock-reduction grip takes the sting out of every strike. It's the hammer most carpenters have carried for decades.",
@@ -259,7 +259,7 @@
    "rating": 4.8,
    "reviews_count": 10146,
    "score": 84,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Hanging pictures, tacking trim and small nails.",
    "bought_last_month": "5K+/mo",
    "verdict": "The best small hammer, and the best-seller of the bunch by review count. At 8 oz it's built for hanging pictures, tacking trim, and drawer-kit jobs — not framing. The magnetic head starts small nails and brads so you don't hit your fingers.",
@@ -345,7 +345,7 @@
    "rating": 4.8,
    "reviews_count": 7383,
    "score": 78,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Most households: a quality 16 oz hammer for about $12.",
    "bought_last_month": "1K+/mo",
    "verdict": "The value pick most people should buy. A 16 oz fiberglass general-purpose hammer at around twelve dollars, with 4.8 stars across thousands of reviews. The fiberglass handle absorbs more shock than bare steel and won't rot like wood. No frills, just a solid everyday hammer.",
@@ -515,6 +515,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the JORGENSEN 20 oz Rip Claw (was the ESTWING E3-16S). Best Budget is now the Mr. Pen 8 oz Magnetic (was the IRWIN 1954889)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on every listing. No price changes."

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the DURATECH DTAHDPW10 (was the HORUSDY 97653)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the RIDGID 814 dropped from $64.99 to $51.99; the HORUSDY 97653 rose from $24.19 to $27.99; the Zmwjyxx SGQ5 rose from $33.29 to $36.99."},
     {"date": "2026-10-31", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the HORUSDY 97653 dropped from $28.49 to $24.19; the Zmwjyxx SGQ5 dropped from $36.99 to $33.29."},
     {
@@ -67,7 +68,6 @@
   "products": [
     {
       "asin": "B0000224JF",
-      "force_overall": true,
       "name": "RIDGID 31100 Model 818 Aluminum Straight Pipe Wrench, 18-Inch",
       "brand": "RIDGID",
       "model": "31100",
@@ -241,7 +241,6 @@
     },
     {
       "asin": "B093KNGSK9",
-      "force_budget": true,
       "name": "HORUSDY 4-Pack Heavy Duty Pipe Wrench Set, 8, 10, 12 and 14-Inch, with Storage Bag (97653)",
       "brand": "HORUSDY",
       "model": "97653",

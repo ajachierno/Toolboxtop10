@@ -130,6 +130,9 @@ def score_product(p, cat):
     return round(composite * 100)
 
 
+KIT_MARGIN = 5  # a kit takes Best Overall from a higher-scoring bare tool only within this many points
+
+
 def rank_products(cat):
     for p in cat["products"]:
         p["score"] = score_product(p, cat)
@@ -137,26 +140,39 @@ def rank_products(cat):
     for i, p in enumerate(ranked, 1):
         p["rank"] = i
     cap = cat.get("budget_cap", 60)
-    # Badges go to ready-to-use kits (battery included), never a tool-only unit.
-    kits = [p for p in ranked if p["features"].get("kit")]
-    # Editorial overrides (data flags) take precedence over the computed pick.
+    # Badges follow the scores. force_overall / force_budget still override them, but no page
+    # uses one today: a pin goes stale as soon as prices and reviews move, so add one only for a
+    # result that makes no sense, and say why in that product's verdict.
     forced_overall = next((p for p in ranked if p.get("force_overall")), None)
     forced_budget = next((p for p in ranked if p.get("force_budget")), None)
-    overall = forced_overall or (max(kits, key=lambda p: p["score"]) if kits else ranked[0])
-    budget_pool = ([p for p in kits if p["price"] <= cap and p is not overall]
-                   or [p for p in ranked if p["price"] <= cap and p is not overall])
-    budget = forced_budget or (max(budget_pool, key=lambda p: p["score"]) if budget_pool else None)
-    # Editorial "money no object" pick — the best regardless of price (data flag).
+    # Best Overall: the top score among picks with enough stars and reviews (listing_age.py).
+    # A ready-to-use kit (battery and charger included) is preferred over a tool-only unit when
+    # it scores within KIT_MARGIN points of that top score.
+    eligible = listing_age.overall_eligible(ranked)
+    top = eligible[0]
+    kit = next((p for p in eligible if p["features"].get("kit")), None)
+    overall = forced_overall or (kit if kit and top["score"] - kit["score"] <= KIT_MARGIN else top)
+    # Best Budget: the top score at or under the page's price cap that costs less than Best Overall
+    # (kits first, as above).
+    cheap = [p for p in ranked if p["price"] <= cap and p["price"] < overall["price"]]
+    budget_pool = [p for p in cheap if p["features"].get("kit")] or cheap
+    budget = forced_budget or (budget_pool[0] if budget_pool else None)
+    if budget is overall:
+        budget = None
+    # Money No Object: the product flagged "premium" in the data. It only shows when it costs
+    # more than Best Overall and holds no other badge.
     premium = next((p for p in ranked if p.get("premium")), None)
+    if premium and (premium is overall or premium is budget or premium["price"] <= overall["price"]):
+        premium = None
     for p in ranked:
         p["badge"] = None
         p["badge_kind"] = None
     overall["badge"] = "Best Overall"
     overall["badge_kind"] = "overall"
-    if budget and budget is not overall:
+    if budget:
         budget["badge"] = "Best Budget"
         budget["badge_kind"] = "budget"
-    if premium and premium is not overall and premium is not budget:
+    if premium:
         premium["badge"] = "Money No Object"
         premium["badge_kind"] = "premium"
     return ranked, overall, budget, premium
@@ -939,14 +955,10 @@ TO_TOP = """<a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 def build_category(site, filename):
     cat = load(filename)
     ranked, overall, budget, premium = rank_products(cat)
-    # A premium-flagged product that already holds Best Overall or Best Budget keeps that badge
-    # and gets no Money No Object card, so it never shows twice in the top picks.
-    if premium is overall or premium is budget:
-        premium = None
     avoid = cat.get("avoid", [])
     spec_fields = cat.get("spec_fields") or DEFAULT_SPEC_FIELDS
     columns = cat.get("table_columns") or DEFAULT_TABLE_COLUMNS
-    heroes ="".join(render_hero_card(p, site, cat) for p in (overall, budget, premium) if p)
+    heroes = "".join(render_hero_card(p, site, cat) for p in (overall, budget, premium) if p)
     cards = "".join(render_card(p, site, spec_fields, cat) for p in ranked)
     brands = list(dict.fromkeys(p["brand"] for p in ranked))
     cat["_brands"] = brands  # picked up by build_home for the site-wide deals note
@@ -991,9 +1003,10 @@ def build_category(site, filename):
     {int(cat['weights']['rating']*100)}% on its star rating,
     {int(cat['weights']['reviews']*100)}% on how many people have reviewed it (more reviews = more
     confidence the rating is real), and {int(cat['weights']['features']*100)}% on the features that
-    matter for the job. The list is ordered by that score. <b>Best Overall</b> is our pick for the
-    best all-around, ready-to-use tool; <b>Best Budget</b> the best value at or under
-    ${cat['budget_cap']}; and <b>Money No Object</b> the one to buy if price is no object.</p>
+    matter for the job. The list is ordered by that score. <b>Best Overall</b> is the top-scoring
+    pick with at least 4.0 stars and 30 reviews (a ready-to-use kit wins a close call);
+    <b>Best Budget</b> is the top score at or under ${cat['budget_cap']} that costs less than
+    Best Overall; and <b>Money No Object</b> is the one to buy if price is no object.</p>
     {render_feature_weights(cat)}
   </section>{render_changes(cat)}
   <section class="guide">
@@ -1009,8 +1022,9 @@ def build_category(site, filename):
     year = str(cat_date(cat, site))[:4]
     title = f"{cat['title']}{f' ({year})' if year else ''} — {site['brand']}"
     description = (f"{cat['title']} ranked from real Amazon ratings, review counts and prices. "
-                  f"Best Overall: {overall['brand']} {overall['model']}; Best Budget: "
-                  f"{budget['brand']} {budget['model']}. Specs, pros, cons, and a pick to avoid.")
+                  f"Best Overall: {overall['brand']} {overall['model']}"
+                  + (f"; Best Budget: {budget['brand']} {budget['model']}" if budget else "")
+                  + ". Specs, pros, cons, and a pick to avoid.")
     # Structured data: breadcrumb trail, the ranked list, and the buyer's-guide FAQ.
     breadcrumb = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": site["brand"], "item": f"{base}/"},
@@ -2010,7 +2024,7 @@ def build_home(site, cats):
         <p>{esc(c['blurb'])}</p>
         <div class="cat-picks">
           <span><b>Best Overall:</b> {esc(overall['brand'])} {esc(overall['model'])}</span>
-          <span><b>Best Budget:</b> {esc(budget['brand'])} {esc(budget['model'])}</span>
+          {f"<span><b>Best Budget:</b> {esc(budget['brand'])} {esc(budget['model'])}</span>" if budget else ""}
         </div>
         <span class="btn ghost">See the top {c['count']} &rarr;</span>
       </a>"""
@@ -2145,12 +2159,17 @@ def build_about(site, cats):
     lacks. The weights for every category are below.</p>
 
     <h2>The badges</h2>
-    <p><b>Best Overall</b> is the highest-scoring ready-to-use option, usually a kit with a battery and
-    charger for cordless tools. <b>Best Budget</b> is the best value at or under the category's price
-    cap. <b>Money No Object</b> is the one to buy if price doesn't matter. When the top scorer isn't a
-    sensible recommendation for a badge (for example, a bare tool for Best Overall, or a product that
-    doesn't really belong in the category), we assign the badge to the next sensible pick and say why in
-    the copy.</p>
+    <p>Best Overall and Best Budget come from the scores. Nobody picks them by hand, and they move
+    when the numbers move.</p>
+    <ul>
+      <li><b>Best Overall</b> is the highest score among picks with at least 4.0 stars and 30 reviews.
+      If a ready-to-use kit (battery and charger included) scores within 5 points of that pick, the
+      kit gets the badge, because most buyers need the battery too.</li>
+      <li><b>Best Budget</b> is the highest score at or under the category's price cap that also costs
+      less than Best Overall. A page has no Best Budget when nothing fits.</li>
+      <li><b>Money No Object</b> is the one badge we choose ourselves: the tool to buy if price doesn't
+      matter. It only appears when it costs more than Best Overall.</li>
+    </ul>
 
     <h2>Tools to avoid</h2>
     <p>Every page names one listing to skip, and the reason is always something on the listing itself: a
@@ -2395,8 +2414,8 @@ def main():
     warn_long_names()
     for cat, overall, budget in cats:
         print(f"  {cat['slug']}: Best Overall = {overall['brand']} {overall['model']} "
-              f"(score {overall['score']}); Best Budget = {budget['brand']} {budget['model']} "
-              f"(score {budget['score']})")
+              f"(score {overall['score']}); Best Budget = "
+              + (f"{budget['brand']} {budget['model']} (score {budget['score']})" if budget else "none"))
 
 
 CSS = r"""

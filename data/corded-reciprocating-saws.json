@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-09-28",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DWE305 (was the CRAFTSMAN CMES300)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Makita JR3051T dropped from $117.99 to $105.89."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the BOSCH GSA12-30 rose from $119 to $139."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the GALAX PRO 77112 rose from $32.29 to $37.99; the Ingersoll Rand 529 rose from $209.93 to $246.98; the SKIL RAS900 dropped from $138.75 to $119.95."},
@@ -29,7 +30,7 @@
   ],
   "products": [
     {
-      "asin": "B07MBS7MTT", "force_overall": true,
+      "asin": "B07MBS7MTT",
       "name": "CRAFTSMAN CMES300 7.5-Amp Corded Reciprocating Saw",
       "brand": "CRAFTSMAN", "model": "CMES300",
       "image": "https://m.media-amazon.com/images/I/61bbCO1SsHL._AC_SX425_.jpg",
@@ -43,7 +44,7 @@
       "cons": ["Less amps than heavy-demo saws", "Mid-range price"]
     },
     {
-      "asin": "B008J1GNEO", "force_budget": true,
+      "asin": "B008J1GNEO",
       "name": "SKIL 9206-02 7.5-Amp Variable Speed Reciprocating Saw",
       "brand": "SKIL", "model": "9206-02",
       "image": "https://m.media-amazon.com/images/I/51UkYSn1bUL._AC_SX425_.jpg",

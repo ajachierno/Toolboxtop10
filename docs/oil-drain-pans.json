@@ -28,7 +28,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00JJ63MDS",
+  "best_overall": "B079SYT1PN",
   "best_budget": "B007RXBU52",
   "money_no_object": "B0CFZ3W84F"
  },
@@ -44,7 +44,7 @@
    "rating": 4.8,
    "reviews_count": 1254,
    "score": 93,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Coolant flushes kept separate from used oil.",
    "bought_last_month": "500+/mo",
    "verdict": "A green coolant pan with a mesh screen that catches the drain plug, rollers on the bottom, and an O-ring-sealed spout, rated 4.8 stars.",
@@ -393,7 +393,7 @@
    "rating": 4.7,
    "reviews_count": 4335,
    "score": 77,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most car oil changes.",
    "bought_last_month": "4K+/mo",
    "verdict": "The best-selling and most-reviewed drain pan here: a 2-gallon open pan with a curled anti-splash lip, handles on both sides and a spout, rated 4.7 stars.",
@@ -468,6 +468,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Groz 41961 (was the NEIKO 20762A)."
+  },
   {
    "date": "2026-11-07",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."

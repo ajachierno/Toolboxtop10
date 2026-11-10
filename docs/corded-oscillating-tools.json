@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B07CTDRR4K",
+  "best_overall": "B00DQH1K2Q",
   "best_budget": "B0BVSKCNLC",
-  "money_no_object": "B00DQH1K2Q"
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.8,
    "reviews_count": 2698,
    "score": 98,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Remodelers who use a multi-tool weekly and want DEWALT build and a big kit.",
    "bought_last_month": "50+/mo",
    "verdict": "The pro's corded pick. A refined DEWALT with a dual-grip body, tool-free blade change, and a big accessory kit — 4.8 stars over 2,600 reviews. Expensive, but the one to buy if price is no object.",
@@ -208,7 +208,7 @@
    "rating": 4.4,
    "reviews_count": 4012,
    "score": 94,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most DIY cutting: fast 4.5° swing, variable speed and tool-free blades for about $54.",
    "bought_last_month": "200+/mo",
    "verdict": "The best all-around corded multi-tool. A strong 3.5-amp motor, a wide 4.5° oscillation angle that cuts fast, variable speed, and tool-free blade change — all backed by nearly 4,000 reviews for about $54.",
@@ -492,6 +492,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DWE315K (was the AVID POWER 3.5A)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Hammerhead 2.2A dropped from $48.40 to $39.53; the DEWALT DWE315SK rose from $134.10 to $156.61."

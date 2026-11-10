@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-22",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Vibekio CSS012-120 (was the VOLTASK SS-20B)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Biggest price moves: the Vibekio CSS012-120 dropped from $119.99 to $99.99; the EGO SNT2416 rose from $1,799 to $1,979; the VOLTASK CSS004-160ARO dropped from $229.99 to $206.99."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on 8 of 11 listings. Biggest price moves: the VOLTASK SS-20B dropped from $149.99 to $129.31; the VOLTASK CSS004-160ARO rose from $206.99 to $229.99."},
     {
@@ -74,7 +75,6 @@
   "products": [
     {
       "asin": "B09FQ2WSKK",
-      "force_overall": true,
       "name": "EGO Power+ 21\" Cordless Snow Blower with Steel Auger, (2) 56V 5.0Ah Batteries and Dual Port Charger (SNT2112)",
       "brand": "EGO",
       "model": "SNT2112",
@@ -187,7 +187,6 @@
     },
     {
       "asin": "B0B1TXSFMK",
-      "force_budget": true,
       "name": "VOLTASK 24V 13-Inch Cordless Snow Shovel with 4.0Ah Battery and Quick Charger",
       "brand": "VOLTASK",
       "model": "SS-20B",

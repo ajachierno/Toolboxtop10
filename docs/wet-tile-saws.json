@@ -28,7 +28,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B003HIWR08",
+  "best_overall": "B000J0BG7W",
   "best_budget": "B0HGC6L2CD",
   "money_no_object": "B08526D2PK"
  },
@@ -44,7 +44,7 @@
    "rating": 4.7,
    "reviews_count": 826,
    "score": 97,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Tile setters and serious remodels.",
    "bought_last_month": "100+/mo",
    "verdict": "The highest-rated tile saw here and the pro standard: a 10-inch sliding saw on a stand that cuts within 1/32 inch over 18 inches, with a porcelain blade and submersible pump included.",
@@ -331,7 +331,7 @@
    "rating": 4.4,
    "reviews_count": 6508,
    "score": 75,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Bathrooms, backsplashes and 12-inch floor tile.",
    "bought_last_month": null,
    "verdict": "The most-reviewed tile saw here by a wide margin: a 7-inch tabletop with a corrosion-resistant stainless steel top, a rip fence and miter gauge, a water reservoir and 0-45° bevels, for about $109.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT D24000S (was the SKIL 3540-02)."
+  },
   {
    "date": "2026-11-08",
    "note": "All 10 picks kept: each is still in stock and still among Amazon's current best-sellers. Prices and ratings re-checked."

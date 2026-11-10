@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-10-07",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the ChoosePRO HD1080P 100 ft (was the Sanyipace 100 ft with Locator)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the TGJOR 16.4 ft Dual-Lens Borescope dropped from $37.99 to $31.99."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the TGJOR 16.4 ft Dual-Lens Borescope rose from $31.99 to $37.99; the KCapyn 100 ft Toolbox Camera rose from $233.09 to $258.99."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the VEVOR 98 ft Sewer Camera rose from $174.32 to $215.90; the Anysun 165 ft with Locator rose from $1,039.99 to $1,156.99."},
@@ -14,7 +15,7 @@
       "note": "Page published with 10 ranked picks and 1 tool to avoid."
     }
   ],
-  "budget_cap": 180,
+  "budget_cap": 230,
   "weights": {
     "rating": 0.45,
     "reviews": 0.35,
@@ -218,8 +219,7 @@
         "720p video, the lowest resolution here",
         "Small 4.3 in. screen",
         "Up to 5 hours of battery, about half the others"
-      ],
-      "force_budget": true
+      ]
     },
     {
       "asin": "B0FVLGW7XL",

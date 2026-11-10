@@ -6,6 +6,7 @@
   "data_captured": "2026-11-06",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the LASELION MS03 (was the General Tools MMD4E). Best Budget is now the TopTes TS-630 (was the LASELION MS03)."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the General Tools MM8 dropped from $59.99 to $37.79; the TopTes TS-630 dropped from $29.99 to $26.99."},
     {"date": "2026-10-31", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {
@@ -67,7 +68,6 @@
   "products": [
     {
       "asin": "B00275F5O2",
-      "force_overall": true,
       "name": "General Tools MMD4E Pin Moisture Meter for Wood, Walls and Water Leak Detection",
       "brand": "General Tools",
       "model": "MMD4E",

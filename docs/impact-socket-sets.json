@@ -30,7 +30,7 @@
  "picks": {
   "best_overall": "B07MXB85S3",
   "best_budget": "B0CC1Z35Y7",
-  "money_no_object": "B0G4LBWPKK"
+  "money_no_object": null
  },
  "products": [
   {
@@ -124,7 +124,7 @@
    "rating": 4.7,
    "reviews_count": 4140,
    "score": 97,
-   "award": "Money No Object",
+   "award": null,
    "best_for": "Shops that want every size and accessory.",
    "bought_last_month": "700+/mo",
    "verdict": "The biggest set here at 91 pieces, with deep and shallow sockets, extensions and a universal joint in a carrying case.",
@@ -484,6 +484,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Money No Object no longer shows, because the VEVOR 69300004 costs less than Best Overall."
+  },
   {
    "date": "2026-11-08",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the VEVOR 65-piece plastic case rose from $75.99 to $88.90; the CASOMAN CS041 rose from $35.97 to $39.97."

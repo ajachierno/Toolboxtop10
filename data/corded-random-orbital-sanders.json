@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-19",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Bosch ROS20VSC (was the DEWALT DWE6421K)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the ZFE PA0000375PLUS5 dropped from $46.99 to $35.63."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DWE6421K dropped from $94 to $64.89; the Bosch ROS20VSC dropped from $99 to $69; the DEWALT DWE6423 rose from $79 to $99."},
     {"date": "2026-10-19", "note": "All 10 picks kept and all still in stock. Price moves: the Bosch ROS20VSC rose from $58.64 to $99, the DEWALT DWE6421K from $64.89 to $94 (now $15 more than the variable-speed DWE6423), and the Metabo HPT SV13YST from $47.64 to $59."},
@@ -27,7 +28,7 @@
   ],
   "products": [
     {
-      "asin": "B00ZWJDPTC", "force_overall": true,
+      "asin": "B00ZWJDPTC",
       "name": "DEWALT Orbital Sander Kit, 5 inch, 3 Amp, Corded, 12,000 OPM (DWE6421K)",
       "brand": "DEWALT", "model": "DWE6421K",
       "image": "https://m.media-amazon.com/images/I/613BH8vx0wL._AC_SX425_.jpg",
@@ -41,7 +42,7 @@
       "cons": ["Single speed — no dial for delicate finishing", "The cloth dust bag fills fast and passes fine dust"]
     },
     {
-      "asin": "B07FKBDNNQ", "force_budget": true,
+      "asin": "B07FKBDNNQ",
       "name": "SKIL 5\" Random Orbital Sander with Cyclonic Dust Box & 3pc Sanding Sheet (SR211601)",
       "brand": "SKIL", "model": "SR211601",
       "image": "https://m.media-amazon.com/images/I/61gLO6tD4UL._AC_SX425_.jpg",

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-11-07",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the JET JWDP-12 (was the SKIL DP9505-00). Best Budget is now the Hoteche P805006A (was the WOODSKIL DP-8)."},
     {"date": "2026-11-07", "note": "Amazon removed the WEN DP1263V, WEN 4206T, VEVOR DP8 and BUCKTOOL DP12VL listings. Added the JET JWDP-10, Hoteche P805006A, VEVOR 1016BVS and VEVOR 12-inch variable-speed press. Best Overall is now the SKIL DP9505-00 and Best Budget the WOODSKIL DP-8 ($125)."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the BUCKTOOL DP12VL dropped from $301.29 to $182; the WEN DP1263V dropped from $313.99 to $255.77."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the WEN 4206T rose from $83.97 to $123.76; the WEN DP1263V rose from $253.53 to $313.99; the VEVOR DP1006L rose from $127.71 to $141.90."},
@@ -73,7 +74,7 @@
       "cons": ["Spindle travel not listed", "1/2-in chuck"]
     },
     {
-      "asin": "B0BFQYZPQK", "force_overall": true,
+      "asin": "B0BFQYZPQK",
       "name": "SKIL 6.2 Amp 10 In. 5-Speed Benchtop Drill Press with Laser Alignment & Work Light (DP9505-00)",
       "brand": "SKIL", "model": "DP9505-00",
       "image": "https://m.media-amazon.com/images/I/51fnsGqVyBL._AC_SL1000_.jpg",
@@ -157,7 +158,7 @@
       "cons": ["3.2A motor, half the SKIL's 6.2A", "Spec table lists 2,800 rpm, the bullets 3,100", "No light or laser"]
     },
     {
-      "asin": "B0B81338B1", "force_budget": true,
+      "asin": "B0B81338B1",
       "name": "WOODSKIL 8-Inch Benchtop Drill Press, 2.3 Amp 5-Speed with Laser Guide (DP-8)",
       "brand": "WOODSKIL", "model": "DP-8",
       "image": "https://m.media-amazon.com/images/I/61H3eVaVtAL._AC_SL1500_.jpg",

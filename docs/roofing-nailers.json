@@ -30,7 +30,7 @@
  },
  "picks": {
   "best_overall": "B0000AMK5F",
-  "best_budget": "B015O3W47E",
+  "best_budget": "B07BHRCX9M",
   "money_no_object": "B088Y413MP"
  },
  "products": [
@@ -85,7 +85,7 @@
    "rating": 4.5,
    "reviews_count": 231,
    "score": 92,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Budget buyers who want a full feature set.",
    "bought_last_month": "50+/mo",
    "verdict": "A magnesium-bodied budget nailer with a selectable trigger, tool-free depth and a shingle guide, rated 4.5 stars.",
@@ -125,7 +125,7 @@
    "rating": 4.4,
    "reviews_count": 1258,
    "score": 89,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "DIY re-roofs and sheds.",
    "bought_last_month": "200+/mo",
    "verdict": "A budget roofing nailer with a sequential or bump trigger, a shingle guide and skid pads that stop it sliding off the roof, for about $109.",
@@ -480,6 +480,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the HBT HBCN45P (was the 3PLUS HCN45SP)."
+  },
   {
    "date": "2026-11-07",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the BOSTITCH BRN175A rose from $179 to $229.99; the DEWALT DCN45RND1 dropped from $389.95 to $334.99; the WEN 61783 rose from $116.59 to $128.48."

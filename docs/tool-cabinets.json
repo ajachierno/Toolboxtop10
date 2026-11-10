@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0B3MB5F56",
+  "best_overall": "B0FVS77Q1T",
   "best_budget": "B0H8D8K9L3",
-  "money_no_object": "B0FVS77Q1T"
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.3,
    "reviews_count": 345,
    "score": 94,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "A shared garage, where four separately locking areas keep things sorted.",
    "bought_last_month": "50+/mo",
    "verdict": "The most complete cabinet here: an upper cupboard, two full-extension drawers and a lower cupboard that each lock, pegboard on the doors and sides with 8 hooks, and four locking casters that can be removed.",
@@ -339,7 +339,7 @@
    "rating": 4.4,
    "reviews_count": 5230,
    "score": 79,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most garages: a tall locking cabinet with five heavy-duty shelves.",
    "bought_last_month": "1K+/mo",
    "verdict": "One of the most-reviewed cabinets on the page: a 71-inch steel locker with five adjustable shelves rated 180 lbs each, two keyed doors that open 180 degrees, a wall anchor kit and a 2-year warranty.",
@@ -502,6 +502,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the GangMei WH-ZED-B (was the Yizosh XGG-BLACK-1)."
+  },
   {
    "date": "2026-11-08",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Yizosh XGG-BLACK-1 rose from $130.49 to $144.99."

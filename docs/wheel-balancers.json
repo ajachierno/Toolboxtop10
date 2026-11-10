@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0FKBCVMLB",
-  "best_budget": "B0CGL52TZ5",
+  "best_overall": "B0CGL52TZ5",
+  "best_budget": "B093H7NHPF",
   "money_no_object": "B0GD6ZDN54"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.8,
    "reviews_count": 7,
    "score": 77,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "A bench-top computer balancer that runs on USB-C power.",
    "bought_last_month": null,
    "verdict": "A computerized balancer small enough for a workbench: you spin the wheel by hand two or three turns and it reads the imbalance. It runs off USB-C power, so it works in a van or a garage with no spare outlet.",
@@ -86,7 +86,7 @@
    "rating": 4.5,
    "reviews_count": 222,
    "score": 76,
-   "award": "Best Budget",
+   "award": "Best Overall",
    "best_for": "A bubble balancer with published dimensions, if the top seller is out.",
    "bought_last_month": "50+/mo",
    "verdict": "The same 24-inch bubble design as the rest of the field, with chrome-plated rods and springs and a solid 4.4-star record. A safe pick if the top seller is out of stock.",
@@ -168,7 +168,7 @@
    "rating": 4.2,
    "reviews_count": 260,
    "score": 73,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A cheaper bubble balancer with simple assembly.",
    "bought_last_month": null,
    "verdict": "Another 24-inch bubble balancer, slightly cheaper than most of the list. Assembly is three parts: bolt the shaft to the base and drop the cone set on top.",
@@ -497,6 +497,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the NYXOVA G08251054 (was the Ibextronic I40 PRO). Best Budget is now the ATPEAM AP-04-2690 (was the NYXOVA G08251054)."
+  },
   {
    "date": "2026-11-04",
    "note": "Replaced the DASBET and Acymner bubble balancers (both currently unavailable) with the SIXIWANZI and Punmew bubble balancers, and the MutsMover WBM-S-710, which fell out of the best-seller list, with the Motool KT-710G computer balancer."

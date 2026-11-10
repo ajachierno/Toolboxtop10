@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Innova 5610 (was the BlueDriver Pro (LSB2))."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the ANCEL AD410 dropped from $49.99 to $38.96."},
     {"date": "2026-10-31", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the ANCEL AD410 rose from $39.99 to $49.99."},
     {
@@ -71,7 +72,6 @@
   "products": [
     {
       "asin": "B00652G4TS",
-      "force_overall": true,
       "name": "BlueDriver OBD2 Scanner Bluetooth, No Subscription, ABS SRS TPMS",
       "brand": "BlueDriver",
       "model": "Pro (LSB2)",

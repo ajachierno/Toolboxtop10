@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-15",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the ZUZUAN 6 in & 8 in 2-Piece (was the IRWIN 2078216)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMHT81645 dropped from $13.49 to $9.98; the Dykes 6-Inch dropped from $5.99 to $4.99; the Amazon Basics 3-Piece Long Reach dropped from $16.37 to $14.69."},
     {"date": "2026-10-15", "note": "Prices, ratings and review counts re-checked on every listing. Replaced the URSKYTOUS 4-Piece Jewelry Pliers Set, which no longer ranks among Amazon's best-selling needle-nose pliers, with the ZUZUAN 6 in & 8 in 2-Piece set ($9.99). Price moves: the WORKPRO 6\" Smooth Jaw rose from $5.94 to $6.99, the Amazon Basics 3-Piece Long Reach from $15.11 to $16.37, and the KNIPEX 26 11 200 from $31.00 to $32.25."},
@@ -40,7 +41,6 @@
   "products": [
     {
       "asin": "B000A0OW2M",
-      "force_overall": true,
       "name": "IRWIN VISE-GRIP Long Nose Pliers, 6 in (2078216)",
       "brand": "IRWIN",
       "model": "2078216",
@@ -301,7 +301,6 @@
     },
     {
       "asin": "B0733NWRCS",
-      "force_budget": true,
       "name": "Dykes Extra Long Needle Nose Pliers, 6 in",
       "brand": "Dykes",
       "model": "6-Inch",

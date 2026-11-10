@@ -6,6 +6,7 @@
   "data_captured": "2026-11-06",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Crescent CLP5SETN-08 (was the IRWIN 36). Best Budget is now the Evertools HDR10010 (was the Crescent CLP5SETN-08)."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-10-31", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {
@@ -67,7 +68,6 @@
   "products": [
     {
       "asin": "B0015YJDNK",
-      "force_overall": true,
       "name": "IRWIN VISE-GRIP Original Locking Pliers with Wire Cutter Set, 2-Piece (36)",
       "brand": "IRWIN",
       "model": "36",
@@ -138,7 +138,6 @@
     },
     {
       "asin": "B095THVMZV",
-      "force_budget": true,
       "name": "Crescent 5-Piece Curved and Long Nose Locking Plier Set (CLP5SETN-08)",
       "brand": "Crescent",
       "model": "CLP5SETN-08",

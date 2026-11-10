@@ -6,6 +6,7 @@
   "data_captured": "2026-11-06",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Pro-LifT T-6906D (was the Pro-LifT PL3300). Best Budget is now the Amazon Basics SW-STJK03 (was the Jack Boss AS42002X)."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the BIG RED T43202 dropped from $44.32 to $35.99; the Amazon Basics SW-STJK03 dropped from $37.78 to $32.39; the BIG RED T43002A dropped from $39.99 to $35.99."},
     {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
@@ -71,7 +72,7 @@
       "cons": ["Safety standard not stated", "Not for large trucks"]
     },
     {
-      "asin": "B09TPXRHF8", "force_overall": true,
+      "asin": "B09TPXRHF8",
       "name": "Pro-LifT PL3300 Heavy Duty Jack Stands, 3 Ton Pair with Double Pins, Handle Lock and Mobility Pin",
       "brand": "Pro-LifT", "model": "PL3300",
       "image": "https://m.media-amazon.com/images/I/61NTGfB4ygL._AC_SL1500_.jpg",
@@ -99,7 +100,7 @@
       "cons": ["Standard not named", "Smaller review base"]
     },
     {
-      "asin": "B0928W86YB", "force_budget": true,
+      "asin": "B0928W86YB",
       "name": "Jack Boss Jack Stands Low Profile 2 Ton (4000 LBs), 2 Pack (AS42002X)",
       "brand": "Jack Boss", "model": "AS42002X",
       "image": "https://m.media-amazon.com/images/I/71p7nyj31ZS._AC_SL1500_.jpg",

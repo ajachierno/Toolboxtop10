@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-11-08",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT D24000S (was the SKIL 3540-02)."},
     {"date": "2026-11-08", "note": "All 10 picks kept: each is still in stock and still among Amazon's current best-sellers. Prices and ratings re-checked."},
     {"date": "2026-11-01", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT D24000S rose from $799 to $999."},
     {
@@ -71,7 +72,6 @@
   "products": [
     {
       "asin": "B003HIWR08",
-      "force_overall": true,
       "name": "SKIL 7-Inch Wet Tile Saw (3540-02)",
       "brand": "SKIL",
       "model": "3540-02",
@@ -107,7 +107,6 @@
     },
     {
       "asin": "B0HGC6L2CD",
-      "force_budget": true,
       "name": "VEVOR Wet Tile Saw 7 Inch, 3600 RPM (TC180)",
       "brand": "VEVOR",
       "model": "TC180",

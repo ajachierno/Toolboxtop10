@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-10-13",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Amazon Basics 26-Piece Ball-End (was the Amazon Basics 36-Piece). Best Budget is now the toolant 14-Piece Folding (was the EFFICERE 30-Piece)."},
     {"date": "2026-11-08", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the EFFICERE 30-Piece rose from $10.90 to $12.99; the toolant 14-Piece Folding dropped from $9.99 to $8.99."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Amazon Basics 36-Piece rose from $10.49 to $12.99; the EFFICERE 30-Piece dropped from $12.99 to $10.90; the ELEAD 41-Piece Hex & Torx rose from $22.99 to $25.99."},
     {"date": "2026-10-13", "note": "Replaced the Lichamp 8-Piece T-Handle, which has dropped out of Amazon's best-selling hex key sets, with the ELEAD 41-Piece Hex and Torx Key Set ($22.99). Price moves: the CRAFTSMAN CMHT26028 dropped from $25.29 to $16.98, the toolant 14-Piece Folding rose from $7.99 to $9.99, and the ELEAD 31-Piece rose from $11.88 to $13.99."},
@@ -40,7 +41,6 @@
   "products": [
     {
       "asin": "B07V844YR8",
-      "force_overall": true,
       "name": "Amazon Basics 36-Piece Allen Wrench / Hex Key Set, SAE & Metric",
       "brand": "Amazon Basics",
       "model": "36-Piece",
@@ -264,7 +264,6 @@
     },
     {
       "asin": "B08GKHLJWR",
-      "force_budget": true,
       "name": "EFFICERE 30-Piece Hex Key Allen Wrench Set, SAE & Metric",
       "brand": "EFFICERE",
       "model": "30-Piece",

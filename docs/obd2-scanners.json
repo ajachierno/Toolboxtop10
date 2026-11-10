@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00652G4TS",
+  "best_overall": "B07Z481NJM",
   "best_budget": "B007XE8C74",
-  "money_no_object": "B07Z481NJM"
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.4,
    "reviews_count": 4239,
    "score": 95,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Serious DIYers doing brakes, batteries and component tests.",
    "bought_last_month": "2K+/mo",
    "verdict": "The only bidirectional tool here: it sends commands to the car to test parts like the fuel pump or retract an electronic parking brake, reads enhanced data from ABS, SRS and transmission, and does special resets.",
@@ -85,7 +85,7 @@
    "rating": 4.5,
    "reviews_count": 63324,
    "score": 92,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Drivers who want to know what's wrong and what usually fixes it.",
    "bought_last_month": "1K+/mo",
    "verdict": "The most complete scanner for most drivers: a Bluetooth adapter and app that read engine, ABS, airbag, TPMS and transmission codes, show live data, and give unlimited repair reports matched to your VIN, with no subscription.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Innova 5610 (was the BlueDriver Pro (LSB2))."
+  },
   {
    "date": "2026-11-07",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the ANCEL AD410 dropped from $49.99 to $38.96."

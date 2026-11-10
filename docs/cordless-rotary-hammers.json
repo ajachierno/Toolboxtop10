@@ -27,7 +27,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00YDZI9BA",
+  "best_overall": "B0GTJ85MYG",
   "best_budget": "B0B24YTVHT",
   "money_no_object": "B09PMSKXRV"
  },
@@ -86,7 +86,7 @@
    "rating": 4.6,
    "reviews_count": 182,
    "score": 88,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Homeowners without a platform who want a complete kit.",
    "bought_last_month": "100+/mo",
    "verdict": "A complete kit for about $120: 2.5 J brushless hammer, two 4.0Ah batteries, charger, three bits, two chisels, and a case. A good pick for a homeowner who doesn't already own a battery platform.",
@@ -215,7 +215,7 @@
    "rating": 4.7,
    "reviews_count": 3474,
    "score": 85,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "DEWALT 20V MAX owners who drill concrete often and want low vibration.",
    "bought_last_month": "1K+/mo",
    "verdict": "The best-selling cordless rotary hammer on Amazon by a wide margin: a 1\" L-shape hammer with DEWALT's SHOCKS vibration control, three modes including chipping, and a 3-year warranty. Sold and shipped by Amazon.",
@@ -510,6 +510,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Seesii EH09P-US (was the DEWALT DCH273B)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Biggest price moves: the Seesii EH09P-US rose from $119.99 to $129.99."

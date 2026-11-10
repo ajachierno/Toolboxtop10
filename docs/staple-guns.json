@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00002ND61",
-  "best_budget": "B0B5VVNZCW",
+  "best_overall": "B087BP39S5",
+  "best_budget": "B0F5W651XJ",
   "money_no_object": "B077Y9NSQF"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.5,
    "reviews_count": 6915,
    "score": 90,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "One stapler that takes almost any fastener.",
    "bought_last_month": "400+/mo",
    "verdict": "A 6-in-1 gun that takes T50 staples and five other fastener types with no adjustment, a high/low power lever and a handle lock for storage.",
@@ -290,7 +290,7 @@
    "rating": 4.5,
    "reviews_count": 7363,
    "score": 80,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Crafts, fabric, screens and shelf lining.",
    "bought_last_month": "100+/mo",
    "verdict": "The cheapest gun here: a light-duty JT21 stapler with an ergonomic rubber grip, quick-release bottom loading, 800 staples and a remover.",
@@ -372,7 +372,7 @@
    "rating": 4.5,
    "reviews_count": 5247,
    "score": 76,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Insulation, house wrap, upholstery and general fastening.",
    "bought_last_month": "2K+/mo",
    "verdict": "The staple gun that set the standard: an all-chromed-steel body, a high-leverage handle, a jam-resistant rear-load magazine and a staple-view window. T50 staples are sold everywhere.",
@@ -413,7 +413,7 @@
    "rating": 4.4,
    "reviews_count": 1340,
    "score": 75,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Controlled stapling in tight spots.",
    "bought_last_month": "1K+/mo",
    "verdict": "A reverse-squeeze heavy-duty stapler: PUSHFIRE puts the leverage over the staple for less kickback and more control, with a pinch-latch bottom load and a lock for storage.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WORKPRO W023035 (was the Arrow T50). Best Budget is now the HAUSHOF HH25006 (was the CRAFTSMAN CMHT82643)."
+  },
   {
    "date": "2026-11-07",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMHT82643 rose from $14.99 to $28.98."

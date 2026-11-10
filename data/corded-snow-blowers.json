@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-23",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Westinghouse WSnow22 (was the Westinghouse WSnow20)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Snow Joe 320E rose from $72.76 to $99.97; the Earthwise SN70016 dropped from $129.99 to $104.99."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEKOPRO DKPGSRA020C1-K1UL-GEAZ rose from $139.99 to $159.99; the SENIX ST15-M dropped from $199.99 to $179.98."},
     {
@@ -75,7 +76,6 @@
   "products": [
     {
       "asin": "B0D67Z7KZF",
-      "force_overall": true,
       "name": "Westinghouse WSnow20 Corded Snow Blower 20 Inch, Steel Auger, Dual LED Lights, 1800 Watt Motor, 25ft Throwing Distance",
       "brand": "Westinghouse",
       "model": "WSnow20",

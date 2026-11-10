@@ -29,9 +29,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0D67Z7KZF",
+  "best_overall": "B0D686D5JS",
   "best_budget": "B0CJDPDZHJ",
-  "money_no_object": "B0D686D5JS"
+  "money_no_object": null
  },
  "products": [
   {
@@ -45,7 +45,7 @@
    "rating": 4.2,
    "reviews_count": 218,
    "score": 93,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Two-car driveways and deeper snowfalls.",
    "bought_last_month": "100+/mo",
    "verdict": "The bigger WSnow20: 2 in wider, 3 in deeper and rated for 840 lb of snow a minute. Worth the extra $69 if your storms regularly top 10 in.",
@@ -89,7 +89,7 @@
    "rating": 4.4,
    "reviews_count": 628,
    "score": 91,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Driveways and walks that get up to 10 in of snow at a time.",
    "bought_last_month": "600+/mo",
    "verdict": "The best-selling corded snow blower on Amazon right now. A rubber-tipped steel auger, a 20 in path and a 2-year warranty for under $180.",
@@ -523,6 +523,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Westinghouse WSnow22 (was the Westinghouse WSnow20)."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Snow Joe 320E rose from $72.76 to $99.97; the Earthwise SN70016 dropped from $129.99 to $104.99."

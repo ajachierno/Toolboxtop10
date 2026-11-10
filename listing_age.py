@@ -34,6 +34,8 @@ MAX_BOOST = 2.0      # most a review count can be multiplied by
 MIN_REVIEWS = 30     # below this, no boost
 FULL_CREDIT = 200    # review count (after the age boost) that earns the full review score on every page;
                      # past this, rating and features decide. A page's own reviews_ceiling only applies if lower.
+MIN_OVERALL_RATING = 4.0   # Best Overall needs at least this star rating
+MIN_OVERALL_REVIEWS = 30   # and at least this many reviews, when any product on the page has both
 
 ASIN_RE = re.compile(r"^B0[0-9A-Z]{8}$")
 _DATE_FORMATS = ("%B %d, %Y", "%b %d, %Y", "%Y-%m-%d")
@@ -169,6 +171,14 @@ def review_subscore(p, cat, default_ceiling):
     if listed:
         p["listed"], p["listed_how"] = listed.isoformat(), how
     return min(1.0, math.log10(p["reviews_count"] * mult + 1) / math.log10(review_ceiling(cat, default_ceiling))), mult
+
+
+def overall_eligible(products):
+    """Products that can hold Best Overall: at least MIN_OVERALL_RATING stars from at least
+    MIN_OVERALL_REVIEWS reviews. If nothing on the page clears both, every product is eligible."""
+    ok = [p for p in products
+          if p["rating"] >= MIN_OVERALL_RATING and p["reviews_count"] >= MIN_OVERALL_REVIEWS]
+    return ok or list(products)
 
 
 def as_of_date(cat):

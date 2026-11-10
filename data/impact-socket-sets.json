@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Money No Object no longer shows, because the VEVOR 69300004 costs less than Best Overall."},
     {"date": "2026-11-08", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the VEVOR 65-piece plastic case rose from $75.99 to $88.90; the CASOMAN CS041 rose from $35.97 to $39.97."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the SEDY 84018 rose from $39.98 to $44.99; the CASOMAN CS041 dropped from $39.97 to $35.97."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CASOMAN CS041 rose from $35.97 to $39.97."},
@@ -72,7 +73,6 @@
   "products": [
     {
       "asin": "B07MXB85S3",
-      "force_overall": true,
       "name": "NEIKO 02448A 1/2-Inch Drive Master Impact Socket Set, 65 Piece, SAE and Metric, Deep and Shallow",
       "brand": "NEIKO",
       "model": "02448A",
@@ -179,7 +179,6 @@
     },
     {
       "asin": "B0CC1Z35Y7",
-      "force_budget": true,
       "name": "SEDY 29-Piece 1/2-Inch Drive Impact Socket Set, SAE 3/8 to 1 Inch and Metric 10-24 mm (84018)",
       "brand": "SEDY",
       "model": "84018",

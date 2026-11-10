@@ -28,7 +28,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0GHV7HH1H",
+  "best_overall": "B0GWPY7JF9",
   "best_budget": "B0CBQ359Z2",
   "money_no_object": "B00YTNC7NC"
  },
@@ -44,7 +44,7 @@
    "rating": 4.0,
    "reviews_count": 81,
    "score": 79,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "A hoist and leveler kit for less than the VEVOR.",
    "bought_last_month": null,
    "verdict": "A 2-ton hoist with a 1,500 lb leveler included for about $81 less than the VEVOR kit, and a better rating.",
@@ -127,7 +127,7 @@
    "rating": 4.7,
    "reviews_count": 13,
    "score": 73,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "The best-rated hoist, with a leveler and a published 39.5–74 in lift range.",
    "bought_last_month": "50+/mo",
    "verdict": "The highest-rated hoist we found at 4.7 stars. It includes a leveler and is one of the few listings that publishes its lift range: 39.5 to 74 inches.",
@@ -494,6 +494,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the GarveeTech 2-Ton Hoist with Leveler (was the Garvee Folding 2-Ton Hoist with Leveler)."
+  },
   {
    "date": "2026-11-05",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

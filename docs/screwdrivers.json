@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0015SBILG",
-  "best_budget": "B07RFD9JWZ",
+  "best_overall": "B09FFCGLHK",
+  "best_budget": null,
   "money_no_object": "B0007ZA29C"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.7,
    "reviews_count": 27828,
    "score": 87,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Opening phones, laptops, consoles and glasses.",
    "bought_last_month": "10K+/mo",
    "verdict": "The electronics pick. A magnetic precision driver with the odd bits — Torx, tri-wing, pentalobe — that open phones, laptops, game consoles, and glasses. More than 27,000 ratings and ten dollars for the kit that a full-size set can't replace.",
@@ -128,7 +128,7 @@
    "rating": 4.8,
    "reviews_count": 28617,
    "score": 83,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most people: one pocket driver that replaces a drawer of screwdrivers.",
    "bought_last_month": "6K+/mo",
    "verdict": "The one screwdriver to keep in your pocket. Eight bits and three nut driver sizes live in one cushion-grip handle, so it replaces a whole drawer of drivers. With 28,000-plus ratings it's the most-trusted driver on the list — and it's sixteen dollars.",
@@ -170,7 +170,7 @@
    "rating": 4.6,
    "reviews_count": 13222,
    "score": 82,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A cheap magnetic starter set for the drawer.",
    "bought_last_month": "6K+/mo",
    "verdict": "The best cheap set. Ten magnetic-tip Phillips and slotted drivers in a range of sizes for ten dollars, with more than 13,000 ratings. Magnetic tips hold the screw so you're not fishing it into place. Perfect starter or drawer set.",
@@ -501,6 +501,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the JOREST Precision Set (was the Klein Tools 32500). No pick is both under the price cap and cheaper than Best Overall, so there is no Best Budget for now."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

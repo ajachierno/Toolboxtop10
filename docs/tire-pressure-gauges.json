@@ -29,9 +29,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0D41ZWR68",
-  "best_budget": "B01J8DLGU2",
-  "money_no_object": "B07VV78RZ1"
+  "best_overall": "B07VV78RZ1",
+  "best_budget": "B09YYJ58R6",
+  "money_no_object": null
  },
  "products": [
   {
@@ -45,7 +45,7 @@
    "rating": 4.7,
    "reviews_count": 7211,
    "score": 94,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Enthusiasts and mechanics who want shop-grade accuracy.",
    "bought_last_month": "4K+/mo",
    "verdict": "A pro digital gauge with dual sensors certified to ±0.5% of full scale, a reading that locks until you reset it, a bleed valve, and solid brass and steel parts.",
@@ -86,7 +86,7 @@
    "rating": 4.7,
    "reviews_count": 2899,
    "score": 93,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Drivers who want an accurate gauge that works in any weather.",
    "bought_last_month": "4K+/mo",
    "verdict": "A dial gauge calibrated to ANSI Grade A (±1%) with a glow-in-the-dark face and a swivel chuck, and no batteries to die.",
@@ -207,7 +207,7 @@
    "rating": 4.7,
    "reviews_count": 6351,
    "score": 88,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Glove boxes and a spare for the truck.",
    "bought_last_month": "6K+/mo",
    "verdict": "Two all-metal pencil gauges, one for cars and one up to 120 PSI, for about $6.",
@@ -328,7 +328,7 @@
    "rating": 4.4,
    "reviews_count": 72978,
    "score": 84,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Monthly tire checks on cars, SUVs and motorcycles.",
    "bought_last_month": "20K+/mo",
    "verdict": "The best-selling and most-reviewed tire gauge here by far, with 72,978 reviews: a digital gauge calibrated to ±1 PSI with a backlit screen and a lit nozzle, for about $7.",
@@ -486,6 +486,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the JACO JSP-045 (was the ETENWOLF G200). Best Budget is now the ETENWOLF G101 (was the AstroAI GL-0801A)."
+  },
   {
    "date": "2026-11-08",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the TIRETEK TT-GS06-QBR2 dropped from $12.99 to $9.77; the AstroAI ATG180 rose from $20.98 to $23.99."

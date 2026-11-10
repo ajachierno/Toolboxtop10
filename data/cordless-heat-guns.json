@@ -6,6 +6,7 @@
   "data_captured": "2026-11-06",
   "audited": "2026-10-31",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. No pick is both under the price cap and cheaper than Best Overall, so there is no Best Budget for now."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-10-31", "note": "Replaced 4 picks. The Milwaukee 2688-20 no longer has an Amazon buy box, so Milwaukee's M18 BHG-0 takes its place. The LIVOWALNY M18-fit, Edtran Makita-fit and FULLYEA FHG101-011 guns fell out of the best-sellers and are replaced by the WORKPRO 7.2V mini, the FULLYEA FHG101-029A kit and the RIWELF M18-fit gun. The DEWALT DCE530P1 kit dropped from $239 to $179.99."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Biggest price moves: the DEWALT DCE530P1 rose from $158.18 to $239; the Performance Tool W2082 dropped from $28.99 to $26.49."},
@@ -190,7 +191,6 @@
     },
     {
       "asin": "B07SGYWXRY",
-      "force_budget": true,
       "name": "Ryobi ONE+ 18V Cordless Heat Gun (Tool Only)",
       "brand": "RYOBI",
       "model": "P3150",

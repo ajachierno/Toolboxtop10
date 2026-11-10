@@ -6,6 +6,7 @@
   "data_captured": "2026-11-04",
   "audited": "2026-09-30",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Keter 259676 (was the Goplus 5-Drawer Tool Chest)."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Goplus 5-Drawer Tool Chest rose from $121.54 to $159.99; the LARBANKE 5-Drawer rose from $172.79 to $215.99."},
     {"date": "2026-10-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the LARBANKE 5-Drawer dropped from $215.99 to $172.79; the BSMTEK KF620010-01 dropped from $249.99 to $199.99. Prices were captured during Amazon's Prime Big Deal Days sale, so some may be temporarily lower."},
@@ -172,7 +173,6 @@
     },
     {
       "asin": "B0DLBKHXLS",
-      "force_budget": true,
       "name": "Goplus 5-Drawer Rolling Tool Chest with Detachable Top Toolbox",
       "brand": "Goplus",
       "model": "5-Drawer Tool Chest",
@@ -198,7 +198,7 @@
         "wood_top": false,
         "power_strip": false
       },
-      "verdict": "The budget pick. A steel five-drawer chest with a top box that lifts off and carries on its own, for about $160. It's the best-selling rolling chest on Amazon right now, with more than 2,600 ratings behind it.",
+      "verdict": "A steel five-drawer chest with a top box that lifts off and carries on its own, for about $160. It's the best-selling rolling chest on Amazon right now, with more than 2,600 ratings behind it.",
       "best_for": "A cheap steel chest with a top box you can carry on its own.",
       "skip_if": "You'll load heavy tools; it's rated for 122 lbs total.",
       "pros": [

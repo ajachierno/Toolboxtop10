@@ -6,6 +6,7 @@
   "data_captured": "2026-11-05",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the ADOTOCAM ZJ-001Z (was the VEVOR DJZO5030-10)."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the RYOBI PSBRA02B rose from $104.99 to $114.89; the Bosch PS11-102 dropped from $153 to $139."},
     {"date": "2026-10-29", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the ADOTOCAM ZJ-001Z rose from $69.99 to $79.99; the VEVOR DJZO5030-10 dropped from $67.90 to $59.39; the RYOBI PSBRA02B dropped from $118 to $104.99."},
     {
@@ -319,7 +320,6 @@
     },
     {
       "asin": "B0FP8XTTDD",
-      "force_budget": true,
       "name": "VEVOR Brushless 3/8\" Cordless Right Angle Drill with Battery and Charger (DJZO5030-10)",
       "brand": "VEVOR",
       "model": "DJZO5030-10",

@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B07MBS7MTT",
+  "best_overall": "B00N5FLVM8",
   "best_budget": "B008J1GNEO",
-  "money_no_object": "B00N5FLVM8"
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.8,
    "reviews_count": 3932,
    "score": 95,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Demolition work, with a 12-amp motor and a blade clamp for flush cuts.",
    "bought_last_month": "500+/mo",
    "verdict": "The most powerful, best-reviewed corded recip here — a 12-amp DEWALT with a 4-position blade clamp (cut flush or at angles) and 3,900+ reviews at 4.8 stars. If price is no object and you want a demolition workhorse, this is it.",
@@ -208,7 +208,7 @@
    "rating": 4.6,
    "reviews_count": 623,
    "score": 93,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Pruning and remodeling with a balanced, well-rated corded saw.",
    "bought_last_month": "50+/mo",
    "verdict": "The best all-around corded recip for most people. A balanced 7.5-amp CRAFTSMAN with a full 1-1/8\" stroke, tool-free blade change, and 4.6 stars — enough power for pruning and remodeling without the weight of a demolition saw.",
@@ -491,6 +491,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DWE305 (was the CRAFTSMAN CMES300)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Makita JR3051T dropped from $117.99 to $105.89."

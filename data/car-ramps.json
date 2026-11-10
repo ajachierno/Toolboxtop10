@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the MaxxHaul 50515 (was the Ironton 3469234)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the VEVOR TS295DT rose from $101.07 to $114.55."},
@@ -73,7 +74,6 @@
   "products": [
     {
       "asin": "B07N8GNGBT",
-      "force_overall": true,
       "name": "Ironton Poly Car Ramp Set, 2-Piece",
       "brand": "Ironton",
       "model": "3469234",
@@ -364,7 +364,6 @@
     },
     {
       "asin": "B0BVBQ2BMM",
-      "force_budget": true,
       "name": "ROBLOCK Low Profile Car Ramps, 2.6-Inch Lift, for Low-Chassis Cars (RBTS265)",
       "brand": "ROBLOCK",
       "model": "RBTS265",

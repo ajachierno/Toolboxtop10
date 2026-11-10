@@ -30,7 +30,7 @@
  "picks": {
   "best_overall": "B07H84CNG9",
   "best_budget": "B00IS94BWS",
-  "money_no_object": "B07BYGDFKB"
+  "money_no_object": null
  },
  "products": [
   {
@@ -86,7 +86,7 @@
    "rating": 4.7,
    "reviews_count": 2172,
    "score": 94,
-   "award": "Money No Object",
+   "award": null,
    "best_for": "Shops and jobsites where you move around and pick up heavy debris.",
    "bought_last_month": "800+/mo",
    "verdict": "DEWALT's 12-gallon vac with 105 CFM, a 2-1/2 in. hose, a 20 ft cord, and a large drain port. It's the pick for shops and jobsites where you move around a lot and pick up heavy debris.",
@@ -501,6 +501,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Money No Object no longer shows, because the DEWALT DXV12P costs less than Best Overall."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

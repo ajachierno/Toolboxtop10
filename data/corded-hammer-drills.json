@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-11-08",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Bosch HD18-2 (was the DEWALT DW511)."},
     {"date": "2026-11-08", "note": "Replaced the SKIL HD182002 bit-set bundle and the DEWALT DWD520K, which Amazon no longer lists, with the Hammerhead HAHD075 ($30.48) and the DEKOPRO DKPDIDE071C1 ($27.99). Best Overall moves to the DEWALT DW511, and the Bosch HD18-2 ($169) is now the Money No Object pick."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Bosch 1191VSRK dropped from $132 to $89; the DEWALT DW511 rose from $110.64 to $123.07."},
     {"date": "2026-10-29", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DW511 dropped from $126.88 to $110.64; the GALAX PRO 5A kit rose from $38.94 to $42.99."},
@@ -59,7 +60,7 @@
       "cons": ["4.3 stars, lower than the bit-set version", "No case or bits", "1-year warranty"]
     },
     {
-      "asin": "B0008ELQ0G", "force_overall": true,
+      "asin": "B0008ELQ0G",
       "name": "DEWALT Hammer Drill, 1/2-Inch, 7.8-Amp (DW511)",
       "brand": "DEWALT", "model": "DW511",
       "image": "https://m.media-amazon.com/images/I/51S4dkdd4kL._AC_SL1000_.jpg",

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-21",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the EGO HPW3204-2 (was the WORX WG620). Best Budget is now the Sun Joe WA24C-LTE (was the AOODIL JH-12)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the WORX WG647 dropped from $199.99 to $150."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the WORX WG620 dropped from $139.99 to $128.03."},
     {"date": "2026-10-21", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
@@ -29,7 +30,7 @@
   ],
   "products": [
     {
-      "asin": "B089F8LZ57", "force_overall": true,
+      "asin": "B089F8LZ57",
       "name": "WORX Hydroshot 20V Power Share 320 PSI Portable Power Cleaner WG620 (Battery & Charger Included)",
       "brand": "WORX", "model": "WG620",
       "image": "https://m.media-amazon.com/images/I/61KwgOugycL._AC_SL1500_.jpg",
@@ -141,7 +142,7 @@
       "cons": ["A 300W motor can't deliver the listed 1,500 PSI and 3 GPM together", "4.0 stars"]
     },
     {
-      "asin": "B0F32NWV8F", "force_budget": true,
+      "asin": "B0F32NWV8F",
       "name": "AOODIL Cordless Portable Washer, 800 PSI Battery Operated Handheld Washer with 6-in-1 Nozzle, 2 Batteries, 16 ft Hose, Hard Case",
       "brand": "AOODIL", "model": "JH-12",
       "image": "https://m.media-amazon.com/images/I/71GXPxc3crL._AC_SL1500_.jpg",

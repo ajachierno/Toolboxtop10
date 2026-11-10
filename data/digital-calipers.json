@@ -6,6 +6,7 @@
   "data_captured": "2026-11-05",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the VINCA DCLA-0605 (was the iGaging IP54 0-6 in)."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Jiavarry 6 in dropped from $23.98 to $19.98."},
     {
@@ -71,7 +72,6 @@
   "products": [
     {
       "asin": "B001AQEZ2W",
-      "force_overall": true,
       "name": "iGaging IP54 Electronic Digital Caliper 0-6\", Inch/Metric/Fractions, Stainless Steel",
       "brand": "iGaging",
       "model": "IP54 0-6 in",
@@ -108,7 +108,6 @@
     },
     {
       "asin": "B07DFFYCXS",
-      "force_budget": true,
       "name": "Adoric Digital Caliper 0-6 Inch, Inch/mm Conversion, Large LCD",
       "brand": "Adoric",
       "model": "0-6 in",

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Bora 571550 (was the JORGENSEN 370612KITAM)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the WORKPRO W001413AR dropped from $24.03 to $19.15; the HORUSDY 88008 rose from $30.59 to $33.99; the Jorgensen 93424A rose from $58.69 to $64.99."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Bora 571550 rose from $189.99 to $239.99; the Jorgensen 93424A dropped from $64.99 to $58.69."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the VEVOR 36 in F clamp 8-pack dropped from $65.90 to $27.90; the IRWIN 1964758 dropped from $30.04 to $24.99; the IRWIN 1964749 dropped from $51.99 to $43.99."},
@@ -105,7 +106,7 @@
       ]
     },
     {
-      "asin": "B07W61GJ87", "force_overall": true,
+      "asin": "B07W61GJ87",
       "name": "JORGENSEN 4-Pack Steel 600LBS Bar Clamps Set, 6\" (2) & 12\" (2) F-Clamps",
       "brand": "JORGENSEN",
       "model": "370612KITAM",
@@ -250,7 +251,6 @@
     },
     {
       "asin": "B0875RW1Y6",
-      "force_budget": true,
       "name": "WORKPRO 12\" Clamps for Woodworking 2-Pack, Light Duty Wood Clamps",
       "brand": "WORKPRO",
       "model": "W001413AR",

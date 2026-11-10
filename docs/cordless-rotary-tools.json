@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B09SKFVSMZ",
+  "best_overall": "B09RKV6RQW",
   "best_budget": "B08VHYX96W",
-  "money_no_object": "B09RKV6RQW"
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.6,
    "reviews_count": 1777,
    "score": 91,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Corded-level cutting and grinding without the cord.",
    "bought_last_month": "700+/mo",
    "verdict": "Dremel's most powerful cordless tool: a brushless motor Dremel rates at 20% more power than its corded 4300, a 3Ah battery with twice the 8220's runtime, and full accessory compatibility.",
@@ -169,7 +169,7 @@
    "rating": 4.5,
    "reviews_count": 2421,
    "score": 86,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Cutting, sanding and grinding anywhere, with the whole Dremel accessory range.",
    "bought_last_month": "1K+/mo",
    "verdict": "A real Dremel without the cord: 5,000 to 35,000 rpm on a 12V 2Ah battery, a wrench-free EZ Twist nose cap, a battery gauge and full compatibility with Dremel accessories and attachments.",
@@ -494,6 +494,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Dremel 8250-5 (was the Dremel 8240-5)."
+  },
   {
    "date": "2026-11-10",
    "note": "Replaced the Fanttik F2 Master (listing removed) and the Milwaukee 2460-20 (no seller on Amazon) with the Dremel 8150 and the GINELSON YJ007. Prices and ratings re-checked on the rest."

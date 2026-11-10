@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the HBT HBT64P (was the 3PLUS HT64SP)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-10-31", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Metabo HPT NT65M2S dropped from $129 to $109."},
     {
@@ -142,7 +143,6 @@
     },
     {
       "asin": "B015ODI46E",
-      "force_budget": true,
       "name": "3PLUS HT64SP 16 Gauge Pneumatic Straight Finish Nailer",
       "brand": "3PLUS",
       "model": "HT64SP",

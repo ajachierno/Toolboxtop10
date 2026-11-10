@@ -6,6 +6,7 @@
   "data_captured": "2026-11-06",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Hotorda H-2000/H-827 (was the ENDOZER H827)."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the InoKraft D1 rose from $92.99 to $119.99; the ENDOZER H827 rose from $29.99 to $32.99; the BANG4BUCK HVLP gravity dropped from $39.99 to $35.99."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the InoKraft D1 dropped from $119.99 to $92.99; the REFINE RF601AG/RF602AG dropped from $89.99 to $75.59; the BANG4BUCK HVLP gravity rose from $35.99 to $39.99."},
     {
@@ -71,7 +72,6 @@
   "products": [
     {
       "asin": "B0BMNWDL3X",
-      "force_overall": true,
       "name": "AEROPRO R500 LVLP Air Spray Gun, Automotive Paint Sprayer (A610)",
       "brand": "AEROPRO",
       "model": "R500/A610",
@@ -250,7 +250,6 @@
     },
     {
       "asin": "B0C72GFK66",
-      "force_budget": true,
       "name": "ENDOZER Professional HVLP Spray Gun Set, Gravity Feed, 1.4/1.7/2.0 mm (H827)",
       "brand": "ENDOZER",
       "model": "H827",

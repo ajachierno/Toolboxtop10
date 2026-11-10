@@ -6,6 +6,7 @@
   "data_captured": "2026-11-06",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Klein Tools IR10 (was the Etekcity Lasergrip 1080). Best Budget is now the TempPro TP-30 (was the Etekcity Lasergrip 774)."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Klein Tools IR1 rose from $29.98 to $39.98; the TempPro TP450 dropped from $39.99 to $29.99; the Etekcity Lasergrip 774 rose from $16.99 to $18.99."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the TempPro TP450 rose from $32.99 to $39.99; the Etekcity Lasergrip 774 dropped from $18.99 to $16.99; the Etekcity Lasergrip 1080 dropped from $24.99 to $22.49."},
     {
@@ -67,7 +68,6 @@
   "products": [
     {
       "asin": "B0B71HFH9K",
-      "force_budget": true,
       "name": "Etekcity Lasergrip 774 Infrared Thermometer",
       "brand": "Etekcity",
       "model": "Lasergrip 774",
@@ -103,7 +103,6 @@
     },
     {
       "asin": "B00DMI632G",
-      "force_overall": true,
       "name": "Etekcity Lasergrip 1080 Infrared Thermometer, -58 to 1130°F",
       "brand": "Etekcity",
       "model": "Lasergrip 1080",

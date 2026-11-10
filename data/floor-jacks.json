@@ -6,6 +6,7 @@
   "data_captured": "2026-11-05",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Money No Object no longer shows, because the Jack Boss AS830011L costs less than Best Overall."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Maxority MAX1901-20MIX rose from $96.99 to $139.99; the LARBANKE S460-X dropped from $119.99 to $95.99; the DNA Motoring TOOLS-00234 rose from $45.89 to $53.99."},
     {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
@@ -29,7 +30,7 @@
   ],
   "products": [
     {
-      "asin": "B0DJMM1Q7S", "force_overall": true,
+      "asin": "B0DJMM1Q7S",
       "name": "AV Steel Low Profile Floor Jack 3 Ton (6600 lbs), Dual Pistons Quick Lift Pump, 3-1/8\" to 19-7/8\" (AV-300102F)",
       "brand": "AV Steel", "model": "AV-300102F",
       "image": "https://m.media-amazon.com/images/I/71kkQb0l6gL._AC_SL1500_.jpg",

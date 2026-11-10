@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the AstroAI VTS1000H (was the Fluke 1AC II). No pick is both under the price cap and cheaper than Best Overall, so there is no Best Budget for now."},
     {"date": "2026-11-08", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the AstroAI VTS1000H dropped from $14.99 to $9.99; the Fluke 2AC dropped from $37.49 to $29.99."},
     {"date": "2026-11-01", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the AstroAI VTS1000H rose from $9.99 to $14.99; the KAIWEETS HT100s rose from $11.99 to $12.99."},
     {
@@ -67,7 +68,6 @@
   "products": [
     {
       "asin": "B000EJ332O",
-      "force_overall": true,
       "name": "Fluke 1AC II VoltAlert Non-Contact Voltage Tester, 90-1000V AC, CAT IV",
       "brand": "Fluke",
       "model": "1AC II",

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-11-07",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the BLACK+DECKER DR260C (was the Makita DP4020). Best Budget is now the GALAX PRO 5A kit (was the BLACK+DECKER DR260C)."},
     {"date": "2026-11-07", "note": "Amazon removed the DEWALT DWD210G, DWD520K and DWE1014 listings. Added the Makita DP4020 (now Best Overall), the DEKOPRO DKPDIDE071C1 hammer drill and the Genesis GD38B. Best Budget stays the BLACK+DECKER DR260C."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Hammerhead 7.5A dropped from $39.95 to $30.48."},
     {"date": "2026-10-24", "note": "Replaced the Makita DP4021, which Amazon lists as currently unavailable, with the GALAX PRO 5-amp hammer drill kit. Prices re-checked on the rest; the Hammerhead 7.5A rose from $13.09 to $39.95 after its sale price ended."},
@@ -29,7 +30,7 @@
   ],
   "products": [
     {
-      "asin": "B0DL7C6WXC", "force_overall": true,
+      "asin": "B0DL7C6WXC",
       "name": "Makita DP4020 1/2\" Corded Drill, 5.5 Amp, Variable Speed 0-3,000 RPM, Reversible, All-Ball-Bearing",
       "brand": "Makita", "model": "DP4020",
       "image": "https://m.media-amazon.com/images/I/613uZ8TOeEL._AC_SL1500_.jpg",
@@ -43,7 +44,7 @@
       "cons": ["No hammer mode", "Bare drill: no case or bits", "1-year warranty"]
     },
     {
-      "asin": "B00T2VJ93C", "force_budget": true,
+      "asin": "B00T2VJ93C",
       "name": "BLACK+DECKER DR260C 5.5-Amp 3/8\" Corded Drill",
       "brand": "BLACK+DECKER", "model": "DR260C",
       "image": "https://m.media-amazon.com/images/I/71VmiKQqsaL._AC_SX425_.jpg",

@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B003OX9KME",
+  "best_overall": "B07QSCZR6D",
   "best_budget": "B09486BBLJ",
-  "money_no_object": "B07QSCZR6D"
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.2,
    "reviews_count": 175,
    "score": 92,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Shops that want the most solid benchtop planer here.",
    "bought_last_month": null,
    "verdict": "A premium benchtop planer with a helical head, two speeds, a cast iron bed and four-post head support to keep boards flat and reduce snipe.",
@@ -83,7 +83,7 @@
    "rating": 4.7,
    "reviews_count": 7532,
    "score": 90,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Serious hobby shops that mill rough lumber regularly.",
    "bought_last_month": "500+/mo",
    "verdict": "The best-selling and most-reviewed planer here. It has a two-speed gearbox, a three-knife head, fan-assisted chip ejection, an automatic carriage lock against snipe, and the X kit adds infeed and outfeed tables and a spare set of knives.",
@@ -128,7 +128,7 @@
    "bought_last_month": null,
    "verdict": "The same DW735 planer without the tables and spare knives of the X kit. At this capture both listed at the same price, so the DW735X is the better buy.",
    "pros": [
-    "Same planer as the top pick",
+    "Same planer as the DW735X",
     "2,224 reviews"
    ],
    "cons": [
@@ -474,6 +474,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the JET JWP-13BT (was the DEWALT DW735X)."
+  },
   {
    "date": "2026-11-08",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DW734 dropped from $599 to $450; the Cutech 40700H rose from $424.99 to $499.99; the CRAFTSMAN CMEW320 rose from $329 to $384."

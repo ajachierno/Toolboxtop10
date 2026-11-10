@@ -6,6 +6,7 @@
   "data_captured": "2026-11-05",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the EGO LB5302 (was the EGO LB6151)."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Greenworks 40V Sweeper rose from $74.99 to $100.98."},
     {"date": "2026-10-29", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the WOLFMEN LB-8197 rose from $69.99 to $99.99; the MZK ET1613 dropped from $49.99 to $39.98."},
     {
@@ -70,7 +71,6 @@
   "products": [
     {
       "asin": "B08VRZ172R",
-      "force_overall": true,
       "name": "EGO POWER+ 615 CFM Cordless Leaf Blower with 2.5Ah Battery (LB6151)",
       "brand": "EGO",
       "model": "LB6151",
@@ -322,7 +322,6 @@
     },
     {
       "asin": "B0HJYXCVDZ",
-      "force_budget": true,
       "name": "MZK 20V Cordless Leaf Blower, Lightweight (ET1613)",
       "brand": "MZK",
       "model": "ET1613",

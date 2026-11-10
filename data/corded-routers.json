@@ -6,6 +6,7 @@
   "data_captured": "2026-11-04",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Bosch 1617EVSPK (was the Bosch 1617EVS)."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DW618 rose from $152.99 to $214.62; the Makita RT0701C dropped from $159 to $119.99; the Bosch 1617EVS rose from $169 to $205."},
     {"date": "2026-10-29", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the AVID POWER Compact router kit rose from $67.99 to $79.99."},
     {"date": "2026-10-10", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
@@ -30,7 +31,7 @@
   ],
   "products": [
     {
-      "asin": "B00004TKHV", "force_overall": true,
+      "asin": "B00004TKHV",
       "name": "Bosch 1617EVS 2.25 HP Electronic Fixed-Base Router",
       "brand": "Bosch", "model": "1617EVS",
       "image": "https://m.media-amazon.com/images/I/41woXvar2RL._AC_SL1000_.jpg",

@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B07V844YR8",
-  "best_budget": "B08GKHLJWR",
+  "best_overall": "B0776C2D6H",
+  "best_budget": "B0DLNNJ6MC",
   "money_no_object": "B0CYQY5QLS"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.7,
    "reviews_count": 29232,
    "score": 93,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Reaching fasteners you can't get square to.",
    "bought_last_month": "3K+/mo",
    "verdict": "The ball-end pick. Same value and huge review base as the 36-piece, but with long ball-end arms that let you turn a screw from up to 25 degrees off-axis — a real help when you can't get square to the fastener. The set to buy if you work on bikes or machinery.",
@@ -212,7 +212,7 @@
    "rating": 4.7,
    "reviews_count": 29232,
    "score": 87,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most people: SAE and metric keys in labeled cases for about $10.",
    "bought_last_month": "8K+/mo",
    "verdict": "The best all-rounder, and it's ten bucks. Thirty-six keys in both SAE and metric, in long and short arm lengths, in two hinged cases with labeled slots. Chrome vanadium steel, 29,232 ratings — this is the set to keep in a drawer for everything from furniture to bikes.",
@@ -254,7 +254,7 @@
    "rating": 4.7,
    "reviews_count": 5799,
    "score": 87,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A cheap 30-key SAE and metric set with a case.",
    "bought_last_month": "800+/mo",
    "verdict": "The best cheap set. Thirty chrome-vanadium keys in both SAE and metric with precise, chamfered tips and an organized case, for thirteen dollars. Chamfered tips slide into the socket easily and the value is hard to beat.",
@@ -338,7 +338,7 @@
    "rating": 4.7,
    "reviews_count": 952,
    "score": 87,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A pocketable folder with common sizes for about $10.",
    "bought_last_month": "3K+/mo",
    "verdict": "The cheapest folder worth carrying. A compact CRV folding set with the common metric and SAE sizes for under ten dollars — small enough for a bike bag or a junk drawer, and a fast seller for exactly that reason.",
@@ -501,6 +501,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Amazon Basics 26-Piece Ball-End (was the Amazon Basics 36-Piece). Best Budget is now the toolant 14-Piece Folding (was the EFFICERE 30-Piece)."
+  },
   {
    "date": "2026-11-08",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the EFFICERE 30-Piece rose from $10.90 to $12.99; the toolant 14-Piece Folding dropped from $9.99 to $8.99."

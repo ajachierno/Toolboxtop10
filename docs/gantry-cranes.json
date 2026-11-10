@@ -30,7 +30,7 @@
  },
  "picks": {
   "best_overall": "B073Y9KBMM",
-  "best_budget": "B0H94B9DHK",
+  "best_budget": "B0DSHWQHBQ",
   "money_no_object": "B0G4LR8713"
  },
  "products": [
@@ -209,7 +209,7 @@
    "rating": 4.9,
    "reviews_count": 12,
    "score": 65,
-   "award": null,
+   "award": "Best Budget",
    "best_for": null,
    "bought_last_month": null,
    "verdict": "A 4.9-star 3-ton gantry with a matching 3-ton manual trolley in the box. A 404-pound welded steel frame on 360-degree wheels.",
@@ -332,7 +332,7 @@
    "rating": 4.9,
    "reviews_count": 12,
    "score": 61,
-   "award": "Best Budget",
+   "award": null,
    "best_for": null,
    "bought_last_month": null,
    "verdict": "Dkenicor's frame-only 3-ton gantry at $799.99, a 3-ton crane with a review history.",
@@ -492,6 +492,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Dkenicor 3 Ton with Trolley (was the Dkenicor 3 Ton Frame)."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the BSMTEK KF620036US-04 rose from $967.99 to $1,299.99."

@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B07MP1Q3W8",
-  "best_budget": "B0C9BLJYMH",
+  "best_overall": "B0C9BLJYMH",
+  "best_budget": null,
   "money_no_object": "B0FYHB7XBQ"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.6,
    "reviews_count": 1603,
    "score": 96,
-   "award": "Best Budget",
+   "award": "Best Overall",
    "best_for": "A 1/2-inch wrench on a tight budget, including left-hand threads.",
    "bought_last_month": "1K+/mo",
    "verdict": "The cheapest wrench here, and on paper one of the best equipped: ±3%, measures in both directions, a 72-tooth ratchet, a calibration certificate and a storage box.",
@@ -208,7 +208,7 @@
    "rating": 4.7,
    "reviews_count": 12238,
    "score": 81,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Lug nuts, suspension and most car work.",
    "bought_last_month": "3K+/mo",
    "verdict": "The best-selling torque wrench here: a Taiwan-made 1/2-inch click wrench with a calibration certificate, a high-contrast dual scale that reads in low light, and a corrosion-resistant black finish.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Hairich 6CVB (was the LEXIVON LX-183). No pick is both under the price cap and cheaper than Best Overall, so there is no Best Budget for now."
+  },
   {
    "date": "2026-11-08",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DISEN NLJL-9PCS dropped from $65.99 to $59.99."

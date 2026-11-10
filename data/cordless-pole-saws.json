@@ -6,6 +6,7 @@
   "data_captured": "2026-11-05",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Supstable S5 Sky (was the CRAFTSMAN CMCCSP20M1)."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Greenworks PSPH40B210 rose from $149.99 to $220.99; the WORX WG323 dropped from $169.99 to $129.99."},
     {"date": "2026-10-29", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the AVADA Pole Saws for Tree Trimming dropped from $129.99 to $103.99; the Greenworks PS24B210 rose from $99.99 to $119.68."},
     {
@@ -136,7 +137,6 @@
     },
     {
       "asin": "B07KMPXLWR",
-      "force_overall": true,
       "name": "CRAFTSMAN V20 Cordless Pole Saw, 14-Foot Reach, 4.0Ah Battery (CMCCSP20M1)",
       "brand": "CRAFTSMAN",
       "model": "CMCCSP20M1",

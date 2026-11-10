@@ -25,11 +25,11 @@
   },
   "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
-  "budget_cap_usd": 180,
+  "budget_cap_usd": 230,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0DPFF56XL",
+  "best_overall": "B0FFGFV5J8",
   "best_budget": "B0FPBZ2R5N",
   "money_no_object": null
  },
@@ -45,7 +45,7 @@
    "rating": 4.6,
    "reviews_count": 25,
    "score": 83,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Outdoor work with a glare-resistant screen and the best-rated locator.",
    "bought_last_month": null,
    "verdict": "The highest-rated locator camera we found. Self-leveling head with a sapphire lens, a two-mode 512Hz locator, a live distance counter, and a glare-resistant 9-inch screen for outdoor work.",
@@ -87,7 +87,7 @@
    "rating": 4.4,
    "reviews_count": 127,
    "score": 81,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Most homeowners: a well-reviewed 1080p camera with a 7-inch screen.",
    "bought_last_month": "100+/mo",
    "verdict": "The most-reviewed dedicated sewer camera we found, with a 4.5-star average. A 1080p head, a 7-inch screen that clamps to the reel, and a twist-lock reel brake that's easier to use than the usual thumb screws.",
@@ -506,6 +506,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the ChoosePRO HD1080P 100 ft (was the Sanyipace 100 ft with Locator)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the TGJOR 16.4 ft Dual-Lens Borescope dropped from $37.99 to $31.99."

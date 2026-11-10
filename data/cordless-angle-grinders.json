@@ -6,6 +6,7 @@
   "data_captured": "2026-11-06",
   "audited": "2026-10-31",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the SEESII AG0200S (was the DEWALT DCG413B). Best Budget is now the CRAFTSMAN CMCG400B (was the AOBEN AT-102D)."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DCG408B dropped from $129 to $117; the CRAFTSMAN CMCG400B dropped from $64.90 to $59; the Makita XAG04Z dropped from $129 to $117.50."},
     {"date": "2026-10-31", "note": "All 10 picks kept and re-checked. New avoid pick: the GEARWAVE kit's listing is gone, so the Runful 12V mini grinder takes its place; its battery and motor claims contradict its own spec table. The Makita XAG04Z now shows its price only in the cart, so its price here is from our previous check."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
@@ -28,7 +29,7 @@
   ],
   "products": [
     {
-      "asin": "B07457BXJW", "force_overall": true,
+      "asin": "B07457BXJW",
       "name": "DEWALT 20V MAX Angle Grinder Tool Cordless Brushless, 4-1/2 Inch, Paddle Switch and Kickback Brake, Tool Only (DCG413B)",
       "brand": "DEWALT", "model": "DCG413B",
       "image": "https://m.media-amazon.com/images/I/714jxrOoXKL._AC_SX425_.jpg",
@@ -42,7 +43,7 @@
       "cons": ["Tool only — no battery or charger included", "Reviewers note the battery runs down quickly under heavy cutting"]
     },
     {
-      "asin": "B0D256FJXF", "force_budget": true,
+      "asin": "B0D256FJXF",
       "name": "AOBEN Cordless Angle Grinder 4-1/2 Inch, 21V Battery Grinder Kit, Brushless Motor, 2x4.0Ah Battery & Charger",
       "brand": "AOBEN", "model": "AT-102D",
       "image": "https://m.media-amazon.com/images/I/81SjITesPoL._AC_SX425_.jpg",

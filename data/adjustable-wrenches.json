@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-10-16",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Klein Tools D5072 (was the CRAFTSMAN CMMT12001)."},
     {"date": "2026-11-08", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Klein Tools D5073 rose from $32.98 to $39.98; the WORKPRO 2-Piece 6+10 rose from $17.99 to $19.99."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMMT12001 dropped from $33.99 to $19.99; the Amazon Basics 10-Inch Locking dropped from $15.74 to $14.16; the WORKPRO 2-Piece 6+10 dropped from $19.99 to $17.99."},
     {"date": "2026-10-16", "note": "Replaced the Olympia Tools 10-Inch, which has dropped out of Amazon's adjustable-wrench best-sellers, with the WORKPRO 6-Inch Compact ($9.99, 2K+ bought last month). Best Budget moved to the Amazon Basics 6-Inch, now $9.44 (was $10.39); the WORKPRO 2-Piece rose from $16.99 to $19.99."},
@@ -40,7 +41,6 @@
   "products": [
     {
       "asin": "B07QQ8P5K6",
-      "force_overall": true,
       "name": "CRAFTSMAN Adjustable Wrench Set, 3-Piece All Steel, SAE & Metric (CMMT12001)",
       "brand": "CRAFTSMAN",
       "model": "CMMT12001",
@@ -227,7 +227,6 @@
     },
     {
       "asin": "B08L6WJ5SM",
-      "force_budget": true,
       "name": "Amazon Basics 6-Inch Drop-Forged Adjustable Wrench with Soft Grip",
       "brand": "Amazon Basics",
       "model": "6-Inch",

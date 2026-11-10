@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B0F59R37B9",
-  "best_budget": "B07SGYWXRY",
+  "best_budget": null,
   "money_no_object": "B0B2FCXXX7"
  },
  "products": [
@@ -346,7 +346,7 @@
    "rating": 4.2,
    "reviews_count": 1317,
    "score": 77,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "RYOBI ONE+ owners who want a cordless heat gun for under $70.",
    "bought_last_month": "500+/mo",
    "verdict": "The cheapest name-brand cordless heat gun on the list, on the biggest homeowner battery platform. For RYOBI owners it's an easy add-on for shrink tubing, thawing, and light paint work.",
@@ -518,6 +518,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. No pick is both under the price cap and cheaper than Best Overall, so there is no Best Budget for now."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

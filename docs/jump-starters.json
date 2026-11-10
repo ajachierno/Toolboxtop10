@@ -29,7 +29,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B015TKUPIC",
+  "best_overall": "B0CRRKRJ2S",
   "best_budget": "B0C42Y5TPD",
   "money_no_object": "B015TKSSB8"
  },
@@ -45,7 +45,7 @@
    "rating": 4.6,
    "reviews_count": 6275,
    "score": 96,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Big trucks and diesels with fast USB-C recharging.",
    "bought_last_month": "6K+/mo",
    "verdict": "A large pack with an LCD status screen, a 65 W USB-C port that recharges it in 1.3 hours with the included charger, a one-touch boost, IP64 sealing and UL testing, rated for 10-liter engines.",
@@ -213,7 +213,7 @@
    "rating": 4.6,
    "reviews_count": 130501,
    "score": 84,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most cars and small SUVs: the glovebox standard.",
    "bought_last_month": "30K+/mo",
    "verdict": "The most-reviewed jump starter here by far, with nearly 130,000 reviews: spark-proof and reverse-polarity protected clamps, up to 20 starts per charge, an IP65 housing, a 100-lumen light and a USB power bank, at 2.4 lbs.",
@@ -501,6 +501,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WOLFBOX MegaVolt24 (was the NOCO GB40)."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the NOCO GB70 rose from $139.99 to $199.95."

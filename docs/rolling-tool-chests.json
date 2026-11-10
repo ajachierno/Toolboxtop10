@@ -30,7 +30,7 @@
  },
  "picks": {
   "best_overall": "B076QLC84N",
-  "best_budget": "B0DLBKHXLS",
+  "best_budget": "B0CSQYFQ5C",
   "money_no_object": "B0CX16FF1D"
  },
  "products": [
@@ -92,7 +92,7 @@
    "rating": 4.6,
    "reviews_count": 1520,
    "score": 83,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A cheap PACKOUT-style stacking cart, toolbox and parts organizer.",
    "bought_last_month": "1K+/mo",
    "verdict": "The budget answer to PACKOUT. A rolling cart, toolbox, and clear-lid parts organizer that latch together, for well under half the Milwaukee's price.",
@@ -280,10 +280,10 @@
    "rating": 4.0,
    "reviews_count": 2712,
    "score": 80,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A cheap steel chest with a top box you can carry on its own.",
    "bought_last_month": "300+/mo",
-   "verdict": "The budget pick. A steel five-drawer chest with a top box that lifts off and carries on its own, for about $160. It's the best-selling rolling chest on Amazon right now, with more than 2,600 ratings behind it.",
+   "verdict": "A steel five-drawer chest with a top box that lifts off and carries on its own, for about $160. It's the best-selling rolling chest on Amazon right now, with more than 2,600 ratings behind it.",
    "pros": [
     "Top toolbox detaches and carries separately",
     "Lock bar holds the drawers and door shut while you roll it",
@@ -552,6 +552,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Keter 259676 (was the Goplus 5-Drawer Tool Chest)."
+  },
   {
    "date": "2026-11-04",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

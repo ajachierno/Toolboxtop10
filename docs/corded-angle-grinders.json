@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B009ELXH1K",
+  "best_overall": "B0010DHFTK",
   "best_budget": "B07P5D6M4V",
-  "money_no_object": "B0010DHFTK"
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.8,
    "reviews_count": 3975,
    "score": 93,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Buying once: top rating plus diamond blade, wheels, guards and a case.",
    "bought_last_month": "100+/mo",
    "verdict": "The one to buy if you want the whole package. It's the highest-rated grinder on the list at 4.8 stars, and it ships as a real kit: the tool, a diamond blade, five grinding wheels, both a grinding and a cut-off guard, and a case. Labyrinth-sealed motor and a metal gear housing back up the price.",
@@ -296,7 +296,7 @@
    "rating": 4.6,
    "reviews_count": 2471,
    "score": 81,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most DIY cutting and grinding with a light, well-rated DEWALT.",
    "bought_last_month": "1K+/mo",
    "verdict": "The default pick for most people: a light 3.9-pound DEWALT with a One-Touch guard you rotate by hand, at 1,000+ sold a month. The 7-amp motor is smaller than the 11-amp tools here, but for cutting bolts, grinding welds, and stripping rust it has the power you'll actually use.",
@@ -507,6 +507,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Makita 9557PBX1 (was the DEWALT DWE4011)."
+  },
   {
    "date": "2026-11-09",
    "note": "Replaced the DEWALT DWE402N, which no longer has a seller on Amazon, with the 13-amp DEWALT DWE43116 ($134.99), #7 in Amazon's corded grinder search. The other 9 picks are still best-sellers and stay. Prices and ratings re-checked."

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-04",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Szwbee 4-head tripod (was the LUTEC 15000 lm tripod)."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the SOARFLY 3-head tripod rose from $49.97 to $69.99; the LUTEC 15000 lm tripod rose from $98.99 to $119.99; the JC-LGL 100W temporary rose from $77.99 to $87.99."},
     {"date": "2026-10-29", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the LUTEC 15000 lm tripod dropped from $119.99 to $98.99; the JC-LGL 100W temporary dropped from $87.99 to $77.99; the NS 150W high bay dropped from $119.99 to $107.99."},
     {
@@ -70,7 +71,6 @@
   "products": [
     {
       "asin": "B0881GX5KM",
-      "force_overall": true,
       "name": "LUTEC 5000K 15000 LM 105 W LED Work Light with Telescoping Tripod",
       "brand": "LUTEC",
       "model": "15000 lm tripod",
@@ -213,7 +213,6 @@
     },
     {
       "asin": "B0D3HZP3B9",
-      "force_budget": true,
       "name": "Wufoty LED Work Lights with Stand, 14000 Lumen, 2-Head Adjustable",
       "brand": "Wufoty",
       "model": "2-head tripod",

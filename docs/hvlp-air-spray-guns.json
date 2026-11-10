@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B0BMNWDL3X",
-  "best_budget": "B0C72GFK66",
+  "best_budget": "B08JGGDLYN",
   "money_no_object": "B0CD1RNPWK"
  },
  "products": [
@@ -124,7 +124,7 @@
    "rating": 4.4,
    "reviews_count": 1254,
    "score": 90,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Touch-ups and small panels on a budget.",
    "bought_last_month": "100+/mo",
    "verdict": "A full-size 1.4 mm gun and a small 0.8 mm touch-up gun with a locking regulator, for about $35.",
@@ -205,7 +205,7 @@
    "rating": 4.4,
    "reviews_count": 735,
    "score": 81,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Budget painters and first projects.",
    "bought_last_month": "500+/mo",
    "verdict": "An HVLP gun with three stainless nozzle and needle sets and a brass air cap, for about $33.",
@@ -483,6 +483,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Hotorda H-2000/H-827 (was the ENDOZER H827)."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the InoKraft D1 rose from $92.99 to $119.99; the ENDOZER H827 rose from $29.99 to $32.99; the BANG4BUCK HVLP gravity dropped from $39.99 to $35.99."

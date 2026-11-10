@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B0FKHGHLZZ",
-  "best_budget": "B0DHS4RHR8",
+  "best_budget": "B08F9RFJ2K",
   "money_no_object": "B0CKS6G6TC"
  },
  "products": [
@@ -139,7 +139,7 @@
    "rating": 4.5,
    "reviews_count": 3058,
    "score": 92,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A 10-inch saw with a good fence and built-in legs for about $300.",
    "bought_last_month": "1K+/mo",
    "verdict": "Amazon's #1 table saw right now: a 10-inch saw with rack and pinion fence rails and legs that fold into the body, for about half the price of the DEWALT. The rip is 7 inches shorter.",
@@ -370,7 +370,7 @@
    "rating": 4.6,
    "reviews_count": 147,
    "score": 84,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A light saw with a real rack-and-pinion fence for $249.",
    "bought_last_month": "50+/mo",
    "verdict": "The cheapest saw here with a rack and pinion fence, from a brand with a real parts and service network. At 40 lb it's the lightest name-brand saw on the list. You'll need a bench or SKIL's folding stand.",
@@ -550,6 +550,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the SKIL TS6307-00 (was the SKIL TS6308-00)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DWE7491RS rose from $599 to $699; the VEVOR Table Saw with Stand rose from $272.64 to $299.90; the SKIL TS6308-00 rose from $229 to $249."

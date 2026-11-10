@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0FM38R8HD",
-  "best_budget": "B0HFJR1FR7",
-  "money_no_object": "B072C4HZ9B"
+  "best_overall": "B072C4HZ9B",
+  "best_budget": "B0G6JRY18D",
+  "money_no_object": null
  },
  "products": [
   {
@@ -88,7 +88,7 @@
    "rating": 4.0,
    "reviews_count": 278,
    "score": 82,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Painting contractors who want airless results on small jobs without setting up a full rig.",
    "bought_last_month": null,
    "verdict": "A contractor's handheld airless sprayer that runs on DEWALT 20V batteries and, per Graco, sprays without thinning. It's fully repairable, uses standard RAC X tips, and handles water, solvent and flammable coatings.",
@@ -132,7 +132,7 @@
    "rating": 3.9,
    "reviews_count": 819,
    "score": 79,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "DEWALT 20V owners who want four nozzle sizes for under $45.",
    "bought_last_month": "100+/mo",
    "verdict": "The cheapest brushless sprayer on the list, with four copper nozzles, three patterns and a flow knob. Its 3.9-star rating trails the Tilswall guns, and the listing rates it for coatings only up to 40 DIN/s, so plan on thinning.",
@@ -175,7 +175,7 @@
    "rating": 4.1,
    "reviews_count": 1738,
    "score": 77,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "DEWALT 20V owners painting furniture, cabinets and small fences.",
    "bought_last_month": "100+/mo",
    "verdict": "The most-reviewed cordless sprayer in the search: a light handheld HVLP gun that runs on DEWALT 20V packs, with three spray patterns and a 0 to 450 ml/min flow dial. It's sold tool-only, so it's the cheap way in only if you already own the batteries.",
@@ -306,10 +306,10 @@
    "rating": 4.1,
    "reviews_count": 101,
    "score": 76,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "First-time sprayer buyers who don't own DEWALT or RYOBI batteries.",
    "bought_last_month": null,
-   "verdict": "A complete kit: the sprayer, two 4.0Ah batteries and a charger for $63.99. It's our Best Overall because you can start spraying out of the box without owning a battery platform, for less than most tool-only guns plus a pack.",
+   "verdict": "A complete kit: the sprayer, two 4.0Ah batteries and a charger for $63.99. You can start spraying out of the box without owning a battery platform, for less than most tool-only guns plus a pack.",
    "pros": [
     "Two 4.0Ah batteries and a charger included",
     "1200 ml cup and 4 nozzle sizes",
@@ -521,6 +521,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Graco 17M367 (was the NANWEI WMD73). Best Budget is now the DTEZTECH DW SG05-1 (was the TILSWALL Dreamer400 DC)."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."

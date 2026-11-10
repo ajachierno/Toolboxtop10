@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0948WY5YX",
+  "best_overall": "B07H39S9JQ",
   "best_budget": "B0CS3B7MD8",
-  "money_no_object": "B07H39S9JQ"
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.6,
    "reviews_count": 18663,
    "score": 91,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "DEWALT owners who want one inflator for the garage, car and camping gear.",
    "bought_last_month": "6K+/mo",
    "verdict": "Three power sources (20V battery, car 12V and wall 110V), a high-pressure mode for tires and a high-volume mode for air mattresses, a threaded chuck and a 3-year warranty.",
@@ -249,7 +249,7 @@
    "rating": 4.6,
    "reviews_count": 16932,
    "score": 82,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "A trunk inflator that never runs out of battery.",
    "bought_last_month": "4K+/mo",
    "verdict": "A metal-bodied inflator that runs on its 20V battery or the car's 12V socket, with auto shut-off, a digital gauge, a storage bag and nozzles, rated 4.6 across 16,932 reviews.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DCC020IB (was the AstroAI Cordless 160 PSI)."
+  },
   {
    "date": "2026-11-05",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMCE521B dropped from $49 to $39; the Airmoto Airmoto dropped from $79.99 to $69.99."

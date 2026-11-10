@@ -29,8 +29,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B07457BXJW",
-  "best_budget": "B0D256FJXF",
+  "best_overall": "B0DQ8T1JPN",
+  "best_budget": "B07MFD6N3L",
   "money_no_object": "B08J8GNNTW"
  },
  "products": [
@@ -45,7 +45,7 @@
    "rating": 4.8,
    "reviews_count": 9641,
    "score": 89,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "DEWALT 20V MAX owners: the best cordless grinder, with a kickback brake.",
    "bought_last_month": "2K+/mo",
    "verdict": "The best cordless angle grinder here by a wide margin — 9,500+ reviews at 4.8 stars and 2,000+ bought last month. A brushless DEWALT with a paddle switch and a Kickback Brake that engages with maximum force when it senses a bind-up. Bare tool, so you'll need a 20V MAX battery.",
@@ -213,7 +213,7 @@
    "rating": 4.4,
    "reviews_count": 713,
    "score": 88,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "A complete kit with a faster top speed than the AOBEN.",
    "bought_last_month": "100+/mo",
    "verdict": "A second complete kit option — two 4.0Ah batteries, a charger, cutting and flap wheels, and a carrying bag, with three speeds up to 10,000 RPM. Priced a little below the AOBEN kit, with a faster top speed.",
@@ -339,7 +339,7 @@
    "rating": 4.3,
    "reviews_count": 984,
    "score": 87,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A complete grinder kit with two batteries and wheels, no platform needed.",
    "bought_last_month": "600+/mo",
    "verdict": "The value pick — a complete cordless kit with two 4.0Ah batteries, a charger, and a case full of wheels for about $80, backed by more reviews than any other kit here. Ready to cut out of the box, no platform required.",
@@ -381,7 +381,7 @@
    "rating": 4.7,
    "reviews_count": 3009,
    "score": 77,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "CRAFTSMAN V20 owners who want a cheap, well-rated grinder.",
    "bought_last_month": "400+/mo",
    "verdict": "A straightforward, well-reviewed bare tool on the CRAFTSMAN V20 platform — 8,500 RPM, a tool-free guard, and a cast metal gear housing to dissipate heat, backed by nearly 3,009 reviews at 4.7 stars.",
@@ -507,6 +507,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the SEESII AG0200S (was the DEWALT DCG413B). Best Budget is now the CRAFTSMAN CMCG400B (was the AOBEN AT-102D)."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DCG408B dropped from $129 to $117; the CRAFTSMAN CMCG400B dropped from $64.90 to $59; the Makita XAG04Z dropped from $129 to $117.50."

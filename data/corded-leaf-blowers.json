@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-24",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WORX WG512 (was the WORX WG520). Best Budget is now the Sun Joe SBJ601E (was the Sun Joe SBJ597E)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the WORX WG512 dropped from $117.32 to $87.39; the BLACK+DECKER LB700 rose from $42 to $49; the WORX WG520 dropped from $75.27 to $62.99."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMEBL700 rose from $69.79 to $99; the WORX WG512 rose from $87.39 to $117.32; the BLACK+DECKER BEBL7000 rose from $69 to $89."},
     {"date": "2026-10-24", "note": "Page published with 10 ranked picks and 1 tool to avoid."}
@@ -26,7 +27,7 @@
   ],
   "products": [
     {
-      "asin": "B01B79BD6C", "force_overall": true,
+      "asin": "B01B79BD6C",
       "name": "WORX 12 Amp Turbine Electric Leaf Blower (WG520)",
       "brand": "WORX", "model": "WG520",
       "image": "https://m.media-amazon.com/images/I/61AARuDM15L._AC_SL1424_.jpg",
@@ -68,7 +69,7 @@
       "cons": ["Listing doesn't state the motor amperage", "7 lb, heavier than the WORX WG520 that moves more air"]
     },
     {
-      "asin": "B076CM5PGZ", "force_budget": true,
+      "asin": "B076CM5PGZ",
       "name": "Sun Joe 6-Amp Corded Electric Leaf Blower (SBJ597E)",
       "brand": "Sun Joe", "model": "SBJ597E",
       "image": "https://m.media-amazon.com/images/I/61a8V6nwSHL._AC_SL1500_.jpg",

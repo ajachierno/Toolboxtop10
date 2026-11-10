@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00DMI632G",
-  "best_budget": "B0B71HFH9K",
+  "best_overall": "B07K1JB9TQ",
+  "best_budget": "B07VTPJXH9",
   "money_no_object": "B008EW837S"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.7,
    "reviews_count": 371,
    "score": 97,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "HVAC techs measuring duct air and refrigerant lines.",
    "bought_last_month": "100+/mo",
    "verdict": "Klein's top model: 20:1 for small or distant targets, a range to 1200°F, and a K-type probe for measuring air, gas and liquid that IR can't read.",
@@ -83,7 +83,7 @@
    "rating": 4.6,
    "reviews_count": 37659,
    "score": 96,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Cooks, mechanics and HVAC DIYers who want accurate readings on any surface.",
    "bought_last_month": "1K+/mo",
    "verdict": "Etekcity's step up: adjustable emissivity for accurate readings on different surfaces, a range to 1130°F for pizza ovens, and a max-temperature display.",
@@ -122,7 +122,7 @@
    "rating": 4.6,
    "reviews_count": 9872,
    "score": 96,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Pizza oven and griddle cooks who also check HVAC vents.",
    "bought_last_month": "5K+/mo",
    "verdict": "Adjustable emissivity, MAX/MIN/AVG readings, a stated ±1.5% accuracy and a range to 1022°F, with 9,872 reviews.",
@@ -278,7 +278,7 @@
    "rating": 4.6,
    "reviews_count": 48909,
    "score": 81,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Checking griddles, ovens, AC vents and engines at home.",
    "bought_last_month": "10K+/mo",
    "verdict": "The best-selling and most-reviewed thermometer here: 12:1 distance-to-spot, -58 to 842°F and a backlit screen, for under $20.",
@@ -474,6 +474,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Klein Tools IR10 (was the Etekcity Lasergrip 1080). Best Budget is now the TempPro TP-30 (was the Etekcity Lasergrip 774)."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Klein Tools IR1 rose from $29.98 to $39.98; the TempPro TP450 dropped from $39.99 to $29.99; the Etekcity Lasergrip 774 rose from $16.99 to $18.99."

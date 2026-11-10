@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Ingersoll Rand 2235TiMAX (was the Ingersoll Rand 231C)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Ingersoll Rand 231C dropped from $141.74 to $129.99."},
@@ -70,7 +71,7 @@
   ],
   "products": [
     {
-      "asin": "B0002SRM3I", "force_overall": true,
+      "asin": "B0002SRM3I",
       "name": "Ingersoll Rand 231C 1/2\" Drive Air Impact Wrench",
       "brand": "Ingersoll Rand",
       "model": "231C",
@@ -350,7 +351,6 @@
     },
     {
       "asin": "B0BTP57RHQ",
-      "force_budget": true,
       "name": "BESWELL BW-112BN 1/2-Inch Air Impact Wrench with 1180 Ft-Lbs Max Torque",
       "brand": "BESWELL",
       "model": "BW-112BN",

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-26",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Sun Joe TRJ13STE (was the BLACK+DECKER BEST935)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the WORX WG119 dropped from $65.46 to $48.99."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the WORX WG119 rose from $49.99 to $65.46; the WEN ET1003 dropped from $31.94 to $28.99."},
     {
@@ -71,7 +72,6 @@
   "products": [
     {
       "asin": "B077Z78YQX",
-      "force_overall": true,
       "name": "BLACK+DECKER 14-Inch 2-in-1 Corded String Trimmer and Edger with Auto Feed, 6.5 Amp (BESTA510)",
       "brand": "BLACK+DECKER",
       "model": "BESTA510",
@@ -221,7 +221,6 @@
     },
     {
       "asin": "B08W2BKMX6",
-      "force_budget": true,
       "name": "BLACK+DECKER 13-Inch Corded String Trimmer, 4 Amp (BEST935)",
       "brand": "BLACK+DECKER",
       "model": "BEST935",

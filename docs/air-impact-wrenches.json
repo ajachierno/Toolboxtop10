@@ -27,9 +27,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0002SRM3I",
+  "best_overall": "B00LV9Y1FE",
   "best_budget": "B0BTP57RHQ",
-  "money_no_object": "B00LV9Y1FE"
+  "money_no_object": null
  },
  "products": [
   {
@@ -43,7 +43,7 @@
    "rating": 4.7,
    "reviews_count": 2795,
    "score": 97,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Professional shops and seized suspension bolts.",
    "bought_last_month": "400+/mo",
    "verdict": "The pro's 1/2-inch: 1,350 ft-lbs from a 4.6 lb gun with a titanium hammer case, steel wear plate, 4-position regulator and one-handed forward/reverse.",
@@ -243,7 +243,7 @@
    "rating": 4.7,
    "reviews_count": 3337,
    "score": 84,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Tire work and general garage use that has to last decades.",
    "bought_last_month": "200+/mo",
    "verdict": "The classic shop gun and the best seller here: a twin-hammer 1/2-inch with pressure-fed lubrication and an adjustable power regulator, built for daily lug nuts and bolts.",
@@ -479,6 +479,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Ingersoll Rand 2235TiMAX (was the Ingersoll Rand 231C)."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the HOTLIGH 1200 lm (was the DEWALT DCL050)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DANCINGBOAR RLW008 rose from $15.99 to $20.99; the PARTPHONER Cordless tripod rose from $59.99 to $74.98; the DEWALT DCL050 rose from $42 to $49.95."},
     {"date": "2026-10-31", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Coquimbo 2-pack rose from $9.99 to $13.99."},
     {
@@ -13,7 +14,7 @@
       "note": "Page published with 10 ranked picks and 1 tool to avoid."
     }
   ],
-  "budget_cap": 10,
+  "budget_cap": 15,
   "weights": {
     "rating": 0.45,
     "reviews": 0.35,
@@ -70,7 +71,7 @@
   ],
   "products": [
     {
-      "asin": "B00KWRM78E", "force_overall": true,
+      "asin": "B00KWRM78E",
       "name": "DEWALT 20V MAX LED Work Light, Rechargeable Flashlight, Pivoting Head, Bare Tool (DCL050)",
       "brand": "DEWALT",
       "model": "DCL050",
@@ -143,7 +144,6 @@
     },
     {
       "asin": "B07G9X19G1",
-      "force_budget": true,
       "name": "Coquimbo 2 Pack Rechargeable Work Light, Magnetic, 5 Modes",
       "brand": "Coquimbo",
       "model": "2-pack",

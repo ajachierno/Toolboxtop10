@@ -30,7 +30,7 @@
  },
  "picks": {
   "best_overall": "B0BT87LJRL",
-  "best_budget": "B01AKX3AYE",
+  "best_budget": "B00170KUPC",
   "money_no_object": null
  },
  "products": [
@@ -285,7 +285,7 @@
    "rating": 4.7,
    "reviews_count": 3259,
    "score": 82,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Checking outlets and extension cords around the house.",
    "bought_last_month": "800+/mo",
    "verdict": "A GFCI tester that states its 6-9 mA trip current and also checks extension cords.",
@@ -365,7 +365,7 @@
    "rating": 4.8,
    "reviews_count": 3639,
    "score": 81,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A quick wiring check on standard outlets.",
    "bought_last_month": "900+/mo",
    "verdict": "Klein's basic plug-in tester: a light sequence shows whether an outlet is wired correctly, for under $10.",
@@ -482,6 +482,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Gardner Bender GFI-3501 (was the Klein Tools RT110)."
+  },
   {
    "date": "2026-11-07",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Klein Tools RT250 rose from $16 to $21.97; the Sperry VD7504GFI rose from $21.99 to $25.69; the Gardner Bender GRT-3500 rose from $7.59 to $8.59."

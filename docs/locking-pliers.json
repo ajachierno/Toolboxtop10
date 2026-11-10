@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0015YJDNK",
-  "best_budget": "B095THVMZV",
+  "best_overall": "B095THVMZV",
+  "best_budget": "B0DKF7B8VK",
   "money_no_object": "B00004SBCG"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.6,
    "reviews_count": 858,
    "score": 96,
-   "award": "Best Budget",
+   "award": "Best Overall",
    "best_for": "DIYers who want a full brand-name set without IRWIN prices.",
    "bought_last_month": "800+/mo",
    "verdict": "A brand-name five-piece set with curved and long-nose jaws, a wire cutter, padded handles and a limited lifetime warranty, for under $30.",
@@ -123,7 +123,7 @@
    "rating": 4.6,
    "reviews_count": 258,
    "score": 91,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Welders and woodworkers who want a C-clamp in the set.",
    "bought_last_month": "500+/mo",
    "verdict": "Six pieces including two needle-nose sizes and a locking C-clamp, for about $23.",
@@ -399,7 +399,7 @@
    "rating": 4.8,
    "reviews_count": 2770,
    "score": 83,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Anyone who wants the real thing in the two sizes used most.",
    "bought_last_month": "1K+/mo",
    "verdict": "The original Vise-Grip in a two-piece set, tied for the best rating here at 4.8 stars on 2,770 reviews.",
@@ -475,6 +475,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Crescent CLP5SETN-08 (was the IRWIN 36). Best Budget is now the Evertools HDR10010 (was the Crescent CLP5SETN-08)."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

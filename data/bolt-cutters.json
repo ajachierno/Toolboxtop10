@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-11-09",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the RIDGID 14223 (was the KNIPEX 71 01 200)."},
     {"date": "2026-11-09", "note": "All 10 picks kept: every one is still in Amazon's top 40. Prices and ratings re-checked."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the KNIPEX 71 01 200 rose from $52.99 to $61.57."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Biggest price moves: the ValueMax V001304AE rose from $18.93 to $22.18."},
@@ -68,7 +69,6 @@
   "products": [
     {
       "asin": "B015W3BAW6",
-      "force_budget": true,
       "name": "WORKPRO 14-Inch Bolt Cutter, Bi-Material Handle with Soft Rubber Grip (W017004A)",
       "brand": "WORKPRO",
       "model": "W017004A",
@@ -241,7 +241,6 @@
     },
     {
       "asin": "B000SOSC4Y",
-      "force_overall": true,
       "name": "KNIPEX CoBolt Compact Bolt Cutter, 8-Inch (71 01 200)",
       "brand": "KNIPEX",
       "model": "71 01 200",

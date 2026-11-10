@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the JORGENSEN 20 oz Rip Claw (was the ESTWING E3-16S). Best Budget is now the Mr. Pen 8 oz Magnetic (was the IRWIN 1954889)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on every listing. No price changes."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMHT51398 dropped from $12.98 to $8.99; the Spec Ops SPEC-M22CF rose from $25.92 to $29.97."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
@@ -42,7 +43,6 @@
   "products": [
     {
       "asin": "B0000224VG",
-      "force_overall": true,
       "name": "ESTWING Rip Hammer, 16 oz Smooth Face, Shock Reduction Grip, E3-16S",
       "brand": "ESTWING",
       "model": "E3-16S",
@@ -234,7 +234,6 @@
     },
     {
       "asin": "B01HD6N80W",
-      "force_budget": true,
       "name": "IRWIN Hammer, Fiberglass, General Purpose, Claw, 16 oz. (1954889)",
       "brand": "IRWIN",
       "model": "1954889",

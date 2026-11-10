@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-09-26",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DWE315K (was the AVID POWER 3.5A)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Hammerhead 2.2A dropped from $48.40 to $39.53; the DEWALT DWE315SK rose from $134.10 to $156.61."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Hammerhead 2.2A rose from $34.45 to $48.40; the DEWALT DWE315SK rose from $99 to $134.10."},
     {"date": "2026-10-27", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the GALAX PRO 2.4A rose from $44.19 to $54.99."},
@@ -29,7 +30,7 @@
   ],
   "products": [
     {
-      "asin": "B07CTDRR4K", "force_overall": true,
+      "asin": "B07CTDRR4K",
       "name": "AVID POWER 3.5-Amp Oscillating Multi-Tool (4.5° oscillation)",
       "brand": "AVID POWER", "model": "3.5A",
       "image": "https://m.media-amazon.com/images/I/71D4DmUELIL._AC_SX425_.jpg",
@@ -141,7 +142,7 @@
       "cons": ["4.4 stars, a hair below the leaders", "Off-brand support"]
     },
     {
-      "asin": "B0BVSKCNLC", "force_budget": true,
+      "asin": "B0BVSKCNLC",
       "name": "WEN 3.5-Amp Oscillating Multi-Tool Kit",
       "brand": "WEN", "model": "3.5A",
       "image": "https://m.media-amazon.com/images/I/81FTImaCEYL._AC_SX425_.jpg",

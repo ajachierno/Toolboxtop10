@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00002N5KQ",
-  "best_budget": "B00009OYFY",
+  "best_overall": "B07RWV2N8C",
+  "best_budget": "B00002N5KQ",
   "money_no_object": "B07YVRTM7L"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.6,
    "reviews_count": 3610,
    "score": 92,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "DIYers who want all three cuts on a budget.",
    "bought_last_month": "1K+/mo",
    "verdict": "A complete left, right and straight set rated for 18-gauge cold-rolled steel, for about the price of one name-brand snip.",
@@ -201,7 +201,7 @@
    "rating": 4.7,
    "reviews_count": 8243,
    "score": 87,
-   "award": "Best Overall",
+   "award": "Best Budget",
    "best_for": "Anyone who needs one good pair of snips for ductwork, flashing and trim.",
    "bought_last_month": "700+/mo",
    "verdict": "The most-reviewed snip here and the classic yellow-handled straight cutter, with serrated molybdenum blades rated for 18-gauge cold-rolled steel and a latch you work with one hand.",
@@ -240,7 +240,7 @@
    "rating": 4.7,
    "reviews_count": 1537,
    "score": 87,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A name-brand snip for little money.",
    "bought_last_month": "300+/mo",
    "verdict": "A cheap name-brand straight snip rated for 18-gauge cold-rolled steel with serrated jaws and a quick release.",
@@ -474,6 +474,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Amazon Basics AMAS01 (was the Crescent Wiss M3R). Best Budget is now the Crescent Wiss M3R (was the STANLEY 14-563)."
+  },
   {
    "date": "2026-11-08",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Amazon Basics AMAS01 rose from $16.97 to $18.83."

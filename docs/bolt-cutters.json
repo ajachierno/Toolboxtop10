@@ -28,9 +28,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B000SOSC4Y",
+  "best_overall": "B00140X8W2",
   "best_budget": "B015W3BAW6",
-  "money_no_object": "B00140X8W2"
+  "money_no_object": null
  },
  "products": [
   {
@@ -44,7 +44,7 @@
    "rating": 4.7,
    "reviews_count": 161,
    "score": 92,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Contractors and maintenance crews.",
    "bought_last_month": null,
    "verdict": "A pro-grade 24-inch RIDGID with hardened alloy jaws, an internal cam that keeps blades aligned, and ratings for soft, medium and hard metal.",
@@ -399,7 +399,7 @@
    "rating": 4.8,
    "reviews_count": 4315,
    "score": 78,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Tradespeople who want bolt cutter power in a tool pouch.",
    "bought_last_month": "900+/mo",
    "verdict": "KNIPEX's compact CoBolt: an 8-inch plier-size bolt cutter with induction-hardened blades and 4,315 reviews at 4.8 stars.",
@@ -475,6 +475,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the RIDGID 14223 (was the KNIPEX 71 01 200)."
+  },
   {
    "date": "2026-11-09",
    "note": "All 10 picks kept: every one is still in Amazon's top 40. Prices and ratings re-checked."

@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B000HBDW48",
-  "best_budget": "B07TYXR42R",
+  "best_budget": "B00NY5K9P4",
   "money_no_object": "B0C338LLFC"
  },
  "products": [
@@ -125,7 +125,7 @@
    "rating": 4.4,
    "reviews_count": 1133,
    "score": 86,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Occasional thread repair on a budget.",
    "bought_last_month": "50+/mo",
    "verdict": "A compact SAE and metric set with plug and taper taps and a 16-blade pitch gauge, for about $30.",
@@ -366,7 +366,7 @@
    "rating": 4.5,
    "reviews_count": 4090,
    "score": 82,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "DIYers and mechanics who want both systems for a fair price.",
    "bought_last_month": "900+/mo",
    "verdict": "A 60-piece SAE and metric set in GCr15 bearing steel hardened to 60 HRC, rated 4.5 stars on 4,090 reviews.",
@@ -482,6 +482,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the Hi-Spec 39-piece (was the EFFICERE 60-piece)."
+  },
   {
    "date": "2026-11-08",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the EFFICERE 40-piece dropped from $29.99 to $26.95."

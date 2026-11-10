@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the VEVOR 9926 (was the Makita 9903). Best Budget is now the WEN HB321V (was the SKIL 7510-01)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Makita 9903 rose from $244 to $309.99."},
     {"date": "2026-11-04", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Makita 9403 dropped from $419 to $308.49; the CRAFTSMAN CMEW213 rose from $89 to $98.86."},
     {"date": "2026-10-28", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the SKIL 7510-01 rose from $45.98 to $59.98; the CRAFTSMAN CMEW213 dropped from $98.49 to $89; the Makita 9404 rose from $380.39 to $411.99."},
@@ -30,7 +31,7 @@
   ],
   "products": [
     {
-      "asin": "B000056NOC", "force_overall": true,
+      "asin": "B000056NOC",
       "name": "Makita 9903 3\" x 21\" Belt Sander",
       "brand": "Makita", "model": "9903",
       "image": "https://m.media-amazon.com/images/I/51M4incnVTL._AC_SL1500_.jpg",
@@ -44,7 +45,7 @@
       "cons": ["$309.99", "One belt in the box"]
     },
     {
-      "asin": "B007A9TD3E", "force_budget": true,
+      "asin": "B007A9TD3E",
       "name": "SKIL 6 Amp 3\"x18\" Belt Sander with Pressure Control (7510-01)",
       "brand": "SKIL", "model": "7510-01",
       "image": "https://m.media-amazon.com/images/I/610zb-jDyyL._AC_SL1500_.jpg",

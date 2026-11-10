@@ -29,9 +29,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00004TKHV",
+  "best_overall": "B00005RHPD",
   "best_budget": "B07CQK4ZL4",
-  "money_no_object": "B00005RHPD"
+  "money_no_object": null
  },
  "products": [
   {
@@ -45,7 +45,7 @@
    "rating": 4.7,
    "reviews_count": 5001,
    "score": 97,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "One router for everything: edges, plunge cuts, templates and a router table.",
    "bought_last_month": "300+/mo",
    "verdict": "The 1617EVS motor with both a fixed and a plunge base and a carrying case: the most-reviewed router here and the one to buy if you want a single router for everything.",
@@ -88,7 +88,7 @@
    "rating": 4.8,
    "reviews_count": 3561,
    "score": 91,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "A first full-size router that can also go in a router table.",
    "bought_last_month": "500+/mo",
    "verdict": "The full-size router woodworkers have bought for decades: 2.25 HP with constant-response speed control, microfine depth adjustment, hardwood handles and a three-hole base pattern for router tables. The best-rated router here, with 900+ sold last month.",
@@ -511,6 +511,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Bosch 1617EVSPK (was the Bosch 1617EVS)."
+  },
   {
    "date": "2026-11-04",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DW618 rose from $152.99 to $214.62; the Makita RT0701C dropped from $159 to $119.99; the Bosch 1617EVS rose from $169 to $205."

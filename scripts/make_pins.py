@@ -201,7 +201,7 @@ def pin_top3(site, cat, overall, budget, year):
     title = f"The Best {name} ({year}): Top 3 Ranked From Real Reviews"
     desc = (f"Which {name.lower()} are actually worth buying? We scored 10 on star rating, "
             f"number of reviews and the features that matter. Best Overall: {overall['brand']} "
-            f"{overall['model']}. Best Budget: {budget['brand']} {budget['model']}. "
+            f"{overall['model']}. " + (f"Best Budget: {budget['brand']} {budget['model']}. " if budget else "") +
             f"See the full top 10, specs, pros and cons — plus the one to avoid.")
     kw = [f"best {name.lower()}", f"{name.lower()} {year}", f"{name.lower()} review",
           f"{name.lower()} for beginners", "diy tools", "tool reviews"]

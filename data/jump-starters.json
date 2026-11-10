@@ -6,6 +6,7 @@
   "data_captured": "2026-11-06",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WOLFBOX MegaVolt24 (was the NOCO GB40)."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the NOCO GB70 rose from $139.99 to $199.95."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the AstroAI S8 dropped from $58.47 to $42.19; the NOCO GB70 dropped from $159.96 to $139.99; the AIMAPOW A20 rose from $44.99 to $49.99."},
     {
@@ -71,7 +72,7 @@
   ],
   "products": [
     {
-      "asin": "B015TKUPIC", "force_overall": true,
+      "asin": "B015TKUPIC",
       "name": "NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter",
       "brand": "NOCO",
       "model": "GB40",

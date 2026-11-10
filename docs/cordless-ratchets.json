@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B006CSRBTC",
-  "best_budget": "B07X37XMX3",
+  "best_overall": "B0DLVSJ9KY",
+  "best_budget": "B0DHVZ3PN8",
   "money_no_object": "B00EQ53HG4"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.4,
    "reviews_count": 572,
    "score": 90,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Reaching bolts behind other parts.",
    "bought_last_month": "300+/mo",
    "verdict": "An extended-reach kit: a 5.5-inch neck and slim head for bolts deep in an engine bay, 60 ft-lb, two batteries and a socket set in a case.",
@@ -167,7 +167,7 @@
    "rating": 4.5,
    "reviews_count": 429,
    "score": 88,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A complete kit with more torque than the 12V sets.",
    "bought_last_month": "300+/mo",
    "verdict": "The cheapest kit here, and tied for the most torque among the kits: 60 ft-lb, two batteries, a charger, metric sockets, both drive adapters and a hard case, backed by a 3-year warranty.",
@@ -331,7 +331,7 @@
    "rating": 4.4,
    "reviews_count": 12611,
    "score": 81,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A complete kit for oil changes, brakes and general car work under $70.",
    "bought_last_month": "100+/mo",
    "verdict": "The most-reviewed ratchet here and the fastest of the kits at 400 rpm, with two batteries, a fast charger, seven sockets and a hard case for about $8 less than the AOBEN.",
@@ -413,7 +413,7 @@
    "rating": 4.6,
    "reviews_count": 12160,
    "score": 76,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Anyone on Milwaukee M12, and most people starting a cordless ratchet collection.",
    "bought_last_month": "1K+/mo",
    "verdict": "The best-selling cordless ratchet by a wide margin: a 1-pound M12 ratchet with a low-profile head for engine bays, a recessed direction switch you won't bump, a fuel gauge and LED.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the ALLOY POWER JLBS-12V-DM03 (was the Milwaukee 2457-20). Best Budget is now the Seesii 21V ratchet (was the KIMO 3302)."
+  },
   {
    "date": "2026-11-05",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Milwaukee 2457-21 dropped from $160 to $129.03; the Milwaukee 2457-20 dropped from $96 to $87."

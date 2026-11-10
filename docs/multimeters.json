@@ -28,7 +28,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0B57L9FNL",
+  "best_overall": "B0GRZ9ZJV8",
   "best_budget": "B08CX9W7G3",
   "money_no_object": "B0779621KZ"
  },
@@ -44,7 +44,7 @@
    "rating": 4.5,
    "reviews_count": 144,
    "score": 96,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "DIYers who want True RMS, NCV and auto-ranging in one meter under $40.",
    "bought_last_month": "1K+/mo",
    "verdict": "A 6000-count True RMS auto-ranging meter with non-contact voltage detection, a 4.8 in backlit color screen and a USB-C rechargeable battery, sold with a 20-piece lead and clip kit. It lists CAT III 1000V / CAT IV 600V ratings.",
@@ -292,7 +292,7 @@
    "rating": 4.7,
    "reviews_count": 3061,
    "score": 84,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Homeowners doing outlets, switches, fixtures and car batteries.",
    "bought_last_month": "8K+/mo",
    "verdict": "Tied for the best seller here: a CAT III-rated Klein meter with LEDs that light up to show where the test leads go, a battery test mode, a backlit display and a kickstand, for about $35.",
@@ -494,6 +494,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the ZMIWNIED FS899L (was the Klein Tools MM325)."
+  },
   {
    "date": "2026-11-09",
    "note": "Replaced the AstroAI M4K0R and Klein MM720, both out of Amazon's top 40, with the ZMIWNIED FS899L ($37.99, True RMS with NCV) and the Klein 69149P test kit ($39.95). Fluke 15B+ dropped from $129.99 to $122.39. Prices and ratings re-checked."

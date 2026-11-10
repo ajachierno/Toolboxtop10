@@ -28,7 +28,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B001AQEZ2W",
+  "best_overall": "B017KUC6XQ",
   "best_budget": "B07DFFYCXS",
   "money_no_object": "B00WSOU772"
  },
@@ -44,7 +44,7 @@
    "rating": 4.6,
    "reviews_count": 8891,
    "score": 96,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Getting every feature for the lowest price.",
    "bought_last_month": "1K+/mo",
    "verdict": "The best value here: stainless steel with a glass scale, IP54 sealing, fraction readout and an RS232 data port, for about $21.",
@@ -85,7 +85,7 @@
    "rating": 4.6,
    "reviews_count": 3360,
    "score": 92,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Woodworking and machining where shop dust and oil are everywhere.",
    "bought_last_month": "400+/mo",
    "verdict": "The best all-round caliper for the money: hardened stainless steel, ±0.001-inch accuracy with 0.0005-inch resolution, an extra-large display, fraction readout and IP54 protection against shop dust and coolant.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the VINCA DCLA-0605 (was the iGaging IP54 0-6 in)."
+  },
   {
    "date": "2026-11-05",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

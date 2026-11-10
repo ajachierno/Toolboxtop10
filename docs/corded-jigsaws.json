@@ -27,8 +27,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B004323NQY",
-  "best_budget": "B07FD341YS",
+  "best_overall": "B07FD341YS",
+  "best_budget": "B09PD3ZFW5",
   "money_no_object": "B004323NPK"
  },
  "products": [
@@ -43,7 +43,7 @@
    "rating": 4.7,
    "reviews_count": 2407,
    "score": 97,
-   "award": "Best Budget",
+   "award": "Best Overall",
    "best_for": "Home projects with tool-free changes, an LED and two blades, around $54.",
    "bought_last_month": "600+/mo",
    "verdict": "The value pick, and the #5 best-seller in the category. About $54 gets you a 6-amp motor, tool-free blade change, 4-stage orbital, a tool-free bevel, and a bright halo LED that lights the cut line. Comes with a wood blade and a metal blade to start.",
@@ -83,7 +83,7 @@
    "rating": 4.5,
    "reviews_count": 399,
    "score": 96,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A budget kit with 7 blades, an LED and a dust pipe.",
    "bought_last_month": "50+/mo",
    "verdict": "Another feature-loaded budget kit, this one bundling seven T-shank blades. A 6.5-amp motor, six speeds, four orbital settings, tool-less blade change via a button, an LED light, and a dust blower with a vacuum pipe. Bevels both ways to 45 degrees.",
@@ -163,7 +163,7 @@
    "rating": 4.7,
    "reviews_count": 1638,
    "score": 91,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Most people: Bosch build, smooth low-vibration cuts and a carry bag.",
    "bought_last_month": "100+/mo",
    "verdict": "Bosch build quality a step down in price from the JS470E. A 6-amp top-handle with the same tool-less blade change, four orbital settings, a low-vibration plunging mechanism, and a heavy-gauge steel footplate. Ships with an anti-splinter insert, a blade, and a carrying bag.",
@@ -487,6 +487,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the SKIL JS314901 (was the Bosch JS260). Best Budget is now the WORKPRO W124748A (was the SKIL JS314901)."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Hammerhead HAJS048 dropped from $26.71 to $22.30."

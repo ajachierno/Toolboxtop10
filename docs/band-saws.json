@@ -28,7 +28,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0BFR2BJQP",
+  "best_overall": "B09X1ZD8MH",
   "best_budget": "B0BK2V91VW",
   "money_no_object": "B07H1BBC6Z"
  },
@@ -44,7 +44,7 @@
    "rating": 4.4,
    "reviews_count": 362,
    "score": 90,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Resawing up to 6 inches without stepping up to a 14-inch saw.",
    "bought_last_month": "50+/mo",
    "verdict": "WEN's 10-inch on a stand: two speeds, a 6-inch cutting depth, a fence and miter gauge in the box, a work light and a 2-year warranty.",
@@ -167,7 +167,7 @@
    "rating": 4.4,
    "reviews_count": 307,
    "score": 85,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "A benchtop saw that's easy to set up and keep in tune.",
    "bought_last_month": "200+/mo",
    "verdict": "A well-equipped 9-inch: an induction motor, two speeds with tool-free belt tensioning, quick blade tension, ball-bearing guides top and bottom, and rack-and-pinion table tilt.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WEN BA3962 (was the SKIL BW9501-00)."
+  },
   {
    "date": "2026-11-05",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

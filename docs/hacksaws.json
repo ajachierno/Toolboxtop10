@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B000LGBZDE",
-  "best_budget": "B0D8VFQZ77",
+  "best_budget": "B07R92S9YZ",
   "money_no_object": null
  },
  "products": [
@@ -83,7 +83,7 @@
    "rating": 4.6,
    "reviews_count": 4812,
    "score": 87,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Homeowners who want one good hacksaw.",
    "bought_last_month": "1K+/mo",
    "verdict": "The most-reviewed hacksaw here: a solid metal frame that tensions the blade to 225 lb, with 90- and 180-degree blade positions for flush cuts, for about $10.",
@@ -279,7 +279,7 @@
    "rating": 4.5,
    "reviews_count": 580,
    "score": 82,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A cheap spare for the garage.",
    "bought_last_month": "300+/mo",
    "verdict": "A basic high-tension steel frame with a top-mounted knob, the cheapest full-size saw here.",
@@ -472,6 +472,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the CRAFTSMAN CMHT20138 (was the HAUTMEC HT0398)."
+  },
   {
    "date": "2026-11-06",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the TOOLAN 8-in-1 rose from $18.98 to $23.98; the DOWELL 3-piece rose from $23.99 to $25.99."

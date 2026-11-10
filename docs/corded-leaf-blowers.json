@@ -27,9 +27,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B01B79BD6C",
-  "best_budget": "B076CM5PGZ",
-  "money_no_object": "B07PGX4SXW"
+  "best_overall": "B07PGX4SXW",
+  "best_budget": "B01BJ2YRPQ",
+  "money_no_object": null
  },
  "products": [
   {
@@ -43,7 +43,7 @@
    "rating": 4.2,
    "reviews_count": 7333,
    "score": 93,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Big lots where you blow, vacuum and mulch heavy leaf fall every week of autumn.",
    "bought_last_month": null,
    "verdict": "The highest-airflow 3-in-1 here: 600 CFM, a 50 L bag and a 16:1 mulch ratio. It trades air speed for volume, so it pushes big dry piles well but is slower on wet, stuck leaves.",
@@ -168,7 +168,7 @@
    "rating": 4.7,
    "reviews_count": 12698,
    "score": 91,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Clearing a whole lawn or long driveway of leaves in one pass.",
    "bought_last_month": "1K+/mo",
    "verdict": "A 12-amp turbine blower that moves 600 CFM, tied for the most air on this list, at 6.4 lb. It is rated 4.7 stars across 12,600+ reviews, the best combination of airflow and track record on the page.",
@@ -292,7 +292,7 @@
    "rating": 4.4,
    "reviews_count": 3249,
    "score": 82,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Small yards and driveways where you want a low setting near flower beds.",
    "bought_last_month": null,
    "verdict": "A light 10-amp blower with two speeds and a concentrator nozzle, for under $42. It's the cheapest pick here with a speed control.",
@@ -374,7 +374,7 @@
    "rating": 4.6,
    "reviews_count": 32328,
    "score": 76,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Patios, steps, sidewalks and small yards on a tight budget.",
    "bought_last_month": "100+/mo",
    "verdict": "The cheapest blower on this list and the most reviewed, with 32,300+ ratings at 4.6 stars. It moves 260 CFM, more than the BLACK+DECKER LB700, at 3.9 lb.",
@@ -493,6 +493,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WORX WG512 (was the WORX WG520). Best Budget is now the Sun Joe SBJ601E (was the Sun Joe SBJ597E)."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the WORX WG512 dropped from $117.32 to $87.39; the BLACK+DECKER LB700 rose from $42 to $49; the WORX WG520 dropped from $75.27 to $62.99."

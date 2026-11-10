@@ -28,8 +28,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0BBFN8LZC",
-  "best_budget": "B0BS96YLCS",
+  "best_overall": "B0BS96YLCS",
+  "best_budget": null,
   "money_no_object": "B003ANBKXA"
  },
  "products": [
@@ -44,7 +44,7 @@
    "rating": 4.4,
    "reviews_count": 453,
    "score": 95,
-   "award": "Best Budget",
+   "award": "Best Overall",
    "best_for": "Occasional tile, mortar and thin concrete jobs.",
    "bought_last_month": "300+/mo",
    "verdict": "The cheapest jack hammer here, with two chisels, gloves, a case and a shock-absorbing handle. It's rated 19 J, enough for tile and light chipping.",
@@ -290,7 +290,7 @@
    "rating": 4.6,
    "reviews_count": 248,
    "score": 87,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Mixed demolition: walls, floors and medium slabs.",
    "bought_last_month": "100+/mo",
    "verdict": "A 25 lb SDS-Max breaker with 45 J, six speed settings and double anti-vibration springs, a middle ground between chipping hammers and 30 lb breakers.",
@@ -489,6 +489,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the VEVOR 1400W 2900 BPM (was the Berserker 65H). No pick is both under the price cap and cheaper than Best Overall, so there is no Best Budget for now."
+  },
   {
    "date": "2026-11-05",
    "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the VEVOR 1400W 2900 BPM rose from $70.46 to $82.90."

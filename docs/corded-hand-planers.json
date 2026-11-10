@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B086ZDQGXM",
-  "best_budget": "B079FBDPF4",
+  "best_budget": "B00OW5AJTG",
   "money_no_object": "B0033WSK5O"
  },
  "products": [
@@ -85,7 +85,7 @@
    "rating": 4.5,
    "reviews_count": 7992,
    "score": 90,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Doors, trim and general DIY planing.",
    "bought_last_month": "1K+/mo",
    "verdict": "The best-selling and most-reviewed planer here: a 6A, 3-1/4-inch planer with 16 depth stops to 1/8 inch, a rabbeting guide for rabbets up to 1 inch, a kickstand, a dust bag and a 2-year warranty, for about $43.",
@@ -249,7 +249,7 @@
    "rating": 4.5,
    "reviews_count": 2276,
    "score": 80,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Light edge work and one-handed control.",
    "bought_last_month": "200+/mo",
    "verdict": "The cheapest and lightest planer here: a 4.3 lb, 2-3/8-inch planer for edges, doors and small trim, with a kickstand and onboard wrench storage.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the WEN 6530 (was the WEN 6528)."
+  },
   {
    "date": "2026-11-06",
    "note": "Replaced the Bosch PL1632, which no longer has a buy box on Amazon, with the DEKOPRO DKPEHP0006 (7.5 A, 3 mm maximum cut, $48.99). Prices re-checked; the WOODSTARTER HP15K rose from $49.99 to $59.99."

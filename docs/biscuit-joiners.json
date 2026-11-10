@@ -29,8 +29,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B00002232S",
-  "best_budget": "B0D3D13976",
+  "best_overall": "B0B39NZFRX",
+  "best_budget": "B08BZX83N2",
   "money_no_object": "B07QWB3N9Q"
  },
  "products": [
@@ -45,7 +45,7 @@
    "rating": 4.8,
    "reviews_count": 436,
    "score": 91,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "DEWALT owners who want to cut slots anywhere.",
    "bought_last_month": "200+/mo",
    "verdict": "The cordless version of DEWALT's joiner with a brushless motor and tool-free fence adjustments, rated 4.8 stars.",
@@ -126,7 +126,7 @@
    "rating": 4.7,
    "reviews_count": 2846,
    "score": 87,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Furniture and cabinet makers who want the proven standard.",
    "bought_last_month": "100+/mo",
    "verdict": "The classic biscuit joiner and the most-reviewed here, with 2,846 reviews: a dual rack-and-pinion fence that stays parallel to the blade for accurate slots every time.",
@@ -166,7 +166,7 @@
    "rating": 4.5,
    "reviews_count": 2532,
    "score": 82,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A first biscuit joiner for under $60.",
    "bought_last_month": null,
    "verdict": "WEN's corded joiner: an 8.5 A motor turning a 4-inch carbide-tipped blade at 10,000 rpm, an adjustable height and angle fence, preset stops for the three common biscuit sizes, and a case with biscuits.",
@@ -207,7 +207,7 @@
    "rating": 4.5,
    "reviews_count": 1218,
    "score": 82,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Beginners who want everything in one box.",
    "bought_last_month": "200+/mo",
    "verdict": "A budget joiner kit with an 8.5-amp motor, a dust bag and 110 biscuits in three sizes, rated 4.5 stars on 1,218 reviews.",
@@ -485,6 +485,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DCW682B (was the DEWALT DW682K). Best Budget is now the WEN JN8504 (was the AOBEN 3705)."
+  },
   {
    "date": "2026-11-06",
    "note": "Replaced the WEN 20648 cordless kit, whose listing now shows a different WEN joiner, with the corded WEN JN8504 ($57.99). Prices re-checked; changes were all under 8%."

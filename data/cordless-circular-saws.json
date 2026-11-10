@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-22",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WORKPRO Mini 20V (was the DEWALT DCS391B). Best Budget is now the GALAX PRO Mini 20V (was the RYOBI P505)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DCS391B rose from $99 to $129; the RYOBI P505 dropped from $47.99 to $41.99; the Bigheimer 4\" 2-in-1 rose from $44.93 to $49.79."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the GALAX PRO Mini 20V dropped from $65.99 to $58.73."},
     {"date": "2026-10-22", "note": "All 10 picks kept. Prices, ratings and review counts re-checked on every listing. Biggest price moves: the GALAX PRO Mini 20V rose from $52.68 to $65.99; the WORX WX526L rose from $89.99 to $109.99; the WORKPRO Mini 20V rose from $99.99 to $109.99."},
@@ -28,7 +29,7 @@
   ],
   "products": [
     {
-      "asin": "B007NVSTO8", "force_overall": true,
+      "asin": "B007NVSTO8",
       "name": "DEWALT DCS391B 20V MAX 6-1/2\" Circular Saw (tool only)",
       "brand": "DEWALT", "model": "DCS391B",
       "image": "https://m.media-amazon.com/images/I/81OS506kRZL._AC_SX425_.jpg",
@@ -42,7 +43,7 @@
       "cons": ["Tool only — no battery or charger", "6-1/2\" blade cuts shallower than a 7-1/4\""]
     },
     {
-      "asin": "B01GUM6YQU", "force_budget": true,
+      "asin": "B01GUM6YQU",
       "name": "RYOBI ONE+ P505 18V 5-1/2\" Circular Saw (tool only)",
       "brand": "RYOBI", "model": "P505",
       "image": "https://m.media-amazon.com/images/I/71l5vKhgksL._AC_SX425_.jpg",

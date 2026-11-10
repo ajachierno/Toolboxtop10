@@ -29,8 +29,8 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B007NVSTCK",
-  "best_budget": "B00IP27DFA",
+  "best_overall": "B0DPW3VYX5",
+  "best_budget": "B0B88R7HWB",
   "money_no_object": "B01M69K91R"
  },
  "products": [
@@ -213,7 +213,7 @@
    "rating": 4.4,
    "reviews_count": 776,
    "score": 88,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "A kit with two 4.0Ah batteries for long cutting sessions for about $63.",
    "bought_last_month": "1K+/mo",
    "verdict": "A loaded budget kit — two 4.0Ah batteries, charger, and blades for about $63. No brand pedigree, but a lot of runtime and everything you need to start cutting out of the box.",
@@ -255,7 +255,7 @@
    "rating": 4.7,
    "reviews_count": 8603,
    "score": 87,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "DEWALT 20V MAX owners who want a full-size demo and pruning saw.",
    "bought_last_month": "1K+/mo",
    "verdict": "Amazon's #1 seller in power reciprocating saws: DEWALT's standard 20V MAX recip with a 1-1/8 in stroke, a 4-position blade clamp, and a 3-year warranty, at $99 sold by Amazon. It's a bare tool, so it makes the most sense if you already own a DEWALT 20V MAX battery.",
@@ -384,7 +384,7 @@
    "rating": 4.6,
    "reviews_count": 4100,
    "score": 86,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "BLACK+DECKER 20V MAX owners who want a low-cost name-brand saw.",
    "bought_last_month": "100+/mo",
    "verdict": "A name-brand saw at $76.99: the bare-tool version of the popular BLACK+DECKER recip. Grab it if you already own 20V POWERCONNECT batteries. 4,100 reviews and tool-free blade change.",
@@ -427,7 +427,7 @@
    "rating": 4.6,
    "reviews_count": 1691,
    "score": 86,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "RYOBI ONE+ owners who want the fastest stroke rate here.",
    "bought_last_month": "700+/mo",
    "verdict": "The pick if you're already on RYOBI ONE+. A 3,400-SPM saw with a 1-inch stroke and tool-free blade change, sold as a bare tool. Add a ONE+ battery and go.",
@@ -508,6 +508,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the SEESII Recip Kit (was the DEWALT DCS380B). Best Budget is now the RYOBI PCL515B (was the BLACK+DECKER BDCR20B)."
+  },
   {
    "date": "2026-11-05",
    "note": "All 10 picks kept. New tool to avoid: the Olmlmo RS03 kit, whose listing gives two different wattages, weights and blade materials; the previous avoid pick no longer has a seller. The RYOBI PCL515B dropped from $65.99 to $60."

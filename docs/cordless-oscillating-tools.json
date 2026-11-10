@@ -29,9 +29,9 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B07VBB55X5",
+  "best_overall": "B00SOU6LR4",
   "best_budget": "B0CZP39W53",
-  "money_no_object": "B00SOU6LR4"
+  "money_no_object": null
  },
  "products": [
   {
@@ -45,7 +45,7 @@
    "rating": 4.8,
    "reviews_count": 5703,
    "score": 96,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Starting fresh and wanting the best multi-tool with battery and charger.",
    "bought_last_month": "1K+/mo",
    "verdict": "The DCS356 brushless multi-tool with a 20V MAX battery and charger in the box, and Amazon's #1 best seller in oscillating tools. If you don't already own DEWALT batteries and want the best tool here, buy this one.",
@@ -130,7 +130,7 @@
    "rating": 4.8,
    "reviews_count": 14531,
    "score": 92,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "DEWALT 20V MAX owners: the best cordless multi-tool, period.",
    "bought_last_month": "5K+/mo",
    "verdict": "The best cordless multi-tool, and it's not close — 14,000+ reviews at 4.8 stars. A brushless, 3-speed DEWALT that takes standard blades and rides the huge 20V MAX platform. Bare tool, so add a battery.",
@@ -504,6 +504,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Overall is now the DEWALT DCS356D1 (was the DEWALT DCS356B)."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."

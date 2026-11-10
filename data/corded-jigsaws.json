@@ -6,6 +6,7 @@
   "data_captured": "2026-11-09",
   "audited": "2026-10-23",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the SKIL JS314901 (was the Bosch JS260). Best Budget is now the WORKPRO W124748A (was the SKIL JS314901)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Hammerhead HAJS048 dropped from $26.71 to $22.30."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the BLACK+DECKER BDEJS300C rose from $29.98 to $38.38; the Bosch JS260 dropped from $119 to $99; the Bosch JS470E dropped from $199 to $179."},
     {"date": "2026-10-23", "note": "The WEN 33606 and HYCHIKA JS-100C are now unavailable on Amazon, so the Hammerhead HAJS048 ($26.22) and BLACK+DECKER BDEJS300C ($29.98) replace them. The Makita JV0600K dropped from $159 to $142.99 and the DEWALT DW317K from $138 to $129.99, while the SKIL JS314901 rose from $51.80 to $54, so the Best Budget limit is now $60."},
@@ -41,7 +42,7 @@
       "cons": ["5.5 amps, less than the 6-amp SKIL that costs under half as much", "No work light, laser or case listed"]
     },
     {
-      "asin": "B07FD341YS", "force_budget": true,
+      "asin": "B07FD341YS",
       "name": "SKIL 6 Amp Corded Jig Saw with Tool-Free Blade Change (JS314901)",
       "brand": "SKIL", "model": "JS314901",
       "image": "https://m.media-amazon.com/images/I/61MmPwBPNwL._AC_SX425_.jpg",
@@ -153,7 +154,7 @@
       "cons": ["Off-brand tool, DIY-grade", "Smaller review base than the name-brand picks"]
     },
     {
-      "asin": "B004323NQY", "force_overall": true,
+      "asin": "B004323NQY",
       "name": "BOSCH JS260 Top-Handle Jig Saw, 6.0 Amp, Variable Speed, Toolless Blade Change",
       "brand": "Bosch", "model": "JS260",
       "image": "https://m.media-amazon.com/images/I/71TnbujFPhL._AC_SX425_.jpg",

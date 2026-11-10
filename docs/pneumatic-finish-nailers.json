@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B07M62L77L",
-  "best_budget": "B015ODI46E",
+  "best_budget": "B07ZWXHN38",
   "money_no_object": "B00JTYO2AW"
  },
  "products": [
@@ -208,7 +208,7 @@
    "rating": 4.5,
    "reviews_count": 337,
    "score": 86,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A budget 16-gauge with a real mode switch.",
    "bought_last_month": "50+/mo",
    "verdict": "A magnesium-housed 16-gauge with a flip switch between bump and sequential fire, tool-free depth and jam release, a spare no-mar tip and a case, for under $60.",
@@ -290,7 +290,7 @@
    "rating": 4.4,
    "reviews_count": 328,
    "score": 81,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A one-room trim job on a budget.",
    "bought_last_month": "50+/mo",
    "verdict": "The cheapest finish nailer here, with tool-free depth, a 360° exhaust, quick jam release and interchangeable triggers for single or bump fire.",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Best Budget is now the HBT HBT64P (was the 3PLUS HT64SP)."
+  },
   {
    "date": "2026-11-07",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

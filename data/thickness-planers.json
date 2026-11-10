@@ -6,6 +6,7 @@
   "data_captured": "2026-11-08",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the JET JWP-13BT (was the DEWALT DW735X)."},
     {"date": "2026-11-08", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DW734 dropped from $599 to $450; the Cutech 40700H rose from $424.99 to $499.99; the CRAFTSMAN CMEW320 rose from $329 to $384."},
     {"date": "2026-11-01", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEWALT DW734 rose from $450.54 to $599; the CRAFTSMAN CMEW320 rose from $299 to $329."},
     {
@@ -67,7 +68,6 @@
   "products": [
     {
       "asin": "B003OX9KME",
-      "force_overall": true,
       "name": "DEWALT 13-Inch Two-Speed Thickness Planer with Tables and Extra Knives (DW735X)",
       "brand": "DEWALT",
       "model": "DW735X",
@@ -263,7 +263,7 @@
       "best_for": "Buyers who find the DW735 cheaper than the DW735X at the time they shop.",
       "skip_if": "The DW735X is the same price; it includes more.",
       "pros": [
-        "Same planer as the top pick",
+        "Same planer as the DW735X",
         "2,224 reviews"
       ],
       "cons": [

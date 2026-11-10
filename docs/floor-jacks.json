@@ -31,7 +31,7 @@
  "picks": {
   "best_overall": "B0DJMM1Q7S",
   "best_budget": "B0BCD9JVK4",
-  "money_no_object": "B099JPWCPC"
+  "money_no_object": null
  },
  "products": [
   {
@@ -87,7 +87,7 @@
    "rating": 4.4,
    "reviews_count": 864,
    "score": 95,
-   "award": "Money No Object",
+   "award": null,
    "best_for": "Track days and anyone who moves the jack around a lot.",
    "bought_last_month": "1K+/mo",
    "verdict": "An aluminum-and-steel racing jack, each one factory tested to 1.5 times its 3-ton rating, with a dual-piston pump, an 18-inch lift and the ANSI/ASME PASE standard.",
@@ -501,6 +501,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Badges now follow the scores instead of hand picks. Money No Object no longer shows, because the Jack Boss AS830011L costs less than Best Overall."
+  },
   {
    "date": "2026-11-05",
    "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-07",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the WEN 61722K (was the 3PLUS H9040SP)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the RYOBI P361 rose from $108 to $125; the Makita AT638A rose from $145 to $165; the Senco 1W0002N rose from $109.98 to $119.85."},
     {"date": "2026-10-31", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMCN618NB dropped from $189 to $129; the RYOBI P361 dropped from $139.99 to $108; the Freeman PST9040Q rose from $60.87 to $69."},
     {
@@ -207,7 +208,6 @@
     },
     {
       "asin": "B015W10UAG",
-      "force_budget": true,
       "name": "3PLUS H9040SP 18 Gauge 1/4-Inch Narrow Crown Stapler",
       "brand": "3PLUS",
       "model": "H9040SP",
