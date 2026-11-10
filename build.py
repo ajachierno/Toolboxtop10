@@ -939,10 +939,14 @@ TO_TOP = """<a href="#" class="to-top" aria-label="Back to top">&uarr;</a>
 def build_category(site, filename):
     cat = load(filename)
     ranked, overall, budget, premium = rank_products(cat)
+    # A premium-flagged product that already holds Best Overall or Best Budget keeps that badge
+    # and gets no Money No Object card, so it never shows twice in the top picks.
+    if premium is overall or premium is budget:
+        premium = None
     avoid = cat.get("avoid", [])
     spec_fields = cat.get("spec_fields") or DEFAULT_SPEC_FIELDS
     columns = cat.get("table_columns") or DEFAULT_TABLE_COLUMNS
-    heroes = "".join(render_hero_card(p, site, cat) for p in (overall, budget, premium) if p)
+    heroes ="".join(render_hero_card(p, site, cat) for p in (overall, budget, premium) if p)
     cards = "".join(render_card(p, site, spec_fields, cat) for p in ranked)
     brands = list(dict.fromkeys(p["brand"] for p in ranked))
     cat["_brands"] = brands  # picked up by build_home for the site-wide deals note
