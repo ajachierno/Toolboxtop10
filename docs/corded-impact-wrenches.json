@@ -6,8 +6,8 @@
  "title": "The 10 Best Corded Impact Wrenches",
  "subtitle": "Wired impact wrenches ranked from live Amazon data — the corded impact tool for lug nuts and bolts.",
  "intro": "Quick note on names: there is no such thing as a corded impact driver — the impact-driver format (1/4-inch hex, for screws) is inherently cordless. The corded impact tool that actually exists is the impact wrench: a 1/2-inch square drive that spins sockets to break loose and tighten lug nuts, suspension bolts, and rusted hardware. This list covers electric corded impact wrenches — the ones that plug into a wall outlet (120V) or a car's 12V socket. If you want to drive screws, you want an impact driver from the cordless list; if you want to wrench on a car without an air compressor, you're in the right place.",
- "data_captured": "2026-11-09",
- "audited": "2026-10-26",
+ "data_captured": "2026-11-10",
+ "audited": "2026-11-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -197,7 +197,7 @@
    "name": "Wagan EL2257 12V DC 1/2\" Impact Wrench (automotive)",
    "brand": "Wagan",
    "model": "EL2257",
-   "price": 82.79,
+   "price": 64.99,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 1340,
@@ -237,7 +237,7 @@
    "name": "K Tool 81380A 1/2\" Electric Impact Wrench",
    "brand": "K Tool International",
    "model": "81380A",
-   "price": 44.85,
+   "price": 44.86,
    "currency": "USD",
    "rating": 5.0,
    "reviews_count": 6,
@@ -353,44 +353,45 @@
   },
   {
    "rank": 9,
-   "asin": "B07PPCJW45",
-   "name": "BAUER 64120 1/2 Inch Heavy Duty Extreme Torque Impact Wrench with Rubber Nosepiece",
-   "brand": "BAUER",
-   "model": "64120",
-   "price": 58.9,
+   "asin": "B08KGQSGLT",
+   "name": "Hyperion Lift-Assist 12V Portable Impact Wrench, 12 Volt Electric Lug Nut Wrench by Deltran (043-1003-HY-WH)",
+   "brand": "Hyperion",
+   "model": "043-1003-HY-WH",
+   "price": 59.95,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 114,
-   "score": 65,
+   "rating": 4.0,
+   "reviews_count": 27,
+   "score": 57,
    "award": null,
-   "best_for": "Heavy lug-nut and suspension work on a budget, with a rim-safe rubber nose.",
+   "best_for": "Keeping in the trunk for a flat tire away from home.",
    "bought_last_month": null,
-   "verdict": "Harbor Freight's BAUER corded impact wrench: an 8.5-amp motor, all-metal gears, a hog-ring anvil and a rubber nose that protects wheel rims. It rates 4.5 stars, and at $58.90 it costs less than half of the CRAFTSMAN.",
+   "verdict": "A roadside lug-nut wrench that runs off the car: it plugs into the 12V socket or clamps to the battery. The hard case holds two reversible lug sockets, an LED work light and a spare fuse.",
    "pros": [
-    "8.5-amp motor with all-metal gears",
-    "Hog-ring anvil and rubber nosepiece",
-    "4.5 stars at $58.90"
+    "Cigarette-lighter cable and battery clamps both included",
+    "250 ft-lbs rated torque",
+    "Hard case, two reversible sockets, LED light",
+    "Takes standard 1/2 in sockets"
    ],
    "cons": [
-    "1,050 ft-lb breakaway claim is far above the 400-450 ft-lb ratings of other 8.5-amp and 7.5-amp wrenches here",
-    "Tool only: the listing mentions no case or sockets",
-    "Sold by a third-party store, not Amazon"
+    "12V only, no wall plug",
+    "Forward/reverse control not described on the listing",
+    "No speed rating listed"
    ],
    "specs": {
-    "type": "Corded (AC)",
-    "power": "8.5 amp",
+    "type": "Corded (12V DC)",
+    "power": "12V DC, 100 W",
     "drive": "1/2 in",
-    "torque": "1,050 ft-lbs breakaway (claimed)",
+    "torque": "250 ft-lbs (340 N·m)",
     "max_rpm": null
    },
    "features": {
-    "kit": false,
-    "heavy_duty": true,
+    "kit": true,
+    "heavy_duty": false,
     "forward_reverse": false
    },
-   "image": "https://m.media-amazon.com/images/I/61cjcAaaveL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B07PPCJW45?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-impact-wrenches.html#B07PPCJW45"
+   "image": "https://m.media-amazon.com/images/I/51T3YFsG8mL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B08KGQSGLT?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-impact-wrenches.html#B08KGQSGLT"
   },
   {
    "rank": 10,
@@ -439,7 +440,7 @@
    "name": "Ingersoll Rand 231C 1/2\" Air Impact Wrench",
    "brand": "Ingersoll Rand",
    "model": "231C",
-   "price": 136.16,
+   "price": 129.99,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 3337,
@@ -480,6 +481,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-10",
+   "note": "Replaced the BAUER 64120, which no longer has a seller on Amazon, with the Hyperion 12V portable impact wrench. Other picks kept; prices and ratings re-checked."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Wagan EL2257 rose from $64.99 to $82.79."
