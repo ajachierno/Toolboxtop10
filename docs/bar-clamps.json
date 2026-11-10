@@ -23,6 +23,7 @@
    "spreader": 0.2
   },
   "reviews_ceiling": 15000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 25,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -157,6 +158,47 @@
   },
   {
    "rank": 4,
+   "asin": "B0H5DWCXXW",
+   "name": "VEVOR Bar Clamps for Woodworking, 8-Pack, 36\" Opening F Clamps, 600 lbs Load Limit",
+   "brand": "VEVOR",
+   "model": "36 in F clamp 8-pack",
+   "price": 27.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 1236,
+   "score": 81,
+   "award": null,
+   "best_for": "Long glue-ups on a budget: tabletops and big frames.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Eight 36-inch cast iron F-clamps rated 600 lbs for about $8 each, with a self-locking latch and a raised end stop that keeps the jaw from sliding off.",
+   "pros": [
+    "8 x 36-in clamps",
+    "600 lb load limit",
+    "About $8 a clamp"
+   ],
+   "cons": [
+    "21.6 lbs for the set",
+    "Smaller brand track record"
+   ],
+   "specs": {
+    "type": "Cast iron F-clamp",
+    "sizes": "36 in",
+    "force": "600 lb",
+    "count": "8 clamps",
+    "warranty": null
+   },
+   "features": {
+    "high_force": true,
+    "long": true,
+    "parallel": false,
+    "spreader": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61am91a+GcL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H5DWCXXW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/bar-clamps.html#B0H5DWCXXW"
+  },
+  {
+   "rank": 5,
    "asin": "B07KB1PYH5",
    "name": "Jorgensen 24\" Medium-Duty Steel Bar Clamp Set, 600 lbs Load Limit, 2-Pack (93724A)",
    "brand": "Jorgensen",
@@ -197,7 +239,7 @@
    "page_url": "https://toolboxtop10.com/bar-clamps.html#B07KB1PYH5"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B001DSY4QO",
    "name": "IRWIN Quick-Grip 1964758 One-Handed Mini Bar Clamp 4 Pack, 6\"",
    "brand": "IRWIN",
@@ -238,7 +280,7 @@
    "page_url": "https://toolboxtop10.com/bar-clamps.html#B001DSY4QO"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B0875RW1Y6",
    "name": "WORKPRO 12\" Clamps for Woodworking 2-Pack, Light Duty Wood Clamps",
    "brand": "WORKPRO",
@@ -277,47 +319,6 @@
    "image": "https://m.media-amazon.com/images/I/61yEijz5-jL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0875RW1Y6?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/bar-clamps.html#B0875RW1Y6"
-  },
-  {
-   "rank": 7,
-   "asin": "B0H5DWCXXW",
-   "name": "VEVOR Bar Clamps for Woodworking, 8-Pack, 36\" Opening F Clamps, 600 lbs Load Limit",
-   "brand": "VEVOR",
-   "model": "36 in F clamp 8-pack",
-   "price": 27.9,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 1236,
-   "score": 78,
-   "award": null,
-   "best_for": "Long glue-ups on a budget: tabletops and big frames.",
-   "bought_last_month": "100+/mo",
-   "verdict": "Eight 36-inch cast iron F-clamps rated 600 lbs for about $8 each, with a self-locking latch and a raised end stop that keeps the jaw from sliding off.",
-   "pros": [
-    "8 x 36-in clamps",
-    "600 lb load limit",
-    "About $8 a clamp"
-   ],
-   "cons": [
-    "21.6 lbs for the set",
-    "Smaller brand track record"
-   ],
-   "specs": {
-    "type": "Cast iron F-clamp",
-    "sizes": "36 in",
-    "force": "600 lb",
-    "count": "8 clamps",
-    "warranty": null
-   },
-   "features": {
-    "high_force": true,
-    "long": true,
-    "parallel": false,
-    "spreader": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61am91a+GcL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H5DWCXXW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/bar-clamps.html#B0H5DWCXXW"
   },
   {
    "rank": 8,

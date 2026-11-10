@@ -15,6 +15,7 @@ import urllib.parse
 from pathlib import Path
 
 import price_tracker  # price-tracker hub, monthly reports and data downloads (same folder)
+import listing_age  # review counts weighted by how long a listing has been on Amazon (same folder)
 
 ROOT = Path(__file__).parent
 DATA = ROOT / "data"
@@ -117,12 +118,18 @@ def score_product(p, cat):
     w = cat["weights"]
     ceil = cat.get("reviews_ceiling", 60000)
     rating_s = p["rating"] / 5.0
-    reviews_s = min(1.0, math.log10(p["reviews_count"] + 1) / math.log10(ceil))
+    # A listing under two years old has its review count scaled up (at most 2x); see listing_age.py.
+    mult, listed, how = listing_age.review_multiplier(p, listing_age.as_of_date(cat))
+    p["review_weight"] = round(mult, 2)
+    if listed:
+        p["listed"], p["listed_how"] = listed.isoformat(), how
+    reviews_s = min(1.0, math.log10(p["reviews_count"] * mult + 1) / math.log10(ceil))
     feat_s = feature_score(p["features"], cat["feature_weights"])
     composite = w["rating"] * rating_s + w["reviews"] * reviews_s + w["features"] * feat_s
     # Kept for the "Why this score" breakdown on each card: (label, weight, 0-1 sub-score).
     p["score_parts"] = [("Star rating", w["rating"], rating_s),
-                        ("Number of reviews", w["reviews"], reviews_s),
+                        ("Number of reviews" + (f" (counted {mult:.1f}x, newer listing)" if mult > 1 else ""),
+                         w["reviews"], reviews_s),
                         ("Features", w["features"], feat_s)]
     return round(composite * 100)
 
@@ -381,7 +388,9 @@ def render_feature_weights(cat):
     ceil = cat.get("reviews_ceiling", 60000)
     return (f"<p>The features score is built from {parts}, capped at 100. The review-count score "
             f"is on a log scale, so each tenfold jump in reviews adds the same amount, and {ceil:,} or "
-            f"more reviews gets full marks. Open <b>Why this score</b> on any tool to see its numbers.</p>")
+            f"more reviews gets full marks. A listing under two years old with at least 30 reviews has its count "
+            f"scaled up for the shorter time it has had to collect them, never more than double. "
+            f"Open <b>Why this score</b> on any tool to see its numbers.</p>")
 
 
 def render_changes(cat):
@@ -557,7 +566,8 @@ def write_page_json(site, cat, ranked, avoid, overall, budget, premium, canonica
         "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review "
                        "counts change daily; check the listing before relying on a number.",
         "scoring": {"scale": "0-100", "weights": cat["weights"], "feature_weights": cat.get("feature_weights", {}),
-                    "reviews_ceiling": cat.get("reviews_ceiling", 60000), "budget_cap_usd": cat.get("budget_cap"),
+                    "reviews_ceiling": cat.get("reviews_ceiling", 60000),
+                    "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.", "budget_cap_usd": cat.get("budget_cap"),
                     "method_url": f"{base}/about.html"},
         "picks": {"best_overall": overall["asin"] if overall else None,
                   "best_budget": budget["asin"] if budget else None,
@@ -2119,7 +2129,14 @@ def build_about(site, cats):
       <li><b>Star rating.</b> The Amazon average, out of 5.</li>
       <li><b>Number of reviews.</b> More reviews mean more confidence that the rating is real. This part
       is on a log scale, so each tenfold jump in reviews adds the same amount, and it tops out at a
-      ceiling set per category. A tool with a few hundred reviews can still score well.</li>
+      ceiling set per category. A tool with a few hundred reviews can still score well. Newer tools get
+      credit for having had less time to collect reviews: if a listing has been on Amazon for under two
+      years and has at least 30 reviews, its count is scaled up by 24 divided by its age in months (a
+      one-year-old listing's reviews count double), never more than double. Older listings keep their
+      count as is. We use Amazon's &ldquo;Date First Available&rdquo; when the listing shows it; most
+      don't, so we estimate the date from the product's Amazon ID, which Amazon assigns in roughly date
+      order (checked against {len(listing_age.load_dates()):,} listings with a known date, the estimate is
+      usually within two months).</li>
       <li><b>Features.</b> The features that matter for that kind of tool, each with its own weight. A
       product only gets credit for a feature its listing states.</li>
     </ul>
@@ -2324,6 +2341,10 @@ def main():
         (OUT / "CNAME").write_text(site["custom_domain"], encoding="utf-8")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     record_prices(site)
+    # Top up the known Amazon listing dates (they calibrate the review-age weighting) from every scrape.
+    added = listing_age.update_dates(sorted((ROOT / "scrape-results").glob("*.json")))
+    if added:
+        print(f"Listing dates: {added} new or earlier from scrapes")
     cats = [build_category(site, f"{c['slug']}.json") for c in site["categories"]]
     build_home(site, cats)
     seasonal = build_seasonal(site, cats) + build_brands(site, cats)

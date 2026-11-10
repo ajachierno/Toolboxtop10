@@ -23,6 +23,7 @@
    "carbide": 0.2
   },
   "reviews_ceiling": 1200,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 300,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -116,6 +117,47 @@
   },
   {
    "rank": 3,
+   "asin": "B0DTM4DYTX",
+   "name": "Cutech 401120HI-IF 12-Inch Spiral Benchtop Jointer with Cast Iron Tables and Fence",
+   "brand": "Cutech",
+   "model": "401120HI-IF",
+   "price": 849.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 56,
+   "score": 83,
+   "award": null,
+   "best_for": "Woodworkers who mill wide boards in a small shop.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A 12-inch benchtop jointer with carbide inserts, cast iron tables and a cast iron fence, wide enough to flatten most furniture boards in one pass.",
+   "pros": [
+    "12 in width",
+    "Carbide, cast iron",
+    "4.7 stars"
+   ],
+   "cons": [
+    "Expensive",
+    "Only 56 reviews"
+   ],
+   "specs": {
+    "width": "12 in",
+    "cutterhead": "Spiral, 24 carbide inserts",
+    "table": "Cast iron",
+    "motor": "12 A",
+    "extras": "24 x 6 in cast iron fence"
+   },
+   "features": {
+    "helical": true,
+    "cast_iron": true,
+    "width_8": true,
+    "carbide": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61CNnXDkY+L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DTM4DYTX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/benchtop-jointers.html#B0DTM4DYTX"
+  },
+  {
+   "rank": 4,
    "asin": "B0C9NT3BXN",
    "name": "Cutech 401100HI 10-Inch Spiral Benchtop Jointer with Cast Iron Tables",
    "brand": "Cutech",
@@ -155,7 +197,7 @@
    "page_url": "https://toolboxtop10.com/benchtop-jointers.html#B0C9NT3BXN"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B0BTMVCQ4Z",
    "name": "Cutech 40180HI 8-Inch Spiral Benchtop Jointer with Cast Iron Tables and Carbide Inserts",
    "brand": "Cutech",
@@ -193,47 +235,6 @@
    "image": "https://m.media-amazon.com/images/I/6126z3twGHL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0BTMVCQ4Z?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/benchtop-jointers.html#B0BTMVCQ4Z"
-  },
-  {
-   "rank": 5,
-   "asin": "B0DTM4DYTX",
-   "name": "Cutech 401120HI-IF 12-Inch Spiral Benchtop Jointer with Cast Iron Tables and Fence",
-   "brand": "Cutech",
-   "model": "401120HI-IF",
-   "price": 849.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 56,
-   "score": 82,
-   "award": null,
-   "best_for": "Woodworkers who mill wide boards in a small shop.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A 12-inch benchtop jointer with carbide inserts, cast iron tables and a cast iron fence, wide enough to flatten most furniture boards in one pass.",
-   "pros": [
-    "12 in width",
-    "Carbide, cast iron",
-    "4.7 stars"
-   ],
-   "cons": [
-    "Expensive",
-    "Only 56 reviews"
-   ],
-   "specs": {
-    "width": "12 in",
-    "cutterhead": "Spiral, 24 carbide inserts",
-    "table": "Cast iron",
-    "motor": "12 A",
-    "extras": "24 x 6 in cast iron fence"
-   },
-   "features": {
-    "helical": true,
-    "cast_iron": true,
-    "width_8": true,
-    "carbide": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61CNnXDkY+L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DTM4DYTX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/benchtop-jointers.html#B0DTM4DYTX"
   },
   {
    "rank": 6,

@@ -23,6 +23,7 @@
    "sticks": 0.2
   },
   "reviews_ceiling": 6000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -42,7 +43,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 3686,
-   "score": 89,
+   "score": 90,
    "award": null,
    "best_for": "DeWalt 20V owners who glue different materials and want to set the heat.",
    "bought_last_month": "50+/mo",
@@ -159,6 +160,47 @@
   },
   {
    "rank": 4,
+   "asin": "B0FD3C1JHH",
+   "name": "MONVICT Smart Power-Off Cordless Mini Hot Glue Gun Kit, 2.2Ah Battery, Magnetic Base, 40 Sticks",
+   "brand": "MONVICT",
+   "model": "SD-830",
+   "price": 25.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 2704,
+   "score": 82,
+   "award": null,
+   "best_for": "Crafters who want the most in the box for the least money.",
+   "bought_last_month": "500+/mo",
+   "verdict": "The cheapest complete kit here: a mini gun with a 2.2Ah built-in battery (rated up to 100 minutes), a magnetic base to park it on, 40 sticks, 10 craft sticks and a carry case. It charges over USB-C in about 1.25 hours and turns off after 5 idle minutes.",
+   "pros": [
+    "2,704 reviews at 4.4 stars",
+    "40 sticks, craft sticks, magnetic base and a case included",
+    "Rated up to 100 minutes per charge"
+   ],
+   "cons": [
+    "Mini sticks only",
+    "90-second preheat, slower than the GoGonova and HOTO"
+   ],
+   "specs": {
+    "size": "Mini, 0.28 in",
+    "watts": "25 W",
+    "source": "Built-in 2.2Ah battery, USB-C",
+    "temp": null,
+    "in_box": "Gun, 40 mini sticks, 10 craft sticks, magnetic base, carry case"
+   },
+   "features": {
+    "temp_control": false,
+    "full_size": false,
+    "kit": true,
+    "sticks": true
+   },
+   "image": "https://m.media-amazon.com/images/I/7143Fw98WwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FD3C1JHH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hot-glue-guns.html#B0FD3C1JHH"
+  },
+  {
+   "rank": 5,
    "asin": "B0D7TDPH6Y",
    "name": "MONVICT 100W Cordless Glue Gun for DeWalt 20V Battery, Digital Temperature Control, 10 Full-Size Sticks (Tool Only)",
    "brand": "MONVICT",
@@ -198,47 +240,6 @@
    "image": "https://m.media-amazon.com/images/I/61kp3SOJsOL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D7TDPH6Y?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-hot-glue-guns.html#B0D7TDPH6Y"
-  },
-  {
-   "rank": 5,
-   "asin": "B0FD3C1JHH",
-   "name": "MONVICT Smart Power-Off Cordless Mini Hot Glue Gun Kit, 2.2Ah Battery, Magnetic Base, 40 Sticks",
-   "brand": "MONVICT",
-   "model": "SD-830",
-   "price": 25.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 2704,
-   "score": 80,
-   "award": null,
-   "best_for": "Crafters who want the most in the box for the least money.",
-   "bought_last_month": "500+/mo",
-   "verdict": "The cheapest complete kit here: a mini gun with a 2.2Ah built-in battery (rated up to 100 minutes), a magnetic base to park it on, 40 sticks, 10 craft sticks and a carry case. It charges over USB-C in about 1.25 hours and turns off after 5 idle minutes.",
-   "pros": [
-    "2,704 reviews at 4.4 stars",
-    "40 sticks, craft sticks, magnetic base and a case included",
-    "Rated up to 100 minutes per charge"
-   ],
-   "cons": [
-    "Mini sticks only",
-    "90-second preheat, slower than the GoGonova and HOTO"
-   ],
-   "specs": {
-    "size": "Mini, 0.28 in",
-    "watts": "25 W",
-    "source": "Built-in 2.2Ah battery, USB-C",
-    "temp": null,
-    "in_box": "Gun, 40 mini sticks, 10 craft sticks, magnetic base, carry case"
-   },
-   "features": {
-    "temp_control": false,
-    "full_size": false,
-    "kit": true,
-    "sticks": true
-   },
-   "image": "https://m.media-amazon.com/images/I/7143Fw98WwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FD3C1JHH?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hot-glue-guns.html#B0FD3C1JHH"
   },
   {
    "rank": 6,

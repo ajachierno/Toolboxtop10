@@ -23,6 +23,7 @@
    "bevel": 0.25
   },
   "reviews_ceiling": 2000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -198,6 +199,47 @@
   },
   {
    "rank": 5,
+   "asin": "B0FQ1FK2BP",
+   "name": "VEVOR Oscillating Belt and Spindle Sander, 2400RPM, 5 Sleeves & 24\" x 3.86\" Belt",
+   "brand": "VEVOR",
+   "model": "Belt and spindle",
+   "price": 161.9,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 79,
+   "score": 70,
+   "award": null,
+   "best_for": "A budget combo sander with bevel capability.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A belt-and-spindle combo with a tilting table, five sleeves, a 24-inch belt and onboard storage, for about $42 less than Woodskil's combo.",
+   "pros": [
+    "Belt and spindle",
+    "Tilting table",
+    "About $42 less than Woodskil's combo"
+   ],
+   "cons": [
+    "Single speed",
+    "4.2 stars"
+   ],
+   "specs": {
+    "type": "Belt and spindle combo",
+    "motor": "4 A",
+    "speed": "2,400 rpm, 5/8-in stroke",
+    "sleeves": "5, 1/2 to 2 in",
+    "table": "Tilting"
+   },
+   "features": {
+    "variable": false,
+    "cast_iron": false,
+    "belt": true,
+    "bevel": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71pOO82bxiL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQ1FK2BP?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B0FQ1FK2BP"
+  },
+  {
+   "rank": 6,
    "asin": "B07M79PN4K",
    "name": "WEN AT6535 3.5-Amp Oscillating Spindle Sander with Extra Large Beveling Table",
    "brand": "WEN",
@@ -236,47 +278,6 @@
    "image": "https://m.media-amazon.com/images/I/81-TbYePufL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07M79PN4K?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B07M79PN4K"
-  },
-  {
-   "rank": 6,
-   "asin": "B0FQ1FK2BP",
-   "name": "VEVOR Oscillating Belt and Spindle Sander, 2400RPM, 5 Sleeves & 24\" x 3.86\" Belt",
-   "brand": "VEVOR",
-   "model": "Belt and spindle",
-   "price": 161.9,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 79,
-   "score": 68,
-   "award": null,
-   "best_for": "A budget combo sander with bevel capability.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A belt-and-spindle combo with a tilting table, five sleeves, a 24-inch belt and onboard storage, for about $42 less than Woodskil's combo.",
-   "pros": [
-    "Belt and spindle",
-    "Tilting table",
-    "About $42 less than Woodskil's combo"
-   ],
-   "cons": [
-    "Single speed",
-    "4.2 stars"
-   ],
-   "specs": {
-    "type": "Belt and spindle combo",
-    "motor": "4 A",
-    "speed": "2,400 rpm, 5/8-in stroke",
-    "sleeves": "5, 1/2 to 2 in",
-    "table": "Tilting"
-   },
-   "features": {
-    "variable": false,
-    "cast_iron": false,
-    "belt": true,
-    "bevel": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71pOO82bxiL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FQ1FK2BP?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oscillating-spindle-sanders.html#B0FQ1FK2BP"
   },
   {
    "rank": 7,

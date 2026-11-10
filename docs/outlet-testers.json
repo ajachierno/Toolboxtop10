@@ -24,6 +24,7 @@
    "extra_function": 0.15
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 10,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -156,6 +157,46 @@
   },
   {
    "rank": 4,
+   "asin": "B0FDLG18Y6",
+   "name": "KAIWEETS GFCI Outlet Tester with LCD Display and Voltage Test (KT301T)",
+   "brand": "KAIWEETS",
+   "model": "KT301T",
+   "price": 17.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 505,
+   "score": 80,
+   "award": null,
+   "best_for": "Homeowners who want a color LCD and auto hold.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A color-LCD tester that shows voltage and seven wiring faults and holds the reading so you can check outlets behind furniture.",
+   "pros": [
+    "Color LCD with voltage",
+    "Auto hold",
+    "CAT II 300V"
+   ],
+   "cons": [
+    "Only 505 reviews"
+   ],
+   "specs": {
+    "display": "Color LCD plus indicators",
+    "tests": "Voltage, 7 wiring faults, GFCI",
+    "rating": "CAT II 300V",
+    "extras": "Auto hold for outlets behind furniture"
+   },
+   "features": {
+    "gfci_test": true,
+    "lcd_voltage": true,
+    "open_fault_detect": false,
+    "certified": true,
+    "extra_function": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71ahZbLOt3L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FDLG18Y6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/outlet-testers.html#B0FDLG18Y6"
+  },
+  {
+   "rank": 5,
    "asin": "B0152U89DC",
    "name": "Sperry Instruments VD7504GFI DualCheck 2-in-1 Non-Contact Voltage Detector and GFCI Outlet Tester",
    "brand": "Sperry",
@@ -194,7 +235,7 @@
    "page_url": "https://toolboxtop10.com/outlet-testers.html#B0152U89DC"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0B3VCZ4XK",
    "name": "Fluke ST120+ GFCI Socket Tester with Audible Beeper",
    "brand": "Fluke",
@@ -234,7 +275,7 @@
    "page_url": "https://toolboxtop10.com/outlet-testers.html#B0B3VCZ4XK"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B00170KUPC",
    "name": "Gardner Bender GFI-3501 GFCI Outlet Tester and Circuit Analyzer",
    "brand": "Gardner Bender",
@@ -272,46 +313,6 @@
    "image": "https://m.media-amazon.com/images/I/811MU-KljeL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B00170KUPC?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/outlet-testers.html#B00170KUPC"
-  },
-  {
-   "rank": 7,
-   "asin": "B0FDLG18Y6",
-   "name": "KAIWEETS GFCI Outlet Tester with LCD Display and Voltage Test (KT301T)",
-   "brand": "KAIWEETS",
-   "model": "KT301T",
-   "price": 17.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 505,
-   "score": 78,
-   "award": null,
-   "best_for": "Homeowners who want a color LCD and auto hold.",
-   "bought_last_month": "900+/mo",
-   "verdict": "A color-LCD tester that shows voltage and seven wiring faults and holds the reading so you can check outlets behind furniture.",
-   "pros": [
-    "Color LCD with voltage",
-    "Auto hold",
-    "CAT II 300V"
-   ],
-   "cons": [
-    "Only 505 reviews"
-   ],
-   "specs": {
-    "display": "Color LCD plus indicators",
-    "tests": "Voltage, 7 wiring faults, GFCI",
-    "rating": "CAT II 300V",
-    "extras": "Auto hold for outlets behind furniture"
-   },
-   "features": {
-    "gfci_test": true,
-    "lcd_voltage": true,
-    "open_fault_detect": false,
-    "certified": true,
-    "extra_function": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71ahZbLOt3L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FDLG18Y6?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/outlet-testers.html#B0FDLG18Y6"
   },
   {
    "rank": 8,

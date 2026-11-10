@@ -24,6 +24,7 @@
    "extra_belts": 0.15
   },
   "reviews_ceiling": 5000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -119,6 +120,48 @@
   },
   {
    "rank": 3,
+   "asin": "B0H9DJPGDS",
+   "name": "VEVOR 7A Belt Sander 3\" x 21\", 6 Speeds 630-1200 FPM, 2-in-1 Handheld & Benchtop (9926)",
+   "brand": "VEVOR",
+   "model": "9926",
+   "price": 56.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 205,
+   "score": 82,
+   "award": null,
+   "best_for": "Getting every grit and a bench-sander setup in one box.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A complete kit: 10 belts from 40 to 180 grit, two dust bags, a vacuum adapter and two clamps that turn it into a bench sander.",
+   "pros": [
+    "10 belts in 5 grits included",
+    "Clamps to a bench upside down",
+    "4.6 stars"
+   ],
+   "cons": [
+    "No warranty term listed",
+    "8.8 lbs"
+   ],
+   "specs": {
+    "belt": "3 x 21 in",
+    "motor": "7 A",
+    "speed": "630-1,200 ft/min, 6 speeds",
+    "weight": "8.8 lb",
+    "in_box": "10 belts (40-180 grit), 2 dust bags, vacuum adapter, 2 clamps"
+   },
+   "features": {
+    "variable_speed": true,
+    "auto_tracking": false,
+    "vac_port": true,
+    "bench_mount": true,
+    "extra_belts": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71frqNyXDOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H9DJPGDS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B0H9DJPGDS"
+  },
+  {
+   "rank": 4,
    "asin": "B000056NOC",
    "name": "Makita 9903 3\" x 21\" Belt Sander",
    "brand": "Makita",
@@ -160,7 +203,7 @@
    "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B000056NOC"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B000056NOA",
    "name": "Makita 9404 4\" x 24\" Belt Sander, with Variable Speed",
    "brand": "Makita",
@@ -200,48 +243,6 @@
    "image": "https://m.media-amazon.com/images/I/51Hsr+8xHuL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B000056NOA?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B000056NOA"
-  },
-  {
-   "rank": 5,
-   "asin": "B0H9DJPGDS",
-   "name": "VEVOR 7A Belt Sander 3\" x 21\", 6 Speeds 630-1200 FPM, 2-in-1 Handheld & Benchtop (9926)",
-   "brand": "VEVOR",
-   "model": "9926",
-   "price": 56.9,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 205,
-   "score": 79,
-   "award": null,
-   "best_for": "Getting every grit and a bench-sander setup in one box.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A complete kit: 10 belts from 40 to 180 grit, two dust bags, a vacuum adapter and two clamps that turn it into a bench sander.",
-   "pros": [
-    "10 belts in 5 grits included",
-    "Clamps to a bench upside down",
-    "4.6 stars"
-   ],
-   "cons": [
-    "No warranty term listed",
-    "8.8 lbs"
-   ],
-   "specs": {
-    "belt": "3 x 21 in",
-    "motor": "7 A",
-    "speed": "630-1,200 ft/min, 6 speeds",
-    "weight": "8.8 lb",
-    "in_box": "10 belts (40-180 grit), 2 dust bags, vacuum adapter, 2 clamps"
-   },
-   "features": {
-    "variable_speed": true,
-    "auto_tracking": false,
-    "vac_port": true,
-    "bench_mount": true,
-    "extra_belts": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71frqNyXDOL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H9DJPGDS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B0H9DJPGDS"
   },
   {
    "rank": 6,

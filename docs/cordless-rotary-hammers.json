@@ -22,6 +22,7 @@
    "kit": 0.3
   },
   "reviews_ceiling": 3500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 90,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -118,6 +119,49 @@
   },
   {
    "rank": 3,
+   "asin": "B0GTJ85MYG",
+   "name": "Seesii 1 inch Cordless SDS Plus Rotary Hammer Drill, 2.5J Brushless, 4-Mode, with 2x4.0Ah Batteries and Drill Bits",
+   "brand": "Seesii",
+   "model": "EH09P-US",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 182,
+   "score": 79,
+   "award": null,
+   "best_for": "Homeowners without a platform who want a complete kit.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A complete kit for about $120: 2.5 J brushless hammer, two 4.0Ah batteries, charger, three bits, two chisels, and a case. A good pick for a homeowner who doesn't already own a battery platform.",
+   "pros": [
+    "Ready to use: two batteries, charger, bits, chisels, and case",
+    "Safety clutch",
+    "2.5 J, close to the DCH133B's 2.6 J",
+    "Listing says it also takes Makita 18V batteries",
+    "2-year warranty"
+   ],
+   "cons": [
+    "No vibration control listed",
+    "Off-brand battery platform with few other tools"
+   ],
+   "specs": {
+    "platform": "Seesii 18V (takes Makita 18V packs)",
+    "impact": "2.5 J",
+    "capacity": "1\"",
+    "modes": 4,
+    "weight": null,
+    "warranty": "2 years"
+   },
+   "features": {
+    "vibration_control": false,
+    "safety_clutch": true,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71MuIVmDbOL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GTJ85MYG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0GTJ85MYG"
+  },
+  {
+   "rank": 4,
    "asin": "B0CKM1DZJJ",
    "name": "Bosch GBH18V-22N 18V Brushless SDS-plus Bulldog 3/4 In. Rotary Hammer (Bare Tool)",
    "brand": "Bosch",
@@ -160,7 +204,7 @@
    "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0CKM1DZJJ"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B01MF4YEIF",
    "name": "DEWALT 20V MAX SDS Plus 1 Inch Cordless Rotary Hammer with D-Handle, Bare Tool Only (DCH133B)",
    "brand": "DEWALT",
@@ -203,7 +247,7 @@
    "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B01MF4YEIF"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B09PMSKXRV",
    "name": "Milwaukee 2912-20 M18 FUEL 18V 1\" SDS Plus Brushless Rotary Hammer",
    "brand": "Milwaukee",
@@ -243,49 +287,6 @@
    "image": "https://m.media-amazon.com/images/I/61ukA6SXpAL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09PMSKXRV?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B09PMSKXRV"
-  },
-  {
-   "rank": 6,
-   "asin": "B0GTJ85MYG",
-   "name": "Seesii 1 inch Cordless SDS Plus Rotary Hammer Drill, 2.5J Brushless, 4-Mode, with 2x4.0Ah Batteries and Drill Bits",
-   "brand": "Seesii",
-   "model": "EH09P-US",
-   "price": 129.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 182,
-   "score": 76,
-   "award": null,
-   "best_for": "Homeowners without a platform who want a complete kit.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A complete kit for about $120: 2.5 J brushless hammer, two 4.0Ah batteries, charger, three bits, two chisels, and a case. A good pick for a homeowner who doesn't already own a battery platform.",
-   "pros": [
-    "Ready to use: two batteries, charger, bits, chisels, and case",
-    "Safety clutch",
-    "2.5 J, close to the DCH133B's 2.6 J",
-    "Listing says it also takes Makita 18V batteries",
-    "2-year warranty"
-   ],
-   "cons": [
-    "No vibration control listed",
-    "Off-brand battery platform with few other tools"
-   ],
-   "specs": {
-    "platform": "Seesii 18V (takes Makita 18V packs)",
-    "impact": "2.5 J",
-    "capacity": "1\"",
-    "modes": 4,
-    "weight": null,
-    "warranty": "2 years"
-   },
-   "features": {
-    "vibration_control": false,
-    "safety_clutch": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71MuIVmDbOL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GTJ85MYG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0GTJ85MYG"
   },
   {
    "rank": 7,
@@ -332,6 +333,49 @@
   },
   {
    "rank": 8,
+   "asin": "B0F1SGJQJ7",
+   "name": "ACROPOW SDS-Plus Cordless Rotary Hammer Drill for DEWALT 20V Battery, Brushless, Safety Clutch, 4 Functions (No Battery)",
+   "brand": "ACROPOW",
+   "model": "AC-RH01",
+   "price": 76.95,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 147,
+   "score": 75,
+   "award": null,
+   "best_for": "DEWALT battery owners who drill concrete a few times a year.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A bare tool that runs on DEWALT 20V MAX batteries, for DEWALT owners who drill concrete a few times a year and don't want to pay $166 for the yellow one.",
+   "pros": [
+    "Runs on DEWALT 20V MAX batteries",
+    "Safety clutch and vibration buffer",
+    "Five SDS-Plus bits and a carry bag included",
+    "Cheapest bare tool on the list"
+   ],
+   "cons": [
+    "No battery or charger",
+    "A third-party tool on DEWALT batteries isn't covered by DEWALT",
+    "Listing gives no concrete capacity"
+   ],
+   "specs": {
+    "platform": "DEWALT 20V MAX batteries",
+    "impact": "3 J (max)",
+    "capacity": null,
+    "modes": 4,
+    "weight": null,
+    "warranty": null
+   },
+   "features": {
+    "vibration_control": true,
+    "safety_clutch": true,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61NBQBIcKkL._AC_SL1185_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F1SGJQJ7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0F1SGJQJ7"
+  },
+  {
+   "rank": 9,
    "asin": "B074BLH4Q9",
    "name": "Makita XRH06ZB 18V LXT Sub-Compact Brushless Cordless 11/16\" Rotary Hammer, Accepts SDS-Plus Bits, Tool Only",
    "brand": "Makita",
@@ -371,49 +415,6 @@
    "image": "https://m.media-amazon.com/images/I/61TzazYJFlL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B074BLH4Q9?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B074BLH4Q9"
-  },
-  {
-   "rank": 9,
-   "asin": "B0F1SGJQJ7",
-   "name": "ACROPOW SDS-Plus Cordless Rotary Hammer Drill for DEWALT 20V Battery, Brushless, Safety Clutch, 4 Functions (No Battery)",
-   "brand": "ACROPOW",
-   "model": "AC-RH01",
-   "price": 76.95,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 147,
-   "score": 74,
-   "award": null,
-   "best_for": "DEWALT battery owners who drill concrete a few times a year.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A bare tool that runs on DEWALT 20V MAX batteries, for DEWALT owners who drill concrete a few times a year and don't want to pay $166 for the yellow one.",
-   "pros": [
-    "Runs on DEWALT 20V MAX batteries",
-    "Safety clutch and vibration buffer",
-    "Five SDS-Plus bits and a carry bag included",
-    "Cheapest bare tool on the list"
-   ],
-   "cons": [
-    "No battery or charger",
-    "A third-party tool on DEWALT batteries isn't covered by DEWALT",
-    "Listing gives no concrete capacity"
-   ],
-   "specs": {
-    "platform": "DEWALT 20V MAX batteries",
-    "impact": "3 J (max)",
-    "capacity": null,
-    "modes": 4,
-    "weight": null,
-    "warranty": null
-   },
-   "features": {
-    "vibration_control": true,
-    "safety_clutch": true,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61NBQBIcKkL._AC_SL1185_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F1SGJQJ7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-rotary-hammers.html#B0F1SGJQJ7"
   },
   {
    "rank": 10,

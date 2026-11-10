@@ -23,6 +23,7 @@
    "plug_screen": 0.2
   },
   "reviews_ceiling": 4500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 15,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -344,6 +345,45 @@
   },
   {
    "rank": 9,
+   "asin": "B0GJTCYC2M",
+   "name": "PAK Premium 16 Quart Oil Drain Pan, Made in USA (9100-0301)",
+   "brand": "PAK",
+   "model": "9100-0301",
+   "price": 31.5,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 52,
+   "score": 73,
+   "award": null,
+   "best_for": "Trucks and multiple changes between recycling trips.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 16-quart American-made container with two drain holes for faster flow and a tethered cap for transport.",
+   "pros": [
+    "16 qt",
+    "Made in USA",
+    "Tethered cap"
+   ],
+   "cons": [
+    "Only 52 reviews"
+   ],
+   "specs": {
+    "capacity": "16 qt",
+    "type": "Closed container",
+    "size": null,
+    "extras": "Two drain holes, tethered cap, angled neck"
+   },
+   "features": {
+    "sealed": true,
+    "capacity_12": true,
+    "low_profile": false,
+    "plug_screen": false
+   },
+   "image": "https://m.media-amazon.com/images/I/6168Xn7li2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GJTCYC2M?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0GJTCYC2M"
+  },
+  {
+   "rank": 10,
    "asin": "B0D7N4P3T1",
    "name": "Performance Tool W4078 24-Quart Oil Drain Container",
    "brand": "Performance Tool",
@@ -380,45 +420,6 @@
    "image": "https://m.media-amazon.com/images/I/61Ce4dvDXTL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D7N4P3T1?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0D7N4P3T1"
-  },
-  {
-   "rank": 10,
-   "asin": "B0GJTCYC2M",
-   "name": "PAK Premium 16 Quart Oil Drain Pan, Made in USA (9100-0301)",
-   "brand": "PAK",
-   "model": "9100-0301",
-   "price": 31.5,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 52,
-   "score": 70,
-   "award": null,
-   "best_for": "Trucks and multiple changes between recycling trips.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 16-quart American-made container with two drain holes for faster flow and a tethered cap for transport.",
-   "pros": [
-    "16 qt",
-    "Made in USA",
-    "Tethered cap"
-   ],
-   "cons": [
-    "Only 52 reviews"
-   ],
-   "specs": {
-    "capacity": "16 qt",
-    "type": "Closed container",
-    "size": null,
-    "extras": "Two drain holes, tethered cap, angled neck"
-   },
-   "features": {
-    "sealed": true,
-    "capacity_12": true,
-    "low_profile": false,
-    "plug_screen": false
-   },
-   "image": "https://m.media-amazon.com/images/I/6168Xn7li2L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GJTCYC2M?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/oil-drain-pans.html#B0GJTCYC2M"
   }
  ],
  "avoid": [

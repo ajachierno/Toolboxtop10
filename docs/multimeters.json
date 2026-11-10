@@ -23,6 +23,7 @@
    "ncv": 0.2
   },
   "reviews_ceiling": 30000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 15,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -198,6 +199,49 @@
   },
   {
    "rank": 5,
+   "asin": "B0GRZ9ZJV8",
+   "name": "ZMIWNIED FS899L Digital Multimeter, 6000 Counts True RMS, Auto-Ranging, NCV, Color Screen, USB-C Rechargeable, 20-Piece Test Lead Kit",
+   "brand": "ZMIWNIED",
+   "model": "FS899L",
+   "price": 37.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 144,
+   "score": 80,
+   "award": null,
+   "best_for": "DIYers who want True RMS, NCV and auto-ranging in one meter under $40.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 6000-count True RMS auto-ranging meter with non-contact voltage detection, a 4.8 in backlit color screen and a USB-C rechargeable battery, sold with a 20-piece lead and clip kit. It lists CAT III 1000V / CAT IV 600V ratings.",
+   "pros": [
+    "True RMS, auto-ranging and NCV",
+    "USB-C rechargeable, no 9V battery to buy",
+    "20-piece test lead and clip set",
+    "1K+ bought last month"
+   ],
+   "cons": [
+    "Listing says 1000V CAT III while voltage tops out at 600V",
+    "144 reviews so far",
+    "No published warranty on the listing"
+   ],
+   "specs": {
+    "safety": "CAT III 1000V / CAT IV 600V",
+    "voltage": "600 V AC/DC",
+    "current": "10 A AC/DC",
+    "ranging": "Auto",
+    "extras": "NCV, capacitance, frequency, 4.8 in color screen, flashlight, USB-C battery"
+   },
+   "features": {
+    "cat_rated": true,
+    "trms": true,
+    "auto_range": true,
+    "ncv": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71YP45h-ACL._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GRZ9ZJV8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/multimeters.html#B0GRZ9ZJV8"
+  },
+  {
+   "rank": 6,
    "asin": "B0B57L9FNL",
    "name": "Klein Tools MM325 Digital Manual-Ranging Multimeter",
    "brand": "Klein Tools",
@@ -236,49 +280,6 @@
    "image": "https://m.media-amazon.com/images/I/51EPzXFvIAL._SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0B57L9FNL?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/multimeters.html#B0B57L9FNL"
-  },
-  {
-   "rank": 6,
-   "asin": "B0GRZ9ZJV8",
-   "name": "ZMIWNIED FS899L Digital Multimeter, 6000 Counts True RMS, Auto-Ranging, NCV, Color Screen, USB-C Rechargeable, 20-Piece Test Lead Kit",
-   "brand": "ZMIWNIED",
-   "model": "FS899L",
-   "price": 37.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 144,
-   "score": 77,
-   "award": null,
-   "best_for": "DIYers who want True RMS, NCV and auto-ranging in one meter under $40.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 6000-count True RMS auto-ranging meter with non-contact voltage detection, a 4.8 in backlit color screen and a USB-C rechargeable battery, sold with a 20-piece lead and clip kit. It lists CAT III 1000V / CAT IV 600V ratings.",
-   "pros": [
-    "True RMS, auto-ranging and NCV",
-    "USB-C rechargeable, no 9V battery to buy",
-    "20-piece test lead and clip set",
-    "1K+ bought last month"
-   ],
-   "cons": [
-    "Listing says 1000V CAT III while voltage tops out at 600V",
-    "144 reviews so far",
-    "No published warranty on the listing"
-   ],
-   "specs": {
-    "safety": "CAT III 1000V / CAT IV 600V",
-    "voltage": "600 V AC/DC",
-    "current": "10 A AC/DC",
-    "ranging": "Auto",
-    "extras": "NCV, capacitance, frequency, 4.8 in color screen, flashlight, USB-C battery"
-   },
-   "features": {
-    "cat_rated": true,
-    "trms": true,
-    "auto_range": true,
-    "ncv": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71YP45h-ACL._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GRZ9ZJV8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/multimeters.html#B0GRZ9ZJV8"
   },
   {
    "rank": 7,

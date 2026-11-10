@@ -23,12 +23,13 @@
    "weather_rated": 0.2
   },
   "reviews_ceiling": 9000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 35,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
   "best_overall": "B0989YML7R",
-  "best_budget": "B0BCHBRPZR",
+  "best_budget": "B0GHF5LL2R",
   "money_no_object": "B0DR3914W7"
  },
  "products": [
@@ -121,7 +122,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 85,
-   "score": 74,
+   "score": 76,
    "award": null,
    "best_for": "M18 owners who want a cheaper fan than Milwaukee's.",
    "bought_last_month": "200+/mo",
@@ -153,6 +154,45 @@
   },
   {
    "rank": 4,
+   "asin": "B0GHF5LL2R",
+   "name": "Ecarke 8\" Cordless Jobsite Fan for Makita 18V, 2-Speed, Tool Only",
+   "brand": "Ecarke",
+   "model": "SKU067800008-US-FBA-5",
+   "price": 34.19,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 617,
+   "score": 72,
+   "award": "Best Budget",
+   "best_for": "Makita owners.",
+   "bought_last_month": "50+/mo",
+   "verdict": "An 8-inch fan for Makita 18V owners that also charges your phone through USB and USB-C ports.",
+   "pros": [
+    "USB charging ports",
+    "Cheap"
+   ],
+   "cons": [
+    "4.4 stars",
+    "Third-party"
+   ],
+   "specs": {
+    "size": "8 in fan",
+    "airflow": null,
+    "power": "Makita 18V",
+    "extras": "USB and USB-C charging ports, 50 W brushless"
+   },
+   "features": {
+    "cfm_600": false,
+    "variable_speed": true,
+    "ac_power": false,
+    "weather_rated": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71Ug6gXOaJL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GHF5LL2R?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0GHF5LL2R"
+  },
+  {
+   "rank": 5,
    "asin": "B0BCHBRPZR",
    "name": "CRAFTSMAN V20 Cordless Personal Fan, Compact and Collapsible, Tool Only (CMCE010B)",
    "brand": "CRAFTSMAN",
@@ -162,7 +202,7 @@
    "rating": 4.7,
    "reviews_count": 615,
    "score": 72,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "Personal cooling at a workbench or in a vehicle.",
    "bought_last_month": "100+/mo",
    "verdict": "A small collapsible personal fan with variable speed up to 200 CFM, for about $25.",
@@ -191,7 +231,7 @@
    "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0BCHBRPZR"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B0B28Y87J4",
    "name": "ohyes 5\" Jobsite Fan for DEWALT 20V Max Battery (DW-08)",
    "brand": "ohyes",
@@ -231,7 +271,7 @@
    "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0B28Y87J4"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B09QQLTMHM",
    "name": "RYOBI 18V ONE+ Cordless Clamp Fan, Tool Only (RCF18-0)",
    "brand": "RYOBI",
@@ -271,46 +311,46 @@
    "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B09QQLTMHM"
   },
   {
-   "rank": 7,
-   "asin": "B0GHF5LL2R",
-   "name": "Ecarke 8\" Cordless Jobsite Fan for Makita 18V, 2-Speed, Tool Only",
-   "brand": "Ecarke",
-   "model": "SKU067800008-US-FBA-5",
-   "price": 34.19,
+   "rank": 8,
+   "asin": "B0G7L4XM1J",
+   "name": "RIDGID 18V Cordless Hybrid Jobsite Fan, Tool Only (R860721B)",
+   "brand": "RIDGID",
+   "model": "R860721B",
+   "price": 77.0,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 617,
-   "score": 69,
+   "rating": 4.5,
+   "reviews_count": 39,
+   "score": 68,
    "award": null,
-   "best_for": "Makita owners.",
+   "best_for": "RIDGID owners who want a fan that also plugs in.",
    "bought_last_month": "50+/mo",
-   "verdict": "An 8-inch fan for Makita 18V owners that also charges your phone through USB and USB-C ports.",
+   "verdict": "A hybrid fan that runs on RIDGID 18V batteries or AC, moving 670 CFM at under 50 dBA.",
    "pros": [
-    "USB charging ports",
-    "Cheap"
+    "Battery or AC",
+    "670 CFM",
+    "Quiet"
    ],
    "cons": [
-    "4.4 stars",
-    "Third-party"
+    "Only 39 reviews"
    ],
    "specs": {
-    "size": "8 in fan",
-    "airflow": null,
-    "power": "Makita 18V",
-    "extras": "USB and USB-C charging ports, 50 W brushless"
+    "size": "Jobsite fan",
+    "airflow": "670 CFM, 1,070 FPM",
+    "power": "RIDGID 18V or AC (hybrid)",
+    "extras": "Under 50 dBA, 40% more power than R860720"
    },
    "features": {
-    "cfm_600": false,
-    "variable_speed": true,
-    "ac_power": false,
+    "cfm_600": true,
+    "variable_speed": false,
+    "ac_power": true,
     "weather_rated": false
    },
-   "image": "https://m.media-amazon.com/images/I/71Ug6gXOaJL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GHF5LL2R?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0GHF5LL2R"
+   "image": "https://m.media-amazon.com/images/I/51ai1TlU5EL._AC_SX569_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G7L4XM1J?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0G7L4XM1J"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "asin": "B0CT17X4BF",
    "name": "FLEX 24V Brushless Cordless Jobsite Fan, 1,100 CFM, Tool Only (FX5471-Z)",
    "brand": "FLEX",
@@ -348,45 +388,6 @@
    "image": "https://m.media-amazon.com/images/I/61X+j+Vd81L._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CT17X4BF?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0CT17X4BF"
-  },
-  {
-   "rank": 9,
-   "asin": "B0G7L4XM1J",
-   "name": "RIDGID 18V Cordless Hybrid Jobsite Fan, Tool Only (R860721B)",
-   "brand": "RIDGID",
-   "model": "R860721B",
-   "price": 77.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 39,
-   "score": 66,
-   "award": null,
-   "best_for": "RIDGID owners who want a fan that also plugs in.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A hybrid fan that runs on RIDGID 18V batteries or AC, moving 670 CFM at under 50 dBA.",
-   "pros": [
-    "Battery or AC",
-    "670 CFM",
-    "Quiet"
-   ],
-   "cons": [
-    "Only 39 reviews"
-   ],
-   "specs": {
-    "size": "Jobsite fan",
-    "airflow": "670 CFM, 1,070 FPM",
-    "power": "RIDGID 18V or AC (hybrid)",
-    "extras": "Under 50 dBA, 40% more power than R860720"
-   },
-   "features": {
-    "cfm_600": true,
-    "variable_speed": false,
-    "ac_power": true,
-    "weather_rated": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51ai1TlU5EL._AC_SX569_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G7L4XM1J?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-jobsite-fans.html#B0G7L4XM1J"
   },
   {
    "rank": 10,

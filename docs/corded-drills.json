@@ -23,6 +23,7 @@
    "hammer": 0.2
   },
   "reviews_ceiling": 60000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 50,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -372,6 +373,48 @@
   },
   {
    "rank": 9,
+   "asin": "B0GSZNKPFW",
+   "name": "DEKOPRO 6-Amp 1/2-Inch Corded Hammer Drill, Variable Speed, Keyed Metal Chuck, 360° Side Handle, 12 Bits (DKPDIDE071C1)",
+   "brand": "DEKOPRO",
+   "model": "DKPDIDE071C1",
+   "price": 27.99,
+   "currency": "USD",
+   "rating": 3.8,
+   "reviews_count": 86,
+   "score": 61,
+   "award": null,
+   "best_for": "Occasional holes in brick or concrete on a small budget.",
+   "bought_last_month": "400+/mo",
+   "verdict": "The cheapest hammer drill here: a 6-amp drill with a 1/2-inch keyed metal chuck, a drill/hammer selector, a 360° side handle, a depth gauge and 12 bits for wood, metal and concrete, for about $28.",
+   "pros": [
+    "Hammer mode for masonry",
+    "1/2-in keyed metal chuck",
+    "Side handle, depth gauge and 12 bits"
+   ],
+   "cons": [
+    "3.8 stars, lowest of the 10",
+    "Reverse not listed"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "6 amp",
+    "chuck": "1/2 in keyed",
+    "max_rpm": "0-3,000 rpm",
+    "function": "Drill/hammer drill",
+    "grip": "Pistol grip + 360° side handle"
+   },
+   "features": {
+    "kit": true,
+    "vsr": false,
+    "keyless": false,
+    "hammer": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71ID4DxQBnL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GSZNKPFW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-drills.html#B0GSZNKPFW"
+  },
+  {
+   "rank": 10,
    "asin": "B0DL7C6WXC",
    "name": "Makita DP4020 1/2\" Corded Drill, 5.5 Amp, Variable Speed 0-3,000 RPM, Reversible, All-Ball-Bearing",
    "brand": "Makita",
@@ -412,48 +455,6 @@
    "image": "https://m.media-amazon.com/images/I/613uZ8TOeEL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0DL7C6WXC?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-drills.html#B0DL7C6WXC"
-  },
-  {
-   "rank": 10,
-   "asin": "B0GSZNKPFW",
-   "name": "DEKOPRO 6-Amp 1/2-Inch Corded Hammer Drill, Variable Speed, Keyed Metal Chuck, 360° Side Handle, 12 Bits (DKPDIDE071C1)",
-   "brand": "DEKOPRO",
-   "model": "DKPDIDE071C1",
-   "price": 27.99,
-   "currency": "USD",
-   "rating": 3.8,
-   "reviews_count": 86,
-   "score": 59,
-   "award": null,
-   "best_for": "Occasional holes in brick or concrete on a small budget.",
-   "bought_last_month": "400+/mo",
-   "verdict": "The cheapest hammer drill here: a 6-amp drill with a 1/2-inch keyed metal chuck, a drill/hammer selector, a 360° side handle, a depth gauge and 12 bits for wood, metal and concrete, for about $28.",
-   "pros": [
-    "Hammer mode for masonry",
-    "1/2-in keyed metal chuck",
-    "Side handle, depth gauge and 12 bits"
-   ],
-   "cons": [
-    "3.8 stars, lowest of the 10",
-    "Reverse not listed"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "6 amp",
-    "chuck": "1/2 in keyed",
-    "max_rpm": "0-3,000 rpm",
-    "function": "Drill/hammer drill",
-    "grip": "Pistol grip + 360° side handle"
-   },
-   "features": {
-    "kit": true,
-    "vsr": false,
-    "keyless": false,
-    "hammer": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71ID4DxQBnL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GSZNKPFW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-drills.html#B0GSZNKPFW"
   }
  ],
  "avoid": [

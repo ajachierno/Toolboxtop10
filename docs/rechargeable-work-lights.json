@@ -23,6 +23,7 @@
    "platform": 0.25
   },
   "reviews_ceiling": 20000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 10,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -239,6 +240,47 @@
   },
   {
    "rank": 6,
+   "asin": "B0FR8D6RBZ",
+   "name": "Ruboliy 6-Pack Magnetic Rechargeable LED Work Light/Flashlight for Mechanics (WL02)",
+   "brand": "Ruboliy",
+   "model": "WL02",
+   "price": 35.95,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 428,
+   "score": 71,
+   "award": null,
+   "best_for": "Shops and fleets that lose lights.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Six magnetic COB lights for about $6 each, so every toolbox, car and drawer gets one.",
+   "pros": [
+    "6 lights for $35.95",
+    "4.6 stars",
+    "Magnet and hook"
+   ],
+   "cons": [
+    "Brightness not listed",
+    "Charging port not specified"
+   ],
+   "specs": {
+    "lumens": null,
+    "battery": "Rechargeable",
+    "mount": "Magnetic, hook",
+    "style": "COB pocket light (6)",
+    "extras": "5 modes, 360° adjustable"
+   },
+   "features": {
+    "magnetic": true,
+    "usb_c": false,
+    "ip_rated": false,
+    "platform": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71t9wSHiZvL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FR8D6RBZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0FR8D6RBZ"
+  },
+  {
+   "rank": 7,
    "asin": "B086QSKL4J",
    "name": "TRESDA 7000LM Rechargeable LED Work Light, 100W Portable Flood Light",
    "brand": "TRESDA",
@@ -277,47 +319,6 @@
    "image": "https://m.media-amazon.com/images/I/71FrDMmhBGL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B086QSKL4J?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B086QSKL4J"
-  },
-  {
-   "rank": 7,
-   "asin": "B0FR8D6RBZ",
-   "name": "Ruboliy 6-Pack Magnetic Rechargeable LED Work Light/Flashlight for Mechanics (WL02)",
-   "brand": "Ruboliy",
-   "model": "WL02",
-   "price": 35.95,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 428,
-   "score": 69,
-   "award": null,
-   "best_for": "Shops and fleets that lose lights.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "Six magnetic COB lights for about $6 each, so every toolbox, car and drawer gets one.",
-   "pros": [
-    "6 lights for $35.95",
-    "4.6 stars",
-    "Magnet and hook"
-   ],
-   "cons": [
-    "Brightness not listed",
-    "Charging port not specified"
-   ],
-   "specs": {
-    "lumens": null,
-    "battery": "Rechargeable",
-    "mount": "Magnetic, hook",
-    "style": "COB pocket light (6)",
-    "extras": "5 modes, 360° adjustable"
-   },
-   "features": {
-    "magnetic": true,
-    "usb_c": false,
-    "ip_rated": false,
-    "platform": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71t9wSHiZvL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FR8D6RBZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rechargeable-work-lights.html#B0FR8D6RBZ"
   },
   {
    "rank": 8,

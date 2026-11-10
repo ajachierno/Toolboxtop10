@@ -23,6 +23,7 @@
    "turbo": 0.2
   },
   "reviews_ceiling": 15000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -196,6 +197,88 @@
   },
   {
    "rank": 5,
+   "asin": "B0HJYXCVDZ",
+   "name": "MZK 20V Cordless Leaf Blower, Lightweight (ET1613)",
+   "brand": "MZK",
+   "model": "ET1613",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 5859,
+   "score": 84,
+   "award": "Best Budget",
+   "best_for": "Budget buyers who don't own a battery platform.",
+   "bought_last_month": null,
+   "verdict": "A budget 20V blower that claims 600 CFM and 200 mph with a battery in the box, for about $50.",
+   "pros": [
+    "Very low price",
+    "Battery included",
+    "5,859 reviews"
+   ],
+   "cons": [
+    "CFM claim not independently verified",
+    "4.3 stars"
+   ],
+   "specs": {
+    "cfm": "Up to 600 (claimed)",
+    "mph": "Up to 200 (claimed)",
+    "battery": "20V, included",
+    "runtime": "Up to 90 min (claimed)",
+    "extras": null
+   },
+   "features": {
+    "high_cfm": true,
+    "battery_included": true,
+    "variable_speed": false,
+    "turbo": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71vGLtmrcwL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HJYXCVDZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B0HJYXCVDZ"
+  },
+  {
+   "rank": 6,
+   "asin": "B0FLX45THX",
+   "name": "YOOVL Cordless Leaf Blower, 650 CFM, 2 x 5.2Ah Batteries, 3 Speeds (LB-8184)",
+   "brand": "YOOVL",
+   "model": "LB-8184",
+   "price": 89.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1480,
+   "score": 83,
+   "award": null,
+   "best_for": "Budget buyers who want long runtime from two big packs.",
+   "bought_last_month": "7K+/mo",
+   "verdict": "A budget kit with two 5.2Ah batteries, three speeds and a shoulder strap, and one of the best sellers here.",
+   "pros": [
+    "Two 5.2Ah batteries",
+    "4,000+ sold last month",
+    "Shoulder strap"
+   ],
+   "cons": [
+    "CFM claim not independently verified",
+    "4.3 stars"
+   ],
+   "specs": {
+    "cfm": "650 (claimed)",
+    "mph": null,
+    "battery": "Two 20V 5.2Ah, included",
+    "runtime": null,
+    "extras": "3 speeds, shoulder strap"
+   },
+   "features": {
+    "high_cfm": true,
+    "battery_included": true,
+    "variable_speed": true,
+    "turbo": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71m1Do9cgcL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FLX45THX?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B0FLX45THX"
+  },
+  {
+   "rank": 7,
    "asin": "B00AW72V4O",
    "name": "Greenworks 40V Cordless Leaf Blower, 135 CFM, 2.0Ah Battery and Charger",
    "brand": "Greenworks",
@@ -234,88 +317,6 @@
    "image": "https://m.media-amazon.com/images/I/71IB-6Jk4tL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B00AW72V4O?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B00AW72V4O"
-  },
-  {
-   "rank": 6,
-   "asin": "B0HJYXCVDZ",
-   "name": "MZK 20V Cordless Leaf Blower, Lightweight (ET1613)",
-   "brand": "MZK",
-   "model": "ET1613",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 5859,
-   "score": 81,
-   "award": "Best Budget",
-   "best_for": "Budget buyers who don't own a battery platform.",
-   "bought_last_month": null,
-   "verdict": "A budget 20V blower that claims 600 CFM and 200 mph with a battery in the box, for about $50.",
-   "pros": [
-    "Very low price",
-    "Battery included",
-    "5,859 reviews"
-   ],
-   "cons": [
-    "CFM claim not independently verified",
-    "4.3 stars"
-   ],
-   "specs": {
-    "cfm": "Up to 600 (claimed)",
-    "mph": "Up to 200 (claimed)",
-    "battery": "20V, included",
-    "runtime": "Up to 90 min (claimed)",
-    "extras": null
-   },
-   "features": {
-    "high_cfm": true,
-    "battery_included": true,
-    "variable_speed": false,
-    "turbo": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71vGLtmrcwL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HJYXCVDZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B0HJYXCVDZ"
-  },
-  {
-   "rank": 7,
-   "asin": "B0FLX45THX",
-   "name": "YOOVL Cordless Leaf Blower, 650 CFM, 2 x 5.2Ah Batteries, 3 Speeds (LB-8184)",
-   "brand": "YOOVL",
-   "model": "LB-8184",
-   "price": 89.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1480,
-   "score": 81,
-   "award": null,
-   "best_for": "Budget buyers who want long runtime from two big packs.",
-   "bought_last_month": "7K+/mo",
-   "verdict": "A budget kit with two 5.2Ah batteries, three speeds and a shoulder strap, and one of the best sellers here.",
-   "pros": [
-    "Two 5.2Ah batteries",
-    "4,000+ sold last month",
-    "Shoulder strap"
-   ],
-   "cons": [
-    "CFM claim not independently verified",
-    "4.3 stars"
-   ],
-   "specs": {
-    "cfm": "650 (claimed)",
-    "mph": null,
-    "battery": "Two 20V 5.2Ah, included",
-    "runtime": null,
-    "extras": "3 speeds, shoulder strap"
-   },
-   "features": {
-    "high_cfm": true,
-    "battery_included": true,
-    "variable_speed": true,
-    "turbo": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71m1Do9cgcL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FLX45THX?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-leaf-blowers.html#B0FLX45THX"
   },
   {
    "rank": 8,

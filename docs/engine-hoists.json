@@ -23,6 +23,7 @@
    "published_height": 0.2
   },
   "reviews_ceiling": 1000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 180,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -34,6 +35,47 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GWPY7JF9",
+   "name": "GarveeTech Engine Hoist with Leveler, 2 Ton Folding Cherry Picker with Telescopic Boom",
+   "brand": "GarveeTech",
+   "model": "2-Ton Hoist with Leveler",
+   "price": 215.99,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 81,
+   "score": 71,
+   "award": null,
+   "best_for": "A hoist and leveler kit for less than the VEVOR.",
+   "bought_last_month": null,
+   "verdict": "A 2-ton hoist with a 1,500 lb leveler included for about $81 less than the VEVOR kit, and a better rating.",
+   "pros": [
+    "Leveler included",
+    "8-ton hydraulic pump; four boom positions",
+    "Folds for storage"
+   ],
+   "cons": [
+    "Title says 2 T and 4,000 lb while sister listings say 4,400 lb; plan on 4,000",
+    "No published lift height"
+   ],
+   "specs": {
+    "capacity": "4,000 lb",
+    "boom": "4 positions, 0.5 to 2 ton",
+    "leveler": "Yes, 1,500 lb",
+    "max_height": null,
+    "weight": "141 lb"
+   },
+   "features": {
+    "leveler": true,
+    "dual_pump": false,
+    "low_profile_legs": false,
+    "published_height": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71JcpCycNaL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GWPY7JF9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/engine-hoists.html#B0GWPY7JF9"
+  },
+  {
+   "rank": 2,
    "asin": "B0GHV7HH1H",
    "name": "Garvee 2-Ton Folding Engine Hoist with Leveler, 4,400 lb Hydraulic Shop Crane",
    "brand": "Garvee",
@@ -74,7 +116,7 @@
    "page_url": "https://toolboxtop10.com/engine-hoists.html#B0GHV7HH1H"
   },
   {
-   "rank": 2,
+   "rank": 3,
    "asin": "B0CJ3538Z5",
    "name": "VEVOR Hydraulic Engine Hoist with Leveler, 2 Ton / 4,400 lb Folding Cherry Picker",
    "brand": "VEVOR",
@@ -114,47 +156,6 @@
    "image": "https://m.media-amazon.com/images/I/61hI+YdL+TL._SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CJ3538Z5?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/engine-hoists.html#B0CJ3538Z5"
-  },
-  {
-   "rank": 3,
-   "asin": "B0GWPY7JF9",
-   "name": "GarveeTech Engine Hoist with Leveler, 2 Ton Folding Cherry Picker with Telescopic Boom",
-   "brand": "GarveeTech",
-   "model": "2-Ton Hoist with Leveler",
-   "price": 215.99,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 81,
-   "score": 67,
-   "award": null,
-   "best_for": "A hoist and leveler kit for less than the VEVOR.",
-   "bought_last_month": null,
-   "verdict": "A 2-ton hoist with a 1,500 lb leveler included for about $81 less than the VEVOR kit, and a better rating.",
-   "pros": [
-    "Leveler included",
-    "8-ton hydraulic pump; four boom positions",
-    "Folds for storage"
-   ],
-   "cons": [
-    "Title says 2 T and 4,000 lb while sister listings say 4,400 lb; plan on 4,000",
-    "No published lift height"
-   ],
-   "specs": {
-    "capacity": "4,000 lb",
-    "boom": "4 positions, 0.5 to 2 ton",
-    "leveler": "Yes, 1,500 lb",
-    "max_height": null,
-    "weight": "141 lb"
-   },
-   "features": {
-    "leveler": true,
-    "dual_pump": false,
-    "low_profile_legs": false,
-    "published_height": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71JcpCycNaL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GWPY7JF9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/engine-hoists.html#B0GWPY7JF9"
   },
   {
    "rank": 4,

@@ -23,6 +23,7 @@
    "big_kit": 0.25
   },
   "reviews_ceiling": 15000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -288,7 +289,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 380,
-   "score": 74,
+   "score": 75,
    "award": null,
    "best_for": "A brushless Dremel with full 30,000 rpm speed for under $60.",
    "bought_last_month": "1K+/mo",

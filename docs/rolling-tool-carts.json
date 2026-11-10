@@ -24,6 +24,7 @@
    "tool_holders": 0.2
   },
   "reviews_ceiling": 7000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -345,6 +346,50 @@
   },
   {
    "rank": 8,
+   "asin": "B0F2MPLZFF",
+   "name": "VEVOR 4-Tier Tool Cart with Wheels, 350 lbs, Lockable Drawer & Pegboard (T271401)",
+   "brand": "VEVOR",
+   "model": "T271401",
+   "price": 88.9,
+   "currency": "USD",
+   "rating": 4.0,
+   "reviews_count": 302,
+   "score": 73,
+   "award": null,
+   "best_for": "Mechanics who want a lockable drawer and pegboard on a steel cart.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A steel mechanic cart with three trays, a lockable drawer lined with EVA foam, and pegboard sides with hooks, for about $89.",
+   "pros": [
+    "Lockable drawer with EVA liner",
+    "Pegboard sides with hooks",
+    "Two braking casters"
+   ],
+   "cons": [
+    "4.0 stars, the lowest here",
+    "Steel can rust if the coating chips"
+   ],
+   "specs": {
+    "type": "Mechanic cart",
+    "shelves": "3 trays + lockable drawer",
+    "capacity": "350 lbs (100 per tray, 33 in drawer)",
+    "size": "32.7 x 13.8 x 32.5 in",
+    "material": "Carbon steel",
+    "casters": "2 swivel + 2 fixed, 2 braking",
+    "weight": "29.1 lbs"
+   },
+   "features": {
+    "locking_casters": true,
+    "drawer": true,
+    "rust_proof": false,
+    "handle_storage": false,
+    "tool_holders": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61gxqRXOPmL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F2MPLZFF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rolling-tool-carts.html#B0F2MPLZFF"
+  },
+  {
+   "rank": 9,
    "asin": "B0D1QVKWGH",
    "name": "JUNNUJ Power Tool Organizer Cart with Charging Station, 8 Outlets, 6 FT Cord (FY-GJC006)",
    "brand": "JUNNUJ",
@@ -386,50 +431,6 @@
    "image": "https://m.media-amazon.com/images/I/71wzWIa+KWL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D1QVKWGH?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/rolling-tool-carts.html#B0D1QVKWGH"
-  },
-  {
-   "rank": 9,
-   "asin": "B0F2MPLZFF",
-   "name": "VEVOR 4-Tier Tool Cart with Wheels, 350 lbs, Lockable Drawer & Pegboard (T271401)",
-   "brand": "VEVOR",
-   "model": "T271401",
-   "price": 88.9,
-   "currency": "USD",
-   "rating": 4.0,
-   "reviews_count": 302,
-   "score": 72,
-   "award": null,
-   "best_for": "Mechanics who want a lockable drawer and pegboard on a steel cart.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A steel mechanic cart with three trays, a lockable drawer lined with EVA foam, and pegboard sides with hooks, for about $89.",
-   "pros": [
-    "Lockable drawer with EVA liner",
-    "Pegboard sides with hooks",
-    "Two braking casters"
-   ],
-   "cons": [
-    "4.0 stars, the lowest here",
-    "Steel can rust if the coating chips"
-   ],
-   "specs": {
-    "type": "Mechanic cart",
-    "shelves": "3 trays + lockable drawer",
-    "capacity": "350 lbs (100 per tray, 33 in drawer)",
-    "size": "32.7 x 13.8 x 32.5 in",
-    "material": "Carbon steel",
-    "casters": "2 swivel + 2 fixed, 2 braking",
-    "weight": "29.1 lbs"
-   },
-   "features": {
-    "locking_casters": true,
-    "drawer": true,
-    "rust_proof": false,
-    "handle_storage": false,
-    "tool_holders": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61gxqRXOPmL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F2MPLZFF?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rolling-tool-carts.html#B0F2MPLZFF"
   },
   {
    "rank": 10,

@@ -24,6 +24,7 @@
    "accessory_kit": 0.2
   },
   "reviews_ceiling": 2000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 160,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -35,6 +36,49 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0FM3JBX6Z",
+   "name": "Limodot Quiet Oil-Free Air Compressor, 68 dB, 2.8 CFM @ 90 PSI, 8 Gallon (LJ8120K)",
+   "brand": "Limodot",
+   "model": "LJ8120K",
+   "price": 189.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 952,
+   "score": 85,
+   "award": null,
+   "best_for": "Quiet indoor nailing and inflation, with a hose and fittings included.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A quiet 8-gallon compressor with an induction motor rated at 68 dB, wheels, a 25 ft hose and an 11-piece accessory kit. Good for indoor nailing and inflation.",
+   "pros": [
+    "68 dB quiet induction motor",
+    "25 ft hose and 11-piece kit",
+    "Wheels kit"
+   ],
+   "cons": [
+    "The listing doesn't state a maximum PSI",
+    "Listing showed only 10 left in stock"
+   ],
+   "specs": {
+    "tank": "8 gal",
+    "cfm": "2.8 CFM",
+    "psi": null,
+    "hp": "1.2 HP",
+    "noise": "68 dB",
+    "weight": null
+   },
+   "features": {
+    "high_cfm": false,
+    "high_psi": false,
+    "quiet": true,
+    "wheels": true,
+    "accessory_kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71+QUB4cKgL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FM3JBX6Z?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-compressors.html#B0FM3JBX6Z"
+  },
+  {
+   "rank": 2,
    "asin": "B08DSCLXSC",
    "name": "Metabo HPT Portable Pancake Air Compressor, 6 Gallon 200 PSI (EC914S)",
    "brand": "Metabo HPT",
@@ -76,49 +120,6 @@
    "image": "https://m.media-amazon.com/images/I/61lqb4VBkBL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B08DSCLXSC?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/air-compressors.html#B08DSCLXSC"
-  },
-  {
-   "rank": 2,
-   "asin": "B0FM3JBX6Z",
-   "name": "Limodot Quiet Oil-Free Air Compressor, 68 dB, 2.8 CFM @ 90 PSI, 8 Gallon (LJ8120K)",
-   "brand": "Limodot",
-   "model": "LJ8120K",
-   "price": 189.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 952,
-   "score": 83,
-   "award": null,
-   "best_for": "Quiet indoor nailing and inflation, with a hose and fittings included.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A quiet 8-gallon compressor with an induction motor rated at 68 dB, wheels, a 25 ft hose and an 11-piece accessory kit. Good for indoor nailing and inflation.",
-   "pros": [
-    "68 dB quiet induction motor",
-    "25 ft hose and 11-piece kit",
-    "Wheels kit"
-   ],
-   "cons": [
-    "The listing doesn't state a maximum PSI",
-    "Listing showed only 10 left in stock"
-   ],
-   "specs": {
-    "tank": "8 gal",
-    "cfm": "2.8 CFM",
-    "psi": null,
-    "hp": "1.2 HP",
-    "noise": "68 dB",
-    "weight": null
-   },
-   "features": {
-    "high_cfm": false,
-    "high_psi": false,
-    "quiet": true,
-    "wheels": true,
-    "accessory_kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71+QUB4cKgL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FM3JBX6Z?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-compressors.html#B0FM3JBX6Z"
   },
   {
    "rank": 3,
@@ -216,7 +217,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 241,
-   "score": 77,
+   "score": 78,
    "award": null,
    "best_for": "Air tools in an attached garage, where 66 dB keeps the peace.",
    "bought_last_month": "300+/mo",

@@ -23,6 +23,7 @@
    "multi_pack": 0.2
   },
   "reviews_ceiling": 15000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 10,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -190,6 +191,46 @@
   },
   {
    "rank": 5,
+   "asin": "B0H8QKBWCP",
+   "name": "Klein Tools 80211 Rafter Square Set, 2-Piece, 7 and 12-Inch, Laser Etched Markings, 1/4-Inch Scribe Notches",
+   "brand": "Klein Tools",
+   "model": "80211",
+   "price": 34.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 302,
+   "score": 81,
+   "award": null,
+   "best_for": "Tradespeople who want a 7 and a 12 inch with scribe notches.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Klein's 7-inch rafter square paired with a 12-inch one for wider stock, both with 1/4-inch scribe notches and double laser-etched markings. Sold by Amazon.",
+   "pros": [
+    "Two squares, 7 and 12 inch",
+    "Scribe notches on both",
+    "Pipe prop on the 7 inch"
+   ],
+   "cons": [
+    "$34.99, near the top of this list",
+    "The listing mentions no rafter book"
+   ],
+   "specs": {
+    "size": "7 in and 12 in",
+    "material": "Metal",
+    "markings": "Double laser-etched",
+    "extras": "1/4 in scribe notches, pipe prop on the 7 in"
+   },
+   "features": {
+    "aluminum": false,
+    "scribe_notches": true,
+    "rafter_guide": true,
+    "multi_pack": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81AP1qFa+3L._SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H8QKBWCP?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/speed-squares.html#B0H8QKBWCP"
+  },
+  {
+   "rank": 6,
    "asin": "B0DWTDLY69",
    "name": "Klein Tools 9357SSQ Rafter Square, 7-Inch, Double Laser Etched Aluminum",
    "brand": "Klein Tools",
@@ -228,7 +269,7 @@
    "page_url": "https://toolboxtop10.com/speed-squares.html#B0DWTDLY69"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B0002YS7JU",
    "name": "Swanson T0118 8-Inch Composite Speedlite Speed Square",
    "brand": "Swanson",
@@ -267,7 +308,7 @@
    "page_url": "https://toolboxtop10.com/speed-squares.html#B0002YS7JU"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "asin": "B09F8FWD37",
    "name": "Swanson Speed Square Pro, 7-Inch (S0100-A)",
    "brand": "Swanson",
@@ -304,46 +345,6 @@
    "image": "https://m.media-amazon.com/images/I/61Qjyecc6iL._SL1246_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09F8FWD37?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/speed-squares.html#B09F8FWD37"
-  },
-  {
-   "rank": 8,
-   "asin": "B0H8QKBWCP",
-   "name": "Klein Tools 80211 Rafter Square Set, 2-Piece, 7 and 12-Inch, Laser Etched Markings, 1/4-Inch Scribe Notches",
-   "brand": "Klein Tools",
-   "model": "80211",
-   "price": 34.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 302,
-   "score": 78,
-   "award": null,
-   "best_for": "Tradespeople who want a 7 and a 12 inch with scribe notches.",
-   "bought_last_month": "100+/mo",
-   "verdict": "Klein's 7-inch rafter square paired with a 12-inch one for wider stock, both with 1/4-inch scribe notches and double laser-etched markings. Sold by Amazon.",
-   "pros": [
-    "Two squares, 7 and 12 inch",
-    "Scribe notches on both",
-    "Pipe prop on the 7 inch"
-   ],
-   "cons": [
-    "$34.99, near the top of this list",
-    "The listing mentions no rafter book"
-   ],
-   "specs": {
-    "size": "7 in and 12 in",
-    "material": "Metal",
-    "markings": "Double laser-etched",
-    "extras": "1/4 in scribe notches, pipe prop on the 7 in"
-   },
-   "features": {
-    "aluminum": false,
-    "scribe_notches": true,
-    "rafter_guide": true,
-    "multi_pack": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81AP1qFa+3L._SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H8QKBWCP?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/speed-squares.html#B0H8QKBWCP"
   },
   {
    "rank": 9,
@@ -393,7 +394,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 292,
-   "score": 73,
+   "score": 74,
    "award": "Money No Object",
    "best_for": "Framers who want layout and a level in one tool.",
    "bought_last_month": "900+/mo",

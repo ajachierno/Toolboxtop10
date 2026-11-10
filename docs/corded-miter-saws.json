@@ -22,6 +22,7 @@
    "cut_guide": 0.3
   },
   "reviews_ceiling": 7000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 150,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -351,6 +352,51 @@
   },
   {
    "rank": 8,
+   "asin": "B0FBPB1MJ8",
+   "name": "Metabo HPT 10-Inch Compound Miter Saw, 15-Amp, Single Bevel, C10FCG2",
+   "brand": "Metabo HPT",
+   "model": "C10FCG2",
+   "price": 139.0,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 738,
+   "score": 73,
+   "award": "Best Budget",
+   "best_for": "A light, cheap chop saw with a 5-year warranty.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Amazon's #1 power miter saw right now and the cheapest name-brand saw here: a light 10-inch chop saw with a 5-year warranty for $139.",
+   "pros": [
+    "$139 from Amazon, with a 5-year warranty",
+    "24.2 lb, the lightest saw on this list",
+    "Miters 0-52° left and right",
+    "Blade, dust bag, and vise included"
+   ],
+   "cons": [
+    "Single bevel, left only",
+    "No crosscut capacity published",
+    "The title says 24T blade while the spec table and description say 40T, and the description mentions a shadow line the bullets don't, so don't count on one"
+   ],
+   "specs": {
+    "blade": "10\"",
+    "power": "15 A",
+    "type": "Compound",
+    "bevel": "45° L",
+    "crosscut": null,
+    "speed": "5000 rpm",
+    "guide": null,
+    "weight": "24.2 lb"
+   },
+   "features": {
+    "sliding": false,
+    "dual_bevel": false,
+    "cut_guide": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71qU22TCQoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FBPB1MJ8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B0FBPB1MJ8"
+  },
+  {
+   "rank": 9,
    "asin": "B0000223I4",
    "name": "Makita LS1040 10\" Compound Miter Saw",
    "brand": "Makita",
@@ -395,51 +441,6 @@
    "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B0000223I4"
   },
   {
-   "rank": 9,
-   "asin": "B0FBPB1MJ8",
-   "name": "Metabo HPT 10-Inch Compound Miter Saw, 15-Amp, Single Bevel, C10FCG2",
-   "brand": "Metabo HPT",
-   "model": "C10FCG2",
-   "price": 139.0,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 738,
-   "score": 72,
-   "award": "Best Budget",
-   "best_for": "A light, cheap chop saw with a 5-year warranty.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "Amazon's #1 power miter saw right now and the cheapest name-brand saw here: a light 10-inch chop saw with a 5-year warranty for $139.",
-   "pros": [
-    "$139 from Amazon, with a 5-year warranty",
-    "24.2 lb, the lightest saw on this list",
-    "Miters 0-52° left and right",
-    "Blade, dust bag, and vise included"
-   ],
-   "cons": [
-    "Single bevel, left only",
-    "No crosscut capacity published",
-    "The title says 24T blade while the spec table and description say 40T, and the description mentions a shadow line the bullets don't, so don't count on one"
-   ],
-   "specs": {
-    "blade": "10\"",
-    "power": "15 A",
-    "type": "Compound",
-    "bevel": "45° L",
-    "crosscut": null,
-    "speed": "5000 rpm",
-    "guide": null,
-    "weight": "24.2 lb"
-   },
-   "features": {
-    "sliding": false,
-    "dual_bevel": false,
-    "cut_guide": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71qU22TCQoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FBPB1MJ8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-miter-saws.html#B0FBPB1MJ8"
-  },
-  {
    "rank": 10,
    "asin": "B0F558MYPM",
    "name": "VEVOR 10-Inch Compound Miter Saw, 15 Amp, Single Bevel, LED Guide",
@@ -449,7 +450,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 166,
-   "score": 70,
+   "score": 71,
    "award": null,
    "best_for": "A light 10-inch chop saw with a cut-line guide for trim and DIY work.",
    "bought_last_month": null,

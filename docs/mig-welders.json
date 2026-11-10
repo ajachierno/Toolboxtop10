@@ -23,6 +23,7 @@
    "synergic": 0.2
   },
   "reviews_ceiling": 3000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 115,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -115,6 +116,47 @@
   },
   {
    "rank": 3,
+   "asin": "B0DKHCFZXV",
+   "name": "ARCCAPTAIN MIG250 250A MIG Welder 110V/220V 6-in-1, Aluminum Capable",
+   "brand": "ARCCAPTAIN",
+   "model": "MIG250",
+   "price": 499.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 196,
+   "score": 86,
+   "award": "Money No Object",
+   "best_for": "Serious hobby fabricators welding thicker steel and aluminum.",
+   "bought_last_month": "50+/mo",
+   "verdict": "The most powerful welder here: 250 amps on 220V, six processes including spool-gun aluminum, and pre/post-flow gas control. It's tied for the best rating here at 4.7 stars.",
+   "pros": [
+    "250 A",
+    "Spool gun aluminum",
+    "4.7 stars"
+   ],
+   "cons": [
+    "Most expensive here",
+    "Spool gun and TIG torch extra"
+   ],
+   "specs": {
+    "amps": "250 A",
+    "input": "110V/220V",
+    "processes": "Gas MIG, flux core, stick, spot, lift TIG, spool gun",
+    "capacity": null,
+    "extras": "Synergic and manual MIG, pre-flow/post-flow, 32.7 lb"
+   },
+   "features": {
+    "gas_mig": true,
+    "dual_voltage": true,
+    "aluminum_ready": true,
+    "synergic": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71avQGQ3o-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DKHCFZXV?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mig-welders.html#B0DKHCFZXV"
+  },
+  {
+   "rank": 4,
    "asin": "B0BX3VRGW3",
    "name": "YESWELDER 160A MIG Welder, 110V/220V, MIG/Flux Core/Lift TIG/Stick (YWM-160)",
    "brand": "YESWELDER",
@@ -155,47 +197,6 @@
    "page_url": "https://toolboxtop10.com/mig-welders.html#B0BX3VRGW3"
   },
   {
-   "rank": 4,
-   "asin": "B0DKHCFZXV",
-   "name": "ARCCAPTAIN MIG250 250A MIG Welder 110V/220V 6-in-1, Aluminum Capable",
-   "brand": "ARCCAPTAIN",
-   "model": "MIG250",
-   "price": 499.99,
-   "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 196,
-   "score": 85,
-   "award": "Money No Object",
-   "best_for": "Serious hobby fabricators welding thicker steel and aluminum.",
-   "bought_last_month": "50+/mo",
-   "verdict": "The most powerful welder here: 250 amps on 220V, six processes including spool-gun aluminum, and pre/post-flow gas control. It's tied for the best rating here at 4.7 stars.",
-   "pros": [
-    "250 A",
-    "Spool gun aluminum",
-    "4.7 stars"
-   ],
-   "cons": [
-    "Most expensive here",
-    "Spool gun and TIG torch extra"
-   ],
-   "specs": {
-    "amps": "250 A",
-    "input": "110V/220V",
-    "processes": "Gas MIG, flux core, stick, spot, lift TIG, spool gun",
-    "capacity": null,
-    "extras": "Synergic and manual MIG, pre-flow/post-flow, 32.7 lb"
-   },
-   "features": {
-    "gas_mig": true,
-    "dual_voltage": true,
-    "aluminum_ready": true,
-    "synergic": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71avQGQ3o-L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DKHCFZXV?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mig-welders.html#B0DKHCFZXV"
-  },
-  {
    "rank": 5,
    "asin": "B0F89XL34N",
    "name": "ARCCAPTAIN 165A MIG Welder 110V/220V 4-in-1 Gas/Gasless MIG, Stick, Lift TIG",
@@ -205,7 +206,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 309,
-   "score": 80,
+   "score": 82,
    "award": null,
    "best_for": "Garages that want gas MIG on 220V for thicker steel.",
    "bought_last_month": "200+/mo",

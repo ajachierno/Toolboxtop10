@@ -23,6 +23,7 @@
    "sticks": 0.25
   },
   "reviews_ceiling": 25000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 12,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -370,7 +371,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 2123,
-   "score": 74,
+   "score": 76,
    "award": null,
    "best_for": "Gluing away from an outlet.",
    "bought_last_month": "2K+/mo",

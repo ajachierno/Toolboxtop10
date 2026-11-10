@@ -24,6 +24,7 @@
    "kit": 0.15
   },
   "reviews_ceiling": 60000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -173,6 +174,52 @@
   },
   {
    "rank": 4,
+   "asin": "B0FQNW74FL",
+   "name": "AVID POWER 20V Brushless Impact Driver Kit",
+   "brand": "AVID POWER",
+   "model": "Impact Kit",
+   "price": 39.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1881,
+   "score": 83,
+   "award": "Best Budget",
+   "best_for": "A brushless, two-speed kit for about $40 with sockets included.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The value champ. A brushless, two-speed impact driver with the highest torque rating of the budget kits, a battery, charger, and sockets — all for around $40.",
+   "pros": [
+    "Brushless and two-speed at a budget price",
+    "2,220 in-lbs — more torque on paper than the name-brand picks",
+    "Complete kit: battery, charger, sockets, and bits"
+   ],
+   "cons": [
+    "4.4-star rating trails the DEWALT and CRAFTSMAN picks",
+    "Locked to AVID POWER's own batteries",
+    "Off-brand support and durability record"
+   ],
+   "specs": {
+    "voltage": "20V",
+    "chuck": "1/4 in hex",
+    "max_rpm": 2600,
+    "speeds": "2-speed",
+    "torque": "2,220 in-lbs",
+    "clutch": null,
+    "battery": "20V Li-ion + charger included",
+    "weight": null
+   },
+   "features": {
+    "brushless": true,
+    "two_speed": true,
+    "led": true,
+    "dual_battery": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/710bvVKjBXL._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FQNW74FL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-impact-drivers.html#B0FQNW74FL"
+  },
+  {
+   "rank": 5,
    "asin": "B0BV17VLYG",
    "name": "DEWALT DCF787D1 20V MAX Brushless Impact Driver Kit",
    "brand": "DEWALT",
@@ -218,53 +265,54 @@
    "page_url": "https://toolboxtop10.com/cordless-impact-drivers.html#B0BV17VLYG"
   },
   {
-   "rank": 5,
-   "asin": "B0FQNW74FL",
-   "name": "AVID POWER 20V Brushless Impact Driver Kit",
-   "brand": "AVID POWER",
-   "model": "Impact Kit",
-   "price": 39.99,
+   "rank": 6,
+   "asin": "B0FT2SDD5F",
+   "name": "GoYwato 21V Brushless 1/4 in Cordless Impact Driver Set, 2655 in-lbs, 2 x 4.0Ah Batteries, Charger, Sockets and Bits (CID-300-Y)",
+   "brand": "GoYwato",
+   "model": "CID-300-Y",
+   "price": 68.99,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1881,
-   "score": 81,
-   "award": "Best Budget",
-   "best_for": "A brushless, two-speed kit for about $40 with sockets included.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The value champ. A brushless, two-speed impact driver with the highest torque rating of the budget kits, a battery, charger, and sockets — all for around $40.",
+   "rating": 4.5,
+   "reviews_count": 334,
+   "score": 80,
+   "award": null,
+   "best_for": "A cheap kit with two big batteries for occasional driving and light bolt work.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A brushless 21V kit with two 4.0Ah batteries, a charger, 14 sockets and 10 bits for under $70. The listing claims 2,655 in-lbs but gives only 1,400 rpm, so treat the torque figure as a sales number.",
    "pros": [
-    "Brushless and two-speed at a budget price",
-    "2,220 in-lbs — more torque on paper than the name-brand picks",
-    "Complete kit: battery, charger, sockets, and bits"
+    "Two 4.0Ah batteries and a charger for $68.99",
+    "Brushless motor, two speed modes",
+    "14 sockets and 10 bits included",
+    "300+ bought last month"
    ],
    "cons": [
-    "4.4-star rating trails the DEWALT and CRAFTSMAN picks",
-    "Locked to AVID POWER's own batteries",
-    "Off-brand support and durability record"
+    "Off-brand 21V battery fits no major tool line",
+    "Listed top speed of 1,400 rpm is low for an impact driver",
+    "2,655 in-lbs torque claim is unverified"
    ],
    "specs": {
-    "voltage": "20V",
+    "voltage": "21V",
     "chuck": "1/4 in hex",
-    "max_rpm": 2600,
+    "max_rpm": 1400,
     "speeds": "2-speed",
-    "torque": "2,220 in-lbs",
+    "torque": "2,655 in-lbs (claimed)",
     "clutch": null,
-    "battery": "20V Li-ion + charger included",
-    "weight": null
+    "battery": "2 x 4.0Ah + charger",
+    "weight": "3.6 lb"
    },
    "features": {
     "brushless": true,
     "two_speed": true,
     "led": true,
-    "dual_battery": false,
+    "dual_battery": true,
     "kit": true
    },
-   "image": "https://m.media-amazon.com/images/I/710bvVKjBXL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FQNW74FL?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-impact-drivers.html#B0FQNW74FL"
+   "image": "https://m.media-amazon.com/images/I/71A5CUUDnXL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FT2SDD5F?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-impact-drivers.html#B0FT2SDD5F"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B07ZK6PM4N",
    "name": "CRAFTSMAN CMCF800C1 20V MAX Impact Driver Kit",
    "brand": "CRAFTSMAN",
@@ -308,53 +356,6 @@
    "image": "https://m.media-amazon.com/images/I/716CGX1Jv-L._AC_SX425_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07ZK6PM4N?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-impact-drivers.html#B07ZK6PM4N"
-  },
-  {
-   "rank": 7,
-   "asin": "B0FT2SDD5F",
-   "name": "GoYwato 21V Brushless 1/4 in Cordless Impact Driver Set, 2655 in-lbs, 2 x 4.0Ah Batteries, Charger, Sockets and Bits (CID-300-Y)",
-   "brand": "GoYwato",
-   "model": "CID-300-Y",
-   "price": 68.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 334,
-   "score": 78,
-   "award": null,
-   "best_for": "A cheap kit with two big batteries for occasional driving and light bolt work.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A brushless 21V kit with two 4.0Ah batteries, a charger, 14 sockets and 10 bits for under $70. The listing claims 2,655 in-lbs but gives only 1,400 rpm, so treat the torque figure as a sales number.",
-   "pros": [
-    "Two 4.0Ah batteries and a charger for $68.99",
-    "Brushless motor, two speed modes",
-    "14 sockets and 10 bits included",
-    "300+ bought last month"
-   ],
-   "cons": [
-    "Off-brand 21V battery fits no major tool line",
-    "Listed top speed of 1,400 rpm is low for an impact driver",
-    "2,655 in-lbs torque claim is unverified"
-   ],
-   "specs": {
-    "voltage": "21V",
-    "chuck": "1/4 in hex",
-    "max_rpm": 1400,
-    "speeds": "2-speed",
-    "torque": "2,655 in-lbs (claimed)",
-    "clutch": null,
-    "battery": "2 x 4.0Ah + charger",
-    "weight": "3.6 lb"
-   },
-   "features": {
-    "brushless": true,
-    "two_speed": true,
-    "led": true,
-    "dual_battery": true,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71A5CUUDnXL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FT2SDD5F?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-impact-drivers.html#B0FT2SDD5F"
   },
   {
    "rank": 8,
@@ -458,7 +459,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 202,
-   "score": 72,
+   "score": 74,
    "award": null,
    "best_for": "A first impact driver with a battery and charger in the box for about $60.",
    "bought_last_month": "600+/mo",

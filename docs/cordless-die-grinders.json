@@ -23,6 +23,7 @@
    "brake": 0.2
   },
   "reviews_ceiling": 2500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 95,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -161,7 +162,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 86,
-   "score": 75,
+   "score": 76,
    "award": null,
    "best_for": "Starting on Milwaukee M12 with a die grinder.",
    "bought_last_month": "100+/mo",
@@ -192,6 +193,85 @@
   },
   {
    "rank": 5,
+   "asin": "B0FHH943FJ",
+   "name": "Milwaukee M12 FUEL 1/4\" Right Angle Die Grinder, Tool Only (3485-20)",
+   "brand": "Milwaukee",
+   "model": "3485-20",
+   "price": 170.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 240,
+   "score": 73,
+   "award": null,
+   "best_for": "Auto and fab work in tight spaces.",
+   "bought_last_month": "800+/mo",
+   "verdict": "The best seller here: Milwaukee's M12 FUEL right-angle die grinder for getting into engine bays and fabrication corners.",
+   "pros": [
+    "900+ sold last month",
+    "Right-angle head",
+    "Brushless"
+   ],
+   "cons": [
+    "Bare tool"
+   ],
+   "specs": {
+    "style": "Right angle, 1/4 in",
+    "speed": null,
+    "platform": "Milwaukee M12, not included",
+    "extras": "POWERSTATE brushless, shadowless LED, spindle lock"
+   },
+   "features": {
+    "brushless": true,
+    "speed_control": false,
+    "battery_included": false,
+    "brake": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71E8W8onT2L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FHH943FJ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-die-grinders.html#B0FHH943FJ"
+  },
+  {
+   "rank": 6,
+   "asin": "B0HBX5B3QF",
+   "name": "SEESII 1/4\" Brushless Right Angle Die Grinder Kit with 2 Batteries and 23 Accessories (DG21 Pro)",
+   "brand": "SEESII",
+   "model": "DG21 Pro",
+   "price": 109.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 68,
+   "score": 72,
+   "award": "Best Budget",
+   "best_for": "Occasional users who want a right-angle grinder cheaply.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A budget right-angle kit with a brushless motor, two batteries and 23 accessories, for a fraction of Milwaukee's kit price.",
+   "pros": [
+    "Two batteries plus accessories",
+    "Brushless",
+    "Low price"
+   ],
+   "cons": [
+    "Only 68 reviews",
+    "4.4 stars"
+   ],
+   "specs": {
+    "style": "Right angle, 1/4 in",
+    "speed": null,
+    "platform": "2 x 2.0Ah, included",
+    "extras": "0.4 HP brushless, 23 accessories"
+   },
+   "features": {
+    "brushless": true,
+    "speed_control": false,
+    "battery_included": true,
+    "brake": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71DbZn8WxPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HBX5B3QF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-die-grinders.html#B0HBX5B3QF"
+  },
+  {
+   "rank": 7,
    "asin": "B086H4TVMS",
    "name": "Milwaukee M12 FUEL 1/4\" Straight Die Grinder Kit with 2 Batteries (2486-22)",
    "brand": "Milwaukee",
@@ -230,46 +310,7 @@
    "page_url": "https://toolboxtop10.com/cordless-die-grinders.html#B086H4TVMS"
   },
   {
-   "rank": 6,
-   "asin": "B0FHH943FJ",
-   "name": "Milwaukee M12 FUEL 1/4\" Right Angle Die Grinder, Tool Only (3485-20)",
-   "brand": "Milwaukee",
-   "model": "3485-20",
-   "price": 170.0,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 240,
-   "score": 71,
-   "award": null,
-   "best_for": "Auto and fab work in tight spaces.",
-   "bought_last_month": "800+/mo",
-   "verdict": "The best seller here: Milwaukee's M12 FUEL right-angle die grinder for getting into engine bays and fabrication corners.",
-   "pros": [
-    "900+ sold last month",
-    "Right-angle head",
-    "Brushless"
-   ],
-   "cons": [
-    "Bare tool"
-   ],
-   "specs": {
-    "style": "Right angle, 1/4 in",
-    "speed": null,
-    "platform": "Milwaukee M12, not included",
-    "extras": "POWERSTATE brushless, shadowless LED, spindle lock"
-   },
-   "features": {
-    "brushless": true,
-    "speed_control": false,
-    "battery_included": false,
-    "brake": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71E8W8onT2L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FHH943FJ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-die-grinders.html#B0FHH943FJ"
-  },
-  {
-   "rank": 7,
+   "rank": 8,
    "asin": "B0C1PY8R31",
    "name": "Milwaukee M18 FUEL Braking Die Grinder, Slide Switch (2939-20)",
    "brand": "Milwaukee",
@@ -306,46 +347,6 @@
    "image": "https://m.media-amazon.com/images/I/412LYt5VjsL._AC_SL1200_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0C1PY8R31?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-die-grinders.html#B0C1PY8R31"
-  },
-  {
-   "rank": 8,
-   "asin": "B0HBX5B3QF",
-   "name": "SEESII 1/4\" Brushless Right Angle Die Grinder Kit with 2 Batteries and 23 Accessories (DG21 Pro)",
-   "brand": "SEESII",
-   "model": "DG21 Pro",
-   "price": 109.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 68,
-   "score": 69,
-   "award": "Best Budget",
-   "best_for": "Occasional users who want a right-angle grinder cheaply.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A budget right-angle kit with a brushless motor, two batteries and 23 accessories, for a fraction of Milwaukee's kit price.",
-   "pros": [
-    "Two batteries plus accessories",
-    "Brushless",
-    "Low price"
-   ],
-   "cons": [
-    "Only 68 reviews",
-    "4.4 stars"
-   ],
-   "specs": {
-    "style": "Right angle, 1/4 in",
-    "speed": null,
-    "platform": "2 x 2.0Ah, included",
-    "extras": "0.4 HP brushless, 23 accessories"
-   },
-   "features": {
-    "brushless": true,
-    "speed_control": false,
-    "battery_included": true,
-    "brake": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71DbZn8WxPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HBX5B3QF?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-die-grinders.html#B0HBX5B3QF"
   },
   {
    "rank": 9,
@@ -396,7 +397,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 79,
-   "score": 60,
+   "score": 63,
    "award": null,
    "best_for": "DEWALT owners who grind once in a while.",
    "bought_last_month": "100+/mo",

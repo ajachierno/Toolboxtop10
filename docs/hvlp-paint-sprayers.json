@@ -23,6 +23,7 @@
    "flow_control": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -314,6 +315,46 @@
   },
   {
    "rank": 8,
+   "asin": "B0HK7M4MB2",
+   "name": "Tilswall Shark 600 Ultra-Light HVLP Electric Paint Sprayer",
+   "brand": "Tilswall",
+   "model": "US Shark 600",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 251,
+   "score": 66,
+   "award": null,
+   "best_for": "Small projects where a light sprayer matters.",
+   "bought_last_month": null,
+   "verdict": "A light, compact handheld that the listing says is 47% lighter than typical sprayers, with adjustable flow up to 1,200 mL per minute. Thin the paint for best results.",
+   "pros": [
+    "Light and compact",
+    "4.2 stars",
+    "Ships assembled"
+   ],
+   "cons": [
+    "Thinning required",
+    "251 reviews"
+   ],
+   "specs": {
+    "type": "Handheld",
+    "nozzles": "3 (1.3, 1.8, 2.6 mm)",
+    "controls": "0-1,200 mL/min flow, 3 patterns",
+    "extras": "Ships assembled"
+   },
+   "features": {
+    "unthinned": false,
+    "turbine_base": false,
+    "brass_nozzles": false,
+    "flow_control": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61AWRLuJGoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HK7M4MB2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B0HK7M4MB2"
+  },
+  {
+   "rank": 9,
    "asin": "B07JNDC5WC",
    "name": "Wagner Spraytech FLEXiO 4000 Stationary HVLP Paint and Stain Sprayer",
    "brand": "Wagner",
@@ -353,46 +394,6 @@
    "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B07JNDC5WC"
   },
   {
-   "rank": 9,
-   "asin": "B0HK7M4MB2",
-   "name": "Tilswall Shark 600 Ultra-Light HVLP Electric Paint Sprayer",
-   "brand": "Tilswall",
-   "model": "US Shark 600",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 251,
-   "score": 64,
-   "award": null,
-   "best_for": "Small projects where a light sprayer matters.",
-   "bought_last_month": null,
-   "verdict": "A light, compact handheld that the listing says is 47% lighter than typical sprayers, with adjustable flow up to 1,200 mL per minute. Thin the paint for best results.",
-   "pros": [
-    "Light and compact",
-    "4.2 stars",
-    "Ships assembled"
-   ],
-   "cons": [
-    "Thinning required",
-    "251 reviews"
-   ],
-   "specs": {
-    "type": "Handheld",
-    "nozzles": "3 (1.3, 1.8, 2.6 mm)",
-    "controls": "0-1,200 mL/min flow, 3 patterns",
-    "extras": "Ships assembled"
-   },
-   "features": {
-    "unthinned": false,
-    "turbine_base": false,
-    "brass_nozzles": false,
-    "flow_control": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61AWRLuJGoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HK7M4MB2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/hvlp-paint-sprayers.html#B0HK7M4MB2"
-  },
-  {
    "rank": 10,
    "asin": "B0GQH7R2HT",
    "name": "PULENDY Paint Sprayer for House Painting, 4 Nozzles and 3 Spray Patterns",
@@ -402,7 +403,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 218,
-   "score": 61,
+   "score": 64,
    "award": null,
    "best_for": "One-off small projects like a planter or patio chairs.",
    "bought_last_month": "500+/mo",

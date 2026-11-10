@@ -23,6 +23,7 @@
    "digital_readout": 0.2
   },
   "reviews_ceiling": 1000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 130,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -34,6 +35,48 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0GGGTFPYF",
+   "name": "VEVOR 10-Inch Benchtop Drill Press, 5 Amp 0.8 HP, 530-3,140 RPM Variable Speed, Laser, LED Light, Digital Readout (1016BVS)",
+   "brand": "VEVOR",
+   "model": "1016BVS",
+   "price": 247.9,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 169,
+   "score": 89,
+   "award": null,
+   "best_for": "Variable speed, a laser and a light on a 10-inch press.",
+   "bought_last_month": null,
+   "verdict": "The 10-inch sibling of VEVOR's 1216BVS: variable speed from 530 to 3,140 rpm with a digital readout, an X-laser, an LED light and a table that tilts 45 degrees either way.",
+   "pros": [
+    "Variable speed with digital readout",
+    "X-laser and LED light",
+    "4.4 stars"
+   ],
+   "cons": [
+    "Spindle travel not listed",
+    "1/2-in chuck"
+   ],
+   "specs": {
+    "swing": "10 in",
+    "speed": "530-3,140 rpm, variable",
+    "chuck": "1/2 in",
+    "travel": null,
+    "motor": "5 A, 0.8 HP",
+    "weight": null
+   },
+   "features": {
+    "variable_speed": true,
+    "laser": true,
+    "light": true,
+    "digital_readout": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61SfUss4uML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GGGTFPYF?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/drill-presses.html#B0GGGTFPYF"
+  },
+  {
+   "rank": 2,
    "asin": "B01C9TW7LO",
    "name": "JET 12\" Benchtop Drill Press, Variable Speed, Digital RPM Readout (JWDP-12)",
    "brand": "JET",
@@ -73,48 +116,6 @@
    "image": "https://m.media-amazon.com/images/I/71uUnrXyL9L._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B01C9TW7LO?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/drill-presses.html#B01C9TW7LO"
-  },
-  {
-   "rank": 2,
-   "asin": "B0GGGTFPYF",
-   "name": "VEVOR 10-Inch Benchtop Drill Press, 5 Amp 0.8 HP, 530-3,140 RPM Variable Speed, Laser, LED Light, Digital Readout (1016BVS)",
-   "brand": "VEVOR",
-   "model": "1016BVS",
-   "price": 247.9,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 169,
-   "score": 86,
-   "award": null,
-   "best_for": "Variable speed, a laser and a light on a 10-inch press.",
-   "bought_last_month": null,
-   "verdict": "The 10-inch sibling of VEVOR's 1216BVS: variable speed from 530 to 3,140 rpm with a digital readout, an X-laser, an LED light and a table that tilts 45 degrees either way.",
-   "pros": [
-    "Variable speed with digital readout",
-    "X-laser and LED light",
-    "4.4 stars"
-   ],
-   "cons": [
-    "Spindle travel not listed",
-    "1/2-in chuck"
-   ],
-   "specs": {
-    "swing": "10 in",
-    "speed": "530-3,140 rpm, variable",
-    "chuck": "1/2 in",
-    "travel": null,
-    "motor": "5 A, 0.8 HP",
-    "weight": null
-   },
-   "features": {
-    "variable_speed": true,
-    "laser": true,
-    "light": true,
-    "digital_readout": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61SfUss4uML._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GGGTFPYF?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/drill-presses.html#B0GGGTFPYF"
   },
   {
    "rank": 3,
@@ -287,6 +288,48 @@
   },
   {
    "rank": 7,
+   "asin": "B0G4ZSM966",
+   "name": "Hoteche Variable Speed Benchtop Drill Press, 9 Speeds 340-2,850 RPM, 5/8-Inch Keyed Chuck, 500W, Laser Guide (P805006A)",
+   "brand": "Hoteche",
+   "model": "P805006A",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 35,
+   "score": 69,
+   "award": null,
+   "best_for": "Small parts, models and circuit boards on a bench.",
+   "bought_last_month": null,
+   "verdict": "A compact 500 W press with nine speeds from 340 to 2,850 rpm, a 5/8-inch keyed chuck, 2 inches of spindle travel and a laser guide, built for hobby, model and PCB work.",
+   "pros": [
+    "Nine speeds and a laser guide",
+    "5/8-in keyed chuck",
+    "2 in of spindle travel"
+   ],
+   "cons": [
+    "Rated for 5 mm in steel, 10 mm in wood",
+    "Swing and weight not listed"
+   ],
+   "specs": {
+    "swing": null,
+    "speed": "9 speeds, 340-2,850 rpm",
+    "chuck": "5/8 in (16 mm) keyed",
+    "travel": "2 in (50 mm)",
+    "motor": "500 W, 4.1 A",
+    "weight": null
+   },
+   "features": {
+    "variable_speed": true,
+    "laser": true,
+    "light": false,
+    "digital_readout": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51eJJmATCKL._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G4ZSM966?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/drill-presses.html#B0G4ZSM966"
+  },
+  {
+   "rank": 8,
    "asin": "B0B81338B1",
    "name": "WOODSKIL 8-Inch Benchtop Drill Press, 2.3 Amp 5-Speed with Laser Guide (DP-8)",
    "brand": "WOODSKIL",
@@ -328,48 +371,6 @@
    "page_url": "https://toolboxtop10.com/drill-presses.html#B0B81338B1"
   },
   {
-   "rank": 8,
-   "asin": "B0G4ZSM966",
-   "name": "Hoteche Variable Speed Benchtop Drill Press, 9 Speeds 340-2,850 RPM, 5/8-Inch Keyed Chuck, 500W, Laser Guide (P805006A)",
-   "brand": "Hoteche",
-   "model": "P805006A",
-   "price": 129.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 35,
-   "score": 66,
-   "award": null,
-   "best_for": "Small parts, models and circuit boards on a bench.",
-   "bought_last_month": null,
-   "verdict": "A compact 500 W press with nine speeds from 340 to 2,850 rpm, a 5/8-inch keyed chuck, 2 inches of spindle travel and a laser guide, built for hobby, model and PCB work.",
-   "pros": [
-    "Nine speeds and a laser guide",
-    "5/8-in keyed chuck",
-    "2 in of spindle travel"
-   ],
-   "cons": [
-    "Rated for 5 mm in steel, 10 mm in wood",
-    "Swing and weight not listed"
-   ],
-   "specs": {
-    "swing": null,
-    "speed": "9 speeds, 340-2,850 rpm",
-    "chuck": "5/8 in (16 mm) keyed",
-    "travel": "2 in (50 mm)",
-    "motor": "500 W, 4.1 A",
-    "weight": null
-   },
-   "features": {
-    "variable_speed": true,
-    "laser": true,
-    "light": false,
-    "digital_readout": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51eJJmATCKL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G4ZSM966?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/drill-presses.html#B0G4ZSM966"
-  },
-  {
    "rank": 9,
    "asin": "B0DY7DR3XV",
    "name": "VEVOR Benchtop Drill Press, 3.2 Amp, 5-Speed, 10 in Swing, Cast Iron Frame (DP1006L)",
@@ -379,7 +380,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 88,
-   "score": 61,
+   "score": 62,
    "award": null,
    "best_for": "A 10-inch swing on a budget.",
    "bought_last_month": "50+/mo",

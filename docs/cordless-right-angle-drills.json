@@ -23,6 +23,7 @@
    "clutch": 0.2
   },
   "reviews_ceiling": 2000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 95,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -74,6 +75,47 @@
   },
   {
    "rank": 2,
+   "asin": "B0GF7RLJ23",
+   "name": "ADOTOCAM Brushless Right Angle Drill for DEWALT 20V Battery, Tool Only (ZJ-001Z)",
+   "brand": "ADOTOCAM",
+   "model": "ZJ-001Z",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 73,
+   "score": 78,
+   "award": null,
+   "best_for": "DEWALT owners who want a cheap right-angle drill.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A DEWALT-battery right-angle drill with a brushless motor and a claimed 400 in-lb, rated 4.8 stars on 73 reviews.",
+   "pros": [
+    "Uses DEWALT batteries",
+    "Brushless",
+    "4.8 stars"
+   ],
+   "cons": [
+    "Third-party tool",
+    "Only 73 reviews"
+   ],
+   "specs": {
+    "chuck": "3/8 in ratchet",
+    "torque": "Up to 400 in-lb (claimed)",
+    "speed": null,
+    "platform": "DEWALT 20V, not included",
+    "extras": null
+   },
+   "features": {
+    "brushless": true,
+    "battery_included": false,
+    "torque_300": true,
+    "clutch": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71f9LtNM3NL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GF7RLJ23?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-right-angle-drills.html#B0GF7RLJ23"
+  },
+  {
+   "rank": 3,
    "asin": "B002SQK996",
    "name": "Milwaukee M12 3/8\" Cordless Right Angle Drill, Tool Only (2415-20)",
    "brand": "Milwaukee",
@@ -114,7 +156,48 @@
    "page_url": "https://toolboxtop10.com/cordless-right-angle-drills.html#B002SQK996"
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "asin": "B0FP8XTTDD",
+   "name": "VEVOR Brushless 3/8\" Cordless Right Angle Drill with Battery and Charger (DJZO5030-10)",
+   "brand": "VEVOR",
+   "model": "DJZO5030-10",
+   "price": 60.29,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 76,
+   "score": 77,
+   "award": "Best Budget",
+   "best_for": "Occasional use on a budget.",
+   "bought_last_month": null,
+   "verdict": "A budget brushless kit with a battery, charger and 45 N-m of torque, for less than a bare Milwaukee.",
+   "pros": [
+    "Brushless kit",
+    "Low price",
+    "High listed torque"
+   ],
+   "cons": [
+    "4.3 stars",
+    "Only 76 reviews"
+   ],
+   "specs": {
+    "chuck": "3/8 in",
+    "torque": "45 N-m (about 400 in-lb)",
+    "speed": null,
+    "platform": "2.0Ah, included",
+    "extras": "Belt clip"
+   },
+   "features": {
+    "brushless": true,
+    "battery_included": true,
+    "torque_300": true,
+    "clutch": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61i8kB623RL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FP8XTTDD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-right-angle-drills.html#B0FP8XTTDD"
+  },
+  {
+   "rank": 5,
    "asin": "B00BD5G3UC",
    "name": "BOSCH PS11-102 12V Max 3/8\" Right Angle Drill/Driver Kit with 2.0Ah Battery",
    "brand": "Bosch",
@@ -154,7 +237,7 @@
    "page_url": "https://toolboxtop10.com/cordless-right-angle-drills.html#B00BD5G3UC"
   },
   {
-   "rank": 4,
+   "rank": 6,
    "asin": "B08FF459QJ",
    "name": "Milwaukee M18 FUEL HOLE HAWG 1/2\" Right Angle Drill, Tool Only (2807-20)",
    "brand": "Milwaukee",
@@ -193,88 +276,6 @@
    "image": "https://m.media-amazon.com/images/I/51DVvsBDUvL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B08FF459QJ?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-right-angle-drills.html#B08FF459QJ"
-  },
-  {
-   "rank": 5,
-   "asin": "B0FP8XTTDD",
-   "name": "VEVOR Brushless 3/8\" Cordless Right Angle Drill with Battery and Charger (DJZO5030-10)",
-   "brand": "VEVOR",
-   "model": "DJZO5030-10",
-   "price": 60.29,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 76,
-   "score": 75,
-   "award": "Best Budget",
-   "best_for": "Occasional use on a budget.",
-   "bought_last_month": null,
-   "verdict": "A budget brushless kit with a battery, charger and 45 N-m of torque, for less than a bare Milwaukee.",
-   "pros": [
-    "Brushless kit",
-    "Low price",
-    "High listed torque"
-   ],
-   "cons": [
-    "4.3 stars",
-    "Only 76 reviews"
-   ],
-   "specs": {
-    "chuck": "3/8 in",
-    "torque": "45 N-m (about 400 in-lb)",
-    "speed": null,
-    "platform": "2.0Ah, included",
-    "extras": "Belt clip"
-   },
-   "features": {
-    "brushless": true,
-    "battery_included": true,
-    "torque_300": true,
-    "clutch": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61i8kB623RL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FP8XTTDD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-right-angle-drills.html#B0FP8XTTDD"
-  },
-  {
-   "rank": 6,
-   "asin": "B0GF7RLJ23",
-   "name": "ADOTOCAM Brushless Right Angle Drill for DEWALT 20V Battery, Tool Only (ZJ-001Z)",
-   "brand": "ADOTOCAM",
-   "model": "ZJ-001Z",
-   "price": 79.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 73,
-   "score": 75,
-   "award": null,
-   "best_for": "DEWALT owners who want a cheap right-angle drill.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A DEWALT-battery right-angle drill with a brushless motor and a claimed 400 in-lb, rated 4.8 stars on 73 reviews.",
-   "pros": [
-    "Uses DEWALT batteries",
-    "Brushless",
-    "4.8 stars"
-   ],
-   "cons": [
-    "Third-party tool",
-    "Only 73 reviews"
-   ],
-   "specs": {
-    "chuck": "3/8 in ratchet",
-    "torque": "Up to 400 in-lb (claimed)",
-    "speed": null,
-    "platform": "DEWALT 20V, not included",
-    "extras": null
-   },
-   "features": {
-    "brushless": true,
-    "battery_included": false,
-    "torque_300": true,
-    "clutch": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71f9LtNM3NL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GF7RLJ23?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-right-angle-drills.html#B0GF7RLJ23"
   },
   {
    "rank": 7,

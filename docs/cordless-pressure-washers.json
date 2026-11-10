@@ -23,6 +23,7 @@
    "long_hose": 0.2
   },
   "reviews_ceiling": 1500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 90,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -165,7 +166,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 349,
-   "score": 78,
+   "score": 81,
    "award": null,
    "best_for": "Washing cars, RVs and boats where the longer hose saves moving the water source.",
    "bought_last_month": "900+/mo",
@@ -206,7 +207,7 @@
    "currency": "USD",
    "rating": 3.9,
    "reviews_count": 111,
-   "score": 78,
+   "score": 80,
    "award": null,
    "best_for": "WORX owners who want more cleaning power than the Hydroshot without a cord.",
    "bought_last_month": "50+/mo",
@@ -247,7 +248,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 383,
-   "score": 74,
+   "score": 78,
    "award": null,
    "best_for": "Car washing and patio furniture on a budget, with a spare battery for longer jobs.",
    "bought_last_month": "3K+/mo",
@@ -280,6 +281,47 @@
   },
   {
    "rank": 7,
+   "asin": "B0H7R2S6KS",
+   "name": "MIMYTH Cordless Pressure Washer, Handheld Battery Power Washer with 21V Battery, Foam Pot and 23 ft Hose",
+   "brand": "MIMYTH",
+   "model": "MBBT24015",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 108,
+   "score": 75,
+   "award": null,
+   "best_for": "Washing cars and patio gear from a bucket or faucet, with reach to spare.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "The best-rated of the no-name handhelds at 4.4 stars, with a 23-foot hose, a weighted intake filter for drawing from a bucket or pond, and up to 40 minutes per charge. It uses a brushed 775 motor, so its 1,480 PSI / 3.3 GPM claim is optimistic.",
+   "pros": [
+    "4.4 stars, the highest rating of the budget handhelds",
+    "23 ft hose plus a weighted filter and basket for drawing from open water",
+    "Foam pot and storage case included"
+   ],
+   "cons": [
+    "Brushed 775 motor",
+    "Listed PSI and GPM are not independently rated"
+   ],
+   "specs": {
+    "psi": "1,480 (claimed)",
+    "gpm": "3.3 (claimed)",
+    "battery": "21V (own brand)",
+    "hose": "23 ft",
+    "in_box": "Battery, charger, 6-in-1 nozzle, foam pot, weighted filter, storage case"
+   },
+   "features": {
+    "kit": true,
+    "brand_battery": false,
+    "brushless": false,
+    "long_hose": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71KhV1NWn-L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H7R2S6KS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-pressure-washers.html#B0H7R2S6KS"
+  },
+  {
+   "rank": 8,
    "asin": "B08B4M2KTX",
    "name": "WORX Cordless Pressure Washer, 20V 320 PSI Power Washer, WG620.9 (Tool Only)",
    "brand": "WORX",
@@ -320,47 +362,6 @@
    "page_url": "https://toolboxtop10.com/cordless-pressure-washers.html#B08B4M2KTX"
   },
   {
-   "rank": 8,
-   "asin": "B0H7R2S6KS",
-   "name": "MIMYTH Cordless Pressure Washer, Handheld Battery Power Washer with 21V Battery, Foam Pot and 23 ft Hose",
-   "brand": "MIMYTH",
-   "model": "MBBT24015",
-   "price": 79.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 108,
-   "score": 72,
-   "award": null,
-   "best_for": "Washing cars and patio gear from a bucket or faucet, with reach to spare.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The best-rated of the no-name handhelds at 4.4 stars, with a 23-foot hose, a weighted intake filter for drawing from a bucket or pond, and up to 40 minutes per charge. It uses a brushed 775 motor, so its 1,480 PSI / 3.3 GPM claim is optimistic.",
-   "pros": [
-    "4.4 stars, the highest rating of the budget handhelds",
-    "23 ft hose plus a weighted filter and basket for drawing from open water",
-    "Foam pot and storage case included"
-   ],
-   "cons": [
-    "Brushed 775 motor",
-    "Listed PSI and GPM are not independently rated"
-   ],
-   "specs": {
-    "psi": "1,480 (claimed)",
-    "gpm": "3.3 (claimed)",
-    "battery": "21V (own brand)",
-    "hose": "23 ft",
-    "in_box": "Battery, charger, 6-in-1 nozzle, foam pot, weighted filter, storage case"
-   },
-   "features": {
-    "kit": true,
-    "brand_battery": false,
-    "brushless": false,
-    "long_hose": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71KhV1NWn-L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H7R2S6KS?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-pressure-washers.html#B0H7R2S6KS"
-  },
-  {
    "rank": 9,
    "asin": "B0F32NWV8F",
    "name": "AOODIL Cordless Portable Washer, 800 PSI Battery Operated Handheld Washer with 6-in-1 Nozzle, 2 Batteries, 16 ft Hose, Hard Case",
@@ -370,7 +371,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 153,
-   "score": 68,
+   "score": 69,
    "award": "Best Budget",
    "best_for": "Occasional car rinses and watering on the smallest budget.",
    "bought_last_month": "100+/mo",
@@ -411,7 +412,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 59,
-   "score": 66,
+   "score": 69,
    "award": null,
    "best_for": "Milwaukee M18 owners who want a handheld washer without another battery system.",
    "bought_last_month": "200+/mo",

@@ -24,6 +24,7 @@
    "auto_oil": 0.15
   },
   "reviews_ceiling": 7000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 100,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -76,6 +77,47 @@
   },
   {
    "rank": 2,
+   "asin": "B0H9S39MHZ",
+   "name": "SEESII 40V 16-Inch Brushless Cordless Chainsaw with Two 4.0Ah Batteries (M16 Ace)",
+   "brand": "SEESII",
+   "model": "M16 Ace",
+   "price": 159.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1485,
+   "score": 86,
+   "award": null,
+   "best_for": "Firewood and storm cleanup on a budget.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 16-inch 40V brushless saw with two 4.0Ah batteries and its own 1,485 reviews, for well under EGO's price.",
+   "pros": [
+    "16 in bar",
+    "Two 40V batteries",
+    "4.5 stars"
+   ],
+   "cons": [
+    "Power claim not independently verified"
+   ],
+   "specs": {
+    "bar": "16 in",
+    "battery": "Two 40V 4.0Ah, included",
+    "power": "2,000 W (claimed)",
+    "weight": null,
+    "extras": "Up to 90 min runtime (claimed)"
+   },
+   "features": {
+    "bar_14_plus": true,
+    "battery_included": true,
+    "brushless": true,
+    "tool_free_tension": false,
+    "auto_oil": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71+jDrksz5L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0H9S39MHZ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-chainsaws.html#B0H9S39MHZ"
+  },
+  {
+   "rank": 3,
    "asin": "B0FJF9NVYB",
    "name": "SEESII 12-Inch Brushless Cordless Chainsaw with Two 4.0Ah Batteries (M12 Studio)",
    "brand": "SEESII",
@@ -115,47 +157,6 @@
    "image": "https://m.media-amazon.com/images/I/71L1ypvLjrL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0FJF9NVYB?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-chainsaws.html#B0FJF9NVYB"
-  },
-  {
-   "rank": 3,
-   "asin": "B0H9S39MHZ",
-   "name": "SEESII 40V 16-Inch Brushless Cordless Chainsaw with Two 4.0Ah Batteries (M16 Ace)",
-   "brand": "SEESII",
-   "model": "M16 Ace",
-   "price": 159.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1485,
-   "score": 83,
-   "award": null,
-   "best_for": "Firewood and storm cleanup on a budget.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 16-inch 40V brushless saw with two 4.0Ah batteries and its own 1,485 reviews, for well under EGO's price.",
-   "pros": [
-    "16 in bar",
-    "Two 40V batteries",
-    "4.5 stars"
-   ],
-   "cons": [
-    "Power claim not independently verified"
-   ],
-   "specs": {
-    "bar": "16 in",
-    "battery": "Two 40V 4.0Ah, included",
-    "power": "2,000 W (claimed)",
-    "weight": null,
-    "extras": "Up to 90 min runtime (claimed)"
-   },
-   "features": {
-    "bar_14_plus": true,
-    "battery_included": true,
-    "brushless": true,
-    "tool_free_tension": false,
-    "auto_oil": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71+jDrksz5L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0H9S39MHZ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-chainsaws.html#B0H9S39MHZ"
   },
   {
    "rank": 4,
@@ -416,7 +417,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 533,
-   "score": 64,
+   "score": 65,
    "award": null,
    "best_for": "DEWALT 20V owners who want a light saw for limbs and cleanup.",
    "bought_last_month": "800+/mo",

@@ -24,6 +24,7 @@
    "tripod": 0.15
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 40,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -127,7 +128,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 838,
-   "score": 84,
+   "score": 85,
    "award": null,
    "best_for": "Floor and ceiling layout with everything in the box.",
    "bought_last_month": "2K+/mo",
@@ -169,7 +170,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 4277,
-   "score": 81,
+   "score": 82,
    "award": "Best Budget",
    "best_for": "A green laser with tripod and pulse mode under $40.",
    "bought_last_month": "6K+/mo",
@@ -287,6 +288,48 @@
   },
   {
    "rank": 7,
+   "asin": "B0GTNZBMFH",
+   "name": "RockSeed Cross Line Laser Level, Self-Leveling, Rotatable 360 Degree, 40 Inch Tripod (LV1GT)",
+   "brand": "RockSeed",
+   "model": "LV1GT",
+   "price": 37.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 6215,
+   "score": 78,
+   "award": null,
+   "best_for": "Indoor DIY for under $40.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A best-selling budget cross-line laser with a 40-inch tripod, a rotating base, IP54 sealing and a 2-year service promise.",
+   "pros": [
+    "6,215 reviews; 3,000+ sold last month",
+    "±1/8 in at 30 ft",
+    "IP54, tripod included"
+   ],
+   "cons": [
+    "Red beam",
+    "No pulse mode"
+   ],
+   "specs": {
+    "lines": "Cross line, 110° fan",
+    "beam": "Red",
+    "accuracy": "±1/8 in at 30 ft",
+    "power": "Battery included",
+    "in_box": "40-in tripod, battery, pouch"
+   },
+   "features": {
+    "green": false,
+    "plane_360": false,
+    "rechargeable": false,
+    "pulse": false,
+    "tripod": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61ID7mjX2NL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GTNZBMFH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-levels.html#B0GTNZBMFH"
+  },
+  {
+   "rank": 8,
    "asin": "B0CMDHC899",
    "name": "Klein Tools 93CPLG Compact Self-Leveling Laser Level, 100-Foot",
    "brand": "Klein Tools",
@@ -328,49 +371,49 @@
    "page_url": "https://toolboxtop10.com/laser-levels.html#B0CMDHC899"
   },
   {
-   "rank": 8,
-   "asin": "B0GTNZBMFH",
-   "name": "RockSeed Cross Line Laser Level, Self-Leveling, Rotatable 360 Degree, 40 Inch Tripod (LV1GT)",
-   "brand": "RockSeed",
-   "model": "LV1GT",
-   "price": 37.99,
+   "rank": 9,
+   "asin": "B0FL7BCX8Z",
+   "name": "Lusweimi Laser Level with 50\" Tripod, Self Leveling Green Cross Line Laser, 4 AA Batteries & Pouch",
+   "brand": "Lusweimi",
+   "model": "Green cross line",
+   "price": 34.99,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 6215,
-   "score": 76,
+   "rating": 4.1,
+   "reviews_count": 290,
+   "score": 68,
    "award": null,
-   "best_for": "Indoor DIY for under $40.",
+   "best_for": "Hanging pictures and shelves for under $35.",
    "bought_last_month": "1K+/mo",
-   "verdict": "A best-selling budget cross-line laser with a 40-inch tripod, a rotating base, IP54 sealing and a 2-year service promise.",
+   "verdict": "The cheapest laser here, and it still has a green beam, ±1/9-inch accuracy at 33 feet, a tilt alarm and a 50-inch tripod.",
    "pros": [
-    "6,215 reviews; 3,000+ sold last month",
-    "±1/8 in at 30 ft",
-    "IP54, tripod included"
+    "$34.99 with a 50-inch tripod",
+    "Green beam, ±1/9 in at 33 ft",
+    "Spare batteries included"
    ],
    "cons": [
-    "Red beam",
-    "No pulse mode"
+    "No pulse mode",
+    "Model number not listed"
    ],
    "specs": {
-    "lines": "Cross line, 110° fan",
-    "beam": "Red",
-    "accuracy": "±1/8 in at 30 ft",
-    "power": "Battery included",
-    "in_box": "40-in tripod, battery, pouch"
+    "lines": "Cross line",
+    "beam": "Green",
+    "accuracy": "±1/9 in at 33 ft",
+    "power": "2 AA (4 included)",
+    "in_box": "50-in tripod, 4 AA batteries, pouch"
    },
    "features": {
-    "green": false,
+    "green": true,
     "plane_360": false,
     "rechargeable": false,
     "pulse": false,
     "tripod": true
    },
-   "image": "https://m.media-amazon.com/images/I/61ID7mjX2NL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GTNZBMFH?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-levels.html#B0GTNZBMFH"
+   "image": "https://m.media-amazon.com/images/I/718J2l8cAcL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FL7BCX8Z?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/laser-levels.html#B0FL7BCX8Z"
   },
   {
-   "rank": 9,
+   "rank": 10,
    "asin": "B0CKKK3CK1",
    "name": "BOSCH GLL50-20G 50 Ft Green-Beam Self-Leveling Cross-Line Laser Level",
    "brand": "BOSCH",
@@ -410,48 +453,6 @@
    "image": "https://m.media-amazon.com/images/I/51rnhxCaq9L._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CKKK3CK1?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/laser-levels.html#B0CKKK3CK1"
-  },
-  {
-   "rank": 10,
-   "asin": "B0FL7BCX8Z",
-   "name": "Lusweimi Laser Level with 50\" Tripod, Self Leveling Green Cross Line Laser, 4 AA Batteries & Pouch",
-   "brand": "Lusweimi",
-   "model": "Green cross line",
-   "price": 34.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 290,
-   "score": 66,
-   "award": null,
-   "best_for": "Hanging pictures and shelves for under $35.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "The cheapest laser here, and it still has a green beam, ±1/9-inch accuracy at 33 feet, a tilt alarm and a 50-inch tripod.",
-   "pros": [
-    "$34.99 with a 50-inch tripod",
-    "Green beam, ±1/9 in at 33 ft",
-    "Spare batteries included"
-   ],
-   "cons": [
-    "No pulse mode",
-    "Model number not listed"
-   ],
-   "specs": {
-    "lines": "Cross line",
-    "beam": "Green",
-    "accuracy": "±1/9 in at 33 ft",
-    "power": "2 AA (4 included)",
-    "in_box": "50-in tripod, 4 AA batteries, pouch"
-   },
-   "features": {
-    "green": true,
-    "plane_360": false,
-    "rechargeable": false,
-    "pulse": false,
-    "tripod": true
-   },
-   "image": "https://m.media-amazon.com/images/I/718J2l8cAcL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FL7BCX8Z?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/laser-levels.html#B0FL7BCX8Z"
   }
  ],
  "avoid": [

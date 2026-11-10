@@ -23,57 +23,18 @@
    "bar_8": 0.25
   },
   "reviews_ceiling": 20000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 40,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0FJS7GG29",
+  "best_overall": "B0G7DY678V",
   "best_budget": "B0C1Z9V6N1",
   "money_no_object": "B0C2R4H6YK"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B0FJS7GG29",
-   "name": "SEESII Flagship 8-Inch Brushless Mini Chainsaw, 2 x 4000mAh Batteries (M8 Boost)",
-   "brand": "SEESII",
-   "model": "M8 Boost",
-   "price": 79.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 17397,
-   "score": 90,
-   "award": "Best Overall",
-   "best_for": "Longer pruning sessions.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "SEESII's flagship mini saw with bigger 4.0Ah batteries the seller says give 150+ continuous cuts.",
-   "pros": [
-    "Two 4.0Ah batteries",
-    "Brushless",
-    "8 in bar"
-   ],
-   "cons": [
-    "Reviews shared across SEESII saws"
-   ],
-   "specs": {
-    "bar": "8 in",
-    "battery": "Two 4.0Ah, included",
-    "motor": "1,000 W brushless (claimed)",
-    "weight": null,
-    "extras": "150+ cuts per charge (claimed)"
-   },
-   "features": {
-    "two_batteries": true,
-    "auto_oil": false,
-    "brushless": true,
-    "bar_8": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81nP+5ZfHPL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FJS7GG29?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0FJS7GG29"
-  },
-  {
-   "rank": 2,
    "asin": "B0G7DY678V",
    "name": "SEESII 8 Inch and 6 Inch Brushless Mini Chainsaw with 2 Batteries and Auto Oiler (M8 Max)",
    "brand": "SEESII",
@@ -82,8 +43,8 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 4196,
-   "score": 89,
-   "award": null,
+   "score": 92,
+   "award": "Best Overall",
    "best_for": "The best all-round mini saw for the money.",
    "bought_last_month": "1K+/mo",
    "verdict": "SEESII's step-up mini saw: brushless, an auto oiler, both bar sizes and two batteries at 3.2 lb.",
@@ -113,6 +74,46 @@
    "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0G7DY678V"
   },
   {
+   "rank": 2,
+   "asin": "B0FJS7GG29",
+   "name": "SEESII Flagship 8-Inch Brushless Mini Chainsaw, 2 x 4000mAh Batteries (M8 Boost)",
+   "brand": "SEESII",
+   "model": "M8 Boost",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 17397,
+   "score": 90,
+   "award": null,
+   "best_for": "Longer pruning sessions.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "SEESII's flagship mini saw with bigger 4.0Ah batteries the seller says give 150+ continuous cuts.",
+   "pros": [
+    "Two 4.0Ah batteries",
+    "Brushless",
+    "8 in bar"
+   ],
+   "cons": [
+    "Reviews shared across SEESII saws"
+   ],
+   "specs": {
+    "bar": "8 in",
+    "battery": "Two 4.0Ah, included",
+    "motor": "1,000 W brushless (claimed)",
+    "weight": null,
+    "extras": "150+ cuts per charge (claimed)"
+   },
+   "features": {
+    "two_batteries": true,
+    "auto_oil": false,
+    "brushless": true,
+    "bar_8": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81nP+5ZfHPL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FJS7GG29?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/mini-chainsaws.html#B0FJS7GG29"
+  },
+  {
    "rank": 3,
    "asin": "B0FLDGFDB6",
    "name": "Supstable Mini Chainsaw with 8 Inch and 6 Inch Bars, 1000W Brushless, 2 Batteries (BL-168)",
@@ -122,7 +123,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 5199,
-   "score": 85,
+   "score": 86,
    "award": null,
    "best_for": "Users who want an 8-inch option on a budget.",
    "bought_last_month": "2K+/mo",

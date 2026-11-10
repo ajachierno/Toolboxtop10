@@ -24,6 +24,7 @@
    "ansi": 0.2
   },
   "reviews_ceiling": 5000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -203,6 +204,48 @@
   },
   {
    "rank": 5,
+   "asin": "B0GY3MRZG2",
+   "name": "LARBANKE 3 Ton Hydraulic Floor Jack, 6600 LBS, Lift Range 5.31\"-18.11\" (S460-X)",
+   "brand": "LARBANKE",
+   "model": "S460-X",
+   "price": 95.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 630,
+   "score": 77,
+   "award": null,
+   "best_for": "SUVs and standard-height cars.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A 3-ton carbon-steel jack with an 18-inch lift, padded saddle and handle, and steel casters, and at 46 lbs it's the lightest of the 3-ton jacks here that list a weight.",
+   "pros": [
+    "18.11-in lift",
+    "46 lbs for a 3-ton",
+    "4.5 stars"
+   ],
+   "cons": [
+    "Pump type and warranty not listed",
+    "5.31-in entry"
+   ],
+   "specs": {
+    "capacity": "3 ton (6,600 lb)",
+    "range": "5.31 to 18.11 in",
+    "pump": null,
+    "weight": "46 lb",
+    "warranty": null
+   },
+   "features": {
+    "dual_piston": false,
+    "low_profile": false,
+    "high_lift": true,
+    "three_ton": true,
+    "ansi": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71bgxqVs63L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GY3MRZG2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/floor-jacks.html#B0GY3MRZG2"
+  },
+  {
+   "rank": 6,
    "asin": "B0BT8XB4MK",
    "name": "VEVOR 2.5 Ton Low Profile Heavy-Duty Steel Racing Floor Jack (S385)",
    "brand": "VEVOR",
@@ -244,7 +287,7 @@
    "page_url": "https://toolboxtop10.com/floor-jacks.html#B0BT8XB4MK"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B0DP7QCCMX",
    "name": "Maxority 3-Ton (6600lbs) Low Profile Hydraulic Heavy-Duty Steel Floor Jack with Dual Pistons Quick Lift Pump",
    "brand": "Maxority",
@@ -286,7 +329,7 @@
    "page_url": "https://toolboxtop10.com/floor-jacks.html#B0DP7QCCMX"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "asin": "B0D2V3L271",
    "name": "AV Steel 3 Ton Floor Jack (6000 lbs), Single Piston, Lift Range 5.5\" to 18.5\" (AV-300101F)",
    "brand": "AV Steel",
@@ -326,48 +369,6 @@
    "image": "https://m.media-amazon.com/images/I/719KkcMBRJL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0D2V3L271?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/floor-jacks.html#B0D2V3L271"
-  },
-  {
-   "rank": 8,
-   "asin": "B0GY3MRZG2",
-   "name": "LARBANKE 3 Ton Hydraulic Floor Jack, 6600 LBS, Lift Range 5.31\"-18.11\" (S460-X)",
-   "brand": "LARBANKE",
-   "model": "S460-X",
-   "price": 95.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 630,
-   "score": 74,
-   "award": null,
-   "best_for": "SUVs and standard-height cars.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A 3-ton carbon-steel jack with an 18-inch lift, padded saddle and handle, and steel casters, and at 46 lbs it's the lightest of the 3-ton jacks here that list a weight.",
-   "pros": [
-    "18.11-in lift",
-    "46 lbs for a 3-ton",
-    "4.5 stars"
-   ],
-   "cons": [
-    "Pump type and warranty not listed",
-    "5.31-in entry"
-   ],
-   "specs": {
-    "capacity": "3 ton (6,600 lb)",
-    "range": "5.31 to 18.11 in",
-    "pump": null,
-    "weight": "46 lb",
-    "warranty": null
-   },
-   "features": {
-    "dual_piston": false,
-    "low_profile": false,
-    "high_lift": true,
-    "three_ton": true,
-    "ansi": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71bgxqVs63L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GY3MRZG2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/floor-jacks.html#B0GY3MRZG2"
   },
   {
    "rank": 9,

@@ -24,6 +24,7 @@
    "power_strip": 0.2
   },
   "reviews_ceiling": 2000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 200,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -184,7 +185,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 428,
-   "score": 76,
+   "score": 78,
    "award": null,
    "best_for": "The most drawers for about $170, with a bottom cabinet.",
    "bought_last_month": "200+/mo",
@@ -270,53 +271,6 @@
   },
   {
    "rank": 6,
-   "asin": "B0FFSJBBR9",
-   "name": "Maxority 7-Drawer Heavy-Duty Rolling Tool Chest with Lock",
-   "brand": "Maxority",
-   "model": "AMAX2207-PRO",
-   "price": 169.99,
-   "currency": "USD",
-   "rating": 4.1,
-   "reviews_count": 110,
-   "score": 70,
-   "award": null,
-   "best_for": "Ball-bearing drawers and a keyed lock for under $170.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The cheapest ball-bearing drawers on the page. Seven drawers on real ball-bearing slides with a keyed lock, all under $170.",
-   "pros": [
-    "Ball-bearing slides on all seven drawers",
-    "Keyed lock",
-    "All four swivel casters lock",
-    "30 in tall, so it slides under most benches"
-   ],
-   "cons": [
-    "No per-drawer or total load rating given",
-    "One-piece unit, no detachable top box",
-    "Some assembly required"
-   ],
-   "specs": {
-    "drawers": "7",
-    "width": "24 in",
-    "capacity": null,
-    "slides": "Ball-bearing",
-    "material": "Steel",
-    "casters": "4 locking swivel",
-    "lock_type": "Keyed",
-    "weight": "60 lb"
-   },
-   "features": {
-    "ball_bearing": true,
-    "lock": true,
-    "riser": false,
-    "wood_top": false,
-    "power_strip": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71GzRTW-K3L._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FFSJBBR9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0FFSJBBR9"
-  },
-  {
-   "rank": 7,
    "asin": "B0FNP7X1P1",
    "name": "VEVOR 2-in-1 Rolling Tool Chest, 5 Drawers with Detachable Top Toolbox",
    "brand": "VEVOR",
@@ -325,7 +279,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 188,
-   "score": 69,
+   "score": 72,
    "award": null,
    "best_for": "A Goplus alternative with a better rating and a pegboard side.",
    "bought_last_month": "100+/mo",
@@ -361,6 +315,53 @@
    "image": "https://m.media-amazon.com/images/I/71LgMOJodBL._AC_SX522_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0FNP7X1P1?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0FNP7X1P1"
+  },
+  {
+   "rank": 7,
+   "asin": "B0FFSJBBR9",
+   "name": "Maxority 7-Drawer Heavy-Duty Rolling Tool Chest with Lock",
+   "brand": "Maxority",
+   "model": "AMAX2207-PRO",
+   "price": 169.99,
+   "currency": "USD",
+   "rating": 4.1,
+   "reviews_count": 110,
+   "score": 72,
+   "award": null,
+   "best_for": "Ball-bearing drawers and a keyed lock for under $170.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The cheapest ball-bearing drawers on the page. Seven drawers on real ball-bearing slides with a keyed lock, all under $170.",
+   "pros": [
+    "Ball-bearing slides on all seven drawers",
+    "Keyed lock",
+    "All four swivel casters lock",
+    "30 in tall, so it slides under most benches"
+   ],
+   "cons": [
+    "No per-drawer or total load rating given",
+    "One-piece unit, no detachable top box",
+    "Some assembly required"
+   ],
+   "specs": {
+    "drawers": "7",
+    "width": "24 in",
+    "capacity": null,
+    "slides": "Ball-bearing",
+    "material": "Steel",
+    "casters": "4 locking swivel",
+    "lock_type": "Keyed",
+    "weight": "60 lb"
+   },
+   "features": {
+    "ball_bearing": true,
+    "lock": true,
+    "riser": false,
+    "wood_top": false,
+    "power_strip": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71GzRTW-K3L._AC_SX522_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FFSJBBR9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/rolling-tool-chests.html#B0FFSJBBR9"
   },
   {
    "rank": 8,
@@ -419,7 +420,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 96,
-   "score": 64,
+   "score": 66,
    "award": null,
    "best_for": "A 55 in rolling workbench rated for 1,000 lb at a third of the WORKPRO's price.",
    "bought_last_month": "100+/mo",

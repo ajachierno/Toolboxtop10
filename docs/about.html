@@ -96,7 +96,14 @@
       <li><b>Star rating.</b> The Amazon average, out of 5.</li>
       <li><b>Number of reviews.</b> More reviews mean more confidence that the rating is real. This part
       is on a log scale, so each tenfold jump in reviews adds the same amount, and it tops out at a
-      ceiling set per category. A tool with a few hundred reviews can still score well.</li>
+      ceiling set per category. A tool with a few hundred reviews can still score well. Newer tools get
+      credit for having had less time to collect reviews: if a listing has been on Amazon for under two
+      years and has at least 30 reviews, its count is scaled up by 24 divided by its age in months (a
+      one-year-old listing's reviews count double), never more than double. Older listings keep their
+      count as is. We use Amazon's &ldquo;Date First Available&rdquo; when the listing shows it; most
+      don't, so we estimate the date from the product's Amazon ID, which Amazon assigns in roughly date
+      order (checked against 339 listings with a known date, the estimate is
+      usually within two months).</li>
       <li><b>Features.</b> The features that matter for that kind of tool, each with its own weight. A
       product only gets credit for a feature its listing states.</li>
     </ul>

@@ -24,6 +24,7 @@
    "long_warranty": 0.15
   },
   "reviews_ceiling": 1000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 1300,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -170,7 +171,7 @@
    "currency": "USD",
    "rating": 3.7,
    "reviews_count": 240,
-   "score": 65,
+   "score": 66,
    "award": null,
    "best_for": "A portable lift with remote control and the most reviews of the portables here.",
    "bought_last_month": null,

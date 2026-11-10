@@ -23,6 +23,7 @@
    "long_throw": 0.2
   },
   "reviews_ceiling": 2500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 160,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -34,6 +35,48 @@
  "products": [
   {
    "rank": 1,
+   "asin": "B0HJ1C59F9",
+   "name": "VOLTASK 48V 16-Inch Cordless Snow Shovel with Wheels, 1200W Brushless Motor, (2) 24V 4.0Ah Batteries and Dual Charger",
+   "brand": "VOLTASK",
+   "model": "CSS004-160ARO",
+   "price": 206.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 1118,
+   "score": 93,
+   "award": null,
+   "best_for": "Walkways, decks and short driveways after light snow.",
+   "bought_last_month": "700+/mo",
+   "verdict": "A powered shovel that rolls on small wheels and runs two 24V packs as 48V. It's wider than the usual 12-13 in shovel, and it's Amazon's Choice for cordless snow blowers.",
+   "pros": [
+    "16 in path with a brushless motor",
+    "Wheels carry the weight",
+    "Two batteries and a dual charger included"
+   ],
+   "cons": [
+    "Deflector turns only 30 degrees each way",
+    "Not a true walk-behind blower"
+   ],
+   "specs": {
+    "type": "Snow shovel with wheels",
+    "width": "16 in",
+    "depth": "8 in",
+    "throw": "Up to 26 ft",
+    "battery": "2x 24V 4.0Ah, included",
+    "runtime": null
+   },
+   "features": {
+    "battery_included": true,
+    "wide_path": true,
+    "brushless": true,
+    "long_throw": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71Mgw3DJvyL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HJ1C59F9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-snow-blowers.html#B0HJ1C59F9"
+  },
+  {
+   "rank": 2,
    "asin": "B09FQ2WSKK",
    "name": "EGO Power+ 21\" Cordless Snow Blower with Steel Auger, (2) 56V 5.0Ah Batteries and Dual Port Charger (SNT2112)",
    "brand": "EGO",
@@ -73,48 +116,6 @@
    "image": "https://m.media-amazon.com/images/I/71fck-oENFL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09FQ2WSKK?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-snow-blowers.html#B09FQ2WSKK"
-  },
-  {
-   "rank": 2,
-   "asin": "B0HJ1C59F9",
-   "name": "VOLTASK 48V 16-Inch Cordless Snow Shovel with Wheels, 1200W Brushless Motor, (2) 24V 4.0Ah Batteries and Dual Charger",
-   "brand": "VOLTASK",
-   "model": "CSS004-160ARO",
-   "price": 206.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1118,
-   "score": 90,
-   "award": null,
-   "best_for": "Walkways, decks and short driveways after light snow.",
-   "bought_last_month": "700+/mo",
-   "verdict": "A powered shovel that rolls on small wheels and runs two 24V packs as 48V. It's wider than the usual 12-13 in shovel, and it's Amazon's Choice for cordless snow blowers.",
-   "pros": [
-    "16 in path with a brushless motor",
-    "Wheels carry the weight",
-    "Two batteries and a dual charger included"
-   ],
-   "cons": [
-    "Deflector turns only 30 degrees each way",
-    "Not a true walk-behind blower"
-   ],
-   "specs": {
-    "type": "Snow shovel with wheels",
-    "width": "16 in",
-    "depth": "8 in",
-    "throw": "Up to 26 ft",
-    "battery": "2x 24V 4.0Ah, included",
-    "runtime": null
-   },
-   "features": {
-    "battery_included": true,
-    "wide_path": true,
-    "brushless": true,
-    "long_throw": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71Mgw3DJvyL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HJ1C59F9?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-snow-blowers.html#B0HJ1C59F9"
   },
   {
    "rank": 3,
@@ -252,7 +253,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 370,
-   "score": 76,
+   "score": 79,
    "award": null,
    "best_for": "A low-cost shovel for a porch, deck or short walk.",
    "bought_last_month": "100+/mo",

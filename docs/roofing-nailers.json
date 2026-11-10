@@ -24,6 +24,7 @@
    "carbide_tip": 0.15
   },
   "reviews_ceiling": 2500,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 110,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -354,6 +355,46 @@
   },
   {
    "rank": 9,
+   "asin": "B0FBWLY5VL",
+   "name": "toolant Pneumatic Roofing Coil Nailer, 3/4 to 1-3/4 Inch, 15 Degree",
+   "brand": "toolant",
+   "model": "TA01105",
+   "price": 229.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 179,
+   "score": 65,
+   "award": null,
+   "best_for": "DIYers who want a big-brand look for less.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A roofing nailer toolant says is tested to over 500,000 shots, with an aluminum shell and a 120-nail coil.",
+   "pros": [
+    "800+ sold last month",
+    "Tested to 500,000 shots"
+   ],
+   "cons": [
+    "Expensive for a value brand",
+    "Only 179 reviews"
+   ],
+   "specs": {
+    "nails": "15° coil, 3/4 to 1-3/4 in",
+    "power": "Pneumatic, 70-120 PSI",
+    "weight": "5.7 lb",
+    "extras": "Up to 3 nails per second, tested to 500,000 shots, aluminum shell"
+   },
+   "features": {
+    "depth_adjust": false,
+    "selectable_trigger": false,
+    "shingle_guide": false,
+    "dry_fire_lockout": false,
+    "carbide_tip": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71WYu9al+FL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FBWLY5VL?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/roofing-nailers.html#B0FBWLY5VL"
+  },
+  {
+   "rank": 10,
    "asin": "B088Y413MP",
    "name": "DEWALT DCN45RND1 20V MAX Cordless 15 Degree Coil Roofing Nailer Kit",
    "brand": "DEWALT",
@@ -391,46 +432,6 @@
    "image": "https://m.media-amazon.com/images/I/61Jcgaow-qL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B088Y413MP?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/roofing-nailers.html#B088Y413MP"
-  },
-  {
-   "rank": 10,
-   "asin": "B0FBWLY5VL",
-   "name": "toolant Pneumatic Roofing Coil Nailer, 3/4 to 1-3/4 Inch, 15 Degree",
-   "brand": "toolant",
-   "model": "TA01105",
-   "price": 229.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 179,
-   "score": 64,
-   "award": null,
-   "best_for": "DIYers who want a big-brand look for less.",
-   "bought_last_month": "900+/mo",
-   "verdict": "A roofing nailer toolant says is tested to over 500,000 shots, with an aluminum shell and a 120-nail coil.",
-   "pros": [
-    "800+ sold last month",
-    "Tested to 500,000 shots"
-   ],
-   "cons": [
-    "Expensive for a value brand",
-    "Only 179 reviews"
-   ],
-   "specs": {
-    "nails": "15° coil, 3/4 to 1-3/4 in",
-    "power": "Pneumatic, 70-120 PSI",
-    "weight": "5.7 lb",
-    "extras": "Up to 3 nails per second, tested to 500,000 shots, aluminum shell"
-   },
-   "features": {
-    "depth_adjust": false,
-    "selectable_trigger": false,
-    "shingle_guide": false,
-    "dry_fire_lockout": false,
-    "carbide_tip": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71WYu9al+FL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FBWLY5VL?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/roofing-nailers.html#B0FBWLY5VL"
   }
  ],
  "avoid": [

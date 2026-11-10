@@ -23,6 +23,7 @@
    "kit": 0.35
   },
   "reviews_ceiling": 6000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 70,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -128,7 +129,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 293,
-   "score": 78,
+   "score": 79,
    "award": null,
    "best_for": "Crafters and hobbyists doing shrink tubing, resin and vinyl with no battery platform.",
    "bought_last_month": "1K+/mo",
@@ -216,7 +217,7 @@
    "currency": "USD",
    "rating": 4.0,
    "reviews_count": 130,
-   "score": 73,
+   "score": 75,
    "award": null,
    "best_for": "Occasional users who want a full kit under $55, or Makita owners after spare packs.",
    "bought_last_month": null,

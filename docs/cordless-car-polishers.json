@@ -23,6 +23,7 @@
    "platform": 0.2
   },
   "reviews_ceiling": 3000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 45,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -116,6 +117,47 @@
   },
   {
    "rank": 3,
+   "asin": "B0FH6CPT28",
+   "name": "Niusken Cordless Car Buffer Polisher Kit, DA Polisher with 2 x 21V Batteries (PGJ-21V)",
+   "brand": "Niusken",
+   "model": "PGJ-21V",
+   "price": 53.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 1217,
+   "score": 84,
+   "award": null,
+   "best_for": "A complete beginner kit.",
+   "bought_last_month": "4K+/mo",
+   "verdict": "The best-selling cordless polisher here: a 3.3 lb random orbital kit with an LED speed display, two batteries, a fast charger and pads in two sizes.",
+   "pros": [
+    "5,000+ sold last month",
+    "LED speed display",
+    "3.3 lbs"
+   ],
+   "cons": [
+    "Brushed motor",
+    "Warranty not listed"
+   ],
+   "specs": {
+    "type": "Random orbital",
+    "battery": "2 x 21V 2.0Ah (included)",
+    "speed": "6 speeds, 2,800-5,800 rpm",
+    "pad": "5-in backing plate",
+    "in_box": "2 batteries, fast charger, 5 and 6-in pads"
+   },
+   "features": {
+    "dual_action": true,
+    "kit": true,
+    "brushless": false,
+    "platform": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81EYfO9o1aL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FH6CPT28?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-car-polishers.html#B0FH6CPT28"
+  },
+  {
+   "rank": 4,
    "asin": "B09QPQN84R",
    "name": "SPTA Cordless Car Buffer Polisher, 12V Brushless, 2 Batteries, Variable Speed (LD601US-MIX)",
    "brand": "SPTA",
@@ -156,7 +198,7 @@
    "page_url": "https://toolboxtop10.com/cordless-car-polishers.html#B09QPQN84R"
   },
   {
-   "rank": 4,
+   "rank": 5,
    "asin": "B07YQJLYNR",
    "name": "DEWALT 20V MAX XR Cordless Polisher, Rotary, Variable Speed, 7-Inch, Tool Only (DCM849B)",
    "brand": "DEWALT",
@@ -195,47 +237,6 @@
    "image": "https://m.media-amazon.com/images/I/51TaNc5IQhL._AC_SL1000_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07YQJLYNR?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-car-polishers.html#B07YQJLYNR"
-  },
-  {
-   "rank": 5,
-   "asin": "B0FH6CPT28",
-   "name": "Niusken Cordless Car Buffer Polisher Kit, DA Polisher with 2 x 21V Batteries (PGJ-21V)",
-   "brand": "Niusken",
-   "model": "PGJ-21V",
-   "price": 53.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 1217,
-   "score": 82,
-   "award": null,
-   "best_for": "A complete beginner kit.",
-   "bought_last_month": "4K+/mo",
-   "verdict": "The best-selling cordless polisher here: a 3.3 lb random orbital kit with an LED speed display, two batteries, a fast charger and pads in two sizes.",
-   "pros": [
-    "5,000+ sold last month",
-    "LED speed display",
-    "3.3 lbs"
-   ],
-   "cons": [
-    "Brushed motor",
-    "Warranty not listed"
-   ],
-   "specs": {
-    "type": "Random orbital",
-    "battery": "2 x 21V 2.0Ah (included)",
-    "speed": "6 speeds, 2,800-5,800 rpm",
-    "pad": "5-in backing plate",
-    "in_box": "2 batteries, fast charger, 5 and 6-in pads"
-   },
-   "features": {
-    "dual_action": true,
-    "kit": true,
-    "brushless": false,
-    "platform": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81EYfO9o1aL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FH6CPT28?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-car-polishers.html#B0FH6CPT28"
   },
   {
    "rank": 6,

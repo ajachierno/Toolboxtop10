@@ -23,6 +23,7 @@
    "kit": 0.15
   },
   "reviews_ceiling": 5000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 70,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -206,7 +207,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 284,
-   "score": 74,
+   "score": 75,
    "award": "Best Budget",
    "best_for": "DEWALT battery owners who plane a few times a year and want to spend less.",
    "bought_last_month": "100+/mo",
@@ -280,6 +281,47 @@
   },
   {
    "rank": 7,
+   "asin": "B0FR4FN9VB",
+   "name": "TengXcel Brushless Cordless Planer for DeWalt 20V Battery, 3-1/4 in, 2 mm Depth, Tool Only (EPT698S)",
+   "brand": "TengXcel",
+   "model": "EPT698S",
+   "price": 73.14,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 58,
+   "score": 72,
+   "award": null,
+   "best_for": "DEWALT 20V or 60V Flex owners who want a V-groove for chamfers.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A brushless DEWALT-battery planer with matched front and rear shoes and a V-groove in the front shoe for chamfering. TengXcel also sells the same EPT698S for Milwaukee 18V batteries.",
+   "pros": [
+    "Works with 20V MAX and 60V Flex packs",
+    "V-groove for chamfers",
+    "4.5 stars"
+   ],
+   "cons": [
+    "58 reviews",
+    "Unknown brand"
+   ],
+   "specs": {
+    "battery": "Fits DEWALT 20V MAX / 60V Flex (not included)",
+    "width": "3-1/4 in",
+    "depth": "5/64 in (2 mm)",
+    "speed": "30,000 cuts/min",
+    "extras": "V-groove front shoe"
+   },
+   "features": {
+    "brushless": true,
+    "full_width": true,
+    "name_brand": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61Hefe8nsKL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FR4FN9VB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0FR4FN9VB"
+  },
+  {
+   "rank": 8,
    "asin": "B09MJQ37GY",
    "name": "WEN 20653 20V Max Brushless Cordless 3-1/4-Inch Planer with 4.0 Ah Battery and Charger",
    "brand": "WEN",
@@ -320,7 +362,7 @@
    "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B09MJQ37GY"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "asin": "B0GT6P7LHH",
    "name": "CRAFTSMAN V20 Cordless Brushless Hand Planer, 3-1/4 In., with Dust Bag, Tool Only (CMCW350B)",
    "brand": "CRAFTSMAN",
@@ -359,47 +401,6 @@
    "image": "https://m.media-amazon.com/images/I/71hqVMWnzuL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0GT6P7LHH?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0GT6P7LHH"
-  },
-  {
-   "rank": 9,
-   "asin": "B0FR4FN9VB",
-   "name": "TengXcel Brushless Cordless Planer for DeWalt 20V Battery, 3-1/4 in, 2 mm Depth, Tool Only (EPT698S)",
-   "brand": "TengXcel",
-   "model": "EPT698S",
-   "price": 73.14,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 58,
-   "score": 69,
-   "award": null,
-   "best_for": "DEWALT 20V or 60V Flex owners who want a V-groove for chamfers.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A brushless DEWALT-battery planer with matched front and rear shoes and a V-groove in the front shoe for chamfering. TengXcel also sells the same EPT698S for Milwaukee 18V batteries.",
-   "pros": [
-    "Works with 20V MAX and 60V Flex packs",
-    "V-groove for chamfers",
-    "4.5 stars"
-   ],
-   "cons": [
-    "58 reviews",
-    "Unknown brand"
-   ],
-   "specs": {
-    "battery": "Fits DEWALT 20V MAX / 60V Flex (not included)",
-    "width": "3-1/4 in",
-    "depth": "5/64 in (2 mm)",
-    "speed": "30,000 cuts/min",
-    "extras": "V-groove front shoe"
-   },
-   "features": {
-    "brushless": true,
-    "full_width": true,
-    "name_brand": false,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61Hefe8nsKL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FR4FN9VB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hand-planers.html#B0FR4FN9VB"
   },
   {
    "rank": 10,

@@ -23,6 +23,7 @@
    "accessories": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 45,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -82,7 +83,7 @@
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 4140,
-   "score": 94,
+   "score": 97,
    "award": "Money No Object",
    "best_for": "Shops that want every size and accessory.",
    "bought_last_month": "700+/mo",
@@ -156,6 +157,47 @@
   },
   {
    "rank": 4,
+   "asin": "B0GZ2CHJL2",
+   "name": "HORUSDY 32-Piece 1/2-Inch Drive Impact Socket Set, Metric 10-24 mm and SAE 3/8-1 Inch (84153)",
+   "brand": "HORUSDY",
+   "model": "84153",
+   "price": 41.99,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 5140,
+   "score": 91,
+   "award": null,
+   "best_for": "Budget buyers who want deep sockets with rust protection.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A 32-piece deep socket set with a manganese phosphate coating and anti-rust oil, plus extensions and a swivel joint.",
+   "pros": [
+    "5,140 reviews",
+    "Anti-rust coating",
+    "About $40"
+   ],
+   "cons": [
+    "Deep only",
+    "4.6 stars"
+   ],
+   "specs": {
+    "drive": "1/2 in",
+    "pieces": "32",
+    "sizes": "3/8 to 1 in, 10-24 mm",
+    "steel": "Cr-V, manganese phosphate",
+    "extras": "Extensions, swivel universal joint, adapter"
+   },
+   "features": {
+    "half_inch": true,
+    "deep_shallow": false,
+    "case": true,
+    "accessories": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71t8yBwoMhL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GZ2CHJL2?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/impact-socket-sets.html#B0GZ2CHJL2"
+  },
+  {
+   "rank": 5,
    "asin": "B0CC1Z35Y7",
    "name": "SEDY 29-Piece 1/2-Inch Drive Impact Socket Set, SAE 3/8 to 1 Inch and Metric 10-24 mm (84018)",
    "brand": "SEDY",
@@ -195,7 +237,7 @@
    "page_url": "https://toolboxtop10.com/impact-socket-sets.html#B0CC1Z35Y7"
   },
   {
-   "rank": 5,
+   "rank": 6,
    "asin": "B07RGBXTQ2",
    "name": "CASOMAN 3/8-Inch Drive Impact Socket Set, 49 Piece, SAE and Metric (CS041)",
    "brand": "CASOMAN",
@@ -235,35 +277,34 @@
    "page_url": "https://toolboxtop10.com/impact-socket-sets.html#B07RGBXTQ2"
   },
   {
-   "rank": 6,
-   "asin": "B0GZ2CHJL2",
-   "name": "HORUSDY 32-Piece 1/2-Inch Drive Impact Socket Set, Metric 10-24 mm and SAE 3/8-1 Inch (84153)",
-   "brand": "HORUSDY",
-   "model": "84153",
-   "price": 41.99,
+   "rank": 7,
+   "asin": "B0F8BKVY1S",
+   "name": "OTLOOMTBT 32-Piece 1/2-Inch Drive Impact Socket Set, SAE and Metric Deep Sockets",
+   "brand": "OTLOOMTBT",
+   "model": "32-piece",
+   "price": 45.99,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 5140,
-   "score": 89,
+   "rating": 4.8,
+   "reviews_count": 1635,
+   "score": 88,
    "award": null,
-   "best_for": "Budget buyers who want deep sockets with rust protection.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A 32-piece deep socket set with a manganese phosphate coating and anti-rust oil, plus extensions and a swivel joint.",
+   "best_for": "Lug nuts and long studs where deep sockets help.",
+   "bought_last_month": "2K+/mo",
+   "verdict": "A 32-piece set of 78 mm deep sockets in every metric size from 10 to 24 mm plus 11 SAE, with extensions and a universal joint.",
    "pros": [
-    "5,140 reviews",
-    "Anti-rust coating",
-    "About $40"
+    "Every metric size 10-24 mm",
+    "Deep sockets",
+    "4.8 stars"
    ],
    "cons": [
-    "Deep only",
-    "4.6 stars"
+    "Deep only"
    ],
    "specs": {
     "drive": "1/2 in",
     "pieces": "32",
-    "sizes": "3/8 to 1 in, 10-24 mm",
-    "steel": "Cr-V, manganese phosphate",
-    "extras": "Extensions, swivel universal joint, adapter"
+    "sizes": "10-24 mm plus 11 SAE",
+    "steel": "Cr-V",
+    "extras": "3, 5 and 10 in extensions, universal joint, 3/8 to 1/2 adapter, case"
    },
    "features": {
     "half_inch": true,
@@ -271,12 +312,12 @@
     "case": true,
     "accessories": true
    },
-   "image": "https://m.media-amazon.com/images/I/71t8yBwoMhL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GZ2CHJL2?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/impact-socket-sets.html#B0GZ2CHJL2"
+   "image": "https://m.media-amazon.com/images/I/71NBjT6udBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F8BKVY1S?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/impact-socket-sets.html#B0F8BKVY1S"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "asin": "B0CQYKL24F",
    "name": "VEVOR 1/2-Inch Drive Impact Socket Set, 65 Piece, SAE 3/8 to 1-1/4 Inch and Metric 10-24 mm",
    "brand": "VEVOR",
@@ -314,46 +355,6 @@
    "image": "https://m.media-amazon.com/images/I/71G4SaaDfYL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CQYKL24F?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/impact-socket-sets.html#B0CQYKL24F"
-  },
-  {
-   "rank": 8,
-   "asin": "B0F8BKVY1S",
-   "name": "OTLOOMTBT 32-Piece 1/2-Inch Drive Impact Socket Set, SAE and Metric Deep Sockets",
-   "brand": "OTLOOMTBT",
-   "model": "32-piece",
-   "price": 45.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 1635,
-   "score": 86,
-   "award": null,
-   "best_for": "Lug nuts and long studs where deep sockets help.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A 32-piece set of 78 mm deep sockets in every metric size from 10 to 24 mm plus 11 SAE, with extensions and a universal joint.",
-   "pros": [
-    "Every metric size 10-24 mm",
-    "Deep sockets",
-    "4.8 stars"
-   ],
-   "cons": [
-    "Deep only"
-   ],
-   "specs": {
-    "drive": "1/2 in",
-    "pieces": "32",
-    "sizes": "10-24 mm plus 11 SAE",
-    "steel": "Cr-V",
-    "extras": "3, 5 and 10 in extensions, universal joint, 3/8 to 1/2 adapter, case"
-   },
-   "features": {
-    "half_inch": true,
-    "deep_shallow": false,
-    "case": true,
-    "accessories": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71NBjT6udBL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F8BKVY1S?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/impact-socket-sets.html#B0F8BKVY1S"
   },
   {
    "rank": 9,

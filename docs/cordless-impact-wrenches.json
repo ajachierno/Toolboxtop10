@@ -22,6 +22,7 @@
    "multi_mode": 0.3
   },
   "reviews_ceiling": 5000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 80,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -287,7 +288,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 772,
-   "score": 82,
+   "score": 84,
    "award": null,
    "best_for": "A car-tire kit with sockets, case and two batteries.",
    "bought_last_month": "700+/mo",
@@ -327,7 +328,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 254,
-   "score": 80,
+   "score": 82,
    "award": null,
    "best_for": "Tire changes and mower blades with a compact two-battery kit.",
    "bought_last_month": "700+/mo",

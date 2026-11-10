@@ -23,6 +23,7 @@
    "dual_action": 0.25
   },
   "reviews_ceiling": 8000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 60,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -123,7 +124,7 @@
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 526,
-   "score": 88,
+   "score": 90,
    "award": null,
    "best_for": "Budget buyers who want full features.",
    "bought_last_month": "400+/mo",
@@ -278,6 +279,47 @@
   },
   {
    "rank": 7,
+   "asin": "B0DQPB23MB",
+   "name": "DocSmart Brushless Cordless Hedge Trimmer with Two Batteries (HT02-B)",
+   "brand": "DocSmart",
+   "model": "HT02-B",
+   "price": 59.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1272,
+   "score": 79,
+   "award": null,
+   "best_for": "Budget buyers who want brushless.",
+   "bought_last_month": "600+/mo",
+   "verdict": "A brushless budget trimmer with two batteries the seller says give 120 minutes combined.",
+   "pros": [
+    "Brushless",
+    "Two batteries",
+    "1,272 reviews"
+   ],
+   "cons": [
+    "Unknown brand",
+    "Under 22 in blade"
+   ],
+   "specs": {
+    "blade": "20.67 in dual-action",
+    "capacity": "2/3 in",
+    "battery": "Two 2.0Ah, included",
+    "weight": null,
+    "extras": "Brushless, 120 min runtime claimed"
+   },
+   "features": {
+    "blade_22_plus": false,
+    "battery_included": true,
+    "cut_3_4": false,
+    "dual_action": true
+   },
+   "image": "https://m.media-amazon.com/images/I/715GPIUdPWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DQPB23MB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0DQPB23MB"
+  },
+  {
+   "rank": 8,
    "asin": "B07JQ3TLZ4",
    "name": "BLACK+DECKER 20V MAX 18\" Cordless Hedge Trimmer with Battery (LHT218C1)",
    "brand": "BLACK+DECKER",
@@ -318,7 +360,7 @@
    "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B07JQ3TLZ4"
   },
   {
-   "rank": 8,
+   "rank": 9,
    "asin": "B0CLSF59XP",
    "name": "Greenworks 80V 26\" Brushless Cordless Hedge Trimmer, 2.0Ah Battery (2216802)",
    "brand": "Greenworks",
@@ -359,47 +401,6 @@
    "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0CLSF59XP"
   },
   {
-   "rank": 9,
-   "asin": "B0DQPB23MB",
-   "name": "DocSmart Brushless Cordless Hedge Trimmer with Two Batteries (HT02-B)",
-   "brand": "DocSmart",
-   "model": "HT02-B",
-   "price": 59.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1272,
-   "score": 78,
-   "award": null,
-   "best_for": "Budget buyers who want brushless.",
-   "bought_last_month": "600+/mo",
-   "verdict": "A brushless budget trimmer with two batteries the seller says give 120 minutes combined.",
-   "pros": [
-    "Brushless",
-    "Two batteries",
-    "1,272 reviews"
-   ],
-   "cons": [
-    "Unknown brand",
-    "Under 22 in blade"
-   ],
-   "specs": {
-    "blade": "20.67 in dual-action",
-    "capacity": "2/3 in",
-    "battery": "Two 2.0Ah, included",
-    "weight": null,
-    "extras": "Brushless, 120 min runtime claimed"
-   },
-   "features": {
-    "blade_22_plus": false,
-    "battery_included": true,
-    "cut_3_4": false,
-    "dual_action": true
-   },
-   "image": "https://m.media-amazon.com/images/I/715GPIUdPWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0DQPB23MB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0DQPB23MB"
-  },
-  {
    "rank": 10,
    "asin": "B0GKNRSYHW",
    "name": "Greenworks 24V 20\" Brushless Hedge Trimmer, 2.0Ah Battery (HT2002)",
@@ -409,7 +410,7 @@
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 47,
-   "score": 71,
+   "score": 73,
    "award": null,
    "best_for": "Thick shrubs in a small, light package.",
    "bought_last_month": "300+/mo",

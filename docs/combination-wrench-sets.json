@@ -23,6 +23,7 @@
    "long_pattern": 0.2
   },
   "reviews_ceiling": 6000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 30,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -196,6 +197,47 @@
   },
   {
    "rank": 5,
+   "asin": "B0GHBX2G91",
+   "name": "VEVOR 32-Piece SAE and Metric Combination Wrench Set, 12-Point Box End, Roll Up Pouch",
+   "brand": "VEVOR",
+   "model": "L0032BGY",
+   "price": 45.9,
+   "currency": "USD",
+   "rating": 4.6,
+   "reviews_count": 539,
+   "score": 80,
+   "award": null,
+   "best_for": "Covering most car and home sizes on a budget.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A 32-piece SAE and metric set in a labeled roll-up pouch, with 12-point box ends and 15-degree open ends.",
+   "pros": [
+    "32 pieces",
+    "4.6 stars",
+    "Labeled pouch"
+   ],
+   "cons": [
+    "Carbon steel",
+    "No warranty listed"
+   ],
+   "specs": {
+    "pieces": "32",
+    "sizes": "SAE 1/4-1 in, metric 7-22 mm",
+    "box_end": "12-point",
+    "storage_type": "Roll-up pouch",
+    "finish": "Polished carbon steel"
+   },
+   "features": {
+    "sae_metric": true,
+    "storage": true,
+    "lifetime_warranty": false,
+    "long_pattern": false
+   },
+   "image": "https://m.media-amazon.com/images/I/81545OoAEUL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GHBX2G91?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/combination-wrench-sets.html#B0GHBX2G91"
+  },
+  {
+   "rank": 6,
    "asin": "B07KH6F8WL",
    "name": "CRAFTSMAN 32-Piece SAE/Metric Combination Wrench Set (CMMT12080)",
    "brand": "CRAFTSMAN",
@@ -233,47 +275,6 @@
    "image": "https://m.media-amazon.com/images/I/71cIGjxWFFL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B07KH6F8WL?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/combination-wrench-sets.html#B07KH6F8WL"
-  },
-  {
-   "rank": 6,
-   "asin": "B0GHBX2G91",
-   "name": "VEVOR 32-Piece SAE and Metric Combination Wrench Set, 12-Point Box End, Roll Up Pouch",
-   "brand": "VEVOR",
-   "model": "L0032BGY",
-   "price": 45.9,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 539,
-   "score": 78,
-   "award": null,
-   "best_for": "Covering most car and home sizes on a budget.",
-   "bought_last_month": "200+/mo",
-   "verdict": "A 32-piece SAE and metric set in a labeled roll-up pouch, with 12-point box ends and 15-degree open ends.",
-   "pros": [
-    "32 pieces",
-    "4.6 stars",
-    "Labeled pouch"
-   ],
-   "cons": [
-    "Carbon steel",
-    "No warranty listed"
-   ],
-   "specs": {
-    "pieces": "32",
-    "sizes": "SAE 1/4-1 in, metric 7-22 mm",
-    "box_end": "12-point",
-    "storage_type": "Roll-up pouch",
-    "finish": "Polished carbon steel"
-   },
-   "features": {
-    "sae_metric": true,
-    "storage": true,
-    "lifetime_warranty": false,
-    "long_pattern": false
-   },
-   "image": "https://m.media-amazon.com/images/I/81545OoAEUL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GHBX2G91?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/combination-wrench-sets.html#B0GHBX2G91"
   },
   {
    "rank": 7,

@@ -24,6 +24,7 @@
    "pair": 0.15
   },
   "reviews_ceiling": 2000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 35,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -200,6 +201,47 @@
   },
   {
    "rank": 5,
+   "asin": "B0GTTWGPLY",
+   "name": "TOWKING Stackable Heavy Duty Car Ramps, 7.3-Inch Lift, 16,000 lb (TK-CR992004)",
+   "brand": "TOWKING",
+   "model": "TK-CR992004",
+   "price": 99.99,
+   "currency": "USD",
+   "rating": 4.3,
+   "reviews_count": 50,
+   "score": 80,
+   "award": null,
+   "best_for": "Trucks and SUVs that need more clearance.",
+   "bought_last_month": "300+/mo",
+   "verdict": "Stackable ramps with the most lift here at 7.3 inches, a 17-degree incline and 18 rubber feet per ramp.",
+   "pros": [
+    "7.3 in lift",
+    "18 rubber feet per ramp",
+    "Stackable"
+   ],
+   "cons": [
+    "Only 50 reviews"
+   ],
+   "specs": {
+    "lift": "7.3 in",
+    "capacity": "16,000 lb per pair (stated)",
+    "incline": "17°",
+    "material": "High-impact polypropylene",
+    "extras": "Stackable, 18 rubber feet per ramp"
+   },
+   "features": {
+    "lift_6": true,
+    "gentle_incline": true,
+    "rubber_feet": true,
+    "stackable": true,
+    "pair": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81u9ZsrEyWL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GTTWGPLY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/car-ramps.html#B0GTTWGPLY"
+  },
+  {
+   "rank": 6,
    "asin": "B0BVBQ2BMM",
    "name": "ROBLOCK Low Profile Car Ramps, 2.6-Inch Lift, for Low-Chassis Cars (RBTS265)",
    "brand": "ROBLOCK",
@@ -240,7 +282,7 @@
    "page_url": "https://toolboxtop10.com/car-ramps.html#B0BVBQ2BMM"
   },
   {
-   "rank": 6,
+   "rank": 7,
    "asin": "B0D2K59HHT",
    "name": "MaxxHaul 50947 Stackable Car Ramps, 6.7-Inch Lift, 6,500 lb per Pair",
    "brand": "MaxxHaul",
@@ -280,47 +322,6 @@
    "page_url": "https://toolboxtop10.com/car-ramps.html#B0D2K59HHT"
   },
   {
-   "rank": 7,
-   "asin": "B0GTTWGPLY",
-   "name": "TOWKING Stackable Heavy Duty Car Ramps, 7.3-Inch Lift, 16,000 lb (TK-CR992004)",
-   "brand": "TOWKING",
-   "model": "TK-CR992004",
-   "price": 99.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 50,
-   "score": 77,
-   "award": null,
-   "best_for": "Trucks and SUVs that need more clearance.",
-   "bought_last_month": "300+/mo",
-   "verdict": "Stackable ramps with the most lift here at 7.3 inches, a 17-degree incline and 18 rubber feet per ramp.",
-   "pros": [
-    "7.3 in lift",
-    "18 rubber feet per ramp",
-    "Stackable"
-   ],
-   "cons": [
-    "Only 50 reviews"
-   ],
-   "specs": {
-    "lift": "7.3 in",
-    "capacity": "16,000 lb per pair (stated)",
-    "incline": "17°",
-    "material": "High-impact polypropylene",
-    "extras": "Stackable, 18 rubber feet per ramp"
-   },
-   "features": {
-    "lift_6": true,
-    "gentle_incline": true,
-    "rubber_feet": true,
-    "stackable": true,
-    "pair": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81u9ZsrEyWL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GTTWGPLY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/car-ramps.html#B0GTTWGPLY"
-  },
-  {
    "rank": 8,
    "asin": "B0FW4VX2MW",
    "name": "TOWKING Car Ramps for Oil Changes, 7.1-Inch Lift, 11.1-Inch Wide, 16,000 lb (CR992003)",
@@ -330,7 +331,7 @@
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 89,
-   "score": 75,
+   "score": 78,
    "award": null,
    "best_for": "SUV and pickup owners.",
    "bought_last_month": "300+/mo",
@@ -371,7 +372,7 @@
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 48,
-   "score": 66,
+   "score": 67,
    "award": null,
    "best_for": "SUVs and light trucks.",
    "bought_last_month": "50+/mo",
@@ -413,7 +414,7 @@
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 44,
-   "score": 57,
+   "score": 60,
    "award": null,
    "best_for": "Leveling RVs and campers, or lifting one corner.",
    "bought_last_month": "200+/mo",

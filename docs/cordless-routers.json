@@ -24,6 +24,7 @@
    "kit": 0.25
   },
   "reviews_ceiling": 10000,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
   "budget_cap_usd": 85,
   "method_url": "https://toolboxtop10.com/about.html"
  },
@@ -246,48 +247,6 @@
   },
   {
    "rank": 6,
-   "asin": "B0F32P9L82",
-   "name": "JEXUGK Brushless Cordless Wood Router, 21V, 2x 4.0Ah Batteries, 10 Bits (JCWR-G1)",
-   "brand": "JEXUGK",
-   "model": "JCWR-G1",
-   "price": 79.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 77,
-   "score": 70,
-   "award": "Best Budget",
-   "best_for": "Starting from nothing: a brushless router with batteries and bits.",
-   "bought_last_month": null,
-   "verdict": "A complete brushless kit with two 4Ah batteries, a charger and 10 bits on an aluminum base, for about $80.",
-   "pros": [
-    "Two 4Ah batteries and 10 bits included",
-    "Brushless, 6 speeds",
-    "Aluminum base"
-   ],
-   "cons": [
-    "JEXUGK batteries only fit JEXUGK tools",
-    "No warranty term on the listing"
-   ],
-   "specs": {
-    "battery": "JEXUGK 21V",
-    "speed": "6 speeds, to 35,000 rpm",
-    "collets": "1/4 in",
-    "weight": null,
-    "in_box": "2 x 4.0Ah batteries, charger, 10 bits"
-   },
-   "features": {
-    "brushless": true,
-    "variable_speed": true,
-    "soft_start": false,
-    "led": false,
-    "kit": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71k-RHEXwEL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0F32P9L82?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-routers.html#B0F32P9L82"
-  },
-  {
-   "rank": 7,
    "asin": "B0GR4HLXV8",
    "name": "SEESII Cordless Wood Router, 21V Brushless Compact Palm Router, 2x 4.0Ah Batteries (X1)",
    "brand": "SEESII",
@@ -296,7 +255,7 @@
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 55,
-   "score": 70,
+   "score": 73,
    "award": null,
    "best_for": "A complete kit with a speed display and dust hose.",
    "bought_last_month": "100+/mo",
@@ -327,6 +286,48 @@
    "image": "https://m.media-amazon.com/images/I/81yoZufF5EL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0GR4HLXV8?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-routers.html#B0GR4HLXV8"
+  },
+  {
+   "rank": 7,
+   "asin": "B0F32P9L82",
+   "name": "JEXUGK Brushless Cordless Wood Router, 21V, 2x 4.0Ah Batteries, 10 Bits (JCWR-G1)",
+   "brand": "JEXUGK",
+   "model": "JCWR-G1",
+   "price": 79.99,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 77,
+   "score": 71,
+   "award": "Best Budget",
+   "best_for": "Starting from nothing: a brushless router with batteries and bits.",
+   "bought_last_month": null,
+   "verdict": "A complete brushless kit with two 4Ah batteries, a charger and 10 bits on an aluminum base, for about $80.",
+   "pros": [
+    "Two 4Ah batteries and 10 bits included",
+    "Brushless, 6 speeds",
+    "Aluminum base"
+   ],
+   "cons": [
+    "JEXUGK batteries only fit JEXUGK tools",
+    "No warranty term on the listing"
+   ],
+   "specs": {
+    "battery": "JEXUGK 21V",
+    "speed": "6 speeds, to 35,000 rpm",
+    "collets": "1/4 in",
+    "weight": null,
+    "in_box": "2 x 4.0Ah batteries, charger, 10 bits"
+   },
+   "features": {
+    "brushless": true,
+    "variable_speed": true,
+    "soft_start": false,
+    "led": false,
+    "kit": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71k-RHEXwEL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0F32P9L82?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-routers.html#B0F32P9L82"
   },
   {
    "rank": 8,
@@ -372,6 +373,50 @@
   },
   {
    "rank": 9,
+   "asin": "B0FWCD6RS4",
+   "name": "MtiolHig Cordless Compact Router for Milwaukee M18 Battery, 800W Brushless, 6 Speeds, Aluminum Base, 6 Bits (Tool Only)",
+   "brand": "MtiolHig",
+   "model": "Milwaukee-fit router",
+   "price": 75.99,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 34,
+   "score": 63,
+   "award": null,
+   "best_for": "M18 battery owners who rout edges now and then and don't want to pay for the Milwaukee router.",
+   "bought_last_month": "100+/mo",
+   "verdict": "A bare-tool trim router made to run on Milwaukee M18 batteries, with an 800 W brushless motor, an aluminum base and six bits. It costs $75.99, well under the Milwaukee 2723-20.",
+   "pros": [
+    "Runs on Milwaukee M18 batteries",
+    "Aluminum base, brushless motor",
+    "Edge guide, roller guide and 6 bits included",
+    "100+ bought last month"
+   ],
+   "cons": [
+    "No battery or charger",
+    "Collet size not listed",
+    "Not made or backed by Milwaukee"
+   ],
+   "specs": {
+    "battery": "Takes Milwaukee M18 packs",
+    "speed": "6 speeds, to 30,000 rpm",
+    "collets": null,
+    "weight": "4.3 lb",
+    "in_box": "Edge guide, roller guide, guard, dust port, 6 bits"
+   },
+   "features": {
+    "brushless": true,
+    "variable_speed": true,
+    "soft_start": false,
+    "led": false,
+    "kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71rKAFIFpjL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0FWCD6RS4?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-routers.html#B0FWCD6RS4"
+  },
+  {
+   "rank": 10,
    "asin": "B0HCBHNYH6",
    "name": "SXGSXG Cordless Compact Router for DEWALT 20V Battery, 800W Brushless, 5 Speeds, 15 Bits (RT01, Tool Only)",
    "brand": "SXGSXG",
@@ -413,50 +458,6 @@
    "image": "https://m.media-amazon.com/images/I/71Ai49GMpKL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0HCBHNYH6?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/cordless-routers.html#B0HCBHNYH6"
-  },
-  {
-   "rank": 10,
-   "asin": "B0FWCD6RS4",
-   "name": "MtiolHig Cordless Compact Router for Milwaukee M18 Battery, 800W Brushless, 6 Speeds, Aluminum Base, 6 Bits (Tool Only)",
-   "brand": "MtiolHig",
-   "model": "Milwaukee-fit router",
-   "price": 75.99,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 34,
-   "score": 60,
-   "award": null,
-   "best_for": "M18 battery owners who rout edges now and then and don't want to pay for the Milwaukee router.",
-   "bought_last_month": "100+/mo",
-   "verdict": "A bare-tool trim router made to run on Milwaukee M18 batteries, with an 800 W brushless motor, an aluminum base and six bits. It costs $75.99, well under the Milwaukee 2723-20.",
-   "pros": [
-    "Runs on Milwaukee M18 batteries",
-    "Aluminum base, brushless motor",
-    "Edge guide, roller guide and 6 bits included",
-    "100+ bought last month"
-   ],
-   "cons": [
-    "No battery or charger",
-    "Collet size not listed",
-    "Not made or backed by Milwaukee"
-   ],
-   "specs": {
-    "battery": "Takes Milwaukee M18 packs",
-    "speed": "6 speeds, to 30,000 rpm",
-    "collets": null,
-    "weight": "4.3 lb",
-    "in_box": "Edge guide, roller guide, guard, dust port, 6 bits"
-   },
-   "features": {
-    "brushless": true,
-    "variable_speed": true,
-    "soft_start": false,
-    "led": false,
-    "kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/71rKAFIFpjL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FWCD6RS4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-routers.html#B0FWCD6RS4"
   }
  ],
  "avoid": [
