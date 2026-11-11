@@ -636,8 +636,8 @@ def write_agent_index(site, rows, other_pages):
     lines = [f"# {site['brand']}", "",
              f"> {site['description']} Every price, star rating and review count comes from the product's "
              "live Amazon listing on the date shown for that page; nothing is estimated. Each ranking page "
-             "scores its products 0-100 on published weights and names a Best Overall and a Best Budget pick, "
-             "plus one listing to avoid.", "",
+             "scores its products 0-100 on published weights, names a Best Overall pick and, when a cheaper pick "
+             "fits the page's budget cap, a Best Budget pick (a few pages have none), plus one listing to avoid.", "",
              "Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place "
              "of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and "
              f"the capture date). The site index is {base}/index.json. Each page links its twin with "

@@ -1,6 +1,6 @@
 # ToolboxTop10
 
-> Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust. Every price, star rating and review count comes from the product's live Amazon listing on the date shown for that page; nothing is estimated. Each ranking page scores its products 0-100 on published weights and names a Best Overall and a Best Budget pick, plus one listing to avoid.
+> Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust. Every price, star rating and review count comes from the product's live Amazon listing on the date shown for that page; nothing is estimated. Each ranking page scores its products 0-100 on published weights, names a Best Overall pick and, when a cheaper pick fits the page's budget cap, a Best Budget pick (a few pages have none), plus one listing to avoid.
 
 Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and the capture date). The site index is https://toolboxtop10.com/index.json. Each page links its twin with `<link rel="alternate" type="application/json">`. Links to Amazon carry our Associates tag; a purchase may earn us a commission at no extra cost to the buyer.
 
