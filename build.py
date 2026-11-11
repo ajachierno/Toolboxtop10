@@ -778,7 +778,7 @@ def page(site, title, body, is_home=False, description=None, canonical=None,
   extra cost to you. Prices and ratings are pulled from Amazon and change over time; the figures
   here were captured on the date shown and are not guaranteed to be current.</p>
   <p class="footlinks"><a href="about.html">About &amp; how we rank</a> &middot; <a href="disclosure.html">Affiliate disclosure</a> &middot; <a href="privacy.html">Privacy</a> &middot; <a href="price-tracker.html">Price tracker</a> &middot; <a href="mailto:{esc(site.get('contact_email', ''))}">Contact</a>{storefront_link}</p>
-  <p class="muted">{home_link} &nbsp; Last updated on {esc(updated or site['updated'])}. Not affiliated with Amazon or any manufacturer.</p>
+  <p class="muted">{home_link} &nbsp; Last updated on {esc(updated or site['updated'])}. Rankings and prices are updated several times a week and can change as new data comes in. Not affiliated with Amazon or any manufacturer.</p>
 </footer>
 {REVEAL_JS + chr(10) if 'data-show-from' in body or 'data-hide-from' in body else ''}</body>
 </html>"""
@@ -934,7 +934,7 @@ def render_platforms(cat, ranked, site):
 
 def render_byline(cat, site):
     return (f'<p class="byline">Ranked by {esc(site["brand"])} from Amazon data captured '
-            f'{_short_date(cat_date(cat, site))}. <a href="about.html">How we rank</a></p>')
+            f'{_short_date(cat_date(cat, site))}. Rankings and prices are updated several times a week and can change as new data comes in. <a href="about.html">How we rank</a></p>')
 
 
 def render_jump(has_avoid):
