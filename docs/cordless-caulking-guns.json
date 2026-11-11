@@ -6,7 +6,7 @@
  "title": "The 10 Best Cordless Caulking Guns",
  "subtitle": "Battery-powered caulk and adhesive guns for trim, windows, tubs and construction adhesive, ranked from live Amazon data.",
  "intro": "A cordless caulking gun drives the plunger with a motor, so you get a steady bead without squeezing a trigger hundreds of times. We ranked 10 best-sellers from DEWALT, Milwaukee, CRAFTSMAN, RYOBI and budget brands on rating, review volume and features (batteries in the box, anti-drip, speed control and a work light). Brand-name guns are bare tools; the budget kits include batteries that fit nothing else.",
- "data_captured": "2026-11-04",
+ "data_captured": "2026-11-11",
  "audited": "2026-10-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B0C4GH9Y2P",
-  "best_budget": "B0C15RWCCW",
+  "best_budget": "B0FR9BCKVQ",
   "money_no_object": "B01J6KTBI6"
  },
  "products": [
@@ -39,10 +39,10 @@
    "name": "Electric Caulking Gun, Cordless Caulk Gun with 2 x 2.0Ah Batteries",
    "brand": "Uaoaii",
    "model": "CZ100",
-   "price": 63.99,
+   "price": 79.98,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 551,
+   "reviews_count": 554,
    "score": 95,
    "award": "Best Overall",
    "best_for": "Occasional caulking on a budget with everything included.",
@@ -51,7 +51,7 @@
    "pros": [
     "Two batteries included",
     "4 speeds, anti-drip, LED",
-    "551 reviews"
+    "554 reviews"
    ],
    "cons": [
     "Unknown brand",
@@ -82,9 +82,9 @@
    "price": 69.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 709,
+   "reviews_count": 721,
    "score": 94,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Anyone buying a kit who wants finer speed control and a light.",
    "bought_last_month": "100+/mo",
    "verdict": "SEESII's brushless version, with stepless speed instead of four steps, a ring-shaped LED around the nozzle and a drip-proof plunger. It shares its review count with the CG100.",
@@ -162,7 +162,7 @@
    "price": 69.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 709,
+   "reviews_count": 721,
    "score": 90,
    "award": null,
    "best_for": "Homeowners who don't own tool batteries and want a powered caulk gun ready to go.",
@@ -202,7 +202,7 @@
    "price": 69.29,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 380,
+   "reviews_count": 382,
    "score": 89,
    "award": null,
    "best_for": "M18 owners who want a cheap powered caulk gun.",
@@ -242,16 +242,16 @@
    "price": 49.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 560,
+   "reviews_count": 563,
    "score": 87,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "CRAFTSMAN V20 owners caulking windows, trim and baths.",
-   "bought_last_month": "200+/mo",
+   "bought_last_month": "300+/mo",
    "verdict": "A CRAFTSMAN V20 caulk gun with a speed dial, anti-drip and a cartridge holder that rotates 360 degrees so the nozzle points where you need it.",
    "pros": [
     "Anti-drip plus speed dial",
     "Rotating cartridge holder",
-    "4.6 stars, 560 reviews"
+    "4.6 stars, 563 reviews"
    ],
    "cons": [
     "Bare tool",
@@ -282,7 +282,7 @@
    "price": 36.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 594,
+   "reviews_count": 602,
    "score": 82,
    "award": null,
    "best_for": "Light caulking around the house with no tool batteries at all.",
@@ -323,14 +323,14 @@
    "price": 159.0,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 809,
+   "reviews_count": 773,
    "score": 77,
    "award": null,
    "best_for": "M12 owners doing trim, windows and bathrooms.",
-   "bought_last_month": "300+/mo",
+   "bought_last_month": "200+/mo",
    "verdict": "The smaller M12 version, lighter in the hand for overhead and trim work. Like the M18 listing, it's light on details but well reviewed, with a 5-year tool warranty.",
    "pros": [
-    "809 reviews; 4.7 stars",
+    "773 reviews; 4.7 stars",
     "M12 is smaller and lighter than 18V/20V",
     "5-year tool warranty"
    ],
@@ -360,10 +360,10 @@
    "name": "Milwaukee 2641-20 M18 10 oz Caulk Gun, Tool Only",
    "brand": "Milwaukee",
    "model": "2641-20",
-   "price": 193.95,
+   "price": 189.0,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 388,
+   "reviews_count": 389,
    "score": 77,
    "award": null,
    "best_for": "Milwaukee M18 owners who want a pro caulk gun.",
@@ -403,7 +403,7 @@
    "price": 78.98,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 313,
+   "reviews_count": 315,
    "score": 76,
    "award": null,
    "best_for": "RYOBI ONE+ owners who want a cheap powered caulk gun.",
@@ -481,6 +481,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-11",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Uaoaii CZ100 rose from $63.99 to $79.98."
+  },
   {
    "date": "2026-11-10",
    "note": "Badges now follow the scores instead of hand picks. Best Budget is now the CRAFTSMAN CMCE600B (was the SEESII CG120)."
