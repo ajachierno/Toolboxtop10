@@ -1,0 +1,469 @@
+{
+  "slug": "hand-saws",
+  "title": "The 10 Best Hand Saws",
+  "subtitle": "Carpenter saws, Japanese pull saws, flush-cut and coping saws for wood, ranked from live Amazon data.",
+  "intro": "A hand saw is still the quickest way to make one cut without dragging out a power tool. We ranked 10 best-sellers from IRWIN, SUIZAN, JORGENSEN and value brands on rating, review volume and features (triple-ground teeth, double-edge blades and replaceable blades). The list mixes push-stroke Western saws for lumber with Japanese pull saws for joinery and flush trimming, plus a coping saw for curves, from about $9 to $43.",
+  "data_captured": "2026-11-11",
+  "audited": "2026-11-11",
+  "changelog": [
+    {
+      "date": "2026-11-11",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 10,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "triple_ground": 0.35,
+    "double_edge": 0.35,
+    "replaceable_blade": 0.3
+  },
+  "reviews_ceiling": 5000,
+  "spec_fields": [
+    {
+      "key": "blade",
+      "label": "Blade"
+    },
+    {
+      "key": "tpi",
+      "label": "Teeth per inch"
+    },
+    {
+      "key": "stroke",
+      "label": "Cuts on"
+    },
+    {
+      "key": "steel",
+      "label": "Blade steel"
+    },
+    {
+      "key": "handle",
+      "label": "Handle"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "blade",
+      "label": "Blade"
+    },
+    {
+      "key": "tpi",
+      "label": "TPI"
+    },
+    {
+      "key": "stroke",
+      "label": "Cuts on"
+    },
+    {
+      "key": "replaceable_blade",
+      "label": "Replaceable blade",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B000B3CSHY",
+      "name": "IRWIN Hand Saw, Coarse Cut, ProTouch Handle, 15-Inch (2011201)",
+      "brand": "IRWIN",
+      "model": "2011201",
+      "image": "https://m.media-amazon.com/images/I/41f9LCCA4cL._AC_SL1000_.jpg",
+      "price": 20.99,
+      "rating": 4.8,
+      "reviews_count": 1002,
+      "bought": "100+/mo",
+      "specs": {
+        "blade": "15 in",
+        "tpi": null,
+        "stroke": "Push",
+        "steel": "M2 tooth technology",
+        "handle": "ProTouch"
+      },
+      "features": {
+        "triple_ground": true,
+        "double_edge": false,
+        "replaceable_blade": false
+      },
+      "verdict": "IRWIN's 15-inch coarse-cut carpenter saw with Tri-Ground teeth, deep gullets and a thick, rigid blade. It's a classic Western push-stroke saw for cutting lumber to length.",
+      "best_for": "Framing, decking and cutting 2x lumber to length.",
+      "skip_if": "You need fine, splinter-free cuts in trim or hardwood; coarse teeth leave a rough edge.",
+      "pros": [
+        "Tri-Ground teeth and deep gullets clear chips fast",
+        "Thick blade stays straight in long cuts",
+        "4.8 stars, the highest rating on this page"
+      ],
+      "cons": [
+        "Tooth count isn't published; IRWIN only calls it coarse cut",
+        "No blade guard listed",
+        "Push-stroke saws take more effort than a pull saw in fine work"
+      ]
+    },
+    {
+      "asin": "B093FFK927",
+      "name": "QYQRQF 14 in. Pro Hand Saw, 11 TPI Fine-Cut Soft-Grip Hardpoint Handsaw",
+      "brand": "QYQRQF",
+      "model": "14 in. Pro Hand Saw",
+      "image": "https://m.media-amazon.com/images/I/616LkVZSKoS._AC_SL1500_.jpg",
+      "price": 9.99,
+      "rating": 4.5,
+      "reviews_count": 1498,
+      "bought": "1K+/mo",
+      "specs": {
+        "blade": "14 in",
+        "tpi": "11",
+        "stroke": "Push and pull",
+        "steel": "65Mn steel, heat treated",
+        "handle": "TPR soft grip"
+      },
+      "features": {
+        "triple_ground": true,
+        "double_edge": false,
+        "replaceable_blade": false
+      },
+      "verdict": "A 14-inch, 11 TPI hardpoint saw that cuts on both strokes. At about $10 it's a cheap general-purpose saw for wood, plastic pipe and wallboard.",
+      "best_for": "A low-cost saw for the garage or truck that handles wood, PVC and drywall.",
+      "skip_if": "You want a saw you can resharpen; hardpoint teeth are used until dull, then the saw is replaced.",
+      "pros": [
+        "Cuts on push and pull strokes",
+        "11 TPI leaves a cleaner edge than a coarse framing saw",
+        "About 1,000 bought in the past month"
+      ],
+      "cons": [
+        "0.9 mm blade is thinner than the HAUTMEC's 1.0 mm",
+        "Little-known brand",
+        "No blade guard listed"
+      ]
+    },
+    {
+      "asin": "B09XWB5ZPC",
+      "name": "JORGENSEN 15-Inch Hand Saw, 8 TPI Coarse Blade for Wood Cutting",
+      "brand": "JORGENSEN",
+      "model": "15-Inch 8 TPI",
+      "image": "https://m.media-amazon.com/images/I/61b2i4s5K9L._AC_SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.7,
+      "reviews_count": 323,
+      "bought": "600+/mo",
+      "specs": {
+        "blade": "15 in",
+        "tpi": "8",
+        "stroke": "Push",
+        "steel": "SK5 high-carbon steel, Teflon coated",
+        "handle": "Aluminum"
+      },
+      "features": {
+        "triple_ground": true,
+        "double_edge": false,
+        "replaceable_blade": false
+      },
+      "verdict": "A 15-inch, 8 TPI rough-cut saw with triple-ground SK5 teeth and a Teflon-coated blade that cuts friction and buildup. A plastic edge protector comes in the box.",
+      "best_for": "Fast rough cuts in framing lumber, posts and yard work.",
+      "skip_if": "You want clean finish cuts; 8 TPI is built for speed, not a smooth edge.",
+      "pros": [
+        "SK5 high-carbon steel blade with Teflon coating",
+        "Plastic edge protector included for storage",
+        "Triple-ground teeth"
+      ],
+      "cons": [
+        "8 TPI leaves a rough edge",
+        "Heaviest saw here at 1.35 lb",
+        "Fewer reviews than the IRWIN"
+      ]
+    },
+    {
+      "asin": "B09NW2R5HQ",
+      "name": "RUITOOL Japanese Hand Saw 6 Inch Double Edge Ryoba Pull Saw for Flush Cuts",
+      "brand": "RUITOOL",
+      "model": "6 in Ryoba",
+      "image": "https://m.media-amazon.com/images/I/61z1dQsg85L._AC_SL1500_.jpg",
+      "price": 16.99,
+      "rating": 4.6,
+      "reviews_count": 6527,
+      "bought": "3K+/mo",
+      "specs": {
+        "blade": "6 in",
+        "tpi": "14 / 17",
+        "stroke": "Pull",
+        "steel": "SK5 high-carbon steel",
+        "handle": "Beechwood"
+      },
+      "features": {
+        "triple_ground": true,
+        "double_edge": true,
+        "replaceable_blade": false
+      },
+      "verdict": "A 6-inch double-edge Ryoba pull saw: 14 TPI on one edge for softwood and rip cuts, 17 TPI on the other for hardwood and crosscuts. The flexible SK5 blade bends for flush cuts.",
+      "best_for": "Dowels, plugs, small joinery and flush trimming where a big saw won't fit.",
+      "skip_if": "You need to cut through 2x4s or wide boards; a 6-inch blade runs out of reach.",
+      "pros": [
+        "Two tooth patterns on one blade",
+        "Flexible enough for flush cuts",
+        "6,527 reviews and about 3,000 bought in the past month"
+      ],
+      "cons": [
+        "6-inch blade is slow in thick stock",
+        "Blade isn't replaceable",
+        "Pull saws take some practice if you're used to push saws"
+      ]
+    },
+    {
+      "asin": "B07T9K59D1",
+      "name": "SUIZAN Flush Cut Saw 5\" - Japanese Pullsaw Hand Saws Wood Cutting",
+      "brand": "SUIZAN",
+      "model": "Flush Cut 5 in",
+      "image": "https://m.media-amazon.com/images/I/61LxytpPQOL._AC_SL1500_.jpg",
+      "price": 19.8,
+      "rating": 4.7,
+      "reviews_count": 7211,
+      "bought": "800+/mo",
+      "specs": {
+        "blade": "5 in (120 mm)",
+        "tpi": "17 / 25",
+        "stroke": "Pull",
+        "steel": "Japanese steel, made in Japan",
+        "handle": "Beech"
+      },
+      "features": {
+        "triple_ground": false,
+        "double_edge": true,
+        "replaceable_blade": false
+      },
+      "verdict": "A made-in-Japan 5-inch flush-cut saw with no-set teeth, so it trims dowels, plugs and tenons flush without scratching the surface. Two edges: 17 TPI and 25 TPI.",
+      "best_for": "Trimming dowels, plugs and edging flush with a finished surface.",
+      "skip_if": "You want a general-purpose saw; this one only does fine trimming.",
+      "pros": [
+        "No-set teeth won't mar the surface around the cut",
+        "Thin 0.3 mm blade leaves a narrow kerf",
+        "7,211 reviews, the most on this page"
+      ],
+      "cons": [
+        "Blade is fixed to the handle and not replaceable, per the listing",
+        "Too short for anything but trimming"
+      ]
+    },
+    {
+      "asin": "B0CQSZGF35",
+      "name": "JORGENSEN 10 Inch Double Edge Japanese Pull Saw with SK5 Blade",
+      "brand": "JORGENSEN",
+      "model": "10 in Double Edge",
+      "image": "https://m.media-amazon.com/images/I/51fzr6Uq+oL._AC_SL1500_.jpg",
+      "price": 24.99,
+      "rating": 4.7,
+      "reviews_count": 987,
+      "bought": "300+/mo",
+      "specs": {
+        "blade": "10 in",
+        "tpi": "7-12 / 18",
+        "stroke": "Pull",
+        "steel": "SK5, induction hardened",
+        "handle": "Soft grip"
+      },
+      "features": {
+        "triple_ground": true,
+        "double_edge": true,
+        "replaceable_blade": true
+      },
+      "verdict": "A 10-inch double-edge pull saw with induction-hardened SK5 teeth: a coarse 7-12 TPI rip edge and an 18 TPI crosscut edge. The blade swaps out with one screw.",
+      "best_for": "Woodworkers who want one pull saw for both rip cuts and crosscuts in boards.",
+      "skip_if": "You only need a short trim saw; the 6-inch RUITOOL costs less.",
+      "pros": [
+        "Replaceable blade: loosen one screw",
+        "Rip and crosscut edges on one blade",
+        "Long enough to cut through dimensional lumber"
+      ],
+      "cons": [
+        "Its 987 reviews are shared with JORGENSEN's 5- and 7-inch pull saws",
+        "Plastic handle"
+      ]
+    },
+    {
+      "asin": "B0D2QRLYBN",
+      "name": "SUIZAN Ryoba Double Edge Saw 9.5\" Assembly ver - Japanese Pullsaw Hand Saws",
+      "brand": "SUIZAN",
+      "model": "Ryoba 9.5 in",
+      "image": "https://m.media-amazon.com/images/I/61oP+pgQaCL._AC_SL1500_.jpg",
+      "price": 42.8,
+      "rating": 4.6,
+      "reviews_count": 323,
+      "bought": "300+/mo",
+      "specs": {
+        "blade": "9.5 in",
+        "tpi": "9 / 15",
+        "stroke": "Pull",
+        "steel": "Japanese steel, made in Japan",
+        "handle": "Wrapped wood"
+      },
+      "features": {
+        "triple_ground": false,
+        "double_edge": true,
+        "replaceable_blade": true
+      },
+      "verdict": "A made-in-Japan 9.5-inch Ryoba with a 9 TPI rip edge and a 15 TPI crosscut edge on a 0.5 mm blade that leaves a 0.8 mm kerf. When the teeth wear, a replacement blade slides in and locks with one screw.",
+      "best_for": "Furniture makers and joiners who want a Japanese-made Ryoba they can re-blade.",
+      "skip_if": "You want the cheapest way into pull saws; it costs about two and a half times the RUITOOL.",
+      "pros": [
+        "Japanese-made blade with a narrow 0.8 mm kerf",
+        "Replaceable blade (sold separately)",
+        "Hand-wrapped wood handle"
+      ],
+      "cons": [
+        "Most expensive saw here",
+        "323 reviews, far fewer than the smaller SUIZAN"
+      ],
+      "premium": true
+    },
+    {
+      "asin": "B07Q2WYFCQ",
+      "name": "HAUTMEC 14 Inch Hand Saw for Wood Cutting, 11 TPI Small Crosscut Wood Saw with Triple-Ground Teeth",
+      "brand": "HAUTMEC",
+      "model": "14 in 11 TPI",
+      "image": "https://m.media-amazon.com/images/I/61AUqGNQJiL._AC_SL1500_.jpg",
+      "price": 8.99,
+      "rating": 4.4,
+      "reviews_count": 1406,
+      "bought": "200+/mo",
+      "specs": {
+        "blade": "14 in",
+        "tpi": "11",
+        "stroke": "Push",
+        "steel": "65Mn high-carbon steel, coated",
+        "handle": "Non-slip plastic"
+      },
+      "features": {
+        "triple_ground": true,
+        "double_edge": false,
+        "replaceable_blade": false
+      },
+      "verdict": "A 14-inch, 11 TPI crosscut saw with triple-ground teeth and a 1.0 mm blade that resists bending. It's the cheapest full-length saw on this page.",
+      "best_for": "Crosscutting boards, laminate flooring and trim on a tight budget.",
+      "skip_if": "You need fast rough cuts in framing lumber; 11 TPI is slower than an 8 TPI saw.",
+      "pros": [
+        "Lowest price for a full-length saw here",
+        "1.0 mm blade, thicker than the QYQRQF's 0.9 mm",
+        "Rust-resisting coating"
+      ],
+      "cons": [
+        "Plastic handle",
+        "Can't be resharpened"
+      ]
+    },
+    {
+      "asin": "B0DCVHXT8H",
+      "name": "GARTOL Hand Saw for Wood Cutting, 2-Piece Japanese Pull Saw Set with 6-Inch Flush Cut Saw and Double-Edged SK5 Blade",
+      "brand": "GARTOL",
+      "model": "2-Piece Set",
+      "image": "https://m.media-amazon.com/images/I/81fnnm8NYRL._AC_SL1500_.jpg",
+      "price": 12.99,
+      "rating": 4.4,
+      "reviews_count": 1454,
+      "bought": "200+/mo",
+      "specs": {
+        "blade": "6 in (both saws)",
+        "tpi": null,
+        "stroke": "Pull",
+        "steel": "SK5 steel",
+        "handle": "Wood"
+      },
+      "features": {
+        "triple_ground": false,
+        "double_edge": true,
+        "replaceable_blade": false
+      },
+      "verdict": "Two small Japanese pull saws for about $13: a 6-inch flush-cut saw and a double-edge Ryoba, both with flexible SK5 blades and wooden handles.",
+      "best_for": "Hobby woodworkers who want a flush-cut saw and a small Ryoba for the price of one.",
+      "skip_if": "You want published tooth counts; GARTOL doesn't list TPI for either blade.",
+      "pros": [
+        "Two saws in one box",
+        "Flexible SK5 blades for flush cuts",
+        "Wooden handles"
+      ],
+      "cons": [
+        "TPI not listed for either saw",
+        "Both blades are short, so it's for small work only"
+      ]
+    },
+    {
+      "asin": "B000B3AR04",
+      "name": "IRWIN Tools ProTouch Coping Saw (2014400)",
+      "brand": "IRWIN",
+      "model": "2014400",
+      "image": "https://m.media-amazon.com/images/I/31qHTx1rlKL._AC_SL1000_.jpg",
+      "price": 8.99,
+      "rating": 4.6,
+      "reviews_count": 5227,
+      "bought": "900+/mo",
+      "specs": {
+        "blade": "6-1/2 in",
+        "tpi": "17",
+        "stroke": "Push or pull (blade reverses)",
+        "steel": "High-speed steel blade",
+        "handle": "ProTouch"
+      },
+      "features": {
+        "triple_ground": false,
+        "double_edge": false,
+        "replaceable_blade": true
+      },
+      "verdict": "IRWIN's coping saw: a flat-bar frame with a 5-1/2 inch throat and a 6-1/2 inch, 17-point high-speed steel blade for tight curves and coped trim joints.",
+      "best_for": "Coping baseboard and crown molding, and cutting curves in thin stock.",
+      "skip_if": "You need straight cuts in boards; a coping saw is for curves.",
+      "pros": [
+        "Cuts tight curves no straight saw can follow",
+        "Standard pinned blades are easy to replace",
+        "5,227 reviews and about 900 bought in the past month"
+      ],
+      "cons": [
+        "5-1/2 in frame depth limits how far from an edge it can cut",
+        "Thin blades snap if you twist them"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B0H1VN25BZ",
+      "name": "TOLCHENO 20 Inch Pro Hand Saw, 7 TPI 65Mn Steel Ergonomic Non-Slip Handle",
+      "brand": "TOLCHENO",
+      "model": "20 in 7 TPI",
+      "image": "https://m.media-amazon.com/images/I/61DDXurR7TL._AC_SL1500_.jpg",
+      "price": 15.85,
+      "rating": 4.0,
+      "reviews_count": 8,
+      "flag": "Coarse 7 TPI sold as a fine-cut saw",
+      "verdict": "A long, thin-bladed saw whose listing sells its coarsest-on-the-page teeth as fine and precise.",
+      "reasons": [
+        "The listing promises fine, precise cuts from 7 teeth per inch. 7 TPI is a rough-cut tooth, coarser than every saw on this page that publishes a count, and it leaves a ragged edge.",
+        "Its 20-inch push-stroke blade is listed at 0.9 mm thick, thinner than the 14-inch HAUTMEC's 1.0 mm. A long, thin blade on a push saw is the one most likely to bend in the cut.",
+        "If you want a fast rough-cut saw, the JORGENSEN 15-inch is 8 TPI with an SK5 blade and an edge protector; for fine cuts, the HAUTMEC or QYQRQF 11 TPI saws cost less."
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "Pull saw or push saw?",
+      "a": "Western saws cut on the push stroke and use a thick blade so it doesn't buckle; they're quick in framing lumber. Japanese pull saws cut on the pull, so the blade can be thin: a narrower kerf, less effort and cleaner cuts. Pick a push saw for 2x lumber and a pull saw for joinery and trim."
+    },
+    {
+      "q": "What TPI do I need?",
+      "a": "Fewer teeth per inch cut faster and rougher: 7 to 8 TPI for framing and yard work, about 11 TPI for general crosscuts in boards and plywood, 15 TPI and up for hardwood, trim and joinery."
+    },
+    {
+      "q": "What is a Ryoba?",
+      "a": "A double-edge Japanese pull saw with rip teeth on one edge (for cutting along the grain) and crosscut teeth on the other, so one blade covers both kinds of cut."
+    },
+    {
+      "q": "What is a flush-cut saw for?",
+      "a": "Trimming dowels, plugs and edging level with a surface. Its teeth have no set (they don't bend outward), so the blade can lie flat on the work without scratching it."
+    },
+    {
+      "q": "Can I sharpen a hand saw?",
+      "a": "Most inexpensive saws have hardpoint (induction-hardened) teeth that stay sharp a long time but can't be filed. When they dull, you replace the saw, or just the blade on saws like the JORGENSEN 10-inch and the SUIZAN Ryoba."
+    },
+    {
+      "q": "Do I need a coping saw too?",
+      "a": "Only if you cut curves or cope trim joints. Its thin, tensioned blade turns corners no straight saw can follow."
+    }
+  ]
+}

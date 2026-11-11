@@ -4,7 +4,7 @@
 
 Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and the capture date). The site index is https://toolboxtop10.com/index.json. Each page links its twin with `<link rel="alternate" type="application/json">`. Links to Amazon carry our Associates tag; a purchase may earn us a commission at no extra cost to the buyer.
 
-## Rankings (169 pages)
+## Rankings (170 pages)
 
 - [The 10 Best 23-Gauge Pin Nailers](https://toolboxtop10.com/pin-nailers.html): Best Overall DEWALT DWFP2350K ($144.99); Best Budget KEENTECH KT-P635A ($52.99). Data captured 2026-11-07. JSON: https://toolboxtop10.com/pin-nailers.json
 - [The 10 Best Adjustable (Crescent) Wrenches](https://toolboxtop10.com/adjustable-wrenches.html): Best Overall Klein Tools D5072 ($29.98); Best Budget Amazon Basics 6-Inch ($9.40). Data captured 2026-11-08. JSON: https://toolboxtop10.com/adjustable-wrenches.json
@@ -109,6 +109,7 @@ Machine-readable data: every ranking page has a JSON twin at the same path with 
 - [The 10 Best Floor Jacks](https://toolboxtop10.com/floor-jacks.html): Best Overall AV Steel AV-300102F ($169.99); Best Budget DNA Motoring TOOLS-00234 ($53.99). Data captured 2026-11-05. JSON: https://toolboxtop10.com/floor-jacks.json
 - [The 10 Best Gantry Cranes for Garages](https://toolboxtop10.com/gantry-cranes.html): Best Overall JEGS 1-Ton Gantry ($695); Best Budget Dkenicor 3 Ton with Trolley ($694.39). Data captured 2026-11-06. JSON: https://toolboxtop10.com/gantry-cranes.json
 - [The 10 Best Hacksaws](https://toolboxtop10.com/hacksaws.html): Best Overall LENOX HT50 ($35.42); Best Budget CRAFTSMAN CMHT20138 ($9.99). Data captured 2026-11-06. JSON: https://toolboxtop10.com/hacksaws.json
+- [The 10 Best Hand Saws](https://toolboxtop10.com/hand-saws.html): Best Overall JORGENSEN 10 in Double Edge ($24.99); Best Budget IRWIN 2014400 ($8.99). Data captured 2026-11-11. JSON: https://toolboxtop10.com/hand-saws.json
 - [The 10 Best Hole Saw Kits](https://toolboxtop10.com/hole-saw-kits.html): Best Overall Bosch HSBIM9 ($47.49); Best Budget Amazon Basics 9-piece ($24.45). Data captured 2026-11-11. JSON: https://toolboxtop10.com/hole-saw-kits.json
 - [The 10 Best Hot Glue Guns](https://toolboxtop10.com/hot-glue-guns.html): Best Overall ROMECH 60/100W ($24.99); Best Budget SHJADE LFT-A601 ($12.99). Data captured 2026-11-06. JSON: https://toolboxtop10.com/hot-glue-guns.json
 - [The 10 Best HVLP and LVLP Spray Guns](https://toolboxtop10.com/hvlp-air-spray-guns.html): Best Overall AEROPRO R500/A610 ($74.99); Best Budget Hotorda H-2000/H-827 ($34.99). Data captured 2026-11-06. JSON: https://toolboxtop10.com/hvlp-air-spray-guns.json
