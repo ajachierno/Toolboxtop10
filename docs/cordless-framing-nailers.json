@@ -6,8 +6,8 @@
  "title": "The 10 Best Cordless Framing Nailers",
  "subtitle": "Battery-powered framing nailers for decks, sheds and remodels, ranked from live Amazon data.",
  "intro": "Cordless framing nailers drive 2 to 3-1/2 inch nails without a compressor, hose or gas cartridge. We ranked 10 best-sellers from DEWALT, Makita, Metabo HPT, CRAFTSMAN and RYOBI on rating, review volume and features (a battery in the box, a light tool body and a warranty of three years or more). The first decision is the nail angle: 21° nailers take plastic-strip nails, 30° nailers take paper-tape nails.",
- "data_captured": "2026-11-10",
- "audited": "2026-11-03",
+ "data_captured": "2026-11-11",
+ "audited": "2026-11-11",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -23,7 +23,7 @@
   },
   "reviews_ceiling": 200,
   "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
-  "budget_cap_usd": 300,
+  "budget_cap_usd": 310,
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
@@ -74,46 +74,6 @@
   },
   {
    "rank": 2,
-   "asin": "B0C17KV4MQ",
-   "name": "Metabo HPT 18V MultiVolt Cordless 21° Plastic Strip Framing Nailer Kit with 4.0Ah Battery (NR1890DRST)",
-   "brand": "Metabo HPT",
-   "model": "NR1890DRST",
-   "price": 359.0,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 97,
-   "score": 89,
-   "award": null,
-   "best_for": "Buyers who want a battery-included 21° kit for less than the newer NR1890DRA.",
-   "bought_last_month": null,
-   "verdict": "Metabo HPT's earlier 21-degree cordless framer, still sold as a kit with a 4.0Ah battery. The listing claims about 600 nails per charge and 2 nails per second, with a lifetime tool warranty.",
-   "pros": [
-    "Kit with battery and charger",
-    "About 600 nails per charge",
-    "Lifetime tool warranty"
-   ],
-   "cons": [
-    "2 nails per second, slower than the newer models",
-    "9.2 lb"
-   ],
-   "specs": {
-    "angle": "21°",
-    "nails": "2 to 3-1/2 in",
-    "weight": "9.2 lb",
-    "platform": "Metabo HPT 18V/MultiVolt",
-    "included": "4.0Ah battery, charger"
-   },
-   "features": {
-    "kit": true,
-    "light": true,
-    "long_warranty": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71k1DEw4xkL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0C17KV4MQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-framing-nailers.html#B0C17KV4MQ"
-  },
-  {
-   "rank": 3,
    "asin": "B0DV6R1FVF",
    "name": "Metabo HPT 18V Paper Tape Cordless Framing Nailer, 30° Kit (NR1890DCA)",
    "brand": "Metabo HPT",
@@ -153,7 +113,7 @@
    "page_url": "https://toolboxtop10.com/cordless-framing-nailers.html#B0DV6R1FVF"
   },
   {
-   "rank": 4,
+   "rank": 3,
    "asin": "B0B9T45MH8",
    "name": "CRAFTSMAN V20 Cordless Framing Nailer, 21 Degree, up to 3-1/4 inch Nails, Tool Only (CMCN621PLB)",
    "brand": "CRAFTSMAN",
@@ -193,6 +153,47 @@
    "page_url": "https://toolboxtop10.com/cordless-framing-nailers.html#B0B9T45MH8"
   },
   {
+   "rank": 4,
+   "asin": "B0DN8GWXMV",
+   "name": "FLEX 24V Brushless 21 Degree Framing Nailer Kit, Zero Ramp-up Time, 3 Nails/Sec, with 5.0Ah Lithium Battery and Charger (FX4351A-1C)",
+   "brand": "FLEX",
+   "model": "FX4351A-1C",
+   "price": 429.0,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 21,
+   "score": 80,
+   "award": null,
+   "best_for": "Framers starting on a new battery platform who want a complete kit with a long warranty.",
+   "bought_last_month": null,
+   "verdict": "FLEX's 24V framing nailer kit fires with no ramp-up, up to 3 nails a second, and FLEX rates it at up to 1,100 nails per charge on the included 5.0Ah battery. It has dual LEDs, a depth dial and dry-fire lockout.",
+   "pros": [
+    "No ramp-up time, up to 3 nails per second",
+    "5.0Ah battery and fast charger included",
+    "5-year limited warranty when registered"
+   ],
+   "cons": [
+    "Most expensive nailer here",
+    "21 reviews",
+    "Nail length range not listed"
+   ],
+   "specs": {
+    "angle": "21°",
+    "nails": null,
+    "weight": null,
+    "platform": "FLEX 24V",
+    "included": "5.0Ah battery, charger, rafter hook"
+   },
+   "features": {
+    "kit": true,
+    "light": true,
+    "long_warranty": true
+   },
+   "image": "https://m.media-amazon.com/images/I/718m+46msML._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0DN8GWXMV?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-framing-nailers.html#B0DN8GWXMV"
+  },
+  {
    "rank": 5,
    "asin": "B0F6PM9ZLN",
    "name": "Makita XNB03Z 18V LXT Cordless 21° Full Round Head 3-1/2\" Framing Nailer, Tool Only",
@@ -201,7 +202,7 @@
    "price": 398.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 77,
+   "reviews_count": 78,
    "score": 78,
    "award": null,
    "best_for": "Makita 18V LXT owners who frame with plastic-strip full round head nails.",
@@ -238,7 +239,7 @@
    "name": "DEWALT 20V MAX 30-Degree Cordless Framing Nailer, Tool Only (DCN930B)",
    "brand": "DEWALT",
    "model": "DCN930B",
-   "price": 340.0,
+   "price": 349.0,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 166,
@@ -274,56 +275,15 @@
   },
   {
    "rank": 7,
-   "asin": "B0D45SJFKK",
-   "name": "DEWALT 20V MAX 21-Degree Cordless Framing Nailer, Tool Only (DCN920B)",
-   "brand": "DEWALT",
-   "model": "DCN920B",
-   "price": 349.0,
-   "currency": "USD",
-   "rating": 4.2,
-   "reviews_count": 89,
-   "score": 68,
-   "award": null,
-   "best_for": "DEWALT owners whose local codes or habits call for full round head 21° nails.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The 21-degree version of DEWALT's framing nailer, for plastic-collated full round head nails. It sells well but rates lower than the 30-degree model.",
-   "pros": [
-    "400+ sold last month",
-    "Takes 21° plastic-strip nails",
-    "DEWALT 20V MAX battery"
-   ],
-   "cons": [
-    "4.2 stars, lowest of the DEWALTs here",
-    "Bare tool",
-    "10.05 lb"
-   ],
-   "specs": {
-    "angle": "21°",
-    "nails": null,
-    "weight": "10.05 lb",
-    "platform": "DEWALT 20V MAX",
-    "included": "Nailer only"
-   },
-   "features": {
-    "kit": false,
-    "light": false,
-    "long_warranty": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51djtDhbRML._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D45SJFKK?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-framing-nailers.html#B0D45SJFKK"
-  },
-  {
-   "rank": 8,
    "asin": "B0FBXC9L4G",
    "name": "CRAFTSMAN V20 Brushless Cordless 30° Framing Nailer, Tool Only (CMCN630PTB)",
    "brand": "CRAFTSMAN",
    "model": "CMCN630PTB",
    "price": 329.0,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 50,
-   "score": 68,
+   "rating": 4.5,
+   "reviews_count": 51,
+   "score": 69,
    "award": null,
    "best_for": "CRAFTSMAN V20 owners who use 30° paper-tape nails.",
    "bought_last_month": "50+/mo",
@@ -354,15 +314,56 @@
    "page_url": "https://toolboxtop10.com/cordless-framing-nailers.html#B0FBXC9L4G"
   },
   {
+   "rank": 8,
+   "asin": "B0D45SJFKK",
+   "name": "DEWALT 20V MAX 21-Degree Cordless Framing Nailer, Tool Only (DCN920B)",
+   "brand": "DEWALT",
+   "model": "DCN920B",
+   "price": 349.0,
+   "currency": "USD",
+   "rating": 4.2,
+   "reviews_count": 89,
+   "score": 68,
+   "award": null,
+   "best_for": "DEWALT owners whose local codes or habits call for full round head 21° nails.",
+   "bought_last_month": "200+/mo",
+   "verdict": "The 21-degree version of DEWALT's framing nailer, for plastic-collated full round head nails. It sells well but rates lower than the 30-degree model.",
+   "pros": [
+    "400+ sold last month",
+    "Takes 21° plastic-strip nails",
+    "DEWALT 20V MAX battery"
+   ],
+   "cons": [
+    "4.2 stars, lowest of the DEWALTs here",
+    "Bare tool",
+    "10.05 lb"
+   ],
+   "specs": {
+    "angle": "21°",
+    "nails": null,
+    "weight": "10.05 lb",
+    "platform": "DEWALT 20V MAX",
+    "included": "Nailer only"
+   },
+   "features": {
+    "kit": false,
+    "light": false,
+    "long_warranty": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51djtDhbRML._AC_SL1000_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D45SJFKK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-framing-nailers.html#B0D45SJFKK"
+  },
+  {
    "rank": 9,
    "asin": "B0G1NCXJQX",
    "name": "Makita XNB07Z 18V LXT Brushless Cordless 30º Clipped Head 3-1/2\" Framing Nailer, Tool Only",
    "brand": "Makita",
    "model": "XNB07Z",
-   "price": 345.27,
+   "price": 347.72,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 21,
+   "reviews_count": 22,
    "score": 62,
    "award": null,
    "best_for": "Makita 18V LXT owners framing with engineered lumber.",
@@ -375,7 +376,7 @@
    ],
    "cons": [
     "11.9 lb with a battery",
-    "Only 21 reviews so far"
+    "Only 22 reviews so far"
    ],
    "specs": {
     "angle": "30°",
@@ -399,7 +400,7 @@
    "name": "RYOBI ONE+ HP 18V Brushless Cordless AirStrike 30° Framing Nailer, Tool Only (PBL350B)",
    "brand": "RYOBI",
    "model": "PBL350B",
-   "price": 300.0,
+   "price": 304.61,
    "currency": "USD",
    "rating": 4.1,
    "reviews_count": 37,
@@ -411,7 +412,7 @@
    "pros": [
     "Takes clipped or full head nails up to 3-1/2 in",
     "Sequential and contact modes",
-    "$300, the cheapest bare framer here"
+    "$305, the cheapest bare framer here"
    ],
    "cons": [
     "Sold by a third-party seller, not Amazon",
@@ -482,6 +483,14 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-11",
+   "note": "Full audit. Replaced the Metabo HPT NR1890DRST, which dropped out of Amazon's top search results, with the FLEX 24V FX4351A-1C kit ($429). Every other pick kept."
+  },
+  {
+   "date": "2026-11-11",
+   "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."
+  },
   {
    "date": "2026-11-10",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Makita XNB07Z dropped from $399 to $345.27; the Freeman PE20V2183 rose from $311.40 to $349."
