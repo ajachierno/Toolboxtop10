@@ -2,10 +2,11 @@
   "slug": "wheel-balancers",
   "title": "The 10 Best Wheel Balancers",
   "subtitle": "Bubble and computerized wheel balancers for the home garage, ranked from live Amazon data.",
-  "intro": "A wheel balancer lets you balance car and light-truck tires at home instead of paying a shop every time you swap wheels. Amazon sells two kinds: bubble balancers around $55 that find static imbalance with a level, and computerized spin balancers from about $650 to $1,200 that also catch dynamic (side-to-side) imbalance. We ranked 10 on star rating, review volume, and features (electronic readout, automatic rim measurement, alloy-wheel modes, and a stated warranty).",
-  "data_captured": "2026-11-11",
-  "audited": "2026-11-04",
+  "intro": "A wheel balancer lets you balance car and light-truck tires at home instead of paying a shop every time you swap wheels. Amazon sells two kinds: bubble balancers around $55 that find static imbalance with a level, and computerized spin balancers from about $680 to $1,200 (more when bundled with a tire changer) that also catch dynamic (side-to-side) imbalance. We ranked 10 on star rating, review volume, and features (electronic readout, automatic rim measurement, alloy-wheel modes, and a stated warranty).",
+  "data_captured": "2026-11-12",
+  "audited": "2026-11-12",
   "changelog": [
+    {"date": "2026-11-12", "note": "Replaced the weyleity bubble balancer and the I40 PRO hand-spun balancer, which no longer have an Amazon buy box, with the wonofa bubble balancer and XK's 580/690 tire changer and balancer combo. Prices, ratings and review counts re-checked on every listing. No price changes."},
     {"date": "2026-11-11", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. No price changes."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the NYXOVA G08251054 (was the Ibextronic I40 PRO). Best Budget is now the ATPEAM AP-04-2690 (was the NYXOVA G08251054)."},
     {"date": "2026-11-04", "note": "Replaced the DASBET and Acymner bubble balancers (both currently unavailable) with the SIXIWANZI and Punmew bubble balancers, and the MutsMover WBM-S-710, which fell out of the best-seller list, with the Motool KT-710G computer balancer."},
@@ -188,7 +189,7 @@
       "image": "https://m.media-amazon.com/images/I/5191ySDOoPL._AC_SL1500_.jpg",
       "price": 54.99,
       "rating": 4.3,
-      "reviews_count": 119,
+      "reviews_count": 121,
       "bought": "100+/mo",
       "specs": {"type": "Bubble (static)", "range": "1-1/2 to 4 in. hubs", "accuracy": null, "power": "None needed", "weight": "10.6 lb"},
       "features": {"electronic": false, "auto_measure": false, "alu_modes": false, "warranty": false},
@@ -206,7 +207,7 @@
       "image": "https://m.media-amazon.com/images/I/6133PpoQSML._AC_SL1500_.jpg",
       "price": 55.79,
       "rating": 4.1,
-      "reviews_count": 89,
+      "reviews_count": 90,
       "bought": "100+/mo",
       "specs": {"type": "Bubble (static)", "range": "1-1/2 to 4 in. hubs", "accuracy": null, "power": "None needed", "weight": "11.6 lb"},
       "features": {"electronic": false, "auto_measure": false, "alu_modes": false, "warranty": false},
@@ -217,40 +218,18 @@
       "cons": ["Lowest star rating of the bubble balancers here", "Static balance only", "No warranty term stated on the listing"]
     },
     {
-      "asin": "B0D14HC37G",
-      "name": "weyleity Portable Wheel Balancer with Heavy Duty Hubs",
-      "brand": "weyleity",
-      "model": "MSP-0408-02",
-      "image": "https://m.media-amazon.com/images/I/616VMSktFUL._AC_SX425_.jpg",
-      "price": 55.99,
-      "rating": 4.4,
-      "reviews_count": 126,
-      "bought": "50+/mo",
-      "specs": {
-        "type": "Bubble (static)",
-        "range": "1-1/2 to 4 in. hubs",
-        "accuracy": null,
-        "power": "None needed",
-        "weight": "11.8 lb"
-      },
-      "features": {
-        "electronic": false,
-        "auto_measure": false,
-        "alu_modes": false,
-        "warranty": false
-      },
-      "verdict": "A 4.5-star bubble balancer that ships as base, shaft, and cone set. Like the others, it's a static balancer for the home garage.",
-      "best_for": "A well-rated bubble balancer that ships ready to assemble.",
-      "skip_if": "You need dynamic balancing.",
-      "pros": [
-        "4.4 stars with steady monthly sales",
-        "Rust-resistant enamel base; chrome-plated rods and springs",
-        "Listing spells out what's in the box: base, shaft, cone set"
-      ],
-      "cons": [
-        "Static balance only: it can't find the side-to-side (dynamic) imbalance a spin balancer catches, which matters more on wide tires",
-        "No published accuracy figure; results depend on how level your floor is and how patient you are"
-      ]
+      "asin": "B095HGW598",
+      "name": "wonofa Portable Bubble Wheel Tire Balancer for Car and Truck Hubs, Heavy Duty Steel",
+      "brand": "wonofa", "model": "Bubble balancer",
+      "image": "https://m.media-amazon.com/images/I/71VKgkO8MGL._AC_SL1500_.jpg",
+      "price": 57.50, "rating": 4.5, "reviews_count": 47, "bought": null,
+      "specs": { "type": "Bubble (static)", "range": "1-1/2 to 4 in. hubs", "accuracy": null, "power": "None needed", "weight": "11.75 lb" },
+      "features": { "electronic": false, "auto_measure": false, "alu_modes": false, "warranty": false },
+      "verdict": "A high-strength steel bubble balancer with an aluminum head for 1-1/2 to 4 in. hubs and a bull's-eye level, sized for cars and light trucks.",
+      "best_for": "Static-balancing car and light-truck tires at home.",
+      "skip_if": "You need to catch side-to-side (dynamic) imbalance.",
+      "pros": ["Fits 1-1/2 to 4 in. hubs", "High-strength steel", "Bull's-eye level"],
+      "cons": ["Static balance only", "No accuracy rating published"]
     },
     {
       "asin": "B0GD6ZDN54",
@@ -274,7 +253,7 @@
         "alu_modes": false,
         "warranty": false
       },
-      "verdict": "The most-reviewed computerized balancer we found. It spins the wheel, reads both static and dynamic imbalance to ±1 g, and its measuring ruler fills in rim distance and diameter for you.",
+      "verdict": "KATOOL's fully automatic model. It spins the wheel, reads both static and dynamic imbalance to ±1 g, and its measuring ruler fills in rim distance and diameter for you.",
       "best_for": "Shops that want automatic rim measurement and ±1 g accuracy.",
       "skip_if": "You lack floor space; it's 241 lb and needs anchoring.",
       "pros": [
@@ -290,40 +269,18 @@
       "premium": true
     },
     {
-      "asin": "B0FKBCVMLB",
-      "name": "I40 PRO Portable Mini Wheel Balancer Machine, USB-C Powered",
-      "brand": "Ibextronic",
-      "model": "I40 PRO",
-      "image": "https://m.media-amazon.com/images/I/61Ugy8ivoDL._AC_SX425_.jpg",
-      "price": 648.00,
-      "rating": 4.8,
-      "reviews_count": 7,
-      "specs": {
-        "type": "Computer, hand-spun",
-        "range": "Wheels up to 22 in. dia., 300 mm wide",
-        "accuracy": "±1 g",
-        "power": "USB-C, 5V/1A",
-        "weight": "44 lb (main unit)"
-      },
-      "features": {
-        "electronic": true,
-        "auto_measure": true,
-        "alu_modes": true,
-        "warranty": true
-      },
-      "verdict": "A computerized balancer small enough for a workbench: you spin the wheel by hand two or three turns and it reads the imbalance. It runs off USB-C power, so it works in a van or a garage with no spare outlet.",
-      "best_for": "A bench-top computer balancer that runs on USB-C power.",
-      "skip_if": "You balance big truck tires; it fits up to 22 in.",
-      "pros": [
-        "Bench or vehicle mount, 44 lb main unit, powered by USB-C",
-        "2D auto-arm and ALU2/ALU3 modes for alloy rims with stick-on weights",
-        "12-month full parts warranty; calibration weight and two cones included"
-      ],
-      "cons": [
-        "Max wheel diameter is 22 in. (the whole tire, not the rim), so big truck tires won't fit",
-        "Hand-spun, so it's slower per wheel than a motorized balancer",
-        "Sold under a generic brand name"
-      ]
+      "asin": "B076XLNVQB",
+      "name": "XK Tire Changer Machine and Wheel Balancer Combo, 110V, 580 Changer and 690 Balancer",
+      "brand": "XK", "model": "580/690 combo",
+      "image": "https://m.media-amazon.com/images/I/71CCBJySTlL._AC_SL1500_.jpg",
+      "price": 1559.00, "rating": 4.5, "reviews_count": 170, "bought": null,
+      "specs": { "type": "Computer (dynamic), with tire changer", "range": "Wheels up to 44 in. dia., 155 lb", "accuracy": "±1 g", "power": "110V", "weight": "780 lb (both machines)" },
+      "features": { "electronic": true, "auto_measure": false, "alu_modes": true, "warranty": false },
+      "verdict": "Two machines in one order: XK's 690 spin balancer (±1 g, dynamic, static, Alu 1-3 and motorcycle modes, 6 to 9 second cycle) and its 580 tire changer.",
+      "best_for": "A home shop that wants to mount and balance its own tires.",
+      "skip_if": "You already own a tire changer and only need the balancer.",
+      "pros": ["Balancer and tire changer together", "±1 g accuracy with Alu modes", "170 reviews at 4.5 stars"],
+      "cons": ["$1,559", "780 lb; the changer needs 120-145 psi shop air"]
     },
     {
       "asin": "B0G7G9D79R",
@@ -368,11 +325,11 @@
       "model": "KT-710G",
       "image": "https://m.media-amazon.com/images/I/61cM767VmvL._AC_SL1500_.jpg",
       "price": 679.00,
-      "rating": 5.0,
-      "reviews_count": 2,
+      "rating": 4.6,
+      "reviews_count": 3,
       "specs": {"type": "Computer (manual input)", "range": "10 to 24 in. rims", "accuracy": "1 g", "power": null, "weight": null},
       "features": {"electronic": true, "auto_measure": false, "alu_modes": false, "warranty": false},
-      "verdict": "The second-cheapest computer balancer here, after the hand-spun I40 PRO: 1 g accuracy on 10 to 24 in. rims, with a self-calibration system and gram/ounce readout.",
+      "verdict": "The cheapest computer balancer here: 1 g accuracy on 10 to 24 in. rims, with a self-calibration system and gram/ounce readout.",
       "best_for": "A small shop that wants a computer balancer for car rims up to 24 in.",
       "skip_if": "You want automatic rim measurement or a published warranty; the listing has neither.",
       "pros": ["1 g balancing accuracy", "10 to 24 in. rim range", "Self-calibration and grams/ounces toggle"],
@@ -414,7 +371,7 @@
     },
     {
       "q": "What is ALU mode?",
-      "a": "ALU modes tell the balancer you're using stick-on weights on the inside of an alloy rim instead of clip-on weights on the rim edge, so it calculates weight positions for those spots. The I40 PRO and KATOOL KT-B700 list ALU modes."
+      "a": "ALU modes tell the balancer you're using stick-on weights on the inside of an alloy rim instead of clip-on weights on the rim edge, so it calculates weight positions for those spots. The KATOOL KT-B700 and the XK 690 list ALU modes."
     },
     {
       "q": "What else do I need?",

@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 170,
@@ -290,8 +290,8 @@
    "title": "The 10 Best Bench Vises",
    "url": "https://toolboxtop10.com/bench-vises.html",
    "json": "https://toolboxtop10.com/bench-vises.json",
-   "data_captured": "2026-11-10",
-   "audited": "2026-10-10",
+   "data_captured": "2026-11-12",
+   "audited": "2026-11-12",
    "products": 10,
    "best_overall": {
     "asin": "B07V7YFRJK",
@@ -378,7 +378,7 @@
    "title": "The 10 Best Biscuit Joiners",
    "url": "https://toolboxtop10.com/biscuit-joiners.html",
    "json": "https://toolboxtop10.com/biscuit-joiners.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-11-06",
    "products": 10,
    "best_overall": {
@@ -782,7 +782,7 @@
    "title": "The 10 Best Corded Impact Wrenches",
    "url": "https://toolboxtop10.com/corded-impact-wrenches.html",
    "json": "https://toolboxtop10.com/corded-impact-wrenches.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-12",
    "audited": "2026-11-10",
    "products": 10,
    "best_overall": {
@@ -974,7 +974,7 @@
    "title": "The 10 Best Corded Rotary Tools",
    "url": "https://toolboxtop10.com/corded-rotary-tools.html",
    "json": "https://toolboxtop10.com/corded-rotary-tools.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-11-06",
    "products": 10,
    "best_overall": {
@@ -985,7 +985,7 @@
    "best_budget": {
     "asin": "B003BYRFH8",
     "name": "WEN 2305",
-    "price": 21.5
+    "price": 21.99
    },
    "money_no_object": {
     "asin": "B01M1SJNVU",
@@ -1106,7 +1106,7 @@
    "title": "The 10 Best Cordless Angle Grinders",
    "url": "https://toolboxtop10.com/cordless-angle-grinders.html",
    "json": "https://toolboxtop10.com/cordless-angle-grinders.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-31",
    "products": 10,
    "best_overall": {
@@ -1442,7 +1442,7 @@
    "title": "The 10 Best Cordless Heat Guns",
    "url": "https://toolboxtop10.com/cordless-heat-guns.html",
    "json": "https://toolboxtop10.com/cordless-heat-guns.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-31",
    "products": 10,
    "best_overall": {
@@ -1798,8 +1798,8 @@
    "title": "The 10 Best Cordless Ratchets",
    "url": "https://toolboxtop10.com/cordless-ratchets.html",
    "json": "https://toolboxtop10.com/cordless-ratchets.json",
-   "data_captured": "2026-11-11",
-   "audited": "2026-10-10",
+   "data_captured": "2026-11-12",
+   "audited": "2026-11-12",
    "products": 10,
    "best_overall": {
     "asin": "B0DLVSJ9KY",
@@ -1809,12 +1809,12 @@
    "best_budget": {
     "asin": "B0DHVZ3PN8",
     "name": "Seesii 21V ratchet",
-    "price": 59.99
+    "price": 61.99
    },
    "money_no_object": {
     "asin": "B00EQ53HG4",
     "name": "DEWALT DCF510B",
-    "price": 193.99
+    "price": 192.0
    }
   },
   {
@@ -1822,18 +1822,18 @@
    "title": "The 10 Best Cordless Reciprocating Saws",
    "url": "https://toolboxtop10.com/cordless-reciprocating-saws.html",
    "json": "https://toolboxtop10.com/cordless-reciprocating-saws.json",
-   "data_captured": "2026-11-11",
-   "audited": "2026-11-05",
+   "data_captured": "2026-11-12",
+   "audited": "2026-11-12",
    "products": 10,
    "best_overall": {
-    "asin": "B0DPW3VYX5",
-    "name": "SEESII Recip Kit",
-    "price": 62.99
+    "asin": "B076HPKK19",
+    "name": "BLACK+DECKER BDCR20C",
+    "price": 79.0
    },
    "best_budget": {
     "asin": "B0B88R7HWB",
     "name": "RYOBI PCL515B",
-    "price": 59.0
+    "price": 56.0
    },
    "money_no_object": {
     "asin": "B01M69K91R",
@@ -1962,13 +1962,13 @@
    "title": "The 10 Best Cordless Shop Vacuums",
    "url": "https://toolboxtop10.com/cordless-shop-vacuums.html",
    "json": "https://toolboxtop10.com/cordless-shop-vacuums.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-11-06",
    "products": 10,
    "best_overall": {
     "asin": "B0F18SDY67",
     "name": "Seesii K-903",
-    "price": 109.99
+    "price": 129.99
    },
    "best_budget": {
     "asin": "B0CLS6VPYH",
@@ -2034,13 +2034,13 @@
    "title": "The 10 Best Cordless Tire Inflators",
    "url": "https://toolboxtop10.com/cordless-tire-inflators.html",
    "json": "https://toolboxtop10.com/cordless-tire-inflators.json",
-   "data_captured": "2026-11-05",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07H39S9JQ",
     "name": "DEWALT DCC020IB",
-    "price": 127.95
+    "price": 127.89
    },
    "best_budget": {
     "asin": "B0CS3B7MD8",
@@ -2054,7 +2054,7 @@
    "title": "The 10 Best Digital Calipers",
    "url": "https://toolboxtop10.com/digital-calipers.html",
    "json": "https://toolboxtop10.com/digital-calipers.json",
-   "data_captured": "2026-11-05",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2065,7 +2065,7 @@
    "best_budget": {
     "asin": "B07DFFYCXS",
     "name": "Adoric 0-6 in",
-    "price": 8.99
+    "price": 9.49
    },
    "money_no_object": {
     "asin": "B00WSOU772",
@@ -2122,18 +2122,18 @@
    "title": "The 10 Best Drywall Screw Guns",
    "url": "https://toolboxtop10.com/drywall-screw-guns.html",
    "json": "https://toolboxtop10.com/drywall-screw-guns.json",
-   "data_captured": "2026-11-05",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0BZ3VDDBL",
     "name": "DEWALT DCK265D2",
-    "price": 374.99
+    "price": 390.79
    },
    "best_budget": {
-    "asin": "B0D69LP496",
-    "name": "Hoteche P800206A",
-    "price": 39.99
+    "asin": "B07MHML6K9",
+    "name": "RYOBI P225",
+    "price": 87.24
    },
    "money_no_object": null
   },
@@ -2142,7 +2142,7 @@
    "title": "The 10 Best Electric Demolition Hammers",
    "url": "https://toolboxtop10.com/demolition-hammers.html",
    "json": "https://toolboxtop10.com/demolition-hammers.json",
-   "data_captured": "2026-11-05",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2154,7 +2154,7 @@
    "money_no_object": {
     "asin": "B003ANBKXA",
     "name": "Makita HM0870C",
-    "price": 452.99
+    "price": 444.75
    }
   },
   {
@@ -2162,23 +2162,23 @@
    "title": "The 10 Best Electric Hand Planers",
    "url": "https://toolboxtop10.com/corded-hand-planers.html",
    "json": "https://toolboxtop10.com/corded-hand-planers.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-11-06",
    "products": 10,
    "best_overall": {
-    "asin": "B086ZDQGXM",
-    "name": "SKIL PL2012-00",
-    "price": 86.86
-   },
-   "best_budget": {
     "asin": "B00OW5AJTG",
     "name": "WEN 6530",
     "price": 42.44
    },
+   "best_budget": {
+    "asin": "B079FBDPF4",
+    "name": "WEN 6528",
+    "price": 31.35
+   },
    "money_no_object": {
     "asin": "B0033WSK5O",
     "name": "Makita KP0800K",
-    "price": 209.0
+    "price": 206.72
    }
   },
   {
@@ -2186,8 +2186,8 @@
    "title": "The 10 Best Electric Pressure Washers",
    "url": "https://toolboxtop10.com/electric-pressure-washers.html",
    "json": "https://toolboxtop10.com/electric-pressure-washers.json",
-   "data_captured": "2026-11-05",
-   "audited": "2026-10-10",
+   "data_captured": "2026-11-12",
+   "audited": "2026-11-12",
    "products": 10,
    "best_overall": {
     "asin": "B0CQMZ4BG5",
@@ -2202,7 +2202,7 @@
    "money_no_object": {
     "asin": "B0CQMHSPSG",
     "name": "Westinghouse WPX3400e",
-    "price": 365.0
+    "price": 375.0
    }
   },
   {
@@ -2210,7 +2210,7 @@
    "title": "The 10 Best Engine Hoists",
    "url": "https://toolboxtop10.com/engine-hoists.html",
    "json": "https://toolboxtop10.com/engine-hoists.json",
-   "data_captured": "2026-11-05",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-29",
    "products": 10,
    "best_overall": {
@@ -2258,7 +2258,7 @@
    "title": "The 10 Best Floor Jacks",
    "url": "https://toolboxtop10.com/floor-jacks.html",
    "json": "https://toolboxtop10.com/floor-jacks.json",
-   "data_captured": "2026-11-05",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2278,19 +2278,15 @@
    "title": "The 10 Best Gantry Cranes for Garages",
    "url": "https://toolboxtop10.com/gantry-cranes.html",
    "json": "https://toolboxtop10.com/gantry-cranes.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B073Y9KBMM",
     "name": "JEGS 1-Ton Gantry",
-    "price": 695.0
+    "price": 620.49
    },
-   "best_budget": {
-    "asin": "B0DSHWQHBQ",
-    "name": "Dkenicor 3 Ton with Trolley",
-    "price": 694.39
-   },
+   "best_budget": null,
    "money_no_object": {
     "asin": "B0G4LR8713",
     "name": "LYFOO 10.5 ft 4,000 lb",
@@ -2302,7 +2298,7 @@
    "title": "The 10 Best Hacksaws",
    "url": "https://toolboxtop10.com/hacksaws.html",
    "json": "https://toolboxtop10.com/hacksaws.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2366,13 +2362,13 @@
    "title": "The 10 Best Hot Glue Guns",
    "url": "https://toolboxtop10.com/hot-glue-guns.html",
    "json": "https://toolboxtop10.com/hot-glue-guns.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B09MRNT9WY",
     "name": "ROMECH 60/100W",
-    "price": 24.99
+    "price": 26.99
    },
    "best_budget": {
     "asin": "B0DSK5PHZ7",
@@ -2390,7 +2386,7 @@
    "title": "The 10 Best HVLP and LVLP Spray Guns",
    "url": "https://toolboxtop10.com/hvlp-air-spray-guns.html",
    "json": "https://toolboxtop10.com/hvlp-air-spray-guns.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2401,7 +2397,7 @@
    "best_budget": {
     "asin": "B08JGGDLYN",
     "name": "Hotorda H-2000/H-827",
-    "price": 34.99
+    "price": 34.3
    },
    "money_no_object": {
     "asin": "B0CD1RNPWK",
@@ -2414,13 +2410,13 @@
    "title": "The 10 Best HVLP Paint Sprayers",
    "url": "https://toolboxtop10.com/hvlp-paint-sprayers.html",
    "json": "https://toolboxtop10.com/hvlp-paint-sprayers.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B00D4NPPQY",
     "name": "Fuji Spray 2203G",
-    "price": 566.0
+    "price": 563.09
    },
    "best_budget": {
     "asin": "B071X9FZ7R",
@@ -2434,13 +2430,13 @@
    "title": "The 10 Best Impact Driver Bit Sets",
    "url": "https://toolboxtop10.com/impact-driver-bit-sets.html",
    "json": "https://toolboxtop10.com/impact-driver-bit-sets.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-11-06",
    "products": 10,
    "best_overall": {
     "asin": "B00VQCBTXS",
     "name": "DEWALT DWA2FTS100",
-    "price": 69.35
+    "price": 65.06
    },
    "best_budget": {
     "asin": "B00GMXFK3G",
@@ -2474,7 +2470,7 @@
    "title": "The 10 Best Infrared Thermometers",
    "url": "https://toolboxtop10.com/infrared-thermometers.html",
    "json": "https://toolboxtop10.com/infrared-thermometers.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2498,7 +2494,7 @@
    "title": "The 10 Best Jack Stands",
    "url": "https://toolboxtop10.com/jack-stands.html",
    "json": "https://toolboxtop10.com/jack-stands.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2509,7 +2505,7 @@
    "best_budget": {
     "asin": "B0753MMRN7",
     "name": "Amazon Basics SW-STJK03",
-    "price": 32.39
+    "price": 31.49
    },
    "money_no_object": {
     "asin": "B0093NBQNA",
@@ -2522,18 +2518,18 @@
    "title": "The 10 Best Jobsite Radios",
    "url": "https://toolboxtop10.com/jobsite-radios.html",
    "json": "https://toolboxtop10.com/jobsite-radios.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07YVDLDLR",
     "name": "Milwaukee 2950-20",
-    "price": 299.0
+    "price": 314.0
    },
    "best_budget": {
     "asin": "B0033WSDY2",
     "name": "Sangean LB-100",
-    "price": 92.83
+    "price": 92.8
    },
    "money_no_object": null
   },
@@ -2542,7 +2538,7 @@
    "title": "The 10 Best Jump Starters",
    "url": "https://toolboxtop10.com/jump-starters.html",
    "json": "https://toolboxtop10.com/jump-starters.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2590,7 +2586,7 @@
    "title": "The 10 Best Laser Levels",
    "url": "https://toolboxtop10.com/laser-levels.html",
    "json": "https://toolboxtop10.com/laser-levels.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-12",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2599,9 +2595,9 @@
     "price": 69.99
    },
    "best_budget": {
-    "asin": "B0DX1T6D1M",
-    "name": "Motovera LL-T2",
-    "price": 37.99
+    "asin": "B0FL7BCX8Z",
+    "name": "Lusweimi Green cross line",
+    "price": 34.99
    },
    "money_no_object": {
     "asin": "B017LTFSSG",
@@ -3754,24 +3750,20 @@
    "title": "The 10 Best Wheel Balancers",
    "url": "https://toolboxtop10.com/wheel-balancers.html",
    "json": "https://toolboxtop10.com/wheel-balancers.json",
-   "data_captured": "2026-11-11",
-   "audited": "2026-11-04",
+   "data_captured": "2026-11-12",
+   "audited": "2026-11-12",
    "products": 10,
    "best_overall": {
+    "asin": "B076XLNVQB",
+    "name": "XK 580/690 combo",
+    "price": 1559.0
+   },
+   "best_budget": {
     "asin": "B0CGL52TZ5",
     "name": "NYXOVA G08251054",
     "price": 58.99
    },
-   "best_budget": {
-    "asin": "B093H7NHPF",
-    "name": "ATPEAM AP-04-2690",
-    "price": 55.25
-   },
-   "money_no_object": {
-    "asin": "B0GD6ZDN54",
-    "name": "KATOOL KT-B760",
-    "price": 1199.0
-   }
+   "money_no_object": null
   },
   {
    "slug": "wire-strippers",

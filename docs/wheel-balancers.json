@@ -5,9 +5,9 @@
  "slug": "wheel-balancers",
  "title": "The 10 Best Wheel Balancers",
  "subtitle": "Bubble and computerized wheel balancers for the home garage, ranked from live Amazon data.",
- "intro": "A wheel balancer lets you balance car and light-truck tires at home instead of paying a shop every time you swap wheels. Amazon sells two kinds: bubble balancers around $55 that find static imbalance with a level, and computerized spin balancers from about $650 to $1,200 that also catch dynamic (side-to-side) imbalance. We ranked 10 on star rating, review volume, and features (electronic readout, automatic rim measurement, alloy-wheel modes, and a stated warranty).",
- "data_captured": "2026-11-11",
- "audited": "2026-11-04",
+ "intro": "A wheel balancer lets you balance car and light-truck tires at home instead of paying a shop every time you swap wheels. Amazon sells two kinds: bubble balancers around $55 that find static imbalance with a level, and computerized spin balancers from about $680 to $1,200 (more when bundled with a tire changer) that also catch dynamic (side-to-side) imbalance. We ranked 10 on star rating, review volume, and features (electronic readout, automatic rim measurement, alloy-wheel modes, and a stated warranty).",
+ "data_captured": "2026-11-12",
+ "audited": "2026-11-12",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -28,52 +28,51 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0CGL52TZ5",
-  "best_budget": "B093H7NHPF",
-  "money_no_object": "B0GD6ZDN54"
+  "best_overall": "B076XLNVQB",
+  "best_budget": "B0CGL52TZ5",
+  "money_no_object": null
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B0FKBCVMLB",
-   "name": "I40 PRO Portable Mini Wheel Balancer Machine, USB-C Powered",
-   "brand": "Ibextronic",
-   "model": "I40 PRO",
-   "price": 648.0,
+   "asin": "B076XLNVQB",
+   "name": "XK Tire Changer Machine and Wheel Balancer Combo, 110V, 580 Changer and 690 Balancer",
+   "brand": "XK",
+   "model": "580/690 combo",
+   "price": 1559.0,
    "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 7,
-   "score": 77,
-   "award": null,
-   "best_for": "A bench-top computer balancer that runs on USB-C power.",
+   "rating": 4.5,
+   "reviews_count": 170,
+   "score": 87,
+   "award": "Best Overall",
+   "best_for": "A home shop that wants to mount and balance its own tires.",
    "bought_last_month": null,
-   "verdict": "A computerized balancer small enough for a workbench: you spin the wheel by hand two or three turns and it reads the imbalance. It runs off USB-C power, so it works in a van or a garage with no spare outlet.",
+   "verdict": "Two machines in one order: XK's 690 spin balancer (±1 g, dynamic, static, Alu 1-3 and motorcycle modes, 6 to 9 second cycle) and its 580 tire changer.",
    "pros": [
-    "Bench or vehicle mount, 44 lb main unit, powered by USB-C",
-    "2D auto-arm and ALU2/ALU3 modes for alloy rims with stick-on weights",
-    "12-month full parts warranty; calibration weight and two cones included"
+    "Balancer and tire changer together",
+    "±1 g accuracy with Alu modes",
+    "170 reviews at 4.5 stars"
    ],
    "cons": [
-    "Max wheel diameter is 22 in. (the whole tire, not the rim), so big truck tires won't fit",
-    "Hand-spun, so it's slower per wheel than a motorized balancer",
-    "Sold under a generic brand name"
+    "$1,559",
+    "780 lb; the changer needs 120-145 psi shop air"
    ],
    "specs": {
-    "type": "Computer, hand-spun",
-    "range": "Wheels up to 22 in. dia., 300 mm wide",
+    "type": "Computer (dynamic), with tire changer",
+    "range": "Wheels up to 44 in. dia., 155 lb",
     "accuracy": "±1 g",
-    "power": "USB-C, 5V/1A",
-    "weight": "44 lb (main unit)"
+    "power": "110V",
+    "weight": "780 lb (both machines)"
    },
    "features": {
     "electronic": true,
-    "auto_measure": true,
+    "auto_measure": false,
     "alu_modes": true,
-    "warranty": true
+    "warranty": false
    },
-   "image": "https://m.media-amazon.com/images/I/61Ugy8ivoDL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0FKBCVMLB?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wheel-balancers.html#B0FKBCVMLB"
+   "image": "https://m.media-amazon.com/images/I/71CCBJySTlL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B076XLNVQB?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wheel-balancers.html#B076XLNVQB"
   },
   {
    "rank": 2,
@@ -86,7 +85,7 @@
    "rating": 4.5,
    "reviews_count": 223,
    "score": 76,
-   "award": "Best Overall",
+   "award": "Best Budget",
    "best_for": "A bubble balancer with published dimensions, if the top seller is out.",
    "bought_last_month": "50+/mo",
    "verdict": "The same 24-inch bubble design as the rest of the field, with chrome-plated rods and springs and a solid 4.4-star record. A safe pick if the top seller is out of stock.",
@@ -168,7 +167,7 @@
    "rating": 4.2,
    "reviews_count": 263,
    "score": 73,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A cheaper bubble balancer with simple assembly.",
    "bought_last_month": null,
    "verdict": "Another 24-inch bubble balancer, slightly cheaper than most of the list. Assembly is three parts: bolt the shaft to the base and drop the cone set on top.",
@@ -201,47 +200,6 @@
   },
   {
    "rank": 5,
-   "asin": "B0D14HC37G",
-   "name": "weyleity Portable Wheel Balancer with Heavy Duty Hubs",
-   "brand": "weyleity",
-   "model": "MSP-0408-02",
-   "price": 55.99,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 126,
-   "score": 72,
-   "award": null,
-   "best_for": "A well-rated bubble balancer that ships ready to assemble.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A 4.5-star bubble balancer that ships as base, shaft, and cone set. Like the others, it's a static balancer for the home garage.",
-   "pros": [
-    "4.4 stars with steady monthly sales",
-    "Rust-resistant enamel base; chrome-plated rods and springs",
-    "Listing spells out what's in the box: base, shaft, cone set"
-   ],
-   "cons": [
-    "Static balance only: it can't find the side-to-side (dynamic) imbalance a spin balancer catches, which matters more on wide tires",
-    "No published accuracy figure; results depend on how level your floor is and how patient you are"
-   ],
-   "specs": {
-    "type": "Bubble (static)",
-    "range": "1-1/2 to 4 in. hubs",
-    "accuracy": null,
-    "power": "None needed",
-    "weight": "11.8 lb"
-   },
-   "features": {
-    "electronic": false,
-    "auto_measure": false,
-    "alu_modes": false,
-    "warranty": false
-   },
-   "image": "https://m.media-amazon.com/images/I/616VMSktFUL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D14HC37G?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/wheel-balancers.html#B0D14HC37G"
-  },
-  {
-   "rank": 6,
    "asin": "B0D7V8D9C3",
    "name": "SIXIWANZI Tire Balancer, Portable Bubble Wheel Balancer for Cars Trucks",
    "brand": "SIXIWANZI",
@@ -249,7 +207,7 @@
    "price": 54.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 119,
+   "reviews_count": 121,
    "score": 70,
    "award": null,
    "best_for": "Occasional static balancing of car and light-truck wheels.",
@@ -282,7 +240,7 @@
    "page_url": "https://toolboxtop10.com/wheel-balancers.html#B0D7V8D9C3"
   },
   {
-   "rank": 7,
+   "rank": 6,
    "asin": "B0GD6ZDN54",
    "name": "KATOOL KT-B760 Automatic Wheel Balancer with Digital Measurement Ruler and Laser Guide",
    "brand": "KATOOL",
@@ -292,10 +250,10 @@
    "rating": 4.3,
    "reviews_count": 11,
    "score": 68,
-   "award": "Money No Object",
+   "award": null,
    "best_for": "Shops that want automatic rim measurement and ±1 g accuracy.",
    "bought_last_month": null,
-   "verdict": "The most-reviewed computerized balancer we found. It spins the wheel, reads both static and dynamic imbalance to ±1 g, and its measuring ruler fills in rim distance and diameter for you.",
+   "verdict": "KATOOL's fully automatic model. It spins the wheel, reads both static and dynamic imbalance to ±1 g, and its measuring ruler fills in rim distance and diameter for you.",
    "pros": [
     "Automatic ruler enters rim distance (A) and diameter (D), so there's less to key in",
     "±1 g accuracy; a measuring cycle takes about 7 seconds at 180 rpm",
@@ -324,7 +282,7 @@
    "page_url": "https://toolboxtop10.com/wheel-balancers.html#B0GD6ZDN54"
   },
   {
-   "rank": 8,
+   "rank": 7,
    "asin": "B0CTGT2H1N",
    "name": "Punmew Portable Bubble Tire Balancer Wheel Balancer Tool Heavy Duty",
    "brand": "Punmew",
@@ -332,7 +290,7 @@
    "price": 55.79,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 89,
+   "reviews_count": 90,
    "score": 67,
    "award": null,
    "best_for": "A home garage that balances its own car tires a few times a year.",
@@ -364,6 +322,47 @@
    "image": "https://m.media-amazon.com/images/I/6133PpoQSML._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0CTGT2H1N?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/wheel-balancers.html#B0CTGT2H1N"
+  },
+  {
+   "rank": 8,
+   "asin": "B095HGW598",
+   "name": "wonofa Portable Bubble Wheel Tire Balancer for Car and Truck Hubs, Heavy Duty Steel",
+   "brand": "wonofa",
+   "model": "Bubble balancer",
+   "price": 57.5,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 47,
+   "score": 66,
+   "award": null,
+   "best_for": "Static-balancing car and light-truck tires at home.",
+   "bought_last_month": null,
+   "verdict": "A high-strength steel bubble balancer with an aluminum head for 1-1/2 to 4 in. hubs and a bull's-eye level, sized for cars and light trucks.",
+   "pros": [
+    "Fits 1-1/2 to 4 in. hubs",
+    "High-strength steel",
+    "Bull's-eye level"
+   ],
+   "cons": [
+    "Static balance only",
+    "No accuracy rating published"
+   ],
+   "specs": {
+    "type": "Bubble (static)",
+    "range": "1-1/2 to 4 in. hubs",
+    "accuracy": null,
+    "power": "None needed",
+    "weight": "11.75 lb"
+   },
+   "features": {
+    "electronic": false,
+    "auto_measure": false,
+    "alu_modes": false,
+    "warranty": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71VKgkO8MGL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B095HGW598?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/wheel-balancers.html#B095HGW598"
   },
   {
    "rank": 9,
@@ -415,13 +414,13 @@
    "model": "KT-710G",
    "price": 679.0,
    "currency": "USD",
-   "rating": 5.0,
-   "reviews_count": 2,
-   "score": 61,
+   "rating": 4.6,
+   "reviews_count": 3,
+   "score": 60,
    "award": null,
    "best_for": "A small shop that wants a computer balancer for car rims up to 24 in.",
    "bought_last_month": null,
-   "verdict": "The second-cheapest computer balancer here, after the hand-spun I40 PRO: 1 g accuracy on 10 to 24 in. rims, with a self-calibration system and gram/ounce readout.",
+   "verdict": "The cheapest computer balancer here: 1 g accuracy on 10 to 24 in. rims, with a self-calibration system and gram/ounce readout.",
    "pros": [
     "1 g balancing accuracy",
     "10 to 24 in. rim range",
@@ -489,7 +488,7 @@
   },
   {
    "q": "What is ALU mode?",
-   "a": "ALU modes tell the balancer you're using stick-on weights on the inside of an alloy rim instead of clip-on weights on the rim edge, so it calculates weight positions for those spots. The I40 PRO and KATOOL KT-B700 list ALU modes."
+   "a": "ALU modes tell the balancer you're using stick-on weights on the inside of an alloy rim instead of clip-on weights on the rim edge, so it calculates weight positions for those spots. The KATOOL KT-B700 and the XK 690 list ALU modes."
   },
   {
    "q": "What else do I need?",
@@ -497,6 +496,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-12",
+   "note": "Replaced the weyleity bubble balancer and the I40 PRO hand-spun balancer, which no longer have an Amazon buy box, with the wonofa bubble balancer and XK's 580/690 tire changer and balancer combo. Prices, ratings and review counts re-checked on every listing. No price changes."
+  },
   {
    "date": "2026-11-11",
    "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. No price changes."

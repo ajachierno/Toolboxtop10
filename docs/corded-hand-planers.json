@@ -6,7 +6,7 @@
  "title": "The 10 Best Electric Hand Planers",
  "subtitle": "Corded power planers for trimming doors, flattening boards and chamfering edges, ranked from live Amazon data.",
  "intro": "An electric hand planer shaves wood down fast: trim a sticking door, flatten a cupped board, or take a beam down to size. We ranked 10 corded best-sellers on rating, review volume and features (a cut depth of 1/8 inch or more, a rabbeting guide, dust ejection to either side and a kickstand that protects the blades). Most cut 3-1/4 inches wide; WEN also sells a narrow 2-3/8-inch model and a wide 4-3/8-inch one for 2x4s. They run from about $31 for WEN's 6528 to $209 for Makita's KP0800K kit.",
- "data_captured": "2026-11-06",
+ "data_captured": "2026-11-12",
  "audited": "2026-11-06",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -28,54 +28,13 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B086ZDQGXM",
-  "best_budget": "B00OW5AJTG",
+  "best_overall": "B00OW5AJTG",
+  "best_budget": "B079FBDPF4",
   "money_no_object": "B0033WSK5O"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B086ZDQGXM",
-   "name": "SKIL 6.5 AMP Electric 3-1/4 Inch Corded Planer (PL201201)",
-   "brand": "SKIL",
-   "model": "PL2012-00",
-   "price": 86.86,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 664,
-   "score": 91,
-   "award": "Best Overall",
-   "best_for": "A brand-name planer with everything included.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A 6.5A planer with dual chip exhaust that keeps sightlines clear, a kickstand, wrench storage, a lock-off switch, and a parallel guide and rebate fence in the box.",
-   "pros": [
-    "Dual chip exhaust",
-    "Rebate fence and parallel guide",
-    "Lock-off switch"
-   ],
-   "cons": [
-    "Depth not listed",
-    "1-year warranty"
-   ],
-   "specs": {
-    "width": "3-1/4 in",
-    "depth": null,
-    "motor": "6.5 A",
-    "speed": null,
-    "weight": "6 lb"
-   },
-   "features": {
-    "deep_cut": false,
-    "rabbet": true,
-    "dual_dust": true,
-    "kickstand": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71OMNRkKx1L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B086ZDQGXM?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B086ZDQGXM"
-  },
-  {
-   "rank": 2,
    "asin": "B00OW5AJTG",
    "name": "WEN 6530 6-Amp Electric Hand Planer, 3-1/4-Inch",
    "brand": "WEN",
@@ -83,14 +42,14 @@
    "price": 42.44,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 7992,
+   "reviews_count": 7993,
    "score": 90,
-   "award": "Best Budget",
+   "award": "Best Overall",
    "best_for": "Doors, trim and general DIY planing.",
    "bought_last_month": "1K+/mo",
    "verdict": "The best-selling and most-reviewed planer here: a 6A, 3-1/4-inch planer with 16 depth stops to 1/8 inch, a rabbeting guide for rabbets up to 1 inch, a kickstand, a dust bag and a 2-year warranty, for about $43.",
    "pros": [
-    "7,992 reviews at 4.5 stars",
+    "7,993 reviews at 4.5 stars",
     "1/8-in depth, 16 stops",
     "Kickstand, rabbet guide, 2-year warranty"
    ],
@@ -116,7 +75,7 @@
    "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B00OW5AJTG"
   },
   {
-   "rank": 3,
+   "rank": 2,
    "asin": "B079FH788Z",
    "name": "WEN 6534 8-Amp Electric Hand Planer, 4-3/8-Inch",
    "brand": "WEN",
@@ -124,7 +83,7 @@
    "price": 56.44,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 2707,
+   "reviews_count": 2710,
    "score": 90,
    "award": null,
    "best_for": "Timber, beams and wide boards.",
@@ -157,15 +116,56 @@
    "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B079FH788Z"
   },
   {
+   "rank": 3,
+   "asin": "B086ZDQGXM",
+   "name": "SKIL 6.5 AMP Electric 3-1/4 Inch Corded Planer (PL201201)",
+   "brand": "SKIL",
+   "model": "PL2012-00",
+   "price": 89.0,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 665,
+   "score": 90,
+   "award": null,
+   "best_for": "A brand-name planer with everything included.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A 6.5A planer with dual chip exhaust that keeps sightlines clear, a kickstand, wrench storage, a lock-off switch, and a parallel guide and rebate fence in the box.",
+   "pros": [
+    "Dual chip exhaust",
+    "Rebate fence and parallel guide",
+    "Lock-off switch"
+   ],
+   "cons": [
+    "Depth not listed",
+    "1-year warranty"
+   ],
+   "specs": {
+    "width": "3-1/4 in",
+    "depth": null,
+    "motor": "6.5 A",
+    "speed": null,
+    "weight": "6 lb"
+   },
+   "features": {
+    "deep_cut": false,
+    "rabbet": true,
+    "dual_dust": true,
+    "kickstand": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71OMNRkKx1L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B086ZDQGXM?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B086ZDQGXM"
+  },
+  {
    "rank": 4,
    "asin": "B0033WSK5O",
    "name": "Makita KP0800K 3-1/4\" Planer, with Tool Case",
    "brand": "Makita",
    "model": "KP0800K",
-   "price": 209.0,
+   "price": 206.72,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 821,
+   "reviews_count": 822,
    "score": 82,
    "award": "Money No Object",
    "best_for": "Finish carpenters who want the smoothest cut.",
@@ -177,7 +177,7 @@
     "Tool case and guide"
    ],
    "cons": [
-    "$209",
+    "$206.72",
     "1-year warranty"
    ],
    "specs": {
@@ -247,9 +247,9 @@
    "price": 31.35,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 2276,
+   "reviews_count": 2277,
    "score": 80,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Light edge work and one-handed control.",
    "bought_last_month": "200+/mo",
    "verdict": "The cheapest and lightest planer here: a 4.3 lb, 2-3/8-inch planer for edges, doors and small trim, with a kickstand and onboard wrench storage.",
@@ -287,8 +287,8 @@
    "model": "CMEW300",
    "price": 104.0,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 789,
+   "rating": 4.5,
+   "reviews_count": 790,
    "score": 80,
    "award": null,
    "best_for": "Long, flat passes on doors and boards.",
@@ -301,7 +301,7 @@
    ],
    "cons": [
     "$104.00",
-    "4.4 stars"
+    "4.5 stars"
    ],
    "specs": {
     "width": "3-1/4 in",
@@ -328,9 +328,9 @@
    "model": "2822C",
    "price": 54.9,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 283,
-   "score": 76,
+   "rating": 4.4,
+   "reviews_count": 229,
+   "score": 75,
    "award": null,
    "best_for": "A budget alternative to the WEN 6530.",
    "bought_last_month": "50+/mo",
@@ -338,7 +338,7 @@
    "pros": [
     "HSS blades",
     "Large dust bag",
-    "4.5 stars"
+    "4.4 stars"
    ],
    "cons": [
     "0.08-in depth",
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-12",
+   "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."
+  },
   {
    "date": "2026-11-10",
    "note": "Badges now follow the scores instead of hand picks. Best Budget is now the WEN 6530 (was the WEN 6528)."

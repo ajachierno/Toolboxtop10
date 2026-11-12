@@ -6,8 +6,8 @@
  "title": "The 10 Best Cordless Reciprocating Saws",
  "subtitle": "Battery-powered demo saws ranked from live Amazon data — cut, prune, and tear out anywhere.",
  "intro": "A reciprocating saw (the tool everyone calls a Sawzall) pushes a long blade back and forth to rip through wood, metal, nail-embedded lumber, PVC, and tree branches. It's the demolition and rough-cut workhorse. Cordless models let you use it up a ladder, in a crawlspace, or out in the yard with no cord. Most of the best sell as a bare tool, so check whether a pick is a bare tool or a ready-to-use kit, and which battery platform it rides. Need maximum sustained power for the least money? See the corded list.",
- "data_captured": "2026-11-11",
- "audited": "2026-11-05",
+ "data_captured": "2026-11-12",
+ "audited": "2026-11-12",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -29,7 +29,7 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0DPW3VYX5",
+  "best_overall": "B076HPKK19",
   "best_budget": "B0B88R7HWB",
   "money_no_object": "B01M69K91R"
  },
@@ -43,7 +43,7 @@
    "price": 199.0,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 10889,
+   "reviews_count": 10890,
    "score": 91,
    "award": "Money No Object",
    "best_for": "Remodelers on DEWALT 20V MAX who cut nail-embedded lumber regularly.",
@@ -78,45 +78,45 @@
   },
   {
    "rank": 2,
-   "asin": "B082BTT92H",
-   "name": "DEWALT DCS369B 20V MAX ATOMIC Reciprocating Saw (tool only)",
-   "brand": "DEWALT",
-   "model": "DCS369B",
-   "price": 128.99,
+   "asin": "B076HPKK19",
+   "name": "BLACK+DECKER 20V MAX Cordless Reciprocating Saw Kit with Battery and Charger (BDCR20C)",
+   "brand": "BLACK+DECKER",
+   "model": "BDCR20C",
+   "price": 79.0,
    "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 8517,
-   "score": 91,
-   "award": null,
-   "best_for": "One-handed cuts in corners and overhead on DEWALT 20V MAX.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "DEWALT's one-handed ATOMIC recip: brushless, 12.5 inches long and 3.13 lbs, 37% lighter than the DCS367. 8,517 reviews at 4.8 stars. The get-into-corners saw on the 20V platform.",
+   "rating": 4.6,
+   "reviews_count": 10095,
+   "score": 90,
+   "award": "Best Overall",
+   "best_for": "Homeowners without a battery platform who need occasional demolition and pruning cuts.",
+   "bought_last_month": "300+/mo",
+   "verdict": "BLACK+DECKER's 20V MAX saw sold as a kit with a battery and charger, so it cuts out of the box. Tool-free blade changes, a pivoting shoe and a variable-speed trigger.",
    "pros": [
-    "Brushless, 3.13 lbs, one-handed",
-    "8,517 reviews at 4.8 stars",
-    "Pivoting shoe and LED"
+    "Battery and charger included",
+    "10,095 reviews at 4.6 stars",
+    "Tool-free blade change, pivoting shoe"
    ],
    "cons": [
-    "Tool only — no battery or charger",
-    "Built for tight spots, not heavy demolition"
+    "Brushed motor",
+    "Stroke length and speed not listed on this kit"
    ],
    "specs": {
     "type": "Cordless",
     "power": "20V MAX",
-    "max_rpm": "0-2,800 SPM",
+    "max_rpm": null,
     "stroke": null,
     "blade_change": "Tool-free"
    },
    "features": {
-    "kit": false,
-    "brushless": true,
+    "kit": true,
+    "brushless": false,
     "variable_speed": true,
     "tool_free": true,
     "orbital": false
    },
-   "image": "https://m.media-amazon.com/images/I/618BvKV5jzL._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B082BTT92H?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B082BTT92H"
+   "image": "https://m.media-amazon.com/images/I/51sb0fqfVeL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B076HPKK19?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-reciprocating-saws.html#B076HPKK19"
   },
   {
    "rank": 3,
@@ -173,7 +173,7 @@
    "score": 88,
    "award": null,
    "best_for": "Tight spots between studs on DEWALT 20V MAX, for less than the brushless model.",
-   "bought_last_month": "700+/mo",
+   "bought_last_month": "600+/mo",
    "verdict": "The compact DEWALT that fits between studs and into tight spots, with a full 1-1/8\" stroke and 4,500 reviews at 4.8 stars. Cheaper than the brushless XR if you don't need the last bit of runtime.",
    "pros": [
     "Compact body, full 1-1/8\" stroke",
@@ -211,9 +211,9 @@
    "price": 62.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 797,
+   "reviews_count": 800,
    "score": 88,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "A kit with two 4.0Ah batteries for long cutting sessions for about $63.",
    "bought_last_month": "1K+/mo",
    "verdict": "A loaded budget kit — two 4.0Ah batteries, charger, and blades for about $63. No brand pedigree, but a lot of runtime and everything you need to start cutting out of the box.",
@@ -253,14 +253,14 @@
    "price": 129.0,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 8605,
+   "reviews_count": 8608,
    "score": 87,
    "award": null,
    "best_for": "DEWALT 20V MAX owners who want a full-size demo and pruning saw.",
    "bought_last_month": "2K+/mo",
    "verdict": "Amazon's #1 seller in power reciprocating saws: DEWALT's standard 20V MAX recip with a 1-1/8 in stroke, a 4-position blade clamp, and a 3-year warranty, at $129 sold by Amazon. It's a bare tool, so it makes the most sense if you already own a DEWALT 20V MAX battery.",
    "pros": [
-    "8,605 reviews at 4.7 stars",
+    "8,608 reviews at 4.7 stars",
     "1-1/8 in stroke, longer than the compact saws here",
     "4-position blade clamp for flush cuts, tool-free blade change",
     "3-year limited warranty, sold by Amazon"
@@ -382,15 +382,15 @@
    "price": 76.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 4100,
+   "reviews_count": 4101,
    "score": 86,
    "award": null,
    "best_for": "BLACK+DECKER 20V MAX owners who want a low-cost name-brand saw.",
    "bought_last_month": "100+/mo",
-   "verdict": "A name-brand saw at $76.99: the bare-tool version of the popular BLACK+DECKER recip. Grab it if you already own 20V POWERCONNECT batteries. 4,100 reviews and tool-free blade change.",
+   "verdict": "A name-brand saw at $76.99: the bare-tool version of the popular BLACK+DECKER recip. Grab it if you already own 20V POWERCONNECT batteries. 4,101 reviews and tool-free blade change.",
    "pros": [
     "Under $80 from a name brand",
-    "4,100 reviews at 4.6 stars",
+    "4,101 reviews at 4.6 stars",
     "Tool-free blade change, variable speed",
     "Sold and shipped by Amazon"
    ],
@@ -422,10 +422,10 @@
    "name": "RYOBI ONE+ 18V Cordless Reciprocating Saw (tool only)",
    "brand": "RYOBI",
    "model": "PCL515B",
-   "price": 59.0,
+   "price": 56.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 1696,
+   "reviews_count": 1697,
    "score": 86,
    "award": "Best Budget",
    "best_for": "RYOBI ONE+ owners who want the fastest stroke rate here.",
@@ -508,6 +508,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-12",
+   "note": "Replaced the DEWALT DCS369B ATOMIC, which has had no Amazon buy box since November 11, with the BLACK+DECKER BDCR20C kit (battery and charger included). Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."
+  },
   {
    "date": "2026-11-11",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the DEWALT DCS380B rose from $99 to $129; the Milwaukee 2719-20 dropped from $148.94 to $134.99."
