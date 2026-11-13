@@ -6,7 +6,7 @@
  "title": "The 10 Best Narrow Crown Staplers",
  "subtitle": "18-gauge pneumatic and cordless narrow crown staplers, ranked from live Amazon data.",
  "intro": "A narrow crown stapler drives 1/4-inch crown staples that hold thin panels and trim backing better than brads. We ranked 10 best-sellers from Metabo HPT, BOSTITCH, Makita, Senco, CRAFTSMAN, RYOBI and value brands on rating, review volume and features (depth adjustment, a selectable trigger, a case, dry-fire lockout and a no-mar tip).",
- "data_captured": "2026-11-07",
+ "data_captured": "2026-11-13",
  "audited": "2026-10-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -31,7 +31,7 @@
  "picks": {
   "best_overall": "B001QFYD2E",
   "best_budget": "B0BFC2KGDR",
-  "money_no_object": "B09NC1KX2R"
+  "money_no_object": null
  },
  "products": [
   {
@@ -40,10 +40,10 @@
    "name": "BOSTITCH 18 Gauge Narrow Crown Stapler Kit (SX1838K)",
    "brand": "BOSTITCH",
    "model": "SX1838K",
-   "price": 117.4,
+   "price": 114.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 839,
+   "reviews_count": 838,
    "score": 94,
    "award": "Best Overall",
    "best_for": "Finish work where oil stains would ruin the job.",
@@ -80,17 +80,17 @@
    "name": "Metabo HPT 18 Gauge Narrow Crown Stapler, Pneumatic (N3804AB3)",
    "brand": "Metabo HPT",
    "model": "N3804AB3",
-   "price": 97.26,
+   "price": 95.12,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 1465,
+   "reviews_count": 1471,
    "score": 87,
    "award": null,
    "best_for": "Trim carpenters and cabinet makers.",
-   "bought_last_month": "300+/mo",
-   "verdict": "The best-selling narrow crown stapler here: a 2.3 lb Metabo HPT for trim, furniture and cabinet work, rated 4.7 stars on 1,465 reviews.",
+   "bought_last_month": "400+/mo",
+   "verdict": "The best-selling narrow crown stapler here: a 2.3 lb Metabo HPT for trim, furniture and cabinet work, rated 4.7 stars on 1,471 reviews.",
    "pros": [
-    "1,465 reviews; 4.7 stars",
+    "1,471 reviews; 4.7 stars",
     "2.3 lb",
     "Contact or sequential"
    ],
@@ -168,7 +168,7 @@
    "score": 85,
    "award": "Best Budget",
    "best_for": "DIYers who want a combo tool in a case.",
-   "bought_last_month": "50+/mo",
+   "bought_last_month": "100+/mo",
    "verdict": "WEN's 2-in-1 brad nailer and stapler with a depth wheel and a fastener gauge, in a case.",
    "pros": [
     "Brads and staples",
@@ -244,15 +244,15 @@
    "price": 40.84,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 1741,
+   "reviews_count": 1744,
    "score": 80,
    "award": null,
    "best_for": "DIYers who want one tool for brads and staples.",
    "bought_last_month": "200+/mo",
-   "verdict": "A 2-in-1 that fires both 18-gauge brads and narrow crown staples, with fasteners in the box, and 1,741 reviews.",
+   "verdict": "A 2-in-1 that fires both 18-gauge brads and narrow crown staples, with fasteners in the box, and 1,744 reviews.",
    "pros": [
     "Brads and staples",
-    "1,741 reviews",
+    "1,744 reviews",
     "Fasteners included"
    ],
    "cons": [
@@ -320,7 +320,7 @@
    "name": "Senco SLS18 18-Gauge Stapler, 1/2 to 1-1/2 Inch (1W0002N)",
    "brand": "Senco",
    "model": "1W0002N",
-   "price": 119.85,
+   "price": 119.99,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 63,
@@ -360,10 +360,10 @@
    "name": "RYOBI ONE+ 18V Cordless AirStrike 18-Gauge Narrow Crown Stapler (P361)",
    "brand": "RYOBI",
    "model": "P361",
-   "price": 125.0,
+   "price": 129.56,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 357,
+   "reviews_count": 358,
    "score": 76,
    "award": null,
    "best_for": "RYOBI ONE+ owners.",
@@ -400,12 +400,12 @@
    "name": "CRAFTSMAN V20 Cordless 18 Gauge Narrow Crown Stapler, Tool Only (CMCN618NB)",
    "brand": "CRAFTSMAN",
    "model": "CMCN618NB",
-   "price": 126.96,
+   "price": 100.0,
    "currency": "USD",
    "rating": 4.4,
    "reviews_count": 94,
    "score": 75,
-   "award": "Money No Object",
+   "award": null,
    "best_for": "CRAFTSMAN V20 owners doing punch-list and trim work.",
    "bought_last_month": null,
    "verdict": "A cordless narrow crown stapler with no hose or compressor, up to 425 staples per charge and LED work lights.",
@@ -442,10 +442,10 @@
    "name": "POPULO 2-in-1 Pneumatic Brad Nailer and Crown Stapler (ABN-5040)",
    "brand": "POPULO",
    "model": "ABN-5040",
-   "price": 35.99,
+   "price": 39.97,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 189,
+   "reviews_count": 194,
    "flag": "Calls an 18-gauge brad nailer a finish nailer",
    "verdict": "A 2-in-1 brad nailer and stapler that markets itself as a finish nailer for crown molding and door casing, jobs an 18-gauge brad isn't meant to hold.",
    "reasons": [
@@ -482,6 +482,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-13",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMCN618NB dropped from $126.96 to $100; the POPULO ABN-5040 rose from $35.99 to $39.97."
+  },
   {
    "date": "2026-11-10",
    "note": "Badges now follow the scores instead of hand picks. Best Budget is now the WEN 61722K (was the 3PLUS H9040SP)."

@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 170,
@@ -154,7 +154,7 @@
    "title": "The 10 Best Air Impact Wrenches",
    "url": "https://toolboxtop10.com/air-impact-wrenches.html",
    "json": "https://toolboxtop10.com/air-impact-wrenches.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -314,13 +314,13 @@
    "title": "The 10 Best Benchtop Drill Presses",
    "url": "https://toolboxtop10.com/drill-presses.html",
    "json": "https://toolboxtop10.com/drill-presses.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-11-07",
    "products": 10,
    "best_overall": {
     "asin": "B01C9TW7LO",
     "name": "JET JWDP-12",
-    "price": 736.0
+    "price": 599.99
    },
    "best_budget": {
     "asin": "B0G4ZSM966",
@@ -446,7 +446,7 @@
    "title": "The 10 Best Car Lifts for Home Garages",
    "url": "https://toolboxtop10.com/car-lifts.html",
    "json": "https://toolboxtop10.com/car-lifts.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-11-01",
    "products": 10,
    "best_overall": {
@@ -674,7 +674,7 @@
    "title": "The 10 Best Corded Die Grinders",
    "url": "https://toolboxtop10.com/corded-die-grinders.html",
    "json": "https://toolboxtop10.com/corded-die-grinders.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-12",
    "products": 10,
    "best_overall": {
@@ -698,18 +698,18 @@
    "title": "The 10 Best Corded Drills",
    "url": "https://toolboxtop10.com/corded-drills.html",
    "json": "https://toolboxtop10.com/corded-drills.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-11-07",
    "products": 10,
    "best_overall": {
     "asin": "B00T2VJ93C",
     "name": "BLACK+DECKER DR260C",
-    "price": 47.96
+    "price": 48.21
    },
    "best_budget": {
-    "asin": "B07Z1BTGK8",
-    "name": "GALAX PRO 5A kit",
-    "price": 42.99
+    "asin": "B08WCN3KGR",
+    "name": "SKIL DL181901",
+    "price": 44.0
    },
    "money_no_object": null
   },
@@ -1286,13 +1286,13 @@
    "title": "The 10 Best Cordless Drill and Impact Driver Combo Kits",
    "url": "https://toolboxtop10.com/cordless-combo-kits.html",
    "json": "https://toolboxtop10.com/cordless-combo-kits.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-11-07",
    "products": 10,
    "best_overall": {
     "asin": "B0FKKKVN7M",
     "name": "DEWALT DCK250QQ2",
-    "price": 333.91
+    "price": 349.0
    },
    "best_budget": {
     "asin": "B0F91652KM",
@@ -1418,23 +1418,23 @@
    "title": "The 10 Best Cordless Hand Planers",
    "url": "https://toolboxtop10.com/cordless-hand-planers.html",
    "json": "https://toolboxtop10.com/cordless-hand-planers.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-11",
    "products": 10,
    "best_overall": {
     "asin": "B01FHOWQQO",
     "name": "DEWALT DCP580B",
-    "price": 163.87
+    "price": 161.99
    },
    "best_budget": {
     "asin": "B0F2N4YGTM",
     "name": "MtiolHig 20V Brushless Planer",
-    "price": 69.99
+    "price": 66.49
    },
    "money_no_object": {
     "asin": "B00NOVNV76",
     "name": "Makita XPK01Z",
-    "price": 227.36
+    "price": 227.73
    }
   },
   {
@@ -1530,7 +1530,7 @@
    "title": "The 10 Best Cordless Impact Wrenches",
    "url": "https://toolboxtop10.com/cordless-impact-wrenches.html",
    "json": "https://toolboxtop10.com/cordless-impact-wrenches.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-11-07",
    "products": 10,
    "best_overall": {
@@ -1539,14 +1539,14 @@
     "price": 244.0
    },
    "best_budget": {
-    "asin": "B0CGJ8H8K7",
-    "name": "Robustrue RT800B",
-    "price": 69.99
+    "asin": "B09ZTVZG2T",
+    "name": "Seesii WH9 Pro",
+    "price": 79.99
    },
    "money_no_object": {
     "asin": "B0CLF1DHHW",
     "name": "Milwaukee 2967-20",
-    "price": 265.97
+    "price": 259.97
    }
   },
   {
@@ -1734,23 +1734,23 @@
    "title": "The 10 Best Cordless Portable Band Saws",
    "url": "https://toolboxtop10.com/cordless-portable-band-saws.html",
    "json": "https://toolboxtop10.com/cordless-portable-band-saws.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-11-01",
    "products": 10,
    "best_overall": {
     "asin": "B09FLVT1Q6",
     "name": "Milwaukee 2529-20",
-    "price": 229.0
+    "price": 223.9
    },
    "best_budget": {
     "asin": "B0G6CRNHH5",
     "name": "Ecarke BDJZ021D0A01",
-    "price": 130.99
+    "price": 139.99
    },
    "money_no_object": {
     "asin": "B00LIV0QOU",
     "name": "Makita XBP02Z",
-    "price": 434.0
+    "price": 403.79
    }
   },
   {
@@ -2234,13 +2234,13 @@
    "title": "The 10 Best Engine Stands",
    "url": "https://toolboxtop10.com/engine-stands.html",
    "json": "https://toolboxtop10.com/engine-stands.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-11-07",
    "products": 10,
    "best_overall": {
     "asin": "B0BZTVNRMQ",
     "name": "VEVOR 1,300 lb Stand",
-    "price": 108.9
+    "price": 98.01
    },
    "best_budget": {
     "asin": "B0BZTYWZ6F",
@@ -2610,13 +2610,13 @@
    "title": "The 10 Best Locking Pliers Sets",
    "url": "https://toolboxtop10.com/locking-pliers.html",
    "json": "https://toolboxtop10.com/locking-pliers.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B095THVMZV",
     "name": "Crescent CLP5SETN-08",
-    "price": 26.84
+    "price": 26.97
    },
    "best_budget": {
     "asin": "B0DKF7B8VK",
@@ -2634,7 +2634,7 @@
    "title": "The 10 Best Mechanic Creepers",
    "url": "https://toolboxtop10.com/mechanic-creepers.html",
    "json": "https://toolboxtop10.com/mechanic-creepers.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2646,7 +2646,7 @@
    "money_no_object": {
     "asin": "B01HZ6BRF8",
     "name": "Lisle 99102",
-    "price": 105.55
+    "price": 105.53
    }
   },
   {
@@ -2654,7 +2654,7 @@
    "title": "The 10 Best Mechanic Stools",
    "url": "https://toolboxtop10.com/mechanic-stools.html",
    "json": "https://toolboxtop10.com/mechanic-stools.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2678,7 +2678,7 @@
    "title": "The 10 Best MIG Welders",
    "url": "https://toolboxtop10.com/mig-welders.html",
    "json": "https://toolboxtop10.com/mig-welders.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2698,7 +2698,7 @@
    "title": "The 10 Best Mini Chainsaws",
    "url": "https://toolboxtop10.com/mini-chainsaws.html",
    "json": "https://toolboxtop10.com/mini-chainsaws.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2722,7 +2722,7 @@
    "title": "The 10 Best Moisture Meters",
    "url": "https://toolboxtop10.com/moisture-meters.html",
    "json": "https://toolboxtop10.com/moisture-meters.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2731,9 +2731,9 @@
     "price": 29.99
    },
    "best_budget": {
-    "asin": "B0BF9759C8",
-    "name": "TopTes TS-630",
-    "price": 26.99
+    "asin": "B09BJJX1B8",
+    "name": "RDINSCOS MT28",
+    "price": 24.63
    },
    "money_no_object": {
     "asin": "B07YDYTYPT",
@@ -2746,13 +2746,13 @@
    "title": "The 10 Best Motorcycle Lifts",
    "url": "https://toolboxtop10.com/motorcycle-lifts.html",
    "json": "https://toolboxtop10.com/motorcycle-lifts.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B000OCHCIW",
     "name": "OTC 1545",
-    "price": 478.28
+    "price": 458.42
    },
    "best_budget": {
     "asin": "B0C4KQGQ92",
@@ -2770,7 +2770,7 @@
    "title": "The 10 Best Multi-Tools",
    "url": "https://toolboxtop10.com/multitools.html",
    "json": "https://toolboxtop10.com/multitools.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2781,7 +2781,7 @@
    "best_budget": {
     "asin": "B082VBWGTZ",
     "name": "WETOLS WE-182",
-    "price": 23.96
+    "price": 23.97
    },
    "money_no_object": {
     "asin": "B079MJ6MLV",
@@ -2794,24 +2794,20 @@
    "title": "The 10 Best Narrow Crown Staplers",
    "url": "https://toolboxtop10.com/narrow-crown-staplers.html",
    "json": "https://toolboxtop10.com/narrow-crown-staplers.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B001QFYD2E",
     "name": "BOSTITCH SX1838K",
-    "price": 117.4
+    "price": 114.99
    },
    "best_budget": {
     "asin": "B0BFC2KGDR",
     "name": "WEN 61722K",
     "price": 41.79
    },
-   "money_no_object": {
-    "asin": "B09NC1KX2R",
-    "name": "CRAFTSMAN CMCN618NB",
-    "price": 126.96
-   }
+   "money_no_object": null
   },
   {
    "slug": "needle-nose-pliers",
@@ -2862,13 +2858,13 @@
    "title": "The 10 Best OBD2 Scanners",
    "url": "https://toolboxtop10.com/obd2-scanners.html",
    "json": "https://toolboxtop10.com/obd2-scanners.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07Z481NJM",
     "name": "Innova 5610",
-    "price": 349.99
+    "price": 325.0
    },
    "best_budget": {
     "asin": "B007XE8C74",
@@ -2882,7 +2878,7 @@
    "title": "The 10 Best Oil Drain Pans",
    "url": "https://toolboxtop10.com/oil-drain-pans.html",
    "json": "https://toolboxtop10.com/oil-drain-pans.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2906,7 +2902,7 @@
    "title": "The 10 Best Oscillating Spindle Sanders",
    "url": "https://toolboxtop10.com/oscillating-spindle-sanders.html",
    "json": "https://toolboxtop10.com/oscillating-spindle-sanders.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2926,7 +2922,7 @@
    "title": "The 10 Best Outlet Testers",
    "url": "https://toolboxtop10.com/outlet-testers.html",
    "json": "https://toolboxtop10.com/outlet-testers.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-13",
    "audited": "2026-11-01",
    "products": 10,
    "best_overall": {
@@ -3138,7 +3134,7 @@
    "title": "The 10 Best Rivet Guns",
    "url": "https://toolboxtop10.com/rivet-guns.html",
    "json": "https://toolboxtop10.com/rivet-guns.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-10-30",
    "products": 10,
    "best_overall": {
@@ -3149,12 +3145,12 @@
    "best_budget": {
     "asin": "B08NWXBCX5",
     "name": "LIBRATON 900913",
-    "price": 17.99
+    "price": 16.99
    },
    "money_no_object": {
     "asin": "B00063Y1F6",
     "name": "Marson 39000 HP-2",
-    "price": 70.56
+    "price": 69.99
    }
   },
   {
@@ -3530,7 +3526,7 @@
    "title": "The 10 Best Tire Changers",
    "url": "https://toolboxtop10.com/tire-changers.html",
    "json": "https://toolboxtop10.com/tire-changers.json",
-   "data_captured": "2026-11-06",
+   "data_captured": "2026-11-13",
    "audited": "2026-11-06",
    "products": 10,
    "best_overall": {
@@ -3541,7 +3537,7 @@
    "best_budget": {
     "asin": "B085FTHNT6",
     "name": "TUFFIOM TFmtc0304",
-    "price": 60.79
+    "price": 60.13
    },
    "money_no_object": null
   },
