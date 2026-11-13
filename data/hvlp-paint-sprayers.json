@@ -3,9 +3,10 @@
   "title": "The 10 Best HVLP Paint Sprayers",
   "subtitle": "Electric HVLP paint and stain sprayers for furniture, cabinets, fences and walls, ranked from live Amazon data.",
   "intro": "An HVLP sprayer atomizes paint with a high volume of low-pressure air, giving a smooth finish with less overspray than an airless sprayer. We ranked 10 best-sellers from HomeRight, Wagner, Fuji Spray, Graco and budget brands on rating, review volume and features (spraying unthinned paint, a separate turbine base, brass nozzles and flow control). Cheap handhelds need thinned paint; the turbine systems give the finest finish.",
-  "data_captured": "2026-11-12",
-  "audited": "2026-10-10",
+  "data_captured": "2026-11-13",
+  "audited": "2026-11-13",
   "changelog": [
+    {"date": "2026-11-13", "note": "Amazon no longer sells the Tilswall Shark 600 or the PULENDY PL42. Added the Tilswall Dreamer400 ($35.99) and the WORKPRO 600W ($30.99). Prices and ratings re-checked on the rest."},
     {"date": "2026-11-12", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Biggest price moves: the Graco EVO Plus dropped from $87.71 to $69."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the VONFORN VF803-Y dropped from $59.99 to $39.95."},
     {"date": "2026-10-30", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the VONFORN VF803-Y rose from $39.99 to $59.99; the PULENDY PL42 rose from $29.99 to $39.99; the Wagner FLEXiO 4000 (0529090) rose from $199 to $240.99."},
@@ -109,7 +110,7 @@
       "image": "https://m.media-amazon.com/images/I/71kJJsN1QNL._AC_SL1500_.jpg",
       "price": 39.95,
       "rating": 4.3,
-      "reviews_count": 8305,
+      "reviews_count": 8310,
       "specs": {
         "type": "Handheld",
         "nozzles": "4 (1.0, 1.5, 2.0, 3.0 mm)",
@@ -126,7 +127,7 @@
       "best_for": "Small DIY jobs on a tight budget.",
       "skip_if": "You don't want to thin paint; plan on it with this type.",
       "pros": [
-        "8,305 reviews",
+        "8,310 reviews",
         "4 nozzle sizes",
         "Very low price"
       ],
@@ -141,7 +142,7 @@
       "brand": "Wagner",
       "model": "FLEXiO 595 (2419307)",
       "image": "https://m.media-amazon.com/images/I/71QMhRtGWzL._AC_SL1500_.jpg",
-      "price": 176.35,
+      "price": 175.16,
       "rating": 4.2,
       "reviews_count": 414,
       "bought": "200+/mo",
@@ -177,7 +178,7 @@
       "brand": "Fuji Spray",
       "model": "2203G",
       "image": "https://m.media-amazon.com/images/I/61Pc8rgTBOL._AC_SL1500_.jpg",
-      "price": 563.09,
+      "price": 529.00,
       "rating": 4.7,
       "reviews_count": 1874,
       "bought": "50+/mo",
@@ -212,7 +213,7 @@
       "brand": "Fuji Spray",
       "model": "2202",
       "image": "https://m.media-amazon.com/images/I/61Mg+Y9JowL._AC_SL1500_.jpg",
-      "price": 564.59,
+      "price": 563.81,
       "rating": 4.7,
       "reviews_count": 1580,
       "bought": "50+/mo",
@@ -284,7 +285,7 @@
       "image": "https://m.media-amazon.com/images/I/71c5x7OnShL._AC_SL1500_.jpg",
       "price": 69.00,
       "rating": 4.1,
-      "reviews_count": 71,
+      "reviews_count": 72,
       "bought": "50+/mo",
       "specs": {
         "type": "Handheld",
@@ -308,77 +309,44 @@
       ],
       "cons": [
         "4.1 stars",
-        "Only 71 reviews"
+        "Only 72 reviews"
       ]
     },
     {
-      "asin": "B0HK7M4MB2",
-      "name": "Tilswall Shark 600 Ultra-Light HVLP Electric Paint Sprayer",
+      "asin": "B0GZVDB7M7",
+      "name": "Tilswall Paint Sprayer, Dreamer400 Ultra-Light HVLP Paint and Stain Sprayer",
       "brand": "Tilswall",
-      "model": "US Shark 600",
-      "image": "https://m.media-amazon.com/images/I/61AWRLuJGoL._AC_SL1500_.jpg",
-      "price": 59.99,
-      "rating": 4.2,
-      "reviews_count": 251,
-      "specs": {
-        "type": "Handheld",
-        "nozzles": "3 (1.3, 1.8, 2.6 mm)",
-        "controls": "0-1,200 mL/min flow, 3 patterns",
-        "extras": "Ships assembled"
-      },
-      "features": {
-        "unthinned": false,
-        "turbine_base": false,
-        "brass_nozzles": false,
-        "flow_control": true
-      },
-      "verdict": "A light, compact handheld that the listing says is 47% lighter than typical sprayers, with adjustable flow up to 1,200 mL per minute. Thin the paint for best results.",
-      "best_for": "Small projects where a light sprayer matters.",
-      "skip_if": "You won't thin paint.",
-      "pros": [
-        "Light and compact",
-        "4.2 stars",
-        "Ships assembled"
-      ],
-      "cons": [
-        "Thinning required",
-        "251 reviews"
-      ]
+      "model": "Dreamer400",
+      "image": "https://m.media-amazon.com/images/I/71p443QWOCL._AC_SL1500_.jpg",
+      "price": 35.99,
+      "rating": 4.8,
+      "reviews_count": 64,
+      "bought": "200+/mo",
+      "specs": {"type": "Handheld", "nozzles": "2 (1.5, 2.0 mm)", "controls": "Up to 450 mL/min flow, 3 patterns", "extras": "1.5 lb, 600 mL cup, 2-year warranty"},
+      "features": {"unthinned": false, "turbine_base": false, "brass_nozzles": false, "flow_control": true},
+      "verdict": "A 1.5 lb, 500 W handheld for furniture, cabinets and trim, with two nozzles, three spray patterns and flow up to 450 mL per minute. Most paints need 5-15% thinning.",
+      "best_for": "Small furniture and cabinet jobs where a light sprayer matters.",
+      "skip_if": "You're painting whole rooms; the 600 mL cup and 450 mL/min flow are small.",
+      "pros": ["1.5 lb", "4.8 stars", "2-year warranty"],
+      "cons": ["Thinning needed for most paints", "Small 600 mL cup"]
     },
     {
-      "asin": "B0GQH7R2HT",
-      "name": "PULENDY Paint Sprayer for House Painting, 4 Nozzles and 3 Spray Patterns",
-      "brand": "PULENDY",
-      "model": "PL42",
-      "image": "https://m.media-amazon.com/images/I/71Xmpur0dCL._AC_SL1500_.jpg",
-      "price": 39.99,
-      "rating": 4.0,
-      "reviews_count": 218,
-      "bought": "500+/mo",
-      "specs": {
-        "type": "Handheld",
-        "nozzles": "4 (1.0, 1.5, 2.0, 3.0 mm)",
-        "controls": "Flow knob, 3 patterns",
-        "extras": "Dust-blowing attachment"
-      },
-      "features": {
-        "unthinned": false,
-        "turbine_base": false,
-        "brass_nozzles": false,
-        "flow_control": true
-      },
-      "verdict": "Within a few cents of the cheapest sprayer here, much like the VONFORN: four nozzles, three patterns, a flow knob and a dust-blowing attachment.",
-      "best_for": "One-off small projects like a planter or patio chairs.",
-      "skip_if": "You'll paint a room; it's a light-duty sprayer.",
-      "pros": [
-        "Under $40",
-        "1,000+ sold last month",
-        "4 nozzle sizes"
-      ],
-      "cons": [
-        "4.0 stars",
-        "Thinning required"
-      ]
+      "asin": "B0F1ZZ7JPP",
+      "name": "WORKPRO 600W HVLP Paint Sprayer with 4 Nozzles & 44 fl.oz Container",
+      "brand": "WORKPRO",
+      "model": "W125366AE",
+      "image": "https://m.media-amazon.com/images/I/710DVfbz3gL._AC_SL1500_.jpg",
+      "price": 30.99,
+      "rating": 4.3,
+      "reviews_count": 105,
+      "bought": "200+/mo",
+      "specs": {"type": "Handheld", "nozzles": "4 (1.5, 1.8, 2.2, 2.6 mm)", "controls": "Flow knob, 3 patterns", "extras": "1,300 mL cup, 78 in cord"},
+      "features": {"unthinned": false, "turbine_base": false, "brass_nozzles": false, "flow_control": true},
+      "verdict": "A 600 W handheld with four nozzle sizes, three patterns and a large 1,300 mL cup, so fences and doors take fewer refills.",
+      "best_for": "Fences, doors and furniture on a small budget.",
+      "skip_if": "You want a fine cabinet finish; a turbine system does that better.",
+      "pros": ["Four nozzle sizes", "1,300 mL cup", "Low price"],
+      "cons": ["4.3 stars", "1-year warranty"]
     },
     {
       "asin": "B07JNDC5WC",
@@ -425,9 +393,9 @@
       "image": "https://m.media-amazon.com/images/I/71BZ1p6ka3L._AC_SL1500_.jpg",
       "price": 39.99,
       "rating": 4.7,
-      "reviews_count": 2829,
+      "reviews_count": 2830,
       "flag": "Placeholder model number and 1 x 1 inch dimensions",
-      "verdict": "A generic four-nozzle sprayer whose listing data is placeholder text, so you can't trace the model, parts or support. The near-identical PULENDY and VONFORN sprayers cost less or the same.",
+      "verdict": "A generic four-nozzle sprayer whose listing data is placeholder text, so you can't trace the model, parts or support. The near-identical VONFORN VF803-Y costs about the same.",
       "reasons": [
         "The model number, model name and part number are all 'lqhs', and the spec table lists the sprayer's dimensions as 1 x 1 inch.",
         "It claims a 1,000 W motor with no amp rating to back it, more than any other handheld here; VONFORN's similar design lists 700 W.",

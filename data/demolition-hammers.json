@@ -3,9 +3,10 @@
   "title": "The 10 Best Electric Demolition Hammers",
   "subtitle": "Electric demolition and jack hammers for tile removal, chipping and breaking concrete, ranked from live Amazon data.",
   "intro": "An electric demolition hammer chisels without drilling: light ones strip tile and mortar, heavy ones break slabs. We ranked 10 best-sellers from Berserker, VEVOR, XtremepowerUS, ENEACRO and Makita on rating, review volume and features (a listed impact energy, vibration control, chisels and a case in the box). Wattage claims on this category run high, so compare amps and joules instead.",
-  "data_captured": "2026-11-12",
-  "audited": "2026-10-10",
+  "data_captured": "2026-11-13",
+  "audited": "2026-11-13",
   "changelog": [
+    {"date": "2026-11-13", "note": "Amazon no longer lists the VEVOR 2200W 1400 BPM, Berserker 65H or ENEACRO ENDH107. Added the VEVOR 2200W 1350 BPM kit ($192.99), the Berserker 45HMC ($119.79) and the Bosch 11316EVS ($779). Prices and ratings re-checked on the rest."},
     {"date": "2026-11-12", "note": "Prices, ratings and review counts re-checked on 8 of 11 listings. Biggest price moves: the VEVOR 3500W 1900 BPM rose from $170.90 to $199.90."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the VEVOR 1400W 2900 BPM (was the Berserker 65H). No pick is both under the price cap and cheaper than Best Overall, so there is no Best Budget for now."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the VEVOR 1400W 2900 BPM rose from $70.46 to $82.90."},
@@ -78,7 +79,7 @@
       "image": "https://m.media-amazon.com/images/I/71T+S7HjcjL._AC_SL1254_.jpg",
       "price": 149.95,
       "rating": 4.5,
-      "reviews_count": 4709,
+      "reviews_count": 4710,
       "bought": "300+/mo",
       "specs": {
         "impact": null,
@@ -97,7 +98,7 @@
       "best_for": "Breaking up a patio, sidewalk or footing on a budget.",
       "skip_if": "You'll run it from a standard 15 A garage outlet all day; it lists 20 A.",
       "pros": [
-        "4,709 reviews",
+        "4,710 reviews",
         "Chisels, gloves, goggles and case included",
         "1,900 BPM"
       ],
@@ -113,8 +114,8 @@
       "model": "45HM",
       "image": "https://m.media-amazon.com/images/I/71vuQ47xlJL._AC_SL1500_.jpg",
       "price": 109.79,
-      "rating": 4.7,
-      "reviews_count": 516,
+      "rating": 4.6,
+      "reviews_count": 517,
       "bought": "50+/mo",
       "specs": {
         "impact": "15 J (11.1 ft-lb)",
@@ -135,7 +136,7 @@
       "pros": [
         "12 lb, easy on the arms",
         "SDS-Max bits",
-        "4.7 stars"
+        "4.6 stars"
       ],
       "cons": [
         "15 J",
@@ -215,40 +216,22 @@
       ]
     },
     {
-      "asin": "B0BPX4F4X8",
-      "name": "VEVOR Demolition Jack Hammer, MAX 2200W, 1400 BPM, 4 Chisels, Case, Gloves",
+      "asin": "B0BTSLPBQ4",
+      "name": "VEVOR Demolition Jack Hammer, MAX 2200W, 1350 BPM, 6 Chisels, with Case",
       "brand": "VEVOR",
-      "model": "2200W 1400 BPM",
-      "image": "https://m.media-amazon.com/images/I/71HGlhtFNXL._AC_SL1500_.jpg",
-      "price": 198.90,
-      "rating": 4.5,
-      "reviews_count": 863,
-      "bought": "100+/mo",
-      "specs": {
-        "impact": null,
-        "bpm": "1,350-1,400",
-        "weight": null,
-        "shank": "1-1/8 in hex",
-        "motor": "Listed 2,200 W max"
-      },
-      "features": {
-        "listed_impact": false,
-        "vibration_control": true,
-        "bits_included": true,
-        "case": true
-      },
-      "verdict": "A bigger VEVOR breaker with four chisels (including a clay spade and scraper), gloves, a case and a D-shaped anti-vibration handle.",
-      "best_for": "Digging hard clay and breaking concrete with one kit.",
-      "skip_if": "You want an impact energy figure; this listing doesn't give one.",
-      "pros": [
-        "4 chisels including clay spade",
-        "Anti-vibration D handle",
-        "863 reviews"
-      ],
-      "cons": [
-        "No impact energy listed",
-        "Listing's amperage field is garbled"
-      ]
+      "model": "2200W 1350 BPM",
+      "image": "https://m.media-amazon.com/images/I/71Ktgv4h+DL._AC_SL1500_.jpg",
+      "price": 192.99,
+      "rating": 4.4,
+      "reviews_count": 373,
+      "bought": "300+/mo",
+      "specs": {"impact": "Listed 66 J", "bpm": "1,350", "weight": null, "shank": "1-1/8 in hex", "motor": "Listed 2,200 W max"},
+      "features": {"listed_impact": true, "vibration_control": false, "bits_included": true, "case": true},
+      "verdict": "A large VEVOR breaker sold with six chisels (point, flat, two spades and two scrapers), a 360-degree side handle and a carrying case.",
+      "best_for": "Breaking slabs and digging hard ground with one kit.",
+      "skip_if": "You want specs you can trust; the listing's 6.3 A and 15,500 rpm fields don't fit a 2,200 W breaker.",
+      "pros": ["Six chisels including clay spades", "Carrying case", "300+ bought in the past month"],
+      "cons": ["Listing's amp and rpm fields contradict the wattage", "No weight listed"]
     },
     {
       "asin": "B0CH4D9HX4",
@@ -287,39 +270,22 @@
       ]
     },
     {
-      "asin": "B0BBFN8LZC",
-      "name": "Berserker 1700W 25-Pound SDS-Max Demolition Jack Hammer 65H, 14 Amp",
+      "asin": "B0FQNS7GSP",
+      "name": "Berserker 1300W 12-Pound SDS-Max Demolition Jack Hammer 45HMC, 11-Amp Corded",
       "brand": "Berserker",
-      "model": "65H",
-      "image": "https://m.media-amazon.com/images/I/71dnio3bNPL._AC_SL1500_.jpg",
-      "price": 199.79,
-      "rating": 4.6,
-      "reviews_count": 248,
+      "model": "45HMC",
+      "image": "https://m.media-amazon.com/images/I/71PIPE4HVEL._AC_SL1500_.jpg",
+      "price": 119.79,
+      "rating": 4.4,
+      "reviews_count": 64,
       "bought": "100+/mo",
-      "specs": {
-        "impact": "45 J (33.2 ft-lb)",
-        "bpm": "200-2,100, 6 settings",
-        "weight": "25 lb",
-        "shank": "SDS-Max",
-        "motor": "14 A, 1,700 W"
-      },
-      "features": {
-        "listed_impact": true,
-        "vibration_control": true,
-        "bits_included": false,
-        "case": false
-      },
-      "verdict": "A 25 lb SDS-Max breaker with 45 J, six speed settings and double anti-vibration springs, a middle ground between chipping hammers and 30 lb breakers.",
-      "best_for": "Mixed demolition: walls, floors and medium slabs.",
-      "skip_if": "You only remove tile; a 12 lb hammer is easier.",
-      "pros": [
-        "45 J",
-        "6 speed settings",
-        "Double anti-vibration"
-      ],
-      "cons": [
-        "25 lb"
-      ]
+      "specs": {"impact": "15 J (11.1 ft-lb)", "bpm": "4,100", "weight": "12 lb", "shank": "SDS-Max", "motor": "11 A, 1,300 W"},
+      "features": {"listed_impact": true, "vibration_control": true, "bits_included": true, "case": true},
+      "verdict": "A 12 lb SDS-Max chipping hammer with 15 J, 12-position chisel lock and anti-vibration handling. Comes with three chisels, a spare brush and a case. Hammer only, no drilling.",
+      "best_for": "Tile, thinset and mortar removal where a light tool matters.",
+      "skip_if": "You're breaking thick slabs; 15 J is light for that.",
+      "pros": ["12 lb", "Three SDS-Max chisels and a case", "Spare carbon brush included"],
+      "cons": ["64 reviews", "Hammer only, no drill mode"]
     },
     {
       "asin": "B003ANBKXA",
@@ -393,40 +359,21 @@
       ]
     },
     {
-      "asin": "B0D14V9WST",
-      "name": "ENEACRO 65 Joules SDS-Hex Demolition Jack Hammer with Wheeled Case",
-      "brand": "ENEACRO",
-      "model": "ENDH107",
-      "image": "https://m.media-amazon.com/images/I/71IWg5KgCnL._AC_SL1200_.jpg",
-      "price": 199.95,
-      "rating": 4.6,
-      "reviews_count": 143,
-      "bought": "100+/mo",
-      "specs": {
-        "impact": "65 J (48 ft-lb)",
-        "bpm": null,
-        "weight": null,
-        "shank": "SDS-Hex",
-        "motor": "1,700 W, 14.5 A"
-      },
-      "features": {
-        "listed_impact": true,
-        "vibration_control": true,
-        "bits_included": false,
-        "case": true
-      },
-      "verdict": "ENEACRO's big breaker claims 65 J, the most impact energy here, with vibration control and a wheeled blow-molded case to roll it around the job.",
-      "best_for": "Heavy slab and footing work where you want to wheel the kit around.",
-      "skip_if": "You need to lift it all day; breakers this size are heavy.",
-      "pros": [
-        "65 J, the most here",
-        "Wheeled case",
-        "Vibration control"
-      ],
-      "cons": [
-        "143 reviews",
-        "No weight listed"
-      ]
+      "asin": "B00004SUPW",
+      "name": "BOSCH 11316EVS 14 Amp SDS-Max Demolition Hammer with Variable Speed",
+      "brand": "Bosch",
+      "model": "11316EVS",
+      "image": "https://m.media-amazon.com/images/I/51rFUhGhcBL._AC_SL1000_.jpg",
+      "price": 779.0,
+      "rating": 4.7,
+      "reviews_count": 261,
+      "specs": {"impact": "12.4 ft-lb", "bpm": "900-1,890, variable", "weight": "23 lb", "shank": "SDS-Max", "motor": "14 A"},
+      "features": {"listed_impact": true, "vibration_control": true, "bits_included": false, "case": false},
+      "verdict": "A contractor-grade 23 lb SDS-Max hammer with soft start, constant speed under load, a variable speed dial, a padded shock-absorbing rear handle and a service light.",
+      "best_for": "Contractors who run a demo hammer for hours at a time.",
+      "skip_if": "You have a weekend tile job; the cheaper breakers here will do it.",
+      "pros": ["Soft start and constant-speed electronics", "Variable speed dial", "4.7 stars across 261 reviews"],
+      "cons": ["$779, no chisels or case listed", "23 lb"]
     }
   ],
   "avoid": [
@@ -436,7 +383,7 @@
       "brand": "VEVOR",
       "model": "3500W 1900 BPM",
       "image": "https://m.media-amazon.com/images/I/715D7U+CLjL._AC_SL1500_.jpg",
-      "price": 199.90,
+      "price": 170.00,
       "rating": 4.5,
       "reviews_count": 390,
       "flag": "Claims 3,500 W; its own spec table says 13 A",

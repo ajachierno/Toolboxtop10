@@ -5,9 +5,9 @@
  "slug": "corded-hand-planers",
  "title": "The 10 Best Electric Hand Planers",
  "subtitle": "Corded power planers for trimming doors, flattening boards and chamfering edges, ranked from live Amazon data.",
- "intro": "An electric hand planer shaves wood down fast: trim a sticking door, flatten a cupped board, or take a beam down to size. We ranked 10 corded best-sellers on rating, review volume and features (a cut depth of 1/8 inch or more, a rabbeting guide, dust ejection to either side and a kickstand that protects the blades). Most cut 3-1/4 inches wide; WEN also sells a narrow 2-3/8-inch model and a wide 4-3/8-inch one for 2x4s. They run from about $31 for WEN's 6528 to $209 for Makita's KP0800K kit.",
- "data_captured": "2026-11-12",
- "audited": "2026-11-06",
+ "intro": "An electric hand planer shaves wood down fast: trim a sticking door, flatten a cupped board, or take a beam down to size. We ranked 10 corded best-sellers on rating, review volume and features (a cut depth of 1/8 inch or more, a rabbeting guide, dust ejection to either side and a kickstand that protects the blades). Most cut 3-1/4 inches wide; WEN also sells a narrow 2-3/8-inch model and a wide 4-3/8-inch one for 2x4s. They run from about $31 for WEN's 6528 to $292 for Makita's KP0810.",
+ "data_captured": "2026-11-13",
+ "audited": "2026-11-13",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -158,11 +158,52 @@
   },
   {
    "rank": 4,
+   "asin": "B001ASDU7G",
+   "name": "Makita KP0810 3-1/4\" Planer",
+   "brand": "Makita",
+   "model": "KP0810",
+   "price": 291.79,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 387,
+   "score": 87,
+   "award": null,
+   "best_for": "Carpenters fitting doors and beams who want deep, precise passes.",
+   "bought_last_month": null,
+   "verdict": "Makita's heavier-duty planer takes up to 5/32 inch per pass, adjusts depth in 0.1 mm click stops and throws chips to either side. Comes with a guide rail and depth gauge.",
+   "pros": [
+    "5/32-in cut depth",
+    "0.1 mm depth click stops",
+    "4.7 stars across 387 reviews"
+   ],
+   "cons": [
+    "Most expensive planer here",
+    "No weight on the listing"
+   ],
+   "specs": {
+    "width": "3-1/4 in",
+    "depth": "5/32 in (4 mm)",
+    "motor": "7.5 A",
+    "speed": "16,000 rpm",
+    "weight": null
+   },
+   "features": {
+    "deep_cut": true,
+    "rabbet": false,
+    "dual_dust": true,
+    "kickstand": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61LuP8q7+DL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B001ASDU7G?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B001ASDU7G"
+  },
+  {
+   "rank": 5,
    "asin": "B0033WSK5O",
    "name": "Makita KP0800K 3-1/4\" Planer, with Tool Case",
    "brand": "Makita",
    "model": "KP0800K",
-   "price": 206.72,
+   "price": 208.98,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 822,
@@ -177,7 +218,7 @@
     "Tool case and guide"
    ],
    "cons": [
-    "$206.72",
+    "$208.98",
     "1-year warranty"
    ],
    "specs": {
@@ -196,47 +237,6 @@
    "image": "https://m.media-amazon.com/images/I/61QoaWCr9DL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B0033WSK5O?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B0033WSK5O"
-  },
-  {
-   "rank": 5,
-   "asin": "B00PSPUWV4",
-   "name": "PORTER-CABLE Hand Planer, 6-Amp, 5/64-Inch (PC60THP)",
-   "brand": "PORTER-CABLE",
-   "model": "PC60THP",
-   "price": 94.91,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 2471,
-   "score": 81,
-   "award": null,
-   "best_for": "Regular carpentry use with carbide blades.",
-   "bought_last_month": null,
-   "verdict": "A well-reviewed brand-name planer with carbide blades, a 10-step overmolded depth knob, three chamfer grooves and a dust bag that mounts on either side. 3-year warranty.",
-   "pros": [
-    "4.6 stars across 2,471 reviews",
-    "Carbide blades",
-    "3-year warranty"
-   ],
-   "cons": [
-    "8.2 lbs",
-    "5/64-in max depth"
-   ],
-   "specs": {
-    "width": "3-1/4 in",
-    "depth": "5/64 in (10 stops)",
-    "motor": "6 A",
-    "speed": "16,500 rpm",
-    "weight": "8.2 lb"
-   },
-   "features": {
-    "deep_cut": false,
-    "rabbet": false,
-    "dual_dust": true,
-    "kickstand": false
-   },
-   "image": "https://m.media-amazon.com/images/I/51rFaZOtYVL._AC_SL1000_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B00PSPUWV4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-hand-planers.html#B00PSPUWV4"
   },
   {
    "rank": 6,
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-13",
+   "note": "Replaced the PORTER-CABLE PC60THP, which no longer has a seller on Amazon, with the Makita KP0810 ($291.79, 5/32-inch cut depth). Prices and ratings re-checked on the rest."
+  },
   {
    "date": "2026-11-12",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."
