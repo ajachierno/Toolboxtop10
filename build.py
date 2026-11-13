@@ -1096,6 +1096,19 @@ def compare_filename(slug):
     return f"{slug}-overall-vs-budget.html"
 
 
+_COMPARE_BUILT = {}
+
+
+def compare_built(slug):
+    """True when the category gets a comparison page: listed in compare.json AND it has a Best Budget.
+    A page with no Best Budget has nothing to compare, so nothing may link to its comparison page."""
+    if slug not in COMPARE:
+        return False
+    if slug not in _COMPARE_BUILT:
+        _COMPARE_BUILT[slug] = rank_products(load(f"{slug}.json"))[2] is not None
+    return _COMPARE_BUILT[slug]
+
+
 # How each scored feature reads mid-sentence ("For the extra money you get: ...").
 FEATURE_PROSE = {
     "digital_display": "a digital temperature display", "safety_clutch": "a safety clutch",
@@ -1254,7 +1267,7 @@ def build_comparison(site, cat, overall, budget, premium, spec_fields, columns):
     ]
     faq_html = "\n".join(f"<details><summary>{esc(q)}</summary><p>{esc(ans)}</p></details>" for q, ans in qa)
 
-    others = [c for c in site["categories"] if c["slug"] in COMPARE and c["slug"] != cat["slug"]]
+    others = [c for c in site["categories"] if c["slug"] != cat["slug"] and compare_built(c["slug"])]
     group = [c for c in others if c.get("power") == next(
         (x.get("power") for x in site["categories"] if x["slug"] == cat["slug"]), None)] or others
     related = "".join(f'<li><a href="{compare_filename(c["slug"])}">{esc(c["title"])}: Best Overall vs Best Budget</a></li>'
@@ -2382,7 +2395,7 @@ def main():
         urls = ([(f"{base}/", "1.0", max(d for _, d in cat_dates))]
                 + [(f"{base}/{slug}.html", "0.8", d) for slug, d in cat_dates]
                 + [(f"{base}/{compare_filename(slug)}", "0.6", d) for slug, d in cat_dates
-                   if slug in COMPARE and not COMPARE_NOINDEX]
+                   if compare_built(slug) and not COMPARE_NOINDEX]
                 + [(f"{base}/{slug}.html", "0.7", d) for slug, d in seasonal]
                 + [(f"{base}/{slug}.html", "0.7" if slug == "price-tracker" else "0.6", d) for slug, d in tracker]
                 + [(f"{base}/about.html", "0.5", about_date)]
