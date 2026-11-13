@@ -4,7 +4,7 @@
 
 Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and the capture date). The site index is https://toolboxtop10.com/index.json. Each page links its twin with `<link rel="alternate" type="application/json">`. Links to Amazon carry our Associates tag; a purchase may earn us a commission at no extra cost to the buyer.
 
-## Rankings (170 pages)
+## Rankings (171 pages)
 
 - [The 10 Best 23-Gauge Pin Nailers](https://toolboxtop10.com/pin-nailers.html): Best Overall DEWALT DWFP2350K ($144.99); Best Budget KEENTECH KT-P635A ($52.99). Data captured 2026-11-07. JSON: https://toolboxtop10.com/pin-nailers.json
 - [The 10 Best Adjustable (Crescent) Wrenches](https://toolboxtop10.com/adjustable-wrenches.html): Best Overall Klein Tools D5072 ($29.98); Best Budget Amazon Basics 6-Inch ($9.40). Data captured 2026-11-08. JSON: https://toolboxtop10.com/adjustable-wrenches.json
@@ -173,6 +173,7 @@ Machine-readable data: every ranking page has a JSON twin at the same path with 
 - [The 10 Best Utility Knives](https://toolboxtop10.com/utility-knives.html): Best Overall VOTREK UK003 ($9.99); Best Budget WORKPRO W013053 ($9.98). Data captured 2026-11-10. JSON: https://toolboxtop10.com/utility-knives.json
 - [The 10 Best Wet Tile Saws](https://toolboxtop10.com/wet-tile-saws.html): Best Overall DEWALT D24000S ($999); Best Budget VEVOR TC180 ($100.99). Data captured 2026-11-08. JSON: https://toolboxtop10.com/wet-tile-saws.json
 - [The 10 Best Wheel Balancers](https://toolboxtop10.com/wheel-balancers.html): Best Overall XK 580/690 combo ($1,559); Best Budget NYXOVA G08251054 ($58.99). Data captured 2026-11-12. JSON: https://toolboxtop10.com/wheel-balancers.json
+- [The 10 Best Wire Crimping Tools](https://toolboxtop10.com/crimping-tools.html): Best Overall Klein Tools 80013 ($47.99); Best Budget TITAN 11477 ($19.99). Data captured 2026-11-13. JSON: https://toolboxtop10.com/crimping-tools.json
 - [The 10 Best Wire Strippers](https://toolboxtop10.com/wire-strippers.html): Best Overall Klein Tools 11063W ($30.97); Best Budget haisstronica HX1519 ($13.99). Data captured 2026-11-08. JSON: https://toolboxtop10.com/wire-strippers.json
 - [The 10 Best Wood Chisel Sets](https://toolboxtop10.com/wood-chisel-sets.html): Best Overall ENERTWIST ET-WCS-13 ($38.79); Best Budget HURRICANE HK-BBPR-ZWV0 ($13.99). Data captured 2026-11-08. JSON: https://toolboxtop10.com/wood-chisel-sets.json
 - [The 10 Best Wood Lathes](https://toolboxtop10.com/wood-lathes.html): Best Overall JET JWL-1221VS ($989.99); Best Budget WEN LA3421 ($244.06). Data captured 2026-11-08. JSON: https://toolboxtop10.com/wood-lathes.json
