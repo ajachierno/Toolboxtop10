@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 171,
@@ -14,13 +14,13 @@
    "title": "The 10 Best 23-Gauge Pin Nailers",
    "url": "https://toolboxtop10.com/pin-nailers.html",
    "json": "https://toolboxtop10.com/pin-nailers.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07K4YTZ4K",
     "name": "DEWALT DWFP2350K",
-    "price": 144.99
+    "price": 151.67
    },
    "best_budget": {
     "asin": "B0D95PXDY4",
@@ -38,7 +38,7 @@
    "title": "The 10 Best Adjustable (Crescent) Wrenches",
    "url": "https://toolboxtop10.com/adjustable-wrenches.html",
    "json": "https://toolboxtop10.com/adjustable-wrenches.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-16",
    "products": 10,
    "best_overall": {
@@ -198,7 +198,7 @@
    "title": "The 10 Best Allen Key (Hex Key) Sets",
    "url": "https://toolboxtop10.com/allen-keys.html",
    "json": "https://toolboxtop10.com/allen-keys.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-13",
    "products": 10,
    "best_overall": {
@@ -209,7 +209,7 @@
    "best_budget": {
     "asin": "B0DLNNJ6MC",
     "name": "toolant 14-Piece Folding",
-    "price": 8.99
+    "price": 9.99
    },
    "money_no_object": {
     "asin": "B0CYQY5QLS",
@@ -606,7 +606,7 @@
    "title": "The 10 Best Corded Chainsaws",
    "url": "https://toolboxtop10.com/corded-chainsaws.html",
    "json": "https://toolboxtop10.com/corded-chainsaws.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-25",
    "products": 10,
    "best_overall": {
@@ -654,13 +654,13 @@
    "title": "The 10 Best Corded Detail Sanders",
    "url": "https://toolboxtop10.com/corded-detail-sanders.html",
    "json": "https://toolboxtop10.com/corded-detail-sanders.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-11-02",
    "products": 10,
    "best_overall": {
     "asin": "B07FDL1TW5",
     "name": "SKIL SR232301",
-    "price": 44.0
+    "price": 34.0
    },
    "best_budget": {
     "asin": "B000EUH4TG",
@@ -718,7 +718,7 @@
    "title": "The 10 Best Corded Hammer Drills",
    "url": "https://toolboxtop10.com/corded-hammer-drills.html",
    "json": "https://toolboxtop10.com/corded-hammer-drills.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-11-08",
    "products": 10,
    "best_overall": {
@@ -738,13 +738,13 @@
    "title": "The 10 Best Corded Heat Guns",
    "url": "https://toolboxtop10.com/corded-heat-guns.html",
    "json": "https://toolboxtop10.com/corded-heat-guns.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-09-24",
    "products": 10,
    "best_overall": {
     "asin": "B07QJMH2F4",
     "name": "Makita HG6530VK",
-    "price": 164.27
+    "price": 160.0
    },
    "best_budget": {
     "asin": "B078S5QMFG",
@@ -954,7 +954,7 @@
    "title": "The 10 Best Corded Rotary Hammers",
    "url": "https://toolboxtop10.com/corded-rotary-hammers.html",
    "json": "https://toolboxtop10.com/corded-rotary-hammers.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-11-08",
    "products": 10,
    "best_overall": {
@@ -2450,7 +2450,7 @@
    "title": "The 10 Best Impact Socket Sets",
    "url": "https://toolboxtop10.com/impact-socket-sets.html",
    "json": "https://toolboxtop10.com/impact-socket-sets.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2562,7 +2562,7 @@
    "title": "The 10 Best Laser Distance Measures",
    "url": "https://toolboxtop10.com/laser-distance-measures.html",
    "json": "https://toolboxtop10.com/laser-distance-measures.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-11-08",
    "products": 10,
    "best_overall": {
@@ -2942,7 +2942,7 @@
    "title": "The 10 Best Pipe Wrenches",
    "url": "https://toolboxtop10.com/pipe-wrenches.html",
    "json": "https://toolboxtop10.com/pipe-wrenches.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -2990,7 +2990,7 @@
    "title": "The 10 Best Pneumatic Brad Nailers",
    "url": "https://toolboxtop10.com/pneumatic-brad-nailers.html",
    "json": "https://toolboxtop10.com/pneumatic-brad-nailers.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3014,13 +3014,13 @@
    "title": "The 10 Best Pneumatic Finish Nailers",
    "url": "https://toolboxtop10.com/pneumatic-finish-nailers.html",
    "json": "https://toolboxtop10.com/pneumatic-finish-nailers.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B07M62L77L",
     "name": "Metabo HPT NT65MA4",
-    "price": 139.0
+    "price": 135.42
    },
    "best_budget": {
     "asin": "B07ZWXHN38",
@@ -3030,7 +3030,7 @@
    "money_no_object": {
     "asin": "B00JTYO2AW",
     "name": "BOSTITCH BTFP72156",
-    "price": 207.13
+    "price": 208.98
    }
   },
   {
@@ -3038,7 +3038,7 @@
    "title": "The 10 Best Pneumatic Framing Nailers",
    "url": "https://toolboxtop10.com/pneumatic-framing-nailers.html",
    "json": "https://toolboxtop10.com/pneumatic-framing-nailers.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3054,7 +3054,7 @@
    "money_no_object": {
     "asin": "B07MSW2W1G",
     "name": "Metabo HPT NR83A5",
-    "price": 269.0
+    "price": 314.98
    }
   },
   {
@@ -3062,7 +3062,7 @@
    "title": "The 10 Best Portable Tool Boxes",
    "url": "https://toolboxtop10.com/portable-tool-boxes.html",
    "json": "https://toolboxtop10.com/portable-tool-boxes.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-31",
    "products": 10,
    "best_overall": {
@@ -3086,23 +3086,23 @@
    "title": "The 10 Best Ratcheting Wrench Sets",
    "url": "https://toolboxtop10.com/ratcheting-wrench-sets.html",
    "json": "https://toolboxtop10.com/ratcheting-wrench-sets.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
-    "asin": "B0DPGJVJZV",
-    "name": "CRAFTSMAN CMMT87220",
-    "price": 69.99
+    "asin": "B0CZ99CNY1",
+    "name": "SUZUME SM2324",
+    "price": 97.88
    },
    "best_budget": {
-    "asin": "B08T6KW58N",
-    "name": "DISEN 22-piece",
-    "price": 44.24
+    "asin": "B06ZY3DG6P",
+    "name": "WORKPRO W003320A",
+    "price": 43.99
    },
    "money_no_object": {
     "asin": "B09CHJ5XZQ",
     "name": "GEARWRENCH 86702",
-    "price": 262.87
+    "price": 258.25
    }
   },
   {
@@ -3110,18 +3110,18 @@
    "title": "The 10 Best Rechargeable Work Lights",
    "url": "https://toolboxtop10.com/rechargeable-work-lights.html",
    "json": "https://toolboxtop10.com/rechargeable-work-lights.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0CC51Q3K2",
     "name": "HOTLIGH 1200 lm",
-    "price": 33.99
+    "price": 27.61
    },
    "best_budget": {
     "asin": "B07G9X19G1",
     "name": "Coquimbo 2-pack",
-    "price": 13.99
+    "price": 9.99
    },
    "money_no_object": {
     "asin": "B0DSQ5DYBR",
@@ -3158,7 +3158,7 @@
    "title": "The 10 Best Rolling Tool Carts",
    "url": "https://toolboxtop10.com/rolling-tool-carts.html",
    "json": "https://toolboxtop10.com/rolling-tool-carts.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3250,7 +3250,7 @@
    "title": "The 10 Best Scroll Saws",
    "url": "https://toolboxtop10.com/scroll-saws.html",
    "json": "https://toolboxtop10.com/scroll-saws.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3294,7 +3294,7 @@
    "title": "The 10 Best Socket Sets",
    "url": "https://toolboxtop10.com/socket-sets.html",
    "json": "https://toolboxtop10.com/socket-sets.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-25",
    "products": 10,
    "best_overall": {
@@ -3318,7 +3318,7 @@
    "title": "The 10 Best Soldering Irons",
    "url": "https://toolboxtop10.com/soldering-irons.html",
    "json": "https://toolboxtop10.com/soldering-irons.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3330,7 +3330,7 @@
    "money_no_object": {
     "asin": "B0D4DJW54S",
     "name": "Hakko FX888DX-010",
-    "price": 124.98
+    "price": 135.99
    }
   },
   {
@@ -3362,7 +3362,7 @@
    "title": "The 10 Best Spirit Levels",
    "url": "https://toolboxtop10.com/spirit-levels.html",
    "json": "https://toolboxtop10.com/spirit-levels.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3382,7 +3382,7 @@
    "title": "The 10 Best Staple Guns",
    "url": "https://toolboxtop10.com/staple-guns.html",
    "json": "https://toolboxtop10.com/staple-guns.json",
-   "data_captured": "2026-11-07",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3393,7 +3393,7 @@
    "best_budget": {
     "asin": "B0F5W651XJ",
     "name": "HAUSHOF HH25006",
-    "price": 8.49
+    "price": 9.99
    },
    "money_no_object": {
     "asin": "B077Y9NSQF",
@@ -3406,7 +3406,7 @@
    "title": "The 10 Best Stud Finders",
    "url": "https://toolboxtop10.com/stud-finders.html",
    "json": "https://toolboxtop10.com/stud-finders.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-14",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
