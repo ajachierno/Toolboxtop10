@@ -6,8 +6,8 @@
  "title": "The 10 Best Air Hose Reels",
  "subtitle": "Retractable and manual air hose reels for garage and shop compressors, ranked from live Amazon data.",
  "intro": "An air hose reel keeps your compressor hose off the floor and out from under your feet. We ranked 10 best-sellers from VEVOR, AIRZILLA, Giraffe Tools, Flexzilla, Goodyear, DEWALT, Lincoln and others on rating, review volume and features (a hose included, auto rewind, a steel reel and a guide arm or swivel bracket). Most people want a 50 ft retractable reel with the hose included.",
- "data_captured": "2026-11-09",
- "audited": "2026-10-10",
+ "data_captured": "2026-11-14",
+ "audited": "2026-11-14",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -28,13 +28,53 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B01GFA35N2",
+  "best_overall": "B0BW5KN9KP",
   "best_budget": "B0C37548K6",
   "money_no_object": "B000OCHEOY"
  },
  "products": [
   {
    "rank": 1,
+   "asin": "B0BW5KN9KP",
+   "name": "AIRZILLA Premium Steel Retractable Air Hose Reel with Dual Arm, 3/8 in x 65 ft Hybrid Hose",
+   "brand": "AIRZILLA",
+   "model": "ZA19-20-20",
+   "price": 149.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 638,
+   "score": 97,
+   "award": "Best Overall",
+   "best_for": "Bigger garages and shops that need extra reach.",
+   "bought_last_month": "800+/mo",
+   "verdict": "A longer 65 ft hose on a heavy steel reel with an adjustable dual-arm roller guide that keeps the hose winding smoothly.",
+   "pros": [
+    "65 ft hose",
+    "Dual-arm roller guide",
+    "4.7 stars"
+   ],
+   "cons": [
+    "Pricier"
+   ],
+   "specs": {
+    "hose": "3/8 in x 65 ft hybrid (+5 ft lead-in)",
+    "rewind": "Auto",
+    "reel": "Heavy-gauge steel",
+    "pressure": "300 PSI",
+    "extras": "Adjustable dual arm with rollers"
+   },
+   "features": {
+    "hose_included": true,
+    "auto_rewind": true,
+    "steel_reel": true,
+    "guide_arm": true
+   },
+   "image": "https://m.media-amazon.com/images/I/81aPC+E54LL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0BW5KN9KP?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-hose-reels.html#B0BW5KN9KP"
+  },
+  {
+   "rank": 2,
    "asin": "B01GFA35N2",
    "name": "Goodyear Retractable Air Hose Reel, 3/8 in x 50 ft SBR Rubber Hose, 300 PSI",
    "brand": "Goodyear",
@@ -44,7 +84,7 @@
    "rating": 4.6,
    "reviews_count": 1381,
    "score": 96,
-   "award": "Best Overall",
+   "award": null,
    "best_for": "Cold garages where hybrid hose stiffens.",
    "bought_last_month": "100+/mo",
    "verdict": "A steel reel with a rubber hose that lays flat and stays supple in cold, with a ratchet spring that locks at any length.",
@@ -73,46 +113,6 @@
    "image": "https://m.media-amazon.com/images/I/71drkf73fsL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B01GFA35N2?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/air-hose-reels.html#B01GFA35N2"
-  },
-  {
-   "rank": 2,
-   "asin": "B0BW5KN9KP",
-   "name": "AIRZILLA Premium Steel Retractable Air Hose Reel with Dual Arm, 3/8 in x 65 ft Hybrid Hose",
-   "brand": "AIRZILLA",
-   "model": "ZA19-20-20",
-   "price": 149.99,
-   "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 635,
-   "score": 96,
-   "award": null,
-   "best_for": "Bigger garages and shops that need extra reach.",
-   "bought_last_month": "900+/mo",
-   "verdict": "A longer 65 ft hose on a heavy steel reel with an adjustable dual-arm roller guide that keeps the hose winding smoothly.",
-   "pros": [
-    "65 ft hose",
-    "Dual-arm roller guide",
-    "4.6 stars"
-   ],
-   "cons": [
-    "Pricier"
-   ],
-   "specs": {
-    "hose": "3/8 in x 65 ft hybrid (+5 ft lead-in)",
-    "rewind": "Auto",
-    "reel": "Heavy-gauge steel",
-    "pressure": "300 PSI",
-    "extras": "Adjustable dual arm with rollers"
-   },
-   "features": {
-    "hose_included": true,
-    "auto_rewind": true,
-    "steel_reel": true,
-    "guide_arm": true
-   },
-   "image": "https://m.media-amazon.com/images/I/81aPC+E54LL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0BW5KN9KP?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-hose-reels.html#B0BW5KN9KP"
   },
   {
    "rank": 3,
@@ -200,17 +200,17 @@
    "name": "Giraffe Tools Retractable Air Hose Reel 50 ft, 3/8 in, with Swivel Bracket",
    "brand": "Giraffe Tools",
    "model": "TA",
-   "price": 109.99,
+   "price": 99.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 3149,
+   "reviews_count": 3151,
    "score": 95,
    "award": null,
    "best_for": "Anyone who wants a proven reel with lots of owner feedback.",
    "bought_last_month": "300+/mo",
-   "verdict": "The most-reviewed reel here, with 3,149 reviews: an all-steel auto-rewind reel with a 50 ft hybrid hose and swivel bracket.",
+   "verdict": "The most-reviewed reel here, with 3,151 reviews: an all-steel auto-rewind reel with a 50 ft hybrid hose and swivel bracket.",
    "pros": [
-    "3,149 reviews",
+    "3,151 reviews",
     "All-steel",
     "Swivel bracket"
    ],
@@ -243,7 +243,7 @@
    "price": 73.9,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 1389,
+   "reviews_count": 1399,
    "score": 95,
    "award": "Best Budget",
    "best_for": "Home garages that want a hose that winds itself up.",
@@ -283,7 +283,7 @@
    "price": 99.98,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 1651,
+   "reviews_count": 1653,
    "score": 91,
    "award": null,
    "best_for": "Garages where a light, enclosed reel keeps dust off the hose.",
@@ -292,7 +292,7 @@
    "pros": [
     "Flexzilla hose",
     "Enclosed, lightweight",
-    "1,651 reviews"
+    "1,653 reviews"
    ],
    "cons": [
     "Plastic body"
@@ -323,7 +323,7 @@
    "price": 91.62,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 315,
+   "reviews_count": 317,
    "score": 87,
    "award": null,
    "best_for": "DEWALT fans who want an enclosed reel.",
@@ -360,10 +360,10 @@
    "name": "Ironton Manual Air Hose Reel, Holds 3/8 in x 100 ft Hose, 300 PSI",
    "brand": "Ironton",
    "model": "3183092",
-   "price": 59.99,
+   "price": 69.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 742,
+   "reviews_count": 743,
    "score": 80,
    "award": null,
    "best_for": "Storing a long hose you already own, cheaply.",
@@ -404,7 +404,7 @@
    "price": 32.47,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 725,
+   "reviews_count": 726,
    "score": 78,
    "award": null,
    "best_for": "Organizing an existing hose for very little money.",
@@ -446,7 +446,7 @@
    "price": 59.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 852,
+   "reviews_count": 854,
    "flag": "Retractable reel with no hose; VEVOR's with hose costs about the same",
    "verdict": "A spring-retract reel sold without a hose, for about the price of reels that include one.",
    "reasons": [
@@ -483,6 +483,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-14",
+   "note": "Full audit: all 10 picks are still current best-sellers and in stock, so all were kept. The AIRZILLA reel rose to 4.7 stars and is now Best Overall. The Ironton 3183092 rose from $59.99 to $69.99; the Giraffe Tools reel dropped from $109.99 to $99.99."
+  },
   {
    "date": "2026-11-09",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."

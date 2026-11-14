@@ -7,7 +7,7 @@
  "subtitle": "Aluminum and cast iron pipe wrenches and sets for plumbing, ranked from live Amazon data.",
  "intro": "A pipe wrench grips round pipe and fittings with teeth that bite harder as you turn. We ranked 10 best-sellers from RIDGID, Klein Tools, DURATECH, HURRICANE and value brands on rating, review volume and features (an aluminum handle, 2-inch or larger capacity, a multi-wrench set and replaceable jaws).",
  "data_captured": "2026-11-14",
- "audited": "2026-10-10",
+ "audited": "2026-11-14",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -30,7 +30,7 @@
  "picks": {
   "best_overall": "B0000224JF",
   "best_budget": "B08G8TKYJ3",
-  "money_no_object": "B0000224JG"
+  "money_no_object": null
  },
  "products": [
   {
@@ -113,45 +113,6 @@
   },
   {
    "rank": 3,
-   "asin": "B0000224JG",
-   "name": "RIDGID 31105 Model 824 Aluminum Straight Pipe Wrench, 24-Inch",
-   "brand": "RIDGID",
-   "model": "31105",
-   "price": 119.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 730,
-   "score": 93,
-   "award": "Money No Object",
-   "best_for": "Plumbers and pipefitters working on large pipe.",
-   "bought_last_month": "200+/mo",
-   "verdict": "RIDGID's 24-inch aluminum wrench for 3-inch pipe, the best-rated wrench here at 4.8 stars.",
-   "pros": [
-    "4.8 stars",
-    "3 in capacity",
-    "Long reach for leverage"
-   ],
-   "cons": [
-    "Most expensive here"
-   ],
-   "specs": {
-    "size": "24 in",
-    "capacity": "3 in",
-    "handle": "Aluminum",
-    "extras": "Replaceable jaws and spring"
-   },
-   "features": {
-    "aluminum": true,
-    "capacity_2": true,
-    "set": false,
-    "replaceable_jaws": true
-   },
-   "image": "https://m.media-amazon.com/images/I/41BoSQROuiL._AC_SL1005_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0000224JG?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0000224JG"
-  },
-  {
-   "rank": 4,
    "asin": "B0D8NYVZLJ",
    "name": "HURRICANE 3-Piece Aluminum Pipe Wrench Set, 10, 14 and 18-Inch (02-185)",
    "brand": "HURRICANE",
@@ -190,7 +151,7 @@
    "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0D8NYVZLJ"
   },
   {
-   "rank": 5,
+   "rank": 4,
    "asin": "B08G8S3NCF",
    "name": "DURATECH 3-Piece Aluminum Straight Pipe Wrench Set, 10, 14 and 18-Inch",
    "brand": "DURATECH",
@@ -228,6 +189,46 @@
    "image": "https://m.media-amazon.com/images/I/715TXCZETvL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B08G8S3NCF?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B08G8S3NCF"
+  },
+  {
+   "rank": 5,
+   "asin": "B0000224J9",
+   "name": "RIDGID 31025 Model 18 Heavy-Duty Straight Pipe Wrench, 18-inch Plumbing Wrench",
+   "brand": "RIDGID",
+   "model": "31025",
+   "price": 59.97,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 546,
+   "score": 87,
+   "award": null,
+   "best_for": "Plumbers who want one full-size, heavy-duty iron wrench.",
+   "bought_last_month": "100+/mo",
+   "verdict": "RIDGID's classic 18-inch cast pipe wrench: ductile-iron I-beam handle, floating forged hook jaw and replaceable jaws, rated for pipe up to 2-1/2 inches.",
+   "pros": [
+    "4.8 stars",
+    "Replaceable hook and heel jaws",
+    "Self-cleaning threads"
+   ],
+   "cons": [
+    "Iron handle is heavier than aluminum",
+    "One size only"
+   ],
+   "specs": {
+    "size": "18 in",
+    "capacity": "2-1/2 in",
+    "handle": "Ductile iron, I-beam",
+    "extras": "Replaceable hook and heel jaws"
+   },
+   "features": {
+    "aluminum": false,
+    "capacity_2": true,
+    "set": false,
+    "replaceable_jaws": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61Zpizl4TfL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0000224J9?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pipe-wrenches.html#B0000224J9"
   },
   {
    "rank": 6,
@@ -475,7 +476,7 @@
  "changelog": [
   {
    "date": "2026-11-14",
-   "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the RIDGID 814 rose from $51.99 to $64.99."
+   "note": "Full audit: replaced the RIDGID 31105 24-inch aluminum wrench, which Amazon no longer sells new, with the RIDGID 31025 18-inch cast-iron wrench ($59.97, 4.8 stars). The RIDGID 814 rose from $51.99 to $64.99."
   },
   {
    "date": "2026-11-10",

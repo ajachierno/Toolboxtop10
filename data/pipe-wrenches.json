@@ -4,9 +4,9 @@
   "subtitle": "Aluminum and cast iron pipe wrenches and sets for plumbing, ranked from live Amazon data.",
   "intro": "A pipe wrench grips round pipe and fittings with teeth that bite harder as you turn. We ranked 10 best-sellers from RIDGID, Klein Tools, DURATECH, HURRICANE and value brands on rating, review volume and features (an aluminum handle, 2-inch or larger capacity, a multi-wrench set and replaceable jaws).",
   "data_captured": "2026-11-14",
-  "audited": "2026-10-10",
+  "audited": "2026-11-14",
   "changelog": [
-    {"date": "2026-11-14", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the RIDGID 814 rose from $51.99 to $64.99."},
+    {"date": "2026-11-14", "note": "Full audit: replaced the RIDGID 31105 24-inch aluminum wrench, which Amazon no longer sells new, with the RIDGID 31025 18-inch cast-iron wrench ($59.97, 4.8 stars). The RIDGID 814 rose from $51.99 to $64.99."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Budget is now the DURATECH DTAHDPW10 (was the HORUSDY 97653)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the RIDGID 814 dropped from $64.99 to $51.99; the HORUSDY 97653 rose from $24.19 to $27.99; the Zmwjyxx SGQ5 rose from $33.29 to $36.99."},
     {"date": "2026-10-31", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the HORUSDY 97653 dropped from $28.49 to $24.19; the Zmwjyxx SGQ5 dropped from $36.99 to $33.29."},
@@ -69,6 +69,7 @@
   "products": [
     {
       "asin": "B0000224JF",
+      "premium": true,
       "name": "RIDGID 31100 Model 818 Aluminum Straight Pipe Wrench, 18-Inch",
       "brand": "RIDGID",
       "model": "31100",
@@ -136,38 +137,38 @@
       ]
     },
     {
-      "asin": "B0000224JG",
-      "premium": true,
-      "name": "RIDGID 31105 Model 824 Aluminum Straight Pipe Wrench, 24-Inch",
+      "asin": "B0000224J9",
+      "name": "RIDGID 31025 Model 18 Heavy-Duty Straight Pipe Wrench, 18-inch Plumbing Wrench",
       "brand": "RIDGID",
-      "model": "31105",
-      "image": "https://m.media-amazon.com/images/I/41BoSQROuiL._AC_SL1005_.jpg",
-      "price": 119.99,
+      "model": "31025",
+      "image": "https://m.media-amazon.com/images/I/61Zpizl4TfL._AC_SL1500_.jpg",
+      "price": 59.97,
       "rating": 4.8,
-      "reviews_count": 730,
-      "bought": "200+/mo",
+      "reviews_count": 546,
+      "bought": "100+/mo",
       "specs": {
-        "size": "24 in",
-        "capacity": "3 in",
-        "handle": "Aluminum",
-        "extras": "Replaceable jaws and spring"
+        "size": "18 in",
+        "capacity": "2-1/2 in",
+        "handle": "Ductile iron, I-beam",
+        "extras": "Replaceable hook and heel jaws"
       },
       "features": {
-        "aluminum": true,
+        "aluminum": false,
         "capacity_2": true,
         "set": false,
         "replaceable_jaws": true
       },
-      "verdict": "RIDGID's 24-inch aluminum wrench for 3-inch pipe, the best-rated wrench here at 4.8 stars.",
-      "best_for": "Plumbers and pipefitters working on large pipe.",
-      "skip_if": "You do household repairs; it's more wrench than you need.",
+      "verdict": "RIDGID's classic 18-inch cast pipe wrench: ductile-iron I-beam handle, floating forged hook jaw and replaceable jaws, rated for pipe up to 2-1/2 inches.",
+      "best_for": "Plumbers who want one full-size, heavy-duty iron wrench.",
+      "skip_if": "You carry it all day; at 4 lbs it's heavier than the aluminum versions.",
       "pros": [
         "4.8 stars",
-        "3 in capacity",
-        "Long reach for leverage"
+        "Replaceable hook and heel jaws",
+        "Self-cleaning threads"
       ],
       "cons": [
-        "Most expensive here"
+        "Iron handle is heavier than aluminum",
+        "One size only"
       ]
     },
     {
