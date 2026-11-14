@@ -2,10 +2,11 @@
   "slug": "oil-drain-pans",
   "title": "The 10 Best Oil Drain Pans",
   "subtitle": "Open drain pans and sealed oil drain containers for oil changes and coolant, ranked from live Amazon data.",
-  "intro": "A good drain pan catches every drop of an oil change and gets it to the recycling center without a spill. We ranked 10 best-sellers from NEIKO, Performance Tool, CHAPIN, Spill-Less, Groz and others on rating, review volume and features (a sealed container, 12 quarts or more, a low profile and a drain-plug screen).",
+  "intro": "A good drain pan catches every drop of an oil change and gets it to the recycling center without a spill. We ranked 10 best-sellers from NEIKO, Performance Tool, CHAPIN, Scepter and others on rating, review volume and features (a sealed container, 12 quarts or more, a low profile and a drain-plug screen).",
   "data_captured": "2026-11-13",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-13", "note": "Replaced two containers Amazon lists as unavailable: the Groz 41961 with the Scepter AM07029 lidded pan ($25.64) and the Spill-Less SLDM35 with the Performance Tool W4072 7.5-gallon tub ($49.00)."},
     {"date": "2026-11-13", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Groz 41961 (was the NEIKO 20762A)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
@@ -204,38 +205,18 @@
       ]
     },
     {
-      "asin": "B079SYT1PN",
-      "name": "Groz Antifreeze Drain Pan, 4.25 Gallon, with Screen and Spout Cap (41961)",
-      "brand": "Groz",
-      "model": "41961",
-      "image": "https://m.media-amazon.com/images/I/61-f+8L6-VL._SL1500_.jpg",
-      "price": 21.49,
-      "rating": 4.8,
-      "reviews_count": 1254,
-      "bought": "500+/mo",
-      "specs": {
-        "capacity": "4.25 gal (16 L)",
-        "type": "Closed container",
-        "size": null,
-        "extras": "Mesh screen, bottom rollers, O-ring spout cap, green for coolant"
-      },
-      "features": {
-        "sealed": true,
-        "capacity_12": true,
-        "low_profile": false,
-        "plug_screen": true
-      },
-      "verdict": "A green coolant pan with a mesh screen that catches the drain plug, rollers on the bottom, and an O-ring-sealed spout, rated 4.8 stars.",
-      "best_for": "Coolant flushes kept separate from used oil.",
-      "skip_if": "You only change oil; it's colored and sized for coolant.",
-      "pros": [
-        "4.8 stars",
-        "Drain-plug screen",
-        "Rollers"
-      ],
-      "cons": [
-        "Made for coolant"
-      ]
+      "asin": "B0D54RZCQ9",
+      "name": "Scepter 7.3 Qt Oil Drain Pan with Lid, Filter Drain Screen and Pour Spout (AM07029)",
+      "brand": "Scepter", "model": "AM07029",
+      "image": "https://m.media-amazon.com/images/I/71DLslEp+9L._AC_SL1500_.jpg",
+      "price": 25.64, "rating": 3.7, "reviews_count": 1277, "bought": "1K+/mo",
+      "specs": { "capacity": "7.3 qt", "type": "Lidded pan", "size": null, "extras": "Screw-on lid, removable plug screen, tethered gasketed spout cap" },
+      "features": { "sealed": true, "capacity_12": false, "low_profile": false, "plug_screen": true },
+      "verdict": "A 7.3-quart pan with a screw-on lid, a removable screen that catches the drain plug and holds a filter while it drains, and a gasketed spout cap tethered to the pan.",
+      "best_for": "Cars that take 4 to 6 quarts, when you want to cap the oil and carry it.",
+      "skip_if": "You want a well-rated pan; it sits at 3.7 stars.",
+      "pros": ["Lid screws on for transport", "Screen catches the drain plug", "1,000+ sold last month"],
+      "cons": ["3.7 stars, the lowest here", "7.3 qt is tight for trucks"]
     },
     {
       "asin": "B0D1QMFRMP",
@@ -372,39 +353,18 @@
       ]
     },
     {
-      "asin": "B0CFZ3W84F",
-      "premium": true,
-      "name": "Spill-Less DrainMate 14 Quart Oil Drain Container, Made in USA (SLDM35)",
-      "brand": "Spill-Less",
-      "model": "SLDM35",
-      "image": "https://m.media-amazon.com/images/I/51QrL-suJcL._AC_SX425_.jpg",
-      "price": 57.99,
-      "rating": 4.5,
-      "reviews_count": 202,
-      "bought": "400+/mo",
-      "specs": {
-        "capacity": "14 qt (3.5 gal)",
-        "type": "Closed container",
-        "size": "12 in wide x 11 in deep opening",
-        "extras": "Screen holds drain plug and oil filter, screw-down gasketed lid, 3/4 in spigot"
-      },
-      "features": {
-        "sealed": true,
-        "capacity_12": true,
-        "low_profile": false,
-        "plug_screen": true
-      },
-      "verdict": "A sealed 14-quart container with a screen that catches the drain plug and holds the filter while it drains, a screw-down lid, and a spigot that pours straight into a jug.",
-      "best_for": "Garage DIYers who want the cleanest oil change and storage.",
-      "skip_if": "You're on a budget; it's the most expensive here.",
-      "pros": [
-        "Screen and filter rest",
-        "Screw-down lid",
-        "Pour spigot"
-      ],
-      "cons": [
-        "Most expensive here"
-      ]
+      "asin": "B0793HN57H", "premium": true,
+      "name": "Performance Tool W4072 7.5 Gallon Polyethylene Oil Drain Tub",
+      "brand": "Performance Tool", "model": "W4072",
+      "image": "https://m.media-amazon.com/images/I/61r6zKQvDhL._AC_SL1500_.jpg",
+      "price": 49.00, "rating": 4.8, "reviews_count": 135, "bought": "200+/mo",
+      "specs": { "capacity": "7.5 gal (30 qt)", "type": "Open tub", "size": "32.5 x 21.5 x 7.5 in", "extras": "Built-in parts basin, molded spout" },
+      "features": { "sealed": false, "capacity_12": true, "low_profile": false, "plug_screen": false },
+      "verdict": "A 7.5-gallon open tub for transmissions, radiators and other high-volume drains, with a wide opening, a molded pour spout and a flat basin for washing and sorting small parts.",
+      "best_for": "Transmission and coolant service, or several oil changes in a row.",
+      "skip_if": "You need to seal the oil for transport; it's an open tub.",
+      "pros": ["7.5 gal, the largest capacity here", "Built-in parts basin", "4.8 stars"],
+      "cons": ["Open, no cap", "32.5 in long, needs storage space", "135 reviews"]
     }
   ],
   "avoid": [

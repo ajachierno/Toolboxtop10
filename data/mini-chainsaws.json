@@ -2,10 +2,11 @@
   "slug": "mini-chainsaws",
   "title": "The 10 Best Mini Chainsaws",
   "subtitle": "Cordless 6 and 8-inch mini chainsaws for pruning and small limbs, ranked from live Amazon data.",
-  "intro": "A mini chainsaw is a light, one-handed battery saw for pruning and small branches, and one of Amazon's best-selling gift tools. We ranked 10 best-sellers from SEESII, Tietoc, Greenworks, CRAFTSMAN, DEWALT and others on rating, review volume and features (two batteries, auto oiling, a brushless motor and an 8-inch bar option).",
+  "intro": "A mini chainsaw is a light, one-handed battery saw for pruning and small branches, and one of Amazon's best-selling gift tools. We ranked 10 best-sellers from SEESII, Tietoc, Greenworks, CRAFTSMAN and others on rating, review volume and features (two batteries, auto oiling, a brushless motor and an 8-inch bar option).",
   "data_captured": "2026-11-13",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-13", "note": "Replaced the DEWALT DCCS623B, which Amazon no longer offers, with the DEJUNPIOOL bare saw for DEWALT 20V batteries ($59.99, 4.4 stars from 967 reviews)."},
     {"date": "2026-11-13", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-11-06", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the SEESII M8 Boost dropped from $99.99 to $79.99; the SEESII M8 Max dropped from $59.99 to $49.98."},
     {"date": "2026-10-31", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the SEESII M8 Boost rose from $68.39 to $99.99; the SEESII M8 Max rose from $49.99 to $59.99; the DEWALT DCCS623B dropped from $152.99 to $140.06."},
@@ -247,7 +248,7 @@
       ]
     },
     {
-      "asin": "B0BML4QZQJ",
+      "asin": "B0BML4QZQJ", "premium": true,
       "name": "Greenworks 24V 6\" Brushless Mini Chainsaw, 2.0Ah Battery and Charger (CS24L210)",
       "brand": "Greenworks",
       "model": "CS24L210",
@@ -319,41 +320,18 @@
       ]
     },
     {
-      "asin": "B0C2R4H6YK",
-      "premium": true,
-      "name": "DEWALT 20V MAX 8 Inch Brushless Pruning Chainsaw, Tool Only (DCCS623B)",
-      "brand": "DEWALT",
-      "model": "DCCS623B",
-      "image": "https://m.media-amazon.com/images/I/515xYWIZSdL._AC_SL1000_.jpg",
-      "price": 140.06,
-      "rating": 4.5,
-      "reviews_count": 1110,
-      "bought": "1K+/mo",
-      "specs": {
-        "bar": "8 in",
-        "battery": "Not included",
-        "motor": "Brushless",
-        "weight": null,
-        "extras": "Auto-oiling, up to 70 cuts on a 4x4 with a DCB230"
-      },
-      "features": {
-        "two_batteries": false,
-        "auto_oil": true,
-        "brushless": true,
-        "bar_8": true
-      },
-      "verdict": "DEWALT's 8-inch brushless pruning saw with auto-oiling, rated up to 70 cuts through a 4x4 per charge on a 3.0Ah battery.",
-      "best_for": "DEWALT 20V owners who want a pro-grade pruning saw.",
-      "skip_if": "You don't own DEWALT batteries.",
-      "pros": [
-        "Brushless, auto oil",
-        "8 in bar",
-        "1,000+ sold last month"
-      ],
-      "cons": [
-        "Bare tool",
-        "Most expensive here"
-      ]
+      "asin": "B0DSJ7KL9L",
+      "name": "DEJUNPIOOL Cordless Mini Chainsaw for DeWalt 20V MAX Battery, 6 and 8 Inch, Brushless, Auto Oiler (No Battery)",
+      "brand": "DEJUNPIOOL", "model": "JY-CH0701",
+      "image": "https://m.media-amazon.com/images/I/714wAvKyGLL._AC_SL1500_.jpg",
+      "price": 59.99, "rating": 4.4, "reviews_count": 967, "bought": "1K+/mo",
+      "specs": { "bar": "8 in and 6 in", "battery": "Not included (DEWALT 20V MAX)", "motor": "Brushless", "weight": "2.7 lb", "extras": "Auto-oiling, tool-free chain tensioning, 4 chains" },
+      "features": { "two_batteries": false, "auto_oil": true, "brushless": true, "bar_8": true },
+      "verdict": "A bare brushless saw that runs on DEWALT 20V MAX batteries and ships with both 6- and 8-inch bars' worth of chains, automatic oiling and tool-free tensioning. It's a third-party tool, not a DEWALT.",
+      "best_for": "DEWALT 20V owners who want a low-cost pruning saw.",
+      "skip_if": "You don't own DEWALT batteries, or you want DEWALT's warranty.",
+      "pros": ["Brushless, auto oil", "6 and 8 in chains included", "2.7 lb"],
+      "cons": ["Bare tool", "A third-party tool on DEWALT batteries isn't covered by DEWALT"]
     },
     {
       "asin": "B0D4DVK9GS",

@@ -6,6 +6,7 @@
   "data_captured": "2026-11-11",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-13", "note": "Replaced the Greenworks 2101602, whose Amazon listing is gone, with the Greenworks 60V ST60L413 ($182.49, 4.4 stars from 198 reviews)."},
     {"date": "2026-11-11", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Houselife HL-DST30A-0DB dropped from $49.99 to $37.99; the WORX WG163 rose from $105.10 to $119.28."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the BLACK+DECKER LST136 (was the WORX WG163)."},
     {"date": "2026-11-05", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Biggest price moves: the WORX WG154 dropped from $79.73 to $69.99."},
@@ -206,39 +207,18 @@
       ]
     },
     {
-      "asin": "B01GEW1AJC",
-      "name": "Greenworks 40V 12\" Cordless String Trimmer, 2.0Ah Battery and Charger",
-      "brand": "Greenworks",
-      "model": "2101602",
-      "image": "https://m.media-amazon.com/images/I/61ey+oorXnL._AC_SL1500_.jpg",
-      "price": 89.99,
-      "rating": 4.3,
-      "reviews_count": 3993,
-      "bought": "900+/mo",
-      "specs": {
-        "swath": "12 in",
-        "line": ".065 in dual line, auto feed",
-        "battery": "40V 2.0Ah, included",
-        "extras": "Variable speed trigger"
-      },
-      "features": {
-        "auto_feed": true,
-        "edger": false,
-        "battery_included": true,
-        "wide_swath": false
-      },
-      "verdict": "A 40V trimmer with dual .065 in line, auto feed and a variable speed trigger, on Greenworks' 40V platform.",
-      "best_for": "Greenworks 40V owners and medium yards.",
-      "skip_if": "You want an edger mode.",
-      "pros": [
-        "40V power",
-        "Dual-line auto feed",
-        "Variable speed"
-      ],
-      "cons": [
-        "4.3 stars",
-        "12 in swath"
-      ]
+      "asin": "B0BK7JTDYW",
+      "name": "Greenworks 60V 16 in Cordless String Trimmer, 4.0Ah Battery and Charger (ST60L413)",
+      "brand": "Greenworks", "model": "ST60L413",
+      "image": "https://m.media-amazon.com/images/I/61HEnWC7lzL._AC_SL1500_.jpg",
+      "price": 182.49, "rating": 4.4, "reviews_count": 198, "bought": "300+/mo",
+      "specs": { "swath": "16 in", "line": "Load N' Go head", "battery": "60V 4.0Ah, included", "extras": "Brushless, attachment capable, shoulder strap" },
+      "features": { "auto_feed": false, "edger": false, "battery_included": true, "wide_swath": true },
+      "verdict": "A 60V brushless trimmer with a 16-inch cutting path, a shaft that takes Greenworks attachments and a Load N' Go head for quick line reloads. The 4.0Ah battery and charger are included, with a 4-year warranty on tool and battery.",
+      "best_for": "Medium to large yards and Greenworks 60V owners.",
+      "skip_if": "You want auto feed or an edger mode.",
+      "pros": ["16 in cutting path", "Brushless 60V motor", "Takes Greenworks attachments"],
+      "cons": ["No auto feed listed", "198 reviews"]
     },
     {
       "asin": "B0GFYJ2WYD",

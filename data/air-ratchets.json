@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-13", "note": "Replaced the AIRCAT 805-HT, which Amazon no longer offers, with the AIRCAT 807 mini palm ratchet ($94.00, 4.5 stars from 286 reviews)."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the AIRCAT 805-HT (was the Ingersoll Rand 170G). Best Budget is now the AEROPRO AP17411 (was the Dynamic Power 43237-2)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-11-03", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Ingersoll Rand 107XPA rose from $116.05 to $133.83; the Ingersoll Rand 105-D2 dropped from $115.09 to $99.99; the Ingersoll Rand 1077XPA rose from $100 to $109.89."},
@@ -354,39 +355,18 @@
       ]
     },
     {
-      "asin": "B00UB1YHVG",
-      "name": "AIRCAT 805-HT 3/8\" High Torque Ratchet Wrench, 180 RPM",
-      "brand": "AIRCAT",
-      "model": "805-HT",
-      "image": "https://m.media-amazon.com/images/I/51GE0fIw6kL._AC_SL1500_.jpg",
-      "price": 178.32,
-      "rating": 4.7,
-      "reviews_count": 731,
-      "specs": {
-        "drive": "3/8 in",
-        "torque": "130 ft-lb",
-        "speed": "180 rpm",
-        "weight": "3.2 lb",
-        "extras": "84 dBA silencing exhaust, variable trigger"
-      },
-      "features": {
-        "high_torque": true,
-        "variable": true,
-        "exhaust_360": false,
-        "light": false
-      },
-      "verdict": "The most torque here at 130 ft-lbs, more than twice a standard ratchet, with a variable-speed trigger and a silenced exhaust rated at 84 dBA.",
-      "best_for": "Breaking smaller fasteners loose without switching tools.",
-      "skip_if": "You don't need the torque; it's heavier and costs more.",
-      "pros": [
-        "130 ft-lb, the most here",
-        "84 dBA, quieter",
-        "4.7 stars"
-      ],
-      "cons": [
-        "$178.32",
-        "3.2 lbs"
-      ]
+      "asin": "B01N2TUGYJ",
+      "name": "AIRCAT 807 3/8\" Mini Palm Ratchet",
+      "brand": "AIRCAT", "model": "807",
+      "image": "https://m.media-amazon.com/images/I/515bC0PhLCL._AC_SL1500_.jpg",
+      "price": 94.00, "rating": 4.5, "reviews_count": 286,
+      "specs": { "drive": "3/8 in", "torque": "35 ft-lb", "speed": "300 rpm", "weight": "1.1 lb", "extras": "5.4 in long, quick socket release button" },
+      "features": { "high_torque": false, "variable": false, "exhaust_360": false, "light": true },
+      "verdict": "A 5.4-inch palm ratchet that weighs 1.1 lb and spins at 300 rpm, for fasteners in spaces a full-length ratchet can't reach. Torque tops out at 35 ft-lb.",
+      "best_for": "Dashboards, engine bays and other tight spots.",
+      "skip_if": "You need to break fasteners loose; 35 ft-lb is for running them down.",
+      "pros": ["1.1 lb and 5.4 in long", "300 rpm", "Quick socket release"],
+      "cons": ["35 ft-lb", "$94.00 for a specialty tool"]
     },
     {
       "asin": "B00004XOSY",
@@ -413,7 +393,7 @@
       },
       "verdict": "Ingersoll Rand's high-torque 3/8-inch with the Twin Pawl Plus head for durability, extended reach into deep spots and a wide low-profile reverse control.",
       "best_for": "Heavy professional use where reach matters.",
-      "skip_if": "You want the most torque per dollar; the AIRCAT has more for less.",
+      "skip_if": "You want torque per dollar; the Ingersoll Rand 170G gives 55 ft-lb for about half the price.",
       "pros": [
         "76 ft-lb",
         "Twin Pawl Plus head",

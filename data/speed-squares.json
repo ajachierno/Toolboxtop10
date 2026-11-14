@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-11-03",
   "changelog": [
+    {"date": "2026-11-13", "note": "Replaced the Swanson S0100-A, which no longer has a featured offer on Amazon, with the Mr. Pen 7-inch 2-pack ($8.95, 4.6 stars from 2,700 reviews)."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Klein Tools 9357SSQ (was the Swanson S0101). Best Budget is now the Swanson S0101 (was the Swanson T0118)."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Klein Tools 9357SSQ rose from $14.98 to $16.98; the Johnson Level 1904-0700V dropped from $34.98 to $31.25."},
     {"date": "2026-11-03", "note": "Full audit. Replaced the Milwaukee MLSQ070P, which no longer has a featured seller on Amazon, with the Klein Tools 80211 7- and 12-inch set ($34.99). The Swanson S0100-A rose from $14.98 to $19.75."},
@@ -274,38 +275,18 @@
       ]
     },
     {
-      "asin": "B09F8FWD37",
-      "name": "Swanson Speed Square Pro, 7-Inch (S0100-A)",
-      "brand": "Swanson",
-      "model": "S0100-A",
-      "image": "https://m.media-amazon.com/images/I/61Qjyecc6iL._SL1246_.jpg",
-      "price": 19.75,
-      "rating": 4.8,
-      "reviews_count": 1352,
-      "bought": "500+/mo",
-      "specs": {
-        "size": "7 in",
-        "material": null,
-        "markings": "Double stud wall layout, 22-1/2° pitch guide",
-        "extras": "3/8, 1/2, 3/4 and 1-1/2 in marking guides in the walls"
-      },
-      "features": {
-        "aluminum": false,
-        "scribe_notches": true,
-        "rafter_guide": true,
-        "multi_pack": false
-      },
-      "verdict": "A Speed Square with marking guides cut into the walls at common widths and a 22-1/2-degree guide for octagons and 5-pitch rafters.",
-      "best_for": "Framers laying out stud walls fast.",
-      "skip_if": "You want the Blue Book; it isn't listed.",
-      "pros": [
-        "Marking guides",
-        "Stud wall layout",
-        "4.8 stars"
-      ],
-      "cons": [
-        "Thin listing"
-      ]
+      "asin": "B07RLBJ63S",
+      "name": "Mr. Pen 7-Inch Metal Rafter Square, Carpenter Square, 2 Pack",
+      "brand": "Mr. Pen", "model": "7 in 2-Pack",
+      "image": "https://m.media-amazon.com/images/I/813jdCqqyFL._SL1500_.jpg",
+      "price": 8.95, "rating": 4.6, "reviews_count": 2700, "bought": "200+/mo",
+      "specs": { "size": "7 in (2 squares)", "material": "Aluminum alloy", "markings": "1/8 in graduations, degree and roof-pitch scales", "extras": "Two squares in the pack" },
+      "features": { "aluminum": true, "scribe_notches": false, "rafter_guide": true, "multi_pack": true },
+      "verdict": "Two 7-inch aluminum rafter squares for $8.95, with 1/8-inch graduations and scales for marking 45-degree lines and finding roof pitch.",
+      "best_for": "A square for the shop and one for the truck, on a small budget.",
+      "skip_if": "You want scribe notches or a rafter table book; neither is listed.",
+      "pros": ["Two squares for $8.95", "Aluminum alloy", "2,700 reviews"],
+      "cons": ["No scribe notches listed", "4.6 stars, among the lowest here"]
     },
     {
       "asin": "B09922V3QX",

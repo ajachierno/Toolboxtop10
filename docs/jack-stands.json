@@ -28,54 +28,13 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B074R17GL4",
+  "best_overall": "B09TPXRHF8",
   "best_budget": "B0753MMRN7",
   "money_no_object": "B0093NBQNA"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B074R17GL4",
-   "name": "Pro-Lift T-6906D Double Pin Jack Stand, 6 Ton",
-   "brand": "Pro-LifT",
-   "model": "T-6906D",
-   "price": 83.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 6699,
-   "score": 98,
-   "award": "Best Overall",
-   "best_for": "Full-size trucks and lifted SUVs.",
-   "bought_last_month": "200+/mo",
-   "verdict": "The highest-rated stands here: 6-ton, 16 to 23-1/2-inch stands with a handle lock, a mobility pin and counterweighted pawls, meeting ANSI/PALD.",
-   "pros": [
-    "4.8 stars across 6,699 reviews",
-    "16 to 23-1/2-in range",
-    "Pin lock, ANSI/PALD"
-   ],
-   "cons": [
-    "$83.99",
-    "Listing showed only 1 left in stock"
-   ],
-   "specs": {
-    "capacity": "6 ton",
-    "range": "16 to 23-1/2 in",
-    "lock": "Handle lock plus pin",
-    "standard": "ANSI/PALD",
-    "warranty": null
-   },
-   "features": {
-    "double_lock": true,
-    "standard": true,
-    "three_ton": true,
-    "tall": true
-   },
-   "image": "https://m.media-amazon.com/images/I/811jJTAAmVL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B074R17GL4?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/jack-stands.html#B074R17GL4"
-  },
-  {
-   "rank": 2,
    "asin": "B09TPXRHF8",
    "name": "Pro-LifT PL3300 Heavy Duty Jack Stands, 3 Ton Pair with Double Pins, Handle Lock and Mobility Pin",
    "brand": "Pro-LifT",
@@ -85,7 +44,7 @@
    "rating": 4.7,
    "reviews_count": 7689,
    "score": 94,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "The most safety features per dollar.",
    "bought_last_month": "50+/mo",
    "verdict": "Double locking and a stated safety standard for about $40: a handle lock and a mobility pin, a cast ductile iron ratchet bar and testing to meet or exceed ANSI/PALD.",
@@ -114,6 +73,47 @@
    "image": "https://m.media-amazon.com/images/I/61NTGfB4ygL._AC_SL1500_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B09TPXRHF8?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/jack-stands.html#B09TPXRHF8"
+  },
+  {
+   "rank": 2,
+   "asin": "B089JKSHDW",
+   "name": "TCE AT43002AU 3 Ton (6,000 lb) Double Locking Steel Jack Stands, 2 Pack, Blue",
+   "brand": "TCE",
+   "model": "AT43002AU",
+   "price": 49.48,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1294,
+   "score": 94,
+   "award": null,
+   "best_for": "Cars and small SUVs, with a second lock and a stated safety standard.",
+   "bought_last_month": "50+/mo",
+   "verdict": "A pair of 3-ton ratchet stands with a removable locking pin as a backup, a wide pyramid base and a stated ASME standard, backed by a 2-year warranty.",
+   "pros": [
+    "Locking pin backs up the ratchet bar",
+    "Meets ASME; 2-year warranty",
+    "4.7 stars across 1,294 reviews"
+   ],
+   "cons": [
+    "Tops out at 16-3/4 in",
+    "Costs more than most 3-ton pairs here"
+   ],
+   "specs": {
+    "capacity": "3 ton",
+    "range": "11-1/4 to 16-3/4 in",
+    "lock": "Ratchet bar plus pin",
+    "standard": "ASME",
+    "warranty": "2 years"
+   },
+   "features": {
+    "double_lock": true,
+    "standard": true,
+    "three_ton": true,
+    "tall": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71F+6iTMRVL._AC_SL1440_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B089JKSHDW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/jack-stands.html#B089JKSHDW"
   },
   {
    "rank": 3,
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-13",
+   "note": "Replaced the Pro-Lift T-6906D, which Amazon now sells only used or through other sellers, with the TCE AT43002AU ($49.48, 4.7 stars from 1,294 reviews)."
+  },
   {
    "date": "2026-11-12",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."
