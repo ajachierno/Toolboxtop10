@@ -15,6 +15,7 @@ import urllib.parse
 from pathlib import Path
 
 import price_tracker  # price-tracker hub, monthly reports and data downloads (same folder)
+import best_of  # Best of 2026 table: live awards until the freeze, then data/best-of-2026.json (same folder)
 import listing_age  # review counts weighted by how long a listing has been on Amazon (same folder)
 
 ROOT = Path(__file__).parent
@@ -1713,6 +1714,54 @@ def build_holiday(site, cfg, by_slug):
     return _write_hub(site, cfg, body, dates)
 
 
+def build_best_of(site, cat_list, today):
+    """Best of 2026 table (best_of.py). noindex and unlinked until best_of.REVEAL_DATE; returns the
+    sitemap entry (slug, lastmod) once public, else None."""
+    best_of.ensure_frozen(site, cat_list, today)
+    rows = best_of.rows_for_page(site, cat_list)
+    live = {c["slug"] for c in site["categories"]}
+    public = best_of.is_public(today)
+
+    def cat_cell(r):
+        return (f'<a href="{esc(r["slug"])}.html">{esc(r["category"])}</a>' if r["slug"] in live
+                else esc(r["category"]))
+
+    def as_of(iso):
+        d = datetime.date.fromisoformat(iso)
+        return f"{d:%b} {d.day}"
+
+    table_rows = "".join(
+        f'<tr><td>{cat_cell(r)}</td><td>{esc(r["award"])}</td><td>{esc(r["title"])}</td>'
+        f'<td>{money(r["price"])}<br><span class="tiny muted">as of {as_of(r["price_date"])}</span></td>'
+        f'<td>{r["rating"]}</td><td>{r["reviews_count"]:,}</td>'
+        f'<td><a class="btn" href="{amazon_url(r["asin"], site["affiliate_tag"], site["amazon_domain"])}"'
+        f' target="_blank" rel="sponsored nofollow noopener">View on Amazon</a></td></tr>'
+        for r in rows)
+    frozen = best_of.load_frozen() is not None
+    lock_note = ("These picks were locked on December 31, 2026." if frozen else
+                 "The picks lock on December 31, 2026. Until then this table follows each category's current awards.")
+    body = f"""
+  {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
+  <section class="lead">
+    <h1>Best of 2026</h1>
+    <p class="sub">Every category's Best Overall, Best Budget and Money No Object pick for 2026.</p>
+    <p class="intro">{lock_note} Prices are re-checked on Amazon regularly; each one shows the date it was last checked.</p>
+  </section>
+  <section class="compare" id="best-of-2026">
+    <p class="swipe-hint">Swipe the table sideways for more columns &rarr;</p>
+    <div class="tablewrap"><table class="bf-table"><tr><th>Category</th><th>Award</th><th>Product</th>
+      <th>Current price</th><th>Rating</th><th>Reviews</th><th></th></tr>{table_rows}</table></div>
+  </section>"""
+    base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
+    updated = max((r["price_date"] for r in rows), default=site["updated"])
+    (OUT / f"{best_of.SLUG}.html").write_text(
+        page(site, f"Best of 2026 — {site['brand']}", body,
+             description="Every category's Best Overall, Best Budget and Money No Object pick for 2026.",
+             canonical=f"{base}/{best_of.SLUG}.html" if base else "", updated=updated, noindex=not public),
+        encoding="utf-8")
+    return (best_of.SLUG, updated) if public else None
+
+
 def build_seasonal(site, cats):
     """Build every enabled seasonal page; returns [(slug, lastmod)] for the sitemap
     (pages flagged noindex are built but left out)."""
@@ -1728,6 +1777,13 @@ def build_seasonal(site, cats):
         if not h.get("noindex"):
             built.append((h["slug"], lastmod))
     return built
+
+
+def render_best_of_link():
+    """Home-page link to the Best of 2026 table, hidden until best_of.REVEAL_DATE (REVEAL_JS shows it on the day)."""
+    return (f'<section class="deals seasonal-strip"{reveal_attr((best_of.REVEAL_DATE, None))}>'
+            '<h2>Best of 2026</h2><p>Every category&rsquo;s 2026 award winners in one table.</p>'
+            f'<div class="strip-links"><a class="btn" href="{best_of.SLUG}.html">See the Best of 2026 &rarr;</a></div></section>')
 
 
 def render_seasonal_strip():
@@ -2089,6 +2145,7 @@ def build_home(site, cats):
     <p class="sub">{esc(site['description'])}</p>
   </section>
   {render_seasonal_strip()}
+  {render_best_of_link()}
   {render_brand_strip()}
   {render_quicknav(nav_groups)}
   <h2 class="shop-head">Shop by category</h2>
@@ -2381,6 +2438,9 @@ def main():
     cats = [build_category(site, f"{c['slug']}.json") for c in site["categories"]]
     build_home(site, cats)
     seasonal = build_seasonal(site, cats) + build_brands(site, cats)
+    best = build_best_of(site, [c for c, _, _ in cats], datetime.date.today().isoformat())
+    if best:  # public from best_of.REVEAL_DATE: sitemap + agent index, same as the seasonal pages
+        seasonal.append(best)
     about_date = build_about(site, cats)
     build_disclosure(site)
     build_privacy(site)

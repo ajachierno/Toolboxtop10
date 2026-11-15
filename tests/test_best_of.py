@@ -112,6 +112,33 @@ def test_is_public():
     assert best_of.is_public("2027-01-01") is True
 
 
+def test_render_header_and_noindex():
+    import build
+    site = build.load("site.json")
+    rows = [{"slug": site["categories"][0]["slug"], "category": "Real Cat", "award": "Best Overall", "asin": "A1",
+             "title": "B M", "rating": 4.5, "reviews_count": 1234, "price": 99.5, "price_date": "2026-11-15"},
+            {"slug": "gone-category", "category": "Gone Cat", "award": "Best Budget", "asin": "A2",
+             "title": "C D", "rating": 4.1, "reviews_count": 50, "price": 20, "price_date": "2026-11-14"}]
+    real_rows, real_out, real_freeze = best_of.rows_for_page, build.OUT, best_of.ensure_frozen
+    best_of.rows_for_page = lambda site, cats: rows
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            build.OUT = Path(tmp)
+            best_of.FROZEN = Path(tmp) / "never-written.json"
+            best_of.ensure_frozen = lambda *a: False
+            assert build.build_best_of(site, [], "2026-11-20") is None
+            html = (Path(tmp) / "best-of-2026.html").read_text(encoding="utf-8")
+            assert "<th>Current price</th>" in html and "as of Nov 15" in html
+            assert "noindex" in html
+            assert 'href="gone-category.html"' not in html and "Gone Cat" in html
+            assert f'href="{rows[0]["slug"]}.html"' in html and "1,234" in html
+            out = build.build_best_of(site, [], "2027-01-01")
+            assert out == ("best-of-2026", "2026-11-15")
+            assert "noindex" not in (Path(tmp) / "best-of-2026.html").read_text(encoding="utf-8")
+    finally:
+        best_of.rows_for_page, build.OUT, best_of.ensure_frozen = real_rows, real_out, real_freeze
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:
