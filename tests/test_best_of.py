@@ -139,6 +139,22 @@ def test_render_header_and_noindex():
         best_of.rows_for_page, build.OUT, best_of.ensure_frozen = real_rows, real_out, real_freeze
 
 
+def test_award_asins_includes_frozen():
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import holiday_picks
+    real = best_of.FROZEN
+    with tempfile.TemporaryDirectory() as tmp:
+        best_of.FROZEN = Path(tmp) / "best-of-2026.json"
+        try:
+            live = holiday_picks.award_asins()
+            best_of.FROZEN.write_text(json.dumps([{"asin": "ZZFROZEN01"}, {"asin": live[0]}]), encoding="utf-8")
+            got = holiday_picks.award_asins()
+            assert got.count("ZZFROZEN01") == 1 and got.count(live[0]) == 1
+            assert len(got) == len(live) + 1
+        finally:
+            best_of.FROZEN = real
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:

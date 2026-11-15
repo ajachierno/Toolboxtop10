@@ -1,6 +1,7 @@
 """Picks-only price pass for the holiday deal pages (toolboxtop10-holiday-pages skill).
 
-A holiday page shows every category's Best Overall and Best Budget. Re-reading all 1,800
+A holiday page shows every category's Best Overall and Best Budget, and from 2026-12-31 the
+Best of 2026 page (best_of.py) shows its frozen picks, priced from this same file. Re-reading all 1,800
 listings each day isn't practical, so this re-reads just those award listings:
 
   python scripts/holiday_picks.py asins    # list the award ASINs the holiday pages show
@@ -37,6 +38,8 @@ def award_asins():
         for p in (overall, budget):
             if p and p["asin"] not in out:
                 out.append(p["asin"])
+    # The Best of 2026 picks stay priced after the freeze, even once they leave their category page.
+    out += [a for a in build.best_of.frozen_asins() if a not in out]
     return out
 
 
