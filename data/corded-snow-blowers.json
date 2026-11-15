@@ -4,9 +4,9 @@
   "subtitle": "Plug-in snow blowers and electric snow shovels for driveways, walks and decks, ranked from live Amazon data.",
   "intro": "Corded snow removal comes in two sizes. Electric snow shovels (10-16 in wide) clear steps, decks and walks; walk-behind blowers (20-22 in) handle driveways. We ranked 10 best-sellers from Westinghouse, Snow Joe, WEN, PowerSmart, DEKOPRO, SENIX and Earthwise on rating, review volume and features (a path 20 in or wider, a steel auger, a 12 in or deeper intake, a throw of 25 ft or more and LED lights). None of them comes with the outdoor-rated extension cord you'll need.",
   "data_captured": "2026-11-15",
-  "audited": "2026-10-23",
+  "audited": "2026-11-15",
   "changelog": [
-    {"date": "2026-11-15", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the STEELITE AZDG850 dropped from $159.99 to $139.99; the SENIX ST15-M rose from $179.97 to $199.99."},
+    {"date": "2026-11-15", "note": "Replaced the Snow Joe 320E, which Amazon lists as currently unavailable, with the DEKOPRO 18-inch corded snow blower. The STEELITE AZDG850 dropped from $159.99 to $139.99 and the SENIX ST15-M rose from $179.97 to $199.99."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Westinghouse WSnow22 (was the Westinghouse WSnow20)."},
     {"date": "2026-11-09", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Snow Joe 320E rose from $72.76 to $99.97; the Earthwise SN70016 dropped from $129.99 to $104.99."},
     {"date": "2026-11-02", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the DEKOPRO DKPGSRA020C1-K1UL-GEAZ rose from $139.99 to $159.99; the SENIX ST15-M dropped from $199.99 to $179.98."},
@@ -429,43 +429,18 @@
       ]
     },
     {
-      "asin": "B07XHCKLFF",
-      "name": "Snow Joe 320E Electric Snow Shovel, 10-Inch, 8-Amp",
-      "brand": "Snow Joe",
-      "model": "320E",
-      "image": "https://m.media-amazon.com/images/I/71e-iF7mpZL._AC_SL1500_.jpg",
-      "price": 99.97,
-      "rating": 3.9,
-      "reviews_count": 664,
-      "bought": null,
-      "specs": {
-        "type": "Snow shovel, 10 in",
-        "width": "10 in",
-        "depth": "6 in",
-        "throw": "20 ft",
-        "motor": "8.5 A",
-        "weight": "12.1 lb"
-      },
-      "features": {
-        "wide_path": false,
-        "steel_auger": false,
-        "deep_intake": false,
-        "long_throw": false,
-        "led_lights": false
-      },
-      "verdict": "The cheapest way into electric snow removal on this page: a 10 in paddle auger for steps, decks and stoops.",
-      "best_for": "Decks, steps and stoops on a tight budget.",
-      "skip_if": "You need a light for dark mornings or more than a 10 in path.",
-      "pros": [
-        "$99.97, the lowest price here",
-        "12.1 lb",
-        "2-year limited warranty"
-      ],
-      "cons": [
-        "10 in by 6 in path",
-        "No headlight",
-        "Title says 8 A; the bullets say 8.5 A"
-      ]
+      "asin": "B0HD79QCL1",
+      "name": "DEKOPRO 18-Inch Corded Electric Snow Blower, 15A Motor, 25 ft Throw, Dual LED Lights",
+      "brand": "DEKOPRO", "model": "DKPGSRA180C1-K1UL-GGAZ",
+      "image": "https://m.media-amazon.com/images/I/71rJ+lgYXBL._AC_SL1500_.jpg",
+      "price": 129.99, "rating": 4.6, "reviews_count": 6, "bought": "100+/mo",
+      "specs": { "type": "Single-stage, 18 in", "width": "18 in", "depth": "9 in", "throw": "25 ft", "motor": "15 A", "weight": null },
+      "features": { "wide_path": false, "steel_auger": true, "deep_intake": false, "long_throw": true, "led_lights": true },
+      "verdict": "A compact 18-inch single-stage blower with a 15-amp motor, a two-blade steel auger, a 180-degree chute and two LED headlights. DEKOPRO rates it at up to 800 lb of snow a minute.",
+      "best_for": "Short driveways and walks where a 20-inch machine is more than you need.",
+      "skip_if": "You clear deep drifts; it takes a 9 in bite.",
+      "pros": ["Steel auger", "Two LED headlights", "180° adjustable chute, 25 ft throw"],
+      "cons": ["18 in by 9 in path", "New listing with 6 reviews", "Weight not listed"]
     }
   ],
   "avoid": [
