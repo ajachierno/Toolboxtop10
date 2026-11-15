@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 171,
@@ -62,7 +62,7 @@
    "title": "The 10 Best Air Blow Guns",
    "url": "https://toolboxtop10.com/air-blow-guns.html",
    "json": "https://toolboxtop10.com/air-blow-guns.json",
-   "data_captured": "2026-11-09",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -82,7 +82,7 @@
    "title": "The 10 Best Air Compressor Hoses",
    "url": "https://toolboxtop10.com/air-compressor-hoses.html",
    "json": "https://toolboxtop10.com/air-compressor-hoses.json",
-   "data_captured": "2026-11-09",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -98,7 +98,7 @@
    "money_no_object": {
     "asin": "B001C6NC7O",
     "name": "Flexzilla 3/8 x 50",
-    "price": 38.33
+    "price": 38.89
    }
   },
   {
@@ -106,7 +106,7 @@
    "title": "The 10 Best Air Compressors",
    "url": "https://toolboxtop10.com/air-compressors.html",
    "json": "https://toolboxtop10.com/air-compressors.json",
-   "data_captured": "2026-11-09",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -358,7 +358,7 @@
    "title": "The 10 Best Benchtop Thickness Planers",
    "url": "https://toolboxtop10.com/thickness-planers.html",
    "json": "https://toolboxtop10.com/thickness-planers.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -402,18 +402,18 @@
    "title": "The 10 Best Bolt Cutters",
    "url": "https://toolboxtop10.com/bolt-cutters.html",
    "json": "https://toolboxtop10.com/bolt-cutters.json",
-   "data_captured": "2026-11-09",
+   "data_captured": "2026-11-15",
    "audited": "2026-11-09",
    "products": 10,
    "best_overall": {
     "asin": "B00140X8W2",
     "name": "RIDGID 14223",
-    "price": 156.99
+    "price": 156.11
    },
    "best_budget": {
     "asin": "B015W3BAW6",
     "name": "WORKPRO W017004A",
-    "price": 15.12
+    "price": 14.74
    },
    "money_no_object": null
   },
@@ -538,7 +538,7 @@
    "title": "The 10 Best Corded Angle Grinders",
    "url": "https://toolboxtop10.com/corded-angle-grinders.html",
    "json": "https://toolboxtop10.com/corded-angle-grinders.json",
-   "data_captured": "2026-11-09",
+   "data_captured": "2026-11-15",
    "audited": "2026-11-09",
    "products": 10,
    "best_overall": {
@@ -630,7 +630,7 @@
    "title": "The 10 Best Corded Circular Saws",
    "url": "https://toolboxtop10.com/corded-circular-saws.html",
    "json": "https://toolboxtop10.com/corded-circular-saws.json",
-   "data_captured": "2026-11-09",
+   "data_captured": "2026-11-15",
    "audited": "2026-11-09",
    "products": 10,
    "best_overall": {
@@ -646,7 +646,7 @@
    "money_no_object": {
     "asin": "B00B7EUS46",
     "name": "SKILSAW SPT77WML-01",
-    "price": 219.0
+    "price": 169.0
    }
   },
   {
@@ -698,13 +698,13 @@
    "title": "The 10 Best Corded Drills",
    "url": "https://toolboxtop10.com/corded-drills.html",
    "json": "https://toolboxtop10.com/corded-drills.json",
-   "data_captured": "2026-11-13",
+   "data_captured": "2026-11-15",
    "audited": "2026-11-07",
    "products": 10,
    "best_overall": {
     "asin": "B00T2VJ93C",
     "name": "BLACK+DECKER DR260C",
-    "price": 48.21
+    "price": 48.38
    },
    "best_budget": {
     "asin": "B08WCN3KGR",
@@ -802,18 +802,18 @@
    "title": "The 10 Best Corded Jigsaws",
    "url": "https://toolboxtop10.com/corded-jigsaws.html",
    "json": "https://toolboxtop10.com/corded-jigsaws.json",
-   "data_captured": "2026-11-09",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-23",
    "products": 10,
    "best_overall": {
     "asin": "B07FD341YS",
     "name": "SKIL JS314901",
-    "price": 54.0
+    "price": 39.0
    },
    "best_budget": {
-    "asin": "B09PD3ZFW5",
-    "name": "WORKPRO W124748A",
-    "price": 47.49
+    "asin": "B084338DFM",
+    "name": "Hammerhead HAJS048",
+    "price": 27.16
    },
    "money_no_object": {
     "asin": "B004323NPK",
@@ -826,13 +826,13 @@
    "title": "The 10 Best Corded Leaf Blowers",
    "url": "https://toolboxtop10.com/corded-leaf-blowers.html",
    "json": "https://toolboxtop10.com/corded-leaf-blowers.json",
-   "data_captured": "2026-11-09",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-24",
    "products": 10,
    "best_overall": {
-    "asin": "B07PGX4SXW",
-    "name": "WORX WG512",
-    "price": 87.39
+    "asin": "B00FREQC10",
+    "name": "BLACK+DECKER BV6000",
+    "price": 99.0
    },
    "best_budget": {
     "asin": "B01BJ2YRPQ",
@@ -1038,7 +1038,7 @@
    "title": "The 10 Best Corded Snow Blowers",
    "url": "https://toolboxtop10.com/corded-snow-blowers.html",
    "json": "https://toolboxtop10.com/corded-snow-blowers.json",
-   "data_captured": "2026-11-09",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-23",
    "products": 10,
    "best_overall": {
@@ -2794,20 +2794,24 @@
    "title": "The 10 Best Narrow Crown Staplers",
    "url": "https://toolboxtop10.com/narrow-crown-staplers.html",
    "json": "https://toolboxtop10.com/narrow-crown-staplers.json",
-   "data_captured": "2026-11-13",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B001QFYD2E",
     "name": "BOSTITCH SX1838K",
-    "price": 114.99
+    "price": 114.98
    },
    "best_budget": {
     "asin": "B0BFC2KGDR",
     "name": "WEN 61722K",
     "price": 41.79
    },
-   "money_no_object": null
+   "money_no_object": {
+    "asin": "B09NC1KX2R",
+    "name": "CRAFTSMAN CMCN618NB",
+    "price": 124.49
+   }
   },
   {
    "slug": "needle-nose-pliers",
@@ -2838,19 +2842,23 @@
    "title": "The 10 Best Non-Contact Voltage Testers",
    "url": "https://toolboxtop10.com/voltage-testers.html",
    "json": "https://toolboxtop10.com/voltage-testers.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0DCNWJKZX",
     "name": "AstroAI VTS1000H",
-    "price": 9.99
+    "price": 14.99
    },
-   "best_budget": null,
+   "best_budget": {
+    "asin": "B0C2CNC624",
+    "name": "KAIWEETS HT100s",
+    "price": 11.99
+   },
    "money_no_object": {
     "asin": "B07SLFX6B2",
     "name": "Klein Tools NCVT6",
-    "price": 52.9
+    "price": 51.99
    }
   },
   {
@@ -3426,13 +3434,13 @@
    "title": "The 10 Best Tap and Die Sets",
    "url": "https://toolboxtop10.com/tap-and-die-sets.html",
    "json": "https://toolboxtop10.com/tap-and-die-sets.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B000HBDW48",
     "name": "GEARWRENCH 3887",
-    "price": 139.99
+    "price": 126.37
    },
    "best_budget": {
     "asin": "B00NY5K9P4",
@@ -3498,7 +3506,7 @@
    "title": "The 10 Best Tire Bead Seaters",
    "url": "https://toolboxtop10.com/tire-bead-seaters.html",
    "json": "https://toolboxtop10.com/tire-bead-seaters.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3542,7 +3550,7 @@
    "title": "The 10 Best Tire Pressure Gauges",
    "url": "https://toolboxtop10.com/tire-pressure-gauges.html",
    "json": "https://toolboxtop10.com/tire-pressure-gauges.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3610,7 +3618,7 @@
    "title": "The 10 Best Tool Cabinets",
    "url": "https://toolboxtop10.com/tool-cabinets.html",
    "json": "https://toolboxtop10.com/tool-cabinets.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3630,7 +3638,7 @@
    "title": "The 10 Best Torque Wrenches",
    "url": "https://toolboxtop10.com/torque-wrenches.html",
    "json": "https://toolboxtop10.com/torque-wrenches.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3642,7 +3650,7 @@
    "money_no_object": {
     "asin": "B0FYHB7XBQ",
     "name": "TEKTON TRQ51402",
-    "price": 110.0
+    "price": 99.0
    }
   },
   {
@@ -3650,7 +3658,7 @@
    "title": "The 10 Best Track Saws",
    "url": "https://toolboxtop10.com/track-saws.html",
    "json": "https://toolboxtop10.com/track-saws.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3659,9 +3667,9 @@
     "price": 589.0
    },
    "best_budget": {
-    "asin": "B07VFXFTVP",
-    "name": "WEN CT1065",
-    "price": 99.9
+    "asin": "B07T4CZP31",
+    "name": "Evolution R185CCSX",
+    "price": 132.3
    },
    "money_no_object": {
     "asin": "B0897YPSF8",
@@ -3674,7 +3682,7 @@
    "title": "The 10 Best Transmission Jacks",
    "url": "https://toolboxtop10.com/transmission-jacks.html",
    "json": "https://toolboxtop10.com/transmission-jacks.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-11-08",
    "products": 10,
    "best_overall": {
@@ -3690,7 +3698,7 @@
    "money_no_object": {
     "asin": "B0082LTO10",
     "name": "Sunex Tools 7796",
-    "price": 1377.99
+    "price": 1266.44
    }
   },
   {
@@ -3718,7 +3726,7 @@
    "title": "The 10 Best Wet Tile Saws",
    "url": "https://toolboxtop10.com/wet-tile-saws.html",
    "json": "https://toolboxtop10.com/wet-tile-saws.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-11-08",
    "products": 10,
    "best_overall": {
@@ -3786,7 +3794,7 @@
    "title": "The 10 Best Wire Strippers",
    "url": "https://toolboxtop10.com/wire-strippers.html",
    "json": "https://toolboxtop10.com/wire-strippers.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3810,7 +3818,7 @@
    "title": "The 10 Best Wood Chisel Sets",
    "url": "https://toolboxtop10.com/wood-chisel-sets.html",
    "json": "https://toolboxtop10.com/wood-chisel-sets.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -3826,7 +3834,7 @@
    "money_no_object": {
     "asin": "B0165WKKY2",
     "name": "Narex 853053",
-    "price": 110.89
+    "price": 110.86
    }
   },
   {
@@ -3834,7 +3842,7 @@
    "title": "The 10 Best Wood Lathes",
    "url": "https://toolboxtop10.com/wood-lathes.html",
    "json": "https://toolboxtop10.com/wood-lathes.json",
-   "data_captured": "2026-11-08",
+   "data_captured": "2026-11-15",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
