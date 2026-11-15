@@ -103,7 +103,7 @@ def test_frozen_asins_dedup():
     with tempfile.TemporaryDirectory() as tmp:
         best_of.FROZEN = Path(tmp) / "best-of-2026.json"
         assert best_of.frozen_asins() == []
-        best_of.FROZEN.write_text(json.dumps([{"asin": "X"}, {"asin": "Y"}, {"asin": "X"}]), encoding="utf-8")
+        best_of.FROZEN.write_text(json.dumps({"frozen_on": "2026-12-31", "rows": [{"asin": "X"}, {"asin": "Y"}, {"asin": "X"}]}), encoding="utf-8")
         assert best_of.frozen_asins() == ["X", "Y"]
 
 
@@ -147,12 +147,45 @@ def test_award_asins_includes_frozen():
         best_of.FROZEN = Path(tmp) / "best-of-2026.json"
         try:
             live = holiday_picks.award_asins()
-            best_of.FROZEN.write_text(json.dumps([{"asin": "ZZFROZEN01"}, {"asin": live[0]}]), encoding="utf-8")
+            best_of.FROZEN.write_text(json.dumps({"frozen_on": "2026-12-31", "rows": [{"asin": "ZZFROZEN01"}, {"asin": live[0]}]}), encoding="utf-8")
             got = holiday_picks.award_asins()
             assert got.count("ZZFROZEN01") == 1 and got.count(live[0]) == 1
             assert len(got) == len(live) + 1
         finally:
             best_of.FROZEN = real
+
+
+def test_build_never_freezes():
+    import build
+    site = build.load("site.json")
+    real_rows, real_out, real_frozen = best_of.rows_for_page, build.OUT, best_of.FROZEN
+    best_of.rows_for_page = lambda *a: []
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            build.OUT = Path(tmp)
+            best_of.FROZEN = Path(tmp) / "best-of-2026.json"
+            build.build_best_of(site, [], "2026-12-31")
+            assert not best_of.FROZEN.exists(), "only `python best_of.py freeze` may write the file"
+    finally:
+        best_of.rows_for_page, build.OUT, best_of.FROZEN = real_rows, real_out, real_frozen
+
+
+def test_frozen_on_recorded_and_shown():
+    import build
+    with tempfile.TemporaryDirectory() as tmp:
+        cs = setup(tmp)
+        assert best_of.frozen_on() is None
+        best_of.ensure_frozen(SITE, cs, "2027-01-03")
+        assert best_of.frozen_on() == "2027-01-03"
+        assert best_of.load_frozen()[0]["asin"] == "A1"
+        site = build.load("site.json")
+        real_out = build.OUT
+        try:
+            build.OUT = Path(tmp)
+            build.build_best_of(site, cs, "2027-01-03")
+            assert "locked on January 3, 2027" in (Path(tmp) / "best-of-2026.html").read_text(encoding="utf-8")
+        finally:
+            build.OUT = real_out
 
 
 if __name__ == "__main__":

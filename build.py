@@ -1717,8 +1717,7 @@ def build_holiday(site, cfg, by_slug):
 def build_best_of(site, cat_list, today):
     """Best of 2026 table (best_of.py). noindex and unlinked until best_of.REVEAL_DATE; returns the
     sitemap entry (slug, lastmod) once public, else None."""
-    best_of.ensure_frozen(site, cat_list, today)
-    rows = best_of.rows_for_page(site, cat_list)
+    rows = best_of.rows_for_page(site, cat_list)  # the freeze itself is `python best_of.py freeze`
     live = {c["slug"] for c in site["categories"]}
     public = best_of.is_public(today)
 
@@ -1737,8 +1736,9 @@ def build_best_of(site, cat_list, today):
         f'<td><a class="btn" href="{amazon_url(r["asin"], site["affiliate_tag"], site["amazon_domain"])}"'
         f' target="_blank" rel="sponsored nofollow noopener">View on Amazon</a></td></tr>'
         for r in rows)
-    frozen = best_of.load_frozen() is not None
-    lock_note = ("These picks were locked on December 31, 2026." if frozen else
+    locked = best_of.frozen_on()
+    lock_note = (f"These picks were locked on {datetime.date.fromisoformat(locked):%B} "
+                 f"{datetime.date.fromisoformat(locked).day}, {locked[:4]}." if locked else
                  "The picks lock on December 31, 2026. Until then this table follows each category's current awards.")
     body = f"""
   {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
