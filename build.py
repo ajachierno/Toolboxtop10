@@ -42,10 +42,9 @@ def record_prices(site):
     before = json.dumps(hist, sort_keys=True)
     for c in site["categories"]:
         cat = load(f"{c['slug']}.json")
-        when = price_date(cat, site)
         for p in cat["products"] + cat.get("avoid", []):
             if isinstance(p.get("price"), (int, float)):
-                hist.setdefault(p["asin"], {})[when] = p["price"]
+                hist.setdefault(p["asin"], {})[price_date(cat, site, p)] = p["price"]
     PRICE_HISTORY.clear()
     PRICE_HISTORY.update({a: sorted(d.items()) for a, d in hist.items()})
     if json.dumps(hist, sort_keys=True) != before:
@@ -802,10 +801,16 @@ def cat_date(cat, site):
     return cat.get("data_captured") or site["updated"]
 
 
-def price_date(cat, site):
-    """The newest price check on this page: the daily API pass (prices_checked) or the last scrape
-    (data_captured), whichever is later. data_captured stays the ratings date and rotation key."""
-    return max(cat.get("prices_checked") or "", cat_date(cat, site))
+def price_date(cat, site, p=None):
+    """When a price was last checked. For one listing: its own API check (price_checked, written by
+    scripts/api_prices.py) or the page's last scrape (data_captured), whichever is later. For the
+    page (no listing given): the OLDEST of its listings' dates, so "Prices checked" is true of every
+    price on it. data_captured stays the ratings date, rotation key and sitemap date."""
+    base = cat_date(cat, site)
+    if p is not None:
+        return max(p.get("price_checked") or "", base)
+    return min((max(x.get("price_checked") or "", base) for x in cat.get("products", []) + cat.get("avoid", [])),
+               default=base)
 
 
 def render_deals(brands, site, captured):
@@ -1340,8 +1345,9 @@ def holiday_price(p, cat, site):
     """(pick, date): the pick with holiday-prices numbers when that check is newer than the
     category's own capture, else the pick as ranked and the category's capture date."""
     hp = HOLIDAY_PRICES.get(p["asin"]) if p else None
-    if not hp or hp["checked"] <= price_date(cat, site):
-        return p, price_date(cat, site)
+    own = price_date(cat, site, p) if p else price_date(cat, site)
+    if not hp or hp["checked"] <= own:
+        return p, own
     return {**p, "price": hp["price"], "rating": hp["rating"], "reviews_count": hp["reviews_count"]}, hp["checked"]
 
 
@@ -1638,7 +1644,7 @@ def build_gift_page(site, cfg, by_slug):
         if not p:
             return ""
         chosen.append((cat, p))
-        note = f"price on {esc(price_date(cat, site))}"
+        note = f"price on {esc(price_date(cat, site, p))}"
         # Air tools are useless without a compressor; say so on the card.
         air = ('<span class="tag">Needs an air compressor</span>'
                if power.get(cat["slug"]) == "air" and cat["slug"] != "air-compressors" else "")
@@ -1649,7 +1655,7 @@ def build_gift_page(site, cfg, by_slug):
 
     groups = _grouped(site, by_slug, pick, TOOLS_FIRST if premium else None)
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
-    dates = [price_date(cat, site) for cat, _ in chosen]
+    dates = [cat_date(cat, site) for cat, _ in chosen]  # page date: captures only, never price-only passes
     body = f"""
   {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
   <section class="lead">
@@ -1759,7 +1765,8 @@ def build_best_of(site, cat_list, today):
       <th>Current price</th><th>Rating</th><th>Reviews</th><th></th></tr>{table_rows}</table></div>
   </section>"""
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
-    updated = max((r["price_date"] for r in rows), default=site["updated"])
+    # Page date from captures only: daily price checks never move the sitemap lastmod.
+    updated = max((cat_date(c, site) for c in cat_list), default=site["updated"])
     (OUT / f"{best_of.SLUG}.html").write_text(
         page(site, f"Best of 2026 — {site['brand']}", body,
              description="Every category's Best Overall, Best Budget and Money No Object pick for 2026.",
@@ -1876,7 +1883,7 @@ def render_brand_card(p, cat, site, cfg, others, cordless):
           <div class="card-buy">
             <div class="price">{money(p['price'])}</div>
             <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>{render_also_at(p, site)}
-            <div class="tiny muted">price on {esc(price_date(cat, site))}</div>
+            <div class="tiny muted">price on {esc(price_date(cat, site, p))}</div>
           </div>
         </div>
         <p class="verdict">{esc(p['verdict'])}</p>
@@ -1903,7 +1910,7 @@ def build_brand_page(site, cfg, by_slug):
                 continue
             p = mine[0]
             chosen.append((cat, p))
-            dates.append(price_date(cat, site))
+            dates.append(cat_date(cat, site))
             total += len(mine)
             n_top += p["rank"] == 1
             n_overall += p["badge_kind"] == "overall"

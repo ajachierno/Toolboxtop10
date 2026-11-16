@@ -37,13 +37,13 @@ def live_rows(site, cats):
     rows = []
     for cat in cats:
         _ranked, overall, budget, premium = rank(cat)
-        captured = max(cat.get("prices_checked") or "", cat.get("data_captured") or site["updated"])
+        captured = cat.get("data_captured") or site["updated"]
         for award, p in zip(AWARDS, (overall, budget, premium)):
             if not p:
                 continue
-            nums, date = p, captured
+            nums, date = p, max(p.get("price_checked") or "", captured)
             hp = HOLIDAY_PRICES.get(p["asin"])
-            if hp and hp["checked"] > captured:
+            if hp and hp["checked"] > date:
                 nums, date = hp, hp["checked"]
             rows.append({"slug": cat["slug"], "category": _cat_name(cat), "award": award, "asin": p["asin"],
                          "title": f"{p['brand']} {p['model']}", "brand": p["brand"], "rating": nums["rating"],

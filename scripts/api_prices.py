@@ -4,7 +4,7 @@
     python scripts/api_prices.py <slug> ...   # just these
 
 The API has no star ratings or review counts, so this writes only `price` on each product and
-avoid pick, stamps the page's `prices_checked` date, and leaves `data_captured` alone: that date
+avoid pick plus that listing's own `price_checked` date, and leaves `data_captured` alone: that date
 is the ratings capture and the scrape rotation key (marketing/gsc/refresh_queue.py). Ratings,
 reviews and audits keep coming from scrape_amazon.py + apply_scrape.py on their usual timing.
 
@@ -33,10 +33,21 @@ def words(s):
 
 
 def _price(s):
-    try:
-        return float(re.sub(r"[^\d.]", "", s)) if s else None
-    except ValueError:
+    """The first dollar figure in an API price string. "From $5" is a variation's minimum, not
+    this listing's price, so it counts as no price."""
+    if not s or re.match(r"\s*from\b", s, re.I):
         return None
+    m = re.search(r"([\d,]+(?:\.\d+)?)", s)
+    return float(m.group(1).replace(",", "")) if m else None
+
+
+def stamp(block, today):
+    """Set this listing's own price_checked date (inserted just before its "price" key)."""
+    if '"price_checked"' in block:
+        return sub_field(block, "price_checked", f'"{today}"')
+    out, n = re.subn(r'\n([ \t]*)"price":',
+                     lambda m: f'\n{m.group(1)}"price_checked": "{today}",\n{m.group(1)}"price":', block, count=1)
+    return out if n else re.sub(r'"price":', f'"price_checked": "{today}", "price":', block, count=1)
 
 
 def why_not(p, r):
@@ -73,7 +84,7 @@ def apply_prices(slug, recs, today, dry=False):
         else:
             price = _price(recs[asin]["price"])
             old = p["price"]
-            block = sub_field(block, "price", f"{price:.2f}")
+            block = stamp(sub_field(block, "price", f"{price:.2f}"), today)
             if isinstance(old, (int, float)) and old and old != price:
                 moves.append((abs(price - old) / old, label, old, price))
                 for q in {money(old), f"${old:.2f}"}:
@@ -84,11 +95,6 @@ def apply_prices(slug, recs, today, dry=False):
         last = b
     text = "".join(pieces) + text[last:]
     if priced:
-        if '"prices_checked"' in text:
-            text = re.sub(r'("prices_checked":\s*)"[^"]*"', rf'\1"{today}"', text, count=1)
-        else:
-            text = re.sub(r'(\n([ \t]*)"data_captured":[^\n]*\n)',
-                          lambda m: f'{m.group(1)}{m.group(2)}"prices_checked": "{today}",\n', text, count=1)
         big = sorted([m for m in moves if m[0] >= BIG], reverse=True)[:3]
         if big:
             parts = [f"the {lbl} {'dropped' if new < old else 'rose'} from {money(old)} to {money(new)}"

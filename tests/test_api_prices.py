@@ -38,7 +38,8 @@ def test_price_only_small_moves():
             assert (a["rating"], a["reviews_count"]) == (b["rating"], b["reviews_count"])
         assert after["data_captured"] == before["data_captured"]
         assert after.get("audited") == before.get("audited")
-        assert after["prices_checked"] == TODAY
+        assert "prices_checked" not in after, "freshness is per listing, never page-wide"
+        assert all(a["price_checked"] == TODAY for a in after["products"] + after.get("avoid", []))
         assert after["changelog"] == before["changelog"], "no note for moves under 8%"
 
 
@@ -67,57 +68,107 @@ def test_flags_leave_listing_alone():
         assert [a["price"] for a in after["products"][:4]] == [p["price"] for p in ps[:4]]
         assert len(out["flags"]) == len(before["products"]) + len(before.get("avoid", []))  # unlisted ones are "not returned"
         assert out["priced"] == 0
-        assert "prices_checked" not in after, "nothing priced, so no stamp"
+        assert not any("price_checked" in a for a in after["products"] + after.get("avoid", [])),             "a flagged listing keeps its old price and its old date"
         assert after["changelog"] == before["changelog"]
 
 
 def test_price_date_and_overlays():
     import build
     site = {"updated": "2026-11-01"}
-    assert build.price_date({"data_captured": "2026-11-10"}, site) == "2026-11-10"
-    assert build.price_date({"data_captured": "2026-11-10", "prices_checked": "2026-11-15"}, site) == "2026-11-15"
-    assert build.price_date({"data_captured": "2026-11-16", "prices_checked": "2026-11-15"}, site) == "2026-11-16"
-    cat = {"data_captured": "2026-11-10", "prices_checked": "2026-11-15"}
+    fresh, stale = {"asin": "A", "price": 50, "price_checked": "2026-11-15"}, {"asin": "B", "price": 9}
+    cat = {"data_captured": "2026-11-10", "products": [fresh, stale]}
+    assert build.price_date(cat, site, fresh) == "2026-11-15"
+    assert build.price_date(cat, site, stale) == "2026-11-10"
+    assert build.price_date(cat, site) == "2026-11-10", "page date is the OLDEST listing check"
+    assert build.price_date({**cat, "products": [fresh]}, site) == "2026-11-15"
+    assert build.price_date({"data_captured": "2026-11-16", "products": [fresh]}, site, fresh) == "2026-11-16"
     real = build.HOLIDAY_PRICES
-    build.HOLIDAY_PRICES = {"A": {"checked": "2026-11-12", "price": 1, "rating": 1, "reviews_count": 1}}
+    build.HOLIDAY_PRICES = {"A": {"checked": "2026-11-12", "price": 1, "rating": 1, "reviews_count": 1},
+                            "B": {"checked": "2026-11-12", "price": 2, "rating": 1, "reviews_count": 1}}
     try:
-        p, d = build.holiday_price({"asin": "A", "price": 50}, cat, site)
+        p, d = build.holiday_price(fresh, cat, site)
         assert (p["price"], d) == (50, "2026-11-15"), "an older holiday check must not beat the API price"
+        p, d = build.holiday_price(stale, cat, site)
+        assert (p["price"], d) == (2, "2026-11-12"), "a stale listing still takes the newer holiday check"
     finally:
         build.HOLIDAY_PRICES = real
+
+
+def test_history_logs_each_listing_under_its_own_date():
+    import build
+    with tempfile.TemporaryDirectory() as tmp:
+        real_data, real_load = build.DATA, build.load
+        cat = {"slug": "x", "data_captured": "2026-11-10",
+               "products": [{"asin": "A", "price": 50.0, "price_checked": "2026-11-15"}, {"asin": "B", "price": 9.0}]}
+        build.DATA = Path(tmp)
+        build.load = lambda name: cat
+        try:
+            build.record_prices({"updated": "2026-11-01", "categories": [{"slug": "x"}]})
+            hist = json.loads((Path(tmp) / "price-history.json").read_text(encoding="utf-8"))
+        finally:
+            build.DATA, build.load = real_data, real_load
+        assert hist == {"A": [["2026-11-15", 50.0]], "B": [["2026-11-10", 9.0]]}, hist
+
+
+def test_older_scrape_does_not_overwrite_newer_api_price():
+    import apply_scrape
+    with tempfile.TemporaryDirectory() as tmp:
+        path, before = setup(tmp)
+        apply_scrape.DATA = api_prices.DATA
+        p0 = before["products"][0]
+        api_prices.apply_prices("cordless-drills", {p0["asin"]: rec(p0, 77.77)}, "2026-11-15")
+        scrape = {p0["asin"]: {"price": "$99.99", "rating": "4.1 out of 5 stars", "reviews": "(1,234)", "buybox": True}}
+        apply_scrape.apply("cordless-drills", scrape, "2026-11-14", False)
+        a0 = json.loads(path.read_text(encoding="utf-8"))["products"][0]
+        assert a0["price"] == 77.77, "the 11-14 scrape is older than the 11-15 API price"
+        assert (a0["rating"], a0["reviews_count"]) == (4.1, 1234), "ratings still come from the scrape"
+        apply_scrape.apply("cordless-drills", scrape, "2026-11-16", False)
+        a0 = json.loads(path.read_text(encoding="utf-8"))["products"][0]
+        assert a0["price"] == 99.99, "a newer scrape wins"
+
+
+def test_price_parsing():
+    assert api_prices._price("$1,299.99") == 1299.99
+    assert api_prices._price("$12.99 with 5 percent savings") == 12.99
+    assert api_prices._price("From $5.00") is None, "a variation minimum is not this listing's price"
+    assert api_prices._price(None) is None
 
 
 def test_best_of_uses_price_date():
     import best_of
     real_rank, real_hp = best_of.rank, best_of.HOLIDAY_PRICES
-    p = {"asin": "A", "brand": "B", "model": "M", "price": 10, "rating": 4.5, "reviews_count": 9}
+    p = {"asin": "A", "brand": "B", "model": "M", "price": 10, "rating": 4.5, "reviews_count": 9,
+         "price_checked": "2026-11-15"}
     best_of.rank = lambda cat: ([p], p, None, None)
     best_of.HOLIDAY_PRICES = {}
     try:
         r = best_of.live_rows({"updated": "2026-11-01"}, [{"slug": "s", "title": "The 10 Best S",
-                                                           "data_captured": "2026-11-10", "prices_checked": "2026-11-15",
+                                                           "data_captured": "2026-11-10",
                                                            "products": [p]}])[0]
         assert r["price_date"] == "2026-11-15"
     finally:
         best_of.rank, best_of.HOLIDAY_PRICES = real_rank, real_hp
 
 
-def test_holiday_api_keeps_ratings():
+def test_holiday_api_keeps_newest_ratings():
     import holiday_picks
     with tempfile.TemporaryDirectory() as tmp:
         holiday_picks.OUT = Path(tmp) / "holiday-prices.json"
-        holiday_picks.OUT.write_text(json.dumps({"A": {"price": 5, "rating": 4.4, "reviews_count": 77, "checked": "2026-11-01"}}),
-                                     encoding="utf-8")
-        holiday_picks.award_asins = lambda: ["A", "B"]
+        holiday_picks.OUT.write_text(json.dumps({
+            "A": {"price": 5, "rating": 4.4, "reviews_count": 77, "checked": "2026-11-01"},
+            "C": {"price": 5, "rating": 4.9, "reviews_count": 500, "checked": "2026-11-12"}}), encoding="utf-8")
+        holiday_picks.award_asins = lambda: ["A", "B", "C"]
+        # category files: A re-scraped 11-10 (newer than its holiday entry), C scraped 11-05 (older)
+        holiday_picks._last_ratings = lambda: {"A": (4.6, 90, "2026-11-10"), "C": (4.7, 450, "2026-11-05")}
         fake = type("F", (), {})()
-        fake.get_items = lambda asins: ({"A": {}, "B": {}}, [])
-        fake.record = lambda a, it: {"price": "$9.50", "buybox": True, "notfound": False} if a == "A" else \
-            {"price": None, "buybox": False, "notfound": True}
+        fake.get_items = lambda asins: ({"A": {}, "B": {}, "C": {}}, [])
+        fake.record = lambda a, it: {"price": "$9.50", "buybox": True, "notfound": False} if a != "B" else             {"price": None, "buybox": False, "notfound": True}
         holiday_picks.creators_api = fake
         holiday_picks.TODAY = TODAY
         holiday_picks.api()
         got = json.loads(holiday_picks.OUT.read_text(encoding="utf-8"))
-        assert got["A"] == {"price": 9.5, "rating": 4.4, "reviews_count": 77, "checked": TODAY}
+        assert got["A"] == {"price": 9.5, "rating": 4.6, "reviews_count": 90, "checked": TODAY}
+        assert got["C"] == {"price": 9.5, "rating": 4.9, "reviews_count": 500, "checked": TODAY}
         assert "B" not in got
 
 

@@ -81,6 +81,8 @@ def apply(slug, scrape, today, dry):
             issues.append(f"{label} ({asin}): buy box but no price shown")
             continue
         old_price, old_rating, old_reviews = p["price"], p["rating"], p["reviews_count"]
+        if (p.get("price_checked") or "") > today:
+            price = old_price  # the daily API pass priced it after this capture; keep that price
         block = sub_field(block, "price", f"{price:.2f}")
         if rating is not None:
             block = sub_field(block, "rating", f"{rating}")

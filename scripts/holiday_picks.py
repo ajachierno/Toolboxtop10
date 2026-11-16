@@ -49,12 +49,13 @@ creators_api = None  # the Creators API client, imported on first use (tests swa
 
 
 def _last_ratings():
-    """{asin: (rating, reviews_count)} from the category files, for listings with no holiday entry yet."""
+    """{asin: (rating, reviews_count, data_captured)} from the category files."""
     site = build.load("site.json")
     out = {}
     for c in site["categories"]:
-        for p in build.load(f"{c['slug']}.json")["products"]:
-            out[p["asin"]] = (p.get("rating"), p.get("reviews_count"))
+        cat = build.load(f"{c['slug']}.json")
+        for p in cat["products"] + cat.get("avoid", []):
+            out[p["asin"]] = (p.get("rating"), p.get("reviews_count"), build.cat_date(cat, site))
     return out
 
 
@@ -69,15 +70,17 @@ def api():
     asins = award_asins()
     items, _errs = creators_api.get_items(asins)
     prices = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
-    fallback = None
+    cats = _last_ratings()
     ok, failed = 0, []
     for asin in asins:
         r = creators_api.record(asin, items.get(asin))
+        # The API has no ratings: keep whichever capture is newer, the last holiday entry or the
+        # category page's own scrape (frozen Best of 2026 picks may only have the holiday entry).
         prev = prices.get(asin) or {}
+        c_rating, c_reviews, c_date = cats.get(asin, (None, None, ""))
         rating, reviews = prev.get("rating"), prev.get("reviews_count")
-        if rating is None or reviews is None:
-            fallback = fallback if fallback is not None else _last_ratings()
-            rating, reviews = fallback.get(asin, (None, None))
+        if None in (rating, reviews) or (None not in (c_rating, c_reviews) and c_date > prev.get("checked", "")):
+            rating, reviews = c_rating, c_reviews
         try:
             price = float(str(r.get("price")).replace("$", "").replace(",", "")) if r.get("price") else None
         except ValueError:
