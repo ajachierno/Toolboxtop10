@@ -25,8 +25,10 @@ DATA = ROOT / "data"
 sys.path.insert(0, str(HERE))
 from apply_scrape import money, spans, sub_field  # noqa: E402
 import sales_rank  # noqa: E402
+import sellers  # noqa: E402
 
 RANKS = DATA / "sales-rank.json"
+SELLERS = DATA / "sellers.json"
 
 BIG = 0.08
 
@@ -131,6 +133,21 @@ def rank_flags(pages, recs, today, path=None):
     return flags
 
 
+def seller_flags(pages, recs, today, path=None):
+    """Record today's buy-box seller in data/sellers.json and return a flag line for each pick
+    (avoid picks excluded) whose buy box flipped away from Amazon or the brand's store (sellers.py)."""
+    path = path or SELLERS
+    hist = sellers.update(path, {a: (r.get("seller"), r.get("condition")) for a, r in recs.items()}, today)
+    flags = []
+    for slug, cat in pages.items():
+        for p in cat["products"]:
+            hit = sellers.flipped(hist, p["asin"], p["brand"])
+            if hit:
+                flags.append(f"{slug} {p['asin']} {p['brand']} {p['model']}: seller changed, {hit[0]} -> {hit[1]} "
+                             f"on the last {sellers.RUNS} checks")
+    return flags
+
+
 def main(slugs):
     import creators_api
     site = json.loads((DATA / "site.json").read_text(encoding="utf-8"))
@@ -154,13 +171,15 @@ def main(slugs):
         all_flags += out["flags"]
         all_issues += out["issues"]
     slip = rank_flags(pages, recs, today)
-    all_flags += slip
+    flips = seller_flags(pages, recs, today)
+    all_flags += slip + flips
     flag_file = ROOT / "scrape-results" / f"{today}-api-flags.txt"
     flag_file.parent.mkdir(exist_ok=True)
     flag_file.write_text("\n".join(all_flags) + ("\n" if all_flags else ""), encoding="utf-8")
     print(f"API price pass {today}: {n_priced} of {n_total} listings priced on {len(slugs)} pages, "
           f"{n_moved} price changes, {len(all_flags)} flagged -> {flag_file.name}")
-    print(f"Sales ranks recorded in {RANKS.name}; {len(slip)} pick(s) out of the top {sales_rank.LIMIT}")
+    print(f"Sales ranks recorded in {RANKS.name}; {len(slip)} falling pick(s)")
+    print(f"Buy-box sellers recorded in {SELLERS.name}; {len(flips)} seller change(s)")
     for x in all_issues:
         print("  CHECK", x)
     flagged_pages = sorted({f.split()[0] for f in all_flags})

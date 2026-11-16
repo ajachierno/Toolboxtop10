@@ -112,7 +112,8 @@ def record(asin, item):
         return {"title": None, "price": None, "rating": None, "reviews": None, "bought": None,
                 "avail": "not returned by API", "buybox": False, "captcha": False,
                 "notfound": True, "captured": now, "source": "creators_api",
-                "cat_rank": None, "cat_node": None, "site_rank": None, "list_price": None}
+                "cat_rank": None, "cat_node": None, "site_rank": None, "list_price": None,
+                "seller": None, "condition": None}
     listings = ((item.get("offersV2") or {}).get("listings")) or []
     best = next((l for l in listings if l.get("isBuyBoxWinner")), listings[0] if listings else None)
     price = list_price = None
@@ -128,11 +129,16 @@ def record(asin, item):
         av = best.get("availability") or {}
         avail = av.get("message") or av.get("type") or ""
     title = (((item.get("itemInfo") or {}).get("title")) or {}).get("displayValue")
+    # Who wins the buy box, and in what condition (sellers.py flags a flip away from Amazon/the brand).
+    win = best if best and best.get("isBuyBoxWinner") else None
+    seller = ((win or {}).get("merchantInfo") or {}).get("name")
+    condition = ((win or {}).get("condition") or {}).get("value")
     cat_rank, cat_node, site_rank = sales_rank.best_rank(item)
     return {"title": title, "price": price, "rating": None, "reviews": None, "bought": None,
             "avail": avail, "buybox": bool(best and best.get("isBuyBoxWinner")),
             "captcha": False, "notfound": False, "captured": now, "source": "creators_api",
-            "cat_rank": cat_rank, "cat_node": cat_node, "site_rank": site_rank, "list_price": list_price}
+            "cat_rank": cat_rank, "cat_node": cat_node, "site_rank": site_rank, "list_price": list_price,
+            "seller": seller, "condition": condition}
 
 
 def slug_asins(slugs):
