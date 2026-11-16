@@ -4,8 +4,9 @@
   "subtitle": "Wired 5-inch random orbit sanders ranked from live Amazon data — swirl-free finishes for the least money, no battery to run down.",
   "intro": "A random orbital sander spins and orbits its pad at the same time, so it smooths wood and metal without leaving the swirl marks a fixed rotary sander does. Corded models give you steady power for long sessions and cost far less than a cordless tool plus its battery, which is why they still lead the category. This list covers 5-inch sanders from budget kits under $30 to pro tools, sorted by what varies most: variable speed, how they collect dust, and whether they ship ready to sand.",
   "data_captured": "2026-11-16",
-  "audited": "2026-10-19",
+  "audited": "2026-11-16",
   "changelog": [
+    {"date": "2026-11-16", "note": "Replaced the Makita BO5041K, which had no seller offering it on Amazon when we checked, with the Makita BO5041, the same sander without the case, sold by Amazon.com at $126. The other 9 picks kept; prices and ratings re-checked."},
     {"date": "2026-11-16", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-11-16", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the SKIL SR211601 dropped from $37 to $29.98."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Bosch ROS20VSC (was the DEWALT DWE6421K)."},
@@ -90,18 +91,18 @@
       "cons": ["One of the pricier tools on the list", "2.5-amp motor is smaller than the DEWALT and Makita picks"]
     },
     {
-      "asin": "B003M5IWM8", "premium": true,
-      "name": "Makita BO5041K 5\" Random Orbit Sander with Case",
-      "brand": "Makita", "model": "BO5041K",
-      "image": "https://m.media-amazon.com/images/I/51OW3zbd87L._AC_SX425_.jpg",
-      "price": 149.00, "rating": 4.8, "reviews_count": 1499, "bought": "100+/mo",
-      "specs": { "amps": "3 A", "pad": "5\"", "opm": "4,000–12,000 OPM", "speed": "Variable", "dust": "Dust bag + vac port", "weight": "3.1 lb" },
-      "features": { "variable_speed": true, "vac_port": true, "dust_box": false, "kit": true },
-      "verdict": "The one to buy if you sand for a living or just want the best. It's the highest-rated sander on the list at 4.8 stars, with the widest speed range here (4,000 to 12,000 OPM), a rubberized palm grip that kills vibration, and a hard case. You pay for it, but Makita build quality is why it lasts.",
-      "best_for": "People who sand often and want the widest speed range and lowest vibration.",
-      "skip_if": "You sand a few times a year; it's the priciest here.",
-      "pros": ["4.8 stars across 1,499 reviews, the best on the list", "Widest speed range here, 4,000 to 12,000 OPM", "Low-vibration grip and a hard carrying case"],
-      "cons": ["The most expensive tool on the list", "1-year warranty, shorter than DEWALT's 3-year"]
+      "asin": "B0076I69H2", "premium": true,
+      "name": "Makita BO5041 5\" Random Orbit Sander, Variable Speed",
+      "brand": "Makita", "model": "BO5041",
+      "image": "https://m.media-amazon.com/images/I/51u6pynjFQL._AC_SL1000_.jpg",
+      "price": 126.0, "rating": 4.7, "reviews_count": 1815, "bought": "100+/mo",
+      "specs": { "amps": "3 A", "pad": "5\"", "opm": "4,000–12,000 OPM", "speed": "Variable", "dust": null, "weight": "3.1 lb" },
+      "features": { "variable_speed": true, "vac_port": false, "dust_box": false, "kit": false },
+      "verdict": "Makita's 3-amp variable-speed sander, the same tool as the BO5041K without the hard case. A dial sets 4,000 to 12,000 OPM, and the adjustable front handle helps in corners and tight spots. Sold by Amazon.com when we checked.",
+      "best_for": "Long sanding sessions where speed control and a front handle help.",
+      "skip_if": "You want a case, or you'd rather spend under $100.",
+      "pros": ["4.7 stars across 1,815 reviews", "Variable speed from 4,000 to 12,000 OPM", "Adjustable front handle for corners and confined areas", "Two-finger trigger with a lock-on button"],
+      "cons": ["$126 with no case", "The listing doesn't list a dust bag or vacuum adapter in the box", "1-year warranty"]
     },
     {
       "asin": "B00MLSS1SW",

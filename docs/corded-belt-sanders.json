@@ -7,7 +7,7 @@
  "subtitle": "3x18, 3x21 and 4x24-inch belt sanders for fast stock removal, ranked from live Amazon data.",
  "intro": "A belt sander is the fastest way to flatten boards, strip finishes and level doors and decks. We ranked 10 corded best-sellers on rating, review volume and features (variable speed, auto-tracking belts, a vacuum port, bench mounting and spare belts in the box). Belt size sets the class: 3x18 and 3x21 for general work, 4x24 for flattening big surfaces. They run from about $46 for WEN's HB321V 3x21 to about $410 for Makita's 9404 4x24.",
  "data_captured": "2026-11-16",
- "audited": "2026-10-10",
+ "audited": "2026-11-16",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -31,7 +31,7 @@
  "picks": {
   "best_overall": "B0H9DJPGDS",
   "best_budget": "B0CYCSVMC1",
-  "money_no_object": "B0000223IY"
+  "money_no_object": "B000056NOA"
  },
  "products": [
   {
@@ -213,7 +213,7 @@
    "rating": 4.6,
    "reviews_count": 901,
    "score": 86,
-   "award": null,
+   "award": "Money No Object",
    "best_for": "Pros who need a 4x24 with variable speed.",
    "bought_last_month": null,
    "verdict": "Makita's variable-speed 4x24: auto-tracking, 84 dB, flush sanding on the nose and side, and a 16.4-foot cord.",
@@ -372,34 +372,36 @@
   },
   {
    "rank": 9,
-   "asin": "B0000223IY",
-   "name": "Makita 9403 4\" x 24\" Belt Sander, Corded Electric",
-   "brand": "Makita",
-   "model": "9403",
-   "price": 306.32,
+   "asin": "B012VQCCRY",
+   "name": "WEN 6321 7-Amp 3 in. x 21 in. Corded Belt Sander with Dust Bag",
+   "brand": "WEN",
+   "model": "6321",
+   "price": 38.79,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 2919,
-   "score": 77,
-   "award": "Money No Object",
-   "best_for": "Flattening big surfaces fast, all day.",
+   "rating": 4.4,
+   "reviews_count": 3255,
+   "score": 75,
+   "award": null,
+   "best_for": "Occasional stock removal on a tight budget.",
    "bought_last_month": "100+/mo",
-   "verdict": "The highest-rated belt sander here and the floor-and-tabletop flattening standard: an 11A motor drives a 4-inch belt at 1,640 ft/min, with a labyrinth seal that keeps dust out of the motor and bearings.",
+   "verdict": "WEN's basic 7-amp 3 x 21 inch belt sander, with a detachable dust bag and a lock-on button for long passes. At 6.2 lb it's easy to handle on doors and trim.",
    "pros": [
-    "4.7 stars across 2,919 reviews",
-    "11A, 1,640 ft/min, the fastest here",
-    "Labyrinth-sealed motor and bearings; 84 dB"
+    "4.4 stars across 3,255 reviews; #3 in Amazon's Power Belt Sanders when we checked",
+    "$38.79",
+    "Detachable dust bag and a lock-on button",
+    "2-year warranty"
    ],
    "cons": [
-    "$306.32",
-    "13 lbs, single speed"
+    "Single speed",
+    "No vacuum port listed",
+    "Sold as a bare tool; the listing doesn't mention a belt in the box"
    ],
    "specs": {
-    "belt": "4 x 24 in",
-    "motor": "11 A",
-    "speed": "1,640 ft/min",
-    "weight": "13 lb",
-    "in_box": "80-grit belt, dust bag"
+    "belt": "3 x 21 in",
+    "motor": "7 A",
+    "speed": "13+ ft/sec",
+    "weight": "6.2 lb",
+    "in_box": "Dust bag"
    },
    "features": {
     "variable_speed": false,
@@ -408,9 +410,9 @@
     "bench_mount": false,
     "extra_belts": false
    },
-   "image": "https://m.media-amazon.com/images/I/612ESUu8G7L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0000223IY?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B0000223IY"
+   "image": "https://m.media-amazon.com/images/I/81ioPEJ1WzL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B012VQCCRY?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-belt-sanders.html#B012VQCCRY"
   },
   {
    "rank": 10,
@@ -501,6 +503,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-16",
+   "note": "Replaced the Makita 9403, which had no seller offering it on Amazon when we checked, with the WEN 6321 at $38.79. Prices and ratings re-checked on the other 9 picks."
+  },
   {
    "date": "2026-11-16",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Makita 9903 dropped from $309.99 to $267.70; the Makita 9404 rose from $380.85 to $417.65."
