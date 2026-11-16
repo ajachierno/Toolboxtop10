@@ -7,7 +7,7 @@
  "updated": "2026-11-16",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
- "page_count": 171,
+ "page_count": 172,
  "pages": [
   {
    "slug": "pin-nailers",
@@ -2042,6 +2042,26 @@
     "asin": "B0CS3B7MD8",
     "name": "AstroAI L7",
     "price": 21.83
+   },
+   "money_no_object": null
+  },
+  {
+   "slug": "diagonal-cutting-pliers",
+   "title": "The 10 Best Diagonal Cutting Pliers",
+   "url": "https://toolboxtop10.com/diagonal-cutting-pliers.html",
+   "json": "https://toolboxtop10.com/diagonal-cutting-pliers.json",
+   "data_captured": "2026-11-16",
+   "audited": "2026-11-16",
+   "products": 10,
+   "best_overall": {
+    "asin": "B005EXOBKI",
+    "name": "KNIPEX 74 22 200",
+    "price": 40.5
+   },
+   "best_budget": {
+    "asin": "B08PFKBW7F",
+    "name": "CRAFTSMAN CMHT81647",
+    "price": 9.98
    },
    "money_no_object": null
   },

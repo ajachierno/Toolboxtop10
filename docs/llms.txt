@@ -4,7 +4,7 @@
 
 Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and the capture date). The site index is https://toolboxtop10.com/index.json. Each page links its twin with `<link rel="alternate" type="application/json">`. Links to Amazon carry our Associates tag; a purchase may earn us a commission at no extra cost to the buyer.
 
-## Rankings (171 pages)
+## Rankings (172 pages)
 
 - [The 10 Best 23-Gauge Pin Nailers](https://toolboxtop10.com/pin-nailers.html): Best Overall DEWALT DWFP2350K ($154.13); Best Budget KEENTECH KT-P635A ($52.99). Data captured 2026-11-14. JSON: https://toolboxtop10.com/pin-nailers.json
 - [The 10 Best Adjustable (Crescent) Wrenches](https://toolboxtop10.com/adjustable-wrenches.html): Best Overall Klein Tools D5072 ($29.98); Best Budget Amazon Basics 6-Inch ($9.40). Data captured 2026-11-14. JSON: https://toolboxtop10.com/adjustable-wrenches.json
@@ -97,6 +97,7 @@ Machine-readable data: every ranking page has a JSON twin at the same path with 
 - [The 10 Best Cordless Snow Blowers](https://toolboxtop10.com/cordless-snow-blowers.html): Best Overall VOLTASK CSS004-160ARO ($229.99); Best Budget Vibekio CSS012-120 ($99.99). Data captured 2026-11-16. JSON: https://toolboxtop10.com/cordless-snow-blowers.json
 - [The 10 Best Cordless String Trimmers](https://toolboxtop10.com/cordless-string-trimmers.html): Best Overall BLACK+DECKER LST136 ($159); Best Budget BLACK+DECKER LST300 ($79). Data captured 2026-11-11. JSON: https://toolboxtop10.com/cordless-string-trimmers.json
 - [The 10 Best Cordless Tire Inflators](https://toolboxtop10.com/cordless-tire-inflators.html): Best Overall DEWALT DCC020IB ($126.99); Best Budget AstroAI L7 ($21.83). Data captured 2026-11-12. JSON: https://toolboxtop10.com/cordless-tire-inflators.json
+- [The 10 Best Diagonal Cutting Pliers](https://toolboxtop10.com/diagonal-cutting-pliers.html): Best Overall KNIPEX 74 22 200 ($40.50); Best Budget CRAFTSMAN CMHT81647 ($9.98). Data captured 2026-11-16. JSON: https://toolboxtop10.com/diagonal-cutting-pliers.json
 - [The 10 Best Digital Calipers](https://toolboxtop10.com/digital-calipers.html): Best Overall VINCA DCLA-0605 ($21.45); Best Budget Adoric 0-6 in ($9.49). Data captured 2026-11-12. JSON: https://toolboxtop10.com/digital-calipers.json
 - [The 10 Best Digital Multimeters](https://toolboxtop10.com/multimeters.html): Best Overall ZMIWNIED FS899L ($39.99); Best Budget KAIWEETS Basic DMM ($13.99). Data captured 2026-11-16. JSON: https://toolboxtop10.com/multimeters.json
 - [The 10 Best Drill Bit Sets](https://toolboxtop10.com/drill-bit-sets.html): Best Overall DEWALT DW1361 ($26.97); Best Budget CRAFTSMAN CMAM2214 ($9.98). Data captured 2026-11-16. JSON: https://toolboxtop10.com/drill-bit-sets.json

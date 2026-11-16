@@ -1,0 +1,485 @@
+{
+  "slug": "diagonal-cutting-pliers",
+  "title": "The 10 Best Diagonal Cutting Pliers",
+  "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
+  "intro": "We ranked 10 of Amazon's best-selling diagonal cutting pliers (side cutters, or dikes) on star rating, review volume and the features that change how they cut: a high-leverage joint, hardened edges, a comfort grip and a flush-cut blade. They run from a $9.98 CRAFTSMAN to the $40.50 KNIPEX 74 22 200, and include standard 6- to 8-inch cutters, a 9-inch ironworkers' pair and a 5-inch flush cutter. Mixed pliers sets and needle-nose pliers have their own pages.",
+  "data_captured": "2026-11-16",
+  "audited": "2026-11-16",
+  "changelog": [
+    {
+      "date": "2026-11-16",
+      "note": "Page published with 10 ranked picks and 1 tool to avoid."
+    }
+  ],
+  "budget_cap": 13,
+  "weights": {
+    "rating": 0.45,
+    "reviews": 0.35,
+    "features": 0.2
+  },
+  "feature_weights": {
+    "high_leverage": 0.35,
+    "hardened_edges": 0.3,
+    "comfort_grip": 0.2,
+    "flush_cut": 0.15
+  },
+  "reviews_ceiling": 8000,
+  "spec_fields": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "edge",
+      "label": "Cutting edge"
+    },
+    {
+      "key": "handle",
+      "label": "Handle"
+    },
+    {
+      "key": "origin",
+      "label": "Made in"
+    }
+  ],
+  "table_columns": [
+    {
+      "key": "size",
+      "label": "Size"
+    },
+    {
+      "key": "type",
+      "label": "Type"
+    },
+    {
+      "key": "high_leverage",
+      "label": "High leverage",
+      "type": "bool"
+    },
+    {
+      "key": "hardened_edges",
+      "label": "Hardened edges",
+      "type": "bool"
+    }
+  ],
+  "products": [
+    {
+      "asin": "B08PFKBW7F",
+      "name": "CRAFTSMAN CMHT81647 7-in. Diagonal Pliers",
+      "brand": "CRAFTSMAN",
+      "model": "CMHT81647",
+      "image": "https://m.media-amazon.com/images/I/61FCt+cyuJL._AC_SL1500_.jpg",
+      "price": 9.98,
+      "rating": 4.8,
+      "reviews_count": 1369,
+      "bought": "700+/mo",
+      "specs": {
+        "size": "7\"",
+        "type": "Standard",
+        "edge": "Induction hardened",
+        "handle": "Bi-material grips",
+        "origin": null
+      },
+      "features": {
+        "high_leverage": false,
+        "hardened_edges": true,
+        "comfort_grip": true,
+        "flush_cut": false
+      },
+      "verdict": "A 7-inch drop-forged side cutter with induction-hardened edges, bi-material grips and a corrosion-resistant finish, for under $10.",
+      "best_for": "A first pair of dikes for the kitchen drawer or toolbox.",
+      "skip_if": "You cut hard wire all day; it has no high-leverage joint.",
+      "pros": [
+        "4.8 stars across 1,369 reviews, 700+ bought last month",
+        "$9.98",
+        "Induction-hardened cutting edges",
+        "Drop-forged steel with multi-zone grips"
+      ],
+      "cons": [
+        "Standard joint, not high-leverage",
+        "The listing gives no hardness rating or cutting capacity"
+      ]
+    },
+    {
+      "asin": "B0009ZAT1G",
+      "name": "Klein Tools D248-9ST Ironworkers Diagonal Cutters, 9-Inch",
+      "brand": "Klein Tools",
+      "model": "D248-9ST",
+      "image": "https://m.media-amazon.com/images/I/31A--+l-v9L._AC_SL1000_.jpg",
+      "price": 30.98,
+      "rating": 4.8,
+      "reviews_count": 6226,
+      "bought": "1K+/mo",
+      "specs": {
+        "size": "9\"",
+        "type": "Ironworkers', angled head, high leverage",
+        "edge": "Beveled",
+        "handle": "Hooked handle",
+        "origin": "USA"
+      },
+      "features": {
+        "high_leverage": true,
+        "hardened_edges": false,
+        "comfort_grip": false,
+        "flush_cut": false
+      },
+      "verdict": "Klein's 9-inch ironworkers' cutter for soft annealed rebar tie wire, with short beveled jaws for close cuts, an angled head for tight spots and a hooked handle that resists slipping. Made in the USA.",
+      "best_for": "Rebar tie wire and other heavy cutting where reach and leverage matter.",
+      "skip_if": "You mostly cut small electrical wire; a 6- or 7-inch pair is handier.",
+      "pros": [
+        "Most-reviewed pick here: 4.8 stars across 6,226 reviews",
+        "1K+ bought last month",
+        "Angled head and short jaws for close cuts in confined spaces",
+        "Made in USA from US-made tool steel"
+      ],
+      "cons": [
+        "$30.98",
+        "Built for tie wire; the listing doesn't claim induction-hardened edges",
+        "No cushioned grip"
+      ]
+    },
+    {
+      "asin": "B08F76HDFQ",
+      "name": "WORKPRO 7-Inch Diagonal Pliers in CRV Steel for Cutting Wires, Bi-material Handle Comfort Grip",
+      "brand": "WORKPRO",
+      "model": "W031271",
+      "image": "https://m.media-amazon.com/images/I/61JhUG4vEFL._AC_SL1500_.jpg",
+      "price": 12.99,
+      "rating": 4.6,
+      "reviews_count": 3472,
+      "bought": "3K+/mo",
+      "specs": {
+        "size": "7\"",
+        "type": "Standard",
+        "edge": "Hardened to 65 HRC (high-frequency)",
+        "handle": "Bi-material",
+        "origin": null
+      },
+      "features": {
+        "high_leverage": false,
+        "hardened_edges": true,
+        "comfort_grip": true,
+        "flush_cut": false
+      },
+      "verdict": "A 7-inch 50CrV steel cutter with edges high-frequency hardened to 65 HRC, an anti-rust coating and a bi-material grip. It sells more per month than any other pick on this page.",
+      "best_for": "Everyday wire cutting on a budget.",
+      "skip_if": "You want a US-made tool or a high-leverage joint.",
+      "pros": [
+        "3K+ bought last month",
+        "Edge hardness listed at up to 65 HRC",
+        "$12.99",
+        "Bi-material comfort grip"
+      ],
+      "cons": [
+        "Standard joint, not high-leverage",
+        "Sold by a third-party seller (UE Direct) when we checked"
+      ]
+    },
+    {
+      "asin": "B005EXO716",
+      "name": "KNIPEX 70 01 160 Diagonal Cutters, 6.25-Inch",
+      "brand": "KNIPEX",
+      "model": "70 01 160",
+      "image": "https://m.media-amazon.com/images/I/71uqrt3tTJL._AC_SL1500_.jpg",
+      "price": 25.0,
+      "rating": 4.8,
+      "reviews_count": 1197,
+      "bought": "600+/mo",
+      "specs": {
+        "size": "6.25\"",
+        "type": "Standard, narrow head",
+        "edge": "Approx. 62 HRC",
+        "handle": "Plastic",
+        "origin": null
+      },
+      "features": {
+        "high_leverage": false,
+        "hardened_edges": true,
+        "comfort_grip": false,
+        "flush_cut": false
+      },
+      "verdict": "KNIPEX's basic 6-1/4-inch diagonal cutter, with precision edges hardened to about 62 HRC that cut soft and hard wire and still snip thin copper cleanly at the tips. The narrow head fits confined areas.",
+      "best_for": "Precise cuts on electrical and hard wire in tight boxes.",
+      "skip_if": "You want cushioned handles; these are plain plastic.",
+      "pros": [
+        "4.8 stars across 1,197 reviews",
+        "Edges hardened to about 62 HRC, rated for soft and hard wire",
+        "Clean cuts at the tips, even on thin copper",
+        "Sold by Amazon.com when we checked"
+      ],
+      "cons": [
+        "$25 for a standard (not high-leverage) cutter",
+        "Plain plastic handle sleeves"
+      ]
+    },
+    {
+      "asin": "B000A0S4YO",
+      "name": "IRWIN Vise-Grip Diagonal Cutting Pliers, 6\", 2078306",
+      "brand": "IRWIN",
+      "model": "2078306",
+      "image": "https://m.media-amazon.com/images/I/51SLUcFEgNL._AC_SL1500_.jpg",
+      "price": 12.0,
+      "rating": 4.7,
+      "reviews_count": 11239,
+      "bought": "800+/mo",
+      "specs": {
+        "size": "6\"",
+        "type": "Standard",
+        "edge": "Induction hardened",
+        "handle": "ProTouch grips",
+        "origin": null
+      },
+      "features": {
+        "high_leverage": false,
+        "hardened_edges": true,
+        "comfort_grip": true,
+        "flush_cut": false
+      },
+      "verdict": "A 6-inch nickel chromium steel cutter with induction-hardened edges, machined jaws and IRWIN's ProTouch grips. It meets or exceeds ANSI specifications.",
+      "best_for": "A compact, comfortable pair for general wire work.",
+      "skip_if": "You need extra reach or leverage for thick wire.",
+      "pros": [
+        "11,239 reviews at 4.7 stars, 800+ bought last month",
+        "$12",
+        "Induction-hardened cutting edge",
+        "Meets or exceeds ANSI specifications"
+      ],
+      "cons": [
+        "6-inch length gives less leverage than the 8-inch pairs",
+        "The listing gives no hardness rating or cutting capacity"
+      ]
+    },
+    {
+      "asin": "B0000302VW",
+      "name": "Klein Tools D228-8 Diagonal Cutting Pliers with Short Jaw and Beveled Knives, High-Leverage, 8-Inch",
+      "brand": "Klein Tools",
+      "model": "D228-8",
+      "image": "https://m.media-amazon.com/images/I/3178wTKG6GL._AC_SL1000_.jpg",
+      "price": 29.04,
+      "rating": 4.8,
+      "reviews_count": 1354,
+      "bought": "400+/mo",
+      "specs": {
+        "size": "8\"",
+        "type": "High leverage, short jaw",
+        "edge": "Induction hardened, beveled",
+        "handle": "Plastic-dipped",
+        "origin": "USA"
+      },
+      "features": {
+        "high_leverage": true,
+        "hardened_edges": true,
+        "comfort_grip": false,
+        "flush_cut": false
+      },
+      "verdict": "An 8-inch high-leverage cutter with the rivet set closer to the edge, which Klein says gives 36% more cutting power than other plier designs. Short beveled jaws cut close, and a hot-riveted joint keeps the handles from wobbling.",
+      "best_for": "Electricians who cut heavier copper and want US-made steel.",
+      "skip_if": "You want padded grips; these are plastic-dipped.",
+      "pros": [
+        "4.8 stars across 1,354 reviews",
+        "High-leverage joint; Klein claims 36% more cutting power",
+        "Induction-hardened knives and a hot-riveted joint",
+        "Made in USA"
+      ],
+      "cons": [
+        "$29.04",
+        "Plastic-dipped handles, not cushioned",
+        "Sold by a third-party seller when we checked"
+      ]
+    },
+    {
+      "asin": "B005EXOBKI",
+      "premium": true,
+      "name": "KNIPEX 74 22 200 Comfort Grip High Leverage Angled Diagonal Cutter, 8-Inch",
+      "brand": "KNIPEX",
+      "model": "74 22 200",
+      "image": "https://m.media-amazon.com/images/I/51p2YmNvz7L._AC_SL1500_.jpg",
+      "price": 40.5,
+      "rating": 4.8,
+      "reviews_count": 1728,
+      "bought": "1K+/mo",
+      "specs": {
+        "size": "8\"",
+        "type": "High leverage, 12° angled head",
+        "edge": "Induction hardened, approx. 64 HRC",
+        "handle": "Comfort grip",
+        "origin": null
+      },
+      "features": {
+        "high_leverage": true,
+        "hardened_edges": true,
+        "comfort_grip": true,
+        "flush_cut": false
+      },
+      "verdict": "KNIPEX's 8-inch high-leverage cutter with a 12-degree angled head for hand clearance, edges induction hardened to about 64 HRC that cut piano wire, and comfort handles. KNIPEX says it needs 20% less effort than a standard cutter of the same length.",
+      "best_for": "Heavy, continuous cutting, including hard and piano wire.",
+      "skip_if": "You only snip zip ties and light wire; it's the most expensive pair here.",
+      "pros": [
+        "1K+ bought last month at 4.8 stars",
+        "Edges hardened to about 64 HRC; cuts piano wire",
+        "20% less effort than a standard cutter of the same length, per KNIPEX",
+        "12-degree angled head keeps knuckles clear"
+      ],
+      "cons": [
+        "$40.50, the most expensive pick here",
+        "Sold by a third-party seller when we checked"
+      ]
+    },
+    {
+      "asin": "B000TDDP6E",
+      "name": "Crescent 8\" Pro Series Diagonal Compound Action Dual Material Cutting Pliers - PS5429C",
+      "brand": "Crescent",
+      "model": "PS5429C",
+      "image": "https://m.media-amazon.com/images/I/71EK92bD1PL._AC_SL1500_.jpg",
+      "price": 14.97,
+      "rating": 4.6,
+      "reviews_count": 3000,
+      "bought": "500+/mo",
+      "specs": {
+        "size": "8\"",
+        "type": "Compound action",
+        "edge": "Induction hardened",
+        "handle": "Co-molded grips",
+        "origin": null
+      },
+      "features": {
+        "high_leverage": true,
+        "hardened_edges": true,
+        "comfort_grip": true,
+        "flush_cut": false
+      },
+      "verdict": "A compound-action cutter that Crescent says delivers 50% more cutting power, with induction-hardened edges and co-molded grips. Crescent also says it's a third lighter than standard pliers.",
+      "best_for": "Getting high-leverage cutting power for under $15.",
+      "skip_if": "You want the narrowest head for tight boxes.",
+      "pros": [
+        "Compound action for 50% more cutting power, per Crescent",
+        "$14.97",
+        "Induction-hardened edges",
+        "4.6 stars across 3,000 reviews"
+      ],
+      "cons": [
+        "The title says 8 inches but a bullet says 9 inches",
+        "Compound linkage makes the head bulkier than a standard cutter"
+      ]
+    },
+    {
+      "asin": "B000GTMZHG",
+      "name": "Klein Tools D275-5 Diagonal Flush Cutting Pliers, 5-Inch",
+      "brand": "Klein Tools",
+      "model": "D275-5",
+      "image": "https://m.media-amazon.com/images/I/41THaVNOLmL._AC_SL1000_.jpg",
+      "price": 12.97,
+      "rating": 4.6,
+      "reviews_count": 7873,
+      "bought": "2K+/mo",
+      "specs": {
+        "size": "5\"",
+        "type": "Flush cutter",
+        "edge": null,
+        "handle": null,
+        "origin": null
+      },
+      "features": {
+        "high_leverage": false,
+        "hardened_edges": false,
+        "comfort_grip": false,
+        "flush_cut": true
+      },
+      "verdict": "A slim 5-inch flush cutter for zip ties, small wire and fine material. It leaves a flat cut with no sharp tip, and the pinch-cut design limits fly-off. Klein rates it for wire up to 16 AWG.",
+      "best_for": "Zip ties, electronics and trimming flush without a sharp stub.",
+      "skip_if": "You cut household 14 or 12 AWG wire; it's rated to 16 AWG.",
+      "pros": [
+        "2K+ bought last month, 7,873 reviews",
+        "Flush cut leaves no sharp edge on zip ties",
+        "Slim profile for confined areas",
+        "$12.97"
+      ],
+      "cons": [
+        "Rated for wire up to 16 AWG only",
+        "Not for hard or heavy wire"
+      ]
+    },
+    {
+      "asin": "B00004SBDC",
+      "name": "Channellock Diagonal Cutting Plier 337 - Precision Sidecutters, Wirecutters - 7 in",
+      "brand": "Channellock",
+      "model": "337",
+      "image": "https://m.media-amazon.com/images/I/61AFSlBFzqL._AC_SL1500_.jpg",
+      "price": 24.95,
+      "rating": 4.8,
+      "reviews_count": 2207,
+      "bought": "200+/mo",
+      "specs": {
+        "size": "7\"",
+        "type": "Standard",
+        "edge": "High carbon steel",
+        "handle": "Comfort grip",
+        "origin": "USA"
+      },
+      "features": {
+        "high_leverage": false,
+        "hardened_edges": false,
+        "comfort_grip": true,
+        "flush_cut": false
+      },
+      "verdict": "Channellock's 7-inch high carbon steel side cutter, made in the USA, for electrical, automotive and home work.",
+      "best_for": "Buyers who want a US-made 7-inch cutter with a comfortable grip.",
+      "skip_if": "You want a stated edge hardness or a high-leverage joint.",
+      "pros": [
+        "4.8 stars across 2,207 reviews",
+        "Made in USA from high carbon steel",
+        "Comfortable grip with balanced weight"
+      ],
+      "cons": [
+        "$24.95 for a standard joint",
+        "The listing doesn't say the edges are induction hardened",
+        "Sold by a third-party seller when we checked"
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "asin": "B07C5PM8L4",
+      "name": "BOENFU Wire Cutters Heavy Duty Snips Flush Cut Side Cutters Pliers",
+      "brand": "BOENFU",
+      "model": "BF-22",
+      "image": "https://m.media-amazon.com/images/I/51M1SAgOEdL._AC_SL1500_.jpg",
+      "price": 6.97,
+      "rating": 4.4,
+      "reviews_count": 7102,
+      "flag": "Sold as \"heavy duty\", but it's a spring-loaded craft flush cutter",
+      "verdict": "The title calls it heavy duty, but this is a light spring-loaded flush cutter aimed at crafts, floral wire and zip ties. For electrical work, the Klein D275-5 is the honest version of the same tool, and any of the standard cutters above handles thicker wire.",
+      "reasons": [
+        "\"Heavy Duty\" in the title for a spring-loaded flush cutter whose own listing names crafts, floral wire, beading and zip ties as its uses",
+        "Claims it cuts electrical wire up to 12 AWG, while Klein rates its own 5-inch flush cutter for 16 AWG; no edge hardness is given to back the claim",
+        "The listing gives two different part numbers (BF-22 and BOWC-06002-US)"
+      ]
+    }
+  ],
+  "buyers_guide": [
+    {
+      "q": "What's the difference between diagonal cutters and flush cutters?",
+      "a": "Diagonal cutters have beveled blades that leave a slight point on the cut end and handle copper, steel and tie wire. Flush cutters have one flat side that leaves a flat end, which is what you want on zip ties and electronics leads, but they're built for small, soft wire. The Klein D275-5 on this page is a flush cutter rated to 16 AWG."
+    },
+    {
+      "q": "Do I need high-leverage cutters?",
+      "a": "If you often cut 12 AWG copper, screws or hard wire, yes. A high-leverage design moves the rivet closer to the blades so the same squeeze cuts harder. Klein claims 36% more cutting power for the D228-8, and Crescent claims 50% for its compound-action PS5429C. For occasional cuts, a standard 6- or 7-inch pair is lighter and fits tighter spots."
+    },
+    {
+      "q": "What size should I buy?",
+      "a": "Six to seven inches suits most household electrical and DIY work. Eight-inch pairs give more leverage for heavier wire, and the 9-inch Klein D248-9ST is meant for rebar tie wire. Five-inch flush cutters are for zip ties and electronics."
+    },
+    {
+      "q": "What does HRC mean on the cutting edge?",
+      "a": "It's the Rockwell C hardness of the blade. Higher numbers hold an edge longer and cut harder wire. The KNIPEX 74 22 200 lists about 64 HRC, the KNIPEX 70 01 160 about 62 HRC, and WORKPRO lists up to 65 HRC for its high-frequency-hardened edge. Several brands here say only \"induction hardened\" without a number."
+    },
+    {
+      "q": "Can I cut live wires with these?",
+      "a": "No. None of the pliers on this page are listed as 1000V insulated, so shut off the circuit first. Insulated diagonal cutters carry a 1000V rating on the handles and are sold separately."
+    }
+  ]
+}
