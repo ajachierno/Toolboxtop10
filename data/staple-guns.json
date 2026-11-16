@@ -6,6 +6,7 @@
   "data_captured": "2026-11-14",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-16", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Spec Ops Heavy duty dropped from $31.99 to $25.88; the WORKPRO W023035 rose from $25.99 to $29.99; the DEWALT DWHTTR510 rose from $26.86 to $29.84."},
     {"date": "2026-11-14", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the HAUSHOF HH25006 rose from $8.49 to $9.99; the DEWALT DWHTTR510 dropped from $29.84 to $26.86."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the WORKPRO W023035 (was the Arrow T50). Best Budget is now the HAUSHOF HH25006 (was the CRAFTSMAN CMHT82643)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the CRAFTSMAN CMHT82643 rose from $14.99 to $28.98."},
@@ -77,6 +78,7 @@
       "brand": "Arrow",
       "model": "T50",
       "image": "https://m.media-amazon.com/images/I/612ZmPITX9L._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 19.63,
       "rating": 4.5,
       "reviews_count": 5252,
@@ -113,6 +115,7 @@
       "brand": "Arrow",
       "model": "T50 kit",
       "image": "https://m.media-amazon.com/images/I/71m9qQMPgFL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 29.99,
       "rating": 4.6,
       "reviews_count": 1674,
@@ -149,6 +152,7 @@
       "brand": "YEAHOME",
       "model": "ST12",
       "image": "https://m.media-amazon.com/images/I/71bhwXviszL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 16.99,
       "rating": 4.2,
       "reviews_count": 15792,
@@ -185,7 +189,8 @@
       "brand": "WORKPRO",
       "model": "W023035",
       "image": "https://m.media-amazon.com/images/I/71iguheJeZL._AC_SL1500_.jpg",
-      "price": 25.99,
+      "price_checked": "2026-11-16",
+      "price": 29.99,
       "rating": 4.5,
       "reviews_count": 6924,
       "bought": "400+/mo",
@@ -211,7 +216,7 @@
         "6,924 reviews at 4.5 stars"
       ],
       "cons": [
-        "$25.99",
+        "$29.99",
         "Warranty not listed"
       ]
     },
@@ -221,7 +226,8 @@
       "brand": "DEWALT",
       "model": "DWHTTR510",
       "image": "https://m.media-amazon.com/images/I/51epJwfN+ZL._AC_SL1000_.jpg",
-      "price": 26.86,
+      "price_checked": "2026-11-16",
+      "price": 29.84,
       "rating": 4.5,
       "reviews_count": 1427,
       "bought": "1K+/mo",
@@ -248,7 +254,7 @@
       ],
       "cons": [
         "No staples included",
-        "$26.86"
+        "$29.84"
       ]
     },
     {
@@ -257,7 +263,8 @@
       "brand": "NEU MASTER",
       "model": "NHT0050",
       "image": "https://m.media-amazon.com/images/I/71QfLD21IwL._AC_SL1500_.jpg",
-      "price": 17.09,
+      "price_checked": "2026-11-16",
+      "price": 17.99,
       "rating": 4.4,
       "reviews_count": 4056,
       "bought": "3K+/mo",
@@ -293,7 +300,8 @@
       "brand": "Spec Ops",
       "model": "Heavy duty",
       "image": "https://m.media-amazon.com/images/I/51bIqIyajhL._SL1100_.jpg",
-      "price": 31.99,
+      "price_checked": "2026-11-16",
+      "price": 25.88,
       "rating": 4.4,
       "reviews_count": 1109,
       "bought": "200+/mo",
@@ -319,7 +327,7 @@
         "Belt hook"
       ],
       "cons": [
-        "$31.99",
+        "$25.88",
         "No staples included"
       ]
     },
@@ -329,7 +337,8 @@
       "brand": "CRAFTSMAN",
       "model": "CMHT82643",
       "image": "https://m.media-amazon.com/images/I/718vxUaslBL._AC_SL1500_.jpg",
-      "price": 28.98,
+      "price_checked": "2026-11-16",
+      "price": 30.72,
       "rating": 4.4,
       "reviews_count": 1345,
       "bought": "900+/mo",
@@ -352,7 +361,7 @@
       "pros": [
         "Less kickback",
         "Bottom load, locks closed",
-        "$28.98"
+        "$30.72"
       ],
       "cons": [
         "Staple sizes not listed",
@@ -365,6 +374,7 @@
       "brand": "HAUSHOF",
       "model": "HH25006",
       "image": "https://m.media-amazon.com/images/I/71sh3OfS1NL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 9.99,
       "rating": 4.5,
       "reviews_count": 7370,
@@ -402,7 +412,8 @@
       "brand": "DEWALT",
       "model": "DWHT80276",
       "image": "https://m.media-amazon.com/images/I/61SW+saKIqL._AC_SL1000_.jpg",
-      "price": 41.99,
+      "price_checked": "2026-11-16",
+      "price": 39.99,
       "rating": 4.7,
       "reviews_count": 1911,
       "bought": "400+/mo",
@@ -428,7 +439,7 @@
         "Staples and brads"
       ],
       "cons": [
-        "$41.99",
+        "$39.99",
         "Listing gives almost no specs"
       ]
     }
@@ -440,6 +451,7 @@
       "brand": "PHITRIC",
       "model": "PTHT-010",
       "image": "https://m.media-amazon.com/images/I/71DA+MP3v2L._AC_SL1436_.jpg",
+      "price_checked": "2026-11-16",
       "price": 14.99,
       "rating": 4.3,
       "reviews_count": 3271,

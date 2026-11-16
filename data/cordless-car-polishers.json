@@ -6,6 +6,7 @@
   "data_captured": "2026-11-11",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-16", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the SPTA LD601US-MIX dropped from $89.99 to $63.15."},
     {"date": "2026-11-13", "note": "The tool to avoid is now the QIJIAA AM-CCP-GR; the previous one's Amazon listing is gone. All 10 picks unchanged."},
     {"date": "2026-11-11", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the SPTA LD601US-MIX (was the BATOCA S3 (B02PO37)). Best Budget is now the Avhrit ZHP0052MG (was the Protmex 21V polisher)."},
@@ -78,6 +79,7 @@
       "brand": "BATOCA",
       "model": "S3 (B02PO37)",
       "image": "https://m.media-amazon.com/images/I/81FYZOigIaL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 69.99,
       "rating": 4.4,
       "reviews_count": 2203,
@@ -150,6 +152,7 @@
       "brand": "Protmex",
       "model": "21V polisher",
       "image": "https://m.media-amazon.com/images/I/71BotjzrHSL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 45.99,
       "rating": 4.3,
       "reviews_count": 3158,
@@ -186,6 +189,7 @@
       "brand": "Avhrit",
       "model": "ZHP0052MG",
       "image": "https://m.media-amazon.com/images/I/712ZI9a7FeL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 39.99,
       "rating": 4.2,
       "reviews_count": 1214,
@@ -222,7 +226,8 @@
       "brand": "SPTA",
       "model": "LD601US-MIX",
       "image": "https://m.media-amazon.com/images/I/81upkAlYDiL._AC_SL1500_.jpg",
-      "price": 89.99,
+      "price_checked": "2026-11-16",
+      "price": 63.15,
       "rating": 4.4,
       "reviews_count": 661,
       "bought": "100+/mo",
@@ -249,7 +254,7 @@
       ],
       "cons": [
         "12V batteries",
-        "$89.99"
+        "$63.15"
       ]
     },
     {
@@ -258,6 +263,7 @@
       "brand": "BATOCA",
       "model": "S5 (B02PO62)",
       "image": "https://m.media-amazon.com/images/I/81D5iN9IXsL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 79.99,
       "rating": 4.4,
       "reviews_count": 630,
@@ -294,6 +300,7 @@
       "brand": "VERVEWAVE",
       "model": "WT8633",
       "image": "https://m.media-amazon.com/images/I/71U7GpcWgcL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 72.99,
       "rating": 4.5,
       "reviews_count": 487,
@@ -330,7 +337,8 @@
       "brand": "DEWALT",
       "model": "DCM849B",
       "image": "https://m.media-amazon.com/images/I/51TaNc5IQhL._AC_SL1000_.jpg",
-      "price": 235.90,
+      "price_checked": "2026-11-16",
+      "price": 234.99,
       "rating": 4.4,
       "reviews_count": 2046,
       "bought": "400+/mo",
@@ -356,7 +364,7 @@
         "2,046 reviews"
       ],
       "cons": [
-        "$235.90 bare tool",
+        "$234.99 bare tool",
         "Rotary takes practice"
       ]
     },
@@ -366,7 +374,8 @@
       "brand": "Milwaukee",
       "model": "2738-20",
       "image": "https://m.media-amazon.com/images/I/51QzQ5R7vvL._AC_SL1000_.jpg",
-      "price": 213.49,
+      "price_checked": "2026-11-16",
+      "price": 228.99,
       "rating": 4.4,
       "reviews_count": 1728,
       "bought": "400+/mo",
@@ -403,7 +412,8 @@
       "brand": "Milwaukee",
       "model": "2684-20",
       "image": "https://m.media-amazon.com/images/I/419Bt-MqA6L._AC_SL1379_.jpg",
-      "price": 252.45,
+      "price_checked": "2026-11-16",
+      "price": 247.00,
       "rating": 4.4,
       "reviews_count": 380,
       "bought": "200+/mo",
@@ -429,7 +439,7 @@
         "8 speeds plus variable trigger"
       ],
       "cons": [
-        "$252.45 bare tool",
+        "$247 bare tool",
         "Listing showed only 4 left"
       ]
     }
@@ -440,6 +450,7 @@
       "name": "QIJIAA Cordless Car Buffer Polisher with 2 x 2.0Ah 21V Batteries, 8 Speeds, 2800-6000 RPM",
       "brand": "QIJIAA", "model": "AM-CCP-GR",
       "image": "https://m.media-amazon.com/images/I/71CWapARe2L._AC_SL1500_.jpg",
+      "price_checked": "2026-11-16",
       "price": 36.99, "rating": 4.3, "reviews_count": 47,
       "flag": "Claims 900 W from a 42 Wh battery; piece count doesn't add up",
       "verdict": "A generic kit whose own numbers don't hold together. The Avhrit kit costs $3 more and states a 1-year warranty.",
