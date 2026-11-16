@@ -25,6 +25,8 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sales_rank  # noqa: E402  best category rank from browseNodeInfo
 CSV_PATH = Path(os.environ.get(
     "CREATORS_API_CSV",
     Path.home() / ".config" / "amazon-creators" / "toolboxtop10-credentials.csv"))
@@ -35,7 +37,8 @@ API = "https://creatorsapi.amazon/catalog/v1/getItems"
 MARKET = "www.amazon.com"
 RESOURCES = ["itemInfo.title", "offersV2.listings.price", "offersV2.listings.availability",
              "offersV2.listings.isBuyBoxWinner", "offersV2.listings.condition",
-             "offersV2.listings.merchantInfo"]
+             "offersV2.listings.merchantInfo", "browseNodeInfo.browseNodes.salesRank",
+             "browseNodeInfo.websiteSalesRank"]
 
 
 def creds():
@@ -108,21 +111,28 @@ def record(asin, item):
     if item is None:
         return {"title": None, "price": None, "rating": None, "reviews": None, "bought": None,
                 "avail": "not returned by API", "buybox": False, "captcha": False,
-                "notfound": True, "captured": now, "source": "creators_api"}
+                "notfound": True, "captured": now, "source": "creators_api",
+                "cat_rank": None, "cat_node": None, "site_rank": None, "list_price": None}
     listings = ((item.get("offersV2") or {}).get("listings")) or []
     best = next((l for l in listings if l.get("isBuyBoxWinner")), listings[0] if listings else None)
-    price = None
+    price = list_price = None
     avail = "no offers"
     if best:
+        basis = (best.get("price") or {}).get("savingBasis") or {}
+        amt = (basis.get("money") or {}).get("amount")
+        if basis.get("savingBasisType") == "LIST_PRICE" and isinstance(amt, (int, float)):
+            list_price = float(amt)  # Amazon's own "List Price:"; other saving bases are not shown
         money = ((best.get("price") or {}).get("money")) or {}
         amt = money.get("amount")
         price = f"${amt:,.2f}" if isinstance(amt, (int, float)) else money.get("displayAmount")
         av = best.get("availability") or {}
         avail = av.get("message") or av.get("type") or ""
     title = (((item.get("itemInfo") or {}).get("title")) or {}).get("displayValue")
+    cat_rank, cat_node, site_rank = sales_rank.best_rank(item)
     return {"title": title, "price": price, "rating": None, "reviews": None, "bought": None,
             "avail": avail, "buybox": bool(best and best.get("isBuyBoxWinner")),
-            "captcha": False, "notfound": False, "captured": now, "source": "creators_api"}
+            "captcha": False, "notfound": False, "captured": now, "source": "creators_api",
+            "cat_rank": cat_rank, "cat_node": cat_node, "site_rank": site_rank, "list_price": list_price}
 
 
 def slug_asins(slugs):

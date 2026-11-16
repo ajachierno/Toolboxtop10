@@ -89,6 +89,8 @@ def api():
             failed.append(asin)
             continue
         prices[asin] = {"price": price, "rating": rating, "reviews_count": reviews, "checked": TODAY}
+        if r.get("list_price"):
+            prices[asin]["list_price"] = r["list_price"]
         ok += 1
     OUT.write_text(json.dumps(prices, indent=1, sort_keys=True) + "\n", encoding="utf-8")
     print(f"holiday-prices (API): {ok} of {len(asins)} re-priced today, {len(failed)} kept as they were: {' '.join(failed)}")

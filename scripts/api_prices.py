@@ -24,6 +24,9 @@ ROOT = HERE.parent
 DATA = ROOT / "data"
 sys.path.insert(0, str(HERE))
 from apply_scrape import money, spans, sub_field  # noqa: E402
+import sales_rank  # noqa: E402
+
+RANKS = DATA / "sales-rank.json"
 
 BIG = 0.08
 
@@ -110,6 +113,24 @@ def apply_prices(slug, recs, today, dry=False):
     return {"priced": priced, "total": len(by_asin), "moves": moves, "flags": flags, "issues": issues}
 
 
+def rank_flags(pages, recs, today, path=None):
+    """Record today's sales ranks in data/sales-rank.json and return a flag line for each pick
+    (avoid picks excluded) that has fallen far behind its own page (sales_rank.page_line)."""
+    path = path or RANKS
+    hist = sales_rank.update(path, {a: (r.get("cat_rank"), r.get("cat_node"), r.get("site_rank"))
+                                    for a, r in recs.items()}, today)
+    flags = []
+    for slug, cat in pages.items():
+        line = sales_rank.page_line([(recs.get(p["asin"]) or {}).get("cat_rank") for p in cat["products"]])
+        for p in cat["products"]:
+            hit = sales_rank.slipping(hist, p["asin"], line)
+            if hit:
+                flags.append(f"{slug} {p['asin']} {p['brand']} {p['model']}: falling, #{hit[1]:,} in {hit[2]} "
+                             f"(best #{sales_rank.best(hist, p['asin']):,} in its last {sales_rank.KEEP} checks, "
+                             f"page line #{line:,.0f})")
+    return flags
+
+
 def main(slugs):
     import creators_api
     site = json.loads((DATA / "site.json").read_text(encoding="utf-8"))
@@ -132,11 +153,14 @@ def main(slugs):
         n_moved += len(out["moves"])
         all_flags += out["flags"]
         all_issues += out["issues"]
+    slip = rank_flags(pages, recs, today)
+    all_flags += slip
     flag_file = ROOT / "scrape-results" / f"{today}-api-flags.txt"
     flag_file.parent.mkdir(exist_ok=True)
     flag_file.write_text("\n".join(all_flags) + ("\n" if all_flags else ""), encoding="utf-8")
     print(f"API price pass {today}: {n_priced} of {n_total} listings priced on {len(slugs)} pages, "
           f"{n_moved} price changes, {len(all_flags)} flagged -> {flag_file.name}")
+    print(f"Sales ranks recorded in {RANKS.name}; {len(slip)} pick(s) out of the top {sales_rank.LIMIT}")
     for x in all_issues:
         print("  CHECK", x)
     flagged_pages = sorted({f.split()[0] for f in all_flags})

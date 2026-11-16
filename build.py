@@ -1346,9 +1346,21 @@ def holiday_price(p, cat, site):
     category's own capture, else the pick as ranked and the category's capture date."""
     hp = HOLIDAY_PRICES.get(p["asin"]) if p else None
     own = price_date(cat, site, p) if p else price_date(cat, site)
-    if not hp or hp["checked"] <= own:
+    if not hp or hp["checked"] < own or (hp["checked"] == own and hp["price"] != p.get("price")):
         return p, own
-    return {**p, "price": hp["price"], "rating": hp["rating"], "reviews_count": hp["reviews_count"]}, hp["checked"]
+    if hp["checked"] == own:  # the same morning's check: page numbers stand, the list price applies
+        return ({**p, "list_price": hp["list_price"]} if hp.get("list_price") else p), own
+    q = {**p, "price": hp["price"], "rating": hp["rating"], "reviews_count": hp["reviews_count"]}
+    return ({**q, "list_price": hp["list_price"]} if hp.get("list_price") else q), hp["checked"]
+
+
+def list_note(p):
+    """' · Amazon list price $X (N% off)' for a holiday card, when that check had a List Price above
+    the price shown; else ''. The percentage is worked out from the two prices on the card."""
+    lp, price = p.get("list_price"), p.get("price")
+    if not isinstance(lp, (int, float)) or not isinstance(price, (int, float)) or lp <= price:
+        return ""
+    return f" &middot; Amazon list price {money(lp)} ({round((lp - price) / lp * 100)}% off)"
 
 
 def seasonal_pages():
@@ -1687,9 +1699,10 @@ def build_holiday(site, cfg, by_slug):
         budget, d_b = holiday_price(budget, cat, site) if budget else (budget, d_o)
         dates.extend([d_o, d_b])
         rows.append((cat, overall, budget))
-        cards = render_pick_card(overall, cat, site, "Best Overall", f"regular price on {esc(d_o)}")
+        cards = render_pick_card(overall, cat, site, "Best Overall", f"regular price on {esc(d_o)}{list_note(overall)}")
         if budget and budget["asin"] != overall["asin"]:
-            cards += render_pick_card(budget, cat, site, "Best Budget", f"regular price on {esc(d_b)}")
+            cards += render_pick_card(budget, cat, site, "Best Budget",
+                                      f"regular price on {esc(d_b)}{list_note(budget)}")
         return cards
 
     groups = _grouped(site, by_slug, pick)
