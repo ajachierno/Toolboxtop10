@@ -3,9 +3,10 @@
   "title": "The 10 Best Digital Multimeters",
   "subtitle": "Handheld multimeters for home electrical, automotive and electronics troubleshooting, ranked from live Amazon data.",
   "intro": "A digital multimeter measures voltage, current, resistance and continuity, the basics of finding a dead outlet, a bad fuse, a drained car battery or a broken wire. We ranked 10 best-sellers on rating, review volume and features (a stated CAT III or higher safety rating, True RMS, auto-ranging and non-contact voltage detection). If you'll test household wiring or panels, the CAT rating matters most: it tells you the meter is built to survive voltage spikes on mains circuits. They run from about $14 for KAIWEETS' basic meter to $144 for Fluke's 17B+.",
-  "data_captured": "2026-11-09",
+  "data_captured": "2026-11-16",
   "audited": "2026-11-09",
   "changelog": [
+    {"date": "2026-11-16", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. No price changes."},
     {"date": "2026-11-16", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Klein Tools MM420 dropped from $64.98 to $45.20."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the ZMIWNIED FS899L (was the Klein Tools MM325)."},
     {"date": "2026-11-09", "note": "Replaced the AstroAI M4K0R and Klein MM720, both out of Amazon's top 40, with the ZMIWNIED FS899L ($37.99, True RMS with NCV) and the Klein 69149P test kit ($39.95). Fluke 15B+ dropped from $129.99 to $122.39. Prices and ratings re-checked."},
@@ -81,8 +82,8 @@
       "price_checked": "2026-11-16",
       "price": 34.97,
       "rating": 4.7,
-      "reviews_count": 3061,
-      "bought": "8K+/mo",
+      "reviews_count": 3079,
+      "bought": "7K+/mo",
       "specs": {
         "safety": "CAT III 600V",
         "voltage": "600 V AC/DC",
@@ -118,7 +119,7 @@
       "price_checked": "2026-11-16",
       "price": 14.99,
       "rating": 4.5,
-      "reviews_count": 56695,
+      "reviews_count": 56785,
       "bought": "10K+/mo",
       "specs": {
         "safety": "Not listed",
@@ -137,7 +138,7 @@
       "best_for": "Car batteries, fuses, batteries and low-voltage electronics.",
       "skip_if": "You'll test panels or mains circuits; no CAT rating is listed.",
       "pros": [
-        "56,695 reviews",
+        "56,785 reviews",
         "$14.99",
         "Double fuse, protective cover"
       ],
@@ -155,7 +156,7 @@
       "price_checked": "2026-11-16",
       "price": 13.99,
       "rating": 4.5,
-      "reviews_count": 25403,
+      "reviews_count": 25452,
       "bought": "3K+/mo",
       "specs": {
         "safety": "CAT III 600V",
@@ -175,7 +176,7 @@
       "skip_if": "You need AC current; it measures DC current only.",
       "pros": [
         "$13.99 with CAT III 600V",
-        "25,403 reviews",
+        "25,452 reviews",
         "Case included"
       ],
       "cons": [
@@ -192,7 +193,7 @@
       "price_checked": "2026-11-16",
       "price": 33.99,
       "rating": 4.6,
-      "reviews_count": 20326,
+      "reviews_count": 20353,
       "bought": "4K+/mo",
       "specs": {
         "safety": "Not listed",
@@ -213,7 +214,7 @@
       "pros": [
         "True RMS, 6000 counts, auto-ranging",
         "Capacitance, frequency, duty cycle, temperature",
-        "20,326 reviews"
+        "20,353 reviews"
       ],
       "cons": [
         "No CAT safety rating listed",
@@ -226,14 +227,14 @@
       "brand": "ZMIWNIED", "model": "FS899L",
       "image": "https://m.media-amazon.com/images/I/71YP45h-ACL._SL1500_.jpg",
       "price_checked": "2026-11-16",
-      "price": 39.99, "rating": 4.5, "reviews_count": 144, "bought": "1K+/mo",
+      "price": 39.99, "rating": 4.5, "reviews_count": 157, "bought": "2K+/mo",
       "specs": { "safety": "CAT III 1000V / CAT IV 600V", "voltage": "600 V AC/DC", "current": "10 A AC/DC", "ranging": "Auto", "extras": "NCV, capacitance, frequency, 4.8 in color screen, flashlight, USB-C battery" },
       "features": { "cat_rated": true, "trms": true, "auto_range": true, "ncv": true },
       "verdict": "A 6000-count True RMS auto-ranging meter with non-contact voltage detection, a 4.8 in backlit color screen and a USB-C rechargeable battery, sold with a 20-piece lead and clip kit. It lists CAT III 1000V / CAT IV 600V ratings.",
       "best_for": "DIYers who want True RMS, NCV and auto-ranging in one meter under $40.",
       "skip_if": "You'd rather have a brand with a long service record; ZMIWNIED is new on Amazon.",
       "pros": ["True RMS, auto-ranging and NCV", "USB-C rechargeable, no 9V battery to buy", "20-piece test lead and clip set", "1K+ bought last month"],
-      "cons": ["Listing says 1000V CAT III while voltage tops out at 600V", "144 reviews so far", "No published warranty on the listing"]
+      "cons": ["Listing says 1000V CAT III while voltage tops out at 600V", "157 reviews so far", "No published warranty on the listing"]
     },
     {
       "asin": "B00KXX2OYY",
@@ -244,7 +245,7 @@
       "price_checked": "2026-11-16",
       "price": 22.99,
       "rating": 4.6,
-      "reviews_count": 9141,
+      "reviews_count": 9144,
       "bought": "500+/mo",
       "specs": {
         "safety": "CAT III 600V (IEC 61010-1)",
@@ -315,7 +316,7 @@
       "brand": "Klein Tools", "model": "69149P",
       "image": "https://m.media-amazon.com/images/I/81EgMW9pP9L._SL1500_.jpg",
       "price_checked": "2026-11-16",
-      "price": 39.98, "rating": 4.6, "reviews_count": 4027, "bought": "2K+/mo",
+      "price": 39.98, "rating": 4.6, "reviews_count": 4034, "bought": "3K+/mo",
       "specs": { "safety": null, "voltage": "600 V AC/DC", "current": "10 A DC", "ranging": "Manual", "extras": "Kit adds NCVT1P voltage tester (50-1000 VAC) and RT110 outlet tester" },
       "features": { "cat_rated": false, "trms": false, "auto_range": false, "ncv": true },
       "verdict": "Klein's starter kit pairs the MM320 manual-ranging multimeter with a non-contact voltage tester and a plug-in outlet tester. It is the third-best seller in Amazon's multimeter search and covers most household electrical checks.",
@@ -333,7 +334,7 @@
       "price_checked": "2026-11-16",
       "price": 122.39,
       "rating": 4.8,
-      "reviews_count": 1014,
+      "reviews_count": 1022,
       "bought": "1K+/mo",
       "specs": {
         "safety": "CAT III 600V",
@@ -371,7 +372,7 @@
       "price_checked": "2026-11-16",
       "price": 144.99,
       "rating": 4.8,
-      "reviews_count": 1086,
+      "reviews_count": 1095,
       "bought": "1K+/mo",
       "specs": {
         "safety": "CAT III 600V",
@@ -410,7 +411,7 @@
       "price_checked": "2026-11-16",
       "price": 9.99,
       "rating": 4.4,
-      "reviews_count": 2889,
+      "reviews_count": 2913,
       "bought": "2K+/mo",
       "flag": "No ranges, accuracy or safety rating on the listing",
       "verdict": "A $10 meter whose listing describes multimeters in general rather than this one. The KAIWEETS is $4 more with a CAT III 600V rating and 25,214 reviews.",
