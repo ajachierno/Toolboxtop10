@@ -46,7 +46,7 @@ def live_rows(site, cats):
             if hp and hp["checked"] > captured:
                 nums, date = hp, hp["checked"]
             rows.append({"slug": cat["slug"], "category": _cat_name(cat), "award": award, "asin": p["asin"],
-                         "title": f"{p['brand']} {p['model']}", "rating": nums["rating"],
+                         "title": f"{p['brand']} {p['model']}", "brand": p["brand"], "rating": nums["rating"],
                          "reviews_count": nums["reviews_count"], "price": nums["price"], "price_date": date})
     return rows
 
