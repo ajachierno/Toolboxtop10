@@ -8,6 +8,8 @@ listings each day isn't practical, so this re-reads just those award listings:
   python scripts/holiday_picks.py scrape   # re-read them into scrape-results/<today>.json
                                            # (visible Chrome window; re-run until nothing is left)
   python scripts/holiday_picks.py apply    # write data/holiday-prices.json from today's capture
+  python scripts/holiday_picks.py api      # or: re-price them through the Creators API (price only;
+                                           # ratings and review counts stay as last recorded)
 
 build.py overlays data/holiday-prices.json on the holiday pages only, each pick with its own
 "regular price on <date>". Category pages keep their own numbers and capture date until their
@@ -43,6 +45,52 @@ def award_asins():
     return out
 
 
+creators_api = None  # the Creators API client, imported on first use (tests swap in a fake)
+
+
+def _last_ratings():
+    """{asin: (rating, reviews_count)} from the category files, for listings with no holiday entry yet."""
+    site = build.load("site.json")
+    out = {}
+    for c in site["categories"]:
+        for p in build.load(f"{c['slug']}.json")["products"]:
+            out[p["asin"]] = (p.get("rating"), p.get("reviews_count"))
+    return out
+
+
+def api():
+    """Re-price the award listings through the Creators API. Only the price and its date move;
+    a listing the API doesn't return, or returns without a price or buy-box winner, keeps its
+    previous values and date."""
+    global creators_api
+    if creators_api is None:
+        import creators_api as _c
+        creators_api = _c
+    asins = award_asins()
+    items, _errs = creators_api.get_items(asins)
+    prices = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    fallback = None
+    ok, failed = 0, []
+    for asin in asins:
+        r = creators_api.record(asin, items.get(asin))
+        prev = prices.get(asin) or {}
+        rating, reviews = prev.get("rating"), prev.get("reviews_count")
+        if rating is None or reviews is None:
+            fallback = fallback if fallback is not None else _last_ratings()
+            rating, reviews = fallback.get(asin, (None, None))
+        try:
+            price = float(str(r.get("price")).replace("$", "").replace(",", "")) if r.get("price") else None
+        except ValueError:
+            price = None
+        if r.get("notfound") or not r.get("buybox") or None in (price, rating, reviews):
+            failed.append(asin)
+            continue
+        prices[asin] = {"price": price, "rating": rating, "reviews_count": reviews, "checked": TODAY}
+        ok += 1
+    OUT.write_text(json.dumps(prices, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    print(f"holiday-prices (API): {ok} of {len(asins)} re-priced today, {len(failed)} kept as they were: {' '.join(failed)}")
+
+
 def scrape():
     import scrape_amazon  # noqa: E402  the site's Amazon reader (Playwright, visible Chrome)
     asins = award_asins()
@@ -75,4 +123,4 @@ def apply():
 
 
 if __name__ == "__main__":
-    {"asins": lambda: print(len(award_asins()), *award_asins()), "scrape": scrape, "apply": apply}[sys.argv[1]]()
+    {"asins": lambda: print(len(award_asins()), *award_asins()), "scrape": scrape, "apply": apply, "api": api}[sys.argv[1]]()

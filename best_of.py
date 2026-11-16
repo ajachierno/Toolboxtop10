@@ -37,7 +37,7 @@ def live_rows(site, cats):
     rows = []
     for cat in cats:
         _ranked, overall, budget, premium = rank(cat)
-        captured = cat.get("data_captured") or site["updated"]
+        captured = max(cat.get("prices_checked") or "", cat.get("data_captured") or site["updated"])
         for award, p in zip(AWARDS, (overall, budget, premium)):
             if not p:
                 continue

@@ -42,7 +42,7 @@ def record_prices(site):
     before = json.dumps(hist, sort_keys=True)
     for c in site["categories"]:
         cat = load(f"{c['slug']}.json")
-        when = cat.get("data_captured") or site["updated"]
+        when = price_date(cat, site)
         for p in cat["products"] + cat.get("avoid", []):
             if isinstance(p.get("price"), (int, float)):
                 hist.setdefault(p["asin"], {})[when] = p["price"]
@@ -802,6 +802,12 @@ def cat_date(cat, site):
     return cat.get("data_captured") or site["updated"]
 
 
+def price_date(cat, site):
+    """The newest price check on this page: the daily API pass (prices_checked) or the last scrape
+    (data_captured), whichever is later. data_captured stays the ratings date and rotation key."""
+    return max(cat.get("prices_checked") or "", cat_date(cat, site))
+
+
 def render_deals(brands, site, captured):
     """Short deals note for a category page, naming the brands on that page."""
     if not brands:
@@ -935,7 +941,7 @@ def render_platforms(cat, ranked, site):
 
 def render_byline(cat, site):
     return (f'<p class="byline">Ranked by {esc(site["brand"])} from Amazon data captured '
-            f'{_short_date(cat_date(cat, site))}. Rankings and prices are updated several times a week and can change as new data comes in. <a href="about.html">How we rank</a></p>')
+            f'{_short_date(cat_date(cat, site))}.{f" Prices checked {_short_date(price_date(cat, site))}." if price_date(cat, site) > cat_date(cat, site) else ""} Rankings and prices are updated several times a week and can change as new data comes in. <a href="about.html">How we rank</a></p>')
 
 
 def render_jump(has_avoid):
@@ -1334,8 +1340,8 @@ def holiday_price(p, cat, site):
     """(pick, date): the pick with holiday-prices numbers when that check is newer than the
     category's own capture, else the pick as ranked and the category's capture date."""
     hp = HOLIDAY_PRICES.get(p["asin"]) if p else None
-    if not hp or hp["checked"] <= cat_date(cat, site):
-        return p, cat_date(cat, site)
+    if not hp or hp["checked"] <= price_date(cat, site):
+        return p, price_date(cat, site)
     return {**p, "price": hp["price"], "rating": hp["rating"], "reviews_count": hp["reviews_count"]}, hp["checked"]
 
 
@@ -1632,7 +1638,7 @@ def build_gift_page(site, cfg, by_slug):
         if not p:
             return ""
         chosen.append((cat, p))
-        note = f"price on {esc(cat_date(cat, site))}"
+        note = f"price on {esc(price_date(cat, site))}"
         # Air tools are useless without a compressor; say so on the card.
         air = ('<span class="tag">Needs an air compressor</span>'
                if power.get(cat["slug"]) == "air" and cat["slug"] != "air-compressors" else "")
@@ -1643,7 +1649,7 @@ def build_gift_page(site, cfg, by_slug):
 
     groups = _grouped(site, by_slug, pick, TOOLS_FIRST if premium else None)
     base = f"https://{site['custom_domain']}" if site.get("custom_domain") else ""
-    dates = [cat_date(cat, site) for cat, _ in chosen]
+    dates = [price_date(cat, site) for cat, _ in chosen]
     body = f"""
   {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
   <section class="lead">
@@ -1870,7 +1876,7 @@ def render_brand_card(p, cat, site, cfg, others, cordless):
           <div class="card-buy">
             <div class="price">{money(p['price'])}</div>
             <a class="btn" href="{url}" target="_blank" rel="sponsored nofollow noopener">Check today's price</a>{render_also_at(p, site)}
-            <div class="tiny muted">price on {esc(cat_date(cat, site))}</div>
+            <div class="tiny muted">price on {esc(price_date(cat, site))}</div>
           </div>
         </div>
         <p class="verdict">{esc(p['verdict'])}</p>
@@ -1897,7 +1903,7 @@ def build_brand_page(site, cfg, by_slug):
                 continue
             p = mine[0]
             chosen.append((cat, p))
-            dates.append(cat_date(cat, site))
+            dates.append(price_date(cat, site))
             total += len(mine)
             n_top += p["rank"] == 1
             n_overall += p["badge_kind"] == "overall"
