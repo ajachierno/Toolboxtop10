@@ -4,8 +4,9 @@
   "subtitle": "Plug-in straight die grinders for porting, deburring and weld cleanup, ranked from live Amazon data.",
   "intro": "A corded die grinder spins 1/4 in burrs and stones at 25,000 to 33,000 rpm for as long as you need. We ranked 10 best-sellers from DEWALT, Makita, Metabo HPT and three value brands on rating, review volume and features (variable speed, a paddle switch that stops when released, and a name brand behind it). The main split is switch type: paddle for safety, slide or rocker for comfort on long jobs.",
   "data_captured": "2026-11-25",
-  "audited": "2026-10-12",
+  "audited": "2026-11-25",
   "changelog": [
+    {"date": "2026-11-25", "note": "Replaced SENCAN's 6-inch extended grinder, which Amazon no longer lists, with SENCAN's standard-length SC-702517 ($59.30), which also takes over Best Budget."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-11-25", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the AOBEN AT3504C dropped from $64.99 to $51.99; the VEVOR Die Grinder, 1/4\" dropped from $56.90 to $48.40."},
     {"date": "2026-11-16", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Makita GD0603 dropped from $146.89 to $130."},
@@ -322,39 +323,39 @@
       ]
     },
     {
-      "asin": "B0FS6WQH18",
-      "name": "SENCAN 6\" Extra Long Extension Electric Die Grinder, 1/4\" Variable Speed, 10000-33000 RPM",
+      "asin": "B0F842WS8M",
+      "name": "SENCAN Electric Die Grinder, 1/4 in. Variable Speed, 5.5 A, 10,000-33,000 RPM (SC-702517)",
       "brand": "SENCAN",
-      "model": "SC-702517L",
-      "image": "https://m.media-amazon.com/images/I/51gRFHIjQsL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 66.49,
-      "rating": 4.2,
-      "reviews_count": 35,
-      "bought": "50+/mo",
+      "model": "SC-702517",
+      "image": "https://m.media-amazon.com/images/I/61TuxhXmFbL._AC_SL1500_.jpg",
+      "price": 59.3,
+      "rating": 3.9,
+      "reviews_count": 68,
+      "bought": "100+/mo",
       "specs": {
         "power": "5.5 A / 600 W",
         "speed": "10,000 to 33,000 rpm, 6 speeds",
         "switch": "Slide",
         "collet": "1/4 in",
-        "extras": "6 in extended nose, 2 wrenches"
+        "extras": "Spare carbon brushes, 2 wrenches"
       },
       "features": {
         "variable_speed": true,
         "paddle_switch": false,
         "name_brand": false
       },
-      "verdict": "A budget grinder with a 6 in extended nose for reaching into engine bays and castings, a 5.5 A motor and a six-position speed dial from 10,000 to 33,000 rpm.",
-      "best_for": "Reaching into deep or recessed spots on a budget.",
-      "skip_if": "You want a paddle switch or a brand with a parts network.",
+      "verdict": "The standard-length version of SENCAN's budget grinder: a 5.5 A, 600 W motor and a six-position speed dial from 10,000 to 33,000 rpm, at 3.7 lb.",
+      "best_for": "Variable-speed deburring and polishing on a budget.",
+      "skip_if": "You want a paddle switch or a better rating; it sits at 3.9 stars.",
       "pros": [
-        "6 in extended reach",
-        "6 speeds",
-        "5.5 A / 600 W"
+        "6 speeds, 10,000 to 33,000 rpm",
+        "5.5 A / 600 W motor",
+        "Spare carbon brushes in the box"
       ],
       "cons": [
-        "35 reviews",
-        "Slide switch only"
+        "3.9 stars, the lowest rating here",
+        "Slide switch only",
+        "68 reviews"
       ]
     },
     {
@@ -440,7 +441,7 @@
       "rating": 4.0,
       "reviews_count": 152,
       "flag": "Title, bullets and spec table give different speeds and power",
-      "verdict": "A listing that can't agree with itself on speed or power, sold under a SKU instead of a model number. The SENCAN, for about $13 more, publishes one consistent set of figures.",
+      "verdict": "A listing that can't agree with itself on speed or power, sold under a SKU instead of a model number. The SENCAN SC-702517, for about $11 more, publishes one consistent set of figures.",
       "reasons": [
         "The title says 10,000 to 28,000 rpm, the first bullet says 7,000 to 30,000 rpm, and the spec table caps it at 28,000 rpm. Burrs and mounted stones carry a maximum rpm rating, so you need to know the real top speed.",
         "The spec table lists 225 watts and 1.1 hp side by side. 1.1 hp is about 820 W, nearly four times 225 W, and no amp rating is given.",
