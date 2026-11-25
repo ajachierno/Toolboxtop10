@@ -4,9 +4,9 @@
   "subtitle": "Battery-powered chainsaws for pruning, storm cleanup and firewood, ranked from live Amazon data.",
   "intro": "A cordless chainsaw starts with a trigger, needs no gas or pull cord, and is quiet enough for the neighbors. We ranked 10 best-sellers from EGO, Greenworks, DEWALT, CRAFTSMAN, WORX, BLACK+DECKER, Husqvarna and SEESII on rating, review volume and features (a 14-inch or longer bar, a battery in the box, a brushless motor, tool-free tensioning and auto oiling). For mini pruning saws, see our mini chainsaw page.",
   "data_captured": "2026-11-25",
-  "audited": "2026-10-10",
+  "audited": "2026-11-25",
   "changelog": [
-    {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
+    {"date": "2026-11-25", "note": "Full audit. Amazon no longer lists the DOOYUTOOL DW-11, so the tool to avoid is now the TEEANEES WS12-Y2, whose listing contradicts itself on chain speed. All 10 picks kept; prices and ratings re-checked."},
     {"date": "2026-11-25", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Greenworks 20312 dropped from $249.99 to $159.99; the EGO CS1613 dropped from $329 to $269; the BLACK+DECKER LCS1020B dropped from $80.09 to $72.08."},
     {"date": "2026-11-16", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the BLACK+DECKER LCS1020B dropped from $108 to $80.09; the SEESII M12 Studio dropped from $107.99 to $88.98."},
     {"date": "2026-11-11", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the SEESII M12 Studio rose from $88.99 to $107.99; the EGO CS1611 rose from $249 to $279; the EGO CS1613 rose from $299 to $329."},
@@ -452,22 +452,18 @@
   ],
   "avoid": [
     {
-      "asin": "B0GX5BQLC1",
-      "name": "10 Inch Cordless Chainsaw for DEWALT 20V MAX Battery, 1000W Brushless Handheld Chainsaw with 4.0Ah Battery",
-      "brand": "DOOYUTOOL",
-      "model": "DW-11",
-      "image": "https://m.media-amazon.com/images/I/61jxpVfgPdL._AC_SL1280_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 99.99,
-      "rating": 4.4,
-      "reviews_count": 66,
-      "flag": "Sold 'for DEWALT' with an unbranded battery; 1,000 W claim",
-      "verdict": "A 10-inch saw marketed for DEWALT 20V batteries that ships with its own unbranded 4.0 battery and makes a power claim the listing doesn't support.",
-      "reasons": [
-        "The title says it's for DEWALT 20V MAX batteries, but the box contents list '4.0 Battery *1, Charger *1' with no brand, so you can't tell what you're getting or whether it's safe on a DEWALT charger.",
-        "The bullets call it a 'mini cordless chainsaw' while the title calls it a 10-inch chainsaw, a sign the copy was reused from another product.",
-        "It claims 1,000 W from a 20V pack and gives no runtime or cuts-per-charge figure. DEWALT's own DCCS621B uses the same batteries with DEWALT's warranty."
-      ]
+      "asin": "B0H69W9C3L",
+      "name": "TEEANEES 12 in Brushless Cordless Chainsaw with 2 x 4.0Ah Batteries, 1200W, Auto Oiler, 4 Chains (WS12-Y2)",
+      "brand": "TEEANEES",
+      "model": "WS12-Y2",
+      "image": "https://m.media-amazon.com/images/I/71l2yoVQN9L._AC_SL1500_.jpg",
+      "price_checked": "2026-11-25",
+      "price": 47.99,
+      "rating": 4.1,
+      "reviews_count": 81,
+      "flag": "Chain speed figures contradict; no battery voltage",
+      "verdict": "A 12-inch saw sold as a full kit for under $50 whose listing can't agree with itself on chain speed and never says what voltage its batteries are.",
+      "reasons": ["The title claims 14 m/s chain speed, while the listing's own spec table says 19.69 ft/s, about 6 m/s. One of the two numbers is wrong.", "It promises 1,200 W and 1.36 hp but never states the battery voltage, so you can't judge the power claim or buy a matching spare battery.", "The BLACK+DECKER LCS1020B on this list costs $72.08 with a battery from a brand that publishes its specs and backs it with a warranty."]
     }
   ],
   "buyers_guide": [

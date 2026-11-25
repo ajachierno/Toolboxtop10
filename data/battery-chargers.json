@@ -3,9 +3,10 @@
   "title": "The 10 Best Car Battery Chargers and Maintainers",
   "subtitle": "Smart battery chargers and maintainers for cars, trucks, motorcycles, boats and mowers, ranked from live Amazon data.",
   "intro": "A smart battery charger refills a flat battery and then holds it at full charge without overcharging. We ranked 10 best-sellers from NOCO, Battery Tender, Schumacher, CTEK and MOTOPOWER on rating, review volume and features (4 A or more charging, lithium support, a 5-year or longer warranty and 6V support). Pick the amps for the battery: small for bikes and mowers, bigger for cars and trucks.",
-  "data_captured": "2026-11-16",
-  "audited": "2026-10-10",
+  "data_captured": "2026-11-25",
+  "audited": "2026-11-25",
   "changelog": [
+    {"date": "2026-11-25", "note": "Full audit. Replaced the NOCO GENIUS10, which Amazon lists as currently unavailable, with the Schumacher SC1445 wheeled charger and engine starter. Every other pick is still a current best-seller; prices and ratings re-checked."},
     {"date": "2026-11-25", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Schumacher SC1355 rose from $22.30 to $34.99; the MOTOPOWER MP00205A dropped from $19.99 to $12.79; the Battery Tender 021-0128 dropped from $58.95 to $42.40."},
     {"date": "2026-11-16", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-11-10", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
@@ -75,9 +76,9 @@
       "model": "GENIUS5",
       "image": "https://m.media-amazon.com/images/I/81UVh1o+ayL._AC_SL1500_.jpg",
       "price_checked": "2026-11-25",
-      "price": 69.95,
+      "price": 69.87,
       "rating": 4.6,
-      "reviews_count": 21445,
+      "reviews_count": 21483,
       "bought": "10K+/mo",
       "specs": {
         "amps": "5 A",
@@ -97,7 +98,7 @@
       "pros": [
         "5 A charge, 6V and 12V",
         "Lithium and lead-acid",
-        "21,445 reviews"
+        "21,483 reviews"
       ],
       "cons": [
         "No engine start",
@@ -113,8 +114,8 @@
       "price_checked": "2026-11-25",
       "price": 29.95,
       "rating": 4.4,
-      "reviews_count": 64195,
-      "bought": "30K+/mo",
+      "reviews_count": 64318,
+      "bought": "40K+/mo",
       "specs": {
         "amps": "1 A",
         "volts": "6 V / 12 V",
@@ -131,7 +132,7 @@
       "best_for": "Keeping a stored vehicle's battery healthy over winter.",
       "skip_if": "Your battery is dead; 1 A takes a very long time to recharge a car battery.",
       "pros": [
-        "64,195 reviews; 10,000+ sold last month",
+        "64,318 reviews; 10,000+ sold last month",
         "Lithium and lead-acid",
         "Small"
       ],
@@ -147,9 +148,9 @@
       "model": "021-0123",
       "image": "https://m.media-amazon.com/images/I/61nddgtbkaL._AC_SL1200_.jpg",
       "price_checked": "2026-11-25",
-      "price": 37.95,
+      "price": 39.95,
       "rating": 4.8,
-      "reviews_count": 50104,
+      "reviews_count": 50133,
       "bought": "10K+/mo",
       "specs": {
         "amps": "0.75 A",
@@ -167,7 +168,7 @@
       "best_for": "Motorcycles, ATVs and mowers that sit for weeks.",
       "skip_if": "You need lithium charging or a 6V battery.",
       "pros": [
-        "4.8 stars; 50,104 reviews",
+        "4.8 stars; 50,133 reviews",
         "5-year warranty",
         "Leave-on harness"
       ],
@@ -185,8 +186,8 @@
       "price_checked": "2026-11-25",
       "price": 42.40,
       "rating": 4.7,
-      "reviews_count": 21751,
-      "bought": "5K+/mo",
+      "reviews_count": 21764,
+      "bought": "6K+/mo",
       "specs": {
         "amps": "1.25 A",
         "volts": "12 V",
@@ -204,7 +205,7 @@
       "skip_if": "Your battery is flat and you need it charged today.",
       "pros": [
         "10-year warranty",
-        "4.7 stars; 21,751 reviews",
+        "4.7 stars; 21,764 reviews",
         "Quick-disconnect harness"
       ],
       "cons": [
@@ -221,7 +222,7 @@
       "price_checked": "2026-11-25",
       "price": 51.99,
       "rating": 4.6,
-      "reviews_count": 9717,
+      "reviews_count": 9724,
       "bought": "2K+/mo",
       "specs": {
         "amps": "15 A",
@@ -241,46 +242,30 @@
       "pros": [
         "15 A fast charging",
         "Battery tester",
-        "9,717 reviews; 4.6 stars"
+        "9,724 reviews; 4.6 stars"
       ],
       "cons": [
         "No lithium mode"
       ]
     },
     {
-      "asin": "B07W3QT226",
-      "name": "NOCO GENIUS10 10A 6/12V Smart Battery Charger, Trickle Charger and Maintainer",
-      "brand": "NOCO",
-      "model": "GENIUS10",
-      "image": "https://m.media-amazon.com/images/I/71hqXWEqiWL._AC_SL1500_.jpg",
-      "price": 99.87,
-      "rating": 4.5,
-      "reviews_count": 21479,
-      "bought": "8K+/mo",
-      "specs": {
-        "amps": "10 A",
-        "volts": "6 V / 12 V",
-        "chemistry": "Lead-acid and lithium (LiFePO4)",
-        "extras": "Thermal sensor, desulfator"
-      },
-      "features": {
-        "fast_charge": true,
-        "lithium": true,
-        "long_warranty": false,
-        "six_volt": true
-      },
-      "verdict": "NOCO's 10-amp charger for bigger batteries: trucks, boats and RVs, lithium or lead-acid, with the same temperature-compensated charging as the GENIUS5.",
-      "best_for": "Large truck, marine and RV batteries.",
-      "skip_if": "You just maintain a motorcycle; the GENIUS1 is enough.",
-      "pros": [
-        "10 A",
-        "Lithium and lead-acid",
-        "21,479 reviews"
-      ],
-      "cons": [
-        "4.5 stars",
-        "Warranty not in the bullets"
-      ]
+      "asin": "B08PQ28NPB",
+      "name": "Schumacher Electric Wheeled 6/12V 250A Car Battery Starter/Charger (SC1445)",
+      "brand": "Schumacher",
+      "model": "SC1445",
+      "image": "https://m.media-amazon.com/images/I/71mOQOSKHzL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-25",
+      "price": 161.49,
+      "rating": 4.4,
+      "reviews_count": 1222,
+      "bought": "1K+/mo",
+      "specs": {"amps": "10 A, 25 and 50 A boost, 250 A engine start", "volts": "6 V / 12 V", "chemistry": "Standard, AGM, gel and deep-cycle lead-acid", "extras": "Wheeled cart, 135-minute manual timer"},
+      "features": {"fast_charge": true, "lithium": false, "long_warranty": false, "six_volt": true},
+      "verdict": "A shop-style wheeled charger that can also crank a dead engine at 250 A. It charges on a manual timer, so it suits garages that work on several vehicles, not leaving on a car all winter.",
+      "best_for": "Home shops that charge and jump-start several cars, trucks or tractors.",
+      "skip_if": "You want a set-and-forget maintainer or need lithium support.",
+      "pros": ["250 A engine start", "25 A and 50 A boost charging", "6 V and 12 V, AGM and deep-cycle"],
+      "cons": ["Manual timer, not a smart maintainer", "28.8 lb", "No lithium mode"]
     },
     {
       "asin": "B078962VRM",
@@ -291,8 +276,8 @@
       "price_checked": "2026-11-25",
       "price": 34.99,
       "rating": 4.5,
-      "reviews_count": 3130,
-      "bought": "3K+/mo",
+      "reviews_count": 3145,
+      "bought": "4K+/mo",
       "specs": {
         "amps": "1.5 A",
         "volts": "6 V / 12 V",
@@ -328,8 +313,8 @@
       "price_checked": "2026-11-25",
       "price": 84.99,
       "rating": 4.7,
-      "reviews_count": 6895,
-      "bought": "2K+/mo",
+      "reviews_count": 6905,
+      "bought": "3K+/mo",
       "specs": {
         "amps": "4.3 A",
         "volts": "12 V",
@@ -347,7 +332,7 @@
       "skip_if": "You need lithium or 6V.",
       "pros": [
         "8-step charging",
-        "4.7 stars; 6,895 reviews",
+        "4.7 stars; 6,905 reviews",
         "Reconditioning mode"
       ],
       "cons": [
@@ -364,8 +349,8 @@
       "price_checked": "2026-11-25",
       "price": 12.79,
       "rating": 4.5,
-      "reviews_count": 16928,
-      "bought": "8K+/mo",
+      "reviews_count": 16951,
+      "bought": "7K+/mo",
       "specs": {
         "amps": "0.8 A",
         "volts": "12 V",
@@ -383,7 +368,7 @@
       "skip_if": "You want a long warranty or lithium support.",
       "pros": [
         "Lowest price here",
-        "16,928 reviews",
+        "16,951 reviews",
         "No standby drain"
       ],
       "cons": [
@@ -400,7 +385,7 @@
       "price_checked": "2026-11-25",
       "price": 71.99,
       "rating": 4.5,
-      "reviews_count": 12161,
+      "reviews_count": 12168,
       "bought": "1K+/mo",
       "specs": {
         "amps": "2-6 A, 12-30 A boost",
@@ -420,7 +405,7 @@
       "pros": [
         "100 A engine start",
         "30 A boost charge",
-        "12,161 reviews"
+        "12,168 reviews"
       ],
       "cons": [
         "Bulky",
@@ -438,7 +423,7 @@
       "price_checked": "2026-11-25",
       "price": 14.99,
       "rating": 4.4,
-      "reviews_count": 128,
+      "reviews_count": 136,
       "flag": "Says it supports AGM, then says no float charge for AGM",
       "verdict": "A cheap charger whose listing contradicts itself on which batteries it can maintain, the one job a maintainer has.",
       "reasons": [
