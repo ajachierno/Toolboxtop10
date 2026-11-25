@@ -6,7 +6,7 @@
  "title": "The 10 Best Electric Pressure Washers",
  "subtitle": "Corded electric pressure washers for cars, decks, siding and driveways, ranked from live Amazon data.",
  "intro": "An electric pressure washer plugs into the wall: no gas, no oil, and it starts with a button. We ranked 10 best-sellers from Westinghouse, Greenworks, Sun Joe, CRAFTSMAN and A-iPower on rating, review volume and features (independently rated performance, an onboard soap tank, a 25-foot or longer hose and an induction or brushless motor). Compare rated PSI and GPM, not the bigger max numbers on the box.",
- "data_captured": "2026-11-12",
+ "data_captured": "2026-11-25",
  "audited": "2026-11-12",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -42,7 +42,7 @@
    "price": 279.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 1380,
+   "reviews_count": 1426,
    "score": 91,
    "award": "Best Overall",
    "best_for": "Driveways, decks and regular heavy use where motor life matters.",
@@ -76,56 +76,15 @@
   },
   {
    "rank": 2,
-   "asin": "B0D9C524DD",
-   "name": "Greenworks 3000 PSI (2.0 GPM Max) Brushless Electric Pressure Washer",
-   "brand": "Greenworks",
-   "model": "GPW3002A",
-   "price": 296.91,
-   "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 398,
-   "score": 90,
-   "award": null,
-   "best_for": "Heavy cleaning like driveways and concrete where you want honest, tested numbers.",
-   "bought_last_month": "1K+/mo",
-   "verdict": "A 14-amp brushless washer whose 3,000 PSI and 2.0 GPM figures were tested by an independent lab, according to the listing. It has a metal gun and a 25-foot kink-resistant hose.",
-   "pros": [
-    "Independently tested 3,000 PSI / 2.0 GPM",
-    "Brushless motor",
-    "Metal gun, 25 ft hose"
-   ],
-   "cons": [
-    "No onboard soap tank",
-    "4.4 stars"
-   ],
-   "specs": {
-    "psi": "3,000",
-    "gpm": "2.0",
-    "motor": "14 A brushless",
-    "hose": "25 ft kink-resistant",
-    "extras": "Metal gun, 15°/25°/40° tips, lab-verified ratings"
-   },
-   "features": {
-    "certified": true,
-    "onboard_soap": false,
-    "long_hose": true,
-    "premium_motor": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71AkYUF8KTL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D9C524DD?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/electric-pressure-washers.html#B0D9C524DD"
-  },
-  {
-   "rank": 3,
    "asin": "B0CQMHSPSG",
    "name": "Westinghouse WPX3400e Electric Pressure Washer, 3400 Max PSI 2.0 Max GPM, Brushless Motor, Onboard Soap Tank, 5 Nozzles",
    "brand": "Westinghouse",
    "model": "WPX3400e",
    "price": 375.0,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 861,
-   "score": 89,
+   "rating": 4.4,
+   "reviews_count": 887,
+   "score": 90,
    "award": "Money No Object",
    "best_for": "Big driveways, decks and siding where you want the most pressure from an outlet.",
    "bought_last_month": "600+/mo",
@@ -157,6 +116,47 @@
    "page_url": "https://toolboxtop10.com/electric-pressure-washers.html#B0CQMHSPSG"
   },
   {
+   "rank": 3,
+   "asin": "B0D9C524DD",
+   "name": "Greenworks 3000 PSI (2.0 GPM Max) Brushless Electric Pressure Washer",
+   "brand": "Greenworks",
+   "model": "GPW3002A",
+   "price": 296.91,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 440,
+   "score": 90,
+   "award": null,
+   "best_for": "Heavy cleaning like driveways and concrete where you want honest, tested numbers.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 14-amp brushless washer whose 3,000 PSI and 2.0 GPM figures were tested by an independent lab, according to the listing. It has a metal gun and a 25-foot kink-resistant hose.",
+   "pros": [
+    "Independently tested 3,000 PSI / 2.0 GPM",
+    "Brushless motor",
+    "Metal gun, 25 ft hose"
+   ],
+   "cons": [
+    "No onboard soap tank",
+    "4.5 stars"
+   ],
+   "specs": {
+    "psi": "3,000",
+    "gpm": "2.0",
+    "motor": "14 A brushless",
+    "hose": "25 ft kink-resistant",
+    "extras": "Metal gun, 15°/25°/40° tips, lab-verified ratings"
+   },
+   "features": {
+    "certified": true,
+    "onboard_soap": false,
+    "long_hose": true,
+    "premium_motor": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71AkYUF8KTL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D9C524DD?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/electric-pressure-washers.html#B0D9C524DD"
+  },
+  {
    "rank": 4,
    "asin": "B0BVGSX46M",
    "name": "Westinghouse ePX3500 Electric Pressure Washer, 2500 Max PSI 1.76 Max GPM, Anti-Tipping, Onboard Soap Tank, Steel Wand, 5 Nozzles",
@@ -165,14 +165,14 @@
    "price": 169.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 8167,
+   "reviews_count": 8319,
    "score": 86,
    "award": null,
    "best_for": "Most homes: cars, patio furniture, siding, fences and small decks.",
-   "bought_last_month": "6K+/mo",
+   "bought_last_month": "5K+/mo",
    "verdict": "The best-selling pressure washer here by far: 2,000 rated PSI, a 25-foot hose, a 20 oz onboard soap tank and five quick-connect nozzles in a 19 lb body that won't tip over.",
    "pros": [
-    "9,000+ sold last month; 8,167 reviews",
+    "9,000+ sold last month; 8,319 reviews",
     "25 ft hose and onboard soap tank",
     "Compact, 19 lb"
    ],
@@ -206,14 +206,14 @@
    "price": 139.0,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 7539,
+   "reviews_count": 7586,
    "score": 86,
    "award": "Best Budget",
    "best_for": "Cars, bikes, grills and patio furniture on a tighter budget.",
    "bought_last_month": "1K+/mo",
    "verdict": "The ePX3500's slightly smaller sibling, with the same 25-foot hose, soap tank and compact body at 1,900 rated PSI.",
    "pros": [
-    "7,539 reviews",
+    "7,586 reviews",
     "25 ft hose, soap tank, 5 nozzles",
     "Compact anti-tip design"
    ],
@@ -246,14 +246,14 @@
    "price": 143.65,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 64722,
+   "reviews_count": 64732,
    "score": 80,
    "award": null,
    "best_for": "Homeowners who want the most proven electric washer and two soap tanks.",
    "bought_last_month": "1K+/mo",
-   "verdict": "The most-reviewed pressure washer here by far, with 64,722 reviews. It has two onboard detergent tanks, five tips and a 34-inch stainless lance.",
+   "verdict": "The most-reviewed pressure washer here by far, with 64,732 reviews. It has two onboard detergent tanks, five tips and a 34-inch stainless lance.",
    "pros": [
-    "64,722 reviews",
+    "64,732 reviews",
     "Two detergent tanks",
     "Stainless lance with brass fittings"
    ],
@@ -287,7 +287,7 @@
    "price": 149.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 984,
+   "reviews_count": 987,
    "score": 80,
    "award": null,
    "best_for": "A budget all-rounder with a long hose and cord.",
@@ -299,7 +299,7 @@
     "4.5 stars"
    ],
    "cons": [
-    "Only 984 reviews",
+    "Only 987 reviews",
     "No soap tank listed"
    ],
    "specs": {
@@ -328,7 +328,7 @@
    "price": 99.99,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 324,
+   "reviews_count": 439,
    "score": 77,
    "award": null,
    "best_for": "Cars, patio furniture and fences, where a small washer is enough.",
@@ -368,21 +368,21 @@
    "model": "GPW2101A",
    "price": 142.49,
    "currency": "USD",
-   "rating": 4.4,
-   "reviews_count": 345,
-   "score": 75,
+   "rating": 4.5,
+   "reviews_count": 382,
+   "score": 76,
    "award": null,
    "best_for": "Fences, decks and vehicles on a mid budget.",
-   "bought_last_month": "500+/mo",
+   "bought_last_month": "400+/mo",
    "verdict": "A medium-duty Greenworks with 2,100 PSI, a 35-foot GFCI cord, push-button start and a turbo nozzle. The bullets say 20-foot hose; the spec table says 25.",
    "pros": [
     "2,100 PSI @ 1.2 GPM",
     "35 ft GFCI cord",
-    "4.4 stars"
+    "4.5 stars"
    ],
    "cons": [
     "Hose length listed two ways",
-    "Only 345 reviews"
+    "Only 382 reviews"
    ],
    "specs": {
     "psi": "2,100",
@@ -410,15 +410,15 @@
    "price": 119.0,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 3582,
+   "reviews_count": 3586,
    "score": 74,
    "award": null,
    "best_for": "Car washing and light patio cleaning in a small garage.",
-   "bought_last_month": "400+/mo",
+   "bought_last_month": "300+/mo",
    "verdict": "A compact CRAFTSMAN for cars and patios, with onboard storage for the nozzles, hose, cord and wand and a 20-foot kink-resistant hose.",
    "pros": [
     "Compact with onboard storage",
-    "3,582 reviews"
+    "3,586 reviews"
    ],
    "cons": [
     "1,700 max PSI",
@@ -451,8 +451,8 @@
    "model": "YYJ079HWY12P",
    "price": 101.19,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 41,
+   "rating": 4.2,
+   "reviews_count": 119,
    "flag": "4,500 PSI at 2.8 GPM from a wall outlet",
    "verdict": "It claims 4,500 PSI and 2.8 GPM from an electric motor on a household outlet, numbers you normally see on large gas washers.",
    "reasons": [
@@ -489,6 +489,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Prices, ratings and review counts re-checked on every listing. No price changes."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Sun Joe SPX3000 dropped from $169 to $143.65; the Greenworks GPW3002A dropped from $349 to $296.91."

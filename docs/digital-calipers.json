@@ -6,7 +6,7 @@
  "title": "The 10 Best Digital Calipers",
  "subtitle": "6-inch digital calipers for woodworking, 3D printing, machining and DIY, ranked from live Amazon data.",
  "intro": "A digital caliper measures outside, inside, depth and step dimensions to a thousandth of an inch: bolt diameters, board thickness, 3D-print tolerances and drill bits. We ranked 10 best-sellers on rating, review volume and features (a stainless steel body, IP54 shop-dust and coolant protection, fraction readout and a data output port). The big divide is material: stainless steel calipers are accurate to about ±0.001 inch, while plastic ones read to ±0.01 inch, ten times coarser. They run from about $9 for Adoric's plastic caliper to $140 for Starrett's.",
- "data_captured": "2026-11-12",
+ "data_captured": "2026-11-25",
  "audited": "2026-10-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -42,7 +42,7 @@
    "price": 17.84,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 8894,
+   "reviews_count": 8898,
    "score": 96,
    "award": "Best Overall",
    "best_for": "Getting every feature for the lowest price.",
@@ -124,7 +124,7 @@
    "price": 38.21,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 1905,
+   "reviews_count": 1908,
    "score": 92,
    "award": null,
    "best_for": "Machinists and anyone logging measurements.",
@@ -165,7 +165,7 @@
    "price": 37.39,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 903,
+   "reviews_count": 904,
    "score": 88,
    "award": null,
    "best_for": "Woodworkers who don't want steel jaws marring workpieces.",
@@ -206,14 +206,14 @@
    "price": 18.79,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 12021,
+   "reviews_count": 12074,
    "score": 87,
    "award": null,
    "best_for": "3D printing, woodworking and general shop use on a budget.",
-   "bought_last_month": "3K+/mo",
+   "bought_last_month": "4K+/mo",
    "verdict": "A widely reviewed steel caliper: polished stainless steel, ±0.001-inch accuracy, three units including fractions, and spare batteries and a case in the box, for about $24.",
    "pros": [
-    "12,021 reviews at 4.6 stars",
+    "12,074 reviews at 4.6 stars",
     "Stainless steel, ±0.001 in",
     "Spare batteries and case"
    ],
@@ -244,17 +244,17 @@
    "name": "NEIKO 01407A Electronic Digital Caliper, 0-6 Inches, Stainless Steel, Inch/Fraction/mm",
    "brand": "NEIKO",
    "model": "01407A",
-   "price": 27.99,
+   "price": 21.24,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 19427,
+   "reviews_count": 23183,
    "score": 86,
    "award": null,
    "best_for": "A proven steel caliper with a case.",
    "bought_last_month": null,
-   "verdict": "A long-time best seller with 19,427 reviews: stainless steel, a knurled thumb roller, three units including fractions and a case.",
+   "verdict": "A long-time best seller with 23,183 reviews: stainless steel, a knurled thumb roller, three units including fractions and a case.",
    "pros": [
-    "19,427 reviews",
+    "23,183 reviews",
     "Inch, fraction and mm",
     "Case included"
    ],
@@ -288,7 +288,7 @@
    "price": 15.18,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 8965,
+   "reviews_count": 9010,
    "score": 86,
    "award": null,
    "best_for": "General shop measuring.",
@@ -326,7 +326,7 @@
    "name": "Fowler 54-101-150-2 Xtra-Value Cal Digital Caliper, 0-6\"/150mm",
    "brand": "Fowler",
    "model": "54-101-150-2",
-   "price": 77.63,
+   "price": 77.55,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 856,
@@ -341,7 +341,7 @@
     "1-year warranty"
    ],
    "cons": [
-    "$77.63",
+    "$77.55",
     "No IP rating or fractions"
    ],
    "specs": {
@@ -370,7 +370,7 @@
    "price": 139.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 380,
+   "reviews_count": 387,
    "score": 82,
    "award": "Money No Object",
    "best_for": "Machinists who want Starrett on the bench.",
@@ -411,7 +411,7 @@
    "price": 7.64,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 38278,
+   "reviews_count": 38313,
    "score": 76,
    "award": "Best Budget",
    "best_for": "Household measuring, crafts and a junk drawer.",
@@ -419,7 +419,7 @@
    "verdict": "The most-reviewed caliper here, for under $10, and fine for rough household measuring. It's plastic and reads only to ±0.01 inch, ten times coarser than a steel caliper.",
    "pros": [
     "$7.64",
-    "38,278 reviews; 8,000+ sold last month",
+    "38,313 reviews; 8,000+ sold last month",
     "Measures inside, outside, depth and step"
    ],
    "cons": [
@@ -452,8 +452,8 @@
    "model": "VC6.0",
    "price": 5.99,
    "currency": "USD",
-   "rating": 4.6,
-   "reviews_count": 657,
+   "rating": 4.5,
+   "reviews_count": 674,
    "flag": "Sold as carbon fiber; reads only to ±0.01 in",
    "verdict": "A $6 caliper sold as carbon fiber with plastic-caliper accuracy. If you want a cheap one, the Adoric is $3 more with 60 times the reviews; if you need precision, buy steel.",
    "reasons": [
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the NEIKO 01407A dropped from $27.99 to $21.24."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Jiavarry 6 in dropped from $19.98 to $15.18; the Kynup 170 dropped from $23.98 to $18.79; the iGAGING Absolute Origin dropped from $47.77 to $38.21."

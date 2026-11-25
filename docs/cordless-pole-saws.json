@@ -6,7 +6,7 @@
  "title": "The 10 Best Cordless Pole Saws",
  "subtitle": "Battery-powered pole saws and 2-in-1 pole chainsaws for trimming high branches, ranked from live Amazon data.",
  "intro": "A cordless pole saw cuts branches high in a tree from the ground, no ladder needed. We ranked 10 best-sellers from Greenworks, EGO, CRAFTSMAN, WORX and budget brands on rating, review volume and features (12 ft or more reach, a battery in the box, auto oiling and detaching for handheld use).",
- "data_captured": "2026-11-11",
+ "data_captured": "2026-11-25",
  "audited": "2026-10-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -39,10 +39,10 @@
    "name": "Supstable 2-in-1 Pole Saw and Mini Chainsaw, 8/6\" Bars, 16 ft Reach, 2 x 4.0Ah (S5 Sky)",
    "brand": "Supstable",
    "model": "S5 Sky",
-   "price": 122.99,
+   "price": 108.29,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 5231,
+   "reviews_count": 5304,
    "score": 95,
    "award": "Best Overall",
    "best_for": "Tall trees on a budget.",
@@ -51,7 +51,7 @@
    "pros": [
     "Up to 16 ft reach",
     "Two bars, two batteries",
-    "5,231 reviews"
+    "5,304 reviews"
    ],
    "cons": [
     "Unknown brand",
@@ -75,6 +75,47 @@
   },
   {
    "rank": 2,
+   "asin": "B0D91VSS5P",
+   "name": "SEESII 2-in-1 Cordless Pole Saw and 6-Inch Mini Chainsaw, 10 ft Reach, 2 Batteries (P6 Plus)",
+   "brand": "SEESII",
+   "model": "P6 Plus",
+   "price": 82.49,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 5846,
+   "score": 89,
+   "award": "Best Budget",
+   "best_for": "Budget buyers pruning branches within 10 feet of the ground.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A budget 2-in-1 that works as a handheld mini chainsaw or a pole saw reaching about 10 feet, with automatic oiling, an adjustable cutting head and two 2.0Ah batteries.",
+   "pros": [
+    "Automatic oiling",
+    "Two batteries",
+    "Doubles as a mini chainsaw"
+   ],
+   "cons": [
+    "6 in bar",
+    "10 ft reach, shorter than most here",
+    "Brushed motor"
+   ],
+   "specs": {
+    "bar": "6 in",
+    "reach": "Reaches up to 10 ft",
+    "battery": "Two 21V 2.0Ah, included",
+    "extras": "Auto oiling, adjustable head angle; detaches as a mini chainsaw"
+   },
+   "features": {
+    "reach_12": false,
+    "battery_included": true,
+    "auto_oil": true,
+    "detaches": true
+   },
+   "image": "https://m.media-amazon.com/images/I/71bCcYIgA9L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D91VSS5P?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-pole-saws.html#B0D91VSS5P"
+  },
+  {
+   "rank": 3,
    "asin": "B0H7RW5VKS",
    "name": "TIETOC 2-in-1 Brushless Pole Saw with 8/6\" Bars, 2 x 4000mAh Batteries (MNCS-168)",
    "brand": "TIETOC",
@@ -114,47 +155,6 @@
    "page_url": "https://toolboxtop10.com/cordless-pole-saws.html#B0H7RW5VKS"
   },
   {
-   "rank": 3,
-   "asin": "B0D91VSS5P",
-   "name": "SEESII 2-in-1 Cordless Pole Saw and 6-Inch Mini Chainsaw, 10 ft Reach, 2 Batteries (P6 Plus)",
-   "brand": "SEESII",
-   "model": "P6 Plus",
-   "price": 82.49,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 1146,
-   "score": 88,
-   "award": "Best Budget",
-   "best_for": "Budget buyers pruning branches within 10 feet of the ground.",
-   "bought_last_month": "2K+/mo",
-   "verdict": "A budget 2-in-1 that works as a handheld mini chainsaw or a pole saw reaching about 10 feet, with automatic oiling, an adjustable cutting head and two 2.0Ah batteries.",
-   "pros": [
-    "Automatic oiling",
-    "Two batteries",
-    "Doubles as a mini chainsaw"
-   ],
-   "cons": [
-    "6 in bar",
-    "10 ft reach, shorter than most here",
-    "Brushed motor"
-   ],
-   "specs": {
-    "bar": "6 in",
-    "reach": "Reaches up to 10 ft",
-    "battery": "Two 21V 2.0Ah, included",
-    "extras": "Auto oiling, adjustable head angle; detaches as a mini chainsaw"
-   },
-   "features": {
-    "reach_12": false,
-    "battery_included": true,
-    "auto_oil": true,
-    "detaches": true
-   },
-   "image": "https://m.media-amazon.com/images/I/71bCcYIgA9L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D91VSS5P?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-pole-saws.html#B0D91VSS5P"
-  },
-  {
    "rank": 4,
    "asin": "B075MZ7Y6K",
    "name": "WORX 20V 10\" 2-in-1 Cordless Chainsaw and Pole Saw with Auto-Tension (WG323)",
@@ -163,7 +163,7 @@
    "price": 123.49,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 4518,
+   "reviews_count": 4520,
    "score": 86,
    "award": null,
    "best_for": "WORX owners who want one saw for the ground and the trees.",
@@ -172,7 +172,7 @@
    "pros": [
     "Chainsaw plus pole saw",
     "Auto chain tension",
-    "4,518 reviews"
+    "4,520 reviews"
    ],
    "cons": [
     "10 lb on the pole"
@@ -202,16 +202,16 @@
    "price": 179.0,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 3080,
+   "reviews_count": 3082,
    "score": 86,
    "award": null,
    "best_for": "Pruning lots of branches in one session.",
-   "bought_last_month": "300+/mo",
+   "bought_last_month": "200+/mo",
    "verdict": "A CRAFTSMAN pole saw with a big 4.0Ah battery for up to 325 cuts per charge, up to 14 feet of reach and an angled head.",
    "pros": [
     "Up to 325 cuts per charge",
     "14 ft reach",
-    "3,080 reviews"
+    "3,082 reviews"
    ],
    "cons": [
     "4.4 stars"
@@ -241,11 +241,11 @@
    "price": 389.0,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 396,
+   "reviews_count": 403,
    "score": 86,
    "award": "Money No Object",
    "best_for": "Homeowners with tall trees who want the best pole saw.",
-   "bought_last_month": "600+/mo",
+   "bought_last_month": "400+/mo",
    "verdict": "The premium pick: a telescoping carbon fiber shaft for up to 13 feet of reach, an LED that shows the cut line, and up to 100 cuts per charge.",
    "pros": [
     "Up to 13 ft reach",
@@ -280,16 +280,16 @@
    "price": 113.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 4209,
+   "reviews_count": 4257,
    "score": 85,
    "award": null,
    "best_for": "Mid-height pruning and ground cleanup.",
-   "bought_last_month": "700+/mo",
+   "bought_last_month": "800+/mo",
    "verdict": "An 8-inch SEESII 2-in-1 with a pole that telescopes from 6 to 10 feet and two batteries.",
    "pros": [
     "8 in bar",
     "Two batteries",
-    "4,209 reviews"
+    "4,257 reviews"
    ],
    "cons": [
     "10 ft pole"
@@ -319,14 +319,14 @@
    "price": 136.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 1981,
+   "reviews_count": 1984,
    "score": 84,
    "award": null,
    "best_for": "Pruning branches just out of reach.",
    "bought_last_month": "600+/mo",
    "verdict": "A popular 40V pole saw with an automatic oiler and a 3-piece aluminum shaft that extends to 9 feet, rated 4.5 stars.",
    "pros": [
-    "4.5 stars, 1,981 reviews",
+    "4.5 stars, 1,984 reviews",
     "Automatic oiler",
     "Battery included"
    ],
@@ -358,16 +358,16 @@
    "price": 159.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 3425,
+   "reviews_count": 3430,
    "score": 83,
    "award": null,
    "best_for": "Yards with both tall hedges and trees.",
-   "bought_last_month": "1K+/mo",
+   "bought_last_month": "500+/mo",
    "verdict": "Two tools on one pole: an 8-inch pole saw and a 20-inch hedge trimmer head that pivots to 7 positions, for tall hedges and branches.",
    "pros": [
     "Pole saw plus pole hedge trimmer",
     "Automatic oiler",
-    "3,425 reviews"
+    "3,430 reviews"
    ],
    "cons": [
     "4.3 stars"
@@ -397,7 +397,7 @@
    "price": 149.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 1086,
+   "reviews_count": 567,
    "score": 83,
    "award": null,
    "best_for": "Light pruning on a budget.",
@@ -406,7 +406,7 @@
    "pros": [
     "Automatic oiler",
     "Under $100",
-    "1,086 reviews"
+    "567 reviews"
    ],
    "cons": [
     "4.3 stars"
@@ -436,14 +436,14 @@
    "model": "Pole Saws for Tree Trimming",
    "price": 159.99,
    "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 237,
+   "rating": 4.2,
+   "reviews_count": 428,
    "flag": "Model number is a product description; 1,200 W claim",
    "verdict": "A DEWALT-battery pole saw whose 'model number' is just 'Pole Saws for Tree Trimming' and whose 1,200 W claim isn't backed by any runtime or cut count.",
    "reasons": [
     "The model number field reads 'Pole Saws for Tree Trimming', so there's no traceable model for parts, bars or chains later.",
     "It claims a 1,200 W brushless motor on a single 20V battery and never says how many cuts or minutes you get per charge.",
-    "It's rated 4.3 stars on 237 reviews; the CRAFTSMAN and Greenworks pole saws state their reach, runtime or oiling and have thousands of reviews."
+    "It's rated 4.2 stars on 428 reviews; the CRAFTSMAN and Greenworks pole saws state their reach, runtime or oiling and have thousands of reviews."
    ],
    "bought_last_month": null,
    "image": "https://m.media-amazon.com/images/I/717UzjTCRwL._AC_SL1500_.jpg",
@@ -474,6 +474,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Supstable S5 Sky dropped from $122.99 to $108.29."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Greenworks PSPH40B210 dropped from $220.99 to $159.99; the Greenworks PS24B210 rose from $119.68 to $149.99; the AVADA Pole Saws for Tree Trimming rose from $129.99 to $159.99."

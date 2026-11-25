@@ -6,7 +6,7 @@
  "title": "The 10 Best Cordless Hedge Trimmers",
  "subtitle": "Battery-powered hedge trimmers for shrubs and hedges, ranked from live Amazon data.",
  "intro": "A cordless hedge trimmer shapes shrubs and hedges with no cord to cut and no engine to start. We ranked 10 best-sellers from BLACK+DECKER, WORX, EGO, Greenworks, CRAFTSMAN and budget brands on rating, review volume and features (a 22-inch or longer blade, a battery in the box, 3/4-inch or bigger cut capacity and dual-action blades).",
- "data_captured": "2026-11-11",
+ "data_captured": "2026-11-25",
  "audited": "2026-10-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -28,54 +28,13 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0G64CMJJQ",
+  "best_overall": "B00602J27E",
   "best_budget": "B08J84G8J9",
   "money_no_object": "B0BRXK7NT2"
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B0G64CMJJQ",
-   "name": "KOMASTY 22\" Cordless Hedge Trimmer with 2 Batteries and Charger",
-   "brand": "KOMASTY",
-   "model": "kom-GYHT",
-   "price": 64.99,
-   "currency": "USD",
-   "rating": 4.8,
-   "reviews_count": 532,
-   "score": 98,
-   "award": "Best Overall",
-   "best_for": "Budget buyers who want full features.",
-   "bought_last_month": "300+/mo",
-   "verdict": "A budget 22-inch trimmer that cuts 3/4-inch branches with two batteries, rated 4.8 stars.",
-   "pros": [
-    "22 in blade, 3/4 in cuts",
-    "Two batteries",
-    "4.8 stars"
-   ],
-   "cons": [
-    "Small 1.5Ah batteries",
-    "532 reviews"
-   ],
-   "specs": {
-    "blade": "22 in dual-action",
-    "capacity": "3/4 in",
-    "battery": "Two 1.5Ah, included",
-    "weight": "5.25 lb",
-    "extras": "2,800 SPM"
-   },
-   "features": {
-    "blade_22_plus": true,
-    "battery_included": true,
-    "cut_3_4": true,
-    "dual_action": true
-   },
-   "image": "https://m.media-amazon.com/images/I/61Pd0nWLRoL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0G64CMJJQ?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0G64CMJJQ"
-  },
-  {
-   "rank": 2,
    "asin": "B00602J27E",
    "name": "BLACK+DECKER 20V MAX 22\" Cordless Hedge Trimmer with Battery and Charger (LHT2220)",
    "brand": "BLACK+DECKER",
@@ -83,12 +42,12 @@
    "price": 79.0,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 7395,
+   "reviews_count": 7420,
    "score": 97,
-   "award": null,
+   "award": "Best Overall",
    "best_for": "Most homeowners with hedges and shrubs.",
    "bought_last_month": "2K+/mo",
-   "verdict": "The best-selling hedge trimmer here: a 22-inch dual-action blade that cuts branches up to 3/4 inch, up to 3,000 sq ft of hedge per charge, and 4.7 stars on 7,395 reviews.",
+   "verdict": "The best-selling hedge trimmer here: a 22-inch dual-action blade that cuts branches up to 3/4 inch, up to 3,000 sq ft of hedge per charge, and 4.7 stars on 7,420 reviews.",
    "pros": [
     "4,000+ sold last month; 4.7 stars",
     "22 in blade, 3/4 in cuts",
@@ -115,6 +74,47 @@
    "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B00602J27E"
   },
   {
+   "rank": 2,
+   "asin": "B0G64CMJJQ",
+   "name": "KOMASTY 22\" Cordless Hedge Trimmer with 2 Batteries and Charger",
+   "brand": "KOMASTY",
+   "model": "kom-GYHT",
+   "price": 64.99,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 555,
+   "score": 97,
+   "award": null,
+   "best_for": "Budget buyers who want full features.",
+   "bought_last_month": "300+/mo",
+   "verdict": "A budget 22-inch trimmer that cuts 3/4-inch branches with two batteries, rated 4.7 stars.",
+   "pros": [
+    "22 in blade, 3/4 in cuts",
+    "Two batteries",
+    "4.7 stars"
+   ],
+   "cons": [
+    "Small 1.5Ah batteries",
+    "555 reviews"
+   ],
+   "specs": {
+    "blade": "22 in dual-action",
+    "capacity": "3/4 in",
+    "battery": "Two 1.5Ah, included",
+    "weight": "5.25 lb",
+    "extras": "2,800 SPM"
+   },
+   "features": {
+    "blade_22_plus": true,
+    "battery_included": true,
+    "cut_3_4": true,
+    "dual_action": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61Pd0nWLRoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0G64CMJJQ?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0G64CMJJQ"
+  },
+  {
    "rank": 3,
    "asin": "B0BRXK7NT2",
    "name": "EGO POWER+ 26\" Cordless Hedge Trimmer with 56V 2.5Ah Battery (HT2601)",
@@ -123,7 +123,7 @@
    "price": 279.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 658,
+   "reviews_count": 2037,
    "score": 96,
    "award": "Money No Object",
    "best_for": "Large or overgrown hedges.",
@@ -163,7 +163,7 @@
    "price": 99.0,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 785,
+   "reviews_count": 793,
    "score": 92,
    "award": null,
    "best_for": "CRAFTSMAN V20 owners.",
@@ -204,16 +204,16 @@
    "price": 79.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 6592,
+   "reviews_count": 6606,
    "score": 91,
    "award": null,
    "best_for": "WORX owners and anyone who wants a light 22-inch trimmer.",
-   "bought_last_month": "300+/mo",
+   "bought_last_month": "400+/mo",
    "verdict": "A light 5.5 lb WORX with a 22-inch dual-action blade and a 2.0Ah battery that fits WORX's 75+ Power Share tools.",
    "pros": [
     "5.5 lb",
     "22 in blade",
-    "6,592 reviews"
+    "6,606 reviews"
    ],
    "cons": [
     "Cut capacity not listed",
@@ -245,7 +245,7 @@
    "price": 54.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 2149,
+   "reviews_count": 2161,
    "score": 90,
    "award": "Best Budget",
    "best_for": "Budget buyers who want long runtime.",
@@ -279,45 +279,43 @@
   },
   {
    "rank": 7,
-   "asin": "B0HGRBY5M8",
-   "name": "Endutools Plus 20-Inch Cordless Hedge Trimmer with 2 x 2.0Ah Batteries and Charger",
-   "brand": "Endutools Plus",
-   "model": "MR8501",
-   "price": 47.49,
+   "asin": "B0GKNRSYHW",
+   "name": "Greenworks 24V 20\" Brushless Hedge Trimmer, 2.0Ah Battery (HT2002)",
+   "brand": "Greenworks",
+   "model": "HT2002",
+   "price": 85.0,
    "currency": "USD",
-   "rating": 4.7,
-   "reviews_count": 1061,
-   "score": 87,
+   "rating": 4.6,
+   "reviews_count": 62,
+   "score": 88,
    "award": null,
-   "best_for": "Shaping small and medium hedges with a spare battery in the box.",
-   "bought_last_month": "50+/mo",
-   "verdict": "A 20-inch kit with two 2.0Ah batteries and a rear handle that rotates 135 degrees each way for vertical and angled cuts. The listing gives a 3/5-inch cut capacity and up to 60 minutes of runtime.",
+   "best_for": "Thick shrubs in a small, light package.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A compact brushless 24V trimmer that still cuts 1.1-inch branches at 4,000 strokes per minute.",
    "pros": [
-    "Two batteries and a charger included",
-    "Rear handle rotates 270 degrees",
-    "4.7 stars across 1,061 reviews"
+    "1.1 in cut capacity",
+    "Brushless",
+    "4.6 stars"
    ],
    "cons": [
-    "20 in blade, shorter than most here",
-    "3/5 in capacity",
-    "Weight not listed"
+    "Only 62 reviews"
    ],
    "specs": {
     "blade": "20 in dual-action",
-    "capacity": "3/5 in",
-    "battery": "Two 21V 2.0Ah, included",
+    "capacity": "1.1 in",
+    "battery": "24V 2.0Ah, included",
     "weight": null,
-    "extras": "270° rotating rear handle, 2,700 SPM"
+    "extras": "Brushless, 4,000 SPM"
    },
    "features": {
     "blade_22_plus": false,
     "battery_included": true,
-    "cut_3_4": false,
+    "cut_3_4": true,
     "dual_action": true
    },
-   "image": "https://m.media-amazon.com/images/I/611FchhXH7L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HGRBY5M8?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0HGRBY5M8"
+   "image": "https://m.media-amazon.com/images/I/61v+nCE0hDL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GKNRSYHW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0GKNRSYHW"
   },
   {
    "rank": 8,
@@ -328,16 +326,16 @@
    "price": 56.98,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 1278,
+   "reviews_count": 1295,
    "score": 86,
    "award": null,
    "best_for": "Budget buyers who want brushless.",
-   "bought_last_month": "300+/mo",
+   "bought_last_month": "200+/mo",
    "verdict": "A brushless budget trimmer with two batteries the seller says give 120 minutes combined.",
    "pros": [
     "Brushless",
     "Two batteries",
-    "1,278 reviews"
+    "1,295 reviews"
    ],
    "cons": [
     "Unknown brand",
@@ -369,7 +367,7 @@
    "price": 79.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 1103,
+   "reviews_count": 1110,
    "score": 86,
    "award": null,
    "best_for": "Small shrubs and foundation plantings.",
@@ -403,43 +401,45 @@
   },
   {
    "rank": 10,
-   "asin": "B0GKNRSYHW",
-   "name": "Greenworks 24V 20\" Brushless Hedge Trimmer, 2.0Ah Battery (HT2002)",
-   "brand": "Greenworks",
-   "model": "HT2002",
-   "price": 85.0,
+   "asin": "B0HGRBY5M8",
+   "name": "Endutools Plus 20-Inch Cordless Hedge Trimmer with 2 x 2.0Ah Batteries and Charger",
+   "brand": "Endutools Plus",
+   "model": "MR8501",
+   "price": 47.49,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 50,
-   "score": 86,
+   "rating": 5.0,
+   "reviews_count": 1,
+   "score": 60,
    "award": null,
-   "best_for": "Thick shrubs in a small, light package.",
+   "best_for": "Shaping small and medium hedges with a spare battery in the box.",
    "bought_last_month": "100+/mo",
-   "verdict": "A compact brushless 24V trimmer that still cuts 1.1-inch branches at 4,000 strokes per minute.",
+   "verdict": "A 20-inch kit with two 2.0Ah batteries and a rear handle that rotates 135 degrees each way for vertical and angled cuts. The listing gives a 3/5-inch cut capacity and up to 60 minutes of runtime.",
    "pros": [
-    "1.1 in cut capacity",
-    "Brushless",
-    "4.5 stars"
+    "Two batteries and a charger included",
+    "Rear handle rotates 270 degrees",
+    "5.0 stars across 1 reviews"
    ],
    "cons": [
-    "Only 50 reviews"
+    "20 in blade, shorter than most here",
+    "3/5 in capacity",
+    "Weight not listed"
    ],
    "specs": {
     "blade": "20 in dual-action",
-    "capacity": "1.1 in",
-    "battery": "24V 2.0Ah, included",
+    "capacity": "3/5 in",
+    "battery": "Two 21V 2.0Ah, included",
     "weight": null,
-    "extras": "Brushless, 4,000 SPM"
+    "extras": "270° rotating rear handle, 2,700 SPM"
    },
    "features": {
     "blade_22_plus": false,
     "battery_included": true,
-    "cut_3_4": true,
+    "cut_3_4": false,
     "dual_action": true
    },
-   "image": "https://m.media-amazon.com/images/I/61v+nCE0hDL._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0GKNRSYHW?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0GKNRSYHW"
+   "image": "https://m.media-amazon.com/images/I/611FchhXH7L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0HGRBY5M8?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/cordless-hedge-trimmers.html#B0HGRBY5M8"
   }
  ],
  "avoid": [
@@ -451,7 +451,7 @@
    "price": 29.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 185,
+   "reviews_count": 210,
    "flag": "No blade length or cut capacity listed; 600 W claim",
    "verdict": "A $20 handheld shear sold as a hedge trimmer, with no blade length or cutting capacity anywhere in the listing.",
    "reasons": [
@@ -488,6 +488,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Prices, ratings and review counts re-checked on every listing. No price changes."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Greenworks HT2002 dropped from $129.99 to $85; the Endutools Plus MR8501 dropped from $69.99 to $47.49; the BLACK+DECKER LHT2220 dropped from $99 to $79."

@@ -6,7 +6,7 @@
  "title": "The 10 Best Wet Tile Saws",
  "subtitle": "7-inch tabletop, 10-inch sliding and handheld wet saws for ceramic, porcelain and stone, ranked from live Amazon data.",
  "intro": "A wet tile saw cuts ceramic, porcelain and stone cleanly with a water-cooled diamond blade that keeps dust down and the blade from overheating. We ranked 10 best-sellers on rating, review volume and features (a sliding cutting cart, capacity for 18-inch tile or larger, water containment and a stand). 7-inch tabletop saws handle backsplashes and bathroom floors; 10-inch sliding saws cut large-format porcelain and planks dead straight. They run from about $101 for VEVOR's 7-inch to $1,379 for DEWALT's D36000S.",
- "data_captured": "2026-11-15",
+ "data_captured": "2026-11-25",
  "audited": "2026-11-08",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -29,7 +29,7 @@
  },
  "picks": {
   "best_overall": "B000J0BG7W",
-  "best_budget": null,
+  "best_budget": "B003HIWR08",
   "money_no_object": "B08526D2PK"
  },
  "products": [
@@ -46,7 +46,7 @@
    "score": 97,
    "award": "Best Overall",
    "best_for": "Tile setters and serious remodels.",
-   "bought_last_month": "100+/mo",
+   "bought_last_month": "50+/mo",
    "verdict": "The highest-rated tile saw here and the pro standard: a 10-inch sliding saw on a stand that cuts within 1/32 inch over 18 inches, with a porcelain blade and submersible pump included.",
    "pros": [
     "4.7 stars",
@@ -83,7 +83,7 @@
    "price": 1379.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 440,
+   "reviews_count": 441,
    "score": 96,
    "award": "Money No Object",
    "best_for": "Large-format tile and planks.",
@@ -124,7 +124,7 @@
    "price": 829.9,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 108,
+   "reviews_count": 109,
    "score": 88,
    "award": null,
    "best_for": "A 10-inch sliding saw if you won't pay for DEWALT.",
@@ -203,10 +203,10 @@
    "name": "Makita XCC01Z 18V LXT Brushless Cordless 5\" Wet/Dry Masonry Saw, Tool Only",
    "brand": "Makita",
    "model": "XCC01Z",
-   "price": 280.0,
+   "price": 284.0,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 169,
+   "reviews_count": 170,
    "score": 84,
    "award": null,
    "best_for": "Pros cutting masonry and tile with no cord or hose to the wall.",
@@ -219,7 +219,7 @@
    ],
    "cons": [
     "Tool only",
-    "$280"
+    "$284"
    ],
    "specs": {
     "type": "Cordless handheld wet/dry",
@@ -244,7 +244,7 @@
    "name": "Skil 3550-02 7-Inch Wet Tile Saw with HydroLock Water Containment System",
    "brand": "SKIL",
    "model": "3550-02",
-   "price": 169.0,
+   "price": 139.0,
    "currency": "USD",
    "rating": 4.2,
    "reviews_count": 1861,
@@ -260,7 +260,7 @@
    ],
    "cons": [
     "4.2 stars",
-    "$169.00"
+    "$139.00"
    ],
    "specs": {
     "type": "7 in tabletop",
@@ -285,10 +285,10 @@
    "name": "DEWALT Wet Tile Saw, Masonry, 4-3/8-Inch (DWC860W)",
    "brand": "DEWALT",
    "model": "DWC860W",
-   "price": 160.0,
+   "price": 169.99,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 1290,
+   "reviews_count": 1293,
    "score": 80,
    "award": null,
    "best_for": "Notches, installed tile, granite and countertops.",
@@ -326,17 +326,17 @@
    "name": "SKIL 7-Inch Wet Tile Saw (3540-02)",
    "brand": "SKIL",
    "model": "3540-02",
-   "price": 109.0,
+   "price": 79.0,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 6507,
+   "reviews_count": 6506,
    "score": 75,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "Bathrooms, backsplashes and 12-inch floor tile.",
    "bought_last_month": null,
-   "verdict": "The most-reviewed tile saw here by a wide margin: a 7-inch tabletop with a corrosion-resistant stainless steel top, a rip fence and miter gauge, a water reservoir and 0-45° bevels, for about $109.",
+   "verdict": "The most-reviewed tile saw here by a wide margin: a 7-inch tabletop with a corrosion-resistant stainless steel top, a rip fence and miter gauge, a water reservoir and 0-45° bevels, for about $79.",
    "pros": [
-    "6,507 reviews at 4.4 stars",
+    "6,506 reviews at 4.4 stars",
     "Stainless steel top",
     "Rip fence, miter gauge, 45° bevel"
    ],
@@ -411,7 +411,7 @@
    "price": 113.9,
    "currency": "USD",
    "rating": 4.1,
-   "reviews_count": 108,
+   "reviews_count": 109,
    "score": 72,
    "award": null,
    "best_for": "One small tiling job on a budget.",
@@ -423,7 +423,7 @@
     "Reset safety switch"
    ],
    "cons": [
-    "108 reviews",
+    "109 reviews",
     "4.1 stars"
    ],
    "specs": {
@@ -490,6 +490,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the SKIL 3540-02 dropped from $109 to $79; the SKIL 3550-02 dropped from $169 to $139."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices re-checked on 5 of 11 listings. Biggest price moves: the Hoteche 8 in with stand dropped from $309.99 to $263.49; the VEVOR TC180 rose from $100.99 to $113.90."

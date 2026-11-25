@@ -6,7 +6,7 @@
  "title": "The 10 Best Tap and Die Sets",
  "subtitle": "SAE and metric tap and die sets for cutting and repairing threads, ranked from live Amazon data.",
  "intro": "A tap and die set cuts new threads and cleans up damaged ones on bolts and holes. We ranked 10 best-sellers from GEARWRENCH, OMT, EFFICERE and value brands on rating, review volume and features (metric and SAE sizes, ratcheting handles, a thread pitch gauge and sizes past 1/2 inch).",
- "data_captured": "2026-11-15",
+ "data_captured": "2026-11-25",
  "audited": "2026-10-10",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -30,7 +30,7 @@
  "picks": {
   "best_overall": "B000HBDW48",
   "best_budget": "B00NY5K9P4",
-  "money_no_object": "B0C338LLFC"
+  "money_no_object": null
  },
  "products": [
   {
@@ -39,17 +39,17 @@
    "name": "GEARWRENCH 77-Piece SAE/Metric Ratcheting Tap and Die Set (3887)",
    "brand": "GEARWRENCH",
    "model": "3887",
-   "price": 159.99,
+   "price": 169.0,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 2290,
+   "reviews_count": 4663,
    "score": 88,
    "award": "Best Overall",
    "best_for": "Mechanics who cut and chase threads often.",
    "bought_last_month": "300+/mo",
    "verdict": "The best-rated set here at 4.7 stars: ratcheting T-handles that wind taps and dies with a 5-degree swing, and a Twist Lock guide that keeps dies centered so threads start straight.",
    "pros": [
-    "4.7 stars; 2,290 reviews",
+    "4.7 stars; 4,663 reviews",
     "Ratcheting handles",
     "Die guide keeps threads straight"
    ],
@@ -123,7 +123,7 @@
    "price": 29.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 1136,
+   "reviews_count": 1137,
    "score": 86,
    "award": "Best Budget",
    "best_for": "Occasional thread repair on a budget.",
@@ -163,7 +163,7 @@
    "price": 47.99,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 1073,
+   "reviews_count": 1076,
    "score": 86,
    "award": null,
    "best_for": "Mechanics who want spare handles.",
@@ -172,7 +172,7 @@
    "pros": [
     "Two pitch gauges",
     "Two of each wrench",
-    "1,073 reviews"
+    "1,076 reviews"
    ],
    "cons": [
     "4.4 stars"
@@ -203,11 +203,11 @@
    "price": 161.49,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 813,
+   "reviews_count": 821,
    "score": 86,
-   "award": "Money No Object",
+   "award": null,
    "best_for": "Shops that drill and tap new holes regularly.",
-   "bought_last_month": "500+/mo",
+   "bought_last_month": "600+/mo",
    "verdict": "A big ratcheting set that includes the correct drill bit for each tap, in a drawer case, so you don't hunt for tap drill sizes.",
    "pros": [
     "Tap drill bits included",
@@ -244,7 +244,7 @@
    "price": 119.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 310,
+   "reviews_count": 311,
    "score": 86,
    "award": null,
    "best_for": "Mechanics who need both starting and bottoming threads.",
@@ -256,7 +256,7 @@
     "4.6 stars"
    ],
    "cons": [
-    "Only 310 reviews"
+    "Only 311 reviews"
    ],
    "specs": {
     "pieces": "110 (35 taper taps, 35 plug taps, 35 dies)",
@@ -288,7 +288,7 @@
    "score": 85,
    "award": null,
    "best_for": "Mechanics dealing with broken studs as well as damaged threads.",
-   "bought_last_month": "100+/mo",
+   "bought_last_month": "200+/mo",
    "verdict": "A tap and die set that also includes five screw extractors and a center punch for removing broken bolts.",
    "pros": [
     "Screw extractors included",
@@ -324,7 +324,7 @@
    "price": 74.32,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 547,
+   "reviews_count": 555,
    "score": 84,
    "award": null,
    "best_for": "Budget shops that want lots of sizes.",
@@ -364,14 +364,14 @@
    "price": 39.85,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 4092,
+   "reviews_count": 4093,
    "score": 82,
    "award": null,
    "best_for": "DIYers and mechanics who want both systems for a fair price.",
-   "bought_last_month": "900+/mo",
-   "verdict": "A 60-piece SAE and metric set in GCr15 bearing steel hardened to 60 HRC, rated 4.5 stars on 4,092 reviews.",
+   "bought_last_month": "800+/mo",
+   "verdict": "A 60-piece SAE and metric set in GCr15 bearing steel hardened to 60 HRC, rated 4.5 stars on 4,093 reviews.",
    "pros": [
-    "4,092 reviews",
+    "4,093 reviews",
     "Coarse and fine threads",
     "60 HRC"
    ],
@@ -404,14 +404,14 @@
    "price": 25.45,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 4791,
+   "reviews_count": 4789,
    "score": 80,
    "award": null,
    "best_for": "Anyone working on American-made equipment.",
-   "bought_last_month": "100+/mo",
+   "bought_last_month": "200+/mo",
    "verdict": "An SAE-only set with coarse, fine and a 1/8-inch NPT pipe thread, and the most reviews here at 4,791.",
    "pros": [
-    "4,791 reviews",
+    "4,789 reviews",
     "Includes NPT",
     "Meets ANSI/ASME B1.1"
    ],
@@ -482,6 +482,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Anfrere 80-piece dropped from $62.99 to $47.99; the EFFICERE 60-piece dropped from $49.99 to $39.85; the VEVOR 116-piece dropped from $88.90 to $74.32."

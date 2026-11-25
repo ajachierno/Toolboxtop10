@@ -6,7 +6,7 @@
  "title": "The 10 Best Air Compressors",
  "subtitle": "Pancake, portable and upright shop compressors for nailers, tires and air tools, ranked from live Amazon data.",
  "intro": "A shop air compressor stores air in a tank so it can run nail guns, inflate tires, blow off parts and power air tools. The number that matters most is airflow (CFM at 90 PSI): small pancakes run brad and finish nailers, and bigger tanks with more CFM keep up with framing nailers, impact wrenches and spray guns. We ranked 10 best-sellers on rating, review volume and features (4+ CFM, 150+ PSI, quiet operation, wheels and an accessory kit). They run from about $140 for a 2-gallon hot dog to $400 for a 29-gallon upright. Tire inflators are left out.",
- "data_captured": "2026-11-15",
+ "data_captured": "2026-11-25",
  "audited": "2026-11-15",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -29,56 +29,13 @@
   "method_url": "https://toolboxtop10.com/about.html"
  },
  "picks": {
-  "best_overall": "B0D95VWQB7",
+  "best_overall": "B0DD36XCXB",
   "best_budget": "B0BV644LGX",
-  "money_no_object": "B0DD36XCXB"
+  "money_no_object": null
  },
  "products": [
   {
    "rank": 1,
-   "asin": "B0D95VWQB7",
-   "name": "Klutch 20-Gallon Air Compressor, 2 HP, 120V",
-   "brand": "Klutch",
-   "model": "20-gal 2 HP",
-   "price": 279.99,
-   "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 793,
-   "score": 88,
-   "award": "Best Overall",
-   "best_for": "Garage air tools: impact wrenches, framing nailers and blow guns.",
-   "bought_last_month": "800+/mo",
-   "verdict": "A 20-gallon garage compressor on big rubber wheels: 175 PSI and 4.2 SCFM for impact wrenches, framing nailers and longer air-tool runs, with a 2-year warranty.",
-   "pros": [
-    "20-gallon tank, 175 PSI",
-    "Large rubber wheels and handle",
-    "2-year warranty"
-   ],
-   "cons": [
-    "The bullets say 4.2 SCFM; the spec table says 5.2 CFM",
-    "90 lbs"
-   ],
-   "specs": {
-    "tank": "20 gal portable",
-    "cfm": "4.2 SCFM",
-    "psi": "175 PSI",
-    "hp": "2 HP",
-    "noise": null,
-    "weight": "90 lb"
-   },
-   "features": {
-    "high_cfm": true,
-    "high_psi": true,
-    "quiet": false,
-    "wheels": true,
-    "accessory_kit": false
-   },
-   "image": "https://m.media-amazon.com/images/I/61BDfEqoS3L._AC_SL1500_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0D95VWQB7?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/air-compressors.html#B0D95VWQB7"
-  },
-  {
-   "rank": 2,
    "asin": "B0DD36XCXB",
    "name": "Klutch 29-Gallon Air Compressor, 2.5 HP, 120V, 175 PSI, 5.1 CFM at 90 PSI",
    "brand": "Klutch",
@@ -86,9 +43,9 @@
    "price": 399.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 793,
+   "reviews_count": 799,
    "score": 88,
-   "award": "Money No Object",
+   "award": "Best Overall",
    "best_for": "Continuous air tools and spray painting on household 120V power.",
    "bought_last_month": "300+/mo",
    "verdict": "The biggest compressor here that still runs on a normal 120V outlet: 29 gallons, 5.1 SCFM and 175 PSI, on flat-free tires. It keeps up with continuous air-tool use and spray painting.",
@@ -121,6 +78,49 @@
    "page_url": "https://toolboxtop10.com/air-compressors.html#B0DD36XCXB"
   },
   {
+   "rank": 2,
+   "asin": "B0D95VWQB7",
+   "name": "Klutch 20-Gallon Air Compressor, 2 HP, 120V",
+   "brand": "Klutch",
+   "model": "20-gal 2 HP",
+   "price": 279.99,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 798,
+   "score": 88,
+   "award": null,
+   "best_for": "Garage air tools: impact wrenches, framing nailers and blow guns.",
+   "bought_last_month": "900+/mo",
+   "verdict": "A 20-gallon garage compressor on big rubber wheels: 175 PSI and 4.2 SCFM for impact wrenches, framing nailers and longer air-tool runs, with a 2-year warranty.",
+   "pros": [
+    "20-gallon tank, 175 PSI",
+    "Large rubber wheels and handle",
+    "2-year warranty"
+   ],
+   "cons": [
+    "The bullets say 4.2 SCFM; the spec table says 5.2 CFM",
+    "90 lbs"
+   ],
+   "specs": {
+    "tank": "20 gal portable",
+    "cfm": "4.2 SCFM",
+    "psi": "175 PSI",
+    "hp": "2 HP",
+    "noise": null,
+    "weight": "90 lb"
+   },
+   "features": {
+    "high_cfm": true,
+    "high_psi": true,
+    "quiet": false,
+    "wheels": true,
+    "accessory_kit": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61BDfEqoS3L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0D95VWQB7?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/air-compressors.html#B0D95VWQB7"
+  },
+  {
    "rank": 3,
    "asin": "B0FB2T1NNF",
    "name": "VEVOR 13-Gallon Air Compressor, 2HP, 4.6 SCFM@90PSI, Oil-Free, 66dB Quiet",
@@ -129,7 +129,7 @@
    "price": 200.52,
    "currency": "USD",
    "rating": 4.4,
-   "reviews_count": 241,
+   "reviews_count": 264,
    "score": 87,
    "award": null,
    "best_for": "Air tools in an attached garage, where 66 dB keeps the peace.",
@@ -172,7 +172,7 @@
    "price": 189.99,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 953,
+   "reviews_count": 954,
    "score": 86,
    "award": null,
    "best_for": "Quiet indoor nailing and inflation, with a hose and fittings included.",
@@ -214,17 +214,17 @@
    "model": "EC914S",
    "price": 219.83,
    "currency": "USD",
-   "rating": 4.5,
-   "reviews_count": 1534,
+   "rating": 4.4,
+   "reviews_count": 1537,
    "score": 84,
    "award": null,
    "best_for": "Running framing and roofing nailers from a pancake you can carry.",
-   "bought_last_month": "500+/mo",
+   "bought_last_month": "600+/mo",
    "verdict": "The pancake compressor pros use: 200 PSI and 4 CFM from a 6-gallon tank, enough to run two framing nailers or five brad nailers at once per Metabo HPT, at 42 lbs. The most-reviewed compressor on the page.",
    "pros": [
     "200 PSI and 4 CFM at 90 PSI, the most of any pancake here",
     "Runs 2 framing or 5 brad nailers at once, per Metabo HPT",
-    "1,534 reviews, the most here"
+    "1,537 reviews, the most here"
    ],
    "cons": [
     "Loud; Metabo HPT doesn't publish a noise rating",
@@ -256,14 +256,14 @@
    "name": "ECOMAX 6 Gallon 150 PSI Pancake Oil-Free Air Compressor with 10-Piece Accessory Kit",
    "brand": "ECOMAX",
    "model": "0210673A",
-   "price": 169.99,
+   "price": 189.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 340,
+   "reviews_count": 342,
    "score": 84,
    "award": null,
    "best_for": "Starting from nothing: a pancake with a 25 ft hose and fittings included.",
-   "bought_last_month": "800+/mo",
+   "bought_last_month": "700+/mo",
    "verdict": "The best-rated compressor here and the best-selling pancake: 150 PSI, a 6-gallon tank, dual couplers and a 25 ft hose with a blow gun, tire chuck and gauge in the box.",
    "pros": [
     "4.6 stars, the best rating here",
@@ -346,7 +346,7 @@
    "price": 143.9,
    "currency": "USD",
    "rating": 4.3,
-   "reviews_count": 685,
+   "reviews_count": 686,
    "score": 77,
    "award": "Best Budget",
    "best_for": "More airflow than a pancake at the same price, on casters.",
@@ -389,7 +389,7 @@
    "price": 139.99,
    "currency": "USD",
    "rating": 4.0,
-   "reviews_count": 236,
+   "reviews_count": 245,
    "score": 75,
    "award": null,
    "best_for": "Carrying around: a 19 lb compressor for trim nailers and tires.",
@@ -436,7 +436,7 @@
    "score": 75,
    "award": null,
    "best_for": "Brad and finish nailers, tires and blow-off around the home shop.",
-   "bought_last_month": null,
+   "bought_last_month": "200+/mo",
    "verdict": "A 6-gallon pancake from a name brand: 150 PSI, 2.6 SCFM at 90 PSI, two quick couplers and a low-voltage start motor at 30.8 lbs. This listing adds a 25-ft hose.",
    "pros": [
     "150 PSI from a 6-gallon pancake",
@@ -475,14 +475,14 @@
    "model": "MZB-1100H-50-A",
    "price": 219.99,
    "currency": "USD",
-   "rating": 5.0,
-   "reviews_count": 6,
+   "rating": 3.9,
+   "reviews_count": 49,
    "flag": "Claims 14.83 CFM and 3 HP from a 110V outlet",
    "verdict": "A 13-gallon compressor sold on an airflow figure no 110V compressor can deliver. The VEVOR 13-gallon costs about $16 more, publishes a believable 4.6 SCFM, and is rated 66 dB.",
    "reasons": [
     "The spec table claims 14.83 CFM and 3 HP. The 2.5 HP, 29-gallon Klutch on this page delivers 5.1 SCFM on the same household power; a standard 120V circuit can't run a motor that makes three times that.",
     "The bullet points promise \"high airflow\" but never give a CFM figure at 90 PSI, the number that tells you which tools it can run.",
-    "It's rated 5.0 stars, the lowest of any compressor we considered, and its 115 PSI maximum is lower than every pick here."
+    "It's rated 3.9 stars, the lowest of any compressor we considered, and its 115 PSI maximum is lower than every pick here."
    ],
    "bought_last_month": null,
    "image": "https://m.media-amazon.com/images/I/717HNKvPg2L._AC_SL1500_.jpg",
@@ -513,6 +513,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the ECOMAX 0210673A rose from $169.99 to $189.99."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the VEVOR DOF1500-50V-I dropped from $235.90 to $200.52; the CRAFTSMAN CMXECXA0210641C rose from $198.88 to $219.99; the ECOMAX 0210673A dropped from $189.99 to $169.99."
