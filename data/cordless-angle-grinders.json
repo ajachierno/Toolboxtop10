@@ -4,8 +4,9 @@
   "subtitle": "Battery-powered angle grinders ranked from live Amazon data — cutting, grinding, and polishing power without a cord.",
   "intro": "An angle grinder is the tool that cuts, grinds, deburrs, and polishes metal, tile, and masonry, and a cordless one lets you use it anywhere a cord can't reach. Most of the best-sellers here ship as a bare tool with no battery, so check whether a pick is tool-only or a ready-to-use kit, and which battery platform it rides. A grinder spins a 4-1/2\" to 5\" wheel fast enough to throw sparks and kick back hard if it binds, so weigh safety features like a kickback brake or electronic clutch alongside price and power.",
   "data_captured": "2026-11-25",
-  "audited": "2026-10-31",
+  "audited": "2026-11-25",
   "changelog": [
+    {"date": "2026-11-25", "note": "The Runful 12V mini grinder, our previous tool to avoid, is no longer listed on Amazon. The TEENO 3-inch mini grinder kit replaces it. All 10 picks kept."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on 9 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-11-25", "note": "Prices re-checked on 9 of 11 listings. Biggest price moves: the AOBEN AT-102D dropped from $79.99 to $55.56."},
     {"date": "2026-11-16", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Runful Cordless angle grinder (12V) dropped from $23.99 to $17.99."},
@@ -184,26 +185,25 @@
     }
   ],
   "avoid": [
-      {
-          "asin": "B0GWN21ZHG",
-          "name": "Runful 4000mAh Battery Angle Grinder, 19500RPM Cordless Mini Angle Grinder with Battery",
-          "brand": "Runful",
-          "model": "Cordless angle grinder (12V)",
-          "image": "https://m.media-amazon.com/images/I/81TSnEbIaZL._AC_SL1500_.jpg",
-          "price_checked": "2026-11-16",
-          "price": 17.99,
-          "rating": 2.8,
-          "reviews_count": 28,
-          "flag": "Battery and motor claims contradict the spec table",
-          "verdict": "A 12V mini grinder whose listing can't agree with itself: the title promises a 4,000mAh battery and a brushless motor, the spec table lists 10 watt-hours and 5 watts. At 2.8 stars with 45% one-star ratings, any real 18V/20V grinder above is the better buy.",
-          "reasons": [
-              "The title advertises a 4,000mAh battery, but the spec table lists 10 watt-hours. A 12V pack of that size would hold about 48 watt-hours, so one of the two figures is wrong.",
-              "The title calls it brushless; nothing in the bullets or the spec table backs that up, and the table rates the motor at 5 watts.",
-              "The listing itself says a full 3-hour charge gives about 20 minutes of work and advises against using it for long periods.",
-              "Changing the wheel means removing a screw with a screwdriver rather than a spindle lock and flange wrench, and the listing gives no wheel size.",
-              "45% of its 28 ratings are 1-star (2.8 stars overall)."
-          ]
-      }
+    {
+      "asin": "B0FW4ZM7B4",
+      "name": "TEENO Cordless Mini Angle Grinder Kit, 3-Inch, 19,500 RPM, 2 x 16.8V 2000mAh Batteries, 6 Discs",
+      "brand": "TEENO",
+      "model": "T-3608",
+      "image": "https://m.media-amazon.com/images/I/91QEpZ2rfIL._AC_SL1500_.jpg",
+      "price": 31.99,
+      "rating": 4.0,
+      "reviews_count": 949,
+      "flag": "3-inch discs and a spec table that contradicts itself",
+      "verdict": "A 3-inch mini cut-off tool sold under the angle grinder name. It can't take the 4-1/2 inch wheels every other grinder here uses, and its own spec table lists the wrong voltage.",
+      "reasons": [
+        "It takes 3-inch discs. Standard 4-1/2 inch grinding, cutting and flap wheels, the size every pick above uses, won't fit.",
+        "The listing says it cuts up to 1/2 inch deep, which rules out thicker stock and pipe a full-size grinder handles.",
+        "The spec table lists 120 volts for a tool that runs on 16.8V battery packs, and gives its horsepower as \"350 watts\".",
+        "The 16.8V packs don't fit any other tool line, so the batteries are only good for this grinder.",
+        "For about $59, the CRAFTSMAN CMCG400B or RYOBI PCL445B bare tools take full-size wheels on a battery platform with hundreds of other tools."
+      ]
+    }
   ],
   "buyers_guide": [
     { "q": "Bare tool or kit?", "a": "A bare tool ships with no battery or charger — worth it if you already own the brand's batteries, useless out of the box if you don't. A kit includes batteries, a charger, and usually a set of wheels. Each pick above says which." },
