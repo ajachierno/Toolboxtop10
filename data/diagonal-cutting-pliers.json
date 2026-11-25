@@ -6,6 +6,7 @@
   "data_captured": "2026-11-16",
   "audited": "2026-11-16",
   "changelog": [
+    {"date": "2026-11-25", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Channellock 337 rose from $24.95 to $27.93."},
     {
       "date": "2026-11-16",
       "note": "Page published with 10 ranked picks and 1 tool to avoid."
@@ -73,6 +74,7 @@
       "brand": "CRAFTSMAN",
       "model": "CMHT81647",
       "image": "https://m.media-amazon.com/images/I/61FCt+cyuJL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-25",
       "price": 9.98,
       "rating": 4.8,
       "reviews_count": 1369,
@@ -110,6 +112,7 @@
       "brand": "Klein Tools",
       "model": "D248-9ST",
       "image": "https://m.media-amazon.com/images/I/31A--+l-v9L._AC_SL1000_.jpg",
+      "price_checked": "2026-11-25",
       "price": 30.98,
       "rating": 4.8,
       "reviews_count": 6226,
@@ -148,7 +151,8 @@
       "brand": "WORKPRO",
       "model": "W031271",
       "image": "https://m.media-amazon.com/images/I/61JhUG4vEFL._AC_SL1500_.jpg",
-      "price": 12.99,
+      "price_checked": "2026-11-25",
+      "price": 11.96,
       "rating": 4.6,
       "reviews_count": 3472,
       "bought": "3K+/mo",
@@ -171,7 +175,7 @@
       "pros": [
         "3K+ bought last month",
         "Edge hardness listed at up to 65 HRC",
-        "$12.99",
+        "$11.96",
         "Bi-material comfort grip"
       ],
       "cons": [
@@ -185,7 +189,8 @@
       "brand": "KNIPEX",
       "model": "70 01 160",
       "image": "https://m.media-amazon.com/images/I/71uqrt3tTJL._AC_SL1500_.jpg",
-      "price": 25.0,
+      "price_checked": "2026-11-25",
+      "price": 25.00,
       "rating": 4.8,
       "reviews_count": 1197,
       "bought": "600+/mo",
@@ -222,7 +227,8 @@
       "brand": "IRWIN",
       "model": "2078306",
       "image": "https://m.media-amazon.com/images/I/51SLUcFEgNL._AC_SL1500_.jpg",
-      "price": 12.0,
+      "price_checked": "2026-11-25",
+      "price": 11.99,
       "rating": 4.7,
       "reviews_count": 11239,
       "bought": "800+/mo",
@@ -244,7 +250,7 @@
       "skip_if": "You need extra reach or leverage for thick wire.",
       "pros": [
         "11,239 reviews at 4.7 stars, 800+ bought last month",
-        "$12",
+        "$11.99",
         "Induction-hardened cutting edge",
         "Meets or exceeds ANSI specifications"
       ],
@@ -259,7 +265,8 @@
       "brand": "Klein Tools",
       "model": "D228-8",
       "image": "https://m.media-amazon.com/images/I/3178wTKG6GL._AC_SL1000_.jpg",
-      "price": 29.04,
+      "price_checked": "2026-11-25",
+      "price": 29.47,
       "rating": 4.8,
       "reviews_count": 1354,
       "bought": "400+/mo",
@@ -286,7 +293,7 @@
         "Made in USA"
       ],
       "cons": [
-        "$29.04",
+        "$29.47",
         "Plastic-dipped handles, not cushioned",
         "Sold by a third-party seller when we checked"
       ]
@@ -298,7 +305,8 @@
       "brand": "KNIPEX",
       "model": "74 22 200",
       "image": "https://m.media-amazon.com/images/I/51p2YmNvz7L._AC_SL1500_.jpg",
-      "price": 40.5,
+      "price_checked": "2026-11-25",
+      "price": 40.50,
       "rating": 4.8,
       "reviews_count": 1728,
       "bought": "1K+/mo",
@@ -335,6 +343,7 @@
       "brand": "Crescent",
       "model": "PS5429C",
       "image": "https://m.media-amazon.com/images/I/71EK92bD1PL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-25",
       "price": 14.97,
       "rating": 4.6,
       "reviews_count": 3000,
@@ -372,6 +381,7 @@
       "brand": "Klein Tools",
       "model": "D275-5",
       "image": "https://m.media-amazon.com/images/I/41THaVNOLmL._AC_SL1000_.jpg",
+      "price_checked": "2026-11-25",
       "price": 12.97,
       "rating": 4.6,
       "reviews_count": 7873,
@@ -409,7 +419,8 @@
       "brand": "Channellock",
       "model": "337",
       "image": "https://m.media-amazon.com/images/I/61AFSlBFzqL._AC_SL1500_.jpg",
-      "price": 24.95,
+      "price_checked": "2026-11-25",
+      "price": 27.93,
       "rating": 4.8,
       "reviews_count": 2207,
       "bought": "200+/mo",
@@ -435,7 +446,7 @@
         "Comfortable grip with balanced weight"
       ],
       "cons": [
-        "$24.95 for a standard joint",
+        "$27.93 for a standard joint",
         "The listing doesn't say the edges are induction hardened",
         "Sold by a third-party seller when we checked"
       ]
@@ -448,7 +459,8 @@
       "brand": "BOENFU",
       "model": "BF-22",
       "image": "https://m.media-amazon.com/images/I/51M1SAgOEdL._AC_SL1500_.jpg",
-      "price": 6.97,
+      "price_checked": "2026-11-25",
+      "price": 6.75,
       "rating": 4.4,
       "reviews_count": 7102,
       "flag": "Sold as \"heavy duty\", but it's a spring-loaded craft flush cutter",

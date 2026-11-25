@@ -6,6 +6,7 @@
   "data_captured": "2026-11-16",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-25", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Ingersoll Rand 107XPA dropped from $133.83 to $94.98; the Dynamic Power 43237-2 dropped from $30.99 to $24.79; the AEROPRO AP17411 dropped from $42.99 to $34.39."},
     {"date": "2026-11-16", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Ingersoll Rand 109XPA dropped from $215.92 to $189.97; the Ingersoll Rand 105-D2 dropped from $123.69 to $109.99."},
     {"date": "2026-11-16", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Ingersoll Rand 105-D2 rose from $102.51 to $123.69; the Ingersoll Rand 1077XPA rose from $109.90 to $129.90; the Ingersoll Rand 109XPA rose from $191.18 to $215.92."},
     {"date": "2026-11-13", "note": "Replaced the AIRCAT 805-HT, which Amazon no longer offers, with the AIRCAT 807 mini palm ratchet ($94.00, 4.5 stars from 286 reviews)."},
@@ -79,7 +80,7 @@
       "brand": "Ingersoll Rand",
       "model": "170G",
       "image": "https://m.media-amazon.com/images/I/614SL-JmdQL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 99.99,
       "rating": 4.6,
       "reviews_count": 1021,
@@ -116,8 +117,8 @@
       "brand": "Ingersoll Rand",
       "model": "107XPA",
       "image": "https://m.media-amazon.com/images/I/51s+8jOSFGL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 133.83,
+      "price_checked": "2026-11-25",
+      "price": 94.98,
       "rating": 4.6,
       "reviews_count": 532,
       "specs": {
@@ -142,7 +143,7 @@
         "360° exhaust"
       ],
       "cons": [
-        "$133.83",
+        "$94.98",
         "54 ft-lb"
       ]
     },
@@ -152,7 +153,7 @@
       "brand": "Ingersoll Rand",
       "model": "1077XPA",
       "image": "https://m.media-amazon.com/images/I/61v4wlqDdWL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 129.90,
       "rating": 4.6,
       "reviews_count": 532,
@@ -188,8 +189,8 @@
       "brand": "Dynamic Power",
       "model": "43237-2",
       "image": "https://m.media-amazon.com/images/I/61Tz8YVkpOL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 30.99,
+      "price_checked": "2026-11-25",
+      "price": 24.79,
       "rating": 4.4,
       "reviews_count": 919,
       "bought": "100+/mo",
@@ -210,7 +211,7 @@
       "best_for": "Occasional use on a budget.",
       "skip_if": "You use it daily; Ingersoll Rand lasts longer.",
       "pros": [
-        "$30.99",
+        "$24.79",
         "919 reviews at 4.4 stars",
         "2.6 lbs"
       ],
@@ -225,7 +226,7 @@
       "brand": "CRAFTSMAN",
       "model": "CMXPTSG1007NB",
       "image": "https://m.media-amazon.com/images/I/61dBMH67VQL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 69.99,
       "rating": 4.6,
       "reviews_count": 252,
@@ -261,8 +262,8 @@
       "brand": "AEROPRO",
       "model": "AP17411",
       "image": "https://m.media-amazon.com/images/I/41WqdX+3GFL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 42.99,
+      "price_checked": "2026-11-25",
+      "price": 34.39,
       "rating": 4.3,
       "reviews_count": 189,
       "bought": "50+/mo",
@@ -298,8 +299,8 @@
       "brand": "Astro Pneumatic",
       "model": "1111A",
       "image": "https://m.media-amazon.com/images/I/710uTH3KOnL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 46.79,
+      "price_checked": "2026-11-25",
+      "price": 52.95,
       "rating": 4.5,
       "reviews_count": 238,
       "specs": {
@@ -334,8 +335,8 @@
       "brand": "Ingersoll Rand",
       "model": "105-D2",
       "image": "https://m.media-amazon.com/images/I/710eKINrkIL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 109.99,
+      "price_checked": "2026-11-25",
+      "price": 124.64,
       "rating": 4.7,
       "reviews_count": 407,
       "specs": {
@@ -360,7 +361,7 @@
         "4.7 stars"
       ],
       "cons": [
-        "$109.99",
+        "$124.64",
         "25 ft-lb"
       ]
     },
@@ -369,15 +370,15 @@
       "name": "AIRCAT 807 3/8\" Mini Palm Ratchet",
       "brand": "AIRCAT", "model": "807",
       "image": "https://m.media-amazon.com/images/I/515bC0PhLCL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 94.00, "rating": 4.5, "reviews_count": 286,
+      "price_checked": "2026-11-25",
+      "price": 84.82, "rating": 4.5, "reviews_count": 286,
       "specs": { "drive": "3/8 in", "torque": "35 ft-lb", "speed": "300 rpm", "weight": "1.1 lb", "extras": "5.4 in long, quick socket release button" },
       "features": { "high_torque": false, "variable": false, "exhaust_360": false, "light": true },
       "verdict": "A 5.4-inch palm ratchet that weighs 1.1 lb and spins at 300 rpm, for fasteners in spaces a full-length ratchet can't reach. Torque tops out at 35 ft-lb.",
       "best_for": "Dashboards, engine bays and other tight spots.",
       "skip_if": "You need to break fasteners loose; 35 ft-lb is for running them down.",
       "pros": ["1.1 lb and 5.4 in long", "300 rpm", "Quick socket release"],
-      "cons": ["35 ft-lb", "$94.00 for a specialty tool"]
+      "cons": ["35 ft-lb", "$84.82.00 for a specialty tool"]
     },
     {
       "asin": "B00004XOSY",
@@ -386,8 +387,8 @@
       "brand": "Ingersoll Rand",
       "model": "109XPA",
       "image": "https://m.media-amazon.com/images/I/51mHNj0P+4L._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 189.97,
+      "price_checked": "2026-11-25",
+      "price": 214.33,
       "rating": 4.6,
       "reviews_count": 627,
       "specs": {
@@ -412,7 +413,7 @@
         "Extended reach"
       ],
       "cons": [
-        "$189.97",
+        "$214.33",
         "3.1 lbs"
       ]
     }

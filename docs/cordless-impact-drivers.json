@@ -30,7 +30,7 @@
  },
  "picks": {
   "best_overall": "B0BV17VLYG",
-  "best_budget": "B0FQNW74FL",
+  "best_budget": "B0FT2SDD5F",
   "money_no_object": "B0DQYPZLMR"
  },
  "products": [
@@ -40,7 +40,7 @@
    "name": "Milwaukee 3453-20 M12 FUEL 1/4\" Hex Impact Driver (tool only)",
    "brand": "Milwaukee",
    "model": "3453-20",
-   "price": 89.67,
+   "price": 89.45,
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 1762,
@@ -57,7 +57,7 @@
    "cons": [
     "Tool only — no battery or charger",
     "M12 batteries don't fit Milwaukee's M18 tools",
-    "$89.67 for the bare tool, more than the CRAFTSMAN CMCF801D1 kit with a battery ($59)"
+    "$89.45 for the bare tool, more than the CRAFTSMAN CMCF801D1 kit with a battery ($59)"
    ],
    "specs": {
     "voltage": "12V",
@@ -178,17 +178,17 @@
    "name": "GoYwato 21V Brushless 1/4 in Cordless Impact Driver Set, 2655 in-lbs, 2 x 4.0Ah Batteries, Charger, Sockets and Bits (CID-300-Y)",
    "brand": "GoYwato",
    "model": "CID-300-Y",
-   "price": 68.99,
+   "price": 55.76,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 334,
    "score": 94,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "A cheap kit with two big batteries for occasional driving and light bolt work.",
    "bought_last_month": "300+/mo",
    "verdict": "A brushless 21V kit with two 4.0Ah batteries, a charger, 14 sockets and 10 bits for under $70. The listing claims 2,655 in-lbs but gives only 1,400 rpm, so treat the torque figure as a sales number.",
    "pros": [
-    "Two 4.0Ah batteries and a charger for $68.99",
+    "Two 4.0Ah batteries and a charger for $55.76",
     "Brushless motor, two speed modes",
     "14 sockets and 10 bits included",
     "300+ bought last month"
@@ -225,7 +225,7 @@
    "name": "DEWALT ATOMIC DCF809B 20V MAX Brushless Impact Driver (tool only)",
    "brand": "DEWALT",
    "model": "DCF809B",
-   "price": 88.95,
+   "price": 89.69,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 3348,
@@ -276,7 +276,7 @@
    "rating": 4.4,
    "reviews_count": 1881,
    "score": 92,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A brushless, two-speed kit for about $40 with sockets included.",
    "bought_last_month": "1K+/mo",
    "verdict": "The value champ. A brushless, two-speed impact driver with the highest torque rating of the budget kits, a battery, charger, and sockets — all for around $40.",
@@ -317,7 +317,7 @@
    "name": "DEWALT DCF870B 20V MAX Hydraulic Impact Driver (tool only)",
    "brand": "DEWALT",
    "model": "DCF870B",
-   "price": 173.13,
+   "price": 169.99,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 909,
@@ -409,7 +409,7 @@
    "name": "Milwaukee 2953-20 M18 1/4\" Hex Impact Driver (tool only)",
    "brand": "Milwaukee",
    "model": "2953-20",
-   "price": 118.99,
+   "price": 123.0,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 413,
@@ -425,7 +425,7 @@
    ],
    "cons": [
     "Tool only — no battery or charger",
-    "$118.99, more than the M12 FUEL 3453-20 ($94)",
+    "$123, more than the M12 FUEL 3453-20 ($89.45)",
     "The listing doesn't say whether the motor is brushless"
    ],
    "specs": {
@@ -503,7 +503,7 @@
    "name": "LAZYLAND 17V Brushless Screwdriver, 140Nm Cordless Impact Driver Set with 3 Adjustable Speeds, 2 Batteries and LED Work Light",
    "brand": "LAZYLAND",
    "model": "17V Brushless Screwdriver",
-   "price": 49.99,
+   "price": 39.99,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 289,
@@ -544,6 +544,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the LAZYLAND 17V Brushless Screwdriver dropped from $49.99 to $39.99; the GoYwato CID-300-Y dropped from $68.99 to $55.76."
+  },
   {
    "date": "2026-11-10",
    "note": "Replaced the RYOBI PCL235B and Milwaukee 2656-20, which dropped out of Amazon's top impact driver results, with the CRAFTSMAN CMCF801D1 kit and the GoYwato CID-300-Y kit. New avoid pick: the LAZYLAND 17V, a screwdriver listed as an impact driver; the GEVEELIFE 450N is no longer sold."

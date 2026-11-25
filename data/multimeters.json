@@ -6,6 +6,7 @@
   "data_captured": "2026-11-16",
   "audited": "2026-11-09",
   "changelog": [
+    {"date": "2026-11-25", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the KAIWEETS Basic DMM dropped from $13.99 to $11.19; the ANENG SZ301 dropped from $9.99 to $8.49; the AstroAI TRMS 6000 dropped from $33.99 to $29.99."},
     {"date": "2026-11-16", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. No price changes."},
     {"date": "2026-11-16", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Klein Tools MM420 dropped from $64.98 to $45.20."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the ZMIWNIED FS899L (was the Klein Tools MM325)."},
@@ -79,7 +80,7 @@
       "brand": "Klein Tools",
       "model": "MM325",
       "image": "https://m.media-amazon.com/images/I/51EPzXFvIAL._SL1000_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 34.97,
       "rating": 4.7,
       "reviews_count": 3079,
@@ -116,8 +117,8 @@
       "brand": "AstroAI",
       "model": "2000 count",
       "image": "https://m.media-amazon.com/images/I/71+FegWytVL._SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 14.99,
+      "price_checked": "2026-11-25",
+      "price": 13.29,
       "rating": 4.5,
       "reviews_count": 56785,
       "bought": "10K+/mo",
@@ -139,7 +140,7 @@
       "skip_if": "You'll test panels or mains circuits; no CAT rating is listed.",
       "pros": [
         "56,785 reviews",
-        "$14.99",
+        "$13.29",
         "Double fuse, protective cover"
       ],
       "cons": [
@@ -153,8 +154,8 @@
       "brand": "KAIWEETS",
       "model": "Basic DMM",
       "image": "https://m.media-amazon.com/images/I/81AI4HcSdBL._SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 13.99,
+      "price_checked": "2026-11-25",
+      "price": 11.19,
       "rating": 4.5,
       "reviews_count": 25452,
       "bought": "3K+/mo",
@@ -175,7 +176,7 @@
       "best_for": "A safe, cheap meter for household checks.",
       "skip_if": "You need AC current; it measures DC current only.",
       "pros": [
-        "$13.99 with CAT III 600V",
+        "$11.19 with CAT III 600V",
         "25,452 reviews",
         "Case included"
       ],
@@ -190,8 +191,8 @@
       "brand": "AstroAI",
       "model": "TRMS 6000",
       "image": "https://m.media-amazon.com/images/I/71Ug5K4iFNL._SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 33.99,
+      "price_checked": "2026-11-25",
+      "price": 29.99,
       "rating": 4.6,
       "reviews_count": 20353,
       "bought": "4K+/mo",
@@ -218,7 +219,7 @@
       ],
       "cons": [
         "No CAT safety rating listed",
-        "$33.99"
+        "$29.99"
       ]
     },
     {
@@ -226,7 +227,7 @@
       "name": "ZMIWNIED FS899L Digital Multimeter, 6000 Counts True RMS, Auto-Ranging, NCV, Color Screen, USB-C Rechargeable, 20-Piece Test Lead Kit",
       "brand": "ZMIWNIED", "model": "FS899L",
       "image": "https://m.media-amazon.com/images/I/71YP45h-ACL._SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 39.99, "rating": 4.5, "reviews_count": 157, "bought": "2K+/mo",
       "specs": { "safety": "CAT III 1000V / CAT IV 600V", "voltage": "600 V AC/DC", "current": "10 A AC/DC", "ranging": "Auto", "extras": "NCV, capacitance, frequency, 4.8 in color screen, flashlight, USB-C battery" },
       "features": { "cat_rated": true, "trms": true, "auto_range": true, "ncv": true },
@@ -242,8 +243,8 @@
       "brand": "Crenova",
       "model": "MS8233D",
       "image": "https://m.media-amazon.com/images/I/81UwPPAWBlL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 22.99,
+      "price_checked": "2026-11-25",
+      "price": 21.84,
       "rating": 4.6,
       "reviews_count": 9144,
       "bought": "500+/mo",
@@ -315,7 +316,7 @@
       "name": "Klein Tools 69149P Electrical Test Kit, 3 Piece",
       "brand": "Klein Tools", "model": "69149P",
       "image": "https://m.media-amazon.com/images/I/81EgMW9pP9L._SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 39.98, "rating": 4.6, "reviews_count": 4034, "bought": "3K+/mo",
       "specs": { "safety": null, "voltage": "600 V AC/DC", "current": "10 A DC", "ranging": "Manual", "extras": "Kit adds NCVT1P voltage tester (50-1000 VAC) and RT110 outlet tester" },
       "features": { "cat_rated": false, "trms": false, "auto_range": false, "ncv": true },
@@ -331,8 +332,8 @@
       "brand": "Fluke",
       "model": "15B+",
       "image": "https://m.media-amazon.com/images/I/81Rw38cHqFL._SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 122.39,
+      "price_checked": "2026-11-25",
+      "price": 118.51,
       "rating": 4.8,
       "reviews_count": 1022,
       "bought": "1K+/mo",
@@ -358,7 +359,7 @@
         "1000 V, 10 A AC/DC"
       ],
       "cons": [
-        "$122.39",
+        "$118.51",
         "Not True RMS"
       ]
     },
@@ -369,7 +370,7 @@
       "brand": "Fluke",
       "model": "17B+",
       "image": "https://m.media-amazon.com/images/I/61rrIU-V47L._SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 144.99,
       "rating": 4.8,
       "reviews_count": 1095,
@@ -408,8 +409,8 @@
       "brand": "ANENG",
       "model": "SZ301",
       "image": "https://m.media-amazon.com/images/I/71zctLLcqRL._SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 9.99,
+      "price_checked": "2026-11-25",
+      "price": 8.49,
       "rating": 4.4,
       "reviews_count": 2913,
       "bought": "2K+/mo",

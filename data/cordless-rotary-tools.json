@@ -6,6 +6,7 @@
   "data_captured": "2026-11-10",
   "audited": "2026-11-10",
   "changelog": [
+    {"date": "2026-11-25", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the HARDELL 12V dropped from $38.99 to $34.39; the HARDELL Mini 3.7V dropped from $23.99 to $21.59."},
     {"date": "2026-11-16", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Fanttik F2 Pro dropped from $89.99 to $59.99; the Dremel 8250-5 rose from $134.99 to $149."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the Dremel 8250-5 (was the Dremel 8240-5)."},
     {"date": "2026-11-10", "note": "Replaced the Fanttik F2 Master (listing removed) and the Milwaukee 2460-20 (no seller on Amazon) with the Dremel 8150 and the GINELSON YJ007. Prices and ratings re-checked on the rest."},
@@ -78,7 +79,7 @@
       "brand": "Dremel",
       "model": "8240-5",
       "image": "https://m.media-amazon.com/images/I/511eIln3HNL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 77.00,
       "rating": 4.5,
       "reviews_count": 2421,
@@ -115,8 +116,8 @@
       "brand": "Dremel",
       "model": "7760-N/10",
       "image": "https://m.media-amazon.com/images/I/51wcIZzYkmL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 64.50,
+      "price_checked": "2026-11-25",
+      "price": 64.97,
       "rating": 4.6,
       "reviews_count": 10890,
       "bought": "2K+/mo",
@@ -151,7 +152,7 @@
       "name": "GINELSON Cordless Mini Rotary Tool Kit, 3.7V USB-C, 5 Speeds, 70 Accessories (YJ007)",
       "brand": "GINELSON", "model": "YJ007",
       "image": "https://m.media-amazon.com/images/I/71OIzDVoC9L._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 16.99, "rating": 4.3, "reviews_count": 2373, "bought": "700+/mo",
       "specs": { "battery": "3.7V, USB-C, about 240 min runtime", "speed": "5,000-18,000 rpm, 5 speeds", "collet": null, "kit": "70 accessories", "weight": "4.8 oz" },
       "features": { "high_speed": false, "platform": false, "brushless": false, "big_kit": true },
@@ -166,7 +167,7 @@
       "name": "Dremel 8150 8V Cordless Rotary Tool Kit, Brushless Motor, USB-C, 20 Accessories",
       "brand": "Dremel", "model": "8150",
       "image": "https://m.media-amazon.com/images/I/51v9C9LvKpL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 59.00, "rating": 4.7, "reviews_count": 380, "bought": "1K+/mo",
       "specs": { "battery": "8V built-in, USB-C charging", "speed": "5,000-30,000 rpm, variable", "collet": null, "kit": "20 accessories", "weight": null },
       "features": { "high_speed": true, "platform": false, "brushless": true, "big_kit": false },
@@ -182,8 +183,8 @@
       "brand": "HARDELL",
       "model": "Mini 3.7V",
       "image": "https://m.media-amazon.com/images/I/71nMb6z0vmL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 23.99,
+      "price_checked": "2026-11-25",
+      "price": 21.59,
       "rating": 4.3,
       "reviews_count": 13249,
       "bought": "9K+/mo",
@@ -206,7 +207,7 @@
       "pros": [
         "8,000+ sold last month; 13,249 reviews",
         "69 accessories",
-        "$23.99"
+        "$21.59"
       ],
       "cons": [
         "18,000 rpm top speed",
@@ -219,8 +220,8 @@
       "brand": "WORKPRO",
       "model": "W123015",
       "image": "https://m.media-amazon.com/images/I/71ahWe-TpiL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 44.99,
+      "price_checked": "2026-11-25",
+      "price": 42.49,
       "rating": 4.4,
       "reviews_count": 2882,
       "bought": "300+/mo",
@@ -256,8 +257,8 @@
       "brand": "HARDELL",
       "model": "12V",
       "image": "https://m.media-amazon.com/images/I/81+qdyDmpqL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 38.99,
+      "price_checked": "2026-11-25",
+      "price": 34.39,
       "rating": 4.3,
       "reviews_count": 1258,
       "bought": "700+/mo",
@@ -280,7 +281,7 @@
       "pros": [
         "5,000-30,000 rpm",
         "94 accessories",
-        "$38.99"
+        "$34.39"
       ],
       "cons": [
         "4.3 stars",
@@ -293,7 +294,7 @@
       "brand": "Fanttik",
       "model": "F2 Pro",
       "image": "https://m.media-amazon.com/images/I/71bDM2Us7UL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 59.99,
       "rating": 4.5,
       "reviews_count": 1079,
@@ -330,7 +331,7 @@
       "brand": "Dremel",
       "model": "7350-5",
       "image": "https://m.media-amazon.com/images/I/51l3OsiDJCL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 36.97,
       "rating": 4.4,
       "reviews_count": 4085,
@@ -368,8 +369,8 @@
       "brand": "Dremel",
       "model": "8250-5",
       "image": "https://m.media-amazon.com/images/I/91+oBsMcWnL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 149.00,
+      "price_checked": "2026-11-25",
+      "price": 147.99,
       "rating": 4.6,
       "reviews_count": 1777,
       "bought": "700+/mo",
@@ -395,7 +396,7 @@
         "Works with all Dremel accessories"
       ],
       "cons": [
-        "$149",
+        "$147.99",
         "Only cut-off accessories in the kit"
       ]
     }
@@ -407,7 +408,7 @@
       "brand": "Esakoya",
       "model": "3.7V rotary",
       "image": "https://m.media-amazon.com/images/I/71FGyh41N-L._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 16.49,
       "rating": 4.3,
       "reviews_count": 630,

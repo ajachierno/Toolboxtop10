@@ -6,6 +6,7 @@
   "data_captured": "2026-11-14",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-25", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Coquimbo 2-pack rose from $9.99 to $14.99; the DEWALT DCL040 rose from $34.28 to $41.49; the TRESDA 3000 lm dropped from $39.99 to $31.63."},
     {"date": "2026-11-16", "note": "Prices re-checked on 9 of 11 listings. Biggest price moves: the PARTPHONER Cordless tripod dropped from $74.98 to $59.99."},
     {"date": "2026-11-14", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Coquimbo 2-pack dropped from $13.99 to $9.99; the HOTLIGH 1200 lm dropped from $33.99 to $27.61; the Samyoung 2400 lm dropped from $39.98 to $35.99."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the HOTLIGH 1200 lm (was the DEWALT DCL050)."},
@@ -78,8 +79,8 @@
       "brand": "DEWALT",
       "model": "DCL050",
       "image": "https://m.media-amazon.com/images/I/61+g2mB4OWL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 48.99,
+      "price_checked": "2026-11-25",
+      "price": 46.50,
       "rating": 4.8,
       "reviews_count": 13773,
       "bought": "3K+/mo",
@@ -115,8 +116,8 @@
       "brand": "HOTLIGH",
       "model": "1200 lm",
       "image": "https://m.media-amazon.com/images/I/61jALjfWElL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 27.61,
+      "price_checked": "2026-11-25",
+      "price": 26.23,
       "rating": 4.7,
       "reviews_count": 2842,
       "bought": "2K+/mo",
@@ -143,7 +144,7 @@
       ],
       "cons": [
         "No IP rating",
-        "$27.61"
+        "$26.23"
       ]
     },
     {
@@ -152,8 +153,8 @@
       "brand": "Coquimbo",
       "model": "2-pack",
       "image": "https://m.media-amazon.com/images/I/61JDENAQOtL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 9.99,
+      "price_checked": "2026-11-25",
+      "price": 14.99,
       "rating": 4.3,
       "reviews_count": 24808,
       "bought": "8K+/mo",
@@ -174,7 +175,7 @@
       "best_for": "Glovebox, toolbox and stocking stuffers.",
       "skip_if": "You need a lot of light; lumens aren't listed.",
       "pros": [
-        "2 lights for $9.99",
+        "2 lights for $14.99",
         "24,808 reviews; 8,000+ sold last month",
         "Magnet, hook, USB-C"
       ],
@@ -189,8 +190,8 @@
       "brand": "TRESDA",
       "model": "3000 lm",
       "image": "https://m.media-amazon.com/images/I/717rJcsLXXL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 39.99,
+      "price_checked": "2026-11-25",
+      "price": 31.63,
       "rating": 4.5,
       "reviews_count": 1191,
       "bought": "1K+/mo",
@@ -226,8 +227,8 @@
       "brand": "Ruboliy",
       "model": "WL02",
       "image": "https://m.media-amazon.com/images/I/71t9wSHiZvL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 35.99,
+      "price_checked": "2026-11-25",
+      "price": 34.15,
       "rating": 4.6,
       "reviews_count": 440,
       "bought": "1K+/mo",
@@ -248,7 +249,7 @@
       "best_for": "Shops and fleets that lose lights.",
       "skip_if": "You want one bright light; these are small.",
       "pros": [
-        "6 lights for $35.99",
+        "6 lights for $34.15",
         "4.6 stars",
         "Magnet and hook"
       ],
@@ -263,8 +264,8 @@
       "brand": "Samyoung",
       "model": "2400 lm",
       "image": "https://m.media-amazon.com/images/I/81XCwY8sVdL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 35.99,
+      "price_checked": "2026-11-25",
+      "price": 31.98,
       "rating": 4.3,
       "reviews_count": 595,
       "bought": "1K+/mo",
@@ -300,8 +301,8 @@
       "brand": "DEWALT",
       "model": "DCL040",
       "image": "https://m.media-amazon.com/images/I/51RLPCcaqML._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 34.28,
+      "price_checked": "2026-11-25",
+      "price": 41.49,
       "rating": 4.7,
       "reviews_count": 11234,
       "bought": "3K+/mo",
@@ -373,8 +374,8 @@
       "brand": "PARTPHONER",
       "model": "Cordless tripod",
       "image": "https://m.media-amazon.com/images/I/51YUQeAOwzL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 59.99,
+      "price_checked": "2026-11-25",
+      "price": 56.99,
       "rating": 4.6,
       "reviews_count": 704,
       "bought": "200+/mo",
@@ -401,7 +402,7 @@
       ],
       "cons": [
         "2,500 lumens max",
-        "$59.99"
+        "$56.99"
       ]
     },
     {
@@ -411,7 +412,7 @@
       "brand": "Klein Tools",
       "model": "56416",
       "image": "https://m.media-amazon.com/images/I/51sBfwgzHmL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 59.98,
       "rating": 4.6,
       "reviews_count": 127,
@@ -450,7 +451,8 @@
       "brand": "DANCINGBOAR",
       "model": "RLW008",
       "image": "https://m.media-amazon.com/images/I/81GKw8Ugs-L._AC_SL1500_.jpg",
-      "price": 21.59,
+      "price_checked": "2026-11-25",
+      "price": 20.99,
       "rating": 4.4,
       "reviews_count": 2375,
       "bought": "3K+/mo",

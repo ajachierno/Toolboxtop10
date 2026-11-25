@@ -6,6 +6,7 @@
   "data_captured": "2026-11-13",
   "audited": "2026-10-10",
   "changelog": [
+    {"date": "2026-11-25", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the JET JBOS-5 dropped from $769.99 to $654.50; the WEN AT6535 dropped from $246.64 to $209.66; the Woodskil Belt and spindle dropped from $204 to $178.65."},
     {"date": "2026-11-13", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the RIKON 50-300 dropped from $699.99 to $594.99."},
     {"date": "2026-11-10", "note": "Badges now follow the scores instead of hand picks. Best Overall is now the JET JBOS-5 (was the WEN 6510T)."},
     {"date": "2026-11-07", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Triton TSPS450 rose from $149.99 to $340.12; the WEN 6510T rose from $103.96 to $161.57."},
@@ -77,7 +78,7 @@
       "brand": "WEN",
       "model": "6510T",
       "image": "https://m.media-amazon.com/images/I/910pEfGhh0L._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 154.19,
       "rating": 4.7,
       "reviews_count": 1982,
@@ -114,7 +115,7 @@
       "brand": "WEN",
       "model": "HA5932",
       "image": "https://m.media-amazon.com/images/I/81bOB5IHA+L._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 55.72,
       "rating": 4.5,
       "reviews_count": 1261,
@@ -151,8 +152,8 @@
       "brand": "Triton",
       "model": "TSPS450",
       "image": "https://m.media-amazon.com/images/I/61ohBPrgHBL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 322.89,
+      "price_checked": "2026-11-25",
+      "price": 317.82,
       "rating": 4.6,
       "reviews_count": 286,
       "specs": {
@@ -187,8 +188,8 @@
       "brand": "WEN",
       "model": "AT6535",
       "image": "https://m.media-amazon.com/images/I/81-TbYePufL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 246.64,
+      "price_checked": "2026-11-25",
+      "price": 209.66,
       "rating": 4.3,
       "reviews_count": 178,
       "specs": {
@@ -213,7 +214,7 @@
         "Onboard storage"
       ],
       "cons": [
-        "$246.64",
+        "$209.66",
         "4.3 stars"
       ]
     },
@@ -223,7 +224,7 @@
       "brand": "Woodskil",
       "model": "OSM-1V",
       "image": "https://m.media-amazon.com/images/I/61ueM7BVRXL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 136.00,
       "rating": 3.9,
       "reviews_count": 57,
@@ -260,8 +261,8 @@
       "brand": "Woodskil",
       "model": "Belt and spindle",
       "image": "https://m.media-amazon.com/images/I/713l09mzvQL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 204.00,
+      "price_checked": "2026-11-25",
+      "price": 178.65,
       "rating": 3.9,
       "reviews_count": 57,
       "specs": {
@@ -333,7 +334,7 @@
       "brand": "Triton",
       "model": "TSPSP650",
       "image": "https://m.media-amazon.com/images/I/61eC98VwFAL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 149.99,
       "rating": 4.2,
       "reviews_count": 64,
@@ -369,7 +370,7 @@
       "brand": "RIDGID",
       "model": "EB4424",
       "image": "https://m.media-amazon.com/images/I/61s-wfgDnZL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 299.00,
       "rating": 4.0,
       "reviews_count": 77,
@@ -406,8 +407,8 @@
       "brand": "JET",
       "model": "JBOS-5",
       "image": "https://m.media-amazon.com/images/I/71PnHM-lGcS._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 769.99,
+      "price_checked": "2026-11-25",
+      "price": 654.50,
       "rating": 4.3,
       "reviews_count": 185,
       "specs": {
@@ -432,7 +433,7 @@
         "Ball-bearing spindle"
       ],
       "cons": [
-        "$769.99",
+        "$654.50",
         "Listing showed only 1 left"
       ]
     }
@@ -444,7 +445,7 @@
       "brand": "RIKON",
       "model": "50-300",
       "image": "https://m.media-amazon.com/images/I/61bnC2U-69L._AC_SL1000_.jpg",
-      "price_checked": "2026-11-16",
+      "price_checked": "2026-11-25",
       "price": 594.99,
       "rating": 3.7,
       "reviews_count": 15,
