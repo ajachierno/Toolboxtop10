@@ -4,7 +4,7 @@
 
 Machine-readable data: every ranking page has a JSON twin at the same path with `.json` in place of `.html` (ranked products with ASIN, price, rating, review count, score, specs, pros, cons and the capture date). The site index is https://toolboxtop10.com/index.json. Each page links its twin with `<link rel="alternate" type="application/json">`. Links to Amazon carry our Associates tag; a purchase may earn us a commission at no extra cost to the buyer.
 
-## Rankings (172 pages)
+## Rankings (173 pages)
 
 - [The 10 Best 23-Gauge Pin Nailers](https://toolboxtop10.com/pin-nailers.html): Best Overall DEWALT DWFP2350K ($158.99); Best Budget KEENTECH KT-P635A ($42.39). Data captured 2026-11-14. JSON: https://toolboxtop10.com/pin-nailers.json
 - [The 10 Best Adjustable (Crescent) Wrenches](https://toolboxtop10.com/adjustable-wrenches.html): Best Overall Klein Tools D5072 ($29.98); Best Budget Amazon Basics 6-Inch ($9.40). Data captured 2026-11-14. JSON: https://toolboxtop10.com/adjustable-wrenches.json
@@ -144,6 +144,7 @@ Machine-readable data: every ranking page has a JSON twin at the same path with 
 - [The 10 Best Pneumatic Finish Nailers](https://toolboxtop10.com/pneumatic-finish-nailers.html): Best Overall Metabo HPT NT65MA4 ($138.98); Best Budget HBT HBT64P ($57.88). Data captured 2026-11-14. JSON: https://toolboxtop10.com/pneumatic-finish-nailers.json
 - [The 10 Best Pneumatic Framing Nailers](https://toolboxtop10.com/pneumatic-framing-nailers.html): Best Overall NuMax SFR2190 ($124.73); Best Budget 3PLUS H2190SP ($91.01). Data captured 2026-11-14. JSON: https://toolboxtop10.com/pneumatic-framing-nailers.json
 - [The 10 Best Portable Tool Boxes](https://toolboxtop10.com/portable-tool-boxes.html): Best Overall DEWALT DWST17806 ($29.98); Best Budget DEWALT DWST17807 ($19.97). Data captured 2026-11-14. JSON: https://toolboxtop10.com/portable-tool-boxes.json
+- [The 10 Best Pry Bars](https://toolboxtop10.com/pry-bars.html): Best Overall Mayhew 61366 ($129.99); Best Budget Titan 17121 ($14.27). Data captured 2026-11-25. JSON: https://toolboxtop10.com/pry-bars.json
 - [The 10 Best Ratcheting Wrench Sets](https://toolboxtop10.com/ratcheting-wrench-sets.html): Best Overall SUZUME SM2324 ($74.38); Best Budget DISEN 22-piece ($42.99). Data captured 2026-11-14. JSON: https://toolboxtop10.com/ratcheting-wrench-sets.json
 - [The 10 Best Rechargeable Work Lights](https://toolboxtop10.com/rechargeable-work-lights.html): Best Overall HOTLIGH 1200 lm ($26.23); Best Budget Coquimbo 2-pack ($14.99). Data captured 2026-11-14. JSON: https://toolboxtop10.com/rechargeable-work-lights.json
 - [The 10 Best Rivet Guns](https://toolboxtop10.com/rivet-guns.html): Best Overall WETOLS WE-888 ($27.97); Best Budget LIBRATON 900913 ($15.10). Data captured 2026-11-13. JSON: https://toolboxtop10.com/rivet-guns.json

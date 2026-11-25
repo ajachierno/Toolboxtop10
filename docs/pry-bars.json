@@ -1,0 +1,489 @@
+{
+ "site": "ToolboxTop10",
+ "page_url": "https://toolboxtop10.com/pry-bars.html",
+ "json_url": "https://toolboxtop10.com/pry-bars.json",
+ "slug": "pry-bars",
+ "title": "The 10 Best Pry Bars",
+ "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
+ "intro": "We pulled the best-selling pry bars on Amazon: flat bars for trim and nails, handled bars with strike caps, indexing-head bars for auto work, and long wrecking bars for demolition. Each one is scored on a 100-point scale built from its star rating, review volume and four features: a multi-piece set, a steel strike cap, a lifetime warranty and US manufacture. Pick by the job first; a 7-inch flat bar and a 36-inch wrecking bar don't do the same work.",
+ "data_captured": "2026-11-25",
+ "audited": "2026-11-25",
+ "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
+ "scoring": {
+  "scale": "0-100",
+  "weights": {
+   "rating": 0.45,
+   "reviews": 0.35,
+   "features": 0.2
+  },
+  "feature_weights": {
+   "set": 0.25,
+   "strike_cap": 0.25,
+   "lifetime_warranty": 0.25,
+   "made_in_usa": 0.25
+  },
+  "reviews_ceiling": 200,
+  "review_age_weighting": "Listings under 24 months old with at least 30 reviews have their review count multiplied by min(2, 24 / age in months, age floored at 6) before scoring; older listings are unchanged. Listing age is Amazon's Date First Available, or an estimate from the ASIN when the listing does not show it.",
+  "budget_cap_usd": 15,
+  "method_url": "https://toolboxtop10.com/about.html"
+ },
+ "picks": {
+  "best_overall": "B006WZOJFE",
+  "best_budget": "B0GTRV9FTK",
+  "money_no_object": null
+ },
+ "products": [
+  {
+   "rank": 1,
+   "asin": "B006WZOJFE",
+   "name": "Mayhew Tools 61366 Dominator Pry Bar Set, 5-Piece Curved, Black Oxide Finish",
+   "brand": "Mayhew",
+   "model": "61366",
+   "price": 129.99,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1424,
+   "score": 93,
+   "award": "Best Overall",
+   "best_for": "Pros who pry every day and want one set for life.",
+   "bought_last_month": "100+/mo",
+   "verdict": "Five curved, handled bars made in the USA, with the striking cap in direct contact with the steel shaft so hammer blows go into the bar, not the handle.",
+   "pros": [
+    "Strike caps sit on the shaft, not the handle",
+    "Oil- and solvent-resistant grips",
+    "Made in USA"
+   ],
+   "cons": [
+    "$129.99",
+    "The listing doesn't give each bar's length"
+   ],
+   "specs": {
+    "length": null,
+    "pieces": "5",
+    "type": "Curved handled bars, strike caps",
+    "material": "Tool steel"
+   },
+   "features": {
+    "set": true,
+    "strike_cap": true,
+    "lifetime_warranty": false,
+    "made_in_usa": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61auGDvNzNL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B006WZOJFE?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B006WZOJFE"
+  },
+  {
+   "rank": 2,
+   "asin": "B0GTRV9FTK",
+   "name": "Titan 17121 3-Piece Flat Pry Bar Set, 5.5\", 7.5\" & 9.5\" Utility Claw Bars with Nail Puller, Forged Steel",
+   "brand": "Titan",
+   "model": "17121",
+   "price": 14.27,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 6526,
+   "score": 88,
+   "award": "Best Budget",
+   "best_for": "Trim, baseboard and small nail-pulling jobs.",
+   "bought_last_month": "600+/mo",
+   "verdict": "Three small forged flat bars with beveled nail pullers, sized for trim, molding and getting under things a big bar can't reach.",
+   "pros": [
+    "Forged steel",
+    "Three sizes for tight spots",
+    "Limited lifetime warranty"
+   ],
+   "cons": [
+    "Short bars, little leverage",
+    "No grips or strike caps"
+   ],
+   "specs": {
+    "length": "5.5, 7.5 and 9.5 in",
+    "pieces": "3",
+    "type": "Flat bars with nail pullers",
+    "material": "Forged steel"
+   },
+   "features": {
+    "set": true,
+    "strike_cap": false,
+    "lifetime_warranty": true,
+    "made_in_usa": false
+   },
+   "image": "https://m.media-amazon.com/images/I/71aSOOCGAoL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GTRV9FTK?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B0GTRV9FTK"
+  },
+  {
+   "rank": 3,
+   "asin": "B075M948HV",
+   "name": "TEKTON 36 Inch Angled End Handled Pry Bar, Made in USA (LSQ42036)",
+   "brand": "TEKTON",
+   "model": "LSQ42036",
+   "price": 39.0,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1204,
+   "score": 88,
+   "award": null,
+   "best_for": "Lifting and shifting heavy parts, from engines to fence posts.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A long, stiff handled bar made in the USA from 5/8-inch square stock, with an angled tip for a built-in fulcrum and a steel strike cap.",
+   "pros": [
+    "5/8 in square stock resists flex",
+    "Steel strike cap",
+    "Made in USA"
+   ],
+   "cons": [
+    "4 lb",
+    "Single bar, one length"
+   ],
+   "specs": {
+    "length": "36 in",
+    "pieces": "1",
+    "type": "Handled, angled tip, strike cap",
+    "material": "Chrome vanadium steel, 5/8 in square"
+   },
+   "features": {
+    "set": false,
+    "strike_cap": true,
+    "lifetime_warranty": false,
+    "made_in_usa": true
+   },
+   "image": "https://m.media-amazon.com/images/I/51QQea6w1VL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B075M948HV?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B075M948HV"
+  },
+  {
+   "rank": 4,
+   "asin": "B09KP2SKSG",
+   "name": "CRAFTSMAN Utility Pry Bar Set, 3 Piece, Includes 12\", 18\" & 24\" (CMMT98347)",
+   "brand": "CRAFTSMAN",
+   "model": "CMMT98347",
+   "price": 21.98,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1746,
+   "score": 87,
+   "award": null,
+   "best_for": "A first set that covers light prying through moving heavy stuff.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "Three handled bars in the lengths most people reach for, each with a strike cap so you can drive the tip in with a hammer without wrecking the grip.",
+   "pros": [
+    "12, 18 and 24 in bars",
+    "Strike cap on each handle",
+    "Bi-material grips"
+   ],
+   "cons": [
+    "The listing doesn't state the steel",
+    "No warranty terms in the bullets"
+   ],
+   "specs": {
+    "length": "12, 18 and 24 in",
+    "pieces": "3",
+    "type": "Handled bars with strike cap",
+    "material": null
+   },
+   "features": {
+    "set": true,
+    "strike_cap": true,
+    "lifetime_warranty": false,
+    "made_in_usa": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51ns7O0xNlL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B09KP2SKSG?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B09KP2SKSG"
+  },
+  {
+   "rank": 5,
+   "asin": "B089SQSXVW",
+   "name": "Spec Ops Tools 15\" Flat Pry Bar, Crowbar for Demolition & Nail Pulling, High-Carbon Steel (SPEC-D15BAR)",
+   "brand": "Spec Ops Tools",
+   "model": "SPEC-D15BAR",
+   "price": 14.65,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 3227,
+   "score": 83,
+   "award": null,
+   "best_for": "General demo and nail pulling where a thin bar might bend.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A 15-inch flat bar that the maker says is 20% thicker than standard, with honed beveled ends, a curved rocker end and several nail pullers.",
+   "pros": [
+    "Thicker steel than typical flat bars",
+    "Multiple nail pullers",
+    "Limited lifetime warranty"
+   ],
+   "cons": [
+    "1.67 lb, heavy for its size",
+    "No grip"
+   ],
+   "specs": {
+    "length": "15 in",
+    "pieces": "1",
+    "type": "Flat bar, curved rocker end",
+    "material": "High-carbon steel"
+   },
+   "features": {
+    "set": false,
+    "strike_cap": false,
+    "lifetime_warranty": true,
+    "made_in_usa": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61uTKmjjRBL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B089SQSXVW?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B089SQSXVW"
+  },
+  {
+   "rank": 6,
+   "asin": "B00DT0OY0A",
+   "name": "ESTWING Gooseneck Wrecking Bar PRO, 36\" Crowbar (EWB-36PS)",
+   "brand": "ESTWING",
+   "model": "EWB-36PS",
+   "price": 33.44,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 1891,
+   "score": 83,
+   "award": null,
+   "best_for": "Tearing out decks, framing and anything held with big nails.",
+   "bought_last_month": "400+/mo",
+   "verdict": "A classic 36-inch gooseneck crowbar forged in one piece in Rockford, Illinois, with a slotted hook for spikes and an angled chisel end for prying boards.",
+   "pros": [
+    "Forged in one piece",
+    "Slotted hook pulls spikes",
+    "Made in USA"
+   ],
+   "cons": [
+    "Sold by a third-party seller at this price",
+    "Heavy and long for small jobs"
+   ],
+   "specs": {
+    "length": "36 in",
+    "pieces": "1",
+    "type": "Gooseneck wrecking bar",
+    "material": "Forged one-piece steel"
+   },
+   "features": {
+    "set": false,
+    "strike_cap": false,
+    "lifetime_warranty": false,
+    "made_in_usa": true
+   },
+   "image": "https://m.media-amazon.com/images/I/61Gmm7ul66L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00DT0OY0A?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B00DT0OY0A"
+  },
+  {
+   "rank": 7,
+   "asin": "B07TSG977Y",
+   "name": "STEELHEAD 15\" Heavy-Duty Flat Pry Bar, Integrated Nail Puller, Forged Heat-Treated Carbon Steel (SH-PB-B1-15-1)",
+   "brand": "STEELHEAD",
+   "model": "SH-PB-B1-15-1",
+   "price": 12.59,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 704,
+   "score": 83,
+   "award": null,
+   "best_for": "Demo, flooring and nail pulling on a budget.",
+   "bought_last_month": "1K+/mo",
+   "verdict": "A 15-inch flat bar with thin chisel tips, three nail slots at different angles and a bright enamel finish that's easy to spot on a job site.",
+   "pros": [
+    "Thin tips for tight gaps",
+    "Three nail slots",
+    "Limited lifetime warranty"
+   ],
+   "cons": [
+    "Enamel finish can chip",
+    "No grip"
+   ],
+   "specs": {
+    "length": "15 in",
+    "pieces": "1",
+    "type": "Flat bar, 3 nail slots",
+    "material": "Heat-treated carbon steel"
+   },
+   "features": {
+    "set": false,
+    "strike_cap": false,
+    "lifetime_warranty": true,
+    "made_in_usa": false
+   },
+   "image": "https://m.media-amazon.com/images/I/61THwn1dwLL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B07TSG977Y?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B07TSG977Y"
+  },
+  {
+   "rank": 8,
+   "asin": "B001M0O1MU",
+   "name": "GEARWRENCH 3 Pc. Indexing Pry Bar Set, 8\", 10\" & 16\" (82301D)",
+   "brand": "GEARWRENCH",
+   "model": "82301D",
+   "price": 79.97,
+   "currency": "USD",
+   "rating": 4.7,
+   "reviews_count": 1482,
+   "score": 82,
+   "award": null,
+   "best_for": "Auto work in cramped engine bays and wheel wells.",
+   "bought_last_month": "400+/mo",
+   "verdict": "Three indexing-head bars in shop sizes. The heads pivot and lock, so one bar can pry straight, at an angle or around an obstruction.",
+   "pros": [
+    "Three sizes with pivoting heads",
+    "Listing says they exceed ASME and ANSI strength requirements",
+    "400+ bought last month"
+   ],
+   "cons": [
+    "$79.97",
+    "Bullets are thin on specs"
+   ],
+   "specs": {
+    "length": "8, 10 and 16 in",
+    "pieces": "3",
+    "type": "Indexing heads",
+    "material": null
+   },
+   "features": {
+    "set": true,
+    "strike_cap": false,
+    "lifetime_warranty": false,
+    "made_in_usa": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51W4-7KC-dL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B001M0O1MU?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B001M0O1MU"
+  },
+  {
+   "rank": 9,
+   "asin": "B00002X1XS",
+   "name": "STANLEY Wonder Bar II Pry Bar, 7 in, Nail Puller (55-045)",
+   "brand": "STANLEY",
+   "model": "55-045",
+   "price": 4.08,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 548,
+   "score": 80,
+   "award": null,
+   "best_for": "Pulling small nails and staples, and light trim work.",
+   "bought_last_month": "200+/mo",
+   "verdict": "A 7-inch forged bar with a right-angle claw and three nail slots, small enough for a tool belt and cheap enough to keep one in every box.",
+   "pros": [
+    "Forged one-piece steel",
+    "Right-angle claw for nail pulling",
+    "Limited lifetime warranty"
+   ],
+   "cons": [
+    "Very short",
+    "4.4 stars, lowest on this page"
+   ],
+   "specs": {
+    "length": "7 in",
+    "pieces": "1",
+    "type": "Flat bar, right-angle claw, 3 nail slots",
+    "material": "Forged steel"
+   },
+   "features": {
+    "set": false,
+    "strike_cap": false,
+    "lifetime_warranty": true,
+    "made_in_usa": false
+   },
+   "image": "https://m.media-amazon.com/images/I/41V5rcSPQpL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B00002X1XS?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B00002X1XS"
+  },
+  {
+   "rank": 10,
+   "asin": "B0015015H6",
+   "name": "GEARWRENCH 33\" Extendable Indexing Pry Bar (82220)",
+   "brand": "GEARWRENCH",
+   "model": "82220",
+   "price": 71.22,
+   "currency": "USD",
+   "rating": 4.8,
+   "reviews_count": 2449,
+   "score": 78,
+   "award": null,
+   "best_for": "Mechanics working around suspension, exhaust and engine parts.",
+   "bought_last_month": "200+/mo",
+   "verdict": "An auto-shop bar whose head swings through 180 degrees and locks in 14 positions, and whose shaft extends, so you can pry from angles a straight bar can't reach.",
+   "pros": [
+    "Head locks in 14 positions",
+    "Extends for more reach and leverage",
+    "2,449 reviews at 4.8 stars"
+   ],
+   "cons": [
+    "$71.22 for one bar",
+    "No strike cap"
+   ],
+   "specs": {
+    "length": "33 in, extendable",
+    "pieces": "1",
+    "type": "Indexing head, 14 positions over 180°",
+    "material": null
+   },
+   "features": {
+    "set": false,
+    "strike_cap": false,
+    "lifetime_warranty": false,
+    "made_in_usa": false
+   },
+   "image": "https://m.media-amazon.com/images/I/51nMUXjtmZL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0015015H6?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#B0015015H6"
+  }
+ ],
+ "avoid": [
+  {
+   "asin": "B0CKLPKJ92",
+   "name": "GIRIAITUS EDC Pry Bar Multitool with Bi-Directional Ratchet Screwdriver (X9)",
+   "brand": "GIRIAITUS",
+   "model": "X9",
+   "price": 26.58,
+   "currency": "USD",
+   "rating": 4.5,
+   "reviews_count": 1734,
+   "flag": "A 5.7 in gift gadget sold as a heavy-duty pry bar",
+   "verdict": "A pocket gadget with a pen, bottle opener and ratchet screwdriver that its listing calls a heavy-duty pry bar. At 5.7 inches it can't do a pry bar's job.",
+   "reasons": [
+    "The listing calls it a 'Heavy Duty Prybar', but the whole tool is 5.71 inches long and weighs 6.24 ounces. That leaves almost no lever arm for real prying.",
+    "Most of the listing is about a built-in pen, a bottle opener and a ratchet screwdriver, and it is pitched as a gift for men. It's a keychain multitool, not a pry bar.",
+    "For about $12 less, the Spec Ops 15 in flat bar on this list gives you a real pry bar with nail pullers and a lifetime warranty."
+   ],
+   "bought_last_month": null,
+   "image": "https://m.media-amazon.com/images/I/71btZ-RKQmL._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CKLPKJ92?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/pry-bars.html#avoid-B0CKLPKJ92"
+  }
+ ],
+ "buyers_guide": [
+  {
+   "q": "What size pry bar do I need?",
+   "a": "Match the length to the force and the space. A 7 to 10 inch flat bar handles trim, molding and small nails. A 12 to 18 inch bar covers most general prying. A 24 to 36 inch bar or wrecking bar is for demolition and lifting heavy things, where leverage matters more than reach into tight spots."
+  },
+  {
+   "q": "Flat bar, handled bar or wrecking bar?",
+   "a": "Flat bars are thin and slip into gaps, so they suit trim, flooring and nail pulling. Handled bars have a grip and usually a strike cap, so you can hammer the tip into place and pry hard without hurting your hands. Gooseneck wrecking bars are long, heavy demolition tools with a hook for spikes."
+  },
+  {
+   "q": "What does an indexing pry bar do?",
+   "a": "Its head pivots and locks at several angles, so you can pry around an obstruction or from the side. Mechanics use them on suspension, exhaust and engine parts. The GEARWRENCH bars on this page lock in up to 14 positions."
+  },
+  {
+   "q": "Is a strike cap worth having?",
+   "a": "Yes, if you'll drive the tip in with a hammer. A steel cap takes the blow instead of the plastic grip. On the best designs, like the Mayhew set here, the cap sits directly on the steel shaft."
+  },
+  {
+   "q": "Can I use a screwdriver as a pry bar?",
+   "a": "You can, but you'll likely bend the shaft or chip the tip, and a slipping screwdriver is an easy way to cut yourself. A $13 to $15 flat bar is made for the job."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Page published with 10 ranked picks and 1 tool to avoid."
+  }
+ ],
+ "affiliate_disclosure": "Amazon links carry ToolboxTop10's Associates tag; a purchase may earn a commission at no extra cost to the buyer."
+}
