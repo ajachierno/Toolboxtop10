@@ -6,7 +6,7 @@
  "title": "The 10 Best Corded Reciprocating Saws",
  "subtitle": "Wired demo saws ranked from live Amazon data — endless power for cutting, pruning, and tear-out.",
  "intro": "A reciprocating saw (a.k.a. Sawzall) rips a long blade back and forth through wood, metal, PVC, nail-embedded lumber, and tree branches — the go-to for demolition and rough cuts. Corded models give you full, sustained power for the least money and never run flat, which matters when you're tearing out a wall or bucking a pile of branches. Amps are the number to watch: 7-8 amps handles most jobs, and 10-13 amps is heavy demolition. Want to cut anywhere with no cord? See the cordless list.",
- "data_captured": "2026-11-10",
+ "data_captured": "2026-11-25",
  "audited": "2026-09-28",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -42,7 +42,7 @@
    "price": 127.62,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 3932,
+   "reviews_count": 3935,
    "score": 95,
    "award": "Best Overall",
    "best_for": "Demolition work, with a 12-amp motor and a blade clamp for flush cuts.",
@@ -83,11 +83,11 @@
    "price": 99.0,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 977,
+   "reviews_count": 979,
    "score": 94,
    "award": null,
    "best_for": "Long cutting sessions where anti-vibration saves your hands.",
-   "bought_last_month": "50+/mo",
+   "bought_last_month": "100+/mo",
    "verdict": "The most amps here (13) plus Buzzkill anti-vibration tech that noticeably reduces hand fatigue on long cuts. A smooth, powerful pick if you'll run it for hours.",
    "pros": [
     "Strongest 13-amp motor on the list",
@@ -165,11 +165,11 @@
    "price": 69.0,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 641,
+   "reviews_count": 642,
    "score": 93,
    "award": null,
    "best_for": "More motor than the budget saws for under $75.",
-   "bought_last_month": "100+/mo",
+   "bought_last_month": "50+/mo",
    "verdict": "More motor than the budget saws for a small step up in price — a 9-amp SKIL with variable speed and a tool-free blade change. A smart middle ground under $75.",
    "pros": [
     "9-amp motor, more power for the price",
@@ -203,10 +203,10 @@
    "name": "CRAFTSMAN CMES300 7.5-Amp Corded Reciprocating Saw",
    "brand": "CRAFTSMAN",
    "model": "CMES300",
-   "price": 87.85,
+   "price": 87.87,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 623,
+   "reviews_count": 624,
    "score": 93,
    "award": null,
    "best_for": "Pruning and remodeling with a balanced, well-rated corded saw.",
@@ -240,15 +240,56 @@
   },
   {
    "rank": 6,
+   "asin": "B0CH88DTPH",
+   "name": "GALAX PRO 120V 6.0-Amp Corded Reciprocating Saw",
+   "brand": "GALAX PRO",
+   "model": "77112",
+   "price": 32.29,
+   "currency": "USD",
+   "rating": 4.4,
+   "reviews_count": 593,
+   "score": 91,
+   "award": null,
+   "best_for": "Occasional pruning, PVC and pallet breakdown for under $40.",
+   "bought_last_month": null,
+   "verdict": "The cheapest way into a real corded recip: a 6-amp saw with a full 1-1/8\" stroke, a pivoting shoe, and five blades in the box for under $40. Right for occasional pruning, PVC, and pallet breakdown, not all-day demolition.",
+   "pros": [
+    "Under $40 with 2 wood and 3 metal blades",
+    "Full 1-1/8\" stroke, tool-free blade change",
+    "Pivoting shoe and trigger lock-on button"
+   ],
+   "cons": [
+    "6 amps is the weakest motor here",
+    "Listing quotes both 2,800 and 3,000 SPM; the spec table says 2,800"
+   ],
+   "specs": {
+    "type": "Corded",
+    "power": "6 amp",
+    "max_rpm": "0-2,800 SPM",
+    "stroke": "1-1/8 in",
+    "blade_change": "Tool-free"
+   },
+   "features": {
+    "kit": true,
+    "variable_speed": true,
+    "tool_free": true,
+    "orbital": false
+   },
+   "image": "https://m.media-amazon.com/images/I/619pQ6cmb5L._AC_SX425_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0CH88DTPH?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B0CH88DTPH"
+  },
+  {
+   "rank": 7,
    "asin": "B072FR2BXM",
    "name": "WEN 3630 10-Amp 8-Position Reciprocating Saw",
    "brand": "WEN",
    "model": "3630",
    "price": 52.99,
    "currency": "USD",
-   "rating": 4.5,
+   "rating": 4.4,
    "reviews_count": 420,
-   "score": 92,
+   "score": 91,
    "award": null,
    "best_for": "Cutting at awkward angles with a rotating handle, for about $53.",
    "bought_last_month": "50+/mo",
@@ -259,7 +300,7 @@
     "Tool-free blade change"
    ],
    "cons": [
-    "4.5 stars, smaller review base",
+    "4.4 stars, smaller review base",
     "Basic build"
    ],
    "specs": {
@@ -280,7 +321,7 @@
    "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B072FR2BXM"
   },
   {
-   "rank": 7,
+   "rank": 8,
    "asin": "B08T6C614X",
    "name": "BLACK+DECKER 7-Amp Corded Reciprocating Saw",
    "brand": "BLACK+DECKER",
@@ -319,47 +360,6 @@
    "image": "https://m.media-amazon.com/images/I/41IP3shM+rL._AC_SX425_.jpg",
    "amazon_url": "https://www.amazon.com/dp/B08T6C614X?tag=toolboxtop10-20&linkCode=ll1",
    "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B08T6C614X"
-  },
-  {
-   "rank": 8,
-   "asin": "B0CH88DTPH",
-   "name": "GALAX PRO 120V 6.0-Amp Corded Reciprocating Saw",
-   "brand": "GALAX PRO",
-   "model": "77112",
-   "price": 39.99,
-   "currency": "USD",
-   "rating": 4.3,
-   "reviews_count": 590,
-   "score": 90,
-   "award": null,
-   "best_for": "Occasional pruning, PVC and pallet breakdown for under $40.",
-   "bought_last_month": null,
-   "verdict": "The cheapest way into a real corded recip: a 6-amp saw with a full 1-1/8\" stroke, a pivoting shoe, and five blades in the box for under $40. Right for occasional pruning, PVC, and pallet breakdown, not all-day demolition.",
-   "pros": [
-    "Under $40 with 2 wood and 3 metal blades",
-    "Full 1-1/8\" stroke, tool-free blade change",
-    "Pivoting shoe and trigger lock-on button"
-   ],
-   "cons": [
-    "6 amps is the weakest motor here",
-    "Listing quotes both 2,800 and 3,000 SPM; the spec table says 2,800"
-   ],
-   "specs": {
-    "type": "Corded",
-    "power": "6 amp",
-    "max_rpm": "0-2,800 SPM",
-    "stroke": "1-1/8 in",
-    "blade_change": "Tool-free"
-   },
-   "features": {
-    "kit": true,
-    "variable_speed": true,
-    "tool_free": true,
-    "orbital": false
-   },
-   "image": "https://m.media-amazon.com/images/I/619pQ6cmb5L._AC_SX425_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0CH88DTPH?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/corded-reciprocating-saws.html#B0CH88DTPH"
   },
   {
    "rank": 9,
@@ -491,6 +491,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-25",
+   "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the GALAX PRO 77112 dropped from $39.99 to $32.29."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Ingersoll Rand 529 dropped from $246.99 to $209.92."

@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-16",
+ "updated": "2026-11-25",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 172,
@@ -222,7 +222,7 @@
    "title": "The 10 Best Band Saws",
    "url": "https://toolboxtop10.com/band-saws.html",
    "json": "https://toolboxtop10.com/band-saws.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-30",
    "products": 10,
    "best_overall": {
@@ -266,7 +266,7 @@
    "title": "The 10 Best Bench Grinders",
    "url": "https://toolboxtop10.com/bench-grinders.html",
    "json": "https://toolboxtop10.com/bench-grinders.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-30",
    "products": 10,
    "best_overall": {
@@ -582,7 +582,7 @@
    "title": "The 10 Best Corded Car Polishers",
    "url": "https://toolboxtop10.com/corded-car-polishers.html",
    "json": "https://toolboxtop10.com/corded-car-polishers.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -846,13 +846,13 @@
    "title": "The 10 Best Corded LED Work Lights",
    "url": "https://toolboxtop10.com/corded-work-lights.html",
    "json": "https://toolboxtop10.com/corded-work-lights.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0FCF85D97",
     "name": "Szwbee 4-head tripod",
-    "price": 69.99
+    "price": 59.49
    },
    "best_budget": null,
    "money_no_object": null
@@ -862,7 +862,7 @@
    "title": "The 10 Best Corded Miter Saws",
    "url": "https://toolboxtop10.com/corded-miter-saws.html",
    "json": "https://toolboxtop10.com/corded-miter-saws.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-27",
    "products": 10,
    "best_overall": {
@@ -886,7 +886,7 @@
    "title": "The 10 Best Corded Oscillating Tools",
    "url": "https://toolboxtop10.com/corded-oscillating-tools.html",
    "json": "https://toolboxtop10.com/corded-oscillating-tools.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-09-26",
    "products": 10,
    "best_overall": {
@@ -930,7 +930,7 @@
    "title": "The 10 Best Corded Reciprocating Saws",
    "url": "https://toolboxtop10.com/corded-reciprocating-saws.html",
    "json": "https://toolboxtop10.com/corded-reciprocating-saws.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-09-28",
    "products": 10,
    "best_overall": {
@@ -994,7 +994,7 @@
    "title": "The 10 Best Corded Routers",
    "url": "https://toolboxtop10.com/corded-routers.html",
    "json": "https://toolboxtop10.com/corded-routers.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1014,7 +1014,7 @@
    "title": "The 10 Best Corded Shop Vacuums",
    "url": "https://toolboxtop10.com/corded-shop-vacuums.html",
    "json": "https://toolboxtop10.com/corded-shop-vacuums.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-09-30",
    "products": 10,
    "best_overall": {
@@ -1078,7 +1078,7 @@
    "title": "The 10 Best Corded Table Saws",
    "url": "https://toolboxtop10.com/corded-table-saws.html",
    "json": "https://toolboxtop10.com/corded-table-saws.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-09-27",
    "products": 10,
    "best_overall": {
@@ -1126,7 +1126,7 @@
    "title": "The 10 Best Cordless Brad Nailers",
    "url": "https://toolboxtop10.com/cordless-brad-nailers.html",
    "json": "https://toolboxtop10.com/cordless-brad-nailers.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-07",
    "products": 10,
    "best_overall": {
@@ -1146,7 +1146,7 @@
    "title": "The 10 Best Cordless Car Polishers",
    "url": "https://toolboxtop10.com/cordless-car-polishers.html",
    "json": "https://toolboxtop10.com/cordless-car-polishers.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1162,7 +1162,7 @@
    "money_no_object": {
     "asin": "B0B59RPC6T",
     "name": "Milwaukee 2684-20",
-    "price": 244.95
+    "price": 245.0
    }
   },
   {
@@ -1170,7 +1170,7 @@
    "title": "The 10 Best Cordless Caulking Guns",
    "url": "https://toolboxtop10.com/cordless-caulking-guns.html",
    "json": "https://toolboxtop10.com/cordless-caulking-guns.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1194,7 +1194,7 @@
    "title": "The 10 Best Cordless Chainsaws",
    "url": "https://toolboxtop10.com/cordless-chainsaws.html",
    "json": "https://toolboxtop10.com/cordless-chainsaws.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1262,13 +1262,13 @@
    "title": "The 10 Best Cordless Die Grinders",
    "url": "https://toolboxtop10.com/cordless-die-grinders.html",
    "json": "https://toolboxtop10.com/cordless-die-grinders.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0C2JRG2MZ",
     "name": "Milwaukee 2984-20",
-    "price": 239.99
+    "price": 229.99
    },
    "best_budget": {
     "asin": "B0HBX5B3QF",
@@ -1306,7 +1306,7 @@
    "title": "The 10 Best Cordless Drills",
    "url": "https://toolboxtop10.com/cordless-drills.html",
    "json": "https://toolboxtop10.com/cordless-drills.json",
-   "data_captured": "2026-11-11",
+   "data_captured": "2026-11-25",
    "audited": "2026-11-04",
    "products": 10,
    "best_overall": {
@@ -1502,7 +1502,7 @@
    "title": "The 10 Best Cordless Impact Drivers",
    "url": "https://toolboxtop10.com/cordless-impact-drivers.html",
    "json": "https://toolboxtop10.com/cordless-impact-drivers.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-11-10",
    "products": 10,
    "best_overall": {
@@ -1646,7 +1646,7 @@
    "title": "The 10 Best Cordless Miter Saws",
    "url": "https://toolboxtop10.com/cordless-miter-saws.html",
    "json": "https://toolboxtop10.com/cordless-miter-saws.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-09-29",
    "products": 10,
    "best_overall": {
@@ -1890,7 +1890,7 @@
    "title": "The 10 Best Cordless Rotary Tools",
    "url": "https://toolboxtop10.com/cordless-rotary-tools.html",
    "json": "https://toolboxtop10.com/cordless-rotary-tools.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-11-10",
    "products": 10,
    "best_overall": {
@@ -1910,23 +1910,23 @@
    "title": "The 10 Best Cordless Routers",
    "url": "https://toolboxtop10.com/cordless-routers.html",
    "json": "https://toolboxtop10.com/cordless-routers.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-11-10",
    "products": 10,
    "best_overall": {
-    "asin": "B07KSRTDML",
-    "name": "DEWALT DCW600B",
-    "price": 114.89
-   },
-   "best_budget": {
     "asin": "B0GR4HLXV8",
     "name": "SEESII X1",
     "price": 84.99
    },
+   "best_budget": {
+    "asin": "B0F32P9L82",
+    "name": "JEXUGK JCWR-G1",
+    "price": 79.99
+   },
    "money_no_object": {
     "asin": "B0D484Q8QN",
     "name": "DEWALT DCW620B",
-    "price": 274.0
+    "price": 279.99
    }
   },
   {
@@ -3298,7 +3298,7 @@
    "title": "The 10 Best Sewer Inspection Cameras",
    "url": "https://toolboxtop10.com/sewer-inspection-cameras.html",
    "json": "https://toolboxtop10.com/sewer-inspection-cameras.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-07",
    "products": 10,
    "best_overall": {
@@ -3362,7 +3362,7 @@
    "title": "The 10 Best Speed Squares",
    "url": "https://toolboxtop10.com/speed-squares.html",
    "json": "https://toolboxtop10.com/speed-squares.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-11-03",
    "products": 10,
    "best_overall": {
@@ -3378,7 +3378,7 @@
    "money_no_object": {
     "asin": "B0F9JT2BN7",
     "name": "Johnson Level 1904-0700V",
-    "price": 34.58
+    "price": 34.67
    }
   },
   {
@@ -3614,7 +3614,7 @@
    "title": "The 10 Best Tool Bags",
    "url": "https://toolboxtop10.com/tool-bags.html",
    "json": "https://toolboxtop10.com/tool-bags.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-10-08",
    "products": 10,
    "best_overall": {
@@ -3726,7 +3726,7 @@
    "title": "The 10 Best Utility Knives",
    "url": "https://toolboxtop10.com/utility-knives.html",
    "json": "https://toolboxtop10.com/utility-knives.json",
-   "data_captured": "2026-11-10",
+   "data_captured": "2026-11-25",
    "audited": "2026-11-10",
    "products": 10,
    "best_overall": {
