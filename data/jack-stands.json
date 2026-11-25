@@ -2,10 +2,11 @@
   "slug": "jack-stands",
   "title": "The 10 Best Jack Stands",
   "subtitle": "2-ton to 10-ton jack stands with ratchet and double-pin locks for cars, SUVs and trucks, ranked from live Amazon data.",
-  "intro": "Jack stands are what actually hold the car while you're under it; the floor jack only lifts it. We ranked 10 best-selling pairs on rating, review volume and features (a second locking pin, a stated ASME or ANSI safety standard, 3-ton or higher capacity, and a tall reach for trucks). Most stands use a ratchet bar that locks as you raise it; double-locking stands add a pin through the bar as a backup. They run from about $30 a pair to $215 for Sunex's 10-ton pin stands.",
+  "intro": "Jack stands are what actually hold the car while you're under it; the floor jack only lifts it. We ranked 10 best-selling pairs on rating, review volume and features (a second locking pin, a stated ASME or ANSI safety standard, 3-ton or higher capacity, and a tall reach for trucks). Most stands use a ratchet bar that locks as you raise it; double-locking stands add a pin through the bar as a backup. They run from about $25 a pair to $215 for Sunex's 10-ton pin stands.",
   "data_captured": "2026-11-25",
-  "audited": "2026-10-10",
+  "audited": "2026-11-25",
   "changelog": [
+    {"date": "2026-11-25", "note": "Replaced the Amazon Basics SW-STJK03, which Amazon no longer lists, with VEVOR's 3-ton double-locking pair ($25.42, sold by Amazon). Best Budget moves to the BIG RED T43202 ($28.49)."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. No price changes."},
     {"date": "2026-11-25", "note": "Prices re-checked on 9 of 11 listings. Biggest price moves: the YELLOW JACKET AS43001C dropped from $44.99 to $35.99; the BIG RED T43202 dropped from $35.48 to $28.49; the VEVOR HM6 dropped from $50.90 to $41.34."},
     {"date": "2026-11-13", "note": "Replaced the Pro-Lift T-6906D, which Amazon now sells only used or through other sellers, with the TCE AT43002AU ($49.48, 4.7 stars from 1,294 reviews)."},
@@ -34,19 +35,41 @@
   ],
   "products": [
     {
-      "asin": "B0753MMRN7",
-      "name": "Amazon Basics Steel Jack Auto Stands, 3 Ton (6,000 lb), Adjustable Height, 1 Pair",
-      "brand": "Amazon Basics", "model": "SW-STJK03",
-      "image": "https://m.media-amazon.com/images/I/61L0mYeQEgL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-16",
-      "price": 31.49, "rating": 4.7, "reviews_count": 13921, "bought": "6K+/mo",
-      "specs": { "capacity": "3 ton (6,000 lb)", "range": null, "lock": "Self-locking ratchet", "standard": "ASME PASE-2014", "warranty": "1 year" },
-      "features": { "double_lock": false, "standard": true, "three_ton": true, "tall": false },
-      "verdict": "The best-selling and most-reviewed jack stands on this page: a 3-ton pair with a self-locking ratchet, a rustproof coated steel frame and the ASME PASE-2014 safety standard.",
-      "best_for": "Sedans and small SUVs: the default pair for a home garage.",
-      "skip_if": "You want a backup locking pin; these use the ratchet only.",
-      "pros": ["6,000+ sold last month; 13,921 reviews at 4.7 stars", "Meets ASME PASE-2014", "1-year warranty"],
-      "cons": ["No secondary locking pin", "Height range not listed"]
+      "asin": "B0C8B2NWKK",
+      "name": "VEVOR Jack Stands, 3 Ton (6,000 lb), Double Locking, 10.8-16.3 in. Adjustable Height, 1 Pair (HM3141C)",
+      "brand": "VEVOR",
+      "model": "HM3141C",
+      "image": "https://m.media-amazon.com/images/I/71Bs3g2+xZL._AC_SL1500_.jpg",
+      "price": 25.42,
+      "rating": 4.6,
+      "reviews_count": 1852,
+      "bought": "300+/mo",
+      "specs": {
+        "capacity": "3 ton (6,000 lb)",
+        "range": "10.8-16.3 in., 9 positions",
+        "lock": "Ratchet plus metal pins",
+        "standard": "CE",
+        "warranty": null
+      },
+      "features": {
+        "double_lock": true,
+        "standard": false,
+        "three_ton": true,
+        "tall": false
+      },
+      "verdict": "The 3-ton version of VEVOR's double-locking stands, sold by Amazon for about $25 a pair. A ratchet bar plus a metal pin hold the load, on a wide pyramid base with a notched saddle.",
+      "best_for": "Cars and small SUVs when you want a backup pin for the least money.",
+      "skip_if": "You want a stated ASME or ANSI safety standard; the listing claims CE only.",
+      "pros": [
+        "Double locking: ratchet bar plus metal safety pin",
+        "10.8 to 16.3 in. height in 9 steps",
+        "About $25 a pair, sold by Amazon"
+      ],
+      "cons": [
+        "CE only; no ASME/ANSI claim",
+        "No warranty listed",
+        "Review count is shared with VEVOR's 6-ton version"
+      ]
     },
     {
       "asin": "B000CO86BY",
@@ -146,10 +169,10 @@
       "price": 41.34, "rating": 4.6, "reviews_count": 1852, "bought": "1K+/mo",
       "specs": { "capacity": "6 ton", "range": null, "lock": "Ratchet plus metal pins", "standard": "CE", "warranty": null },
       "features": { "double_lock": true, "standard": false, "three_ton": true, "tall": false },
-      "verdict": "A 6-ton double-locking pair for pickups, SUVs and UTVs at about $51, with a wider pyramid base and a notched saddle that grips pinch welds.",
+      "verdict": "A 6-ton double-locking pair for pickups, SUVs and UTVs at about $41, with a wider pyramid base and a notched saddle that grips pinch welds.",
       "best_for": "Pickups and heavier SUVs on a budget.",
       "skip_if": "You want the height range before buying; it isn't listed.",
-      "pros": ["6-ton rating", "Ratchet plus pins", "900+ sold last month"],
+      "pros": ["6-ton rating", "Ratchet plus pins", "1,000+ sold last month"],
       "cons": ["Height range not listed", "CE only; no ASME/ANSI claim"]
     },
     {
