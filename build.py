@@ -183,6 +183,19 @@ def esc(s):
     return html.escape(str(s)) if s is not None else ""
 
 
+
+AMZ_SIZE_RE = re.compile(r"(\._[^/]*_)?\.(jpg|jpeg|png)$", re.I)
+
+
+def thumb(url, size=320):
+    """On-page product image at `size` px on the long side. Cards show images at 96 to 150 CSS px,
+    so Amazon's 1000 to 1500 px originals cost 5 to 8 times the bytes for no visible gain. JSON-LD,
+    share images and the agent JSON keep the full-size URL."""
+    if not url or "m.media-amazon.com/images/I/" not in url:
+        return url
+    return AMZ_SIZE_RE.sub(lambda m: f"._AC_US{size}_.{m.group(2)}", url)
+
+
 def money(v):
     return f"${v:,.2f}".rstrip("0").rstrip(".") if v == int(v) else f"${v:,.2f}"
 
@@ -229,7 +242,7 @@ def render_hero_card(p, site, cat):
     <a class="hero-card {esc(p['badge_kind'])}" {data_attrs(p, award=p['badge'])}
        href="{url}" target="_blank" rel="sponsored nofollow noopener">
       <span class="hero-tag">{esc(p['badge'])}</span>
-      <img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy">
+      <img src="{esc(thumb(p['image']))}" alt="{esc(p['name'])}" loading="lazy">
       <div class="hero-body">
         <div class="hero-brand">{esc(p['brand'])}</div>
         <div class="hero-name">{esc(p['name'])}</div>
@@ -281,7 +294,7 @@ def render_card(p, site, spec_fields, cat=None):
     <article class="card" id="{esc(p['asin'])}" {data_attrs(p, award=p['badge'])}>
       <div class="rank">#{p['rank']}</div>
       <div class="card-head">
-        <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
+        <div class="card-img"><img src="{esc(thumb(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div>
         <div class="card-title">
           {badge}
           <div class="brand">{esc(p['brand'])}</div>
@@ -437,7 +450,7 @@ def render_avoid(avoid, site):
       <article class="avoid-card" id="avoid-{esc(a['asin'])}" {data_attrs(a, avoid="true")}>
         <span class="avoid-flag">&#10005; Avoid</span>
         <div class="avoid-head">
-          <div class="card-img"><img src="{esc(a['image'])}" alt="{esc(a['name'])}" loading="lazy"></div>
+          <div class="card-img"><img src="{esc(thumb(a['image']))}" alt="{esc(a['name'])}" loading="lazy"></div>
           <div class="card-title">
             <div class="brand">{esc(a['brand'])}</div>
             <h3>{esc(a['name'])}</h3>
@@ -1250,7 +1263,7 @@ def build_comparison(site, cat, overall, budget, premium, spec_fields, columns):
     <article class="card vs-side {kind}">
       <span class="badge {kind}">{label}</span>
       <div class="card-head">
-        <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
+        <div class="card-img"><img src="{esc(thumb(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div>
         <div class="card-title"><div class="brand">{esc(p['brand'])}</div><h3>{esc(p['name'])}</h3></div>
       </div>
       <p class="verdict">{esc(p['verdict'])}</p>
@@ -1361,6 +1374,40 @@ def list_note(p):
     if not isinstance(lp, (int, float)) or not isinstance(price, (int, float)) or lp <= price:
         return ""
     return f" &middot; Amazon list price {money(lp)} ({round((lp - price) / lp * 100)}% off)"
+
+
+TYPICAL_DAYS = 90  # how far back a holiday card's "typical" price looks
+
+
+def typical_price(asin, before):
+    """Median of our price checks in the TYPICAL_DAYS before `before` (the holiday page's
+    link_from, when early deals start), so a holiday card compares against what a pick usually
+    sells for, not a price already cut for the sale. None with fewer than 2 checks in that window."""
+    lo = (datetime.date.fromisoformat(before) - datetime.timedelta(days=TYPICAL_DAYS)).isoformat()
+    pts = sorted(v for d, v in PRICE_HISTORY.get(asin, [])
+                 if lo <= d < before and isinstance(v, (int, float)) and v > 0)
+    if len(pts) < 2:
+        return None
+    m = len(pts) // 2
+    return pts[m] if len(pts) % 2 else round((pts[m - 1] + pts[m]) / 2, 2)
+
+
+def _day(iso):
+    d = datetime.date.fromisoformat(iso)
+    return f"{d:%b} {d.day}"
+
+
+def holiday_note(p, day, before):
+    """Small line under a holiday card's price: when it was checked, and the typical price before
+    the sale started (with how far below it the price already is)."""
+    note = f"price on {esc(day)}"
+    t = typical_price(p["asin"], before)
+    price = p.get("price")
+    if t is not None and isinstance(price, (int, float)):
+        note += f" &middot; typical before {_day(before)}: {money(t)}"
+        if price <= t * 0.95:
+            note += f" ({round((t - price) / t * 100)}% lower now)"
+    return note + list_note(p)
 
 
 def seasonal_pages():
@@ -1554,13 +1601,13 @@ def cat_name(cat):
     return re.sub(r"^The \d+ Best ", "", cat["title"])
 
 
-def render_pick_card(p, cat, site, label=None, price_note="", tags=""):
+def render_pick_card(p, cat, site, label=None, price_note="", tags="", anchor=None):
     url = amazon_url(p["asin"], site["affiliate_tag"], site["amazon_domain"])
     tag = f'<span class="badge {esc(p["badge_kind"] or "")}">{esc(label)}</span>' if label else ""
     return f"""
-      <article class="card pick-card" id="{esc(cat['slug'])}">
+      <article class="card pick-card" id="{esc(anchor or cat['slug'])}">
         <div class="card-head">
-          <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
+          <div class="card-img"><img src="{esc(thumb(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div>
           <div class="card-title">
             {tag}
             <div class="brand">{esc(cat_name(cat))} &middot; {esc(p['brand'])}</div>
@@ -1692,6 +1739,7 @@ def _long_date(iso):
 
 def build_holiday(site, cfg, by_slug):
     rows, dates = [], []
+    before = cfg["link_from"]  # early deals start about when the page goes visible
 
     def pick(entry):
         cat, overall, budget = entry
@@ -1699,18 +1747,28 @@ def build_holiday(site, cfg, by_slug):
         budget, d_b = holiday_price(budget, cat, site) if budget else (budget, d_o)
         dates.extend([d_o, d_b])
         rows.append((cat, overall, budget))
-        cards = render_pick_card(overall, cat, site, "Best Overall", f"regular price on {esc(d_o)}{list_note(overall)}")
+        cards = render_pick_card(overall, cat, site, "Best Overall", holiday_note(overall, d_o, before))
         if budget and budget["asin"] != overall["asin"]:
-            cards += render_pick_card(budget, cat, site, "Best Budget",
-                                      f"regular price on {esc(d_b)}{list_note(budget)}")
+            cards += render_pick_card(budget, cat, site, "Best Budget", holiday_note(budget, d_b, before),
+                                      anchor=f"{cat['slug']}-budget")
         return cards
 
     groups = _grouped(site, by_slug, pick)
+    fallback = []
+
+    def typical_cell(p):
+        t = typical_price(p["asin"], before)
+        if t is None:
+            fallback.append(p["asin"])
+            return f"{money(p['price'])}*"
+        return money(t)
+
     table_rows = "".join(
         f'<tr><td><a href="#{esc(cat["slug"])}">{esc(cat_name(cat))}</a></td>'
-        f'<td>{esc(_short(o))}</td><td>{money(o["price"])}</td>'
-        f'<td>{esc(_short(b)) if b else "&mdash;"}</td><td>{money(b["price"]) if b else "&mdash;"}</td></tr>'
+        f'<td>{esc(_short(o))}</td><td>{typical_cell(o)}</td>'
+        f'<td>{esc(_short(b)) if b else "&mdash;"}</td><td>{typical_cell(b) if b else "&mdash;"}</td></tr>'
         for cat, o, b in rows)
+    star = " * Too few checks before then, so this is the latest price." if fallback else ""
     key_dates = " ".join(f"<b>{esc(k['label'])}:</b> {_long_date(k['date'])}." for k in cfg["key_dates"])
     body = f"""
   {render_quicknav(nav_groups_from_site(site), compact=True, back_home=True)}
@@ -1723,15 +1781,17 @@ def build_holiday(site, cfg, by_slug):
     <h2>Key dates</h2>
     <p>{key_dates} {esc(cfg.get('dates_note', ''))}
     Every button below opens the live Amazon listing, so you see
-    today's price next to the regular price we recorded.</p>
+    today's price next to the typical price we recorded.</p>
   </section>
   <section class="compare" id="price-to-beat">
     <h2>Price-to-beat cheat sheet</h2>
     <p class="swipe-hint">Swipe the table sideways for more columns &rarr;</p>
-    <div class="tablewrap"><table class="bf-table"><tr><th>Category</th><th>Best Overall</th><th>Regular</th>
-      <th>Best Budget</th><th>Regular</th></tr>{table_rows}</table></div>
-    <p class="tiny muted">"Regular" = the Amazon price when we last checked each category
-    ({esc(min(dates))} to {esc(max(dates))}). If the {esc(cfg['deal_name'])} price is at or above it, it isn't a deal.</p>
+    <div class="tablewrap"><table class="bf-table"><tr><th>Category</th><th>Best Overall</th><th>Typical</th>
+      <th>Best Budget</th><th>Typical</th></tr>{table_rows}</table></div>
+    <p class="tiny muted">"Typical" is the middle of our Amazon price checks in the {TYPICAL_DAYS} days
+    before {_day(before)}, before the early deals. The cards show the latest price we saw
+    ({esc(min(dates))} to {esc(max(dates))}). If the {esc(cfg['deal_name'])} price is at or above
+    the typical price, it isn't a deal.{star}</p>
   </section>
   {groups}
   <section class="guide"><h2>{esc(cfg['faq_heading'])}</h2>{render_guide(cfg.get('faq', []))}</section>
@@ -1885,7 +1945,7 @@ def render_brand_card(p, cat, site, cfg, others, cordless):
     return f"""
       <article class="card pick-card brand-card" id="{esc(cat['slug'])}">
         <div class="card-head">
-          <div class="card-img"><img src="{esc(p['image'])}" alt="{esc(p['name'])}" loading="lazy"></div>
+          <div class="card-img"><img src="{esc(thumb(p['image']))}" alt="{esc(p['name'])}" loading="lazy"></div>
           <div class="card-title">
             <div class="brand">{esc(name)} &middot; ranked #{p['rank']} of {len(cat['products'])}</div>
             <h3>{esc(p['name'])}</h3>
