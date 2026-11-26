@@ -6,8 +6,8 @@
  "title": "The 10 Best Screwdriver Sets",
  "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
  "intro": "We pulled the best-selling manual screwdriver sets on Amazon — fixed-handle sets, multi-bit and ratcheting drivers, magnetic-tip budget kits, and a precision set for electronics — then scored each on a single 100-point scale built from its star rating, review volume, value, and the features that matter: magnetic tips, a ratcheting mechanism, a nut driver, and a storage case. Cordless power screwdrivers are a separate tool and aren't on this list.",
- "data_captured": "2026-11-25",
- "audited": "2026-11-02",
+ "data_captured": "2026-11-26",
+ "audited": "2026-11-26",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
   "scale": "0-100",
@@ -42,7 +42,7 @@
    "price": 8.49,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 28191,
+   "reviews_count": 28217,
    "score": 87,
    "award": "Best Overall",
    "best_for": "Opening phones, laptops, consoles and glasses.",
@@ -84,7 +84,7 @@
    "price": 17.21,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 5090,
+   "reviews_count": 5091,
    "score": 87,
    "award": null,
    "best_for": "One box for household jobs and electronics, with a case.",
@@ -210,7 +210,7 @@
    "price": 9.99,
    "currency": "USD",
    "rating": 4.6,
-   "reviews_count": 6871,
+   "reviews_count": 6872,
    "score": 82,
    "award": null,
    "best_for": "The six sizes you use most, for a car or first tool kit.",
@@ -294,7 +294,7 @@
    "price": 24.98,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 7493,
+   "reviews_count": 7492,
    "score": 78,
    "award": null,
    "best_for": "Household and shop work with a full range of fixed drivers.",
@@ -336,7 +336,7 @@
    "price": 48.98,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 3715,
+   "reviews_count": 3716,
    "score": 78,
    "award": null,
    "best_for": "One set of 25 fixed drivers that covers almost every screw.",
@@ -456,26 +456,26 @@
  ],
  "avoid": [
   {
-   "asin": "B0HDZ12Z9R",
-   "name": "415-Piece Home Tool Kit with Rolling Tool Box",
-   "brand": "No-name",
-   "model": "415-Piece Kit",
-   "price": 99.99,
+   "asin": "B0GZN9HV74",
+   "name": "SEDY 101-Piece Magnetic Screwdriver Set with 60 Bits, Ratchet and Storage Rack",
+   "brand": "SEDY",
+   "model": "87073",
+   "price": 23.78,
    "currency": "USD",
-   "rating": 5.0,
-   "reviews_count": 2,
-   "flag": "Piece-count padding, wrong product",
-   "verdict": "The one to skip if you actually want good screwdrivers. A 415-piece 'home tool kit' isn't a screwdriver set — the headline count is padded with sockets, zip ties, and hardware, and the drivers inside are an afterthought.",
+   "rating": 4.3,
+   "reviews_count": 65,
+   "flag": "Unrated 'VDE insulated' claim",
+   "verdict": "The set we'd skip. It sells two of its drivers as \"VDE insulated\" and adds a voltage tester, but the listing never says what voltage they're rated for or what standard they meet, and most of the 101 pieces are bits.",
    "reasons": [
-    "The '415 pieces' is marketing math — it's mostly sockets, tape, cable ties, and assorted hardware. The actual screwdrivers are a small, generic subset, so you're paying $110 for a box, not for good drivers.",
-    "Buying a huge mixed kit to get screwdrivers means every tool in it is built to a budget. A dedicated $16 Klein driver will outlast and out-grip anything bundled into a mega-kit.",
-    "No established brand or warranty stands behind it, and mystery-steel tips cam out and round off — the fastest way to strip a screw.",
-    "If you want a general household kit that's fine, but for the job this page is about — driving screws well — a real screwdriver set from this list is the smarter buy."
+    "Two drivers are described as \"VDE insulated\", but the listing gives no voltage rating and no test standard (genuine VDE tools are tested to IEC 60900 and marked 1000 V). Don't trust them near live circuits on the strength of that label.",
+    "The included voltage tester has no published voltage range or safety category either.",
+    "60 of the 101 pieces are interchangeable bits; the set holds 21 standard screwdrivers and 8 precision drivers, so the headline count overstates what you get.",
+    "For real insulated drivers, buy a set that states its 1000 V rating on the listing and the handle. For general use, the Amartisan 43-piece and the CRAFTSMAN sets on this page cost about the same or less."
    ],
    "bought_last_month": null,
-   "image": "https://m.media-amazon.com/images/I/71sDVTs96TL._AC_SX522_.jpg",
-   "amazon_url": "https://www.amazon.com/dp/B0HDZ12Z9R?tag=toolboxtop10-20&linkCode=ll1",
-   "page_url": "https://toolboxtop10.com/screwdrivers.html#avoid-B0HDZ12Z9R"
+   "image": "https://m.media-amazon.com/images/I/81xm5jUGs+L._AC_SL1500_.jpg",
+   "amazon_url": "https://www.amazon.com/dp/B0GZN9HV74?tag=toolboxtop10-20&linkCode=ll1",
+   "page_url": "https://toolboxtop10.com/screwdrivers.html#avoid-B0GZN9HV74"
   }
  ],
  "buyers_guide": [
@@ -501,6 +501,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-26",
+   "note": "Full audit. All 10 picks kept with prices and ratings re-checked. The set to avoid is now the SEDY 101-piece, which calls two drivers VDE insulated without giving a voltage rating; the 415-piece kit it replaces is no longer sold."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. No price changes."

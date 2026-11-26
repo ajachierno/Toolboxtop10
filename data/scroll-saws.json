@@ -3,9 +3,10 @@
   "title": "The 10 Best Scroll Saws",
   "subtitle": "16- to 22-inch variable-speed scroll saws for fretwork, puzzles, inlay and intricate curves, ranked from live Amazon data.",
   "intro": "A scroll saw cuts tight curves and interior cutouts in wood, plastic and thin metal that no other saw can reach. We ranked 10 best-sellers on rating, review volume and features (tool-free blade changes, a work light, an upper arm that lifts for inside cuts and a throat of 20 inches or more). The throat size sets the largest piece you can turn: 16-inch saws suit hobby work, 20-22-inch saws handle big panels. They run from about $110 for Dremel's compact Moto-Saw to $900 for JET's 22-inch.",
-  "data_captured": "2026-11-25",
-  "audited": "2026-10-10",
+  "data_captured": "2026-11-26",
+  "audited": "2026-11-26",
   "changelog": [
+    {"date": "2026-11-26", "note": "Full audit. Replaced the WEN 3922 and both BUCKTOOL saws, which Amazon no longer sells, with the WEN LL2156 21-inch parallel-arm saw ($371.93), the JET JWSS-18B ($764.99) and the Towallmark 16-inch with a work light ($124.99)."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on 8 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-11-25", "note": "Prices re-checked on 8 of 11 listings. Biggest price moves: the SKIL SS9503-00 dropped from $199 to $169; the JET JWSS-22B rose from $899.99 to $990.20."},
     {"date": "2026-11-14", "note": "Prices, ratings and review counts re-checked on every listing. No price changes."},
@@ -82,7 +83,7 @@
       "price_checked": "2026-11-26",
       "price": 119.00,
       "rating": 4.5,
-      "reviews_count": 5169,
+      "reviews_count": 5170,
       "bought": "500+/mo",
       "specs": {
         "throat": "16 in",
@@ -101,7 +102,7 @@
       "best_for": "Beginners and hobby fretwork.",
       "skip_if": "You cut large panels; a 20-inch throat takes bigger work.",
       "pros": [
-        "5,169 reviews at 4.5 stars",
+        "5,170 reviews at 4.5 stars",
         "Blades mount two ways for long rips",
         "Light, air pump, cast iron base"
       ],
@@ -111,39 +112,30 @@
       ]
     },
     {
-      "asin": "B084LKTV6Y",
-      "name": "WEN 3922 16-inch Variable Speed Scroll Saw with Easy-Access Blade Changes",
+      "asin": "B096G8SFC8",
+      "name": "WEN LL2156 21-Inch 1.6-Amp Variable Speed Parallel Arm Scroll Saw with Extra-Large Dual-Bevel Steel Table",
       "brand": "WEN",
-      "model": "3922",
-      "image": "https://m.media-amazon.com/images/I/811o3zpjiwL._AC_SL1500_.jpg",
-      "price": 119.77,
-      "rating": 4.5,
-      "reviews_count": 1282,
-      "bought": "100+/mo",
-      "specs": {
-        "throat": "16 in",
-        "speed": "550-1,600 spm",
-        "thickness": "2 in",
-        "table": "16 x 10 in, bevels 45°",
-        "extras": "Flip-open side panel, air pump, dust port, foot lock"
-      },
-      "features": {
-        "tool_free": true,
-        "light": false,
-        "arm_lift": false,
-        "large_throat": false
-      },
-      "verdict": "The best-selling scroll saw here: a side panel flips open for easier blade changes, plus tool-free blade adapters, a cast iron base, an air pump and a dust port.",
-      "best_for": "Hobbyists who change blades often.",
-      "skip_if": "You want a work light; the 3921 and 3923 have one.",
+      "model": "LL2156",
+      "image": "https://m.media-amazon.com/images/I/71XFF98K7mS._AC_SL1500_.jpg",
+      "price_checked": "2026-11-26",
+      "price": 371.93,
+      "rating": 4.4,
+      "reviews_count": 146,
+      "specs": {"throat": "21 in", "speed": "Variable", "thickness": null, "table": "25-5/8 x 16 in steel, bevels 45° left / 30° right", "extras": "Parallel arm, dual flip-open side panels, arm lock, air pump, 1-1/2 in dust port, hold-down"},
+      "features": {"tool_free": true, "light": false, "arm_lift": true, "large_throat": true},
+      "verdict": "A 21-inch parallel-arm saw with a heavy steel frame, a 25-5/8 x 16 in table that bevels both ways, side panels that flip open for tool-free blade changes, and an upper arm that locks up for interior cuts.",
+      "best_for": "Big fretwork panels on a parallel-arm saw for well under the price of a DEWALT or Delta.",
+      "skip_if": "You want a work light or a published speed range.",
       "pros": [
-        "400+ sold last month",
-        "Flip-open side panel",
-        "Cast iron base, air pump"
+        "21 in throat and an extra-large steel table",
+        "Table bevels 45° left and 30° right",
+        "Upper arm locks in the raised position for interior cuts",
+        "Two-year warranty"
       ],
       "cons": [
         "No work light listed",
-        "16-in throat"
+        "Speed range not published",
+        "53.8 lb, so it needs a solid bench or stand"
       ]
     },
     {
@@ -216,7 +208,7 @@
         "Onboard blade storage"
       ],
       "cons": [
-        "About $80 more than the WEN 3921",
+        "About $50 more than the WEN 3921",
         "Listing showed only 1 left"
       ]
     },
@@ -244,87 +236,71 @@
         "arm_lift": false,
         "large_throat": false
       },
-      "verdict": "The 3922 with a work light added: flip-open blade access, tool-free blade adapters, a cast iron base, an air pump and a dust port.",
+      "verdict": "A 16-inch WEN with a work light and a flip-open side panel for blade access, plus tool-free blade adapters, a cast iron base, an air pump and a dust port.",
       "best_for": "WEN's easiest blade changes plus a light.",
-      "skip_if": "You can live without the light; the 3922 is about $39 less.",
+      "skip_if": "You don't need the flip-open panel; the WEN 3921 also has a light and costs about $39 less.",
       "pros": [
         "Work light",
         "Flip-open side panel",
         "Cast iron base"
       ],
       "cons": [
-        "About $39 more than the 3922",
+        "About $39 more than the WEN 3921",
         "4.4 stars"
       ]
     },
     {
-      "asin": "B0DWHL23YK",
-      "name": "BUCKTOOL 16-Inch Scroll Saw, 1.3A, Double Parallel-Link Drive",
-      "brand": "BUCKTOOL",
-      "model": "16 in",
-      "image": "https://m.media-amazon.com/images/I/71ufU3N6wVL._AC_SL1500_.jpg",
-      "price": 305.00,
-      "rating": 4.6,
-      "reviews_count": 75,
-      "specs": {
-        "throat": "16 in",
-        "speed": "Variable",
-        "thickness": null,
-        "table": "19-11/16 x 13-3/8 in",
-        "extras": "Tilting arm 30° L / 45° R, lifting upper arm"
-      },
-      "features": {
-        "tool_free": true,
-        "light": false,
-        "arm_lift": true,
-        "large_throat": false
-      },
-      "verdict": "A step up from hobby saws: a double parallel-link drive for smoother, square cuts, an arm that tilts instead of the table, a lifting upper arm for top-down blade insertion, and up-front controls.",
-      "best_for": "Serious hobbyists doing lots of inside cuts.",
-      "skip_if": "You want a long track record; it has 71 reviews.",
+      "asin": "B07H1BBC6Y",
+      "name": "JET 18-Inch Variable-Speed Scroll Saw, 120V 1Ph (JWSS-18B)",
+      "brand": "JET",
+      "model": "JWSS-18B",
+      "image": "https://m.media-amazon.com/images/I/717H2Iv6bFS._AC_SL1500_.jpg",
+      "price_checked": "2026-11-26",
+      "price": 764.99,
+      "rating": 4.4,
+      "reviews_count": 41,
+      "specs": {"throat": "18 in", "speed": "400-1,550 spm", "thickness": null, "table": "11-5/8 x 21 in, 1/4 in steel; arm tilts 45° right / 30° left", "extras": "Spring-loaded arm lift, 2-1/2 in dust port, 5 blades, 5-year warranty"},
+      "features": {"tool_free": false, "light": false, "arm_lift": true, "large_throat": true},
+      "verdict": "JET's 18-inch saw tilts the arm instead of the table, so the work stays flat on a 1/4 in steel table. The spring-loaded arm lifts 10 in and stays up for threading blades through interior cuts.",
+      "best_for": "Serious scrollers who want a tilting arm and a 5-year warranty without paying for the 22-inch JET.",
+      "skip_if": "You're a beginner on a budget; the WEN 3921 does most of the same work for about $646 less.",
       "pros": [
-        "Parallel-link drive",
-        "Arm lifts for inside cuts",
-        "Tilting arm keeps table flat"
+        "Arm tilts 45° right and 30° left while the table stays flat",
+        "Arm lifts 10 in and stays up",
+        "Clamp-and-tension upper blade holder in one motion",
+        "5-year warranty for home use"
       ],
       "cons": [
-        "$305.00",
-        "Small review base"
+        "$764.99",
+        "No work light listed",
+        "Blade changes still need the clamp, not a tool-free holder"
       ]
     },
     {
-      "asin": "B0CPDT9BMW",
-      "name": "BUCKTOOL 22-Inch Scroll Saw, 1/5 HP 1.3A",
-      "brand": "BUCKTOOL",
-      "model": "22 in",
-      "image": "https://m.media-amazon.com/images/I/71c5TtNXMjL._AC_SL1500_.jpg",
-      "price": 305.00,
-      "rating": 4.6,
-      "reviews_count": 75,
-      "specs": {
-        "throat": "22 in",
-        "speed": "360-1,550 spm",
-        "thickness": null,
-        "table": "27 x 13 in",
-        "extras": "Arm bevels 30° L / 45° R, lifting arm, pinless blades"
-      },
-      "features": {
-        "tool_free": true,
-        "light": false,
-        "arm_lift": true,
-        "large_throat": true
-      },
-      "verdict": "A 22-inch throat and 27 x 13-inch table for large panels, a lifting, tilting upper arm and 15 and 18 TPI pinless blades in the box, for well under half the JET's price.",
-      "best_for": "Large fretwork and signs on a budget.",
-      "skip_if": "You don't need 22 inches of reach.",
+      "asin": "B0D2Y2HV6P",
+      "name": "Towallmark 16-Inch Variable Speed Scroll Saw with Extra-Large Tilting Work Table and LED Work Light",
+      "brand": "Towallmark",
+      "model": "16-inch",
+      "image": "https://m.media-amazon.com/images/I/71Nt3AoCcdL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-26",
+      "price": 124.99,
+      "rating": 4.8,
+      "reviews_count": 11,
+      "specs": {"throat": "16 in", "speed": "Variable", "thickness": null, "table": "16.3 x 9.8 in, tilts 0-45°", "extras": "LED work light, dust port"},
+      "features": {"tool_free": false, "light": true, "arm_lift": false, "large_throat": false},
+      "verdict": "A 16-inch variable-speed saw with an LED work light, a dust port and a table that tilts to 45 degrees, priced close to the WEN 3921.",
+      "best_for": "A 16-inch saw with a light for occasional craft projects.",
+      "skip_if": "You want a published speed range and cut depth; the WEN 3921 lists both.",
       "pros": [
-        "22-in throat",
-        "27 x 13-in table",
-        "Lifting, tilting arm"
+        "LED work light",
+        "Variable speed",
+        "Table tilts 0-45 degrees",
+        "25.6 lb, easy to move"
       ],
       "cons": [
-        "Small review base",
-        "No light listed"
+        "No speed range, cut depth or warranty length published",
+        "No tool-free blade holder listed",
+        "About $6 more than the WEN 3921"
       ]
     },
     {
@@ -446,14 +422,14 @@
       "model": "SC165VS",
       "image": "https://m.media-amazon.com/images/I/61kqsSvSc-L._AC_SL1000_.jpg",
       "price_checked": "2026-11-26",
-      "price": 194.01,
+      "price": 183.00,
       "rating": 4.6,
       "reviews_count": 169,
       "flag": "Listing describes lawn parts; costs far more than equal saws",
       "verdict": "A basic 16-inch saw on a listing that describes something else entirely, priced well above saws with the same specs. Buy the WEN 3921.",
       "reasons": [
         "The listing's only bullet describes Stens lawn-and-landscape replacement parts, not this scroll saw, so you get no description of what you're buying.",
-        "At $180 it costs about $61 more than the WEN 3921, a 16-inch variable-speed saw with a light, air pump and cast iron base.",
+        "At $183 it costs about $64 more than the WEN 3921, a 16-inch variable-speed saw with a light, air pump and cast iron base.",
         "The listing showed only 3 left and gives no warranty information."
       ]
     }
@@ -473,7 +449,7 @@
     },
     {
       "q": "Tilting table or tilting arm?",
-      "a": "Most saws tilt the table for bevel cuts. Pro saws like the BUCKTOOL and JET tilt the arm instead, so the workpiece stays flat and easier to control."
+      "a": "Most saws tilt the table for bevel cuts. Pro saws like the JET JWSS-18B and JWSS-22B tilt the arm instead, so the workpiece stays flat and easier to control."
     },
     {
       "q": "What speed should I use?",

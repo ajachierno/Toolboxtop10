@@ -1,11 +1,12 @@
 {
   "slug": "soldering-irons",
   "title": "The 10 Best Soldering Irons",
-  "subtitle": "Soldering irons, stations and guns for electronics and wiring, ranked from live Amazon data.",
+  "subtitle": "Soldering irons and stations for electronics and wiring, ranked from live Amazon data.",
   "intro": "We ranked 10 corded best-sellers, from $10 pencil-iron kits to Hakko and Weller stations, on rating, review volume and features (temperature control, a display, auto sleep, spare tips and a ready-to-use kit). Most picks are aimed at electronics; the Weller gun is for heavy wire and stained glass.",
-  "data_captured": "2026-11-25",
-  "audited": "2026-10-10",
+  "data_captured": "2026-11-26",
+  "audited": "2026-11-26",
   "changelog": [
+    {"date": "2026-11-26", "note": "Full audit. Replaced the Weller D550PK soldering gun, which is no longer sold on Amazon, with the Q-MING 80 W kit with an LCD readout ($9.99)."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Price changes were all under 8%."},
     {"date": "2026-11-25", "note": "Prices re-checked on 9 of 11 listings. Biggest price moves: the YIHUA 939D+ dropped from $58.99 to $45.99; the YIHUA 926 III dropped from $43.99 to $37.04; the Hakko FX888DX-010 dropped from $136.07 to $122.43."},
     {"date": "2026-11-14", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Hakko FX888DX-010 rose from $124.98 to $135.99."},
@@ -115,8 +116,8 @@
       "price_checked": "2026-11-26",
       "price": 9.98,
       "rating": 4.5,
-      "reviews_count": 5451,
-      "bought": "4K+/mo",
+      "reviews_count": 5455,
+      "bought": "3K+/mo",
       "specs": {
         "type": "Pencil iron kit",
         "wattage": "80 W",
@@ -152,7 +153,7 @@
       "price_checked": "2026-11-26",
       "price": 12.99,
       "rating": 4.5,
-      "reviews_count": 9550,
+      "reviews_count": 9551,
       "bought": "8K+/mo",
       "specs": {
         "type": "Pencil iron kit",
@@ -171,7 +172,7 @@
       "best_for": "Beginners who want a no-frills kit with the basics.",
       "skip_if": "You want a temperature readout; this has a dial only.",
       "pros": [
-        "9,550 reviews; 8,000+ sold last month",
+        "9,551 reviews; 8,000+ sold last month",
         "Fine 0.6 mm solder included",
         "Under $15"
       ],
@@ -189,7 +190,7 @@
       "price_checked": "2026-11-26",
       "price": 23.99,
       "rating": 4.6,
-      "reviews_count": 3032,
+      "reviews_count": 3031,
       "bought": "200+/mo",
       "specs": {
         "type": "Pencil iron kit",
@@ -208,7 +209,7 @@
       "best_for": "DIYers who want a full kit with a carrying case.",
       "skip_if": "You want the cheapest kit; the Liouhoum is about $14 less.",
       "pros": [
-        "4.6 stars; 3,032 reviews",
+        "4.6 stars; 3,031 reviews",
         "Calibration and auto sleep",
         "Carrying case and desoldering pump"
       ],
@@ -225,7 +226,7 @@
       "price_checked": "2026-11-26",
       "price": 45.99,
       "rating": 4.5,
-      "reviews_count": 4220,
+      "reviews_count": 4221,
       "bought": "400+/mo",
       "specs": {
         "type": "Soldering station",
@@ -244,13 +245,13 @@
       "best_for": "Regular solderers who want a sturdier station than the 926 III.",
       "skip_if": "You want helping hands in the box; the 926 III includes them.",
       "pros": [
-        "4.5 stars; 4,220 reviews",
+        "4.5 stars; 4,221 reviews",
         "Built-in transformer, ESD safe",
         "3 temperature memories"
       ],
       "cons": [
         "No helping hands",
-        "Costs $15 more than the 926 III"
+        "Costs about $9 more than the 926 III"
       ]
     },
     {
@@ -262,7 +263,7 @@
       "price_checked": "2026-11-26",
       "price": 39.99,
       "rating": 4.6,
-      "reviews_count": 2601,
+      "reviews_count": 2600,
       "bought": "2K+/mo",
       "specs": {
         "type": "Smart USB-C iron",
@@ -281,7 +282,7 @@
       "best_for": "Makers who want a small, fast iron for the bench or the road.",
       "skip_if": "You don't own a USB-C PD charger; none is included.",
       "pros": [
-        "4.6 stars; 2,601 reviews",
+        "4.6 stars; 2,600 reviews",
         "12-second heat-up",
         "USB-C or DC barrel power"
       ],
@@ -336,7 +337,7 @@
       "price_checked": "2026-11-26",
       "price": 83.60,
       "rating": 4.6,
-      "reviews_count": 1793,
+      "reviews_count": 1794,
       "bought": "300+/mo",
       "specs": {
         "type": "Pencil iron",
@@ -355,7 +356,7 @@
       "best_for": "People who want Hakko-quality temperature control without a base station.",
       "skip_if": "You need a stand; none is included.",
       "pros": [
-        "4.6 stars; 1,793 reviews",
+        "4.6 stars; 1,794 reviews",
         "Closed-loop temperature control",
         "Up to 540°C"
       ],
@@ -365,39 +366,30 @@
       ]
     },
     {
-      "asin": "B00002N7S1",
-      "name": "Weller 260W/200W Professional Soldering Gun Kit with Three Tips and Solder in Carrying Case",
-      "brand": "Weller",
-      "model": "D550PK",
-      "image": "https://m.media-amazon.com/images/I/71hXpEqPN6L._AC_SL1310_.jpg",
-      "price": 42.23,
+      "asin": "B08R3515SF",
+      "name": "Q-MING 80W Soldering Iron Kit with LCD Digital Display, Ceramic Heater, 5 Tips, Stand, Solder Wire, Sponge and Flux",
+      "brand": "Q-MING",
+      "model": "80W-BLUE",
+      "image": "https://m.media-amazon.com/images/I/71V4Ld8XzCL._AC_SL1500_.jpg",
+      "price_checked": "2026-11-26",
+      "price": 9.99,
       "rating": 4.5,
-      "reviews_count": 5077,
-      "bought": "50+/mo",
-      "specs": {
-        "type": "Soldering gun kit",
-        "wattage": "260 W / 200 W",
-        "temp_range": "900-1100°F",
-        "included": "Gun, 3 tips (incl. smoothing tip), solder, carrying case"
-      },
-      "features": {
-        "temp_control": false,
-        "digital_display": false,
-        "auto_sleep": false,
-        "extra_tips": true,
-        "kit": true
-      },
-      "verdict": "A heavy-duty dual-heat soldering gun that reaches 900-1100°F in 6 seconds, with the trigger selecting high or low power. It's for heavy wire, stained glass and sheet metal, not circuit boards.",
-      "best_for": "Heavy wire, cable lugs, stained glass and other jobs that soak up heat.",
-      "skip_if": "You work on circuit boards; it's far too hot and bulky.",
+      "reviews_count": 6452,
+      "bought": "8K+/mo",
+      "specs": {"type": "Pencil iron kit", "wattage": "80 W", "temp_range": "356-896°F", "included": "Iron, stand, sponge, 5 tips, solder wire, flux paste"},
+      "features": {"temp_control": true, "digital_display": true, "auto_sleep": false, "extra_tips": true, "kit": true},
+      "verdict": "An 80 W plug-in pencil iron with an LCD temperature readout, a 356-896°F range and a ceramic heater, sold as a starter kit with five tips, solder and flux for about $10.",
+      "best_for": "A cheap first kit with a temperature readout.",
+      "skip_if": "You want auto sleep; the Liouhoum 936H has it for the same money.",
       "pros": [
-        "4.5 stars; 5,077 reviews",
-        "6-second heat-up",
-        "Limited lifetime warranty"
+        "4.5 stars on 6,452 reviews; 8,000+ sold last month",
+        "LCD shows the set temperature",
+        "Five tips, solder wire and flux in the kit"
       ],
       "cons": [
-        "No temperature control",
-        "Wrong tool for electronics"
+        "No auto sleep listed",
+        "Basic stand and sponge",
+        "No warranty term published"
       ]
     },
     {
@@ -455,7 +447,7 @@
       "reasons": [
         "The bullets list circuit repair among its uses, but nothing in the listing mentions adjustable or controlled temperature. An uncontrolled 300 W iron on a circuit board lifts pads and cooks components.",
         "The spec table gives an upper temperature of 480°F, which contradicts the 'industrial grade' 300 W pitch and sits barely above the roughly 423°F melting point of common lead-free solder.",
-        "For heavy work, the Weller D550PK gun heats in 6 seconds and has a lifetime warranty; for electronics, any temperature-controlled iron on this list is the right tool."
+        "For heavy work, the Hakko FX601-02 reaches 1004°F with real temperature control; for electronics, any temperature-controlled iron on this list is the right tool."
       ]
     }
   ],
