@@ -4,8 +4,9 @@
   "subtitle": "Pancake, portable and upright shop compressors for nailers, tires and air tools, ranked from live Amazon data.",
   "intro": "A shop air compressor stores air in a tank so it can run nail guns, inflate tires, blow off parts and power air tools. The number that matters most is airflow (CFM at 90 PSI): small pancakes run brad and finish nailers, and bigger tanks with more CFM keep up with framing nailers, impact wrenches and spray guns. We ranked 10 best-sellers on rating, review volume and features (4+ CFM, 150+ PSI, quiet operation, wheels and an accessory kit). They run from about $140 for a 2-gallon hot dog to $400 for a 29-gallon upright. Tire inflators are left out.",
   "data_captured": "2026-11-26",
-  "audited": "2026-11-15",
+  "audited": "2026-11-26",
   "changelog": [
+    {"date": "2026-11-26", "note": "Replaced the VEVOR 6.3-gallon compressor: Amazon's own offer ran out and the only seller left was asking $245.90, up from $143.90. In its place is the Limodot 6-gallon quiet compressor at $159.99. Other picks kept; prices and ratings re-checked."},
     {"date": "2026-11-26", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the VEVOR DOF1500-50V-I rose from $200.52 to $269.90; the ECOMAX 0210673A rose from $169.99 to $189.99; the DEWALT DWFP55130 rose from $250 to $272.30."},
     {"date": "2026-11-26", "note": "Prices re-checked on 9 of 11 listings. Biggest price moves: the ECOMAX 0210673A dropped from $189.99 to $169.99."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the ECOMAX 0210673A rose from $169.99 to $189.99."},
@@ -143,19 +144,18 @@
       "cons": ["The listing doesn't state a maximum PSI", "Listing showed only 10 left in stock"]
     },
     {
-      "asin": "B0BV644LGX",
-      "name": "VEVOR 6.3 Gallon 2 HP Air Compressor, Max 116PSI, Oil Free",
-      "brand": "VEVOR", "model": "6.3-gal 2 HP",
-      "image": "https://m.media-amazon.com/images/I/71KMxFlpOWL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-25",
-      "price": 143.90, "rating": 4.3, "reviews_count": 686, "bought": "100+/mo",
-      "specs": { "tank": "6.3 gal", "cfm": "3.35 CFM", "psi": "116 PSI", "hp": "2 HP", "noise": null, "weight": "43 lb" },
-      "features": { "high_cfm": false, "high_psi": false, "quiet": false, "wheels": true, "accessory_kit": false },
-      "verdict": "A twin-cylinder 6.3-gallon compressor with 3.35 CFM, two cooling fans and casters, for about the same price as the CRAFTSMAN pancake.",
-      "best_for": "More airflow than a pancake at the same price, on casters.",
-      "skip_if": "You need over 116 PSI.",
-      "pros": ["3.35 CFM, more than the CRAFTSMAN pancake", "Two casters and a handle", "Overheat and pressure-relief protection"],
-      "cons": ["116 PSI max, the lowest here", "4.3 stars"]
+      "asin": "B0H829K3TN",
+      "name": "Limodot Quiet Oil-Free Air Compressor, 6 Gallon, 150 PSI, 68 dB, with 25 ft Hose and 13-Piece Kit",
+      "brand": "Limodot", "model": "6-gal 150 PSI quiet",
+      "image": "https://m.media-amazon.com/images/I/71-LyO-YkpL._AC_SL1500_.jpg",
+      "price": 159.99, "rating": 4.6, "reviews_count": 9, "bought": "100+/mo",
+      "specs": { "tank": "6 gal", "cfm": "2.9 CFM", "psi": "150 PSI", "hp": "1.2 HP", "noise": "68 dB", "weight": null },
+      "features": { "high_cfm": false, "high_psi": true, "quiet": true, "wheels": true, "accessory_kit": true },
+      "verdict": "A 6-gallon oil-free compressor with a 68 dB induction motor, 150 PSI max and 2.9 CFM at 90 PSI. It comes with wheels, a 25 ft hose and a 13-piece accessory kit.",
+      "best_for": "Quiet nailing and inflation in a garage or indoors, with a hose and fittings in the box.",
+      "skip_if": "You run framing nailers back to back or air tools; 2.9 CFM at 90 PSI is modest.",
+      "pros": ["68 dB induction motor", "150 PSI max", "Wheels, 25 ft hose and 13-piece kit"],
+      "cons": ["2.9 CFM at 90 PSI", "Weight not listed", "Only 9 reviews so far"]
     },
     {
       "asin": "B00HQYFZGM",
