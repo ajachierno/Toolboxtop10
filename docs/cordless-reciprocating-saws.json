@@ -30,7 +30,7 @@
  },
  "picks": {
   "best_overall": "B076HPKK19",
-  "best_budget": "B0DPW3VYX5",
+  "best_budget": "B00IP27DFA",
   "money_no_object": "B01M69K91R"
  },
  "products": [
@@ -166,12 +166,12 @@
    "name": "SEESII Cordless Reciprocating Saw Kit (2 x 4.0Ah)",
    "brand": "SEESII",
    "model": "Recip Kit",
-   "price": 51.42,
+   "price": 69.99,
    "currency": "USD",
    "rating": 4.5,
    "reviews_count": 820,
    "score": 89,
-   "award": "Best Budget",
+   "award": null,
    "best_for": "A kit with two 4.0Ah batteries for long cutting sessions for about $63.",
    "bought_last_month": "1K+/mo",
    "verdict": "A loaded budget kit — two 4.0Ah batteries, charger, and blades for about $63. No brand pedigree, but a lot of runtime and everything you need to start cutting out of the box.",
@@ -293,7 +293,7 @@
    "name": "Milwaukee 2719-20 M18 FUEL HACKZALL (tool only)",
    "brand": "Milwaukee",
    "model": "2719-20",
-   "price": 121.87,
+   "price": 119.0,
    "currency": "USD",
    "rating": 4.8,
    "reviews_count": 6612,
@@ -337,7 +337,7 @@
    "name": "CRAFTSMAN V20 Cordless Reciprocating Saw (tool only)",
    "brand": "CRAFTSMAN",
    "model": "CMCS300B",
-   "price": 72.88,
+   "price": 70.0,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 1596,
@@ -384,7 +384,7 @@
    "rating": 4.6,
    "reviews_count": 4105,
    "score": 86,
-   "award": null,
+   "award": "Best Budget",
    "best_for": "BLACK+DECKER 20V MAX owners who want a low-cost name-brand saw.",
    "bought_last_month": "100+/mo",
    "verdict": "A name-brand saw at $56.13: the bare-tool version of the popular BLACK+DECKER recip. Grab it if you already own 20V POWERCONNECT batteries. 4,105 reviews and tool-free blade change.",
@@ -422,7 +422,7 @@
    "name": "RYOBI ONE+ 18V Cordless Reciprocating Saw (tool only)",
    "brand": "RYOBI",
    "model": "PCL515B",
-   "price": 57.6,
+   "price": 55.0,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1711,
@@ -508,6 +508,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-26",
+   "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the SEESII Recip Kit rose from $51.42 to $69.99."
+  },
   {
    "date": "2026-11-25",
    "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. Biggest price moves: the Milwaukee 2719-20 dropped from $141.90 to $121.87."
