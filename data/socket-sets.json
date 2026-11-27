@@ -3,9 +3,10 @@
   "title": "The 10 Best Socket Sets",
   "subtitle": "Ranked from live Amazon data — best-sellers, real ratings, honest trade-offs.",
   "intro": "We pulled the best-selling socket sets on Amazon, from $25 starter kits to 230-piece mechanics sets and dedicated impact sets, and scored each on one 100-point scale built from its star rating, review volume and the features that matter: both SAE and metric sizes, more than one drive size, impact-rated sockets, and a lifetime warranty. Hex bit socket sets and nut driver sets are different tools and aren't ranked here.",
-  "data_captured": "2026-11-25",
-  "audited": "2026-10-25",
+  "data_captured": "2026-11-27",
+  "audited": "2026-11-27",
   "changelog": [
+    {"date": "2026-11-27", "note": "Full audit. Replaced the CRAFTSMAN CMMT45306 230-piece set, which has dropped out of Amazon's socket set best sellers, with the CRAFTSMAN CMMT45256 256-piece set at $99. The other 9 picks stay; prices and ratings re-checked."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
     {"date": "2026-11-25", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the DEWALT DWMT74739 dropped from $64.74 to $52.96; the WORKPRO W003067 dropped from $24.99 to $20.90; the DEWALT DWMT73801 rose from $64.47 to $71.95."},
     {"date": "2026-11-16", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the DEWALT DWMT73801 dropped from $72.97 to $64.47."},
@@ -77,7 +78,7 @@
       "price_checked": "2026-11-27",
       "price": 159.98,
       "rating": 4.8,
-      "reviews_count": 8077,
+      "reviews_count": 8076,
       "bought": "2K+/mo",
       "specs": {
         "drive": "1/4, 3/8, 1/2 in",
@@ -115,7 +116,7 @@
       "price_checked": "2026-11-27",
       "price": 69.97,
       "rating": 4.7,
-      "reviews_count": 13329,
+      "reviews_count": 13332,
       "bought": "2K+/mo",
       "specs": {
         "drive": "1/4, 3/8, 1/2 in",
@@ -146,41 +147,40 @@
       ]
     },
     {
-      "asin": "B0CMJF6DYD",
-      "name": "CRAFTSMAN 230-Piece Mechanics Tool Set with VERSASTACK 3-Drawer Toolbox, SAE and Metric, 1/4, 3/8 & 1/2 in Drive (CMMT45306)",
+      "asin": "B0D5TTKNZD",
+      "name": "CRAFTSMAN Mechanics Tool Set, 256-Piece Hand Tool and Socket Set with 72-tooth Low Profile Ratchet and 2-Drawer Tool Box (CMMT45256)",
       "brand": "CRAFTSMAN",
-      "model": "CMMT45306",
-      "image": "https://m.media-amazon.com/images/I/81qJzb4m3bL._AC_SL1500_.jpg",
-      "price_checked": "2026-11-27",
-      "price": 209.00,
+      "model": "CMMT45256",
+      "image": "https://m.media-amazon.com/images/I/81resLZ8j+L._AC_SL1500_.jpg",
+      "price": 99.00,
       "rating": 4.7,
-      "reviews_count": 3154,
-      "bought": "600+/mo",
+      "reviews_count": 530,
+      "bought": "2K+/mo",
       "specs": {
-        "drive": "1/4, 3/8, 1/2 in",
-        "pieces": "230",
-        "standards": "SAE & Metric",
-        "finish": null
+        "drive": "1/4 & 3/8 in listed",
+        "pieces": "256",
+        "standards": "SAE listed",
+        "finish": "Polished chrome"
       },
       "features": {
-        "sae_metric": true,
+        "sae_metric": false,
         "multi_drive": true,
         "impact_rated": false,
         "lifetime_warranty": true
       },
-      "verdict": "The best seller right now, and the one that comes with real storage. 91 sockets, three low-profile 72-tooth ratchets, 21 wrenches and 44 hex keys ride in a stackable 3-drawer VERSASTACK box.",
-      "best_for": "A full mechanics set that lives in a stackable 3-drawer box.",
-      "skip_if": "You want a light trunk kit; it's 24.7 lb.",
+      "verdict": "A 256-piece mechanics set in a 2-drawer box: 87 sockets, 3 ratchets, 8 wrenches, 44 hex keys and 99 bits. The 1/4 and 3/8 in ratchets have 72 teeth and a thinner head for tight spots.",
+      "best_for": "A big starter kit with sockets, wrenches, hex keys and bits in one drawer box.",
+      "skip_if": "You need metric confirmed in writing; the listing's spec table only says SAE.",
       "pros": [
-        "3-drawer box that stacks with other VERSASTACK storage",
-        "72-tooth ratchets with a thinner head for tight spots",
-        "21 combination wrenches included",
+        "87 sockets, 8 wrenches and 44 hex keys in one box",
+        "72-tooth low-profile ratchets",
+        "Drawer bumps keep the drawers shut in transit",
         "Full lifetime warranty"
       ],
       "cons": [
-        "24.7 lb with the box, so not a trunk kit",
-        "66 of the 230 pieces are driver bits",
-        "Fewer reviews than the older DEWALT and Amazon Basics sets"
+        "99 of the 256 pieces are bits",
+        "Only 8 wrenches",
+        "The listing doesn't state the drive size of the third ratchet"
       ]
     },
     {
@@ -230,8 +230,8 @@
       "price_checked": "2026-11-27",
       "price": 52.96,
       "rating": 4.8,
-      "reviews_count": 9372,
-      "bought": "1K+/mo",
+      "reviews_count": 9373,
+      "bought": "2K+/mo",
       "specs": {
         "drive": "1/2 in",
         "pieces": "23",
@@ -268,7 +268,7 @@
       "price_checked": "2026-11-27",
       "price": 29.97,
       "rating": 4.6,
-      "reviews_count": 13032,
+      "reviews_count": 13033,
       "bought": "1K+/mo",
       "specs": {
         "drive": "1/4, 3/8 in",
@@ -307,7 +307,7 @@
       "price": 20.90,
       "rating": 4.6,
       "reviews_count": 5420,
-      "bought": "1K+/mo",
+      "bought": "2K+/mo",
       "specs": {
         "drive": "1/4, 3/8 in",
         "pieces": "39",
@@ -421,8 +421,8 @@
       "price_checked": "2026-11-27",
       "price": 126.94,
       "rating": 4.8,
-      "reviews_count": 10378,
-      "bought": "600+/mo",
+      "reviews_count": 10379,
+      "bought": "700+/mo",
       "specs": {
         "drive": "1/2 in",
         "pieces": "65",
@@ -461,7 +461,7 @@
       "price_checked": "2026-11-27",
       "price": 9.99,
       "rating": 3.7,
-      "reviews_count": 332,
+      "reviews_count": 336,
       "flag": "Carbon steel, 24-tooth ratchet, metric only",
       "verdict": "The one to skip. It sells itself as a professional set, but the listing's own specs describe carbon-steel sockets and a coarse 24-tooth ratchet, and at 3.7 stars it's the lowest-rated socket set in Amazon's top results.",
       "reasons": [

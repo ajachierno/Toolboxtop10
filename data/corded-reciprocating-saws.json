@@ -4,9 +4,9 @@
   "subtitle": "Wired demo saws ranked from live Amazon data — endless power for cutting, pruning, and tear-out.",
   "intro": "A reciprocating saw (a.k.a. Sawzall) rips a long blade back and forth through wood, metal, PVC, nail-embedded lumber, and tree branches — the go-to for demolition and rough cuts. Corded models give you full, sustained power for the least money and never run flat, which matters when you're tearing out a wall or bucking a pile of branches. Amps are the number to watch: 7-8 amps handles most jobs, and 10-13 amps is heavy demolition. Want to cut anywhere with no cord? See the cordless list.",
   "data_captured": "2026-11-27",
-  "audited": "2026-09-28",
+  "audited": "2026-11-27",
   "changelog": [
-    {"date": "2026-11-27", "note": "Prices, ratings and review counts re-checked on 10 of 11 listings. No price changes."},
+    {"date": "2026-11-27", "note": "Full audit. Replaced the Makita JR3051T, which no longer has a buy box on Amazon, with the EZUVITA EZ114001 7 amp kit at $42.39. The other 9 picks stay; prices and ratings re-checked."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on every listing. No price changes."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the GALAX PRO 77112 dropped from $39.99 to $32.29."},
     {"date": "2026-11-25", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Ingersoll Rand 529 dropped from $246.99 to $209.92."},
@@ -155,19 +155,18 @@
       "cons": ["Few reviews on Amazon yet", "Priced with the pro saws"]
     },
     {
-      "asin": "B096RLR26J",
-      "name": "Makita JR3051T 12-Amp Corded Reciprocating Saw",
-      "brand": "Makita", "model": "JR3051T",
-      "image": "https://m.media-amazon.com/images/I/51E2UDO3V9S._AC_SX425_.jpg",
-      "price_checked": "2026-11-25",
-      "price": 105.89, "rating": 4.4, "reviews_count": 35, "bought": "50+/mo",
-      "specs": { "type": "Corded", "power": "12 amp", "max_rpm": "0-2,800 SPM", "stroke": "1-1/4 in", "blade_change": "Tool-free" },
-      "features": { "kit": true, "variable_speed": true, "tool_free": true, "orbital": false },
-      "verdict": "A pro-grade Makita with a big 1-1/4\" stroke and a tool-less blade clamp — a longtime favorite of tradespeople for tearing through framing and metal. Sold here in a renewed listing.",
-      "best_for": "Tradespeople cutting framing and metal with a 1-1/4 in stroke.",
-      "skip_if": "You don't want a renewed unit.",
-      "pros": ["12-amp motor, aggressive 1-1/4\" stroke", "Pro Makita durability", "Tool-free blade change"],
-      "cons": ["Renewed listing, few reviews", "Priced with the pro saws"]
+      "asin": "B0G6ZRYJYM",
+      "name": "EZUVITA 7 Amp Corded Reciprocating Saw for Wood, Metal, PVC & Tree Pruning",
+      "brand": "EZUVITA", "model": "EZ114001",
+      "image": "https://m.media-amazon.com/images/I/81BMNAkP2CL._AC_SL1500_.jpg",
+      "price": 42.39, "rating": 4.2, "reviews_count": 71, "bought": "100+/mo",
+      "specs": { "type": "Corded", "power": "7 amp", "max_rpm": "Up to 2,800 SPM", "stroke": "1-1/8 in", "blade_change": "Tool-free" },
+      "features": { "kit": true, "variable_speed": false, "tool_free": true, "orbital": false },
+      "verdict": "A 7 amp saw sold as a kit: six blades (wood, bi-metal and 9.5 in pruning), a carry bag and spare brushes. The handle rotates 90 degrees each way for overhead and corner cuts.",
+      "best_for": "Occasional demolition and pruning on a small budget, blades included.",
+      "skip_if": "You cut thick metal or framing all day; 7 amps is about half a pro saw's motor.",
+      "pros": ["Six blades, bag and spare brushes in the box", "Handle rotates 180 degrees in total", "Tool-free blade change and adjustable shoe"],
+      "cons": ["7 amp motor", "No stated variable speed or orbital action", "Newer listing with 71 reviews"]
     },
     {
       "asin": "B0CH88DTPH",
