@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 173,
@@ -654,7 +654,7 @@
    "title": "The 10 Best Corded Detail Sanders",
    "url": "https://toolboxtop10.com/corded-detail-sanders.html",
    "json": "https://toolboxtop10.com/corded-detail-sanders.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-02",
    "products": 10,
    "best_overall": {
@@ -674,7 +674,7 @@
    "title": "The 10 Best Corded Die Grinders",
    "url": "https://toolboxtop10.com/corded-die-grinders.html",
    "json": "https://toolboxtop10.com/corded-die-grinders.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-25",
    "products": 10,
    "best_overall": {
@@ -683,9 +683,9 @@
     "price": 159.33
    },
    "best_budget": {
-    "asin": "B0F842WS8M",
-    "name": "SENCAN SC-702517",
-    "price": 59.3
+    "asin": "B0GKZPL1JY",
+    "name": "AOBEN AT3504C",
+    "price": 51.99
    },
    "money_no_object": {
     "asin": "B086XLM6BP",
@@ -698,13 +698,13 @@
    "title": "The 10 Best Corded Drills",
    "url": "https://toolboxtop10.com/corded-drills.html",
    "json": "https://toolboxtop10.com/corded-drills.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-07",
    "products": 10,
    "best_overall": {
     "asin": "B00T2VJ93C",
     "name": "BLACK+DECKER DR260C",
-    "price": 48.43
+    "price": 49.95
    },
    "best_budget": {
     "asin": "B08WCN3KGR",
@@ -718,7 +718,7 @@
    "title": "The 10 Best Corded Hammer Drills",
    "url": "https://toolboxtop10.com/corded-hammer-drills.html",
    "json": "https://toolboxtop10.com/corded-hammer-drills.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-08",
    "products": 10,
    "best_overall": {
@@ -738,13 +738,13 @@
    "title": "The 10 Best Corded Heat Guns",
    "url": "https://toolboxtop10.com/corded-heat-guns.html",
    "json": "https://toolboxtop10.com/corded-heat-guns.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-09-24",
    "products": 10,
    "best_overall": {
     "asin": "B07QJMH2F4",
     "name": "Makita HG6530VK",
-    "price": 162.5
+    "price": 169.26
    },
    "best_budget": {
     "asin": "B078S5QMFG",
@@ -758,7 +758,7 @@
    "title": "The 10 Best Corded Hedge Trimmers",
    "url": "https://toolboxtop10.com/corded-hedge-trimmers.html",
    "json": "https://toolboxtop10.com/corded-hedge-trimmers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-15",
    "products": 10,
    "best_overall": {
@@ -782,7 +782,7 @@
    "title": "The 10 Best Corded Impact Wrenches",
    "url": "https://toolboxtop10.com/corded-impact-wrenches.html",
    "json": "https://toolboxtop10.com/corded-impact-wrenches.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-10",
    "products": 10,
    "best_overall": {
@@ -802,7 +802,7 @@
    "title": "The 10 Best Corded Jigsaws",
    "url": "https://toolboxtop10.com/corded-jigsaws.html",
    "json": "https://toolboxtop10.com/corded-jigsaws.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-25",
    "products": 10,
    "best_overall": {
@@ -826,7 +826,7 @@
    "title": "The 10 Best Corded Leaf Blowers",
    "url": "https://toolboxtop10.com/corded-leaf-blowers.html",
    "json": "https://toolboxtop10.com/corded-leaf-blowers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-15",
    "products": 10,
    "best_overall": {
@@ -846,7 +846,7 @@
    "title": "The 10 Best Corded LED Work Lights",
    "url": "https://toolboxtop10.com/corded-work-lights.html",
    "json": "https://toolboxtop10.com/corded-work-lights.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -866,7 +866,7 @@
    "title": "The 10 Best Corded Miter Saws",
    "url": "https://toolboxtop10.com/corded-miter-saws.html",
    "json": "https://toolboxtop10.com/corded-miter-saws.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-10-27",
    "products": 10,
    "best_overall": {
@@ -890,7 +890,7 @@
    "title": "The 10 Best Corded Oscillating Tools",
    "url": "https://toolboxtop10.com/corded-oscillating-tools.html",
    "json": "https://toolboxtop10.com/corded-oscillating-tools.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-09-26",
    "products": 10,
    "best_overall": {
@@ -910,7 +910,7 @@
    "title": "The 10 Best Corded Random Orbital Sanders",
    "url": "https://toolboxtop10.com/corded-random-orbital-sanders.html",
    "json": "https://toolboxtop10.com/corded-random-orbital-sanders.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-16",
    "products": 10,
    "best_overall": {
@@ -926,7 +926,7 @@
    "money_no_object": {
     "asin": "B0076I69H2",
     "name": "Makita BO5041",
-    "price": 129.0
+    "price": 122.53
    }
   },
   {
@@ -934,7 +934,7 @@
    "title": "The 10 Best Corded Reciprocating Saws",
    "url": "https://toolboxtop10.com/corded-reciprocating-saws.html",
    "json": "https://toolboxtop10.com/corded-reciprocating-saws.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-09-28",
    "products": 10,
    "best_overall": {
@@ -954,7 +954,7 @@
    "title": "The 10 Best Corded Rotary Hammers",
    "url": "https://toolboxtop10.com/corded-rotary-hammers.html",
    "json": "https://toolboxtop10.com/corded-rotary-hammers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-08",
    "products": 10,
    "best_overall": {
@@ -974,7 +974,7 @@
    "title": "The 10 Best Corded Rotary Tools",
    "url": "https://toolboxtop10.com/corded-rotary-tools.html",
    "json": "https://toolboxtop10.com/corded-rotary-tools.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-06",
    "products": 10,
    "best_overall": {
@@ -998,7 +998,7 @@
    "title": "The 10 Best Corded Routers",
    "url": "https://toolboxtop10.com/corded-routers.html",
    "json": "https://toolboxtop10.com/corded-routers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1018,7 +1018,7 @@
    "title": "The 10 Best Corded Shop Vacuums",
    "url": "https://toolboxtop10.com/corded-shop-vacuums.html",
    "json": "https://toolboxtop10.com/corded-shop-vacuums.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-09-30",
    "products": 10,
    "best_overall": {
@@ -1038,7 +1038,7 @@
    "title": "The 10 Best Corded Snow Blowers",
    "url": "https://toolboxtop10.com/corded-snow-blowers.html",
    "json": "https://toolboxtop10.com/corded-snow-blowers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-15",
    "products": 10,
    "best_overall": {
@@ -1058,7 +1058,7 @@
    "title": "The 10 Best Corded String Trimmers",
    "url": "https://toolboxtop10.com/corded-string-trimmers.html",
    "json": "https://toolboxtop10.com/corded-string-trimmers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-10-26",
    "products": 10,
    "best_overall": {
@@ -1082,7 +1082,7 @@
    "title": "The 10 Best Corded Table Saws",
    "url": "https://toolboxtop10.com/corded-table-saws.html",
    "json": "https://toolboxtop10.com/corded-table-saws.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-09-27",
    "products": 10,
    "best_overall": {
@@ -1106,7 +1106,7 @@
    "title": "The 10 Best Cordless Angle Grinders",
    "url": "https://toolboxtop10.com/cordless-angle-grinders.html",
    "json": "https://toolboxtop10.com/cordless-angle-grinders.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-25",
    "products": 10,
    "best_overall": {
@@ -1122,7 +1122,7 @@
    "money_no_object": {
     "asin": "B08J8GNNTW",
     "name": "DEWALT DCG416B",
-    "price": 149.89
+    "price": 149.14
    }
   },
   {
@@ -1130,7 +1130,7 @@
    "title": "The 10 Best Cordless Brad Nailers",
    "url": "https://toolboxtop10.com/cordless-brad-nailers.html",
    "json": "https://toolboxtop10.com/cordless-brad-nailers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-10-07",
    "products": 10,
    "best_overall": {
@@ -1141,7 +1141,7 @@
    "best_budget": {
     "asin": "B0D19V5RTY",
     "name": "Metabo HPT NT1850DG",
-    "price": 99.0
+    "price": 105.49
    },
    "money_no_object": null
   },
@@ -1174,18 +1174,18 @@
    "title": "The 10 Best Cordless Caulking Guns",
    "url": "https://toolboxtop10.com/cordless-caulking-guns.html",
    "json": "https://toolboxtop10.com/cordless-caulking-guns.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
+    "asin": "B0FR9BCKVQ",
+    "name": "SEESII CG120",
+    "price": 65.99
+   },
+   "best_budget": {
     "asin": "B0C4GH9Y2P",
     "name": "Uaoaii CZ100",
     "price": 56.99
-   },
-   "best_budget": {
-    "asin": "B0C15RWCCW",
-    "name": "CRAFTSMAN CMCE600B",
-    "price": 49.0
    },
    "money_no_object": {
     "asin": "B01J6KTBI6",
@@ -2182,7 +2182,7 @@
    "title": "The 10 Best Electric Hand Planers",
    "url": "https://toolboxtop10.com/corded-hand-planers.html",
    "json": "https://toolboxtop10.com/corded-hand-planers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-27",
    "audited": "2026-11-13",
    "products": 10,
    "best_overall": {
