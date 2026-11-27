@@ -30,7 +30,7 @@
  "picks": {
   "best_overall": "B00IK8DIU8",
   "best_budget": "B07MC1HLNP",
-  "money_no_object": "B000022313"
+  "money_no_object": null
  },
  "products": [
   {
@@ -246,12 +246,12 @@
    "name": "DEWALT Scroll Saw, 20 in, Variable Speed (DW788)",
    "brand": "DEWALT",
    "model": "DW788",
-   "price": 499.0,
+   "price": 459.0,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 1650,
    "score": 82,
-   "award": "Money No Object",
+   "award": null,
    "best_for": "Serious scrollers buying a saw for life.",
    "bought_last_month": "100+/mo",
    "verdict": "The long-time pro standard: a 20-inch saw with DEWALT's double parallel-link arm for low vibration and square cuts, and 1,650 reviews behind it.",
@@ -261,7 +261,7 @@
     "1,650 reviews at 4.6 stars"
    ],
    "cons": [
-    "$499",
+    "$459",
     "Listing gives almost no specs"
    ],
    "specs": {
@@ -456,7 +456,7 @@
    "name": "RYOBI 1.2 AMP Corded 16 in. Scroll Saw (SC165VS)",
    "brand": "RYOBI",
    "model": "SC165VS",
-   "price": 183.0,
+   "price": 191.07,
    "currency": "USD",
    "rating": 4.6,
    "reviews_count": 169,
@@ -464,7 +464,7 @@
    "verdict": "A basic 16-inch saw on a listing that describes something else entirely, priced well above saws with the same specs. Buy the WEN 3921.",
    "reasons": [
     "The listing's only bullet describes Stens lawn-and-landscape replacement parts, not this scroll saw, so you get no description of what you're buying.",
-    "At $183 it costs about $64 more than the WEN 3921, a 16-inch variable-speed saw with a light, air pump and cast iron base.",
+    "At $191.07 it costs about $72 more than the WEN 3921, a 16-inch variable-speed saw with a light, air pump and cast iron base.",
     "The listing showed only 3 left and gives no warranty information."
    ],
    "bought_last_month": null,
@@ -496,6 +496,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-27",
+   "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the DEWALT DW788 dropped from $499 to $459."
+  },
   {
    "date": "2026-11-26",
    "note": "Full audit. Replaced the WEN 3922 and both BUCKTOOL saws, which Amazon no longer sells, with the WEN LL2156 21-inch parallel-arm saw ($371.93), the JET JWSS-18B ($764.99) and the Towallmark 16-inch with a work light ($124.99)."

@@ -31,7 +31,7 @@
  "picks": {
   "best_overall": "B001QFYD2E",
   "best_budget": "B0BFC2KGDR",
-  "money_no_object": "B09NC1KX2R"
+  "money_no_object": null
  },
  "products": [
   {
@@ -40,7 +40,7 @@
    "name": "BOSTITCH 18 Gauge Narrow Crown Stapler Kit (SX1838K)",
    "brand": "BOSTITCH",
    "model": "SX1838K",
-   "price": 116.06,
+   "price": 119.7,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 837,
@@ -320,7 +320,7 @@
    "name": "Senco SLS18 18-Gauge Stapler, 1/2 to 1-1/2 Inch (1W0002N)",
    "brand": "Senco",
    "model": "1W0002N",
-   "price": 113.97,
+   "price": 124.81,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 63,
@@ -400,12 +400,12 @@
    "name": "CRAFTSMAN V20 Cordless 18 Gauge Narrow Crown Stapler, Tool Only (CMCN618NB)",
    "brand": "CRAFTSMAN",
    "model": "CMCN618NB",
-   "price": 123.81,
+   "price": 119.0,
    "currency": "USD",
    "rating": 4.3,
    "reviews_count": 95,
    "score": 74,
-   "award": "Money No Object",
+   "award": null,
    "best_for": "CRAFTSMAN V20 owners doing punch-list and trim work.",
    "bought_last_month": null,
    "verdict": "A cordless narrow crown stapler with no hose or compressor, up to 425 staples per charge and LED work lights.",
@@ -482,6 +482,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-27",
+   "note": "Prices re-checked on 9 of 11 listings. Biggest price moves: the Senco 1W0002N rose from $113.97 to $124.81."
+  },
   {
    "date": "2026-11-26",
    "note": "Prices re-checked on 9 of 11 listings. Biggest price moves: the Senco 1W0002N dropped from $124.95 to $113.97."
