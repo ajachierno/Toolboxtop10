@@ -6,7 +6,7 @@
  "title": "The 10 Best Cordless Hand Planers",
  "subtitle": "Battery hand planers for doors, scribes and edge work, ranked from live Amazon data.",
  "intro": "A cordless hand planer trims doors, scribes cabinets and cleans up edges with no cord to drag around. We ranked 10 best-sellers from DEWALT, Makita, Milwaukee, Bosch, CRAFTSMAN, WEN and three battery-compatible brands on rating, review volume and features (brushless motor, full 3-1/4 in width, a name brand behind it, and whether a battery is included). Most are sold as bare tools, so the right pick usually depends on which batteries you already own.",
- "data_captured": "2026-11-25",
+ "data_captured": "2026-11-28",
  "audited": "2026-10-11",
  "data_source": "Amazon product listings on the data_captured date. Prices, ratings and review counts change daily; check the listing before relying on a number.",
  "scoring": {
@@ -39,17 +39,17 @@
    "name": "DEWALT 20V MAX Brushless Planer, 30,000 Cuts Per Minute, 2 mm Cut Depth, Bare Tool (DCP580B)",
    "brand": "DEWALT",
    "model": "DCP580B",
-   "price": 157.5,
+   "price": 157.84,
    "currency": "USD",
    "rating": 4.7,
-   "reviews_count": 4652,
+   "reviews_count": 4655,
    "score": 94,
    "award": "Best Overall",
    "best_for": "Anyone already on DEWALT 20V batteries who trims doors, scribes cabinets or cleans up framing.",
    "bought_last_month": "1K+/mo",
    "verdict": "The best-seller of this group: 1,000+ sold last month, ten times any other planer here. A brushless motor drives 30,000 cuts per minute, the depth knob is calibrated in steps of about 0.01 mm, and a kickstand keeps the blades off the work between passes.",
    "pros": [
-    "4,652 reviews; 1,000+ sold last month",
+    "4,655 reviews; 1,000+ sold last month",
     "Brushless, 30,000 cuts per minute",
     "Kickstand protects blades and work"
    ],
@@ -95,7 +95,7 @@
     "4.7 stars; 332 reviews"
    ],
    "cons": [
-    "Most expensive here",
+    "Second most expensive here",
     "2.2 in width"
    ],
    "specs": {
@@ -121,23 +121,23 @@
    "name": "Makita XPK01Z 18V LXT Lithium-Ion Cordless 3-1/4-Inch Planer, Tool Only",
    "brand": "Makita",
    "model": "XPK01Z",
-   "price": 222.18,
+   "price": 229.0,
    "currency": "USD",
    "rating": 4.8,
-   "reviews_count": 1344,
+   "reviews_count": 1343,
    "score": 88,
    "award": "Money No Object",
    "best_for": "Makita 18V owners who want a proven planer with carbide blades.",
    "bought_last_month": "100+/mo",
    "verdict": "Makita's long-running 18V planer and, at 4.8 stars, the best rated of the well-reviewed planers here. A two-blade head with double-edge carbide blades gives a clean finish, and the click depth knob reads from 0 to 5/64 in.",
    "pros": [
-    "4.8 stars; 1,344 reviews",
+    "4.8 stars; 1,343 reviews",
     "Double-edge carbide blades",
     "3-year limited warranty"
    ],
    "cons": [
     "Brushed motor",
-    "Costs about $48 more than the DEWALT"
+    "Costs about $65 more than the DEWALT"
    ],
    "specs": {
     "battery": "Makita 18V LXT (not included)",
@@ -203,7 +203,7 @@
    "name": "Milwaukee M12 Brushless 2 in. Planer, Tool Only (2524-20)",
    "brand": "Milwaukee",
    "model": "2524-20",
-   "price": 205.0,
+   "price": 199.0,
    "currency": "USD",
    "rating": 4.7,
    "reviews_count": 131,
@@ -247,14 +247,14 @@
    "price": 54.99,
    "currency": "USD",
    "rating": 4.2,
-   "reviews_count": 292,
+   "reviews_count": 297,
    "score": 85,
    "award": "Best Budget",
    "best_for": "DEWALT battery owners who plane a few times a year and want to spend less.",
    "bought_last_month": "200+/mo",
    "verdict": "The most-reviewed third-party planer here: a brushless 3-1/4 in planer that runs on DEWALT 20V batteries, for well under half the DCP580B's price. It has a dual-switch safety start and a 0 to 2 mm depth knob.",
    "pros": [
-    "292 reviews; 100+ sold last month",
+    "297 reviews; 100+ sold last month",
     "Runs on DEWALT 20V batteries",
     "About $94 less than the DCP580B"
    ],
@@ -288,19 +288,19 @@
    "price": 55.59,
    "currency": "USD",
    "rating": 4.5,
-   "reviews_count": 60,
+   "reviews_count": 59,
    "score": 83,
    "award": null,
    "best_for": "DEWALT 20V or 60V Flex owners who want a V-groove for chamfers.",
    "bought_last_month": "100+/mo",
    "verdict": "A brushless DEWALT-battery planer with matched front and rear shoes and a V-groove in the front shoe for chamfering. TengXcel also sells the same EPT698S for Milwaukee 18V batteries.",
    "pros": [
-    "Works with 20V MAX and 60V Flex packs",
+    "Works with 20V MAX and 59V Flex packs",
     "V-groove for chamfers",
     "4.5 stars"
    ],
    "cons": [
-    "60 reviews",
+    "59 reviews",
     "Unknown brand"
    ],
    "specs": {
@@ -411,8 +411,8 @@
    "price": 99.0,
    "currency": "USD",
    "rating": 4.9,
-   "reviews_count": 12,
-   "score": 78,
+   "reviews_count": 13,
+   "score": 79,
    "award": null,
    "best_for": "CRAFTSMAN V20 owners who want a name-brand planer for less than DEWALT or Makita.",
    "bought_last_month": "50+/mo",
@@ -423,7 +423,7 @@
     "4.9 stars"
    ],
    "cons": [
-    "Only 12 reviews",
+    "Only 13 reviews",
     "Battery sold separately"
    ],
    "specs": {
@@ -495,6 +495,10 @@
   }
  ],
  "changelog": [
+  {
+   "date": "2026-11-28",
+   "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."
+  },
   {
    "date": "2026-11-27",
    "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the CRAFTSMAN CMCW350B dropped from $149 to $99."

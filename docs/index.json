@@ -4,7 +4,7 @@
  "description": "Side-by-side reviews of tools and DIY gear. We pull live specs, prices, and review counts from Amazon, score every product on one transparent scale, and name a Best Overall and Best Budget pick you can actually trust.",
  "llms_txt": "https://toolboxtop10.com/llms.txt",
  "sitemap": "https://toolboxtop10.com/sitemap.xml",
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "data_source": "Amazon product listings; each page carries its own data_captured date.",
  "page_json": "Every ranking page has a JSON twin at the same path with .json in place of .html.",
  "page_count": 174,
@@ -1214,7 +1214,7 @@
    "title": "The 10 Best Cordless Chainsaws",
    "url": "https://toolboxtop10.com/cordless-chainsaws.html",
    "json": "https://toolboxtop10.com/cordless-chainsaws.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-25",
    "products": 10,
    "best_overall": {
@@ -1262,13 +1262,13 @@
    "title": "The 10 Best Cordless Detail Sanders",
    "url": "https://toolboxtop10.com/cordless-detail-sanders.html",
    "json": "https://toolboxtop10.com/cordless-detail-sanders.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-20",
    "products": 10,
    "best_overall": {
     "asin": "B06WLJH9TB",
     "name": "BLACK+DECKER BDCMS20C",
-    "price": 69.83
+    "price": 69.82
    },
    "best_budget": {
     "asin": "B07Z3M9BWD",
@@ -1282,7 +1282,7 @@
    "title": "The 10 Best Cordless Die Grinders",
    "url": "https://toolboxtop10.com/cordless-die-grinders.html",
    "json": "https://toolboxtop10.com/cordless-die-grinders.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-25",
    "products": 10,
    "best_overall": {
@@ -1302,7 +1302,7 @@
    "title": "The 10 Best Cordless Drill and Impact Driver Combo Kits",
    "url": "https://toolboxtop10.com/cordless-combo-kits.html",
    "json": "https://toolboxtop10.com/cordless-combo-kits.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-07",
    "products": 10,
    "best_overall": {
@@ -1326,7 +1326,7 @@
    "title": "The 10 Best Cordless Drills",
    "url": "https://toolboxtop10.com/cordless-drills.html",
    "json": "https://toolboxtop10.com/cordless-drills.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-04",
    "products": 10,
    "best_overall": {
@@ -1346,7 +1346,7 @@
    "title": "The 10 Best Cordless Finish Nailers",
    "url": "https://toolboxtop10.com/cordless-finish-nailers.html",
    "json": "https://toolboxtop10.com/cordless-finish-nailers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-13",
    "products": 10,
    "best_overall": {
@@ -1366,7 +1366,7 @@
    "title": "The 10 Best Cordless Framing Nailers",
    "url": "https://toolboxtop10.com/cordless-framing-nailers.html",
    "json": "https://toolboxtop10.com/cordless-framing-nailers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-11",
    "products": 10,
    "best_overall": {
@@ -1382,7 +1382,7 @@
    "title": "The 10 Best Cordless Grease Guns",
    "url": "https://toolboxtop10.com/cordless-grease-guns.html",
    "json": "https://toolboxtop10.com/cordless-grease-guns.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1406,7 +1406,7 @@
    "title": "The 10 Best Cordless Hammer Drills",
    "url": "https://toolboxtop10.com/cordless-hammer-drills.html",
    "json": "https://toolboxtop10.com/cordless-hammer-drills.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-05",
    "products": 10,
    "best_overall": {
@@ -1422,7 +1422,7 @@
    "money_no_object": {
     "asin": "B01DR90MM6",
     "name": "DEWALT DCD996B",
-    "price": 199.48
+    "price": 209.0
    }
   },
   {
@@ -1430,13 +1430,13 @@
    "title": "The 10 Best Cordless Hand Planers",
    "url": "https://toolboxtop10.com/cordless-hand-planers.html",
    "json": "https://toolboxtop10.com/cordless-hand-planers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-11",
    "products": 10,
    "best_overall": {
     "asin": "B01FHOWQQO",
     "name": "DEWALT DCP580B",
-    "price": 157.5
+    "price": 157.84
    },
    "best_budget": {
     "asin": "B0F2N4YGTM",
@@ -1446,7 +1446,7 @@
    "money_no_object": {
     "asin": "B00NOVNV76",
     "name": "Makita XPK01Z",
-    "price": 222.18
+    "price": 229.0
    }
   },
   {
@@ -1454,7 +1454,7 @@
    "title": "The 10 Best Cordless Heat Guns",
    "url": "https://toolboxtop10.com/cordless-heat-guns.html",
    "json": "https://toolboxtop10.com/cordless-heat-guns.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-31",
    "products": 10,
    "best_overall": {
@@ -1478,7 +1478,7 @@
    "title": "The 10 Best Cordless Hedge Trimmers",
    "url": "https://toolboxtop10.com/cordless-hedge-trimmers.html",
    "json": "https://toolboxtop10.com/cordless-hedge-trimmers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1502,7 +1502,7 @@
    "title": "The 10 Best Cordless Hot Glue Guns",
    "url": "https://toolboxtop10.com/cordless-hot-glue-guns.html",
    "json": "https://toolboxtop10.com/cordless-hot-glue-guns.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-19",
    "products": 10,
    "best_overall": {
@@ -1522,7 +1522,7 @@
    "title": "The 10 Best Cordless Impact Drivers",
    "url": "https://toolboxtop10.com/cordless-impact-drivers.html",
    "json": "https://toolboxtop10.com/cordless-impact-drivers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-10",
    "products": 10,
    "best_overall": {
@@ -1538,7 +1538,7 @@
    "money_no_object": {
     "asin": "B0DQYPZLMR",
     "name": "DEWALT DCF870B",
-    "price": 169.99
+    "price": 173.7
    }
   },
   {
@@ -1546,7 +1546,7 @@
    "title": "The 10 Best Cordless Impact Wrenches",
    "url": "https://toolboxtop10.com/cordless-impact-wrenches.html",
    "json": "https://toolboxtop10.com/cordless-impact-wrenches.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-07",
    "products": 10,
    "best_overall": {
@@ -1555,9 +1555,9 @@
     "price": 244.0
    },
    "best_budget": {
-    "asin": "B0CGJ8H8K7",
-    "name": "Robustrue RT800B",
-    "price": 66.47
+    "asin": "B0F8NYXVJP",
+    "name": "MAGSEN 21V 1/2\" kit",
+    "price": 76.49
    },
    "money_no_object": {
     "asin": "B0CLF1DHHW",
@@ -1570,7 +1570,7 @@
    "title": "The 10 Best Cordless Jigsaws",
    "url": "https://toolboxtop10.com/cordless-jigsaws.html",
    "json": "https://toolboxtop10.com/cordless-jigsaws.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-25",
    "products": 10,
    "best_overall": {
@@ -1586,7 +1586,7 @@
    "money_no_object": {
     "asin": "B0BDGQKRLS",
     "name": "Makita XVJ04Z",
-    "price": 179.0
+    "price": 149.0
    }
   },
   {
@@ -1594,13 +1594,13 @@
    "title": "The 10 Best Cordless Jobsite Fans",
    "url": "https://toolboxtop10.com/cordless-jobsite-fans.html",
    "json": "https://toolboxtop10.com/cordless-jobsite-fans.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
     "asin": "B0989YML7R",
     "name": "DEWALT DCE512B",
-    "price": 114.99
+    "price": 99.99
    },
    "best_budget": {
     "asin": "B0BCHBRPZR",
@@ -1610,7 +1610,7 @@
    "money_no_object": {
     "asin": "B0DR3914W7",
     "name": "Milwaukee 0818-20",
-    "price": 164.71
+    "price": 154.29
    }
   },
   {
@@ -1618,7 +1618,7 @@
    "title": "The 10 Best Cordless Lawn Mowers",
    "url": "https://toolboxtop10.com/cordless-lawn-mowers.html",
    "json": "https://toolboxtop10.com/cordless-lawn-mowers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1666,7 +1666,7 @@
    "title": "The 10 Best Cordless Miter Saws",
    "url": "https://toolboxtop10.com/cordless-miter-saws.html",
    "json": "https://toolboxtop10.com/cordless-miter-saws.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-09-29",
    "products": 10,
    "best_overall": {
@@ -1677,7 +1677,7 @@
    "best_budget": {
     "asin": "B09SNK2SBL",
     "name": "RYOBI PBT01B",
-    "price": 220.48
+    "price": 238.99
    },
    "money_no_object": null
   },
@@ -1706,7 +1706,7 @@
    "title": "The 10 Best Cordless Paint Sprayers",
    "url": "https://toolboxtop10.com/cordless-paint-sprayers.html",
    "json": "https://toolboxtop10.com/cordless-paint-sprayers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-18",
    "products": 10,
    "best_overall": {
@@ -1726,7 +1726,7 @@
    "title": "The 10 Best Cordless Pole Saws",
    "url": "https://toolboxtop10.com/cordless-pole-saws.html",
    "json": "https://toolboxtop10.com/cordless-pole-saws.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-10",
    "products": 10,
    "best_overall": {
@@ -1750,7 +1750,7 @@
    "title": "The 10 Best Cordless Portable Band Saws",
    "url": "https://toolboxtop10.com/cordless-portable-band-saws.html",
    "json": "https://toolboxtop10.com/cordless-portable-band-saws.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-11-01",
    "products": 10,
    "best_overall": {
@@ -1774,7 +1774,7 @@
    "title": "The 10 Best Cordless Pressure Washers",
    "url": "https://toolboxtop10.com/cordless-pressure-washers.html",
    "json": "https://toolboxtop10.com/cordless-pressure-washers.json",
-   "data_captured": "2026-11-25",
+   "data_captured": "2026-11-28",
    "audited": "2026-10-21",
    "products": 10,
    "best_overall": {
