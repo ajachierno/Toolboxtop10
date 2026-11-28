@@ -3,9 +3,10 @@
   "title": "The 10 Best Tire Changers",
   "subtitle": "Manual, air-assisted, and shop tire changers for the home garage, ranked from live Amazon data.",
   "intro": "A tire changer pays for itself fast if you swap your own tires, run a trailer, or keep a second set of wheels. Amazon's range runs from $60 manual stands for wheels up to 16 inches, to air-assisted portable changers around $400, to 500-pound shop machines from about $1,050 that handle 24-inch rims. We ranked 10 on star rating, review volume, and features (bead breaker, powered operation, rim protection, and a bead blaster).",
-  "data_captured": "2026-11-25",
-  "audited": "2026-11-06",
+  "data_captured": "2026-11-28",
+  "audited": "2026-11-28",
   "changelog": [
+    {"date": "2026-11-28", "note": "Replaced the Olympia Tools 75-378-101, now sold only used, and the MOTOOS 1032RD7288, which dropped out of Amazon's top sellers, with the BILT HARD changer and balancer combo ($2,199.99) and the KATOOL KT-T810 ($1,199). Prices, ratings and review counts re-checked."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on every listing. No price changes."},
     {"date": "2026-11-25", "note": "Prices re-checked on 11 of 11 listings. Biggest price moves: the Olympia Tools 75-378-101 dropped from $89.99 to $75.25; the VEVOR Manual Tire Changer dropped from $69.90 to $59.42; the Rabaconda Street Bike Tire Changer dropped from $759 to $673."},
     {"date": "2026-11-13", "note": "Prices, ratings and review counts re-checked on every listing. Price changes were all under 8%."},
@@ -80,7 +81,7 @@
       "price_checked": "2026-11-28",
       "price": 60.13,
       "rating": 4.4,
-      "reviews_count": 515,
+      "reviews_count": 516,
       "bought": "200+/mo",
       "specs": {
         "type": "Manual stand",
@@ -117,8 +118,8 @@
       "price_checked": "2026-11-28",
       "price": 59.42,
       "rating": 4.0,
-      "reviews_count": 706,
-      "bought": "500+/mo",
+      "reviews_count": 712,
+      "bought": "600+/mo",
       "specs": {
         "type": "Manual stand",
         "range": "8 to 16 in. tires",
@@ -182,73 +183,74 @@
       ]
     },
     {
-      "asin": "B09T67YSS7",
-      "name": "Olympia Tools Manual Tire Changer Base, Red, 75-378-101",
-      "brand": "Olympia Tools",
-      "model": "75-378-101",
-      "image": "https://m.media-amazon.com/images/I/71IaIdPdCjL._AC_SX425_.jpg",
-      "price_checked": "2026-11-28",
-      "price": 75.24,
-      "rating": 3.7,
-      "reviews_count": 149,
+      "asin": "B0GC353LJ5",
+      "name": "BILT HARD 24 in. Capacity Tire Changer and Balancer Combo with Bead Blaster and Dual Assist Arms",
+      "brand": "BILT HARD",
+      "model": "Changer and balancer combo",
+      "image": "https://m.media-amazon.com/images/I/61JCiQx169L._AC_SL1500_.jpg",
+      "price": 2199.99,
+      "rating": 4.5,
+      "reviews_count": 14,
+      "bought": null,
       "specs": {
-        "type": "Manual stand",
-        "range": "8 to 16 in. tires",
-        "power": "None",
-        "weight": null
+        "type": "Shop machine + wheel balancer",
+        "range": "Changer 10 to 24 in. rims, tires up to 40 in.; balancer 10 to 28 in.",
+        "power": "2.0 HP changer + 250 W balancer, 110V",
+        "weight": "805 lb"
       },
       "features": {
         "bead_breaker": true,
-        "powered": false,
-        "rim_protection": false,
-        "bead_blaster": false
+        "powered": true,
+        "rim_protection": true,
+        "bead_blaster": true
       },
-      "verdict": "A name-brand version of the classic manual changer that ships with the bead breaker, tire iron, and lever bar. Olympia says it handles light-truck flotation tires up to 12.5L16.",
-      "best_for": "A name-brand stand with bead breaker, tire iron and lever bar included.",
-      "skip_if": "You want a well-rated stand; it's the lowest here.",
+      "verdict": "A tire machine with pneumatic assist arms and a handheld bead blaster, sold with a wheel balancer. Both run on standard 110V power, and the balancer has four alloy-wheel modes for hidden weights.",
+      "best_for": "A garage that wants to mount and balance large wheels, with assist arms for stiff sidewalls.",
+      "skip_if": "You only change a few tires a year; a manual stand costs a fraction of this.",
       "pros": [
-        "Bead breaker, tire iron, and lever bar included",
-        "Handles flotation tires up to 12.5L16",
-        "Designed to protect inner tubes"
+        "Dual pneumatic assist arms and a bead blaster",
+        "Wheel balancer included",
+        "Runs on 110V"
       ],
       "cons": [
-        "3.7 stars is the lowest rating on this list",
-        "8 to 16 in. tires only"
+        "$2,199.99, the most expensive pick here",
+        "805 lb shipped; needs floor space and shop air",
+        "14 reviews so far"
       ]
     },
     {
-      "asin": "B0BVVX1XBJ",
-      "name": "MOTOOS Manual Tire Changer, Portable Hand Tire Changer for 4 to 16.5 in. Rims",
-      "brand": "MOTOOS",
-      "model": "1032RD7288",
-      "image": "https://m.media-amazon.com/images/I/61ZActzKziL._AC_SX425_.jpg",
-      "price_checked": "2026-11-28",
-      "price": 125.99,
-      "rating": 4.1,
-      "reviews_count": 74,
+      "asin": "B0FYFGBHC4",
+      "name": "KATOOL KT-T810 2.0HP Tire Changer Machine",
+      "brand": "KATOOL",
+      "model": "KT-T810",
+      "image": "https://m.media-amazon.com/images/I/61yQVukRl0L._AC_SL1500_.jpg",
+      "price": 1199.0,
+      "rating": 4.6,
+      "reviews_count": 8,
+      "bought": null,
       "specs": {
-        "type": "Manual stand",
-        "range": "4 to 16.5 in. rims",
-        "power": "None",
-        "weight": "61.7 lb"
+        "type": "Shop machine",
+        "range": "Outside clamp 12 to 22 in., inside 14 to 24 in.; wheels up to 41 in.",
+        "power": "2.0 HP motor",
+        "weight": "520 lb"
       },
       "features": {
         "bead_breaker": true,
-        "powered": false,
+        "powered": true,
         "rim_protection": false,
         "bead_blaster": false
       },
-      "verdict": "A 62-pound manual changer that works bolted down or free-standing. Good for a farm or garage that handles ATV, trailer, and small car wheels.",
-      "best_for": "A heavy stand for farm or garage use with ATV and trailer wheels.",
-      "skip_if": "Your wheels are 17 in or larger.",
+      "verdict": "A rim-clamp tire machine without the balancer, for wheels up to 41 inches across and 15 inches wide. KATOOL backs it with a 12-month parts warranty.",
+      "best_for": "A home shop that wants a powered changer and already has a balancer or doesn't need one.",
+      "skip_if": "You need a bead blaster or rim protectors; the listing doesn't mention either.",
       "pros": [
-        "Heavy 61.7 lb steel frame stays put while you break beads",
-        "Bolt-down or portable setup",
-        "4 to 16.5 in. rims, including ATVs, go-karts, and trailers"
+        "Outside and inside clamping, 12 to 24 in.",
+        "Takes wheels up to 41 in. diameter",
+        "12-month full parts warranty"
       ],
       "cons": [
-        "No 17 in. or larger wheels",
-        "Fewer reviews than the TUFFIOM and VEVOR"
+        "Only 8 reviews so far",
+        "Sparse listing: no mention of rim protection"
       ]
     },
     {
@@ -283,7 +285,7 @@
         "Plastic mount-head cover and soft jaw covers for alloy rims"
       ],
       "cons": [
-        "$2,169, the most expensive pick on the page",
+        "$2,169, the second most expensive pick here",
         "The spec table lists model 530Z+600 while the title says KT-T830 + KT-B700",
         "583 lb shipped; needs floor space and shop air"
       ]
@@ -333,7 +335,7 @@
       "price_checked": "2026-11-28",
       "price": 1048.00,
       "rating": 4.6,
-      "reviews_count": 42,
+      "reviews_count": 43,
       "specs": {
         "type": "Shop machine",
         "range": "Outside clamp 12 to 22 in., inside 14 to 24 in.",
@@ -395,7 +397,7 @@
       "price_checked": "2026-11-28",
       "price": 673.00,
       "rating": 4.5,
-      "reviews_count": 170,
+      "reviews_count": 171,
       "bought": "50+/mo",
       "specs": {
         "type": "Motorcycle stand",
@@ -446,7 +448,7 @@
   "buyers_guide": [
     {
       "q": "Will a manual tire changer handle my car's wheels?",
-      "a": "Check your rim size first. The classic manual stands here (TUFFIOM, VEVOR, Olympia) stop at 16 in., and EASYBERG and MOTOOS at 16.5 in. Most cars sold in the last decade ride on 17 in. or larger wheels, which need a changer rated to 21 in. or more, like the LCTX or a full shop machine."
+      "a": "Check your rim size first. The classic manual stands here (TUFFIOM and VEVOR) stop at 16 in., and the EASYBERG at 16.5 in. Most cars sold in the last decade ride on 17 in. or larger wheels, which need a changer rated to 21 in. or more, like the LCTX or a full shop machine."
     },
     {
       "q": "Do I need an air compressor?",

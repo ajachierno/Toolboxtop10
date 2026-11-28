@@ -3,9 +3,10 @@
   "title": "The 10 Best Oscillating Spindle Sanders",
   "subtitle": "Benchtop and portable spindle sanders for smoothing curves, arcs and band-saw cuts, ranked from live Amazon data.",
   "intro": "An oscillating spindle sander smooths curved edges (band-saw cuts, cabriole legs, templates) by spinning a sanding sleeve that also moves up and down, so it doesn't burn or groove the wood. We ranked 10 best-sellers on rating, review volume and features (variable speed, a cast iron table, a belt attachment for straight and convex edges, and a beveling table). Benchtop sanders are the norm; WEN and Triton also make portable ones that clamp upside down. They run from about $56 for WEN's portable HA5932 to $770 for JET's benchtop JBOS-5.",
-  "data_captured": "2026-11-25",
-  "audited": "2026-10-10",
+  "data_captured": "2026-11-28",
+  "audited": "2026-11-28",
   "changelog": [
+    {"date": "2026-11-28", "note": "Replaced the Triton TSPS450, which Amazon lists as currently unavailable, with the WEN 6524 belt and spindle sander ($188.49, 4.4 stars on 1,438 reviews). The other 9 picks and the avoid pick were kept after a best-seller check."},
     {"date": "2026-11-27", "note": "Prices re-checked on 9 of 11 listings. Biggest price moves: the Woodskil OSM-1V dropped from $150 to $136."},
     {"date": "2026-11-26", "note": "Prices re-checked on 10 of 11 listings. Biggest price moves: the Triton TSPSP650 dropped from $149.99 to $124.99; the Woodskil OSM-1V rose from $136 to $150."},
     {"date": "2026-11-25", "note": "Prices, ratings and review counts re-checked on every listing. Biggest price moves: the Woodskil Belt and spindle rose from $178.65 to $204."},
@@ -84,8 +85,8 @@
       "price_checked": "2026-11-28",
       "price": 154.19,
       "rating": 4.7,
-      "reviews_count": 1982,
-      "bought": "200+/mo",
+      "reviews_count": 1984,
+      "bought": "100+/mo",
       "specs": {
         "type": "Benchtop spindle",
         "motor": "3.5 A, 1/2 HP",
@@ -99,11 +100,11 @@
         "belt": false,
         "bevel": false
       },
-      "verdict": "The highest-rated and most-reviewed spindle sander here: a 1/2 HP benchtop sander with onboard storage for every spindle and a dust port, for about $162.",
+      "verdict": "The highest-rated and most-reviewed spindle sander here: a 1/2 HP benchtop sander with onboard storage for every spindle and a dust port, for about $154.",
       "best_for": "Most woodworkers adding their first spindle sander.",
       "skip_if": "You need a tilting table for bevels; the AT6535 has one.",
       "pros": [
-        "4.7 stars across 1,982 reviews",
+        "4.7 stars across 1,984 reviews",
         "1/2 HP, 2,000 rpm",
         "Onboard storage, dust port"
       ],
@@ -122,7 +123,7 @@
       "price": 55.72,
       "rating": 4.6,
       "reviews_count": 1262,
-      "bought": "400+/mo",
+      "bought": "500+/mo",
       "specs": {
         "type": "Portable / clamp-on benchtop",
         "motor": "5 A",
@@ -150,39 +151,39 @@
       ]
     },
     {
-      "asin": "B00ATZKUYW",
-      "name": "Triton TSPS450 3.5Amp Cast Iron Top Oscillating Spindle Sander",
-      "brand": "Triton",
-      "model": "TSPS450",
-      "image": "https://m.media-amazon.com/images/I/61ohBPrgHBL._AC_SL1000_.jpg",
-      "price_checked": "2026-11-26",
-      "price": 317.82,
-      "rating": 4.6,
-      "reviews_count": 286,
+      "asin": "B07MJ7X6D6",
+      "name": "WEN 6524 Oscillating Belt and Spindle Sander",
+      "brand": "WEN",
+      "model": "6524",
+      "image": "https://m.media-amazon.com/images/I/91Brakn7JSL._AC_SL1500_.jpg",
+      "price": 188.49,
+      "rating": 4.4,
+      "reviews_count": 1438,
+      "bought": "100+/mo",
       "specs": {
-        "type": "Benchtop spindle",
-        "motor": "3.5 A, 450 W",
-        "speed": "2,000 rpm, 58 opm",
-        "sleeves": "6, 1/2 to 3 in",
-        "table": "Cast iron"
+        "type": "Belt and spindle combo",
+        "motor": "3.5 A",
+        "speed": "2,000 rpm spindle, 1,575 fpm belt, 58 opm",
+        "sleeves": "5, 1/2 to 2 in",
+        "table": "Beveling table"
       },
       "features": {
         "variable": false,
-        "cast_iron": true,
-        "belt": false,
-        "bevel": false
+        "cast_iron": false,
+        "belt": true,
+        "bevel": true
       },
-      "verdict": "A cast iron table for flat, stable sanding, six sleeves up to 3 inches with matching drums and inserts, and onboard storage.",
-      "best_for": "Steadier work on a heavy table.",
-      "skip_if": "You need to sand bevels; the table doesn't tilt.",
+      "verdict": "A belt and spindle combo with a 4 x 24 in. belt, five spindle sizes from 1/2 to 2 inches and a beveling table, with onboard storage for the drums and throat plates. It has far more reviews than any other combo here.",
+      "best_for": "Sanding inside curves on the spindles and straight edges or outside curves on the belt, with bevels.",
+      "skip_if": "You want variable speed; this one runs at a single speed.",
       "pros": [
-        "Cast iron table",
-        "6 sleeves to 3 in",
-        "4.6 stars"
+        "Belt and five spindles in one machine",
+        "Beveling work table",
+        "4.4 stars across 1,438 reviews"
       ],
       "cons": [
         "Single speed",
-        "Listing showed only 9 left"
+        "27 lb, heavier than the spindle-only WENs"
       ]
     },
     {
@@ -303,7 +304,7 @@
       "price_checked": "2026-11-16",
       "price": 151.90,
       "rating": 4.1,
-      "reviews_count": 83,
+      "reviews_count": 86,
       "bought": "50+/mo",
       "specs": {
         "type": "Belt and spindle combo",
@@ -374,7 +375,7 @@
       "model": "EB4424",
       "image": "https://m.media-amazon.com/images/I/61s-wfgDnZL._AC_SL1000_.jpg",
       "price_checked": "2026-11-28",
-      "price": 294.01,
+      "price": 299.00,
       "rating": 3.9,
       "reviews_count": 78,
       "specs": {
